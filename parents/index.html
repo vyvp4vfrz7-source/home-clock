@@ -330,7 +330,7 @@ body { margin: 0; background: #000; color: var(--ink); font-family: var(--body);
   var PHOTOS = [], idx = -1, shown = 0;
   function useSamples() { PHOTOS = SCENES.map(function (s) { return { src: paint(s.draw), text: s.text, when: s.when }; }); start(); }
   function start() {
-    var box = $('photos');
+    var box = $('photos'); box.innerHTML = ''; idx = -1;
     PHOTOS.forEach(function (p) { var d = document.createElement('div'); d.className = 'ph'; d.style.backgroundImage = 'url("' + p.src + '")'; box.appendChild(d); });
     next();
   }
@@ -377,11 +377,25 @@ body { margin: 0; background: #000; color: var(--ink); font-family: var(--body);
   renderTime(); renderWx();
   setInterval(renderTime, 10000);
   loadWx(); setInterval(loadWx, 30 * 60 * 1000);
-  getJSON('photos.json?v=' + Math.floor(Date.now() / 600000), function (list) {
-    if (list && list.length) { PHOTOS = list; $('sample').hidden = true; start(); }
-  });
-  setTimeout(function () { if (!PHOTOS.length) useSamples(); }, 1200);
-  setInterval(function () { getJSON('photos.json?v=' + Date.now(), function (l) { if (l && l.length !== PHOTOS.length) location.reload(); }); }, 60 * 60 * 1000);
+  /* Own list first (parents/photos.json); if that is empty, use the family album the site already syncs (../photos.json). */
+  var real = false;
+  function gotPhotos(list, prefix) {
+    if (!list || !list.length) return false;
+    real = true; $('sample').hidden = true;
+    PHOTOS = list.map(function (p) { return { src: /^(https?:|data:|\/)/.test(p.src) ? p.src : prefix + p.src, text: p.text || '', when: p.when || '' }; });
+    start(); return true;
+  }
+  function loadPhotos() {
+    var v = '?v=' + Math.floor(Date.now() / 600000);
+    getJSON('photos.json' + v, function (l) {
+      if (!gotPhotos(l, '')) getJSON('../photos.json' + v, function (l2) { gotPhotos(l2, '../'); });
+    });
+    /* own list missing (404) never calls back, so also try the shared one */
+    getJSON('../photos.json' + v, function (l2) { if (!real) gotPhotos(l2, '../'); });
+  }
+  loadPhotos();
+  setTimeout(function () { if (!real && !PHOTOS.length) useSamples(); }, 2500);
+  setInterval(function () { if (!real) return; location.reload(); }, 3 * 60 * 60 * 1000);
   loop();
   if (navigator.wakeLock) { try { navigator.wakeLock.request('screen').catch(function () {}); } catch (e) {} }
 })();

@@ -13,4 +13,4 @@ A photo frame for Mum and Dad: full-screen photos with a big Cantonese clock, th
 
 - Open `/parents/?frame&ft=<Billy's phone number or Apple ID>` on their iPad, then Add to Home Screen.
 - City defaults to Hong Kong; change with `&lat=..&lon=..&name=..&tz=..`.
-- Photos: list them in `parents/photos.json` and put the files in `parents/photos/`. Until then, sample scenes show.
+- Photos: uses the family album synced into `/photos.json` by default. To show different photos, list them in `parents/photos.json` and put the files in `parents/photos/`.
