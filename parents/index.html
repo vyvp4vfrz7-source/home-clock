@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Photo Frame for Mum and Dad</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;500;700&family=Noto+Serif+HK:wght@500;700&display=swap">
+<style>
+/* Layout: one full screen that cycles. Photo mode = full-bleed picture with a big clock + weather band along the bottom.
+   Weather mode = large-type page for the parents' city, with a line about Billy in London.
+   Single deliberate dark look (it sits in a living room all day). Everything sized from the screen, so any iPad/tablet works. */
+:root {
+  --ink: #fbf6ee;          /* main text, warm white */
+  --soft: #d9cfc0;         /* secondary text */
+  --dim: #a3978a;          /* labels */
+  --ground: #1b1714;       /* weather page background, warm charcoal */
+  --panel: #27211d;        /* forecast cells */
+  --jade: #8fd3b4;         /* good news / fine weather */
+  --amber: #f2b45a;        /* sun, warm accent */
+  --rain: #8cc2ff;         /* rain */
+  --display: "Noto Serif HK", "PingFang HK", "Songti TC", serif;
+  --body: "Noto Sans HK", "PingFang HK", "Heiti TC", "Helvetica Neue", sans-serif;
+  color-scheme: dark;
+}
+html, body { height: 100%; }
+body { margin: 0; background: #000; color: var(--ink); font-family: var(--body); overflow: hidden;
+  -webkit-user-select: none; user-select: none; -webkit-text-size-adjust: 100%; }
+.num { font-variant-numeric: tabular-nums; }
+
+#app { position: relative; height: 100%; overflow: hidden; }
+
+/* ---------- Photo mode ---------- */
+.ph { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0;
+  transition: opacity 2.4s ease; transform: scale(1.04); }
+.ph.on { opacity: 1; animation: drift 16s linear forwards; }
+@keyframes drift { from { transform: scale(1.04) translate(0, 0); } to { transform: scale(1.12) translate(-1.5%, -1%); } }
+@media (prefers-reduced-motion: reduce) { .ph.on { animation: none; } .ph { transition-duration: .8s; } }
+
+#scrim { position: absolute; left: 0; right: 0; bottom: 0; height: 52%;
+  background: linear-gradient(to top, rgba(10,8,6,.86) 0%, rgba(10,8,6,.55) 45%, rgba(10,8,6,0) 100%); }
+#caption { position: absolute; top: calc(env(safe-area-inset-top, 0px) + 3.2vmin); left: max(16px, calc(env(safe-area-inset-left, 0px) + 4vmin));
+  background: rgba(20,16,13,.62); border-radius: 999px; padding: 1.2vmin 2.6vmin 1.2vmin 1.4vmin;
+  display: flex; align-items: center; gap: 1.6vmin; font-size: max(15px, 2.6vmin); color: var(--ink); max-width: 52%; }
+#caption .who { width: 5vmin; height: 5vmin; min-width: 28px; min-height: 28px; border-radius: 50%; background: var(--amber); color: #2a1d0c;
+  display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: max(13px, 2.3vmin); flex: none; }
+#caption small { color: var(--soft); margin-left: .6em; }
+
+#band { position: absolute; left: 0; right: 0; bottom: 0;
+  padding: 0 max(16px, calc(env(safe-area-inset-right, 0px) + 5vmin)) calc(env(safe-area-inset-bottom, 0px) + 4.5vmin) max(16px, calc(env(safe-area-inset-left, 0px) + 5vmin));
+  display: flex; align-items: flex-end; justify-content: space-between; gap: 4vmin; text-shadow: 0 1px 12px rgba(0,0,0,.5); }
+.clock .t { font-family: var(--display); font-size: 17vmin; line-height: .95; font-weight: 500; letter-spacing: -.01em; }
+.clock .ap { font-family: var(--body); font-size: 4.6vmin; font-weight: 500; color: var(--soft); margin-right: 1.4vmin; letter-spacing: 0; }
+.clock .d { font-size: 4.6vmin; margin-top: 1.4vmin; font-weight: 500; }
+.clock .d span { color: var(--soft); font-weight: 400; margin-left: 1.2vmin; }
+.wx { text-align: right; min-width: 0; }
+.wx .top { display: flex; align-items: center; justify-content: flex-end; gap: 2vmin; }
+.wx .tp { font-family: var(--display); font-size: 13vmin; line-height: 1; font-weight: 500; }
+.wx .ds { font-size: 4.2vmin; font-weight: 500; margin-top: .8vmin; }
+.wx .hl { font-size: 3.4vmin; color: var(--soft); margin-top: .6vmin; }
+.ic { display: block; flex: none; }
+
+/* ---------- Weather mode ---------- */
+#wpage { position: absolute; inset: 0; background: var(--ground); opacity: 0; transition: opacity 1.6s ease; pointer-events: none;
+  padding: calc(env(safe-area-inset-top, 0px) + 5vmin) max(16px, calc(env(safe-area-inset-right, 0px) + 6vmin)) calc(env(safe-area-inset-bottom, 0px) + 5vmin) max(16px, calc(env(safe-area-inset-left, 0px) + 6vmin));
+  box-sizing: border-box; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto 1fr auto; gap: 4vmin 6vmin; }
+#app.weather #wpage { opacity: 1; pointer-events: auto; }
+#wpage .head { grid-column: 1 / 3; display: flex; justify-content: flex-start; align-items: baseline; gap: 3vmin 6vmin; flex-wrap: wrap; padding-right: 40vmin; }
+#wpage .head .t { font-family: var(--display); font-size: 10vmin; line-height: 1; font-weight: 500; }
+#wpage .head .t .ap { font-family: var(--body); font-size: 4vmin; color: var(--soft); margin-right: 1.2vmin; }
+#wpage .head .d { text-align: left; font-size: 4.4vmin; font-weight: 500; }
+#wpage .head .d div + div { font-size: 3.2vmin; color: var(--dim); font-weight: 400; margin-top: .6vmin; }
+
+.nowbox { display: flex; flex-direction: column; justify-content: center; min-width: 0; min-height: 0; }
+.lbl { font-size: 2.8vmin; color: var(--dim); letter-spacing: .08em; }
+.nowbox .row { display: flex; align-items: center; gap: 3vmin; margin-top: 1.5vmin; }
+.nowbox .tp { font-family: var(--display); font-size: 19vmin; line-height: .9; font-weight: 500; }
+.nowbox .ds { font-size: 5.6vmin; font-weight: 700; margin-top: 1.4vmin; }
+.nowbox .hl { font-size: 3.4vmin; color: var(--soft); margin-top: 1vmin; }
+.tip { margin-top: 2.4vmin; font-size: 3.8vmin; line-height: 1.4; padding: 2vmin 2.8vmin; border-radius: 2vmin;
+  background: rgba(143,211,180,.12); color: var(--jade); font-weight: 500; }
+.tip.wet { background: rgba(140,194,255,.13); color: var(--rain); }
+.tip.hot { background: rgba(242,180,90,.14); color: var(--amber); }
+
+.days { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2vmin; align-content: center; min-height: 0; }
+.day { background: var(--panel); border-radius: 2.4vmin; padding: 2.4vmin 2.8vmin; display: flex; align-items: center; gap: 2.4vmin; min-width: 0; white-space: nowrap; }
+.day .n { font-size: 3.8vmin; font-weight: 700; }
+.day .r { font-size: 3.6vmin; color: var(--soft); margin-top: .4vmin; }
+.day .r b { color: var(--ink); font-weight: 500; }
+.day .p { font-size: 3vmin; color: var(--rain); margin-top: .3vmin; min-height: 1.4em; }
+
+.billy { grid-column: 1 / 3; display: flex; align-items: center; gap: 2.4vmin; font-size: 3.8vmin; color: var(--soft);
+  border-top: 1px solid #3a322c; padding-top: 3vmin; }
+.billy .who { width: 6vmin; height: 6vmin; border-radius: 50%; background: var(--amber); color: #2a1d0c; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 3vmin; flex: none; }
+.billy b { color: var(--ink); font-weight: 500; }
+
+/* Portrait screens: stack the weather page */
+@media (orientation: portrait) {
+  #wpage { grid-template-columns: 1fr; grid-template-rows: auto auto 1fr auto; }
+  #wpage .head, .billy { grid-column: 1; }
+  .clock .t { font-size: 15vmin; }
+}
+
+/* ---------- FaceTime button: on top of both modes, big enough for older fingers ---------- */
+#ft { position: absolute; z-index: 6; top: calc(env(safe-area-inset-top, 0px) + 3.2vmin); right: max(16px, calc(env(safe-area-inset-right, 0px) + 4vmin));
+  display: flex; align-items: center; gap: 2vmin; padding: 2vmin 3.6vmin 2vmin 2.4vmin; min-height: 56px; box-sizing: border-box;
+  background: #34c46a; color: #06210f; border-radius: 999px; text-decoration: none; font-weight: 700; font-size: max(18px, 3.6vmin);
+  box-shadow: 0 6px 24px rgba(0,0,0,.35); -webkit-tap-highlight-color: transparent; }
+#ft:active { transform: scale(.97); background: #2bb05d; }
+#ft:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+#ft .cam { width: max(30px, 6vmin); height: max(30px, 6vmin); border-radius: 50%; background: #06210f; color: #34c46a; display: flex; align-items: center; justify-content: center; flex: none; }
+#ft small { display: block; font-size: .62em; font-weight: 500; opacity: .8; }
+#toast { position: absolute; z-index: 7; left: 50%; top: 50%; transform: translate(-50%, -50%); background: rgba(20,16,13,.94); color: var(--ink);
+  padding: 3vmin 4vmin; border-radius: 3vmin; font-size: max(17px, 3.4vmin); text-align: center; max-width: 80%; line-height: 1.5; }
+
+/* ---------- Preview controls (hidden on the real screen with ?frame) ---------- */
+#ctl { position: absolute; top: calc(env(safe-area-inset-top, 0px) + 3.2vmin + max(56px, 12.4vmin) + 2vmin); right: max(16px, calc(env(safe-area-inset-right, 0px) + 4vmin)); z-index: 5;
+  display: flex; background: rgba(20,16,13,.72); border-radius: 999px; padding: 4px; }
+#ctl button { font: 500 15px var(--body); color: var(--soft); background: transparent; border: 0; border-radius: 999px; padding: 8px 16px; cursor: pointer; }
+#ctl button[aria-pressed="true"] { background: var(--ink); color: #1b1714; }
+#ctl button:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+#sample { position: absolute; bottom: calc(env(safe-area-inset-bottom, 0px) + 1.2vmin); left: 50%; transform: translateX(-50%); font-size: 12px; color: rgba(251,246,238,.55); z-index: 4; white-space: nowrap; }
+</style>
+</head>
+<body>
+
+<div id="app">
+  <div id="photos"></div>
+  <div id="scrim"></div>
+  <div id="caption"><span class="who">B</span><span id="capText"></span></div>
+  <div id="band">
+    <div class="clock"><div class="t num" id="pTime"></div><div class="d" id="pDate"></div></div>
+    <div class="wx" id="pWx"></div>
+  </div>
+
+  <section id="wpage" aria-label="天氣">
+    <div class="head"><div class="t num" id="wTime"></div><div class="d" id="wDate"></div></div>
+    <div class="nowbox" id="wNow"></div>
+    <div class="days" id="wDays"></div>
+    <div class="billy" id="wBilly"></div>
+  </section>
+
+  <a id="ft" href="#" aria-label="FaceTime Billy"><span class="cam"><svg width="60%" height="60%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="6" width="13" height="12" rx="2.5"/><path d="M15.5 10.5l6-3.5v10l-6-3.5z"/></svg></span><span>同 Billy 視像<small>按一下打 FaceTime</small></span></a>
+  <div id="toast" hidden></div>
+
+  <div id="ctl" role="group" aria-label="Preview">
+    <button id="bPhoto" type="button" aria-pressed="true">相片</button>
+    <button id="bWx" type="button" aria-pressed="false">天氣</button>
+  </div>
+  <div id="sample">示範相片及天氣 · sample photos and weather</div>
+</div>
+
+<script>
+/* ES5 only, so older iPads and tablets can run it.
+   URL options: ?lat=22.30&lon=114.17&name=香港&tz=Asia/Hong_Kong  (parents' place)
+                &photo=15  seconds per photo,  &every=4  show the weather page after this many photos
+                &frame     hide the preview buttons (use this on the parents' screen)
+                &ft=+447700900123  or  &ft=billy@icloud.com   who the big FaceTime button calls */
+(function () {
+  var q = {};
+  location.search.replace(/^\?/, '').split('&').forEach(function (kv) { if (kv) { var p = kv.split('='); q[decodeURIComponent(p[0])] = decodeURIComponent(p[1] || ''); } });
+  var S = {
+    lat: +q.lat || 22.30, lon: +q.lon || 114.17, name: q.name || '香港', tz: q.tz || 'Asia/Hong_Kong',
+    ft: q.ft || '', photoSec: +q.photo || 15, every: +q.every || 4, wxSec: 30,
+    me: { name: 'Billy', place: '倫敦', lat: 51.51, lon: -0.13, tz: 'Europe/London' }
+  };
+  function $(id) { return document.getElementById(id); }
+  if ('frame' in q) { $('ctl').hidden = true; $('sample').hidden = true; }
+
+  /* ---------- time in a given zone ---------- */
+  var WEEK = ['日', '一', '二', '三', '四', '五', '六'];
+  function parts(tz) {
+    var d = new Date();
+    try {
+      var s = d.toLocaleString('en-US', { timeZone: tz, hour12: false, year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', weekday: 'short' });
+      var m = s.match(/(\w+), (\d+)\/(\d+)\/(\d+),? (\d+):(\d+)/);
+      var wd = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(m[1]);
+      return { w: wd, mo: +m[2], d: +m[3], h: (+m[5]) % 24, mi: +m[6], date: d };
+    } catch (e) {
+      return { w: d.getDay(), mo: d.getMonth() + 1, d: d.getDate(), h: d.getHours(), mi: d.getMinutes(), date: d };
+    }
+  }
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+  function ampm(h) { return h < 6 ? '凌晨' : h < 12 ? '上午' : h < 13 ? '中午' : h < 18 ? '下午' : '晚上'; }
+  function clock12(p) { var h = p.h % 12 || 12; return '<span class="ap">' + ampm(p.h) + '</span>' + h + ':' + pad(p.mi); }
+  function lunar(p) {
+    try {
+      var s = new Intl.DateTimeFormat('zh-HK-u-ca-chinese', { timeZone: S.tz, month: 'long', day: 'numeric' }).format(p.date);
+      return /月/.test(s) ? '農曆' + s.replace(/\s/g, '') : '';
+    } catch (e) { return ''; }
+  }
+  function renderTime() {
+    var p = parts(S.tz), m = parts(S.me.tz);
+    $('pTime').innerHTML = clock12(p);
+    $('pDate').innerHTML = p.mo + '月' + p.d + '日 星期' + WEEK[p.w] + '<span>' + S.name + '</span>';
+    $('wTime').innerHTML = clock12(p);
+    $('wDate').innerHTML = '<div>' + p.mo + '月' + p.d + '日 星期' + WEEK[p.w] + '</div><div>' + lunar(p) + '</div>';
+    renderBilly(m);
+  }
+
+  /* ---------- weather ---------- */
+  var DESC = function (c) {
+    if (c === 0) return '天晴'; if (c === 1) return '大致天晴'; if (c === 2) return '部分時間有雲'; if (c === 3) return '多雲';
+    if (c === 45 || c === 48) return '有霧'; if (c >= 51 && c <= 57) return '毛毛雨'; if (c >= 61 && c <= 67) return '有雨';
+    if (c >= 71 && c <= 77) return '下雪'; if (c >= 80 && c <= 82) return '有驟雨'; if (c >= 85 && c <= 86) return '有雪'; if (c >= 95) return '雷暴';
+    return '';
+  };
+  function kind(c) { return c <= 1 ? 'sun' : c === 2 ? 'partly' : (c >= 95 ? 'storm' : (c >= 51 && c <= 82) ? 'rain' : 'cloud'); }
+  var ICON = {
+    sun: '<circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/>',
+    cloud: '<path d="M7 18.5h10.2a4.1 4.1 0 0 0 .4-8.2A6 6 0 0 0 6.2 11a3.8 3.8 0 0 0 .8 7.5z"/>',
+    partly: '<path d="M8.5 3.2v1.6M3.2 8.5h1.6M4.8 4.8l1.1 1.1M12.2 4.8l-1.1 1.1"/><path d="M5.6 11.3A3.4 3.4 0 0 1 11.6 7"/><path d="M8.5 20h9a3.6 3.6 0 0 0 .3-7.2 5.3 5.3 0 0 0-10.1 1A3.1 3.1 0 0 0 8.5 20z"/>',
+    rain: '<path d="M7 15.5h10.2a4.1 4.1 0 0 0 .4-8.2A6 6 0 0 0 6.2 8a3.8 3.8 0 0 0 .8 7.5z"/><path d="M8.5 18.2l-.9 2.3M12.5 18.2l-.9 2.3M16.5 18.2l-.9 2.3"/>',
+    storm: '<path d="M7 15.5h10.2a4.1 4.1 0 0 0 .4-8.2A6 6 0 0 0 6.2 8a3.8 3.8 0 0 0 .8 7.5z"/><path d="M12.5 16l-2 3.5h3l-2 3"/>'
+  };
+  var TINT = { sun: 'var(--amber)', partly: 'var(--amber)', cloud: 'var(--soft)', rain: 'var(--rain)', storm: 'var(--rain)' };
+  function icon(c, size) {
+    var k = kind(c);
+    return '<svg class="ic" style="width:' + size + ';height:' + size + ';color:' + TINT[k] + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICON[k] + '</svg>';
+  }
+  function tip(w) {
+    var p = w.daily.p[0], hi = w.daily.hi[0], lo = w.daily.lo[0];
+    if (p >= 50) return { c: 'wet', t: '今日好大機會落雨，出街記得帶遮。' };
+    if (p >= 30) return { c: 'wet', t: '可能有驟雨，帶把遮穩陣啲。' };
+    if (hi >= 33) return { c: 'hot', t: '今日好熱，記得飲多啲水。' };
+    if (lo <= 12) return { c: 'hot', t: '早晚涼，出街著多件衫。' };
+    if (w.daily.uv && w.daily.uv[0] >= 8) return { c: 'hot', t: '太陽好猛，出街記得遮陽。' };
+    return { c: '', t: '天氣唔錯，可以出去行下。' };
+  }
+  var WX = null, MEWX = null;
+  var SAMPLE = { now: { t: 24, c: 2 }, daily: { hi: [26, 27, 25, 23, 24], lo: [21, 22, 21, 19, 20], c: [2, 1, 80, 3, 1], p: [10, 0, 60, 20, 0], uv: [6] } };
+  var SAMPLE_ME = { now: { t: 9, c: 3 } };
+
+  function renderWx() {
+    var w = WX || SAMPLE, t = tip(w);
+    $('pWx').innerHTML = '<div class="top">' + icon(w.now.c, '11vmin') + '<div class="tp num">' + Math.round(w.now.t) + '°</div></div>' +
+      '<div class="ds">' + DESC(w.now.c) + '</div><div class="hl num">最高 ' + Math.round(w.daily.hi[0]) + '° · 最低 ' + Math.round(w.daily.lo[0]) + '°' + (w.daily.p[0] >= 30 ? ' · 降雨 ' + w.daily.p[0] + '%' : '') + '</div>';
+    $('wNow').innerHTML = '<div class="lbl">' + S.name + ' · 而家</div>' +
+      '<div class="row">' + icon(w.now.c, '15vmin') + '<div class="tp num">' + Math.round(w.now.t) + '°</div></div>' +
+      '<div class="ds">' + DESC(w.now.c) + '</div>' +
+      '<div class="hl num">今日 ' + Math.round(w.daily.lo[0]) + '° 至 ' + Math.round(w.daily.hi[0]) + '° · 降雨 ' + w.daily.p[0] + '%</div>' +
+      '<div class="tip ' + t.c + '">' + t.t + '</div>';
+    var p = parts(S.tz), s = '', names = ['聽日', '後日'];
+    for (var i = 1; i <= 4; i++) {
+      var nm = names[i - 1] || ('星期' + WEEK[(p.w + i) % 7]);
+      s += '<div class="day">' + icon(w.daily.c[i], '8vmin') + '<div><div class="n">' + nm + '</div>' +
+        '<div class="r num"><b>' + Math.round(w.daily.hi[i]) + '°</b> / ' + Math.round(w.daily.lo[i]) + '°</div>' +
+        '<div class="p">' + (w.daily.p[i] >= 30 ? '降雨 ' + w.daily.p[i] + '%' : '') + '</div></div></div>';
+    }
+    $('wDays').innerHTML = s;
+  }
+  function renderBilly(m) {
+    var mw = MEWX || SAMPLE_ME;
+    $('wBilly').innerHTML = '<span class="who">B</span><span>' + S.me.name + ' 喺' + S.me.place + '：而家 <b class="num">' + ampm(m.h) + ' ' + ((m.h % 12) || 12) + ':' + pad(m.mi) + '</b>，' + Math.round(mw.now.t) + '°，' + DESC(mw.now.c) + '</span>';
+  }
+
+  function getJSON(url, ok) {
+    try {
+      var x = new XMLHttpRequest();
+      x.open('GET', url); x.timeout = 15000;
+      x.onload = function () { if (x.status === 200) { try { ok(JSON.parse(x.responseText)); } catch (e) {} } };
+      x.send();
+    } catch (e) {}
+  }
+  function loadWx() {
+    getJSON('https://api.open-meteo.com/v1/forecast?latitude=' + S.lat + '&longitude=' + S.lon +
+      '&current=temperature_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,uv_index_max&forecast_days=5&timezone=' + encodeURIComponent(S.tz),
+      function (r) {
+        WX = { now: { t: r.current.temperature_2m, c: r.current.weather_code },
+          daily: { hi: r.daily.temperature_2m_max, lo: r.daily.temperature_2m_min, c: r.daily.weather_code, p: r.daily.precipitation_probability_max.map(function (v) { return v || 0; }), uv: r.daily.uv_index_max } };
+        $('sample').innerHTML = '示範相片 · sample photos';
+        renderWx();
+      });
+    getJSON('https://api.open-meteo.com/v1/forecast?latitude=' + S.me.lat + '&longitude=' + S.me.lon + '&current=temperature_2m,weather_code&timezone=' + encodeURIComponent(S.me.tz),
+      function (r) { MEWX = { now: { t: r.current.temperature_2m, c: r.current.weather_code } }; renderTime(); });
+  }
+
+  /* ---------- photos ---------- */
+  /* Real use: a photos.json next to this page, e.g. [{"src":"photos/2026-10-27.jpg","text":"Hampstead Heath 散步","when":"10月27日"}]
+     Until then, painted sample scenes stand in. */
+  function paint(fn) {
+    var c = document.createElement('canvas'); c.width = 1600; c.height = 1000;
+    var g = c.getContext('2d'); fn(g, 1600, 1000); return c.toDataURL('image/jpeg', 0.86);
+  }
+  function grad(g, h, stops) { var l = g.createLinearGradient(0, 0, 0, h); stops.forEach(function (s) { l.addColorStop(s[0], s[1]); }); return l; }
+  function hills(g, w, h, base, amp, freq, phase, color) {
+    g.fillStyle = color; g.beginPath(); g.moveTo(0, h);
+    for (var x = 0; x <= w; x += 10) g.lineTo(x, base + Math.sin(x / freq + phase) * amp + Math.sin(x / (freq * .37) + phase * 2) * amp * .3);
+    g.lineTo(w, h); g.closePath(); g.fill();
+  }
+  var SCENES = [
+    { text: '維港日落，記得我哋上次一齊睇', when: '10月20日', draw: function (g, w, h) {
+      g.fillStyle = grad(g, h * .62, [[0, '#2c2350'], [.5, '#c4566a'], [1, '#f4a35c']]); g.fillRect(0, 0, w, h * .62);
+      g.fillStyle = '#ffd9a0'; g.beginPath(); g.arc(w * .62, h * .55, 70, 0, Math.PI * 2); g.fill();
+      g.fillStyle = '#1d1a2e';
+      for (var x = 0; x < w; x += 46) { var bh = 40 + Math.abs(Math.sin(x * 7.3)) * 170; g.fillRect(x, h * .62 - bh, 40, bh); }
+      g.fillStyle = grad(g, h, [[0, '#7a3d55'], [.7, '#2a2038'], [1, '#161222']]); g.fillRect(0, h * .62, w, h * .38);
+      g.fillStyle = 'rgba(255,214,150,.55)';
+      for (var y = h * .64; y < h; y += 14) { var ww = 30 + Math.random() * 120; g.fillRect(w * .62 - ww / 2 + (Math.random() - .5) * 40, y, ww, 3); }
+    } },
+    { text: 'Hampstead Heath 散步，好多落葉', when: '10月27日', draw: function (g, w, h) {
+      g.fillStyle = grad(g, h, [[0, '#8fb6d8'], [.55, '#dfe6e0'], [1, '#dfe6e0']]); g.fillRect(0, 0, w, h);
+      hills(g, w, h, h * .52, 30, 260, 1, '#a7b38c');
+      hills(g, w, h, h * .62, 40, 200, 2.4, '#7f8f5e');
+      hills(g, w, h, h * .76, 50, 330, .3, '#a8662f');
+      hills(g, w, h, h * .9, 30, 150, 4, '#6d3e1f');
+      for (var i = 0; i < 9; i++) { var tx = 120 + i * 180 + Math.sin(i) * 40, ty = h * .6 + Math.cos(i) * 20;
+        g.fillStyle = '#4a3423'; g.fillRect(tx - 6, ty, 12, 70);
+        g.fillStyle = ['#d4762c', '#e2a33b', '#b9512a'][i % 3]; g.beginPath(); g.arc(tx, ty - 10, 48, 0, Math.PI * 2); g.fill(); }
+    } },
+    { text: '湖區行山，天氣好好', when: '9月14日', draw: function (g, w, h) {
+      g.fillStyle = grad(g, h, [[0, '#f2c9a8'], [.45, '#e7a5a0'], [1, '#6e6a93']]); g.fillRect(0, 0, w, h);
+      function peaks(base, color, seed) { g.fillStyle = color; g.beginPath(); g.moveTo(0, h);
+        for (var x = 0; x <= w; x += 80) g.lineTo(x, base - Math.abs(Math.sin(x / 210 + seed)) * 220 - Math.abs(Math.sin(x / 90 + seed)) * 40);
+        g.lineTo(w, h); g.fill(); }
+      peaks(h * .62, '#9b86a6', 1); peaks(h * .76, '#6c5f87', 3); peaks(h * .92, '#3d3a5c', 5);
+      g.fillStyle = 'rgba(255,255,255,.18)'; g.fillRect(0, h * .88, w, h * .12);
+    } },
+    { text: '屋企附近嘅夜景', when: '11月1日', draw: function (g, w, h) {
+      g.fillStyle = grad(g, h, [[0, '#0b1230'], [.7, '#24305c'], [1, '#2f3d6b']]); g.fillRect(0, 0, w, h);
+      g.fillStyle = '#fff';
+      for (var i = 0; i < 160; i++) { g.globalAlpha = Math.random() * .8; g.fillRect(Math.random() * w, Math.random() * h * .5, 2, 2); }
+      g.globalAlpha = 1; g.fillStyle = '#f6eed2'; g.beginPath(); g.arc(w * .22, h * .2, 54, 0, Math.PI * 2); g.fill();
+      for (var x = 0; x < w; x += 120) { var bh = 200 + Math.abs(Math.sin(x * 3.1)) * 380; g.fillStyle = '#121a36'; g.fillRect(x, h - bh, 110, bh);
+        for (var yy = h - bh + 20; yy < h - 20; yy += 34) for (var xx = x + 12; xx < x + 100; xx += 24) if (Math.random() > .55) { g.fillStyle = Math.random() > .3 ? '#f7cf7a' : '#9fd0ff'; g.fillRect(xx, yy, 12, 16); } }
+    } }
+  ];
+  var PHOTOS = [], idx = -1, shown = 0;
+  function useSamples() { PHOTOS = SCENES.map(function (s) { return { src: paint(s.draw), text: s.text, when: s.when }; }); start(); }
+  function start() {
+    var box = $('photos');
+    PHOTOS.forEach(function (p) { var d = document.createElement('div'); d.className = 'ph'; d.style.backgroundImage = 'url("' + p.src + '")'; box.appendChild(d); });
+    next();
+  }
+  function next() {
+    var els = $('photos').children; if (!els.length) return;
+    if (idx >= 0) els[idx].className = 'ph';
+    idx = (idx + 1) % els.length;
+    void els[idx].offsetWidth; els[idx].className = 'ph on';
+    var p = PHOTOS[idx];
+    $('capText').innerHTML = p.text + (p.when ? '<small>' + p.when + '</small>' : '');
+  }
+
+  /* ---------- cycle: photos, then the weather page now and then ---------- */
+  var mode = 'photo', timer;
+  function setMode(m) {
+    mode = m; $('app').className = m === 'weather' ? 'weather' : '';
+    $('bPhoto').setAttribute('aria-pressed', m === 'photo'); $('bWx').setAttribute('aria-pressed', m === 'weather');
+  }
+  function loop() {
+    clearTimeout(timer);
+    if (mode === 'photo') {
+      timer = setTimeout(function () {
+        shown++;
+        if (shown % S.every === 0) { setMode('weather'); } else { next(); }
+        loop();
+      }, S.photoSec * 1000);
+    } else {
+      timer = setTimeout(function () { setMode('photo'); next(); loop(); }, S.wxSec * 1000);
+    }
+  }
+  $('bPhoto').onclick = function (e) { e.stopPropagation(); if (mode !== 'photo') { setMode('photo'); } else { next(); } loop(); };
+  $('bWx').onclick = function (e) { e.stopPropagation(); setMode('weather'); loop(); };
+  /* FaceTime: Safari on iPad/iPhone shows its own "FaceTime …? / 撥打" confirm, then rings Billy's devices. */
+  var toastT;
+  function toast(t) { var el = $('toast'); el.innerHTML = t; el.hidden = false; clearTimeout(toastT); toastT = setTimeout(function () { el.hidden = true; }, 5000); }
+  if (S.ft) $('ft').href = 'facetime:' + S.ft;
+  $('ft').onclick = function (e) {
+    e.stopPropagation();
+    if (!S.ft) { e.preventDefault(); toast('未設定 Billy 嘅 FaceTime 號碼<br><small>(preview: add &amp;ft= to the address)</small>'); return; }
+    toast('打緊俾 Billy…<br>如果有問題，請撳「撥打」');
+  };
+  $('app').onclick = function () { if (mode === 'photo') setMode('weather'); else { setMode('photo'); next(); } loop(); };
+
+  renderTime(); renderWx();
+  setInterval(renderTime, 10000);
+  loadWx(); setInterval(loadWx, 30 * 60 * 1000);
+  getJSON('photos.json?v=' + Math.floor(Date.now() / 600000), function (list) {
+    if (list && list.length) { PHOTOS = list; $('sample').hidden = true; start(); }
+  });
+  setTimeout(function () { if (!PHOTOS.length) useSamples(); }, 1200);
+  setInterval(function () { getJSON('photos.json?v=' + Date.now(), function (l) { if (l && l.length !== PHOTOS.length) location.reload(); }); }, 60 * 60 * 1000);
+  loop();
+  if (navigator.wakeLock) { try { navigator.wakeLock.request('screen').catch(function () {}); } catch (e) {} }
+})();
+</script>
+</body>
+</html>
