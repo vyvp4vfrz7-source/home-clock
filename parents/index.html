@@ -33,7 +33,7 @@ body { margin: 0; background: #000; color: var(--ink); font-family: var(--body);
 #app { position: relative; height: 100%; overflow: hidden; }
 
 /* ---------- Photo mode ---------- */
-.ph { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0;
+.ph { position: absolute; top: 0; right: 0; bottom: 0; left: 0; background-size: cover; background-position: center; opacity: 0;
   transition: opacity 2.4s ease; transform: scale(1.04); }
 .ph.on { opacity: 1; animation: drift 16s linear forwards; }
 @keyframes drift { from { transform: scale(1.04) translate(0, 0); } to { transform: scale(1.12) translate(-1.5%, -1%); } }
@@ -63,7 +63,7 @@ body { margin: 0; background: #000; color: var(--ink); font-family: var(--body);
 .ic { display: block; flex: none; }
 
 /* ---------- Weather mode ---------- */
-#wpage { position: absolute; inset: 0; background: var(--ground); opacity: 0; transition: opacity 1.6s ease; pointer-events: none;
+#wpage { position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: var(--ground); opacity: 0; transition: opacity 1.6s ease; pointer-events: none;
   padding: calc(env(safe-area-inset-top, 0px) + 5vmin) max(16px, calc(env(safe-area-inset-right, 0px) + 6vmin)) calc(env(safe-area-inset-bottom, 0px) + 5vmin) max(16px, calc(env(safe-area-inset-left, 0px) + 6vmin));
   box-sizing: border-box; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto 1fr auto; gap: 4vmin 6vmin; }
 #app.weather #wpage { opacity: 1; pointer-events: auto; }
