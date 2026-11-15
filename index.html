@@ -191,9 +191,18 @@ function loadWeather() {
     '&hourly=temperature_2m,weather_code,precipitation_probability,is_day' +
     '&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset' +
     '&timezone=' + encodeURIComponent(CONFIG.timezone) + '&forecast_days=7';
-  fetch(url).then(function (res) { if (!res.ok) throw new Error(res.status); return res.json(); })
+  function get(u) { return fetch(u).then(function (res) { if (!res.ok) throw new Error(res.status); return res.json(); }); }
+  get(url)
     .then(function (d) { W = d; renderWeather(); $('status').textContent = 'Weather updated ' + new Date().toTimeString().slice(0, 5); })
-    .catch(function (e) { $('status').textContent = 'Weather unavailable, retrying… (' + e.message + ')'; });
+    .catch(function (e) {
+      // Open-Meteo unreachable from this device: use the copy GitHub saves every 15 minutes (weather.json).
+      return get('weather.json?t=' + Date.now()).then(function (d) {
+        W = d; renderWeather(); $('status').textContent = 'Weather (saved copy) ' + (d.saved || '');
+      }).catch(function () {
+        $('status').textContent = 'Weather unavailable, retrying… (' + e.message + ')';
+        setTimeout(loadWeather, 60 * 1000);
+      });
+    });
 }
 function renderWeather() {
   var c = W.current, dl = W.daily, now = wx(c.weather_code, c.is_day);
