@@ -32,6 +32,11 @@ html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); f
 #date span { color: var(--muted); font-weight: 400; }
 #hk { font-size: 24px; color: var(--muted); margin-top: 10px; font-weight: 500; }
 #hk b { color: var(--fg); font-weight: 600; }
+#indoor { position: absolute; bottom: 26px; right: 30px; text-align: right; }
+#indoor .v { display: flex; align-items: center; justify-content: flex-end; gap: 6px; font-size: 56px; font-weight: 300; line-height: 1; letter-spacing: -.02em; margin-top: 6px; }
+#indoor .v .ic { color: var(--sun); }
+#indoor .m { font-size: 15px; color: var(--muted); margin-top: 6px; font-weight: 500; }
+#indoor.old .v { color: var(--muted); } #indoor.old .v .ic { color: var(--muted); }
 
 #now { grid-column: 8 / 13; grid-row: 1 / 5; background: linear-gradient(160deg, #23324a 0%, #141b24 70%); }
 #now .row1 { display: flex; align-items: center; gap: 18px; margin-top: 14px; }
@@ -82,7 +87,7 @@ html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); f
 </head>
 <body>
 <div id="stage">
-  <section class="t" id="clock"><div id="time" class="num"></div><div id="date"></div><div id="hk"></div></section>
+  <section class="t" id="clock"><div id="time" class="num"></div><div id="date"></div><div id="hk"></div><div id="indoor" hidden></div></section>
   <section class="t" id="now"><div class="lbl">Loading weather…</div></section>
   <section class="t" id="hours"><div class="lbl">Next 10 hours</div><div class="strip" id="strip"></div></section>
   <section class="t" id="photo"><div class="cap"><span id="capT"></span><span class="w" id="capW"></span></div><div class="tag" id="ptag" hidden>示範相片 · sample</div></section>
@@ -93,7 +98,7 @@ html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); f
 <script>
 /* ===== Settings you can change ===== */
 var CONFIG = {
-  city: 'London', lat: 51.5072, lon: -0.1276, timezone: 'Europe/London',
+  city: 'Northwood', cityZh: '倫敦 Northwood ', lat: 51.6111, lon: -0.4237, timezone: 'Europe/London',
   secondCity: '香港', secondZone: 'Asia/Hong_Kong',
   // Each button runs an Apple Shortcut with exactly this name (make them in the Shortcuts app).
   home: [
@@ -282,6 +287,28 @@ fetch('photos.json?t=' + Date.now()).then(function (r) { return r.json(); })
   .then(function (list) { if (list && list.length) startPhotos(list); else throw 0; })
   .catch(function () { $('ptag').hidden = false; startPhotos(SCENES.map(function (sc) { return { src: paint(sc.draw), text: sc.text, when: sc.when }; })); });
 
+/* ---------- indoor temperature ----------
+   home.json is written by .github/workflows/home-temp.yml when the
+   "Send home temp" Shortcut posts a reading from Apple Home:
+   {"temp": 21.5, "hum": 48, "at": "2026-11-15T19:30:00Z"}  (hum is optional) */
+var HOME = null;
+function loadHome() {
+  fetch('home.json?t=' + Date.now()).then(function (r) { if (!r.ok) throw 0; return r.json(); })
+    .then(function (d) { if (typeof d.temp !== 'number') throw 0; HOME = d; showHome(); })
+    .catch(function () { HOME = null; showHome(); });
+}
+function homeAge() { return HOME && HOME.at ? (Date.now() - new Date(HOME.at).getTime()) / 60000 : 1e9; }
+function showHome() {
+  var el = $('indoor'), age = homeAge();
+  if (!HOME || age > 12 * 60) { el.hidden = true; return; }   // nothing recent: hide the reading
+  var t = new Date(HOME.at), when = age < 2 ? 'just now' : 'at ' + pad(t.getHours()) + ':' + pad(t.getMinutes());
+  el.className = age > 3 * 60 ? 'old' : '';                     // greyed out if older than 3 hours
+  el.innerHTML = '<div class="lbl">Indoors 室內</div><div class="v num">' + icon('thermo', 40, 1.5) + HOME.temp.toFixed(1) + '°</div>' +
+    '<div class="m">' + (typeof HOME.hum === 'number' ? 'Humidity ' + Math.round(HOME.hum) + '% · ' : '') + when + '</div>';
+  el.hidden = false;
+}
+loadHome(); setInterval(loadHome, 5 * 60 * 1000); setInterval(showHome, 60 * 1000);
+
 /* ---------- Home buttons (run Apple Shortcuts) ---------- */
 $('home').innerHTML = CONFIG.home.map(function (b) {
   return '<a class="hb" href="shortcuts://run-shortcut?name=' + encodeURIComponent(b.name) + '">' + icon(b.icon, 30) +
@@ -307,12 +334,13 @@ loadNews(); setInterval(loadNews, 30 * 60 * 1000); setInterval(showNews, 15000);
 /* ---------- Cantonese spoken summary ---------- */
 function brief() {
   var d = new Date(), h = d.getHours();
-  var t = (h < 12 ? '早晨。' : h < 18 ? '午安。' : '晚安。') + (CONFIG.city === 'London' ? '倫敦' : '') + '而家係' + h + '點' + (d.getMinutes() ? d.getMinutes() + '分' : '正') + '。';
+  var t = (h < 12 ? '早晨。' : h < 18 ? '午安。' : '晚安。') + (CONFIG.cityZh || '') + '而家係' + h + '點' + (d.getMinutes() ? d.getMinutes() + '分' : '正') + '。';
   if (W) {
     var c = W.current, dl = W.daily;
     t += '今日天氣' + wx(dl.weather_code[0], 1)[2] + '，而家' + r(c.temperature_2m) + '度，最高' + r(dl.temperature_2m_max[0]) + '度，最低' + r(dl.temperature_2m_min[0]) + '度，下雨機會百分之' + (dl.precipitation_probability_max[0] || 0) + '。';
     t += '聽日' + wx(dl.weather_code[1], 1)[2] + '，' + r(dl.temperature_2m_min[1]) + '至' + r(dl.temperature_2m_max[1]) + '度。';
   }
+  if (HOME && homeAge() < 3 * 60) t += '屋企室內' + HOME.temp.toFixed(1).replace(/\.0$/, '') + '度' + (typeof HOME.hum === 'number' ? '，濕度百分之' + Math.round(HOME.hum) : '') + '。';
   if (NEWS.length) t += '新聞摘要。' + NEWS.slice(0, 6).map(function (n) { return n.src + '：' + n.t + '。'; }).join('');
   return t;
 }
