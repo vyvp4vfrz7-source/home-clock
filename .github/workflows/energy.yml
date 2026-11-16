@@ -1,0 +1,30 @@
+name: Save energy use
+on:
+  schedule:
+    - cron: "25 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: site-data
+jobs:
+  energy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install cryptography
+      - run: python tools/build_energy.py energy.json
+        env:
+          OCTOPUS_API_KEY: ${{ secrets.OCTOPUS_API_KEY }}
+          OCTOPUS_ACCOUNT: ${{ secrets.OCTOPUS_ACCOUNT }}
+          OCTOPUS_GAS_UNIT: ${{ vars.OCTOPUS_GAS_UNIT }}
+          CALENDAR_KEY: ${{ secrets.CALENDAR_KEY }}
+      - name: Commit if changed
+        run: |
+          git config user.name "energy-bot"
+          git config user.email "energy-bot@users.noreply.github.com"
+          [ -f energy.json ] || exit 0
+          git add energy.json
+          git diff --cached --quiet || (git commit -m "Update energy use" && git pull --rebase && git push)
