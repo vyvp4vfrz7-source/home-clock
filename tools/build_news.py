@@ -52,13 +52,13 @@ PLACES = [
     ("越南", 14.06, 108.3, "越南 Vietnam"), ("菲律賓", 12.9, 121.8, "菲律賓 Philippines Manila 馬尼拉"),
     ("馬來西亞", 4.2, 101.97, "馬來西亞 Malaysia Kuala_Lumpur 吉隆坡"), ("新加坡", 1.35, 103.82, "新加坡 Singapore"),
     ("印尼", -0.8, 113.9, "印尼 印度尼西亞 Indonesia Jakarta 雅加達"), ("緬甸", 21.9, 95.96, "緬甸 Myanmar"),
-    ("柬埔寨", 12.6, 104.99, "柬埔寨 Cambodia"), ("南韓", 37.57, 126.98, "南韓 韓國 South_Korea Korean Seoul 首爾 Busan 釜山 李在明 Lee_Jae-myung"),
-    ("北韓", 39.03, 125.75, "北韓 朝鮮 North_Korea Pyongyang 金正恩"), ("日本", 35.68, 139.69, "日本 Japan Japanese Tokyo 東京 千葉 大阪 Osaka 高市 Takaichi"),
+    ("柬埔寨", 12.6, 104.99, "柬埔寨 Cambodia"), ("南韓", 37.57, 126.98, "南韓 韓國 South_Korea South_Korean Seoul 首爾 Busan 釜山 李在明 Lee_Jae-myung"),
+    ("北韓", 39.03, 125.75, "北韓 朝鮮 North_Korea North_Korean Pyongyang 金正恩"), ("日本", 35.68, 139.69, "日本 Japan Japanese Tokyo 東京 千葉 大阪 Osaka 高市 Takaichi"),
     ("中國", 34.0, 108.0, "中國 中方 內地 China Chinese mainland 習近平 Xi_Jinping 國家主席 APEC"),
     ("澳洲", -25.3, 133.8, "澳洲 澳大利亞 Australia Sydney 悉尼 Melbourne 墨爾本"), ("紐西蘭", -41.3, 174.8, "紐西蘭 新西蘭 New_Zealand"),
     ("加拿大", 56.1, -106.3, "加拿大 Canada Canadian Toronto 多倫多 Vancouver 溫哥華"),
     ("美國", 38.9, -77.04, "美國 美方 USA US America American Washington 華盛頓 White_House 白宮 特朗普 Trump"),
-    ("墨西哥", 23.6, -102.6, "墨西哥 Mexico"), ("巴西", -14.2, -51.9, "巴西 Brazil"), ("阿根廷", -38.4, -63.6, "阿根廷 Argentina"),
+    ("墨西哥", 23.6, -102.6, "墨西哥 Mexico Mexican"), ("巴西", -14.2, -51.9, "巴西 Brazil"), ("阿根廷", -38.4, -63.6, "阿根廷 Argentina"),
     ("委內瑞拉", 6.4, -66.6, "委內瑞拉 Venezuela"), ("古巴", 21.5, -77.8, "古巴 Cuba"), ("香港", 22.32, 114.17, "香港 Hong_Kong HK 港府 特首"),
     # more of the Americas, Africa, Europe and Australia (for the BBC world feeds)
     ("紐約", 40.71, -74.0, "紐約 New_York Manhattan Brooklyn"), ("洛杉磯", 34.05, -118.24, "洛杉磯 Los_Angeles Hollywood"),
@@ -73,7 +73,7 @@ PLACES = [
     ("埃塞俄比亞", 9.0, 38.75, "埃塞俄比亞 Ethiopia Eritrea Tigray"), ("剛果", -4.32, 15.31, "剛果 Congo DR_Congo Kinshasa Goma"),
     ("索馬里", 2.05, 45.32, "索馬里 Somalia"), ("加納", 5.6, -0.19, "加納 Ghana"), ("摩洛哥", 33.97, -6.85, "摩洛哥 Morocco"),
     ("阿爾及利亞", 36.75, 3.06, "阿爾及利亞 Algeria"), ("利比亞", 32.89, 13.19, "利比亞 Libya"), ("突尼斯", 36.8, 10.18, "突尼斯 Tunisia"),
-    ("津巴布韋", -17.83, 31.05, "津巴布韋 Zimbabwe"), ("烏干達", 0.35, 32.58, "烏干達 Uganda"), ("坦桑尼亞", -6.8, 39.28, "坦桑尼亞 Tanzania"),
+    ("津巴布韋", -17.83, 31.05, "津巴布韋 Zimbabwe"), ("烏干達", 0.35, 32.58, "烏干達 Uganda Rwanda Burundi"), ("坦桑尼亞", -6.8, 39.28, "坦桑尼亞 Tanzania"),
     ("塞內加爾", 14.7, -17.44, "塞內加爾 Senegal Mali Burkina_Faso Niger"), ("喀麥隆", 3.87, 11.52, "喀麥隆 Cameroon"),
     ("莫桑比克", -25.97, 32.57, "莫桑比克 Mozambique Malawi Zambia"), ("馬達加斯加", -18.88, 47.5, "馬達加斯加 Madagascar"),
     ("希臘", 37.98, 23.73, "希臘 Greece Greek Athens"), ("葡萄牙", 38.72, -9.14, "葡萄牙 Portugal Portuguese Lisbon"),
@@ -83,7 +83,7 @@ PLACES = [
     ("捷克", 50.08, 14.44, "捷克 Czech Prague Slovakia"), ("羅馬尼亞", 44.43, 26.1, "羅馬尼亞 Romania Moldova Bulgaria"),
     ("塞爾維亞", 44.79, 20.45, "塞爾維亞 Serbia Kosovo Bosnia Croatia Belgrade"), ("白俄羅斯", 53.9, 27.56, "白俄羅斯 Belarus"),
     ("格魯吉亞", 41.72, 44.79, "格魯吉亞 Georgia Armenia Azerbaijan"), ("波羅的海", 56.95, 24.1, "波羅的海 Latvia Lithuania Estonia Baltic"),
-    ("冰島", 64.15, -21.94, "冰島 Iceland"), ("梵蒂岡", 41.9, 12.45, "梵蒂岡 Vatican Pope 教宗"),
+    ("冰島", 64.15, -21.94, "冰島 Iceland"), ("梵蒂岡", 41.9, 12.45, "梵蒂岡 Vatican 梵蒂岡"),
     ("悉尼", -33.87, 151.21, "悉尼 Sydney New_South_Wales NSW"), ("墨爾本", -37.81, 144.96, "墨爾本 Melbourne Victoria"),
     ("布里斯班", -27.47, 153.03, "布里斯班 Brisbane Queensland Gold_Coast"), ("珀斯", -31.95, 115.86, "珀斯 Perth Western_Australia"),
     ("阿德萊德", -34.93, 138.6, "阿德萊德 Adelaide South_Australia"), ("坎培拉", -35.28, 149.13, "坎培拉 Canberra Albanese"),
@@ -198,6 +198,10 @@ def main(path):
         except Exception as e:  # keep going if one feed is down
             groups.append([])
             print(f"skip {url}: {e}", file=sys.stderr)
+    # the same story can be in two BBC feeds (e.g. Asia and Australia): keep the first
+    seen = set()
+    for g in groups:
+        g[:] = [x for x in g if x["t"] not in seen and not seen.add(x["t"])]
     # interleave the feeds of each language (HK, world, HK, world...) so both show on screen
     mixed = []
     for lang in ("zh", "en"):
