@@ -7,6 +7,8 @@ The message is read from the event file, not from env vars, so it never shows in
 If the BOARD_KEY passcode is set (the workflow passes the CALENDAR_KEY secret), board.json is scrambled
 (AES-GCM, key from the passcode via PBKDF2, same as calendar.json) so the messages can't be read on GitHub.
 Keeps the newest 30 messages from the last 14 days.
+
+{"to": "parents"} in the payload uses parents/board.json instead: the board on the grandparents' screen in Hong Kong.
 """
 import base64, datetime, json, os, sys, time
 
@@ -20,6 +22,7 @@ who = " ".join(str(p.get("who") or "").split())[:12]
 text = " ".join(str(p.get("text") or "").split())[:200]
 remove = str(p.get("remove") or "")[:40]
 clear = str(inputs.get("clear") or "") == "1"
+FILE = "parents/board.json" if str(p.get("to") or inputs.get("to") or "") == "parents" else "board.json"
 
 key = os.environ.get("BOARD_KEY", "").strip()
 b64e = lambda x: base64.b64encode(x).decode()
@@ -34,7 +37,7 @@ def aes(salt):
 
 msgs = []
 try:
-    with open("board.json", encoding="utf-8") as f:
+    with open(FILE, encoding="utf-8") as f:
         old = json.load(f)
     if "enc" in old:
         e = old["enc"]
@@ -66,6 +69,6 @@ if key:
 else:
     print("BOARD_KEY not set: saving messages unscrambled")
     out["msgs"] = msgs
-with open("board.json", "w", encoding="utf-8") as f:
+with open(FILE, "w", encoding="utf-8") as f:
     json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
-print("board has %d messages" % len(msgs))
+print("%s has %d messages" % (FILE, len(msgs)))

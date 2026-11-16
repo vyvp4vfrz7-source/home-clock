@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="zh-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="屋企">
+<meta name="theme-color" content="#000000">
+<title>屋企</title>
+<style>
+/* Home screen for Billy's parents in Hong Kong (iPad Air). Three pages rotate by themselves:
+   1. family photos (same shared album + notes as Billy's iPad)   2. 今日: clock, lunar date, HKO weather + warnings, London, birthdays
+   3. RTHK news.  Big FaceTime button on every page, Cantonese voice, 留言板 pop-ups from London, night mode. */
+:root {
+  --ink: #fbf6ee; --soft: #d9cfc0; --dim: #a3978a; --ground: #1b1714; --panel: #27211d; --line: #3a322c;
+  --jade: #8fd3b4; --amber: #f2b45a; --rain: #8cc2ff; --red: #ff6b5e; --note: #ffe58a;
+  --display: "PingFang HK", "Songti TC", "Noto Serif HK", serif;
+  --body: "PingFang HK", "Heiti TC", "Noto Sans HK", "Helvetica Neue", sans-serif;
+  color-scheme: dark;
+}
+html, body { height: 100%; }
+body { margin: 0; background: #000; color: var(--ink); font-family: var(--body); overflow: hidden; -webkit-user-select: none; user-select: none; -webkit-text-size-adjust: 100%; }
+.num { font-variant-numeric: tabular-nums; }
+[hidden] { display: none !important; }
+#app { position: relative; height: 100%; overflow: hidden; }
+.page { position: absolute; top: 0; right: 0; bottom: 0; left: 0; opacity: 0; pointer-events: none; transition: opacity 1.4s ease; box-sizing: border-box; }
+.page.on { opacity: 1; pointer-events: auto; }
+.pad { padding: calc(env(safe-area-inset-top, 0px) + 4vmin) max(16px, calc(env(safe-area-inset-right, 0px) + 5vmin)) calc(env(safe-area-inset-bottom, 0px) + 4vmin) max(16px, calc(env(safe-area-inset-left, 0px) + 5vmin)); }
+.ic { display: block; flex: none; }
+
+/* ---------- warning strip (every page) ---------- */
+#warnbar { position: absolute; z-index: 6; left: 0; right: 0; top: 0; display: flex; align-items: center; gap: 2vmin; flex-wrap: wrap;
+  padding: calc(env(safe-area-inset-top, 0px) + 1.4vmin) 5vmin 1.4vmin; background: rgba(120,20,14,.92); font-size: max(17px, 3.4vmin); font-weight: 700; }
+#warnbar .say { color: #ffe1dc; font-weight: 500; }
+.sig { display: inline-flex; align-items: center; gap: 1.2vmin; border-radius: 1.6vmin; padding: .6vmin 2vmin .6vmin .6vmin; background: rgba(0,0,0,.35); white-space: nowrap; }
+.sig b { display: inline-flex; align-items: center; justify-content: center; min-width: 6vmin; height: 6vmin; border-radius: 1.2vmin; font-size: 4vmin; font-weight: 800; color: #1a1a1a; background: #ffd23f; padding: 0 .8vmin; box-sizing: border-box; }
+.sig.amber b { background: #ffb000; } .sig.red b { background: #e5262a; color: #fff; } .sig.black b { background: #111; color: #fff; box-shadow: inset 0 0 0 2px #fff; }
+.sig.tc b { background: #111; color: #fff; box-shadow: inset 0 0 0 2px #fff; } .sig.hot b { background: #ff7a2f; } .sig.cold b { background: #4fb4ff; } .sig.ts b { background: #ffd23f; }
+body.warn #pCap, body.warn .head { margin-top: 9vmin; }
+
+/* ---------- 1. photos ---------- */
+#photos .ph { position: absolute; top: 0; right: 0; bottom: 0; left: 0; background-size: cover; background-position: center; opacity: 0; transition: opacity 2.4s ease; transform: scale(1.04); }
+#photos .ph.on { opacity: 1; animation: drift 16s linear forwards; }
+@keyframes drift { from { transform: scale(1.04) translate(0, 0); } to { transform: scale(1.12) translate(-1.5%, -1%); } }
+#pPage .scrim { position: absolute; left: 0; right: 0; bottom: 0; height: 50%; background: linear-gradient(to top, rgba(10,8,6,.86), rgba(10,8,6,.5) 45%, rgba(10,8,6,0)); }
+#pPage .scrimTop { position: absolute; left: 0; right: 0; top: 0; height: 30%; background: linear-gradient(to bottom, rgba(10,8,6,.5), rgba(10,8,6,0)); }
+#pCap { position: absolute; top: calc(env(safe-area-inset-top, 0px) + 3.4vmin); left: max(16px, calc(env(safe-area-inset-left, 0px) + 4vmin)); max-width: 52%; }
+#pCap .pl { display: inline-block; background: rgba(20,16,13,.62); border-radius: 999px; padding: 1.1vmin 2.6vmin; font-size: max(16px, 3vmin); color: var(--soft); }
+#pCap .pl b { color: var(--ink); font-weight: 600; }
+.note { margin-top: 1.6vmin; background: var(--note); color: #3a2e12; border-radius: 1.6vmin 1.6vmin 4vmin 1.6vmin; padding: 1.8vmin 2.6vmin; font-size: max(20px, 4.4vmin); font-weight: 700; line-height: 1.35;
+  box-shadow: 0 1vmin 3vmin rgba(0,0,0,.35); max-height: 4.2em; overflow: hidden; display: inline-block; transform: rotate(-1deg); }
+.note small { display: block; font-size: .55em; font-weight: 500; opacity: .75; margin-top: .4vmin; }
+#pBand { position: absolute; left: max(16px, calc(env(safe-area-inset-left, 0px) + 5vmin)); bottom: calc(env(safe-area-inset-bottom, 0px) + 4.5vmin); text-shadow: 0 1px 12px rgba(0,0,0,.5); }
+#pBand .t { font-family: var(--display); font-size: 16vmin; line-height: .95; font-weight: 500; }
+.ap { font-family: var(--body); font-size: .28em; font-weight: 500; color: var(--soft); margin-right: .25em; }
+#pBand .d { font-size: 4.4vmin; margin-top: 1.2vmin; font-weight: 500; }
+#pBand .d span { color: var(--soft); font-weight: 400; margin-left: 1.4vmin; }
+#pBand .w { font-size: 4vmin; margin-top: 1vmin; color: var(--soft); display: flex; align-items: center; gap: 1.4vmin; }
+#pBand .w b { color: var(--ink); font-size: 1.3em; font-weight: 600; }
+
+/* ---------- 2. today ---------- */
+#tPage { background: var(--ground); display: flex; flex-direction: column; gap: 3vmin; }
+.head { display: flex; align-items: flex-end; gap: 4vmin; padding-right: 46vmin; min-height: 18vmin; }
+.head .t { font-family: var(--display); font-size: 13vmin; line-height: .95; font-weight: 500; white-space: nowrap; }
+.head .d { font-size: 4.4vmin; font-weight: 600; }
+.head .d div + div { font-size: 3.4vmin; color: var(--soft); font-weight: 500; margin-top: .8vmin; }
+.fest { display: inline-block; margin-left: 1vmin; color: #ffb8a8; }
+.cols { flex: 1; min-height: 0; display: grid; grid-template-columns: 1.15fr 1fr; gap: 3vmin; }
+.card { background: var(--panel); border-radius: 3vmin; padding: 3vmin 3.4vmin; box-sizing: border-box; min-height: 0; overflow: hidden; }
+.lbl { font-size: 2.8vmin; color: var(--dim); letter-spacing: .06em; }
+.hk { display: flex; flex-direction: column; } .hk .days { margin-top: auto; padding-top: 2vmin; }
+.hk .row { display: flex; align-items: center; gap: 3vmin; margin-top: 1vmin; }
+.hk .tp { font-family: var(--display); font-size: 15vmin; line-height: .9; font-weight: 500; }
+.hk .ds { font-size: 4.6vmin; font-weight: 700; white-space: nowrap; }
+.hk .hl { font-size: 3vmin; color: var(--soft); margin-top: .8vmin; line-height: 1.4; }
+.tip { margin-top: 2vmin; font-size: 3.6vmin; line-height: 1.4; padding: 1.6vmin 2.4vmin; border-radius: 2vmin; background: rgba(143,211,180,.12); color: var(--jade); font-weight: 600; }
+.tip.wet { background: rgba(140,194,255,.13); color: var(--rain); } .tip.hot { background: rgba(242,180,90,.14); color: var(--amber); } .tip.bad { background: rgba(255,107,94,.16); color: var(--red); }
+.days { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.4vmin; margin-top: 2vmin; }
+.day { background: rgba(255,255,255,.04); border-radius: 2vmin; padding: 1.2vmin 1vmin; text-align: center; display: flex; flex-direction: column; align-items: center; gap: .6vmin; }
+.day .n { font-size: 3.6vmin; font-weight: 700; } .day .r { font-size: 3.8vmin; } .day .r span { color: var(--dim); }
+.day .p { font-size: 2.6vmin; color: var(--rain); }
+.side { display: flex; flex-direction: column; gap: 2.4vmin; min-height: 0; overflow: hidden; }
+.side .card { flex: none; } .side .fc { flex: 1 1 auto; }
+.ldn { display: flex; align-items: center; gap: 2.6vmin; }
+.ldn .who, .bwho { width: 9vmin; height: 9vmin; border-radius: 50%; background: var(--amber); color: #2a1d0c; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 4.4vmin; flex: none; }
+.ldn .big { font-size: 3.8vmin; font-weight: 700; white-space: nowrap; } .ldn .big b { font-size: 1.15em; }
+.ldn .sm { font-size: 3.2vmin; color: var(--soft); margin-top: .6vmin; }
+.callok { margin-top: 2vmin; font-size: 3.6vmin; font-weight: 700; padding: 1.4vmin 2.2vmin; border-radius: 2vmin; background: rgba(52,196,106,.16); color: #7ee2a4; }
+.callok.zz { background: rgba(140,194,255,.13); color: var(--rain); }
+.list div { font-size: 3.6vmin; padding: 1vmin 0; display: flex; justify-content: space-between; gap: 2vmin; border-top: 1px solid var(--line); }
+.fc .tx { font-size: 3.4vmin; line-height: 1.5; margin-top: 1vmin; color: var(--soft); max-height: 6em; overflow: hidden; }
+.list div:first-child { border-top: 0; } .list span { color: var(--soft); white-space: nowrap; }
+#tNote { cursor: pointer; } #tNote .note { display: block; transform: none; font-size: 4vmin; margin-top: 1.2vmin; }
+
+/* ---------- 3. news ---------- */
+#nPage { background: #14110f; display: flex; flex-direction: column; gap: 2.4vmin; }
+#nPage h2 { margin: 0; font-size: 5vmin; font-weight: 800; padding-right: 46vmin; min-height: 11vmin; display: flex; align-items: center; gap: 2vmin; }
+#nPage h2 small { font-size: .6em; color: var(--dim); font-weight: 500; }
+#nList { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 2vmin; overflow: hidden; }
+.ni { display: flex; gap: 2.6vmin; background: var(--panel); border-radius: 2.4vmin; overflow: hidden; flex: 1; min-height: 0; max-height: 26vmin; }
+.ni .im { width: 30vmin; flex: none; background: #2d2622 center / cover no-repeat; }
+.ni .tx { padding: 2vmin 2.4vmin 2vmin 0; min-width: 0; }
+.ni .h { font-size: 4.4vmin; font-weight: 800; line-height: 1.3; max-height: 2.6em; overflow: hidden; }
+.ni .s { font-size: 3vmin; color: var(--soft); line-height: 1.45; margin-top: 1vmin; max-height: 2.9em; overflow: hidden; }
+.ni .tg { font-size: 2.6vmin; color: var(--amber); font-weight: 700; margin-right: 1.2vmin; }
+
+/* ---------- call orb + speaker (top right on 今日 / news, bottom right on photos) ---------- */
+#dock { position: absolute; z-index: 7; right: max(16px, calc(env(safe-area-inset-right, 0px) + 4.5vmin)); bottom: calc(env(safe-area-inset-bottom, 0px) + 4.5vmin); display: flex; align-items: flex-end; gap: 3vmin; }
+#call { display: flex; flex-direction: column; align-items: center; gap: 1.4vmin; color: var(--ink); text-decoration: none; -webkit-tap-highlight-color: transparent; text-shadow: 0 1px 10px rgba(0,0,0,.6); }
+.orb { position: relative; width: 21vmin; height: 21vmin; min-width: 100px; min-height: 100px; flex: none; animation: breathe 4s ease-in-out infinite; }
+.orb .glow { position: absolute; top: -1.4vmin; right: -1.4vmin; bottom: -1.4vmin; left: -1.4vmin; border-radius: 50%; background: conic-gradient(from 0deg, #ff6b8b, #ffb35c, #5be38f, #4fb4ff, #a77bff, #ff6b8b);
+  -webkit-filter: blur(1.6vmin); filter: blur(1.6vmin); opacity: .9; animation: spin 9s linear infinite; }
+.orb .core { position: absolute; top: 0; right: 0; bottom: 0; left: 0; border-radius: 50%; background: radial-gradient(circle at 34% 28%, #6cf09a 0%, #2fc464 45%, #16994a 100%);
+  box-shadow: inset 0 0 0 .5vmin rgba(255,255,255,.28), 0 1vmin 4vmin rgba(0,0,0,.45); display: flex; align-items: center; justify-content: center; color: #05230f; }
+.orb .core svg { width: 46%; height: 46%; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.05); } }
+#call .lab { font-size: max(19px, 4.2vmin); font-weight: 800; line-height: 1.1; text-align: center; }
+#call .lab small { display: block; font-size: .6em; font-weight: 500; color: var(--soft); margin-top: .5vmin; }
+#say { width: 12vmin; height: 12vmin; min-width: 64px; min-height: 64px; border-radius: 50%; border: 0; padding: 0; margin-bottom: 7vmin; background: rgba(251,246,238,.92); color: #1b1714;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .4vmin; box-shadow: 0 1vmin 3vmin rgba(0,0,0,.4); font: 700 max(13px, 2.4vmin) var(--body); -webkit-tap-highlight-color: transparent; }
+#say svg { width: 44%; height: 44%; } #say.on { background: var(--amber); }
+body.compact #dock { bottom: auto; top: calc(env(safe-area-inset-top, 0px) + 4vmin); align-items: center; }
+body.compact.warn #dock { top: calc(env(safe-area-inset-top, 0px) + 13vmin); }
+body.compact #call { flex-direction: row; gap: 2.2vmin; background: rgba(52,196,106,.16); border-radius: 999px; padding: 1.2vmin 3.4vmin 1.2vmin 1.2vmin; text-shadow: none; }
+body.compact .orb { width: 11vmin; height: 11vmin; min-width: 60px; min-height: 60px; }
+body.compact .orb .glow { top: -.7vmin; right: -.7vmin; bottom: -.7vmin; left: -.7vmin; -webkit-filter: blur(1vmin); filter: blur(1vmin); }
+body.compact #call .lab { text-align: left; font-size: max(18px, 4vmin); }
+body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.compact #say span { display: none; }
+
+/* page dots */
+#dots { position: absolute; z-index: 5; left: 50%; bottom: calc(env(safe-area-inset-bottom, 0px) + 1.6vmin); transform: translateX(-50%); display: flex; gap: 1.4vmin; }
+#dots i { width: 1.4vmin; height: 1.4vmin; min-width: 8px; min-height: 8px; border-radius: 50%; background: rgba(255,255,255,.3); }
+#dots i.on { background: var(--ink); }
+
+/* ---------- overlays ---------- */
+.over { position: absolute; z-index: 9; top: 0; right: 0; bottom: 0; left: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 3vmin; padding: 6vmin; box-sizing: border-box; }
+.btns { display: flex; gap: 4vmin; margin-top: 2vmin; flex-wrap: wrap; justify-content: center; }
+.btns button { border: 0; border-radius: 999px; min-height: 64px; padding: 2.4vmin 6vmin; font: 800 max(20px, 4.4vmin) var(--body); display: flex; align-items: center; gap: 1.6vmin; -webkit-tap-highlight-color: transparent; }
+.b-no { background: #e5484d; color: #fff; } .b-go { background: #34c46a; color: #05230f; } .b-soft { background: rgba(255,255,255,.14); color: var(--ink); } .b-ink { background: #3a2e12; color: var(--note); }
+/* calling sheet */
+#sheet { background: radial-gradient(ellipse at 50% 38%, #24331f 0%, #0d0b09 70%); }
+#sheet .orb { width: 34vmin; height: 34vmin; animation-duration: 1.6s; }
+#sheet .orb .core { font-family: var(--display); font-size: 15vmin; font-weight: 700; }
+#sheet h2 { margin: 3vmin 0 0; font-family: var(--display); font-size: max(30px, 8vmin); line-height: 1.1; }
+#sheet .cd { font-size: max(19px, 4.4vmin); color: var(--soft); } #sheet .cd b { color: var(--ink); font-size: 1.3em; }
+#sheet .hint { margin-top: 2vmin; font-size: max(16px, 3.3vmin); color: var(--dim); }
+#sheet .hint b { color: var(--soft); font-weight: 600; }
+#sheet .zz { font-size: max(17px, 3.6vmin); color: var(--rain); font-weight: 700; }
+/* message from London */
+#bpop { background: rgba(10,8,6,.88); }
+#bpop .paper { background: var(--note); color: #3a2e12; border-radius: 3vmin 3vmin 9vmin 3vmin; padding: 5vmin 6vmin; max-width: 86vmin; box-shadow: 0 3vmin 9vmin rgba(0,0,0,.6); transform: rotate(-1.2deg); }
+#bpop .from { font-size: max(18px, 3.8vmin); font-weight: 700; opacity: .8; }
+#bpop .msg { font-size: max(30px, 8vmin); font-weight: 800; line-height: 1.3; margin-top: 2vmin; word-break: break-word; }
+#bpop .when { font-size: max(15px, 3vmin); opacity: .7; margin-top: 2vmin; }
+/* big warning */
+#wpop { background: rgba(70,10,6,.95); }
+#wpop .sig { font-size: max(26px, 6vmin); padding: 1.4vmin 4vmin 1.4vmin 1.4vmin; } #wpop .sig b { min-width: 14vmin; height: 14vmin; font-size: 9vmin; border-radius: 2.4vmin; }
+#wpop .adv { font-size: max(24px, 6vmin); font-weight: 800; line-height: 1.35; max-width: 90vmin; }
+/* subtitle while speaking */
+#sub { position: absolute; z-index: 10; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 78%; max-width: 120vmin; box-sizing: border-box; background: rgba(20,16,13,.94);
+  border-radius: 3.6vmin; padding: 3.4vmin 4.4vmin; font-size: max(20px, 4.4vmin); line-height: 1.55; box-shadow: 0 2vmin 8vmin rgba(0,0,0,.5); }
+#sub .hd { color: var(--amber); font-size: .66em; font-weight: 700; margin-bottom: 1.4vmin; }
+#toast { position: absolute; z-index: 11; left: 50%; top: 50%; transform: translate(-50%, -50%); background: rgba(20,16,13,.96); padding: 3vmin 4vmin; border-radius: 3vmin; font-size: max(17px, 3.6vmin); text-align: center; max-width: 80%; line-height: 1.5; }
+
+/* ---------- night ---------- */
+#night { position: absolute; z-index: 8; top: 0; right: 0; bottom: 0; left: 0; background: #000; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #b4703a; }
+#night .t { font-family: var(--display); font-size: 26vmin; line-height: 1; font-weight: 500; } #night .t .ap { color: #8a5a32; }
+#night .d { font-size: 4.4vmin; margin-top: 2vmin; color: #8a5a32; }
+#night .n { font-size: 3.6vmin; margin-top: 3vmin; color: #a8803a; }
+
+@media (orientation: portrait) {
+  .cols { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+  .head { padding-right: 0; flex-direction: column; align-items: flex-start; gap: 1.6vmin; margin-top: 14vmin; }
+  #nPage h2 { margin-top: 14vmin; padding-right: 0; }
+  #pBand .t { font-size: 15vmin; } #pCap { max-width: 64%; }
+}
+@media (prefers-reduced-motion: reduce) { .orb, .orb .glow, #photos .ph.on { animation: none; } }
+</style>
+</head>
+<body>
+<div id="app">
+  <section class="page" id="pPage" aria-label="相片">
+    <div id="photos"></div><div class="scrimTop"></div><div class="scrim"></div>
+    <div id="pCap"></div>
+    <div id="pBand"><div class="t num" id="pTime"></div><div class="d" id="pDate"></div><div class="w" id="pWx"></div></div>
+  </section>
+
+  <section class="page pad" id="tPage" aria-label="今日">
+    <div class="head"><div class="t num" id="tTime"></div><div class="d" id="tDate"></div></div>
+    <div class="cols">
+      <div class="card hk" id="tHk"></div>
+      <div class="side">
+        <div class="card" id="tLdn"></div>
+        <div class="card" id="tNote" hidden></div>
+        <div class="card" id="tBday" hidden></div>
+        <div class="card fc" id="tFc" hidden></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page pad" id="nPage" aria-label="新聞">
+    <h2>📰 香港新聞 <small id="nTime"></small></h2>
+    <div id="nList"></div>
+  </section>
+
+  <div id="warnbar" hidden></div>
+  <div id="dots"><i></i><i></i><i></i></div>
+
+  <div id="dock">
+    <button id="say" type="button" aria-label="講俾我聽"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18.3 6.5a7.5 7.5 0 0 1 0 11"/></svg><span>講俾我聽</span></button>
+    <a id="call" href="#" aria-label="FaceTime Billy"><span class="orb"><span class="glow"></span><span class="core"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="6" width="13" height="12" rx="2.5"/><path d="M15.5 10.5l6-3.5v10l-6-3.5z"/></svg></span></span><span class="lab">打俾 Billy<small>撳一下就得</small></span></a>
+  </div>
+
+  <div id="night" hidden><div class="t num" id="nClock"></div><div class="d" id="nDate"></div><div class="n" id="nInfo"></div></div>
+
+  <section class="over" id="sheet" hidden aria-label="打俾 Billy">
+    <span class="orb"><span class="glow"></span><span class="core">B</span></span>
+    <h2>打緊俾 Billy…</h2>
+    <div class="zz" id="sheetZz" hidden></div>
+    <div class="cd" id="cd"></div>
+    <div class="btns"><button class="b-no" id="no" type="button">✕ 唔打住</button><button class="b-go" id="go" type="button">即刻打</button></div>
+    <div class="hint">下次可以直接講：<b>「喂 Siri，FaceTime Billy」</b></div>
+  </section>
+
+  <section class="over" id="bpop" hidden aria-label="留言">
+    <div class="paper"><div class="from" id="bFrom"></div><div class="msg" id="bMsg"></div><div class="when" id="bWhen"></div></div>
+    <div class="btns"><button class="b-go" id="bOk" type="button">❤️ 收到</button><button class="b-soft" id="bAgain" type="button">🔊 再講一次</button><button class="b-soft" id="bClose" type="button">✕ 關閉</button></div>
+  </section>
+
+  <section class="over" id="wpop" hidden aria-label="天氣警告">
+    <div id="wSig"></div><div class="adv" id="wAdv"></div>
+    <div class="btns"><button class="b-soft" id="wClose" type="button">知道喇</button></div>
+  </section>
+
+  <div id="sub" hidden><div class="hd">🔊 講緊…</div><div id="subText"></div></div>
+  <div id="toast" hidden></div>
+</div>
+
+<script>
+/* ES5, so it runs on any iPad.  Address options (put them in the address before "Add to Home Screen"):
+     &frame            the real screen (no sample photos)
+     &ft=<Apple ID or phone>   who the big call button FaceTimes (kept out of the code: the repo is public)
+     &key=<passcode>   the family calendar passcode: unlocks the 留言板 and the birthday list
+     &voice=0          no spoken time on the hour (on by default, 8am to 9pm)
+     &night=22-7       night clock hours (Hong Kong time), &night=0 never
+     &photo=15  seconds per photo;  &every=4  photos between the 今日 / 新聞 pages
+   Preview only: &page=today|news|photo stops the rotation, &demo=warn|board|night|call shows that screen. */
+(function () {
+  var q = {};
+  location.search.replace(/^\?/, '').split('&').forEach(function (kv) { if (kv) { var p = kv.split('='); q[decodeURIComponent(p[0])] = decodeURIComponent((p[1] || '').replace(/\+/g, ' ')); } });
+  function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) { return null; } }
+  if (q.key) store('calKey', q.key);
+  if (q.ft) store('ft', q.ft);
+  var nightHrs = (q.night || '22-7').split('-');
+  var S = {
+    tz: 'Asia/Hong_Kong', ft: q.ft || store('ft') || '', key: q.key || store('calKey') || '', voice: q.voice !== '0',
+    photoSec: +q.photo || 15, every: +q.every || 4, infoSec: 40, nightFrom: +nightHrs[0], nightTo: +(nightHrs[1] || 7), noNight: q.night === '0',
+    me: { name: 'Billy', place: '倫敦', tz: 'Europe/London' }, demo: q.demo || '', fixed: q.page || ''
+  };
+  var REPO = 'vyvp4vfrz7-source/home-clock';
+  function $(id) { return document.getElementById(id); }
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+  /* ---------- time ---------- */
+  var WEEK = ['日', '一', '二', '三', '四', '五', '六'];
+  function parts(tz, when) {
+    var d = when || new Date();
+    try {
+      var s = d.toLocaleString('en-US', { timeZone: tz, hour12: false, year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', weekday: 'short' });
+      var m = s.match(/(\w+), (\d+)\/(\d+)\/(\d+),? (\d+):(\d+)/);
+      return { w: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(m[1]), mo: +m[2], d: +m[3], y: +m[4], h: (+m[5]) % 24, mi: +m[6], date: d };
+    } catch (e) { return { w: d.getDay(), mo: d.getMonth() + 1, d: d.getDate(), y: d.getFullYear(), h: d.getHours(), mi: d.getMinutes(), date: d }; }
+  }
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+  function ampm(h) { return h < 6 ? '凌晨' : h < 12 ? '上午' : h < 13 ? '中午' : h < 18 ? '下午' : '晚上'; }
+  function clock12(p) { return '<span class="ap">' + ampm(p.h) + '</span>' + ((p.h % 12) || 12) + ':' + pad(p.mi); }
+  function spokenTime(p) { return ampm(p.h) + ((p.h % 12) || 12) + '點' + (p.mi ? (p.mi === 30 ? '半' : p.mi + '分') : '正'); }
+  function dateZh(p) { return p.mo + '月' + p.d + '日 星期' + WEEK[p.w]; }
+
+  /* ---------- lunar date + festivals (Safari's built-in Chinese calendar) ---------- */
+  var LM = ['正', '二', '三', '四', '五', '六', '七', '八', '九', '十', '冬', '臘'], DN = ['一', '二', '三', '四', '五', '六', '七', '八', '九', '十'];
+  function lunarMD(d) {
+    try {
+      var s = new Intl.DateTimeFormat('en-u-ca-chinese', { timeZone: S.tz, month: 'numeric', day: 'numeric' }).format(d);
+      var m = s.match(/(\d+)(bis)?\/(\d+)/); if (!m) return null;
+      return { m: +m[1], leap: !!m[2], d: +m[3] };
+    } catch (e) { return null; }
+  }
+  function lunarName(l) {
+    if (!l) return '';
+    var d = l.d <= 10 ? '初' + DN[l.d - 1] : l.d < 20 ? '十' + DN[l.d - 11] : l.d === 20 ? '二十' : l.d < 30 ? '廿' + DN[l.d - 21] : '三十';
+    return '農曆' + (l.leap ? '閏' : '') + LM[l.m - 1] + '月' + d;
+  }
+  var LFEST = { '1-1': '春節 · 年初一', '1-2': '年初二', '1-3': '年初三', '1-15': '元宵節', '5-5': '端午節', '7-7': '七夕', '7-15': '盂蘭節', '8-15': '中秋節', '9-9': '重陽節', '12-8': '臘八', '12-23': '謝灶' };
+  var SFEST = { '1-1': '元旦', '12-25': '聖誕節', '12-24': '平安夜', '2026-12-22': '冬至', '2027-4-5': '清明節', '2027-12-22': '冬至', '2028-4-4': '清明節', '2028-12-21': '冬至', '2029-4-4': '清明節' };
+  function festOn(d) {
+    var p = parts(S.tz, d), l = lunarMD(d), f = SFEST[p.y + '-' + p.mo + '-' + p.d] || SFEST[p.mo + '-' + p.d];
+    if (!f && l && !l.leap) f = LFEST[l.m + '-' + l.d];
+    if (!f && l && l.m === 12 && !l.leap) { var t = lunarMD(new Date(d.getTime() + 864e5)); if (t && t.m === 1 && t.d === 1) f = '年三十晚'; }
+    return f || '';
+  }
+  var FEST = { day: '', text: '' };
+  function nextFest() {
+    var p = parts(S.tz), key = p.y + '-' + p.mo + '-' + p.d;
+    if (FEST.day === key) return FEST.text;
+    var now = Date.now(), t = '';
+    for (var i = 0; i <= 40 && !t; i++) {
+      var f = festOn(new Date(now + i * 864e5));
+      if (f) t = i === 0 ? '今日' + f : i === 1 ? '聽日' + f : f + ' 仲有 ' + i + ' 日';
+    }
+    FEST = { day: key, text: t }; return t;
+  }
+
+  /* ---------- weather icons ---------- */
+  var ICON = {
+    sun: '<circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/>',
+    cloud: '<path d="M7 18.5h10.2a4.1 4.1 0 0 0 .4-8.2A6 6 0 0 0 6.2 11a3.8 3.8 0 0 0 .8 7.5z"/>',
+    partly: '<path d="M8.5 3.2v1.6M3.2 8.5h1.6M4.8 4.8l1.1 1.1M12.2 4.8l-1.1 1.1"/><path d="M5.6 11.3A3.4 3.4 0 0 1 11.6 7"/><path d="M8.5 20h9a3.6 3.6 0 0 0 .3-7.2 5.3 5.3 0 0 0-10.1 1A3.1 3.1 0 0 0 8.5 20z"/>',
+    rain: '<path d="M7 15.5h10.2a4.1 4.1 0 0 0 .4-8.2A6 6 0 0 0 6.2 8a3.8 3.8 0 0 0 .8 7.5z"/><path d="M8.5 18.2l-.9 2.3M12.5 18.2l-.9 2.3M16.5 18.2l-.9 2.3"/>',
+    storm: '<path d="M7 15.5h10.2a4.1 4.1 0 0 0 .4-8.2A6 6 0 0 0 6.2 8a3.8 3.8 0 0 0 .8 7.5z"/><path d="M12.5 16l-2 3.5h3l-2 3"/>',
+    moon: '<path d="M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10z"/>',
+    fog: '<path d="M4 9h16M3 13h18M5 17h14"/>'
+  };
+  var TINT = { sun: 'var(--amber)', partly: 'var(--amber)', cloud: 'var(--soft)', rain: 'var(--rain)', storm: 'var(--rain)', moon: '#e9d9a6', fog: 'var(--soft)' };
+  function icon(k, size) {
+    return '<svg class="ic" style="width:' + size + ';height:' + size + ';color:' + TINT[k] + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICON[k] + '</svg>';
+  }
+  // Hong Kong Observatory icon numbers (https://www.hko.gov.hk/textonly/v2/explain/wxicon_e.htm)
+  function hkKind(n) {
+    if (n === 50) return 'sun'; if (n === 51 || n === 52) return 'partly'; if (n === 53 || n === 54 || (n >= 62 && n <= 64)) return 'rain';
+    if (n === 65) return 'storm'; if (n >= 70 && n <= 77) return 'moon'; if (n >= 83 && n <= 85) return 'fog'; return 'cloud';
+  }
+  var HKDESC = { 50: '陽光充沛', 51: '間中有陽光', 52: '短暫時間有陽光', 53: '有陽光，有幾陣驟雨', 54: '短暫陽光，有驟雨', 60: '多雲', 61: '密雲', 62: '微雨', 63: '有雨', 64: '大雨', 65: '雷暴',
+    70: '天色良好', 71: '天色良好', 72: '天色良好', 73: '天色良好', 74: '天色良好', 75: '天色良好', 76: '大致多雲', 77: '天色大致良好', 80: '大風', 81: '乾燥', 82: '潮濕', 83: '有霧', 84: '有薄霧', 85: '有煙霞', 90: '炎熱', 91: '和暖', 92: '清涼', 93: '寒冷' };
+  // Open-Meteo weather codes (London)
+  function omKind(c) { return c <= 1 ? 'sun' : c === 2 ? 'partly' : c >= 95 ? 'storm' : (c >= 51 && c <= 82) ? 'rain' : (c === 45 || c === 48) ? 'fog' : 'cloud'; }
+  function omDesc(c) {
+    if (c === 0) return '天晴'; if (c === 1) return '大致天晴'; if (c === 2) return '間中有雲'; if (c === 3) return '多雲'; if (c === 45 || c === 48) return '有霧';
+    if (c >= 51 && c <= 57) return '毛毛雨'; if (c >= 61 && c <= 67) return '落雨'; if (c >= 71 && c <= 77) return '落雪'; if (c >= 80 && c <= 82) return '有驟雨'; if (c >= 85 && c <= 86) return '落雪'; if (c >= 95) return '雷暴'; return '';
+  }
+
+  /* ---------- HKO warnings ---------- */
+  function sigOf(k, w) {
+    var c = w.code || '', name = w.name || '';
+    if (k === 'WTCSGNL') { var n = (c.match(/TC(\d+)/) || [])[1] || ''; return { cls: 'tc', b: n, t: n + '號風球', lvl: +n >= 8 ? 3 : +n >= 3 ? 2 : 1,
+      adv: +n >= 8 ? n + '號風球！留喺屋企，唔好出街，關好窗。' : +n === 3 ? '三號風球，風好大，出街小心，留意天文台消息。' : '一號戒備信號，留意天氣變化。' }; }
+    if (k === 'WRAIN') { var col = c === 'WRAINB' ? 'black' : c === 'WRAINR' ? 'red' : 'amber', zh = { amber: '黃雨', red: '紅雨', black: '黑雨' }[col];
+      return { cls: col, b: '雨', t: zh, lvl: col === 'amber' ? 2 : 3, adv: col === 'black' ? '黑雨！留喺屋企，唔好出街。' : col === 'red' ? '紅雨，雨好大，盡量唔好出街。' : '黃雨，出街帶遮，小心路滑。' }; }
+    if (k === 'WHOT') return { cls: 'hot', b: '熱', t: '酷熱天氣', lvl: 1, adv: '酷熱天氣，飲多啲水，避免曬太陽。' };
+    if (k === 'WCOLD') return { cls: 'cold', b: '冷', t: '寒冷天氣', lvl: 1, adv: '寒冷天氣，著多件衫，注意保暖。' };
+    if (k === 'WTS') return { cls: 'ts', b: '⚡', t: '雷暴警告', lvl: 2, adv: '有雷暴，留喺室內，唔好去空曠地方。' };
+    if (k === 'WMSGNL') return { cls: '', b: '風', t: '強烈季候風', lvl: 1, adv: '強烈季候風，出街小心。' };
+    if (k === 'WL') return { cls: 'red', b: '山', t: '山泥傾瀉', lvl: 2, adv: '山泥傾瀉警告，唔好行山。' };
+    if (k === 'WFROST') return { cls: 'cold', b: '霜', t: '霜凍', lvl: 1, adv: '霜凍警告，注意保暖。' };
+    if (k === 'WTMW') return { cls: 'red', b: '浪', t: '海嘯', lvl: 3, adv: '海嘯警告，遠離海邊。' };
+    if (k === 'WFIRE') return null;   // fire danger: not for indoors
+    return { cls: '', b: '!', t: name.replace(/警告信號|信號|警告/g, '') || '天氣警告', lvl: 1, adv: name };
+  }
+  function warnings() {
+    var w = (HK && HK.warn) || {}, out = [];
+    for (var k in w) if (w.hasOwnProperty(k) && w[k] && w[k].actionCode !== 'CANCEL') { var s = sigOf(k, w[k]); if (s) { s.key = k + ':' + (w[k].code || ''); out.push(s); } }
+    out.sort(function (a, b) { return b.lvl - a.lvl; });
+    return out;
+  }
+  function sigHTML(s) { return '<span class="sig ' + s.cls + '"><b>' + esc(s.b) + '</b>' + esc(s.t) + '</span>'; }
+  function drawWarn() {
+    var ws = warnings(), bar = $('warnbar');
+    document.body.className = document.body.className.replace(/\s*warn/g, '') + (ws.length ? ' warn' : '');
+    if (!ws.length) { bar.hidden = true; return; }
+    bar.innerHTML = ws.map(sigHTML).join('') + '<span class="say">' + esc(ws[0].adv) + '</span>'; bar.hidden = false;
+    // a new serious one (3號 or more, red / black rain): big screen + voice once
+    var big = ws.filter(function (s) { return s.lvl >= 2; })[0], seen = store('warnSeen') || '';
+    if (big && big.key !== seen && !isNight()) { store('warnSeen', big.key); showWarnPop(big); }
+    if (!big && seen) store('warnSeen', '');
+  }
+  function showWarnPop(s) { $('wSig').innerHTML = sigHTML(s); $('wAdv').innerHTML = esc(s.adv); $('wpop').hidden = false; say('天文台：' + s.adv, false); }
+  $('wClose').onclick = function (e) { e.stopPropagation(); $('wpop').hidden = true; };
+
+  /* ---------- data ---------- */
+  function getJSON(url, ok, fail) {
+    try {
+      var x = new XMLHttpRequest(); x.open('GET', url); x.timeout = 20000;
+      x.onload = function () { if (x.status === 200) { try { ok(JSON.parse(x.responseText)); return; } catch (e) {} } if (fail) fail(); };
+      x.onerror = x.ontimeout = function () { if (fail) fail(); };
+      x.send();
+    } catch (e) { if (fail) fail(); }
+  }
+  function t() { return '?t=' + Date.now(); }
+  var HK = null, LDN = null, NEWS = [], PHOTOS = [], NOTES = {}, BDAYS = [], BOARD = [];
+  var SAMPLE = !('frame' in q);
+
+  // Hong Kong Observatory, straight from the Observatory; if the iPad can't reach it, the copy GitHub saves every 30 min (../hk.json)
+  function loadHK() {
+    var A = 'https://data.weather.gov.hk/weatherAPI/opendata/weather.php?lang=tc&dataType=', got = {}, n = 0, bad = false;
+    function done() { if (bad) return; if (++n === 4) { HK = got; drawAll(); } }
+    function fall() { if (bad) return; bad = true; getJSON('../hk.json' + t(), function (d) { HK = d; drawAll(); }); }
+    [['now', 'rhrread'], ['fnd', 'fnd'], ['flw', 'flw'], ['warn', 'warnsum']].forEach(function (k) {
+      getJSON(A + k[1], function (d) { got[k[0]] = d; done(); }, fall);
+    });
+  }
+  function loadLDN() { getJSON('../weather.json' + t(), function (d) { if (d && d.current) { LDN = d; drawAll(); } }); }
+  function loadNews() {
+    getJSON('../news.json' + t(), function (d) {
+      var it = (d && d.items) || [], hk = [], world = [];
+      it.forEach(function (x) { if (x.lang === 'zh' && x.src === '香港') hk.push(x); else if (x.lang === 'zh') world.push(x); });
+      NEWS = hk.slice(0, 4).concat(world.slice(0, 1)); drawNews();
+    });
+  }
+
+  /* ---------- the passcode-scrambled files (留言板, birthdays) ---------- */
+  function b64(s) { var b = atob(s), a = new Uint8Array(b.length); for (var i = 0; i < b.length; i++) a[i] = b.charCodeAt(i); return a; }
+  function unscramble(enc, pass, ok, fail) {
+    var c = window.crypto && crypto.subtle; if (!c || !pass) { fail(); return; }
+    c.importKey('raw', new TextEncoder().encode(pass), 'PBKDF2', false, ['deriveKey'])
+      .then(function (base) { return c.deriveKey({ name: 'PBKDF2', salt: b64(enc.salt), iterations: enc.iter, hash: 'SHA-256' }, base, { name: 'AES-GCM', length: 256 }, false, ['decrypt']); })
+      .then(function (key) { return c.decrypt({ name: 'AES-GCM', iv: b64(enc.iv) }, key, b64(enc.data)); })
+      .then(function (buf) { ok(JSON.parse(new TextDecoder().decode(buf))); }, fail);
+  }
+  function openFile(d, ok) { if (!d) return; if (d.enc) unscramble(d.enc, S.key, ok, function () {}); else ok(d.msgs || d.people || []); }
+  function loadBdays() { getJSON('../birthdays.json' + t(), function (d) { openFile(d, function (p) { BDAYS = p || []; drawToday(); }); }); }
+  function loadBoard() { getJSON('board.json' + t(), function (d) { openFile(d, function (m) { BOARD = m || []; drawToday(); boardPop(); }); }); }
+
+  /* ---------- 1. photos (same album + notes as Billy's iPad) ---------- */
+  function photoId(p) { var m = /([^\/]+)\.jpe?g$/i.exec(p && p.src || ''); return m ? m[1] : ''; }
+  function loadPhotos() {
+    getJSON('../photos.json' + t(), function (l) {
+      if (!l || !l.length) return;
+      var list = l.map(function (p) { return { src: /^(https?:|data:|\/)/.test(p.src) ? p.src : '../' + p.src, id: photoId(p), text: p.text || '', when: p.when || '', place: p.place || '' }; });
+      var same = list.length === PHOTOS.length && list.every(function (p, i) { return p.src === PHOTOS[i].src; });
+      PHOTOS = list; if (!same) startPhotos();
+    });
+    getJSON('../notes.json' + t(), function (n) { NOTES = n || {}; capPhoto(); });
+  }
+  var idx = -1;
+  function startPhotos() {
+    var box = $('photos'); box.innerHTML = ''; idx = -1;
+    PHOTOS.forEach(function (p) { var d = document.createElement('div'); d.className = 'ph'; d.setAttribute('data-src', p.src); box.appendChild(d); });
+    nextPhoto();
+  }
+  function nextPhoto() {
+    var els = $('photos').children; if (!els.length) return;
+    if (idx >= 0) els[idx].className = 'ph';
+    idx = (idx + 1) % els.length;
+    var el = els[idx]; if (!el.style.backgroundImage) el.style.backgroundImage = 'url("' + el.getAttribute('data-src') + '")';
+    var nx = els[(idx + 1) % els.length]; if (!nx.style.backgroundImage) nx.style.backgroundImage = 'url("' + nx.getAttribute('data-src') + '")';   // preload the next one
+    void el.offsetWidth; el.className = 'ph on';
+    capPhoto();
+  }
+  function capPhoto() {
+    var p = PHOTOS[idx]; if (!p) { $('pCap').innerHTML = ''; return; }
+    var notes = (NOTES[p.id] || []).slice(-2), h = '';
+    var pl = [p.place, p.when].filter(Boolean);
+    if (pl.length) h += '<div class="pl">📍 <b>' + esc(pl[0]) + '</b>' + (pl[1] ? ' · ' + esc(pl[1]) : '') + '</div>';
+    if (p.text) h += '<div><div class="note">' + esc(p.text) + '</div></div>';
+    notes.forEach(function (n) { h += '<div><div class="note">' + esc(n.text) + (n.who ? '<small>' + esc(n.who) + '</small>' : '') + '</div></div>'; });
+    $('pCap').innerHTML = h;
+  }
+  // No album reachable (preview): painted stand-ins
+  function samplePhotos() {
+    function paint(top, mid, bot) {
+      var c = document.createElement('canvas'); c.width = 1200; c.height = 800; var g = c.getContext('2d'), l = g.createLinearGradient(0, 0, 0, 800);
+      l.addColorStop(0, top); l.addColorStop(.6, mid); l.addColorStop(1, bot); g.fillStyle = l; g.fillRect(0, 0, 1200, 800);
+      g.fillStyle = 'rgba(0,0,0,.35)'; g.beginPath(); g.moveTo(0, 800); for (var x = 0; x <= 1200; x += 20) g.lineTo(x, 560 + Math.sin(x / 140) * 40 + Math.sin(x / 47) * 12); g.lineTo(1200, 800); g.fill();
+      return c.toDataURL('image/jpeg', .85);
+    }
+    PHOTOS = [{ src: paint('#2c2350', '#c4566a', '#f4a35c'), id: 's1', text: '維港日落', when: '10月20日', place: '香港' },
+      { src: paint('#8fb6d8', '#dfe6e0', '#a8662f'), id: 's2', text: '', when: '10月27日', place: '倫敦' }];
+    NOTES = { s1: [{ text: '記得我哋上次一齊睇 ❤️', at: '' }] };
+    startPhotos();
+  }
+
+  /* ---------- 2. 今日 ---------- */
+  function hkNow() {
+    if (!HK || !HK.now) return null;
+    var tmp = null, hum = null;
+    (HK.now.temperature && HK.now.temperature.data || []).forEach(function (x) { if (x.place === '香港天文台') tmp = x.value; });
+    if (tmp === null && HK.now.temperature && HK.now.temperature.data && HK.now.temperature.data[0]) tmp = HK.now.temperature.data[0].value;
+    if (HK.now.humidity && HK.now.humidity.data && HK.now.humidity.data[0]) hum = HK.now.humidity.data[0].value;
+    var ic = (HK.now.icon && HK.now.icon[0]) || 60, f = (HK.fnd && HK.fnd.weatherForecast) || [];
+    return { t: tmp, hum: hum, ic: ic, desc: HKDESC[ic] || '', days: f, today: f[0] };
+  }
+  function tip(w) {
+    var ws = warnings();
+    if (ws.length && ws[0].lvl >= 2) return { c: 'bad', t: ws[0].adv };
+    var d = w.today, psr = d && d.PSR || '', hi = d ? d.forecastMaxtemp.value : w.t, lo = d ? d.forecastMintemp.value : w.t;
+    if (/高/.test(psr)) return { c: 'wet', t: '今日好大機會落雨，出街記得帶遮。' };
+    if (/中/.test(psr)) return { c: 'wet', t: '可能有驟雨，帶把遮穩陣啲。' };
+    if (hi >= 33) return { c: 'hot', t: '今日好熱，記得飲多啲水。' };
+    if (lo <= 15) return { c: 'hot', t: '早晚涼，出街著多件衫。' };
+    if (w.hum >= 90) return { c: '', t: '好潮濕，可以開抽濕機。' };
+    return { c: '', t: '天氣唔錯，可以出去行下。' };
+  }
+  function callTime(m) {
+    if (m.h >= 23 || m.h < 7) return { zz: true, t: '😴 Billy 而家瞓緊覺，可以遲啲先打' };
+    if (m.h < 8) return { zz: false, t: '🌅 Billy 啱啱起身' };
+    return { zz: false, t: '✅ 而家打俾 Billy 啱時間' };
+  }
+  function bdayList() {
+    var today = parts(S.tz), t0 = Date.UTC(today.y, today.mo - 1, today.d), out = [];
+    BDAYS.forEach(function (p) {
+      var m = /(\d+)-(\d+)-(\d+)/.exec(p.next || ''); if (!m) return;
+      var days = Math.round((Date.UTC(+m[1], +m[2] - 1, +m[3]) - t0) / 864e5);
+      if (days >= 0 && days <= 45) out.push({ p: p, days: days });
+    });
+    out.sort(function (a, b) { return a.days - b.days; });
+    return out.slice(0, 3);
+  }
+  function drawToday() {
+    var p = parts(S.tz), m = parts(S.me.tz), w = hkNow(), f = nextFest(), h, i;
+    $('tTime').innerHTML = clock12(p);
+    $('tDate').innerHTML = '<div>' + dateZh(p) + '</div><div>' + lunarName(lunarMD(new Date())) + (f ? '<span class="fest">🏮 ' + esc(f) + '</span>' : '') + '</div>';
+    if (w) {
+      var tp = tip(w), d0 = w.today;
+      h = '<div class="lbl">香港天文台 · 而家</div><div class="row">' + icon(hkKind(w.ic), '13vmin') + '<div><div class="tp num">' + (w.t === null ? '–' : w.t) + '°</div></div>' +
+        '<div><div class="ds">' + esc(w.desc) + '</div><div class="hl num">' + (d0 ? '今日 ' + d0.forecastMintemp.value + '° 至 ' + d0.forecastMaxtemp.value + '°' : '') + (w.hum !== null ? '<br>濕度 ' + w.hum + '%' : '') + '</div></div></div>' +
+        '<div class="tip ' + tp.c + '">' + esc(tp.t) + '</div><div class="days">';
+      var names = ['今日', '聽日', '後日'];
+      for (i = 0; i < 4 && i < w.days.length; i++) {
+        var dd = w.days[i];
+        h += '<div class="day"><div class="n">' + (names[i] || dd.week.replace('星期', '週')) + '</div>' + icon(hkKind(dd.ForecastIcon), '8vmin') +
+          '<div class="r num">' + dd.forecastMaxtemp.value + '° <span>' + dd.forecastMintemp.value + '°</span></div><div class="p">' + (/高|中/.test(dd.PSR) ? '☂ 有雨' : '') + '</div></div>';
+      }
+      $('tHk').innerHTML = h + '</div>';
+    } else $('tHk').innerHTML = '<div class="lbl">香港天文台</div><div class="hl" style="font-size:4vmin;margin-top:2vmin">天氣載入中…</div>';
+    var c = callTime(m), lw = LDN && LDN.current;
+    $('tLdn').innerHTML = '<div class="ldn"><span class="who">B</span><div><div class="big">Billy 喺倫敦 · <b class="num">' + ampm(m.h) + ' ' + ((m.h % 12) || 12) + ':' + pad(m.mi) + '</b></div>' +
+      '<div class="sm">' + (lw ? Math.round(lw.temperature_2m) + '° ' + omDesc(lw.weather_code) + ' · ' : '') + '比香港慢 ' + hkGap() + ' 個鐘</div></div></div>' +
+      '<div class="callok' + (c.zz ? ' zz' : '') + '">' + c.t + '</div>';
+    var b = BOARD.length ? BOARD[BOARD.length - 1] : null;
+    if (b && Date.now() - Date.parse(b.at) < 3 * 864e5) {
+      $('tNote').innerHTML = '<div class="lbl">📌 倫敦留言 · ' + esc(fromName(b.who)) + ' · ' + ago(b.at) + '</div><div class="note">' + esc(b.text) + '</div>';
+      $('tNote').hidden = false;
+    } else $('tNote').hidden = true;
+    var fl = HK && HK.flw;
+    if (fl && fl.forecastDesc) { $('tFc').innerHTML = '<div class="lbl">☁️ 天文台預測</div><div class="tx">' + esc(fl.forecastDesc + (fl.outlook ? ' ' + fl.outlook : '')) + '</div>'; $('tFc').hidden = false; } else $('tFc').hidden = true;
+    var bl = bdayList();
+    if (bl.length) {
+      $('tBday').innerHTML = '<div class="lbl">🎂 生日</div><div class="list">' + bl.map(function (x) {
+        return '<div><b>' + esc((x.p.emoji ? x.p.emoji + ' ' : '') + x.p.name) + '</b><span>' + (x.days === 0 ? '今日生日！🎉' : x.days === 1 ? '聽日' : '仲有 ' + x.days + ' 日') + '</span></div>';
+      }).join('') + '</div>';
+      $('tBday').hidden = false;
+    } else $('tBday').hidden = true;
+  }
+  function hkGap() { var a = parts(S.tz), b = parts(S.me.tz), g = (a.h - b.h + 24) % 24; return g; }
+  function ago(at) { var mn = Math.round((Date.now() - Date.parse(at)) / 60000); return mn < 60 ? (mn <= 1 ? '啱啱' : mn + ' 分鐘前') : mn < 1440 ? Math.round(mn / 60) + ' 個鐘前' : Math.round(mn / 1440) + ' 日前'; }
+  function fromName(w) { return w ? w + '（倫敦）' : 'Billy 屋企'; }
+
+  /* ---------- 3. news ---------- */
+  function drawNews() {
+    var p = parts(S.tz);
+    $('nTime').innerHTML = clock12(p).replace(/<[^>]+>/g, ' ') + ' · 香港電台 RTHK';
+    $('nList').innerHTML = NEWS.length ? NEWS.map(function (n) {
+      return '<div class="ni">' + (n.img ? '<div class="im" style="background-image:url(\'' + esc(n.img) + '\')"></div>' : '') +
+        '<div class="tx"><div class="h"><span class="tg">' + esc(n.src === '香港' ? '本地' : '國際') + '</span>' + esc(n.t) + '</div><div class="s">' + esc(n.d || '') + '</div></div></div>';
+    }).join('') : '<div class="hl" style="font-size:4vmin">新聞載入中…</div>';
+  }
+
+  /* ---------- photo page band ---------- */
+  function drawPhotoBand() {
+    var p = parts(S.tz), w = hkNow();
+    $('pTime').innerHTML = clock12(p);
+    $('pDate').innerHTML = dateZh(p) + '<span>' + lunarName(lunarMD(new Date())) + '</span>';
+    $('pWx').innerHTML = w ? icon(hkKind(w.ic), '6vmin') + '<b class="num">' + w.t + '°</b>' + esc(w.desc) + (w.today ? ' · ' + w.today.forecastMintemp.value + '–' + w.today.forecastMaxtemp.value + '°' : '') : '';
+  }
+  function drawAll() { drawPhotoBand(); drawToday(); drawWarn(); drawNight(); }
+
+  /* ---------- pages ---------- */
+  var PAGES = ['pPage', 'tPage', 'nPage'], page = 0, shown = 0, info = 0, timer;
+  function setPage(i) {
+    page = i;
+    for (var k = 0; k < PAGES.length; k++) { $(PAGES[k]).className = $(PAGES[k]).className.replace(/\s*on/g, '') + (k === i ? ' on' : ''); $('dots').children[k].className = k === i ? 'on' : ''; }
+    document.body.className = document.body.className.replace(/\s*compact/g, '') + (i ? ' compact' : '');
+    if (i === 2) drawNews(); if (i === 1) drawToday();
+  }
+  function loop() {
+    clearTimeout(timer); if (S.fixed) return;
+    timer = setTimeout(function () {
+      if (busy()) { loop(); return; }
+      if (page === 0) { shown++; if (shown % S.every === 0) { info++; setPage(info % 2 ? 1 : 2); } else nextPhoto(); }
+      else { setPage(0); nextPhoto(); }
+      loop();
+    }, (page === 0 ? S.photoSec : S.infoSec) * 1000);
+  }
+  function busy() { return !$('sheet').hidden || !$('bpop').hidden || !$('sub').hidden; }
+  $('app').onclick = function () { if (page === 0) setPage(1); else if (page === 1) setPage(2); else { setPage(0); nextPhoto(); } loop(); };
+
+  /* ---------- Cantonese voice ---------- */
+  var TTS = window.speechSynthesis, VOICE = null, subT;
+  function pickVoice() { if (!TTS) return; var vs = TTS.getVoices(); for (var i = 0; i < vs.length; i++) if (/zh[-_]HK|yue/i.test(vs[i].lang)) { VOICE = vs[i]; return; } }
+  if (TTS) { pickVoice(); TTS.onvoiceschanged = pickVoice; }
+  function say(text, show) {
+    var done = function () { $('sub').hidden = true; $('say').className = ''; };
+    if (show !== false) { $('subText').innerHTML = text; $('sub').hidden = false; $('say').className = 'on'; }
+    clearTimeout(subT); subT = setTimeout(done, 4000 + text.length * 260);
+    if (!TTS) return;
+    try {
+      TTS.cancel();
+      var u = new SpeechSynthesisUtterance(text.replace(/<[^>]+>/g, '').replace(/[😴✅🌅📌🎂🏮❤️]/g, ''));
+      u.lang = 'zh-HK'; if (VOICE) u.voice = VOICE; u.rate = .88;
+      u.onend = function () { clearTimeout(subT); setTimeout(done, 1200); };
+      TTS.speak(u);
+    } catch (e) {}
+  }
+  function report() {
+    var p = parts(S.tz), m = parts(S.me.tz), w = hkNow(), s = (p.h >= 5 && p.h < 11 ? '早晨！' : '') + '而家係' + spokenTime(p) + '，' + p.mo + '月' + p.d + '號，星期' + WEEK[p.w] + '，' + lunarName(lunarMD(new Date())) + '。';
+    var f = nextFest(); if (f) s += f + '。';
+    if (w) s += '<br>香港而家' + w.t + '度，' + w.desc + (w.today ? '，今日' + w.today.forecastMintemp.value + '至' + w.today.forecastMaxtemp.value + '度' : '') + '。' + tip(w).t;
+    var lw = LDN && LDN.current;
+    s += '<br>Billy 喺倫敦，嗰邊而家係' + spokenTime(m) + (lw ? '，' + Math.round(lw.temperature_2m) + '度' : '') + '。';
+    bdayList().forEach(function (x) { if (x.days <= 7) s += '<br>' + x.p.name + (x.days === 0 ? '今日生日！' : x.days === 1 ? '聽日生日。' : '仲有' + x.days + '日生日。'); });
+    return s;
+  }
+  function newsReport() { return '香港電台新聞：<br>' + NEWS.slice(0, 4).map(function (n, i) { return (i + 1) + '. ' + esc(n.t) + '。'; }).join('<br>'); }
+  $('say').onclick = function (e) { e.stopPropagation(); if (!$('sub').hidden) { $('sub').hidden = true; if (TTS) TTS.cancel(); return; } say(page === 2 ? newsReport() : report()); };
+  $('sub').onclick = function (e) { e.stopPropagation(); $('sub').hidden = true; $('say').className = ''; if (TTS) TTS.cancel(); };
+  // On the hour 8am-9pm: the time (8am: the full report plus headlines). iPad needs one tap after a restart before it may speak.
+  var lastHr = -1;
+  setInterval(function () {
+    var p = parts(S.tz);
+    if (!S.voice || p.mi !== 0 || p.h === lastHr || p.h < 8 || p.h > 21 || isNight() || busy()) return;
+    lastHr = p.h; say(p.h === 8 ? report() + '<br>' + newsReport() : '而家係' + spokenTime(p) + '。');
+  }, 20000);
+
+  /* ---------- 留言板 from London (parents/board.json, same passcode as the family calendar) ---------- */
+  function boardPop(force) {
+    var b = BOARD.length ? BOARD[BOARD.length - 1] : null; if (!b) return;
+    var seen = store('pBoardSeen') || '';
+    if (!force && (b.id === seen || Date.now() - Date.parse(b.at) > 864e5)) return;
+    if (!force && isNight()) return;   // overnight messages wait for the morning
+    store('pBoardSeen', b.id);
+    $('bFrom').innerHTML = '📌 ' + esc(fromName(b.who)) + ' 留言'; $('bMsg').innerHTML = esc(b.text); $('bWhen').innerHTML = ago(b.at);
+    $('bpop').hidden = false; $('bOk').hidden = !store('ghKey'); clearTimeout(bT); bT = setTimeout(function () { $('bpop').hidden = true; }, 10 * 60000);
+    say(esc(fromName(b.who)) + '留言：' + esc(b.text), false);
+  }
+  var bT;
+  $('bClose').onclick = function (e) { e.stopPropagation(); $('bpop').hidden = true; if (TTS) TTS.cancel(); };
+  $('bAgain').onclick = function (e) { e.stopPropagation(); var b = BOARD[BOARD.length - 1]; if (b) say(esc(fromName(b.who)) + '留言：' + esc(b.text), false); };
+  $('bpop').onclick = function (e) { e.stopPropagation(); };
+  $('tNote').onclick = function (e) { e.stopPropagation(); boardPop(true); };
+  // "收到 ❤️": posts back to the family board on Billy's iPad. Needs the GitHub key pasted once when setting up this iPad.
+  $('bOk').onclick = function (e) {
+    e.stopPropagation(); var key = store('ghKey'); if (!key) return;
+    $('bOk').disabled = true;
+    fetch('https://api.github.com/repos/' + REPO + '/dispatches', { method: 'POST',
+      headers: { 'Authorization': 'Bearer ' + key, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+      body: JSON.stringify({ event_type: 'board-post', client_payload: { who: '爺爺嫲嫲', text: '收到 ❤️' } }) })
+      .then(function (r) { $('bOk').disabled = false; $('bpop').hidden = true; toast(r.ok ? '✅ 已經話咗俾 Billy 知' : '傳送唔到，遲啲再試'); })
+      .catch(function () { $('bOk').disabled = false; toast('冇網絡，遲啲再試'); });
+  };
+
+  /* ---------- call Billy: 3 seconds to cancel, then FaceTime ---------- */
+  var toastT, cdT, left;
+  function toast(tx) { var el = $('toast'); el.innerHTML = tx; el.hidden = false; clearTimeout(toastT); toastT = setTimeout(function () { el.hidden = true; }, 5000); }
+  function closeSheet() { clearInterval(cdT); $('sheet').hidden = true; }
+  function dial() {
+    closeSheet();
+    if (!S.ft) { toast('未設定 Billy 嘅 FaceTime<br><small>(add &amp;ft= to the address)</small>'); return; }
+    location.href = 'facetime:' + S.ft;
+    toast('打緊俾 Billy…<br>如果彈出視窗，請撳「FaceTime」');
+  }
+  function openSheet(demo) {
+    var c = callTime(parts(S.me.tz));
+    $('sheetZz').hidden = !c.zz; $('sheetZz').innerHTML = c.zz ? '倫敦而家係 ' + ampm(parts(S.me.tz).h) + ((parts(S.me.tz).h % 12) || 12) + ':' + pad(parts(S.me.tz).mi) + '，Billy 可能瞓緊覺' : '';
+    left = c.zz ? 6 : 3; $('sheet').hidden = false;
+    var tick = function () { $('cd').innerHTML = '<b class="num">' + left + '</b> 秒後接通'; };
+    tick(); clearInterval(cdT);
+    if (demo) return;
+    say(c.zz ? 'Billy 可能瞓緊覺，真係要打嗎？' : '而家打俾Billy。', false);
+    cdT = setInterval(function () { left--; if (left <= 0) dial(); else tick(); }, 1000);
+  }
+  $('call').onclick = function (e) { e.preventDefault(); e.stopPropagation(); openSheet(); };
+  $('go').onclick = function (e) { e.stopPropagation(); dial(); };
+  $('no').onclick = function (e) { e.stopPropagation(); closeSheet(); if (TTS) TTS.cancel(); };
+  $('sheet').onclick = function (e) { e.stopPropagation(); };
+
+  /* ---------- night: dim clock; a tap shows the screen for a minute ---------- */
+  var peek = 0;
+  function isNight() {
+    if (S.demo === 'night') return true; if (S.noNight) return false;
+    var h = parts(S.tz).h; return S.nightFrom > S.nightTo ? (h >= S.nightFrom || h < S.nightTo) : (h >= S.nightFrom && h < S.nightTo);
+  }
+  function drawNight() {
+    var on = isNight() && Date.now() > peek; $('night').hidden = !on; $('dock').style.opacity = on ? 0 : 1;
+    if (!on) return;
+    var p = parts(S.tz), w = hkNow();
+    $('nClock').innerHTML = clock12(p); $('nDate').innerHTML = dateZh(p) + ' · ' + lunarName(lunarMD(new Date()));
+    var ws = warnings(), b = BOARD.length && BOARD[BOARD.length - 1], fresh = b && b.id !== store('pBoardSeen') && Date.now() - Date.parse(b.at) < 864e5;
+    $('nInfo').innerHTML = (w ? w.t + '° ' + esc(w.desc) : '') + (ws.length ? ' · ⚠️ ' + esc(ws[0].t) : '') + (fresh ? ' · 📌 有新留言' : '');
+  }
+  $('night').onclick = function (e) { e.stopPropagation(); peek = Date.now() + 60000; drawNight(); };
+  setInterval(function () { var was = !$('night').hidden; drawNight(); if (was && $('night').hidden && !isNight()) boardPop(); }, 15000);
+
+  /* ---------- update by itself when the page's code changes on GitHub ---------- */
+  var SIG = null;
+  function checkUpdate() {
+    getText(location.pathname + '?check=' + Date.now(), function (tx) {
+      for (var i = 0, h = 0; i < tx.length; i++) h = (h * 31 + tx.charCodeAt(i)) | 0;
+      var sig = tx.length + ':' + h;
+      if (SIG === null) { SIG = sig; return; }
+      if (sig !== SIG && !busy()) location.reload();
+    });
+  }
+  function getText(u, ok) { try { var x = new XMLHttpRequest(); x.open('GET', u); x.onload = function () { if (x.status === 200) ok(x.responseText); }; x.send(); } catch (e) {} }
+
+  /* ---------- start ---------- */
+  setPage(S.fixed === 'today' ? 1 : S.fixed === 'news' ? 2 : 0);
+  drawAll(); drawNews();
+  setInterval(function () { drawPhotoBand(); if (page === 1) drawToday(); }, 10000);
+  loadHK(); setInterval(loadHK, 10 * 60000);
+  loadLDN(); setInterval(loadLDN, 15 * 60000);
+  loadNews(); setInterval(loadNews, 30 * 60000);
+  loadPhotos(); setInterval(loadPhotos, 10 * 60000);
+  loadBdays(); setInterval(loadBdays, 6 * 3600000);
+  loadBoard(); setInterval(loadBoard, 60000);
+  setTimeout(function () { if (!PHOTOS.length && SAMPLE) samplePhotos(); }, 2500);
+  checkUpdate(); setInterval(checkUpdate, 5 * 60000);
+  loop();
+  if (navigator.wakeLock) { try { navigator.wakeLock.request('screen').catch(function () {}); } catch (e) {} }
+
+  // previews
+  if (S.demo === 'warn') { HK = HK || {}; setTimeout(function () { HK.warn = { WTCSGNL: { name: '八號東北烈風或暴風信號', code: 'TC8NE', actionCode: 'ISSUE' }, WRAIN: { name: '紅色暴雨警告信號', code: 'WRAINR', actionCode: 'ISSUE' } }; store('warnSeen', ''); drawAll(); }, 2500); }
+  if (S.demo === 'board') setTimeout(function () { BOARD = [{ id: 'demo' + Date.now(), who: '仔仔', text: '爺爺嫲嫲，我今日考試攞咗一百分！💯', at: new Date(Date.now() - 4 * 60000).toISOString() }]; drawToday(); boardPop(true); $('bOk').hidden = false; }, 2500);
+  if (S.demo === 'call') setTimeout(function () { openSheet(true); }, 1500);
+})();
+</script>
+</body>
+</html>
