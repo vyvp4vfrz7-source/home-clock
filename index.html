@@ -728,8 +728,30 @@ $('heat').onclick = function (e) {
 };
 heatShow(); setInterval(heatShow, 60 * 1000);
 
+/* ---------- automatic update ----------
+   The Home Screen app keeps an old copy of the page. Every 5 minutes, fetch this page
+   fresh from GitHub; if the code has changed since it was loaded, reload onto the new
+   version. (The data files that GitHub updates by itself don't change this page.) */
+var PAGE_SIG = null;
+function freshURL() {   // same address and settings, plus a new ?v= so no cached copy is used
+  var q = new URLSearchParams(location.search); q.set('v', Date.now().toString(36)); if (q.get('page')) q.set('page', PAGE + 1);
+  return location.pathname + '?' + q.toString();
+}
+function checkUpdate() {
+  fetch(location.pathname + '?check=' + Date.now(), { cache: 'no-store' })
+    .then(function (r) { if (!r.ok) throw 0; return r.text(); })
+    .then(function (t) {
+      for (var i = 0, h = 0; i < t.length; i++) h = (h * 31 + t.charCodeAt(i)) | 0;
+      var sig = t.length + ':' + h;
+      if (PAGE_SIG === null) { PAGE_SIG = sig; return; }
+      if (sig !== PAGE_SIG && !(window.speechSynthesis && speechSynthesis.speaking)) location.replace(freshURL());
+    })
+    .catch(function () {});
+}
+checkUpdate(); setInterval(checkUpdate, 5 * 60 * 1000);
+
 /* Reload every 6 hours so the page stays fresh and light. */
-setTimeout(function () { location.reload(); }, 6 * 3600 * 1000);
+setTimeout(function () { location.replace(freshURL()); }, 6 * 3600 * 1000);
 </script>
 </body>
 </html>
