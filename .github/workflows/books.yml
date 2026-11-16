@@ -1,0 +1,26 @@
+name: Save book covers
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "40 3 * * 1"   # Mondays, in case Open Library was down
+  push:
+    paths:
+      - books.json
+      - tools/build_books.py
+      - .github/workflows/books.yml
+permissions:
+  contents: write
+concurrency: site-data
+jobs:
+  covers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q pillow
+      - run: python3 tools/build_books.py
+      - name: Commit
+        run: |
+          git config user.name "book-bot"
+          git config user.email "book-bot@users.noreply.github.com"
+          git add books
+          git diff --cached --quiet || (git commit -m "Save book covers" && git pull --rebase && git push)
