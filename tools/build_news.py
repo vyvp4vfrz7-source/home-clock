@@ -24,13 +24,13 @@ PLACES = [
     ("台灣", 23.7, 121.0, "台灣 臺灣 台北 臺北 Taiwan Taipei 里長"), ("北京", 39.9, 116.4, "北京 Beijing"),
     ("上海", 31.23, 121.47, "上海 Shanghai"), ("曼徹斯特", 53.48, -2.24, "曼徹斯特 Manchester"),
     ("伯明翰", 52.49, -1.89, "伯明翰 Birmingham"), ("利物浦", 53.41, -2.98, "利物浦 Liverpool"),
-    ("蘇格蘭", 56.5, -4.2, "蘇格蘭 Scotland Scottish Edinburgh Glasgow 愛丁堡"), ("威爾士", 52.3, -3.7, "威爾士 Wales Welsh Cardiff"),
+    ("蘇格蘭", 56.5, -4.2, "蘇格蘭 Scotland Scottish Edinburgh Glasgow 愛丁堡"), ("威爾士", 52.3, -3.7, "威爾士 Welsh Cardiff Senedd"),
     ("北愛爾蘭", 54.6, -6.7, "北愛 Northern_Ireland Belfast NI Stormont"), ("倫敦", 51.51, -0.13, "倫敦 London"),
-    ("英國", 52.5, -1.5, "英國 Britain British UK England Starmer 施紀賢 NHS"),
+    ("英國", 52.5, -1.5, "英國 Britain British UK England Brexit Starmer 施紀賢 NHS"),
     ("愛爾蘭", 53.3, -7.7, "愛爾蘭 Ireland Irish Dublin"), ("法國", 46.6, 2.4, "法國 France French Paris 巴黎 Macron 馬克龍"),
     ("德國", 51.2, 10.4, "德國 Germany German Berlin 柏林"), ("意大利", 42.8, 12.6, "意大利 義大利 Italy Italian Rome 羅馬"),
     ("西班牙", 40.3, -3.7, "西班牙 Spain Spanish Madrid"), ("荷蘭", 52.2, 5.3, "荷蘭 Netherlands Dutch Amsterdam"),
-    ("比利時", 50.8, 4.4, "比利時 Belgium Brussels 布魯塞爾 歐盟 EU"), ("瑞士", 46.8, 8.2, "瑞士 Switzerland Swiss Geneva 日內瓦"),
+    ("比利時", 50.8, 4.4, "比利時 Belgium Brussels 布魯塞爾"), ("瑞士", 46.8, 8.2, "瑞士 Switzerland Swiss Geneva 日內瓦"),
     ("波蘭", 52.1, 19.4, "波蘭 Poland Polish"), ("烏克蘭", 49.0, 31.4, "烏克蘭 Ukraine Ukrainian Kyiv 基輔 澤連斯基 Zelensky"),
     ("俄羅斯", 55.75, 37.6, "俄羅斯 俄國 Russia Russian Moscow 莫斯科 普京 Putin"), ("土耳其", 39.0, 35.2, "土耳其 Turkey Türkiye"),
     ("以色列", 31.5, 34.9, "以色列 Israel Israeli"), ("加沙", 31.4, 34.4, "加沙 加薩 Gaza Hamas 哈馬斯 巴勒斯坦 Palestin"),
@@ -67,19 +67,17 @@ for name, lat, lon, words in PLACES:
 _AT = {name: (lat, lon) for name, lat, lon, _ in PLACES}
 _ORDER = {name: i for i, (name, *_r) in enumerate(PLACES)}
 
-def place(text, default):
-    """The first-listed (most specific) place named in the text; HK/UK only if nothing else is named."""
-    hits = {name for rx, name in _MATCH if rx.search(text)}
-    pick = None
-    others = [h for h in hits if h != default]
-    if others:
-        pick = min(others, key=lambda h: _ORDER[h])
-        # a British story that names London stays in London, etc.
-    elif hits or default:
-        pick = default or min(hits, key=lambda h: _ORDER[h])
-    if not pick:
-        return None
-    return [_AT[pick][0], _AT[pick][1], pick]
+def place(title, desc, default):
+    """Where a story happened: a place named in the headline (the most specific, and not the feed's
+    home place if another is named). Feeds with a home place (RTHK -> Hong Kong, BBC UK -> UK) fall back
+    to it, since their summaries often mention other places in passing; BBC 中文 also looks in the summary."""
+    for text in ([title] if default else [title, desc]):
+        hits = {name for rx, name in _MATCH if rx.search(text)}
+        others = [h for h in hits if h != default]
+        if others or hits:
+            pick = min(others or hits, key=lambda h: _ORDER[h])
+            return [_AT[pick][0], _AT[pick][1], pick]
+    return [_AT[default][0], _AT[default][1], default] if default else None
 
 MEDIA = "{http://search.yahoo.com/mrss/}"
 IMG_IN_HTML = re.compile(r"<img[^>]+src=[\"']([^\"']+)", re.I)
@@ -139,7 +137,7 @@ def stories(url, n, default):
             s["at"] = parsedate_to_datetime(item.findtext("pubDate")).astimezone(timezone.utc).isoformat(timespec="minutes")
         except Exception:
             pass
-        w = place(t + " " + d, default)
+        w = place(t, d, default)
         if w:
             s["where"] = w
         out.append(s)
