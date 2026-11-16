@@ -7,7 +7,7 @@ import html, json, re, sys, urllib.request, xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
-# (label, feed, how many, language, default place). The dashboard shows Chinese and English side by side;
+# (label, feed, how many, language, default place). The news page alternates Chinese and English stories;
 # the Cantonese spoken summary only reads the Chinese ones. Stories with no place named in them
 # are pinned at the feed's default place (RTHK local news -> Hong_Kong, BBC UK -> UK).
 FEEDS = [

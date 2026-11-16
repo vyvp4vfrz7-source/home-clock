@@ -421,17 +421,16 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 .app .dot svg { width: 22px; height: 22px; }
 #league .top { align-items: center; }
 
-#news { grid-column: 1 / 8; grid-row: 7 / 9; padding: 16px 28px; }
-#news #play { padding: 6px 14px; font-size: 14px; }
-.nh { display: flex; justify-content: space-between; align-items: center; }
-#nws { display: grid; grid-template-columns: 1fr 1fr; gap: 0 26px; margin-top: 6px; }
-.ncol { min-width: 0; }
+#days { grid-column: 1 / 8; grid-row: 7 / 9; padding: 20px 26px 18px 30px; display: flex; flex-direction: column; }
+#dstrip { flex: 1; display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-top: 10px; }
+.dd { background: var(--tile-2); border-radius: 18px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; }
+.dd .dn { font-size: 18px; font-weight: 700; } .dd .dn small { color: var(--muted); font-weight: 600; font-size: 13px; margin-left: 4px; }
+.dd .hl { font-size: 22px; font-weight: 700; } .dd .hl span { color: var(--muted); font-weight: 500; margin-left: 6px; }
+.dd .p { color: var(--rain); font-size: 14px; font-weight: 600; height: 18px; }
 .nw { padding: 5px 0; border-bottom: 1px solid var(--line); font-size: 17px; line-height: 1.3; font-weight: 500; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
 .nw:last-child { border-bottom: 0; }
 .nw span { color: var(--sun); font-size: 11px; letter-spacing: .1em; font-weight: 700; margin-right: 8px; }
-.ncol.en .nw span { color: var(--rain); }
-#play { font: 700 15px var(--font); background: var(--sun); color: #1a1a1a; border: 0; border-radius: 999px; padding: 8px 16px; white-space: nowrap; }
-#play.on { background: var(--rain); }
+#play2.on { background: var(--rain); }
 #play2 { font: 700 17px var(--font); background: var(--sun); color: #1a1a1a; border: 0; border-radius: 999px; padding: 9px 18px; white-space: nowrap; }
 .nw.en span { color: var(--rain); }
 #status { position: absolute; right: 36px; bottom: 6px; font-size: 11px; color: #3d4a5c; }
@@ -551,7 +550,7 @@ body.night #live { display: none; }   /* no scores on the night clock */
   <section class="t" id="clock"><div id="wbg"></div><div id="cl"><div id="time" class="num"></div><div id="date"></div><div id="hk"></div></div><div id="cw"><div id="now"><div class="lbl mut">Loading weather…</div></div><div id="indoor" hidden></div><div id="stats"></div></div><a id="heat" href="#"></a></section>
   <section class="t" id="hours"><div class="lbl">Next 12 hours</div><div class="strip" id="strip"></div></section>
   <section class="t" id="photo"><div class="loc" id="capL"></div><div class="cap"><span id="capT"></span><span class="w" id="capW"></span></div><div class="tag" id="ptag" hidden>示範相片 · sample</div><div class="add" id="padd" aria-label="Add a note">✎</div></section>
-  <section class="t" id="news"><div class="nh"><div class="lbl">新聞 · News</div><button id="play" type="button" aria-label="Play Cantonese summary">▶ 播放</button></div><div id="nws"></div></section>
+  <section class="t" id="days"><div class="lbl">未來五日 · Next 5 days</div><div id="dstrip"></div></section>
   <div id="status"></div>
 </div>
 </div>
@@ -971,6 +970,13 @@ function renderWeather() {
       icon(wx(h.weather_code[j], h.is_day[j])[0], 26) + '<span class="p">' + (p >= 10 ? p + '%' : '') + '</span><span class="num">' + h.time[j].slice(11, 13) + '</span></div>';
   }
   $('strip').innerHTML = s;
+  var dd = '';   // next 5 days under the hourly strip
+  for (var k = 1; k <= 5 && k < dl.time.length; k++) {
+    var dt = new Date(dl.time[k] + 'T12:00'), pp = dl.precipitation_probability_max[k] || 0;
+    dd += '<div class="dd"><div class="dn">' + (k === 1 ? '聽日' : ZH_DAYS[dt.getDay()]) + '<small>' + dt.toLocaleDateString('en-GB', { weekday: 'short' }) + '</small></div>' +
+      icon(wx(dl.weather_code[k], 1)[0], 40) + '<div class="hl num">' + r(dl.temperature_2m_max[k]) + '°<span>' + r(dl.temperature_2m_min[k]) + '°</span></div><div class="p">' + (pp >= 10 ? '☂ ' + pp + '%' : '') + '</div></div>';
+  }
+  $('dstrip').innerHTML = dd;
 
   if (window.showCal) showCal();   // the daily forecast is shown on the week page
 }
@@ -1421,24 +1427,11 @@ loadHome(); setInterval(loadHome, 5 * 60 * 1000); setInterval(showHome, 60 * 100
 var NEWS = [], newsAt = 0;
 function loadNews() {
   fetch('news.json?t=' + Date.now()).then(function (r) { return r.json(); })
-    .then(function (d) { NEWS = (d.items || []).filter(function (n) { return n.t; }); showNews(); showStory(0);
+    .then(function (d) { NEWS = (d.items || []).filter(function (n) { return n.t; }); showStory(0);
       if (d.updated) $('nupd').textContent = '更新 ' + new Date(d.updated).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' }); })
-    .catch(function () { if (!NEWS.length) $('nws').innerHTML = '<div class="nw"><span>新聞</span>暫時未有新聞</div>'; });
+    .catch(function () { if (!NEWS.length) showStory(0); });
 }
-function showNews() {
-  if (!NEWS.length) return;
-  // Chinese headlines on the left, English on the right, 3 each, moving on every 15 seconds.
-  var zh = NEWS.filter(function (n) { return n.lang !== 'en'; }), en = NEWS.filter(function (n) { return n.lang === 'en'; });
-  function col(list, cls) {
-    if (!list.length) return '<div class="ncol ' + cls + '"></div>';
-    var out = '';
-    for (var i = 0; i < 3 && i < list.length; i++) { var n = list[(newsAt * 3 + i) % list.length]; out += '<div class="nw"><span>' + esc(n.src) + '</span>' + esc(n.t) + '</div>'; }
-    return '<div class="ncol ' + cls + '">' + out + '</div>';
-  }
-  $('nws').innerHTML = col(zh, 'zh') + col(en, 'en');
-  newsAt++;
-}
-loadNews(); setInterval(loadNews, 30 * 60 * 1000); setInterval(showNews, 15000);
+loadNews(); setInterval(loadNews, 30 * 60 * 1000);
 
 /* ---------- news page: world map + one story at a time (every 10 s, carries on where it left off) ---------- */
 var NSTORY = 0;
@@ -1480,7 +1473,6 @@ function newsTick() {
   setTimeout(function () { showStory(1); f.classList.remove('fade'); }, 500);
 }
 setInterval(newsTick, 10000);
-$('play2').addEventListener('click', function () { $('play').click(); });
 $('nfeat').addEventListener('click', function () { showStory(1); });
 
 /* ---------- Cantonese spoken summary ---------- */
@@ -1504,8 +1496,8 @@ function voice() {
   var v = speechSynthesis.getVoices().filter(function (x) { return /zh[-_]HK|yue/i.test(x.lang); });
   return v[0] || null;
 }
-$('play').addEventListener('click', function () {
-  var b = $('play');
+$('play2').addEventListener('click', function () {   // ▶ 播放 on the news page
+  var b = $('play2');
   if (!window.speechSynthesis) { b.textContent = '不支援'; return; }
   if (speechSynthesis.speaking) { speechSynthesis.cancel(); b.classList.remove('on'); b.textContent = '▶ 播放'; return; }
   var u = new SpeechSynthesisUtterance(brief());
