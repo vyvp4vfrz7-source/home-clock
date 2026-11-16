@@ -143,6 +143,21 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 #photo .cm:first-child { margin-top: 0; }
 #photo .cm b { color: var(--sun); font-weight: 700; margin-right: 6px; }
 #photo .cap #capT { min-width: 0; }
+#photo .add { position: absolute; top: 14px; right: 16px; width: 40px; height: 40px; border-radius: 50%; background: rgba(8,12,18,.55); color: #fff; font-size: 20px; display: flex; align-items: center; justify-content: center; }
+#note { position: fixed; inset: 0; background: rgba(4,6,10,.6); display: flex; align-items: center; justify-content: center; z-index: 50; }
+#note[hidden] { display: none; }
+#note .box { width: 560px; max-width: calc(100% - 32px); background: #182230; border: 1px solid var(--line); border-radius: 22px; padding: 22px; display: flex; flex-direction: column; gap: 12px; }
+#note .top { display: flex; gap: 14px; align-items: center; }
+#note .thumb { flex: none; width: 92px; height: 92px; border-radius: 14px; background-size: cover; background-position: center; }
+#note h3 { margin: 0; font-size: 22px; } #note .sub { color: var(--muted); font-size: 15px; margin-top: 4px; }
+#note .old { font-size: 16px; line-height: 1.35; max-height: 120px; overflow: auto; }
+#note .old b { color: var(--sun); margin-right: 6px; }
+#note input, #note textarea { font: 500 20px var(--font); color: var(--fg); background: #0f1620; border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; -webkit-appearance: none; }
+#note textarea { height: 96px; resize: none; }
+#note .btns { display: flex; justify-content: flex-end; gap: 10px; }
+#note .btns button { font: 700 18px var(--font); border: 0; border-radius: 999px; padding: 10px 22px; background: #2a3646; color: var(--fg); }
+#note .btns .ok { background: var(--sun); color: #1a1a1a; }
+#note .msg { font-size: 14px; color: var(--muted); min-height: 18px; }
 #photo .tag { position: absolute; top: 16px; right: 18px; font-size: 12px; color: #c9d3df; background: rgba(8,12,18,.55); padding: 4px 10px; border-radius: 10px; }
 #days { position: absolute; left: 30px; right: 30px; bottom: 22px; display: grid; grid-template-columns: repeat(5, 1fr); border-top: 1px solid var(--line); padding-top: 14px; }
 .dy { display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 16px; color: var(--muted); font-weight: 600; }
@@ -183,7 +198,7 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
   <section class="t" id="now"><div class="lbl">Loading weather…</div></section>
   <section class="t" id="hours"><div class="lbl">Next 10 hours</div><div class="strip" id="strip"></div></section>
   <section class="t" id="cal"><div class="ch"><div class="lbl">日程 · Calendar</div><span class="sm" id="ctag" hidden>示範 · sample</span></div><div id="evs"></div></section>
-  <section class="t" id="photo"><div class="loc" id="capL"></div><div class="cap"><span id="capT"></span><span class="w" id="capW"></span></div><div class="tag" id="ptag" hidden>示範相片 · sample</div></section>
+  <section class="t" id="photo"><div class="loc" id="capL"></div><div class="cap"><span id="capT"></span><span class="w" id="capW"></span></div><div class="tag" id="ptag" hidden>示範相片 · sample</div><div class="add" id="padd" aria-label="Add a note">✎</div></section>
   <section class="t" id="news"><div class="nh"><div class="lbl">新聞 · News</div><button id="play" type="button" aria-label="Play Cantonese summary">▶ 播放</button></div><div id="nws"></div></section>
   <div id="status"></div>
 </div>
@@ -215,6 +230,13 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 </div>
 </div></div>
 <div id="dots"></div>
+<div id="note" hidden><div class="box">
+  <div class="top"><div class="thumb" id="nThumb"></div><div><h3>留言 · Add a note</h3><div class="sub" id="nSub"></div></div></div>
+  <div class="old" id="nOld"></div>
+  <textarea id="nText" maxlength="200" placeholder="寫低想講嘅嘢… Type a note"></textarea>
+  <div class="msg" id="nMsg"></div>
+  <div class="btns"><button type="button" id="nCancel">取消 Cancel</button><button type="button" class="ok" id="nSave">儲存 Save</button></div>
+</div></div>
 <script>
 /* ===== Settings you can change ===== */
 var CONFIG = {
@@ -506,7 +528,7 @@ function startPhotos(list) {
   nextPhoto(); setInterval(nextPhoto, 20000);
 }
 function nextPhoto() {
-  var els = $('photo').querySelectorAll('.ph'); if (!els.length) return;
+  var els = $('photo').querySelectorAll('.ph'); if (!els.length || noteOpen) return;
   if (pIdx >= 0) els[pIdx].classList.remove('on');
   pIdx = (pIdx + 1) % els.length; els[pIdx].classList.add('on');
   var p = PHOTOS[els.length - 1 - pIdx] || {};
@@ -520,12 +542,74 @@ function showCaption(p) {
   $('capL').innerHTML = p.place ? PIN + esc(p.place) : '';
   var lines = [];
   if (p.text) lines.push('<span class="cm">' + esc(p.text) + '</span>');
-  (p.comments || []).slice(-2).forEach(function (c) {
+  (p.comments || []).concat(notesFor(p)).slice(-2).forEach(function (c) {
     if (c && c.text) lines.push('<span class="cm">' + (c.who ? '<b>' + esc(c.who) + '</b>' : '') + esc(c.text) + '</span>');
   });
   $('capT').innerHTML = lines.join('');
   $('capW').textContent = p.when || '';
 }
+/* ---------- notes: tap a photo to leave a note ----------
+   Saving sends the note to GitHub (repository_dispatch "photo-note"); .github/workflows/photo-note.yml
+   adds it to notes.json: {"<photo id>": [{"text":"...","at":"..."}]}.
+   The GitHub key is asked for once and kept only on this iPad. Until GitHub saves it (about a minute),
+   the note is kept on this iPad so it shows straight away. */
+var REPO = 'vyvp4vfrz7-source/home-clock', NOTES = {}, noteOpen = false, notePhoto = null;
+function photoId(p) { var m = /([^\/]+)\.jpe?g$/i.exec(p && p.src || ''); return m ? m[1] : ''; }
+function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) { return null; } }
+function pending() { try { return JSON.parse(store('notesPending') || '[]'); } catch (e) { return []; } }
+function notesFor(p) {
+  var id = photoId(p); if (!id) return [];
+  var saved = NOTES[id] || [];
+  var mine = pending().filter(function (n) { return n.id === id && !saved.some(function (s) { return s.text === n.text; }); });
+  return saved.concat(mine);
+}
+function loadNotes() {
+  fetch('notes.json?t=' + Date.now()).then(function (r) { return r.ok ? r.json() : {}; }).then(function (d) {
+    NOTES = d || {};
+    store('notesPending', JSON.stringify(pending().filter(function (n) {   // drop ones GitHub has saved, or older than a day
+      return Date.now() - n.t < 864e5 && !(NOTES[n.id] || []).some(function (s) { return s.text === n.text; });
+    })));
+    if (PHOTOS.length && !noteOpen) { var els = $('photo').querySelectorAll('.ph'); showCaption(PHOTOS[els.length - 1 - pIdx] || {}); }
+  }).catch(function () {});
+}
+loadNotes(); setInterval(loadNotes, 2 * 60 * 1000);
+function openNote() {
+  var els = $('photo').querySelectorAll('.ph'); var p = PHOTOS[els.length - 1 - pIdx];
+  if (!p || !photoId(p)) return;
+  notePhoto = p; noteOpen = true;
+  $('nThumb').style.backgroundImage = 'url("' + p.src + '")';
+  $('nSub').textContent = [p.place, p.when].filter(Boolean).join(' · ');
+  $('nOld').innerHTML = (p.comments || []).concat(notesFor(p)).map(function (c) { return '<div>' + (c.who ? '<b>' + esc(c.who) + '</b>' : '') + esc(c.text) + '</div>'; }).join('');
+  $('nText').value = ''; $('nMsg').textContent = ''; $('note').hidden = false;
+}
+function closeNote() { $('note').hidden = true; noteOpen = false; }
+$('padd').addEventListener('click', function (e) { e.stopPropagation(); openNote(); });
+$('photo').addEventListener('click', openNote);
+$('nCancel').addEventListener('click', closeNote);
+$('note').addEventListener('click', function (e) { if (e.target === $('note')) closeNote(); });
+$('nSave').addEventListener('click', function () {
+  var text = $('nText').value.replace(/^\s+|\s+$/g, ''); if (!text) { $('nText').focus(); return; }
+  var who = '';
+  var key = store('ghKey');
+  if (!key) {
+    key = prompt('第一次儲存：貼上 GitHub key（同「Send Home Temperature」捷徑用嗰條）\nFirst time: paste the GitHub key (the one the Send Home Temperature shortcut uses)');
+    if (!key) return; key = key.replace(/\s+/g, ''); store('ghKey', key);
+  }
+  var id = photoId(notePhoto);
+  $('nMsg').textContent = '儲存緊… Saving…'; $('nSave').disabled = true;
+  fetch('https://api.github.com/repos/' + REPO + '/dispatches', {
+    method: 'POST',
+    headers: { 'Authorization': 'Bearer ' + key, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+    body: JSON.stringify({ event_type: 'photo-note', client_payload: { photo: id, who: who, text: text } })
+  }).then(function (r) {
+    $('nSave').disabled = false;
+    if (r.status === 401 || r.status === 403 || r.status === 404) { store('ghKey', null); $('nMsg').textContent = 'GitHub key 唔啱，再試一次 · The key didn\'t work, try again'; return; }
+    if (!r.ok) { $('nMsg').textContent = '儲存唔到 (' + r.status + ')，遲啲再試 · Couldn\'t save, try later'; return; }
+    var list = pending(); list.push({ id: id, who: who, text: text, t: Date.now() }); store('notesPending', JSON.stringify(list));
+    closeNote(); showCaption(notePhoto);
+  }).catch(function () { $('nSave').disabled = false; $('nMsg').textContent = '冇網絡，遲啲再試 · No connection, try later'; });
+});
+
 fetch('photos.json?t=' + Date.now()).then(function (r) { return r.json(); })
   .then(function (list) { if (list && list.length) startPhotos(list); else throw 0; })
   .catch(function () { $('ptag').hidden = false; startPhotos(SCENES.map(function (sc) { return { src: paint(sc.draw), text: sc.text, when: sc.when, place: sc.place, comments: sc.comments }; })); });
