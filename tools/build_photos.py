@@ -185,7 +185,7 @@ def exif_gps(path):
 # Results are cached in places.json by ~1 km grid square, so each place is looked up once.
 PLACES_FILE = "places.json"
 UA = {"User-Agent": "home-clock-photo-places/1.0 (+https://github.com/vyvp4vfrz7-source/home-clock)"}
-FIX = {"大倫敦": "倫敦", "倫敦市": "倫敦", "英格蘭": "英國", "蘇格蘭": "蘇格蘭", "威爾斯": "威爾斯"}
+FIX = {"大倫敦": "倫敦", "倫敦市": "倫敦", "英格蘭": "英國"}
 try:
     with open(PLACES_FILE, encoding="utf-8") as _f:
         PLACES = json.load(_f)
@@ -194,6 +194,7 @@ except (OSError, ValueError):
 try:
     import opencc
     _S2HK = opencc.OpenCC("s2hk")
+    _S2HK.convert("测试")
 except Exception:
     _S2HK = None
 
@@ -243,23 +244,30 @@ def place_name(lat, lon):
     base = "https://nominatim.openstreetmap.org/reverse?" + urllib.parse.urlencode(
         {"format": "jsonv2", "lat": f"{lat:.2f}", "lon": f"{lon:.2f}", "accept-language": "zh-HK,zh-Hant,zh-TW,zh,en",
          "namedetails": 1, "extratags": 1, "addressdetails": 1})
-    try:
-        town = _get(base + "&zoom=13")   # town / village / district
-        city = _get(base + "&zoom=10")   # city / county
-    except Exception as e:
-        print("place lookup failed:", e)
+    objs = []
+    for z in (14, 12, 10, 8):  # neighbourhood / town / city / county
+        try:
+            objs.append(_get(f"{base}&zoom={z}"))
+        except Exception as e:
+            print("place lookup failed:", e)
+    if not objs:
         return ""
-    small, big = _zh_name(town), _zh_name(city)
-    country = _hk((town.get("address") or {}).get("country") or "")
-    small, big = FIX.get(small, small), FIX.get(big, big)
-    # keep the Chinese names, most specific first: 克魯姆洛夫，捷克 / 魯斯利普，倫敦 / 布拉格，捷克
-    parts = []
-    for t in (small, big, country):
-        if _has_han(t) and t not in parts and not any(t in p or p in t for p in parts):
+    addr = objs[0].get("address") or {}
+    names = [FIX.get(n, n) for n in (_zh_name(o) for o in objs)]
+    city = FIX.get(addr.get("city"), addr.get("city")) or addr.get("town") or ""
+    country = _hk(addr.get("country") or "")
+    # most specific Chinese name, then the next wider one: 諾斯伍德，倫敦 / 布拉格小城，布拉格 / 德比郡，英國
+    han = [t for t in names if _has_han(t)]
+    parts = han[:1]
+    for t in [city] + han[1:] + [country]:
+        if len(parts) == 2:
+            break
+        if _has_han(t) and not any(t in p or p in t for p in parts):
             parts.append(t)
-    parts = parts[:2] or [t for t in (small or big, country) if t]
+    parts = parts or [t for t in (names[0], country) if t]
     name = "，".join(parts)
-    PLACES[key] = name
+    if len(objs) == 4:  # only remember complete lookups
+        PLACES[key] = name
     print("place:", key, "->", name)
     return name
 
