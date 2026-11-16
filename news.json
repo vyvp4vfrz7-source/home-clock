@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-16T03:31+00:00",
+ "updated": "2026-11-16T05:19+00:00",
  "items": [
   {
    "src": "香港",
-   "t": "許正宇明出訪德國、盧森堡和比利時　將與當地官員和金融業界交流",
+   "t": "深圳APEC｜新聞中心展示AI配眼鏡　設人形機械人操作咖啡機",
    "lang": "zh"
   },
   {
@@ -13,7 +13,17 @@
   },
   {
    "src": "香港",
-   "t": "深圳APEC｜APEC效應下華強北商圈外籍客日均逾萬人次",
+   "t": "當局會就公務員照顧家庭假諮詢職方　楊何蓓茵：相信人員不會濫用",
+   "lang": "zh"
+  },
+  {
+   "src": "國際",
+   "t": "據報黃仁勳商討重返Nvidia，Megaspeed稱黃樂去年已離職",
+   "lang": "zh"
+  },
+  {
+   "src": "香港",
+   "t": "謝鋒冀香港發揮獨特優勢　在中美合作廣闊天地中開拓進取",
    "lang": "zh"
   },
   {
@@ -23,7 +33,7 @@
   },
   {
    "src": "香港",
-   "t": "議員稱維港泳有賽事因水流問題取消是負責任決定　倡檢視流程安排",
+   "t": "港股半日升197點　科技股造好　新世界跌幅收窄至不足4成",
    "lang": "zh"
   },
   {
@@ -33,17 +43,7 @@
   },
   {
    "src": "香港",
-   "t": "【重溫】2026年11月16日《社評摘要》",
-   "lang": "zh"
-  },
-  {
-   "src": "國際",
-   "t": "黃仁勳被召出席參議院聽證 商務部長盧特尼克受波及同須作證",
-   "lang": "zh"
-  },
-  {
-   "src": "香港",
-   "t": "【重溫】2026年11月16日《報章摘要》",
+   "t": "深圳APEC｜李家超明日赴深圳出席APEC會議及相關活動",
    "lang": "zh"
   },
   {
@@ -53,7 +53,7 @@
   },
   {
    "src": "香港",
-   "t": "深圳APEC｜學者稱國家可透過峰會向世界展示下一階段發展模式",
+   "t": "鄺港傑稱創作辯護理由圖減輕刑責　曾寫辯方案情信指父親殺蔡天鳳",
    "lang": "zh"
   },
   {
@@ -63,7 +63,7 @@
   },
   {
    "src": "香港",
-   "t": "深圳APEC｜深圳廣電聯同北京及上海廣播電視台100小時直播",
+   "t": "陳茂波：港交所離岸人民幣債券指數為投資者提供清晰市場表現基準",
    "lang": "zh"
   },
   {
@@ -73,7 +73,7 @@
   },
   {
    "src": "香港",
-   "t": "新世界黃少媚：大股東承擔包銷責任絕非攤薄或剝削小股東",
+   "t": "許正宇明出訪德國、盧森堡和比利時　將與當地官員和金融業界交流",
    "lang": "zh"
   },
   {
@@ -83,7 +83,7 @@
   },
   {
    "src": "HONG KONG",
-   "t": "New World shares slump amid rights issue plan",
+   "t": "Lawmaker supports decision to cut short harbour swim",
    "lang": "en"
   },
   {
@@ -93,17 +93,7 @@
   },
   {
    "src": "HONG KONG",
-   "t": "Police chief pledges cautious use of CCTV network",
-   "lang": "en"
-  },
-  {
-   "src": "UK",
-   "t": "Cut national insurance for under-25s to create jobs, Milburn report to say",
-   "lang": "en"
-  },
-  {
-   "src": "HONG KONG",
-   "t": "HZMB Half Marathon draws thousands of runners",
+   "t": "HKEX launches first offshore RMB bond index",
    "lang": "en"
   },
   {
@@ -113,7 +103,17 @@
   },
   {
    "src": "HONG KONG",
-   "t": "One dead, 300 evacuated in Wong Tai Sin fire",
+   "t": "New World shares slump amid rights issue plan",
+   "lang": "en"
+  },
+  {
+   "src": "UK",
+   "t": "Cut national insurance for under-25s to create jobs, Milburn report to say",
+   "lang": "en"
+  },
+  {
+   "src": "HONG KONG",
+   "t": "Police chief pledges cautious use of CCTV network",
    "lang": "en"
   },
   {
@@ -123,7 +123,7 @@
   },
   {
    "src": "HONG KONG",
-   "t": "Hong Kong sees rising value in finance, trade: FS",
+   "t": "HZMB Half Marathon draws thousands of runners",
    "lang": "en"
   },
   {
@@ -133,17 +133,17 @@
   },
   {
    "src": "HONG KONG",
-   "t": "Strong current forces organisers' hand in harbour swim",
+   "t": "One dead, 300 evacuated in Wong Tai Sin fire",
    "lang": "en"
   },
   {
    "src": "UK",
-   "t": "I had to explain to my teacher what a young carer was - we need more support",
+   "t": "Hidden tongue movement found in 'strong R' study",
    "lang": "en"
   },
   {
    "src": "HONG KONG",
-   "t": "HK should prepare for AI slowdown: Algernon Yau",
+   "t": "Hong Kong sees rising value in finance, trade: FS",
    "lang": "en"
   },
   {
@@ -153,7 +153,7 @@
   },
   {
    "src": "HONG KONG",
-   "t": "'Runway painting robots save time, money'",
+   "t": "Strong current forces organisers' hand in harbour swim",
    "lang": "en"
   },
   {
