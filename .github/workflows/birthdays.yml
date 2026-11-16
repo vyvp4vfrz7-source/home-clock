@@ -1,0 +1,27 @@
+name: Save birthdays
+on:
+  schedule:
+    - cron: "20 0,12 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: site-data
+jobs:
+  birthdays:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install lunardate cryptography
+      - run: python tools/build_birthdays.py birthdays.json
+        env:
+          BIRTHDAYS: ${{ secrets.BIRTHDAYS }}
+          CALENDAR_KEY: ${{ secrets.CALENDAR_KEY }}
+      - name: Commit if changed
+        run: |
+          git config user.name "birthday-bot"
+          git config user.email "birthday-bot@users.noreply.github.com"
+          git add birthdays.json
+          git diff --cached --quiet || (git commit -m "Update birthdays" && git pull --rebase && git push)
