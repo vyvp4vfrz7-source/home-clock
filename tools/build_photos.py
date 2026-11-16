@@ -254,7 +254,8 @@ def place_name(lat, lon):
         return ""
     addr = objs[0].get("address") or {}
     names = [FIX.get(n, n) for n in (_zh_name(o) for o in objs)]
-    city = FIX.get(addr.get("city"), addr.get("city")) or addr.get("town") or ""
+    city = next((FIX.get(c, c) for o in objs for c in ((o.get("address") or {}).get("city"), (o.get("address") or {}).get("town"))
+                 if _has_han(c)), "")
     country = _hk(addr.get("country") or "")
     # most specific Chinese name, then the next wider one: 諾斯伍德，倫敦 / 布拉格小城，布拉格 / 德比郡，英國
     han = [t for t in names if _has_han(t)]
