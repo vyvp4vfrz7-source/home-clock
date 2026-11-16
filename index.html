@@ -157,7 +157,7 @@ body.np1 #wbg *, body.np1 #wbg *::before, body.np1 #wbg *::after { animation-pla
 /* night versions of grey-sky scenes */
 #wbg.dark.cloudy .cloud, #wbg.dark.fog .band { opacity: .55; }
 
-/* ----- page 2: analog clock (dusty pink, square face, engraved numbers) ----- */
+/* ----- page 9: analog clock (dusty pink, square face, engraved numbers) ----- */
 #p2 { background: radial-gradient(ellipse at 35% 25%, #dcbcb9 0%, #cfaba8 60%, #c29d9b 100%); }
 #big { position: absolute; inset: 0; }
 #face { position: absolute; border-radius: 19%; background: linear-gradient(150deg, #e6cac7 0%, #dcbcb9 55%, #d2b0ad 100%);
@@ -173,7 +173,7 @@ body.np1 #wbg *, body.np1 #wbg *::before, body.np1 #wbg *::after { animation-pla
 body.p2 #dots button i { background: rgba(107,42,42,.25); }
 body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 
-/* ----- page 3: Premier League table ----- */
+/* ----- page 7: Premier League table ----- */
 #league { padding: 34px 40px 64px; display: flex; flex-direction: column; }
 #league .top { display: flex; align-items: baseline; justify-content: space-between; padding: 0 8px 18px; }
 #league h1 { margin: 0; font-size: 44px; font-weight: 600; letter-spacing: -.01em; }
@@ -514,7 +514,7 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 .brow.soon { border-color: #6a3f5a; background: linear-gradient(90deg, #2a1b2b, var(--tile)); }
 .brow.soon .dl b { color: #f3c1d6; }
 body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state: paused !important; }
-/* ----- Book of the day (page 6): book.json (a newly reviewed book, picked each morning) or books.json (fallback list) ----- */
+/* ----- Book of the day (page 5): book.json (a newly reviewed book, picked each morning) or books.json (fallback list) ----- */
 #bookp { padding: 26px 40px 58px; display: flex; flex-direction: column; gap: 16px; }
 #bookp .top { display: flex; align-items: baseline; justify-content: space-between; padding: 0 6px; }
 #bookp h1 { margin: 0; font-size: 44px; font-weight: 600; letter-spacing: -.01em; }
@@ -558,7 +558,7 @@ body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state
 .nw.en span { color: var(--rain); }
 #status { position: absolute; right: 36px; bottom: 6px; font-size: 11px; color: #3d4a5c; }
 
-/* ----- Hong Kong corner (page 5): Observatory cameras, time-lapse, HK weather ----- */
+/* ----- Hong Kong corner (page 4): Observatory cameras, time-lapse, HK weather ----- */
 #hkc { padding: 30px 40px 70px; display: grid; grid-template-columns: 960px 1fr; grid-template-rows: auto 540px 1fr; gap: 18px 22px; }
 #hkc .top { grid-column: 1 / 3; display: flex; align-items: baseline; justify-content: space-between; padding: 0 6px; }
 #hkc h1 { margin: 0; font-size: 44px; font-weight: 600; letter-spacing: -.01em; }
@@ -596,7 +596,7 @@ body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state
 #hkLive[hidden] { display: none; }
 #hkLive iframe { width: 90vw; height: 50.6vw; max-height: 86vh; max-width: 153vh; border: 0; border-radius: 18px; background: #000; }
 #hkLive button { position: absolute; top: max(16px, env(safe-area-inset-top)); right: 20px; font: 700 18px var(--font); background: #2a3646; color: var(--fg); border: 0; border-radius: 999px; padding: 10px 20px; }
-/* ----- space corner (page 8): Mars rover photos, moon, ISS over Northwood, NASA picture of the day ----- */
+/* ----- space corner (page 6): Mars rover photos, moon, ISS over Northwood, NASA picture of the day ----- */
 #space { padding: 30px 40px 60px; display: grid; grid-template-columns: 900px 1fr; grid-template-rows: auto 560px 1fr; gap: 18px 22px;
   background: radial-gradient(1px 1px at 12% 18%, #fff8 50%, transparent 51%), radial-gradient(1px 1px at 33% 72%, #fff6 50%, transparent 51%),
     radial-gradient(1.5px 1.5px at 58% 9%, #fff9 50%, transparent 51%), radial-gradient(1px 1px at 81% 44%, #fff7 50%, transparent 51%),
@@ -815,25 +815,6 @@ body.night #live { display: none; }   /* no scores on the night clock */
   <div id="wk"></div>
 </div>
 </div>
-<div class="page" id="p2">
-<div id="big">
-  <div id="face">
-    <div id="bnums"></div>
-    <svg viewBox="0 0 1000 1000" aria-hidden="true">
-      <defs>
-        <filter id="hs" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="3" dy="6" stdDeviation="5" flood-color="#5a2626" flood-opacity=".35"/></filter>
-        <filter id="ss" x="-50%" y="-10%" width="200%" height="120%"><feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#5a2626" flood-opacity=".3"/></filter>
-      </defs>
-      <g id="hh" filter="url(#hs)"><rect x="-5" y="-55" width="10" height="60" rx="5" fill="#6b2a2a"/><rect x="-16" y="-245" width="32" height="200" rx="16" fill="#6b2a2a"/></g>
-      <g id="mh" filter="url(#hs)"><rect x="-5" y="-55" width="10" height="60" rx="5" fill="#6b2a2a"/><rect x="-14" y="-355" width="28" height="310" rx="14" fill="#6b2a2a"/></g>
-      <circle cx="500" cy="500" r="13" fill="#6b2a2a"/>
-      <g id="sh" filter="url(#ss)"><rect x="-2.5" y="-380" width="5" height="450" rx="2.5" fill="#ef4fc9"/><circle r="10" fill="#ef4fc9"/><circle r="4.5" fill="#f6dfe9"/></g>
-    </svg>
-  </div>
-  <div class="info" id="binfoL"></div>
-  <div class="info" id="binfoR"></div>
-</div>
-</div>
 <div class="page" id="pnews">
 <div class="stage" id="newsp">
   <div class="top"><h1>新聞<span>News · 香港 · UK · World</span></h1><div class="upd"><span id="nupd"></span><button id="play2" class="play" type="button">▶ 播放</button></div></div>
@@ -859,12 +840,6 @@ body.night #live { display: none; }   /* no scores on the night clock */
   <div id="bkMain"><div id="bkUp"><div id="bkL"><div id="bkCov"></div><div id="bkMeta"></div></div><div id="bkTx"><div id="bkTag"></div><div id="bkT">Loading…</div><div id="bkTz"></div><div id="bkA"></div><p id="bkEn"></p><p id="bkZh"></p></div></div><div id="bkRv"></div></div>
 </div>
 </div>
-<div class="page" id="penergy">
-<div class="stage" id="energy">
-  <div class="top"><h1>能源<span>Energy · Octopus</span></h1><div class="rng"><span class="sm" id="etag" hidden>示範 · sample</span><span id="eupd"></span></div></div>
-  <div id="ebody"></div>
-</div>
-</div>
 <div class="page" id="pspace">
 <div class="stage" id="space">
   <div class="top"><h1>太空角落<span>Space corner</span></h1><div id="spDist"></div></div>
@@ -886,6 +861,31 @@ body.night #live { display: none; }   /* no scores on the night clock */
 <div class="stage" id="bday">
   <div class="top"><h1>生日倒數<span>Birthdays</span></h1><div class="rng"><span class="sm" id="btag" hidden>示範 · sample</span><span id="bnow"></span></div></div>
   <div id="bd"></div>
+</div>
+</div>
+<div class="page" id="p2">
+<div id="big">
+  <div id="face">
+    <div id="bnums"></div>
+    <svg viewBox="0 0 1000 1000" aria-hidden="true">
+      <defs>
+        <filter id="hs" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="3" dy="6" stdDeviation="5" flood-color="#5a2626" flood-opacity=".35"/></filter>
+        <filter id="ss" x="-50%" y="-10%" width="200%" height="120%"><feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#5a2626" flood-opacity=".3"/></filter>
+      </defs>
+      <g id="hh" filter="url(#hs)"><rect x="-5" y="-55" width="10" height="60" rx="5" fill="#6b2a2a"/><rect x="-16" y="-245" width="32" height="200" rx="16" fill="#6b2a2a"/></g>
+      <g id="mh" filter="url(#hs)"><rect x="-5" y="-55" width="10" height="60" rx="5" fill="#6b2a2a"/><rect x="-14" y="-355" width="28" height="310" rx="14" fill="#6b2a2a"/></g>
+      <circle cx="500" cy="500" r="13" fill="#6b2a2a"/>
+      <g id="sh" filter="url(#ss)"><rect x="-2.5" y="-380" width="5" height="450" rx="2.5" fill="#ef4fc9"/><circle r="10" fill="#ef4fc9"/><circle r="4.5" fill="#f6dfe9"/></g>
+    </svg>
+  </div>
+  <div class="info" id="binfoL"></div>
+  <div class="info" id="binfoR"></div>
+</div>
+</div>
+<div class="page" id="penergy">
+<div class="stage" id="energy">
+  <div class="top"><h1>能源<span>Energy · Octopus</span></h1><div class="rng"><span class="sm" id="etag" hidden>示範 · sample</span><span id="eupd"></span></div></div>
+  <div id="ebody"></div>
 </div>
 </div>
 </div></div>
@@ -920,11 +920,11 @@ var CONFIG = {
   secondCity: '香港', secondZone: 'Asia/Hong_Kong',
   // Pages turn by themselves: each page in 'pages' (1 = dashboard) shows for 'secs' seconds.
   // After a swipe to a page outside the list, it stays there for 'stay' seconds before carrying on.
-  // Pages 3 (big pink clock) and 7 (energy) are left out on purpose: swipe to them any time.
-  rotate: { secs: 60, pages: [1, 2, 4, 5, 6, 8], stay: 300 },
+  // The big pink clock (page 9) and energy (page 10) sit at the end, outside the turning pages: swipe to them any time.
+  rotate: { secs: 60, pages: [1, 2, 3, 4, 5, 6], stay: 300 },
   // Night mode: between these hours (iPad's own clock) a dim, soft clock replaces the pages.
   // A tap shows the dashboard (dimmed) for 'wake' seconds, then the night clock comes back. ?night=1 / ?night=0 to test.
-  // Birthday page (last page): joins the turning pages when the next birthday is this many days away or less.
+  // Birthday page (page 8): joins the turning pages when the next birthday is this many days away or less.
   birthdaySoon: 14,
   night: { from: 23, to: 7, wake: 120 },
   // Live football scores (ESPN): a card shows at the top while a match is on.
@@ -991,7 +991,7 @@ function fitStage() {
 addEventListener('resize', fitStage); fitStage();
 
 /* ---------- pages: swipe left/right, tap the dots, or use the arrow keys ----------
-   Page 1 is the dashboard, page 2 this week's calendar, page 3 the analog clock, page 4 the news map, page 5 the Hong Kong corner, page 6 book of the day, page 7 home energy (Octopus), page 8 the space corner, page 9 the league table, page 10 birthday countdown. To add a page, add another
+   Page 1 is the dashboard, page 2 this week's calendar, page 3 the news map, page 4 the Hong Kong corner, page 5 book of the day, page 6 the space corner, page 7 the league table, page 8 birthday countdown, page 9 the analog clock, page 10 home energy (Octopus). To add a page, add another
    <div class="page"> inside #track. The iPad remembers the last page shown. */
 var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
 (function () {
@@ -1118,7 +1118,7 @@ $('night').addEventListener('click', function () {
 });
 document.addEventListener('touchstart', function () { if (NIGHT && Date.now() < peekUntil) peekUntil = Math.max(peekUntil, Date.now() + 60000); }, { passive: true });   // still using it: stay awake a bit longer
 
-/* ---------- page 3: analog clock ---------- */
+/* ---------- page 9: analog clock ---------- */
 var ZH_DAYS = ['星期日','星期一','星期二','星期三','星期四','星期五','星期六'];
 (function () {   // 12 upright engraved numbers, evenly spaced around the inside of the square face
   var out = '', R = 39;   // % of the face from centre to the number ring
@@ -1844,7 +1844,7 @@ $('play2').addEventListener('click', function () {   // ▶ 播放 on the news p
   speechSynthesis.speak(u);
 });
 
-/* ---------- page 4: Premier League table ----------
+/* ---------- page 7: Premier League table ----------
    table.json is saved every hour by .github/workflows/table.yml (tools/build_table.py),
    so the iPad never has to reach the football site itself. */
 function esc(t) { return String(t).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
@@ -2441,7 +2441,7 @@ $('bkPlay').addEventListener('click', function () {   // read today's brief alou
   bt.classList.add('on'); bt.textContent = '■ 停止';
   speechSynthesis.speak(u);
 });
-/* ---------- Space corner (page 8) ----------
+/* ---------- Space corner (page 6) ----------
    space.json is saved every 3 hours by .github/workflows/space.yml (tools/build_space.py):
    the newest raw photos from NASA's Mars rovers, NASA's picture of the day, when the Space
    Station can be seen from Northwood, its path for the next 12 hours, and the moon's phases.
