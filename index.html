@@ -472,6 +472,38 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 #hkLive[hidden] { display: none; }
 #hkLive iframe { width: 90vw; height: 50.6vw; max-height: 86vh; max-width: 153vh; border: 0; border-radius: 18px; background: #000; }
 #hkLive button { position: absolute; top: max(16px, env(safe-area-inset-top)); right: 20px; font: 700 18px var(--font); background: #2a3646; color: var(--fg); border: 0; border-radius: 999px; padding: 10px 20px; }
+/* ----- live football score: a small card at the top of every page while a match is on ----- */
+#live { position: fixed; left: 50%; top: max(12px, env(safe-area-inset-top)); transform: translateX(-50%); z-index: 6; display: flex; align-items: center; gap: 8px; pointer-events: auto; }
+#live[hidden] { display: none; }
+#live .m { display: flex; align-items: center; gap: 14px; padding: 9px 20px 9px 14px; border-radius: 999px; background: rgba(10,14,20,.86); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border: 1px solid #2a3647; box-shadow: 0 8px 30px rgba(0,0,0,.35); font-weight: 700; white-space: nowrap; }
+#live .m.fav { border-color: #da291c; background: linear-gradient(90deg, rgba(90,10,10,.9), rgba(10,14,20,.9) 40%, rgba(10,14,20,.9) 60%, rgba(90,10,10,.9)); }
+#live .m.small { font-size: 15px; padding: 5px 14px 5px 10px; gap: 10px; opacity: .9; }
+#live .m.small img { width: 22px; height: 22px; }
+#live .m.small .sc { font-size: 20px; min-width: 56px; }
+#live .tm { display: flex; align-items: center; gap: 8px; font-size: 20px; }
+#live img { width: 34px; height: 34px; object-fit: contain; }
+#live .sc { font-size: 32px; letter-spacing: .02em; min-width: 84px; text-align: center; font-variant-numeric: tabular-nums; }
+#live .st { font-size: 15px; color: #c9d3df; display: flex; align-items: center; gap: 6px; min-width: 50px; }
+#live .st i { width: 9px; height: 9px; border-radius: 50%; background: #ff3b30; animation: lvPulse 1.6s infinite; }
+#live .st.pre, #live .st.ft { color: var(--sun); }
+#live .m.goal { animation: lvGoal .6s ease-in-out 6 alternate; }
+#live .m.goal .sc { color: var(--sun); }
+#live .gl { font-size: 15px; color: var(--sun); letter-spacing: .08em; }
+@keyframes lvPulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+@keyframes lvGoal { from { transform: scale(1); } to { transform: scale(1.08); box-shadow: 0 0 40px rgba(243,182,73,.6); } }
+/* ----- night mode: a dim, soft clock on black (CONFIG.night). Tap to see the dashboard for a while. ----- */
+#night { position: fixed; inset: 0; z-index: 50; background: #000; display: none; color: #b98a5e; }
+body.night #night { display: block; }
+body.night #pages, body.night #dots { display: none; }   /* hidden pages stop their animations: easy on the old iPad */
+#nclk { position: absolute; left: 50%; top: 50%; text-align: center; transform: translate(-50%, -50%); transition: margin 2s ease; opacity: .55; }
+#ntime { white-space: nowrap; font-weight: 300; line-height: .9; letter-spacing: -.04em; font-variant-numeric: tabular-nums; text-shadow: 0 0 40px rgba(185,138,94,.25); }
+#ntime i { font-style: normal; display: inline-block; animation: nColon 4s ease-in-out infinite; }
+@keyframes nColon { 0%, 100% { opacity: .9; } 50% { opacity: .25; } }
+#ndate { font-weight: 500; letter-spacing: .03em; margin-top: .9em; opacity: .65; }
+#ntemp { font-weight: 500; margin-top: .5em; opacity: .5; }
+#nhint { position: absolute; left: 0; right: 0; bottom: 18px; text-align: center; font-size: 13px; color: #b98a5e; opacity: .18; }
+body.peek #pages { opacity: .5; }
+body.night #live { display: none; }   /* no scores on the night clock */
 </style>
 </head>
 <body>
@@ -526,6 +558,8 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 </div>
 </div></div>
 <div id="dots"></div>
+<div id="live" hidden></div>
+<div id="night"><div id="nclk"><div id="ntime"></div><div id="ndate"></div><div id="ntemp"></div></div><div id="nhint">輕按顯示 · Tap to wake</div></div>
 <div id="note" hidden><div class="box">
   <div class="top"><div class="thumb" id="nThumb"></div><div><h3>留言 · Add a note</h3><div class="sub" id="nSub"></div></div></div>
   <div class="old" id="nOld"></div>
@@ -545,7 +579,12 @@ var CONFIG = {
   // Pages turn by themselves: each page in 'pages' (1 = dashboard) shows for 'secs' seconds.
   // After a swipe to a page outside the list, it stays there for 'stay' seconds before carrying on.
   rotate: { secs: 60, pages: [1, 2, 3, 4], stay: 300 },
-  dimFrom: 23, dimTo: 7          // screen dims between these hours
+  // Night mode: between these hours (iPad's own clock) a dim, soft clock replaces the pages.
+  // A tap shows the dashboard (dimmed) for 'wake' seconds, then the night clock comes back. ?night=1 / ?night=0 to test.
+  night: { from: 23, to: 7, wake: 120 },
+  // Live football scores (ESPN): a card shows at the top while a match is on.
+  // 'follow' = your team (names or ESPN 3-letter code); its cup games show too, and its match day shows a kick-off time.
+  football: { follow: ['Man United', 'Manchester United', 'MUN'], leagues: ['eng.1'], cups: ['eng.fa', 'eng.league_cup', 'uefa.champions', 'uefa.europa', 'uefa.europa.conf'] }
 };
 /* =================================== */
 
@@ -661,6 +700,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, pageAt = Date.now();
   document.addEventListener('touchstart', function () { pageAt = Date.now(); }, { passive: true });
   setInterval(function () {
     var R = CONFIG.rotate; if (!R || !R.secs || !R.pages || !R.pages.length) return;
+    if (isNight()) { pageAt = Date.now(); return; }   // night: no page turning, even while peeking
     if ((typeof noteOpen !== 'undefined' && noteOpen) || (window.speechSynthesis && speechSynthesis.speaking)) { pageAt = Date.now(); return; }
     var list = R.pages.map(function (p) { return p - 1; }), at = list.indexOf(PAGE);
     if (Date.now() - pageAt < (at >= 0 ? R.secs : R.stay || R.secs) * 1000) return;
@@ -682,13 +722,50 @@ function tick() {
       d.toLocaleDateString('zh-HK', { timeZone: CONFIG.secondZone, weekday: 'short' });
   } catch (e) { $('hk').innerHTML = ''; }
   bigTick(d);
-  var dim = CONFIG.dimFrom > CONFIG.dimTo ? (h >= CONFIG.dimFrom || h < CONFIG.dimTo) : (h >= CONFIG.dimFrom && h < CONFIG.dimTo);
-  $('pages').style.opacity = dim ? '0.35' : '1';
+  nightTick(d);
   if (d.getSeconds() === 0) { // nudge a few pixels every minute against screen burn-in
     var st = document.querySelectorAll('.stage');
     for (var i = 0; i < st.length; i++) { st[i].style.marginLeft = (d.getMinutes() % 5 - 2) + 'px'; st[i].style.marginTop = (d.getMinutes() % 3 - 1) + 'px'; }
   }
 }
+
+/* ---------- night mode ---------- */
+var NIGHT = false, peekUntil = 0, NIGHT_TEST = new URLSearchParams(location.search).get('night');
+function isNight() {
+  if (NIGHT_TEST === '1') return true; if (NIGHT_TEST === '0') return false;
+  var N = CONFIG.night; if (!N) return false;
+  var h = new Date().getHours();
+  return N.from > N.to ? (h >= N.from || h < N.to) : (h >= N.from && h < N.to);
+}
+function nightTick(d) {
+  var on = isNight(), show = on && Date.now() >= peekUntil;
+  if (on !== NIGHT) { NIGHT = on; if (!on) peekUntil = 0; }
+  document.body.classList.toggle('peek', on && !show);
+  if (show !== document.body.classList.contains('night')) {
+    document.body.classList.toggle('night', show);
+    if (!show) fitStage();   // pages were hidden; lay them out again
+  }
+  if (!show) return;
+  $('ntime').innerHTML = pad(d.getHours()) + '<i>:</i>' + pad(d.getMinutes());
+  $('ndate').innerHTML = DAYS[d.getDay()] + ' ' + d.getDate() + ' ' + MONTHS[d.getMonth()].slice(0, 3) + ' · ' + (d.getMonth() + 1) + '月' + d.getDate() + '日 ' + ZH_DAYS[d.getDay()];
+  var t = [];
+  if (typeof W !== 'undefined' && W) t.push('外 ' + r(W.current.temperature_2m) + '°');
+  if (typeof HOME !== 'undefined' && HOME && homeAge() <= 12 * 60) t.push('室內 ' + HOME.temp.toFixed(1) + '°');
+  $('ntemp').innerHTML = t.join('  ·  ');
+  var S = Math.min(innerWidth, innerHeight), c = $('nclk');
+  $('ntime').style.fontSize = Math.round(Math.min(innerWidth * 0.27, S * 0.36)) + 'px';
+  $('ndate').style.fontSize = $('ntemp').style.fontSize = Math.round(S * 0.026) + 'px';
+  if (d.getSeconds() === 0 || !c.style.marginLeft) {   // drift slowly so nothing burns into the screen
+    var m = d.getMinutes();
+    c.style.marginLeft = Math.round(Math.sin(m / 60 * 2 * Math.PI) * innerWidth * 0.06) + 'px';
+    c.style.marginTop = Math.round(Math.cos(m / 60 * 4 * Math.PI) * innerHeight * 0.06) + 'px';
+  }
+}
+$('night').addEventListener('click', function () {
+  peekUntil = Date.now() + ((CONFIG.night && CONFIG.night.wake) || 120) * 1000;
+  nightTick(new Date());
+});
+document.addEventListener('touchstart', function () { if (NIGHT && Date.now() < peekUntil) peekUntil = Math.max(peekUntil, Date.now() + 60000); }, { passive: true });   // still using it: stay awake a bit longer
 
 /* ---------- page 3: analog clock ---------- */
 var ZH_DAYS = ['星期日','星期一','星期二','星期三','星期四','星期五','星期六'];
@@ -912,7 +989,7 @@ function nextPhoto() {
   pIdx = (pIdx + 1) % els.length; els[pIdx].classList.add('on');
   var p = PHOTOS[els.length - 1 - pIdx] || {};
   showCaption(p);
-  if (p.video) playVideo(els[pIdx], p); else photoAfter(PHOTO_SECS);
+  if (p.video && !document.body.classList.contains('night')) playVideo(els[pIdx], p); else photoAfter(PHOTO_SECS);
 }
 /* Videos (photos.json "video": "photos/<id>.mp4", "src" is its poster frame) play silently:
    iPad Safari only starts a video by itself when it is muted. When it ends, the slideshow moves on. */
@@ -1371,6 +1448,94 @@ function showTable(d) {
 }
 loadTable(); setInterval(loadTable, 30 * 60 * 1000);
 
+/* ---------- live football scores ----------
+   The iPad asks ESPN's public scoreboard directly (it allows this): every minute while a game
+   is on or about to start, otherwise every few minutes. If that fails it reads scores.json,
+   which GitHub saves every 5 minutes (.github/workflows/scores.yml). Premier League games show
+   while they're live; the followed team also shows on match day (kick-off time) and for
+   45 minutes after full time, in cup games too. A goal makes the card pulse. Tap = league table. */
+var LIVE = { games: {}, got: {}, last: {}, goalAt: {} };
+function liveSide(c) { var t = c.team || {}; return { name: t.shortDisplayName || t.displayName || '?', abbr: t.abbreviation || '', logo: t.logo || '', score: c.score || '' }; }
+function liveParse(lg, d) {
+  return (d.events || []).map(function (e) {
+    var comp = (e.competitions || [{}])[0], cs = comp.competitors || [], st = e.status || {}, ty = st.type || {};
+    var h = cs.filter(function (c) { return c.homeAway === 'home'; })[0] || cs[0] || {}, a = cs.filter(function (c) { return c.homeAway === 'away'; })[0] || cs[1] || {};
+    return { id: e.id, league: lg, date: e.date, state: ty.state || 'pre', detail: ty.shortDetail || '', clock: st.displayClock || '', home: liveSide(h), away: liveSide(a) };
+  });
+}
+function liveFav(m) {
+  var f = [].concat(CONFIG.football.follow || []).map(function (x) { return String(x).toLowerCase(); });
+  return [m.home, m.away].some(function (s) { return f.indexOf(s.name.toLowerCase()) >= 0 || f.indexOf(String(s.abbr).toLowerCase()) >= 0; });
+}
+function liveHot(lg) {   // a game in this league is on, or starts within 15 minutes
+  var g = LIVE.games[lg] || [], now = Date.now();
+  return g.some(function (m) { var t = Date.parse(m.date); return m.state === 'in' || (m.state === 'pre' && t - now < 15 * 60000 && now - t < 3 * 3600000); });
+}
+function liveFetch(lg) {
+  LIVE.last[lg] = Date.now();
+  return fetch('https://site.api.espn.com/apis/site/v2/sports/soccer/' + lg + '/scoreboard?t=' + Date.now())
+    .then(function (r) { if (!r.ok) throw 0; return r.json(); })
+    .then(function (d) { LIVE.games[lg] = liveParse(lg, d); LIVE.got[lg] = Date.now(); })
+    .catch(function () {   // backup copy saved by GitHub
+      return fetch('scores.json?t=' + Date.now()).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) {
+        LIVE.games[lg] = (d.matches || []).filter(function (m) { return m.league === lg; });
+      }).catch(function () {});
+    });
+}
+function livePoll() {
+  var F = CONFIG.football; if (!F) return;
+  var q = new URLSearchParams(location.search).get('scores');
+  if (q === 'demo') { liveDemo(); return; }
+  var jobs = [];
+  (F.leagues || []).concat(F.cups || []).forEach(function (lg) {
+    var cup = (F.leagues || []).indexOf(lg) < 0, wait = liveHot(lg) ? 55e3 : cup ? 30 * 60e3 : 10 * 60e3;
+    if (!LIVE.last[lg] || Date.now() - LIVE.last[lg] >= wait) jobs.push(liveFetch(lg));
+  });
+  if (jobs.length) Promise.all(jobs).then(liveShow); else liveShow();
+}
+function liveShow() {
+  var F = CONFIG.football, now = Date.now(), show = [];
+  Object.keys(LIVE.games).forEach(function (lg) {
+    var cup = (F.leagues || []).indexOf(lg) < 0;
+    LIVE.games[lg].forEach(function (m) {
+      var fav = liveFav(m), t = Date.parse(m.date);
+      if (cup && !fav) return;
+      if (m.state === 'in') show.push(m);
+      else if (fav && m.state === 'pre' && t - now < 4 * 3600000 && t - now > -3 * 3600000 && new Date(t).toDateString() === new Date().toDateString()) show.push(m);
+      else if (fav && m.state === 'post' && now - t < (110 + 45) * 60000) show.push(m);
+      var k = m.home.score + '-' + m.away.score, was = LIVE.goalAt[m.id];
+      if (m.state === 'in' && was && was.k !== k) LIVE.goalAt[m.id] = { k: k, at: now }; else if (!was) LIVE.goalAt[m.id] = { k: k, at: 0 };
+    });
+  });
+  show.sort(function (a, b) { return (liveFav(b) - liveFav(a)) || ((b.state === 'in') - (a.state === 'in')) || (Date.parse(a.date) - Date.parse(b.date)); });
+  show = show.slice(0, 3);   // one row: the main game, then up to two small ones
+  var el = $('live');
+  if (!show.length) { el.hidden = true; el.innerHTML = ''; return; }
+  el.hidden = false;
+  el.innerHTML = show.map(function (m, i) {
+    var g = LIVE.goalAt[m.id], goal = g && g.at && now - g.at < 90e3, st;
+    if (m.state === 'in') st = '<span class="st"><i></i>' + esc(/HT|Half/i.test(m.detail) ? '半場 HT' : m.clock || m.detail) + '</span>';
+    else if (m.state === 'pre') { var k = new Date(Date.parse(m.date)); st = '<span class="st pre">' + pad(k.getHours()) + ':' + pad(k.getMinutes()) + ' 開波</span>'; }
+    else st = '<span class="st ft">完場 FT</span>';
+    var sc = m.state === 'pre' ? 'v' : esc(m.home.score) + ' – ' + esc(m.away.score);
+    function tm(s, right) { var img = s.logo ? '<img src="' + esc(s.logo) + '" alt="" onerror="this.style.display=\'none\'">' : ''; var n = '<span>' + esc(i ? s.abbr || s.name : s.name) + '</span>'; return '<span class="tm">' + (right ? n + img : img + n) + '</span>'; }
+    return '<div class="m' + (liveFav(m) ? ' fav' : '') + (i ? ' small' : '') + (goal ? ' goal' : '') + '">' + (goal ? '<span class="gl">GOAL 入波!</span>' : '') +
+      tm(m.home, true) + '<span class="sc">' + sc + '</span>' + tm(m.away, false) + st + '</div>';
+  }).join('');
+}
+function liveDemo() {   // ?scores=demo shows made-up games, for checking the look
+  var t = new Date(Date.now() + 75 * 60000).toISOString(), L = 'https://a.espncdn.com/i/teamlogos/soccer/500/';
+  LIVE.games = { 'eng.1': [
+    { id: 'd1', league: 'eng.1', date: new Date(Date.now() - 70 * 60000).toISOString(), state: 'in', detail: "67'", clock: "67'", home: { name: 'Man United', abbr: 'MUN', logo: L + '360.png', score: '2' }, away: { name: 'Liverpool', abbr: 'LIV', logo: L + '364.png', score: '1' } },
+    { id: 'd2', league: 'eng.1', date: new Date(Date.now() - 70 * 60000).toISOString(), state: 'in', detail: 'HT', clock: "45'", home: { name: 'Arsenal', abbr: 'ARS', logo: L + '359.png', score: '0' }, away: { name: 'Chelsea', abbr: 'CHE', logo: L + '363.png', score: '0' } },
+    { id: 'd3', league: 'eng.1', date: new Date(Date.now() - 20 * 60000).toISOString(), state: 'in', detail: "21'", clock: "21'", home: { name: 'Newcastle', abbr: 'NEW', logo: L + '361.png', score: '1' }, away: { name: 'Spurs', abbr: 'TOT', logo: L + '367.png', score: '1' } }
+  ] };
+  LIVE.goalAt = { d1: { k: '2-1', at: Date.now() } };
+  liveShow();
+}
+$('live').onclick = function () { var p = $('p3'); if (p) goPage([].indexOf.call(p.parentNode.children, p)); };
+livePoll(); setInterval(livePoll, 30 * 1000);
+
 /* ---------- warm-up button ----------
    A web page can't change Apple Home itself, so the button runs the
    "Warm Up Home" Shortcut, which sets every heater to the warm temperature. */
@@ -1491,7 +1656,7 @@ function hkWxDraw() {
 }
 // Only play the time-lapse while this page shows (keeps the old iPad cool).
 setInterval(function () {
-  var on = PAGE === HK_PAGE;
+  var on = PAGE === HK_PAGE && !document.body.classList.contains('night');
   if (on && !hkShown) { hkShown = true; hkCamsDraw(); hkLoadLapse(); clearTimeout(hkTimer); hkStep(); }
   if (!on && hkShown) { hkShown = false; clearTimeout(hkTimer); }
   if (on) hkClock();
