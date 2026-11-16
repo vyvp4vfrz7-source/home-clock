@@ -436,6 +436,44 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 .nw.en span { color: var(--rain); }
 #status { position: absolute; right: 36px; bottom: 6px; font-size: 11px; color: #3d4a5c; }
 
+/* ----- Hong Kong corner (page 5): Observatory cameras, time-lapse, HK weather ----- */
+#hkc { padding: 30px 40px 70px; display: grid; grid-template-columns: 960px 1fr; grid-template-rows: auto 540px 1fr; gap: 18px 22px; }
+#hkc .top { grid-column: 1 / 3; display: flex; align-items: baseline; justify-content: space-between; padding: 0 6px; }
+#hkc h1 { margin: 0; font-size: 44px; font-weight: 600; letter-spacing: -.01em; }
+#hkc h1 span { color: var(--muted); font-weight: 400; font-size: 30px; margin-left: 12px; }
+#hkTime { font-size: 54px; font-weight: 600; letter-spacing: -.02em; }
+#hkTime small { font-size: 24px; color: var(--muted); font-weight: 500; margin-left: 14px; letter-spacing: 0; }
+#hkView { position: relative; border-radius: 26px; overflow: hidden; background: #05080c; }
+#hkView img, #hkCams .cam img { position: absolute; left: 0; top: -6%; width: 100%; height: 106%; object-fit: cover; object-position: bottom; }   /* hide the Observatory's white caption strip */
+#hkView .chip { position: absolute; left: 18px; top: 16px; background: rgba(8,12,18,.62); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-radius: 12px; padding: 7px 14px; font-size: 20px; font-weight: 600; }
+#hkView .chip b { color: var(--sun); font-weight: 700; margin-left: 8px; font-size: 17px; }
+#hkView .bar { position: absolute; left: 18px; right: 18px; bottom: 14px; height: 5px; border-radius: 3px; background: rgba(255,255,255,.18); overflow: hidden; }
+#hkView .bar i { display: block; height: 100%; width: 0; background: var(--sun); border-radius: 3px; }
+#hkLiveBtn { position: absolute; right: 16px; top: 14px; font: 700 18px var(--font); background: #ff0033; color: #fff; border: 0; border-radius: 999px; padding: 9px 18px; }
+#hkLiveBtn[hidden] { display: none; }
+#hkWx { background: var(--tile); border: 1px solid var(--line); border-radius: 26px; padding: 22px 24px; display: flex; flex-direction: column; gap: 12px; overflow: hidden; }
+#hkWx .now { display: flex; align-items: center; gap: 14px; }
+#hkWx .now .ic { color: var(--sun); flex: none; }
+#hkWx .t { font-size: 72px; font-weight: 300; line-height: 1; letter-spacing: -.03em; }
+#hkWx .m { color: var(--muted); font-size: 17px; line-height: 1.4; }
+#hkWx .warn { display: flex; flex-wrap: wrap; gap: 6px; }
+#hkWx .warn span { background: #5a3a10; color: #ffd27a; border-radius: 10px; padding: 4px 10px; font-size: 15px; font-weight: 700; }
+#hkWx .desc { font-size: 17px; line-height: 1.45; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden; }
+#hkWx .days { margin-top: auto; border-top: 1px solid var(--line); }
+#hkWx .day { display: flex; align-items: center; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 18px; }
+#hkWx .day:last-child { border-bottom: 0; }
+#hkWx .day .d { width: 64px; color: var(--muted); font-weight: 600; }
+#hkWx .day .ic { color: var(--sun); }
+#hkWx .day .r { margin-left: auto; font-weight: 600; }
+#hkWx .day .r span { color: var(--muted); font-weight: 500; }
+#hkCams { grid-column: 1 / 3; display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
+#hkCams .cam { position: relative; border-radius: 18px; overflow: hidden; background: #05080c; border: 2px solid transparent; }
+#hkCams .cam.on { border-color: var(--sun); }
+#hkCams .cam span { position: absolute; left: 8px; bottom: 8px; background: rgba(8,12,18,.62); border-radius: 9px; padding: 3px 9px; font-size: 16px; font-weight: 600; }
+#hkLive { position: fixed; inset: 0; background: rgba(4,6,10,.92); z-index: 40; display: flex; align-items: center; justify-content: center; }
+#hkLive[hidden] { display: none; }
+#hkLive iframe { width: 90vw; height: 50.6vw; max-height: 86vh; max-width: 153vh; border: 0; border-radius: 18px; background: #000; }
+#hkLive button { position: absolute; top: max(16px, env(safe-area-inset-top)); right: 20px; font: 700 18px var(--font); background: #2a3646; color: var(--fg); border: 0; border-radius: 999px; padding: 10px 20px; }
 /* ----- news page: world map with a pin for each story, one story at a time below ----- */
 #newsp { padding: 30px 34px 60px; display: flex; flex-direction: column; }
 #newsp .top { display: flex; align-items: center; justify-content: space-between; padding: 0 6px 14px; }
@@ -552,6 +590,14 @@ body.night #live { display: none; }   /* no scores on the night clock */
   </div>
 </div>
 </div>
+<div class="page" id="phk">
+<div class="stage" id="hkc">
+  <div class="top"><h1>香港角落<span>Hong Kong corner</span></h1><div id="hkTime" class="num"></div></div>
+  <div id="hkView"><img id="hkA" alt=""><div class="chip" id="hkChip"></div><button type="button" id="hkLiveBtn" hidden>▶ 直播 Live</button><div class="bar"><i id="hkBar"></i></div></div>
+  <div id="hkWx"><div class="m">載入香港天氣… Loading HK weather</div></div>
+  <div id="hkCams"></div>
+</div>
+</div>
 <div class="page" id="p3">
 <div class="stage" id="league">
   <div class="top"><h1>Premier League<span>英超積分榜</span></h1><div id="apps"><a class="app sp" href="spotify:"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">Spotify</span></a><a class="app yt" href="youtube://"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">YouTube</span></a></div><div class="upd" id="lupd"></div></div>
@@ -580,7 +626,7 @@ var CONFIG = {
   secondCity: '香港', secondZone: 'Asia/Hong_Kong',
   // Pages turn by themselves: each page in 'pages' (1 = dashboard) shows for 'secs' seconds.
   // After a swipe to a page outside the list, it stays there for 'stay' seconds before carrying on.
-  rotate: { secs: 60, pages: [1, 2, 3, 4], stay: 300 },
+  rotate: { secs: 60, pages: [1, 2, 3, 4, 5], stay: 300 },
   // Night mode: between these hours (iPad's own clock) a dim, soft clock replaces the pages.
   // A tap shows the dashboard (dimmed) for 'wake' seconds, then the night clock comes back. ?night=1 / ?night=0 to test.
   night: { from: 23, to: 7, wake: 120 },
@@ -648,7 +694,7 @@ function fitStage() {
 addEventListener('resize', fitStage); fitStage();
 
 /* ---------- pages: swipe left/right, tap the dots, or use the arrow keys ----------
-   Page 1 is the dashboard, page 2 this week's calendar, page 3 the analog clock, page 4 the news map, page 5 the league table. To add a page, add another
+   Page 1 is the dashboard, page 2 this week's calendar, page 3 the analog clock, page 4 the news map, page 5 the Hong Kong corner, page 6 the league table. To add a page, add another
    <div class="page"> inside #track. The iPad remembers the last page shown. */
 var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, pageAt = Date.now();
 (function () {
@@ -1601,6 +1647,123 @@ $('heat').onclick = function (e) {
   location.href = 'shortcuts://run-shortcut?name=' + encodeURIComponent(CONFIG.heat.shortcut);
 };
 heatShow(); setInterval(heatShow, 60 * 1000);
+
+/* ---------- Hong Kong corner (page 5) ----------
+   Photos come straight from the Hong Kong Observatory's weather cameras (a new one every
+   5 minutes). The big view plays the last 3 hours as a time-lapse; tap a small camera to
+   switch. Weather is the Observatory's open data (fetched directly, or hk.json saved by
+   .github/workflows/hk.yml if this device can't reach it). The red Live button only shows
+   when CONFIG.hkLive is set to a YouTube channel id that streams Hong Kong live. */
+var HK_CAMS = [
+  ['vpb', '太平山', 'The Peak'], ['ic1', '環球貿易廣場', 'ICC'], ['cp1', '中環碼頭', 'Central Pier'],
+  ['hko', '尖沙咀', 'Tsim Sha Tsui'], ['swh', '西灣河', 'Sai Wan Ho']
+];
+CONFIG.hkLive = CONFIG.hkLive || '';   // e.g. 'UC…' (a channel that is live 24/7); '' hides the button
+var hkLoads = 0, HK_PAGE = -1, hkCam = 0, hkFrames = [], hkAt = 0, hkTimer = null, hkShown = false;
+(function () { var p = $('track').children; for (var i = 0; i < p.length; i++) if (p[i].id === 'phk') HK_PAGE = i; })();
+function hkNow() {   // Hong Kong wall-clock time as a Date whose UTC fields read HK time
+  return new Date(Date.now() + 8 * 3600 * 1000);
+}
+function hkImg(code, d) {   // .../hko_mica/vpb/imgVPB_261117_0145.jpg  (HK time, 5-minute steps)
+  var C = code.toUpperCase();
+  if (!d) return 'https://www.hko.gov.hk/wxinfo/aws/hko_mica/' + code + '/latest_' + C + '.jpg?t=' + Math.floor(Date.now() / 300000);
+  return 'https://www.hko.gov.hk/wxinfo/aws/hko_mica/' + code + '/img' + C + '_' + String(d.getUTCFullYear()).slice(2) +
+    pad(d.getUTCMonth() + 1) + pad(d.getUTCDate()) + '_' + pad(d.getUTCHours()) + pad(d.getUTCMinutes()) + '.jpg';
+}
+function hkCamsDraw() {
+  var h = '';
+  for (var i = 0; i < HK_CAMS.length; i++)
+    h += '<div class="cam' + (i === hkCam ? ' on' : '') + '" data-i="' + i + '"><img src="' + hkImg(HK_CAMS[i][0]) + '" alt=""><span>' + HK_CAMS[i][1] + '</span></div>';
+  $('hkCams').innerHTML = h;
+}
+$('hkCams').addEventListener('click', function (e) {
+  var c = e.target.closest ? e.target.closest('.cam') : null; if (!c) return;
+  hkCam = +c.getAttribute('data-i'); hkCamsDraw(); hkLoadLapse();
+});
+function hkLoadLapse() {
+  // Last 3 hours of photos, oldest first. Start 10 minutes back: the newest file takes a few minutes to appear.
+  var code = HK_CAMS[hkCam][0], end = hkNow(), list = [], n;
+  end.setUTCSeconds(0, 0); end.setUTCMinutes(end.getUTCMinutes() - end.getUTCMinutes() % 5 - 10);
+  for (n = 36; n >= 0; n--) list.push(hkImg(code, new Date(end.getTime() - n * 300000)));
+  var token = ++hkLoads, left = list.length, ok = {};
+  hkFrames = []; hkAt = 0;
+  list.forEach(function (u) {
+    var im = new Image();
+    im.onload = function () { ok[u] = 1; done(); }; im.onerror = done; im.src = u;
+  });
+  function done() { if (--left || token !== hkLoads) return; hkFrames = list.filter(function (u) { return ok[u]; }); if (!hkFrames.length) hkFrames = [hkImg(code)]; hkAt = 0; }
+  $('hkA').src = hkImg(code);
+  $('hkChip').innerHTML = HK_CAMS[hkCam][1] + ' ' + HK_CAMS[hkCam][2] + '<b>縮時 3 小時</b>';
+}
+function hkStep() {
+  if (!hkFrames.length) { hkTimer = setTimeout(hkStep, 1000); return; }
+  var last = hkAt >= hkFrames.length - 1, u = hkFrames[hkAt];
+  $('hkA').src = u;
+  var m = u.match(/_(\d\d)(\d\d)\.jpg$/);
+  $('hkChip').innerHTML = HK_CAMS[hkCam][1] + ' ' + HK_CAMS[hkCam][2] + '<b>' + (m ? m[1] + ':' + m[2] : '') + (last ? ' 最新' : '') + '</b>';
+  $('hkBar').style.width = ((hkAt + 1) / hkFrames.length * 100) + '%';
+  hkAt = last ? 0 : hkAt + 1;
+  hkTimer = setTimeout(hkStep, last ? 4000 : 280);   // hold on the newest photo, then play again
+}
+function hkClock() {
+  var d = hkNow(), zh = ['日','一','二','三','四','五','六'];
+  $('hkTime').innerHTML = pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()) + '<small>' + (d.getUTCMonth() + 1) + '月' + d.getUTCDate() + '日 星期' + zh[d.getUTCDay()] + '</small>';
+}
+// HKO weather icon numbers -> our icons (https://www.hko.gov.hk/textonly/v2/explain/wxicon_e.htm)
+function hkIcon(n) {
+  if (n === 50) return 'sun'; if (n === 51 || n === 52) return 'partly'; if (n === 53 || n === 54 || n === 62 || n === 63 || n === 64) return 'rain';
+  if (n === 65) return 'storm'; if (n >= 70 && n <= 77) return 'night'; if (n === 83 || n === 84 || n === 85) return 'fog'; return 'cloud';
+}
+var HKW = null;
+function hkWeather() {
+  var A = 'https://data.weather.gov.hk/weatherAPI/opendata/weather.php?lang=tc&dataType=';
+  function get(u) { return fetch(u).then(function (r) { if (!r.ok) throw 0; return r.json(); }); }
+  Promise.all([get(A + 'rhrread'), get(A + 'fnd'), get(A + 'flw'), get(A + 'warnsum')])
+    .then(function (a) { HKW = { now: a[0], fnd: a[1], flw: a[2], warn: a[3] }; hkWxDraw(); })
+    .catch(function () {
+      get('hk.json?t=' + Date.now()).then(function (d) { HKW = d; hkWxDraw(); }).catch(function () {});
+    });
+}
+function hkWxDraw() {
+  if (!HKW || !HKW.now) return;
+  var now = HKW.now, t = null, hum = null, h = '', i;
+  (now.temperature && now.temperature.data || []).forEach(function (x) { if (x.place === '香港天文台') t = x.value; });
+  if (t === null && now.temperature && now.temperature.data[0]) t = now.temperature.data[0].value;
+  if (now.humidity && now.humidity.data && now.humidity.data[0]) hum = now.humidity.data[0].value;
+  var ic = now.icon && now.icon[0] || 60;
+  h += '<div class="now">' + icon(hkIcon(ic), 64, 1.4) + '<div><div class="t num">' + (t === null ? '–' : t) + '°</div></div>' +
+       '</div><div class="m">香港天文台' + (hum === null ? '' : ' · 濕度 ' + hum + '%') + (HKW.saved ? ' · 備份 ' + HKW.saved : '') + '</div>';
+  var w = HKW.warn || {}, ws = '';
+  for (var k in w) if (w[k] && w[k].name && w[k].actionCode !== 'CANCEL') ws += '<span>' + w[k].name + '</span>';
+  if (ws) h += '<div class="warn">' + ws + '</div>';
+  if (HKW.flw && HKW.flw.forecastDesc) h += '<div class="desc">' + HKW.flw.forecastDesc + '</div>';
+  var f = (HKW.fnd && HKW.fnd.weatherForecast || []).slice(0, 4);
+  if (f.length) {
+    h += '<div class="days">';
+    for (i = 0; i < f.length; i++)
+      h += '<div class="day"><span class="d">' + f[i].week.replace('星期', '週') + '</span>' + icon(hkIcon(f[i].ForecastIcon), 26, 1.6) +
+           '<span class="r num">' + f[i].forecastMaxtemp.value + '° <span>' + f[i].forecastMintemp.value + '°</span></span></div>';
+    h += '</div>';
+  }
+  $('hkWx').innerHTML = h;
+}
+// Only play the time-lapse while this page shows (keeps the old iPad cool).
+setInterval(function () {
+  var on = PAGE === HK_PAGE && !document.body.classList.contains('night');
+  if (on && !hkShown) { hkShown = true; hkCamsDraw(); hkLoadLapse(); clearTimeout(hkTimer); hkStep(); }
+  if (!on && hkShown) { hkShown = false; clearTimeout(hkTimer); }
+  if (on) hkClock();
+}, 1000);
+setInterval(function () { if (hkShown) { hkCamsDraw(); hkLoadLapse(); } }, 10 * 60 * 1000);   // fresh photos every 10 min
+hkClock(); hkWeather(); setInterval(hkWeather, 15 * 60 * 1000);
+if (CONFIG.hkLive) $('hkLiveBtn').hidden = false;
+$('hkLiveBtn').onclick = function () {
+  var box = document.createElement('div'); box.id = 'hkLive';
+  box.innerHTML = '<iframe allow="autoplay; encrypted-media" allowfullscreen src="https://www.youtube-nocookie.com/embed/live_stream?channel=' +
+    encodeURIComponent(CONFIG.hkLive) + '&autoplay=1&mute=1&playsinline=1"></iframe><button type="button">✕ 關閉 Close</button>';
+  box.querySelector('button').onclick = function () { box.parentNode.removeChild(box); };
+  document.body.appendChild(box);
+};
 
 /* ---------- automatic update ----------
    The Home Screen app keeps an old copy of the page. Every 5 minutes, fetch this page
