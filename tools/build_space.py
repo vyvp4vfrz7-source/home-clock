@@ -150,6 +150,8 @@ for back in range(0, 6):
         by = re.search(r"Credit.*?:\s*</b>(.*?)</center>", h, re.I | re.S)
         clean = lambda v: re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", v)).strip()
         log("APOD page", day.strftime("%y%m%d"), "image:", bool(m), "title:", bool(t))
+        if not t:
+            log(h[:4000])
         if m:
             src = m.group(1)
             apod = {"date": day.strftime("%Y-%m-%d"), "title": clean(t.group(1)) if t else "", "text": clean(x.group(1)) if x else "",
