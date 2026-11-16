@@ -594,7 +594,7 @@ body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state
 #hkLive[hidden] { display: none; }
 #hkLive iframe { width: 90vw; height: 50.6vw; max-height: 86vh; max-width: 153vh; border: 0; border-radius: 18px; background: #000; }
 #hkLive button { position: absolute; top: max(16px, env(safe-area-inset-top)); right: 20px; font: 700 18px var(--font); background: #2a3646; color: var(--fg); border: 0; border-radius: 999px; padding: 10px 20px; }
-/* ----- space corner (page 7): Mars rover photos, moon, ISS over Northwood, NASA picture of the day ----- */
+/* ----- space corner (page 8): Mars rover photos, moon, ISS over Northwood, NASA picture of the day ----- */
 #space { padding: 30px 40px 60px; display: grid; grid-template-columns: 900px 1fr; grid-template-rows: auto 560px 1fr; gap: 18px 22px;
   background: radial-gradient(1px 1px at 12% 18%, #fff8 50%, transparent 51%), radial-gradient(1px 1px at 33% 72%, #fff6 50%, transparent 51%),
     radial-gradient(1.5px 1.5px at 58% 9%, #fff9 50%, transparent 51%), radial-gradient(1px 1px at 81% 44%, #fff7 50%, transparent 51%),
@@ -729,6 +729,59 @@ body:not(.pnews) #newsp *, body:not(.pnews) #newsp *::before { animation-play-st
 @keyframes lvPulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
 @keyframes lvGoal { from { transform: scale(1); } to { transform: scale(1.08); box-shadow: 0 0 40px rgba(243,182,73,.6); } }
 /* ----- night mode: a dim, soft clock on black (CONFIG.night). Tap to see the dashboard for a while. ----- */
+/* ---------- energy page (Octopus) ---------- */
+#energy { padding: 30px 40px 60px; display: flex; flex-direction: column; gap: 18px; background: radial-gradient(900px 600px at 12% 10%, #182a26 0%, rgba(11,16,22,0) 70%), radial-gradient(800px 600px at 100% 100%, #2a1c14 0%, rgba(11,16,22,0) 70%); }
+#energy .top { display: flex; align-items: center; justify-content: space-between; padding: 0 6px; }
+#energy h1 { margin: 0; font-size: 44px; font-weight: 600; letter-spacing: -.01em; }
+#energy h1 span { color: var(--muted); font-weight: 400; font-size: 30px; margin-left: 12px; }
+#energy .rng { font-size: 18px; color: var(--muted); font-weight: 600; display: flex; align-items: center; gap: 12px; }
+#energy .sm { font-size: 13px; color: #c9d3df; background: var(--tile-2); padding: 4px 10px; border-radius: 9px; }
+#eflex { display: flex; flex-direction: column; gap: 10px; }
+#eflex:empty { display: none; }
+.eban { display: flex; align-items: center; gap: 18px; padding: 14px 22px; border-radius: 20px; font-size: 22px; font-weight: 600; background: linear-gradient(90deg, #1f5c3d, #18402f); color: #dff7e8; }
+.eban .ic { font-size: 34px; }
+.eban .cd { margin-left: auto; white-space: nowrap; flex: none; font-size: 26px; font-variant-numeric: tabular-nums; color: #9ff0c0; }
+.eban.now { background: linear-gradient(90deg, #2fa866, #1f7a4c); color: #fff; animation: ePulse 2.4s ease-in-out infinite; }
+.eban.now .cd { color: #fff; }
+.eban.save { background: linear-gradient(90deg, #4a2b6b, #33224d); color: #efe2ff; }
+.eban.save .cd { color: #d8b8ff; }
+.eban .sub { font-size: 16px; font-weight: 500; opacity: .75; margin-left: 6px; }
+@keyframes ePulse { 0%, 100% { opacity: 1; } 50% { opacity: .82; } }
+body:not(.penergy) #energy * { animation-play-state: paused !important; }
+#ecards { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; flex: 1.25; min-height: 0; }
+.ecard { background: var(--tile); border: 1px solid var(--line); border-radius: 26px; padding: 22px 26px 16px; display: flex; flex-direction: column; min-height: 0; }
+.ecard .hd { display: flex; align-items: baseline; justify-content: space-between; }
+.ecard .nm { font-size: 24px; font-weight: 700; }
+.ecard .nm em { font-style: normal; font-weight: 500; color: var(--muted); font-size: 18px; margin-left: 8px; }
+.ecard .dt { font-size: 17px; color: var(--muted); font-weight: 600; }
+.ecard .big { display: flex; align-items: baseline; gap: 22px; margin-top: 8px; }
+.ecard .gbp { font-size: 76px; font-weight: 300; letter-spacing: -.03em; line-height: 1; }
+.ecard .kwh { font-size: 26px; font-weight: 500; color: #c9d3df; }
+.ecard .cmp { font-size: 18px; font-weight: 600; margin-top: 6px; color: var(--muted); }
+.ecard .cmp b.up { color: #ff9b7a; } .ecard .cmp b.dn { color: #7fe0a4; }
+.ecard .ch { flex: 1; min-height: 0; margin-top: 10px; position: relative; }
+.ecard .ch svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.ecard .ax { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); font-weight: 600; padding: 4px 2px 0; }
+.ecard .nt { font-size: 16px; color: #c9d3df; margin-top: 8px; min-height: 22px; }
+.ecard.el .gbp { color: #ffd66b; } .ecard.gs .gbp { color: #ff9d5c; }
+.ecard .none { flex: 1; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 20px; text-align: center; }
+#eweek { background: var(--tile); border: 1px solid var(--line); border-radius: 26px; padding: 18px 26px 14px; display: flex; gap: 30px; flex: .85; min-height: 0; }
+#eweek .sum { width: 300px; flex: none; display: flex; flex-direction: column; justify-content: center; }
+#eweek .sum .v { font-size: 56px; font-weight: 300; letter-spacing: -.02em; }
+#eweek .sum .s { font-size: 17px; color: var(--muted); font-weight: 600; line-height: 1.5; }
+#eweek .sum .s b.up { color: #ff9b7a; } #eweek .sum .s b.dn { color: #7fe0a4; }
+#eweek .bars { flex: 1; display: flex; align-items: flex-end; gap: 16px; padding-bottom: 4px; }
+#eweek .bar { flex: 1; display: flex; flex-direction: column; align-items: center; height: 100%; justify-content: flex-end; }
+#eweek .bar .st { width: 100%; max-width: 92px; display: flex; flex-direction: column; justify-content: flex-end; border-radius: 10px; overflow: hidden; }
+#eweek .bar .st i { display: block; }
+#eweek .bar .st i.g { background: #ff9d5c; } #eweek .bar .st i.e { background: #ffd66b; }
+#eweek .bar .p { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+#eweek .bar .d { font-size: 15px; color: var(--muted); font-weight: 600; margin-top: 6px; }
+#eweek .bar.part .st { opacity: .45; }
+#eweek .key { font-size: 14px; color: var(--muted); font-weight: 600; margin-top: 10px; }
+#eweek .key i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin: 0 6px 0 14px; vertical-align: -1px; }
+#efoot { font-size: 15px; color: var(--muted); text-align: center; margin-top: -6px; }
+#energy .lock { flex: 1; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 26px; line-height: 1.6; color: var(--muted); background: var(--tile); border: 1px solid var(--line); border-radius: 26px; }
 #night { position: fixed; inset: 0; z-index: 50; background: #000; display: none; color: #b98a5e; }
 body.night #night { display: block; }
 body.night #pages, body.night #dots { display: none; }   /* hidden pages stop their animations: easy on the old iPad */
@@ -805,6 +858,12 @@ body.night #live { display: none; }   /* no scores on the night clock */
   <div id="bkNext"></div>
 </div>
 </div>
+<div class="page" id="penergy">
+<div class="stage" id="energy">
+  <div class="top"><h1>能源<span>Energy · Octopus</span></h1><div class="rng"><span class="sm" id="etag" hidden>示範 · sample</span><span id="eupd"></span></div></div>
+  <div id="ebody"></div>
+</div>
+</div>
 <div class="page" id="pspace">
 <div class="stage" id="space">
   <div class="top"><h1>太空角落<span>Space corner</span></h1><div id="spDist"></div></div>
@@ -860,7 +919,7 @@ var CONFIG = {
   secondCity: '香港', secondZone: 'Asia/Hong_Kong',
   // Pages turn by themselves: each page in 'pages' (1 = dashboard) shows for 'secs' seconds.
   // After a swipe to a page outside the list, it stays there for 'stay' seconds before carrying on.
-  rotate: { secs: 60, pages: [1, 2, 3, 4, 5, 6, 7], stay: 300 },
+  rotate: { secs: 60, pages: [1, 2, 3, 4, 5, 6, 7, 8], stay: 300 },
   // Night mode: between these hours (iPad's own clock) a dim, soft clock replaces the pages.
   // A tap shows the dashboard (dimmed) for 'wake' seconds, then the night clock comes back. ?night=1 / ?night=0 to test.
   // Birthday page (last page): joins the turning pages when the next birthday is this many days away or less.
@@ -930,7 +989,7 @@ function fitStage() {
 addEventListener('resize', fitStage); fitStage();
 
 /* ---------- pages: swipe left/right, tap the dots, or use the arrow keys ----------
-   Page 1 is the dashboard, page 2 this week's calendar, page 3 the analog clock, page 4 the news map, page 5 the Hong Kong corner, page 6 book of the day, page 7 the space corner, page 8 the league table, page 9 birthday countdown. To add a page, add another
+   Page 1 is the dashboard, page 2 this week's calendar, page 3 the analog clock, page 4 the news map, page 5 the Hong Kong corner, page 6 book of the day, page 7 home energy (Octopus), page 8 the space corner, page 9 the league table, page 10 birthday countdown. To add a page, add another
    <div class="page"> inside #track. The iPad remembers the last page shown. */
 var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
 (function () {
@@ -952,6 +1011,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
     document.body.classList.toggle('pcal', PAGE === CAL_PAGE);   // calendar animations only run while it shows
     document.body.classList.toggle('pbday', PAGE === BDAY_PAGE);
     document.body.classList.toggle('pnews', !!pages[PAGE] && pages[PAGE].id === 'pnews');
+    document.body.classList.toggle('penergy', !!pages[PAGE] && pages[PAGE].id === 'penergy');
     if (window.ZH_DAYS) bigTick(new Date());   // start or stop the sweeping hand right away
   };
   var start = +new URLSearchParams(location.search).get('page') - 1;
@@ -1996,6 +2056,178 @@ function loadBdays() {
 }
 loadBdays(); setInterval(loadBdays, 60 * 60 * 1000); setInterval(showBdays, 60 * 1000);
 
+/* ---------- energy page (Octopus) ----------
+   energy.json is saved every hour by .github/workflows/energy.yml (tools/build_energy.py) from the
+   Octopus API: daily kWh and cost (standing charge included) for electricity and gas, half-hours for the
+   newest days, Free Electricity sessions and joined Saving Sessions. Smart meter readings usually reach
+   Octopus a day late, so the cards show the newest full day (normally yesterday). Scrambled with the
+   calendar passcode when CALENDAR_KEY is set. Until the Octopus secrets are set it shows sample numbers.
+   ?energy=free / ?energy=save shows a sample banner. */
+var EN = null, enSample = false, enLocked = null;
+var WD = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'], WD_ZH = ['日','一','二','三','四','五','六'];
+function enDate(k) { var p = k.split('-'); return new Date(+p[0], p[1] - 1, +p[2]); }
+function enKey(d) { return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
+function gbp(p) { return '£' + (p / 100).toFixed(2); }
+function sampleEnergy() {
+  var now = new Date(), elec = [], gas = [], i, h, seed = 7;
+  function rnd() { seed = (seed * 9301 + 49297) % 233280; return seed / 233280; }
+  for (i = 14; i >= 0; i--) {
+    var d = new Date(now.getFullYear(), now.getMonth(), now.getDate() - i), k = enKey(d), we = d.getDay() === 0 || d.getDay() === 6;
+    var eh = [], gh = [], ek = 0, gk = 0, slots = i === 0 ? 0 : 48;   // like the real thing: today not in yet
+    for (h = 0; h < slots; h++) {
+      var t = h / 2;
+      var e = 0.11 + rnd() * 0.04 + (t >= 7 && t < 8.5 ? 0.25 : 0) + (t >= 17.5 && t < 22 ? 0.35 + rnd() * 0.3 : 0) + (we && t >= 10 && t < 16 ? 0.2 * rnd() : 0) + (t === 18.5 ? 0.9 : 0);
+      var g = (t >= 6 && t < 8.5 ? 2.4 + rnd() : 0) + (t >= 16.5 && t < 22 ? 1.8 + rnd() * 1.2 : 0) + (we && t >= 9 && t < 16 ? 1.1 * rnd() : 0) + (t === 7 || t === 19 ? 0.6 : 0) + (rnd() < 0.08 ? 0.5 : 0);
+      eh.push(+e.toFixed(3)); gh.push(+g.toFixed(3)); ek += e; gk += g;
+    }
+    var cold = 1 + 0.25 * Math.sin(i);
+    gh = gh.map(function (v) { return +(v * cold).toFixed(3); }); gk *= cold;
+    elec.push({ d: k, kwh: +ek.toFixed(2), p: +(ek * 24.5 + 53.4).toFixed(1), full: slots === 48, hh: eh });
+    gas.push({ d: k, kwh: +gk.toFixed(2), p: +(gk * 6.2 + 31.9).toFixed(1), full: slots === 48, hh: gh });
+  }
+  elec = elec.filter(function (x) { return x.kwh > 0; }); gas = gas.filter(function (x) { return x.kwh > 0; });
+  var y = new Date(now.getTime() - 864e5); y.setHours(23, 30, 0, 0);
+  var f = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 2, 13, 0, 0);
+  return { saved: new Date().toISOString(),
+    elec: { tariff: 'E-1R-VAR-22-11-01-C', unit: 24.5, standing: 53.4, last: y.toISOString(), days: elec },
+    gas: { tariff: 'G-1R-VAR-22-11-01-C', unit: 6.2, standing: 31.9, last: y.toISOString(), days: gas },
+    free: [{ start: f.toISOString(), end: new Date(f.getTime() + 36e5).toISOString() }], saving: [] };
+}
+function enDur(ms) {
+  var m = Math.max(0, Math.round(ms / 60000)), d = Math.floor(m / 1440), h = Math.floor(m % 1440 / 60);
+  if (d) return d + '日 ' + h + '小時 · ' + d + 'd ' + h + 'h';
+  if (h) return h + '小時 ' + (m % 60) + '分 · ' + h + 'h ' + (m % 60) + 'm';
+  return m + '分鐘 · ' + m + ' min';
+}
+function enWhen(s, e) {
+  var a = new Date(s), b = new Date(e), t = new Date(), tm = new Date(t.getFullYear(), t.getMonth(), t.getDate() + 1);
+  function hm(x) { return pad(x.getHours()) + ':' + pad(x.getMinutes()); }
+  var day = a.toDateString() === t.toDateString() ? '今日 Today' : a.toDateString() === tm.toDateString() ? '聽日 Tomorrow' : '星期' + WD_ZH[a.getDay()] + ' ' + WD[a.getDay()] + ' ' + a.getDate() + ' ' + MONTHS[a.getMonth()].slice(0, 3);
+  return day + ' ' + hm(a) + '–' + hm(b);
+}
+function enBanners(d) {
+  var now = Date.now(), out = '', q = new URLSearchParams(location.search).get('energy');
+  var free = (d.free || []).filter(function (e) { return new Date(e.end) > now; });
+  var save = (d.saving || []).filter(function (e) { return new Date(e.end) > now; });
+  if (q === 'free') free = [{ start: new Date(now - 6e5).toISOString(), end: new Date(now + 30e5).toISOString() }];
+  if (q === 'save') save = [{ start: new Date(now + 5e6).toISOString(), end: new Date(now + 5e6 + 36e5).toISOString(), joined: true, points: 1800 }];
+  free.slice(0, 2).forEach(function (e) {
+    var on = new Date(e.start) <= now;
+    out += '<div class="eban' + (on ? ' now' : '') + '"><span class="ic">⚡</span><span>' + (on ? '免費電進行中！ Free electricity now' : '免費電 Free electricity') +
+      '<span class="sub">' + enWhen(e.start, e.end) + (on ? ' · 快啲洗衫叉電' : '') + '</span></span>' +
+      '<span class="cd">' + (on ? '仲有 ' + enDur(new Date(e.end) - now) + ' left' : '仲有 ' + enDur(new Date(e.start) - now)) + '</span></div>';
+  });
+  save.slice(0, 1).forEach(function (e) {
+    var on = new Date(e.start) <= now;
+    out += '<div class="eban save"><span class="ic">🐙</span><span>' + (on ? '慳電時段進行中 Saving Session now: use less' : '慳電時段 Saving Session') +
+      '<span class="sub">' + enWhen(e.start, e.end) + (e.joined ? ' · 已參加 joined' : ' · 未參加 not joined') + '</span></span>' +
+      '<span class="cd">' + (on ? '仲有 ' + enDur(new Date(e.end) - now) : '仲有 ' + enDur(new Date(e.start) - now)) + '</span></div>';
+  });
+  return out;
+}
+function enChart(hh, color) {
+  var W = 600, H = 200, n = 48, bw = W / n, mx = 0, i, s = '';
+  for (i = 0; i < hh.length; i++) mx = Math.max(mx, hh[i]);
+  if (!mx) mx = 1;
+  for (i = 6; i < 24; i += 6) s += '<line x1="' + (i * 2 * bw) + '" x2="' + (i * 2 * bw) + '" y1="0" y2="' + H + '" stroke="#233042" stroke-width="1.5" stroke-dasharray="4 5"/>';
+  for (i = 0; i < hh.length; i++) {
+    var h = Math.max(2, hh[i] / mx * (H - 6));
+    s += '<rect x="' + (i * bw + 1.5).toFixed(1) + '" y="' + (H - h).toFixed(1) + '" width="' + (bw - 3).toFixed(1) + '" height="' + h.toFixed(1) + '" rx="3" fill="' + color + '"/>';
+  }
+  return '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none">' + s + '</svg>';
+}
+function enPeak(hh) {   // the busiest two hours of the day, e.g. "18:00–20:00"
+  var best = -1, at = 0, i;
+  for (i = 0; i + 4 <= hh.length; i++) { var t = hh[i] + hh[i + 1] + hh[i + 2] + hh[i + 3]; if (t > best) { best = t; at = i; } }
+  function hm(k) { return pad(Math.floor(k / 2) % 24) + ':' + (k % 2 ? '30' : '00'); }
+  return hm(at) + '–' + hm(at + 4);
+}
+function enCard(f, cls, name, color) {
+  var days = (f && f.days) || [], full = days.filter(function (x) { return x.full; }), d = full[full.length - 1];
+  var head = '<div class="hd"><div class="nm">' + name + '</div>';
+  if (!d) return '<div class="ecard ' + cls + '">' + head + '</div><div class="none">未有讀數<br>No readings yet</div></div>';
+  var dt = enDate(d.d), t = new Date(), y = new Date(t.getFullYear(), t.getMonth(), t.getDate() - 1);
+  var label = d.d === enKey(y) ? '琴日 Yesterday' : d.d === enKey(t) ? '今日 Today' : '星期' + WD_ZH[dt.getDay()] + ' ' + WD[dt.getDay()];
+  head += '<div class="dt">' + label + ' · ' + dt.getDate() + ' ' + MONTHS[dt.getMonth()].slice(0, 3) + '</div></div>';
+  var wk = enKey(new Date(dt.getFullYear(), dt.getMonth(), dt.getDate() - 7)), prev = null;
+  days.forEach(function (x) { if (x.d === wk && x.full) prev = x; });
+  var cmp = '';
+  if (prev && prev.p) {
+    var pc = Math.round((d.p - prev.p) / prev.p * 100);
+    cmp = '比上星期' + WD_ZH[dt.getDay()] + ' vs last ' + WD[dt.getDay()] + ' ' + gbp(prev.p) + ' · ' +
+      (pc === 0 ? '<b>一樣 same</b>' : '<b class="' + (pc > 0 ? 'up' : 'dn') + '">' + (pc > 0 ? '▲ ' : '▼ ') + Math.abs(pc) + '%</b>');
+  }
+  var today = days[days.length - 1], so = today && today.d === enKey(t) && !today.full ? ' · 今日暫時 Today so far ' + today.kwh.toFixed(1) + ' kWh' : '';
+  var nt = (cls === 'gs' ? '🔥 暖氣最勁 Heating peak ' : '⚡ 用電最多 Busiest ') + enPeak(d.hh || []) + so;
+  return '<div class="ecard ' + cls + '">' + head +
+    '<div class="big"><div class="gbp num">' + gbp(d.p) + '</div><div class="kwh num">' + d.kwh.toFixed(1) + ' kWh</div></div>' +
+    '<div class="cmp">' + cmp + '</div>' +
+    '<div class="ch">' + enChart(d.hh || [], color) + '</div><div class="ax"><span>00:00</span><span>06:00</span><span>12:00</span><span>18:00</span><span>24:00</span></div>' +
+    '<div class="nt">' + nt + '</div></div>';
+}
+function enWeek(d) {
+  var t = new Date(), rows = [], tot = 0, prevTot = 0, prevN = 0, mx = 1, i;
+  function find(f, k) { var r = null; ((d[f] && d[f].days) || []).forEach(function (x) { if (x.d === k) r = x; }); return r; }
+  for (i = 7; i >= 1; i--) {
+    var day = new Date(t.getFullYear(), t.getMonth(), t.getDate() - i), k = enKey(day);
+    var e = find('elec', k), g = find('gas', k), ep = e ? e.p : 0, gp = g ? g.p : 0;
+    rows.push({ day: day, e: ep, g: gp, part: !(e && e.full) && !(g && g.full), none: !e && !g });
+    tot += ep + gp; mx = Math.max(mx, ep + gp);
+    var k2 = enKey(new Date(day.getFullYear(), day.getMonth(), day.getDate() - 7)), e2 = find('elec', k2), g2 = find('gas', k2);
+    if ((e2 || g2) && (e || g)) { prevTot += (e2 ? e2.p : 0) + (g2 ? g2.p : 0); prevN += ep + gp; }
+  }
+  var cmp = '';
+  if (prevTot) { var pc = Math.round((prevN - prevTot) / prevTot * 100); cmp = '<br>比之前一星期 vs week before ' + (pc === 0 ? '<b>一樣 same</b>' : '<b class="' + (pc > 0 ? 'up' : 'dn') + '">' + (pc > 0 ? '▲ ' : '▼ ') + Math.abs(pc) + '%</b>'); }
+  var bars = rows.map(function (r) {
+    var H = 150, s = r.e + r.g;
+    return '<div class="bar' + (r.part ? ' part' : '') + '"><div class="p num">' + (r.none ? '–' : gbp(s).replace('.00', '')) + '</div>' +
+      '<div class="st" style="height:' + Math.max(4, s / mx * H) + 'px"><i class="g" style="height:' + (s ? r.g / s * 100 : 0) + '%"></i><i class="e" style="height:' + (s ? r.e / s * 100 : 0) + '%"></i></div>' +
+      '<div class="d">' + WD_ZH[r.day.getDay()] + ' ' + WD[r.day.getDay()] + '</div></div>';
+  }).join('');
+  return '<div id="eweek"><div class="sum"><div class="lbl">過去七日 · Last 7 days</div><div class="v num">' + gbp(tot) + '</div>' +
+    '<div class="s">電 + 煤氣，連固定收費<br>Electricity + gas, standing charges in' + cmp + '</div>' +
+    '<div class="key"><i style="background:#ffd66b;margin-left:0"></i>電 Electricity<i style="background:#ff9d5c"></i>煤氣 Gas</div></div>' +
+    '<div class="bars">' + bars + '</div></div>';
+}
+function showEnergy() {
+  if (!EN) return;
+  var d = EN;
+  $('etag').hidden = !enSample;
+  var last = d.elec && d.elec.last ? new Date(d.elec.last) : null;
+  $('eupd').innerHTML = last ? '最新讀數 Latest reading ' + pad(last.getHours()) + ':' + pad(last.getMinutes()) + ' ' + last.getDate() + ' ' + MONTHS[last.getMonth()].slice(0, 3) : '';
+  var price = [];
+  if (d.elec && d.elec.unit) price.push('電 ' + d.elec.unit.toFixed(1) + 'p/kWh');
+  if (d.gas && d.gas.unit) price.push('煤氣 ' + d.gas.unit.toFixed(1) + 'p/kWh');
+  $('ebody').style.cssText = 'flex:1;display:flex;flex-direction:column;gap:18px;min-height:0';
+  $('ebody').innerHTML = '<div id="eflex">' + enBanners(d) + '</div>' +
+    '<div id="ecards">' + enCard(d.elec, 'el', '⚡ 電 <em>Electricity</em>', '#ffd66b') + enCard(d.gas, 'gs', '🔥 煤氣 · 暖氣 <em>Gas · heating</em>', '#ff9d5c') + '</div>' +
+    enWeek(d) +
+    '<div id="efoot">Octopus 智能電錶讀數通常遲一日先到 · Smart meter readings usually arrive a day late' + (price.length ? ' · ' + price.join(' · ') : '') + '</div>';
+}
+function useEnergy(d) {
+  if (!d.enc) { if (!d.elec && !d.gas) throw 0; EN = d; enSample = false; enLocked = null; showEnergy(); return; }
+  var k = getKey();
+  if (!k) { lockEnergy(''); enLocked = d; return; }
+  return unscramble(d.enc, k).then(function (x) { x.saved = d.saved; EN = x; enSample = false; enLocked = null; showEnergy(); },
+    function () { setKey(''); enLocked = d; lockEnergy('密碼唔啱 Wrong passcode<br>'); });
+}
+function lockEnergy(msg) {
+  EN = null; $('etag').hidden = true; $('eupd').innerHTML = '';
+  $('ebody').style.cssText = 'flex:1;display:flex;min-height:0';
+  $('ebody').innerHTML = '<div class="lock"><div>🔒<br>' + msg + '撳一下輸入密碼<br>Tap to enter the passcode</div></div>';
+}
+$('ebody').addEventListener('click', function () {
+  if (!enLocked) return;
+  var k = prompt('密碼 Passcode'); if (!k) return;
+  setKey(k.trim()); useEnergy(enLocked);
+});
+function loadEnergy() {
+  fetch('energy.json?t=' + Date.now()).then(function (r) { if (!r.ok) throw 0; return r.json(); })
+    .then(useEnergy)
+    .catch(function () { if (enLocked) return; if (!EN || enSample) { EN = sampleEnergy(); enSample = true; showEnergy(); } });
+}
+loadEnergy(); setInterval(loadEnergy, 30 * 60 * 1000); setInterval(showEnergy, 60 * 1000);
+
 /* ---------- warm-up button ----------
    A web page can't change Apple Home itself, so the button runs the
    "Warm Up Home" Shortcut, which sets every heater to the warm temperature. */
@@ -2188,7 +2420,7 @@ $('bkPlay').addEventListener('click', function () {   // read today's brief alou
   bt.classList.add('on'); bt.textContent = '■ 停止';
   speechSynthesis.speak(u);
 });
-/* ---------- Space corner (page 7) ----------
+/* ---------- Space corner (page 8) ----------
    space.json is saved every 3 hours by .github/workflows/space.yml (tools/build_space.py):
    the newest raw photos from NASA's Mars rovers, NASA's picture of the day, when the Space
    Station can be seen from Northwood, its path for the next 12 hours, and the moon's phases.
