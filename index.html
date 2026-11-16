@@ -557,7 +557,8 @@ function showTable(d) {
   }
   $('ltab').innerHTML = col(rows.slice(0, half)) + col(rows.slice(half));
   var at = d.saved ? new Date(d.saved) : null;
-  $('lupd').textContent = (d.season ? d.season + ' · ' : '') + (at && !isNaN(at) ? 'Updated ' + at.getDate() + ' ' + MONTHS[at.getMonth()].slice(0, 3) + ' ' + pad(at.getHours()) + ':' + pad(at.getMinutes()) : '');
+  var yr = /\d{4}[-\/]\d{2,4}/.exec(d.season || '');
+  $('lupd').textContent = (yr ? yr[0] + ' · ' : '') + (at && !isNaN(at) ? 'Updated ' + at.getDate() + ' ' + MONTHS[at.getMonth()].slice(0, 3) + ' ' + pad(at.getHours()) + ':' + pad(at.getMinutes()) : '');
 }
 loadTable(); setInterval(loadTable, 30 * 60 * 1000);
 
