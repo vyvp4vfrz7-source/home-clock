@@ -1,0 +1,19 @@
+name: Probe HK sources (temporary)
+on:
+  push:
+    branches: [claude/project-thread-skkr2e]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for p in /en/wxinfo/ts/webcam/HKO_photo.htm /en/wxinfo/ts/webcam/VPB_photo.htm /en/wxinfo/ts/webcam/index.htm /en/wxinfo/ts/webcam/ ; do
+            echo "== $p"; curl -sSL -m 30 "https://www.hko.gov.hk$p" -o page.html -w "%{http_code}\n"; grep -oiE '[^"'"'"' ]*(hko_mica|\.jpg|webcam[^"'"'"' ]*\.js)[^"'"'"' ]*' page.html | sort -u | head -60
+          done
+          for js in $(grep -oE 'src="[^"]+\.js[^"]*"' page.html | cut -d'"' -f2 | head -20); do echo "== JS $js"; curl -sSL -m 30 "https://www.hko.gov.hk/en/wxinfo/ts/webcam/$js" 2>/dev/null | grep -oiE '.{0,80}(hko_mica|latest_|\.jpg).{0,80}' | head -10; done
+      - run: |
+          for c in CP1 VPB HKO IC1 WGL SLW TMS SK2 LFS CCH PE2 KSC SWH TPK HKS CWB; do l=$(echo $c | tr A-Z a-z); curl -sS -o /dev/null -m 20 -w "$c %{http_code} %{content_type} %{size_download}\n" "https://www.hko.gov.hk/wxinfo/aws/hko_mica/$l/latest_$c.jpg"; done
+          for c in K109F H106F K409F H210F TC560F; do curl -sS -o /dev/null -m 20 -w "TD $c %{http_code} %{content_type} %{size_download}\n" "https://tdcctv.data.one.gov.hk/$c.JPG"; done
+          curl -sS -m 20 -D - -o rh.json -H "Origin: https://vyvp4vfrz7-source.github.io" "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=tc" | grep -i "^HTTP\|access-control"; head -c 600 rh.json; echo
+          curl -sS -m 20 "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc" | head -c 600; echo
+          curl -sS -m 20 "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=warnsum&lang=tc" | head -c 400; echo
