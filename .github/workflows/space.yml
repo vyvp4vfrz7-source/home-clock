@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: [claude/project-thread-09dzbg]
-    paths: [tools/build_space.py, .github/workflows/space.yml]
+    paths: [tools/build_space.py, tools/shot_space.py, .github/workflows/space.yml, index.html]
 permissions:
   contents: write
 concurrency: site-data
@@ -26,3 +26,12 @@ jobs:
       - name: Show the saved file (test runs)
         if: github.ref != 'refs/heads/main'
         run: cat space.json
+      - name: Screenshot the page (test runs)
+        if: github.ref != 'refs/heads/main'
+        run: |
+          pip install --quiet playwright && python3 -m playwright install --with-deps chromium > /dev/null
+          mkdir -p preview && (python3 -m http.server 8000 > /dev/null 2>&1 &) && sleep 2
+          python3 tools/shot_space.py
+          git config user.name "weather-bot"
+          git config user.email "weather-bot@users.noreply.github.com"
+          git add -f preview/*.png && git commit -qm "Space corner preview screenshots" && git push

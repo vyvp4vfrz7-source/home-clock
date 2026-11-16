@@ -2048,7 +2048,7 @@ $('hkLiveBtn').onclick = function () {
    the newest raw photos from NASA's Mars rovers, NASA's picture of the day, when the Space
    Station can be seen from Northwood, its path for the next 12 hours, and the moon's phases.
    Photos load straight from NASA. Tap the Mars photo for the next one, the picture of the day to see it big. */
-var SP = null, SP_PAGE = -1, spAt = -1, spLayer = 0, spShown = false, spTimer = null;
+var SP = null, SP_PAGE = -1, spFails = 0, spAt = -1, spLayer = 0, spShown = false, spTimer = null;
 (function () { var p = $('track').children; for (var i = 0; i < p.length; i++) if (p[i].id === 'pspace') SP_PAGE = i; })();
 var SP_TZ = CONFIG.timezone === 'auto' ? undefined : CONFIG.timezone;
 function spParts(d) {   // local wall-clock parts in the clock's time zone
@@ -2082,12 +2082,16 @@ function spNext() {
     if (spAt === token) return;
     var ph = document.querySelectorAll('#spMars .ph'), a = ph[spLayer], b = ph[1 - spLayer];
     b.className = 'ph'; b.offsetWidth; b.style.backgroundImage = 'url("' + m.src + '")'; b.className = 'ph on'; a.className = 'ph';
-    spLayer = 1 - spLayer; spAt = token; $('spMsg').style.display = 'none';
+    spLayer = 1 - spLayer; spAt = token; spFails = 0; $('spMsg').style.display = 'none';
     $('spRover').textContent = m.zh + ' ' + m.rover;
     $('spCap').innerHTML = '<div><b>' + esc(m.camZh) + '</b> · ' + esc(m.cam) + '<br><span>火星第 ' + m.sol + ' 日 · Sol ' + m.sol + ' · ' + spAgo(m.at) + '</span></div><em>' + (k + 1) + ' / ' + L.length + '</em>';
     spTimer = setTimeout(spNext, 14000);
   };
-  img.onerror = function () { spAt = token; spTimer = setTimeout(spNext, 500); };   // skip a photo NASA can't send
+  img.onerror = function () {   // skip a photo NASA can't send; if none load, try again in a minute
+    spAt = token; spFails = (spFails || 0) + 1;
+    if (spFails >= L.length) { spFails = 0; $('spMsg').style.display = ''; $('spMsg').textContent = '火星相片載入唔到 · Mars photos not loading'; spTimer = setTimeout(spNext, 60000); }
+    else spTimer = setTimeout(spNext, 500);
+  };
   img.src = m.src;
 }
 $('spMars').addEventListener('click', function () { spNext(); });

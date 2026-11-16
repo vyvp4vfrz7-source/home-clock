@@ -147,7 +147,7 @@ for back in range(0, 6):
         m = re.search(r'<img[^>]+src="([^"]+\.(?:jpe?g|png|gif))"', h, re.I)
         t = re.search(r"<center>\s*<b>\s*(.+?)\s*</b>", h, re.I | re.S)
         x = re.search(r"Explanation:\s*</b>(.*?)<p>\s*<center>", h, re.I | re.S) or re.search(r"Explanation:\s*</b>(.*?)<p>", h, re.I | re.S)
-        by = re.search(r"</b>\s*<br>\s*(?:<b>)?\s*(?:Image|Video|Illustration)? ?Credit[^:]*:\s*</b>(.*?)</center>", h, re.I | re.S)
+        by = re.search(r"Credit.*?:\s*</b>(.*?)</center>", h, re.I | re.S)
         clean = lambda v: re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", v)).strip()
         log("APOD page", day.strftime("%y%m%d"), "image:", bool(m), "title:", bool(t))
         if m:
