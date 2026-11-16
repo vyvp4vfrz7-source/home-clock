@@ -7,13 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          set +e; mkdir out; H=https://www.hko.gov.hk
-          for l in cp1 vpb hko hk2 cch dnl pe2 wlp wgl wl2 tpk skg sk2 cce klt lfs cwa cwb lam swh tms ic1 sly kfb tko ssp vpa vpc lkf stc ngp; do
-            C=$(echo $l | tr a-z A-Z)
-            code=$(curl -sS -m 12 -o out/$l.jpg -w "%{http_code}" "$H/wxinfo/aws/hko_mica/$l/latest_$C.jpg")
-            t=$(curl -sS -m 12 "$H/tc/wxinfo/ts/webcam/${C}_photo.htm" | grep -oE '<title>[^<]*' | head -1)
-            echo "$l $code $(stat -c%s out/$l.jpg 2>/dev/null) $t"
-            [ "$code" = 200 ] || rm -f out/$l.jpg
-          done
-      - uses: actions/upload-artifact@v4
-        with: { name: cams, path: out }
+          set +e; H=https://www.hko.gov.hk
+          for l in ic1 vpa vpb hko cp1 swh; do C=$(echo $l | tr a-z A-Z); curl -sS -m 15 "$H/wxinfo/aws/hko_mica/$l/latest_$C.jpg" | base64 -w0 | sed "s/^/IMG $l /"; echo; done
+          curl -sSL -m 20 -A "Mozilla/5.0 (iPad; CPU OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.7 Mobile/15E148 Safari/604.1" "https://www.youtube.com/embed/live_stream?channel=UCNcY1o1xGgTX_19w0cXes9g" -o yt.html; wc -c yt.html
+          grep -oE '"(videoId|status|reason|isLive|isLiveContent|title|playableInEmbed)":"?[^",}]{0,90}' yt.html | sort | uniq -c | head -20
+          v=$(grep -oE '"videoId":"[^"]+"' yt.html | head -1 | cut -d'"' -f4); echo VID $v
+          curl -sSL -m 20 "https://www.youtube.com/channel/UCNcY1o1xGgTX_19w0cXes9g/live" -o live.html; grep -oE '"(videoId|title)":"[^"]{0,90}' live.html | head -6; grep -oE '<link rel="canonical"[^>]*' live.html
+          [ -n "$v" ] && curl -sS -m 15 "https://i.ytimg.com/vi/$v/hqdefault_live.jpg" | base64 -w0 | sed "s/^/IMG yt /"; echo
