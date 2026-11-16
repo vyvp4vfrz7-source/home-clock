@@ -712,6 +712,9 @@ body:not(.pnews) #newsp *, body:not(.pnews) #newsp *::before { animation-play-st
 #bdots { display: flex; gap: 5px; justify-content: center; padding-top: 8px; }
 #bdots i { width: 6px; height: 6px; border-radius: 3px; background: #3d4a5c; transition: width .3s; }
 #bdots i.on { width: 18px; background: var(--sun); }
+#nread { align-self: flex-start; margin-top: 12px; font: 700 16px var(--font); color: #0b1016; background: var(--sun); border-radius: 999px; padding: 9px 18px; text-decoration: none; }
+#nread.en { background: var(--rain); }
+#nread[hidden] { display: none; }
 #nbar { height: 4px; border-radius: 2px; background: var(--line); margin-top: auto; overflow: hidden; }
 #nbar i { display: block; height: 100%; width: 0; background: var(--muted); }
 #nbar i.go { width: 100%; transition: width 10s linear; }
@@ -843,7 +846,7 @@ body.night #live { display: none; }   /* no scores on the night clock */
   <div class="top"><h1>新聞<span>News · 香港 · UK · World</span></h1><div class="upd"><span id="nupd"></span><button id="play2" class="play" type="button">▶ 播放</button></div></div>
   <div id="nbody">
     <div id="nleft"><div id="nmap"><img src="world.svg" alt=""><div id="npins"></div></div>
-    <div id="nfeat"><div id="nimg"></div><div id="ntxt"><div class="src" id="nsrc"></div><h2 id="nttl"></h2><p id="ndsc"></p><div id="nbar"><i></i></div></div></div></div>
+    <div id="nfeat"><div id="nimg"></div><div id="ntxt"><div class="src" id="nsrc"></div><h2 id="nttl"></h2><p id="ndsc"></p><a id="nread" target="_blank" rel="noopener">閱讀原文 · Read full story ↗</a><div id="nbar"><i></i></div></div></div></div>
     <div id="nlist"><div class="lbl">全部新聞 · All news<em id="ncount"></em></div><div id="nnext"></div></div>
     <div id="nbrief"><div class="bh"><div class="lbl" id="bttl">早晨簡報 · Brief</div><button type="button" id="blang">EN / 中</button></div><div id="bwhen"></div><div id="bsec"></div><div id="bdots"></div></div>
   </div>
@@ -1767,12 +1770,15 @@ function showStory(step) {
   $('nsrc').className = 'src' + (en ? ' en' : '');
   $('nsrc').innerHTML = esc(n.src) + (n.at ? '<em>' + newsAgo(n.at) + '</em>' : '') + '<em>' + (NSTORY + 1) + ' / ' + list.length + '</em>';
   $('nttl').textContent = n.t; $('ndsc').textContent = n.d || '';
+  var rd = $('nread'); rd.hidden = !n.u; rd.className = en ? 'en' : ''; if (n.u) rd.href = n.u;
   var im = $('nimg'); im.className = en ? '' : 'zh'; im.style.backgroundImage = ''; im.textContent = n.where ? n.where[2] : n.src;
   if (n.img) { var pic = new Image(); pic.onload = function () { if (list[NSTORY] === n) { im.style.backgroundImage = 'url("' + n.img + '")'; im.textContent = ''; } }; pic.src = n.img; }
   newsList(list);
   var bar = $('nbar').firstChild; bar.className = ''; bar.offsetWidth; bar.className = 'go';
 }
-// The middle column lists every story; slide it up and down with a finger, tap one to show it in the card.
+// The middle column lists every story; slide it up and down with a finger, tap one to show it in the card,
+// tap it again (or 閱讀原文 on the card) to open the full article. On the Home Screen app it opens in a
+// Safari window with Done at the top, which brings you back here.
 // While someone is scrolling or reading, the card and the list stay put (and the page doesn't turn) for a minute.
 var NLIST_KEY = '', newsHandAt = 0;
 function newsList(list) {
@@ -1799,11 +1805,15 @@ function newsList(list) {
   box.addEventListener('click', function (e) {
     var el = e.target; while (el && el !== box && !el.getAttribute('data-i')) el = el.parentNode;
     if (!el || el === box || moved) return;
-    hand(); NSTORY = +el.getAttribute('data-i');
+    hand();
+    var list = newsOrder(), k = +el.getAttribute('data-i');
+    if (k === NSTORY && list[k] && list[k].u) { window.open(list[k].u, '_blank'); return; }   // second tap: open the article
+    NSTORY = k;
     var f = $('nfeat'); f.classList.add('fade');
     setTimeout(function () { showStory(0); f.classList.remove('fade'); }, 250);
   });
 })();
+$('nread').addEventListener('click', function () { newsHandAt = pageAt = Date.now(); });
 function newsTick() {
   if (!document.body.classList.contains('pnews')) return;
   if (Date.now() - newsHandAt < 60000) return;   // someone is browsing the list

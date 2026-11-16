@@ -164,6 +164,9 @@ def stories(url, n, default):
         if d.startswith(t):
             d = d[len(t):].strip()
         s = {"t": t}
+        link = (item.findtext("link") or "").strip()
+        if link.startswith("http"):
+            s["u"] = link   # the full article, opened from the news page
         if d:
             s["d"] = d[:220] + ("…" if len(d) > 220 else "")
         img = picture(item, desc_html)
