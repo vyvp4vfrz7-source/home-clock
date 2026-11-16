@@ -7,7 +7,7 @@ LAT, LON, TZ = 51.6111, -0.4237, "Europe%2FLondon"  # Northwood, same as CONFIG 
 URL = ("https://api.open-meteo.com/v1/forecast?latitude=%s&longitude=%s"
        "&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m,is_day"
        "&hourly=temperature_2m,weather_code,precipitation_probability,is_day"
-       "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset"
+       "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,wind_speed_10m_max,sunrise,sunset"
        "&timezone=%s&forecast_days=14") % (LAT, LON, TZ)
 
 req = urllib.request.Request(URL, headers={"User-Agent": "home-clock-weather/1.0"})
