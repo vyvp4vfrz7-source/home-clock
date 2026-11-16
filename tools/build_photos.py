@@ -77,6 +77,23 @@ def cloudkit_photos():
         if not marker:
             break
     masters = {r["recordName"]: r for r in recs if r.get("recordType") == "CPLMaster"}
+    # The text typed when photos are posted to the shared album lives on a CPLPost record;
+    # its photos point to it through assetBatchId. (Comments added later aren't in the public feed.)
+    post_text = {}
+    try:
+        sync = None
+        for _ in range(20):
+            z = (ck_post(f"{part}{CK_DB}changes/zone?{q}",
+                         {"zones": [{"zoneID": zone, **({"syncToken": sync} if sync else {})}]}).get("zones") or [{}])[0]
+            for r in z.get("records", []):
+                if r.get("recordType") == "CPLPost" and (ck_val(r, "caption") or "").strip():
+                    post_text[r["recordName"]] = ck_val(r, "caption").strip()
+            sync = z.get("syncToken")
+            if not z.get("moreComing"):
+                break
+    except Exception as e:
+        print("post captions failed:", e)
+    print("post captions:", len(post_text))
     out = []
     for a in recs:
         if a.get("recordType") != "CPLAsset":
@@ -93,10 +110,10 @@ def cloudkit_photos():
         date = datetime.fromtimestamp(ms / 1000, timezone.utc).strftime("%Y-%m-%d") if ms else ""
         loc = ck_plist(a, "locationEnc")
         latlon = (loc["lat"], loc["lon"]) if isinstance(loc, dict) and "lat" in loc and "lon" in loc else None
-        caption = ""
+        caption = post_text.get(ck_val(a, "assetBatchId") or "", "")
         for f in ("captionEnc", "extendedDescEnc", "titleEnc"):  # set in Photos' info panel, if Apple shares it
             v = ck_plist(a, f) or ck_plist(m, f)
-            if isinstance(v, str) and v.strip():
+            if isinstance(v, str) and v.strip() and not caption:
                 caption = v.strip()
                 break
         out.append({"id": a["recordName"], "url": url, "date": date, "caption": caption, "latlon": latlon})
