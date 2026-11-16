@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="留言板">
+<meta name="theme-color" content="#0b1018">
+<title>留言板</title>
+<style>
+  /* Family message board, phone page: add it to the Home Screen, paste the GitHub key once.
+     Sends repository_dispatch "board-post"; .github/workflows/board.yml saves it to board.json. */
+  :root { --fg: #e9eef4; --muted: #8492a5; --sun: #f3b649; --line: #263243; color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: #0b1018; color: var(--fg); font: 500 17px -apple-system, "Helvetica Neue", Arial, sans-serif; padding: max(20px, env(safe-area-inset-top)) 16px 30px; }
+  h1 { font-size: 28px; margin: 6px 0 2px; } .sub { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
+  .who { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+  .who button { font: 700 18px inherit; font-family: inherit; border: 1px solid var(--line); border-radius: 999px; padding: 10px 0; background: #121a26; color: var(--fg); }
+  .who button.on { background: var(--sun); border-color: var(--sun); color: #1a1a1a; }
+  textarea { width: 100%; height: 130px; margin-top: 12px; font: 600 22px inherit; font-family: inherit; color: #3a2e12; background: #ffe58a; border: 0; border-radius: 10px 10px 26px 10px; padding: 14px 16px; resize: none; -webkit-appearance: none; }
+  .quick { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .quick button { font: 600 15px inherit; font-family: inherit; border: 1px solid var(--line); border-radius: 999px; padding: 7px 12px; background: #121a26; color: var(--fg); }
+  #send { width: 100%; margin-top: 16px; font: 800 20px inherit; font-family: inherit; border: 0; border-radius: 999px; padding: 15px; background: var(--sun); color: #1a1a1a; }
+  #send:disabled { opacity: .5; }
+  #msg { min-height: 22px; margin-top: 12px; text-align: center; color: var(--muted); font-size: 15px; }
+  .foot { margin-top: 26px; font-size: 13px; color: var(--muted); text-align: center; }
+  .foot a { color: var(--muted); }
+</style>
+</head>
+<body>
+<h1>📌 留言板</h1>
+<div class="sub">貼到屋企 iPad 上面 · Post a note to the home iPad</div>
+<div class="who" id="who"></div>
+<textarea id="text" maxlength="200" placeholder="寫留言… e.g. 今晚食火鍋 🍲"></textarea>
+<div class="quick" id="quick"></div>
+<button type="button" id="send">貼上 iPad · Post</button>
+<div id="msg"></div>
+<div class="foot"><a href="#" id="forget">換 GitHub key · Change key</a></div>
+<script>
+var REPO = 'vyvp4vfrz7-source/home-clock', WHO = ['爸爸', '媽媽', '仔仔', '女女'];
+var QUICK = ['今晚食火鍋 🍲', '我遲啲返 🕖', '已經出咗門 🚶', '記得買餸 🛒', '我返到嚟喇 🏠', 'Love you ❤️'];
+function $(id) { return document.getElementById(id); }
+function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) { return null; } }
+$('who').innerHTML = WHO.map(function (w) { return '<button type="button">' + w + '</button>'; }).join('');
+$('quick').innerHTML = QUICK.map(function (q) { return '<button type="button">' + q + '</button>'; }).join('');
+function pick(w) { store('boardWho', w); var b = $('who').children; for (var i = 0; i < b.length; i++) b[i].className = b[i].textContent === w ? 'on' : ''; }
+pick(store('boardWho') || '');
+$('who').onclick = function (e) { if (e.target.tagName === 'BUTTON') pick(e.target.textContent); };
+$('quick').onclick = function (e) { if (e.target.tagName === 'BUTTON') { $('text').value = e.target.textContent; } };
+$('forget').onclick = function (e) { e.preventDefault(); store('ghKey', null); $('msg').textContent = '下次會再問 key · Will ask for the key next time'; };
+$('send').onclick = function () {
+  var text = $('text').value.replace(/^\s+|\s+$/g, ''); if (!text) { $('text').focus(); return; }
+  var who = store('boardWho'); if (!who) { $('msg').textContent = '先揀你係邊個 · Pick who you are first'; return; }
+  var key = store('ghKey');
+  if (!key) { key = prompt('第一次：貼上 GitHub key\nFirst time: paste the GitHub key'); if (!key) return; key = key.replace(/\s+/g, ''); store('ghKey', key); }
+  $('send').disabled = true; $('msg').textContent = '傳送緊… Sending…';
+  fetch('https://api.github.com/repos/' + REPO + '/dispatches', {
+    method: 'POST',
+    headers: { 'Authorization': 'Bearer ' + key, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+    body: JSON.stringify({ event_type: 'board-post', client_payload: { who: who, text: text } })
+  }).then(function (r) {
+    $('send').disabled = false;
+    if (r.status === 401 || r.status === 403 || r.status === 404) { store('ghKey', null); $('msg').textContent = 'GitHub key 唔啱，再試一次 · The key didn\'t work'; return; }
+    if (!r.ok) { $('msg').textContent = '傳送唔到 (' + r.status + ') · Couldn\'t send'; return; }
+    $('text').value = ''; $('msg').textContent = '✅ 貼咗！一兩分鐘後 iPad 會彈出嚟 · Posted';
+  }).catch(function () { $('send').disabled = false; $('msg').textContent = '冇網絡 · No connection'; });
+};
+</script>
+</body>
+</html>

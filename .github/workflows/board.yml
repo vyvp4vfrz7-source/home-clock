@@ -1,0 +1,29 @@
+name: Family message board
+# A phone (the "留言板" Shortcut or post.html) or the iPad sends repository_dispatch "board-post"
+# with client_payload {"who": "媽媽", "text": "今晚食火鍋"} (or {"remove": "<id>"}).
+# tools/save_board.py reads the message from the event file, so it doesn't appear in the run log,
+# and scrambles board.json with the calendar passcode (CALENDAR_KEY) when that secret is set.
+on:
+  repository_dispatch:
+    types: [board-post]
+  workflow_dispatch:
+    inputs:
+      clear: { description: "Type 1 to wipe every message", required: false }
+permissions:
+  contents: write
+concurrency: site-data
+jobs:
+  save:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q cryptography
+      - run: python3 tools/save_board.py
+        env:
+          BOARD_KEY: ${{ secrets.CALENDAR_KEY }}
+      - name: Commit
+        run: |
+          git config user.name "board-bot"
+          git config user.email "board-bot@users.noreply.github.com"
+          git add board.json
+          git diff --cached --quiet || (git commit -m "Update message board" && git pull --rebase && git push)
