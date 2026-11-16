@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:   # TEMP: test run on the PR branch, removed before merge
     branches: [claude/project-thread-82613z]
-    paths: [.github/workflows/energy.yml]
+    paths: [.github/workflows/energy.yml, tools/build_energy.py]
 permissions:
   contents: write
 concurrency: site-data

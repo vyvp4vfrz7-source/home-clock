@@ -14,7 +14,7 @@ Also saves Octopus Free Electricity sessions (public list kept by the Home Assis
 Octopus integration) and Saving Sessions you joined (Octopus GraphQL, best effort).
 Standard library only, plus 'cryptography' when CALENDAR_KEY is set.
 """
-import base64, json, os, sys, urllib.parse, urllib.request
+import base64, json, os, sys, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
@@ -180,8 +180,16 @@ def saving_sessions(now):
         req = urllib.request.Request(gql, data=json.dumps(body).encode(), headers=dict(UA, **{"Content-Type": "application/json"}))
         if token:
             req.add_header("Authorization", token)
-        with urllib.request.urlopen(req, timeout=40) as r:
-            return json.load(r)
+        try:
+            with urllib.request.urlopen(req, timeout=40) as r:
+                return json.load(r)
+        except urllib.error.HTTPError as e:
+            msg = e.read().decode("utf-8", "replace")
+            try:
+                msg = "; ".join(x.get("message", "") for x in json.loads(msg).get("errors", []))
+            except Exception:
+                pass
+            raise RuntimeError("HTTP %s: %s" % (e.code, msg[:300].replace(KEY, "***") if KEY else msg[:300]))
     try:
         tok = q({"query": "mutation($k:String!){obtainKrakenToken(input:{APIKey:$k}){token}}", "variables": {"k": KEY}})
         token = tok["data"]["obtainKrakenToken"]["token"]
