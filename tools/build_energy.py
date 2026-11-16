@@ -193,20 +193,20 @@ def saving_sessions(now):
     try:
         tok = q({"query": "mutation($k:String!){obtainKrakenToken(input:{APIKey:$k}){token}}", "variables": {"k": KEY}})
         token = tok["data"]["obtainKrakenToken"]["token"]
-        d = q({"query": "query($a:String!){savingSessions{events{id startAt endAt rewardPerKwhInOctoPoints} "
-                        "account(accountNumber:$a){hasJoinedCampaign joinedEvents{eventId startAt endAt}}}}",
-               "variables": {"a": ACCOUNT}}, token)
-        ss = (d.get("data") or {}).get("savingSessions") or {}
+        d = q({"query": "query($a:String!){customerFlexibilityCampaignEvents(accountNumber:$a,campaignSlug:\"octoplus-saving-sessions\",first:20)"
+                        "{edges{node{name code startAt endAt}}}}", "variables": {"a": ACCOUNT}}, token)
+        if d.get("errors"):
+            raise RuntimeError("; ".join(x.get("message", "") for x in d["errors"]))
+        edges = ((d.get("data") or {}).get("customerFlexibilityCampaignEvents") or {}).get("edges") or []
     except Exception as e:
         print("saving sessions:", e)
         return None
-    joined = {j["eventId"] for j in ((ss.get("account") or {}).get("joinedEvents") or [])}
     out = []
-    for e in ss.get("events") or []:
+    for ed in edges:
+        e = ed.get("node") or {}
         s, t = parse(e.get("startAt")), parse(e.get("endAt"))
         if s and t and t > now - timedelta(days=1):
-            out.append({"start": iso(s), "end": iso(t), "joined": e.get("id") in joined,
-                        "points": e.get("rewardPerKwhInOctoPoints")})
+            out.append({"start": iso(s), "end": iso(t), "joined": True})
     return sorted(out, key=lambda e: e["start"])
 
 
