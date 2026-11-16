@@ -172,7 +172,7 @@ def free_sessions(now):
     return sorted(out, key=lambda e: e["start"])
 
 
-def saving_sessions(now):
+def saving_sessions(now, mpan):
     """Saving Sessions (use less, earn OctoPoints) you have joined. Best effort: Octopus changes this API."""
     gql = "https://api.octopus.energy/v1/graphql/"
 
@@ -193,8 +193,8 @@ def saving_sessions(now):
     try:
         tok = q({"query": "mutation($k:String!){obtainKrakenToken(input:{APIKey:$k}){token}}", "variables": {"k": KEY}})
         token = tok["data"]["obtainKrakenToken"]["token"]
-        d = q({"query": "query($a:String!){customerFlexibilityCampaignEvents(accountNumber:$a,campaignSlug:\"octoplus-saving-sessions\",first:20)"
-                        "{edges{node{name code startAt endAt}}}}", "variables": {"a": ACCOUNT}}, token)
+        d = q({"query": "query($a:String!,$m:String!){customerFlexibilityCampaignEvents(accountNumber:$a,supplyPointIdentifier:$m,campaignSlug:\"octoplus-saving-sessions\",first:20)"
+                        "{edges{node{name code startAt endAt}}}}", "variables": {"a": ACCOUNT, "m": mpan}}, token)
         if d.get("errors"):
             raise RuntimeError("; ".join(x.get("message", "") for x in d["errors"]))
         edges = ((d.get("data") or {}).get("customerFlexibilityCampaignEvents") or {}).get("edges") or []
@@ -225,16 +225,18 @@ def main():
     acct = get("%saccounts/%s/" % (API, ACCOUNT))
     props = [p for p in acct.get("properties", []) if not p.get("moved_out_at")] or acct.get("properties", [])
     data = {"saved": now.strftime("%Y-%m-%dT%H:%MZ")}
+    mpan = None
     for p in props[:1]:
         imp = [m for m in p.get("electricity_meter_points", []) if not m.get("is_export")]
         if imp:
+            mpan = imp[0].get("mpan")
             data["elec"] = fuel_block("electricity", imp[0], since, now, now)
         if p.get("gas_meter_points"):
             data["gas"] = fuel_block("gas", p["gas_meter_points"][0], since, now, now)
     free = free_sessions(now)
     if free is not None:
         data["free"] = free
-    saving = saving_sessions(now)
+    saving = saving_sessions(now, mpan) if mpan else None
     if saving is not None:
         data["saving"] = saving
 
