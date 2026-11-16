@@ -701,7 +701,10 @@ body:not(.pnews) #newsp *, body:not(.pnews) #newsp *::before { animation-play-st
 #nbrief .lbl { color: var(--sun); }
 #blang { font: 700 13px var(--font); color: var(--fg); background: #2a3646; border: 0; border-radius: 999px; padding: 5px 12px; }
 #bwhen { font-size: 13px; color: var(--muted); margin: 4px 0 8px; }
-#bsec { flex: 1; min-height: 0; overflow: hidden; transition: opacity .5s; }
+#bsec { flex: 1; min-height: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; transition: opacity .5s; -webkit-mask-image: linear-gradient(#000 calc(100% - 24px), transparent); padding-bottom: 20px; }
+#bsec h3 + .bi { padding-top: 0; }
+#bsec h3:not(:first-child) { margin-top: 18px; }
+#bsec .bi b i { font-style: normal; color: var(--muted); font-size: 13px; margin-left: 6px; }
 #bsec.fade { opacity: 0; }
 #bsec h3 { margin: 0 0 8px; font-size: 22px; font-weight: 700; }
 #bsec .bi { padding: 7px 0; border-bottom: 1px solid var(--line); }
@@ -1840,7 +1843,9 @@ function newsTick() {
 setInterval(newsTick, 10000);
 
 /* ---------- world news brief (brief.json, written at 6am and 6pm by a Claude scheduled task) ----------
-   One section at a time, every 12 s; after a full round it switches English <-> 中文. Tap EN / 中 to switch now. */
+   All sections in one column you can slide with a finger. Left alone, it glides to the next section every 12 s;
+   after the last one it switches English <-> 中文. Tap EN / 中 to switch now. Tap a story to open the article
+   (its own link, else the same headline in news.json, else a Google News search for it). */
 var BRIEF = null, bSec = 0, bLang = 'zh';
 var BRIEF_URLS = ['https://raw.githubusercontent.com/vyvp4vfrz7-source/home-clock/brief/brief.json', 'brief.json'];
 function loadBrief() {
@@ -1856,21 +1861,57 @@ function showBrief(step) {
   var n = b.sections.length;
   bSec += step || 0;
   if (bSec >= n) { bSec = 0; if (BRIEF[bLang === 'en' ? 'zh' : 'en']) { bLang = bLang === 'en' ? 'zh' : 'en'; b = BRIEF[bLang]; n = b.sections.length; } }
-  var sec = b.sections[bSec] || b.sections[0], h = '<h3>' + esc(sec.h) + '</h3>';
-  (sec.items || []).forEach(function (it) { h += '<div class="bi"><b>' + esc(it.t) + '</b><span>' + esc(it.d || '') + '</span></div>'; });
-  $('bsec').innerHTML = h;
+  var box = $('bsec'), key = bLang + '|' + BRIEF.updated;
+  if (box.getAttribute('data-k') !== key) {   // rebuild only when the brief or the language changes
+    var h = '';
+    b.sections.forEach(function (sec, si) {
+      h += '<h3 data-s="' + si + '">' + esc(sec.h) + '</h3>';
+      (sec.items || []).forEach(function (it, j) { h += '<div class="bi" data-u="' + si + '-' + j + '"><b>' + esc(it.t) + '<i>↗</i></b><span>' + esc(it.d || '') + '</span></div>'; });
+    });
+    box.innerHTML = h; box.setAttribute('data-k', key); box.scrollTop = 0;
+  }
+  if (Date.now() - briefHandAt > 60000) {
+    var hd = box.querySelector('h3[data-s="' + bSec + '"]'), to = hd ? Math.max(0, hd.offsetTop - box.offsetTop) : 0;
+    if (step && box.scrollTo) box.scrollTo({ top: to, behavior: 'smooth' }); else box.scrollTop = to;
+  }
   $('bttl').textContent = bLang === 'en' ? 'Morning brief · 簡報' : '早晨簡報 · Brief';
   var dt = BRIEF.updated ? new Date(BRIEF.updated) : null;
   $('bwhen').textContent = (BRIEF.sample ? '示範 sample · ' : '') + (dt ? (bLang === 'en' ? 'Written ' : '更新 ') + dt.toLocaleString('en-GB', { weekday: 'short', hour: '2-digit', minute: '2-digit' }) : '');
-  var d = ''; for (var i = 0; i < n; i++) d += '<i' + (i === bSec ? ' class="on"' : '') + '></i>';
-  $('bdots').innerHTML = d;
+  briefDots(n);
 }
+function briefDots(n) { var d = ''; for (var i = 0; i < n; i++) d += '<i' + (i === bSec ? ' class="on"' : '') + '></i>'; $('bdots').innerHTML = d; }
+function briefLink(it) {
+  if (it.u && /^https?:/.test(it.u)) return it.u;
+  for (var i = 0; i < NEWS.length; i++) if (NEWS[i].t === it.t && NEWS[i].u) return NEWS[i].u;
+  return 'https://news.google.com/search?q=' + encodeURIComponent(it.t) + (bLang === 'en' ? '&hl=en-GB&gl=GB&ceid=GB:en' : '&hl=zh-HK&gl=HK&ceid=HK:zh-Hant');
+}
+var briefHandAt = 0;
 setInterval(function () {
-  if (!document.body.classList.contains('pnews') || !BRIEF) return;
-  var el = $('bsec'); el.classList.add('fade');
+  if (!document.body.classList.contains('pnews') || !BRIEF || Date.now() - briefHandAt < 60000) return;
+  var b = BRIEF[bLang], el = $('bsec');
+  if (b && b.sections && bSec + 1 < b.sections.length) { showBrief(1); return; }   // glide to the next section
+  el.classList.add('fade');   // last section done: fade over to the other language
   setTimeout(function () { showBrief(1); el.classList.remove('fade'); }, 500);
 }, 12000);
-$('blang').addEventListener('click', function () { if (BRIEF) { bLang = bLang === 'en' ? 'zh' : 'en'; bSec = 0; showBrief(0); } });
+(function () {
+  var box = $('bsec'), y0 = 0, moved = false;
+  function hand() { briefHandAt = pageAt = Date.now(); }
+  box.addEventListener('touchstart', function (e) { hand(); y0 = e.touches[0].clientY; moved = false; }, { passive: true });
+  box.addEventListener('touchmove', function (e) { hand(); if (Math.abs(e.touches[0].clientY - y0) > 6) moved = true; }, { passive: true });
+  box.addEventListener('scroll', function () {
+    if (Date.now() - briefHandAt > 60000) return; hand();
+    var hs = box.querySelectorAll('h3'), k = 0;   // dots follow the section you've scrolled to
+    for (var i = 0; i < hs.length; i++) if (hs[i].offsetTop - box.offsetTop <= box.scrollTop + 40) k = i;
+    if (k !== bSec) { bSec = k; briefDots(hs.length); }
+  }, { passive: true });
+  box.addEventListener('click', function (e) {
+    var el = e.target; while (el && el !== box && !el.getAttribute('data-u')) el = el.parentNode;
+    if (!el || el === box || moved) return;
+    hand(); var ix = el.getAttribute('data-u').split('-'), sec = BRIEF[bLang].sections[+ix[0]];
+    window.open(briefLink(sec.items[+ix[1]]), '_blank');   // worked out now, so a late news.json still counts
+  });
+})();
+$('blang').addEventListener('click', function () { briefHandAt = pageAt = Date.now(); if (BRIEF) { bLang = bLang === 'en' ? 'zh' : 'en'; bSec = 0; showBrief(0); } });
 loadBrief(); setInterval(loadBrief, 15 * 60 * 1000);
 $('nfeat').addEventListener('click', function () { showStory(1); });
 
