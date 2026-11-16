@@ -1,7 +1,7 @@
 """Copy photos from a public iCloud Shared Album into photos/ and write photos.json.
 Runs in GitHub Actions; the album token comes from the ALBUM_TOKEN repository secret.
-Standard library only. Uses iCloud's public web-album endpoints."""
-import json, os, re, sys, urllib.error, urllib.parse, urllib.request
+Standard library only (OpenCC optional, for place names). Uses iCloud's public web-album endpoints."""
+import base64, json, os, plistlib, re, struct, sys, time, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timezone
 
 TOKEN = os.environ.get("ALBUM_TOKEN", "").strip()
@@ -40,6 +40,17 @@ def ck_post(url, body):
 def ck_val(rec, field):
     v = (rec.get("fields") or {}).get(field)
     return v.get("value") if isinstance(v, dict) else None
+
+def ck_plist(rec, field):
+    """Decode an ...Enc field (base64 bytes: a binary plist or plain UTF-8 text)."""
+    raw = ck_val(rec or {}, field)
+    if not raw:
+        return None
+    try:
+        b = base64.b64decode(raw)
+        return plistlib.loads(b) if b[:6] == b"bplist" else b.decode("utf-8")
+    except Exception:
+        return None
 
 def cloudkit_photos():
     res = ck_post(CK + "/database/1/com.apple.photos.cloud/production/public/records/resolve",
@@ -80,7 +91,15 @@ def cloudkit_photos():
             continue
         ms = ck_val(a, "assetDate") or (m and ck_val(m, "originalCreationDate")) or 0
         date = datetime.fromtimestamp(ms / 1000, timezone.utc).strftime("%Y-%m-%d") if ms else ""
-        out.append({"id": a["recordName"], "url": url, "date": date, "caption": ""})
+        loc = ck_plist(a, "locationEnc")
+        latlon = (loc["lat"], loc["lon"]) if isinstance(loc, dict) and "lat" in loc and "lon" in loc else None
+        caption = ""
+        for f in ("captionEnc", "extendedDescEnc", "titleEnc"):  # set in Photos' info panel, if Apple shares it
+            v = ck_plist(a, f) or ck_plist(m, f)
+            if isinstance(v, str) and v.strip():
+                caption = v.strip()
+                break
+        out.append({"id": a["recordName"], "url": url, "date": date, "caption": caption, "latlon": latlon})
     out.sort(key=lambda x: x["date"], reverse=True)
     print("photos:", len(out))
     return out[:MAX_PHOTOS]
@@ -107,8 +126,155 @@ def sharedstreams_photos():
             continue
         loc = locs[it["url_location"]]
         out.append({"id": p["photoGuid"], "url": f"{loc['scheme']}://{loc['hosts'][0]}{it['url_path']}",
-                    "date": (p.get("dateCreated") or "")[:10], "caption": (p.get("caption") or "").strip()})
+                    "date": (p.get("dateCreated") or "")[:10], "caption": (p.get("caption") or "").strip(), "latlon": None})
     return out
+
+def exif_gps(path):
+    """Return (lat, lon) from a JPEG's EXIF GPS tags, or None. Standard library only."""
+    try:
+        with open(path, "rb") as f:
+            data = f.read(256 * 1024)
+    except OSError:
+        return None
+    if data[:2] != b"\xff\xd8":
+        return None
+    i = 2
+    while i + 4 <= len(data):
+        if data[i] != 0xFF:
+            return None
+        marker, size = data[i + 1], struct.unpack(">H", data[i + 2:i + 4])[0]
+        if marker == 0xE1 and data[i + 4:i + 10] == b"Exif\0\0":
+            t = data[i + 10:i + 2 + size]
+            break
+        if marker == 0xDA:
+            return None
+        i += 2 + size
+    else:
+        return None
+    end = "<" if t[:2] == b"II" else ">"
+    u16 = lambda o: struct.unpack(end + "H", t[o:o + 2])[0]
+    u32 = lambda o: struct.unpack(end + "I", t[o:o + 4])[0]
+    def ifd(off):
+        out = {}
+        for k in range(u16(off)):
+            e = off + 2 + 12 * k
+            out[u16(e)] = (u16(e + 2), u32(e + 4), e + 8)
+        return out
+    try:
+        gps_ptr = ifd(u32(4)).get(0x8825)
+        if not gps_ptr:
+            return None
+        g = ifd(u32(gps_ptr[2]))
+        def text(tag):
+            v = g.get(tag)
+            return t[v[2]:v[2] + 1].decode() if v else ""
+        def dms(tag):
+            typ, n, p = g[tag]
+            o = u32(p)
+            vals = [u32(o + 8 * j) / (u32(o + 8 * j + 4) or 1) for j in range(3)]
+            return vals[0] + vals[1] / 60 + vals[2] / 3600
+        lat, lon = dms(2), dms(4)
+        if text(1) == "S": lat = -lat
+        if text(3) == "W": lon = -lon
+        return round(lat, 5), round(lon, 5)
+    except (KeyError, struct.error, IndexError):
+        return None
+# ---------- place names in Hong Kong Chinese ----------
+# OpenStreetMap (Nominatim) finds the town; its Chinese name comes from OSM or Wikidata,
+# preferring zh-HK, then Traditional, then Simplified converted with OpenCC (s2hk) if installed.
+# Results are cached in places.json by ~1 km grid square, so each place is looked up once.
+PLACES_FILE = "places.json"
+UA = {"User-Agent": "home-clock-photo-places/1.0 (+https://github.com/vyvp4vfrz7-source/home-clock)"}
+FIX = {"大倫敦": "倫敦", "倫敦市": "倫敦", "英格蘭": "英國"}
+try:
+    with open(PLACES_FILE, encoding="utf-8") as _f:
+        PLACES = json.load(_f)
+except (OSError, ValueError):
+    PLACES = {}
+try:
+    import opencc
+    _S2HK = opencc.OpenCC("s2hk")
+    _S2HK.convert("测试")
+except Exception:
+    _S2HK = None
+
+def _get(url):
+    time.sleep(1.1)  # Nominatim allows one request a second
+    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=20) as r:
+        return json.loads(r.read())
+
+def _has_han(t):
+    return any("一" <= ch <= "鿿" for ch in t or "")
+
+def _hk(t):
+    return _S2HK.convert(t) if _S2HK and t else t
+
+def _wikidata_zh(qid):
+    try:
+        d = _get(f"https://www.wikidata.org/wiki/Special:EntityData/{qid}.json")
+        labels = d["entities"][qid]["labels"]
+    except Exception:
+        return ""
+    for lang in ("zh-hk", "zh-hant", "zh-tw", "yue"):
+        if lang in labels:
+            return labels[lang]["value"]
+    for lang in ("zh", "zh-hans", "zh-cn"):
+        if lang in labels:
+            return _hk(labels[lang]["value"])
+    return ""
+
+def _zh_name(obj):
+    nd = obj.get("namedetails") or {}
+    for k in ("name:zh-HK", "name:zh-Hant", "name:zh-TW", "name:yue"):
+        if nd.get(k):
+            return nd[k]
+    qid = (obj.get("extratags") or {}).get("wikidata")
+    zh = _wikidata_zh(qid) if qid else ""
+    if zh:
+        return zh
+    for k in ("name:zh", "name:zh-Hans"):
+        if nd.get(k):
+            return _hk(nd[k].split(";")[0])
+    return obj.get("name") or ""
+
+def place_name(lat, lon):
+    key = f"{lat:.2f},{lon:.2f}"
+    if key in PLACES:
+        return PLACES[key]
+    base = "https://nominatim.openstreetmap.org/reverse?" + urllib.parse.urlencode(
+        {"format": "jsonv2", "lat": f"{lat:.2f}", "lon": f"{lon:.2f}", "accept-language": "zh-HK,zh-Hant,zh-TW,zh,en",
+         "namedetails": 1, "extratags": 1, "addressdetails": 1})
+    objs = []
+    for z in (14, 12, 10, 8):  # neighbourhood / town / city / county
+        try:
+            objs.append(_get(f"{base}&zoom={z}"))
+        except Exception as e:
+            print("place lookup failed:", e)
+    if not objs:
+        return ""
+    addr = objs[0].get("address") or {}
+    names = [FIX.get(n, n) for n in (_zh_name(o) for o in objs)]
+    city = next((FIX.get(c, c) for o in objs for c in ((o.get("address") or {}).get("city"), (o.get("address") or {}).get("town"))
+                 if _has_han(c)), "")
+    country = _hk(addr.get("country") or "")
+    # most specific Chinese name, then the next wider one: 諾斯伍德，倫敦 / 布拉格小城，布拉格 / 德比郡，英國
+    han = [t for t in names if _has_han(t)]
+    parts = han[:1]
+    for t in [city] + han[1:] + [country]:
+        if len(parts) == 2:
+            break
+        if _has_han(t) and not any(t in p or p in t for p in parts):
+            parts.append(t)
+    parts = parts or [t for t in (names[0], country) if t]
+    name = "，".join(parts)
+    if len(objs) == 4:  # only remember complete lookups
+        PLACES[key] = name
+    print("place:", key, "->", name)
+    return name
+
+def save_places():
+    with open(PLACES_FILE, "w", encoding="utf-8") as f:
+        json.dump(PLACES, f, ensure_ascii=False, indent=1, sort_keys=True)
 
 def main():
     if not TOKEN:
@@ -131,12 +297,18 @@ def main():
         keep.add(name)
         d = p["date"]
         when = f"{int(d[5:7])}月{int(d[8:10])}日" if len(d) == 10 else ""
-        out.append({"src": f"{OUT_DIR}/{name}", "text": p["caption"], "when": when})
+        item = {"src": f"{OUT_DIR}/{name}", "text": p["caption"], "when": when}
+        ll = p.get("latlon") or exif_gps(path)
+        place = place_name(*ll) if ll else ""
+        if place:
+            item["place"] = place
+        out.append(item)
     for f in os.listdir(OUT_DIR):  # drop photos removed from the album
         if f.endswith(".jpg") and f not in keep:
             os.remove(os.path.join(OUT_DIR, f))
     with open("photos.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
+    save_places()
     print("wrote", len(out), "photos")
 
 if __name__ == "__main__":

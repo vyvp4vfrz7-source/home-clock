@@ -133,9 +133,16 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 #photo .ph { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0; transition: opacity 2.5s ease; }
 #photo .ph.on { opacity: 1; }
 #photo .cap { position: absolute; left: 18px; right: 18px; bottom: 18px; display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; }
-#photo .cap span { background: rgba(8,12,18,.62); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-radius: 14px; padding: 8px 14px; font-size: 18px; font-weight: 600; }
+#photo .cap > span { background: rgba(8,12,18,.62); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-radius: 14px; padding: 8px 14px; font-size: 18px; font-weight: 600; }
 #photo .cap .w { color: #c9d3df; font-size: 15px; font-weight: 500; white-space: nowrap; }
-#photo .cap span:empty { display: none; }
+#photo .cap > span:empty { display: none; }
+#photo .loc { position: absolute; left: 18px; top: 16px; max-width: calc(100% - 36px); background: rgba(8,12,18,.62); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-radius: 12px; padding: 6px 12px 6px 10px; font-size: 16px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#photo .loc:empty { display: none; }
+#photo .loc svg { width: 14px; height: 14px; vertical-align: -1px; margin-right: 5px; fill: #f6a35c; }
+#photo .cm { display: block; font-size: 16px; font-weight: 500; line-height: 1.3; margin-top: 4px; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+#photo .cm:first-child { margin-top: 0; }
+#photo .cm b { color: var(--sun); font-weight: 700; margin-right: 6px; }
+#photo .cap #capT { min-width: 0; }
 #photo .tag { position: absolute; top: 16px; right: 18px; font-size: 12px; color: #c9d3df; background: rgba(8,12,18,.55); padding: 4px 10px; border-radius: 10px; }
 #days { position: absolute; left: 30px; right: 30px; bottom: 22px; display: grid; grid-template-columns: repeat(5, 1fr); border-top: 1px solid var(--line); padding-top: 14px; }
 .dy { display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 16px; color: var(--muted); font-weight: 600; }
@@ -176,7 +183,7 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
   <section class="t" id="now"><div class="lbl">Loading weather…</div></section>
   <section class="t" id="hours"><div class="lbl">Next 10 hours</div><div class="strip" id="strip"></div></section>
   <section class="t" id="cal"><div class="ch"><div class="lbl">日程 · Calendar</div><span class="sm" id="ctag" hidden>示範 · sample</span></div><div id="evs"></div></section>
-  <section class="t" id="photo"><div class="cap"><span id="capT"></span><span class="w" id="capW"></span></div><div class="tag" id="ptag" hidden>示範相片 · sample</div></section>
+  <section class="t" id="photo"><div class="loc" id="capL"></div><div class="cap"><span id="capT"></span><span class="w" id="capW"></span></div><div class="tag" id="ptag" hidden>示範相片 · sample</div></section>
   <section class="t" id="news"><div class="nh"><div class="lbl">新聞 · News</div><button id="play" type="button" aria-label="Play Cantonese summary">▶ 播放</button></div><div id="nws"></div></section>
   <div id="status"></div>
 </div>
@@ -456,7 +463,7 @@ function hills(g, w, h, base, amp, freq, phase, color) {
   g.lineTo(w, h); g.closePath(); g.fill();
 }
 var SCENES = [
-  { text: '維港日落，記得我哋上次一齊睇', when: '10月20日', draw: function (g, w, h) {
+  { text: '維港日落，記得我哋上次一齊睇', when: '10月20日', place: '尖沙咀，香港', comments: [{ who: '媽媽', text: '好靚呀！' }], draw: function (g, w, h) {
     g.fillStyle = grad(g, h * .62, [[0, '#2c2350'], [.5, '#c4566a'], [1, '#f4a35c']]); g.fillRect(0, 0, w, h * .62);
     g.fillStyle = '#ffd9a0'; g.beginPath(); g.arc(w * .62, h * .55, 70, 0, Math.PI * 2); g.fill();
     g.fillStyle = '#1d1a2e';
@@ -465,7 +472,7 @@ var SCENES = [
     g.fillStyle = 'rgba(255,214,150,.55)';
     for (var y = h * .64; y < h; y += 14) { var ww = 30 + Math.random() * 120; g.fillRect(w * .62 - ww / 2 + (Math.random() - .5) * 40, y, ww, 3); }
   } },
-  { text: 'Hampstead Heath 散步，好多落葉', when: '10月27日', draw: function (g, w, h) {
+  { text: 'Hampstead Heath 散步，好多落葉', when: '10月27日', place: '漢普斯特德，倫敦', draw: function (g, w, h) {
     g.fillStyle = grad(g, h, [[0, '#8fb6d8'], [.55, '#dfe6e0'], [1, '#dfe6e0']]); g.fillRect(0, 0, w, h);
     hills(g, w, h, h * .52, 30, 260, 1, '#a7b38c');
     hills(g, w, h, h * .62, 40, 200, 2.4, '#7f8f5e');
@@ -502,11 +509,26 @@ function nextPhoto() {
   var els = $('photo').querySelectorAll('.ph'); if (!els.length) return;
   if (pIdx >= 0) els[pIdx].classList.remove('on');
   pIdx = (pIdx + 1) % els.length; els[pIdx].classList.add('on');
-  var p = PHOTOS[els.length - 1 - pIdx] || {}; $('capT').textContent = p.text || ''; $('capW').textContent = p.when || '';
+  var p = PHOTOS[els.length - 1 - pIdx] || {};
+  showCaption(p);
+}
+var PIN = '<svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>';
+function esc(t) { return String(t).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+/* place: Hong Kong Chinese place name (tools/build_photos.py, from the photo's GPS).
+   comments: [{"who":"媽媽","text":"好靚！"}] from the shared album; text is the photo's own caption. */
+function showCaption(p) {
+  $('capL').innerHTML = p.place ? PIN + esc(p.place) : '';
+  var lines = [];
+  if (p.text) lines.push('<span class="cm">' + esc(p.text) + '</span>');
+  (p.comments || []).slice(-2).forEach(function (c) {
+    if (c && c.text) lines.push('<span class="cm">' + (c.who ? '<b>' + esc(c.who) + '</b>' : '') + esc(c.text) + '</span>');
+  });
+  $('capT').innerHTML = lines.join('');
+  $('capW').textContent = p.when || '';
 }
 fetch('photos.json?t=' + Date.now()).then(function (r) { return r.json(); })
   .then(function (list) { if (list && list.length) startPhotos(list); else throw 0; })
-  .catch(function () { $('ptag').hidden = false; startPhotos(SCENES.map(function (sc) { return { src: paint(sc.draw), text: sc.text, when: sc.when }; })); });
+  .catch(function () { $('ptag').hidden = false; startPhotos(SCENES.map(function (sc) { return { src: paint(sc.draw), text: sc.text, when: sc.when, place: sc.place, comments: sc.comments }; })); });
 
 /* ---------- calendar ----------
    calendar.json is saved every 30 minutes by .github/workflows/calendar.yml
