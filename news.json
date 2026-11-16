@@ -1,165 +1,512 @@
 {
- "updated": "2026-11-16T17:57+00:00",
+ "updated": "2026-11-16T18:06+00:00",
  "items": [
   {
    "src": "香港",
+   "lang": "zh",
    "t": "深圳APEC｜召集全球網民接力唱廣東歌《朋友》有英文泰文版",
-   "lang": "zh"
+   "d": "深圳廣電集團聯同北京、上海廣播電視台推出《APEC「中國年」100小時全媒體大直播》節目。 晚上節目環節，包括請來多名導演談及製作概念。有導演表示，APEC會議對一般人來說或有點抽象，甚至有些人或不認識21個經濟體成員，因此想到透過「接力唱」網路活動，讓大家能夠參與這宗國際大事。 這名導演指，選了廣東歌《朋友》作為「接力唱」的歌曲，最終收到全球數十個國家及地區的網民投稿，當中有人用英文、泰文等翻唱，並製作成影片。 另外，有製作機械人樂隊…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878040_1_M_20261116234634.jpg",
+   "at": "2026-11-16T15:46+00:00",
+   "where": [
+    22.54,
+    114.06,
+    "深圳"
+   ]
   },
   {
    "src": "國際",
+   "lang": "zh",
    "t": "習近平、特朗普與普京歷史性會晤，將對世界意味什麼？",
-   "lang": "zh"
+   "d": "中國、俄羅斯和美國領導人正籌備首次三方會晤，引發歐洲憂慮。一些人認為，這令人聯想到第二次世界大戰後，大國將世界劃分為不同勢力範圍的歷史。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/f9de/live/369f6d80-df7d-11f1-93e1-3b657b665bcf.jpg",
+   "at": "2026-11-16T14:38+00:00",
+   "where": [
+    55.75,
+    37.6,
+    "俄羅斯"
+   ]
   },
   {
    "src": "香港",
+   "lang": "zh",
    "t": "日本千葉縣、英國及印度部分地區禽肉禽蛋因禽流感暫停進口本港",
-   "lang": "zh"
+   "d": "食物安全中心宣布，因應世界動物衞生組織通報，指印度及英國部分地區爆發高致病性H5N1禽流感，及日本農林水產省通報指日本爆發高致病性H5禽流感，中心即時暫停從有關地區進口禽肉及禽類產品，包括禽蛋，以保障公眾健康。 中心表示，有關地區為印度安得拉邦Anantapur區；英國諾福克郡King's Lynn & West Norfolk區、東約克郡東約克區；蘭開夏郡Wyre區及其附近的Lancaster區、Fylde區和Preston區；日本千…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878035_1_M_20261116225139.jpg",
+   "at": "2026-11-16T14:25+00:00",
+   "where": [
+    52.5,
+    -1.5,
+    "英國"
+   ]
   },
   {
    "src": "國際",
+   "lang": "zh",
    "t": "里長赴中旅遊受關注：為何北京鎖定里長？里長怎麼看？",
-   "lang": "zh"
+   "d": "台灣地方選舉即將到來，近年北京對台統戰工作重心從政商菁英轉向基層社會，而里長作為選舉期間的地方「樁腳」，就成為了北京的重要接觸對象。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7e59/live/86a92b40-d75d-11f1-b441-2b33b063138f.jpg",
+   "at": "2026-11-16T09:03+00:00",
+   "where": [
+    23.7,
+    121.0,
+    "台灣"
+   ]
   },
   {
    "src": "香港",
-   "t": "東瀛遊接供應商通知系統遭未經授權網絡存取　涉部分客戶證件資料",
-   "lang": "zh"
+   "lang": "zh",
+   "t": "東瀛遊接供應商通知系統遭未經授權網絡存取 涉部分客戶證件資料",
+   "d": "旅行社東瀛遊表示，本月13日接獲第三方技術服務供應商通知，系統曾遭受未經授權的網絡存取，部分客戶的姓名、聯絡資料、身份證號碼及旅遊證件資料等，可能涉及相關事件。東瀛遊已報警處理，以及向私隱專員公署立案。 東瀛遊向客戶發出通知，指發生第三方技術服務供應商的資料安全事件，由於公司一直使用獨立的銀行付款系統，因此調查確認，事件不涉及任何信用卡或付款相關資料，暫未有證據顯示相關資料遭不當使用。另外，公司的核心旅遊預訂系統及日常業務運作並無受影響…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878034_1_M_20261116221951.jpg",
+   "at": "2026-11-16T14:18+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
   },
   {
    "src": "國際",
+   "lang": "zh",
    "t": "里長赴中旅遊：台灣《反滲透法》為何「查辦多、定罪少」？",
-   "lang": "zh"
+   "d": "台灣「九合一」地方選舉進入倒數，北京試圖介入台灣選舉的相關活動再受關注。台灣《反滲透法》施行後，儘管近年相關案件數量快速增加，但查辦近600人，只有5人被定罪，使現行法律規範與執法標準受到外界檢視。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/885c/live/600cf080-e175-11f1-93f3-8bc2b127a55c.jpg",
+   "at": "2026-11-16T09:03+00:00",
+   "where": [
+    23.7,
+    121.0,
+    "台灣"
+   ]
   },
   {
    "src": "香港",
-   "t": "香港迪士尼連串聖誕慶祝活動　聖誕樹亮燈配無人機表演及飄雪效果",
-   "lang": "zh"
+   "lang": "zh",
+   "t": "香港迪士尼連串聖誕慶祝活動 聖誕樹亮燈配無人機表演及飄雪效果",
+   "d": "香港迪士尼樂園度假區公布連串聖誕新年活動。明天至明年1月3日將舉辦聖誕慶祝活動，期間每日傍晚6時20分在美國小鎮大街的巨型聖誕樹會亮燈，上空會上演節日無人機表演，現場亦有飄雪效果。 原有每晚煙花匯演期間，城堡上空的無人機表演亦會繼續，即每晚有兩場無人機表演。園區下午舉行活動啟動儀式，邀請了韓國女團成員張員瑛與迪士尼人物，點亮美國小鎮大街的大型聖誕樹，吸引大批賓客在場拍照。 香港迪士尼由本周末至12月初會舉行聖誕音樂會，有本地鋼琴家及兒童…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878030_1_M_20261116222919.jpg",
+   "at": "2026-11-16T13:11+00:00",
+   "where": [
+    37.57,
+    126.98,
+    "南韓"
+   ]
   },
   {
    "src": "國際",
+   "lang": "zh",
    "t": "APEC深圳峰會：中方確認美中俄會晤，日方盼習近平與高市握手",
-   "lang": "zh"
+   "d": "深圳APEC2026到來，特朗普（川普）稱將與中俄領袖在深圳會面，中俄確認正協調三方會晤。BBC中文專訪APEC執行秘書長討論敏感議，稱對領導人出席保持樂觀。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/f0ac/live/5861faf0-df50-11f1-8364-2717a13d3b08.jpg",
+   "at": "2026-11-16T01:43+00:00",
+   "where": [
+    22.54,
+    114.06,
+    "深圳"
+   ]
   },
   {
    "src": "香港",
-   "t": "有小學升中呈分試出問題全級學生重考　教育局︰已要求嚴肅跟進",
-   "lang": "zh"
+   "lang": "zh",
+   "t": "有小學升中呈分試出問題全級學生重考 教育局︰已要求嚴肅跟進",
+   "d": "有報道指，九龍塘喇沙小學和元朗官立小學，小六升中呈分試出問題，全級學生要重考。 教育局回覆查詢指，已接獲兩間學校通報，知悉學校已就事件及相關安排通知學生及家長。局方分別要求兩間學校調查，嚴肅跟進及妥善處理，就事件提交報告。 教育局提醒學校務必確保所有校內測考均在公平和公正的原則下進行，亦須與家長及學生保持良好溝通，提供支援。 編輯：鍾慧儀",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878029_1_M_20261116212232.jpg",
+   "at": "2026-11-16T13:10+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
   },
   {
    "src": "國際",
+   "lang": "zh",
    "t": "據報黃仁勳商討重返Nvidia，Megaspeed稱黃樂去年已離職",
-   "lang": "zh"
+   "d": "英偉達醜聞引發了人們的質疑：儘管美國有所限制，但先進的人工智慧晶片最終是否流入了中國。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/fa43/live/e2a9a870-e10d-11f1-93e1-3b657b665bcf.jpg",
+   "at": "2026-11-16T03:49+00:00",
+   "where": [
+    34.0,
+    108.0,
+    "中國"
+   ]
   },
   {
    "src": "香港",
+   "lang": "zh",
    "t": "港交所推出離岸人民幣債券指數",
-   "lang": "zh"
+   "d": "，追蹤在香港發行的超過300隻「點心債」。 出席儀式的財政司司長陳茂波表示，指數可以為投資者提供清晰的市場表現基準，提供便捷途徑投資於多元化的離岸人民幣債券組合。 編輯：梁家奇",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878024_1_M_20261116195120.jpg",
+   "at": "2026-11-16T11:51+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
   },
   {
    "src": "國際",
+   "lang": "zh",
    "t": "九合一前夕：台灣幾乎年年選舉，會引起「投票疲勞」嗎？",
-   "lang": "zh"
+   "d": "台灣在過去七年間，幾乎每年都有大型選舉、罷免或公投。有學者形容台灣政治人物常處於「選舉模式」，在面對不同議題時往往急於回應。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7a49/live/c76f08c0-dcda-11f1-a8e1-e3454837ffc6.jpg",
+   "at": "2026-11-13T10:39+00:00",
+   "where": [
+    23.7,
+    121.0,
+    "台灣"
+   ]
   },
   {
    "src": "香港",
+   "lang": "zh",
    "t": "【重溫】2026年11月16日新聞天地",
-   "lang": "zh"
+   "d": "詳盡報道本地時事、大中華消息、國際局勢等新聞，緊貼最新熱話。",
+   "at": "2026-11-16T11:42+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
   },
   {
    "src": "國際",
+   "lang": "zh",
    "t": "四成「陸配」參選遭剔除，身分「法理死結」如何困住參政之路？",
-   "lang": "zh"
+   "d": "「除籍滿10年」如何計算，成為這屆選舉多位陸配被剔除參選資格的爭議焦點。今年有25位「陸配」參選，當中逾4成參選人不符參選資格。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/d87a/live/b52594a0-d676-11f1-b441-2b33b063138f.png",
+   "at": "2026-11-02T04:37+00:00"
   },
   {
    "src": "香港",
+   "lang": "zh",
    "t": "陳國基要求各政策局及部門迅速精準落實宏福苑火災獨立委員會報告",
-   "lang": "zh"
+   "d": "由政務司司長陳國基領導的督導委員會，今日召開首次會議，多名司局長和部門首長出席，就全力推展樓宇維修制度改革統籌協調工作。 會議上，各政策局及部門深入檢視推進各項建議的工作計劃、責任分工、落實方案和時間表。陳國基在會上要求各政策局及部門迅速並精準地落實各項建議，全面推進改革，做到制度完善、流程優化、執行到位，又強調已準備就緒的措施須盡早推行；涉及法例修訂的項目則須全速完成準備工作，盡早向立法會提出修訂建議，爭取立法會盡快審議通過。 政府早…",
+   "at": "2026-11-16T11:10+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
   },
   {
    "src": "國際",
+   "lang": "zh",
    "t": "「九合一」五大看點：「洋流」能否撼動台北？誰在卡位2028？",
-   "lang": "zh"
+   "d": "中共是否介入台灣選舉？ 這次選舉將如何影響賴清德與國民黨主席鄭麗文的政治能量？捲土重來、希望藉著地方議員選舉有所斬獲的小黨，此次結盟能否在主流政黨夾殺中突圍而出？",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/5997/live/fdfeb670-d293-11f1-a701-fddedf244c16.jpg",
+   "at": "2026-10-28T02:45+00:00",
+   "where": [
+    23.7,
+    121.0,
+    "台灣"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "崔建春稱良好政治局面來之不易 必須倍加珍惜",
+   "d": "外交部駐港公署特派員崔建春表示，香港應推進至「對外開放」，以政策歡迎國際社會人士來港工作、生活、求學及旅遊。 崔建春向外國駐港總領事講解五中全會精神時指出，中國經歷40多年改革開放，經濟、社會生活發生巨大變遷，發展不平衡、不充分問題仍然突出；在進一步全面深化改革、推動高品質發展、加強社會建設及治理、統籌發展與安全、激發並增強社會活力等方面，遇到不少新課題。 他說，面對複雜形勢，必須持之以恆、全面從嚴治黨，貫徹推進改革、發展及穩定；重申良…",
+   "at": "2026-11-16T10:19+00:00",
+   "where": [
+    34.0,
+    108.0,
+    "中國"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "台灣「北藍南綠」的政治版圖是否「鐵板一塊」？",
+   "d": "「北藍南綠」是描述台灣政治版圖的常見概念，但近年選舉結果顯示，這樣的區域分野並非一成不變，中間選民的流向在這次地方選舉可能左右大局。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/815f/live/b7df6e90-be3a-11f1-883b-cfbfbf424e7e.jpg",
+   "at": "2026-10-14T03:36+00:00",
+   "where": [
+    23.7,
+    121.0,
+    "台灣"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "增3宗退伍軍人病個案 包括兩宗社區感染及一宗輸入個案",
+   "d": "衞生防護中心表示，上星期錄得三宗退伍軍人病個案，包括兩宗社區感染及一宗輸入個案。兩宗本地個案分別居於屯門區及黃大仙區，輸入個案於潛伏期到過內地。 中心指出，本月8日至14日錄得的三宗個案，涉及兩男一女，年齡介乎62至67歲，全部有長期病患。中心初步調查顯示，全部屬散發個案，沒有資料顯示與本港早前其他確診者有流行病學關連。 中心指出，​截至本月14日，今年錄得178宗退伍軍人病個案。 編輯：譚佩貞",
+   "at": "2026-11-16T10:13+00:00",
+   "where": [
+    34.0,
+    108.0,
+    "中國"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "美國全國停飛兩天後仍有數千航班受阻，原因為銅線升級光纖工程",
+   "d": "美國交通部長表示，正常的空中交通運行可能要到週一才能恢復。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/1b00/live/90c0ff50-e11b-11f1-a7a2-7bb21fac8f0b.jpg",
+   "at": "2026-11-16T07:56+00:00",
+   "where": [
+    38.9,
+    -77.04,
+    "美國"
+   ]
   },
   {
    "src": "HONG KONG",
+   "lang": "en",
    "t": "Govt moves to implement Wang Fuk recommendations",
-   "lang": "en"
+   "d": "Chief Secretary Eric Chan has urged government bureaux and departments to implement recommendations from the independent committee report on the deadly Wang Fuk Court fire “swiftly and precisely”. This came as a steering…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878027_1_M_20261116204425.jpg",
+   "at": "2026-11-16T13:33+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
   },
   {
    "src": "UK",
+   "lang": "en",
    "t": "Russell Brand prison message 'appalling' and being investigated, No 10 says",
-   "lang": "en"
+   "d": "Brand's wife read out comments from the comedian on their podcast in which the convicted rapist said he was \"not guilty of the offences I have been jailed for\".",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a6a9/live/58ecf9b0-e1bd-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-16T17:20+00:00",
+   "where": [
+    52.5,
+    -1.5,
+    "英國"
+   ]
   },
   {
    "src": "HONG KONG",
+   "lang": "en",
    "t": "RTHK, CGTN join hands in Apec coverage",
-   "lang": "en"
+   "d": "All eyes are on Shenzhen as the city prepares to host the annual Apec summit. World leaders will converge in China's tech hub to discuss a wide range of issues, ranging from economic development to bolstering regional co…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878022_1_M_20261116194240.jpg",
+   "at": "2026-11-16T11:42+00:00",
+   "where": [
+    22.54,
+    114.06,
+    "深圳"
+   ]
   },
   {
    "src": "UK",
+   "lang": "en",
    "t": "Barristers must stop using rape myths in trials, justice secretary says",
-   "lang": "en"
+   "d": "Russell Brand's barrister has been accused of peddling rape myths while defending the comedian.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1dd3/live/4146e090-e1aa-11f1-8ee3-23d0d09d2796.jpg",
+   "at": "2026-11-16T13:28+00:00",
+   "where": [
+    52.5,
+    -1.5,
+    "英國"
+   ]
   },
   {
    "src": "HONG KONG",
+   "lang": "en",
    "t": "CE hails HK as 'port in storm' for shipping sector",
-   "lang": "en"
+   "d": "Chief Executive John Lee on Monday said Hong Kong is “the port in a storm” for international ship owners seeking stability amid a complex geopolitical landscape and market volatility. Speaking at the opening ceremony of …",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1877996_1_M_20261116160538.jpg",
+   "at": "2026-11-16T08:57+00:00",
+   "where": [
+    34.0,
+    108.0,
+    "中國"
+   ]
   },
   {
    "src": "UK",
+   "lang": "en",
    "t": "Create more jobs for under-25s by cutting National Insurance, key report urges",
-   "lang": "en"
+   "d": "Some parents are so desperate for their children to find a job that they've offered to pay their wages, one hairdresser has told the BBC.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/283e/live/4753f640-e1ae-11f1-b0a4-450a350911f4.jpg",
+   "at": "2026-11-16T13:19+00:00",
+   "where": [
+    52.5,
+    -1.5,
+    "英國"
+   ]
   },
   {
    "src": "HONG KONG",
+   "lang": "en",
    "t": "John Lee heads to Shenzhen for Apec summit",
-   "lang": "en"
+   "d": "Chief Executive John Lee will travel to Shenzhen on Tuesday to attend the Apec summit, where he will seek to deepen the city’s cooperation with Asia-Pacific economies. Lee is due to take part in the Apec Economic Leaders…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1877997_1_M_20261116155827.jpg",
+   "at": "2026-11-16T07:58+00:00",
+   "where": [
+    22.54,
+    114.06,
+    "深圳"
+   ]
   },
   {
    "src": "UK",
+   "lang": "en",
    "t": "UK lost more than it gained from Brexit, Burnham to say ahead of EU summit",
-   "lang": "en"
+   "d": "The prime minister will say the \"Brexit we were given has not worked\" in a speech on Monday.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/dc0f/live/f8a1dcb0-e1df-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-16T11:27+00:00",
+   "where": [
+    50.8,
+    4.4,
+    "比利時"
+   ]
   },
   {
    "src": "HONG KONG",
+   "lang": "en",
    "t": "Family care leave impact on operations 'to be minimal'",
-   "lang": "en"
+   "d": "The new 12 hours of family care leave for government employees per year will have minimal impact on manpower deployment, Secretary for the Civil Service Ingrid Yeung said on Monday. Under the new leave entitlement, expec…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1877977_1_M_20261116153806.jpg",
+   "at": "2026-11-16T07:38+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
   },
   {
    "src": "UK",
+   "lang": "en",
    "t": "Women's criminal records wiped for abortion offences",
-   "lang": "en"
+   "d": "Women arrested or convicted for having illegal abortions will have their criminal records wiped as new atomatic pardons come into force in England and Wales.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ed68/live/71f67330-e1ab-11f1-8ee3-23d0d09d2796.jpg",
+   "at": "2026-11-16T11:45+00:00",
+   "where": [
+    52.3,
+    -3.7,
+    "威爾士"
+   ]
   },
   {
    "src": "HONG KONG",
+   "lang": "en",
    "t": "Lawmaker supports decision to cut short harbour swim",
-   "lang": "en"
+   "d": "Legislator Vincent Cheng, who took part in Sunday's cross-harbour swim, on Monday said it was appropriate for the organiser to call off the last race on safety grounds. About 4,000 swimmers signed up to this year's annua…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1877963_1_M_20261116123250.jpg",
+   "at": "2026-11-16T04:32+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
   },
   {
    "src": "UK",
+   "lang": "en",
    "t": "UK budget leaves NI underfunded, O'Dowd says",
-   "lang": "en"
+   "d": "Northern Ireland's public funding has worsened relative to rest of the UK as a result of the Westminster budget, Stormont's Finance Minister has claimed.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5afa/live/8c91cd50-d361-11f1-b441-2b33b063138f.jpg",
+   "at": "2026-11-16T14:27+00:00",
+   "where": [
+    54.6,
+    -6.7,
+    "北愛爾蘭"
+   ]
   },
   {
    "src": "HONG KONG",
+   "lang": "en",
    "t": "HKEX launches first offshore RMB bond index",
-   "lang": "en"
+   "d": "Hong Kong Exchanges and Clearing (HKEX) launched its first index tracking offshore yuan bonds on Monday, providing investors with a new benchmark in a market that is central to Beijing's drive to promote the global use o…",
+   "at": "2026-11-16T04:21+00:00",
+   "where": [
+    39.9,
+    116.4,
+    "北京"
+   ]
   },
   {
    "src": "UK",
+   "lang": "en",
    "t": "Police officers lied about searches connected to fatal crash, hearing told",
-   "lang": "en"
+   "d": "PC Richard Hardwick and PC Lauren Livingstone face gross misconduct allegations over their actions.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d019/live/50ba3d60-bbdb-11f0-8669-5560f5c90fbe.jpg",
+   "at": "2026-11-16T15:53+00:00",
+   "where": [
+    52.5,
+    -1.5,
+    "英國"
+   ]
   },
   {
    "src": "HONG KONG",
+   "lang": "en",
    "t": "New World shares slump amid rights issue plan",
-   "lang": "en"
+   "d": "Shares of New World Development tumbled more than 45 percent at the open of trade on Monday after the property developer proposed a HK$24.9 billion rights issue plan. The plan offers shareholders 11 rights shares for eve…",
+   "at": "2026-11-16T02:52+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
   },
   {
    "src": "UK",
+   "lang": "en",
    "t": "Yellow weather warnings issued for snow as temperatures plummet",
-   "lang": "en"
+   "d": "A spell of colder, wintry weather will grip some northern parts of the UK, bringing a threat of ice and hill snow at times.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7e42/live/9f7d3670-e1cb-11f1-b8c8-67fa35f5afdb.jpg",
+   "at": "2026-11-16T10:02+00:00",
+   "where": [
+    52.5,
+    -1.5,
+    "英國"
+   ]
+  },
+  {
+   "src": "HONG KONG",
+   "lang": "en",
+   "t": "Police chief pledges cautious use of CCTV network",
+   "d": "Police Commissioner Joe Chow on Sunday said the force’s surveillance camera system would not be abused. This came as facial recognition technology will be rolled out across its CCTV network on Monday under the police Sma…",
+   "at": "2026-11-15T09:59+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "UK",
+   "lang": "en",
+   "t": "Prince and Princess of Wales arrive in India ahead of meeting with Modi",
+   "d": "Most of the engagements the royal couple will attend are related to the Earthshot Prize, which Prince William founded.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1bb6/live/b77baec0-e19c-11f1-a2d0-ff163dc3689d.jpg",
+   "at": "2026-11-16T07:19+00:00",
+   "where": [
+    52.3,
+    -3.7,
+    "威爾士"
+   ]
+  },
+  {
+   "src": "HONG KONG",
+   "lang": "en",
+   "t": "HZMB Half Marathon draws thousands of runners",
+   "d": "Tens of thousands of runners – from professionals to enthusiastic amateurs – took part in the Hong Kong-Zhuhai-Macao Bridge Half Marathon on Sunday morning. The event featured three groups: the 10-kilometre challenge, al…",
+   "at": "2026-11-15T08:15+00:00",
+   "where": [
+    34.0,
+    108.0,
+    "中國"
+   ]
+  },
+  {
+   "src": "UK",
+   "lang": "en",
+   "t": "Miliband says he won't resign if government approves Rosebank oil field",
+   "d": "Energy Secretary Miatta Fahnbulleh is to make a decision on Britain's largest untapped oil field.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f57a/live/6be5a010-e1bf-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-16T16:05+00:00",
+   "where": [
+    52.5,
+    -1.5,
+    "英國"
+   ]
   }
  ]
 }
