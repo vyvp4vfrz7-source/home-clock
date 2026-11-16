@@ -18,7 +18,11 @@ jobs:
       - run: python tools/build_photos.py
         env:
           ALBUM_TOKEN: ${{ secrets.ALBUM_TOKEN }}
+      - name: Show what a test run made (runs from other branches don't commit)
+        if: github.ref != 'refs/heads/main'
+        run: ls -la photos | grep -i mp4 || echo "no videos"; grep -c '"video"' photos.json || true
       - name: Commit if changed
+        if: github.ref == 'refs/heads/main'
         run: |
           git config user.name "photo-bot"
           git config user.email "photo-bot@users.noreply.github.com"
