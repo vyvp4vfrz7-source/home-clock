@@ -1,0 +1,32 @@
+name: Save football scores
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - tools/build_scores.py
+      - .github/workflows/scores.yml
+permissions:
+  contents: write
+concurrency: site-data
+jobs:
+  scores:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/build_scores.py scores.json
+        env:
+          LEAGUES: eng.1,eng.fa,eng.league_cup,uefa.champions,uefa.europa,uefa.europa.conf
+      - name: Check the iPad may read ESPN directly (test runs from other branches only)
+        if: github.ref != 'refs/heads/main'
+        run: |
+          curl -sS -D - -o /dev/null -H "Origin: https://vyvp4vfrz7-source.github.io" "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard" | grep -i "^HTTP\|access-control\|cache-control" || true
+          curl -sS "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261108" -o past.json && python3 -c "import json;d=json.load(open('past.json'));e=d['events'][0];print(json.dumps(e['status'])[:400]);print(json.dumps(e['competitions'][0]['competitors'][0])[:700]);print(json.dumps(e['competitions'][0].get('details',[])[:2])[:600])"
+      - name: Commit if changed
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "scores-bot"
+          git config user.email "scores-bot@users.noreply.github.com"
+          git add scores.json
+          git diff --cached --quiet || (git commit -m "Update football scores" && git pull --rebase && git push)
