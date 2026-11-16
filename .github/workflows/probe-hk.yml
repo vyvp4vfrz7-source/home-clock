@@ -7,16 +7,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          set +e
-          H=https://www.hko.gov.hk
-          curl -sS -m 20 "$H/en/wxinfo/ts/webcam/files/wxphoto_e.js" -o w.js; wc -c w.js; grep -oE '"[A-Z0-9]{2,4}"\s*:\s*\{[^}]{0,200}' w.js | head -60; grep -oiE '.{0,120}(stationLocation|stn).{0,120}' w.js | head -30
-          echo ==ANIM; curl -sS -m 20 "$H/wxinfo/ts/webcam/CP1_animation.js" | head -c 1500; echo
-          curl -sS -m 20 "$H/wxinfo/ts/webcam/VPB_animation.js" | head -c 600; echo
-          for c in CP1 VPB; do l=$(echo $c | tr A-Z a-z); curl -sS -o /dev/null -D - -m 15 -w "HD $c %{http_code} %{size_download}\n" "$H/wxinfo/aws/hko_mica/$l/latest_HD_$c.jpg" | grep -iE "^HD|cache-control|last-modified|x-frame|cross-origin"; done
-      - run: |
-          set +e
-          for c in K109F H106F; do curl -sS -o /dev/null -m 10 -w "TD $c %{http_code} %{content_type} %{size_download}\n" "https://tdcctv.data.one.gov.hk/$c.JPG"; done
-          curl -sS -m 20 -D - -o rh.json -H "Origin: https://vyvp4vfrz7-source.github.io" "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=tc" | grep -i "^HTTP\|access-control"; head -c 900 rh.json; echo
-          curl -sS -m 20 "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc" | head -c 900; echo
-          curl -sS -m 20 "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=warnsum&lang=tc" | head -c 400; echo
-          curl -sS -m 20 "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=tc" | head -c 600; echo
+          set +e; mkdir out; H=https://www.hko.gov.hk
+          for l in cp1 vpb hko hk2 cch dnl pe2 wlp wgl wl2 tpk skg sk2 cce klt lfs cwa cwb lam swh tms ic1 sly kfb tko ssp vpa vpc lkf stc ngp; do
+            C=$(echo $l | tr a-z A-Z)
+            code=$(curl -sS -m 12 -o out/$l.jpg -w "%{http_code}" "$H/wxinfo/aws/hko_mica/$l/latest_$C.jpg")
+            t=$(curl -sS -m 12 "$H/tc/wxinfo/ts/webcam/${C}_photo.htm" | grep -oE '<title>[^<]*' | head -1)
+            echo "$l $code $(stat -c%s out/$l.jpg 2>/dev/null) $t"
+            [ "$code" = 200 ] || rm -f out/$l.jpg
+          done
+      - uses: actions/upload-artifact@v4
+        with: { name: cams, path: out }
