@@ -1,6 +1,6 @@
 """Fetch Hong Kong and UK headlines (Traditional Chinese and English) and write news.json.
 Runs in GitHub Actions every 30 minutes. Standard library only."""
-import json, sys, urllib.request, xml.etree.ElementTree as ET
+import json, re, sys, urllib.request, xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
 # (label, feed, how many, language). The page shows Chinese and English side by side;
@@ -19,7 +19,7 @@ def titles(url, n):
     out = []
     for item in root.iter("item"):
         t = (item.findtext("title") or "").strip()
-        if t:
+        if t and not re.search(r"\bon TV3\d|^(Morning|Evening|Midday) News\b", t):  # skip RTHK programme notices
             out.append(t)
         if len(out) >= n:
             break
