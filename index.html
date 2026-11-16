@@ -31,6 +31,120 @@ html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); f
 #dots button i { width: 8px; height: 8px; border-radius: 50%; background: #3d4a5c; transition: background .3s, width .3s; }
 #dots button.on i { background: #8492a5; width: 22px; border-radius: 4px; }
 
+/* ----- animated weather scene behind the clock (CSS only; paused when page 1 is not showing) ----- */
+#clock > :not(#wbg) { position: relative; z-index: 1; }
+#clock > #indoor, #clock > #heat { position: absolute; }
+#wbg { position: absolute; inset: 0; overflow: hidden; z-index: 0; pointer-events: none; --face: #3b2a2a; --blush: #ff9fb0; transition: opacity 1.5s; }
+#wbg * { position: absolute; }
+body.np1 #wbg *, body.np1 #wbg *::before, body.np1 #wbg *::after { animation-play-state: paused !important; }
+#clock.lite { color: #2b2320; }
+#clock.lite #time .s, #clock.lite #date span, #clock.lite #hk, #clock.lite #indoor .m, #clock.lite #indoor .lbl { color: rgba(43,35,32,.62); }
+#clock.lite #hk b { color: #2b2320; }
+#clock.sky:not(.lite) #time .s, #clock.sky:not(.lite) #date span, #clock.sky:not(.lite) #hk, #clock.sky:not(.lite) #indoor .m, #clock.sky:not(.lite) #indoor .lbl { color: rgba(255,255,255,.72); }
+#clock.sky #time { text-shadow: 0 2px 18px rgba(0,0,0,.18); }
+#wbg .shade { inset: 0; background: rgba(10,16,38,.55); }
+#wbg .face { left: 50%; top: 50%; width: 4em; height: 2em; transform: translate(-50%, -30%); }
+#wbg .cloud .face { top: 30%; z-index: 1; }
+#wbg .eye { top: 0; width: .55em; height: .7em; background: var(--face); border-radius: 50%; animation: wbBlink 5s infinite; }
+#wbg .eye.l { left: .7em; } #wbg .eye.r { right: .7em; }
+#wbg .eye::after { content: ""; position: absolute; left: .12em; top: .12em; width: .18em; height: .18em; background: #fff; border-radius: 50%; }
+#wbg .blush { top: .75em; width: .8em; height: .42em; background: var(--blush); border-radius: 50%; opacity: .75; }
+#wbg .blush.l { left: 0; } #wbg .blush.r { right: 0; }
+#wbg .mouth { left: 50%; top: .7em; width: .9em; height: .45em; margin-left: -.45em; border: .16em solid var(--face); border-top: 0; border-radius: 0 0 1em 1em; box-sizing: border-box; }
+#wbg .mouth.o { width: .5em; height: .5em; margin-left: -.25em; border: .14em solid var(--face); border-radius: 50%; }
+#wbg .mouth.frown { border: .16em solid var(--face); border-bottom: 0; border-radius: 1em 1em 0 0; top: .9em; }
+#wbg .sleep .eye { height: .3em; background: none; border: .15em solid var(--face); border-top: 0; border-radius: 0 0 1em 1em; animation: none; top: .25em; }
+#wbg .sleep .eye::after { display: none; }
+@keyframes wbBlink { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(.1); } }
+#wbg .cloud { width: 10em; height: 3.8em; background: var(--c, #fff); border-radius: 2em; }
+#wbg .cloud::before, #wbg .cloud::after { content: ""; position: absolute; background: inherit; border-radius: 50%; }
+#wbg .cloud::before { width: 4.8em; height: 4.8em; left: 1.4em; top: -2.5em; }
+#wbg .cloud::after { width: 3.7em; height: 3.7em; left: 4.8em; top: -1.7em; }
+@keyframes wbBob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+@keyframes wbSpin { to { transform: rotate(360deg); } }
+@keyframes wbDrift { from { transform: translateX(-260px); } to { transform: translateX(1000px); } }
+@keyframes wbSway { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(14px); } }
+/* sunny */
+#wbg.sunny { background: linear-gradient(160deg, #7cc4f5 0%, #a9dbf7 55%, #ffe6b0 100%); }
+#wbg .sun { right: -14px; top: -18px; font-size: 15px; animation: wbBob 4s ease-in-out infinite; }
+#wbg .sun .rays { left: -2.6em; top: -2.6em; width: 12em; height: 12em; animation: wbSpin 30s linear infinite; }
+#wbg .sun .rays i { left: 50%; top: 0; width: .55em; height: 1.6em; margin-left: -.275em; background: #ffcf4a; border-radius: .3em; transform-origin: 50% 6em; }
+#wbg .sun .disc { position: relative; width: 6.8em; height: 6.8em; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #fff1a6, #ffd23f 55%, #ffb627); box-shadow: 0 0 60px 18px rgba(255,214,90,.55); }
+#wbg .bird { width: 22px; height: 10px; border: 3px solid #2b4a66; border-bottom: 0; border-radius: 50% 50% 0 0; box-sizing: border-box; animation: wbFly 16s linear infinite; }
+#wbg .bird::after { content: ""; position: absolute; left: 6px; top: -3px; width: 22px; height: 10px; border: 3px solid #2b4a66; border-bottom: 0; border-radius: 50% 50% 0 0; box-sizing: border-box; }
+@keyframes wbFly { from { transform: translate(-60px, 0); } 50% { transform: translate(460px, -24px); } to { transform: translate(960px, 6px); } }
+/* clear night */
+#wbg.night { background: linear-gradient(170deg, #0d1640 0%, #1b2766 60%, #30307a 100%); }
+#wbg .moon { right: 26px; top: 14px; font-size: 15px; width: 6.4em; height: 6.4em; border-radius: 50%; background: radial-gradient(circle at 38% 32%, #fffbe0, #ffe9a3 60%, #f4cf6d); box-shadow: 0 0 50px 10px rgba(255,236,160,.35); animation: wbBob 6s ease-in-out infinite; }
+#wbg .crater { border-radius: 50%; background: rgba(214,170,80,.28); }
+#wbg .zz { right: 14px; top: 20px; font-weight: 700; color: #ffe9a3; font-size: 26px; opacity: 0; animation: wbZz 4s ease-in infinite; }
+@keyframes wbZz { 0% { opacity: 0; transform: translate(0, 0) scale(.6); } 20% { opacity: 1; } 100% { opacity: 0; transform: translate(26px, -50px) scale(1.2); } }
+#wbg .star { width: 4px; height: 4px; border-radius: 50%; background: #fff; animation: wbTwinkle 3s ease-in-out infinite; }
+@keyframes wbTwinkle { 0%, 100% { opacity: .2; transform: scale(.6); } 50% { opacity: 1; transform: scale(1.2); } }
+#wbg .shoot { left: 200px; top: 14px; width: 120px; height: 2px; background: linear-gradient(90deg, rgba(255,255,255,0), #fff); border-radius: 2px; opacity: 0; animation: wbShoot 11s ease-in infinite 2s; }
+@keyframes wbShoot { 0%, 88% { opacity: 0; transform: translate(0,0) rotate(20deg); } 90% { opacity: 1; } 100% { opacity: 0; transform: translate(260px, 100px) rotate(20deg); } }
+#wbg .night-cloud { --c: #5c6799; opacity: .85; animation: wbDrift 90s linear infinite; }
+/* sunny spells */
+#wbg.partly { background: linear-gradient(160deg, #6fb4e6 0%, #9fcdee 60%, #d9ecf7 100%); }
+#wbg.partly .sun { right: 10px; top: -22px; font-size: 13px; }
+#wbg .peek { right: -10px; top: 78px; width: 10em; height: 3.8em; font-size: 12px; animation: wbPeek 7s ease-in-out infinite; }
+#wbg .peek .cloud { left: 0; top: 0; }
+@keyframes wbPeek { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(-60px); } }
+/* cloudy */
+#wbg.cloudy { background: linear-gradient(170deg, #6c7d92 0%, #7f8ea1 60%, #95a2b2 100%); }
+#wbg.cloudy .cloud { --c: #eef1f5; opacity: .45; animation: wbDrift 70s linear infinite; }
+/* rain */
+#wbg.rain { background: linear-gradient(170deg, #3e5170 0%, #546a8c 60%, #6c7f9c 100%); }
+#wbg.rain .cloud { --c: #dde4ee; }
+#wbg .drop { top: -30px; width: 4px; height: 18px; border-radius: 4px; background: linear-gradient(rgba(170,210,255,0), #a9d3ff); animation: wbFall .9s linear infinite; }
+@keyframes wbFall { to { transform: translate(-30px, 560px); } }
+#wbg .splash { width: 26px; height: 7px; border: 2px solid rgba(190,220,255,.8); border-radius: 50%; opacity: 0; animation: wbSplash 1.4s ease-out infinite; }
+@keyframes wbSplash { 0% { opacity: .9; transform: scale(.2); } 100% { opacity: 0; transform: scale(1.6); } }
+#wbg .puddle { bottom: -10px; height: 26px; border-radius: 50%; background: rgba(150,190,240,.35); }
+#wbg .umb { left: 52%; bottom: 26px; font-size: 18px; animation: wbSway 3s ease-in-out infinite; }
+#wbg .umb .top { position: relative; width: 5em; height: 2.5em; background: #ff7b9c; border-radius: 5em 5em 0 0; }
+#wbg .umb .top::after { content: ""; position: absolute; left: 0; right: 0; bottom: -.3em; height: .6em; background: radial-gradient(circle at 50% 0, transparent .62em, #ff7b9c .65em) 0 0 / 1.25em .6em repeat-x; }
+#wbg .umb .stick { left: 2.4em; top: 2.4em; width: .22em; height: 2.6em; background: #5c4033; }
+#wbg .umb .stick::after { content: ""; position: absolute; left: -.6em; bottom: -.4em; width: .6em; height: .5em; border: .2em solid #5c4033; border-top: 0; border-radius: 0 0 .6em .6em; }
+/* thunder */
+#wbg.thunder { background: linear-gradient(170deg, #22263a 0%, #34384f 60%, #45485e 100%); }
+#wbg.thunder .cloud { --c: #8a8fa6; animation: wbShake 6s infinite; }
+#wbg .flash { inset: 0; background: #fff; opacity: 0; animation: wbFlash 6s infinite; }
+@keyframes wbFlash { 0%, 70%, 74%, 78%, 100% { opacity: 0; } 72% { opacity: .4; } 76% { opacity: .22; } }
+#wbg .bolt { right: 70px; top: 96px; width: 40px; opacity: 0; animation: wbBolt 6s infinite; }
+@keyframes wbBolt { 0%, 69%, 80%, 100% { opacity: 0; } 71%, 78% { opacity: 1; } }
+@keyframes wbShake { 0%, 69%, 81%, 100% { transform: translateX(0); } 71% { transform: translateX(-5px); } 73% { transform: translateX(5px); } 75% { transform: translateX(-4px); } 77% { transform: translateX(3px); } }
+/* snow */
+#wbg.snow { background: linear-gradient(170deg, #9fb6d4 0%, #c3d3e8 60%, #e6eef8 100%); }
+#wbg .flake { top: -20px; animation: wbSnow linear infinite; }
+#wbg .flake i { position: static; display: block; border-radius: 50%; background: #fff; box-shadow: 0 0 6px rgba(255,255,255,.8); animation: wbSway 3s ease-in-out infinite; }
+@keyframes wbSnow { to { transform: translateY(560px); } }
+#wbg .bank { bottom: -40px; height: 80px; border-radius: 50%; background: #fbfdff; }
+#wbg .snowman { left: 57%; bottom: 26px; font-size: 16px; animation: wbWobble 4s ease-in-out infinite; transform-origin: 50% 100%; }
+@keyframes wbWobble { 0%, 100% { transform: rotate(-3deg); } 50% { transform: rotate(3deg); } }
+#wbg .snowman .b { position: relative; width: 6em; height: 5.6em; background: #fff; border-radius: 50%; box-shadow: inset -6px -8px 0 rgba(160,190,230,.35); }
+#wbg .snowman .h { left: 1em; top: -3.8em; width: 4em; height: 4em; background: #fff; border-radius: 50%; box-shadow: inset -5px -6px 0 rgba(160,190,230,.35); }
+#wbg .snowman .h .face { font-size: 13px; top: 46%; }
+#wbg .snowman .nose { left: 50%; top: 2.1em; width: 0; height: 0; border-left: .9em solid #ff8a3d; border-top: .2em solid transparent; border-bottom: .2em solid transparent; margin-left: -.1em; }
+#wbg .snowman .hat { left: .9em; top: -.9em; width: 2.2em; height: 1.4em; background: #e8475f; border-radius: 1.1em 1.1em .2em .2em; }
+#wbg .snowman .hat::after { content: ""; position: absolute; left: .75em; top: -.5em; width: .7em; height: .7em; border-radius: 50%; background: #fff; }
+#wbg .snowman .scarf { left: 1.1em; top: -.1em; width: 3.8em; height: .7em; background: #e8475f; border-radius: .4em; }
+/* fog */
+#wbg.fog { background: linear-gradient(170deg, #8e98a4 0%, #a9b2bc 60%, #c2c9d0 100%); }
+#wbg .band { left: -200px; width: 1300px; height: 140px; border-radius: 50%; background: radial-gradient(ellipse at center, rgba(255,255,255,.55), rgba(255,255,255,0) 70%); animation: wbFog 18s ease-in-out infinite alternate; }
+@keyframes wbFog { from { transform: translateX(-120px); } to { transform: translateX(120px); } }
+#wbg .haze { right: 20px; top: 0; width: 120px; height: 120px; border-radius: 50%; background: radial-gradient(circle, rgba(255,247,215,.9), rgba(255,247,215,0) 70%); }
+/* windy */
+#wbg.windy { background: linear-gradient(160deg, #78b8d8 0%, #a6d4e6 60%, #d8eef2 100%); }
+#wbg .leaf { left: -40px; width: 22px; height: 14px; border-radius: 0 100% 0 100%; animation: wbBlow linear infinite; }
+@keyframes wbBlow { 0% { transform: translate(0, 0) rotate(0); } 25% { transform: translate(240px, -40px) rotate(200deg); } 50% { transform: translate(480px, 20px) rotate(380deg); } 75% { transform: translate(720px, -30px) rotate(560deg); } 100% { transform: translate(980px, 10px) rotate(720deg); } }
+#wbg svg { left: 0; top: 0; }
+#wbg .gust { fill: none; stroke: rgba(255,255,255,.85); stroke-width: 5; stroke-linecap: round; stroke-dasharray: 160 600; animation: wbGust 3.5s linear infinite; }
+@keyframes wbGust { from { stroke-dashoffset: 160; } to { stroke-dashoffset: -600; } }
+#wbg.windy .cloud { --c: #fff; animation: wbBob 3s ease-in-out infinite; }
+/* night versions of grey-sky scenes */
+#wbg.dark.cloudy .cloud, #wbg.dark.fog .band { opacity: .55; }
+
 /* ----- page 2: analog clock (dusty pink, square face, engraved numbers) ----- */
 #p2 { background: radial-gradient(ellipse at 35% 25%, #dcbcb9 0%, #cfaba8 60%, #c29d9b 100%); }
 #big { position: absolute; inset: 0; }
@@ -280,7 +394,7 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 <div id="pages"><div id="track">
 <div class="page" id="p1">
 <div class="stage" id="stage">
-  <section class="t" id="clock"><div id="time" class="num"></div><div id="date"></div><div id="hk"></div><div id="indoor" hidden></div><a id="heat" href="#"></a></section>
+  <section class="t" id="clock"><div id="wbg"></div><div id="time" class="num"></div><div id="date"></div><div id="hk"></div><div id="indoor" hidden></div><a id="heat" href="#"></a></section>
   <section class="t" id="now"><div class="lbl">Loading weather…</div></section>
   <section class="t" id="hours"><div class="lbl">Next 12 hours</div><div class="strip" id="strip"></div></section>
   <section class="t" id="photo"><div class="loc" id="capL"></div><div class="cap"><span id="capT"></span><span class="w" id="capW"></span></div><div class="tag" id="ptag" hidden>示範相片 · sample</div><div class="add" id="padd" aria-label="Add a note">✎</div></section>
@@ -502,6 +616,7 @@ function analog() {   // smooth sweeping second hand while the clock page is sho
 var analogOn = false;
 function bigTick(d) {
   document.body.classList.toggle('p2', PAGE === CLOCK_PAGE);
+  document.body.classList.toggle('np1', PAGE !== 0);
   if (PAGE === CLOCK_PAGE && !analogOn) { analogOn = true; analog(); }
   if (PAGE !== CLOCK_PAGE) analog();
   var hk = '';
@@ -538,8 +653,77 @@ function loadWeather() {
       });
     });
 }
+/* ---------- cute animated weather scene behind the clock ----------
+   Picked from the current weather; try one with ?scene=sunny|night|partly|cloudy|rain|heavy|thunder|snow|fog|windy (add -night for night). */
+var sceneKey = '';
+function weatherScene(c) {
+  var code = c.weather_code, day = c.is_day !== 0, wind = c.wind_speed_10m || 0, s = 'cloudy', n = 0;
+  if (code <= 1) s = day ? 'sunny' : 'night';
+  else if (code === 2) s = day ? 'partly' : 'night';
+  else if (code === 45 || code === 48) s = 'fog';
+  else if (code >= 51 && code <= 57) { s = 'rain'; n = 18; }
+  else if (code === 61 || code === 80) { s = 'rain'; n = 30; }
+  else if (code >= 61 && code <= 82 && !(code >= 71 && code <= 77)) { s = 'rain'; n = (code === 65 || code === 82 || code === 67) ? 70 : 46; }
+  else if ((code >= 71 && code <= 77) || code === 85 || code === 86) { s = 'snow'; n = code === 71 || code === 85 ? 26 : 44; }
+  else if (code >= 95) { s = 'thunder'; n = 34; }
+  if (wind >= 35 && (s === 'sunny' || s === 'partly' || s === 'cloudy')) s = 'windy';
+  var force = new URLSearchParams(location.search).get('scene');
+  if (force) {
+    var f = force.split('-'); s = f[0]; day = f[1] !== 'night';
+    if (s === 'heavy') { s = 'rain'; n = 70; } else if (s === 'rain') n = 46; else if (s === 'thunder') n = 34; else if (s === 'snow') n = 40;
+    if (!day && (s === 'sunny' || s === 'partly')) s = 'night';
+  }
+  var key = s + n + day;
+  if (key === sceneKey) return;
+  sceneKey = key;
+  buildScene(s, n, day);
+}
+function buildScene(s, n, day) {
+  var box = $('wbg'), clock = $('clock'), w = clock.offsetWidth || 780, h = clock.offsetHeight || 460, html = '', i;
+  function rnd(a, b) { return a + Math.random() * (b - a); }
+  function face(mouth, cls) { return '<div class="face' + (cls ? ' ' + cls : '') + '"><i class="eye l"></i><i class="eye r"></i><i class="blush l"></i><i class="blush r"></i>' + (mouth ? '<i class="mouth ' + mouth + '"></i>' : '') + '</div>'; }
+  function sun(m) { var r = ''; for (var k = 0; k < 12; k++) r += '<i style="transform:rotate(' + k * 30 + 'deg)"></i>'; return '<div class="sun"><div class="rays">' + r + '</div><div class="disc">' + face(m) + '</div></div>'; }
+  var dark = !day && s !== 'night' && s !== 'thunder';
+  if (dark) html += '<div class="shade"></div>';
+  if (s === 'sunny') {
+    html += '<div class="bird" style="top:130px;animation-delay:-3s"></div><div class="bird" style="top:160px;animation-delay:-9s;animation-duration:19s"></div>' + sun('');
+  } else if (s === 'night') {
+    for (i = 0; i < 36; i++) html += '<i class="star" style="left:' + rnd(8, w - 8) + 'px;top:' + rnd(8, h - 8) + 'px;animation-delay:-' + rnd(0, 3) + 's;animation-duration:' + rnd(2, 4.5) + 's' + (Math.random() < .3 ? ';width:6px;height:6px' : '') + '"></i>';
+    html += '<i class="shoot"></i><div class="moon sleep"><i class="crater" style="left:18%;top:62%;width:1em;height:1em"></i><i class="crater" style="left:70%;top:20%;width:.7em;height:.7em"></i>' + face('') + '</div>' +
+      '<i class="zz">z</i><i class="zz" style="animation-delay:1.3s;font-size:20px">z</i><i class="zz" style="animation-delay:2.6s;font-size:16px">z</i>';
+  } else if (s === 'partly') {
+    html += sun('o') + '<div class="peek"><div class="cloud">' + face('') + '</div></div>';
+  } else if (s === 'cloudy') {
+    html += '<div class="cloud" style="font-size:11px;top:30px;animation-delay:-20s"></div>' +
+      '<div class="cloud" style="font-size:16px;top:40px;animation-duration:55s;animation-delay:-40s;opacity:.9">' + face('', 'sleep') + '</div>' +
+            '<div class="cloud" style="font-size:18px;top:70px;animation-duration:80s;animation-delay:-65s;--c:#dfe4ea"></div>';
+  } else if (s === 'rain' || s === 'thunder') {
+    for (i = 0; i < n; i++) html += '<i class="drop" style="left:' + rnd(0, w + 40) + 'px;animation-delay:-' + rnd(0, 1) + 's;animation-duration:' + rnd(.7, 1.1) + 's"></i>';
+    for (i = 0; i < 8; i++) html += '<i class="splash" style="left:' + rnd(20, w - 40) + 'px;bottom:' + rnd(6, 30) + 'px;animation-delay:-' + rnd(0, 1.4) + 's"></i>';
+    if (s === 'rain') html += '<i class="puddle" style="left:' + (w * .5) + 'px;width:' + (w * .36) + 'px"></i><div class="cloud" style="font-size:13px;right:14px;top:44px">' + face('o') + '</div><div class="umb"><div class="top"></div><i class="stick"></i></div>';
+    else html += '<svg class="bolt" viewBox="0 0 70 120"><polygon points="38,0 6,66 32,66 18,120 64,44 38,44 52,0" fill="#ffd84a" stroke="#fff3b0" stroke-width="3"/></svg>' +
+      '<div class="cloud" style="font-size:14px;right:14px;top:44px">' + face('frown').replace(/class="blush/g, 'style="opacity:.35" class="blush') + '</div><i class="flash"></i>';
+  } else if (s === 'snow') {
+    for (i = 0; i < (n || 40); i++) { var d = rnd(5, 13); html += '<div class="flake" style="left:' + rnd(0, w) + 'px;animation-duration:' + (rnd(6, 12) * (8 / d + .3) / 1.3) + 's;animation-delay:-' + rnd(0, 12) + 's"><i style="width:' + d + 'px;height:' + d + 'px;animation-delay:-' + rnd(0, 3) + 's"></i></div>'; }
+    html += '<i class="bank" style="left:-80px;width:' + (w * .66) + 'px"></i><i class="bank" style="left:' + (w * .42) + 'px;width:' + (w * .72) + 'px;bottom:-50px"></i>' +
+      '<div class="snowman"><div class="b"><div class="h"><i class="hat"></i>' + face('') + '<i class="nose"></i></div><i class="scarf"></i></div></div>';
+  } else if (s === 'fog') {
+    html += '<i class="haze"></i><i class="band" style="top:30px"></i><i class="band" style="top:' + (h * .4) + 'px;animation-duration:24s;animation-delay:-8s"></i><i class="band" style="top:' + (h * .72) + 'px;animation-duration:20s;animation-delay:-4s"></i>';
+  } else if (s === 'windy') {
+    var cols = ['#f29c38', '#e8693c', '#f5c242', '#9bc45a'];
+    html += '<svg width="' + w + '" height="' + h + '"><path class="gust" d="M-20 120 C 120 90, 220 150, 360 110 S 560 70, ' + (w - 100) + ' 120"/><path class="gust" style="animation-delay:-1.6s" d="M-20 ' + (h - 140) + ' C 140 ' + (h - 170) + ', 260 ' + (h - 110) + ', 420 ' + (h - 150) + ' S 640 ' + (h - 180) + ', ' + (w + 20) + ' ' + (h - 140) + '"/></svg>';
+    for (i = 0; i < 9; i++) html += '<i class="leaf" style="background:' + cols[i % 4] + ';top:' + rnd(60, h - 60) + 'px;animation-duration:' + rnd(5, 9) + 's;animation-delay:-' + rnd(0, 9) + 's"></i>';
+    html += '<div class="cloud" style="font-size:13px;right:14px;top:44px">' + face('o') + '</div>';
+  }
+  box.className = s + (dark ? ' dark' : '');
+  box.innerHTML = html;
+  var lite = day && (s === 'sunny' || s === 'partly' || s === 'snow' || s === 'fog' || s === 'windy');
+  clock.classList.toggle('lite', lite);
+  clock.classList.toggle('sky', true);
+}
 function renderWeather() {
   var c = W.current, dl = W.daily, now = wx(c.weather_code, c.is_day);
+  weatherScene(c);
   $('now').innerHTML = '<div class="lbl">' + (CONFIG.city || 'Weather') + ' · now</div>' +
     '<div class="row1">' + icon(now[0], 96, 1.4) + '<div class="temp num">' + r(c.temperature_2m) + '°</div></div>' +
     '<div class="desc">' + now[1] + ' · feels ' + r(c.apparent_temperature) + '°</div>' +
