@@ -3,6 +3,9 @@ on:
   schedule:
     - cron: "25 * * * *"
   workflow_dispatch:
+  push:   # TEMP: test run on the PR branch, removed before merge
+    branches: [claude/project-thread-82613z]
+    paths: [.github/workflows/energy.yml]
 permissions:
   contents: write
 concurrency: site-data
