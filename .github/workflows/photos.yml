@@ -14,7 +14,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python tools/build_photos.py
+      - run: cd tools && python probe_album.py
         env:
           ALBUM_TOKEN: ${{ secrets.ALBUM_TOKEN }}
       - name: Commit if changed
@@ -22,4 +22,4 @@ jobs:
           git config user.name "photo-bot"
           git config user.email "photo-bot@users.noreply.github.com"
           git add -A photos photos.json
-          git diff --cached --quiet || (git commit -m "Update family photos" && git pull --rebase && git push)
+          true || (git commit -m "Update family photos" && git pull --rebase && git push)
