@@ -433,6 +433,19 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 #play { font: 700 15px var(--font); background: var(--sun); color: #1a1a1a; border: 0; border-radius: 999px; padding: 8px 16px; white-space: nowrap; }
 #play.on { background: var(--rain); }
 #status { position: absolute; right: 36px; bottom: 6px; font-size: 11px; color: #3d4a5c; }
+
+/* ----- night mode: a dim, soft clock on black (CONFIG.night). Tap to see the dashboard for a while. ----- */
+#night { position: fixed; inset: 0; z-index: 50; background: #000; display: none; color: #b98a5e; }
+body.night #night { display: block; }
+body.night #pages, body.night #dots { display: none; }   /* hidden pages stop their animations: easy on the old iPad */
+#nclk { position: absolute; left: 50%; top: 50%; text-align: center; transform: translate(-50%, -50%); transition: margin 2s ease; opacity: .55; }
+#ntime { white-space: nowrap; font-weight: 300; line-height: .9; letter-spacing: -.04em; font-variant-numeric: tabular-nums; text-shadow: 0 0 40px rgba(185,138,94,.25); }
+#ntime i { font-style: normal; display: inline-block; animation: nColon 4s ease-in-out infinite; }
+@keyframes nColon { 0%, 100% { opacity: .9; } 50% { opacity: .25; } }
+#ndate { font-weight: 500; letter-spacing: .03em; margin-top: .9em; opacity: .65; }
+#ntemp { font-weight: 500; margin-top: .5em; opacity: .5; }
+#nhint { position: absolute; left: 0; right: 0; bottom: 18px; text-align: center; font-size: 13px; color: #b98a5e; opacity: .18; }
+body.peek #pages { opacity: .5; }
 </style>
 </head>
 <body>
@@ -479,6 +492,7 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 </div>
 </div></div>
 <div id="dots"></div>
+<div id="night"><div id="nclk"><div id="ntime"></div><div id="ndate"></div><div id="ntemp"></div></div><div id="nhint">輕按顯示 · Tap to wake</div></div>
 <div id="note" hidden><div class="box">
   <div class="top"><div class="thumb" id="nThumb"></div><div><h3>留言 · Add a note</h3><div class="sub" id="nSub"></div></div></div>
   <div class="old" id="nOld"></div>
@@ -498,7 +512,9 @@ var CONFIG = {
   // Pages turn by themselves: each page in 'pages' (1 = dashboard) shows for 'secs' seconds.
   // After a swipe to a page outside the list, it stays there for 'stay' seconds before carrying on.
   rotate: { secs: 60, pages: [1, 2, 3], stay: 300 },
-  dimFrom: 23, dimTo: 7          // screen dims between these hours
+  // Night mode: between these hours (iPad's own clock) a dim, soft clock replaces the pages.
+  // A tap shows the dashboard (dimmed) for 'wake' seconds, then the night clock comes back. ?night=1 / ?night=0 to test.
+  night: { from: 23, to: 7, wake: 120 }
 };
 /* =================================== */
 
@@ -614,6 +630,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, pageAt = Date.now();
   document.addEventListener('touchstart', function () { pageAt = Date.now(); }, { passive: true });
   setInterval(function () {
     var R = CONFIG.rotate; if (!R || !R.secs || !R.pages || !R.pages.length) return;
+    if (isNight()) { pageAt = Date.now(); return; }   // night: no page turning, even while peeking
     if ((typeof noteOpen !== 'undefined' && noteOpen) || (window.speechSynthesis && speechSynthesis.speaking)) { pageAt = Date.now(); return; }
     var list = R.pages.map(function (p) { return p - 1; }), at = list.indexOf(PAGE);
     if (Date.now() - pageAt < (at >= 0 ? R.secs : R.stay || R.secs) * 1000) return;
@@ -635,13 +652,50 @@ function tick() {
       d.toLocaleDateString('zh-HK', { timeZone: CONFIG.secondZone, weekday: 'short' });
   } catch (e) { $('hk').innerHTML = ''; }
   bigTick(d);
-  var dim = CONFIG.dimFrom > CONFIG.dimTo ? (h >= CONFIG.dimFrom || h < CONFIG.dimTo) : (h >= CONFIG.dimFrom && h < CONFIG.dimTo);
-  $('pages').style.opacity = dim ? '0.35' : '1';
+  nightTick(d);
   if (d.getSeconds() === 0) { // nudge a few pixels every minute against screen burn-in
     var st = document.querySelectorAll('.stage');
     for (var i = 0; i < st.length; i++) { st[i].style.marginLeft = (d.getMinutes() % 5 - 2) + 'px'; st[i].style.marginTop = (d.getMinutes() % 3 - 1) + 'px'; }
   }
 }
+
+/* ---------- night mode ---------- */
+var NIGHT = false, peekUntil = 0, NIGHT_TEST = new URLSearchParams(location.search).get('night');
+function isNight() {
+  if (NIGHT_TEST === '1') return true; if (NIGHT_TEST === '0') return false;
+  var N = CONFIG.night; if (!N) return false;
+  var h = new Date().getHours();
+  return N.from > N.to ? (h >= N.from || h < N.to) : (h >= N.from && h < N.to);
+}
+function nightTick(d) {
+  var on = isNight(), show = on && Date.now() >= peekUntil;
+  if (on !== NIGHT) { NIGHT = on; if (!on) peekUntil = 0; }
+  document.body.classList.toggle('peek', on && !show);
+  if (show !== document.body.classList.contains('night')) {
+    document.body.classList.toggle('night', show);
+    if (!show) fitStage();   // pages were hidden; lay them out again
+  }
+  if (!show) return;
+  $('ntime').innerHTML = pad(d.getHours()) + '<i>:</i>' + pad(d.getMinutes());
+  $('ndate').innerHTML = DAYS[d.getDay()] + ' ' + d.getDate() + ' ' + MONTHS[d.getMonth()].slice(0, 3) + ' · ' + (d.getMonth() + 1) + '月' + d.getDate() + '日 ' + ZH_DAYS[d.getDay()];
+  var t = [];
+  if (typeof W !== 'undefined' && W) t.push('外 ' + r(W.current.temperature_2m) + '°');
+  if (typeof HOME !== 'undefined' && HOME && homeAge() <= 12 * 60) t.push('室內 ' + HOME.temp.toFixed(1) + '°');
+  $('ntemp').innerHTML = t.join('  ·  ');
+  var S = Math.min(innerWidth, innerHeight), c = $('nclk');
+  $('ntime').style.fontSize = Math.round(Math.min(innerWidth * 0.27, S * 0.36)) + 'px';
+  $('ndate').style.fontSize = $('ntemp').style.fontSize = Math.round(S * 0.026) + 'px';
+  if (d.getSeconds() === 0 || !c.style.marginLeft) {   // drift slowly so nothing burns into the screen
+    var m = d.getMinutes();
+    c.style.marginLeft = Math.round(Math.sin(m / 60 * 2 * Math.PI) * innerWidth * 0.06) + 'px';
+    c.style.marginTop = Math.round(Math.cos(m / 60 * 4 * Math.PI) * innerHeight * 0.06) + 'px';
+  }
+}
+$('night').addEventListener('click', function () {
+  peekUntil = Date.now() + ((CONFIG.night && CONFIG.night.wake) || 120) * 1000;
+  nightTick(new Date());
+});
+document.addEventListener('touchstart', function () { if (NIGHT && Date.now() < peekUntil) peekUntil = Math.max(peekUntil, Date.now() + 60000); }, { passive: true });   // still using it: stay awake a bit longer
 
 /* ---------- page 3: analog clock ---------- */
 var ZH_DAYS = ['星期日','星期一','星期二','星期三','星期四','星期五','星期六'];
@@ -865,7 +919,7 @@ function nextPhoto() {
   pIdx = (pIdx + 1) % els.length; els[pIdx].classList.add('on');
   var p = PHOTOS[els.length - 1 - pIdx] || {};
   showCaption(p);
-  if (p.video) playVideo(els[pIdx], p); else photoAfter(PHOTO_SECS);
+  if (p.video && !document.body.classList.contains('night')) playVideo(els[pIdx], p); else photoAfter(PHOTO_SECS);
 }
 /* Videos (photos.json "video": "photos/<id>.mp4", "src" is its poster frame) play silently:
    iPad Safari only starts a video by itself when it is muted. When it ends, the slideshow moves on. */
