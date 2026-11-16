@@ -244,6 +244,12 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 .wh .dw { font-size: 18px; font-weight: 700; line-height: 1.2; }
 .wh .dw small { display: block; font-size: 14px; color: var(--muted); font-weight: 600; }
 .wd.today .wh .dw { color: var(--sun); }
+.wwx { position: relative; z-index: 2; display: flex; align-items: center; gap: 6px; padding: 0 4px 8px; margin-top: -2px; border-bottom: 1px solid var(--line); font-size: 18px; font-weight: 700; white-space: nowrap; }
+.wwx .ic { flex: none; color: var(--fg); animation: wkBob 3s ease-in-out infinite; }
+.wwx .ic.sun { color: var(--sun); animation: wkTurn 14s linear infinite; }
+.wwx .lo { color: var(--muted); font-weight: 600; }
+.wwx .p { margin-left: auto; color: var(--rain); font-size: 15px; }
+.wd .wh.hasw { border-bottom: 0; padding-bottom: 4px; }
 .wd.wkend .wh .dn { color: #f0a8c8; }
 .we { position: relative; z-index: 2; flex: none; background: var(--tile-2); border-radius: 14px; padding: 8px 10px 9px 14px; overflow: hidden; }
 .we:before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; background: var(--c, #6aaef8); }
@@ -280,6 +286,23 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 .k-basketball .fx { background: #8c5428; }
 .k-basketball .fx .go { animation-duration: 8s; }
 .k-basketball .fx .go b { animation: wkDribble .7s cubic-bezier(.5,0,.5,1) infinite; transform-origin: 50% 100%; }
+/* everyday events: the icon moves (planes and cars get a strip) */
+.we .em.a-hop { animation: wkHop 1.8s ease-in-out infinite; }
+.we .em.a-wiggle { animation: wkWiggle 2.4s ease-in-out infinite; }
+.we .em.a-pulse { animation: wkPulse 1.8s ease-in-out infinite; }
+.we .em.a-sway { animation: wkSway 2.6s ease-in-out infinite; transform-origin: 50% 90%; }
+.we .em.a-spin { animation: wkFlipY 3s ease-in-out infinite; }
+.we .em.a-ring { animation: wkRing 2.2s ease-in-out infinite; }
+.we .em.a-glint { animation: wkGlint 2.6s ease-in-out infinite; font-size: 18px; }
+.k-fly .fx { background: linear-gradient(180deg, #3d7fc4, #7fb6e6); }
+.k-fly .fx:before { content: '☁️'; position: absolute; left: 30%; top: 2px; font-size: 16px; opacity: .8; }
+.k-fly .fx .go { animation: wkDash 5s linear infinite reverse; }
+.k-fly .fx .go b { transform: rotate(0); }
+.k-drive .fx, .k-train .fx { background: #444c58; }
+.k-drive .fx:before, .k-train .fx:before { content: ''; position: absolute; left: 0; right: 0; top: 14px; border-top: 2px dashed rgba(255,255,255,.5); }
+.k-train .fx:before { border-top: 3px solid #8a7a66; top: 24px; }
+.k-drive .fx .go, .k-train .fx .go { animation: wkDash 4s linear infinite reverse; }
+.k-drive .fx .go b, .k-train .fx .go b { animation: wkBob .5s ease-in-out infinite; }
 /* other sports: the icon hops */
 .we.sport .em { animation: wkHop 1.6s ease-in-out infinite; }
 /* festivals and birthdays: a coloured banner, and the whole day gets a little scene */
@@ -289,7 +312,7 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 .we.fest .em { font-size: 28px; animation: wkSway 2.4s ease-in-out infinite; transform-origin: 50% 90%; }
 .f-xmas { --f1: #1f7a4a; --f2: #b3263b; } .f-cny { --f1: #c8102e; --f2: #e8962e; } .f-midautumn { --f1: #24305e; --f2: #b9822e; }
 .f-newyear, .f-bonfire { --f1: #2a2a6e; --f2: #8a3fae; } .f-halloween { --f1: #3c1f5c; --f2: #e0702a; } .f-easter { --f1: #7cbf8a; --f2: #e5b84c; }
-.f-valentine, .f-mother { --f1: #b8325e; --f2: #e58fb6; } .f-father { --f1: #2b5c9a; --f2: #6aaef8; } .f-dragon { --f1: #14615c; --f2: #c8102e; } .f-birthday { --f1: #b04a8c; --f2: #f3b649; }
+.f-valentine, .f-mother { --f1: #b8325e; --f2: #e58fb6; } .f-father { --f1: #2b5c9a; --f2: #6aaef8; } .f-dragon { --f1: #14615c; --f2: #c8102e; } .f-birthday, .f-party { --f1: #b04a8c; --f2: #f3b649; } .f-wedding { --f1: #c87a9a; --f2: #e8c79a; } .f-holiday { --f1: #1f8fa6; --f2: #f3b649; }
 .wfx { position: absolute; inset: 0; z-index: 1; pointer-events: none; overflow: hidden; }
 .wfx i, .wfx s { position: absolute; display: block; font-style: normal; text-decoration: none; }
 .wfx .fall { top: -30px; animation: wkFall linear infinite; }
@@ -309,6 +332,12 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 .wfx .boat { bottom: 22px; left: 0; font-size: 34px; animation: wkHopAcross 10s ease-in-out infinite alternate; }
 body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *:after { animation-play-state: paused !important; }   /* rest when the page isn't showing */
 
+@keyframes wkTurn { to { transform: rotate(360deg); } }
+@keyframes wkWiggle { 0%, 100% { transform: rotate(0); } 10% { transform: rotate(-14deg); } 20% { transform: rotate(12deg); } 30% { transform: rotate(-8deg); } 40% { transform: rotate(0); } }
+@keyframes wkPulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.22); } }
+@keyframes wkFlipY { 0%, 70% { transform: rotateY(0); } 100% { transform: rotateY(360deg); } }
+@keyframes wkRing { 0%, 50%, 100% { transform: rotate(0); } 5%, 15%, 25% { transform: rotate(-16deg); } 10%, 20%, 30% { transform: rotate(16deg); } }
+@keyframes wkGlint { 0%, 100% { transform: scale(.75) rotate(0); opacity: .45; } 50% { transform: scale(1.1) rotate(20deg); opacity: 1; } }
 @keyframes wkAcross { from { transform: translateX(0); } to { transform: translateX(100%); } }
 @keyframes wkDash { 0% { transform: translateX(100%); opacity: 0; } 8% { opacity: 1; } 92% { opacity: 1; } 100% { transform: translateX(0); opacity: 0; } }
 @keyframes wkRoll { from { transform: rotate(0); } to { transform: rotate(900deg); } }
@@ -359,10 +388,6 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 #note .btns .ok { background: var(--sun); color: #1a1a1a; }
 #note .msg { font-size: 14px; color: var(--muted); min-height: 18px; }
 #photo .tag { position: absolute; top: 16px; right: 18px; font-size: 12px; color: #c9d3df; background: rgba(8,12,18,.55); padding: 4px 10px; border-radius: 10px; }
-#days { position: absolute; left: 30px; right: 30px; bottom: 22px; display: grid; grid-template-columns: repeat(5, 1fr); border-top: 1px solid var(--line); padding-top: 14px; }
-.dy { display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 16px; color: var(--muted); font-weight: 600; }
-.dy .ic { color: var(--fg); }
-.dy .hi { color: var(--fg); font-size: 20px; } .dy .lo { color: var(--muted); font-weight: 500; } .dy .p { color: var(--rain); font-size: 13px; height: 15px; }
 
 #apps { display: flex; gap: 12px; margin-left: auto; margin-right: 24px; }
 .app { border-radius: 999px; display: flex; flex-direction: row; justify-content: flex-start; align-items: center; gap: 12px; padding: 8px 22px 8px 8px; border: 1px solid var(--line); text-decoration: none; color: var(--fg); }
@@ -451,6 +476,9 @@ var CONFIG = {
   // heat: { shortcut: 'Warm Up Home', temp: 21 },   // turned off until the Shortcut is set up; remove the // to bring the button back
   heat: null,
   secondCity: '香港', secondZone: 'Asia/Hong_Kong',
+  // Pages turn by themselves: each page in 'pages' (1 = dashboard) shows for 'secs' seconds.
+  // After a swipe to a page outside the list, it stays there for 'stay' seconds before carrying on.
+  rotate: { secs: 60, pages: [1, 2, 3], stay: 300 },
   dimFrom: 23, dimTo: 7          // screen dims between these hours
 };
 /* =================================== */
@@ -515,7 +543,7 @@ addEventListener('resize', fitStage); fitStage();
 /* ---------- pages: swipe left/right, tap the dots, or use the arrow keys ----------
    Page 1 is the dashboard, page 2 this week's calendar, page 3 the analog clock, page 4 the league table. To add a page, add another
    <div class="page"> inside #track. The iPad remembers the last page shown. */
-var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2;
+var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, pageAt = Date.now();
 (function () {
   var track = $('track'), pages = track.children, n = pages.length, dots = $('dots');
   for (var p = 0; p < n; p++) { if (pages[p].id === 'pcal') CAL_PAGE = p; if (pages[p].id === 'p2') CLOCK_PAGE = p; }
@@ -531,6 +559,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2;
     if (instant) { track.offsetWidth; track.classList.remove('drag'); }
     for (var j = 0; j < n; j++) dots.children[j].className = j === PAGE ? 'on' : '';
     try { localStorage.setItem('page', PAGE); } catch (e) {}
+    pageAt = Date.now();
     document.body.classList.toggle('pcal', PAGE === CAL_PAGE);   // calendar animations only run while it shows
     if (window.ZH_DAYS) bigTick(new Date());   // start or stop the sweeping hand right away
   };
@@ -562,6 +591,15 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2;
     x0 = null;
   }
   document.addEventListener('touchend', end); document.addEventListener('touchcancel', end);
+  // Turn the pages by themselves (CONFIG.rotate). Touching the screen restarts the wait.
+  document.addEventListener('touchstart', function () { pageAt = Date.now(); }, { passive: true });
+  setInterval(function () {
+    var R = CONFIG.rotate; if (!R || !R.secs || !R.pages || !R.pages.length) return;
+    if ((typeof noteOpen !== 'undefined' && noteOpen) || (window.speechSynthesis && speechSynthesis.speaking)) { pageAt = Date.now(); return; }
+    var list = R.pages.map(function (p) { return p - 1; }), at = list.indexOf(PAGE);
+    if (Date.now() - pageAt < (at >= 0 ? R.secs : R.stay || R.secs) * 1000) return;
+    goPage(list[(at + 1) % list.length]);
+  }, 2000);
   document.addEventListener('keydown', function (e) {
     if (e.key === 'ArrowRight') goPage(PAGE + 1); else if (e.key === 'ArrowLeft') goPage(PAGE - 1);
   });
@@ -727,8 +765,9 @@ function renderWeather() {
   $('now').innerHTML = '<div class="lbl">' + (CONFIG.city || 'Weather') + ' · now</div>' +
     '<div class="row1">' + icon(now[0], 96, 1.4) + '<div class="temp num">' + r(c.temperature_2m) + '°</div></div>' +
     '<div class="desc">' + now[1] + ' · feels ' + r(c.apparent_temperature) + '°</div>' +
-    '<div class="hl">High ' + r(dl.temperature_2m_max[0]) + '° · Low ' + r(dl.temperature_2m_min[0]) + '° · Rain ' + (dl.precipitation_probability_max[0] || 0) + '% · Sunset ' + dl.sunset[0].slice(11) + '</div>' +
-    '<div id="days"></div>';
+    '<div class="hl">High ' + r(dl.temperature_2m_max[0]) + '° · Low ' + r(dl.temperature_2m_min[0]) + '°</div>' +
+    '<div class="stats"><div>Rain 落雨<b class="num">' + (dl.precipitation_probability_max[0] || 0) + '%</b></div><div>Wind 風<b class="num">' + r(c.wind_speed_10m || 0) + ' km/h</b></div>' +
+    '<div>Sunrise 日出<b class="num">' + dl.sunrise[0].slice(11) + '</b></div><div>Sunset 日落<b class="num">' + dl.sunset[0].slice(11) + '</b></div></div>';
 
   var h = W.hourly, key = c.time.slice(0, 13), start = 0;
   for (var i = 0; i < h.time.length; i++) if (h.time[i].slice(0, 13) === key) { start = i + 1; break; }
@@ -740,14 +779,7 @@ function renderWeather() {
   }
   $('strip').innerHTML = s;
 
-  s = '';
-  for (var k = 1; k <= 5 && k < dl.time.length; k++) {
-    var dd = new Date(dl.time[k] + 'T12:00'), pp = dl.precipitation_probability_max[k] || 0;
-    s += '<div class="dy"><span>' + DAYS[dd.getDay()].slice(0, 3) + '</span>' + icon(wx(dl.weather_code[k], 1)[0], 30) +
-      '<span class="num"><span class="hi">' + r(dl.temperature_2m_max[k]) + '°</span> <span class="lo">' + r(dl.temperature_2m_min[k]) + '°</span></span>' +
-      '<span class="p">' + (pp >= 20 ? pp + '%' : '') + '</span></div>';
-  }
-  $('days').innerHTML = s;
+  if (window.showCal) showCal();   // the daily forecast is shown on the week page
 }
 loadWeather(); setInterval(loadWeather, 15 * 60 * 1000);
 
@@ -997,6 +1029,9 @@ var KINDS = [   // [kind, words in the title, emoji, 'strip' = moving strip unde
   ['father', /father'?s day|父親節/i, '👔', 'fest'],
   ['dragon', /dragon ?boat|端午|龍舟|糉/i, '🐉', 'fest'],
   ['birthday', /birthday|b'?day|生日|做壽|大壽|壽宴/i, '🎂', 'fest'],
+  ['wedding', /wedding|婚禮|飲宴|擺酒/i, '💒', 'fest'],
+  ['party', /party|派對|celebrat|聚會|gathering/i, '🎉', 'fest'],
+  ['holiday', /holiday|vacation|旅行|度假|beach|海灘|staycation/i, '🏖️', 'fest'],
   ['swim', /swim|游水|游泳|水運會|aquatic/i, '🏊', 'strip'],
   ['football', /football|soccer|足球|踢波|睇波|英超|premier league|arsenal|chelsea|liverpool|tottenham|spurs|man (utd|united|city)|newcastle|aston villa|watford|\bfc\b| vs?\.? /i, '⚽', 'strip'],
   ['pingpong', /table tennis|ping ?pong|乒乓/i, '🏓', 'strip'],
@@ -1016,7 +1051,38 @@ var KINDS = [   // [kind, words in the title, emoji, 'strip' = moving strip unde
   ['cricket', /cricket|板球/i, '🏏', 'sport'],
   ['rugby', /rugby|欖球/i, '🏉', 'sport'],
   ['hockey', /hockey|曲棍球/i, '🏑', 'sport'],
-  ['sportsday', /sports? day|運動會|athletics|田徑|gymnastics|體操|match|比賽/i, '🏅', 'sport']
+  ['volleyball', /volleyball|排球/i, '🏐', 'sport'],
+  ['sportsday', /sports? day|運動會|athletics|田徑|gymnastics|體操|match|比賽|tournament/i, '🏅', 'sport'],
+  // everyday things: [kind, words, emoji, 'life', animation] (planes, trains and cars get a strip)
+  ['fly', /flight|\bfly|airport|機場|航班|搭飛機|heathrow|gatwick|stansted|luton/i, '✈️', 'strip'],
+  ['train', /train|rail|eurostar|\btube\b|地鐵|火車|高鐵|港鐵/i, '🚆', 'strip'],
+  ['drive', /\bdrive|\bcar\b|\bmot\b|car wash|taxi|uber|\bbus\b|巴士|coach|揸車|road trip/i, '🚗', 'strip'],
+  ['dentist', /dentist|睇牙|牙醫|洗牙|orthodont/i, '🦷', 'life', 'wiggle'],
+  ['doctor', /doctor|\bgp\b|clinic|醫生|hospital|醫院|nurse|vaccin|\bjab\b|flu|疫苗|check.?up|體檢|physio|optician|eye test|驗眼/i, '🩺', 'life', 'pulse'],
+  ['hair', /hair|剪頭|剪髮|飛髮|barber|salon/i, '✂️', 'life', 'wiggle'],
+  ['exam', /exam|\btest\b|考試|測驗|homework|功課|assignment|revision|溫書/i, '✏️', 'life', 'wiggle'],
+  ['music', /piano|鋼琴|violin|小提琴|music|音樂|guitar|結他|choir|concert|演唱會|\bband\b|\bsing\b|唱歌|recital|drum/i, '🎵', 'life', 'hop'],
+  ['movie', /cinema|movie|film|睇戲|電影|theatre|theater|musical|panto|\bshows?\b/i, '🎬', 'life', 'spin'],
+  ['school', /school|返學|放學|學校|parents'? evening|家長日|inset|\bterm\b|\bclass|上堂|tutor|補習|lesson|nursery|幼稚園/i, '🏫', 'life', 'hop'],
+  ['food', /dinner|lunch|breakfast|brunch|飯|食|yum ?cha|飲茶|restaurant|bbq|燒烤|\btea\b|cafe|coffee|咖啡|pizza|cook|bake|takeaway/i, '🍽️', 'life', 'sway'],
+  ['call', /facetime|\bcall|zoom|teams|video|電話|視像|whatsapp/i, '📞', 'life', 'ring'],
+  ['work', /meeting|\bwork|office|返工|開會|interview|面試|deadline|conference|presentation/i, '💼', 'life', 'hop'],
+  ['shop', /shop|買嘢|supermarket|tesco|sainsbury|waitrose|costco|ikea|aldi|lidl|market|超市|行街|grocer/i, '🛒', 'life', 'wiggle'],
+  ['bins', /\bbins?\b|垃圾|recycl|回收|rubbish/i, '🗑️', 'life', 'wiggle'],
+  ['clean', /clean|執屋|laundry|洗衫|hoover|vacuum|cleaner/i, '🧹', 'life', 'sway'],
+  ['pet', /\bvet\b|獸醫|\bdog|\bcat\b|狗|貓|puppy|kitten/i, '🐶', 'life', 'hop'],
+  ['garden', /garden|花園|plant|種花|flower/i, '🌷', 'life', 'sway'],
+  ['church', /church|\bmass\b|教會|禮拜|返教會|temple|廟|拜山|掃墓|祭祖/i, '🙏', 'life', 'pulse'],
+  ['money', /\bpay|\bbills?\b|\brent\b|bank|銀行|交租|\btax|稅|salary|出糧|insurance|保險|mortgage/i, '💷', 'life', 'spin'],
+  ['fix', /plumber|electrician|engineer|boiler|repair|維修|裝修|builder|install|broadband/i, '🔧', 'life', 'wiggle'],
+  ['parcel', /deliver|parcel|速遞|courier|amazon|collect/i, '📦', 'life', 'hop'],
+  ['book', /library|圖書館|book|\bread\b|睇書|story ?time/i, '📖', 'life', 'spin'],
+  ['zoo', /\bzoo|動物園|safari|aquarium|水族館|farm/i, '🦁', 'life', 'hop'],
+  ['museum', /museum|博物館|gallery|exhibition|展覽/i, '🏛️', 'life', 'pulse'],
+  ['park', /\bpark\b|公園|picnic|野餐|\bwalk|hike|行山|playground/i, '🌳', 'life', 'sway'],
+  ['family', /visit|探|grandma|grandpa|granny|公公|婆婆|爺爺|嫲嫲|爸媽|parents|family|屋企人/i, '👨‍👩‍👧', 'life', 'hop'],
+  ['sleep', /sleepover|nap|bedtime|瞓覺/i, '😴', 'life', 'pulse'],
+  ['remind', /remind|記得|renew|續期|passport|護照|visa|簽證|appointment|預約/i, '🔔', 'life', 'ring']
 ];
 function kindOf(title) { for (var i = 0; i < KINDS.length; i++) if (KINDS[i][1].test(title)) return KINDS[i]; return null; }
 function kindByName(k) { for (var i = 0; i < KINDS.length; i++) if (KINDS[i][0] === k) return KINDS[i]; return null; }
@@ -1068,11 +1134,23 @@ function scene(kind, seed) {
     case 'father': rise(5, ['💙', '⭐'], 9); break;
     case 'dragon':
       out += '<i class="wave" style="left:0;bottom:0;width:200%;animation-duration:4s"></i><i class="boat">🐉</i>'; break;
+    case 'wedding': rise(6, ['💗', '🤍', '💐'], 9); sparks(5, '#fff'); break;
+    case 'holiday': out += '<i class="moon" style="right:-30px;bottom:auto;top:110px;width:110px;height:110px"></i><i class="big" style="left:12px">🏖️</i>'; rise(2, ['🎈'], 12); break;
+    case 'party':
     case 'birthday':
       fall(14, function (j) { return '<i class="conf" style="background:' + CONF[j % CONF.length] + ';animation-delay:-' + (j * .37 % 1.6).toFixed(2) + 's"></i>'; }, 6);
       rise(3, ['🎈'], 11); break;
   }
   return out ? '<div class="wfx f-' + kind + '">' + out + '</div>' : '';
+}
+function dayWeather(d) {   // the forecast for one day from the weather data (7 days ahead)
+  if (!W || !W.daily) return '';
+  var dl = W.daily, key = d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()), i = dl.time.indexOf(key);
+  if (i < 0) return '';
+  var w = wx(dl.weather_code[i], 1), pp = dl.precipitation_probability_max[i] || 0;
+  return '<div class="wwx">' + icon(w[0], 28, 1.7).replace('class="ic"', 'class="ic' + (w[0] === 'sun' ? ' sun' : '') + '"') +
+    '<span class="num">' + r(dl.temperature_2m_max[i]) + '° <span class="lo">' + r(dl.temperature_2m_min[i]) + '°</span></span>' +
+    (pp >= 20 ? '<span class="p num">' + pp + '%</span>' : '') + '</div>';
 }
 function showCal() {
   if (!CAL) return;
@@ -1095,11 +1173,12 @@ function showCal() {
       cls += ' k-' + k[0];
       if (k[3] === 'fest') cls += ' fest f-' + k[0];
       else if (k[3] === 'sport') cls += ' sport';
-      else { cls += ' strip'; fx = '<div class="fx">' + (k[0] === 'swim' ? '<i class="wave"></i>' : '') + '<i class="go"><b>' + k[2] + '</b></i></div>'; }
+      else if (k[3] === 'life') cls += ' life';
+      else { cls += ' strip'; fx = '<div class="fx">' + (k[0] === 'swim' ? '<i class="wave"></i>' : '') + '<i class="go"><b>' + (k[0] === 'fly' || k[0] === 'drive' || k[0] === 'train' ? '<span style="display:inline-block;transform:scaleX(-1)">' + k[2] + '</span>' : k[2]) + '</b></i></div>'; }
     }
     var tm = e.allDay ? '全日 All day' : pad(x.s.getHours()) + ':' + pad(x.s.getMinutes());
     return '<div class="' + cls + '" style="--c:' + esc(e.color || '#6aaef8') + '"><div class="tr"><span class="tm">' + tm + '</span>' +
-      (k && k[3] !== 'strip' ? '<span class="em">' + k[2] + '</span>' : '') + '</div><div class="ti">' + esc(e.title || '(no title)') + '</div>' + fx + '</div>';
+      (!k ? '<span class="em a-glint">✨</span>' : k[3] !== 'strip' ? '<span class="em' + (k[4] ? ' a-' + k[4] : '') + '">' + k[2] + '</span>' : '') + '</div><div class="ti">' + esc(e.title || '(no title)') + '</div>' + fx + '</div>';
   }
   var out = '';
   days.forEach(function (x, i) {
@@ -1112,8 +1191,9 @@ function showCal() {
     if (i === 0 && list.length > MAX) list = list.filter(function (y) { return y.e.allDay || y.en >= now; });   // today: drop finished ones first
     var dw = x.d.getDay(), cls = 'wd' + (i === 0 ? ' today' : '') + (dw === 0 || dw === 6 ? ' wkend' : '');
     var head = i === 0 ? '今日 Today' : i === 1 ? '聽日' : ZH_DAYS[dw];
+    var wxRow = dayWeather(x.d);
     out += '<div class="' + cls + '">' + (festKind ? scene(festKind, x.k % 233280) : '') +
-      '<div class="wh"><span class="dn">' + x.d.getDate() + '</span><span class="dw">' + head + '<small>' + DAYS[dw].slice(0, 3) + ' · ' + MONTHS[x.d.getMonth()].slice(0, 3) + '</small></span></div>' +
+      '<div class="wh' + (wxRow ? ' hasw' : '') + '"><span class="dn">' + x.d.getDate() + '</span><span class="dw">' + head + '<small>' + DAYS[dw].slice(0, 3) + ' · ' + MONTHS[x.d.getMonth()].slice(0, 3) + '</small></span></div>' + wxRow +
       (list.length ? list.slice(0, MAX).map(chip).join('') + (list.length > MAX ? '<div class="wmore">+' + (list.length - MAX) + ' more</div>' : '') : '<div class="wnone">冇嘢 · Free</div>') + '</div>';
   });
   var last = days[6].d;
