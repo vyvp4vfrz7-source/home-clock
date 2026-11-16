@@ -138,6 +138,9 @@ MAX_VIDEO_MB = 40     # GitHub Pages / git are happiest with small files
 
 def ck_video(a, m):
     """Download info for the web-sized copy of a video, or None for photos and Live Photos."""
+    kind = " ".join(str(ck_val(r or {}, f) or "") for r in (m, a) for f in ("itemType", "resOriginalFileType"))
+    print("video check:", (a or {}).get("recordName"), "|", kind, "| dur", ck_val(a or {}, "duration") or ck_val(m or {}, "duration"),
+          "|", sorted(f for f in ((m or {}).get("fields") or {}) if "Vid" in f or "Type" in f or "dur" in f.lower()))
     for rec in (m, a):
         for pre in ("resVidMed", "resVidSmall", "resVidFull"):
             v = ck_val(rec or {}, pre + "Res")
@@ -156,7 +159,10 @@ def save_video(info, path, poster):
         raw = os.path.join(tmp, "raw")
         with urllib.request.urlopen(urllib.request.Request(info["url"], headers={"User-Agent": HDR["User-Agent"]}), timeout=180) as r, open(raw, "wb") as f:
             f.write(r.read())
-        print("video:", os.path.basename(path), info.get("type"), round(os.path.getsize(raw) / 1e6, 1), "MB")
+        with open(raw, "rb") as f:
+            head = f.read(4 * 1024 * 1024)
+        codec = "h264" if b"avc1" in head else "hevc" if (b"hvc1" in head or b"hev1" in head) else "?"
+        print("video:", os.path.basename(path), info.get("type"), codec, round(os.path.getsize(raw) / 1e6, 1), "MB, ffmpeg:", have("ffmpeg"))
         if have("ffmpeg"):
             tmp_out = os.path.join(tmp, "out.mp4")
             # at most 1280 px wide/high, 30 fps; quiet AAC kept so sound can be turned on later
