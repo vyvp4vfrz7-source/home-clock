@@ -85,7 +85,7 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 #indoor .m { font-size: 15px; color: var(--muted); margin-top: 6px; font-weight: 500; }
 #indoor.old .v { color: var(--muted); } #indoor.old .v .ic { color: var(--muted); }
 #heat { position: absolute; bottom: 26px; left: 44px; display: flex; align-items: center; gap: 12px; text-decoration: none; color: #1a1a1a; background: var(--sun); border-radius: 999px; padding: 12px 24px 12px 16px; font-size: 22px; font-weight: 700; }
-#clock { padding-bottom: 96px; }   /* room for the warm-up button */
+#clock.heat { padding-bottom: 96px; }   /* room for the warm-up button */
 #heat .ic { flex: none; }
 #heat small { font-size: 15px; font-weight: 600; opacity: .7; }
 #heat:active { background: #f6efe0; }
@@ -112,20 +112,20 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 .h .p { color: var(--rain); font-size: 13px; height: 16px; }
 .h .ic { color: var(--fg); }
 
-#photo { grid-column: 8 / 13; grid-row: 7 / 9; padding: 0; background: #000; }
+#photo { grid-column: 8 / 13; grid-row: 5 / 9; padding: 0; background: #000; }
 
 /* calendar: upcoming events from calendar.json (saved by .github/workflows/calendar.yml) */
-#cal { grid-column: 8 / 13; grid-row: 5 / 7; padding: 22px 26px; }
+#cal { grid-column: 5 / 8; grid-row: 5 / 7; padding: 20px 24px; }
 #cal .ch { display: flex; justify-content: space-between; align-items: baseline; }
 #cal .ch .sm { font-size: 12px; color: #c9d3df; background: var(--tile-2); padding: 3px 9px; border-radius: 9px; }
-#evs { display: grid; grid-template-columns: 1fr 1fr; gap: 0 22px; margin-top: 10px; }
+#evs { margin-top: 8px; }
 .ecol { min-width: 0; }
-.eday { font-size: 14px; font-weight: 700; color: var(--sun); margin: 2px 0 4px; letter-spacing: .02em; }
+.eday { font-size: 13px; font-weight: 700; color: var(--sun); margin: 2px 0 2px; letter-spacing: .02em; }
 .eday.later { color: var(--muted); }
-.ev { display: flex; align-items: baseline; gap: 10px; padding: 5px 0; border-bottom: 1px solid var(--line); font-size: 19px; line-height: 1.2; }
+.ev { display: flex; align-items: baseline; gap: 10px; padding: 4px 0; border-bottom: 1px solid var(--line); font-size: 18px; line-height: 1.2; }
 .ev:last-child { border-bottom: 0; }
 .ev i { flex: none; width: 4px; height: 18px; border-radius: 2px; align-self: center; }
-.ev .tm { flex: none; width: 50px; color: var(--muted); font-size: 16px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.ev .tm { flex: none; width: 46px; color: var(--muted); font-size: 16px; font-weight: 600; font-variant-numeric: tabular-nums; }
 .ev .ti { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
 .ev.now .tm { color: var(--sun); }
 .ev.past { opacity: .45; }
@@ -142,16 +142,17 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 .dy .ic { color: var(--fg); }
 .dy .hi { color: var(--fg); font-size: 20px; } .dy .lo { color: var(--muted); font-weight: 500; } .dy .p { color: var(--rain); font-size: 13px; height: 15px; }
 
-#apps { grid-column: 5 / 8; grid-row: 5 / 7; display: grid; grid-template-rows: 1fr 1fr; gap: 16px; padding: 0; background: transparent; }
-.app { border-radius: 28px; display: flex; flex-direction: row; justify-content: flex-start; align-items: center; gap: 18px; padding: 0 24px; text-decoration: none; color: var(--fg); }
+#apps { display: flex; gap: 12px; margin-left: auto; margin-right: 24px; }
+.app { border-radius: 999px; display: flex; flex-direction: row; justify-content: flex-start; align-items: center; gap: 12px; padding: 8px 22px 8px 8px; border: 1px solid var(--line); text-decoration: none; color: var(--fg); }
 .app:active { background: #f6efe0 !important; color: #1a1a1a; }
 .app.sp { background: linear-gradient(160deg, #1a3a28 0%, #141b24 80%); }
 .app.yt { background: linear-gradient(160deg, #3d1a1a 0%, #141b24 80%); }
-.app .dot { flex: none; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+.app .dot { flex: none; width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
 .app.sp .dot { background: #1db954; color: #0b1016; }
-.app.yt .dot { background: #ff0033; color: #fff; border-radius: 18px; width: 82px; }
-.app .n { font-size: 24px; font-weight: 600; }
-.app .dot svg { width: 30px; height: 30px; }
+.app.yt .dot { background: #ff0033; color: #fff; border-radius: 13px; width: 60px; }
+.app .n { font-size: 21px; font-weight: 600; }
+.app .dot svg { width: 22px; height: 22px; }
+#league .top { align-items: center; }
 
 #news { grid-column: 1 / 8; grid-row: 7 / 9; padding: 16px 28px; }
 #news #play { padding: 6px 14px; font-size: 14px; }
@@ -176,7 +177,6 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
   <section class="t" id="hours"><div class="lbl">Next 10 hours</div><div class="strip" id="strip"></div></section>
   <section class="t" id="cal"><div class="ch"><div class="lbl">日程 · Calendar</div><span class="sm" id="ctag" hidden>示範 · sample</span></div><div id="evs"></div></section>
   <section class="t" id="photo"><div class="cap"><span id="capT"></span><span class="w" id="capW"></span></div><div class="tag" id="ptag" hidden>示範相片 · sample</div></section>
-  <section class="t" id="apps"><a class="app sp" href="spotify:"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">Spotify</span></a><a class="app yt" href="youtube://"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">YouTube</span></a></section>
   <section class="t" id="news"><div class="nh"><div class="lbl">新聞 · News</div><button id="play" type="button" aria-label="Play Cantonese summary">▶ 播放</button></div><div id="nws"></div></section>
   <div id="status"></div>
 </div>
@@ -202,7 +202,7 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 </div>
 <div class="page" id="p3">
 <div class="stage" id="league">
-  <div class="top"><h1>Premier League<span>英超積分榜</span></h1><div class="upd" id="lupd"></div></div>
+  <div class="top"><h1>Premier League<span>英超積分榜</span></h1><div id="apps"><a class="app sp" href="spotify:"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">Spotify</span></a><a class="app yt" href="youtube://"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">YouTube</span></a></div><div class="upd" id="lupd"></div></div>
   <div id="ltab"><div id="lmsg">Loading table… 載入中</div></div>
 </div>
 </div>
@@ -214,7 +214,8 @@ var CONFIG = {
   city: 'Northwood', cityZh: '倫敦 Northwood ', lat: 51.6111, lon: -0.4237, timezone: 'Europe/London',
   // Warm-up button on the clock: runs this Apple Shortcut on the iPad (see README).
   // The temperature itself is set in the Shortcut / Home scene; 'temp' is only the label.
-  heat: { shortcut: 'Warm Up Home', temp: 21 },
+  // heat: { shortcut: 'Warm Up Home', temp: 21 },   // turned off until the Shortcut is set up; remove the // to bring the button back
+  heat: null,
   secondCity: '香港', secondZone: 'Asia/Hong_Kong',
   dimFrom: 23, dimTo: 7          // screen dims between these hours
 };
@@ -591,19 +592,20 @@ function showCal() {
     var tm = e.allDay ? '全日' : pad(x.s.getHours()) + ':' + pad(x.s.getMinutes());
     return '<div class="ev' + cls + '"><i style="background:' + esc(e.color || '#6aaef8') + '"></i><span class="tm">' + tm + '</span><span class="ti">' + esc(e.title || '(no title)') + '</span></div>';
   }
-  // Left column: today. Right column: the next days, as many as fit.
-  var MAX = 4, todays = (groups[tk] || []).filter(function (x) { return !(!x.e.allDay && x.en < now); });
-  todays.sort(function (a, b) { return (b.e.allDay - a.e.allDay) || (a.s - b.s); });
-  var left = '<div class="eday">' + label(tk) + '</div>' + (todays.length ? todays.slice(0, MAX).map(row).join('') : '<div class="enone">今日冇嘢 · Nothing today</div>');
-  var right = '', used = 0;
+  // One column: today first, then the next days, up to LINES lines (day headings count).
+  var LINES = 6, todays = (groups[tk] || []).filter(function (x) { return !(!x.e.allDay && x.en < now); });
+  function byTime(a, b) { return (b.e.allDay - a.e.allDay) || (a.s - b.s); }
+  todays.sort(byTime);
+  var out = '<div class="eday">' + label(tk) + '</div>', used = 1;
+  if (todays.length) { var t = todays.slice(0, 3); out += t.map(row).join(''); used += t.length; }
+  else { out += '<div class="enone">今日冇嘢 · Nothing today</div>'; used++; }
   order.forEach(function (k) {
-    if (k === tk || used >= MAX - 1) return;
-    var list = groups[k].sort(function (a, b) { return (b.e.allDay - a.e.allDay) || (a.s - b.s); }).slice(0, MAX - 1 - used);
-    right += '<div class="eday' + (right ? ' later' : '') + '">' + label(k) + '</div>' + list.map(row).join('');
+    if (k === tk || used >= LINES - 1) return;
+    var list = groups[k].sort(byTime).slice(0, LINES - 1 - used);
+    out += '<div class="eday later">' + label(k) + '</div>' + list.map(row).join('');
     used += list.length + 1;
   });
-  if (!right) right = '<div class="eday later">之後 Coming up</div><div class="enone">未來兩星期冇嘢</div>';
-  $('evs').innerHTML = '<div class="ecol">' + left + '</div><div class="ecol">' + right + '</div>';
+  $('evs').innerHTML = out;
 }
 loadCal(); setInterval(loadCal, 15 * 60 * 1000); setInterval(showCal, 60 * 1000);
 
@@ -717,6 +719,7 @@ var heatSent = 0;
 function heatShow() {
   var el = $('heat'), h = CONFIG.heat;
   if (!h || !h.shortcut) { el.hidden = true; return; }
+  $('clock').className = 't heat';
   var recent = Date.now() - heatSent < 10 * 60 * 1000;
   el.className = recent ? 'sent' : '';
   el.innerHTML = icon('flame', 30, 2) + (recent ? '已開暖氣 ' + h.temp + '° <small>Heating on</small>' : '暖氣 ' + h.temp + '° <small>Warm up</small>');
