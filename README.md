@@ -7,3 +7,5 @@ A full-screen clock, Northwood (London) weather, indoor temperature from Apple H
 - Photos: list them in `photos.json` as `[{"src":"photos/beach.jpg","text":"Brighton day out","when":"Oct 2026"}]` and put the files in `photos/`.
 - Settings (city, Home buttons, dim hours) are in the `CONFIG` block at the top of `index.html`.
 - Indoor temperature: an Apple Shortcut ("Send home temp") reads the temperature from Apple Home and calls the GitHub API (`repository_dispatch`, event `home-temp`). `.github/workflows/home-temp.yml` saves it to `home.json`, which the page reads every 5 minutes. The reading greys out after 3 hours and hides after 12.
+- Pages: swipe left/right (or tap the dots at the bottom) to move between the dashboard, a big full-screen clock and the Premier League table. The iPad remembers the last page; `?page=2` in the address opens a given page. Add a page by adding another `<div class="page">` inside `#track` in `index.html`.
+- Premier League table: `.github/workflows/table.yml` runs `tools/build_table.py` every hour and writes `table.json` (ESPN's public standings feed, no key). If the feed fails, the last saved table stays.
