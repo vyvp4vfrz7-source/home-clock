@@ -33,14 +33,14 @@ html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); f
 
 /* ----- animated weather scene behind the clock (CSS only; paused when page 1 is not showing) ----- */
 #clock > :not(#wbg) { position: relative; z-index: 1; }
-#clock > #indoor, #clock > #heat { position: absolute; }
+#clock > #heat { position: absolute; }
 #wbg { position: absolute; inset: 0; overflow: hidden; z-index: 0; pointer-events: none; --face: #3b2a2a; --blush: #ff9fb0; transition: opacity 1.5s; }
 #wbg * { position: absolute; }
 body.np1 #wbg *, body.np1 #wbg *::before, body.np1 #wbg *::after { animation-play-state: paused !important; }
 #clock.lite { color: #2b2320; }
-#clock.lite #time .s, #clock.lite #date span, #clock.lite #hk, #clock.lite #indoor .m, #clock.lite #indoor .lbl { color: rgba(43,35,32,.62); }
+#clock.lite #time .s, #clock.lite #date span, #clock.lite #hk { color: rgba(43,35,32,.62); }
 #clock.lite #hk b { color: #2b2320; }
-#clock.sky:not(.lite) #time .s, #clock.sky:not(.lite) #date span, #clock.sky:not(.lite) #hk, #clock.sky:not(.lite) #indoor .m, #clock.sky:not(.lite) #indoor .lbl { color: rgba(255,255,255,.72); }
+#clock.sky:not(.lite) #time .s, #clock.sky:not(.lite) #date span, #clock.sky:not(.lite) #hk { color: rgba(255,255,255,.72); }
 #clock.sky #time { text-shadow: 0 2px 18px rgba(0,0,0,.18); }
 #wbg .shade { inset: 0; background: rgba(10,16,38,.55); }
 #wbg .face { left: 50%; top: 50%; width: 4em; height: 2em; transform: translate(-50%, -30%); }
@@ -139,6 +139,17 @@ body.np1 #wbg *, body.np1 #wbg *::before, body.np1 #wbg *::after { animation-pla
 #wbg .leaf { left: -40px; width: 22px; height: 14px; border-radius: 0 100% 0 100%; animation: wbBlow linear infinite; }
 @keyframes wbBlow { 0% { transform: translate(0, 0) rotate(0); } 25% { transform: translate(240px, -40px) rotate(200deg); } 50% { transform: translate(480px, 20px) rotate(380deg); } 75% { transform: translate(720px, -30px) rotate(560deg); } 100% { transform: translate(980px, 10px) rotate(720deg); } }
 #wbg svg { left: 0; top: 0; }
+/* characters stand just left of the weather column (--sx) */
+#wbg.sunny .sun { right: calc(var(--sx) - 20px); }
+#wbg.partly .sun { right: calc(var(--sx) + 6px); }
+#wbg .moon { right: calc(var(--sx) + 10px); }
+#wbg .zz { right: calc(var(--sx) - 4px); }
+#wbg .peek { right: calc(var(--sx) - 40px); }
+#wbg .haze { right: calc(var(--sx) + 20px); }
+#wbg .bolt { right: calc(var(--sx) + 70px); }
+#wbg .pal { right: calc(var(--sx) + 2px); }
+#wbg .umb { left: auto; right: calc(var(--sx) + 40px); }
+#wbg .snowman { left: auto; right: calc(var(--sx) + 30px); }
 #wbg .gust { fill: none; stroke: rgba(255,255,255,.85); stroke-width: 5; stroke-linecap: round; stroke-dasharray: 160 600; animation: wbGust 3.5s linear infinite; }
 @keyframes wbGust { from { stroke-dashoffset: 160; } to { stroke-dashoffset: -600; } }
 #wbg.windy .cloud { --c: #fff; animation: wbBob 3s ease-in-out infinite; }
@@ -186,17 +197,35 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 .num { font-variant-numeric: tabular-nums; }
 [hidden] { display: none !important; }
 
-#clock { grid-column: 1 / 8; grid-row: 1 / 5; display: flex; flex-direction: column; justify-content: center; padding-left: 44px; }
+/* clock + current weather share one wide tile; the scene's characters sit in the gap between them */
+#clock { grid-column: 1 / 13; grid-row: 1 / 5; display: flex; align-items: stretch; padding: 30px 34px 28px 44px; --sx: 452px; }
+#cl { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+#cw { width: 420px; flex: none; display: flex; flex-direction: column; text-align: right; }
+#cw .top { display: flex; align-items: center; justify-content: flex-end; gap: 14px; margin-top: 2px; }
+#cw .top .ic { color: var(--sun); flex: none; filter: drop-shadow(0 2px 8px rgba(0,0,0,.12)); }
+#cw .temp { font-size: 132px; font-weight: 300; line-height: .95; letter-spacing: -.045em; }
+#cw .desc { font-size: 28px; font-weight: 600; margin-top: 4px; }
+#cw .desc small { font-size: 22px; font-weight: 500; margin-left: 6px; }
+#cw .hl { font-size: 22px; margin-top: 6px; font-weight: 500; }
+#cw .hl b { font-weight: 700; }
+#cw .stats { margin-top: auto; display: grid; grid-template-columns: repeat(4, 1fr); border-radius: 18px; background: rgba(8,14,30,.28); padding: 12px 6px 11px; text-align: center; }
+#cw .stats div { font-size: 12px; letter-spacing: .08em; font-weight: 600; opacity: .78; }
+#cw .stats b { display: block; font-size: 22px; font-weight: 700; margin-top: 3px; letter-spacing: 0; opacity: 1; }
+#clock.lite #cw .stats { background: rgba(255,255,255,.42); }
+#clock .mut { color: var(--muted); }
+#clock.lite .mut { color: rgba(43,35,32,.62); }
+#clock.sky:not(.lite) .mut { color: rgba(255,255,255,.75); }
+#clock.sky #cw .temp { text-shadow: 0 2px 18px rgba(0,0,0,.16); }
 #time { font-size: 220px; font-weight: 300; line-height: .9; letter-spacing: -.04em; }
 #time .s { font-size: 54px; color: var(--muted); letter-spacing: 0; font-weight: 400; margin-left: 10px; }
 #date { font-size: 36px; font-weight: 500; margin-top: 18px; }
 #date span { color: var(--muted); font-weight: 400; }
 #hk { font-size: 24px; color: var(--muted); margin-top: 10px; font-weight: 500; }
 #hk b { color: var(--fg); font-weight: 600; }
-#indoor { position: absolute; bottom: 26px; right: 30px; text-align: right; }
-#indoor .v { display: flex; align-items: center; justify-content: flex-end; gap: 6px; font-size: 56px; font-weight: 300; line-height: 1; letter-spacing: -.02em; margin-top: 6px; }
+#indoor { display: flex; align-items: center; justify-content: flex-end; gap: 10px; margin-top: 12px; }
+#indoor .v { display: flex; align-items: center; gap: 4px; font-size: 34px; font-weight: 500; line-height: 1; letter-spacing: -.02em; }
 #indoor .v .ic { color: var(--sun); }
-#indoor .m { font-size: 15px; color: var(--muted); margin-top: 6px; font-weight: 500; }
+#indoor .m { font-size: 15px; font-weight: 600; text-align: left; line-height: 1.25; }
 #indoor.old .v { color: var(--muted); } #indoor.old .v .ic { color: var(--muted); }
 #heat { position: absolute; bottom: 26px; left: 44px; display: flex; align-items: center; gap: 12px; text-decoration: none; color: #1a1a1a; background: var(--sun); border-radius: 999px; padding: 12px 24px 12px 16px; font-size: 22px; font-weight: 700; }
 #clock.heat { padding-bottom: 96px; }   /* room for the warm-up button */
@@ -205,15 +234,6 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 #heat:active { background: #f6efe0; }
 #heat.sent { background: var(--tile-2); color: var(--fg); }
 
-#now { grid-column: 8 / 13; grid-row: 1 / 5; background: linear-gradient(160deg, #23324a 0%, #141b24 70%); }
-#now .row1 { display: flex; align-items: center; gap: 18px; margin-top: 14px; }
-#now .row1 .ic { color: var(--sun); }
-#now .temp { font-size: 128px; font-weight: 300; line-height: 1; letter-spacing: -.04em; }
-#now .desc { font-size: 28px; font-weight: 500; margin-top: 2px; }
-#now .hl { font-size: 22px; color: var(--muted); margin-top: 6px; }
-#now .stats { position: absolute; left: 30px; right: 30px; bottom: 26px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; border-top: 1px solid var(--line); padding-top: 18px; }
-#now .stats b { display: block; color: var(--fg); font-size: 24px; font-weight: 600; margin-top: 4px; letter-spacing: 0; text-transform: none; }
-#now .stats div { font-size: 13px; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; }
 
 #hours { grid-column: 1 / 8; grid-row: 5 / 7; padding: 22px 26px 22px 30px; }
 #hours .h { font-size: 13px; }
@@ -419,8 +439,7 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 <div id="pages"><div id="track">
 <div class="page" id="p1">
 <div class="stage" id="stage">
-  <section class="t" id="clock"><div id="wbg"></div><div id="time" class="num"></div><div id="date"></div><div id="hk"></div><div id="indoor" hidden></div><a id="heat" href="#"></a></section>
-  <section class="t" id="now"><div class="lbl">Loading weather…</div></section>
+  <section class="t" id="clock"><div id="wbg"></div><div id="cl"><div id="time" class="num"></div><div id="date"></div><div id="hk"></div></div><div id="cw"><div id="now"><div class="lbl mut">Loading weather…</div></div><div id="indoor" hidden></div><div id="stats"></div></div><a id="heat" href="#"></a></section>
   <section class="t" id="hours"><div class="lbl">Next 12 hours</div><div class="strip" id="strip"></div></section>
   <section class="t" id="photo"><div class="loc" id="capL"></div><div class="cap"><span id="capT"></span><span class="w" id="capW"></span></div><div class="tag" id="ptag" hidden>示範相片 · sample</div><div class="add" id="padd" aria-label="Add a note">✎</div></section>
   <section class="t" id="news"><div class="nh"><div class="lbl">新聞 · News</div><button id="play" type="button" aria-label="Play Cantonese summary">▶ 播放</button></div><div id="nws"></div></section>
@@ -738,9 +757,9 @@ function buildScene(s, n, day) {
   } else if (s === 'rain' || s === 'thunder') {
     for (i = 0; i < n; i++) html += '<i class="drop" style="left:' + rnd(0, w + 40) + 'px;animation-delay:-' + rnd(0, 1) + 's;animation-duration:' + rnd(.7, 1.1) + 's"></i>';
     for (i = 0; i < 8; i++) html += '<i class="splash" style="left:' + rnd(20, w - 40) + 'px;bottom:' + rnd(6, 30) + 'px;animation-delay:-' + rnd(0, 1.4) + 's"></i>';
-    if (s === 'rain') html += '<i class="puddle" style="left:' + (w * .5) + 'px;width:' + (w * .36) + 'px"></i><div class="cloud" style="font-size:13px;right:14px;top:44px">' + face('o') + '</div><div class="umb"><div class="top"></div><i class="stick"></i></div>';
+    if (s === 'rain') html += '<i class="puddle" style="left:' + (w * .42) + 'px;width:' + (w * .3) + 'px"></i><div class="cloud pal" style="font-size:13px;top:44px">' + face('o') + '</div><div class="umb"><div class="top"></div><i class="stick"></i></div>';
     else html += '<svg class="bolt" viewBox="0 0 70 120"><polygon points="38,0 6,66 32,66 18,120 64,44 38,44 52,0" fill="#ffd84a" stroke="#fff3b0" stroke-width="3"/></svg>' +
-      '<div class="cloud" style="font-size:14px;right:14px;top:44px">' + face('frown').replace(/class="blush/g, 'style="opacity:.35" class="blush') + '</div><i class="flash"></i>';
+      '<div class="cloud pal" style="font-size:14px;top:44px">' + face('frown').replace(/class="blush/g, 'style="opacity:.35" class="blush') + '</div><i class="flash"></i>';
   } else if (s === 'snow') {
     for (i = 0; i < (n || 40); i++) { var d = rnd(5, 13); html += '<div class="flake" style="left:' + rnd(0, w) + 'px;animation-duration:' + (rnd(6, 12) * (8 / d + .3) / 1.3) + 's;animation-delay:-' + rnd(0, 12) + 's"><i style="width:' + d + 'px;height:' + d + 'px;animation-delay:-' + rnd(0, 3) + 's"></i></div>'; }
     html += '<i class="bank" style="left:-80px;width:' + (w * .66) + 'px"></i><i class="bank" style="left:' + (w * .42) + 'px;width:' + (w * .72) + 'px;bottom:-50px"></i>' +
@@ -751,7 +770,7 @@ function buildScene(s, n, day) {
     var cols = ['#f29c38', '#e8693c', '#f5c242', '#9bc45a'];
     html += '<svg width="' + w + '" height="' + h + '"><path class="gust" d="M-20 120 C 120 90, 220 150, 360 110 S 560 70, ' + (w - 100) + ' 120"/><path class="gust" style="animation-delay:-1.6s" d="M-20 ' + (h - 140) + ' C 140 ' + (h - 170) + ', 260 ' + (h - 110) + ', 420 ' + (h - 150) + ' S 640 ' + (h - 180) + ', ' + (w + 20) + ' ' + (h - 140) + '"/></svg>';
     for (i = 0; i < 9; i++) html += '<i class="leaf" style="background:' + cols[i % 4] + ';top:' + rnd(60, h - 60) + 'px;animation-duration:' + rnd(5, 9) + 's;animation-delay:-' + rnd(0, 9) + 's"></i>';
-    html += '<div class="cloud" style="font-size:13px;right:14px;top:44px">' + face('o') + '</div>';
+    html += '<div class="cloud pal" style="font-size:13px;top:44px">' + face('o') + '</div>';
   }
   box.className = s + (dark ? ' dark' : '');
   box.innerHTML = html;
@@ -762,12 +781,13 @@ function buildScene(s, n, day) {
 function renderWeather() {
   var c = W.current, dl = W.daily, now = wx(c.weather_code, c.is_day);
   weatherScene(c);
-  $('now').innerHTML = '<div class="lbl">' + (CONFIG.city || 'Weather') + ' · now</div>' +
-    '<div class="row1">' + icon(now[0], 96, 1.4) + '<div class="temp num">' + r(c.temperature_2m) + '°</div></div>' +
-    '<div class="desc">' + now[1] + ' · feels ' + r(c.apparent_temperature) + '°</div>' +
-    '<div class="hl">High ' + r(dl.temperature_2m_max[0]) + '° · Low ' + r(dl.temperature_2m_min[0]) + '°</div>' +
-    '<div class="stats"><div>Rain 落雨<b class="num">' + (dl.precipitation_probability_max[0] || 0) + '%</b></div><div>Wind 風<b class="num">' + r(c.wind_speed_10m || 0) + ' km/h</b></div>' +
-    '<div>Sunrise 日出<b class="num">' + dl.sunrise[0].slice(11) + '</b></div><div>Sunset 日落<b class="num">' + dl.sunset[0].slice(11) + '</b></div></div>';
+  $('now').innerHTML = '<div class="lbl mut">' + (CONFIG.city || 'Weather') + ' · 現在 now</div>' +
+    '<div class="top">' + icon(now[0], 92, 1.5) + '<div class="temp num">' + r(c.temperature_2m) + '°</div></div>' +
+    '<div class="desc">' + (now[2] || now[1]) + '<small class="mut">' + now[1] + '</small></div>' +
+    '<div class="hl mut">體感 Feels <b>' + r(c.apparent_temperature) + '°</b> · 高 H <b>' + r(dl.temperature_2m_max[0]) + '°</b> 低 L <b>' + r(dl.temperature_2m_min[0]) + '°</b></div>';
+  $('stats').className = 'stats';
+  $('stats').innerHTML = '<div>落雨 RAIN<b class="num">' + (dl.precipitation_probability_max[0] || 0) + '%</b></div><div>風 WIND<b class="num">' + r(c.wind_speed_10m || 0) + '<small style="font-size:14px"> km/h</small></b></div>' +
+    '<div>日出 RISE<b class="num">' + dl.sunrise[0].slice(11) + '</b></div><div>日落 SET<b class="num">' + dl.sunset[0].slice(11) + '</b></div>';
 
   var h = W.hourly, key = c.time.slice(0, 13), start = 0;
   for (var i = 0; i < h.time.length; i++) if (h.time[i].slice(0, 13) === key) { start = i + 1; break; }
@@ -1218,8 +1238,7 @@ function showHome() {
   if (!HOME || age > 12 * 60) { el.hidden = true; return; }   // nothing recent: hide the reading
   var t = new Date(HOME.at), when = age < 2 ? 'just now' : 'at ' + pad(t.getHours()) + ':' + pad(t.getMinutes());
   el.className = age > 3 * 60 ? 'old' : '';                     // greyed out if older than 3 hours
-  el.innerHTML = '<div class="lbl">Indoors 室內</div><div class="v num">' + icon('thermo', 40, 1.5) + HOME.temp.toFixed(1) + '°</div>' +
-    '<div class="m">' + (typeof HOME.hum === 'number' ? 'Humidity ' + Math.round(HOME.hum) + '% · ' : '') + when + '</div>';
+  el.innerHTML = '<div class="m mut">室內 Indoors<br>' + (typeof HOME.hum === 'number' ? Math.round(HOME.hum) + '% · ' : '') + when + '</div><div class="v num">' + icon('thermo', 30, 1.8) + HOME.temp.toFixed(1) + '°</div>';
   el.hidden = false;
   bigFoot();
 }
