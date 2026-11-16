@@ -31,6 +31,18 @@ for r in allrecs:
                     b = base64.b64decode(val); info = "bplist" if b[:6] == b"bplist" else f"utf8 len {len(b.decode('utf-8'))}"
                 except Exception as e: info = "undecodable"
             print("HINT", r.get("recordType"), k, v.get("type"), info)
+posts = [r for r in allrecs if r.get("recordType") == "CPLPost"]
+assets = [r for r in allrecs if r.get("recordType") == "CPLAsset"]
+batches = collections.Counter(((a.get("fields") or {}).get("assetBatchId") or {}).get("value") for a in assets)
+for po in posts:
+    f = po.get("fields") or {}
+    print("POST keys", sorted(k for k in po if k != "fields"), "parent", bool(po.get("parent")),
+          "ts", (f.get("postTimestamp") or {}).get("value"), "caption len", len((f.get("caption") or {}).get("value") or ""),
+          "assets in batch w/ same name", batches.get(po.get("recordName")),
+          "name prefix", (po.get("recordName") or "")[:8])
+print("batch sizes", sorted(batches.values()), "batch prefixes", [str(b)[:8] for b in batches])
+for a in assets[:3]:
+    print("ASSET top keys", sorted(k for k in a if k != "fields"), "parent", a.get("parent"))
 for t in ["CPLComment", "CPLAssetComment", "CPLSharedComment", "CPLCommentByAsset", "CPLAssetCommentsByAsset", "CPLAssetLikesAndComments", "CPLSocialComment", "CPLAssetSocialData"]:
     try:
         d = bp.ck_post(f"{part}{bp.CK_DB}records/query?{q}", {"query": {"recordType": t}, "resultsLimit": 50, "zoneID": zone})
