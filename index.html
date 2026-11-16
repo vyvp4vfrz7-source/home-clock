@@ -432,8 +432,46 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 .ncol.en .nw span { color: var(--rain); }
 #play { font: 700 15px var(--font); background: var(--sun); color: #1a1a1a; border: 0; border-radius: 999px; padding: 8px 16px; white-space: nowrap; }
 #play.on { background: var(--rain); }
+#play2 { font: 700 17px var(--font); background: var(--sun); color: #1a1a1a; border: 0; border-radius: 999px; padding: 9px 18px; white-space: nowrap; }
+.nw.en span { color: var(--rain); }
 #status { position: absolute; right: 36px; bottom: 6px; font-size: 11px; color: #3d4a5c; }
 
+/* ----- news page: world map with a pin for each story, one story at a time below ----- */
+#newsp { padding: 30px 34px 60px; display: flex; flex-direction: column; }
+#newsp .top { display: flex; align-items: center; justify-content: space-between; padding: 0 6px 14px; }
+#newsp h1 { margin: 0; font-size: 44px; font-weight: 600; letter-spacing: -.01em; }
+#newsp h1 span { color: var(--muted); font-weight: 400; font-size: 30px; margin-left: 12px; }
+#newsp .upd { font-size: 17px; color: var(--muted); font-weight: 500; display: flex; align-items: center; gap: 16px; }
+#nmap { position: relative; height: 430px; border-radius: 22px; overflow: hidden; background: radial-gradient(ellipse at 50% 40%, #13202f 0%, #0d151f 75%); flex: none; }
+#nmap img { position: absolute; left: 0; top: -10px; width: 1298px; height: 497px; opacity: .95; }
+.pin { position: absolute; width: 0; height: 0; }
+.pin i { position: absolute; left: -7px; top: -7px; width: 14px; height: 14px; border-radius: 50%; background: var(--sun); box-shadow: 0 0 0 3px rgba(243,182,73,.25); transition: transform .4s; }
+.pin.en i { background: var(--rain); box-shadow: 0 0 0 3px rgba(106,174,248,.25); }
+.pin b { position: absolute; left: 9px; top: -22px; font-size: 12px; font-weight: 700; color: #0b1016; background: #c9d3df; border-radius: 8px; padding: 0 5px; line-height: 16px; }
+.pin.on { z-index: 3; }
+.pin.on i { transform: scale(1.5); background: #fff; box-shadow: 0 0 0 4px rgba(255,255,255,.3); }
+.pin.on::before { content: ""; position: absolute; left: -30px; top: -30px; width: 60px; height: 60px; border-radius: 50%; border: 3px solid #fff; animation: nwRing 2s ease-out infinite; }
+.pin .lab { position: absolute; left: 22px; top: -20px; white-space: nowrap; font-size: 22px; font-weight: 700; background: rgba(8,12,18,.82); border: 1px solid #3a4a60; border-radius: 12px; padding: 4px 12px; color: #fff; }
+.pin.left .lab { left: auto; right: 22px; }
+@keyframes nwRing { from { transform: scale(.3); opacity: 1; } to { transform: scale(1.4); opacity: 0; } }
+body:not(.pnews) #newsp *, body:not(.pnews) #newsp *::before { animation-play-state: paused !important; }
+#nbody { flex: 1; display: flex; gap: 22px; margin-top: 18px; min-height: 0; }
+#nfeat { flex: 1.7; display: flex; gap: 22px; background: var(--tile); border-radius: 22px; padding: 20px; min-width: 0; transition: opacity .5s; }
+#nfeat.fade { opacity: 0; }
+#nimg { flex: none; width: 380px; border-radius: 16px; background: linear-gradient(150deg, #2a3a52, #141b24) center / cover; display: flex; align-items: flex-end; padding: 14px; box-sizing: border-box; font-size: 40px; font-weight: 700; color: rgba(255,255,255,.18); }
+#nimg.zh { background-image: linear-gradient(150deg, #5a4520, #141b24); }
+#ntxt { min-width: 0; display: flex; flex-direction: column; }
+#ntxt .src { font-size: 14px; font-weight: 700; letter-spacing: .1em; color: var(--sun); display: flex; gap: 10px; align-items: center; }
+#ntxt .src.en { color: var(--rain); }
+#ntxt .src em { font-style: normal; color: var(--muted); letter-spacing: 0; font-weight: 600; }
+#ntxt h2 { margin: 10px 0 10px; font-size: 32px; line-height: 1.25; font-weight: 700; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden; }
+#ntxt p { margin: 0; font-size: 19px; line-height: 1.45; color: #b9c4d2; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden; }
+#nlist { flex: 1; background: var(--tile); border-radius: 22px; padding: 14px 20px; min-width: 0; overflow: hidden; }
+#nlist .lbl { margin-bottom: 4px; }
+#nlist .nw { font-size: 17px; }
+#nbar { height: 4px; border-radius: 2px; background: var(--line); margin-top: auto; overflow: hidden; }
+#nbar i { display: block; height: 100%; width: 0; background: var(--muted); }
+#nbar i.go { width: 100%; transition: width 10s linear; }
 /* ----- live football score: a small card at the top of every page while a match is on ----- */
 #live { position: fixed; left: 50%; top: max(12px, env(safe-area-inset-top)); transform: translateX(-50%); z-index: 6; display: flex; align-items: center; gap: 8px; pointer-events: auto; }
 #live[hidden] { display: none; }
@@ -504,6 +542,16 @@ body.night #live { display: none; }   /* no scores on the night clock */
   <div class="info" id="binfoR"></div>
 </div>
 </div>
+<div class="page" id="pnews">
+<div class="stage" id="newsp">
+  <div class="top"><h1>新聞<span>News · 香港 &amp; UK</span></h1><div class="upd"><span id="nupd"></span><button id="play2" class="play" type="button">▶ 播放</button></div></div>
+  <div id="nmap"><img src="world.svg" alt=""><div id="npins"></div></div>
+  <div id="nbody">
+    <div id="nfeat"><div id="nimg"></div><div id="ntxt"><div class="src" id="nsrc"></div><h2 id="nttl"></h2><p id="ndsc"></p><div id="nbar"><i></i></div></div></div>
+    <div id="nlist"><div class="lbl">跟住 · Up next</div><div id="nnext"></div></div>
+  </div>
+</div>
+</div>
 <div class="page" id="p3">
 <div class="stage" id="league">
   <div class="top"><h1>Premier League<span>英超積分榜</span></h1><div id="apps"><a class="app sp" href="spotify:"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">Spotify</span></a><a class="app yt" href="youtube://"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">YouTube</span></a></div><div class="upd" id="lupd"></div></div>
@@ -532,7 +580,7 @@ var CONFIG = {
   secondCity: '香港', secondZone: 'Asia/Hong_Kong',
   // Pages turn by themselves: each page in 'pages' (1 = dashboard) shows for 'secs' seconds.
   // After a swipe to a page outside the list, it stays there for 'stay' seconds before carrying on.
-  rotate: { secs: 60, pages: [1, 2, 3], stay: 300 },
+  rotate: { secs: 60, pages: [1, 2, 3, 4], stay: 300 },
   // Night mode: between these hours (iPad's own clock) a dim, soft clock replaces the pages.
   // A tap shows the dashboard (dimmed) for 'wake' seconds, then the night clock comes back. ?night=1 / ?night=0 to test.
   night: { from: 23, to: 7, wake: 120 },
@@ -600,7 +648,7 @@ function fitStage() {
 addEventListener('resize', fitStage); fitStage();
 
 /* ---------- pages: swipe left/right, tap the dots, or use the arrow keys ----------
-   Page 1 is the dashboard, page 2 this week's calendar, page 3 the analog clock, page 4 the league table. To add a page, add another
+   Page 1 is the dashboard, page 2 this week's calendar, page 3 the analog clock, page 4 the news map, page 5 the league table. To add a page, add another
    <div class="page"> inside #track. The iPad remembers the last page shown. */
 var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, pageAt = Date.now();
 (function () {
@@ -620,6 +668,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, pageAt = Date.now();
     try { localStorage.setItem('page', PAGE); } catch (e) {}
     pageAt = Date.now();
     document.body.classList.toggle('pcal', PAGE === CAL_PAGE);   // calendar animations only run while it shows
+    document.body.classList.toggle('pnews', !!pages[PAGE] && pages[PAGE].id === 'pnews');
     if (window.ZH_DAYS) bigTick(new Date());   // start or stop the sweeping hand right away
   };
   var start = +new URLSearchParams(location.search).get('page') - 1;
@@ -1326,7 +1375,8 @@ loadHome(); setInterval(loadHome, 5 * 60 * 1000); setInterval(showHome, 60 * 100
 var NEWS = [], newsAt = 0;
 function loadNews() {
   fetch('news.json?t=' + Date.now()).then(function (r) { return r.json(); })
-    .then(function (d) { NEWS = (d.items || []).filter(function (n) { return n.t; }); showNews(); })
+    .then(function (d) { NEWS = (d.items || []).filter(function (n) { return n.t; }); showNews(); showStory(0);
+      if (d.updated) $('nupd').textContent = '更新 ' + new Date(d.updated).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' }); })
     .catch(function () { if (!NEWS.length) $('nws').innerHTML = '<div class="nw"><span>新聞</span>暫時未有新聞</div>'; });
 }
 function showNews() {
@@ -1343,6 +1393,49 @@ function showNews() {
   newsAt++;
 }
 loadNews(); setInterval(loadNews, 30 * 60 * 1000); setInterval(showNews, 15000);
+
+/* ---------- news page: world map + one story at a time (every 10 s, carries on where it left off) ---------- */
+var NSTORY = 0;
+function newsOrder() {   // Chinese and English stories taking turns
+  var zh = NEWS.filter(function (n) { return n.lang !== 'en'; }), en = NEWS.filter(function (n) { return n.lang === 'en'; }), out = [];
+  for (var i = 0; i < Math.max(zh.length, en.length); i++) { if (zh[i]) out.push(zh[i]); if (en[i]) out.push(en[i]); }
+  return out;
+}
+function mapXY(w) { return [(w[1] + 180) / 360 * 1298, (80 - w[0]) / 360 * 1298 - 10]; }
+function newsAgo(at) {
+  var m = Math.round((Date.now() - new Date(at)) / 60000); if (!(m >= 0)) return '';
+  return m < 60 ? m + ' 分鐘前' : m < 48 * 60 ? Math.round(m / 60) + ' 小時前' : '';
+}
+function showStory(step) {
+  var list = newsOrder(); if (!list.length) { $('nttl').textContent = '暫時未有新聞'; return; }
+  NSTORY = (NSTORY + (step || 0) + list.length) % list.length;
+  var n = list[NSTORY], en = n.lang === 'en';
+  // pins: one per place, labelled with how many stories are there
+  var by = {}, h = '';
+  list.forEach(function (x) { if (x.where) { var k = x.where[2]; (by[k] = by[k] || { w: x.where, c: 0, en: 0 }).c++; if (x.lang === 'en') by[k].en++; } });
+  for (var k in by) {
+    var p = mapXY(by[k].w), on = n.where && n.where[2] === k;
+    h += '<div class="pin' + (by[k].en * 2 > by[k].c ? ' en' : '') + (on ? ' on' : '') + (p[0] > 1000 ? ' left' : '') + '" style="left:' + p[0].toFixed(0) + 'px;top:' + p[1].toFixed(0) + 'px"><i></i>' +
+      (by[k].c > 1 && !on ? '<b>' + by[k].c + '</b>' : '') + (on ? '<span class="lab">📍 ' + esc(k) + '</span>' : '') + '</div>';
+  }
+  $('npins').innerHTML = h;
+  $('nsrc').className = 'src' + (en ? ' en' : '');
+  $('nsrc').innerHTML = esc(n.src) + (n.at ? '<em>' + newsAgo(n.at) + '</em>' : '') + '<em>' + (NSTORY + 1) + ' / ' + list.length + '</em>';
+  $('nttl').textContent = n.t; $('ndsc').textContent = n.d || '';
+  var im = $('nimg'); im.className = en ? '' : 'zh'; im.style.backgroundImage = ''; im.textContent = n.where ? n.where[2] : n.src;
+  if (n.img) { var pic = new Image(); pic.onload = function () { if (list[NSTORY] === n) { im.style.backgroundImage = 'url("' + n.img + '")'; im.textContent = ''; } }; pic.src = n.img; }
+  var nx = ''; for (var i = 1; i <= 6 && i < list.length; i++) { var m = list[(NSTORY + i) % list.length]; nx += '<div class="nw' + (m.lang === 'en' ? ' en' : '') + '"><span>' + esc(m.src) + '</span>' + esc(m.t) + '</div>'; }
+  $('nnext').innerHTML = nx;
+  var bar = $('nbar').firstChild; bar.className = ''; bar.offsetWidth; bar.className = 'go';
+}
+function newsTick() {
+  if (!document.body.classList.contains('pnews')) return;
+  var f = $('nfeat'); f.classList.add('fade');
+  setTimeout(function () { showStory(1); f.classList.remove('fade'); }, 500);
+}
+setInterval(newsTick, 10000);
+$('play2').addEventListener('click', function () { $('play').click(); });
+$('nfeat').addEventListener('click', function () { showStory(1); });
 
 /* ---------- Cantonese spoken summary ---------- */
 function brief() {
