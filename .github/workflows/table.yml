@@ -1,0 +1,24 @@
+name: Save Premier League table
+on:
+  schedule:
+    - cron: "12 * * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - tools/build_table.py
+      - .github/workflows/table.yml
+permissions:
+  contents: write
+concurrency: site-data
+jobs:
+  table:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/build_table.py table.json
+      - name: Commit
+        run: |
+          git config user.name "table-bot"
+          git config user.email "table-bot@users.noreply.github.com"
+          git add table.json
+          git diff --cached --quiet || (git commit -m "Update Premier League table" && git pull --rebase && git push)
