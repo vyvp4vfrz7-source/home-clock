@@ -33,7 +33,8 @@ html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); f
 
 /* ----- animated weather scene behind the clock (CSS only; paused when page 1 is not showing) ----- */
 #clock > :not(#wbg) { position: relative; z-index: 1; }
-#clock > #heat { position: absolute; }
+#clock > #heat, #clock > #bnote { position: absolute; }
+#clock > #bnote { z-index: 3; }
 #wbg { position: absolute; inset: 0; overflow: hidden; z-index: 0; pointer-events: none; --face: #3b2a2a; --blush: #ff9fb0; transition: opacity 1.5s; }
 #wbg * { position: absolute; }
 body.np1 #wbg *, body.np1 #wbg *::before, body.np1 #wbg *::after { animation-play-state: paused !important; }
@@ -393,20 +394,54 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 #photo .cm b { color: var(--sun); font-weight: 700; margin-right: 6px; }
 #photo .cap #capT { min-width: 0; }
 #photo .add { position: absolute; top: 14px; right: 16px; width: 40px; height: 40px; border-radius: 50%; background: rgba(8,12,18,.55); color: #fff; font-size: 20px; display: flex; align-items: center; justify-content: center; }
-#note { position: fixed; inset: 0; background: rgba(4,6,10,.6); display: flex; align-items: center; justify-content: center; z-index: 50; }
-#note[hidden] { display: none; }
-#note .box { width: 560px; max-width: calc(100% - 32px); background: #182230; border: 1px solid var(--line); border-radius: 22px; padding: 22px; display: flex; flex-direction: column; gap: 12px; }
-#note .top { display: flex; gap: 14px; align-items: center; }
+/* family message board: sticky note on the clock, pop-up for new messages, list + write box */
+#bnote { position: absolute; left: 540px; bottom: 30px; width: 312px; box-sizing: border-box; color: #3a2e12; background: #ffe58a; border-radius: 6px 6px 18px 6px; padding: 14px 18px 14px; transform: rotate(-1.6deg); box-shadow: 0 10px 24px rgba(0,0,0,.25); -webkit-tap-highlight-color: transparent; }
+#bnote:before { content: ""; position: absolute; top: -9px; left: 50%; width: 80px; margin-left: -40px; height: 20px; background: rgba(255,255,255,.45); transform: rotate(2deg); }
+#bnote .bw { font-size: 15px; font-weight: 700; opacity: .7; letter-spacing: .02em; }
+#bnote .bt { font-size: 26px; font-weight: 700; line-height: 1.22; margin-top: 3px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+#bnote .bm { font-size: 14px; font-weight: 600; opacity: .6; margin-top: 4px; }
+#bnote.new { animation: bWiggle 1.6s ease-in-out 3; }
+#bnote.empty { width: auto; padding: 9px 18px; background: rgba(255,229,138,.18); color: #ffe58a; box-shadow: none; transform: none; border-radius: 999px; font-size: 18px; font-weight: 700; }
+#clock.lite #bnote.empty { background: rgba(43,35,32,.1); color: #2b2320; }
+#bnote.empty:before { display: none; }
+#bnote[hidden] { display: none; }
+@keyframes bWiggle { 0%,100% { transform: rotate(-1.6deg); } 25% { transform: rotate(2deg) scale(1.04); } 50% { transform: rotate(-3deg); } 75% { transform: rotate(1.4deg) scale(1.02); } }
+#bpop { position: fixed; inset: 0; z-index: 60; background: rgba(4,6,10,.55); display: flex; align-items: center; justify-content: center; }
+#bpop[hidden] { display: none; }
+#bpop .paper { width: min(780px, 88vw); max-height: 86vh; overflow: auto; box-sizing: border-box; color: #3a2e12; background: #ffe58a; border-radius: 10px 10px 36px 10px; padding: 34px 42px 30px; box-shadow: 0 30px 80px rgba(0,0,0,.45); transform: rotate(-1.2deg); animation: bIn .7s cubic-bezier(.2,1.4,.4,1); position: relative; }
+#bpop .paper:before { content: ""; position: absolute; top: -14px; left: 50%; width: 150px; margin-left: -75px; height: 32px; background: rgba(255,255,255,.5); transform: rotate(-2deg); }
+#bpop .hd { font-size: 20px; font-weight: 700; letter-spacing: .06em; opacity: .6; }
+#bpop .m { margin-top: 18px; }
+#bpop .m + .m { border-top: 2px dashed rgba(58,46,18,.18); padding-top: 18px; }
+#bpop .w { font-size: 24px; font-weight: 700; }
+#bpop .w span { font-weight: 500; opacity: .6; margin-left: 10px; font-size: 20px; }
+#bpop .tx { font-size: min(64px, 6.4vw); font-weight: 800; line-height: 1.18; margin-top: 6px; word-break: break-word; }
+#bpop .m + .m .tx { font-size: min(40px, 4.6vw); }
+#bpop .ok { display: block; margin: 28px 0 0 auto; font: 800 24px var(--font); border: 0; border-radius: 999px; padding: 14px 34px; background: #3a2e12; color: #ffe58a; }
+@keyframes bIn { from { transform: translateY(40px) rotate(4deg) scale(.85); opacity: 0; } }
+#board .list { max-height: 330px; overflow: auto; display: flex; flex-direction: column; gap: 8px; }
+#board .it { display: flex; gap: 10px; align-items: flex-start; background: #ffe58a; color: #3a2e12; border-radius: 10px; padding: 10px 12px; }
+#board .it div { flex: 1; font-size: 19px; font-weight: 700; line-height: 1.3; word-break: break-word; }
+#board .it small { display: block; font-size: 13px; font-weight: 600; opacity: .6; }
+#board .it button { flex: none; border: 0; background: rgba(58,46,18,.12); color: #3a2e12; border-radius: 999px; width: 30px; height: 30px; font: 700 16px var(--font); }
+#board .none { color: var(--muted); font-size: 16px; }
+#board .who { display: flex; gap: 8px; }
+#board .who button { flex: 1; font: 700 18px var(--font); border: 1px solid var(--line); border-radius: 999px; padding: 8px 0; background: #0f1620; color: var(--fg); }
+#board .who button.on { background: var(--sun); color: #1a1a1a; border-color: var(--sun); }
+#note, #board { position: fixed; inset: 0; background: rgba(4,6,10,.6); display: flex; align-items: center; justify-content: center; z-index: 50; }
+#note[hidden], #board[hidden] { display: none; }
+#note .box, #board .box { width: 560px; max-width: calc(100% - 32px); background: #182230; border: 1px solid var(--line); border-radius: 22px; padding: 22px; display: flex; flex-direction: column; gap: 12px; }
+#note .top, #board .top { display: flex; gap: 14px; align-items: center; }
 #note .thumb { flex: none; width: 92px; height: 92px; border-radius: 14px; background-size: cover; background-position: center; }
-#note h3 { margin: 0; font-size: 22px; } #note .sub { color: var(--muted); font-size: 15px; margin-top: 4px; }
+#note h3, #board h3 { margin: 0; font-size: 22px; } #note .sub, #board .sub { color: var(--muted); font-size: 15px; margin-top: 4px; }
 #note .old { font-size: 16px; line-height: 1.35; max-height: 120px; overflow: auto; }
 #note .old b { color: var(--sun); margin-right: 6px; }
-#note input, #note textarea { font: 500 20px var(--font); color: var(--fg); background: #0f1620; border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; -webkit-appearance: none; }
-#note textarea { height: 96px; resize: none; }
-#note .btns { display: flex; justify-content: flex-end; gap: 10px; }
-#note .btns button { font: 700 18px var(--font); border: 0; border-radius: 999px; padding: 10px 22px; background: #2a3646; color: var(--fg); }
-#note .btns .ok { background: var(--sun); color: #1a1a1a; }
-#note .msg { font-size: 14px; color: var(--muted); min-height: 18px; }
+#note input, #note textarea, #board textarea { font: 500 20px var(--font); color: var(--fg); background: #0f1620; border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; -webkit-appearance: none; }
+#note textarea, #board textarea { height: 96px; resize: none; }
+#note .btns, #board .btns { display: flex; justify-content: flex-end; gap: 10px; }
+#note .btns button, #board .btns button { font: 700 18px var(--font); border: 0; border-radius: 999px; padding: 10px 22px; background: #2a3646; color: var(--fg); }
+#note .btns .ok, #board .btns .ok { background: var(--sun); color: #1a1a1a; }
+#note .msg, #board .msg { font-size: 14px; color: var(--muted); min-height: 18px; }
 #photo .tag { position: absolute; top: 16px; right: 18px; font-size: 12px; color: #c9d3df; background: rgba(8,12,18,.55); padding: 4px 10px; border-radius: 10px; }
 
 #apps { display: flex; gap: 12px; margin-left: auto; margin-right: 24px; }
@@ -547,7 +582,7 @@ body.night #live { display: none; }   /* no scores on the night clock */
 <div id="pages"><div id="track">
 <div class="page" id="p1">
 <div class="stage" id="stage">
-  <section class="t" id="clock"><div id="wbg"></div><div id="cl"><div id="time" class="num"></div><div id="date"></div><div id="hk"></div></div><div id="cw"><div id="now"><div class="lbl mut">Loading weather…</div></div><div id="indoor" hidden></div><div id="stats"></div></div><a id="heat" href="#"></a></section>
+  <section class="t" id="clock"><div id="wbg"></div><div id="cl"><div id="time" class="num"></div><div id="date"></div><div id="hk"></div></div><div id="cw"><div id="now"><div class="lbl mut">Loading weather…</div></div><div id="indoor" hidden></div><div id="stats"></div></div><a id="heat" href="#"></a><div id="bnote" hidden></div></section>
   <section class="t" id="hours"><div class="lbl">Next 12 hours</div><div class="strip" id="strip"></div></section>
   <section class="t" id="photo"><div class="loc" id="capL"></div><div class="cap"><span id="capT"></span><span class="w" id="capW"></span></div><div class="tag" id="ptag" hidden>示範相片 · sample</div><div class="add" id="padd" aria-label="Add a note">✎</div></section>
   <section class="t" id="days"><div class="lbl">未來五日 · Next 5 days</div><div id="dstrip"></div></section>
@@ -613,6 +648,15 @@ body.night #live { display: none; }   /* no scores on the night clock */
   <textarea id="nText" maxlength="200" placeholder="寫低想講嘅嘢… Type a note"></textarea>
   <div class="msg" id="nMsg"></div>
   <div class="btns"><button type="button" id="nCancel">取消 Cancel</button><button type="button" class="ok" id="nSave">儲存 Save</button></div>
+</div></div>
+<div id="bpop" hidden><div class="paper"><div class="hd">📌 新留言 · NEW MESSAGE</div><div id="bpList"></div><button type="button" class="ok" id="bpOk">收到 👍 Got it</button></div></div>
+<div id="board" hidden><div class="box">
+  <div class="top"><div><h3>📌 留言板 · Message board</h3><div class="sub">家人手機都可以貼留言上嚟 · Family can post from their phones</div></div></div>
+  <div class="list" id="bList"></div>
+  <div class="who" id="bWho"></div>
+  <textarea id="bText" maxlength="200" placeholder="寫留言… e.g. 今晚食火鍋 🍲"></textarea>
+  <div class="msg" id="bMsg"></div>
+  <div class="btns"><button type="button" id="bClose">關閉 Close</button><button type="button" class="ok" id="bSend">貼上 Post</button></div>
 </div></div>
 <script>
 /* ===== Settings you can change ===== */
@@ -749,7 +793,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, pageAt = Date.now();
   setInterval(function () {
     var R = CONFIG.rotate; if (!R || !R.secs || !R.pages || !R.pages.length) return;
     if (isNight()) { pageAt = Date.now(); return; }   // night: no page turning, even while peeking
-    if ((typeof noteOpen !== 'undefined' && noteOpen) || (window.speechSynthesis && speechSynthesis.speaking)) { pageAt = Date.now(); return; }
+    if ((typeof noteOpen !== 'undefined' && noteOpen) || window.BOARD_BUSY || (window.speechSynthesis && speechSynthesis.speaking)) { pageAt = Date.now(); return; }
     var list = R.pages.map(function (p) { return p - 1; }), at = list.indexOf(PAGE);
     if (Date.now() - pageAt < (at >= 0 ? R.secs : R.stay || R.secs) * 1000) return;
     goPage(list[(at + 1) % list.length]);
@@ -799,6 +843,7 @@ function nightTick(d) {
   var t = [];
   if (typeof W !== 'undefined' && W) t.push('外 ' + r(W.current.temperature_2m) + '°');
   if (typeof HOME !== 'undefined' && HOME && homeAge() <= 12 * 60) t.push('室內 ' + HOME.temp.toFixed(1) + '°');
+  if (window.BOARD_WAITING) t.push('📌 ' + BOARD_WAITING + ' 個新留言');
   $('ntemp').innerHTML = t.join('  ·  ');
   var S = Math.min(innerWidth, innerHeight), c = $('nclk');
   $('ntime').style.fontSize = Math.round(Math.min(innerWidth * 0.27, S * 0.36)) + 'px';
@@ -1778,6 +1823,127 @@ function checkUpdate() {
     .catch(function () {});
 }
 checkUpdate(); setInterval(checkUpdate, 5 * 60 * 1000);
+
+/* ---------- family message board ----------
+   Family phones post with the "留言板" Shortcut or post.html (repository_dispatch "board-post",
+   {"who":"媽媽","text":"今晚食火鍋"}); .github/workflows/board.yml saves board.json, scrambled with the
+   calendar passcode when CALENDAR_KEY is set. A new message pops up over whatever page is showing
+   (held until 7am at night), then stays as a sticky note on the clock for 2 days. Tap the note to see
+   all messages, post one from the iPad, or remove one. */
+var BOARD = [], boardLocked = null, BOARD_WHO = ['爸爸', '媽媽', '仔仔', '女女'];
+window.BOARD_BUSY = false; window.BOARD_WAITING = 0;
+function bAgo(at) {
+  var m = Math.round((Date.now() - Date.parse(at)) / 60000);
+  if (m < 1) return '啱啱 just now'; if (m < 60) return m + ' 分鐘前';
+  var d = new Date(at), t = pad(d.getHours()) + ':' + pad(d.getMinutes());
+  var days = Math.round((new Date().setHours(0, 0, 0, 0) - new Date(at).setHours(0, 0, 0, 0)) / 864e5);
+  return days === 0 ? '今日 ' + t : days === 1 ? '琴日 ' + t : (d.getMonth() + 1) + '月' + d.getDate() + '日 ' + t;
+}
+function bMine() { try { return JSON.parse(store('boardMine') || '[]'); } catch (e) { return []; } }
+function bShown() {   // messages to show: saved ones plus ones posted from this iPad that GitHub hasn't saved yet
+  var mine = bMine().filter(function (m) { return Date.now() - Date.parse(m.at) < 10 * 60000 && !BOARD.some(function (s) { return s.text === m.text; }); });
+  return BOARD.concat(mine);
+}
+function showBoard() {
+  var el = $('bnote'), recent = bShown().filter(function (m) { return Date.now() - Date.parse(m.at) < 2 * 864e5; });
+  el.hidden = false;
+  if (boardLocked) { el.className = 'empty'; el.innerHTML = '📌 🔒 留言板 · 撳一下輸入密碼'; return; }
+  if (!recent.length) { el.className = 'empty'; el.innerHTML = '📌 留言板 · Post a note'; return; }
+  var m = recent[recent.length - 1], cls = el.className;
+  el.className = cls.indexOf('new') >= 0 ? 'new' : '';
+  el.innerHTML = '<div class="bw">📌 ' + esc(m.who || '留言') + ' · ' + bAgo(m.at) + '</div><div class="bt">' + esc(m.text) + '</div>' +
+    (recent.length > 1 ? '<div class="bm">+' + (recent.length - 1) + ' 個留言 · tap to see all</div>' : '');
+}
+function bPop() {   // pop up messages this iPad hasn't seen yet
+  var seen = store('boardSeen');
+  var mineText = bMine().map(function (m) { return m.text; });
+  if (seen === null) { store('boardSeen', BOARD.length ? BOARD[BOARD.length - 1].at : '0'); return; }   // first time: don't pop old ones
+  var fresh = BOARD.filter(function (m) { return m.at > seen && Date.now() - Date.parse(m.at) < 864e5 && mineText.indexOf(m.text) < 0; });
+  window.BOARD_WAITING = fresh.length;
+  if (!fresh.length) { if (BOARD.length && BOARD[BOARD.length - 1].at > seen) store('boardSeen', BOARD[BOARD.length - 1].at); return; }
+  if (isNight() || !$('board').hidden) return;   // wait until morning (night clock shows a line meanwhile)
+  $('bpList').innerHTML = fresh.slice(-3).reverse().map(function (m) {
+    return '<div class="m"><div class="w">' + esc(m.who || '留言') + '<span>' + bAgo(m.at) + '</span></div><div class="tx">' + esc(m.text) + '</div></div>';
+  }).join('');
+  $('bpop').hidden = false; window.BOARD_BUSY = true;
+  $('bnote').className = 'new';
+  clearTimeout(bPop.t); bPop.t = setTimeout(bPopClose, 10 * 60 * 1000);   // nobody around: tuck it away after 10 minutes
+}
+function bPopClose() {
+  $('bpop').hidden = true; window.BOARD_BUSY = !$('board').hidden; window.BOARD_WAITING = 0;
+  if (BOARD.length) store('boardSeen', BOARD[BOARD.length - 1].at);
+  setTimeout(function () { if ($('bnote').className === 'new') $('bnote').className = ''; }, 5000);
+}
+$('bpOk').addEventListener('click', bPopClose);
+$('bpop').addEventListener('click', function (e) { if (e.target === $('bpop')) bPopClose(); });
+var boardSaved = null;
+function useBoard(d) {
+  if (d.saved && d.saved === boardSaved && !boardLocked) { showBoard(); bPop(); return; }   // unchanged: skip the unscrambling
+  boardSaved = d.saved || null;
+  if (!d.enc) { BOARD = d.msgs || []; boardLocked = null; showBoard(); bPop(); return; }
+  var k = getKey();
+  if (!k) { boardLocked = d; boardSaved = null; showBoard(); return; }
+  unscramble(d.enc, k).then(function (msgs) { BOARD = msgs || []; boardLocked = null; showBoard(); bPop(); },
+    function () { boardLocked = d; boardSaved = null; showBoard(); });
+}
+function loadBoard() {
+  fetch('board.json?t=' + Date.now()).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(useBoard)
+    .catch(function () { showBoard(); });
+}
+loadBoard(); setInterval(loadBoard, 60 * 1000); setInterval(showBoard, 60 * 1000);
+setInterval(function () { if (!isNight() && window.BOARD_WAITING && $('bpop').hidden) bPop(); }, 30 * 1000);   // morning: show what came in overnight
+
+function bList() {
+  var all = bShown();
+  $('bList').innerHTML = all.length ? all.slice().reverse().map(function (m) {
+    return '<div class="it"><div><small>' + esc(m.who || '留言') + ' · ' + bAgo(m.at) + '</small>' + esc(m.text) + '</div>' +
+      (m.id ? '<button type="button" data-id="' + esc(m.id) + '" aria-label="Remove">✕</button>' : '') + '</div>';
+  }).join('') : '<div class="none">未有留言 · No messages yet</div>';
+}
+$('bWho').innerHTML = BOARD_WHO.map(function (w) { return '<button type="button">' + w + '</button>'; }).join('');
+function bWhoPick(w) { store('boardWho', w); var b = $('bWho').children; for (var i = 0; i < b.length; i++) b[i].className = b[i].textContent === w ? 'on' : ''; }
+$('bWho').addEventListener('click', function (e) { if (e.target.tagName === 'BUTTON') bWhoPick(e.target.textContent); });
+$('bnote').addEventListener('click', function (e) {
+  e.stopPropagation();
+  if (boardLocked) { var k = prompt('留言板密碼（同日程密碼一樣）\nBoard passcode (same as the calendar)'); if (!k) return; setKey(k.trim()); useBoard(boardLocked); loadCal(); return; }
+  bList(); bWhoPick(store('boardWho') || ''); $('bText').value = ''; $('bMsg').textContent = '';
+  $('board').hidden = false; window.BOARD_BUSY = true;
+});
+function bClose() { $('board').hidden = true; window.BOARD_BUSY = !$('bpop').hidden; }
+$('bClose').addEventListener('click', bClose);
+$('board').addEventListener('click', function (e) { if (e.target === $('board')) bClose(); });
+function bSend(payload, done) {
+  var key = store('ghKey');
+  if (!key) {
+    key = prompt('第一次：貼上 GitHub key（同「Send Home Temperature」捷徑用嗰條）\nFirst time: paste the GitHub key (the one the Send Home Temperature shortcut uses)');
+    if (!key) return; key = key.replace(/\s+/g, ''); store('ghKey', key);
+  }
+  $('bMsg').textContent = '傳送緊… Sending…'; $('bSend').disabled = true;
+  fetch('https://api.github.com/repos/' + REPO + '/dispatches', {
+    method: 'POST',
+    headers: { 'Authorization': 'Bearer ' + key, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
+    body: JSON.stringify({ event_type: 'board-post', client_payload: payload })
+  }).then(function (r) {
+    $('bSend').disabled = false;
+    if (r.status === 401 || r.status === 403 || r.status === 404) { store('ghKey', null); $('bMsg').textContent = 'GitHub key 唔啱，再試一次 · The key didn\'t work, try again'; return; }
+    if (!r.ok) { $('bMsg').textContent = '傳送唔到 (' + r.status + ')，遲啲再試 · Couldn\'t send, try later'; return; }
+    $('bMsg').textContent = ''; done();
+  }).catch(function () { $('bSend').disabled = false; $('bMsg').textContent = '冇網絡，遲啲再試 · No connection, try later'; });
+}
+$('bSend').addEventListener('click', function () {
+  var text = $('bText').value.replace(/^\s+|\s+$/g, ''); if (!text) { $('bText').focus(); return; }
+  var who = store('boardWho') || '';
+  bSend({ who: who, text: text }, function () {
+    var mine = bMine(); mine.push({ who: who, text: text, at: new Date().toISOString() }); store('boardMine', JSON.stringify(mine.slice(-10)));
+    $('bText').value = ''; bList(); showBoard();
+    $('bMsg').textContent = '貼咗！大約一分鐘後全部裝置都會見到 · Posted';
+  });
+});
+$('bList').addEventListener('click', function (e) {
+  var id = e.target.getAttribute && e.target.getAttribute('data-id'); if (!id) return;
+  if (!confirm('刪除呢個留言？ Remove this message?')) return;
+  bSend({ remove: id }, function () { BOARD = BOARD.filter(function (m) { return m.id !== id; }); bList(); showBoard(); });
+});
 
 /* Reload every 6 hours so the page stays fresh and light. */
 setTimeout(function () { location.replace(freshURL()); }, 6 * 3600 * 1000);
