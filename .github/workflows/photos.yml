@@ -14,12 +14,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: cd tools && python probe_album.py
+      - run: pip install -q opencc-python-reimplemented || true
+      - run: python tools/build_photos.py
         env:
           ALBUM_TOKEN: ${{ secrets.ALBUM_TOKEN }}
       - name: Commit if changed
         run: |
           git config user.name "photo-bot"
           git config user.email "photo-bot@users.noreply.github.com"
-          git add -A photos photos.json
-          true || (git commit -m "Update family photos" && git pull --rebase && git push)
+          git add -A photos photos.json places.json
+          git diff --cached --quiet || (git commit -m "Update family photos" && git pull --rebase && git push)
