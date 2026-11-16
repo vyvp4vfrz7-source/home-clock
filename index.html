@@ -434,6 +434,25 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 #play.on { background: var(--rain); }
 #status { position: absolute; right: 36px; bottom: 6px; font-size: 11px; color: #3d4a5c; }
 
+/* ----- live football score: a small card at the top of every page while a match is on ----- */
+#live { position: fixed; left: 50%; top: max(12px, env(safe-area-inset-top)); transform: translateX(-50%); z-index: 6; display: flex; align-items: center; gap: 8px; pointer-events: auto; }
+#live[hidden] { display: none; }
+#live .m { display: flex; align-items: center; gap: 14px; padding: 9px 20px 9px 14px; border-radius: 999px; background: rgba(10,14,20,.86); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border: 1px solid #2a3647; box-shadow: 0 8px 30px rgba(0,0,0,.35); font-weight: 700; white-space: nowrap; }
+#live .m.fav { border-color: #da291c; background: linear-gradient(90deg, rgba(90,10,10,.9), rgba(10,14,20,.9) 40%, rgba(10,14,20,.9) 60%, rgba(90,10,10,.9)); }
+#live .m.small { font-size: 15px; padding: 5px 14px 5px 10px; gap: 10px; opacity: .9; }
+#live .m.small img { width: 22px; height: 22px; }
+#live .m.small .sc { font-size: 20px; min-width: 56px; }
+#live .tm { display: flex; align-items: center; gap: 8px; font-size: 20px; }
+#live img { width: 34px; height: 34px; object-fit: contain; }
+#live .sc { font-size: 32px; letter-spacing: .02em; min-width: 84px; text-align: center; font-variant-numeric: tabular-nums; }
+#live .st { font-size: 15px; color: #c9d3df; display: flex; align-items: center; gap: 6px; min-width: 50px; }
+#live .st i { width: 9px; height: 9px; border-radius: 50%; background: #ff3b30; animation: lvPulse 1.6s infinite; }
+#live .st.pre, #live .st.ft { color: var(--sun); }
+#live .m.goal { animation: lvGoal .6s ease-in-out 6 alternate; }
+#live .m.goal .sc { color: var(--sun); }
+#live .gl { font-size: 15px; color: var(--sun); letter-spacing: .08em; }
+@keyframes lvPulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+@keyframes lvGoal { from { transform: scale(1); } to { transform: scale(1.08); box-shadow: 0 0 40px rgba(243,182,73,.6); } }
 /* ----- night mode: a dim, soft clock on black (CONFIG.night). Tap to see the dashboard for a while. ----- */
 #night { position: fixed; inset: 0; z-index: 50; background: #000; display: none; color: #b98a5e; }
 body.night #night { display: block; }
@@ -446,6 +465,7 @@ body.night #pages, body.night #dots { display: none; }   /* hidden pages stop th
 #ntemp { font-weight: 500; margin-top: .5em; opacity: .5; }
 #nhint { position: absolute; left: 0; right: 0; bottom: 18px; text-align: center; font-size: 13px; color: #b98a5e; opacity: .18; }
 body.peek #pages { opacity: .5; }
+body.night #live { display: none; }   /* no scores on the night clock */
 </style>
 </head>
 <body>
@@ -492,6 +512,7 @@ body.peek #pages { opacity: .5; }
 </div>
 </div></div>
 <div id="dots"></div>
+<div id="live" hidden></div>
 <div id="night"><div id="nclk"><div id="ntime"></div><div id="ndate"></div><div id="ntemp"></div></div><div id="nhint">輕按顯示 · Tap to wake</div></div>
 <div id="note" hidden><div class="box">
   <div class="top"><div class="thumb" id="nThumb"></div><div><h3>留言 · Add a note</h3><div class="sub" id="nSub"></div></div></div>
@@ -514,7 +535,10 @@ var CONFIG = {
   rotate: { secs: 60, pages: [1, 2, 3], stay: 300 },
   // Night mode: between these hours (iPad's own clock) a dim, soft clock replaces the pages.
   // A tap shows the dashboard (dimmed) for 'wake' seconds, then the night clock comes back. ?night=1 / ?night=0 to test.
-  night: { from: 23, to: 7, wake: 120 }
+  night: { from: 23, to: 7, wake: 120 },
+  // Live football scores (ESPN): a card shows at the top while a match is on.
+  // 'follow' = your team (names or ESPN 3-letter code); its cup games show too, and its match day shows a kick-off time.
+  football: { follow: ['Man United', 'Manchester United', 'MUN'], leagues: ['eng.1'], cups: ['eng.fa', 'eng.league_cup', 'uefa.champions', 'uefa.europa', 'uefa.europa.conf'] }
 };
 /* =================================== */
 
@@ -1377,6 +1401,94 @@ function showTable(d) {
   $('lupd').textContent = (yr ? yr[0] + ' · ' : '') + (at && !isNaN(at) ? 'Updated ' + at.getDate() + ' ' + MONTHS[at.getMonth()].slice(0, 3) + ' ' + pad(at.getHours()) + ':' + pad(at.getMinutes()) : '');
 }
 loadTable(); setInterval(loadTable, 30 * 60 * 1000);
+
+/* ---------- live football scores ----------
+   The iPad asks ESPN's public scoreboard directly (it allows this): every minute while a game
+   is on or about to start, otherwise every few minutes. If that fails it reads scores.json,
+   which GitHub saves every 5 minutes (.github/workflows/scores.yml). Premier League games show
+   while they're live; the followed team also shows on match day (kick-off time) and for
+   45 minutes after full time, in cup games too. A goal makes the card pulse. Tap = league table. */
+var LIVE = { games: {}, got: {}, last: {}, goalAt: {} };
+function liveSide(c) { var t = c.team || {}; return { name: t.shortDisplayName || t.displayName || '?', abbr: t.abbreviation || '', logo: t.logo || '', score: c.score || '' }; }
+function liveParse(lg, d) {
+  return (d.events || []).map(function (e) {
+    var comp = (e.competitions || [{}])[0], cs = comp.competitors || [], st = e.status || {}, ty = st.type || {};
+    var h = cs.filter(function (c) { return c.homeAway === 'home'; })[0] || cs[0] || {}, a = cs.filter(function (c) { return c.homeAway === 'away'; })[0] || cs[1] || {};
+    return { id: e.id, league: lg, date: e.date, state: ty.state || 'pre', detail: ty.shortDetail || '', clock: st.displayClock || '', home: liveSide(h), away: liveSide(a) };
+  });
+}
+function liveFav(m) {
+  var f = [].concat(CONFIG.football.follow || []).map(function (x) { return String(x).toLowerCase(); });
+  return [m.home, m.away].some(function (s) { return f.indexOf(s.name.toLowerCase()) >= 0 || f.indexOf(String(s.abbr).toLowerCase()) >= 0; });
+}
+function liveHot(lg) {   // a game in this league is on, or starts within 15 minutes
+  var g = LIVE.games[lg] || [], now = Date.now();
+  return g.some(function (m) { var t = Date.parse(m.date); return m.state === 'in' || (m.state === 'pre' && t - now < 15 * 60000 && now - t < 3 * 3600000); });
+}
+function liveFetch(lg) {
+  LIVE.last[lg] = Date.now();
+  return fetch('https://site.api.espn.com/apis/site/v2/sports/soccer/' + lg + '/scoreboard?t=' + Date.now())
+    .then(function (r) { if (!r.ok) throw 0; return r.json(); })
+    .then(function (d) { LIVE.games[lg] = liveParse(lg, d); LIVE.got[lg] = Date.now(); })
+    .catch(function () {   // backup copy saved by GitHub
+      return fetch('scores.json?t=' + Date.now()).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) {
+        LIVE.games[lg] = (d.matches || []).filter(function (m) { return m.league === lg; });
+      }).catch(function () {});
+    });
+}
+function livePoll() {
+  var F = CONFIG.football; if (!F) return;
+  var q = new URLSearchParams(location.search).get('scores');
+  if (q === 'demo') { liveDemo(); return; }
+  var jobs = [];
+  (F.leagues || []).concat(F.cups || []).forEach(function (lg) {
+    var cup = (F.leagues || []).indexOf(lg) < 0, wait = liveHot(lg) ? 55e3 : cup ? 30 * 60e3 : 10 * 60e3;
+    if (!LIVE.last[lg] || Date.now() - LIVE.last[lg] >= wait) jobs.push(liveFetch(lg));
+  });
+  if (jobs.length) Promise.all(jobs).then(liveShow); else liveShow();
+}
+function liveShow() {
+  var F = CONFIG.football, now = Date.now(), show = [];
+  Object.keys(LIVE.games).forEach(function (lg) {
+    var cup = (F.leagues || []).indexOf(lg) < 0;
+    LIVE.games[lg].forEach(function (m) {
+      var fav = liveFav(m), t = Date.parse(m.date);
+      if (cup && !fav) return;
+      if (m.state === 'in') show.push(m);
+      else if (fav && m.state === 'pre' && t - now < 4 * 3600000 && t - now > -3 * 3600000 && new Date(t).toDateString() === new Date().toDateString()) show.push(m);
+      else if (fav && m.state === 'post' && now - t < (110 + 45) * 60000) show.push(m);
+      var k = m.home.score + '-' + m.away.score, was = LIVE.goalAt[m.id];
+      if (m.state === 'in' && was && was.k !== k) LIVE.goalAt[m.id] = { k: k, at: now }; else if (!was) LIVE.goalAt[m.id] = { k: k, at: 0 };
+    });
+  });
+  show.sort(function (a, b) { return (liveFav(b) - liveFav(a)) || ((b.state === 'in') - (a.state === 'in')) || (Date.parse(a.date) - Date.parse(b.date)); });
+  show = show.slice(0, 3);   // one row: the main game, then up to two small ones
+  var el = $('live');
+  if (!show.length) { el.hidden = true; el.innerHTML = ''; return; }
+  el.hidden = false;
+  el.innerHTML = show.map(function (m, i) {
+    var g = LIVE.goalAt[m.id], goal = g && g.at && now - g.at < 90e3, st;
+    if (m.state === 'in') st = '<span class="st"><i></i>' + esc(/HT|Half/i.test(m.detail) ? '半場 HT' : m.clock || m.detail) + '</span>';
+    else if (m.state === 'pre') { var k = new Date(Date.parse(m.date)); st = '<span class="st pre">' + pad(k.getHours()) + ':' + pad(k.getMinutes()) + ' 開波</span>'; }
+    else st = '<span class="st ft">完場 FT</span>';
+    var sc = m.state === 'pre' ? 'v' : esc(m.home.score) + ' – ' + esc(m.away.score);
+    function tm(s, right) { var img = s.logo ? '<img src="' + esc(s.logo) + '" alt="" onerror="this.style.display=\'none\'">' : ''; var n = '<span>' + esc(i ? s.abbr || s.name : s.name) + '</span>'; return '<span class="tm">' + (right ? n + img : img + n) + '</span>'; }
+    return '<div class="m' + (liveFav(m) ? ' fav' : '') + (i ? ' small' : '') + (goal ? ' goal' : '') + '">' + (goal ? '<span class="gl">GOAL 入波!</span>' : '') +
+      tm(m.home, true) + '<span class="sc">' + sc + '</span>' + tm(m.away, false) + st + '</div>';
+  }).join('');
+}
+function liveDemo() {   // ?scores=demo shows made-up games, for checking the look
+  var t = new Date(Date.now() + 75 * 60000).toISOString(), L = 'https://a.espncdn.com/i/teamlogos/soccer/500/';
+  LIVE.games = { 'eng.1': [
+    { id: 'd1', league: 'eng.1', date: new Date(Date.now() - 70 * 60000).toISOString(), state: 'in', detail: "67'", clock: "67'", home: { name: 'Man United', abbr: 'MUN', logo: L + '360.png', score: '2' }, away: { name: 'Liverpool', abbr: 'LIV', logo: L + '364.png', score: '1' } },
+    { id: 'd2', league: 'eng.1', date: new Date(Date.now() - 70 * 60000).toISOString(), state: 'in', detail: 'HT', clock: "45'", home: { name: 'Arsenal', abbr: 'ARS', logo: L + '359.png', score: '0' }, away: { name: 'Chelsea', abbr: 'CHE', logo: L + '363.png', score: '0' } },
+    { id: 'd3', league: 'eng.1', date: new Date(Date.now() - 20 * 60000).toISOString(), state: 'in', detail: "21'", clock: "21'", home: { name: 'Newcastle', abbr: 'NEW', logo: L + '361.png', score: '1' }, away: { name: 'Spurs', abbr: 'TOT', logo: L + '367.png', score: '1' } }
+  ] };
+  LIVE.goalAt = { d1: { k: '2-1', at: Date.now() } };
+  liveShow();
+}
+$('live').onclick = function () { var p = $('p3'); if (p) goPage([].indexOf.call(p.parentNode.children, p)); };
+livePoll(); setInterval(livePoll, 30 * 1000);
 
 /* ---------- warm-up button ----------
    A web page can't change Apple Home itself, so the button runs the
