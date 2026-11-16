@@ -2,6 +2,7 @@ name: Family message board
 # A phone (the "留言板" Shortcut or post.html) or the iPad sends repository_dispatch "board-post"
 # with client_payload {"who": "媽媽", "text": "今晚食火鍋"} (or {"remove": "<id>"}).
 # tools/save_board.py reads the message from the event file, so it doesn't appear in the run log,
+# ({"to": "parents"} goes to parents/board.json, the grandparents' screen in Hong Kong)
 # and scrambles board.json with the calendar passcode (CALENDAR_KEY) when that secret is set.
 on:
   repository_dispatch:
@@ -9,6 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       clear: { description: "Type 1 to wipe every message", required: false }
+      to: { description: "parents = the grandparents' board in Hong Kong", required: false }
 permissions:
   contents: write
 concurrency: site-data
@@ -28,7 +30,7 @@ jobs:
           for try in 1 2 3 4 5; do
             git fetch -q origin main && git reset -q --hard origin/main
             python3 tools/save_board.py
-            git add board.json
+            git add board.json parents/board.json
             git diff --cached --quiet && exit 0
             git commit -q -m "Update message board"
             git push origin HEAD:main && exit 0

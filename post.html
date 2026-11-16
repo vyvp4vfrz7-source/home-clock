@@ -17,6 +17,9 @@
   h1 { font-size: 28px; margin: 6px 0 2px; } .sub { color: var(--muted); font-size: 14px; margin-bottom: 18px; }
   .who { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
   .who button { font: 700 18px inherit; font-family: inherit; border: 1px solid var(--line); border-radius: 999px; padding: 10px 0; background: #121a26; color: var(--fg); }
+  .to { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 12px; }
+  .to button { font: 700 17px inherit; font-family: inherit; border: 1px solid var(--line); border-radius: 12px; padding: 12px 0; background: #121a26; color: var(--fg); }
+  .to button.on { background: #34c46a; border-color: #34c46a; color: #05230f; }
   .who button.on { background: var(--sun); border-color: var(--sun); color: #1a1a1a; }
   textarea { width: 100%; height: 130px; margin-top: 12px; font: 600 22px inherit; font-family: inherit; color: #3a2e12; background: #ffe58a; border: 0; border-radius: 10px 10px 26px 10px; padding: 14px 16px; resize: none; -webkit-appearance: none; }
   .quick { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
@@ -31,6 +34,7 @@
 <body>
 <h1>📌 留言板</h1>
 <div class="sub">貼到屋企 iPad 上面 · Post a note to the home iPad</div>
+<div class="to" id="to"><button type="button" data-to="">🏠 屋企 iPad</button><button type="button" data-to="parents">👴👵 香港爺爺嫲嫲</button></div>
 <div class="who" id="who"></div>
 <textarea id="text" maxlength="200" placeholder="寫留言… e.g. 今晚食火鍋 🍲"></textarea>
 <div class="quick" id="quick"></div>
@@ -46,6 +50,9 @@ $('who').innerHTML = WHO.map(function (w) { return '<button type="button">' + w 
 $('quick').innerHTML = QUICK.map(function (q) { return '<button type="button">' + q + '</button>'; }).join('');
 function pick(w) { store('boardWho', w); var b = $('who').children; for (var i = 0; i < b.length; i++) b[i].className = b[i].textContent === w ? 'on' : ''; }
 pick(store('boardWho') || '');
+function pickTo(t) { store('boardTo', t); var b = $('to').children; for (var i = 0; i < b.length; i++) b[i].className = b[i].getAttribute('data-to') === t ? 'on' : ''; }
+pickTo(store('boardTo') || '');
+$('to').onclick = function (e) { if (e.target.tagName === 'BUTTON') pickTo(e.target.getAttribute('data-to')); };
 $('who').onclick = function (e) { if (e.target.tagName === 'BUTTON') pick(e.target.textContent); };
 $('quick').onclick = function (e) { if (e.target.tagName === 'BUTTON') { $('text').value = e.target.textContent; } };
 $('forget').onclick = function (e) { e.preventDefault(); store('ghKey', null); $('msg').textContent = '下次會再問 key · Will ask for the key next time'; };
@@ -58,12 +65,12 @@ $('send').onclick = function () {
   fetch('https://api.github.com/repos/' + REPO + '/dispatches', {
     method: 'POST',
     headers: { 'Authorization': 'Bearer ' + key, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
-    body: JSON.stringify({ event_type: 'board-post', client_payload: { who: who, text: text } })
+    body: JSON.stringify({ event_type: 'board-post', client_payload: store('boardTo') === 'parents' ? { who: who, text: text, to: 'parents' } : { who: who, text: text } })
   }).then(function (r) {
     $('send').disabled = false;
     if (r.status === 401 || r.status === 403 || r.status === 404) { store('ghKey', null); $('msg').textContent = 'GitHub key 唔啱，再試一次 · The key didn\'t work'; return; }
     if (!r.ok) { $('msg').textContent = '傳送唔到 (' + r.status + ') · Couldn\'t send'; return; }
-    $('text').value = ''; $('msg').textContent = '✅ 貼咗！一兩分鐘後 iPad 會彈出嚟 · Posted';
+    $('text').value = ''; $('msg').textContent = store('boardTo') === 'parents' ? '✅ 貼咗！一兩分鐘後爺爺嫲嫲部 iPad 會彈出嚟同讀出嚟 · Posted to Hong Kong' : '✅ 貼咗！一兩分鐘後 iPad 會彈出嚟 · Posted';
   }).catch(function () { $('send').disabled = false; $('msg').textContent = '冇網絡 · No connection'; });
 };
 </script>
