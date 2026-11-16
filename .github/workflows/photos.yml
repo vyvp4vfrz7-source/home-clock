@@ -15,7 +15,6 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -q opencc-python-reimplemented || true
-      - run: ffmpeg -version | head -1 || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
       - run: python tools/build_photos.py
         env:
           ALBUM_TOKEN: ${{ secrets.ALBUM_TOKEN }}

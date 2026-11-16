@@ -132,15 +132,16 @@ def cloudkit_photos():
     return out[:MAX_PHOTOS]
 
 # ---------- videos ----------
-# Real videos have a CPLMaster with resVidMedRes / resVidSmallRes (H.264 copies Apple makes for the web).
-# Live Photos only carry resOriginalVidCompl* (the 3-second clip), so they stay stills.
+# Real videos have itemType com.apple.quicktime-movie and resVidMedRes / resVidSmallRes (small H.264 copies
+# Apple makes for the web, about 0.5 MB a second). Live Photos have the same resVid* fields but itemType
+# public.heic / public.jpeg, so they stay stills.
 MAX_VIDEO_MB = 40     # GitHub Pages / git are happiest with small files
 
 def ck_video(a, m):
     """Download info for the web-sized copy of a video, or None for photos and Live Photos."""
-    kind = " ".join(str(ck_val(r or {}, f) or "") for r in (m, a) for f in ("itemType", "resOriginalFileType"))
-    print("video check:", (a or {}).get("recordName"), "|", kind, "| dur", ck_val(a or {}, "duration") or ck_val(m or {}, "duration"),
-          "|", sorted(f for f in ((m or {}).get("fields") or {}) if "Vid" in f or "Type" in f or "dur" in f.lower()))
+    kind = ck_val(m or {}, "itemType") or ck_val(a or {}, "itemType") or ""
+    if "movie" not in kind and "mpeg" not in kind:   # Live Photos are public.heic / public.jpeg
+        return None
     for rec in (m, a):
         for pre in ("resVidMed", "resVidSmall", "resVidFull"):
             v = ck_val(rec or {}, pre + "Res")
@@ -153,7 +154,8 @@ def have(cmd):
     return shutil.which(cmd) is not None
 
 def save_video(info, path, poster):
-    """Fetch the video and make a small H.264 MP4 the old iPad plays (muted autoplay), plus a poster JPEG."""
+    """Fetch Apple's web-sized H.264 copy. If ffmpeg is installed, also shrink it to 1280 px and grab a poster frame
+    (GitHub's runners don't have ffmpeg, and Apple's copy is already small, so normally it is used as it is)."""
     import subprocess, tempfile
     with tempfile.TemporaryDirectory() as tmp:
         raw = os.path.join(tmp, "raw")
