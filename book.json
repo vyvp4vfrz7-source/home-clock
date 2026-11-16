@@ -7,8 +7,8 @@
   "tz_note": "暫譯",
   "a": "James Gleick",
   "az": "葛雷克",
-  "published": "Nov 2026",
-  "publisher": "Farrar, Straus and Giroux / Picador",
+  "published": "12 Nov 2026",
+  "publisher": "Picador (UK) · FSG (US)",
   "isbn": [
     "9780374618940",
     "9781035056644"
@@ -52,6 +52,12 @@
     {
       "title": "Boston Globe review",
       "url": "https://www.bostonglobe.com/2026/11/03/arts/james-gleick-telephone-history/"
+    },
+    {
+      "title": "Pan Macmillan",
+      "url": "https://www.panmacmillan.com/authors/james-gleick/the-telephone/9781035056644"
     }
-  ]
+  ],
+  "cover_url": "https://ik.imagekit.io/panmac/tr:f-jpg,w-640/edition/9781035056644.jpg",
+  "pages": 544
 }
