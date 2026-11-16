@@ -1,0 +1,32 @@
+name: Book of the day
+# A Claude scheduled task writes book.json to the 'book' branch each morning; this copies it to the
+# site with its cover. Runs every half hour through the early morning, and can be run by hand.
+on:
+  schedule:
+    - cron: "20,50 4-9 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - tools/book_today.py
+      - .github/workflows/book-today.yml
+permissions:
+  contents: write
+concurrency: site-data
+jobs:
+  book:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q pillow
+      - name: Copy today's pick
+        run: |
+          if git fetch --depth=1 origin book; then git show FETCH_HEAD:book.json > /tmp/book.json
+          elif [ "$GITHUB_REF_NAME" != main ] && [ -f book.json ]; then cp book.json /tmp/book.json   # test run on a work branch
+          else echo "no book branch yet"; exit 0; fi
+          python3 tools/book_today.py /tmp/book.json
+      - name: Commit
+        run: |
+          git config user.name "book-bot"
+          git config user.email "book-bot@users.noreply.github.com"
+          git add -A book.json books
+          git diff --cached --quiet || (git commit -m "Book of the day" && git pull --rebase && git push)
