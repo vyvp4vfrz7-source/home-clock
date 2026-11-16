@@ -35,10 +35,10 @@ out = {}
 # Camera names for the page (English, HK Chinese). Grey-scale engineering cameras are kept,
 # but colour cameras are preferred when choosing.
 CAMS = [
-    ("MCZ_", "Mastcam-Z", "桅杆變焦相機", 3), ("MAST_", "Mastcam", "桅杆相機", 3),
+    ("MCZ_LEFT", "Mastcam-Z", "桅杆變焦相機", 3), ("MAST_LEFT", "Mastcam", "桅杆相機", 3),
     ("SHERLOC_WATSON", "WATSON close-up", "近攝相機", 2), ("MAHLI", "MAHLI close-up", "手臂近攝相機", 2),
-    ("SUPERCAM_RMI", "SuperCam zoom", "超級相機", 1), ("CHEMCAM_RMI", "ChemCam zoom", "化學相機", 1),
-    ("NAVCAM_LEFT", "Navcam", "導航相機", 1), ("NAV_LEFT", "Navcam", "導航相機", 0),
+    ("NAVCAM_LEFT", "Navcam", "導航相機", 2), ("NAV_LEFT", "Navcam", "導航相機", 1),
+    ("SUPERCAM_RMI", "SuperCam zoom", "超級相機", 0), ("CHEMCAM_RMI", "ChemCam zoom", "化學相機", 0),
     ("FRONT_HAZCAM_LEFT", "Front Hazcam", "前避險相機", 1), ("REAR_HAZCAM_LEFT", "Rear Hazcam", "後避險相機", 1),
     ("FHAZ_LEFT", "Front Hazcam", "前避險相機", 0), ("RHAZ_LEFT", "Rear Hazcam", "後避險相機", 0),
 ]
@@ -57,12 +57,13 @@ def big_enough(dim):
 
 
 def pick(cands, n, per_cam=3):
-    # newest sol first, colour cameras first, at most per_cam from one camera, one per minute
-    cands.sort(key=lambda c: (-c["sol"], -c["_score"], c["at"]), reverse=False)
+    # from the newest few sols, colour cameras first; at most per_cam from one camera, one per 10 minutes
+    top = max([c["sol"] for c in cands] or [0])
+    cands.sort(key=lambda c: (c["sol"] < top - 10, -c["_score"], -c["sol"], c["at"]))
     seen, used, out_ = {}, set(), []
     for c in cands:
         k = c["cam"]
-        slot = (c["rover"], c["at"][:16])
+        slot = (c["rover"], c["at"][:15])
         if seen.get(k, 0) >= per_cam or slot in used:
             continue
         seen[k] = seen.get(k, 0) + 1; used.add(slot)
@@ -74,9 +75,12 @@ def pick(cands, n, per_cam=3):
 
 mars = []
 try:
-    d = get("https://mars.nasa.gov/rss/api/?feed=raw_images&category=mars2020&feedtype=json&ver=1.2&num=100&page=0&order=sol+desc&extended=sample_type::full,")
+    ims = []
+    for page in (0, 1, 2):
+        ims += get("https://mars.nasa.gov/rss/api/?feed=raw_images&category=mars2020&feedtype=json&ver=1.2&num=100&page=%d"
+                   "&order=sol+desc&extended=sample_type::full," % page).get("images", [])
     cands = []
-    for im in d.get("images", []):
+    for im in ims:
         c = cam((im.get("camera") or {}).get("instrument", ""))
         files = im.get("image_files") or {}
         src = files.get("large") or files.get("medium") or files.get("full_res")
@@ -87,18 +91,20 @@ try:
         cands.append({"rover": "Perseverance", "zh": "毅力號", "sol": int(im.get("sol") or 0), "cam": c[0], "camZh": c[1],
                       "src": src, "at": str(im.get("date_taken_utc") or "")[:19], "_score": c[2],
                       "link": im.get("link") or ""})
-    log("Perseverance candidates:", len(cands), "of", len(d.get("images", [])))
-    mars += pick(cands, 8)
+    log("Perseverance candidates:", len(cands), "of", len(ims))
+    mars += pick(cands, 9, 4)
 except Exception as e:
     log("Perseverance failed:", repr(e))
 try:
     d = get("https://mars.nasa.gov/api/v1/raw_image_items/?order=sol%20desc,instrument_sort%20asc,sample_type_sort%20asc,%20date_taken%20desc"
-            "&per_page=100&page=0&condition_1=msl:mission&condition_2=full:sample_type")
+            "&per_page=100&page=0&condition_1=msl:mission")
+    if not d.get("items"):
+        log("Curiosity reply:", str(d)[:300])
     cands = []
     for im in d.get("items", []):
         c = cam(im.get("instrument", ""))
         src = im.get("https_url") or im.get("url")
-        if not c or not src:
+        if not c or not src or str(im.get("sample_type", "full")).lower() != "full":
             continue
         rect = re.findall(r"\d+", str((im.get("extended") or {}).get("subframe_rect") or ""))   # "(x,y,width,height)"
         if len(rect) == 4 and not big_enough("%s,%s" % (rect[2], rect[3])):
@@ -131,16 +137,24 @@ try:
                 "img": img, "by": (a.get("copyright") or "").strip().replace("\n", " "), "video": a.get("media_type") != "image"}
 except Exception as e:
     log("APOD api failed:", repr(e))
-if not apod:
+# The API is often down: read the web page instead (today's, or the last few days' if today is a video)
+for back in range(0, 6):
+    if apod:
+        break
+    day = datetime.now(timezone.utc) - timedelta(days=back)
     try:
-        h = get("https://apod.nasa.gov/apod/astropix.html", raw=True)
-        m = re.search(r'<IMG SRC="([^"]+)"', h, re.I)
-        t = re.search(r"<b>\s*([^<]+?)\s*</b>", h, re.I)
-        x = re.search(r"Explanation:\s*</b>(.*?)<p>", h, re.I | re.S)
+        h = get("https://apod.nasa.gov/apod/ap%s.html" % day.strftime("%y%m%d"), raw=True)
+        m = re.search(r'<img[^>]+src="([^"]+\.(?:jpe?g|png|gif))"', h, re.I)
+        t = re.search(r"<center>\s*<b>\s*(.+?)\s*</b>", h, re.I | re.S)
+        x = re.search(r"Explanation:\s*</b>(.*?)<p>\s*<center>", h, re.I | re.S) or re.search(r"Explanation:\s*</b>(.*?)<p>", h, re.I | re.S)
+        by = re.search(r"</b>\s*<br>\s*(?:<b>)?\s*(?:Image|Video|Illustration)? ?Credit[^:]*:\s*</b>(.*?)</center>", h, re.I | re.S)
+        clean = lambda v: re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", v)).strip()
+        log("APOD page", day.strftime("%y%m%d"), "image:", bool(m), "title:", bool(t))
         if m:
-            apod = {"date": datetime.now(timezone.utc).strftime("%Y-%m-%d"), "title": t.group(1).strip() if t else "",
-                    "text": re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", x.group(1))).strip() if x else "",
-                    "img": "https://apod.nasa.gov/apod/" + m.group(1), "by": "", "video": False}
+            src = m.group(1)
+            apod = {"date": day.strftime("%Y-%m-%d"), "title": clean(t.group(1)) if t else "", "text": clean(x.group(1)) if x else "",
+                    "img": src if src.startswith("http") else "https://apod.nasa.gov/apod/" + src,
+                    "by": clean(by.group(1))[:120] if by else "", "video": False}
     except Exception as e:
         log("APOD page failed:", repr(e))
 out["apod"] = apod or old.get("apod")
@@ -204,6 +218,7 @@ try:
     sp = wgs84.subpoint_of(iss.at(span))
     out["track"] = {"t0": start.strftime("%Y-%m-%dT%H:%M:%SZ"), "step": 60,
                     "p": [[round(la, 1), round(lo, 1)] for la, lo in zip(sp.latitude.degrees, sp.longitude.degrees)]}
+    out["marsKm"] = round(earth.at(now).observe(eph["mars barycenter"]).distance().km)   # Earth to Mars today
     # moon phases for the next 40 days
     tt, ph = almanac.find_discrete(now, ts.from_datetime(now.utc_datetime() + timedelta(days=40)), almanac.moon_phases(eph))
     out["moon"] = [{"at": t.utc_iso(), "phase": int(p)} for t, p in zip(tt, ph)]   # 0 new, 1 first quarter, 2 full, 3 last quarter
@@ -211,6 +226,7 @@ except Exception as e:
     log("ISS / moon failed:", repr(e))
     for k in ("tle", "passes", "track", "moon"):
         out[k] = out.get(k) or old.get(k)
+    out["marsKm"] = out.get("marsKm") or old.get("marsKm")
 
 # ---------- people in space ----------
 try:

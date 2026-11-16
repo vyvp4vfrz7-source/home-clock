@@ -25,4 +25,4 @@ jobs:
           git diff --cached --quiet || (git commit -m "Update space corner" && git pull --rebase && git push)
       - name: Show the saved file (test runs)
         if: github.ref != 'refs/heads/main'
-        run: head -c 6000 space.json
+        run: cat space.json

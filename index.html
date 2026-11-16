@@ -522,6 +522,66 @@ body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state
 #hkLive[hidden] { display: none; }
 #hkLive iframe { width: 90vw; height: 50.6vw; max-height: 86vh; max-width: 153vh; border: 0; border-radius: 18px; background: #000; }
 #hkLive button { position: absolute; top: max(16px, env(safe-area-inset-top)); right: 20px; font: 700 18px var(--font); background: #2a3646; color: var(--fg); border: 0; border-radius: 999px; padding: 10px 20px; }
+/* ----- space corner (page 6): Mars rover photos, moon, ISS over Northwood, NASA picture of the day ----- */
+#space { padding: 30px 40px 60px; display: grid; grid-template-columns: 900px 1fr; grid-template-rows: auto 560px 1fr; gap: 18px 22px;
+  background: radial-gradient(1px 1px at 12% 18%, #fff8 50%, transparent 51%), radial-gradient(1px 1px at 33% 72%, #fff6 50%, transparent 51%),
+    radial-gradient(1.5px 1.5px at 58% 9%, #fff9 50%, transparent 51%), radial-gradient(1px 1px at 81% 44%, #fff7 50%, transparent 51%),
+    radial-gradient(1px 1px at 92% 88%, #fff6 50%, transparent 51%), radial-gradient(1.5px 1.5px at 4% 93%, #fff8 50%, transparent 51%),
+    radial-gradient(ellipse at 70% 0%, #1a1530 0%, var(--bg) 60%); }
+#space .top { grid-column: 1 / 3; display: flex; align-items: baseline; justify-content: space-between; padding: 0 6px; }
+#space h1 { margin: 0; font-size: 44px; font-weight: 600; letter-spacing: -.01em; }
+#space h1 span { color: var(--muted); font-weight: 400; font-size: 30px; margin-left: 12px; }
+#spDist { color: var(--muted); font-size: 20px; }
+#spDist b { color: #ff9a6b; font-weight: 700; }
+#spMars { position: relative; border-radius: 26px; overflow: hidden; background: #1a0d08; }
+#spMars .ph { position: absolute; inset: 0; background: #1a0d08 center / cover no-repeat; opacity: 0; transition: opacity 1.6s ease, transform 14s linear; transform: scale(1); }
+#spMars .ph.on { opacity: 1; transform: scale(1.07); }
+#spMars .chip { position: absolute; left: 18px; top: 16px; background: rgba(20,8,4,.62); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-radius: 12px; padding: 7px 14px; font-size: 20px; font-weight: 700; }
+#spMars .chip i { display: inline-block; width: 13px; height: 13px; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #ffb27a, #c1440e 60%, #6b1f05); margin-right: 9px; vertical-align: -1px; }
+#spMars .cap { position: absolute; left: 18px; right: 18px; bottom: 16px; display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; }
+#spMars .cap div { background: rgba(20,8,4,.62); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-radius: 12px; padding: 8px 14px; font-size: 18px; line-height: 1.35; }
+#spMars .cap b { font-size: 21px; }
+#spMars .cap span { color: #f2c9b0; }
+#spMars .cap em { font-style: normal; font-size: 16px; color: #f2c9b0; white-space: nowrap; }
+#spMars .msg { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 22px; }
+#spApod { background: var(--tile); border: 1px solid var(--line); border-radius: 26px; overflow: hidden; display: flex; }
+#spApod .pic { width: 340px; flex: none; background: #05080c center / cover no-repeat; }
+#spApod .tx { padding: 18px 22px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+#spApod h2 { margin: 0; font-size: 25px; line-height: 1.2; }
+#spApod .by { color: var(--muted); font-size: 15px; }
+#spApod p { margin: 4px 0 0; font-size: 16.5px; line-height: 1.45; color: #c9d3df; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 6; overflow: hidden; }
+#space .lbl { color: var(--muted); font-size: 15px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+#spSide { grid-row: 2 / 4; grid-column: 2; display: flex; flex-direction: column; gap: 18px; min-height: 0; }
+#spMoon, #spIss { background: var(--tile); border: 1px solid var(--line); border-radius: 26px; padding: 18px 20px; }
+#spMoon { display: flex; gap: 18px; align-items: center; }
+#spMoon svg { flex: none; filter: drop-shadow(0 0 18px rgba(240,230,200,.25)); }
+#spMoon .nm { font-size: 27px; font-weight: 700; margin-top: 4px; }
+#spMoon .nm span { display: block; font-size: 17px; color: var(--muted); font-weight: 500; }
+#spMoon .nx { font-size: 16px; color: var(--muted); margin-top: 8px; line-height: 1.5; }
+#spMoon .nx b { color: var(--fg); font-weight: 600; }
+#spIss { flex: 1; display: flex; flex-direction: column; gap: 10px; min-height: 0; }
+#spMap { position: relative; height: 136px; border-radius: 16px; overflow: hidden; background: radial-gradient(ellipse at 50% 40%, #13202f 0%, #0d151f 75%); flex: none; }
+#spMap img { position: absolute; left: 0; top: 0; width: 100%; opacity: .9; }
+#spMap svg { position: absolute; left: 0; top: 0; }
+#spMap .iss { position: absolute; width: 0; height: 0; }
+#spMap .iss b { position: absolute; left: -9px; top: -9px; width: 18px; height: 18px; border-radius: 50%; background: #ffd27a; box-shadow: 0 0 0 4px rgba(255,210,122,.3), 0 0 16px #ffd27a; }
+#spMap .home { position: absolute; width: 8px; height: 8px; margin: -4px 0 0 -4px; border-radius: 50%; background: #6aaef8; box-shadow: 0 0 0 3px rgba(106,174,248,.3); }
+#spNext { font-size: 16px; color: var(--muted); }
+#spNext .when { font-size: 30px; font-weight: 700; color: var(--fg); line-height: 1.15; margin: 2px 0 4px; }
+#spNext .when small { font-size: 18px; color: #ffd27a; margin-left: 8px; font-weight: 700; }
+#spNext .how { font-size: 18px; color: var(--fg); }
+#spMore { border-top: 1px solid var(--line); }
+#spMore div { display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid var(--line); font-size: 16px; }
+#spMore div:last-child { border-bottom: 0; }
+#spMore span { color: var(--muted); }
+#spCrew { margin-top: auto; font-size: 16px; color: var(--muted); line-height: 1.4; }
+#spCrew b { color: var(--fg); }
+#spBig { position: fixed; inset: 0; background: rgba(4,6,10,.95); z-index: 40; display: flex; gap: 28px; padding: 40px; box-sizing: border-box; }
+#spBig[hidden] { display: none; }
+#spBig .pic { flex: 1.6; background: center / contain no-repeat; }
+#spBig .tx { flex: 1; overflow: auto; font-size: 19px; line-height: 1.55; color: #d5dde7; }
+#spBig h2 { margin: 0 0 6px; font-size: 32px; color: var(--fg); }
+#spBig button { position: absolute; top: max(16px, env(safe-area-inset-top)); right: 20px; font: 700 18px var(--font); background: #2a3646; color: var(--fg); border: 0; border-radius: 999px; padding: 10px 20px; }
 /* ----- news page: world map with a pin for each story, one story at a time below ----- */
 #newsp { padding: 30px 34px 60px; display: flex; flex-direction: column; }
 #newsp .top { display: flex; align-items: center; justify-content: space-between; padding: 0 6px 14px; }
@@ -666,6 +726,17 @@ body.night #live { display: none; }   /* no scores on the night clock */
   <div id="hkCams"></div>
 </div>
 </div>
+<div class="page" id="pspace">
+<div class="stage" id="space">
+  <div class="top"><h1>太空角落<span>Space corner</span></h1><div id="spDist"></div></div>
+  <div id="spMars"><div class="ph"></div><div class="ph"></div><div class="msg" id="spMsg">載入火星相片… Loading Mars photos</div><div class="chip"><i></i>火星 Mars · <span id="spRover"></span></div><div class="cap" id="spCap"></div></div>
+  <div id="spApod"><div class="pic" id="spApodPic"></div><div class="tx"><div class="lbl">NASA 每日天文圖 · Picture of the day</div><h2 id="spApodT"></h2><div class="by" id="spApodBy"></div><p id="spApodX"></p></div></div>
+  <div id="spSide">
+    <div id="spMoon"></div>
+    <div id="spIss"><div class="lbl">國際太空站 · Space Station</div><div id="spMap"><img src="world.svg" alt=""><svg id="spTrack" width="100%" height="136"></svg><div class="home" id="spHome"></div><div class="iss" id="spDot"><b></b></div></div><div id="spNext"></div><div id="spMore"></div><div id="spCrew"></div></div>
+  </div>
+</div>
+</div>
 <div class="page" id="p3">
 <div class="stage" id="league">
   <div class="top"><h1>Premier League<span>英超積分榜</span></h1><div id="apps"><a class="app sp" href="spotify:"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">Spotify</span></a><a class="app yt" href="youtube://"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">YouTube</span></a></div><div class="upd" id="lupd"></div></div>
@@ -682,6 +753,7 @@ body.night #live { display: none; }   /* no scores on the night clock */
 <div id="dots"></div>
 <div id="live" hidden></div>
 <div id="night"><div id="nclk"><div id="ntime"></div><div id="ndate"></div><div id="ntemp"></div></div><div id="nhint">輕按顯示 · Tap to wake</div></div>
+<div id="spBig" hidden><div class="pic"></div><div class="tx"></div><button type="button">✕ 關閉 Close</button></div>
 <div id="note" hidden><div class="box">
   <div class="top"><div class="thumb" id="nThumb"></div><div><h3>留言 · Add a note</h3><div class="sub" id="nSub"></div></div></div>
   <div class="old" id="nOld"></div>
@@ -700,7 +772,7 @@ var CONFIG = {
   secondCity: '香港', secondZone: 'Asia/Hong_Kong',
   // Pages turn by themselves: each page in 'pages' (1 = dashboard) shows for 'secs' seconds.
   // After a swipe to a page outside the list, it stays there for 'stay' seconds before carrying on.
-  rotate: { secs: 60, pages: [1, 2, 3, 4, 5], stay: 300 },
+  rotate: { secs: 60, pages: [1, 2, 3, 4, 5, 6], stay: 300 },
   // Night mode: between these hours (iPad's own clock) a dim, soft clock replaces the pages.
   // A tap shows the dashboard (dimmed) for 'wake' seconds, then the night clock comes back. ?night=1 / ?night=0 to test.
   // Birthday page (last page): joins the turning pages when the next birthday is this many days away or less.
@@ -770,7 +842,7 @@ function fitStage() {
 addEventListener('resize', fitStage); fitStage();
 
 /* ---------- pages: swipe left/right, tap the dots, or use the arrow keys ----------
-   Page 1 is the dashboard, page 2 this week's calendar, page 3 the analog clock, page 4 the news map, page 5 the Hong Kong corner, page 6 the league table, page 7 birthday countdown. To add a page, add another
+   Page 1 is the dashboard, page 2 this week's calendar, page 3 the analog clock, page 4 the news map, page 5 the Hong Kong corner, page 6 the space corner, page 7 the league table, page 8 birthday countdown. To add a page, add another
    <div class="page"> inside #track. The iPad remembers the last page shown. */
 var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
 (function () {
@@ -1970,6 +2042,158 @@ $('hkLiveBtn').onclick = function () {
   box.querySelector('button').onclick = function () { box.parentNode.removeChild(box); };
   document.body.appendChild(box);
 };
+
+/* ---------- Space corner (page 6) ----------
+   space.json is saved every 3 hours by .github/workflows/space.yml (tools/build_space.py):
+   the newest raw photos from NASA's Mars rovers, NASA's picture of the day, when the Space
+   Station can be seen from Northwood, its path for the next 12 hours, and the moon's phases.
+   Photos load straight from NASA. Tap the Mars photo for the next one, the picture of the day to see it big. */
+var SP = null, SP_PAGE = -1, spAt = -1, spLayer = 0, spShown = false, spTimer = null;
+(function () { var p = $('track').children; for (var i = 0; i < p.length; i++) if (p[i].id === 'pspace') SP_PAGE = i; })();
+var SP_TZ = CONFIG.timezone === 'auto' ? undefined : CONFIG.timezone;
+function spParts(d) {   // local wall-clock parts in the clock's time zone
+  var o = {}; new Intl.DateTimeFormat('en-GB', { timeZone: SP_TZ, year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', weekday: 'short', hour12: false })
+    .formatToParts(d).forEach(function (p) { o[p.type] = p.value; });
+  o.hour = o.hour === '24' ? '00' : o.hour; return o;
+}
+function spDayKey(d) { var p = spParts(d); return p.year + '-' + p.month + '-' + p.day; }
+function spWhen(d) {   // "今晚 Tonight", "聽晚 Tomorrow night", "星期三 Wed"
+  var now = new Date(), k = spDayKey(d), p = spParts(d), h = +p.hour, ev = h >= 17 || h < 4;
+  var zhW = { Sun: '日', Mon: '一', Tue: '二', Wed: '三', Thu: '四', Fri: '五', Sat: '六' };
+  if (k === spDayKey(now)) return ev ? '今晚 Tonight' : (h < 12 ? '今朝 This morning' : '今日 Today');
+  if (k === spDayKey(new Date(now.getTime() + 864e5))) return ev ? '聽晚 Tomorrow night' : '聽朝 Tomorrow';
+  return '星期' + zhW[p.weekday] + ' ' + p.weekday + ' ' + (+p.day) + '/' + (+p.month);
+}
+function spHM(d) { var p = spParts(d); return p.hour + ':' + p.minute; }
+function loadSpace() {
+  fetch('space.json?t=' + Date.now()).then(function (r) { if (!r.ok) throw 0; return r.json(); })
+    .then(function (d) { var first = !SP; SP = d; if (first) { spAt = -1; if (spShown) spNext(); } spApod(); spDraw(); })
+    .catch(function () { if (!SP) $('spMsg').textContent = '暫時未有火星相片 · Mars photos not saved yet'; });
+}
+function spAgo(at) {
+  var d = Math.round((Date.now() - new Date(at + 'Z')) / 864e5);
+  return !(d >= 0) ? '' : d === 0 ? '今日 today' : d === 1 ? '尋日 yesterday' : d + ' 日前 ' + d + ' days ago';
+}
+function spNext() {
+  var L = SP && SP.mars || []; if (!L.length) return;
+  clearTimeout(spTimer);
+  var k = (spAt + 1) % L.length, m = L[k], img = new Image(), token = k;
+  img.onload = function () {
+    if (spAt === token) return;
+    var ph = document.querySelectorAll('#spMars .ph'), a = ph[spLayer], b = ph[1 - spLayer];
+    b.className = 'ph'; b.offsetWidth; b.style.backgroundImage = 'url("' + m.src + '")'; b.className = 'ph on'; a.className = 'ph';
+    spLayer = 1 - spLayer; spAt = token; $('spMsg').style.display = 'none';
+    $('spRover').textContent = m.zh + ' ' + m.rover;
+    $('spCap').innerHTML = '<div><b>' + esc(m.camZh) + '</b> · ' + esc(m.cam) + '<br><span>火星第 ' + m.sol + ' 日 · Sol ' + m.sol + ' · ' + spAgo(m.at) + '</span></div><em>' + (k + 1) + ' / ' + L.length + '</em>';
+    spTimer = setTimeout(spNext, 14000);
+  };
+  img.onerror = function () { spAt = token; spTimer = setTimeout(spNext, 500); };   // skip a photo NASA can't send
+  img.src = m.src;
+}
+$('spMars').addEventListener('click', function () { spNext(); });
+function spApod() {
+  var a = SP && SP.apod; if (!a) return;
+  $('spApodPic').style.backgroundImage = 'url("' + a.img + '")';
+  $('spApodT').textContent = a.title; $('spApodX').textContent = a.text;
+  $('spApodBy').textContent = (a.video ? '影片 Video · ' : '') + (a.by ? '© ' + a.by + ' · ' : '') + a.date;
+}
+$('spApod').addEventListener('click', function () {
+  var a = SP && SP.apod; if (!a) return;
+  var o = $('spBig'); o.querySelector('.pic').style.backgroundImage = 'url("' + a.img + '")';
+  o.querySelector('.tx').innerHTML = '<h2>' + esc(a.title) + '</h2><div class="by" style="color:var(--muted);margin-bottom:14px">' + (a.by ? '© ' + esc(a.by) + ' · ' : '') + esc(a.date) + '</div>' + esc(a.text);
+  o.hidden = false;
+});
+$('spBig').querySelector('button').onclick = function () { $('spBig').hidden = true; };
+// Moon: age in days since a known new moon; lit part drawn as two arcs.
+var SYN = 29.530588853;
+function spMoonSVG(age, r) {
+  var f = age / SYN, c = Math.cos(2 * Math.PI * f), rx = Math.abs(c) * r, wax = f < .5, cres = c > 0, d;
+  // northern sky: waxing moon is lit on the right
+  if (wax) d = 'M' + r + ',0 A' + r + ',' + r + ' 0 0 1 ' + r + ',' + 2 * r + ' A' + rx + ',' + r + ' 0 0 ' + (cres ? 0 : 1) + ' ' + r + ',0Z';
+  else d = 'M' + r + ',0 A' + r + ',' + r + ' 0 0 0 ' + r + ',' + 2 * r + ' A' + rx + ',' + r + ' 0 0 ' + (cres ? 1 : 0) + ' ' + r + ',0Z';
+  return '<svg width="' + 2 * r + '" height="' + 2 * r + '" viewBox="0 0 ' + 2 * r + ' ' + 2 * r + '"><defs><radialGradient id="mg" cx="40%" cy="38%"><stop offset="0" stop-color="#fbf6e6"/><stop offset="1" stop-color="#d9cfb2"/></radialGradient></defs>' +
+    '<circle cx="' + r + '" cy="' + r + '" r="' + r + '" fill="#232a35"/><path d="' + d + '" fill="url(#mg)"/>' +
+    '<circle cx="' + r * .7 + '" cy="' + r * .8 + '" r="' + r * .13 + '" fill="#000" opacity=".07"/><circle cx="' + r * 1.25 + '" cy="' + r * 1.3 + '" r="' + r * .18 + '" fill="#000" opacity=".06"/><circle cx="' + r * 1.15 + '" cy="' + r * .55 + '" r="' + r * .09 + '" fill="#000" opacity=".07"/></svg>';
+}
+function spMoon() {
+  var now = Date.now(), age = ((now - Date.UTC(2000, 0, 6, 18, 14)) / 864e5) % SYN;
+  var lit = Math.round((1 - Math.cos(2 * Math.PI * age / SYN)) / 2 * 100);
+  var N = [[1, '新月', 'New moon'], [6.4, '娥眉月', 'Waxing crescent'], [8.4, '上弦月', 'First quarter'], [13.8, '盈凸月', 'Waxing gibbous'],
+           [15.8, '滿月', 'Full moon'], [21.1, '虧凸月', 'Waning gibbous'], [23.1, '下弦月', 'Last quarter'], [28.5, '殘月', 'Waning crescent'], [99, '新月', 'New moon']];
+  var nm = N[0]; for (var i = 0; i < N.length; i++) if (age < N[i][0]) { nm = N[i]; break; }
+  var nx = '', want = { 2: ['滿月', 'Full moon'], 0: ['新月', 'New moon'] }, got = {};
+  (SP && SP.moon || []).forEach(function (m) {
+    var t = new Date(m.at); if (t < now || got[m.phase] || !want[m.phase]) return; got[m.phase] = 1;
+    nx += '<div>' + want[m.phase][0] + ' ' + want[m.phase][1] + ' · <b>' + spWhen(t).replace(/ (Tonight|Tomorrow night|Tomorrow|This morning|Today)$/, '') + ' ' + spHM(t) + '</b></div>';
+  });
+  if (!nx) {   // no saved dates yet: work them out roughly
+    var toFull = (14.77 - age + SYN) % SYN, toNew = SYN - age;
+    nx = '<div>滿月 Full moon · <b>' + Math.round(toFull) + ' 日後 in ' + Math.round(toFull) + ' days</b></div><div>新月 New moon · <b>' + Math.round(toNew) + ' 日後</b></div>';
+  }
+  $('spMoon').innerHTML = spMoonSVG(age, 56) + '<div><div class="lbl">月亮 · Moon</div><div class="nm">' + nm[1] + '<span>' + nm[2] + ' · ' + lit + '% 光</span></div><div class="nx">' + nx + '</div></div>';
+}
+function spXY(la, lo, W) { return [(lo + 180) / 360 * W, (80 - la) / 360 * W]; }
+function spIssAt(t) {   // [lat, lon] at time t from the saved path, or null
+  var T = SP && SP.track; if (!T || !T.p) return null;
+  var x = (t - new Date(T.t0)) / 1000 / T.step, i = Math.floor(x), f = x - i;
+  if (i < 0 || i + 1 >= T.p.length) return null;
+  var a = T.p[i], b = T.p[i + 1], dl = b[1] - a[1];
+  if (dl > 180) dl -= 360; if (dl < -180) dl += 360;
+  var lo = a[1] + dl * f; if (lo > 180) lo -= 360; if (lo < -180) lo += 360;
+  return [a[0] + (b[0] - a[0]) * f, lo];
+}
+function spIss() {
+  var W = $('spMap').offsetWidth || 340, now = Date.now(), h = $('spHome'), p = spXY(CONFIG.lat, CONFIG.lon, W);
+  h.style.left = p[0] + 'px'; h.style.top = p[1] + 'px';
+  var here = spIssAt(now), dot = $('spDot');
+  dot.style.display = here ? '' : 'none';
+  if (here) { p = spXY(here[0], here[1], W); dot.style.left = p[0] + 'px'; dot.style.top = p[1] + 'px'; }
+  // path for the next 90 minutes, broken where it wraps round the map
+  var path = '', last = null;
+  for (var m = 0; m <= 90; m += 2) {
+    var q = spIssAt(now + m * 60000); if (!q) break;
+    var xy = spXY(q[0], q[1], W);
+    path += (last === null || Math.abs(xy[0] - last) > W / 2 ? 'M' : 'L') + xy[0].toFixed(1) + ',' + xy[1].toFixed(1) + ' ';
+    last = xy[0];
+  }
+  $('spTrack').innerHTML = path ? '<path d="' + path + '" fill="none" stroke="#ffd27a" stroke-width="2" stroke-dasharray="4 5" opacity=".7"/>' : '';
+}
+function spPasses() {
+  var L = (SP && SP.passes || []).filter(function (p) { return new Date(p.end) > Date.now(); });
+  if (!SP) return;
+  if (!L.length) { $('spNext').innerHTML = '<div class="how">未來幾日睇唔到 · No visible passes in the next few days</div>'; $('spMore').innerHTML = ''; return; }
+  var p = L[0], s = new Date(p.start), on = s <= Date.now();
+  $('spNext').innerHTML = (on ? '而家喺天空！ Look up now!' : '下次睇到 · Next time you can see it') +
+    '<div class="when">' + spWhen(s) + ' ' + spHM(s) + (p.max >= 40 ? '<small>好光 bright</small>' : '') + '</div>' +
+    '<div class="how">' + p.from[1] + ' → ' + p.to[1] + ' · ' + p.mins + ' 分鐘 · 最高 ' + p.max + '°</div>' +
+    '<div>' + p.from[0] + ' to ' + p.to[0] + ', ' + p.mins + ' min, up to ' + p.max + '° high</div>';
+  var h = '';
+  for (var i = 1; i < Math.min(L.length, 4); i++) {
+    var t = new Date(L[i].start);
+    h += '<div><b>' + spWhen(t) + ' ' + spHM(t) + '</b><span>' + L[i].from[1] + '→' + L[i].to[1] + ' · ' + L[i].mins + '分 · ' + L[i].max + '°</span></div>';
+  }
+  $('spMore').innerHTML = h;
+}
+function spDraw() {
+  spMoon(); spIss(); spPasses();
+  if (SP && SP.crew && SP.crew.length) {
+    var iss = SP.crew.filter(function (c) { return c.craft === 'ISS'; }).length;
+    $('spCrew').innerHTML = '而家太空有 <b>' + SP.crew.length + ' 人</b> · ' + SP.crew.length + ' people in space' + (iss ? ' (' + iss + ' on the ISS)' : '');
+  }
+  if (SP && SP.marsKm) {
+    var km = SP.marsKm, mins = Math.round(km / 299792.458 / 60);
+    $('spDist').innerHTML = '火星離地球 <b>' + (km / 1e8).toFixed(2) + ' 億公里</b> · light takes ' + mins + ' min';
+  }
+}
+// Only animate while this page shows (keeps the old iPad cool).
+setInterval(function () {
+  var on = PAGE === SP_PAGE && !document.body.classList.contains('night');
+  if (on && !spShown) { spShown = true; spDraw(); spNext(); }
+  if (!on && spShown) { spShown = false; clearTimeout(spTimer); }
+  if (on) spIss();
+}, 1000);
+setInterval(function () { if (spShown) spDraw(); }, 60 * 1000);
+loadSpace(); setInterval(loadSpace, 30 * 60 * 1000);
 
 /* ---------- automatic update ----------
    The Home Screen app keeps an old copy of the page. Every 5 minutes, fetch this page
