@@ -137,28 +137,39 @@ try:
                 "img": img, "by": (a.get("copyright") or "").strip().replace("\n", " "), "video": a.get("media_type") != "image"}
 except Exception as e:
     log("APOD api failed:", repr(e))
-# The API is often down: read the web page instead (today's, or the last few days' if today is a video)
-for back in range(0, 6):
-    if apod:
-        break
-    day = datetime.now(timezone.utc) - timedelta(days=back)
+# The API is often down. APOD now lives on science.nasa.gov: read its feed instead.
+def clean(v):
+    import html as H
+    return re.sub(r"\s+", " ", H.unescape(re.sub(r"<[^>]+>", " ", H.unescape(v or "")))).strip()
+
+
+def smaller(u):   # NASA's image service resizes: ask for a 1400 px copy
+    if "dynamicimage" in u:
+        u = re.sub(r"[?].*$", "", u) + "?w=1400&fit=clip"
+    return u
+
+
+if not apod:
     try:
-        h = get("https://apod.nasa.gov/apod/ap%s.html" % day.strftime("%y%m%d"), raw=True)
-        m = re.search(r'<img[^>]+src="([^"]+\.(?:jpe?g|png|gif))"', h, re.I)
-        t = re.search(r"<center>\s*<b>\s*(.+?)\s*</b>", h, re.I | re.S)
-        x = re.search(r"Explanation:\s*</b>(.*?)<p>\s*<center>", h, re.I | re.S) or re.search(r"Explanation:\s*</b>(.*?)<p>", h, re.I | re.S)
-        by = re.search(r"Credit.*?:\s*</b>(.*?)</center>", h, re.I | re.S)
-        clean = lambda v: re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", v)).strip()
-        log("APOD page", day.strftime("%y%m%d"), "image:", bool(m), "title:", bool(t))
-        if not t:
-            log(h[:4000])
-        if m:
-            src = m.group(1)
-            apod = {"date": day.strftime("%Y-%m-%d"), "title": clean(t.group(1)) if t else "", "text": clean(x.group(1)) if x else "",
-                    "img": src if src.startswith("http") else "https://apod.nasa.gov/apod/" + src,
-                    "by": clean(by.group(1))[:120] if by else "", "video": False}
+        x = get("https://science.nasa.gov/feed/apod-basic/", raw=True)
+        item = (re.findall(r"<item>(.*?)</item>", x, re.S) or [""])[0]
+        log("APOD feed item:", item[:1500])
+        tag = lambda n: (re.search(r"<%s[^>]*>(.*?)</%s>" % (n, n), item, re.S) or [None, ""])[1].replace("<![CDATA[", "").replace("]]>", "")
+        imgs = re.findall(r'(https://[^"\'\s<>]+?\.(?:jpe?g|png|gif|webp)(?:\?[^"\'\s<>]*)?)', item, re.I)
+        body = clean(tag("content:encoded") or tag("description"))
+        by = re.search(r"(?:Image |Video )?Credit[^:]{0,40}:\s*(.{2,120}?)(?:Explanation|$)", body)
+        text = re.sub(r"^.*?Explanation:\s*", "", body)
+        text = re.sub(r"\s*(Tomorrow's picture|Authors? & editors).*$", "", text)
+        if imgs:
+            pub = tag("pubDate")
+            try:
+                date = datetime.strptime(pub[5:16], "%d %b %Y").strftime("%Y-%m-%d")
+            except Exception:
+                date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+            apod = {"date": date, "title": clean(tag("title")), "text": text[:1500], "img": smaller(imgs[0].replace("&amp;", "&")),
+                    "by": by.group(1).strip() if by else "", "video": False}
     except Exception as e:
-        log("APOD page failed:", repr(e))
+        log("APOD feed failed:", repr(e))
 out["apod"] = apod or old.get("apod")
 
 # ---------- ISS passes, ISS path, moon ----------
