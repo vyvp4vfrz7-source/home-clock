@@ -8,6 +8,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Home Clock">
 <meta name="theme-color" content="#0b1016">
+<meta name="robots" content="noindex, nofollow">
 <title>Home Clock</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap">
 <style>
@@ -532,10 +533,39 @@ function sampleCal() {
 }
 function evDate(s) { var p = s.split(/[-T:]/); return new Date(+p[0], p[1] - 1, +p[2], +(p[3] || 0), +(p[4] || 0)); }
 function dayKey(d) { return d.getFullYear() * 10000 + d.getMonth() * 100 + d.getDate(); }
+/* calendar.json may be scrambled with a passcode ({"enc": {...}}). The iPad asks for the
+   passcode once (tap the calendar) and remembers it, so the events can't be read on GitHub. */
+var calLocked = null;
+function getKey() { try { return localStorage.getItem('calKey') || ''; } catch (e) { return ''; } }
+function setKey(k) { try { if (k) localStorage.setItem('calKey', k); else localStorage.removeItem('calKey'); } catch (e) {} }
+function b64(s) { var b = atob(s), a = new Uint8Array(b.length); for (var i = 0; i < b.length; i++) a[i] = b.charCodeAt(i); return a; }
+function unscramble(enc, pass) {
+  var c = crypto.subtle;
+  return c.importKey('raw', new TextEncoder().encode(pass), 'PBKDF2', false, ['deriveKey'])
+    .then(function (base) { return c.deriveKey({ name: 'PBKDF2', salt: b64(enc.salt), iterations: enc.iter, hash: 'SHA-256' }, base, { name: 'AES-GCM', length: 256 }, false, ['decrypt']); })
+    .then(function (key) { return c.decrypt({ name: 'AES-GCM', iv: b64(enc.iv) }, key, b64(enc.data)); })
+    .then(function (buf) { return JSON.parse(new TextDecoder().decode(buf)); });
+}
+function useCal(d) {
+  if (!d.enc) { if (!d.events) throw 0; CAL = d; calSample = false; calLocked = null; showCal(); return; }
+  var k = getKey();
+  if (!k) { lockCal(d, ''); return; }
+  return unscramble(d.enc, k).then(function (ev) { CAL = { saved: d.saved, events: ev }; calSample = false; calLocked = null; showCal(); },
+    function () { setKey(''); lockCal(d, '密碼唔啱 Wrong passcode · '); });
+}
+function lockCal(d, msg) {
+  calLocked = d; CAL = null; $('ctag').hidden = true;
+  $('evs').innerHTML = '<div class="ecol"><div class="enone">🔒 ' + msg + '撳一下輸入密碼<br>Tap to enter the passcode</div></div>';
+}
+$('cal').addEventListener('click', function () {
+  if (!calLocked) return;
+  var k = prompt('日程密碼 Calendar passcode'); if (!k) return;
+  setKey(k.trim()); useCal(calLocked);
+});
 function loadCal() {
   fetch('calendar.json?t=' + Date.now()).then(function (r) { if (!r.ok) throw 0; return r.json(); })
-    .then(function (d) { if (!d || !d.events) throw 0; CAL = d; calSample = false; showCal(); })
-    .catch(function () { if (!CAL || calSample) { CAL = sampleCal(); calSample = true; showCal(); } });
+    .then(useCal)
+    .catch(function () { if (calLocked) return; if (!CAL || calSample) { CAL = sampleCal(); calSample = true; showCal(); } });
 }
 function showCal() {
   if (!CAL) return;
