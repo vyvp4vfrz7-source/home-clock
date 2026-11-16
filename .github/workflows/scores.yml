@@ -16,6 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 tools/build_scores.py scores.json
+        env:
+          LEAGUES: eng.1,eng.fa,eng.league_cup,uefa.champions,uefa.europa,uefa.europa.conf
       - name: Check the iPad may read ESPN directly (test runs from other branches only)
         if: github.ref != 'refs/heads/main'
         run: |
