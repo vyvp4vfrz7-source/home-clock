@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-16",
+  "updated": "2026-11-16T22:10+00:00",
+  "id": "the-telephone-gleick",
+  "t": "The Telephone: A New History",
+  "tz": "電話：一部新歷史",
+  "tz_note": "暫譯",
+  "a": "James Gleick",
+  "az": "葛雷克",
+  "published": "12 Nov 2026",
+  "publisher": "Picador (UK) · FSG (US)",
+  "isbn": [
+    "9780374618940",
+    "9781035056644"
+  ],
+  "tag": "科技",
+  "en": "From the author of Chaos and The Information comes a lively history of the device that taught the world to talk at a distance. Gleick starts long before Alexander Graham Bell's famous first call in 1876 Boston, with forgotten inventors such as Philipp Reis, and follows the telephone through patent wars, the giant AT&T monopoly, area codes, switchboard operators and the birth of Bell Labs, where Claude Shannon invented the idea of information as bits. Along the way he shows how the phone changed manners (even the word \"hello\"), work, fiction and who was left out. It ends in Japan, with a \"wind telephone\" people use to speak to the dead.",
+  "zh": "寫過《混沌》同《資訊》嘅葛雷克，今次寫電話嘅歷史。佢由 1876 年貝爾喺波士頓打出第一通電話之前講起，介紹被遺忘嘅發明家，再講專利官司、AT&T 壟斷、接線生，以及貝爾實驗室點樣孕育出 Shannon「用 bit 量度資訊」嘅理論，即係今日電腦同 AI 嘅基礎。書中亦講電話點樣改變禮儀（連「哈囉」都因電話而普及）、工作同文學。結尾去到日本嘅「風之電話」，人們用佢同離世嘅親人說話。",
+  "reviews": [
+    {
+      "src": "The New York Times",
+      "d": "A rave: Gleick gives an everyday device back its dignity and its rightful place in history; essential for anyone who grew up digital.",
+      "dz": "極力推薦：令一件日常用品重拾應有嘅歷史地位，數碼一代必讀。"
+    },
+    {
+      "src": "Bloomberg",
+      "d": "Shows that new technology starts unformed and is shaped by its users, who are changed in turn: strikingly relevant to today's AI.",
+      "dz": "指出新科技由用家塑造，用家亦被科技改變，對今日 AI 時代好有啟發。"
+    },
+    {
+      "src": "Kirkus (starred)",
+      "d": "A fluent, wide-ranging and lively tour of almost everything about the telephone, with sharp social history.",
+      "dz": "星級書評：文筆流暢、資料豐富，幾乎講盡電話嘅一切。"
+    },
+    {
+      "src": "LA Review of Books",
+      "d": "Authoritative and accessible with global reach, though the story is familiar and it says little about what it means today.",
+      "dz": "權威易讀、視野國際化，但故事唔算新鮮，亦少談對今日嘅意義。"
+    }
+  ],
+  "ken": "Every new technology is shaped by the people who use it, and it reshapes them in return.",
+  "kzh": "新科技由用家塑造，同時亦重塑用家。",
+  "sources": [
+    {
+      "title": "Book Marks reviews roundup",
+      "url": "https://bookmarks.reviews/reviews/all/the-telephone-a-new-history/"
+    },
+    {
+      "title": "Kirkus Reviews",
+      "url": "https://www.kirkusreviews.com/book-reviews/james-gleick/the-telephone/"
+    },
+    {
+      "title": "Boston Globe review",
+      "url": "https://www.bostonglobe.com/2026/11/03/arts/james-gleick-telephone-history/"
+    },
+    {
+      "title": "Pan Macmillan",
+      "url": "https://www.panmacmillan.com/authors/james-gleick/the-telephone/9781035056644"
+    }
+  ],
+  "cover_url": "https://ik.imagekit.io/panmac/tr:f-jpg,w-640/edition/9781035056644.jpg",
+  "pages": 544
+}

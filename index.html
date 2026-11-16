@@ -514,43 +514,45 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 .brow.soon { border-color: #6a3f5a; background: linear-gradient(90deg, #2a1b2b, var(--tile)); }
 .brow.soon .dl b { color: #f3c1d6; }
 body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state: paused !important; }
-/* ----- Book of the day (page 6): books.json, one book a day, covers in books/ ----- */
-#bookp { padding: 30px 40px 70px; display: flex; flex-direction: column; gap: 20px; }
+/* ----- Book of the day (page 6): book.json (a newly reviewed book, picked each morning) or books.json (fallback list) ----- */
+#bookp { padding: 26px 40px 58px; display: flex; flex-direction: column; gap: 16px; }
 #bookp .top { display: flex; align-items: baseline; justify-content: space-between; padding: 0 6px; }
 #bookp h1 { margin: 0; font-size: 44px; font-weight: 600; letter-spacing: -.01em; }
 #bookp h1 span { color: var(--muted); font-weight: 400; font-size: 30px; margin-left: 12px; }
 #bookp .rng { font-size: 20px; color: var(--muted); font-weight: 600; display: flex; align-items: center; gap: 14px; }
 #bkPlay { font: 700 17px var(--font); background: var(--sun); color: #1a1a1a; border: 0; border-radius: 999px; padding: 9px 18px; white-space: nowrap; }
 #bkPlay.on { background: var(--rain); }
-#bkMain { flex: 1; min-height: 0; display: flex; gap: 44px; padding: 36px 44px; border-radius: 30px; border: 1px solid var(--line); background: linear-gradient(150deg, var(--bk2, #1d2a3a) 0%, var(--tile) 62%); }
-#bkCov { flex: none; width: 370px; align-self: flex-start; }
-.bkc { position: relative; width: 100%; padding-top: 150%; border-radius: 6px 14px 14px 6px; overflow: hidden; background: #222c38; box-shadow: 0 22px 50px rgba(0,0,0,.55), inset 6px 0 0 rgba(0,0,0,.18); }
+#bkMain { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 20px; padding: 32px 38px; border-radius: 30px; border: 1px solid var(--line); background: linear-gradient(150deg, var(--bk2, #1d2a3a) 0%, var(--tile) 62%); }
+#bkUp { flex: 1; min-height: 0; overflow: hidden; display: flex; gap: 38px; }
+#bkL { flex: none; width: 300px; display: flex; flex-direction: column; gap: 18px; min-height: 0; }
+.bkc { position: relative; width: 100%; padding-top: 150%; border-radius: 6px 14px 14px 6px; overflow: hidden; background: #222c38; box-shadow: 0 22px 50px rgba(0,0,0,.55), inset 6px 0 0 rgba(0,0,0,.18); font-size: 18px; }
 .bkc img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .bkc .fb { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: space-between; padding: 12% 11%; background: linear-gradient(160deg, var(--bk, #6aaef8), #1b2430 120%); color: #fff; }
 .bkc .fb b { font-size: 2.1em; line-height: 1.12; font-weight: 800; letter-spacing: -.01em; }
 .bkc .fb i { font-style: normal; font-size: 1.1em; opacity: .85; font-weight: 600; }
 .bkc img + .fb { display: none; }
-#bkCov .bkc { font-size: 20px; }
+#bkMeta { font-size: 17px; line-height: 1.5; color: var(--muted); font-weight: 600; }
+#bkMeta b { color: #dfe6ee; font-weight: 700; }
 #bkTx { flex: 1; min-width: 0; display: flex; flex-direction: column; overflow: hidden; }
-#bkTag { align-self: flex-start; font-size: 18px; font-weight: 700; color: #10151c; background: var(--bk, #6aaef8); padding: 5px 14px; border-radius: 999px; }
-#bkT { font-size: 52px; font-weight: 800; line-height: 1.06; letter-spacing: -.02em; margin-top: 14px; }
-#bkTz { font-size: 32px; font-weight: 600; color: #dfe6ee; margin-top: 8px; }
-#bkA { font-size: 22px; color: var(--muted); font-weight: 600; margin-top: 10px; }
-#bkEn, #bkZh { font-size: 21px; line-height: 1.48; color: #d6dee8; margin: 0; }
-#bkEn { margin-top: 20px; }
-#bkZh { margin-top: 12px; font-size: 23px; line-height: 1.55; color: #e9eef4; }
-#bkK { margin-top: auto; padding-top: 0; flex: none; border-left: 5px solid var(--bk, #6aaef8); background: rgba(0,0,0,.2); border-radius: 0 16px 16px 0; padding: 14px 22px; }
-#bkK .lbl { font-size: 15px; font-weight: 700; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
-#bkK div + div { font-size: 20px; font-weight: 600; margin-top: 6px; line-height: 1.4; }
-#bkK div + div + div { font-weight: 500; color: #c9d3df; margin-top: 2px; }
-#bkNext { flex: none; display: flex; align-items: center; gap: 18px; height: 128px; }
-#bkNext .lbl { flex: none; width: 92px; font-size: 18px; font-weight: 700; color: var(--muted); line-height: 1.35; text-transform: none; letter-spacing: 0; }
-.bkn { flex: 1; min-width: 0; height: 100%; display: flex; align-items: center; gap: 14px; padding: 0 16px; background: var(--tile); border: 1px solid var(--line); border-radius: 20px; }
-.bkn .bkc { flex: none; width: 66px; padding-top: 0; height: 99px; font-size: 5px; box-shadow: 0 6px 14px rgba(0,0,0,.45); }
-.bkn .tx { min-width: 0; }
-.bkn .d { font-size: 15px; font-weight: 700; color: var(--muted); }
-.bkn .n { font-size: 20px; font-weight: 700; line-height: 1.2; margin-top: 3px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-.bkn .z { font-size: 16px; color: #c9d3df; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#bkTag { align-self: flex-start; font-size: 17px; font-weight: 700; color: #10151c; background: var(--bk, #6aaef8); padding: 5px 14px; border-radius: 999px; }
+#bkT { font-size: 42px; font-weight: 800; line-height: 1.08; letter-spacing: -.02em; margin-top: 12px; }
+#bkTz { font-size: 28px; font-weight: 600; color: #dfe6ee; margin-top: 6px; }
+#bkTz small { font-size: 16px; color: var(--muted); margin-left: 8px; font-weight: 600; }
+#bkA { font-size: 21px; color: var(--muted); font-weight: 600; margin-top: 8px; }
+#bkEn, #bkZh { font-size: 19px; line-height: 1.48; color: #d6dee8; margin: 0; }
+#bkEn { margin-top: 14px; }
+#bkZh { margin-top: 10px; font-size: 19.5px; line-height: 1.58; color: #e9eef4; }
+#bkRv { flex: none; }
+#bkRv:empty { display: none; }
+#bkRv .lbl { font-size: 15px; font-weight: 700; color: var(--muted); margin-bottom: 10px; }
+#bkRv .g { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+.bkr { background: rgba(0,0,0,.22); border-radius: 16px; padding: 12px 16px; min-width: 0; }
+.bkr b { display: block; font-size: 15px; font-weight: 800; color: var(--bk, #6aaef8); letter-spacing: .02em; }
+.bkr div { font-size: 16px; line-height: 1.4; color: #d6dee8; margin-top: 4px; }
+.bkr div + div { font-size: 16px; color: #aeb9c6; margin-top: 3px; }
+.bkr.one { border-left: 5px solid var(--bk, #6aaef8); border-radius: 0 16px 16px 0; padding: 14px 22px; }
+.bkr.one div { font-size: 22px; font-weight: 600; color: #e9eef4; margin: 0; }
+.bkr.one div + div { font-size: 19px; font-weight: 500; color: #c9d3df; margin-top: 4px; }
 #play2.on { background: var(--rain); }
 #play2 { font: 700 17px var(--font); background: var(--sun); color: #1a1a1a; border: 0; border-radius: 999px; padding: 9px 18px; white-space: nowrap; }
 .nw.en span { color: var(--rain); }
@@ -854,8 +856,7 @@ body.night #live { display: none; }   /* no scores on the night clock */
 <div class="page" id="pbook">
 <div class="stage" id="bookp">
   <div class="top"><h1>今日好書<span>Book of the day</span></h1><div class="rng"><span id="bkDay"></span><button id="bkPlay" type="button">▶ 讀出嚟</button></div></div>
-  <div id="bkMain"><div id="bkCov"></div><div id="bkTx"><div id="bkTag"></div><div id="bkT">Loading…</div><div id="bkTz"></div><div id="bkA"></div><p id="bkEn"></p><p id="bkZh"></p><div id="bkK"></div></div></div>
-  <div id="bkNext"></div>
+  <div id="bkMain"><div id="bkUp"><div id="bkL"><div id="bkCov"></div><div id="bkMeta"></div></div><div id="bkTx"><div id="bkTag"></div><div id="bkT">Loading…</div><div id="bkTz"></div><div id="bkA"></div><p id="bkEn"></p><p id="bkZh"></p></div></div><div id="bkRv"></div></div>
 </div>
 </div>
 <div class="page" id="penergy">
@@ -2365,10 +2366,11 @@ $('hkLiveBtn').onclick = function () {
 };
 
 /* ---------- Book of the day (page 6) ----------
-   books.json is a list written by hand (English + 香港中文 brief); one book a day in list order,
-   looping, the same book all day. Covers are saved to books/<id>.jpg by .github/workflows/books.yml;
-   if a cover is missing, a plain coloured cover with the title is drawn instead. */
-var BOOKS = null, BOOK_DAY = null, BOOK_START = new Date(2026, 10, 16);   // 16 Nov 2026 = first book in the list
+   book.json: a newly published, well-reviewed book with a longer brief and what reviewers said. A Claude
+   scheduled task picks it each morning (saved on the 'book' branch); .github/workflows/book-today.yml copies
+   it here with its cover (books/today.jpg). If it is more than 2 days old, the page falls back to
+   books.json, a hand-written list shown one book a day in order (covers books/<id>.jpg). */
+var BOOKS = null, BOOK_TODAY = null, BOOK_DAY = null, BOOK_START = new Date(2026, 10, 16);   // 16 Nov 2026 = first book in the list
 var BOOK_COL = { '科技': '#6aaef8', 'AI': '#b58cff', '科學': '#4fd1a5', '歷史': '#e0a85e', '小說': '#f39bb8', '商業': '#f3b649', '心理': '#8fd36a', '生活': '#7fd4e0' };
 var BOOK_EN = { '科技': 'Tech', 'AI': 'AI', '科學': 'Science', '歷史': 'History', '小說': 'Fiction', '商業': 'Business', '心理': 'Mind', '生活': 'Life' };
 function bookFor(off) {
@@ -2377,44 +2379,62 @@ function bookFor(off) {
   var n = BOOKS.length, i = Math.round((d - s) / 864e5);
   return BOOKS[((i % n) + n) % n];
 }
+function bookFresh(b) {   // book.json counts if it was picked today or yesterday
+  if (!b || !b.date || !b.t) return false;
+  var p = b.date.split('-'), d = new Date(+p[0], p[1] - 1, +p[2], 12), now = new Date(); now.setHours(12, 0, 0, 0);
+  return (now - d) / 864e5 < 2;
+}
+function bookNow() { return bookFresh(BOOK_TODAY) ? BOOK_TODAY : (BOOKS && BOOKS.length ? bookFor(0) : null); }
 function bookCover(b) {   // picture if saved, coloured cover underneath as a fallback
-  return '<div class="bkc" style="--bk:' + (BOOK_COL[b.tag] || '#6aaef8') + '"><img src="books/' + encodeURIComponent(b.id) + '.jpg" alt="" onerror="this.parentNode.removeChild(this)">' +
+  var src = b === BOOK_TODAY ? 'books/today.jpg?d=' + encodeURIComponent(b.date + b.id) : 'books/' + encodeURIComponent(b.id) + '.jpg';
+  return '<div class="bkc" style="--bk:' + (BOOK_COL[b.tag] || '#6aaef8') + '"><img src="' + src + '" alt="" onerror="this.parentNode.removeChild(this)">' +
     '<div class="fb"><b>' + esc(b.tz || b.t) + '</b><i>' + esc(b.az || b.a) + '</i></div></div>';
 }
 function bookDraw() {
-  if (!BOOKS || !BOOKS.length) return;
-  var b = bookFor(0), c = BOOK_COL[b.tag] || '#6aaef8', m = $('bkMain'), d = new Date();
+  var b = bookNow(); if (!b) return;
+  var c = BOOK_COL[b.tag] || '#6aaef8', m = $('bkMain'), d = new Date();
   BOOK_DAY = d.toDateString();
   m.style.setProperty('--bk', c); m.style.setProperty('--bk2', c + '33');
   $('bkCov').innerHTML = bookCover(b);
-  $('bkTag').textContent = b.tag + ' · ' + (BOOK_EN[b.tag] || b.tag);
+  $('bkTag').textContent = (b.tag || '') + ' · ' + (BOOK_EN[b.tag] || b.tag || '') + (b.reviews ? ' · 新書 New' : '');
   $('bkT').textContent = b.t;
-  $('bkTz').textContent = b.tz && b.tz !== b.t ? '《' + b.tz + '》' : '';
+  $('bkTz').innerHTML = b.tz && b.tz !== b.t ? '《' + esc(b.tz) + '》' + (b.tz_note ? '<small>' + esc(b.tz_note) + '</small>' : '') : '';
   $('bkA').textContent = (b.az ? b.az + ' ' : '') + b.a + (b.y ? ' · ' + b.y : '');
+  var meta = [];
+  if (b.published) meta.push('出版 Published <b>' + esc(b.published) + '</b>');
+  if (b.publisher) meta.push(esc(b.publisher));
+  if (b.pages) meta.push(esc(b.pages) + ' 頁 pages');
+  $('bkMeta').innerHTML = meta.join('<br>');
   $('bkEn').textContent = b.en || '';
   $('bkZh').textContent = b.zh || '';
-  $('bkK').innerHTML = b.ken || b.kzh ? '<div class="lbl">一個重點 · One idea to keep</div>' + (b.kzh ? '<div>' + esc(b.kzh) + '</div>' : '') + (b.ken ? '<div>' + esc(b.ken) + '</div>' : '') : '';
+  var rv = (b.reviews || []).slice(0, 4);
+  $('bkRv').innerHTML = rv.length ? '<div class="lbl">書評點講 · What reviewers say</div><div class="g">' + rv.map(function (r) {
+    return '<div class="bkr"><b>' + esc(r.src) + '</b>' + (r.d ? '<div>' + esc(r.d) + '</div>' : '') + (r.dz ? '<div>' + esc(r.dz) + '</div>' : '') + '</div>';
+  }).join('') + '</div>' :
+    (b.ken || b.kzh ? '<div class="lbl">一個重點 · One idea to keep</div><div class="bkr one">' + (b.kzh ? '<div>' + esc(b.kzh) + '</div>' : '') + (b.ken ? '<div>' + esc(b.ken) + '</div>' : '') + '</div>' : '');
   $('bkDay').textContent = d.getDate() + ' ' + MONTHS[d.getMonth()];
-  var h = '<div class="lbl">之後幾日<br>Coming up</div>';
-  for (var k = 1; k <= 3; k++) {
-    var x = bookFor(k), dd = new Date(); dd.setDate(dd.getDate() + k);
-    h += '<div class="bkn">' + bookCover(x) + '<div class="tx"><div class="d">' + (k === 1 ? '聽日 · Tomorrow' : DAYS[dd.getDay()].slice(0, 3) + ' ' + dd.getDate() + ' ' + MONTHS[dd.getMonth()].slice(0, 3)) + '</div>' +
-      '<div class="n">' + esc(x.t) + '</div>' + (x.tz && x.tz !== x.t ? '<div class="z">' + esc(x.tz) + '</div>' : '') + '</div></div>';
-  }
-  $('bkNext').innerHTML = h;
 }
 function bookLoad() {
-  fetch('books.json?t=' + Math.floor(Date.now() / 3600000)).then(function (r) { if (!r.ok) throw 0; return r.json(); })
-    .then(function (d) { BOOKS = (d && d.books) || []; bookDraw(); }).catch(function () { if (!BOOKS) $('bkT').textContent = '暫時載入唔到 · Could not load'; });
+  var h = Math.floor(Date.now() / 1800000);
+  function get(u) { return fetch(u).then(function (r) { if (!r.ok) throw 0; return r.json(); }); }
+  Promise.all([
+    get('book.json?t=' + h).catch(function () { return null; }),
+    get('books.json?t=' + h).catch(function () { return null; })
+  ]).then(function (r) {
+    if (r[0]) BOOK_TODAY = r[0];
+    if (r[1] && r[1].books) BOOKS = r[1].books;
+    if (bookNow()) bookDraw(); else $('bkT').textContent = '暫時載入唔到 · Could not load';
+  });
 }
 bookLoad();
-setInterval(function () { if (BOOKS && new Date().toDateString() !== BOOK_DAY) bookLoad(); }, 60000);   // new book after midnight
+setInterval(bookLoad, 30 * 60000);   // the morning pick arrives around 6am
+setInterval(function () { if (BOOK_DAY && new Date().toDateString() !== BOOK_DAY) bookDraw(); }, 60000);   // new day: redraw
 $('bkPlay').addEventListener('click', function () {   // read today's brief aloud in Cantonese
   var bt = $('bkPlay');
-  if (!window.speechSynthesis || !BOOKS) { bt.textContent = '不支援'; return; }
+  if (!window.speechSynthesis || !bookNow()) { bt.textContent = '不支援'; return; }
   if (speechSynthesis.speaking) { speechSynthesis.cancel(); bt.classList.remove('on'); bt.textContent = '▶ 讀出嚟'; return; }
-  var b = bookFor(0);
-  var u = new SpeechSynthesisUtterance('今日好書：' + (b.tz || b.t) + '，作者' + (b.az || b.a) + '。' + b.zh + (b.kzh ? '一個重點：' + b.kzh : ''));
+  var b = bookNow();
+  var u = new SpeechSynthesisUtterance('今日好書：' + (b.tz || b.t) + '，作者' + (b.az || b.a) + '。' + b.zh + (b.reviews && b.reviews.length ? '書評點講：' + b.reviews.map(function (r) { return r.src + '：' + (r.dz || ''); }).join('；') + '。' : '') + (b.kzh ? '一個重點：' + b.kzh : ''));
   u.lang = 'zh-HK'; u.rate = 0.95; var v = voice(); if (v) u.voice = v;
   u.onend = u.onerror = function () { bt.classList.remove('on'); bt.textContent = '▶ 讀出嚟'; };
   bt.classList.add('on'); bt.textContent = '■ 停止';
