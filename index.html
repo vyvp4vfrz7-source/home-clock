@@ -101,10 +101,10 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 #now .stats b { display: block; color: var(--fg); font-size: 24px; font-weight: 600; margin-top: 4px; letter-spacing: 0; text-transform: none; }
 #now .stats div { font-size: 13px; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; }
 
-#hours { grid-column: 1 / 5; grid-row: 5 / 7; padding: 22px 20px 22px 24px; }
+#hours { grid-column: 1 / 8; grid-row: 5 / 7; padding: 22px 26px 22px 30px; }
 #hours .h { font-size: 13px; }
 #hours .h .tv { font-size: 18px; }
-#hours .strip { display: grid; grid-template-columns: repeat(10, 1fr); margin-top: 8px; align-items: end; }
+#hours .strip { display: grid; grid-template-columns: repeat(12, 1fr); margin-top: 8px; align-items: end; }
 .h { display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 15px; color: var(--muted); }
 .h .tv { color: var(--fg); font-size: 20px; font-weight: 600; }
 .h .bar { width: 8px; border-radius: 4px; background: linear-gradient(var(--sun), #e07b39); }
@@ -114,22 +114,107 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 
 #photo { grid-column: 8 / 13; grid-row: 5 / 9; padding: 0; background: #000; }
 
-/* calendar: upcoming events from calendar.json (saved by .github/workflows/calendar.yml) */
-#cal { grid-column: 5 / 8; grid-row: 5 / 7; padding: 20px 24px; }
-#cal .ch { display: flex; justify-content: space-between; align-items: baseline; }
-#cal .ch .sm { font-size: 12px; color: #c9d3df; background: var(--tile-2); padding: 3px 9px; border-radius: 9px; }
-#evs { margin-top: 8px; }
-.ecol { min-width: 0; }
-.eday { font-size: 13px; font-weight: 700; color: var(--sun); margin: 2px 0 2px; letter-spacing: .02em; }
-.eday.later { color: var(--muted); }
-.ev { display: flex; align-items: baseline; gap: 10px; padding: 4px 0; border-bottom: 1px solid var(--line); font-size: 18px; line-height: 1.2; }
-.ev:last-child { border-bottom: 0; }
-.ev i { flex: none; width: 4px; height: 18px; border-radius: 2px; align-self: center; }
-.ev .tm { flex: none; width: 46px; color: var(--muted); font-size: 16px; font-weight: 600; font-variant-numeric: tabular-nums; }
-.ev .ti { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
-.ev.now .tm { color: var(--sun); }
-.ev.past { opacity: .45; }
-.enone { font-size: 18px; color: var(--muted); padding: 6px 0; }
+/* ----- page 2: this week's calendar (7 days from today) ----- */
+#week { padding: 30px 34px 60px; display: flex; flex-direction: column; }
+#week .top { display: flex; align-items: center; justify-content: space-between; padding: 0 6px 16px; }
+#week h1 { margin: 0; font-size: 44px; font-weight: 600; letter-spacing: -.01em; }
+#week h1 span { color: var(--muted); font-weight: 400; font-size: 30px; margin-left: 12px; }
+#week .rng { font-size: 20px; color: var(--muted); font-weight: 600; display: flex; align-items: center; gap: 12px; }
+#week .sm { font-size: 13px; color: #c9d3df; background: var(--tile-2); padding: 4px 10px; border-radius: 9px; }
+#wk { flex: 1; min-height: 0; display: grid; grid-template-columns: 1.45fr repeat(6, 1fr); gap: 12px; }
+#wk .lock { grid-column: 1 / -1; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 30px; line-height: 1.5; color: var(--muted); background: var(--tile); border-radius: 28px; }
+.wd { position: relative; overflow: hidden; background: var(--tile); border-radius: 24px; padding: 14px 12px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.wd.today { background: linear-gradient(180deg, #212d3e 0%, #141b24 45%); box-shadow: inset 0 0 0 2px rgba(243,182,73,.6); }
+.wh { position: relative; z-index: 2; display: flex; align-items: center; gap: 10px; padding: 0 4px 10px; border-bottom: 1px solid var(--line); }
+.wh .dn { font-size: 46px; font-weight: 300; line-height: 1; letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
+.wh .dw { font-size: 18px; font-weight: 700; line-height: 1.2; }
+.wh .dw small { display: block; font-size: 14px; color: var(--muted); font-weight: 600; }
+.wd.today .wh .dw { color: var(--sun); }
+.wd.wkend .wh .dn { color: #f0a8c8; }
+.we { position: relative; z-index: 2; flex: none; background: var(--tile-2); border-radius: 14px; padding: 8px 10px 9px 14px; overflow: hidden; }
+.we:before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; background: var(--c, #6aaef8); }
+.we .tr { display: flex; justify-content: space-between; align-items: center; height: 24px; }
+.we .tm { font-size: 15px; font-weight: 700; color: var(--muted); font-variant-numeric: tabular-nums; }
+.we .em { font-size: 22px; line-height: 1; display: inline-block; }
+.we .ti { font-size: 18px; font-weight: 600; line-height: 1.25; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; word-break: break-word; }
+.we.past { opacity: .4; }
+.we.now { box-shadow: inset 0 0 0 2px var(--sun); }
+.we.now .tm { color: var(--sun); }
+.wmore, .wnone { position: relative; z-index: 2; font-size: 16px; color: var(--muted); font-weight: 600; padding: 4px 6px; }
+/* sports: a little moving strip under the event */
+.we.strip { padding-bottom: 36px; }
+.we .fx { position: absolute; left: 5px; right: 0; bottom: 0; height: 30px; overflow: hidden; }
+.fx .go { position: absolute; left: 6px; right: 34px; bottom: 3px; height: 26px; animation: wkAcross 6s ease-in-out infinite alternate; }
+.fx .go b { display: inline-block; font-size: 22px; line-height: 26px; }
+.k-football .fx { background: repeating-linear-gradient(90deg, #2c6e3c 0 22px, #317a43 22px 44px); }
+.k-football .fx:after { content: ''; position: absolute; left: 50%; top: 0; bottom: 0; width: 2px; background: rgba(255,255,255,.45); }
+.k-football .fx .go b { animation: wkRoll 6s ease-in-out infinite alternate; }
+.k-swim .fx { background: #1d5d8f; }
+.k-swim .fx .wave, .k-dragon .wave { position: absolute; left: 0; bottom: 0; width: 200%; height: 100%; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='30'%3E%3Cpath d='M0 12 Q15 4 30 12 T60 12 V30 H0Z' fill='%236aaef8' fill-opacity='.55'/%3E%3C/svg%3E") repeat-x 0 0 / 60px 30px; animation: wkWave 3s linear infinite; }
+.k-swim .fx .go { animation-duration: 9s; }
+.k-swim .fx .go b { animation: wkBob 1.4s ease-in-out infinite; }
+.k-run .fx, .k-cycle .fx { background: #8a3f2c; }
+.k-run .fx:before, .k-cycle .fx:before { content: ''; position: absolute; left: 0; right: 0; top: 14px; border-top: 2px dashed rgba(255,255,255,.4); }
+.k-run .fx .go, .k-cycle .fx .go { animation: wkDash 4.5s linear infinite; }
+.k-cycle .fx .go { animation-duration: 3.2s; }
+.k-run .fx .go b { animation: wkBob .45s ease-in-out infinite; }
+.k-tennis .fx, .k-badminton .fx, .k-pingpong .fx { background: #2f6b55; }
+.k-badminton .fx { background: #3b4f8a; } .k-pingpong .fx { background: #1f5a7a; }
+.k-tennis .fx:after, .k-badminton .fx:after, .k-pingpong .fx:after { content: ''; position: absolute; left: 50%; bottom: 0; height: 16px; border-left: 2px solid rgba(255,255,255,.7); }
+.k-tennis .fx .go, .k-badminton .fx .go, .k-pingpong .fx .go { animation-duration: 2.4s; animation-timing-function: linear; }
+.k-tennis .fx .go b, .k-badminton .fx .go b, .k-pingpong .fx .go b { font-size: 17px; animation: wkHopHigh 1.2s ease-in-out infinite; }
+.k-basketball .fx { background: #8c5428; }
+.k-basketball .fx .go { animation-duration: 8s; }
+.k-basketball .fx .go b { animation: wkDribble .7s cubic-bezier(.5,0,.5,1) infinite; transform-origin: 50% 100%; }
+/* other sports: the icon hops */
+.we.sport .em { animation: wkHop 1.6s ease-in-out infinite; }
+/* festivals and birthdays: a coloured banner, and the whole day gets a little scene */
+.we.fest { background: linear-gradient(135deg, var(--f1), var(--f2)); color: #fff; }
+.we.fest:before { display: none; }
+.we.fest .tm { color: rgba(255,255,255,.8); }
+.we.fest .em { font-size: 28px; animation: wkSway 2.4s ease-in-out infinite; transform-origin: 50% 90%; }
+.f-xmas { --f1: #1f7a4a; --f2: #b3263b; } .f-cny { --f1: #c8102e; --f2: #e8962e; } .f-midautumn { --f1: #24305e; --f2: #b9822e; }
+.f-newyear, .f-bonfire { --f1: #2a2a6e; --f2: #8a3fae; } .f-halloween { --f1: #3c1f5c; --f2: #e0702a; } .f-easter { --f1: #7cbf8a; --f2: #e5b84c; }
+.f-valentine, .f-mother { --f1: #b8325e; --f2: #e58fb6; } .f-father { --f1: #2b5c9a; --f2: #6aaef8; } .f-dragon { --f1: #14615c; --f2: #c8102e; } .f-birthday { --f1: #b04a8c; --f2: #f3b649; }
+.wfx { position: absolute; inset: 0; z-index: 1; pointer-events: none; overflow: hidden; }
+.wfx i, .wfx s { position: absolute; display: block; font-style: normal; text-decoration: none; }
+.wfx .fall { top: -30px; animation: wkFall linear infinite; }
+.wfx .fall > i { position: relative; }
+.wfx .flake { width: 7px; height: 7px; border-radius: 50%; background: #fff; opacity: .85; animation: wkSide 3s ease-in-out infinite alternate; }
+.wfx .conf { width: 8px; height: 12px; border-radius: 2px; animation: wkFlip 1.6s linear infinite; }
+.wfx .spark { width: 10px; height: 10px; color: #ffd36b; font-size: 14px; line-height: 10px; animation: wkTwinkle 2.2s ease-in-out infinite; }
+.wfx .rise { bottom: -40px; font-size: 26px; animation: wkRise linear infinite; }
+.wfx .big { bottom: 6px; font-size: 54px; line-height: 1; animation: wkSway 3s ease-in-out infinite; transform-origin: 50% 100%; }
+.wfx .hang { top: 92px; font-size: 40px; line-height: 1; animation: wkSwing 2.6s ease-in-out infinite; transform-origin: 50% -30px; }
+.wfx .moon { right: -40px; bottom: 40px; width: 150px; height: 150px; border-radius: 50%; background: radial-gradient(circle at 40% 40%, #fff6d6, #f6cf6b 60%, #e0a43a); box-shadow: 0 0 60px 20px rgba(246,207,107,.35); animation: wkGlow 4s ease-in-out infinite; }
+.wfx .hop { bottom: 10px; left: 10px; font-size: 36px; animation: wkHopAcross 7s ease-in-out infinite alternate; }
+.wfx .fly { top: 40%; left: -40px; font-size: 26px; animation: wkFly 9s linear infinite; }
+.wfx .fw { width: 6px; height: 6px; border-radius: 50%; animation: wkBurst 2.8s ease-out infinite; }
+.wfx .snowbank { left: 0; right: 0; bottom: 0; height: 26px; background: #e9eef4; border-radius: 50% 50% 0 0 / 100% 100% 0 0; opacity: .9; }
+.wfx .wave { height: 40px; top: auto; }
+.wfx .boat { bottom: 22px; left: 0; font-size: 34px; animation: wkHopAcross 10s ease-in-out infinite alternate; }
+body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *:after { animation-play-state: paused !important; }   /* rest when the page isn't showing */
+
+@keyframes wkAcross { from { transform: translateX(0); } to { transform: translateX(100%); } }
+@keyframes wkDash { 0% { transform: translateX(100%); opacity: 0; } 8% { opacity: 1; } 92% { opacity: 1; } 100% { transform: translateX(0); opacity: 0; } }
+@keyframes wkRoll { from { transform: rotate(0); } to { transform: rotate(900deg); } }
+@keyframes wkWave { from { transform: translateX(0); } to { transform: translateX(-60px); } }
+@keyframes wkBob { 0%, 100% { transform: translateY(1px) rotate(-4deg); } 50% { transform: translateY(-3px) rotate(4deg); } }
+@keyframes wkHop { 0%, 60%, 100% { transform: translateY(0); } 30% { transform: translateY(-6px); } }
+@keyframes wkHopHigh { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+@keyframes wkDribble { 0%, 100% { transform: translateY(-14px); } 45% { transform: translateY(0) scale(1, 1); } 50% { transform: translateY(0) scale(1.15, .8); } 55% { transform: translateY(0) scale(1, 1); } }
+@keyframes wkSway { 0%, 100% { transform: rotate(-8deg); } 50% { transform: rotate(8deg); } }
+@keyframes wkSwing { 0%, 100% { transform: rotate(-12deg); } 50% { transform: rotate(12deg); } }
+@keyframes wkFall { from { transform: translate3d(0, 0, 0); } to { transform: translate3d(0, 960px, 0); } }
+@keyframes wkSide { from { transform: translateX(-10px); } to { transform: translateX(10px); } }
+@keyframes wkFlip { 0% { transform: rotate(0) scaleX(1); } 50% { transform: rotate(180deg) scaleX(.2); } 100% { transform: rotate(360deg) scaleX(1); } }
+@keyframes wkTwinkle { 0%, 100% { transform: scale(.3); opacity: .2; } 50% { transform: scale(1.2); opacity: 1; } }
+@keyframes wkRise { 0% { transform: translateY(0); opacity: 0; } 10% { opacity: 1; } 85% { opacity: 1; } 100% { transform: translateY(-780px); opacity: 0; } }
+@keyframes wkGlow { 0%, 100% { opacity: .85; transform: scale(1); } 50% { opacity: 1; transform: scale(1.05); } }
+@keyframes wkHopAcross { 0% { transform: translate(0, 0); } 10% { transform: translate(14%, -16px); } 20% { transform: translate(28%, 0); } 30% { transform: translate(42%, -16px); } 40% { transform: translate(56%, 0); } 100% { transform: translate(56%, 0); } }
+@keyframes wkFly { 0% { transform: translate(0, 0); } 25% { transform: translate(80px, -40px); } 50% { transform: translate(160px, 10px); } 75% { transform: translate(240px, -30px); } 100% { transform: translate(340px, 0); } }
+@keyframes wkBurst { 0% { transform: scale(.1); opacity: 0; } 8% { opacity: 1; } 60% { transform: scale(1); opacity: .9; } 100% { transform: scale(1.15); opacity: 0; } }
+
 #photo .ph { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0; transition: opacity 2.5s ease; }
 #photo .ph.on { opacity: 1; }
 #photo .ph video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; background: transparent; }
@@ -197,11 +282,16 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 <div class="stage" id="stage">
   <section class="t" id="clock"><div id="time" class="num"></div><div id="date"></div><div id="hk"></div><div id="indoor" hidden></div><a id="heat" href="#"></a></section>
   <section class="t" id="now"><div class="lbl">Loading weather…</div></section>
-  <section class="t" id="hours"><div class="lbl">Next 10 hours</div><div class="strip" id="strip"></div></section>
-  <section class="t" id="cal"><div class="ch"><div class="lbl">日程 · Calendar</div><span class="sm" id="ctag" hidden>示範 · sample</span></div><div id="evs"></div></section>
+  <section class="t" id="hours"><div class="lbl">Next 12 hours</div><div class="strip" id="strip"></div></section>
   <section class="t" id="photo"><div class="loc" id="capL"></div><div class="cap"><span id="capT"></span><span class="w" id="capW"></span></div><div class="tag" id="ptag" hidden>示範相片 · sample</div><div class="add" id="padd" aria-label="Add a note">✎</div></section>
   <section class="t" id="news"><div class="nh"><div class="lbl">新聞 · News</div><button id="play" type="button" aria-label="Play Cantonese summary">▶ 播放</button></div><div id="nws"></div></section>
   <div id="status"></div>
+</div>
+</div>
+<div class="page" id="pcal">
+<div class="stage" id="week">
+  <div class="top"><h1>本週日程<span>This week</span></h1><div class="rng"><span class="sm" id="ctag" hidden>示範 · sample</span><span id="wrng"></span></div></div>
+  <div id="wk"></div>
 </div>
 </div>
 <div class="page" id="p2">
@@ -309,11 +399,12 @@ function fitStage() {
 addEventListener('resize', fitStage); fitStage();
 
 /* ---------- pages: swipe left/right, tap the dots, or use the arrow keys ----------
-   Page 1 is the dashboard, page 2 the analog clock, page 3 the league table. To add a page, add another
+   Page 1 is the dashboard, page 2 this week's calendar, page 3 the analog clock, page 4 the league table. To add a page, add another
    <div class="page"> inside #track. The iPad remembers the last page shown. */
-var PAGE = 0;
+var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2;
 (function () {
   var track = $('track'), pages = track.children, n = pages.length, dots = $('dots');
+  for (var p = 0; p < n; p++) { if (pages[p].id === 'pcal') CAL_PAGE = p; if (pages[p].id === 'p2') CLOCK_PAGE = p; }
   for (var i = 0; i < n; i++) {
     var b = document.createElement('button'); b.type = 'button'; b.setAttribute('aria-label', 'Page ' + (i + 1)); b.innerHTML = '<i></i>';
     b.onclick = (function (k) { return function () { goPage(k); }; })(i);
@@ -326,6 +417,7 @@ var PAGE = 0;
     if (instant) { track.offsetWidth; track.classList.remove('drag'); }
     for (var j = 0; j < n; j++) dots.children[j].className = j === PAGE ? 'on' : '';
     try { localStorage.setItem('page', PAGE); } catch (e) {}
+    document.body.classList.toggle('pcal', PAGE === CAL_PAGE);   // calendar animations only run while it shows
     if (window.ZH_DAYS) bigTick(new Date());   // start or stop the sweeping hand right away
   };
   var start = +new URLSearchParams(location.search).get('page') - 1;
@@ -380,7 +472,7 @@ function tick() {
   }
 }
 
-/* ---------- page 2: analog clock ---------- */
+/* ---------- page 3: analog clock ---------- */
 var ZH_DAYS = ['星期日','星期一','星期二','星期三','星期四','星期五','星期六'];
 (function () {   // 12 upright engraved numbers, evenly spaced around the inside of the square face
   var out = '', R = 39;   // % of the face from centre to the number ring
@@ -402,16 +494,16 @@ function sizeFace() {   // largest square that fits, leaving room for the small 
 }
 addEventListener('resize', sizeFace); sizeFace();
 function hand(id, deg) { $(id).setAttribute('transform', 'translate(500 500) rotate(' + deg.toFixed(2) + ')'); }
-function analog() {   // smooth sweeping second hand while page 2 is showing
+function analog() {   // smooth sweeping second hand while the clock page is showing
   var d = new Date(), ms = d.getMilliseconds(), s = d.getSeconds() + ms / 1000, m = d.getMinutes() + s / 60, h = d.getHours() % 12 + m / 60;
   hand('hh', h * 30); hand('mh', m * 6); hand('sh', s * 6);
-  if (PAGE === 1) (window.requestAnimationFrame || setTimeout)(analog, 33); else analogOn = false;
+  if (PAGE === CLOCK_PAGE) (window.requestAnimationFrame || setTimeout)(analog, 33); else analogOn = false;
 }
 var analogOn = false;
 function bigTick(d) {
-  document.body.classList.toggle('p2', PAGE === 1);
-  if (PAGE === 1 && !analogOn) { analogOn = true; analog(); }
-  if (PAGE !== 1) analog();
+  document.body.classList.toggle('p2', PAGE === CLOCK_PAGE);
+  if (PAGE === CLOCK_PAGE && !analogOn) { analogOn = true; analog(); }
+  if (PAGE !== CLOCK_PAGE) analog();
   var hk = '';
   try { hk = CONFIG.secondCity + ' ' + d.toLocaleTimeString('en-GB', { timeZone: CONFIG.secondZone, hour: '2-digit', minute: '2-digit' }); } catch (e) {}
   $('binfoL').innerHTML = '<b>' + DAYS[d.getDay()] + ' ' + d.getDate() + ' ' + MONTHS[d.getMonth()].slice(0, 3) + '</b><br>' + (d.getMonth() + 1) + '月' + d.getDate() + '日 ' + ZH_DAYS[d.getDay()] + (hk ? ' · ' + hk : '');
@@ -456,8 +548,8 @@ function renderWeather() {
 
   var h = W.hourly, key = c.time.slice(0, 13), start = 0;
   for (var i = 0; i < h.time.length; i++) if (h.time[i].slice(0, 13) === key) { start = i + 1; break; }
-  var temps = h.temperature_2m.slice(start, start + 10), lo = Math.min.apply(null, temps), hi = Math.max.apply(null, temps), s = '';
-  for (var j = start; j < start + 10 && j < h.time.length; j++) {
+  var temps = h.temperature_2m.slice(start, start + 12), lo = Math.min.apply(null, temps), hi = Math.max.apply(null, temps), s = '';
+  for (var j = start; j < start + 12 && j < h.time.length; j++) {
     var p = h.precipitation_probability[j] || 0, ht = 8 + (h.temperature_2m[j] - lo) / ((hi - lo) || 1) * 34;
     s += '<div class="h' + (p >= 40 ? ' wet' : '') + '"><span class="tv num">' + r(h.temperature_2m[j]) + '°</span><span class="bar" style="height:' + r(ht) + 'px"></span>' +
       icon(wx(h.weather_code[j], h.is_day[j])[0], 26) + '<span class="p">' + (p >= 10 ? p + '%' : '') + '</span><span class="num">' + h.time[j].slice(11, 13) + '</span></div>';
@@ -641,7 +733,7 @@ fetch('photos.json?t=' + Date.now()).then(function (r) { return r.json(); })
    calendar.json is saved every 30 minutes by .github/workflows/calendar.yml
    (tools/build_calendar.py reads the private calendar link kept in the CALENDAR_ICS secret):
    {"saved":"...","events":[{"start":"2026-11-16T09:30","end":"2026-11-16T10:00","allDay":false,"title":"Dentist","color":"#6aaef8"}]}
-   Until it exists, sample events stand in. */
+   Until it exists, sample events stand in. They show on page 2 (this week). */
 var CAL = null, calSample = false;
 function sampleCal() {
   function at(dayOff, h, m, title, color, dur, allDay) {
@@ -653,18 +745,23 @@ function sampleCal() {
   return { events: [
     at(0, 0, 0, '倒垃圾 Bin day', '#8bd17c', 0, true),
     at(0, 8, 15, '送仔仔返學', '#f3b649', 30),
-    at(0, 12, 30, 'Lunch with Ka Yan', '#6aaef8'),
+    at(0, 16, 0, '游水班 Swimming', '#6aaef8'),
     at(0, 18, 0, 'FaceTime 爸媽', '#e58fb6', 30),
     at(1, 9, 30, 'Dentist 睇牙', '#6aaef8'),
-    at(1, 16, 0, '游水班 Swimming', '#f3b649'),
+    at(1, 17, 0, '足球訓練 Football', '#8bd17c'),
     at(2, 19, 30, 'Arsenal v Chelsea', '#8bd17c', 120),
-    at(4, 0, 0, '媽媽生日 🎂', '#e58fb6', 0, true)
+    at(3, 18, 0, 'Badminton 羽毛球', '#f3b649'),
+    at(4, 0, 0, '媽媽生日', '#e58fb6', 0, true),
+    at(4, 19, 0, '生日飯 Birthday dinner', '#e58fb6', 120),
+    at(5, 9, 0, 'Parkrun 跑步', '#f3b649', 45),
+    at(5, 14, 0, 'Tennis lesson', '#8bd17c'),
+    at(6, 10, 0, '籃球 Basketball', '#6aaef8')
   ] };
 }
 function evDate(s) { var p = s.split(/[-T:]/); return new Date(+p[0], p[1] - 1, +p[2], +(p[3] || 0), +(p[4] || 0)); }
 function dayKey(d) { return d.getFullYear() * 10000 + d.getMonth() * 100 + d.getDate(); }
 /* calendar.json may be scrambled with a passcode ({"enc": {...}}). The iPad asks for the
-   passcode once (tap the calendar) and remembers it, so the events can't be read on GitHub. */
+   passcode once (tap the calendar page) and remembers it, so the events can't be read on GitHub. */
 var calLocked = null;
 function getKey() { try { return localStorage.getItem('calKey') || ''; } catch (e) { return ''; } }
 function setKey(k) { try { if (k) localStorage.setItem('calKey', k); else localStorage.removeItem('calKey'); } catch (e) {} }
@@ -681,13 +778,14 @@ function useCal(d) {
   var k = getKey();
   if (!k) { lockCal(d, ''); return; }
   return unscramble(d.enc, k).then(function (ev) { CAL = { saved: d.saved, events: ev }; calSample = false; calLocked = null; showCal(); },
-    function () { setKey(''); lockCal(d, '密碼唔啱 Wrong passcode · '); });
+    function () { setKey(''); lockCal(d, '密碼唔啱 Wrong passcode<br>'); });
 }
+var WK_HTML = '';
 function lockCal(d, msg) {
-  calLocked = d; CAL = null; $('ctag').hidden = true;
-  $('evs').innerHTML = '<div class="ecol"><div class="enone">🔒 ' + msg + '撳一下輸入密碼<br>Tap to enter the passcode</div></div>';
+  calLocked = d; CAL = null; $('ctag').hidden = true; WK_HTML = '';
+  $('wk').innerHTML = '<div class="lock"><div>🔒<br>' + msg + '撳一下輸入密碼<br>Tap to enter the passcode</div></div>';
 }
-$('cal').addEventListener('click', function () {
+$('wk').addEventListener('click', function () {
   if (!calLocked) return;
   var k = prompt('日程密碼 Calendar passcode'); if (!k) return;
   setKey(k.trim()); useCal(calLocked);
@@ -697,44 +795,146 @@ function loadCal() {
     .then(useCal)
     .catch(function () { if (calLocked) return; if (!CAL || calSample) { CAL = sampleCal(); calSample = true; showCal(); } });
 }
+
+/* ---------- page 2: this week ----------
+   Seven days from today, today first and wider. Sports and festivals are spotted from the
+   event title (English or Chinese) and get a little animation; festivals in FEST show up
+   by themselves even when they aren't in the calendar. Animations pause on the other pages. */
+var KINDS = [   // [kind, words in the title, emoji, 'strip' = moving strip under the event, 'sport' = hopping icon, 'fest' = banner + scene]
+  ['cny', /chinese new year|lunar new year|農曆新年|春節|年初[一二三]|除夕|團年|\bcny\b/i, '🧧', 'fest'],
+  ['xmas', /christmas|xmas|聖誕|平安夜|boxing day|節禮日/i, '🎄', 'fest'],
+  ['midautumn', /mid.?autumn|中秋|moon ?festival|月餅/i, '🥮', 'fest'],
+  ['newyear', /new year|元旦|倒數|countdown|hogmanay/i, '🎆', 'fest'],
+  ['bonfire', /bonfire|fireworks?|guy fawkes|煙花/i, '🎆', 'fest'],
+  ['halloween', /hallowe'?en|萬聖/i, '🎃', 'fest'],
+  ['easter', /easter|復活節/i, '🐣', 'fest'],
+  ['valentine', /valentine|情人節/i, '💝', 'fest'],
+  ['mother', /mother'?s day|mothering sunday|母親節/i, '💐', 'fest'],
+  ['father', /father'?s day|父親節/i, '👔', 'fest'],
+  ['dragon', /dragon ?boat|端午|龍舟|糉/i, '🐉', 'fest'],
+  ['birthday', /birthday|b'?day|生日|做壽|大壽|壽宴/i, '🎂', 'fest'],
+  ['swim', /swim|游水|游泳|水運會|aquatic/i, '🏊', 'strip'],
+  ['football', /football|soccer|足球|踢波|睇波|英超|premier league|arsenal|chelsea|liverpool|tottenham|spurs|man (utd|united|city)|newcastle|aston villa|watford|\bfc\b| vs?\.? /i, '⚽', 'strip'],
+  ['pingpong', /table tennis|ping ?pong|乒乓/i, '🏓', 'strip'],
+  ['tennis', /tennis|網球/i, '🎾', 'strip'],
+  ['badminton', /badminton|羽毛球/i, '🏸', 'strip'],
+  ['basketball', /basketball|netball|籃球|投球/i, '🏀', 'strip'],
+  ['run', /\brun\b|running|jog|marathon|parkrun|跑步|長跑|cross.?country/i, '🏃', 'strip'],
+  ['cycle', /cycl|bike|單車|踩車/i, '🚴', 'strip'],
+  ['gym', /\bgym\b|健身|workout|fitness|\bpe\b|p\.e\.|體育/i, '🏋️', 'sport'],
+  ['yoga', /yoga|瑜伽|pilates/i, '🧘', 'sport'],
+  ['dance', /ballet|芭蕾|danc|跳舞/i, '🩰', 'sport'],
+  ['martial', /karate|taekwondo|跆拳|judo|柔道|kung ?fu|功夫|martial|wushu|武術/i, '🥋', 'sport'],
+  ['golf', /golf|高爾夫/i, '⛳', 'sport'],
+  ['ski', /\bski(ing)?\b|滑雪|snowboard/i, '⛷️', 'sport'],
+  ['skate', /skat|溜冰/i, '⛸️', 'sport'],
+  ['climb', /climb|攀石|bouldering/i, '🧗', 'sport'],
+  ['cricket', /cricket|板球/i, '🏏', 'sport'],
+  ['rugby', /rugby|欖球/i, '🏉', 'sport'],
+  ['hockey', /hockey|曲棍球/i, '🏑', 'sport'],
+  ['sportsday', /sports? day|運動會|athletics|田徑|gymnastics|體操|match|比賽/i, '🏅', 'sport']
+];
+function kindOf(title) { for (var i = 0; i < KINDS.length; i++) if (KINDS[i][1].test(title)) return KINDS[i]; return null; }
+function kindByName(k) { for (var i = 0; i < KINDS.length; i++) if (KINDS[i][0] === k) return KINDS[i]; return null; }
+/* Festivals that appear on their own. Month-day for fixed dates, full date for lunar ones. */
+var FEST = {
+  '12-24': ['xmas', '平安夜', 'Christmas Eve'], '12-25': ['xmas', '聖誕節', 'Christmas Day'], '12-26': ['xmas', '節禮日', 'Boxing Day'],
+  '12-31': ['newyear', '除夕倒數', 'New Year\'s Eve'], '01-01': ['newyear', '元旦', 'New Year\'s Day'],
+  '02-14': ['valentine', '情人節', 'Valentine\'s Day'], '10-31': ['halloween', '萬聖節', 'Halloween'], '11-05': ['bonfire', '煙花之夜', 'Bonfire Night'],
+  '2027-02-05': ['cny', '年三十晚', 'Chinese New Year\'s Eve'], '2027-02-06': ['cny', '年初一', 'Chinese New Year'], '2027-02-07': ['cny', '年初二', 'Chinese New Year'], '2027-02-08': ['cny', '年初三', 'Chinese New Year'],
+  '2028-01-25': ['cny', '年三十晚', 'Chinese New Year\'s Eve'], '2028-01-26': ['cny', '年初一', 'Chinese New Year'], '2028-01-27': ['cny', '年初二', 'Chinese New Year'], '2028-01-28': ['cny', '年初三', 'Chinese New Year'],
+  '2027-03-07': ['mother', '母親節', 'Mother\'s Day'], '2028-03-26': ['mother', '母親節', 'Mother\'s Day'],
+  '2027-03-28': ['easter', '復活節', 'Easter Sunday'], '2028-04-16': ['easter', '復活節', 'Easter Sunday'],
+  '2027-06-09': ['dragon', '端午節', 'Dragon Boat Festival'], '2028-05-28': ['dragon', '端午節', 'Dragon Boat Festival'],
+  '2027-06-20': ['father', '父親節', 'Father\'s Day'], '2028-06-18': ['father', '父親節', 'Father\'s Day'],
+  '2026-09-25': ['midautumn', '中秋節', 'Mid-Autumn Festival'], '2027-09-15': ['midautumn', '中秋節', 'Mid-Autumn Festival'], '2028-10-03': ['midautumn', '中秋節', 'Mid-Autumn Festival']
+};
+function festOn(d) { var md = pad(d.getMonth() + 1) + '-' + pad(d.getDate()); return FEST[d.getFullYear() + '-' + md] || FEST[md] || null; }
+function rnd(seed) { return function () { seed = (seed * 9301 + 49297) % 233280; return seed / 233280; }; }
+/* The little scene behind a festival day. Positions come from the date, so they stay put between refreshes. */
+function scene(kind, seed) {
+  var R = rnd(seed), out = '', i;
+  function p(n) { return (R() * n).toFixed(1); }
+  function fall(n, inner, slow) { for (var j = 0; j < n; j++) out += '<i class="fall" style="left:' + p(96) + '%;animation-duration:' + (slow + R() * slow).toFixed(1) + 's;animation-delay:-' + p(slow * 2) + 's">' + inner(j) + '</i>'; }
+  function rise(n, ems, slow) { for (var j = 0; j < n; j++) out += '<i class="rise" style="left:' + p(80) + '%;animation-duration:' + (slow + R() * slow * .6).toFixed(1) + 's;animation-delay:-' + p(slow * 1.6) + 's">' + ems[j % ems.length] + '</i>'; }
+  function sparks(n, color) { for (var j = 0; j < n; j++) out += '<i class="spark" style="left:' + p(90) + '%;top:' + (30 + R() * 60).toFixed(1) + '%;color:' + color + ';animation-delay:-' + p(2.2) + 's">✦</i>'; }
+  function bursts(colors) { for (var j = 0; j < colors.length; j++) {
+    var sh = [], c = colors[j];
+    for (var a = 0; a < 12; a++) { var t = a * Math.PI / 6; sh.push((Math.cos(t) * 46).toFixed(0) + 'px ' + (Math.sin(t) * 46).toFixed(0) + 'px 0 ' + c); }
+    out += '<i class="fw" style="left:' + (15 + R() * 65).toFixed(1) + '%;top:' + (35 + R() * 45).toFixed(1) + '%;background:' + c + ';box-shadow:' + sh.join(',') + ';animation-delay:-' + (j * 0.9).toFixed(1) + 's"></i>';
+  } }
+  var CONF = ['#f3b649', '#e58fb6', '#6aaef8', '#8bd17c', '#b49cf2', '#f07a7a'];
+  switch (kind) {
+    case 'xmas':
+      fall(12, function () { return '<i class="flake"></i>'; }, 7);
+      out += '<i class="snowbank"></i><i class="big" style="left:12px;bottom:12px">🎄</i><i class="big" style="right:12px;bottom:14px;font-size:36px;animation-delay:-1s">🎁</i>'; break;
+    case 'cny':
+      sparks(10, '#ffd36b');
+      out += '<i class="hang" style="left:8px;top:auto;bottom:70px">🏮</i><i class="hang" style="right:8px;top:auto;bottom:70px;animation-delay:-1.3s">🏮</i><i class="big" style="left:50%;margin-left:-22px;font-size:44px">🧧</i>'; break;
+    case 'midautumn':
+      out += '<i class="moon"></i>'; rise(3, ['🏮'], 14);
+      out += '<i class="hop">🐇</i>'; break;
+    case 'newyear': case 'bonfire':
+      bursts(['#f3b649', '#e58fb6', '#6aaef8', '#8bd17c']); sparks(6, '#fff'); break;
+    case 'halloween':
+      out += '<i class="fly">🦇</i><i class="fly" style="top:58%;animation-delay:-4.5s;font-size:20px">🦇</i><i class="big" style="left:12px">🎃</i><i class="big" style="right:10px;font-size:40px;animation-delay:-1.2s">👻</i>'; break;
+    case 'easter':
+      out += '<i class="hop">🐣</i><i class="big" style="right:12px;font-size:36px">🥚</i>'; sparks(6, '#e5b84c'); break;
+    case 'valentine': case 'mother': rise(6, ['❤️', '💗', '💐'], 9); break;
+    case 'father': rise(5, ['💙', '⭐'], 9); break;
+    case 'dragon':
+      out += '<i class="wave" style="left:0;bottom:0;width:200%;animation-duration:4s"></i><i class="boat">🐉</i>'; break;
+    case 'birthday':
+      fall(14, function (j) { return '<i class="conf" style="background:' + CONF[j % CONF.length] + ';animation-delay:-' + (j * .37 % 1.6).toFixed(2) + 's"></i>'; }, 6);
+      rise(3, ['🎈'], 11); break;
+  }
+  return out ? '<div class="wfx f-' + kind + '">' + out + '</div>' : '';
+}
 function showCal() {
   if (!CAL) return;
   $('ctag').hidden = !calSample;
-  var now = new Date(), today = new Date(now.getFullYear(), now.getMonth(), now.getDate()), tk = dayKey(today);
-  var groups = {}, order = [];
+  var now = new Date(), today = new Date(now.getFullYear(), now.getMonth(), now.getDate()), days = [];
+  for (var i = 0; i < 7; i++) { var d = new Date(today); d.setDate(today.getDate() + i); days.push({ d: d, k: dayKey(d), ev: [] }); }
   CAL.events.forEach(function (e) {
     var s = evDate(e.start), en = e.end ? evDate(e.end) : s;
-    if (e.allDay ? en < today && dayKey(en) < tk : en < now && dayKey(s) < tk) return;   // finished before today
-    var k = dayKey(s) < tk ? tk : dayKey(s);
-    if (!groups[k]) { groups[k] = []; order.push(k); }
-    groups[k].push({ e: e, s: s, en: en });
+    days.forEach(function (x) {
+      // all-day events show on every day they cover; timed events on the day they start (or today if still going)
+      var on = e.allDay ? dayKey(s) <= x.k && dayKey(en) >= x.k : dayKey(s) === x.k || (x.k === days[0].k && dayKey(s) < x.k && en > now);
+      if (on) x.ev.push({ e: e, s: s, en: en, kind: kindOf(e.title || '') });
+    });
   });
-  order.sort(function (a, b) { return a - b; });
-  function label(k) {
-    var y = Math.floor(k / 10000), m = Math.floor(k / 100) % 100, d = k % 100, dt = new Date(y, m, d), diff = Math.round((dt - today) / 864e5);
-    var zh = ['日', '一', '二', '三', '四', '五', '六'][dt.getDay()];
-    return (diff === 0 ? '今日 Today' : diff === 1 ? '聽日 Tomorrow' : '星期' + zh + ' ' + DAYS[dt.getDay()].slice(0, 3)) + ' · ' + d + '/' + (m + 1);
-  }
-  function row(x) {
-    var e = x.e, cls = '';
-    if (!e.allDay && x.en < now) cls = ' past'; else if (!e.allDay && x.s <= now) cls = ' now';
-    var tm = e.allDay ? '全日' : pad(x.s.getHours()) + ':' + pad(x.s.getMinutes());
-    return '<div class="ev' + cls + '"><i style="background:' + esc(e.color || '#6aaef8') + '"></i><span class="tm">' + tm + '</span><span class="ti">' + esc(e.title || '(no title)') + '</span></div>';
-  }
-  // One column: today first, then the next days, up to LINES lines (day headings count).
-  var LINES = 6, todays = (groups[tk] || []).filter(function (x) { return !(!x.e.allDay && x.en < now); });
   function byTime(a, b) { return (b.e.allDay - a.e.allDay) || (a.s - b.s); }
-  todays.sort(byTime);
-  var out = '<div class="eday">' + label(tk) + '</div>', used = 1;
-  if (todays.length) { var t = todays.slice(0, 3); out += t.map(row).join(''); used += t.length; }
-  else { out += '<div class="enone">今日冇嘢 · Nothing today</div>'; used++; }
-  order.forEach(function (k) {
-    if (k === tk || used >= LINES - 1) return;
-    var list = groups[k].sort(byTime).slice(0, LINES - 1 - used);
-    out += '<div class="eday later">' + label(k) + '</div>' + list.map(row).join('');
-    used += list.length + 1;
+  function chip(x) {
+    var e = x.e, k = x.kind, cls = 'we', fx = '';
+    if (!e.allDay && x.en < now) cls += ' past'; else if (!e.allDay && x.s <= now) cls += ' now';
+    if (k) {
+      cls += ' k-' + k[0];
+      if (k[3] === 'fest') cls += ' fest f-' + k[0];
+      else if (k[3] === 'sport') cls += ' sport';
+      else { cls += ' strip'; fx = '<div class="fx">' + (k[0] === 'swim' ? '<i class="wave"></i>' : '') + '<i class="go"><b>' + k[2] + '</b></i></div>'; }
+    }
+    var tm = e.allDay ? '全日 All day' : pad(x.s.getHours()) + ':' + pad(x.s.getMinutes());
+    return '<div class="' + cls + '" style="--c:' + esc(e.color || '#6aaef8') + '"><div class="tr"><span class="tm">' + tm + '</span>' +
+      (k && k[3] !== 'strip' ? '<span class="em">' + k[2] + '</span>' : '') + '</div><div class="ti">' + esc(e.title || '(no title)') + '</div>' + fx + '</div>';
+  }
+  var out = '';
+  days.forEach(function (x, i) {
+    var list = x.ev.sort(byTime), fest = festOn(x.d), festKind = null, MAX = 6;
+    list.forEach(function (y) { if (!festKind && y.kind && y.kind[3] === 'fest') festKind = y.kind[0]; });
+    if (fest) {   // a festival from the list above: add it as a banner unless the calendar already has one
+      if (!festKind || festKind !== fest[0]) list.unshift({ e: { allDay: true, title: fest[1] + ' ' + fest[2], color: '' }, s: x.d, en: x.d, kind: kindByName(fest[0]) });
+      festKind = festKind || fest[0];
+    }
+    if (i === 0 && list.length > MAX) list = list.filter(function (y) { return y.e.allDay || y.en >= now; });   // today: drop finished ones first
+    var dw = x.d.getDay(), cls = 'wd' + (i === 0 ? ' today' : '') + (dw === 0 || dw === 6 ? ' wkend' : '');
+    var head = i === 0 ? '今日 Today' : i === 1 ? '聽日' : ZH_DAYS[dw];
+    out += '<div class="' + cls + '">' + (festKind ? scene(festKind, x.k % 233280) : '') +
+      '<div class="wh"><span class="dn">' + x.d.getDate() + '</span><span class="dw">' + head + '<small>' + DAYS[dw].slice(0, 3) + ' · ' + MONTHS[x.d.getMonth()].slice(0, 3) + '</small></span></div>' +
+      (list.length ? list.slice(0, MAX).map(chip).join('') + (list.length > MAX ? '<div class="wmore">+' + (list.length - MAX) + ' more</div>' : '') : '<div class="wnone">冇嘢 · Free</div>') + '</div>';
   });
-  $('evs').innerHTML = out;
+  var last = days[6].d;
+  $('wrng').textContent = days[0].d.getDate() + ' ' + MONTHS[days[0].d.getMonth()].slice(0, 3) + ' – ' + last.getDate() + ' ' + MONTHS[last.getMonth()].slice(0, 3);
+  if (out !== WK_HTML) { WK_HTML = out; $('wk').innerHTML = out; }   // only redraw when something changed, so animations don't restart
 }
 loadCal(); setInterval(loadCal, 15 * 60 * 1000); setInterval(showCal, 60 * 1000);
 
@@ -815,7 +1015,7 @@ $('play').addEventListener('click', function () {
   speechSynthesis.speak(u);
 });
 
-/* ---------- page 3: Premier League table ----------
+/* ---------- page 4: Premier League table ----------
    table.json is saved every hour by .github/workflows/table.yml (tools/build_table.py),
    so the iPad never has to reach the football site itself. */
 function esc(t) { return String(t).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
