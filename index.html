@@ -421,11 +421,12 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 .app .dot svg { width: 22px; height: 22px; }
 #league .top { align-items: center; }
 
-#news { grid-column: 1 / 8; grid-row: 7 / 9; padding: 16px 28px; }
-#news #play { padding: 6px 14px; font-size: 14px; }
-.nh { display: flex; justify-content: space-between; align-items: center; }
-#nws { display: grid; grid-template-columns: 1fr 1fr; gap: 0 26px; margin-top: 6px; }
-.ncol { min-width: 0; }
+#days { grid-column: 1 / 8; grid-row: 7 / 9; padding: 20px 26px 18px 30px; display: flex; flex-direction: column; }
+#dstrip { flex: 1; display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-top: 10px; }
+.dd { background: var(--tile-2); border-radius: 18px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; }
+.dd .dn { font-size: 18px; font-weight: 700; } .dd .dn small { color: var(--muted); font-weight: 600; font-size: 13px; margin-left: 4px; }
+.dd .hl { font-size: 22px; font-weight: 700; } .dd .hl span { color: var(--muted); font-weight: 500; margin-left: 6px; }
+.dd .p { color: var(--rain); font-size: 14px; font-weight: 600; height: 18px; }
 .nw { padding: 5px 0; border-bottom: 1px solid var(--line); font-size: 17px; line-height: 1.3; font-weight: 500; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
 .nw:last-child { border-bottom: 0; }
 .nw span { color: var(--sun); font-size: 11px; letter-spacing: .1em; font-weight: 700; margin-right: 8px; }
@@ -478,7 +479,117 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 .brow.soon { border-color: #6a3f5a; background: linear-gradient(90deg, #2a1b2b, var(--tile)); }
 .brow.soon .dl b { color: #f3c1d6; }
 body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state: paused !important; }
+#play2.on { background: var(--rain); }
+#play2 { font: 700 17px var(--font); background: var(--sun); color: #1a1a1a; border: 0; border-radius: 999px; padding: 9px 18px; white-space: nowrap; }
+.nw.en span { color: var(--rain); }
 #status { position: absolute; right: 36px; bottom: 6px; font-size: 11px; color: #3d4a5c; }
+
+/* ----- Hong Kong corner (page 5): Observatory cameras, time-lapse, HK weather ----- */
+#hkc { padding: 30px 40px 70px; display: grid; grid-template-columns: 960px 1fr; grid-template-rows: auto 540px 1fr; gap: 18px 22px; }
+#hkc .top { grid-column: 1 / 3; display: flex; align-items: baseline; justify-content: space-between; padding: 0 6px; }
+#hkc h1 { margin: 0; font-size: 44px; font-weight: 600; letter-spacing: -.01em; }
+#hkc h1 span { color: var(--muted); font-weight: 400; font-size: 30px; margin-left: 12px; }
+#hkTime { font-size: 54px; font-weight: 600; letter-spacing: -.02em; }
+#hkTime small { font-size: 24px; color: var(--muted); font-weight: 500; margin-left: 14px; letter-spacing: 0; }
+#hkView { position: relative; border-radius: 26px; overflow: hidden; background: #05080c; }
+#hkView img, #hkCams .cam img { position: absolute; left: 0; top: -6%; width: 100%; height: 106%; object-fit: cover; object-position: bottom; }   /* hide the Observatory's white caption strip */
+#hkView .chip { position: absolute; left: 18px; top: 16px; background: rgba(8,12,18,.62); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-radius: 12px; padding: 7px 14px; font-size: 20px; font-weight: 600; }
+#hkView .chip b { color: var(--sun); font-weight: 700; margin-left: 8px; font-size: 17px; }
+#hkView .bar { position: absolute; left: 18px; right: 18px; bottom: 14px; height: 5px; border-radius: 3px; background: rgba(255,255,255,.18); overflow: hidden; }
+#hkView .bar i { display: block; height: 100%; width: 0; background: var(--sun); border-radius: 3px; }
+#hkLiveBtn { position: absolute; right: 16px; top: 14px; font: 700 18px var(--font); background: #ff0033; color: #fff; border: 0; border-radius: 999px; padding: 9px 18px; }
+#hkLiveBtn[hidden] { display: none; }
+#hkWx { background: var(--tile); border: 1px solid var(--line); border-radius: 26px; padding: 22px 24px; display: flex; flex-direction: column; gap: 12px; overflow: hidden; }
+#hkWx .now { display: flex; align-items: center; gap: 14px; }
+#hkWx .now .ic { color: var(--sun); flex: none; }
+#hkWx .t { font-size: 72px; font-weight: 300; line-height: 1; letter-spacing: -.03em; }
+#hkWx .m { color: var(--muted); font-size: 17px; line-height: 1.4; }
+#hkWx .warn { display: flex; flex-wrap: wrap; gap: 6px; }
+#hkWx .warn span { background: #5a3a10; color: #ffd27a; border-radius: 10px; padding: 4px 10px; font-size: 15px; font-weight: 700; }
+#hkWx .desc { font-size: 17px; line-height: 1.45; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden; }
+#hkWx .days { margin-top: auto; border-top: 1px solid var(--line); }
+#hkWx .day { display: flex; align-items: center; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 18px; }
+#hkWx .day:last-child { border-bottom: 0; }
+#hkWx .day .d { width: 64px; color: var(--muted); font-weight: 600; }
+#hkWx .day .ic { color: var(--sun); }
+#hkWx .day .r { margin-left: auto; font-weight: 600; }
+#hkWx .day .r span { color: var(--muted); font-weight: 500; }
+#hkCams { grid-column: 1 / 3; display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
+#hkCams .cam { position: relative; border-radius: 18px; overflow: hidden; background: #05080c; border: 2px solid transparent; }
+#hkCams .cam.on { border-color: var(--sun); }
+#hkCams .cam span { position: absolute; left: 8px; bottom: 8px; background: rgba(8,12,18,.62); border-radius: 9px; padding: 3px 9px; font-size: 16px; font-weight: 600; }
+#hkLive { position: fixed; inset: 0; background: rgba(4,6,10,.92); z-index: 40; display: flex; align-items: center; justify-content: center; }
+#hkLive[hidden] { display: none; }
+#hkLive iframe { width: 90vw; height: 50.6vw; max-height: 86vh; max-width: 153vh; border: 0; border-radius: 18px; background: #000; }
+#hkLive button { position: absolute; top: max(16px, env(safe-area-inset-top)); right: 20px; font: 700 18px var(--font); background: #2a3646; color: var(--fg); border: 0; border-radius: 999px; padding: 10px 20px; }
+/* ----- news page: world map with a pin for each story, one story at a time below ----- */
+#newsp { padding: 30px 34px 60px; display: flex; flex-direction: column; }
+#newsp .top { display: flex; align-items: center; justify-content: space-between; padding: 0 6px 14px; }
+#newsp h1 { margin: 0; font-size: 44px; font-weight: 600; letter-spacing: -.01em; }
+#newsp h1 span { color: var(--muted); font-weight: 400; font-size: 30px; margin-left: 12px; }
+#newsp .upd { font-size: 17px; color: var(--muted); font-weight: 500; display: flex; align-items: center; gap: 16px; }
+#nmap { position: relative; height: 430px; border-radius: 22px; overflow: hidden; background: radial-gradient(ellipse at 50% 40%, #13202f 0%, #0d151f 75%); flex: none; }
+#nmap img { position: absolute; left: 0; top: -10px; width: 1298px; height: 497px; opacity: .95; }
+.pin { position: absolute; width: 0; height: 0; }
+.pin i { position: absolute; left: -7px; top: -7px; width: 14px; height: 14px; border-radius: 50%; background: var(--sun); box-shadow: 0 0 0 3px rgba(243,182,73,.25); transition: transform .4s; }
+.pin.en i { background: var(--rain); box-shadow: 0 0 0 3px rgba(106,174,248,.25); }
+.pin b { position: absolute; left: 9px; top: -22px; font-size: 12px; font-weight: 700; color: #0b1016; background: #c9d3df; border-radius: 8px; padding: 0 5px; line-height: 16px; }
+.pin.on { z-index: 3; }
+.pin.on i { transform: scale(1.5); background: #fff; box-shadow: 0 0 0 4px rgba(255,255,255,.3); }
+.pin.on::before { content: ""; position: absolute; left: -30px; top: -30px; width: 60px; height: 60px; border-radius: 50%; border: 3px solid #fff; animation: nwRing 2s ease-out infinite; }
+.pin .lab { position: absolute; left: 22px; top: -20px; white-space: nowrap; font-size: 22px; font-weight: 700; background: rgba(8,12,18,.82); border: 1px solid #3a4a60; border-radius: 12px; padding: 4px 12px; color: #fff; }
+.pin.left .lab { left: auto; right: 22px; }
+@keyframes nwRing { from { transform: scale(.3); opacity: 1; } to { transform: scale(1.4); opacity: 0; } }
+body:not(.pnews) #newsp *, body:not(.pnews) #newsp *::before { animation-play-state: paused !important; }
+#nbody { flex: 1; display: flex; gap: 22px; margin-top: 18px; min-height: 0; }
+#nfeat { flex: 1.7; display: flex; gap: 22px; background: var(--tile); border-radius: 22px; padding: 20px; min-width: 0; transition: opacity .5s; }
+#nfeat.fade { opacity: 0; }
+#nimg { flex: none; width: 380px; border-radius: 16px; background: linear-gradient(150deg, #2a3a52, #141b24) center / cover; display: flex; align-items: flex-end; padding: 14px; box-sizing: border-box; font-size: 40px; font-weight: 700; color: rgba(255,255,255,.18); }
+#nimg.zh { background-image: linear-gradient(150deg, #5a4520, #141b24); }
+#ntxt { min-width: 0; display: flex; flex-direction: column; }
+#ntxt .src { font-size: 14px; font-weight: 700; letter-spacing: .1em; color: var(--sun); display: flex; gap: 10px; align-items: center; }
+#ntxt .src.en { color: var(--rain); }
+#ntxt .src em { font-style: normal; color: var(--muted); letter-spacing: 0; font-weight: 600; }
+#ntxt h2 { margin: 10px 0 10px; font-size: 32px; line-height: 1.25; font-weight: 700; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden; }
+#ntxt p { margin: 0; font-size: 19px; line-height: 1.45; color: #b9c4d2; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden; }
+#nlist { flex: 1; background: var(--tile); border-radius: 22px; padding: 14px 20px; min-width: 0; overflow: hidden; }
+#nlist .lbl { margin-bottom: 4px; }
+#nlist .nw { font-size: 17px; }
+#nbar { height: 4px; border-radius: 2px; background: var(--line); margin-top: auto; overflow: hidden; }
+#nbar i { display: block; height: 100%; width: 0; background: var(--muted); }
+#nbar i.go { width: 100%; transition: width 10s linear; }
+/* ----- live football score: a small card at the top of every page while a match is on ----- */
+#live { position: fixed; left: 50%; top: max(12px, env(safe-area-inset-top)); transform: translateX(-50%); z-index: 6; display: flex; align-items: center; gap: 8px; pointer-events: auto; }
+#live[hidden] { display: none; }
+#live .m { display: flex; align-items: center; gap: 14px; padding: 9px 20px 9px 14px; border-radius: 999px; background: rgba(10,14,20,.86); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); border: 1px solid #2a3647; box-shadow: 0 8px 30px rgba(0,0,0,.35); font-weight: 700; white-space: nowrap; }
+#live .m.fav { border-color: #da291c; background: linear-gradient(90deg, rgba(90,10,10,.9), rgba(10,14,20,.9) 40%, rgba(10,14,20,.9) 60%, rgba(90,10,10,.9)); }
+#live .m.small { font-size: 15px; padding: 5px 14px 5px 10px; gap: 10px; opacity: .9; }
+#live .m.small img { width: 22px; height: 22px; }
+#live .m.small .sc { font-size: 20px; min-width: 56px; }
+#live .tm { display: flex; align-items: center; gap: 8px; font-size: 20px; }
+#live img { width: 34px; height: 34px; object-fit: contain; }
+#live .sc { font-size: 32px; letter-spacing: .02em; min-width: 84px; text-align: center; font-variant-numeric: tabular-nums; }
+#live .st { font-size: 15px; color: #c9d3df; display: flex; align-items: center; gap: 6px; min-width: 50px; }
+#live .st i { width: 9px; height: 9px; border-radius: 50%; background: #ff3b30; animation: lvPulse 1.6s infinite; }
+#live .st.pre, #live .st.ft { color: var(--sun); }
+#live .m.goal { animation: lvGoal .6s ease-in-out 6 alternate; }
+#live .m.goal .sc { color: var(--sun); }
+#live .gl { font-size: 15px; color: var(--sun); letter-spacing: .08em; }
+@keyframes lvPulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+@keyframes lvGoal { from { transform: scale(1); } to { transform: scale(1.08); box-shadow: 0 0 40px rgba(243,182,73,.6); } }
+/* ----- night mode: a dim, soft clock on black (CONFIG.night). Tap to see the dashboard for a while. ----- */
+#night { position: fixed; inset: 0; z-index: 50; background: #000; display: none; color: #b98a5e; }
+body.night #night { display: block; }
+body.night #pages, body.night #dots { display: none; }   /* hidden pages stop their animations: easy on the old iPad */
+#nclk { position: absolute; left: 50%; top: 50%; text-align: center; transform: translate(-50%, -50%); transition: margin 2s ease; opacity: .55; }
+#ntime { white-space: nowrap; font-weight: 300; line-height: .9; letter-spacing: -.04em; font-variant-numeric: tabular-nums; text-shadow: 0 0 40px rgba(185,138,94,.25); }
+#ntime i { font-style: normal; display: inline-block; animation: nColon 4s ease-in-out infinite; }
+@keyframes nColon { 0%, 100% { opacity: .9; } 50% { opacity: .25; } }
+#ndate { font-weight: 500; letter-spacing: .03em; margin-top: .9em; opacity: .65; }
+#ntemp { font-weight: 500; margin-top: .5em; opacity: .5; }
+#nhint { position: absolute; left: 0; right: 0; bottom: 18px; text-align: center; font-size: 13px; color: #b98a5e; opacity: .18; }
+body.peek #pages { opacity: .5; }
+body.night #live { display: none; }   /* no scores on the night clock */
 </style>
 </head>
 <body>
@@ -488,7 +599,7 @@ body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state
   <section class="t" id="clock"><div id="wbg"></div><div id="cl"><div id="time" class="num"></div><div id="date"></div><div id="hk"></div></div><div id="cw"><div id="now"><div class="lbl mut">Loading weather…</div></div><div id="indoor" hidden></div><div id="stats"></div></div><a id="heat" href="#"></a></section>
   <section class="t" id="hours"><div class="lbl">Next 12 hours</div><div class="strip" id="strip"></div></section>
   <section class="t" id="photo"><div class="loc" id="capL"></div><div class="cap"><span id="capT"></span><span class="w" id="capW"></span></div><div class="tag" id="ptag" hidden>示範相片 · sample</div><div class="add" id="padd" aria-label="Add a note">✎</div></section>
-  <section class="t" id="news"><div class="nh"><div class="lbl">新聞 · News</div><button id="play" type="button" aria-label="Play Cantonese summary">▶ 播放</button></div><div id="nws"></div></section>
+  <section class="t" id="days"><div class="lbl">未來五日 · Next 5 days</div><div id="dstrip"></div></section>
   <div id="status"></div>
 </div>
 </div>
@@ -517,6 +628,24 @@ body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state
   <div class="info" id="binfoR"></div>
 </div>
 </div>
+<div class="page" id="pnews">
+<div class="stage" id="newsp">
+  <div class="top"><h1>新聞<span>News · 香港 &amp; UK</span></h1><div class="upd"><span id="nupd"></span><button id="play2" class="play" type="button">▶ 播放</button></div></div>
+  <div id="nmap"><img src="world.svg" alt=""><div id="npins"></div></div>
+  <div id="nbody">
+    <div id="nfeat"><div id="nimg"></div><div id="ntxt"><div class="src" id="nsrc"></div><h2 id="nttl"></h2><p id="ndsc"></p><div id="nbar"><i></i></div></div></div>
+    <div id="nlist"><div class="lbl">跟住 · Up next</div><div id="nnext"></div></div>
+  </div>
+</div>
+</div>
+<div class="page" id="phk">
+<div class="stage" id="hkc">
+  <div class="top"><h1>香港角落<span>Hong Kong corner</span></h1><div id="hkTime" class="num"></div></div>
+  <div id="hkView"><img id="hkA" alt=""><div class="chip" id="hkChip"></div><button type="button" id="hkLiveBtn" hidden>▶ 直播 Live</button><div class="bar"><i id="hkBar"></i></div></div>
+  <div id="hkWx"><div class="m">載入香港天氣… Loading HK weather</div></div>
+  <div id="hkCams"></div>
+</div>
+</div>
 <div class="page" id="p3">
 <div class="stage" id="league">
   <div class="top"><h1>Premier League<span>英超積分榜</span></h1><div id="apps"><a class="app sp" href="spotify:"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">Spotify</span></a><a class="app yt" href="youtube://"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">YouTube</span></a></div><div class="upd" id="lupd"></div></div>
@@ -531,6 +660,8 @@ body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state
 </div>
 </div></div>
 <div id="dots"></div>
+<div id="live" hidden></div>
+<div id="night"><div id="nclk"><div id="ntime"></div><div id="ndate"></div><div id="ntemp"></div></div><div id="nhint">輕按顯示 · Tap to wake</div></div>
 <div id="note" hidden><div class="box">
   <div class="top"><div class="thumb" id="nThumb"></div><div><h3>留言 · Add a note</h3><div class="sub" id="nSub"></div></div></div>
   <div class="old" id="nOld"></div>
@@ -549,10 +680,15 @@ var CONFIG = {
   secondCity: '香港', secondZone: 'Asia/Hong_Kong',
   // Pages turn by themselves: each page in 'pages' (1 = dashboard) shows for 'secs' seconds.
   // After a swipe to a page outside the list, it stays there for 'stay' seconds before carrying on.
-  rotate: { secs: 60, pages: [1, 2, 3], stay: 300 },
+  rotate: { secs: 60, pages: [1, 2, 3, 4, 5], stay: 300 },
+  // Night mode: between these hours (iPad's own clock) a dim, soft clock replaces the pages.
+  // A tap shows the dashboard (dimmed) for 'wake' seconds, then the night clock comes back. ?night=1 / ?night=0 to test.
   // Birthday page (last page): joins the turning pages when the next birthday is this many days away or less.
   birthdaySoon: 14,
-  dimFrom: 23, dimTo: 7          // screen dims between these hours
+  night: { from: 23, to: 7, wake: 120 },
+  // Live football scores (ESPN): a card shows at the top while a match is on.
+  // 'follow' = your team (names or ESPN 3-letter code); its cup games show too, and its match day shows a kick-off time.
+  football: { follow: ['Man United', 'Manchester United', 'MUN'], leagues: ['eng.1'], cups: ['eng.fa', 'eng.league_cup', 'uefa.champions', 'uefa.europa', 'uefa.europa.conf'] }
 };
 /* =================================== */
 
@@ -614,7 +750,7 @@ function fitStage() {
 addEventListener('resize', fitStage); fitStage();
 
 /* ---------- pages: swipe left/right, tap the dots, or use the arrow keys ----------
-   Page 1 is the dashboard, page 2 this week's calendar, page 3 the analog clock, page 4 the league table, page 5 birthday countdown. To add a page, add another
+   Page 1 is the dashboard, page 2 this week's calendar, page 3 the analog clock, page 4 the news map, page 5 the Hong Kong corner, page 6 the league table, page 7 birthday countdown. To add a page, add another
    <div class="page"> inside #track. The iPad remembers the last page shown. */
 var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
 (function () {
@@ -635,6 +771,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
     pageAt = Date.now();
     document.body.classList.toggle('pcal', PAGE === CAL_PAGE);   // calendar animations only run while it shows
     document.body.classList.toggle('pbday', PAGE === BDAY_PAGE);
+    document.body.classList.toggle('pnews', !!pages[PAGE] && pages[PAGE].id === 'pnews');
     if (window.ZH_DAYS) bigTick(new Date());   // start or stop the sweeping hand right away
   };
   var start = +new URLSearchParams(location.search).get('page') - 1;
@@ -669,6 +806,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
   document.addEventListener('touchstart', function () { pageAt = Date.now(); }, { passive: true });
   setInterval(function () {
     var R = CONFIG.rotate; if (!R || !R.secs || !R.pages || !R.pages.length) return;
+    if (isNight()) { pageAt = Date.now(); return; }   // night: no page turning, even while peeking
     if ((typeof noteOpen !== 'undefined' && noteOpen) || (window.speechSynthesis && speechSynthesis.speaking)) { pageAt = Date.now(); return; }
     var list = R.pages.map(function (p) { return p - 1; });
     if (window.bdaySoon && BDAY_PAGE >= 0 && list.indexOf(BDAY_PAGE) < 0) list.push(BDAY_PAGE);   // birthday page joins in when one is close
@@ -692,13 +830,50 @@ function tick() {
       d.toLocaleDateString('zh-HK', { timeZone: CONFIG.secondZone, weekday: 'short' });
   } catch (e) { $('hk').innerHTML = ''; }
   bigTick(d);
-  var dim = CONFIG.dimFrom > CONFIG.dimTo ? (h >= CONFIG.dimFrom || h < CONFIG.dimTo) : (h >= CONFIG.dimFrom && h < CONFIG.dimTo);
-  $('pages').style.opacity = dim ? '0.35' : '1';
+  nightTick(d);
   if (d.getSeconds() === 0) { // nudge a few pixels every minute against screen burn-in
     var st = document.querySelectorAll('.stage');
     for (var i = 0; i < st.length; i++) { st[i].style.marginLeft = (d.getMinutes() % 5 - 2) + 'px'; st[i].style.marginTop = (d.getMinutes() % 3 - 1) + 'px'; }
   }
 }
+
+/* ---------- night mode ---------- */
+var NIGHT = false, peekUntil = 0, NIGHT_TEST = new URLSearchParams(location.search).get('night');
+function isNight() {
+  if (NIGHT_TEST === '1') return true; if (NIGHT_TEST === '0') return false;
+  var N = CONFIG.night; if (!N) return false;
+  var h = new Date().getHours();
+  return N.from > N.to ? (h >= N.from || h < N.to) : (h >= N.from && h < N.to);
+}
+function nightTick(d) {
+  var on = isNight(), show = on && Date.now() >= peekUntil;
+  if (on !== NIGHT) { NIGHT = on; if (!on) peekUntil = 0; }
+  document.body.classList.toggle('peek', on && !show);
+  if (show !== document.body.classList.contains('night')) {
+    document.body.classList.toggle('night', show);
+    if (!show) fitStage();   // pages were hidden; lay them out again
+  }
+  if (!show) return;
+  $('ntime').innerHTML = pad(d.getHours()) + '<i>:</i>' + pad(d.getMinutes());
+  $('ndate').innerHTML = DAYS[d.getDay()] + ' ' + d.getDate() + ' ' + MONTHS[d.getMonth()].slice(0, 3) + ' · ' + (d.getMonth() + 1) + '月' + d.getDate() + '日 ' + ZH_DAYS[d.getDay()];
+  var t = [];
+  if (typeof W !== 'undefined' && W) t.push('外 ' + r(W.current.temperature_2m) + '°');
+  if (typeof HOME !== 'undefined' && HOME && homeAge() <= 12 * 60) t.push('室內 ' + HOME.temp.toFixed(1) + '°');
+  $('ntemp').innerHTML = t.join('  ·  ');
+  var S = Math.min(innerWidth, innerHeight), c = $('nclk');
+  $('ntime').style.fontSize = Math.round(Math.min(innerWidth * 0.27, S * 0.36)) + 'px';
+  $('ndate').style.fontSize = $('ntemp').style.fontSize = Math.round(S * 0.026) + 'px';
+  if (d.getSeconds() === 0 || !c.style.marginLeft) {   // drift slowly so nothing burns into the screen
+    var m = d.getMinutes();
+    c.style.marginLeft = Math.round(Math.sin(m / 60 * 2 * Math.PI) * innerWidth * 0.06) + 'px';
+    c.style.marginTop = Math.round(Math.cos(m / 60 * 4 * Math.PI) * innerHeight * 0.06) + 'px';
+  }
+}
+$('night').addEventListener('click', function () {
+  peekUntil = Date.now() + ((CONFIG.night && CONFIG.night.wake) || 120) * 1000;
+  nightTick(new Date());
+});
+document.addEventListener('touchstart', function () { if (NIGHT && Date.now() < peekUntil) peekUntil = Math.max(peekUntil, Date.now() + 60000); }, { passive: true });   // still using it: stay awake a bit longer
 
 /* ---------- page 3: analog clock ---------- */
 var ZH_DAYS = ['星期日','星期一','星期二','星期三','星期四','星期五','星期六'];
@@ -855,6 +1030,13 @@ function renderWeather() {
       icon(wx(h.weather_code[j], h.is_day[j])[0], 26) + '<span class="p">' + (p >= 10 ? p + '%' : '') + '</span><span class="num">' + h.time[j].slice(11, 13) + '</span></div>';
   }
   $('strip').innerHTML = s;
+  var dd = '';   // next 5 days under the hourly strip
+  for (var k = 1; k <= 5 && k < dl.time.length; k++) {
+    var dt = new Date(dl.time[k] + 'T12:00'), pp = dl.precipitation_probability_max[k] || 0;
+    dd += '<div class="dd"><div class="dn">' + (k === 1 ? '聽日' : ZH_DAYS[dt.getDay()]) + '<small>' + dt.toLocaleDateString('en-GB', { weekday: 'short' }) + '</small></div>' +
+      icon(wx(dl.weather_code[k], 1)[0], 40) + '<div class="hl num">' + r(dl.temperature_2m_max[k]) + '°<span>' + r(dl.temperature_2m_min[k]) + '°</span></div><div class="p">' + (pp >= 10 ? '☂ ' + pp + '%' : '') + '</div></div>';
+  }
+  $('dstrip').innerHTML = dd;
 
   if (window.showCal) showCal();   // the daily forecast is shown on the week page
 }
@@ -922,7 +1104,7 @@ function nextPhoto() {
   pIdx = (pIdx + 1) % els.length; els[pIdx].classList.add('on');
   var p = PHOTOS[els.length - 1 - pIdx] || {};
   showCaption(p);
-  if (p.video) playVideo(els[pIdx], p); else photoAfter(PHOTO_SECS);
+  if (p.video && !document.body.classList.contains('night')) playVideo(els[pIdx], p); else photoAfter(PHOTO_SECS);
 }
 /* Videos (photos.json "video": "photos/<id>.mp4", "src" is its poster frame) play silently:
    iPad Safari only starts a video by itself when it is muted. When it ends, the slideshow moves on. */
@@ -1305,23 +1487,53 @@ loadHome(); setInterval(loadHome, 5 * 60 * 1000); setInterval(showHome, 60 * 100
 var NEWS = [], newsAt = 0;
 function loadNews() {
   fetch('news.json?t=' + Date.now()).then(function (r) { return r.json(); })
-    .then(function (d) { NEWS = (d.items || []).filter(function (n) { return n.t; }); showNews(); })
-    .catch(function () { if (!NEWS.length) $('nws').innerHTML = '<div class="nw"><span>新聞</span>暫時未有新聞</div>'; });
+    .then(function (d) { NEWS = (d.items || []).filter(function (n) { return n.t; }); showStory(0);
+      if (d.updated) $('nupd').textContent = '更新 ' + new Date(d.updated).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' }); })
+    .catch(function () { if (!NEWS.length) showStory(0); });
 }
-function showNews() {
-  if (!NEWS.length) return;
-  // Chinese headlines on the left, English on the right, 3 each, moving on every 15 seconds.
-  var zh = NEWS.filter(function (n) { return n.lang !== 'en'; }), en = NEWS.filter(function (n) { return n.lang === 'en'; });
-  function col(list, cls) {
-    if (!list.length) return '<div class="ncol ' + cls + '"></div>';
-    var out = '';
-    for (var i = 0; i < 3 && i < list.length; i++) { var n = list[(newsAt * 3 + i) % list.length]; out += '<div class="nw"><span>' + esc(n.src) + '</span>' + esc(n.t) + '</div>'; }
-    return '<div class="ncol ' + cls + '">' + out + '</div>';
+loadNews(); setInterval(loadNews, 30 * 60 * 1000);
+
+/* ---------- news page: world map + one story at a time (every 10 s, carries on where it left off) ---------- */
+var NSTORY = 0;
+function newsOrder() {   // Chinese and English stories taking turns
+  var zh = NEWS.filter(function (n) { return n.lang !== 'en'; }), en = NEWS.filter(function (n) { return n.lang === 'en'; }), out = [];
+  for (var i = 0; i < Math.max(zh.length, en.length); i++) { if (zh[i]) out.push(zh[i]); if (en[i]) out.push(en[i]); }
+  return out;
+}
+function mapXY(w) { return [(w[1] + 180) / 360 * 1298, (80 - w[0]) / 360 * 1298 - 10]; }
+function newsAgo(at) {
+  var m = Math.round((Date.now() - new Date(at)) / 60000); if (!(m >= 0)) return '';
+  return m < 60 ? m + ' 分鐘前' : m < 48 * 60 ? Math.round(m / 60) + ' 小時前' : '';
+}
+function showStory(step) {
+  var list = newsOrder(); if (!list.length) { $('nttl').textContent = '暫時未有新聞'; return; }
+  NSTORY = (NSTORY + (step || 0) + list.length) % list.length;
+  var n = list[NSTORY], en = n.lang === 'en';
+  // pins: one per place, labelled with how many stories are there
+  var by = {}, h = '';
+  list.forEach(function (x) { if (x.where) { var k = x.where[2]; (by[k] = by[k] || { w: x.where, c: 0, en: 0 }).c++; if (x.lang === 'en') by[k].en++; } });
+  for (var k in by) {
+    var p = mapXY(by[k].w), on = n.where && n.where[2] === k;
+    h += '<div class="pin' + (by[k].en * 2 > by[k].c ? ' en' : '') + (on ? ' on' : '') + (p[0] > 1000 ? ' left' : '') + '" style="left:' + p[0].toFixed(0) + 'px;top:' + p[1].toFixed(0) + 'px"><i></i>' +
+      (by[k].c > 1 && !on ? '<b>' + by[k].c + '</b>' : '') + (on ? '<span class="lab">📍 ' + esc(k) + '</span>' : '') + '</div>';
   }
-  $('nws').innerHTML = col(zh, 'zh') + col(en, 'en');
-  newsAt++;
+  $('npins').innerHTML = h;
+  $('nsrc').className = 'src' + (en ? ' en' : '');
+  $('nsrc').innerHTML = esc(n.src) + (n.at ? '<em>' + newsAgo(n.at) + '</em>' : '') + '<em>' + (NSTORY + 1) + ' / ' + list.length + '</em>';
+  $('nttl').textContent = n.t; $('ndsc').textContent = n.d || '';
+  var im = $('nimg'); im.className = en ? '' : 'zh'; im.style.backgroundImage = ''; im.textContent = n.where ? n.where[2] : n.src;
+  if (n.img) { var pic = new Image(); pic.onload = function () { if (list[NSTORY] === n) { im.style.backgroundImage = 'url("' + n.img + '")'; im.textContent = ''; } }; pic.src = n.img; }
+  var nx = ''; for (var i = 1; i <= 6 && i < list.length; i++) { var m = list[(NSTORY + i) % list.length]; nx += '<div class="nw' + (m.lang === 'en' ? ' en' : '') + '"><span>' + esc(m.src) + '</span>' + esc(m.t) + '</div>'; }
+  $('nnext').innerHTML = nx;
+  var bar = $('nbar').firstChild; bar.className = ''; bar.offsetWidth; bar.className = 'go';
 }
-loadNews(); setInterval(loadNews, 30 * 60 * 1000); setInterval(showNews, 15000);
+function newsTick() {
+  if (!document.body.classList.contains('pnews')) return;
+  var f = $('nfeat'); f.classList.add('fade');
+  setTimeout(function () { showStory(1); f.classList.remove('fade'); }, 500);
+}
+setInterval(newsTick, 10000);
+$('nfeat').addEventListener('click', function () { showStory(1); });
 
 /* ---------- Cantonese spoken summary ---------- */
 function brief() {
@@ -1344,8 +1556,8 @@ function voice() {
   var v = speechSynthesis.getVoices().filter(function (x) { return /zh[-_]HK|yue/i.test(x.lang); });
   return v[0] || null;
 }
-$('play').addEventListener('click', function () {
-  var b = $('play');
+$('play2').addEventListener('click', function () {   // ▶ 播放 on the news page
+  var b = $('play2');
   if (!window.speechSynthesis) { b.textContent = '不支援'; return; }
   if (speechSynthesis.speaking) { speechSynthesis.cancel(); b.classList.remove('on'); b.textContent = '▶ 播放'; return; }
   var u = new SpeechSynthesisUtterance(brief());
@@ -1380,6 +1592,94 @@ function showTable(d) {
   $('lupd').textContent = (yr ? yr[0] + ' · ' : '') + (at && !isNaN(at) ? 'Updated ' + at.getDate() + ' ' + MONTHS[at.getMonth()].slice(0, 3) + ' ' + pad(at.getHours()) + ':' + pad(at.getMinutes()) : '');
 }
 loadTable(); setInterval(loadTable, 30 * 60 * 1000);
+
+/* ---------- live football scores ----------
+   The iPad asks ESPN's public scoreboard directly (it allows this): every minute while a game
+   is on or about to start, otherwise every few minutes. If that fails it reads scores.json,
+   which GitHub saves every 5 minutes (.github/workflows/scores.yml). Premier League games show
+   while they're live; the followed team also shows on match day (kick-off time) and for
+   45 minutes after full time, in cup games too. A goal makes the card pulse. Tap = league table. */
+var LIVE = { games: {}, got: {}, last: {}, goalAt: {} };
+function liveSide(c) { var t = c.team || {}; return { name: t.shortDisplayName || t.displayName || '?', abbr: t.abbreviation || '', logo: t.logo || '', score: c.score || '' }; }
+function liveParse(lg, d) {
+  return (d.events || []).map(function (e) {
+    var comp = (e.competitions || [{}])[0], cs = comp.competitors || [], st = e.status || {}, ty = st.type || {};
+    var h = cs.filter(function (c) { return c.homeAway === 'home'; })[0] || cs[0] || {}, a = cs.filter(function (c) { return c.homeAway === 'away'; })[0] || cs[1] || {};
+    return { id: e.id, league: lg, date: e.date, state: ty.state || 'pre', detail: ty.shortDetail || '', clock: st.displayClock || '', home: liveSide(h), away: liveSide(a) };
+  });
+}
+function liveFav(m) {
+  var f = [].concat(CONFIG.football.follow || []).map(function (x) { return String(x).toLowerCase(); });
+  return [m.home, m.away].some(function (s) { return f.indexOf(s.name.toLowerCase()) >= 0 || f.indexOf(String(s.abbr).toLowerCase()) >= 0; });
+}
+function liveHot(lg) {   // a game in this league is on, or starts within 15 minutes
+  var g = LIVE.games[lg] || [], now = Date.now();
+  return g.some(function (m) { var t = Date.parse(m.date); return m.state === 'in' || (m.state === 'pre' && t - now < 15 * 60000 && now - t < 3 * 3600000); });
+}
+function liveFetch(lg) {
+  LIVE.last[lg] = Date.now();
+  return fetch('https://site.api.espn.com/apis/site/v2/sports/soccer/' + lg + '/scoreboard?t=' + Date.now())
+    .then(function (r) { if (!r.ok) throw 0; return r.json(); })
+    .then(function (d) { LIVE.games[lg] = liveParse(lg, d); LIVE.got[lg] = Date.now(); })
+    .catch(function () {   // backup copy saved by GitHub
+      return fetch('scores.json?t=' + Date.now()).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) {
+        LIVE.games[lg] = (d.matches || []).filter(function (m) { return m.league === lg; });
+      }).catch(function () {});
+    });
+}
+function livePoll() {
+  var F = CONFIG.football; if (!F) return;
+  var q = new URLSearchParams(location.search).get('scores');
+  if (q === 'demo') { liveDemo(); return; }
+  var jobs = [];
+  (F.leagues || []).concat(F.cups || []).forEach(function (lg) {
+    var cup = (F.leagues || []).indexOf(lg) < 0, wait = liveHot(lg) ? 55e3 : cup ? 30 * 60e3 : 10 * 60e3;
+    if (!LIVE.last[lg] || Date.now() - LIVE.last[lg] >= wait) jobs.push(liveFetch(lg));
+  });
+  if (jobs.length) Promise.all(jobs).then(liveShow); else liveShow();
+}
+function liveShow() {
+  var F = CONFIG.football, now = Date.now(), show = [];
+  Object.keys(LIVE.games).forEach(function (lg) {
+    var cup = (F.leagues || []).indexOf(lg) < 0;
+    LIVE.games[lg].forEach(function (m) {
+      var fav = liveFav(m), t = Date.parse(m.date);
+      if (cup && !fav) return;
+      if (m.state === 'in') show.push(m);
+      else if (fav && m.state === 'pre' && t - now < 4 * 3600000 && t - now > -3 * 3600000 && new Date(t).toDateString() === new Date().toDateString()) show.push(m);
+      else if (fav && m.state === 'post' && now - t < (110 + 45) * 60000) show.push(m);
+      var k = m.home.score + '-' + m.away.score, was = LIVE.goalAt[m.id];
+      if (m.state === 'in' && was && was.k !== k) LIVE.goalAt[m.id] = { k: k, at: now }; else if (!was) LIVE.goalAt[m.id] = { k: k, at: 0 };
+    });
+  });
+  show.sort(function (a, b) { return (liveFav(b) - liveFav(a)) || ((b.state === 'in') - (a.state === 'in')) || (Date.parse(a.date) - Date.parse(b.date)); });
+  show = show.slice(0, 3);   // one row: the main game, then up to two small ones
+  var el = $('live');
+  if (!show.length) { el.hidden = true; el.innerHTML = ''; return; }
+  el.hidden = false;
+  el.innerHTML = show.map(function (m, i) {
+    var g = LIVE.goalAt[m.id], goal = g && g.at && now - g.at < 90e3, st;
+    if (m.state === 'in') st = '<span class="st"><i></i>' + esc(/HT|Half/i.test(m.detail) ? '半場 HT' : m.clock || m.detail) + '</span>';
+    else if (m.state === 'pre') { var k = new Date(Date.parse(m.date)); st = '<span class="st pre">' + pad(k.getHours()) + ':' + pad(k.getMinutes()) + ' 開波</span>'; }
+    else st = '<span class="st ft">完場 FT</span>';
+    var sc = m.state === 'pre' ? 'v' : esc(m.home.score) + ' – ' + esc(m.away.score);
+    function tm(s, right) { var img = s.logo ? '<img src="' + esc(s.logo) + '" alt="" onerror="this.style.display=\'none\'">' : ''; var n = '<span>' + esc(i ? s.abbr || s.name : s.name) + '</span>'; return '<span class="tm">' + (right ? n + img : img + n) + '</span>'; }
+    return '<div class="m' + (liveFav(m) ? ' fav' : '') + (i ? ' small' : '') + (goal ? ' goal' : '') + '">' + (goal ? '<span class="gl">GOAL 入波!</span>' : '') +
+      tm(m.home, true) + '<span class="sc">' + sc + '</span>' + tm(m.away, false) + st + '</div>';
+  }).join('');
+}
+function liveDemo() {   // ?scores=demo shows made-up games, for checking the look
+  var t = new Date(Date.now() + 75 * 60000).toISOString(), L = 'https://a.espncdn.com/i/teamlogos/soccer/500/';
+  LIVE.games = { 'eng.1': [
+    { id: 'd1', league: 'eng.1', date: new Date(Date.now() - 70 * 60000).toISOString(), state: 'in', detail: "67'", clock: "67'", home: { name: 'Man United', abbr: 'MUN', logo: L + '360.png', score: '2' }, away: { name: 'Liverpool', abbr: 'LIV', logo: L + '364.png', score: '1' } },
+    { id: 'd2', league: 'eng.1', date: new Date(Date.now() - 70 * 60000).toISOString(), state: 'in', detail: 'HT', clock: "45'", home: { name: 'Arsenal', abbr: 'ARS', logo: L + '359.png', score: '0' }, away: { name: 'Chelsea', abbr: 'CHE', logo: L + '363.png', score: '0' } },
+    { id: 'd3', league: 'eng.1', date: new Date(Date.now() - 20 * 60000).toISOString(), state: 'in', detail: "21'", clock: "21'", home: { name: 'Newcastle', abbr: 'NEW', logo: L + '361.png', score: '1' }, away: { name: 'Spurs', abbr: 'TOT', logo: L + '367.png', score: '1' } }
+  ] };
+  LIVE.goalAt = { d1: { k: '2-1', at: Date.now() } };
+  liveShow();
+}
+$('live').onclick = function () { var p = $('p3'); if (p) goPage([].indexOf.call(p.parentNode.children, p)); };
+livePoll(); setInterval(livePoll, 30 * 1000);
 
 /* ---------- last page: birthday countdown ----------
    birthdays.json is saved twice a day by .github/workflows/birthdays.yml (tools/build_birthdays.py)
@@ -1499,6 +1799,123 @@ $('heat').onclick = function (e) {
   location.href = 'shortcuts://run-shortcut?name=' + encodeURIComponent(CONFIG.heat.shortcut);
 };
 heatShow(); setInterval(heatShow, 60 * 1000);
+
+/* ---------- Hong Kong corner (page 5) ----------
+   Photos come straight from the Hong Kong Observatory's weather cameras (a new one every
+   5 minutes). The big view plays the last 3 hours as a time-lapse; tap a small camera to
+   switch. Weather is the Observatory's open data (fetched directly, or hk.json saved by
+   .github/workflows/hk.yml if this device can't reach it). The red Live button only shows
+   when CONFIG.hkLive is set to a YouTube channel id that streams Hong Kong live. */
+var HK_CAMS = [
+  ['vpb', '太平山', 'The Peak'], ['ic1', '環球貿易廣場', 'ICC'], ['cp1', '中環碼頭', 'Central Pier'],
+  ['hko', '尖沙咀', 'Tsim Sha Tsui'], ['swh', '西灣河', 'Sai Wan Ho']
+];
+CONFIG.hkLive = CONFIG.hkLive || '';   // e.g. 'UC…' (a channel that is live 24/7); '' hides the button
+var hkLoads = 0, HK_PAGE = -1, hkCam = 0, hkFrames = [], hkAt = 0, hkTimer = null, hkShown = false;
+(function () { var p = $('track').children; for (var i = 0; i < p.length; i++) if (p[i].id === 'phk') HK_PAGE = i; })();
+function hkNow() {   // Hong Kong wall-clock time as a Date whose UTC fields read HK time
+  return new Date(Date.now() + 8 * 3600 * 1000);
+}
+function hkImg(code, d) {   // .../hko_mica/vpb/imgVPB_261117_0145.jpg  (HK time, 5-minute steps)
+  var C = code.toUpperCase();
+  if (!d) return 'https://www.hko.gov.hk/wxinfo/aws/hko_mica/' + code + '/latest_' + C + '.jpg?t=' + Math.floor(Date.now() / 300000);
+  return 'https://www.hko.gov.hk/wxinfo/aws/hko_mica/' + code + '/img' + C + '_' + String(d.getUTCFullYear()).slice(2) +
+    pad(d.getUTCMonth() + 1) + pad(d.getUTCDate()) + '_' + pad(d.getUTCHours()) + pad(d.getUTCMinutes()) + '.jpg';
+}
+function hkCamsDraw() {
+  var h = '';
+  for (var i = 0; i < HK_CAMS.length; i++)
+    h += '<div class="cam' + (i === hkCam ? ' on' : '') + '" data-i="' + i + '"><img src="' + hkImg(HK_CAMS[i][0]) + '" alt=""><span>' + HK_CAMS[i][1] + '</span></div>';
+  $('hkCams').innerHTML = h;
+}
+$('hkCams').addEventListener('click', function (e) {
+  var c = e.target.closest ? e.target.closest('.cam') : null; if (!c) return;
+  hkCam = +c.getAttribute('data-i'); hkCamsDraw(); hkLoadLapse();
+});
+function hkLoadLapse() {
+  // Last 3 hours of photos, oldest first. Start 10 minutes back: the newest file takes a few minutes to appear.
+  var code = HK_CAMS[hkCam][0], end = hkNow(), list = [], n;
+  end.setUTCSeconds(0, 0); end.setUTCMinutes(end.getUTCMinutes() - end.getUTCMinutes() % 5 - 10);
+  for (n = 36; n >= 0; n--) list.push(hkImg(code, new Date(end.getTime() - n * 300000)));
+  var token = ++hkLoads, left = list.length, ok = {};
+  hkFrames = []; hkAt = 0;
+  list.forEach(function (u) {
+    var im = new Image();
+    im.onload = function () { ok[u] = 1; done(); }; im.onerror = done; im.src = u;
+  });
+  function done() { if (--left || token !== hkLoads) return; hkFrames = list.filter(function (u) { return ok[u]; }); if (!hkFrames.length) hkFrames = [hkImg(code)]; hkAt = 0; }
+  $('hkA').src = hkImg(code);
+  $('hkChip').innerHTML = HK_CAMS[hkCam][1] + ' ' + HK_CAMS[hkCam][2] + '<b>縮時 3 小時</b>';
+}
+function hkStep() {
+  if (!hkFrames.length) { hkTimer = setTimeout(hkStep, 1000); return; }
+  var last = hkAt >= hkFrames.length - 1, u = hkFrames[hkAt];
+  $('hkA').src = u;
+  var m = u.match(/_(\d\d)(\d\d)\.jpg$/);
+  $('hkChip').innerHTML = HK_CAMS[hkCam][1] + ' ' + HK_CAMS[hkCam][2] + '<b>' + (m ? m[1] + ':' + m[2] : '') + (last ? ' 最新' : '') + '</b>';
+  $('hkBar').style.width = ((hkAt + 1) / hkFrames.length * 100) + '%';
+  hkAt = last ? 0 : hkAt + 1;
+  hkTimer = setTimeout(hkStep, last ? 4000 : 280);   // hold on the newest photo, then play again
+}
+function hkClock() {
+  var d = hkNow(), zh = ['日','一','二','三','四','五','六'];
+  $('hkTime').innerHTML = pad(d.getUTCHours()) + ':' + pad(d.getUTCMinutes()) + '<small>' + (d.getUTCMonth() + 1) + '月' + d.getUTCDate() + '日 星期' + zh[d.getUTCDay()] + '</small>';
+}
+// HKO weather icon numbers -> our icons (https://www.hko.gov.hk/textonly/v2/explain/wxicon_e.htm)
+function hkIcon(n) {
+  if (n === 50) return 'sun'; if (n === 51 || n === 52) return 'partly'; if (n === 53 || n === 54 || n === 62 || n === 63 || n === 64) return 'rain';
+  if (n === 65) return 'storm'; if (n >= 70 && n <= 77) return 'night'; if (n === 83 || n === 84 || n === 85) return 'fog'; return 'cloud';
+}
+var HKW = null;
+function hkWeather() {
+  var A = 'https://data.weather.gov.hk/weatherAPI/opendata/weather.php?lang=tc&dataType=';
+  function get(u) { return fetch(u).then(function (r) { if (!r.ok) throw 0; return r.json(); }); }
+  Promise.all([get(A + 'rhrread'), get(A + 'fnd'), get(A + 'flw'), get(A + 'warnsum')])
+    .then(function (a) { HKW = { now: a[0], fnd: a[1], flw: a[2], warn: a[3] }; hkWxDraw(); })
+    .catch(function () {
+      get('hk.json?t=' + Date.now()).then(function (d) { HKW = d; hkWxDraw(); }).catch(function () {});
+    });
+}
+function hkWxDraw() {
+  if (!HKW || !HKW.now) return;
+  var now = HKW.now, t = null, hum = null, h = '', i;
+  (now.temperature && now.temperature.data || []).forEach(function (x) { if (x.place === '香港天文台') t = x.value; });
+  if (t === null && now.temperature && now.temperature.data[0]) t = now.temperature.data[0].value;
+  if (now.humidity && now.humidity.data && now.humidity.data[0]) hum = now.humidity.data[0].value;
+  var ic = now.icon && now.icon[0] || 60;
+  h += '<div class="now">' + icon(hkIcon(ic), 64, 1.4) + '<div><div class="t num">' + (t === null ? '–' : t) + '°</div></div>' +
+       '</div><div class="m">香港天文台' + (hum === null ? '' : ' · 濕度 ' + hum + '%') + (HKW.saved ? ' · 備份 ' + HKW.saved : '') + '</div>';
+  var w = HKW.warn || {}, ws = '';
+  for (var k in w) if (w[k] && w[k].name && w[k].actionCode !== 'CANCEL') ws += '<span>' + w[k].name + '</span>';
+  if (ws) h += '<div class="warn">' + ws + '</div>';
+  if (HKW.flw && HKW.flw.forecastDesc) h += '<div class="desc">' + HKW.flw.forecastDesc + '</div>';
+  var f = (HKW.fnd && HKW.fnd.weatherForecast || []).slice(0, 4);
+  if (f.length) {
+    h += '<div class="days">';
+    for (i = 0; i < f.length; i++)
+      h += '<div class="day"><span class="d">' + f[i].week.replace('星期', '週') + '</span>' + icon(hkIcon(f[i].ForecastIcon), 26, 1.6) +
+           '<span class="r num">' + f[i].forecastMaxtemp.value + '° <span>' + f[i].forecastMintemp.value + '°</span></span></div>';
+    h += '</div>';
+  }
+  $('hkWx').innerHTML = h;
+}
+// Only play the time-lapse while this page shows (keeps the old iPad cool).
+setInterval(function () {
+  var on = PAGE === HK_PAGE && !document.body.classList.contains('night');
+  if (on && !hkShown) { hkShown = true; hkCamsDraw(); hkLoadLapse(); clearTimeout(hkTimer); hkStep(); }
+  if (!on && hkShown) { hkShown = false; clearTimeout(hkTimer); }
+  if (on) hkClock();
+}, 1000);
+setInterval(function () { if (hkShown) { hkCamsDraw(); hkLoadLapse(); } }, 10 * 60 * 1000);   // fresh photos every 10 min
+hkClock(); hkWeather(); setInterval(hkWeather, 15 * 60 * 1000);
+if (CONFIG.hkLive) $('hkLiveBtn').hidden = false;
+$('hkLiveBtn').onclick = function () {
+  var box = document.createElement('div'); box.id = 'hkLive';
+  box.innerHTML = '<iframe allow="autoplay; encrypted-media" allowfullscreen src="https://www.youtube-nocookie.com/embed/live_stream?channel=' +
+    encodeURIComponent(CONFIG.hkLive) + '&autoplay=1&mute=1&playsinline=1"></iframe><button type="button">✕ 關閉 Close</button>';
+  box.querySelector('button').onclick = function () { box.parentNode.removeChild(box); };
+  document.body.appendChild(box);
+};
 
 /* ---------- automatic update ----------
    The Home Screen app keeps an old copy of the page. Every 5 minutes, fetch this page

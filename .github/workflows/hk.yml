@@ -1,0 +1,21 @@
+name: Save Hong Kong weather copy
+on:
+  schedule:
+    - cron: "10,40 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: site-data
+jobs:
+  hk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/build_hk.py hk.json
+      - name: Commit
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "weather-bot"
+          git config user.email "weather-bot@users.noreply.github.com"
+          git add hk.json
+          git diff --cached --quiet || (git commit -m "Update HK weather" && git pull --rebase && git push)
