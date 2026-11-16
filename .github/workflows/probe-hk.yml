@@ -7,13 +7,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          for p in /en/wxinfo/ts/webcam/HKO_photo.htm /en/wxinfo/ts/webcam/VPB_photo.htm /en/wxinfo/ts/webcam/index.htm /en/wxinfo/ts/webcam/ ; do
-            echo "== $p"; curl -sSL -m 30 "https://www.hko.gov.hk$p" -o page.html -w "%{http_code}\n"; grep -oiE '[^"'"'"' ]*(hko_mica|\.jpg|webcam[^"'"'"' ]*\.js)[^"'"'"' ]*' page.html | sort -u | head -60
-          done
-          for js in $(grep -oE 'src="[^"]+\.js[^"]*"' page.html | cut -d'"' -f2 | head -20); do echo "== JS $js"; curl -sSL -m 30 "https://www.hko.gov.hk/en/wxinfo/ts/webcam/$js" 2>/dev/null | grep -oiE '.{0,80}(hko_mica|latest_|\.jpg).{0,80}' | head -10; done
+          set +e
+          H=https://www.hko.gov.hk
+          curl -sS -m 20 "$H/en/wxinfo/ts/webcam/files/wxphoto_e.js" -o w.js; wc -c w.js; grep -oE '"[A-Z0-9]{2,4}"\s*:\s*\{[^}]{0,200}' w.js | head -60; grep -oiE '.{0,120}(stationLocation|stn).{0,120}' w.js | head -30
+          echo ==ANIM; curl -sS -m 20 "$H/wxinfo/ts/webcam/CP1_animation.js" | head -c 1500; echo
+          curl -sS -m 20 "$H/wxinfo/ts/webcam/VPB_animation.js" | head -c 600; echo
+          for c in CP1 VPB; do l=$(echo $c | tr A-Z a-z); curl -sS -o /dev/null -D - -m 15 -w "HD $c %{http_code} %{size_download}\n" "$H/wxinfo/aws/hko_mica/$l/latest_HD_$c.jpg" | grep -iE "^HD|cache-control|last-modified|x-frame|cross-origin"; done
       - run: |
-          for c in CP1 VPB HKO IC1 WGL SLW TMS SK2 LFS CCH PE2 KSC SWH TPK HKS CWB; do l=$(echo $c | tr A-Z a-z); curl -sS -o /dev/null -m 20 -w "$c %{http_code} %{content_type} %{size_download}\n" "https://www.hko.gov.hk/wxinfo/aws/hko_mica/$l/latest_$c.jpg"; done
-          for c in K109F H106F K409F H210F TC560F; do curl -sS -o /dev/null -m 20 -w "TD $c %{http_code} %{content_type} %{size_download}\n" "https://tdcctv.data.one.gov.hk/$c.JPG"; done
-          curl -sS -m 20 -D - -o rh.json -H "Origin: https://vyvp4vfrz7-source.github.io" "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=tc" | grep -i "^HTTP\|access-control"; head -c 600 rh.json; echo
-          curl -sS -m 20 "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc" | head -c 600; echo
+          set +e
+          for c in K109F H106F; do curl -sS -o /dev/null -m 10 -w "TD $c %{http_code} %{content_type} %{size_download}\n" "https://tdcctv.data.one.gov.hk/$c.JPG"; done
+          curl -sS -m 20 -D - -o rh.json -H "Origin: https://vyvp4vfrz7-source.github.io" "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=tc" | grep -i "^HTTP\|access-control"; head -c 900 rh.json; echo
+          curl -sS -m 20 "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=tc" | head -c 900; echo
           curl -sS -m 20 "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=warnsum&lang=tc" | head -c 400; echo
+          curl -sS -m 20 "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=flw&lang=tc" | head -c 600; echo
