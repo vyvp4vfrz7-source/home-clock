@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T22:20+00:00",
+ "updated": "2026-11-16T22:37+00:00",
  "items": [
   {
    "src": "香港",
@@ -158,7 +158,7 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "特朗普對黃仁勳重返Nvidia復職行政總裁持開放態度",
+   "t": "特朗普：不介意黃仁勳重返Nvidia復職行政總裁",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878046-20261117.htm",
    "d": "美國總統特朗普表示，對於黃仁勳重返Nvidia擔任行政總裁，持開放態度。 捲入婚外情風波的黃仁勳，早前辭去Nvidia行政總裁職務。特朗普星期一表示，不介意黃仁勳復職，認為對方已經吸取深刻教訓。 特朗普即將到中國深圳出席亞太經合組織領導人非正式會議，期間與國家主席習近平會晤。特朗普回答記者提問時表示，屆時可能與習近平討論黃仁勳相關議題。 特朗普又說，不肯定被指是黃仁勳婚外情對象的女子黃樂是否中國間諜，說沒有聽過這個說法，形容任何美麗的中…",
    "img": "https://newsstatic.rthk.hk/images/mfile_1878046_1_M_20261117021453.jpg",
@@ -399,11 +399,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Russell Brand prison message 'appalling' and being investigated, No 10 says",
-   "u": "https://www.bbc.co.uk/news/articles/cm9d7pe8y559o?at_medium=RSS&at_campaign=rss",
-   "d": "Brand's wife read out comments from the comedian on their podcast in which the convicted rapist said he was \"not guilty of the offences I have been jailed for\".",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a6a9/live/58ecf9b0-e1bd-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-16T18:22+00:00",
+   "t": "'Complete system reset' needed to get 440,000 young people into work, says major review",
+   "u": "https://www.bbc.co.uk/news/articles/c38xzy980924o?at_medium=RSS&at_campaign=rss",
+   "d": "Alan Milburn's review will call for sweeping reforms to the education, work and welfare systems.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1a76/live/fbd49eb0-e1e2-11f1-9f14-b33806cfd783.jpg",
+   "at": "2026-11-16T22:32+00:00",
    "where": [
     52.5,
     -1.5,
@@ -511,11 +511,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Barristers must stop using rape myths in trials, justice secretary says",
-   "u": "https://www.bbc.co.uk/news/articles/cj04w7n74gqno?at_medium=RSS&at_campaign=rss",
-   "d": "Russell Brand's barrister has been accused of peddling rape myths while defending the comedian.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1dd3/live/4146e090-e1aa-11f1-8ee3-23d0d09d2796.jpg",
-   "at": "2026-11-16T13:28+00:00",
+   "t": "Russell Brand prison message 'appalling' and being investigated, No 10 says",
+   "u": "https://www.bbc.co.uk/news/articles/cm9d7pe8y559o?at_medium=RSS&at_campaign=rss",
+   "d": "Brand's wife read out comments from the comedian on their podcast in which the convicted rapist said he was \"not guilty of the offences I have been jailed for\".",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a6a9/live/58ecf9b0-e1bd-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-16T18:22+00:00",
    "where": [
     52.5,
     -1.5,
@@ -539,11 +539,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
+   "t": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
    "u": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-   "d": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
+   "d": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
-   "at": "2026-11-16T19:16+00:00",
+   "at": "2026-11-16T22:21+00:00",
    "where": [
     38.9,
     -77.04,
@@ -623,11 +623,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Create more jobs for under-25s by cutting National Insurance, key report urges",
-   "u": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss",
-   "d": "Some parents are so desperate for their children to find a job that they've offered to pay their wages, one hairdresser has told the BBC.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/283e/live/4753f640-e1ae-11f1-b0a4-450a350911f4.jpg",
-   "at": "2026-11-16T13:19+00:00",
+   "t": "Barristers must stop using rape myths in trials, justice secretary says",
+   "u": "https://www.bbc.co.uk/news/articles/cj04w7n74gqno?at_medium=RSS&at_campaign=rss",
+   "d": "Russell Brand's barrister has been accused of peddling rape myths while defending the comedian.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1dd3/live/4146e090-e1aa-11f1-8ee3-23d0d09d2796.jpg",
+   "at": "2026-11-16T13:28+00:00",
    "where": [
     52.5,
     -1.5,
