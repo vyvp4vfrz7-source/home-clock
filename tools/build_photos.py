@@ -1,7 +1,7 @@
 """Copy photos from a public iCloud Shared Album into photos/ and write photos.json.
 Runs in GitHub Actions; the album token comes from the ALBUM_TOKEN repository secret.
 Standard library only (OpenCC optional, for place names). Uses iCloud's public web-album endpoints."""
-import base64, json, os, plistlib, re, struct, sys, time, urllib.error, urllib.parse, urllib.request
+import base64, json, os, plistlib, re, shutil, struct, sys, time, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timezone
 
 TOKEN = os.environ.get("ALBUM_TOKEN", "").strip()
@@ -104,7 +104,17 @@ def cloudkit_photos():
             if rec and ck_val(rec, pre + "Res") and ck_val(rec, pre + "FileType") in ("public.jpeg", "public.png"):
                 url = ck_val(rec, pre + "Res")["downloadURL"].replace("${f}", "photo.jpg")
                 break
-        if not url:
+        video = ck_video(a, m)
+        if video and not url:  # poster: the video's thumbnail, if Apple made one (else ffmpeg grabs a frame)
+            for rec in (a, m):
+                for f in sorted((rec or {}).get("fields") or {}):
+                    if f.startswith("resJPEG") and f.endswith("Res") and ck_val(rec, f[:-3] + "FileType") in ("public.jpeg", None):
+                        url = (ck_val(rec, f) or {}).get("downloadURL", "").replace("${f}", "poster.jpg") or None
+                        if url:
+                            break
+                if url:
+                    break
+        if not url and not video:
             continue
         ms = ck_val(a, "assetDate") or (m and ck_val(m, "originalCreationDate")) or 0
         date = datetime.fromtimestamp(ms / 1000, timezone.utc).strftime("%Y-%m-%d") if ms else ""
@@ -116,10 +126,54 @@ def cloudkit_photos():
             if isinstance(v, str) and v.strip() and not caption:
                 caption = v.strip()
                 break
-        out.append({"id": a["recordName"], "url": url, "date": date, "caption": caption, "latlon": latlon})
+        out.append({"id": a["recordName"], "url": url, "video": video, "date": date, "caption": caption, "latlon": latlon})
     out.sort(key=lambda x: x["date"], reverse=True)
     print("photos:", len(out))
     return out[:MAX_PHOTOS]
+
+# ---------- videos ----------
+# Real videos have a CPLMaster with resVidMedRes / resVidSmallRes (H.264 copies Apple makes for the web).
+# Live Photos only carry resOriginalVidCompl* (the 3-second clip), so they stay stills.
+MAX_VIDEO_MB = 40     # GitHub Pages / git are happiest with small files
+
+def ck_video(a, m):
+    """Download info for the web-sized copy of a video, or None for photos and Live Photos."""
+    for rec in (m, a):
+        for pre in ("resVidMed", "resVidSmall", "resVidFull"):
+            v = ck_val(rec or {}, pre + "Res")
+            if v and v.get("downloadURL"):
+                return {"url": v["downloadURL"].replace("${f}", "video.mp4"), "size": v.get("size") or 0,
+                        "type": ck_val(rec, pre + "FileType") or ""}
+    return None
+
+def have(cmd):
+    return shutil.which(cmd) is not None
+
+def save_video(info, path, poster):
+    """Fetch the video and make a small H.264 MP4 the old iPad plays (muted autoplay), plus a poster JPEG."""
+    import subprocess, tempfile
+    with tempfile.TemporaryDirectory() as tmp:
+        raw = os.path.join(tmp, "raw")
+        with urllib.request.urlopen(urllib.request.Request(info["url"], headers={"User-Agent": HDR["User-Agent"]}), timeout=180) as r, open(raw, "wb") as f:
+            f.write(r.read())
+        print("video:", os.path.basename(path), info.get("type"), round(os.path.getsize(raw) / 1e6, 1), "MB")
+        if have("ffmpeg"):
+            tmp_out = os.path.join(tmp, "out.mp4")
+            # at most 1280 px wide/high, 30 fps; quiet AAC kept so sound can be turned on later
+            subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", raw,
+                            "-vf", "scale='if(gt(iw,ih),min(1280,iw),-2)':'if(gt(iw,ih),-2,min(1280,ih))',fps=30",
+                            "-c:v", "libx264", "-profile:v", "high", "-level", "4.0", "-pix_fmt", "yuv420p", "-crf", "27", "-preset", "veryfast",
+                            "-c:a", "aac", "-b:a", "96k", "-ac", "2", "-movflags", "+faststart", tmp_out], check=True)
+            if not os.path.exists(poster):
+                subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", "0.3", "-i", tmp_out, "-frames:v", "1", "-q:v", "4", poster], check=False)
+            raw = tmp_out
+        mb = os.path.getsize(raw) / 1e6
+        print("  ->", round(mb, 1), "MB")
+        if mb > MAX_VIDEO_MB:
+            print("  too big, skipped")
+            return False
+        shutil.copyfile(raw, path)
+    return True
 
 # ---------- older albums (icloud.com/sharedalbum/#B0...): sharedstreams ----------
 def sharedstreams_photos():
@@ -306,27 +360,48 @@ def main():
     os.makedirs(OUT_DIR, exist_ok=True)
     keep, out = set(), []
     for p in photos:
-        name = re.sub(r"[^A-Za-z0-9_-]", "", p["id"])[:40] + ".jpg"
+        base = re.sub(r"[^A-Za-z0-9_-]", "", p["id"])[:40]
+        name = base + ".jpg"   # the photo, or a video's poster frame
         path = os.path.join(OUT_DIR, name)
-        if not os.path.exists(path):
-            with urllib.request.urlopen(urllib.request.Request(p["url"], headers={"User-Agent": HDR["User-Agent"]}), timeout=60) as r, open(path, "wb") as f:
-                f.write(r.read())
-        keep.add(name)
+        vname = None
+        if p.get("video"):
+            vname = base + ".mp4"
+            vpath = os.path.join(OUT_DIR, vname)
+            if not os.path.exists(vpath):
+                try:
+                    if not save_video(p["video"], vpath, path):
+                        continue
+                except Exception as e:
+                    print("video failed:", base, e)
+                    continue
+            keep.add(vname)
+        if not os.path.exists(path) and p.get("url"):
+            try:
+                with urllib.request.urlopen(urllib.request.Request(p["url"], headers={"User-Agent": HDR["User-Agent"]}), timeout=60) as r, open(path, "wb") as f:
+                    f.write(r.read())
+            except Exception as e:
+                if not vname:
+                    raise
+                print("poster failed:", base, e)
+        if os.path.exists(path):
+            keep.add(name)
         d = p["date"]
         when = f"{int(d[5:7])}月{int(d[8:10])}日" if len(d) == 10 else ""
-        item = {"src": f"{OUT_DIR}/{name}", "text": p["caption"], "when": when}
-        ll = p.get("latlon") or exif_gps(path)
+        item = {"src": f"{OUT_DIR}/{name}" if os.path.exists(path) else "", "text": p["caption"], "when": when}
+        if vname:
+            item["video"] = f"{OUT_DIR}/{vname}"
+        ll = p.get("latlon") or (exif_gps(path) if not vname else None)
         place = place_name(*ll) if ll else ""
         if place:
             item["place"] = place
         out.append(item)
     for f in os.listdir(OUT_DIR):  # drop photos removed from the album
-        if f.endswith(".jpg") and f not in keep:
+        if f.endswith((".jpg", ".mp4")) and f not in keep:
             os.remove(os.path.join(OUT_DIR, f))
     with open("photos.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     save_places()
-    print("wrote", len(out), "photos")
+    print("wrote", len(out), "items,", sum(1 for i in out if i.get("video")), "videos")
 
 if __name__ == "__main__":
     main()
