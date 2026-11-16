@@ -1,11 +1,15 @@
-"""Fetch Hong Kong and UK headlines (Traditional Chinese) and write news.json.
+"""Fetch Hong Kong and UK headlines (Traditional Chinese and English) and write news.json.
 Runs in GitHub Actions every 30 minutes. Standard library only."""
-import json, sys, urllib.request, xml.etree.ElementTree as ET
+import json, re, sys, urllib.request, xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
+# (label, feed, how many, language). The page shows Chinese and English side by side;
+# the Cantonese spoken summary only reads the Chinese ones.
 FEEDS = [
-    ("香港", "https://rthk.hk/rthk/news/rss/c_expressnews_clocal.xml", 5),
-    ("國際", "https://feeds.bbci.co.uk/zhongwen/trad/rss.xml", 5),
+    ("香港", "https://rthk.hk/rthk/news/rss/c_expressnews_clocal.xml", 8, "zh"),
+    ("國際", "https://feeds.bbci.co.uk/zhongwen/trad/rss.xml", 8, "zh"),
+    ("HONG KONG", "https://rthk.hk/rthk/news/rss/e_expressnews_elocal.xml", 8, "en"),
+    ("UK", "https://feeds.bbci.co.uk/news/uk/rss.xml", 8, "en"),
 ]
 
 def titles(url, n):
@@ -15,24 +19,28 @@ def titles(url, n):
     out = []
     for item in root.iter("item"):
         t = (item.findtext("title") or "").strip()
-        if t:
+        if t and not re.search(r"\bon TV3\d|^(Morning|Evening|Midday) News\b", t):  # skip RTHK programme notices
             out.append(t)
         if len(out) >= n:
             break
     return out
 
 def main(path):
-    items = []
-    for src, url, n in FEEDS:
+    groups = []
+    for src, url, n, lang in FEEDS:
         try:
-            items += [{"src": src, "t": t} for t in titles(url, n)]
+            groups.append([{"src": src, "t": t, "lang": lang} for t in titles(url, n)])
         except Exception as e:  # keep going if one feed is down
+            groups.append([])
             print(f"skip {url}: {e}", file=sys.stderr)
-    if not items:
+    # interleave the feeds of each language (HK, world, HK, world...) so both show on screen
+    mixed = []
+    for lang in ("zh", "en"):
+        g = [x for x in groups if x and x[0]["lang"] == lang]
+        for i in range(max([len(x) for x in g] or [0])):
+            mixed += [x[i] for x in g if i < len(x)]
+    if not mixed:
         sys.exit("no headlines fetched; leaving the old news.json in place")
-    # interleave HK and international so both show on screen
-    hk = [i for i in items if i["src"] == "香港"]; intl = [i for i in items if i["src"] != "香港"]
-    mixed = [x for pair in zip(hk, intl) for x in pair] + hk[len(intl):] + intl[len(hk):]
     with open(path, "w", encoding="utf-8") as f:
         json.dump({"updated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "items": mixed}, f, ensure_ascii=False, indent=1)
 

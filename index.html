@@ -8,6 +8,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Home Clock">
 <meta name="theme-color" content="#0b1016">
+<meta name="robots" content="noindex, nofollow">
 <title>Home Clock</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap">
 <style>
@@ -100,7 +101,9 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 #now .stats b { display: block; color: var(--fg); font-size: 24px; font-weight: 600; margin-top: 4px; letter-spacing: 0; text-transform: none; }
 #now .stats div { font-size: 13px; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; }
 
-#hours { grid-column: 1 / 8; grid-row: 5 / 7; }
+#hours { grid-column: 1 / 5; grid-row: 5 / 7; padding: 22px 20px 22px 24px; }
+#hours .h { font-size: 13px; }
+#hours .h .tv { font-size: 18px; }
 #hours .strip { display: grid; grid-template-columns: repeat(10, 1fr); margin-top: 8px; align-items: end; }
 .h { display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 15px; color: var(--muted); }
 .h .tv { color: var(--fg); font-size: 20px; font-weight: 600; }
@@ -109,7 +112,24 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 .h .p { color: var(--rain); font-size: 13px; height: 16px; }
 .h .ic { color: var(--fg); }
 
-#photo { grid-column: 8 / 13; grid-row: 5 / 9; padding: 0; background: #000; }
+#photo { grid-column: 8 / 13; grid-row: 7 / 9; padding: 0; background: #000; }
+
+/* calendar: upcoming events from calendar.json (saved by .github/workflows/calendar.yml) */
+#cal { grid-column: 8 / 13; grid-row: 5 / 7; padding: 22px 26px; }
+#cal .ch { display: flex; justify-content: space-between; align-items: baseline; }
+#cal .ch .sm { font-size: 12px; color: #c9d3df; background: var(--tile-2); padding: 3px 9px; border-radius: 9px; }
+#evs { display: grid; grid-template-columns: 1fr 1fr; gap: 0 22px; margin-top: 10px; }
+.ecol { min-width: 0; }
+.eday { font-size: 14px; font-weight: 700; color: var(--sun); margin: 2px 0 4px; letter-spacing: .02em; }
+.eday.later { color: var(--muted); }
+.ev { display: flex; align-items: baseline; gap: 10px; padding: 5px 0; border-bottom: 1px solid var(--line); font-size: 19px; line-height: 1.2; }
+.ev:last-child { border-bottom: 0; }
+.ev i { flex: none; width: 4px; height: 18px; border-radius: 2px; align-self: center; }
+.ev .tm { flex: none; width: 50px; color: var(--muted); font-size: 16px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.ev .ti { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.ev.now .tm { color: var(--sun); }
+.ev.past { opacity: .45; }
+.enone { font-size: 18px; color: var(--muted); padding: 6px 0; }
 #photo .ph { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0; transition: opacity 2.5s ease; }
 #photo .ph.on { opacity: 1; }
 #photo .cap { position: absolute; left: 18px; right: 18px; bottom: 18px; display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; }
@@ -122,20 +142,26 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 .dy .ic { color: var(--fg); }
 .dy .hi { color: var(--fg); font-size: 20px; } .dy .lo { color: var(--muted); font-weight: 500; } .dy .p { color: var(--rain); font-size: 13px; height: 15px; }
 
-#apps { grid-column: 1 / 5; grid-row: 7 / 9; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding: 0; background: transparent; }
-.app { border-radius: 28px; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 14px; text-decoration: none; color: var(--fg); }
+#apps { grid-column: 5 / 8; grid-row: 5 / 7; display: grid; grid-template-rows: 1fr 1fr; gap: 16px; padding: 0; background: transparent; }
+.app { border-radius: 28px; display: flex; flex-direction: row; justify-content: flex-start; align-items: center; gap: 18px; padding: 0 24px; text-decoration: none; color: var(--fg); }
 .app:active { background: #f6efe0 !important; color: #1a1a1a; }
 .app.sp { background: linear-gradient(160deg, #1a3a28 0%, #141b24 80%); }
 .app.yt { background: linear-gradient(160deg, #3d1a1a 0%, #141b24 80%); }
-.app .dot { width: 84px; height: 84px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+.app .dot { flex: none; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
 .app.sp .dot { background: #1db954; color: #0b1016; }
-.app.yt .dot { background: #ff0033; color: #fff; border-radius: 26px; width: 116px; }
-.app .n { font-size: 26px; font-weight: 600; }
+.app.yt .dot { background: #ff0033; color: #fff; border-radius: 18px; width: 82px; }
+.app .n { font-size: 24px; font-weight: 600; }
+.app .dot svg { width: 30px; height: 30px; }
 
-#news { grid-column: 5 / 8; grid-row: 7 / 9; }
+#news { grid-column: 1 / 8; grid-row: 7 / 9; padding: 16px 28px; }
+#news #play { padding: 6px 14px; font-size: 14px; }
 .nh { display: flex; justify-content: space-between; align-items: center; }
-.nw { margin-top: 10px; font-size: 18px; line-height: 1.32; font-weight: 500; }
-.nw span { color: var(--muted); font-size: 12px; letter-spacing: .12em; display: block; font-weight: 600; margin-bottom: 2px; }
+#nws { display: grid; grid-template-columns: 1fr 1fr; gap: 0 26px; margin-top: 6px; }
+.ncol { min-width: 0; }
+.nw { padding: 5px 0; border-bottom: 1px solid var(--line); font-size: 17px; line-height: 1.3; font-weight: 500; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.nw:last-child { border-bottom: 0; }
+.nw span { color: var(--sun); font-size: 11px; letter-spacing: .1em; font-weight: 700; margin-right: 8px; }
+.ncol.en .nw span { color: var(--rain); }
 #play { font: 700 15px var(--font); background: var(--sun); color: #1a1a1a; border: 0; border-radius: 999px; padding: 8px 16px; white-space: nowrap; }
 #play.on { background: var(--rain); }
 #status { position: absolute; right: 36px; bottom: 6px; font-size: 11px; color: #3d4a5c; }
@@ -148,9 +174,10 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
   <section class="t" id="clock"><div id="time" class="num"></div><div id="date"></div><div id="hk"></div><div id="indoor" hidden></div><a id="heat" href="#"></a></section>
   <section class="t" id="now"><div class="lbl">Loading weather…</div></section>
   <section class="t" id="hours"><div class="lbl">Next 10 hours</div><div class="strip" id="strip"></div></section>
+  <section class="t" id="cal"><div class="ch"><div class="lbl">日程 · Calendar</div><span class="sm" id="ctag" hidden>示範 · sample</span></div><div id="evs"></div></section>
   <section class="t" id="photo"><div class="cap"><span id="capT"></span><span class="w" id="capW"></span></div><div class="tag" id="ptag" hidden>示範相片 · sample</div></section>
   <section class="t" id="apps"><a class="app sp" href="spotify:"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">Spotify</span></a><a class="app yt" href="youtube://"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">YouTube</span></a></section>
-  <section class="t" id="news"><div class="nh"><div class="lbl">早晨新聞</div><button id="play" type="button" aria-label="Play Cantonese summary">▶ 播放</button></div><div id="nws"></div></section>
+  <section class="t" id="news"><div class="nh"><div class="lbl">新聞 · News</div><button id="play" type="button" aria-label="Play Cantonese summary">▶ 播放</button></div><div id="nws"></div></section>
   <div id="status"></div>
 </div>
 </div>
@@ -402,7 +429,7 @@ function renderWeather() {
   for (var j = start; j < start + 10 && j < h.time.length; j++) {
     var p = h.precipitation_probability[j] || 0, ht = 8 + (h.temperature_2m[j] - lo) / ((hi - lo) || 1) * 34;
     s += '<div class="h' + (p >= 40 ? ' wet' : '') + '"><span class="tv num">' + r(h.temperature_2m[j]) + '°</span><span class="bar" style="height:' + r(ht) + 'px"></span>' +
-      icon(wx(h.weather_code[j], h.is_day[j])[0], 26) + '<span class="p">' + (p >= 10 ? p + '%' : '') + '</span><span class="num">' + h.time[j].slice(11, 13) + ':00</span></div>';
+      icon(wx(h.weather_code[j], h.is_day[j])[0], 26) + '<span class="p">' + (p >= 10 ? p + '%' : '') + '</span><span class="num">' + h.time[j].slice(11, 13) + '</span></div>';
   }
   $('strip').innerHTML = s;
 
@@ -480,6 +507,106 @@ fetch('photos.json?t=' + Date.now()).then(function (r) { return r.json(); })
   .then(function (list) { if (list && list.length) startPhotos(list); else throw 0; })
   .catch(function () { $('ptag').hidden = false; startPhotos(SCENES.map(function (sc) { return { src: paint(sc.draw), text: sc.text, when: sc.when }; })); });
 
+/* ---------- calendar ----------
+   calendar.json is saved every 30 minutes by .github/workflows/calendar.yml
+   (tools/build_calendar.py reads the private calendar link kept in the CALENDAR_ICS secret):
+   {"saved":"...","events":[{"start":"2026-11-16T09:30","end":"2026-11-16T10:00","allDay":false,"title":"Dentist","color":"#6aaef8"}]}
+   Until it exists, sample events stand in. */
+var CAL = null, calSample = false;
+function sampleCal() {
+  function at(dayOff, h, m, title, color, dur, allDay) {
+    var d = new Date(); d.setDate(d.getDate() + dayOff); d.setHours(h, m, 0, 0);
+    var e = new Date(d.getTime() + (dur || 60) * 60000);
+    function iso(x) { return x.getFullYear() + '-' + pad(x.getMonth() + 1) + '-' + pad(x.getDate()) + 'T' + pad(x.getHours()) + ':' + pad(x.getMinutes()); }
+    return { start: allDay ? iso(d).slice(0, 10) : iso(d), end: allDay ? iso(d).slice(0, 10) : iso(e), allDay: !!allDay, title: title, color: color };
+  }
+  return { events: [
+    at(0, 0, 0, '倒垃圾 Bin day', '#8bd17c', 0, true),
+    at(0, 8, 15, '送仔仔返學', '#f3b649', 30),
+    at(0, 12, 30, 'Lunch with Ka Yan', '#6aaef8'),
+    at(0, 18, 0, 'FaceTime 爸媽', '#e58fb6', 30),
+    at(1, 9, 30, 'Dentist 睇牙', '#6aaef8'),
+    at(1, 16, 0, '游水班 Swimming', '#f3b649'),
+    at(2, 19, 30, 'Arsenal v Chelsea', '#8bd17c', 120),
+    at(4, 0, 0, '媽媽生日 🎂', '#e58fb6', 0, true)
+  ] };
+}
+function evDate(s) { var p = s.split(/[-T:]/); return new Date(+p[0], p[1] - 1, +p[2], +(p[3] || 0), +(p[4] || 0)); }
+function dayKey(d) { return d.getFullYear() * 10000 + d.getMonth() * 100 + d.getDate(); }
+/* calendar.json may be scrambled with a passcode ({"enc": {...}}). The iPad asks for the
+   passcode once (tap the calendar) and remembers it, so the events can't be read on GitHub. */
+var calLocked = null;
+function getKey() { try { return localStorage.getItem('calKey') || ''; } catch (e) { return ''; } }
+function setKey(k) { try { if (k) localStorage.setItem('calKey', k); else localStorage.removeItem('calKey'); } catch (e) {} }
+function b64(s) { var b = atob(s), a = new Uint8Array(b.length); for (var i = 0; i < b.length; i++) a[i] = b.charCodeAt(i); return a; }
+function unscramble(enc, pass) {
+  var c = crypto.subtle;
+  return c.importKey('raw', new TextEncoder().encode(pass), 'PBKDF2', false, ['deriveKey'])
+    .then(function (base) { return c.deriveKey({ name: 'PBKDF2', salt: b64(enc.salt), iterations: enc.iter, hash: 'SHA-256' }, base, { name: 'AES-GCM', length: 256 }, false, ['decrypt']); })
+    .then(function (key) { return c.decrypt({ name: 'AES-GCM', iv: b64(enc.iv) }, key, b64(enc.data)); })
+    .then(function (buf) { return JSON.parse(new TextDecoder().decode(buf)); });
+}
+function useCal(d) {
+  if (!d.enc) { if (!d.events) throw 0; CAL = d; calSample = false; calLocked = null; showCal(); return; }
+  var k = getKey();
+  if (!k) { lockCal(d, ''); return; }
+  return unscramble(d.enc, k).then(function (ev) { CAL = { saved: d.saved, events: ev }; calSample = false; calLocked = null; showCal(); },
+    function () { setKey(''); lockCal(d, '密碼唔啱 Wrong passcode · '); });
+}
+function lockCal(d, msg) {
+  calLocked = d; CAL = null; $('ctag').hidden = true;
+  $('evs').innerHTML = '<div class="ecol"><div class="enone">🔒 ' + msg + '撳一下輸入密碼<br>Tap to enter the passcode</div></div>';
+}
+$('cal').addEventListener('click', function () {
+  if (!calLocked) return;
+  var k = prompt('日程密碼 Calendar passcode'); if (!k) return;
+  setKey(k.trim()); useCal(calLocked);
+});
+function loadCal() {
+  fetch('calendar.json?t=' + Date.now()).then(function (r) { if (!r.ok) throw 0; return r.json(); })
+    .then(useCal)
+    .catch(function () { if (calLocked) return; if (!CAL || calSample) { CAL = sampleCal(); calSample = true; showCal(); } });
+}
+function showCal() {
+  if (!CAL) return;
+  $('ctag').hidden = !calSample;
+  var now = new Date(), today = new Date(now.getFullYear(), now.getMonth(), now.getDate()), tk = dayKey(today);
+  var groups = {}, order = [];
+  CAL.events.forEach(function (e) {
+    var s = evDate(e.start), en = e.end ? evDate(e.end) : s;
+    if (e.allDay ? en < today && dayKey(en) < tk : en < now && dayKey(s) < tk) return;   // finished before today
+    var k = dayKey(s) < tk ? tk : dayKey(s);
+    if (!groups[k]) { groups[k] = []; order.push(k); }
+    groups[k].push({ e: e, s: s, en: en });
+  });
+  order.sort(function (a, b) { return a - b; });
+  function label(k) {
+    var y = Math.floor(k / 10000), m = Math.floor(k / 100) % 100, d = k % 100, dt = new Date(y, m, d), diff = Math.round((dt - today) / 864e5);
+    var zh = ['日', '一', '二', '三', '四', '五', '六'][dt.getDay()];
+    return (diff === 0 ? '今日 Today' : diff === 1 ? '聽日 Tomorrow' : '星期' + zh + ' ' + DAYS[dt.getDay()].slice(0, 3)) + ' · ' + d + '/' + (m + 1);
+  }
+  function row(x) {
+    var e = x.e, cls = '';
+    if (!e.allDay && x.en < now) cls = ' past'; else if (!e.allDay && x.s <= now) cls = ' now';
+    var tm = e.allDay ? '全日' : pad(x.s.getHours()) + ':' + pad(x.s.getMinutes());
+    return '<div class="ev' + cls + '"><i style="background:' + esc(e.color || '#6aaef8') + '"></i><span class="tm">' + tm + '</span><span class="ti">' + esc(e.title || '(no title)') + '</span></div>';
+  }
+  // Left column: today. Right column: the next days, as many as fit.
+  var MAX = 4, todays = (groups[tk] || []).filter(function (x) { return !(!x.e.allDay && x.en < now); });
+  todays.sort(function (a, b) { return (b.e.allDay - a.e.allDay) || (a.s - b.s); });
+  var left = '<div class="eday">' + label(tk) + '</div>' + (todays.length ? todays.slice(0, MAX).map(row).join('') : '<div class="enone">今日冇嘢 · Nothing today</div>');
+  var right = '', used = 0;
+  order.forEach(function (k) {
+    if (k === tk || used >= MAX - 1) return;
+    var list = groups[k].sort(function (a, b) { return (b.e.allDay - a.e.allDay) || (a.s - b.s); }).slice(0, MAX - 1 - used);
+    right += '<div class="eday' + (right ? ' later' : '') + '">' + label(k) + '</div>' + list.map(row).join('');
+    used += list.length + 1;
+  });
+  if (!right) right = '<div class="eday later">之後 Coming up</div><div class="enone">未來兩星期冇嘢</div>';
+  $('evs').innerHTML = '<div class="ecol">' + left + '</div><div class="ecol">' + right + '</div>';
+}
+loadCal(); setInterval(loadCal, 15 * 60 * 1000); setInterval(showCal, 60 * 1000);
+
 /* ---------- indoor temperature ----------
    home.json is written by .github/workflows/home-temp.yml when the
    "Send home temp" Shortcut posts a reading from Apple Home:
@@ -512,10 +639,16 @@ function loadNews() {
 }
 function showNews() {
   if (!NEWS.length) return;
-  var out = '';
-  for (var i = 0; i < 2 && i < NEWS.length; i++) { var n = NEWS[(newsAt + i) % NEWS.length]; out += '<div class="nw"><span>' + n.src + '</span>' + n.t + '</div>'; }
-  $('nws').innerHTML = out;
-  newsAt = (newsAt + 2) % NEWS.length;
+  // Chinese headlines on the left, English on the right, 3 each, moving on every 15 seconds.
+  var zh = NEWS.filter(function (n) { return n.lang !== 'en'; }), en = NEWS.filter(function (n) { return n.lang === 'en'; });
+  function col(list, cls) {
+    if (!list.length) return '<div class="ncol ' + cls + '"></div>';
+    var out = '';
+    for (var i = 0; i < 3 && i < list.length; i++) { var n = list[(newsAt * 3 + i) % list.length]; out += '<div class="nw"><span>' + esc(n.src) + '</span>' + esc(n.t) + '</div>'; }
+    return '<div class="ncol ' + cls + '">' + out + '</div>';
+  }
+  $('nws').innerHTML = col(zh, 'zh') + col(en, 'en');
+  newsAt++;
 }
 loadNews(); setInterval(loadNews, 30 * 60 * 1000); setInterval(showNews, 15000);
 
@@ -529,7 +662,11 @@ function brief() {
     t += '聽日' + wx(dl.weather_code[1], 1)[2] + '，' + r(dl.temperature_2m_min[1]) + '至' + r(dl.temperature_2m_max[1]) + '度。';
   }
   if (HOME && homeAge() < 3 * 60) t += '屋企室內' + HOME.temp.toFixed(1).replace(/\.0$/, '') + '度' + (typeof HOME.hum === 'number' ? '，濕度百分之' + Math.round(HOME.hum) : '') + '。';
-  if (NEWS.length) t += '新聞摘要。' + NEWS.slice(0, 6).map(function (n) { return n.src + '：' + n.t + '。'; }).join('');
+  if (CAL && !calSample) {
+    var tk = dayKey(new Date()), ev = CAL.events.filter(function (e) { return dayKey(evDate(e.start)) === tk; });
+    if (ev.length) t += '今日日程：' + ev.slice(0, 5).map(function (e) { var s = evDate(e.start); return (e.allDay ? '' : s.getHours() + '點' + (s.getMinutes() ? s.getMinutes() + '分' : '') + '，') + e.title; }).join('；') + '。';
+  }
+  if (NEWS.length) t += '新聞摘要。' + NEWS.filter(function (n) { return n.lang !== 'en'; }).slice(0, 6).map(function (n) { return n.src + '：' + n.t + '。'; }).join('');
   return t;
 }
 function voice() {
