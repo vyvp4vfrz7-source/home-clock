@@ -1,0 +1,22 @@
+name: Save space corner data
+on:
+  schedule:
+    - cron: "25 */3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: site-data
+jobs:
+  space:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install --quiet skyfield
+      - run: python3 tools/build_space.py space.json
+      - name: Commit
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "weather-bot"
+          git config user.email "weather-bot@users.noreply.github.com"
+          git add space.json
+          git diff --cached --quiet || (git commit -m "Update space corner" && git pull --rebase && git push)
