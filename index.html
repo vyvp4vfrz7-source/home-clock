@@ -154,9 +154,6 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 #note .old b { color: var(--sun); margin-right: 6px; }
 #note input, #note textarea { font: 500 20px var(--font); color: var(--fg); background: #0f1620; border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; -webkit-appearance: none; }
 #note textarea { height: 96px; resize: none; }
-#note .who { display: flex; gap: 8px; flex-wrap: wrap; }
-#note .who button { font: 600 16px var(--font); color: var(--fg); background: #0f1620; border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; }
-#note .who button.on { background: var(--sun); color: #1a1a1a; border-color: var(--sun); }
 #note .btns { display: flex; justify-content: flex-end; gap: 10px; }
 #note .btns button { font: 700 18px var(--font); border: 0; border-radius: 999px; padding: 10px 22px; background: #2a3646; color: var(--fg); }
 #note .btns .ok { background: var(--sun); color: #1a1a1a; }
@@ -236,7 +233,6 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 <div id="note" hidden><div class="box">
   <div class="top"><div class="thumb" id="nThumb"></div><div><h3>留言 · Add a note</h3><div class="sub" id="nSub"></div></div></div>
   <div class="old" id="nOld"></div>
-  <div class="who" id="nWho"></div>
   <textarea id="nText" maxlength="200" placeholder="寫低想講嘅嘢… Type a note"></textarea>
   <div class="msg" id="nMsg"></div>
   <div class="btns"><button type="button" id="nCancel">取消 Cancel</button><button type="button" class="ok" id="nSave">儲存 Save</button></div>
@@ -554,11 +550,10 @@ function showCaption(p) {
 }
 /* ---------- notes: tap a photo to leave a note ----------
    Saving sends the note to GitHub (repository_dispatch "photo-note"); .github/workflows/photo-note.yml
-   adds it to notes.json: {"<photo id>": [{"who":"仔仔","text":"...","at":"..."}]}.
+   adds it to notes.json: {"<photo id>": [{"text":"...","at":"..."}]}.
    The GitHub key is asked for once and kept only on this iPad. Until GitHub saves it (about a minute),
    the note is kept on this iPad so it shows straight away. */
 var REPO = 'vyvp4vfrz7-source/home-clock', NOTES = {}, noteOpen = false, notePhoto = null;
-var WHO = ['爸爸', '媽媽', '仔仔', '女女'];
 function photoId(p) { var m = /([^\/]+)\.jpe?g$/i.exec(p && p.src || ''); return m ? m[1] : ''; }
 function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) { return null; } }
 function pending() { try { return JSON.parse(store('notesPending') || '[]'); } catch (e) { return []; } }
@@ -585,8 +580,6 @@ function openNote() {
   $('nThumb').style.backgroundImage = 'url("' + p.src + '")';
   $('nSub').textContent = [p.place, p.when].filter(Boolean).join(' · ');
   $('nOld').innerHTML = (p.comments || []).concat(notesFor(p)).map(function (c) { return '<div>' + (c.who ? '<b>' + esc(c.who) + '</b>' : '') + esc(c.text) + '</div>'; }).join('');
-  var who = store('noteWho') || '';
-  $('nWho').innerHTML = WHO.map(function (w) { return '<button type="button"' + (w === who ? ' class="on"' : '') + '>' + w + '</button>'; }).join('');
   $('nText').value = ''; $('nMsg').textContent = ''; $('note').hidden = false;
 }
 function closeNote() { $('note').hidden = true; noteOpen = false; }
@@ -594,14 +587,9 @@ $('padd').addEventListener('click', function (e) { e.stopPropagation(); openNote
 $('photo').addEventListener('click', openNote);
 $('nCancel').addEventListener('click', closeNote);
 $('note').addEventListener('click', function (e) { if (e.target === $('note')) closeNote(); });
-$('nWho').addEventListener('click', function (e) {
-  if (e.target.tagName !== 'BUTTON') return;
-  [].forEach.call($('nWho').children, function (b) { b.className = b === e.target ? 'on' : ''; });
-  store('noteWho', e.target.textContent);
-});
 $('nSave').addEventListener('click', function () {
   var text = $('nText').value.replace(/^\s+|\s+$/g, ''); if (!text) { $('nText').focus(); return; }
-  var who = store('noteWho') || '';
+  var who = '';
   var key = store('ghKey');
   if (!key) {
     key = prompt('第一次儲存：貼上 GitHub key（同「Send Home Temperature」捷徑用嗰條）\nFirst time: paste the GitHub key (the one the Send Home Temperature shortcut uses)');
