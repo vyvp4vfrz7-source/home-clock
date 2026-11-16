@@ -465,6 +465,55 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 .nw { padding: 5px 0; border-bottom: 1px solid var(--line); font-size: 17px; line-height: 1.3; font-weight: 500; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
 .nw:last-child { border-bottom: 0; }
 .nw span { color: var(--sun); font-size: 11px; letter-spacing: .1em; font-weight: 700; margin-right: 8px; }
+.ncol.en .nw span { color: var(--rain); }
+#play { font: 700 15px var(--font); background: var(--sun); color: #1a1a1a; border: 0; border-radius: 999px; padding: 8px 16px; white-space: nowrap; }
+#play.on { background: var(--rain); }
+/* ---------- birthday countdown page ---------- */
+#bday { padding: 30px 40px 60px; display: flex; flex-direction: column; background: radial-gradient(900px 700px at 22% 40%, #2a1830 0%, rgba(11,16,22,0) 70%), radial-gradient(700px 600px at 95% 100%, #1c2238 0%, rgba(11,16,22,0) 70%); }
+#bday .top { display: flex; align-items: center; justify-content: space-between; padding: 0 6px 18px; }
+#bday h1 { margin: 0; font-size: 44px; font-weight: 600; letter-spacing: -.01em; }
+#bday h1 span { color: var(--muted); font-weight: 400; font-size: 30px; margin-left: 12px; }
+#bday .rng { font-size: 20px; color: var(--muted); font-weight: 600; display: flex; align-items: center; gap: 12px; }
+#bday .sm { font-size: 13px; color: #c9d3df; background: var(--tile-2); padding: 4px 10px; border-radius: 9px; }
+#bd { flex: 1; display: grid; grid-template-columns: 1.35fr 1fr; gap: 20px; min-height: 0; }
+#bd .lock { grid-column: 1 / 3; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 26px; line-height: 1.6; color: var(--muted); background: var(--tile); border: 1px solid var(--line); border-radius: 26px; }
+.bhero { position: relative; overflow: hidden; border-radius: 28px; padding: 40px 44px; display: flex; flex-direction: column; background: linear-gradient(160deg, #3a2240 0%, #1d1a2c 55%, #141b24 100%); border: 1px solid #3a2a48; }
+.bhero .who { display: flex; align-items: center; gap: 26px; }
+.bhero .av { flex: none; width: 128px; height: 128px; border-radius: 50%; background: #f3d7e4; display: flex; align-items: center; justify-content: center; font-size: 74px; box-shadow: 0 0 0 6px rgba(243,215,228,.12); }
+.bhero .nm { font-size: 66px; font-weight: 700; line-height: 1.05; }
+.bhero .turn { font-size: 26px; color: #f3c1d6; font-weight: 600; margin-top: 6px; }
+.bhero .cd { display: flex; align-items: center; gap: 40px; margin: auto 0; }
+.ring { position: relative; flex: none; width: 330px; height: 330px; }
+.ring svg { position: absolute; inset: 0; transform: rotate(-90deg); }
+.ring .in { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.ring .n { font-size: 150px; font-weight: 700; line-height: 1; letter-spacing: -.04em; font-variant-numeric: tabular-nums; }
+.ring .u { font-size: 28px; font-weight: 600; color: #f3c1d6; margin-top: 4px; }
+.bhero .when { font-size: 30px; font-weight: 600; line-height: 1.45; }
+.bhero .when small { display: block; font-size: 22px; color: var(--muted); font-weight: 500; }
+.bhero .when .tg { display: inline-block; margin-top: 12px; font-size: 19px; color: #f6dfe9; background: rgba(243,193,214,.16); padding: 5px 14px; border-radius: 999px; }
+.bhero .bnote { font-size: 20px; color: #d9c4d2; background: rgba(0,0,0,.22); border-radius: 16px; padding: 12px 18px; }
+.bhero .cake { font-size: 92px; margin-bottom: 8px; display: inline-block; animation: bdBob 3s ease-in-out infinite; }
+.bhero.today { background: linear-gradient(160deg, #6a2d4f 0%, #3a2240 50%, #1d1a2c 100%); }
+.bhero.today .when { margin-bottom: 18px; }
+.bhero.today .big { font-size: 92px; font-weight: 800; line-height: 1.05; margin: auto 0; }
+.bhero.today .big small { display: block; font-size: 40px; font-weight: 600; color: #f6dfe9; margin-top: 10px; }
+.conf { position: absolute; inset: 0; pointer-events: none; }
+.conf i { position: absolute; top: -20px; width: 10px; height: 16px; border-radius: 2px; animation: bdFall linear infinite; }
+@keyframes bdFall { from { transform: translateY(0) rotate(0); } to { transform: translateY(1000px) rotate(540deg); } }
+@keyframes bdBob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+.blist { display: flex; flex-direction: column; gap: 12px; min-height: 0; }
+.brow { flex: 1; max-height: 128px; display: flex; align-items: center; gap: 18px; padding: 0 22px; background: var(--tile); border: 1px solid var(--line); border-radius: 22px; min-height: 0; }
+.brow .av { flex: none; width: 64px; height: 64px; border-radius: 50%; background: #262f3d; display: flex; align-items: center; justify-content: center; font-size: 36px; }
+.brow .tx { flex: 1; min-width: 0; }
+.brow .nm { font-size: 28px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.brow .nm em { font-style: normal; font-size: 19px; color: var(--muted); font-weight: 500; margin-left: 8px; }
+.brow .dt { font-size: 18px; color: var(--muted); font-weight: 500; margin-top: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.brow .dl { flex: none; text-align: right; }
+.brow .dl b { display: block; font-size: 44px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+.brow .dl span { font-size: 16px; color: var(--muted); font-weight: 600; }
+.brow.soon { border-color: #6a3f5a; background: linear-gradient(90deg, #2a1b2b, var(--tile)); }
+.brow.soon .dl b { color: #f3c1d6; }
+body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state: paused !important; }
 #play2.on { background: var(--rain); }
 #play2 { font: 700 17px var(--font); background: var(--sun); color: #1a1a1a; border: 0; border-radius: 999px; padding: 9px 18px; white-space: nowrap; }
 .nw.en span { color: var(--rain); }
@@ -514,33 +563,52 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 #newsp h1 { margin: 0; font-size: 44px; font-weight: 600; letter-spacing: -.01em; }
 #newsp h1 span { color: var(--muted); font-weight: 400; font-size: 30px; margin-left: 12px; }
 #newsp .upd { font-size: 17px; color: var(--muted); font-weight: 500; display: flex; align-items: center; gap: 16px; }
-#nmap { position: relative; height: 430px; border-radius: 22px; overflow: hidden; background: radial-gradient(ellipse at 50% 40%, #13202f 0%, #0d151f 75%); flex: none; }
-#nmap img { position: absolute; left: 0; top: -10px; width: 1298px; height: 497px; opacity: .95; }
+#nmap { position: relative; height: 199px; border-radius: 22px; overflow: hidden; background: radial-gradient(ellipse at 50% 40%, #13202f 0%, #0d151f 75%); flex: none; }
+#nmap img { position: absolute; left: 0; top: 0; width: 520px; height: 199px; opacity: .95; }
 .pin { position: absolute; width: 0; height: 0; }
-.pin i { position: absolute; left: -7px; top: -7px; width: 14px; height: 14px; border-radius: 50%; background: var(--sun); box-shadow: 0 0 0 3px rgba(243,182,73,.25); transition: transform .4s; }
+.pin i { position: absolute; left: -4px; top: -4px; width: 8px; height: 8px; border-radius: 50%; background: var(--sun); box-shadow: 0 0 0 3px rgba(243,182,73,.25); transition: transform .4s; }
 .pin.en i { background: var(--rain); box-shadow: 0 0 0 3px rgba(106,174,248,.25); }
-.pin b { position: absolute; left: 9px; top: -22px; font-size: 12px; font-weight: 700; color: #0b1016; background: #c9d3df; border-radius: 8px; padding: 0 5px; line-height: 16px; }
+.pin b { position: absolute; left: 6px; top: -18px; font-size: 11px; font-weight: 700; color: #0b1016; background: #c9d3df; border-radius: 8px; padding: 0 5px; line-height: 16px; }
 .pin.on { z-index: 3; }
 .pin.on i { transform: scale(1.5); background: #fff; box-shadow: 0 0 0 4px rgba(255,255,255,.3); }
-.pin.on::before { content: ""; position: absolute; left: -30px; top: -30px; width: 60px; height: 60px; border-radius: 50%; border: 3px solid #fff; animation: nwRing 2s ease-out infinite; }
-.pin .lab { position: absolute; left: 22px; top: -20px; white-space: nowrap; font-size: 22px; font-weight: 700; background: rgba(8,12,18,.82); border: 1px solid #3a4a60; border-radius: 12px; padding: 4px 12px; color: #fff; }
+.pin.on::before { content: ""; position: absolute; left: -24px; top: -24px; width: 48px; height: 48px; border-radius: 50%; border: 3px solid #fff; animation: nwRing 2s ease-out infinite; }
+.pin .lab { position: absolute; left: 18px; top: -16px; white-space: nowrap; font-size: 16px; font-weight: 700; background: rgba(8,12,18,.82); border: 1px solid #3a4a60; border-radius: 12px; padding: 4px 12px; color: #fff; }
 .pin.left .lab { left: auto; right: 22px; }
 @keyframes nwRing { from { transform: scale(.3); opacity: 1; } to { transform: scale(1.4); opacity: 0; } }
 body:not(.pnews) #newsp *, body:not(.pnews) #newsp *::before { animation-play-state: paused !important; }
-#nbody { flex: 1; display: flex; gap: 22px; margin-top: 18px; min-height: 0; }
-#nfeat { flex: 1.7; display: flex; gap: 22px; background: var(--tile); border-radius: 22px; padding: 20px; min-width: 0; transition: opacity .5s; }
+#nbody { flex: 1; display: flex; gap: 22px; min-height: 0; }
+#nleft { flex: none; width: 520px; display: flex; flex-direction: column; gap: 18px; }
+#nfeat { flex: 1; display: flex; flex-direction: column; gap: 16px; background: var(--tile); border-radius: 22px; padding: 20px; min-width: 0; transition: opacity .5s; }
 #nfeat.fade { opacity: 0; }
-#nimg { flex: none; width: 380px; border-radius: 16px; background: linear-gradient(150deg, #2a3a52, #141b24) center / cover; display: flex; align-items: flex-end; padding: 14px; box-sizing: border-box; font-size: 40px; font-weight: 700; color: rgba(255,255,255,.18); }
+#nimg { flex: none; height: 300px; border-radius: 16px; background: linear-gradient(150deg, #2a3a52, #141b24) center / cover; display: flex; align-items: flex-end; padding: 14px; box-sizing: border-box; font-size: 40px; font-weight: 700; color: rgba(255,255,255,.18); }
 #nimg.zh { background-image: linear-gradient(150deg, #5a4520, #141b24); }
-#ntxt { min-width: 0; display: flex; flex-direction: column; }
+#ntxt { flex: 1; min-width: 0; min-height: 0; display: flex; flex-direction: column; }
 #ntxt .src { font-size: 14px; font-weight: 700; letter-spacing: .1em; color: var(--sun); display: flex; gap: 10px; align-items: center; }
 #ntxt .src.en { color: var(--rain); }
 #ntxt .src em { font-style: normal; color: var(--muted); letter-spacing: 0; font-weight: 600; }
-#ntxt h2 { margin: 10px 0 10px; font-size: 32px; line-height: 1.25; font-weight: 700; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden; }
-#ntxt p { margin: 0; font-size: 19px; line-height: 1.45; color: #b9c4d2; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden; }
-#nlist { flex: 1; background: var(--tile); border-radius: 22px; padding: 14px 20px; min-width: 0; overflow: hidden; }
+#ntxt h2 { margin: 8px 0 8px; font-size: 26px; line-height: 1.25; font-weight: 700; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+#ntxt p { margin: 0; font-size: 17px; line-height: 1.4; color: #b9c4d2; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+#nlist { flex: none; width: 360px; box-sizing: border-box; background: var(--tile); border-radius: 22px; padding: 16px 20px; min-width: 0; overflow: hidden; }
 #nlist .lbl { margin-bottom: 4px; }
-#nlist .nw { font-size: 17px; }
+#nlist .nw { font-size: 15px; padding: 0; border: 0; -webkit-line-clamp: 3; }
+#nlist .nw + .nw { margin-top: 11px; }
+#nlist .nw i { font-style: normal; color: var(--muted); font-size: 12px; margin-left: 6px; }
+#nbrief { flex: 1; min-width: 0; background: linear-gradient(170deg, #1d2a3c, var(--tile) 45%); border-radius: 22px; padding: 16px 20px; display: flex; flex-direction: column; overflow: hidden; }
+#nbrief .bh { display: flex; align-items: center; justify-content: space-between; }
+#nbrief .lbl { color: var(--sun); }
+#blang { font: 700 13px var(--font); color: var(--fg); background: #2a3646; border: 0; border-radius: 999px; padding: 5px 12px; }
+#bwhen { font-size: 13px; color: var(--muted); margin: 4px 0 8px; }
+#bsec { flex: 1; min-height: 0; overflow: hidden; transition: opacity .5s; }
+#bsec.fade { opacity: 0; }
+#bsec h3 { margin: 0 0 8px; font-size: 22px; font-weight: 700; }
+#bsec .bi { padding: 7px 0; border-bottom: 1px solid var(--line); }
+#bsec .bi:last-child { border-bottom: 0; }
+#bsec .bi b { display: block; font-size: 16px; line-height: 1.3; margin-bottom: 3px; }
+#bsec .bi span { font-size: 14px; line-height: 1.4; color: #b9c4d2; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+#bsec .msg { font-size: 16px; color: var(--muted); line-height: 1.5; }
+#bdots { display: flex; gap: 5px; justify-content: center; padding-top: 8px; }
+#bdots i { width: 6px; height: 6px; border-radius: 3px; background: #3d4a5c; transition: width .3s; }
+#bdots i.on { width: 18px; background: var(--sun); }
 #nbar { height: 4px; border-radius: 2px; background: var(--line); margin-top: auto; overflow: hidden; }
 #nbar i { display: block; height: 100%; width: 0; background: var(--muted); }
 #nbar i.go { width: 100%; transition: width 10s linear; }
@@ -616,11 +684,12 @@ body.night #live { display: none; }   /* no scores on the night clock */
 </div>
 <div class="page" id="pnews">
 <div class="stage" id="newsp">
-  <div class="top"><h1>新聞<span>News · 香港 &amp; UK</span></h1><div class="upd"><span id="nupd"></span><button id="play2" class="play" type="button">▶ 播放</button></div></div>
-  <div id="nmap"><img src="world.svg" alt=""><div id="npins"></div></div>
+  <div class="top"><h1>新聞<span>News · 香港 · UK · World</span></h1><div class="upd"><span id="nupd"></span><button id="play2" class="play" type="button">▶ 播放</button></div></div>
   <div id="nbody">
-    <div id="nfeat"><div id="nimg"></div><div id="ntxt"><div class="src" id="nsrc"></div><h2 id="nttl"></h2><p id="ndsc"></p><div id="nbar"><i></i></div></div></div>
-    <div id="nlist"><div class="lbl">跟住 · Up next</div><div id="nnext"></div></div>
+    <div id="nleft"><div id="nmap"><img src="world.svg" alt=""><div id="npins"></div></div>
+    <div id="nfeat"><div id="nimg"></div><div id="ntxt"><div class="src" id="nsrc"></div><h2 id="nttl"></h2><p id="ndsc"></p><div id="nbar"><i></i></div></div></div></div>
+    <div id="nlist"><div class="lbl">更多新聞 · More news</div><div id="nnext"></div></div>
+    <div id="nbrief"><div class="bh"><div class="lbl" id="bttl">早晨簡報 · Brief</div><button type="button" id="blang">EN / 中</button></div><div id="bwhen"></div><div id="bsec"></div><div id="bdots"></div></div>
   </div>
 </div>
 </div>
@@ -636,6 +705,12 @@ body.night #live { display: none; }   /* no scores on the night clock */
 <div class="stage" id="league">
   <div class="top"><h1>Premier League<span>英超積分榜</span></h1><div id="apps"><a class="app sp" href="spotify:"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">Spotify</span></a><a class="app yt" href="youtube://"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">YouTube</span></a></div><div class="upd" id="lupd"></div></div>
   <div id="ltab"><div id="lmsg">Loading table… 載入中</div></div>
+</div>
+</div>
+<div class="page" id="pbday">
+<div class="stage" id="bday">
+  <div class="top"><h1>生日倒數<span>Birthdays</span></h1><div class="rng"><span class="sm" id="btag" hidden>示範 · sample</span><span id="bnow"></span></div></div>
+  <div id="bd"></div>
 </div>
 </div>
 </div></div>
@@ -672,6 +747,8 @@ var CONFIG = {
   rotate: { secs: 60, pages: [1, 2, 3, 4, 5], stay: 300 },
   // Night mode: between these hours (iPad's own clock) a dim, soft clock replaces the pages.
   // A tap shows the dashboard (dimmed) for 'wake' seconds, then the night clock comes back. ?night=1 / ?night=0 to test.
+  // Birthday page (last page): joins the turning pages when the next birthday is this many days away or less.
+  birthdaySoon: 14,
   night: { from: 23, to: 7, wake: 120 },
   // Live football scores (ESPN): a card shows at the top while a match is on.
   // 'follow' = your team (names or ESPN 3-letter code); its cup games show too, and its match day shows a kick-off time.
@@ -737,12 +814,12 @@ function fitStage() {
 addEventListener('resize', fitStage); fitStage();
 
 /* ---------- pages: swipe left/right, tap the dots, or use the arrow keys ----------
-   Page 1 is the dashboard, page 2 this week's calendar, page 3 the analog clock, page 4 the news map, page 5 the Hong Kong corner, page 6 the league table. To add a page, add another
+   Page 1 is the dashboard, page 2 this week's calendar, page 3 the analog clock, page 4 the news map, page 5 the Hong Kong corner, page 6 the league table, page 7 birthday countdown. To add a page, add another
    <div class="page"> inside #track. The iPad remembers the last page shown. */
-var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, pageAt = Date.now();
+var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
 (function () {
   var track = $('track'), pages = track.children, n = pages.length, dots = $('dots');
-  for (var p = 0; p < n; p++) { if (pages[p].id === 'pcal') CAL_PAGE = p; if (pages[p].id === 'p2') CLOCK_PAGE = p; }
+  for (var p = 0; p < n; p++) { if (pages[p].id === 'pcal') CAL_PAGE = p; if (pages[p].id === 'p2') CLOCK_PAGE = p; if (pages[p].id === 'pbday') BDAY_PAGE = p; }
   for (var i = 0; i < n; i++) {
     var b = document.createElement('button'); b.type = 'button'; b.setAttribute('aria-label', 'Page ' + (i + 1)); b.innerHTML = '<i></i>';
     b.onclick = (function (k) { return function () { goPage(k); }; })(i);
@@ -757,6 +834,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, pageAt = Date.now();
     try { localStorage.setItem('page', PAGE); } catch (e) {}
     pageAt = Date.now();
     document.body.classList.toggle('pcal', PAGE === CAL_PAGE);   // calendar animations only run while it shows
+    document.body.classList.toggle('pbday', PAGE === BDAY_PAGE);
     document.body.classList.toggle('pnews', !!pages[PAGE] && pages[PAGE].id === 'pnews');
     if (window.ZH_DAYS) bigTick(new Date());   // start or stop the sweeping hand right away
   };
@@ -794,7 +872,9 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, pageAt = Date.now();
     var R = CONFIG.rotate; if (!R || !R.secs || !R.pages || !R.pages.length) return;
     if (isNight()) { pageAt = Date.now(); return; }   // night: no page turning, even while peeking
     if ((typeof noteOpen !== 'undefined' && noteOpen) || window.BOARD_BUSY || (window.speechSynthesis && speechSynthesis.speaking)) { pageAt = Date.now(); return; }
-    var list = R.pages.map(function (p) { return p - 1; }), at = list.indexOf(PAGE);
+    var list = R.pages.map(function (p) { return p - 1; });
+    if (window.bdaySoon && BDAY_PAGE >= 0 && list.indexOf(BDAY_PAGE) < 0) list.push(BDAY_PAGE);   // birthday page joins in when one is close
+    var at = list.indexOf(PAGE);
     if (Date.now() - pageAt < (at >= 0 ? R.secs : R.stay || R.secs) * 1000) return;
     goPage(list[(at + 1) % list.length]);
   }, 2000);
@@ -1485,7 +1565,7 @@ function newsOrder() {   // Chinese and English stories taking turns
   for (var i = 0; i < Math.max(zh.length, en.length); i++) { if (zh[i]) out.push(zh[i]); if (en[i]) out.push(en[i]); }
   return out;
 }
-function mapXY(w) { return [(w[1] + 180) / 360 * 1298, (80 - w[0]) / 360 * 1298 - 10]; }
+function mapXY(w) { return [(w[1] + 180) / 360 * 520, (80 - w[0]) / 360 * 520]; }
 function newsAgo(at) {
   var m = Math.round((Date.now() - new Date(at)) / 60000); if (!(m >= 0)) return '';
   return m < 60 ? m + ' 分鐘前' : m < 48 * 60 ? Math.round(m / 60) + ' 小時前' : '';
@@ -1499,7 +1579,7 @@ function showStory(step) {
   list.forEach(function (x) { if (x.where) { var k = x.where[2]; (by[k] = by[k] || { w: x.where, c: 0, en: 0 }).c++; if (x.lang === 'en') by[k].en++; } });
   for (var k in by) {
     var p = mapXY(by[k].w), on = n.where && n.where[2] === k;
-    h += '<div class="pin' + (by[k].en * 2 > by[k].c ? ' en' : '') + (on ? ' on' : '') + (p[0] > 1000 ? ' left' : '') + '" style="left:' + p[0].toFixed(0) + 'px;top:' + p[1].toFixed(0) + 'px"><i></i>' +
+    h += '<div class="pin' + (by[k].en * 2 > by[k].c ? ' en' : '') + (on ? ' on' : '') + (p[0] > 380 ? ' left' : '') + '" style="left:' + p[0].toFixed(0) + 'px;top:' + p[1].toFixed(0) + 'px"><i></i>' +
       (by[k].c > 1 && !on ? '<b>' + by[k].c + '</b>' : '') + (on ? '<span class="lab">📍 ' + esc(k) + '</span>' : '') + '</div>';
   }
   $('npins').innerHTML = h;
@@ -1508,7 +1588,7 @@ function showStory(step) {
   $('nttl').textContent = n.t; $('ndsc').textContent = n.d || '';
   var im = $('nimg'); im.className = en ? '' : 'zh'; im.style.backgroundImage = ''; im.textContent = n.where ? n.where[2] : n.src;
   if (n.img) { var pic = new Image(); pic.onload = function () { if (list[NSTORY] === n) { im.style.backgroundImage = 'url("' + n.img + '")'; im.textContent = ''; } }; pic.src = n.img; }
-  var nx = ''; for (var i = 1; i <= 6 && i < list.length; i++) { var m = list[(NSTORY + i) % list.length]; nx += '<div class="nw' + (m.lang === 'en' ? ' en' : '') + '"><span>' + esc(m.src) + '</span>' + esc(m.t) + '</div>'; }
+  var nx = ''; for (var i = 1; i <= 16 && i < list.length; i++) { var m = list[(NSTORY + i) % list.length]; nx += '<div class="nw' + (m.lang === 'en' ? ' en' : '') + '"><span>' + esc(m.src) + '</span>' + esc(m.t) + (m.where ? '<i>📍' + esc(m.where[2]) + '</i>' : '') + '</div>'; }
   $('nnext').innerHTML = nx;
   var bar = $('nbar').firstChild; bar.className = ''; bar.offsetWidth; bar.className = 'go';
 }
@@ -1518,6 +1598,40 @@ function newsTick() {
   setTimeout(function () { showStory(1); f.classList.remove('fade'); }, 500);
 }
 setInterval(newsTick, 10000);
+
+/* ---------- world news brief (brief.json, written at 6am and 6pm by a Claude scheduled task) ----------
+   One section at a time, every 12 s; after a full round it switches English <-> 中文. Tap EN / 中 to switch now. */
+var BRIEF = null, bSec = 0, bLang = 'zh';
+var BRIEF_URLS = ['https://raw.githubusercontent.com/vyvp4vfrz7-source/home-clock/brief/brief.json', 'brief.json'];
+function loadBrief() {
+  var got = [];
+  BRIEF_URLS.forEach(function (u) {
+    fetch(u + '?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
+      .then(function (d) { if (d && d.en && (!BRIEF || (d.updated || '') > (BRIEF.updated || ''))) { BRIEF = d; showBrief(0); } });
+  });
+}
+function showBrief(step) {
+  var b = BRIEF && BRIEF[bLang];
+  if (!b || !b.sections || !b.sections.length) { $('bsec').innerHTML = '<div class="msg">簡報每日早上6時及傍晚6時更新。<br>The brief arrives at 6am and 6pm.</div>'; return; }
+  var n = b.sections.length;
+  bSec += step || 0;
+  if (bSec >= n) { bSec = 0; if (BRIEF[bLang === 'en' ? 'zh' : 'en']) { bLang = bLang === 'en' ? 'zh' : 'en'; b = BRIEF[bLang]; n = b.sections.length; } }
+  var sec = b.sections[bSec] || b.sections[0], h = '<h3>' + esc(sec.h) + '</h3>';
+  (sec.items || []).forEach(function (it) { h += '<div class="bi"><b>' + esc(it.t) + '</b><span>' + esc(it.d || '') + '</span></div>'; });
+  $('bsec').innerHTML = h;
+  $('bttl').textContent = bLang === 'en' ? 'Morning brief · 簡報' : '早晨簡報 · Brief';
+  var dt = BRIEF.updated ? new Date(BRIEF.updated) : null;
+  $('bwhen').textContent = (BRIEF.sample ? '示範 sample · ' : '') + (dt ? (bLang === 'en' ? 'Written ' : '更新 ') + dt.toLocaleString('en-GB', { weekday: 'short', hour: '2-digit', minute: '2-digit' }) : '');
+  var d = ''; for (var i = 0; i < n; i++) d += '<i' + (i === bSec ? ' class="on"' : '') + '></i>';
+  $('bdots').innerHTML = d;
+}
+setInterval(function () {
+  if (!document.body.classList.contains('pnews') || !BRIEF) return;
+  var el = $('bsec'); el.classList.add('fade');
+  setTimeout(function () { showBrief(1); el.classList.remove('fade'); }, 500);
+}, 12000);
+$('blang').addEventListener('click', function () { if (BRIEF) { bLang = bLang === 'en' ? 'zh' : 'en'; bSec = 0; showBrief(0); } });
+loadBrief(); setInterval(loadBrief, 15 * 60 * 1000);
 $('nfeat').addEventListener('click', function () { showStory(1); });
 
 /* ---------- Cantonese spoken summary ---------- */
@@ -1665,6 +1779,106 @@ function liveDemo() {   // ?scores=demo shows made-up games, for checking the lo
 }
 $('live').onclick = function () { var p = $('p3'); if (p) goPage([].indexOf.call(p.parentNode.children, p)); };
 livePoll(); setInterval(livePoll, 30 * 1000);
+
+/* ---------- last page: birthday countdown ----------
+   birthdays.json is saved twice a day by .github/workflows/birthdays.yml (tools/build_birthdays.py)
+   from the BIRTHDAYS repository secret, so names and dates are never in the public code.
+   With CALENDAR_KEY set it is scrambled with the calendar passcode, which the iPad already knows.
+   {"saved":"...","people":[{"name":"嫲嫲","next":"2026-12-02","age":76,"lunar":"農曆十月廿四","place":"香港","emoji":"👵"}]}
+   Until it exists, sample birthdays stand in. */
+var BDAYS = null, bdaySample = false, bdayLocked = null, BD_HTML = '';
+window.bdaySoon = false;
+function sampleBdays() {
+  function at(off, name, age, emoji, place, lunar) {
+    var d = new Date(); d.setDate(d.getDate() + off);
+    var p = { name: name, next: d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()), age: age, emoji: emoji };
+    if (place) p.place = place; if (lunar) p.lunar = lunar; return p;
+  }
+  return { people: [
+    at(9, '嫲嫲', 76, '👵', '香港', '農曆生日'),
+    at(38, '女女', 9, '👧'),
+    at(71, '爺爺', 79, '👴', '香港'),
+    at(124, '媽媽', 41, '👩'),
+    at(187, '仔仔', 11, '👦'),
+    at(262, '爸爸', 43, '👨')
+  ] };
+}
+function bdayDays(p, today) {
+  var d = evDate(p.next);
+  if (d < today && !p.lunar) { d.setFullYear(d.getFullYear() + 1); if (p.age) p.age++; }   // file a day old: roll on to next year
+  return Math.round((d - today) / 86400000);
+}
+/* For someone in Hong Kong: how far ahead their clock is, so the birthday call isn't too late there. */
+function hkNote(p) {
+  if (!/香港|hong ?kong|\bhk\b/i.test(p.place || '')) return '';
+  var now = new Date(), hk;
+  try { hk = new Date(now.toLocaleString('en-US', { timeZone: CONFIG.secondZone })); } catch (e) { return ''; }
+  var ahead = Math.round((hk - new Date(now.toLocaleString('en-US'))) / 3600000);
+  return '<div class="bnote">📞 香港快 ' + ahead + ' 個鐘，記得早啲打電話 · HK +' + ahead + 'h, call early</div>';
+}
+function bdayDate(p) {
+  var d = evDate(p.next);
+  return { zh: (d.getMonth() + 1) + '月' + d.getDate() + '日 ' + ZH_DAYS[d.getDay()], en: DAYS[d.getDay()].slice(0, 3) + ' ' + d.getDate() + ' ' + MONTHS[d.getMonth()].slice(0, 3) };
+}
+function showBdays() {
+  var n = new Date(); $('bnow').textContent = (n.getMonth() + 1) + '月' + n.getDate() + '日 ' + ZH_DAYS[n.getDay()];
+  if (bdayLocked) return;
+  if (!BDAYS) return;
+  $('btag').hidden = !bdaySample;
+  var today = new Date(); today.setHours(0, 0, 0, 0);
+  var list = BDAYS.people.map(function (p) { var q = {}; for (var k in p) q[k] = p[k]; q.days = bdayDays(q, today); return q; })
+    .filter(function (p) { return p.days >= 0; }).sort(function (a, b) { return a.days - b.days; });
+  window.bdaySoon = !!(list.length && list[0].days <= (CONFIG.birthdaySoon || 0));
+  if (!list.length) { BD_HTML = ''; $('bd').innerHTML = '<div class="lock"><div>未有生日資料<br>No birthdays yet</div></div>'; return; }
+  var h = list[0], dt = bdayDate(h), av = esc(h.emoji || '🎂'), out;
+  var turn = h.age ? h.age + ' 歲生日 · turns ' + h.age : '生日 Birthday';
+  if (h.days === 0) {
+    var cols = ['#f3b649', '#e58fb6', '#6aaef8', '#8bd17c', '#b49cf2'], conf = '';
+    for (var i = 0; i < 18; i++) conf += '<i style="left:' + (i * 5.5 + 2) + '%;background:' + cols[i % 5] + ';animation-duration:' + (5 + (i * 7) % 5) + 's;animation-delay:-' + (i * 1.3 % 6).toFixed(1) + 's"></i>';
+    // every person whose birthday is today shares the banner
+    var names = list.filter(function (p) { return p.days === 0; }).map(function (p) { return esc(p.name); }).join('、');
+    out = '<div class="bhero today"><div class="conf">' + conf + '</div><div class="who"><div class="av">' + av + '</div><div><div class="nm">' + names + '</div><div class="turn">' + turn + '</div></div></div>' +
+      '<div class="big"><span class="cake">🎂</span><br>生日快樂！<small>Happy Birthday · 今日生日</small></div>' +
+      '<div class="when">' + dt.zh + (h.lunar ? ' · ' + esc(h.lunar) : '') + (h.place ? ' <span class="tg">📍 ' + esc(h.place) + '</span>' : '') + '</div>' + hkNote(h) + '</div>';
+  } else {
+    var frac = Math.max(0.02, 1 - h.days / 365), C = 2 * Math.PI * 148;
+    out = '<div class="bhero"><div class="who"><div class="av">' + av + '</div><div><div class="nm">' + esc(h.name) + '</div><div class="turn">' + turn + '</div></div></div>' +
+      '<div class="cd"><div class="ring"><svg viewBox="0 0 330 330"><circle cx="165" cy="165" r="148" fill="none" stroke="rgba(243,193,214,.14)" stroke-width="16"/>' +
+      '<circle cx="165" cy="165" r="148" fill="none" stroke="#f3c1d6" stroke-width="16" stroke-linecap="round" stroke-dasharray="' + (C * frac).toFixed(1) + ' ' + C.toFixed(1) + '"/></svg>' +
+      '<div class="in"><div class="n">' + h.days + '</div><div class="u">' + (h.days === 1 ? '聽日！ Tomorrow' : '日 days') + '</div></div></div>' +
+      '<div class="when"><span class="cake">🎂</span><br>' + dt.zh + '<small>' + dt.en + '</small>' + (h.lunar ? '<small>' + esc(h.lunar) + '</small>' : '') + (h.place ? '<span class="tg">📍 ' + esc(h.place) + '</span>' : '') + '</div></div>' + hkNote(h) + '</div>';
+  }
+  var rest = list.slice(1).filter(function (p) { return !(h.days === 0 && p.days === 0); }).slice(0, 6);
+  out += '<div class="blist">' + rest.map(function (p) {
+    var d = bdayDate(p);
+    return '<div class="brow' + (p.days <= 30 ? ' soon' : '') + '"><div class="av">' + esc(p.emoji || '🎂') + '</div><div class="tx"><div class="nm">' + esc(p.name) + (p.age ? '<em>' + p.age + ' 歲</em>' : '') + '</div>' +
+      '<div class="dt">' + d.zh + ' · ' + d.en + (p.lunar ? ' · ' + esc(p.lunar) : '') + (p.place ? ' · 📍' + esc(p.place) : '') + '</div></div>' +
+      '<div class="dl"><b>' + p.days + '</b><span>' + (p.days === 1 ? '聽日' : '日 days') + '</span></div></div>';
+  }).join('') + '</div>';
+  if (out !== BD_HTML) $('bd').innerHTML = BD_HTML = out;   // unchanged: leave it, so the confetti keeps falling smoothly
+}
+function useBdays(d) {
+  if (!d.enc) { if (!d.people) throw 0; BDAYS = d; bdaySample = false; bdayLocked = null; showBdays(); return; }
+  var k = getKey();
+  if (!k) { lockBdays(d, ''); return; }
+  return unscramble(d.enc, k).then(function (people) { BDAYS = { saved: d.saved, people: people }; bdaySample = false; bdayLocked = null; showBdays(); },
+    function () { lockBdays(d, '密碼唔啱 Wrong passcode<br>'); });
+}
+function lockBdays(d, msg) {
+  bdayLocked = d; BDAYS = null; BD_HTML = ''; $('btag').hidden = true; window.bdaySoon = false;
+  $('bd').innerHTML = '<div class="lock"><div>🔒<br>' + msg + '撳一下輸入密碼（同日程一樣）<br>Tap to enter the passcode (same as the calendar)</div></div>';
+}
+$('bd').addEventListener('click', function () {
+  if (!bdayLocked) return;
+  var k = prompt('密碼 Passcode'); if (!k) return;
+  setKey(k.trim()); useBdays(bdayLocked);
+});
+function loadBdays() {
+  fetch('birthdays.json?t=' + Date.now()).then(function (r) { if (!r.ok) throw 0; return r.json(); })
+    .then(useBdays)
+    .catch(function () { if (bdayLocked) return; if (!BDAYS || bdaySample) { BDAYS = sampleBdays(); bdaySample = true; showBdays(); } });
+}
+loadBdays(); setInterval(loadBdays, 60 * 60 * 1000); setInterval(showBdays, 60 * 1000);
 
 /* ---------- warm-up button ----------
    A web page can't change Apple Home itself, so the button runs the
