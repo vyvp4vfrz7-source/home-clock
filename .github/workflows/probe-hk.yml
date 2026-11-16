@@ -7,10 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          set +e; H=https://www.hko.gov.hk
-          for l in ic1 vpa vpb hko cp1 swh; do C=$(echo $l | tr a-z A-Z); curl -sS -m 15 "$H/wxinfo/aws/hko_mica/$l/latest_$C.jpg" | base64 -w0 | sed "s/^/IMG $l /"; echo; done
-          curl -sSL -m 20 -A "Mozilla/5.0 (iPad; CPU OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.7 Mobile/15E148 Safari/604.1" "https://www.youtube.com/embed/live_stream?channel=UCNcY1o1xGgTX_19w0cXes9g" -o yt.html; wc -c yt.html
-          grep -oE '"(videoId|status|reason|isLive|isLiveContent|title|playableInEmbed)":"?[^",}]{0,90}' yt.html | sort | uniq -c | head -20
-          v=$(grep -oE '"videoId":"[^"]+"' yt.html | head -1 | cut -d'"' -f4); echo VID $v
-          curl -sSL -m 20 "https://www.youtube.com/channel/UCNcY1o1xGgTX_19w0cXes9g/live" -o live.html; grep -oE '"(videoId|title)":"[^"]{0,90}' live.html | head -6; grep -oE '<link rel="canonical"[^>]*' live.html
-          [ -n "$v" ] && curl -sS -m 15 "https://i.ytimg.com/vi/$v/hqdefault_live.jpg" | base64 -w0 | sed "s/^/IMG yt /"; echo
+          set +e
+          for v in jUtZv7pdJII r1VOcQ1xUN0 967IhnPdG_8 bNOWG3jcOlQ; do
+            curl -sSL -m 20 -H "Accept-Language: en" "https://www.youtube.com/watch?v=$v" -o w.html
+            echo "== $v $(grep -oE '"isLiveNow":(true|false)' w.html | head -1) $(grep -oE '"playableInEmbed":(true|false)' w.html | head -1) $(grep -oE '"status":"[A-Z_]+"' w.html | head -1) $(grep -oE '<title>[^<]{0,90}' w.html)"
+          done
+          curl -sS -m 20 "https://www.youtube.com/oembed?url=https://www.youtube.com/channel/UCNcY1o1xGgTX_19w0cXes9g/live&format=json" | head -c 300; echo
