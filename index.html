@@ -1409,9 +1409,26 @@ function loadNotes() {
       return Date.now() - n.t < 864e5 && !(NOTES[n.id] || []).some(function (s) { return s.text === n.text; });
     })));
     if (PHOTOS.length && !noteOpen) { var els = $('photo').querySelectorAll('.ph'); showCaption(PHOTOS[els.length - 1 - pIdx] || {}); }
+    showNewNote();
   }).catch(function () {});
 }
-loadNotes(); setInterval(loadNotes, 2 * 60 * 1000);
+/* A note left from a phone shows straight away: the slideshow jumps to that photo and keeps it up
+   for a minute, instead of waiting for the photo to come round again. */
+function showNewNote() {
+  if (!PHOTOS.length) return;
+  var seen = store('notesSeen'), keys = [], fresh = null;
+  Object.keys(NOTES).forEach(function (id) { (NOTES[id] || []).forEach(function (n) { var k = id + '|' + n.at; keys.push(k); if (seen !== null && seen.indexOf(k) < 0) fresh = id; }); });
+  store('notesSeen', keys.join(','));
+  if (!fresh || noteOpen) return;   // first visit on this iPad: everything counts as seen
+  var els = $('photo').querySelectorAll('.ph');
+  for (var j = 0; j < PHOTOS.length; j++) if (photoId(PHOTOS[j]) === fresh) {
+    if (pIdx >= 0 && els[pIdx]) { els[pIdx].classList.remove('on'); stopVideo(els[pIdx]); }
+    pIdx = els.length - 2 - j; nextPhoto();   // nextPhoto() moves on by one, to element els.length-1-j
+    photoAfter(60);
+    return;
+  }
+}
+loadNotes(); setInterval(loadNotes, 60 * 1000);
 function openNote() {
   var els = $('photo').querySelectorAll('.ph'); var p = PHOTOS[els.length - 1 - pIdx];
   if (!p || !photoId(p)) return;

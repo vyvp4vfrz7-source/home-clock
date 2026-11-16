@@ -18,15 +18,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python3 tools/save_note.py
+        with: { ref: main }   # the newest main, not the commit the event was sent at
+      # Two notes saved seconds apart used to clash and the second was lost. Now, if GitHub has
+      # moved on while this ran, start again from the newest notes.json and add the note to that.
+      - name: Save and commit
         env:
           PHOTO: ${{ github.event.client_payload.photo || inputs.photo }}
           WHO: ${{ github.event.client_payload.who || inputs.who }}
           TEXT: ${{ github.event.client_payload.text || inputs.text }}
           DELETE: ${{ inputs.delete }}
-      - name: Commit
         run: |
           git config user.name "note-bot"
           git config user.email "note-bot@users.noreply.github.com"
-          git add notes.json
-          git diff --cached --quiet || (git commit -m "Add photo note" && git pull --rebase && git push)
+          for try in 1 2 3 4 5; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            python3 tools/save_note.py
+            git add notes.json
+            git diff --cached --quiet && exit 0
+            git commit -q -m "Add photo note"
+            git push origin HEAD:main && exit 0
+            sleep $((try * 3))
+          done
+          exit 1
