@@ -129,14 +129,6 @@ else:
 
 # ---------- Astronomy Picture of the Day ----------
 apod = None
-try:
-    a = get("https://api.nasa.gov/planetary/apod?thumbs=true&api_key=" + (os.environ.get("NASA_KEY") or "DEMO_KEY"))
-    img = a.get("url") if a.get("media_type") == "image" else a.get("thumbnail_url")
-    if img:
-        apod = {"date": a.get("date"), "title": a.get("title", "").strip(), "text": a.get("explanation", "").strip(),
-                "img": img, "by": (a.get("copyright") or "").strip().replace("\n", " "), "video": a.get("media_type") != "image"}
-except Exception as e:
-    log("APOD api failed:", repr(e))
 # The API is often down. APOD now lives on science.nasa.gov: read its feed instead.
 def clean(v):
     import html as H
@@ -170,6 +162,15 @@ if not apod:
                     "by": by.group(1).strip() if by else "", "video": False}
     except Exception as e:
         log("APOD feed failed:", repr(e))
+if not apod:
+    try:
+        a = get("https://api.nasa.gov/planetary/apod?thumbs=true&api_key=" + (os.environ.get("NASA_KEY") or "DEMO_KEY"))
+        img = a.get("url") if a.get("media_type") == "image" else a.get("thumbnail_url")
+        if img and "nasa-logo" not in img and a.get("title") not in (None, "", "NASA Science"):
+            apod = {"date": a.get("date"), "title": a.get("title", "").strip(), "text": a.get("explanation", "").strip(),
+                        "img": img, "by": (a.get("copyright") or "").strip().replace("\n", " "), "video": a.get("media_type") != "image"}
+    except Exception as e:
+        log("APOD api failed:", repr(e))
 out["apod"] = apod or old.get("apod")
 
 # ---------- ISS passes, ISS path, moon ----------
