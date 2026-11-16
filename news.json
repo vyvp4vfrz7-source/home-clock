@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T20:39+00:00",
+ "updated": "2026-11-16T20:42+00:00",
  "items": [
   {
    "src": "香港",
@@ -25,6 +25,19 @@
     55.75,
     37.6,
     "俄羅斯"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "教宗良十四世完成南美三國訪問行程 在秘魯與民眾會面",
+   "d": "教宗良十四世完成南美三國訪問行程，在最後一站秘魯與民眾會面。 良十四世曾經被派往秘魯傳教，在當地擔任教區主教，擁有秘魯國籍。他星期一在當地一個空軍基地出席活動，向約150萬民眾演講。良十四世說，一直把秘魯人民放在心上，又呼籲年輕人保持希望，相信自己。 良十四世為期12天的行程期間，亦到訪過烏拉圭及阿根廷，與政要、天主教團體、及民眾會面。 編輯：盧曉珊",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878050_1_M_20261117035600.jpg",
+   "at": "2026-11-16T20:10+00:00",
+   "where": [
+    -12.05,
+    -77.04,
+    "秘魯"
    ]
   },
   {
@@ -54,6 +67,19 @@
    ]
   },
   {
+   "src": "世界",
+   "lang": "zh",
+   "t": "沙特武裝部隊總參謀長將兼任多國聯軍指揮官 或與也門局勢有關",
+   "d": "沙特阿拉伯國王薩勒曼頒令，任命武裝部隊總參謀長魯韋利，兼任沙特主導的多國聯軍指揮官。 至於多國聯軍原本的指揮官薩勒曼，被任命為國防大臣軍事顧問。 沙特於2015年3月帶頭組建多國聯軍，支援也門政府軍對抗胡塞武裝。雙方近月衝突升級，也門總統領導委員會主席阿里米，上月宣布發起「也門黎明」行動，恢復國家運作、解放首都薩那並結束胡塞武裝叛亂。 編輯：盧曉珊",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878048_1_M_20261117032019.jpg",
+   "at": "2026-11-16T19:20+00:00",
+   "where": [
+    24.7,
+    46.7,
+    "沙特"
+   ]
+  },
+  {
    "src": "香港",
    "lang": "zh",
    "t": "東瀛遊接供應商通知系統遭未經授權網絡存取 涉部分客戶證件資料",
@@ -77,6 +103,19 @@
     23.7,
     121.0,
     "台灣"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "特朗普對黃仁勳重返Nvidia復職行政總裁持開放態度",
+   "d": "美國總統特朗普表示，對於黃仁勳重返Nvidia擔任行政總裁，持開放態度。 捲入婚外情風波的黃仁勳，早前辭去Nvidia行政總裁職務。特朗普星期一表示，不介意黃仁勳復職，認為對方已經吸取深刻教訓。 特朗普即將到中國深圳出席亞太經合組織領導人非正式會議，期間與國家主席習近平會晤。特朗普回答記者提問時表示，屆時可能與習近平討論黃仁勳相關議題。 特朗普又說，不肯定被指是黃仁勳婚外情對象的女子黃樂是否中國間諜，說沒有聽過這個說法，形容任何美麗的中…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878046_1_M_20261117021453.jpg",
+   "at": "2026-11-16T18:14+00:00",
+   "where": [
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -106,6 +145,19 @@
    ]
   },
   {
+   "src": "世界",
+   "lang": "zh",
+   "t": "巴西接連發生多宗槍擊案最少8死5傷 初步不排除案件有關連",
+   "d": "巴西南部接連發生最少7宗槍擊案，最少8死5傷，初步不排除案件之間有關連。 當地傳媒報道，星期日晚至星期一凌晨，南里奧格蘭德州首府阿雷格里港等多處地區的街道、酒吧、商店等，接連發生槍擊案，造成多人死傷。 警方初步調查後表示，這7宗槍擊案的犯案手法非常相似，疑兇都是從車上向街上的人隨機開槍，正調查案件之間是否有關連。 編輯：盧曉珊",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878043_1_M_20261117011612.jpg",
+   "at": "2026-11-16T17:16+00:00",
+   "where": [
+    -14.2,
+    -51.9,
+    "巴西"
+   ]
+  },
+  {
    "src": "香港",
    "lang": "zh",
    "t": "有小學升中呈分試出問題全級學生重考 教育局︰已要求嚴肅跟進",
@@ -129,6 +181,19 @@
     34.0,
     108.0,
     "中國"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "特朗普表示訪華期間或與金正恩會面 中朝雙方均未有相關公布",
+   "d": "美國總統特朗普表示，本周訪華期間，可能會與朝鮮領袖金正恩會面。 特朗普星期一離開華盛頓，展開亞洲訪問行程，包括本周稍後在深圳出席亞太經合組織領導人非正式會議。特朗普在白宮見記者時提到，訪華期間可能與金正恩會面，形容將會是一件好事，有機會取得很多成果。 朝鮮並非亞太經合組織成員經濟體，中方及朝方亦未有公布金正恩訪華的消息。 特朗普首個美國總統任期，曾經三度與金正恩會晤，包括2019年6月，兩人於兩韓邊境非軍事區會面。 編輯：盧曉珊",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878042_1_M_20261117004633.jpg",
+   "at": "2026-11-16T16:40+00:00",
+   "where": [
+    39.03,
+    125.75,
+    "北韓"
    ]
   },
   {
@@ -158,6 +223,19 @@
    ]
   },
   {
+   "src": "世界",
+   "lang": "zh",
+   "t": "東京都中野區發生持刀傷人事件1人死亡 疑犯被捕",
+   "d": "日本東京都發生持刀傷人事件，一名女子遇襲、傷重不治，一名男子被捕。 事發地點是中野區一個住宅區，距離JR中野站約250米。日本放送協會報道，當地警方在晚上7時許接報，稱一名女子在街上被刀刺傷。有參與調查的人士表示，遇襲女子20多歲，頸部等位置被刺傷，送院時已失去意識，其後確認死亡。 警方當晚拘捕一名逃離現場的男疑犯，案件仍在調查。 編輯：鄭皓璟",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878036_1_M_20261116224740.jpg",
+   "at": "2026-11-16T14:47+00:00",
+   "where": [
+    35.68,
+    139.69,
+    "日本"
+   ]
+  },
+  {
    "src": "香港",
    "lang": "zh",
    "t": "【重溫】2026年11月16日新聞天地",
@@ -176,6 +254,18 @@
    "d": "「除籍滿10年」如何計算，成為這屆選舉多位陸配被剔除參選資格的爭議焦點。今年有25位「陸配」參選，當中逾4成參選人不符參選資格。",
    "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/d87a/live/b52594a0-d676-11f1-b441-2b33b063138f.png",
    "at": "2026-11-02T04:37+00:00"
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "韓國當局檢取作弊自首考生設備 考慮以妨害公務等罪追究責任",
+   "d": "韓國一名在稅務師考試中獲得最高分的考生日前主動向警方自首，承認自己在考試時利用微型攝錄鏡頭及人工智能AI作弊。韓國警方星期一表示，已檢取作弊自首考生的微型攝錄鏡頭、手提電腦和智能手機等，正核實是否用於作弊。警方亦計劃傳召這名作弊考生，進一步調查具體作案方式，以及是否存在同伙，並考慮以涉嫌妨害公務、妨害業務等罪名追究責任。 警方指出，考試作弊嚴重損害社會公平，剝奪其他考生的平等競爭機會。為防範星期四舉行的高考出現類似舞弊行為，已成立專門應…",
+   "at": "2026-11-16T13:54+00:00",
+   "where": [
+    37.57,
+    126.98,
+    "南韓"
+   ]
   },
   {
    "src": "香港",
@@ -200,6 +290,18 @@
     23.7,
     121.0,
     "台灣"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "白宮：美中俄三方峰會前 特朗普先與習近平雙邊會面",
+   "d": "中國、俄羅斯及美國元首史上首次面對面會晤星期四在深圳舉行，外交部形容，具開創性意義，將圍繞維護世界和平、促進大國關係戰略穩定，深入交換意見。 美國白宮公布總統特朗普的出訪日程，特朗普星期二會先訪問馬尼拉，與東南亞國家領導人會面，星期三轉往深圳，星期四上午在深圳國際交流中心出席亞太經合組織領導人會議及拍攝大合照，下午在麒麟山莊先與中國國家主席習近平舉行雙邊會面，之後俄羅斯總統普京加入，舉行美中俄三方峰會。 編輯：鄭皓璟",
+   "at": "2026-11-16T12:56+00:00",
+   "where": [
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
@@ -279,6 +381,84 @@
    ]
   },
   {
+   "src": "ASIA",
+   "lang": "en",
+   "t": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
+   "d": "The MP lost both of her legs after the alleged attack outside her electorate office four weeks ago.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/083d/live/b9880d40-e15f-11f1-a6b7-c136ad7bd6e3.jpg",
+   "at": "2026-11-16T03:09+00:00",
+   "where": [
+    -25.3,
+    133.8,
+    "澳洲"
+   ]
+  },
+  {
+   "src": "US & CANADA",
+   "lang": "en",
+   "t": "Lindsay Clancy to face retrial next year for deaths of her three children",
+   "d": "The 36-year-old's first trial this year fell apart when a 12-person jury failed to reach a verdict.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0f3a/live/c50f43d0-e1dd-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-16T19:30+00:00",
+   "where": [
+    38.9,
+    -77.04,
+    "美國"
+   ]
+  },
+  {
+   "src": "EUROPE",
+   "lang": "en",
+   "t": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+   "d": "Russia said Ukraine had launched over 2,000 drones over the course of a day, while Kyiv came under a record 17 air raid alerts.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f174/live/bc6fa8f0-e1c4-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-16T14:58+00:00",
+   "where": [
+    49.0,
+    31.4,
+    "烏克蘭"
+   ]
+  },
+  {
+   "src": "AUSTRALIA",
+   "lang": "en",
+   "t": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
+   "d": "The MP lost both of her legs after the alleged attack outside her electorate office four weeks ago.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/083d/live/b9880d40-e15f-11f1-a6b7-c136ad7bd6e3.jpg",
+   "at": "2026-11-16T03:09+00:00",
+   "where": [
+    -25.3,
+    133.8,
+    "澳洲"
+   ]
+  },
+  {
+   "src": "LATIN AMERICA",
+   "lang": "en",
+   "t": "Mexican drug lord Miguel Ángel Félix Gallardo dies age 80",
+   "d": "Known as the 'Boss of Bosses', he was the head of all-powerful Guadalajara Cartel in the 1980s before his arrest broke up his drug organisation.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9e63/live/e166e240-e19c-11f1-93e1-3b657b665bcf.jpg",
+   "at": "2026-11-16T03:21+00:00",
+   "where": [
+    -12.0,
+    -60.0,
+    "拉丁美洲"
+   ]
+  },
+  {
+   "src": "AFRICA",
+   "lang": "en",
+   "t": "Five EU countries announce migrant deportation centre in Rwanda",
+   "d": "Germany, Denmark, Austria, Greece and the Netherlands have announced a \"return hub\" for failed asylum seekers.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7397/live/2ac14ca0-e1d9-11f1-b8c8-67fa35f5afdb.jpg",
+   "at": "2026-11-16T16:27+00:00",
+   "where": [
+    5.0,
+    20.0,
+    "非洲"
+   ]
+  },
+  {
    "src": "HONG KONG",
    "lang": "en",
    "t": "RTHK, CGTN join hands in Apec coverage",
@@ -302,6 +482,84 @@
     52.5,
     -1.5,
     "英國"
+   ]
+  },
+  {
+   "src": "ASIA",
+   "lang": "en",
+   "t": "Prince and Princess of Wales arrive in India ahead of meeting with Modi",
+   "d": "Most of the engagements the royal couple will attend are related to the Earthshot Prize, which Prince William founded.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1bb6/live/b77baec0-e19c-11f1-a2d0-ff163dc3689d.jpg",
+   "at": "2026-11-16T07:19+00:00",
+   "where": [
+    21.0,
+    78.0,
+    "印度"
+   ]
+  },
+  {
+   "src": "US & CANADA",
+   "lang": "en",
+   "t": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
+   "d": "A number of tech figures want the board of the AI chip giant to give Jensen Huang his job back.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
+   "at": "2026-11-16T19:16+00:00",
+   "where": [
+    38.9,
+    -77.04,
+    "美國"
+   ]
+  },
+  {
+   "src": "EUROPE",
+   "lang": "en",
+   "t": "Russia's mega-rich are already imagining a future after Putin",
+   "d": "Some Russian tycoons are pining after a return to a 1990s system of oligarchy, when businessmen enjoyed power",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0d12/live/ba3084e0-de83-11f1-93e1-3b657b665bcf.jpg",
+   "at": "2026-11-16T00:13+00:00",
+   "where": [
+    55.75,
+    37.6,
+    "俄羅斯"
+   ]
+  },
+  {
+   "src": "AUSTRALIA",
+   "lang": "en",
+   "t": "Dominant Australia defeat New Zealand in Men's World Cup final",
+   "d": "Australia win a fourth successive Men's Rugby League World Cup, beating New Zealand comfortably in the final in Brisbane.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0346/live/a3d74e60-e0f2-11f1-b441-2b33b063138f.jpg",
+   "at": "2026-11-15T12:24+00:00",
+   "where": [
+    -41.3,
+    174.8,
+    "紐西蘭"
+   ]
+  },
+  {
+   "src": "LATIN AMERICA",
+   "lang": "en",
+   "t": "Ashes of exiled Nobel Laureate Miguel Ángel Asturias returned to Guatemala",
+   "d": "The poet, writer and diplomat died in Europe in 1974 having been forced to leave his native country.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/da54/live/f1263820-e1b5-11f1-9a3f-99aca912798e.jpg",
+   "at": "2026-11-16T12:42+00:00",
+   "where": [
+    14.63,
+    -90.51,
+    "危地馬拉"
+   ]
+  },
+  {
+   "src": "AFRICA",
+   "lang": "en",
+   "t": "Two mass shootings in South Africa leave 17 dead",
+   "d": "The shootings in KwaZulu-Natal and Gauteng highlight South Africa's struggle to curb violent crime.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e2e5/live/66487e80-e1a0-11f1-902c-ad301cbf1208.jpg",
+   "at": "2026-11-16T10:57+00:00",
+   "where": [
+    -30.6,
+    22.9,
+    "南非"
    ]
   },
   {
@@ -331,6 +589,84 @@
    ]
   },
   {
+   "src": "ASIA",
+   "lang": "en",
+   "t": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+   "d": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fa43/live/e2a9a870-e10d-11f1-93e1-3b657b665bcf.jpg",
+   "at": "2026-11-16T01:47+00:00",
+   "where": [
+    34.0,
+    108.0,
+    "中國"
+   ]
+  },
+  {
+   "src": "US & CANADA",
+   "lang": "en",
+   "t": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+   "d": "The Ukrainian president says the slowed-down internet is making it difficult to stop Russian attacks.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9a51/live/78372760-e180-11f1-9386-1b849272ca8f.jpg",
+   "at": "2026-11-16T20:16+00:00",
+   "where": [
+    49.0,
+    31.4,
+    "烏克蘭"
+   ]
+  },
+  {
+   "src": "EUROPE",
+   "lang": "en",
+   "t": "Five EU countries announce migrant deportation centre in Rwanda",
+   "d": "Germany, Denmark, Austria, Greece and the Netherlands have announced a \"return hub\" for failed asylum seekers.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7397/live/2ac14ca0-e1d9-11f1-b8c8-67fa35f5afdb.jpg",
+   "at": "2026-11-16T16:27+00:00",
+   "where": [
+    50.0,
+    10.0,
+    "歐洲"
+   ]
+  },
+  {
+   "src": "AUSTRALIA",
+   "lang": "en",
+   "t": "Final whistle a blessing as Scotland edge dull Test against Australia",
+   "d": "Scotland edge a dull Nations Championship encounter against Australia at Murrayfield.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/43db/live/232a4100-e124-11f1-9198-73c27e618086.jpg",
+   "at": "2026-11-15T17:17+00:00",
+   "where": [
+    56.5,
+    -4.2,
+    "蘇格蘭"
+   ]
+  },
+  {
+   "src": "LATIN AMERICA",
+   "lang": "en",
+   "t": "Wife of assassinated ex-Haitian leader registers for presidential election",
+   "d": "There has not been an election in Haiti since before the death of Jovenel Moise in 2021.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a9fe/live/01adab80-e178-11f1-9340-0b32bbf5495e.jpg",
+   "at": "2026-11-16T05:06+00:00",
+   "where": [
+    18.54,
+    -72.34,
+    "海地"
+   ]
+  },
+  {
+   "src": "AFRICA",
+   "lang": "en",
+   "t": "Town rebuilt after devastating floods becomes showcase for Libyan strongman's rule",
+   "d": "The remarkable reconstruction of Derna is being used as a showcase for the rest of Libya by Khalifa Haftar and his sons.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3f0a/live/616751f0-df68-11f1-b441-2b33b063138f.jpg",
+   "at": "2026-11-16T00:11+00:00",
+   "where": [
+    32.89,
+    13.19,
+    "利比亞"
+   ]
+  },
+  {
    "src": "HONG KONG",
    "lang": "en",
    "t": "John Lee heads to Shenzhen for Apec summit",
@@ -354,6 +690,84 @@
     52.5,
     -1.5,
     "英國"
+   ]
+  },
+  {
+   "src": "ASIA",
+   "lang": "en",
+   "t": "Is India rethinking its short-term military recruitment scheme?",
+   "d": "India has softened its recruitment scheme, giving young soldiers a longer military stint and another shot at permanent service.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cc56/live/ce11ba80-de59-11f1-9b47-0919bf7329d1.jpg",
+   "at": "2026-11-16T00:41+00:00",
+   "where": [
+    21.0,
+    78.0,
+    "印度"
+   ]
+  },
+  {
+   "src": "US & CANADA",
+   "lang": "en",
+   "t": "US flights returning to normal levels after weekend of disruption",
+   "d": "Every US airline was affected by Friday's ground stop, as the national air-traffic control system recovered from a technical failure.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1b00/live/90c0ff50-e11b-11f1-a7a2-7bb21fac8f0b.jpg",
+   "at": "2026-11-16T17:34+00:00",
+   "where": [
+    38.9,
+    -77.04,
+    "美國"
+   ]
+  },
+  {
+   "src": "EUROPE",
+   "lang": "en",
+   "t": "Gérard Depardieu drops appeal against sexual assault conviction",
+   "d": "The French film star was due to start an appeal trial after being found guilty of sexually assaulting two women on a Paris set.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6e5e/live/d9ec2540-e1b8-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-16T13:40+00:00",
+   "where": [
+    50.0,
+    10.0,
+    "歐洲"
+   ]
+  },
+  {
+   "src": "AUSTRALIA",
+   "lang": "en",
+   "t": "Australian cricket's sandpapergate is back - and it cuts deep in a 'nation of good sports'",
+   "d": "Claims the entire Australian team knew of the 2018 sandpaper cheating plot are dividing the cricket world.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/97a5/live/fac09110-df39-11f1-a701-fddedf244c16.jpg",
+   "at": "2026-11-13T08:20+00:00",
+   "where": [
+    -25.3,
+    133.8,
+    "澳洲"
+   ]
+  },
+  {
+   "src": "LATIN AMERICA",
+   "lang": "en",
+   "t": "Pope Leo rides in helicopter cockpit during Peru trip",
+   "d": "The Pope took to the skies before arriving in Cusco on the penultimate day of his Latin America tour.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/655a/live/29ee8330-e1a0-11f1-a83a-71a20ac9b219.jpg",
+   "at": "2026-11-15T18:38+00:00",
+   "where": [
+    -12.05,
+    -77.04,
+    "秘魯"
+   ]
+  },
+  {
+   "src": "AFRICA",
+   "lang": "en",
+   "t": "Cameroon, Senegal and Benin close in on Afcon 2027 qualification",
+   "d": "Cameroon, Senegal and Benin are on the brink of qualifying for the 2027 Africa Cup of Nations, while Ghana secure another crucial win in their bid to reach the finals.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9751/live/dd2677a0-e1d7-11f1-ac67-3510ff19b64e.jpg",
+   "at": "2026-11-16T18:07+00:00",
+   "where": [
+    14.7,
+    -17.44,
+    "塞內加爾"
    ]
   },
   {
@@ -383,6 +797,84 @@
    ]
   },
   {
+   "src": "ASIA",
+   "lang": "en",
+   "t": "Clothing factories shut in Bangladesh as workers strike over pay",
+   "d": "Workers are striking over demands for a minimum wage of 30,000 taka (£182) a month.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6da5/live/b3273710-e0ff-11f1-bf0e-b9e6941e1cc7.jpg",
+   "at": "2026-11-16T01:05+00:00",
+   "where": [
+    23.7,
+    90.4,
+    "孟加拉"
+   ]
+  },
+  {
+   "src": "US & CANADA",
+   "lang": "en",
+   "t": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+   "d": "The Nvidia scandal has raised questions over whether advanced AI chips ended up in China, despite US restrictions.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fa43/live/e2a9a870-e10d-11f1-93e1-3b657b665bcf.jpg",
+   "at": "2026-11-16T01:47+00:00",
+   "where": [
+    34.0,
+    108.0,
+    "中國"
+   ]
+  },
+  {
+   "src": "EUROPE",
+   "lang": "en",
+   "t": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+   "d": "The Ukrainian president says the slowed-down internet is making it difficult to stop Russian attacks.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9a51/live/78372760-e180-11f1-9386-1b849272ca8f.jpg",
+   "at": "2026-11-16T20:16+00:00",
+   "where": [
+    49.0,
+    31.4,
+    "烏克蘭"
+   ]
+  },
+  {
+   "src": "AUSTRALIA",
+   "lang": "en",
+   "t": "Sydney Swans players will not be charged after hotel incident, police say",
+   "d": "Four players had been under investigation after an alleged sexual assault after a game in Melbourne.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e9a2/live/04510720-defc-11f1-9b2e-c7d61d5838d4.jpg",
+   "at": "2026-11-13T03:02+00:00",
+   "where": [
+    -33.87,
+    151.21,
+    "悉尼"
+   ]
+  },
+  {
+   "src": "LATIN AMERICA",
+   "lang": "en",
+   "t": "Pope Leo speaks of community 'suffering' on visit to remote Andes town",
+   "d": "Santa Cruz de Succhabamba is part of the Diocese of Chiclayo, where the Pope served as bishop from 2015 to 2023.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/80df/live/ea970890-e09d-11f1-a298-b1f4784d44cc.jpg",
+   "at": "2026-11-15T09:57+00:00",
+   "where": [
+    41.9,
+    12.45,
+    "梵蒂岡"
+   ]
+  },
+  {
+   "src": "AFRICA",
+   "lang": "en",
+   "t": "US basketball player arrested with 34kg of cannabis at Nigerian airport",
+   "d": "The anti-drugs agency says the American attempted to leave the airport, abandoning his luggage with the drugs.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bb80/live/543bf260-e189-11f1-938f-7d0e2ede1ea5.png",
+   "at": "2026-11-16T07:24+00:00",
+   "where": [
+    9.1,
+    8.7,
+    "尼日利亞"
+   ]
+  },
+  {
    "src": "HONG KONG",
    "lang": "en",
    "t": "Lawmaker supports decision to cut short harbour swim",
@@ -406,6 +898,84 @@
     54.6,
     -6.7,
     "北愛爾蘭"
+   ]
+  },
+  {
+   "src": "ASIA",
+   "lang": "en",
+   "t": "South Korea's top scorer in tax accountancy exam admits cheating",
+   "d": "Han Won-seok, 34, confessed to using a hidden camera and AI to get a near-perfect mark on the significant test.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/32ab/live/d67148b0-e0ef-11f1-97b9-9110abfffc70.png",
+   "at": "2026-11-15T13:37+00:00",
+   "where": [
+    37.57,
+    126.98,
+    "南韓"
+   ]
+  },
+  {
+   "src": "US & CANADA",
+   "lang": "en",
+   "t": "49ers stun Cowboys, Chiefs and Bengals impress - NFL week 10",
+   "d": "The NFL's brightest stars lit up week 10 of the 2026 season with some astonishing plays as the San Francisco 49ers, Kansas City Chiefs and Cincinnati Bengals all won on Sunday.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8bdd/live/17f3a220-e1bc-11f1-99a1-253766e7ad8b.png",
+   "at": "2026-11-16T07:33+00:00",
+   "where": [
+    38.9,
+    -77.04,
+    "美國"
+   ]
+  },
+  {
+   "src": "EUROPE",
+   "lang": "en",
+   "t": "Czechs rally against plan to switch funding of public media",
+   "d": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0f9f/live/b7b68ac0-e121-11f1-9705-e15ce514cc96.jpg",
+   "at": "2026-11-15T21:03+00:00",
+   "where": [
+    50.08,
+    14.44,
+    "捷克"
+   ]
+  },
+  {
+   "src": "AUSTRALIA",
+   "lang": "en",
+   "t": "Australian teen missing in bush for six days rescued alive",
+   "d": "The 17-year-old's mum has joked that he is \"grounded for life\" and \"never leaving the house again\".",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5218/live/acdfe640-de84-11f1-93e1-3b657b665bcf.png",
+   "at": "2026-11-12T02:40+00:00",
+   "where": [
+    -25.3,
+    133.8,
+    "澳洲"
+   ]
+  },
+  {
+   "src": "LATIN AMERICA",
+   "lang": "en",
+   "t": "Ronaldinho makes comeback in Ravenna win",
+   "d": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/45e6/live/30f37df0-e116-11f1-a7db-d90284d21c62.jpg",
+   "at": "2026-11-15T19:31+00:00",
+   "where": [
+    -12.0,
+    -60.0,
+    "拉丁美洲"
+   ]
+  },
+  {
+   "src": "AFRICA",
+   "lang": "en",
+   "t": "My mother told me I would die if I sought treatment for Ebola - I am proof you can survive",
+   "d": "Fear and misinformation surrounds the Ebola outbreak in DR Congo - Dr Kamwanga's mother was not immune.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/94d8/live/8fe15d90-df82-11f1-b441-2b33b063138f.jpg",
+   "at": "2026-11-15T00:06+00:00",
+   "where": [
+    5.0,
+    20.0,
+    "非洲"
    ]
   },
   {
@@ -434,6 +1004,84 @@
    ]
   },
   {
+   "src": "ASIA",
+   "lang": "en",
+   "t": "Philippines wins first Eurovision Song Contest Asia",
+   "d": "Front-runner Carmelle emerges victorious with her women's empowerment anthem Sobra-Sobra.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/965c/live/69643890-e04f-11f1-8d5a-49633fbae59d.jpg",
+   "at": "2026-11-14T18:17+00:00",
+   "where": [
+    12.9,
+    121.8,
+    "菲律賓"
+   ]
+  },
+  {
+   "src": "US & CANADA",
+   "lang": "en",
+   "t": "Judge blocks Trump closure of 'Trash Island' Washington DC golf course on Sunday",
+   "d": "The temporary order is part of a months-long challenge to the US president's plans to upgrade East Potomac Golf Links into a championship course.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4be0/live/054b94d0-e09e-11f1-a701-fddedf244c16.jpg",
+   "at": "2026-11-15T15:57+00:00",
+   "where": [
+    38.9,
+    -77.04,
+    "美國"
+   ]
+  },
+  {
+   "src": "EUROPE",
+   "lang": "en",
+   "t": "Police ban protests near 10 schools and five universities in Paris",
+   "d": "The order will be in place from 16 to 20 November, Paris police chief Patrice Faure says.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ff1f/live/556dd490-e13a-11f1-9d9b-d15c0ae9fc2e.jpg",
+   "at": "2026-11-15T22:28+00:00",
+   "where": [
+    46.6,
+    2.4,
+    "法國"
+   ]
+  },
+  {
+   "src": "AUSTRALIA",
+   "lang": "en",
+   "t": "Why did a day off for Finland's embassy in Australia go viral?",
+   "d": "Sleuths shared their \"despair\" when Finland's embassy in Australia's capital closed for 24 hours to hold a planning day and expressed \"relief\" when it reopened.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/09ab/live/cbda3580-de63-11f1-a701-fddedf244c16.jpg",
+   "at": "2026-11-12T07:12+00:00",
+   "where": [
+    60.17,
+    24.94,
+    "芬蘭"
+   ]
+  },
+  {
+   "src": "LATIN AMERICA",
+   "lang": "en",
+   "t": "Chapecoense air crash survivor wins promotion in final game",
+   "d": "Alan Ruschel, one of six survivors in the 2016 plane crash that was carrying members of the Chapecoense team, wins promotion to Brazil‘s Serie A in his final match before retiring.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/306d/live/586b44a0-e10f-11f1-b3df-4961589d9b68.jpg",
+   "at": "2026-11-15T17:10+00:00",
+   "where": [
+    -12.0,
+    -60.0,
+    "拉丁美洲"
+   ]
+  },
+  {
+   "src": "AFRICA",
+   "lang": "en",
+   "t": "Nigeria cautions against travel via Ethiopia's main airport due to altitude",
+   "d": "The foreign ministry in Abuja says 6 Nigerians with underlying health problems have died this year while transiting through Addis Ababa.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/103b/live/ed70d6c0-e040-11f1-88e1-eb4e155225b3.jpg",
+   "at": "2026-11-14T15:42+00:00",
+   "where": [
+    9.1,
+    8.7,
+    "尼日利亞"
+   ]
+  },
+  {
    "src": "HONG KONG",
    "lang": "en",
    "t": "New World shares slump amid rights issue plan",
@@ -456,6 +1104,84 @@
     52.5,
     -1.5,
     "英國"
+   ]
+  },
+  {
+   "src": "ASIA",
+   "lang": "en",
+   "t": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
+   "d": "More than 900 victims are thought to have fallen prey to the FaceStealer scheme in the last 18 months.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c16a/live/65ee22f0-df02-11f1-b6e1-5b169363fed4.jpg",
+   "at": "2026-11-13T02:48+00:00",
+   "where": [
+    37.57,
+    126.98,
+    "南韓"
+   ]
+  },
+  {
+   "src": "US & CANADA",
+   "lang": "en",
+   "t": "Steering failure preceded New Orleans cruise ship collision, says NTSB",
+   "d": "Preliminary findings by National Transportation Safety Board investigators suggest the tanker suffered a \"steering casualty\" before colliding with the cruise ship on Friday.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f55e/live/4bc0f750-e140-11f1-859a-418a418deb7d.jpg",
+   "at": "2026-11-15T22:57+00:00",
+   "where": [
+    38.9,
+    -77.04,
+    "美國"
+   ]
+  },
+  {
+   "src": "EUROPE",
+   "lang": "en",
+   "t": "Ronaldinho makes comeback in Ravenna win",
+   "d": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/45e6/live/30f37df0-e116-11f1-a7db-d90284d21c62.jpg",
+   "at": "2026-11-15T19:31+00:00",
+   "where": [
+    50.0,
+    10.0,
+    "歐洲"
+   ]
+  },
+  {
+   "src": "AUSTRALIA",
+   "lang": "en",
+   "t": "Why does Australia want Brits to swap Sydney for the outback?",
+   "d": "Australia wants changes to UK deal that would push backpackers out of Bondi and into remote regions.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a0fb/live/0de51890-dbfe-11f1-bb7b-19f7beb970a6.jpg",
+   "at": "2026-11-10T21:17+00:00",
+   "where": [
+    -33.87,
+    151.21,
+    "悉尼"
+   ]
+  },
+  {
+   "src": "LATIN AMERICA",
+   "lang": "en",
+   "t": "The Peruvian city that has embraced Pope Leo as one of its own",
+   "d": "Pope Leo XIV is in Peru as part of his Latin America tour, just weeks after having surgery for lung cancer.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/566c/live/8649d9e0-df84-11f1-a8e2-5b59832bb2f1.jpg",
+   "at": "2026-11-13T18:34+00:00",
+   "where": [
+    41.9,
+    12.45,
+    "梵蒂岡"
+   ]
+  },
+  {
+   "src": "AFRICA",
+   "lang": "en",
+   "t": "Arrested generals and a threatened VP: President's son fuels Ugandan succession fever",
+   "d": "The 52-year-old general’s provocative posts and military threats have fuelled rumours of a dynastic succession.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9975/live/51088590-df40-11f1-a48c-75dd2efdacb5.jpg",
+   "at": "2026-11-14T00:03+00:00",
+   "where": [
+    0.35,
+    32.58,
+    "烏干達"
    ]
   },
   {
