@@ -73,10 +73,14 @@ html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); f
 #music { grid-column: 1 / 5; grid-row: 7 / 9; padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 10px; }
 #music .mh { display: flex; align-items: center; gap: 8px; }
 #music .mh .lbl { flex: 1; }
-#music .mb { font: 600 14px var(--font); color: var(--fg); background: var(--tile-2); border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; text-decoration: none; white-space: nowrap; }
-#music .mb.go { background: #1db954; border-color: #1db954; color: #0b1016; }
+#music .mb { font: 600 14px var(--font); color: var(--fg); background: var(--tile-2); border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; white-space: nowrap; }
 #music .mb:active { background: #f6efe0; color: #1a1a1a; }
-#music iframe { flex: 1; width: 100%; min-height: 152px; border: 0; border-radius: 14px; background: var(--tile-2); }
+#mlist { flex: 1; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 10px; }
+.sp { border-radius: 18px; background: var(--tile-2); padding: 12px 14px; display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--fg); overflow: hidden; }
+.sp:active { background: #f6efe0; color: #1a1a1a; }
+.sp .dot { flex: none; width: 34px; height: 34px; border-radius: 50%; background: #1db954; color: #0b1016; display: flex; align-items: center; justify-content: center; font-size: 15px; }
+.sp .n { font-size: 16px; font-weight: 600; line-height: 1.2; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.sp.go { background: #1db954; color: #0b1016; } .sp.go .dot { background: #0b1016; color: #1db954; }
 
 #news { grid-column: 5 / 8; grid-row: 7 / 9; }
 .nh { display: flex; justify-content: space-between; align-items: center; }
@@ -93,7 +97,7 @@ html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); f
   <section class="t" id="now"><div class="lbl">Loading weather…</div></section>
   <section class="t" id="hours"><div class="lbl">Next 10 hours</div><div class="strip" id="strip"></div></section>
   <section class="t" id="photo"><div class="cap"><span id="capT"></span><span class="w" id="capW"></span></div><div class="tag" id="ptag" hidden>示範相片 · sample</div></section>
-  <section class="t" id="music"><div class="mh"><div class="lbl">Spotify</div><button class="mb" id="mchg" type="button">換歌單 Change</button><a class="mb go" id="mopen" href="#">開 Spotify</a></div><iframe id="mframe" title="Spotify player" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></section>
+  <section class="t" id="music"><div class="mh"><div class="lbl">Spotify</div><button class="mb" id="mchg" type="button">＋ 加歌單 Add</button></div><div id="mlist"></div></section>
   <section class="t" id="news"><div class="nh"><div class="lbl">早晨新聞</div><button id="play" type="button" aria-label="Play Cantonese summary">▶ 播放</button></div><div id="nws"></div></section>
   <div id="status"></div>
 </div>
@@ -102,9 +106,11 @@ html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); f
 var CONFIG = {
   city: 'Northwood', cityZh: '倫敦 Northwood ', lat: 51.6111, lon: -0.4237, timezone: 'Europe/London',
   secondCity: '香港', secondZone: 'Asia/Hong_Kong',
-  // Spotify player tile: paste any Spotify share link (playlist, album, artist, track or podcast).
-  // You can also tap "Change" on the iPad; that choice is remembered on that iPad.
-  spotify: 'https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M',
+  // Spotify tile: each button opens the Spotify app on that playlist / album / artist / podcast.
+  // Paste share links here, or tap "Add" on the iPad (remembered on that iPad).
+  spotify: [
+    { name: "Today's Top Hits", link: 'https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M' }
+  ],
   dimFrom: 23, dimTo: 7          // screen dims between these hours
 };
 /* =================================== */
@@ -316,28 +322,37 @@ function showHome() {
 }
 loadHome(); setInterval(loadHome, 5 * 60 * 1000); setInterval(showHome, 60 * 1000);
 
-/* ---------- Spotify player ----------
-   The embed plays full songs when this Safari is logged in to open.spotify.com,
-   otherwise 30-second previews. "開 Spotify" opens the same thing in the Spotify app. */
+/* ---------- Spotify launcher ----------
+   Safari on iPad can't play Spotify in a web page ("unsupported browser"),
+   so each button opens the Spotify app instead. */
 function spotifyParse(link) {
   var m = /(?:open\.spotify\.com\/(?:intl-[a-z-]+\/)?(?:embed\/)?|spotify:)(playlist|album|artist|track|show|episode)[\/:]([A-Za-z0-9]{10,})/.exec(link || '');
-  return m ? { type: m[1], id: m[2] } : null;
+  return m ? 'spotify:' + m[1] + ':' + m[2] : null;
+}
+function esc(t) { return String(t).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+function spotifyList() {
+  try { var saved = JSON.parse(localStorage.getItem('spotifyList') || 'null'); if (saved && saved.length) return saved; } catch (e) {}
+  return CONFIG.spotify;
 }
 function spotifyShow() {
-  var saved = null;
-  try { saved = localStorage.getItem('spotify'); } catch (e) {}
-  var sp = spotifyParse(new URLSearchParams(location.search).get('spotify')) || spotifyParse(saved) || spotifyParse(CONFIG.spotify);
-  if (!sp) return;
-  var src = 'https://open.spotify.com/embed/' + sp.type + '/' + sp.id + '?utm_source=generator&theme=0';
-  if ($('mframe').getAttribute('src') !== src) $('mframe').setAttribute('src', src);
-  $('mopen').href = 'spotify:' + sp.type + ':' + sp.id;
+  var out = '<a class="sp go" href="spotify:"><span class="dot">▶</span><span class="n">繼續播放<br>Resume</span></a>';
+  spotifyList().slice(0, 3).forEach(function (p) {
+    var uri = spotifyParse(p.link);
+    if (uri) out += '<a class="sp" href="' + uri + '"><span class="dot">♪</span><span class="n">' + esc(p.name) + '</span></a>';
+  });
+  $('mlist').innerHTML = out;
 }
 $('mchg').onclick = function () {
-  var link = window.prompt('貼上 Spotify 連結 (Share → Copy link)\nPaste a Spotify link, or leave empty for the default:', '');
-  if (link === null) return;
-  link = link.trim();
-  if (link && !spotifyParse(link)) { window.alert('呢個唔似 Spotify 連結 · That is not a Spotify link'); return; }
-  try { if (link) localStorage.setItem('spotify', link); else localStorage.removeItem('spotify'); } catch (e) {}
+  var link = window.prompt('貼上 Spotify 連結 (Share → Copy link)\nPaste a Spotify link. Type "reset" to go back to the default list.', '');
+  if (link === null || !(link = link.trim())) return;
+  try {
+    if (link.toLowerCase() === 'reset') { localStorage.removeItem('spotifyList'); spotifyShow(); return; }
+    if (!spotifyParse(link)) { window.alert('呢個唔似 Spotify 連結 · That is not a Spotify link'); return; }
+    var name = window.prompt('個名叫咩？ Name for this button:', '');
+    if (name === null) return;
+    var list = [{ name: name.trim() || 'Spotify', link: link }].concat(spotifyList()).slice(0, 3);
+    localStorage.setItem('spotifyList', JSON.stringify(list));
+  } catch (e) {}
   spotifyShow();
 };
 spotifyShow();
