@@ -8,7 +8,7 @@ URL = ("https://api.open-meteo.com/v1/forecast?latitude=%s&longitude=%s"
        "&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m,is_day"
        "&hourly=temperature_2m,weather_code,precipitation_probability,is_day"
        "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset"
-       "&timezone=%s&forecast_days=7") % (LAT, LON, TZ)
+       "&timezone=%s&forecast_days=14") % (LAT, LON, TZ)
 
 req = urllib.request.Request(URL, headers={"User-Agent": "home-clock-weather/1.0"})
 with urllib.request.urlopen(req, timeout=30) as r:
