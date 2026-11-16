@@ -1,0 +1,117 @@
+{
+ "updated": "2026-11-16T18:00+00:00",
+ "sample": true,
+ "en": {
+  "greeting": "Good evening",
+  "sections": [
+   {
+    "h": "Top stories",
+    "items": [
+     {
+      "t": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
+      "d": "The MP lost both of her legs after the alleged attack outside her electorate office four weeks ago."
+     },
+     {
+      "t": "Lindsay Clancy to face retrial next year for deaths of her three children",
+      "d": "The 36-year-old's first trial this year fell apart when a 12-person jury failed to reach a verdict."
+     },
+     {
+      "t": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+      "d": "Russia said Ukraine had launched over 2,000 drones over the course of a day, while Kyiv came under a record 17 air raid alerts."
+     }
+    ]
+   },
+   {
+    "h": "World & politics",
+    "items": [
+     {
+      "t": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
+      "d": "The MP lost both of her legs after the alleged attack outside her electorate office four weeks ago."
+     },
+     {
+      "t": "Mexican drug lord Miguel Ángel Félix Gallardo dies age 80",
+      "d": "Known as the 'Boss of Bosses', he was the head of all-powerful Guadalajara Cartel in the 1980s before his arrest broke up his drug organisation."
+     },
+     {
+      "t": "Five EU countries announce migrant deportation centre in Rwanda",
+      "d": "Germany, Denmark, Austria, Greece and the Netherlands have announced a \"return hub\" for failed asylum seekers."
+     }
+    ]
+   },
+   {
+    "h": "UK",
+    "items": [
+     {
+      "t": "Russell Brand prison message 'appalling' and being investigated, No 10 says",
+      "d": "Brand's wife read out comments from the comedian on their podcast in which the convicted rapist said he was \"not guilty of the offences I have been jailed for\"."
+     },
+     {
+      "t": "Barristers must stop using rape myths in trials, justice secretary says",
+      "d": "Russell Brand's barrister has been accused of peddling rape myths while defending the comedian."
+     },
+     {
+      "t": "Create more jobs for under-25s by cutting National Insurance, key report urges",
+      "d": "Some parents are so desperate for their children to find a job that they've offered to pay their wages, one hairdresser has told the BBC."
+     }
+    ]
+   }
+  ]
+ },
+ "zh": {
+  "greeting": "晚安",
+  "sections": [
+   {
+    "h": "頭條新聞",
+    "items": [
+     {
+      "t": "習近平、特朗普與普京歷史性會晤，將對世界意味什麼？",
+      "d": "中國、俄羅斯和美國領導人正籌備首次三方會晤，引發歐洲憂慮。一些人認為，這令人聯想到第二次世界大戰後，大國將世界劃分為不同勢力範圍的歷史。"
+     },
+     {
+      "t": "里長赴中旅遊受關注：為何北京鎖定里長？里長怎麼看？",
+      "d": "台灣地方選舉即將到來，近年北京對台統戰工作重心從政商菁英轉向基層社會，而里長作為選舉期間的地方「樁腳」，就成為了北京的重要接觸對象。"
+     },
+     {
+      "t": "里長赴中旅遊：台灣《反滲透法》為何「查辦多、定罪少」？",
+      "d": "台灣「九合一」地方選舉進入倒數，北京試圖介入台灣選舉的相關活動再受關注。台灣《反滲透法》施行後，儘管近年相關案件數量快速增加，但查辦近600人，只有5人被定罪，使現行法律規範與執法標準受到外界檢視。"
+     }
+    ]
+   },
+   {
+    "h": "國際及政治",
+    "items": [
+     {
+      "t": "教宗良十四世完成南美三國訪問行程 在秘魯與民眾會面",
+      "d": "教宗良十四世完成南美三國訪問行程，在最後一站秘魯與民眾會面。 良十四世曾經被派往秘魯傳教，在當地擔任教區主教，擁有秘魯國籍。他星期一在當地一個空軍基地出席活動，向約150萬民眾演講。良十四世說，一直把秘魯人民放在心上，又呼籲年輕人保持希望，相信自己。 良十四世為期12天的行程期間，亦到訪過烏拉圭及阿根廷，與政要、天主教團體、及民眾會面。 編輯：盧曉珊"
+     },
+     {
+      "t": "沙特武裝部隊總參謀長將兼任多國聯軍指揮官 或與也門局勢有關",
+      "d": "沙特阿拉伯國王薩勒曼頒令，任命武裝部隊總參謀長魯韋利，兼任沙特主導的多國聯軍指揮官。 至於多國聯軍原本的指揮官薩勒曼，被任命為國防大臣軍事顧問。 沙特於2015年3月帶頭組建多國聯軍，支援也門政府軍對抗胡塞武裝。雙方近月衝突升級，也門總統領導委員會主席阿里米，上月宣布發起「也門黎明」行動，恢復國家運作、解放首都薩那並結束胡塞武裝叛亂。 編輯：盧曉珊"
+     },
+     {
+      "t": "特朗普對黃仁勳重返Nvidia復職行政總裁持開放態度",
+      "d": "美國總統特朗普表示，對於黃仁勳重返Nvidia擔任行政總裁，持開放態度。 捲入婚外情風波的黃仁勳，早前辭去Nvidia行政總裁職務。特朗普星期一表示，不介意黃仁勳復職，認為對方已經吸取深刻教訓。 特朗普即將到中國深圳出席亞太經合組織領導人非正式會議，期間與國家主席習近平會晤。特朗普回答記者提問時表示，屆時可能與習近平討論黃仁勳相關議題。 特朗普又說，不肯定被指是黃仁勳婚外情對象的女子黃樂是否中國間諜，說沒有聽過這個說法，形容任何美麗的中…"
+     }
+    ]
+   },
+   {
+    "h": "香港",
+    "items": [
+     {
+      "t": "深圳APEC｜召集全球網民接力唱廣東歌《朋友》有英文泰文版",
+      "d": "深圳廣電集團聯同北京、上海廣播電視台推出《APEC「中國年」100小時全媒體大直播》節目。 晚上節目環節，包括請來多名導演談及製作概念。有導演表示，APEC會議對一般人來說或有點抽象，甚至有些人或不認識21個經濟體成員，因此想到透過「接力唱」網路活動，讓大家能夠參與這宗國際大事。 這名導演指，選了廣東歌《朋友》作為「接力唱」的歌曲，最終收到全球數十個國家及地區的網民投稿，當中有人用英文、泰文等翻唱，並製作成影片。 另外，有製作機械人樂隊…"
+     },
+     {
+      "t": "日本千葉縣、英國及印度部分地區禽肉禽蛋因禽流感暫停進口本港",
+      "d": "食物安全中心宣布，因應世界動物衞生組織通報，指印度及英國部分地區爆發高致病性H5N1禽流感，及日本農林水產省通報指日本爆發高致病性H5禽流感，中心即時暫停從有關地區進口禽肉及禽類產品，包括禽蛋，以保障公眾健康。 中心表示，有關地區為印度安得拉邦Anantapur區；英國諾福克郡King's Lynn & West Norfolk區、東約克郡東約克區；蘭開夏郡Wyre區及其附近的Lancaster區、Fylde區和Preston區；日本千…"
+     },
+     {
+      "t": "東瀛遊接供應商通知系統遭未經授權網絡存取 涉部分客戶證件資料",
+      "d": "旅行社東瀛遊表示，本月13日接獲第三方技術服務供應商通知，系統曾遭受未經授權的網絡存取，部分客戶的姓名、聯絡資料、身份證號碼及旅遊證件資料等，可能涉及相關事件。東瀛遊已報警處理，以及向私隱專員公署立案。 東瀛遊向客戶發出通知，指發生第三方技術服務供應商的資料安全事件，由於公司一直使用獨立的銀行付款系統，因此調查確認，事件不涉及任何信用卡或付款相關資料，暫未有證據顯示相關資料遭不當使用。另外，公司的核心旅遊預訂系統及日常業務運作並無受影響…"
+     }
+    ]
+   }
+  ]
+ },
+ "sources": []
+}
