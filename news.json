@@ -1,45 +1,165 @@
 {
- "updated": "2026-11-16T00:46+00:00",
+ "updated": "2026-11-16T02:00+00:00",
  "items": [
   {
    "src": "香港",
-   "t": "新世界黃少媚：大股東承擔包銷責任絕非攤薄或剝削小股東"
+   "t": "【重溫】2026年11月16日《社評摘要》",
+   "lang": "zh"
   },
   {
    "src": "國際",
-   "t": "APEC深圳峰會前瞻：美中俄三邊會談懸念 高市早苗面臨「握手」考驗"
+   "t": "APEC深圳峰會前瞻：中方確認美中俄會晤，日方盼習近平按慣例與高市握手",
+   "lang": "zh"
   },
   {
    "src": "香港",
-   "t": "深圳APEC｜丘應樺：國家冀與亞太區域經濟體共同合作發展"
+   "t": "【重溫】2026年11月16日《報章摘要》",
+   "lang": "zh"
   },
   {
    "src": "國際",
-   "t": "習近平、特朗普與普京歷史性會晤，將對世界意味什麼？"
+   "t": "習近平、特朗普與普京歷史性會晤，將對世界意味什麼？",
+   "lang": "zh"
   },
   {
    "src": "香港",
-   "t": "黃大仙下邨龍和樓有單位起火　約100人一度疏散"
+   "t": "深圳APEC｜學者稱國家可透過峰會向世界展示下一階段發展模式",
+   "lang": "zh"
   },
   {
    "src": "國際",
-   "t": "法國總統大選：五屆奧運柔道冠軍意外參選，攪動選情"
+   "t": "法國總統大選：五屆奧運柔道冠軍意外參選，攪動選情",
+   "lang": "zh"
   },
   {
    "src": "香港",
-   "t": "【重溫】2026年11月15日新聞天地"
+   "t": "深圳APEC｜深圳廣電聯同北京及上海廣播電視台100小時直播",
+   "lang": "zh"
   },
   {
    "src": "國際",
-   "t": "白宮確認特朗普、習近平和普京將在深圳APEC期間舉行歷史性三方會晤"
+   "t": "黃仁勳被召出席參議院聽證 商務部長盧特尼克受波及同須作證",
+   "lang": "zh"
   },
   {
    "src": "香港",
-   "t": "新世界發展建議按「1供11」方式　供股集資249億元"
+   "t": "新世界黃少媚：大股東承擔包銷責任絕非攤薄或剝削小股東",
+   "lang": "zh"
   },
   {
    "src": "國際",
-   "t": "Nvidia黃仁勳醜聞如何令親商的新加坡大感頭疼"
+   "t": "Nvidia黃仁勳醜聞如何令親商的新加坡大感頭疼",
+   "lang": "zh"
+  },
+  {
+   "src": "香港",
+   "t": "深圳APEC｜丘應樺：國家冀與亞太區域經濟體共同合作發展",
+   "lang": "zh"
+  },
+  {
+   "src": "國際",
+   "t": "九合一前夕：台灣幾乎年年選舉，會引起「投票疲勞」嗎？",
+   "lang": "zh"
+  },
+  {
+   "src": "香港",
+   "t": "黃大仙下邨龍和樓有單位起火　約100人一度疏散",
+   "lang": "zh"
+  },
+  {
+   "src": "國際",
+   "t": "四成「陸配」參選遭剔除，身分「法理死結」如何困住參政之路？",
+   "lang": "zh"
+  },
+  {
+   "src": "香港",
+   "t": "【重溫】2026年11月15日新聞天地",
+   "lang": "zh"
+  },
+  {
+   "src": "國際",
+   "t": "「九合一」五大看點：「洋流」能否撼動台北？誰在卡位2028？",
+   "lang": "zh"
+  },
+  {
+   "src": "HONG KONG",
+   "t": "Police chief pledges cautious use of CCTV network",
+   "lang": "en"
+  },
+  {
+   "src": "UK",
+   "t": "Cut national insurance for under-25s to create jobs, Milburn report to say",
+   "lang": "en"
+  },
+  {
+   "src": "HONG KONG",
+   "t": "HZMB Half Marathon draws thousands of runners",
+   "lang": "en"
+  },
+  {
+   "src": "UK",
+   "t": "Staggered age of consent to be discussed after Brand case, minister says",
+   "lang": "en"
+  },
+  {
+   "src": "HONG KONG",
+   "t": "One dead, 300 evacuated in Wong Tai Sin fire",
+   "lang": "en"
+  },
+  {
+   "src": "UK",
+   "t": "UK will have 'voice' but no vote on EU food rules in Brexit reset",
+   "lang": "en"
+  },
+  {
+   "src": "HONG KONG",
+   "t": "Hong Kong sees rising value in finance, trade: FS",
+   "lang": "en"
+  },
+  {
+   "src": "UK",
+   "t": "Prince Harry praises war veterans on surprise visit to Ukraine",
+   "lang": "en"
+  },
+  {
+   "src": "HONG KONG",
+   "t": "Strong current forces organisers' hand in harbour swim",
+   "lang": "en"
+  },
+  {
+   "src": "UK",
+   "t": "Cancer 'sponge' tests could be offered to more people with bad indigestion",
+   "lang": "en"
+  },
+  {
+   "src": "HONG KONG",
+   "t": "HK should prepare for AI slowdown: Algernon Yau",
+   "lang": "en"
+  },
+  {
+   "src": "UK",
+   "t": "I had to explain to my teacher what a young carer was - we need more support",
+   "lang": "en"
+  },
+  {
+   "src": "HONG KONG",
+   "t": "'Runway painting robots save time, money'",
+   "lang": "en"
+  },
+  {
+   "src": "UK",
+   "t": "Trident submarine returns home after record-breaking undersea patrol",
+   "lang": "en"
+  },
+  {
+   "src": "HONG KONG",
+   "t": "Over a dozen HK flights affected by US groundstop",
+   "lang": "en"
+  },
+  {
+   "src": "UK",
+   "t": "Man and woman die and four arrested after police pursuit crash in Leeds",
+   "lang": "en"
   }
  ]
 }
