@@ -144,8 +144,9 @@ def smaller(u):   # NASA's image service resizes: ask for a 1400 px copy
 if not apod:
     try:
         x = get("https://science.nasa.gov/feed/apod-basic/", raw=True)
-        item = (re.findall(r"<item>(.*?)</item>", x, re.S) or [""])[0]
-        log("APOD feed item:", item[:1500])
+        item = (re.findall(r"<item\b[^>]*>(.*?)</item>", x, re.S) or [""])[0]
+        if not item:
+            log("APOD feed: no item in", x[:300])
         tag = lambda n: (re.search(r"<%s[^>]*>(.*?)</%s>" % (n, n), item, re.S) or [None, ""])[1].replace("<![CDATA[", "").replace("]]>", "")
         imgs = re.findall(r'(https://[^"\'\s<>]+?\.(?:jpe?g|png|gif|webp)(?:\?[^"\'\s<>]*)?)', item, re.I)
         body = clean(tag("content:encoded") or tag("description"))
@@ -171,6 +172,9 @@ if not apod:
                         "img": img, "by": (a.get("copyright") or "").strip().replace("\n", " "), "video": a.get("media_type") != "image"}
     except Exception as e:
         log("APOD api failed:", repr(e))
+if apod:   # tidy the text: no "Explanation:" label, no space before full stops
+    apod["text"] = re.sub(r"\s+([.,;:)])", r"\1", re.sub(r"^\s*Explanation:\s*", "", apod["text"]))
+    apod["by"] = re.sub(r"\s+([,;)])", r"\1", re.sub(r"\(\s+", "(", apod["by"]))
 out["apod"] = apod or old.get("apod")
 
 # ---------- ISS passes, ISS path, moon ----------

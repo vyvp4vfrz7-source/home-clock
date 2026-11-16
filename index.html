@@ -579,7 +579,7 @@ body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state
 #spBig { position: fixed; inset: 0; background: rgba(4,6,10,.95); z-index: 40; display: flex; gap: 28px; padding: 40px; box-sizing: border-box; }
 #spBig[hidden] { display: none; }
 #spBig .pic { flex: 1.6; background: center / contain no-repeat; }
-#spBig .tx { flex: 1; overflow: auto; font-size: 19px; line-height: 1.55; color: #d5dde7; }
+#spBig .tx { flex: 1; overflow: auto; padding-top: 56px; font-size: 19px; line-height: 1.55; color: #d5dde7; }
 #spBig h2 { margin: 0 0 6px; font-size: 32px; color: var(--fg); }
 #spBig button { position: absolute; top: max(16px, env(safe-area-inset-top)); right: 20px; font: 700 18px var(--font); background: #2a3646; color: var(--fg); border: 0; border-radius: 999px; padding: 10px 20px; }
 /* ----- news page: world map with a pin for each story, one story at a time below ----- */
@@ -2128,7 +2128,8 @@ function spMoon() {
   var nx = '', want = { 2: ['滿月', 'Full moon'], 0: ['新月', 'New moon'] }, got = {};
   (SP && SP.moon || []).forEach(function (m) {
     var t = new Date(m.at); if (t < now || got[m.phase] || !want[m.phase]) return; got[m.phase] = 1;
-    nx += '<div>' + want[m.phase][0] + ' ' + want[m.phase][1] + ' · <b>' + spWhen(t).replace(/ (Tonight|Tomorrow night|Tomorrow|This morning|Today)$/, '') + ' ' + spHM(t) + '</b></div>';
+    var q = spParts(t), zhW = { Sun: '日', Mon: '一', Tue: '二', Wed: '三', Thu: '四', Fri: '五', Sat: '六' };
+    nx += '<div>' + want[m.phase][0] + ' ' + want[m.phase][1] + '<br><b>' + (+q.day) + '/' + (+q.month) + ' (' + zhW[q.weekday] + ') ' + q.hour + ':' + q.minute + '</b></div>';
   });
   if (!nx) {   // no saved dates yet: work them out roughly
     var toFull = (14.77 - age + SYN) % SYN, toNew = SYN - age;
