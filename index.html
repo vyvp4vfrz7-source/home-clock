@@ -100,7 +100,9 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 #now .stats b { display: block; color: var(--fg); font-size: 24px; font-weight: 600; margin-top: 4px; letter-spacing: 0; text-transform: none; }
 #now .stats div { font-size: 13px; color: var(--muted); letter-spacing: .08em; text-transform: uppercase; }
 
-#hours { grid-column: 1 / 8; grid-row: 5 / 7; }
+#hours { grid-column: 1 / 5; grid-row: 5 / 7; padding: 22px 20px 22px 24px; }
+#hours .h { font-size: 13px; }
+#hours .h .tv { font-size: 18px; }
 #hours .strip { display: grid; grid-template-columns: repeat(10, 1fr); margin-top: 8px; align-items: end; }
 .h { display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 15px; color: var(--muted); }
 .h .tv { color: var(--fg); font-size: 20px; font-weight: 600; }
@@ -139,20 +141,25 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
 .dy .ic { color: var(--fg); }
 .dy .hi { color: var(--fg); font-size: 20px; } .dy .lo { color: var(--muted); font-weight: 500; } .dy .p { color: var(--rain); font-size: 13px; height: 15px; }
 
-#apps { grid-column: 1 / 5; grid-row: 7 / 9; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding: 0; background: transparent; }
-.app { border-radius: 28px; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 14px; text-decoration: none; color: var(--fg); }
+#apps { grid-column: 5 / 8; grid-row: 5 / 7; display: grid; grid-template-rows: 1fr 1fr; gap: 16px; padding: 0; background: transparent; }
+.app { border-radius: 28px; display: flex; flex-direction: row; justify-content: flex-start; align-items: center; gap: 18px; padding: 0 24px; text-decoration: none; color: var(--fg); }
 .app:active { background: #f6efe0 !important; color: #1a1a1a; }
 .app.sp { background: linear-gradient(160deg, #1a3a28 0%, #141b24 80%); }
 .app.yt { background: linear-gradient(160deg, #3d1a1a 0%, #141b24 80%); }
-.app .dot { width: 84px; height: 84px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+.app .dot { flex: none; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
 .app.sp .dot { background: #1db954; color: #0b1016; }
-.app.yt .dot { background: #ff0033; color: #fff; border-radius: 26px; width: 116px; }
-.app .n { font-size: 26px; font-weight: 600; }
+.app.yt .dot { background: #ff0033; color: #fff; border-radius: 18px; width: 82px; }
+.app .n { font-size: 24px; font-weight: 600; }
+.app .dot svg { width: 30px; height: 30px; }
 
-#news { grid-column: 5 / 8; grid-row: 7 / 9; }
+#news { grid-column: 1 / 8; grid-row: 7 / 9; padding: 20px 28px; }
 .nh { display: flex; justify-content: space-between; align-items: center; }
-.nw { margin-top: 10px; font-size: 18px; line-height: 1.32; font-weight: 500; }
-.nw span { color: var(--muted); font-size: 12px; letter-spacing: .12em; display: block; font-weight: 600; margin-bottom: 2px; }
+#nws { display: grid; grid-template-columns: 1fr 1fr; gap: 0 26px; margin-top: 6px; }
+.ncol { min-width: 0; }
+.nw { padding: 7px 0; border-bottom: 1px solid var(--line); font-size: 17px; line-height: 1.3; font-weight: 500; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.nw:last-child { border-bottom: 0; }
+.nw span { color: var(--sun); font-size: 11px; letter-spacing: .1em; font-weight: 700; margin-right: 8px; }
+.ncol.en .nw span { color: var(--rain); }
 #play { font: 700 15px var(--font); background: var(--sun); color: #1a1a1a; border: 0; border-radius: 999px; padding: 8px 16px; white-space: nowrap; }
 #play.on { background: var(--rain); }
 #status { position: absolute; right: 36px; bottom: 6px; font-size: 11px; color: #3d4a5c; }
@@ -168,7 +175,7 @@ body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
   <section class="t" id="cal"><div class="ch"><div class="lbl">日程 · Calendar</div><span class="sm" id="ctag" hidden>示範 · sample</span></div><div id="evs"></div></section>
   <section class="t" id="photo"><div class="cap"><span id="capT"></span><span class="w" id="capW"></span></div><div class="tag" id="ptag" hidden>示範相片 · sample</div></section>
   <section class="t" id="apps"><a class="app sp" href="spotify:"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">Spotify</span></a><a class="app yt" href="youtube://"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">YouTube</span></a></section>
-  <section class="t" id="news"><div class="nh"><div class="lbl">早晨新聞</div><button id="play" type="button" aria-label="Play Cantonese summary">▶ 播放</button></div><div id="nws"></div></section>
+  <section class="t" id="news"><div class="nh"><div class="lbl">新聞 · News</div><button id="play" type="button" aria-label="Play Cantonese summary">▶ 播放</button></div><div id="nws"></div></section>
   <div id="status"></div>
 </div>
 </div>
@@ -601,10 +608,16 @@ function loadNews() {
 }
 function showNews() {
   if (!NEWS.length) return;
-  var out = '';
-  for (var i = 0; i < 2 && i < NEWS.length; i++) { var n = NEWS[(newsAt + i) % NEWS.length]; out += '<div class="nw"><span>' + n.src + '</span>' + n.t + '</div>'; }
-  $('nws').innerHTML = out;
-  newsAt = (newsAt + 2) % NEWS.length;
+  // Chinese headlines on the left, English on the right, 3 each, moving on every 15 seconds.
+  var zh = NEWS.filter(function (n) { return n.lang !== 'en'; }), en = NEWS.filter(function (n) { return n.lang === 'en'; });
+  function col(list, cls) {
+    if (!list.length) return '<div class="ncol ' + cls + '"></div>';
+    var out = '';
+    for (var i = 0; i < 3 && i < list.length; i++) { var n = list[(newsAt * 3 + i) % list.length]; out += '<div class="nw"><span>' + esc(n.src) + '</span>' + esc(n.t) + '</div>'; }
+    return '<div class="ncol ' + cls + '">' + out + '</div>';
+  }
+  $('nws').innerHTML = col(zh, 'zh') + col(en, 'en');
+  newsAt++;
 }
 loadNews(); setInterval(loadNews, 30 * 60 * 1000); setInterval(showNews, 15000);
 
@@ -622,7 +635,7 @@ function brief() {
     var tk = dayKey(new Date()), ev = CAL.events.filter(function (e) { return dayKey(evDate(e.start)) === tk; });
     if (ev.length) t += '今日日程：' + ev.slice(0, 5).map(function (e) { var s = evDate(e.start); return (e.allDay ? '' : s.getHours() + '點' + (s.getMinutes() ? s.getMinutes() + '分' : '') + '，') + e.title; }).join('；') + '。';
   }
-  if (NEWS.length) t += '新聞摘要。' + NEWS.slice(0, 6).map(function (n) { return n.src + '：' + n.t + '。'; }).join('');
+  if (NEWS.length) t += '新聞摘要。' + NEWS.filter(function (n) { return n.lang !== 'en'; }).slice(0, 6).map(function (n) { return n.src + '：' + n.t + '。'; }).join('');
   return t;
 }
 function voice() {
