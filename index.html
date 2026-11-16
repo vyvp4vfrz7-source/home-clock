@@ -528,35 +528,52 @@ body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state
 #newsp h1 { margin: 0; font-size: 44px; font-weight: 600; letter-spacing: -.01em; }
 #newsp h1 span { color: var(--muted); font-weight: 400; font-size: 30px; margin-left: 12px; }
 #newsp .upd { font-size: 17px; color: var(--muted); font-weight: 500; display: flex; align-items: center; gap: 16px; }
-#nmap { position: relative; height: 314px; border-radius: 22px; overflow: hidden; background: radial-gradient(ellipse at 50% 40%, #13202f 0%, #0d151f 75%); flex: none; }
-#nmap img { position: absolute; left: 0; top: 0; width: 820px; height: 314px; opacity: .95; }
+#nmap { position: relative; height: 199px; border-radius: 22px; overflow: hidden; background: radial-gradient(ellipse at 50% 40%, #13202f 0%, #0d151f 75%); flex: none; }
+#nmap img { position: absolute; left: 0; top: 0; width: 520px; height: 199px; opacity: .95; }
 .pin { position: absolute; width: 0; height: 0; }
-.pin i { position: absolute; left: -5px; top: -5px; width: 10px; height: 10px; border-radius: 50%; background: var(--sun); box-shadow: 0 0 0 3px rgba(243,182,73,.25); transition: transform .4s; }
+.pin i { position: absolute; left: -4px; top: -4px; width: 8px; height: 8px; border-radius: 50%; background: var(--sun); box-shadow: 0 0 0 3px rgba(243,182,73,.25); transition: transform .4s; }
 .pin.en i { background: var(--rain); box-shadow: 0 0 0 3px rgba(106,174,248,.25); }
 .pin b { position: absolute; left: 6px; top: -18px; font-size: 11px; font-weight: 700; color: #0b1016; background: #c9d3df; border-radius: 8px; padding: 0 5px; line-height: 16px; }
 .pin.on { z-index: 3; }
 .pin.on i { transform: scale(1.5); background: #fff; box-shadow: 0 0 0 4px rgba(255,255,255,.3); }
 .pin.on::before { content: ""; position: absolute; left: -24px; top: -24px; width: 48px; height: 48px; border-radius: 50%; border: 3px solid #fff; animation: nwRing 2s ease-out infinite; }
-.pin .lab { position: absolute; left: 20px; top: -18px; white-space: nowrap; font-size: 19px; font-weight: 700; background: rgba(8,12,18,.82); border: 1px solid #3a4a60; border-radius: 12px; padding: 4px 12px; color: #fff; }
+.pin .lab { position: absolute; left: 18px; top: -16px; white-space: nowrap; font-size: 16px; font-weight: 700; background: rgba(8,12,18,.82); border: 1px solid #3a4a60; border-radius: 12px; padding: 4px 12px; color: #fff; }
 .pin.left .lab { left: auto; right: 22px; }
 @keyframes nwRing { from { transform: scale(.3); opacity: 1; } to { transform: scale(1.4); opacity: 0; } }
 body:not(.pnews) #newsp *, body:not(.pnews) #newsp *::before { animation-play-state: paused !important; }
 #nbody { flex: 1; display: flex; gap: 22px; min-height: 0; }
-#nleft { flex: none; width: 820px; display: flex; flex-direction: column; gap: 18px; }
+#nleft { flex: none; width: 520px; display: flex; flex-direction: column; gap: 18px; }
 #nfeat { flex: 1; display: flex; flex-direction: column; gap: 16px; background: var(--tile); border-radius: 22px; padding: 20px; min-width: 0; transition: opacity .5s; }
 #nfeat.fade { opacity: 0; }
-#nimg { flex: none; height: 285px; border-radius: 16px; background: linear-gradient(150deg, #2a3a52, #141b24) center / cover; display: flex; align-items: flex-end; padding: 14px; box-sizing: border-box; font-size: 40px; font-weight: 700; color: rgba(255,255,255,.18); }
+#nimg { flex: none; height: 300px; border-radius: 16px; background: linear-gradient(150deg, #2a3a52, #141b24) center / cover; display: flex; align-items: flex-end; padding: 14px; box-sizing: border-box; font-size: 40px; font-weight: 700; color: rgba(255,255,255,.18); }
 #nimg.zh { background-image: linear-gradient(150deg, #5a4520, #141b24); }
 #ntxt { flex: 1; min-width: 0; min-height: 0; display: flex; flex-direction: column; }
 #ntxt .src { font-size: 14px; font-weight: 700; letter-spacing: .1em; color: var(--sun); display: flex; gap: 10px; align-items: center; }
 #ntxt .src.en { color: var(--rain); }
 #ntxt .src em { font-style: normal; color: var(--muted); letter-spacing: 0; font-weight: 600; }
-#ntxt h2 { margin: 8px 0 8px; font-size: 30px; line-height: 1.25; font-weight: 700; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
-#ntxt p { margin: 0; font-size: 18px; line-height: 1.4; color: #b9c4d2; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
-#nlist { flex: 1; background: var(--tile); border-radius: 22px; padding: 16px 20px; min-width: 0; overflow: hidden; }
+#ntxt h2 { margin: 8px 0 8px; font-size: 26px; line-height: 1.25; font-weight: 700; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+#ntxt p { margin: 0; font-size: 17px; line-height: 1.4; color: #b9c4d2; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+#nlist { flex: none; width: 360px; box-sizing: border-box; background: var(--tile); border-radius: 22px; padding: 16px 20px; min-width: 0; overflow: hidden; }
 #nlist .lbl { margin-bottom: 4px; }
-#nlist .nw { font-size: 16px; padding: 6px 0; }
+#nlist .nw { font-size: 15px; padding: 0; border: 0; -webkit-line-clamp: 3; }
+#nlist .nw + .nw { margin-top: 11px; }
 #nlist .nw i { font-style: normal; color: var(--muted); font-size: 12px; margin-left: 6px; }
+#nbrief { flex: 1; min-width: 0; background: linear-gradient(170deg, #1d2a3c, var(--tile) 45%); border-radius: 22px; padding: 16px 20px; display: flex; flex-direction: column; overflow: hidden; }
+#nbrief .bh { display: flex; align-items: center; justify-content: space-between; }
+#nbrief .lbl { color: var(--sun); }
+#blang { font: 700 13px var(--font); color: var(--fg); background: #2a3646; border: 0; border-radius: 999px; padding: 5px 12px; }
+#bwhen { font-size: 13px; color: var(--muted); margin: 4px 0 8px; }
+#bsec { flex: 1; min-height: 0; overflow: hidden; transition: opacity .5s; }
+#bsec.fade { opacity: 0; }
+#bsec h3 { margin: 0 0 8px; font-size: 22px; font-weight: 700; }
+#bsec .bi { padding: 7px 0; border-bottom: 1px solid var(--line); }
+#bsec .bi:last-child { border-bottom: 0; }
+#bsec .bi b { display: block; font-size: 16px; line-height: 1.3; margin-bottom: 3px; }
+#bsec .bi span { font-size: 14px; line-height: 1.4; color: #b9c4d2; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+#bsec .msg { font-size: 16px; color: var(--muted); line-height: 1.5; }
+#bdots { display: flex; gap: 5px; justify-content: center; padding-top: 8px; }
+#bdots i { width: 6px; height: 6px; border-radius: 3px; background: #3d4a5c; transition: width .3s; }
+#bdots i.on { width: 18px; background: var(--sun); }
 #nbar { height: 4px; border-radius: 2px; background: var(--line); margin-top: auto; overflow: hidden; }
 #nbar i { display: block; height: 100%; width: 0; background: var(--muted); }
 #nbar i.go { width: 100%; transition: width 10s linear; }
@@ -637,6 +654,7 @@ body.night #live { display: none; }   /* no scores on the night clock */
     <div id="nleft"><div id="nmap"><img src="world.svg" alt=""><div id="npins"></div></div>
     <div id="nfeat"><div id="nimg"></div><div id="ntxt"><div class="src" id="nsrc"></div><h2 id="nttl"></h2><p id="ndsc"></p><div id="nbar"><i></i></div></div></div></div>
     <div id="nlist"><div class="lbl">更多新聞 · More news</div><div id="nnext"></div></div>
+    <div id="nbrief"><div class="bh"><div class="lbl" id="bttl">早晨簡報 · Brief</div><button type="button" id="blang">EN / 中</button></div><div id="bwhen"></div><div id="bsec"></div><div id="bdots"></div></div>
   </div>
 </div>
 </div>
@@ -1502,7 +1520,7 @@ function newsOrder() {   // Chinese and English stories taking turns
   for (var i = 0; i < Math.max(zh.length, en.length); i++) { if (zh[i]) out.push(zh[i]); if (en[i]) out.push(en[i]); }
   return out;
 }
-function mapXY(w) { return [(w[1] + 180) / 360 * 820, (80 - w[0]) / 360 * 820]; }
+function mapXY(w) { return [(w[1] + 180) / 360 * 520, (80 - w[0]) / 360 * 520]; }
 function newsAgo(at) {
   var m = Math.round((Date.now() - new Date(at)) / 60000); if (!(m >= 0)) return '';
   return m < 60 ? m + ' 分鐘前' : m < 48 * 60 ? Math.round(m / 60) + ' 小時前' : '';
@@ -1516,7 +1534,7 @@ function showStory(step) {
   list.forEach(function (x) { if (x.where) { var k = x.where[2]; (by[k] = by[k] || { w: x.where, c: 0, en: 0 }).c++; if (x.lang === 'en') by[k].en++; } });
   for (var k in by) {
     var p = mapXY(by[k].w), on = n.where && n.where[2] === k;
-    h += '<div class="pin' + (by[k].en * 2 > by[k].c ? ' en' : '') + (on ? ' on' : '') + (p[0] > 640 ? ' left' : '') + '" style="left:' + p[0].toFixed(0) + 'px;top:' + p[1].toFixed(0) + 'px"><i></i>' +
+    h += '<div class="pin' + (by[k].en * 2 > by[k].c ? ' en' : '') + (on ? ' on' : '') + (p[0] > 380 ? ' left' : '') + '" style="left:' + p[0].toFixed(0) + 'px;top:' + p[1].toFixed(0) + 'px"><i></i>' +
       (by[k].c > 1 && !on ? '<b>' + by[k].c + '</b>' : '') + (on ? '<span class="lab">📍 ' + esc(k) + '</span>' : '') + '</div>';
   }
   $('npins').innerHTML = h;
@@ -1535,6 +1553,40 @@ function newsTick() {
   setTimeout(function () { showStory(1); f.classList.remove('fade'); }, 500);
 }
 setInterval(newsTick, 10000);
+
+/* ---------- world news brief (brief.json, written at 6am and 6pm by a Claude scheduled task) ----------
+   One section at a time, every 12 s; after a full round it switches English <-> 中文. Tap EN / 中 to switch now. */
+var BRIEF = null, bSec = 0, bLang = 'zh';
+var BRIEF_URLS = ['https://raw.githubusercontent.com/vyvp4vfrz7-source/home-clock/brief/brief.json', 'brief.json'];
+function loadBrief() {
+  var got = [];
+  BRIEF_URLS.forEach(function (u) {
+    fetch(u + '?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
+      .then(function (d) { if (d && d.en && (!BRIEF || (d.updated || '') > (BRIEF.updated || ''))) { BRIEF = d; showBrief(0); } });
+  });
+}
+function showBrief(step) {
+  var b = BRIEF && BRIEF[bLang];
+  if (!b || !b.sections || !b.sections.length) { $('bsec').innerHTML = '<div class="msg">簡報每日早上6時及傍晚6時更新。<br>The brief arrives at 6am and 6pm.</div>'; return; }
+  var n = b.sections.length;
+  bSec += step || 0;
+  if (bSec >= n) { bSec = 0; if (BRIEF[bLang === 'en' ? 'zh' : 'en']) { bLang = bLang === 'en' ? 'zh' : 'en'; b = BRIEF[bLang]; n = b.sections.length; } }
+  var sec = b.sections[bSec] || b.sections[0], h = '<h3>' + esc(sec.h) + '</h3>';
+  (sec.items || []).forEach(function (it) { h += '<div class="bi"><b>' + esc(it.t) + '</b><span>' + esc(it.d || '') + '</span></div>'; });
+  $('bsec').innerHTML = h;
+  $('bttl').textContent = bLang === 'en' ? 'Morning brief · 簡報' : '早晨簡報 · Brief';
+  var dt = BRIEF.updated ? new Date(BRIEF.updated) : null;
+  $('bwhen').textContent = (BRIEF.sample ? '示範 sample · ' : '') + (dt ? (bLang === 'en' ? 'Written ' : '更新 ') + dt.toLocaleString('en-GB', { weekday: 'short', hour: '2-digit', minute: '2-digit' }) : '');
+  var d = ''; for (var i = 0; i < n; i++) d += '<i' + (i === bSec ? ' class="on"' : '') + '></i>';
+  $('bdots').innerHTML = d;
+}
+setInterval(function () {
+  if (!document.body.classList.contains('pnews') || !BRIEF) return;
+  var el = $('bsec'); el.classList.add('fade');
+  setTimeout(function () { showBrief(1); el.classList.remove('fade'); }, 500);
+}, 12000);
+$('blang').addEventListener('click', function () { if (BRIEF) { bLang = bLang === 'en' ? 'zh' : 'en'; bSec = 0; showBrief(0); } });
+loadBrief(); setInterval(loadBrief, 15 * 60 * 1000);
 $('nfeat').addEventListener('click', function () { showStory(1); });
 
 /* ---------- Cantonese spoken summary ---------- */
