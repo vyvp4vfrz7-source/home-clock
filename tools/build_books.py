@@ -24,12 +24,12 @@ def get(url, tries=3):
 
 
 def find_cover(b):
-    if b.get("cover"):
-        return b["cover"]
+    if "cover" in b:   # a direct link, or "" for no picture (the page draws a plain cover)
+        return b["cover"] or None
     if b.get("isbn"):
         return "https://covers.openlibrary.org/b/isbn/%s-L.jpg?default=false" % b["isbn"]
     author = b["a"].split("&")[0].strip()
-    q = urllib.parse.urlencode({"title": b["t"], "author": author, "limit": 10,
+    q = urllib.parse.urlencode({"title": b["t"], "author": author, "limit": 10, "lang": "en",
                                 "fields": "cover_i,title,edition_count,language"})
     docs = json.loads(get("https://openlibrary.org/search.json?" + q)).get("docs", [])
     docs = [d for d in docs if d.get("cover_i")]
