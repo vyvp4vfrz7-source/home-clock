@@ -3261,7 +3261,7 @@ setTimeout(function () { location.replace(freshURL()); }, 6 * 3600 * 1000);
 
 /* ---------- YouTube news page: yt.json (latest uploads of each channel). Tap a video to play it here. ---------- */
 (function () {
-  var COL = { gb: '#7bd88f', wit: '#f3b649', col: '#6aaef8', viu: '#f37fb5' }, YT = null;
+  var COL = { gb: '#7bd88f', wit: '#f3b649', col: '#6aaef8', now: '#f37fb5' }, YT = null;
   function ago(iso) {
     var m = (Date.now() - new Date(iso).getTime()) / 60000;
     if (!(m >= 0)) return '';
