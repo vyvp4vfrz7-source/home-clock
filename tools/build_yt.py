@@ -10,10 +10,10 @@ import xml.etree.ElementTree as ET
 
 CHANNELS = [
     # 'must': the channel's own name has to match this, so a look-up never picks a stranger's channel
-    {"key": "gb", "zh": "綠豆", "en": "Green Bean", "id": "", "must": "綠豆", "handles": ["greenbeanhk", "GreenBeanMediaHK", "greenbean.media"], "q": ["綠豆 Green Bean 香港", "綠豆 greenbean.media"]},
+    {"key": "gb", "zh": "綠豆", "en": "Green Bean", "id": "UCLYWo70xBDrPYJgJsxoX7Qg"},
     {"key": "wit", "zh": "法庭線", "en": "The Witness", "id": "UCYRpTuLTvC7S6zfATKNfDXw"},
     {"key": "col", "zh": "集誌社", "en": "The Collective", "id": "UCfQa67fC_15Aiaywz8lPMNg"},
-    {"key": "viu", "zh": "Viu 新聞", "en": "Viu News", "id": "", "must": "(?i)viu.*(新聞|news)|(新聞|news).*viu", "handles": ["viutvnews", "ViuTVNews", "viutvnewshk"], "q": ["ViuTV 新聞", "Viu News 香港", "ViuTV News"]},
+    {"key": "viu", "zh": "ViuTV", "en": "ViuTV", "id": "UCHOmxBZKt6uCFqoCvRHnSgQ"},
 ]
 PER = 12  # videos kept per channel
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Version/17.0 Safari/605.1.15",
@@ -87,7 +87,7 @@ def main(path):
         if cid:
             try:
                 row["title"], row["videos"] = videos(cid)
-                print("  %s: %d videos, newest: %s" % (row["title"], len(row["videos"]), row["videos"][0]["t"] if row["videos"] else "-"))
+                print("  %s: %d videos: %s" % (row["title"], len(row["videos"]), " | ".join(v["at"][:10] + " " + v["t"] for v in row["videos"][:4])))
             except Exception as e:
                 print("  feed failed: %s" % e)
         if not row["videos"] and ch["key"] in old:   # keep what we had if the feed failed this time
