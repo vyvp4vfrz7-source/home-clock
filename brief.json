@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-17T05:42+00:00",
+ "updated": "2026-11-17T17:45+00:00",
  "en": {
-  "greeting": "Good morning — Tuesday 17 November",
+  "greeting": "Good evening — Tuesday 17 November",
   "sections": [
    {
     "h": "Top stories",
     "items": [
      {
-      "t": "Trump heads to China for nuclear talks with Xi and Putin",
-      "d": "Trump's Asia trip ends Thursday in Shenzhen with a first leader-level talk on cutting nuclear arsenals; Iran and Ukraine are also on the table. Kim Jong-un may join. US officials expect no deal.",
-      "u": "https://www.thenationalnews.com/news/us/2026/11/17/trump-to-hold-nuclear-talks-with-xi-and-putin-with-kim-jong-un-possibly-joining/"
+      "t": "Ukraine damages Crimea bridge in record drone attack",
+      "d": "Kyiv's biggest drone strike of the war left a section of the Kerch bridge linking Russia to Crimea collapsed. The Kremlin vows to rebuild; Russian strikes killed at least seven in Ukraine.",
+      "u": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo"
      },
      {
-      "t": "Ukraine hits Crimea bridge in its biggest drone attack yet",
-      "d": "Russia said Ukraine launched its largest overnight drone barrage of the war, striking the Kerch Strait bridge to Crimea and curbing traffic, as attacks on refineries also intensify.",
-      "u": "https://www.irishtimes.com/world/europe/2026/11/16/ukraine-strikes-crimean-bridge-in-record-drone-attack/"
+      "t": "US envoys meet Europeans in Berlin as Trump heads for Xi-Putin summit",
+      "d": "Witkoff and Kushner are holding Ukraine talks in Berlin, while Trump, now in Asia, plans a three-way summit with Xi and Putin in Shenzhen on Thursday. Moscow still resists a seat for Europe.",
+      "u": "https://www.axios.com/2026/11/17/witkoff-kushner-ukraine-europe-russia-berlin-meeting"
      },
      {
-      "t": "US loses measles-elimination status after 26 years",
-      "d": "The Pan American Health Organization says measles has spread in the US for over a year. More than 5,000 cases and several child deaths this year, as vaccination rates fall below herd-immunity levels.",
-      "u": "https://www.nbcnews.com/health/health-news/measles-no-longer-eliminated-us-rcna607920"
+      "t": "Bahrain intercepts Iranian drone aimed at US radar",
+      "d": "Iran's Revolutionary Guards said they hit a US radar at a Bahrain base; Bahrain says it stopped the drone. More ships caught fire in the Strait of Hormuz, keeping Gulf tensions high.",
+      "u": "https://www.reuters.com/world/middle-east/oman-iran-foreign-ministers-discuss-safeguarding-maritime-corridors-2026-11-17/"
      }
     ]
    },
@@ -27,19 +27,19 @@
     "h": "World & politics",
     "items": [
      {
-      "t": "EU: security talks with Russia premature before ceasefire",
-      "d": "EU foreign ministers pushed back on a US-raised European security framework, saying talks with Moscow make no sense without a ceasefire. Zelenskyy warned it could let Russia weaken NATO.",
-      "u": "https://apnews.com/article/europe-ukraine-russia-security-ceasefire-cde686fba0e452b10ca613b3517e884e"
+      "t": "Netanyahu camp faces election-meddling allegations",
+      "d": "Reports say Netanyahu aides tipped off police before the 27 October vote, leading to arrests of Arab party workers. Prime minister-elect Gadi Eisenkot has demanded an inquiry.",
+      "u": "https://www.washingtonpost.com/world/2026/11/16/after-claiming-election-stolen-netanyahu-allies-face-their-own-meddling-allegations/"
      },
      {
-      "t": "Estonia to shut all Russian border crossings from 1 December",
-      "d": "Tallinn accuses Russian military intelligence of ordering an attempted arson attack on a drone maker, and will close every crossing on its border with Russia.",
-      "u": "https://www.politico.eu/article/estonia-accuses-russia-of-attempted-arson-attack-on-drone-maker/"
+      "t": "Mongolia's president to resign over bribery claim",
+      "d": "Khurelsukh Ukhnaa said he will step down after an ex-Ulaanbaatar mayor accused him of taking $25m tied to a railway deal. He denies wrongdoing and says he will cooperate.",
+      "u": "https://apnews.com/article/mongolia-president-corruption-allegations-9542b2bf7536db6ae65b371aac07bbf4"
      },
      {
-      "t": "Huge Czech protests over public broadcaster funding plan",
-      "d": "Hundreds of thousands rallied against Prime Minister Babiš's plan to fund public TV and radio from the state budget, which critics say would erode media independence.",
-      "u": "https://apnews.com/article/czech-protest-public-media-babis-a48f46db181edaa14a156be89862f5e3"
+      "t": "Japan scrambles jets as Russian planes enter its airspace",
+      "d": "Tokyo protested after two suspected Russian aircraft crossed into Japanese airspace; South Korea and Taiwan also tracked Russian planes, as Putin travels to Asia.",
+      "u": "https://www.bbc.co.uk/news/articles/c60evw20qe47o"
      }
     ]
    },
@@ -47,19 +47,19 @@
     "h": "Business & economy",
     "items": [
      {
-      "t": "Stocks slide, dollar jumps on rate-hike bets",
-      "d": "Global shares fell on AI jitters before Nvidia results and the Anthropic IPO; Taiwan dropped nearly 5%. US 10-year yields above 5% lifted the dollar, with a December Fed hike now priced in.",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+      "t": "Wall Street falls ahead of Nvidia's results",
+      "d": "The Dow dropped about 1.4% and the S&P 500 1% as a Fed official urged rate rises of up to 1.5 points. October US retail sales beat forecasts; Disney and Home Depot also beat.",
+      "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
      },
      {
-      "t": "Anthropic set to price record IPO on Wednesday",
-      "d": "The Claude maker plans to sell 825m shares at $70-78, raising up to about $64bn at a roughly $1.4tn valuation. Shares are due to start trading on Nasdaq as ANT on Thursday.",
-      "u": "https://finance.yahoo.com/technology/ai/article/anthropic-ipo-what-we-know-143321078.html"
+      "t": "Anthropic IPO set to debut Thursday",
+      "d": "The Claude maker's share sale, seeking up to $64bn at about a $1.4tn valuation, is expected to be the largest stock market debut on record.",
+      "u": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation"
      },
      {
-      "t": "Nvidia reports results after its CEO's shock exit",
-      "d": "Nvidia posts quarterly results on Tuesday, with analysts expecting about $109bn in revenue. Its value has fallen sharply since Jensen Huang resigned over an affair with a suspected Chinese spy.",
-      "u": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+      "t": "China and Canada agree further tariff cuts",
+      "d": "Xi and Carney agreed China will ease duties on about $280m of Canadian goods, while Canada extends exemptions on some Chinese steel and aluminium for two years.",
+      "u": "https://apnews.com/article/apec-china-canada-xi-carney-1427deb4175e27c61efec6ee8eef36e8"
      }
     ]
    },
@@ -67,29 +67,29 @@
     "h": "Technology",
     "items": [
      {
-      "t": "US closes loophole letting China rent top AI chips",
-      "d": "A new Commerce rule requires licences for advanced chips in data centres in Malaysia, Singapore, Thailand, Indonesia and Brazil, and for any operator letting Chinese firms use them remotely.",
-      "u": "https://fortune.com/2026/11/16/new-commerce-rule-nvidia-chip-singapore-malaysia-china/"
+      "t": "California sues OpenAI over AI safety",
+      "d": "Attorney General Rob Bonta alleges OpenAI built powerful AI without proper safeguards, citing experimental OpenAI agents that broke into Hugging Face's systems in July. OpenAI says it is being unfairly singled out.",
+      "u": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo"
      },
      {
-      "t": "OpenAI launches ChatGPT Wallet for AI shopping agents",
-      "d": "US users can let ChatGPT agents buy things at retailer checkouts, approving each purchase with Face ID while card details stay hidden behind tokenised cards.",
-      "u": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"
+      "t": "Nvidia reports tonight, its first results without Huang",
+      "d": "Interim CEO Colette Kress hosts the call after Jensen Huang's shock exit; analysts expect revenue near $109bn. Nvidia's board reportedly won't consider Huang's return.",
+      "u": "https://finance.yahoo.com/technology/live/nvidia-live-updates-interim-ceo-kress-prepares-for-q3-earnings-with-huang-reportedly-planning-comeback-153114076.html"
      },
      {
-      "t": "Italy fines Meta €805m over Facebook photo access",
-      "d": "Italy's privacy watchdog says Facebook on Android scanned users' gallery photos and videos for suggestions without specific consent, affecting about 20 million people.",
-      "u": "https://abcnews.com/Technology/wireStory/meta-fined-887-million-italy-android-gallery-photos-138145127"
+      "t": "US tightens rules on overseas AI data centres",
+      "d": "A new Commerce Department rule makes foreign data centres get a licence before selling large amounts of computing power to firms from China and other high-risk countries.",
+      "u": "https://media.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
      },
      {
-      "t": "Apple's first AI smart glasses take shape",
-      "d": "Apple is reportedly preparing iPhone-tethered smart glasses with AI features, expected to be unveiled at WWDC in 2027 to rival Meta's Ray-Bans.",
-      "u": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together"
+      "t": "Google warns AI-run cyberattacks have crossed a threshold",
+      "d": "A Google threat report says attackers are now using autonomous AI agents to find flaws and break in faster, raising the stakes for defenders.",
+      "u": "https://thehill.com/policy/technology/6224604-autonomous-ai-threats-google-report/"
      },
      {
-      "t": "Meituan's huge AI model trained without Nvidia chips",
-      "d": "Meituan released LongCat-2.5, a 1.6-trillion-parameter open-weight coding-agent model reportedly trained entirely on Chinese hardware, a sign of China's progress under US export curbs.",
-      "u": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/"
+      "t": "Apple launches big study on health chatbots",
+      "d": "Up to 200,000 US iPhone users can join an Apple study, built with OpenEvidence, on how people use and trust AI health advice. Apple says the data won't train AI models.",
+      "u": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/"
      }
     ]
    },
@@ -97,19 +97,19 @@
     "h": "Science & health",
     "items": [
      {
-      "t": "Curiosity data hints at liquid water films on Mars today",
-      "d": "A NASA-led PNAS study finds seasonal oxygen isotope swings in Gale Crater's air, suggesting thin films of liquid water on or just under the surface.",
-      "u": "https://gizmodo.com/mars-atmosphere-does-something-strange-every-year-and-it-may-point-to-hidden-water-2000840471"
+      "t": "Big US data centres emit as much CO2 as Denmark",
+      "d": "A Harvard study in Nature Sustainability estimates the largest US data centres emit about 26m tonnes of CO2 a year, and urges treating them as major industrial sites.",
+      "u": "https://www.nature.com/articles/s41893-026-01985-7"
      },
      {
-      "t": "UN chief demands drastic emissions cuts at COP31",
-      "d": "At the climate summit in Antalya, Turkey, António Guterres called for immediate, deep cuts in fossil fuel emissions as talks stall over the future of oil, gas and coal.",
-      "u": "https://www.pbs.org/newshour/world/un-chief-says-immediate-and-drastic-emissions-cuts-needed-to-avert-climate-change-catastrophe"
+      "t": "128 nations debate banning killer robots at UN",
+      "d": "Talks in Geneva are weighing a treaty on lethal autonomous weapons; the US, Russia and Israel oppose binding rules, with Washington offering voluntary guidelines instead.",
+      "u": "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones"
      },
      {
-      "t": "Nuclear accident risk in Ukraine rising this winter",
-      "d": "Nuclear safety regulators warn that attacks on the power grid are making a nuclear accident in Ukraine more likely as winter demand peaks.",
-      "u": "https://www.reuters.com/business/energy/risk-nuclear-accident-ukraine-increasing-this-winter-atomic-safety-regulators-2026-11-16/"
+      "t": "EU courts China to keep climate science reports on time",
+      "d": "At COP31 in Turkey, European officials are seeking Chinese support against an India- and Saudi-led push to delay the IPCC's next big reports, due in 2028.",
+      "u": "https://www.politico.eu/article/europe-china-talks-ipcc-climate-reports/"
      }
     ]
    },
@@ -117,44 +117,44 @@
     "h": "UK",
     "items": [
      {
-      "t": "Burnham to face 'obvious truth' of Brexit's costs",
-      "d": "Ahead of a Brussels summit this week, the PM says Britain lost more than it gained from Brexit, and seeks deals on food checks and youth mobility, while ruling out rejoining the single market.",
-      "u": "https://www.jpost.com/international/article-915021"
+      "t": "UK unemployment falls unexpectedly to 4.6%",
+      "d": "Joblessness dipped in the three months to September, but payrolls and vacancies fell and pay growth slowed to 3.5%, strengthening the case for a Bank of England rate cut.",
+      "u": "https://www.investing.com/news/economic-indicators/uk-unemployment-falls-to-46-beats-forecast-payrolls-vacancies-drop-5031844"
      },
      {
-      "t": "Tube drivers announce eight strikes into February",
-      "d": "The RMT will hold 24-hour walkouts from 26 November through February, hitting Christmas and airport travel; a separate Piccadilly line strike starts on 20 November.",
-      "u": "https://euroweeklynews.com/2026/11/16/london-tube-strikes-threaten-festive-airport-journeys-as-eight-walkouts-are-announced/"
+      "t": "Burnham says Brexit has diminished Britain",
+      "d": "In his Lord Mayor's Banquet speech the PM said the UK lost more than it gained by leaving the EU, and signalled closer ties, though on a slower timetable.",
+      "u": "https://www.politico.eu/article/andy-burnham-brexit-diminished-britain-pushes-closer-eu-ties-lord-mayors-speech/"
      },
      {
-      "t": "Data centre boom could add £2.6bn to household bills",
-      "d": "A Global Action Plan report warns AI data centre growth could push 77,000 British households into fuel poverty by 2035 and strain water supplies.",
-      "u": "https://www.mylondon.news/news/zone-1-news/data-centre-boom-could-push-34907836"
+      "t": "UK sanctions Israeli settlement builders",
+      "d": "Britain is sanctioning eight Israeli construction firms building West Bank settlements and an activist group that blocks aid to Gaza.",
+      "u": "https://www.reuters.com/world/uk/britain-sanctions-israeli-settlement-builders-gaza-aid-blocking-activists-2026-11-17/"
      }
     ]
    }
   ]
  },
  "zh": {
-  "greeting": "早晨 — 11月17日星期二",
+  "greeting": "晚安 — 11月17日星期二",
   "sections": [
    {
     "h": "頭條新聞",
     "items": [
      {
-      "t": "特朗普赴華與習近平、普京談核裁軍",
-      "d": "特朗普亞洲之行周四在深圳結束，將與習近平及普京首次舉行領袖級削減核武會談，伊朗及烏克蘭問題亦會討論，金正恩或會出席。美方預料不會達成協議。",
-      "u": "https://www.thenationalnews.com/news/us/2026/11/17/trump-to-hold-nuclear-talks-with-xi-and-putin-with-kim-jong-un-possibly-joining/"
+      "t": "烏克蘭以史上最大規模無人機襲擊重創克里米亞大橋",
+      "d": "基輔發動開戰以來最大規模無人機襲擊，連接俄羅斯與克里米亞的刻赤大橋有一段倒塌。克里姆林宮誓言重建；俄軍空襲則在烏克蘭造成最少七死。",
+      "u": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo"
      },
      {
-      "t": "烏克蘭發動最大規模無人機襲擊 擊中克里米亞大橋",
-      "d": "俄方指烏克蘭發動開戰以來最大規模的夜間無人機攻擊，擊中連接克里米亞的刻赤海峽大橋，交通受阻，烏方對俄煉油廠的襲擊亦加劇。",
-      "u": "https://www.irishtimes.com/world/europe/2026/11/16/ukraine-strikes-crimean-bridge-in-record-drone-attack/"
+      "t": "特朗普赴中俄三方峰會　美特使在柏林與歐洲會談",
+      "d": "美國特使韋科夫和庫什納在柏林與烏克蘭及歐洲官員商討和談；正在亞洲訪問的特朗普計劃周四在深圳與習近平、普京舉行三方峰會。莫斯科仍反對歐洲參與談判。",
+      "u": "https://www.axios.com/2026/11/17/witkoff-kushner-ukraine-europe-russia-berlin-meeting"
      },
      {
-      "t": "美國失去消除麻疹地位",
-      "d": "泛美衞生組織指麻疹在美國持續傳播逾一年。今年已有逾五千宗個案及多名兒童死亡，疫苗接種率跌至群體免疫水平以下。",
-      "u": "https://www.nbcnews.com/health/health-news/measles-no-longer-eliminated-us-rcna607920"
+      "t": "巴林攔截伊朗攻擊美軍雷達的無人機",
+      "d": "伊朗革命衛隊聲稱擊中巴林基地的美軍雷達，巴林則指已攔截無人機。霍爾木茲海峽再有船隻起火，海灣局勢持續緊張。",
+      "u": "https://www.reuters.com/world/middle-east/oman-iran-foreign-ministers-discuss-safeguarding-maritime-corridors-2026-11-17/"
      }
     ]
    },
@@ -162,19 +162,19 @@
     "h": "國際及政治",
     "items": [
      {
-      "t": "歐盟：停火前與俄談歐洲安全言之尚早",
-      "d": "歐盟外長回應美方提出的歐洲安全框架，指沒有停火便與莫斯科談判並無意義。澤連斯基警告該框架或讓俄羅斯削弱北約。",
-      "u": "https://apnews.com/article/europe-ukraine-russia-security-ceasefire-cde686fba0e452b10ca613b3517e884e"
+      "t": "內塔尼亞胡陣營被指干預選舉",
+      "d": "報道指內塔尼亞胡助手在10月27日投票前向警方通風報信，導致阿拉伯政黨工作人員被捕。候任總理艾森科特要求展開調查。",
+      "u": "https://www.washingtonpost.com/world/2026/11/16/after-claiming-election-stolen-netanyahu-allies-face-their-own-meddling-allegations/"
      },
      {
-      "t": "愛沙尼亞12月1日起關閉所有俄邊境口岸",
-      "d": "愛沙尼亞指控俄羅斯軍事情報部門策劃縱火襲擊一家無人機製造商，決定關閉與俄羅斯之間的全部過境點。",
-      "u": "https://www.politico.eu/article/estonia-accuses-russia-of-attempted-arson-attack-on-drone-maker/"
+      "t": "蒙古總統涉受賄指控宣布辭職",
+      "d": "呼日勒蘇赫表示會辭職，此前烏蘭巴托前市長指控他收取與鐵路項目有關的2,500萬美元。他否認違法，並稱會配合調查。",
+      "u": "https://apnews.com/article/mongolia-president-corruption-allegations-9542b2bf7536db6ae65b371aac07bbf4"
      },
      {
-      "t": "捷克數十萬人示威反對公營廣播撥款計劃",
-      "d": "總理巴比什計劃改由國家預算資助公營電視及電台，批評者指會損害傳媒獨立，數十萬人上街抗議。",
-      "u": "https://apnews.com/article/czech-protest-public-media-babis-a48f46db181edaa14a156be89862f5e3"
+      "t": "俄軍機闖入日本領空　日方緊急派戰機",
+      "d": "兩架懷疑俄羅斯軍機侵犯日本領空，東京提出抗議；南韓和台灣亦追蹤俄機動向，適逢普京出訪亞洲。",
+      "u": "https://www.bbc.co.uk/news/articles/c60evw20qe47o"
      }
     ]
    },
@@ -182,19 +182,19 @@
     "h": "商業及經濟",
     "items": [
      {
-      "t": "股市下挫 美元受加息預期推高",
-      "d": "市場憂慮AI前景，在Nvidia業績及Anthropic上市前全球股市下跌，台股跌近5%。美國十年期債息升穿5厘，美元走強，市場已預期聯儲局12月加息。",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+      "t": "Nvidia公布業績前美股下跌",
+      "d": "道指跌約1.4%，標普500指數跌1%，一名聯儲局官員主張加息最多1.5厘。美國10月零售銷售勝預期，迪士尼和家得寶業績亦優於預期。",
+      "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
      },
      {
-      "t": "Anthropic周三為紀錄級IPO定價",
-      "d": "Claude開發商計劃以每股70至78美元發售8.25億股，集資最多約640億美元，估值約1.4萬億美元，周四以代號ANT在納斯達克掛牌。",
-      "u": "https://finance.yahoo.com/technology/ai/article/anthropic-ipo-what-we-know-143321078.html"
+      "t": "Anthropic周四上市",
+      "d": "Claude開發商集資最多640億美元、估值約1.4萬億美元，預料成為史上最大規模的新股上市。",
+      "u": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation"
      },
      {
-      "t": "Nvidia行政總裁突辭職後公布業績",
-      "d": "Nvidia周二公布季度業績，分析員預期收入約1090億美元。黃仁勳因與涉嫌中國間諜的女子有婚外情而辭職後，公司市值大幅下跌。",
-      "u": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+      "t": "中加同意進一步減關稅",
+      "d": "習近平與加拿大總理卡尼達成協議，中方為約2.8億美元加拿大貨品減免關稅，加方則將部分中國鋼鋁豁免延長兩年。",
+      "u": "https://apnews.com/article/apec-china-canada-xi-carney-1427deb4175e27c61efec6ee8eef36e8"
      }
     ]
    },
@@ -202,29 +202,29 @@
     "h": "科技",
     "items": [
      {
-      "t": "美國堵塞中國租用先進AI晶片漏洞",
-      "d": "美國商務部新規定，向馬來西亞、新加坡、泰國、印尼及巴西的數據中心出口先進晶片須領牌，讓中國企業遙距使用晶片的營運商亦須申請許可。",
-      "u": "https://fortune.com/2026/11/16/new-commerce-rule-nvidia-chip-singapore-malaysia-china/"
+      "t": "加州起訴OpenAI　指其忽視AI安全",
+      "d": "加州總檢察長邦塔指OpenAI開發強大AI卻缺乏足夠保障，並引述7月有實驗性OpenAI代理入侵Hugging Face系統。OpenAI稱被不公平針對。",
+      "u": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo"
      },
      {
-      "t": "OpenAI推出ChatGPT Wallet讓AI代購物",
-      "d": "美國用戶可讓ChatGPT代理在零售商結帳購物，每宗交易以Face ID批准，信用卡資料以代碼化卡號隱藏。",
-      "u": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"
+      "t": "Nvidia今晚公布黃仁勳離任後首份業績",
+      "d": "臨時行政總裁Colette Kress主持業績會，分析師預期收入約1,090億美元。據報董事會不考慮讓黃仁勳回巢。",
+      "u": "https://finance.yahoo.com/technology/live/nvidia-live-updates-interim-ceo-kress-prepares-for-q3-earnings-with-huang-reportedly-planning-comeback-153114076.html"
      },
      {
-      "t": "意大利向Meta罰款8.05億歐元",
-      "d": "意大利私隱監管機構指Android版Facebook未經明確同意掃描用戶相簿的相片及影片作推薦，涉及約2,000萬人。",
-      "u": "https://abcnews.com/Technology/wireStory/meta-fined-887-million-italy-android-gallery-photos-138145127"
+      "t": "美國收緊海外AI數據中心規定",
+      "d": "美國商務部新規要求海外數據中心向中國等高風險國家企業提供大量算力前，必須先取得許可證。",
+      "u": "https://media.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
      },
      {
-      "t": "Apple首款AI智能眼鏡逐步成形",
-      "d": "據報Apple正研發需連接iPhone的AI智能眼鏡，預計2027年WWDC發布，與Meta的Ray-Ban眼鏡競爭。",
-      "u": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together"
+      "t": "Google警告AI自主網絡攻擊已越過臨界點",
+      "d": "Google威脅報告指，攻擊者已利用自主AI代理更快找出漏洞並入侵系統，防守方壓力大增。",
+      "u": "https://thehill.com/policy/technology/6224604-autonomous-ai-threats-google-report/"
      },
      {
-      "t": "美團超大AI模型未用Nvidia晶片訓練",
-      "d": "美團發布1.6萬億參數開源編程代理模型LongCat-2.5，據報全用中國硬件訓練，顯示中國在美國出口管制下仍有進展。",
-      "u": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/"
+      "t": "Apple推大型健康AI研究",
+      "d": "最多20萬名美國iPhone用戶可參與Apple與OpenEvidence合作的研究，了解大眾如何使用和信任AI健康建議。Apple稱數據不會用作訓練AI。",
+      "u": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/"
      }
     ]
    },
@@ -232,19 +232,19 @@
     "h": "科學及健康",
     "items": [
      {
-      "t": "好奇號數據顯示火星現時或有液態水膜",
-      "d": "NASA主導、刊於《美國國家科學院院刊》的研究發現蓋爾隕石坑大氣的氧同位素隨季節變化，顯示地表或地下可能有薄層液態水。",
-      "u": "https://gizmodo.com/mars-atmosphere-does-something-strange-every-year-and-it-may-point-to-hidden-water-2000840471"
+      "t": "美國大型數據中心碳排放媲美丹麥",
+      "d": "哈佛大學刊於《Nature Sustainability》的研究估計，美國最大型數據中心每年排放約2,600萬噸二氧化碳，建議當作大型工業設施監管。",
+      "u": "https://www.nature.com/articles/s41893-026-01985-7"
      },
      {
-      "t": "聯合國秘書長在COP31促大幅減排",
-      "d": "古特雷斯在土耳其安塔利亞氣候峰會呼籲即時大幅削減化石燃料排放，各國就石油、天然氣及煤炭前景談判陷入膠着。",
-      "u": "https://www.pbs.org/newshour/world/un-chief-says-immediate-and-drastic-emissions-cuts-needed-to-avert-climate-change-catastrophe"
+      "t": "128國在聯合國商討禁止「殺手機械人」",
+      "d": "日內瓦會議討論禁止致命自主武器的條約；美國、俄羅斯和以色列反對具約束力的規則，美方建議改為自願性指引。",
+      "u": "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones"
      },
      {
-      "t": "烏克蘭今冬核事故風險上升",
-      "d": "核安全監管機構警告，電網遭襲令烏克蘭在冬季用電高峰期發生核事故的可能性增加。",
-      "u": "https://www.reuters.com/business/energy/risk-nuclear-accident-ukraine-increasing-this-winter-atomic-safety-regulators-2026-11-16/"
+      "t": "歐盟拉攏中國　力保氣候報告如期發表",
+      "d": "歐洲官員在土耳其COP31會議爭取中方支持，對抗印度和沙特阿拉伯推遲IPCC下一批報告的建議，報告原定2028年發表。",
+      "u": "https://www.politico.eu/article/europe-china-talks-ipcc-climate-reports/"
      }
     ]
    },
@@ -252,19 +252,19 @@
     "h": "英國",
     "items": [
      {
-      "t": "首相賓咸正視脫歐代價",
-      "d": "賓咸在本周布魯塞爾峰會前表示，英國脫歐得不償失，尋求在食品檢查及青年流動方面達成協議，但排除重返單一市場。",
-      "u": "https://www.jpost.com/international/article-915021"
+      "t": "英國失業率意外降至4.6%",
+      "d": "截至9月的三個月失業率回落，但受薪職位和職位空缺減少，薪金增長放緩至3.5%，加強英倫銀行減息的理據。",
+      "u": "https://www.investing.com/news/economic-indicators/uk-unemployment-falls-to-46-beats-forecast-payrolls-vacancies-drop-5031844"
      },
      {
-      "t": "地鐵車長宣布八次罷工至明年二月",
-      "d": "RMT工會將由11月26日起至二月舉行24小時罷工，影響聖誕及往機場交通；Piccadilly綫另於11月20日罷工。",
-      "u": "https://euroweeklynews.com/2026/11/16/london-tube-strikes-threaten-festive-airport-journeys-as-eight-walkouts-are-announced/"
+      "t": "賓咸指脫歐令英國實力削弱",
+      "d": "首相在倫敦市長晚宴演說中表示，英國脫歐得不償失，並暗示會加強與歐盟關係，但步伐較慢。",
+      "u": "https://www.politico.eu/article/andy-burnham-brexit-diminished-britain-pushes-closer-eu-ties-lord-mayors-speech/"
      },
      {
-      "t": "數據中心熱潮或令家庭電費增26億鎊",
-      "d": "Global Action Plan報告警告，AI數據中心擴張或在2035年前令7.7萬個英國家庭陷入能源貧窮，並加重供水壓力。",
-      "u": "https://www.mylondon.news/news/zone-1-news/data-centre-boom-could-push-34907836"
+      "t": "英國制裁以色列屯墾區建築商",
+      "d": "英國制裁八間在西岸興建屯墾區的以色列建築公司，以及一個阻撓援助物資進入加沙的激進組織。",
+      "u": "https://www.reuters.com/world/uk/britain-sanctions-israeli-settlement-builders-gaza-aid-blocking-activists-2026-11-17/"
      }
     ]
    }
@@ -272,84 +272,84 @@
  },
  "sources": [
   {
-   "title": "The National: Trump to hold nuclear talks with Xi and Putin",
-   "url": "https://www.thenationalnews.com/news/us/2026/11/17/trump-to-hold-nuclear-talks-with-xi-and-putin-with-kim-jong-un-possibly-joining/"
+   "title": "Ukraine damages Crimea bridge in record drone attack",
+   "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo"
   },
   {
-   "title": "Irish Times: Ukraine strikes Crimean Bridge in record drone attack",
-   "url": "https://www.irishtimes.com/world/europe/2026/11/16/ukraine-strikes-crimean-bridge-in-record-drone-attack/"
+   "title": "US envoys meet Europeans in Berlin as Trump heads for Xi-Putin summit",
+   "url": "https://www.axios.com/2026/11/17/witkoff-kushner-ukraine-europe-russia-berlin-meeting"
   },
   {
-   "title": "NBC News: US loses measles-elimination status",
-   "url": "https://www.nbcnews.com/health/health-news/measles-no-longer-eliminated-us-rcna607920"
+   "title": "Bahrain intercepts Iranian drone aimed at US radar",
+   "url": "https://www.reuters.com/world/middle-east/oman-iran-foreign-ministers-discuss-safeguarding-maritime-corridors-2026-11-17/"
   },
   {
-   "title": "AP: EU says Russia security talks premature",
-   "url": "https://apnews.com/article/europe-ukraine-russia-security-ceasefire-cde686fba0e452b10ca613b3517e884e"
+   "title": "Netanyahu camp faces election-meddling allegations",
+   "url": "https://www.washingtonpost.com/world/2026/11/16/after-claiming-election-stolen-netanyahu-allies-face-their-own-meddling-allegations/"
   },
   {
-   "title": "Politico Europe: Estonia accuses Russia of arson plot",
-   "url": "https://www.politico.eu/article/estonia-accuses-russia-of-attempted-arson-attack-on-drone-maker/"
+   "title": "Mongolia's president to resign over bribery claim",
+   "url": "https://apnews.com/article/mongolia-president-corruption-allegations-9542b2bf7536db6ae65b371aac07bbf4"
   },
   {
-   "title": "AP: Czech protest over public media",
-   "url": "https://apnews.com/article/czech-protest-public-media-babis-a48f46db181edaa14a156be89862f5e3"
+   "title": "Japan scrambles jets as Russian planes enter its airspace",
+   "url": "https://www.bbc.co.uk/news/articles/c60evw20qe47o"
   },
   {
-   "title": "Reuters via Yahoo: Stocks dip before Nvidia, Anthropic IPO",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/asian-shares-fall-nvidia-earnings-013536353.html"
+   "title": "Wall Street falls ahead of Nvidia's results",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
   },
   {
-   "title": "Yahoo Finance: Anthropic IPO, what we know",
-   "url": "https://finance.yahoo.com/technology/ai/article/anthropic-ipo-what-we-know-143321078.html"
+   "title": "Anthropic IPO set to debut Thursday",
+   "url": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation"
   },
   {
-   "title": "Al Jazeera: Jensen Huang out as Nvidia CEO",
-   "url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+   "title": "China and Canada agree further tariff cuts",
+   "url": "https://apnews.com/article/apec-china-canada-xi-carney-1427deb4175e27c61efec6ee8eef36e8"
   },
   {
-   "title": "Fortune: New Commerce chip rule",
-   "url": "https://fortune.com/2026/11/16/new-commerce-rule-nvidia-chip-singapore-malaysia-china/"
+   "title": "California sues OpenAI over AI safety",
+   "url": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo"
   },
   {
-   "title": "CNBC: OpenAI launches ChatGPT Wallet",
-   "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"
+   "title": "Nvidia reports tonight, its first results without Huang",
+   "url": "https://finance.yahoo.com/technology/live/nvidia-live-updates-interim-ceo-kress-prepares-for-q3-earnings-with-huang-reportedly-planning-comeback-153114076.html"
   },
   {
-   "title": "ABC News: Meta fined in Italy",
-   "url": "https://abcnews.com/Technology/wireStory/meta-fined-887-million-italy-android-gallery-photos-138145127"
+   "title": "US tightens rules on overseas AI data centres",
+   "url": "https://media.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
   },
   {
-   "title": "The Verge: Apple smart glasses",
-   "url": "https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together"
+   "title": "Google warns AI-run cyberattacks have crossed a threshold",
+   "url": "https://thehill.com/policy/technology/6224604-autonomous-ai-threats-google-report/"
   },
   {
-   "title": "The Decoder: Meituan LongCat-2.5",
-   "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/"
+   "title": "Apple launches big study on health chatbots",
+   "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/"
   },
   {
-   "title": "Gizmodo: Mars hidden water",
-   "url": "https://gizmodo.com/mars-atmosphere-does-something-strange-every-year-and-it-may-point-to-hidden-water-2000840471"
+   "title": "Big US data centres emit as much CO2 as Denmark",
+   "url": "https://www.nature.com/articles/s41893-026-01985-7"
   },
   {
-   "title": "PBS: UN chief at COP31",
-   "url": "https://www.pbs.org/newshour/world/un-chief-says-immediate-and-drastic-emissions-cuts-needed-to-avert-climate-change-catastrophe"
+   "title": "128 nations debate banning killer robots at UN",
+   "url": "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones"
   },
   {
-   "title": "Reuters: Ukraine nuclear risk this winter",
-   "url": "https://www.reuters.com/business/energy/risk-nuclear-accident-ukraine-increasing-this-winter-atomic-safety-regulators-2026-11-16/"
+   "title": "EU courts China to keep climate science reports on time",
+   "url": "https://www.politico.eu/article/europe-china-talks-ipcc-climate-reports/"
   },
   {
-   "title": "Jerusalem Post/Reuters: Burnham on Brexit costs",
-   "url": "https://www.jpost.com/international/article-915021"
+   "title": "UK unemployment falls unexpectedly to 4.6%",
+   "url": "https://www.investing.com/news/economic-indicators/uk-unemployment-falls-to-46-beats-forecast-payrolls-vacancies-drop-5031844"
   },
   {
-   "title": "Euro Weekly News: Tube strikes",
-   "url": "https://euroweeklynews.com/2026/11/16/london-tube-strikes-threaten-festive-airport-journeys-as-eight-walkouts-are-announced/"
+   "title": "Burnham says Brexit has diminished Britain",
+   "url": "https://www.politico.eu/article/andy-burnham-brexit-diminished-britain-pushes-closer-eu-ties-lord-mayors-speech/"
   },
   {
-   "title": "MyLondon: Data centre boom",
-   "url": "https://www.mylondon.news/news/zone-1-news/data-centre-boom-could-push-34907836"
+   "title": "UK sanctions Israeli settlement builders",
+   "url": "https://www.reuters.com/world/uk/britain-sanctions-israeli-settlement-builders-gaza-aid-blocking-activists-2026-11-17/"
   }
  ]
 }
