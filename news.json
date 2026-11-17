@@ -1,13 +1,14 @@
 {
- "updated": "2026-11-17T15:43+00:00",
+ "updated": "2026-11-17T16:51+00:00",
  "items": [
   {
    "src": "香港",
    "lang": "zh",
-   "t": "元朗官立小學呈分試據報用舊試卷篇章 校長稱嚴肅跟進及安排重考",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878190-20261117.htm",
-   "d": "有報道指，元朗官立小學小六升中呈分試，中文科閱讀卷涉嫌重用舊試卷篇章。校方表示將安排重考。 校長余慶賢回應本台查詢時表示，獲悉事件後已即時啟動既定機制進行調查，並正嚴肅跟進，為維護考試的公平和公正性，經審慎考慮和評估後，決定安排全體六年級學生重考中文科閱讀卷。 她表示，會全面檢視及優化校本評估機制，以避免同類事件再次發生。 編輯：鍾慧儀",
-   "at": "2026-11-17T15:16+00:00",
+   "t": "冷鋒今日稍後橫過廣東沿岸 天文台預料本港今晚氣溫下降",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878196-20261118.htm",
+   "d": "天文台發出特別天氣提示，表示華南北部的一道冷鋒逐漸向南移動，預料今日稍後橫過廣東沿岸。本港會有一兩陣雨，晚上氣溫下降。隨後一兩日顯著轉涼，星期五及星期六市區最低氣溫在15、16度左右，新界再低兩三度。 天文台又說，受到強烈東北季候風影響，星期五及星期六初時高地風寒效應會較為明顯及寒冷，提醒市民、特別是戶外活動的人士，要留意天氣變化，注意保暖，並關顧長者及慢性病患者。 編輯：盧曉珊",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878196_1_M_20261118001403.jpg",
+   "at": "2026-11-17T16:14+00:00",
    "where": [
     22.32,
     114.17,
@@ -26,6 +27,90 @@
     34.0,
     108.0,
     "中國"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "美方發布遠程獲取先進半導體限制 中方強烈不滿堅決反對",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878194-20261117.htm",
+   "d": "美國商務部發布《限制遠程獲取先進半導體》臨時最終規則，以新加坡、泰國、馬來西亞、印尼和巴西存在非法對華轉運芯片高風險為由，要求向相關國家企業出口先進芯片時，須申請許可證。 在北京，商務部表示，中方對此強烈不滿，堅決反對，批評美方泛化國家安全概念，濫用出口管制，對中國企業與其他國家企業正常貿易合作橫加干涉，背離兩國元首重要共識，破壞市場規則和國際經貿秩序，衝擊全球半導體產業鏈供應鏈穩定。希望美方與中方相向而行，回到協商合作解決分歧的正確軌…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878194_1_M_20261118003516.jpg",
+   "at": "2026-11-17T15:53+00:00",
+   "where": [
+    34.0,
+    108.0,
+    "中國"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "屈臣氏：第三方供應商網絡安全事件無關香港業務 不涉個人資料",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878195-20261118.htm",
+   "d": "屈臣氏集團表示，已知悉涉及第三方供應商的網絡安全事件，指該供應商為集團旗下數個歐洲業務的網站提供搜尋功能，強調該供應商從未獲授權存取任何集團業務的客戶資料，事件亦不涉及任何個人資料外洩。 屈臣氏集團發言人回應查詢時表示，事件不涉及香港及亞洲業務，亦沒有任何個人資料外洩，因此未有通報個人資料私隱專員公署。 香港網絡安全事故協調中心表示，近期本港多宗網絡安全事故涉及不同機構及系統，現階段沒有資料顯示事故由相同攻擊方式造成。中心提醒企業及機構…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878195_1_M_20261118001027.jpg",
+   "at": "2026-11-17T16:07+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "中國以AI奇境接待各國領袖，但他們看不到的另一面是什麼？",
+   "u": "https://www.bbc.com/zhongwen/articles/crgj360lnqv6o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "離開深圳充滿科技感的天際線後，你將會看到習近平治下中國所面臨的種種挑戰。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/c637/live/5938bed0-e1b4-11f1-9a3f-99aca912798e.jpg",
+   "at": "2026-11-17T11:44+00:00",
+   "where": [
+    34.0,
+    108.0,
+    "中國"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "習近平晤智利總統 指願加強溝通協作 共同捍衛真正多邊主義",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878193-20261117.htm",
+   "d": "國家主席習近平，下午在深圳與來華出席亞太經合組織領導人非正式會議的智利總統卡斯特會面。 習近平指出，雙方要繼續在涉及彼此核心利益和重大關切問題上互相支持，加強各領域各層級交往，開展治國理政經驗交流，做互尊互信的同行者；又說中國和智利經濟結構互補、合作根基深厚，要通過高質量共建「一帶一路」加強發展戰略對接，促進貿易、能源、礦產、基礎設施建設、天文等傳統合作，拓展人工智能、極地科考、深海探測等新興合作；中方願與智方在亞太經合組織等多邊機制內…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878193_1_M_20261118003605.jpg",
+   "at": "2026-11-17T15:40+00:00",
+   "where": [
+    34.0,
+    108.0,
+    "中國"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "元朗官立小學重考小六呈分試 校長稱嚴肅跟進並優化評估機制",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878190-20261117.htm",
+   "d": "有報道指，元朗官立小學小六升中呈分試，中文科閱讀卷涉嫌重用舊試卷篇章。校方表示將安排重考。 校長余慶賢回應本台查詢時表示，獲悉事件後已即時啟動既定機制進行調查，並正嚴肅跟進，為維護考試的公平和公正性，經審慎考慮和評估後，決定安排全體六年級學生重考中文科閱讀卷。 她表示，會全面檢視及優化校本評估機制，以避免同類事件再次發生。 編輯：鍾慧儀",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878190_1_M_20261118002344.jpg",
+   "at": "2026-11-17T15:16+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
+   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
+   "at": "2026-11-17T09:49+00:00",
+   "where": [
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -59,15 +144,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "中國以AI奇境接待各國領袖，但他們看不到的另一面是什麼？",
-   "u": "https://www.bbc.com/zhongwen/articles/crgj360lnqv6o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "離開深圳充滿科技感的天際線後，你將會看到習近平治下中國所面臨的種種挑戰。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/c637/live/5938bed0-e1b4-11f1-9a3f-99aca912798e.jpg",
-   "at": "2026-11-17T11:44+00:00",
+   "t": "APEC深圳峰會：賴清德派施振榮出席 台灣參會空間再成焦點",
+   "u": "https://www.bbc.com/zhongwen/articles/ck5y1g89jnnxo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣試圖以企業家身分與科技優勢擴大能見度，中國則以原則框架維持主導權。APEC作為平台，或許能讓雙方同時在場，但仍難以消弭兩岸在全球外交參與的既有分歧。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/e760/live/fbdccce0-e262-11f1-900c-895604014268.jpg",
+   "at": "2026-11-17T08:44+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    22.54,
+    114.06,
+    "深圳"
    ]
   },
   {
@@ -101,15 +186,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
-   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
-   "at": "2026-11-17T09:49+00:00",
+   "t": "歐盟峰會前夕 貝安德稱英國脫歐「得不償失」",
+   "u": "https://www.bbc.com/zhongwen/articles/c68x0j2r8lkyo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "英國首相在倫敦金融城市長晚宴上向與會人士表示，「我們得到的脫歐結果並沒有奏效」。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b29e/live/e82f8ae0-e210-11f1-a541-6d0c391a4254.jpg",
+   "at": "2026-11-17T07:52+00:00",
    "where": [
-    23.7,
-    121.0,
-    "台灣"
+    52.5,
+    -1.5,
+    "英國"
    ]
   },
   {
@@ -143,15 +228,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "APEC深圳峰會：賴清德派施振榮出席 台灣參會空間再成焦點",
-   "u": "https://www.bbc.com/zhongwen/articles/ck5y1g89jnnxo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "台灣試圖以企業家身分與科技優勢擴大能見度，中國則以原則框架維持主導權。APEC作為平台，或許能讓雙方同時在場，但仍難以消弭兩岸在全球外交參與的既有分歧。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/e760/live/fbdccce0-e262-11f1-900c-895604014268.jpg",
-   "at": "2026-11-17T08:44+00:00",
+   "t": "台灣高雄市選戰：「知識藍」柯志恩對決「新潮流」賴瑞隆，國民黨有可能複製「韓流」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-17T16:25+00:00",
    "where": [
-    22.54,
-    114.06,
-    "深圳"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -174,54 +259,11 @@
    "t": "深圳APEC｜新界北列臨時禁飛區 非華裔男子涉操作無人機被捕",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878182-20261117.htm",
    "d": "一名40歲非華裔男子涉嫌在未獲授權下，於警務處處長就2026年亞太區經濟合作組織相關會議設立的臨時限制飛行區，操作小型無人機拍攝，涉嫌違反《小型無人機令》被捕。 警方表示，新界北總區機動部隊人員，在元朗南生圍巡邏期間，發現有關男子在未獲授權下於禁飛區內操作小型無人機拍攝。 警方再次提醒市民，本周二凌晨起，直至本周五晚上11時59分，整個新界北部空域均列為臨時限制飛行區，不得進行飛行活動，包括無人機、滑翔傘、飛艇、風箏、繫留氣球，及放飛大…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878182_1_M_20261117231826.jpg",
    "at": "2026-11-17T13:59+00:00",
    "where": [
     22.54,
     114.06,
     "深圳"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "歐盟峰會前夕 貝安德稱英國脫歐「得不償失」",
-   "u": "https://www.bbc.com/zhongwen/articles/c68x0j2r8lkyo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "英國首相在倫敦金融城市長晚宴上向與會人士表示，「我們得到的脫歐結果並沒有奏效」。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b29e/live/e82f8ae0-e210-11f1-a541-6d0c391a4254.jpg",
-   "at": "2026-11-17T07:52+00:00",
-   "where": [
-    52.5,
-    -1.5,
-    "英國"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "深圳APEC｜越南學者：中國和越南在很多方面有互補性",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878162-20261117.htm",
-   "d": "亞太經合組織第33次領導人非正式會議，即將在深圳舉行。 有越南學者認為，中越在技術和供應鏈上優勢互補，綠色轉型和數字化帶來新的合作機會。 編輯：朱錫君",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878162_1_M_20261117195631.jpg",
-   "at": "2026-11-17T11:56+00:00",
-   "where": [
-    22.54,
-    114.06,
-    "深圳"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "一名本地船長及五名內地過港漁工涉用蛇籠捕魚被落案控告",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878179-20261117.htm",
-   "d": "漁護署控告一名本地船長及五名內地過港漁工，涉嫌在沙洲附近水域一艘本地船隻上使用蛇籠捕魚。六人涉嫌違反《漁業保護條例》，已被落案控告，案件將於明日在屯門裁判法院提堂。 漁護署人員昨晚約八時，在有關水域截停一艘涉嫌使用蛇籠捕魚的本地船隻調查，漁護署人員從船上檢取一批絞轆。 漁護署表示，任何人士在本港水域使用船隻捕魚時，船隻必須根據《漁業保護條例》登記及按其本地漁船登記證明書上所列出的捕魚方法捕魚。本地漁船登記證明書有關浸籠部分的登記條件亦指…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878179_1_M_20261117223000.jpg",
-   "at": "2026-11-17T13:24+00:00",
-   "where": [
-    34.0,
-    108.0,
-    "中國"
    ]
   },
   {
@@ -241,10 +283,49 @@
   {
    "src": "世界",
    "lang": "zh",
+   "t": "深圳APEC｜越南學者：中國和越南在很多方面有互補性",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878162-20261117.htm",
+   "d": "亞太經合組織第33次領導人非正式會議，即將在深圳舉行。 有越南學者認為，中越在技術和供應鏈上優勢互補，綠色轉型和數字化帶來新的合作機會。 編輯：朱錫君",
+   "at": "2026-11-17T11:56+00:00",
+   "where": [
+    22.54,
+    114.06,
+    "深圳"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "一名本地船長及五名內地過港漁工涉用蛇籠捕魚被落案控告",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878179-20261117.htm",
+   "d": "漁護署控告一名本地船長及五名內地過港漁工，涉嫌在沙洲附近水域一艘本地船隻上使用蛇籠捕魚。六人涉嫌違反《漁業保護條例》，已被落案控告，案件將於明日在屯門裁判法院提堂。 漁護署人員昨晚約八時，在有關水域截停一艘涉嫌使用蛇籠捕魚的本地船隻調查，漁護署人員從船上檢取一批絞轆。 漁護署表示，任何人士在本港水域使用船隻捕魚時，船隻必須根據《漁業保護條例》登記及按其本地漁船登記證明書上所列出的捕魚方法捕魚。本地漁船登記證明書有關浸籠部分的登記條件亦指…",
+   "at": "2026-11-17T13:24+00:00",
+   "where": [
+    34.0,
+    108.0,
+    "中國"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "里長赴中旅遊受關注：為何北京鎖定里長？里長怎麼看？",
+   "u": "https://www.bbc.com/zhongwen/articles/cm3elx8gxdn3o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣地方選舉即將到來，近年北京對台統戰工作重心從政商菁英轉向基層社會，而里長作為選舉期間的地方「樁腳」，就成為了北京的重要接觸對象。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7e59/live/86a92b40-d75d-11f1-b441-2b33b063138f.jpg",
+   "at": "2026-11-16T09:03+00:00",
+   "where": [
+    23.7,
+    121.0,
+    "台灣"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
    "t": "深圳APEC｜習近平在深圳與多國領袖雙邊會面",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878161-20261117.htm",
    "d": "亞太經合組織領導人非正式會議，即將在深圳舉行。東道主，國家主席習近平分別與多位與會的外國領導人，舉行雙邊會面，包括加拿大總理卡尼、越共中央總書記、國家主席蘇林，及墨西哥總統辛鮑姆等。 其中，習近平與卡尼會面時，就發展中加關係提出四點意見，又表示，從中加關係這些年發展歷程，得出的重要啟示，就是相互尊重、平等互利、求同存異。中方願同加方一道努力，推動中加新型戰略夥伴關係不斷向前發展。 編輯：朱錫君",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878161_1_M_20261117194833.jpg",
    "at": "2026-11-17T11:48+00:00",
    "where": [
     22.54,
@@ -268,46 +349,6 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "里長赴中旅遊受關注：為何北京鎖定里長？里長怎麼看？",
-   "u": "https://www.bbc.com/zhongwen/articles/cm3elx8gxdn3o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "台灣地方選舉即將到來，近年北京對台統戰工作重心從政商菁英轉向基層社會，而里長作為選舉期間的地方「樁腳」，就成為了北京的重要接觸對象。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7e59/live/86a92b40-d75d-11f1-b441-2b33b063138f.jpg",
-   "at": "2026-11-16T09:03+00:00",
-   "where": [
-    23.7,
-    121.0,
-    "台灣"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "美國聯合航空一度系統故障 多個航班延誤或取消",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878170-20261117.htm",
-   "d": "美國聯合航空公司於當地星期一，一度出現系統故障，多個航班延誤或取消，公司方面向客戶致歉。 報道指故障持續約1小時40分鐘。美聯航在一份聲明中說，系統故障問題已得到解決，無跡象表明事件與網絡安全問題有關。聲明又說，在飛行途中的航班及由美聯航旗下聯翔公司營運的航班，未受影響。 路透社報道，代表美聯航機師的工會的一份內部備忘錄指出，美聯航系統故障影響機師所使用包括機組人員通信系統在內的多項應用程式，系統故障導致公司無法向離港航班提供最終飛機載…",
-   "at": "2026-11-17T11:47+00:00",
-   "where": [
-    38.9,
-    -77.04,
-    "美國"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "選舉事務處就選舉委員會界別分組一般選舉舉行培訓及演練",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878177-20261117.htm",
-   "d": "2026年選舉委員會界別分組一般選舉，將於本月22日舉行。選舉事務處連日來為負責不同崗位的選舉工作人員，舉行多場培訓和模擬演練，加強他們對相關工作的了解及應變能力。選舉管理委員會主席陸啟康及委員石丹理，今日視察選舉事務處為投票站工作人員安排的實地排練。 是次訓練為相關選舉工作人員而設，旨在加深他們對投票站運作和發票工作的認識，包括熟習以電子選民登記冊系統發票，以及一旦需要啓動其後備模式的發票程序。 陸啟康表示，實地排練有助工作人員熟悉投…",
-   "at": "2026-11-17T13:18+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
    "t": "「九合一」五大看點：「洋流」能否撼動台北？誰在卡位2028？",
    "u": "https://www.bbc.com/zhongwen/articles/cm8xzrg40dq1o/trad?at_medium=RSS&at_campaign=rss",
    "d": "中共是否介入台灣選舉？ 這次選舉將如何影響賴清德與國民黨主席鄭麗文的政治能量？捲土重來、希望藉著地方議員選舉有所斬獲的小黨，此次結盟能否在主流政黨夾殺中突圍而出？",
@@ -320,52 +361,12 @@
    ]
   },
   {
-   "src": "世界",
-   "lang": "zh",
-   "t": "深圳APEC｜習近平晤蘇林 稱中越要妥控海上分歧推進海上合作",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878128-20261117.htm",
-   "d": "中共中央總書記、國家主席習近平在深圳，會見來華出席亞太經合組織領導人非正式會議的越共中央總書記、國家主席蘇林。 習近平表示，中越要增進互信團結，深化全面合作，共守和平穩定、共促發展繁榮；要深化多維聯通，促進利益融合，推動智慧口岸和跨境經濟合作區早日落地，拓展數字轉型、綠色低碳等合作，探索人工智能應用合作。他又說雙方要妥善管控海上分歧，穩步推進海上合作，攜手落實四大全球倡議，加強在聯合國、中國-東盟、瀾湄合作等框架內協作。 新華社報道，蘇…",
-   "at": "2026-11-17T07:25+00:00",
-   "where": [
-    22.54,
-    114.06,
-    "深圳"
-   ]
-  },
-  {
    "src": "香港",
    "lang": "zh",
-   "t": "深圳APEC｜陳旭：會議成果文件磋商工作已啟動",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878164-20261117.htm",
-   "d": "亞太經合組織領導人非正式會議明日舉行。 2026年亞太經合組織高官會主席陳旭相信，會議一定會取得圓滿成功，會議的成果文件磋商工作已經啟動，在已取得的務實合作成果基礎上，推動發表一份富有雄心的領導人成果文件。 編輯：朱錫君",
-   "at": "2026-11-17T11:58+00:00",
-   "where": [
-    22.54,
-    114.06,
-    "深圳"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "台灣「北藍南綠」的政治版圖是否「鐵板一塊」？",
-   "u": "https://www.bbc.com/zhongwen/articles/c3n07pkpk5ggo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "「北藍南綠」是描述台灣政治版圖的常見概念，但近年選舉結果顯示，這樣的區域分野並非一成不變，中間選民的流向在這次地方選舉可能左右大局。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/815f/live/b7df6e90-be3a-11f1-883b-cfbfbf424e7e.jpg",
-   "at": "2026-10-14T03:36+00:00",
-   "where": [
-    23.7,
-    121.0,
-    "台灣"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "【重溫】2026年11月17日新聞天地",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878157-20261117.htm",
-   "d": "詳盡報道本地時事、大中華消息、國際局勢等新聞，緊貼最新熱話。",
-   "at": "2026-11-17T11:56+00:00",
+   "t": "選舉事務處就選舉委員會界別分組一般選舉舉行培訓及演練",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878177-20261117.htm",
+   "d": "2026年選舉委員會界別分組一般選舉，將於本月22日舉行。選舉事務處連日來為負責不同崗位的選舉工作人員，舉行多場培訓和模擬演練，加強他們對相關工作的了解及應變能力。選舉管理委員會主席陸啟康及委員石丹理，今日視察選舉事務處為投票站工作人員安排的實地排練。 是次訓練為相關選舉工作人員而設，旨在加深他們對投票站運作和發票工作的認識，包括熟習以電子選民登記冊系統發票，以及一旦需要啓動其後備模式的發票程序。 陸啟康表示，實地排練有助工作人員熟悉投…",
+   "at": "2026-11-17T13:18+00:00",
    "where": [
     22.32,
     114.17,
@@ -431,15 +432,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "We couldn't afford a house alone, so we bought one with strangers",
-   "u": "https://www.bbc.co.uk/news/articles/c5742lwdyzglo?at_medium=RSS&at_campaign=rss",
-   "d": "People who can't afford to get on the housing ladder are buying homes with someone they don't know.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/da1d/live/2cfb5880-e265-11f1-900c-895604014268.jpg",
-   "at": "2026-11-17T00:00+00:00",
+   "t": "Trump lands in Asia ahead of talks with Russian and Chinese presidents",
+   "u": "https://www.bbc.co.uk/news/articles/crq5vlxxx32no?at_medium=RSS&at_campaign=rss",
+   "d": "The US president said he would be open to a one-on-one meeting with Russia's Vladimir Putin \"if it's available\".",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b939/live/dca6f2e0-e291-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-17T12:54+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    55.75,
+    37.6,
+    "俄羅斯"
    ]
   },
   {
@@ -449,7 +450,7 @@
    "u": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
    "d": "Ukraine says the missile and drone attack on the strategic bridge in the Russian-annexed Crimea took weeks to plan.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/222d/live/db8315b0-e278-11f1-99a1-253766e7ad8b.png",
-   "at": "2026-11-17T13:01+00:00",
+   "at": "2026-11-17T16:07+00:00",
    "where": [
     49.0,
     31.4,
@@ -491,7 +492,7 @@
    "u": "https://www.bbc.co.uk/news/articles/crq5vl1l6z2po?at_medium=RSS&at_campaign=rss",
    "d": "Venâncio Mondlane faces several charges over 2024 post-election protests that left hundreds of people dead.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8344/live/da8191f0-e27d-11f1-bd1e-f9c53347c5a6.jpg",
-   "at": "2026-11-17T15:19+00:00",
+   "at": "2026-11-17T16:41+00:00",
    "where": [
     -25.97,
     32.57,
@@ -519,7 +520,7 @@
    "u": "https://www.bbc.co.uk/news/articles/cm93080xj8xgo?at_medium=RSS&at_campaign=rss",
    "d": "Vicrum Digwa, who fatally stabbed Nowak in Southampton in 2015, is also seeking a sentence review.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ac27/live/51d20e90-5dc4-11f1-ae8d-59e8183471b2.jpg",
-   "at": "2026-11-17T15:35+00:00",
+   "at": "2026-11-17T16:34+00:00",
    "where": [
     52.5,
     -1.5,
@@ -543,29 +544,29 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Lindsay Clancy to face retrial next year for deaths of her three children",
-   "u": "https://www.bbc.co.uk/news/articles/cw5y1v8de35go?at_medium=RSS&at_campaign=rss",
-   "d": "The 36-year-old's first trial this year fell apart when a 12-person jury failed to reach a verdict.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0f3a/live/c50f43d0-e1dd-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-16T19:30+00:00",
+   "t": "Carney eyes 'other options' for embattled Canadian auto sector on China trip",
+   "u": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss",
+   "d": "The PM has suggested Chinese automakers could replace American ones in Canada - but some say that would not be easy.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/dab7/live/371458b0-e299-11f1-8dda-8925a81c3da5.jpg",
+   "at": "2026-11-17T15:17+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
-   "u": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss",
-   "d": "Efforts to recover bodies after a “double-tap” attack in southern Ukraine are being hampered by continuing Russian strikes, officials say.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ba46/live/5efa38d0-df84-11f1-a701-fddedf244c16.png",
-   "at": "2026-11-17T05:59+00:00",
+   "t": "How the attack on Putin's prized Crimean Bridge unfolded",
+   "u": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
+   "d": "One of the key symbols of Russia's occupation of Ukraine has suffered major damage after a seven-stage attack by Kyiv.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/82dd/live/f7995500-e29d-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-17T15:38+00:00",
    "where": [
-    49.0,
-    31.4,
-    "烏克蘭"
+    55.75,
+    37.6,
+    "俄羅斯"
    ]
   },
   {
@@ -655,11 +656,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "US bank services returning to normal after major outage",
-   "u": "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
-   "d": "Chase Bank, the largest US bank, said a software bug might be causing the issue, but that it was not \"systemic'\" or \"cyber-related\".",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d633/live/6fb04df0-e212-11f1-b9ca-b9964628501b.jpg",
-   "at": "2026-11-17T15:04+00:00",
+   "t": "Jensen Huang says he would return as Nvidia boss if asked by the board",
+   "u": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
+   "d": "Huang says he has had an \"outpouring\" of calls from investors and others calling for him to return.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2306/live/95f186a0-e29e-11f1-8dda-8925a81c3da5.jpg",
+   "at": "2026-11-17T16:39+00:00",
    "where": [
     38.9,
     -77.04,
@@ -669,15 +670,15 @@
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "Dozens injured after trains collide head-on in Prague",
-   "u": "https://www.bbc.co.uk/news/articles/c6reg7r589nro?at_medium=RSS&at_campaign=rss",
-   "d": "The low speed collision outside the Czech capital's main station triggered a massive emergency response.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7e5b/live/253833c0-e274-11f1-b639-73d1df360b76.jpg",
-   "at": "2026-11-17T11:48+00:00",
+   "t": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
+   "u": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss",
+   "d": "Efforts to recover bodies after a “double-tap” attack in southern Ukraine are being hampered by continuing Russian strikes, officials say.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f253/live/e4451260-e2a1-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-17T05:59+00:00",
    "where": [
-    50.08,
-    14.44,
-    "捷克"
+    49.0,
+    31.4,
+    "烏克蘭"
    ]
   },
   {
@@ -711,15 +712,15 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Owono did not deserve 12-match ban - Pique",
-   "u": "https://www.bbc.co.uk/sport/football/articles/c91430yk4el2o?at_medium=RSS&at_campaign=rss",
-   "d": "FC Andorra owner Gerard Pique says goalkeeper Jesus Owono did not deserve the 12-match suspension he received following his challenge which resulted in the death of Tenerife forward Jesus de Miguel.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/729a/live/738fe790-e25e-11f1-84cb-b9a30b11458c.jpg",
-   "at": "2026-11-17T08:28+00:00",
+   "t": "Nigerians among 12 suspects arrested in $4.5m Canada luxury car theft syndicate",
+   "u": "https://www.bbc.co.uk/news/articles/cm5y1wr1535ko?at_medium=RSS&at_campaign=rss",
+   "d": "Canadian authorities say they have recovered 96 luxury vehicles destined for West Africa.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e5db/live/3bffede0-e252-11f1-876d-1dfc6cf3b709.jpg",
+   "at": "2026-11-17T08:11+00:00",
    "where": [
-    5.0,
-    20.0,
-    "非洲"
+    9.1,
+    8.7,
+    "尼日利亞"
    ]
   },
   {
@@ -743,7 +744,7 @@
    "u": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
    "d": "It marks the first sanctions since the UK announced a tougher approach to Israeli actions in the territory.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b109/live/1b3b72b0-e283-11f1-b166-176de21e2352.jpg",
-   "at": "2026-11-17T13:10+00:00",
+   "at": "2026-11-17T15:59+00:00",
    "where": [
     31.5,
     34.9,
@@ -767,29 +768,29 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Trump says Alaska voters chose the wrong Dan Sullivan. What does the data show?",
-   "u": "https://www.bbc.co.uk/news/articles/cxnv4jlr269eo?at_medium=RSS&at_campaign=rss",
-   "d": "Votes are still being counted in the Alaska Senate race, with Democrat Mary Peltola ahead of Republican incumbent Senator Dan S Sullivan.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8eff/live/0fbc83f0-e11d-11f1-93e1-3b657b665bcf.jpg",
-   "at": "2026-11-17T02:38+00:00",
+   "t": "US loses measles elimination status after 26 years amid record case numbers",
+   "u": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
+   "d": "States have reported over 5,400 cases and 10 measles-related deaths for the first time since the early 1990s.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0b33/live/4927cca0-dfd1-11f1-8c90-4fc10fbf9142.jpg",
+   "at": "2026-11-17T16:26+00:00",
    "where": [
-    61.2,
-    -149.9,
-    "阿拉斯加"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "Five EU countries announce migrant deportation centre in Rwanda",
-   "u": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
-   "d": "Germany, Denmark, Austria, Greece and the Netherlands have announced a \"return hub\" for failed asylum seekers.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7397/live/2ac14ca0-e1d9-11f1-b8c8-67fa35f5afdb.jpg",
-   "at": "2026-11-16T23:20+00:00",
+   "t": "Dozens injured after trains collide head-on in Prague",
+   "u": "https://www.bbc.co.uk/news/articles/c6reg7r589nro?at_medium=RSS&at_campaign=rss",
+   "d": "The low speed collision outside the Czech capital's main station triggered a massive emergency response.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7e5b/live/253833c0-e274-11f1-b639-73d1df360b76.jpg",
+   "at": "2026-11-17T11:48+00:00",
    "where": [
-    0.35,
-    32.58,
-    "烏干達"
+    50.08,
+    14.44,
+    "捷克"
    ]
   },
   {
@@ -823,11 +824,11 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Cameroon, Senegal and Benin close in on Afcon 2027 qualification",
-   "u": "https://www.bbc.co.uk/sport/football/articles/cwg7lr2ly3ngo?at_medium=RSS&at_campaign=rss",
-   "d": "Cameroon, Senegal and Benin are on the brink of qualifying for the 2027 Africa Cup of Nations, while Ghana secure another crucial win in their bid to reach the finals.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9751/live/dd2677a0-e1d7-11f1-ac67-3510ff19b64e.jpg",
-   "at": "2026-11-16T18:07+00:00",
+   "t": "Senegal become first side to book Afcon 2027 spot",
+   "u": "https://www.bbc.co.uk/sport/football/articles/c5evrgrvw1ezo?at_medium=RSS&at_campaign=rss",
+   "d": "Senegal become the first side to qualify for the 2027 Africa Cup of Nations, while Egypt miss the chance to join them and Nigeria suffer another setback.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7391/live/363a56f0-e29a-11f1-8dda-8925a81c3da5.jpg",
+   "at": "2026-11-17T16:18+00:00",
    "where": [
     14.7,
     -17.44,
@@ -879,11 +880,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Vance says he will decide 'sometime next year' about 2028 US presidential run",
-   "u": "https://www.bbc.co.uk/news/articles/cwkgr9m41engo?at_medium=RSS&at_campaign=rss",
-   "d": "The US vice-president tells Fox News that when he makes a decision to run or otherwise, he will \"be all in on whatever that decision is\".",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/31c6/live/3f22aa50-e255-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-17T03:07+00:00",
+   "t": "'Everyone's talking about it' - GTA 6 generates huge hype ahead of release",
+   "u": "https://www.bbc.co.uk/news/videos/c6gqx1qkdy9do?at_medium=RSS&at_campaign=rss",
+   "d": "Gamers can hardly contain their excitement as the release of Grand Theft Auto 6 approaches, ending a 13-year wait and fuelling extraordinary anticipation.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2025/live/a8f37f00-e2a4-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-17T16:38+00:00",
    "where": [
     38.9,
     -77.04,
@@ -893,15 +894,15 @@
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "Gérard Depardieu drops appeal against sexual assault conviction",
-   "u": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss",
-   "d": "The French film star was due to start an appeal trial after being found guilty of sexually assaulting two women on a Paris set.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6e5e/live/d9ec2540-e1b8-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-16T13:40+00:00",
+   "t": "Five EU countries announce migrant deportation centre in Rwanda",
+   "u": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
+   "d": "Germany, Denmark, Austria, Greece and the Netherlands have announced a \"return hub\" for failed asylum seekers.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7397/live/2ac14ca0-e1d9-11f1-b8c8-67fa35f5afdb.jpg",
+   "at": "2026-11-16T23:20+00:00",
    "where": [
-    50.0,
-    10.0,
-    "歐洲"
+    0.35,
+    32.58,
+    "烏干達"
    ]
   },
   {
@@ -935,15 +936,15 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Two mass shootings in South Africa leave 17 dead",
-   "u": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo?at_medium=RSS&at_campaign=rss",
-   "d": "The shootings in KwaZulu-Natal and Gauteng highlight South Africa's struggle to curb violent crime.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e2e5/live/66487e80-e1a0-11f1-902c-ad301cbf1208.jpg",
-   "at": "2026-11-16T10:57+00:00",
+   "t": "Owono did not deserve 12-match ban - Pique",
+   "u": "https://www.bbc.co.uk/sport/football/articles/c91430yk4el2o?at_medium=RSS&at_campaign=rss",
+   "d": "FC Andorra owner Gerard Pique says goalkeeper Jesus Owono did not deserve the 12-match suspension he received following his challenge which resulted in the death of Tenerife forward Jesus de Miguel.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/729a/live/738fe790-e25e-11f1-84cb-b9a30b11458c.jpg",
+   "at": "2026-11-17T08:28+00:00",
    "where": [
-    -30.6,
-    22.9,
-    "南非"
+    5.0,
+    20.0,
+    "非洲"
    ]
   },
   {
@@ -986,29 +987,29 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Nigerians among 12 suspects arrested in $4.5m Canada luxury car theft syndicate",
-   "u": "https://www.bbc.co.uk/news/articles/cm5y1wr1535ko?at_medium=RSS&at_campaign=rss",
-   "d": "Canadian authorities say they have recovered 96 luxury vehicles destined for West Africa.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e5db/live/3bffede0-e252-11f1-876d-1dfc6cf3b709.jpg",
-   "at": "2026-11-17T08:11+00:00",
+   "t": "Trump says US taking 'very seriously' any Iranian plot against Washington",
+   "u": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
+   "d": "Tehran rejects any suggestion it was plotting a so-called dirty bomb attack on the US capital as \"baseless\".",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a331/live/4e364d80-e287-11f1-b166-176de21e2352.jpg",
+   "at": "2026-11-17T16:42+00:00",
    "where": [
-    9.1,
-    8.7,
-    "尼日利亞"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
-   "u": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
-   "d": "The Ukrainian president says the slowed-down internet is making it difficult to stop Russian attacks.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9a51/live/78372760-e180-11f1-9386-1b849272ca8f.jpg",
-   "at": "2026-11-16T20:16+00:00",
+   "t": "Gérard Depardieu drops appeal against sexual assault conviction",
+   "u": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss",
+   "d": "The French film star was due to start an appeal trial after being found guilty of sexually assaulting two women on a Paris set.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6e5e/live/d9ec2540-e1b8-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-16T13:40+00:00",
    "where": [
-    49.0,
-    31.4,
-    "烏克蘭"
+    50.0,
+    10.0,
+    "歐洲"
    ]
   },
   {
@@ -1042,15 +1043,15 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Town rebuilt after devastating floods becomes showcase for Libyan strongman's rule",
-   "u": "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss",
-   "d": "The remarkable reconstruction of Derna is being used as a showcase for the rest of Libya by Khalifa Haftar and his sons.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3f0a/live/616751f0-df68-11f1-b441-2b33b063138f.jpg",
-   "at": "2026-11-16T00:11+00:00",
+   "t": "Two mass shootings in South Africa leave 17 dead",
+   "u": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo?at_medium=RSS&at_campaign=rss",
+   "d": "The shootings in KwaZulu-Natal and Gauteng highlight South Africa's struggle to curb violent crime.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e2e5/live/66487e80-e1a0-11f1-902c-ad301cbf1208.jpg",
+   "at": "2026-11-16T10:57+00:00",
    "where": [
-    32.89,
-    13.19,
-    "利比亞"
+    -30.6,
+    22.9,
+    "南非"
    ]
   },
   {
@@ -1069,11 +1070,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Cass report author tells BBC draft conversion practices bill is not workable",
-   "u": "https://www.bbc.co.uk/news/articles/c6m25vd2yxgdo?at_medium=RSS&at_campaign=rss",
-   "d": "The gender care review author says the bill’s wording risks \"serious unintended consequences\" for parents and therapists.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/64f6/live/4c3df530-e261-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-17T10:36+00:00",
+   "t": "British Airways plane veers off Heathrow taxiway",
+   "u": "https://www.bbc.co.uk/news/articles/cqx2wnwzmd8mo?at_medium=RSS&at_campaign=rss",
+   "d": "The Boeing 787 Dreamliner bound for Lagos is delayed after its front wheel becomes stuck in grass.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/79b8/live/694095b0-e299-11f1-8dda-8925a81c3da5.jpg",
+   "at": "2026-11-17T16:15+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1097,29 +1098,29 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Pope Leo hit by flying rosary while waving to crowds in Peru",
-   "u": "https://www.bbc.co.uk/news/videos/ckpdwn23j5j8o?at_medium=RSS&at_campaign=rss",
-   "d": "The pontiff was struck in the face by what is thought to be prayer beads while travelling aboard the popemobile to deliver a farewell Mass.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0861/live/f40b1380-e200-11f1-ba8d-01314a590f72.jpg",
-   "at": "2026-11-16T21:12+00:00",
+   "t": "We couldn't afford a house alone, so we bought one with strangers",
+   "u": "https://www.bbc.co.uk/news/articles/c5742lwdyzglo?at_medium=RSS&at_campaign=rss",
+   "d": "People who can't afford to get on the housing ladder are buying homes with someone they don't know.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/da1d/live/2cfb5880-e265-11f1-900c-895604014268.jpg",
+   "at": "2026-11-17T00:00+00:00",
    "where": [
-    -12.05,
+    38.9,
     -77.04,
-    "秘魯"
+    "美國"
    ]
   },
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "Czechs rally against plan to switch funding of public media",
-   "u": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
-   "d": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0f9f/live/b7b68ac0-e121-11f1-9705-e15ce514cc96.jpg",
-   "at": "2026-11-15T21:03+00:00",
+   "t": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+   "u": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
+   "d": "The Ukrainian president says the slowed-down internet is making it difficult to stop Russian attacks.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9a51/live/78372760-e180-11f1-9386-1b849272ca8f.jpg",
+   "at": "2026-11-16T20:16+00:00",
    "where": [
-    50.08,
-    14.44,
-    "捷克"
+    49.0,
+    31.4,
+    "烏克蘭"
    ]
   },
   {
@@ -1151,6 +1152,20 @@
    ]
   },
   {
+   "src": "AFRICA",
+   "lang": "en",
+   "t": "Town rebuilt after devastating floods becomes showcase for Libyan strongman's rule",
+   "u": "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss",
+   "d": "The remarkable reconstruction of Derna is being used as a showcase for the rest of Libya by Khalifa Haftar and his sons.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3f0a/live/616751f0-df68-11f1-b441-2b33b063138f.jpg",
+   "at": "2026-11-16T00:11+00:00",
+   "where": [
+    32.89,
+    13.19,
+    "利比亞"
+   ]
+  },
+  {
    "src": "HONG KONG",
    "lang": "en",
    "t": "Govt moves to implement Wang Fuk recommendations",
@@ -1166,11 +1181,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Restaurant with zero hygiene score fined thousands for 'stomach-churning' offences",
-   "u": "https://www.bbc.co.uk/news/articles/cmqj5zyp79zwo?at_medium=RSS&at_campaign=rss",
-   "d": "Rodent poo, contaminated chopping boards and leaking grease were observed by council inspectors.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0e54/live/36738070-e27b-11f1-99b6-a35a62fa4264.png",
-   "at": "2026-11-17T12:01+00:00",
+   "t": "Cass report author tells BBC draft conversion practices bill is not workable",
+   "u": "https://www.bbc.co.uk/news/articles/c6m25vd2yxgdo?at_medium=RSS&at_campaign=rss",
+   "d": "The gender care review author says the bill’s wording risks \"serious unintended consequences\" for parents and therapists.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/64f6/live/4c3df530-e261-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-17T10:36+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1189,6 +1204,20 @@
     38.9,
     -77.04,
     "美國"
+   ]
+  },
+  {
+   "src": "US & CANADA",
+   "lang": "en",
+   "t": "Trump says Alaska voters chose the wrong Dan Sullivan. What does the data show?",
+   "u": "https://www.bbc.co.uk/news/articles/cxnv4jlr269eo?at_medium=RSS&at_campaign=rss",
+   "d": "Votes are still being counted in the Alaska Senate race, with Democrat Mary Peltola ahead of Republican incumbent Senator Dan S Sullivan.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8eff/live/0fbc83f0-e11d-11f1-93e1-3b657b665bcf.jpg",
+   "at": "2026-11-17T02:38+00:00",
+   "where": [
+    61.2,
+    -149.9,
+    "阿拉斯加"
    ]
   },
   {
@@ -1221,11 +1250,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Man pleads guilty to harassing Jess Phillips MP",
-   "u": "https://www.bbc.co.uk/news/articles/c6174dkv584ko?at_medium=RSS&at_campaign=rss",
-   "d": "Lee Owens, 47, will be sentenced next year for sending aggressive and threatening emails to the MP.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d191/live/ada72230-e287-11f1-b166-176de21e2352.jpg",
-   "at": "2026-11-17T14:17+00:00",
+   "t": "Restaurant with zero hygiene score fined thousands for 'stomach-churning' offences",
+   "u": "https://www.bbc.co.uk/news/articles/cmqj5zyp79zwo?at_medium=RSS&at_campaign=rss",
+   "d": "Rodent poo, contaminated chopping boards and leaking grease were observed by council inspectors.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0e54/live/36738070-e27b-11f1-99b6-a35a62fa4264.png",
+   "at": "2026-11-17T12:01+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1248,11 +1277,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "E-motorbike killer's jail sentence increased",
-   "u": "https://www.bbc.co.uk/news/articles/cr3wgejle0lqo?at_medium=RSS&at_campaign=rss",
-   "d": "Judges rule the jail term handed to Sunderland crash killer Billy Stokoe was unduly lenient.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b406/live/7fd1c320-5082-11f1-b65e-7792809e12cc.jpg",
-   "at": "2026-11-17T13:55+00:00",
+   "t": "Man pleads guilty to harassing Jess Phillips MP",
+   "u": "https://www.bbc.co.uk/news/articles/c6174dkv584ko?at_medium=RSS&at_campaign=rss",
+   "d": "Lee Owens, 47, will be sentenced next year for sending aggressive and threatening emails to the MP.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d191/live/ada72230-e287-11f1-b166-176de21e2352.jpg",
+   "at": "2026-11-17T14:17+00:00",
    "where": [
     52.5,
     -1.5,
