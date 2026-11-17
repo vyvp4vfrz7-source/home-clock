@@ -14,13 +14,16 @@ Also saves Octopus Free Electricity sessions (public list kept by the Home Assis
 Octopus integration) and Saving Sessions you joined (Octopus GraphQL, best effort).
 Standard library only, plus 'cryptography' when CALENDAR_KEY is set.
 """
-import base64, json, os, sys, urllib.error, urllib.parse, urllib.request
+import base64, bisect, json, os, sys, urllib.error, urllib.parse, urllib.request
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 API = "https://api.octopus.energy/v1/"
 TZ = ZoneInfo("Europe/London")
-DAYS = 15                      # how far back to fetch (two weeks + today)
+DAYS = 31                      # half-hours fetched (a month: peak hours, always-on power, tariff check)
+KEEP = 15                      # days kept on the main energy page (two weeks + today)
+HIST = 760                     # daily history for the review page: this year vs last year
+LAT, LON = 51.611, -0.424      # Northwood, for heating vs outdoor temperature
 KEY = os.environ.get("OCTOPUS_API_KEY", "").strip()
 ACCOUNT = os.environ.get("OCTOPUS_ACCOUNT", "").strip().upper()
 OUT = sys.argv[1] if len(sys.argv) > 1 else "energy.json"
@@ -142,6 +145,11 @@ def fuel_block(fuel, point, since, until, now):
         sc = price_at(stand, noon) or 0
         out_days.append({"d": k, "kwh": round(d["kwh"], 2), "p": round(d["p"] + sc, 1),
                          "full": d["n"] >= 46, "hh": [round(x, 3) for x in d["hh"]]})
+    full = [d for d in out_days if d["full"]][-28:]
+    profile = [round(sum(d["hh"][i] for d in full) / len(full), 3) for i in range(48)] if full else []
+    base = [[d["d"], round(min(d["hh"]) * 2000)] for d in full]      # lowest half-hour of the day, in watts
+    month = {d["d"]: (d["hh"], d["p"]) for d in full}
+    out_days = out_days[-KEEP:]
     for d in out_days[:-3]:                  # keep the half-hours only for the latest days (smaller file)
         del d["hh"]
     upcoming = []                            # today's and tomorrow's prices on time-of-use tariffs (Agile, Go...)
@@ -151,8 +159,141 @@ def fuel_block(fuel, point, since, until, now):
             if f and f >= now - timedelta(minutes=30):
                 upcoming.append([iso(f), r["value_inc_vat"]])
     last = readings[-1]["interval_end"] if readings else None
+    hist = history(fuel, point, ident, factor, now)
     return {"tariff": tariff, "unit": unit_price(now), "standing": price_at(stand, now),
-            "last": last, "days": out_days, "upcoming": upcoming[:96]}
+            "from": ag.get("valid_from"), "until": ag.get("valid_to"),
+            "last": last, "days": out_days, "upcoming": upcoming[:96],
+            "profile": profile, "base": base, "hist": hist, "_month": month}
+
+
+class Prices:
+    """Unit rates and standing charges over all past agreements, looked up by time (bisect)."""
+    def __init__(self, fuel, agreements, since, until):
+        self.u, self.s = [], []
+        for a in agreements or []:
+            f, t = parse(a.get("valid_from")) or since, parse(a.get("valid_to")) or until
+            f, t = max(f, since), min(t, until)
+            if f >= t:
+                continue
+            tc = a["tariff_code"]
+            u = rates(fuel, tc, "standard-unit-rates", f, t) or rates(fuel, tc, "day-unit-rates", f, t)
+            self.u += [(parse(r.get("valid_from")) or since, parse(r.get("valid_to")) or until, r["value_inc_vat"]) for r in u]
+            self.s += [(parse(r.get("valid_from")) or since, parse(r.get("valid_to")) or until, r["value_inc_vat"]) for r in rates(fuel, tc, "standing-charges", f, t)]
+        self.u.sort(key=lambda x: x[0]); self.s.sort(key=lambda x: x[0])
+        self.uk = [x[0] for x in self.u]; self.sk = [x[0] for x in self.s]
+
+    def _at(self, rows, keys, t):
+        i = bisect.bisect_right(keys, t) - 1
+        for j in range(i, max(-1, i - 50), -1):              # newest rate that covers t
+            if rows[j][0] <= t < rows[j][1]:
+                return rows[j][2]
+        return None
+
+    def day(self, k):
+        """Average unit price over the day (time-of-use tariffs averaged) and the standing charge."""
+        d0 = datetime.strptime(k, "%Y-%m-%d").replace(tzinfo=TZ)
+        ps = [self._at(self.u, self.uk, d0 + timedelta(hours=h)) for h in (1, 5, 9, 13, 17, 21)]
+        ps = [p for p in ps if p is not None]
+        return (sum(ps) / len(ps) if ps else None), self._at(self.s, self.sk, d0 + timedelta(hours=12))
+
+
+def history(fuel, point, ident, factor, now):
+    """Daily kWh and £ for about two years (as far back as the smart meter goes)."""
+    since = (datetime.now(TZ) - timedelta(days=HIST)).replace(hour=0, minute=0, second=0, microsecond=0)
+    rows = []
+    for m in point.get("meters", []):
+        url = "%s%s-meter-points/%s/meters/%s/consumption/?period_from=%s&period_to=%s&group_by=day&page_size=1000&order_by=period" % (
+            API, fuel, ident, urllib.parse.quote(m["serial_number"]), iso(since), iso(now))
+        try:
+            rows = get_all(url)
+        except Exception as e:
+            print("%s history: %s" % (fuel, e))
+        if rows:
+            break
+    if not rows:
+        return []
+    pr = Prices(fuel, point.get("agreements"), since, now)
+    out = []
+    for r in rows:
+        k = parse(r["interval_start"]).astimezone(TZ).strftime("%Y-%m-%d")
+        kwh = r["consumption"] * factor
+        unit, sc = pr.day(k)
+        out.append([k, round(kwh, 2), round(kwh * (unit or 0) + (sc or 0), 1)])
+    print("%s history: %d days from %s" % (fuel, len(out), out[0][0]))
+    return out
+
+
+def other_tariffs(data, now):
+    """What the last four weeks would have cost on Agile and Tracker, from your own half-hours."""
+    e = data.get("elec") or {}
+    region = (e.get("tariff") or "").split("-")[-1]
+    if not region or not e.get("_month"):
+        return None
+    try:
+        prods = get_all(API + "products/?brand=OCTOPUS_ENERGY&is_business=false&page_size=100")
+    except Exception as ex:
+        print("products:", ex)
+        return None
+
+    print("products:", " ".join(sorted(p["code"] for p in prods if p["code"].startswith(("AGILE", "SILVER", "TRACKER")))))
+
+    def pick(prefix):
+        ps = [p for p in prods if p["code"].startswith(prefix) and "OUTGOING" not in p["code"] and not p.get("available_to")]
+        return max(ps, key=lambda p: p.get("available_from") or "")["code"] if ps else None
+
+    out = {}
+    for name, prefix in (("agile", "AGILE-"), ("tracker", "SILVER-")):
+        code = pick(prefix) or (pick("TRACKER-") if name == "tracker" else None)
+        if not code:
+            continue
+        try:
+            det = get(API + "products/%s/" % code, auth=False)
+        except Exception as ex:
+            print(code, ex)
+            continue
+        for fuel, key in (("elec", "electricity"), ("gas", "gas")):
+            if fuel == "gas" and name == "agile":           # Agile is electricity only
+                continue
+            f = data.get(fuel) or {}
+            m = f.get("_month") or {}
+            reg = (det.get("single_register_%s_tariffs" % key) or {}).get("_" + region) or {}
+            tc = (reg.get("direct_debit_monthly") or {}).get("code")
+            if not tc or not m:
+                continue
+            ks = sorted(m)
+            a = datetime.strptime(ks[0], "%Y-%m-%d").replace(tzinfo=TZ)
+            b = datetime.strptime(ks[-1], "%Y-%m-%d").replace(tzinfo=TZ) + timedelta(days=1)
+            unit = {r["valid_from"]: r["value_inc_vat"] for r in rates(key, tc, "standard-unit-rates", a, b)}
+            urows = sorted((parse(k) or a, v) for k, v in unit.items())
+            ukeys = [u[0] for u in urows]
+            stand = rates(key, tc, "standing-charges", a, b)
+            if not urows:
+                continue
+            tot, now_tot = 0.0, 0.0
+            for k in ks:
+                hh, paid = m[k]
+                d0 = datetime.strptime(k, "%Y-%m-%d").replace(tzinfo=TZ)
+                for i, kwh in enumerate(hh):
+                    t = (d0 + timedelta(minutes=30 * i)).astimezone(timezone.utc)
+                    j = bisect.bisect_right(ukeys, t) - 1
+                    tot += kwh * (urows[j][1] if j >= 0 else urows[0][1])
+                tot += price_at(stand, d0 + timedelta(hours=12)) or 0
+                now_tot += paid
+            out.setdefault(fuel, {"days": len(ks), "now": round(now_tot)})[name] = round(tot)
+            print("%s on %s (%s): %dp vs now %dp over %d days" % (fuel, name, tc, tot, now_tot, len(ks)))
+    return out or None
+
+
+def outdoor_temps():
+    """Daily mean temperature at home for the last three months (Open-Meteo, no key)."""
+    for attempt in range(3):          # Open-Meteo sometimes times out from GitHub's runners
+      try:
+        d = get("https://api.open-meteo.com/v1/forecast?latitude=%s&longitude=%s&daily=temperature_2m_mean&past_days=92&forecast_days=1&timezone=Europe%%2FLondon" % (LAT, LON), auth=False)
+        return [[k, v] for k, v in zip(d["daily"]["time"], d["daily"]["temperature_2m_mean"]) if v is not None]
+      except Exception as e:
+        print("outdoor temperature:", e)
+        __import__("time").sleep(5)
+    return None
 
 
 def free_sessions(now):
@@ -233,6 +374,15 @@ def main():
             data["elec"] = fuel_block("electricity", imp[0], since, now, now)
         if p.get("gas_meter_points"):
             data["gas"] = fuel_block("gas", p["gas_meter_points"][0], since, now, now)
+    cmp = other_tariffs(data, now)
+    if cmp:
+        data["compare"] = cmp
+    for fuel in ("elec", "gas"):
+        if data.get(fuel):
+            data[fuel].pop("_month", None)
+    temps = outdoor_temps()
+    if temps:
+        data["temps"] = temps
     free = free_sessions(now)
     if free is not None:
         data["free"] = free
@@ -242,7 +392,8 @@ def main():
 
     body = dict(data); body.pop("saved")
     plain = json.dumps(body, separators=(",", ":"))
-    digest = __import__("hashlib").sha256(plain.encode()).hexdigest()[:16]
+    same = dict(body); same.pop("temps", None)            # weather alone is no reason to save again
+    digest = __import__("hashlib").sha256(json.dumps(same, separators=(",", ":")).encode()).hexdigest()[:16]
     if old.get("h") == digest:
         print("no new readings: energy.json left as it is")
         return

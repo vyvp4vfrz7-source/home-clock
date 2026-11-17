@@ -812,6 +812,71 @@ body:not(.penergy) #energy * { animation-play-state: paused !important; }
 #eweek .key i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin: 0 6px 0 14px; vertical-align: -1px; }
 #efoot { font-size: 15px; color: var(--muted); text-align: center; margin-top: -6px; }
 #energy .lock { flex: 1; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 26px; line-height: 1.6; color: var(--muted); background: var(--tile); border: 1px solid var(--line); border-radius: 26px; }
+/* ---------- energy review page (Octopus history) ---------- */
+#ereview { padding: 30px 40px 50px; display: flex; flex-direction: column; gap: 16px; background: radial-gradient(900px 600px at 90% 8%, #1d2a3a 0%, rgba(11,16,22,0) 70%), radial-gradient(800px 600px at 0% 100%, #182a26 0%, rgba(11,16,22,0) 70%); }
+#ereview .top { display: flex; align-items: center; justify-content: space-between; padding: 0 6px; }
+#ereview h1 { margin: 0; font-size: 44px; font-weight: 600; letter-spacing: -.01em; }
+#ereview h1 span { color: var(--muted); font-weight: 400; font-size: 30px; margin-left: 12px; }
+#ereview .sm { font-size: 13px; color: #c9d3df; background: var(--tile-2); padding: 4px 10px; border-radius: 9px; }
+#rbody { flex: 1; display: flex; flex-direction: column; gap: 16px; min-height: 0; }
+.rt { background: var(--tile); border: 1px solid var(--line); border-radius: 24px; padding: 18px 22px 14px; display: flex; flex-direction: column; min-height: 0; min-width: 0; position: relative; }
+.rt .nm { font-size: 20px; font-weight: 700; }
+.rt .nm em { font-style: normal; font-weight: 500; color: var(--muted); font-size: 16px; margin-left: 6px; }
+.rt .tip { font-size: 15px; color: #c9d3df; line-height: 1.4; margin-top: auto; padding-top: 6px; }
+.rt .tip b { color: #7fe0a4; font-weight: 700; } .rt .tip b.up { color: #ff9b7a; }
+.rt svg { display: block; width: 100%; }
+#rmon { flex: 1.15; flex-direction: row; gap: 26px; }
+#rmon .sum { width: 270px; flex: none; display: flex; flex-direction: column; gap: 12px; justify-content: center; }
+#rmon .sum .l { font-size: 15px; color: var(--muted); font-weight: 600; }
+#rmon .sum .v { font-size: 44px; font-weight: 300; letter-spacing: -.02em; line-height: 1.05; }
+#rmon .sum .v small { font-size: 18px; font-weight: 600; margin-left: 8px; }
+#rmon .sum .v small.up { color: #ff9b7a; } #rmon .sum .v small.dn { color: #7fe0a4; }
+#rmon .bars { flex: 1; display: flex; align-items: flex-end; gap: 12px; padding-top: 8px; }
+#rmon .bar { flex: 1; display: flex; flex-direction: column; align-items: center; height: 100%; justify-content: flex-end; position: relative; }
+#rmon .bar .st { width: 100%; max-width: 64px; display: flex; flex-direction: column; justify-content: flex-end; border-radius: 9px; overflow: hidden; position: relative; z-index: 1; }
+#rmon .bar .st i { display: block; } #rmon .bar .st i.g { background: #ff9d5c; } #rmon .bar .st i.e { background: #ffd66b; }
+#rmon .bar .gh { position: absolute; bottom: 30px; width: 100%; max-width: 76px; height: 0; border-top: 3px dashed #e8eef5; z-index: 2; pointer-events: none; }
+#rmon .bar .pj { width: 100%; max-width: 64px; border: 2px dashed #ffd66b; border-bottom: 0; border-radius: 9px 9px 0 0; opacity: .7; }
+#rmon .bar.cur .st { opacity: .9; }
+#rmon .bar .p { font-size: 14px; font-weight: 700; margin-bottom: 5px; white-space: nowrap; position: relative; z-index: 3; background: var(--tile); padding: 0 5px; border-radius: 6px; }
+#rmon .bar .d { font-size: 14px; color: var(--muted); font-weight: 600; margin-top: 6px; height: 18px; }
+#rmon .key { font-size: 13px; color: var(--muted); font-weight: 600; }
+#rmon .key i { display: inline-block; width: 11px; height: 11px; border-radius: 3px; margin: 0 5px 0 10px; vertical-align: -1px; }
+#rmon .key i.gh { border-top: 3px dashed #e8eef5; border-radius: 0; height: 0; width: 16px; vertical-align: 3px; }
+.rrow { display: flex; gap: 16px; min-height: 0; }
+.rrow > .rt { flex: 1; }
+#rbud .meter { height: 30px; background: var(--tile-2); border-radius: 15px; position: relative; margin: 16px 0 8px; overflow: visible; }
+#rbud .meter .f { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 15px; background: linear-gradient(90deg, #2fa866, #7fe0a4); }
+#rbud .meter .f.over { background: linear-gradient(90deg, #e0844f, #ff9b7a); }
+#rbud .meter .pj { position: absolute; top: -6px; bottom: -6px; width: 4px; border-radius: 2px; background: #fff; }
+#rbud .meter .tg { position: absolute; top: -10px; bottom: -10px; width: 0; border-left: 3px dashed #c9d3df; }
+#rbud .big, #rbase .big, #rtar .big { font-size: 40px; font-weight: 300; letter-spacing: -.02em; margin-top: 6px; }
+#rbud .big small, #rbase .big small { font-size: 17px; font-weight: 600; color: var(--muted); margin-left: 6px; }
+#rbud .row { display: flex; justify-content: space-between; font-size: 15px; color: var(--muted); font-weight: 600; }
+#rbud .set { position: absolute; top: 16px; right: 18px; font-size: 13px; color: #c9d3df; background: var(--tile-2); padding: 4px 10px; border-radius: 9px; }
+#rtar .ln { display: flex; justify-content: space-between; align-items: baseline; font-size: 17px; font-weight: 600; padding: 3px 0; border-bottom: 1px solid var(--line); }
+#rtar .ln:last-of-type { border-bottom: 0; }
+#rtar .ln span { color: var(--muted); font-weight: 500; font-size: 15px; }
+#rtar .ln.best { color: #7fe0a4; }
+#rtar .fx { font-size: 15px; color: #c9d3df; margin: 4px 0 8px; }
+#rtar .fx b { color: #ffd66b; }
+.rrow.c { flex: 1; } .rrow.b { flex: .9; }
+/* ---------- saving tips page ---------- */
+#etips { padding: 30px 40px 50px; display: flex; flex-direction: column; gap: 16px; background: radial-gradient(900px 600px at 10% 0%, #1f2f22 0%, rgba(11,16,22,0) 70%), radial-gradient(800px 600px at 100% 100%, #2a1c2e 0%, rgba(11,16,22,0) 70%); }
+#etips h1 { margin: 0 6px; font-size: 44px; font-weight: 600; }
+#etips h1 span { color: var(--muted); font-weight: 400; font-size: 30px; margin-left: 12px; }
+#etips .grid { flex: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; min-height: 0; }
+#etips .rt { padding: 20px 24px; }
+#etips .nm { font-size: 22px; margin-bottom: 8px; }
+#etips ul { margin: 0; padding: 0; list-style: none; }
+#etips li { font-size: 20px; line-height: 1.4; color: #dfe6ee; padding: 11px 0 11px 36px; position: relative; border-bottom: 1px solid var(--line); }
+#etips li:last-child { border-bottom: 0; }
+#etips li i { position: absolute; left: 0; top: 6px; font-style: normal; font-size: 20px; }
+#etips li b { color: #7fe0a4; }
+#etips li small { display: block; color: var(--muted); font-size: 16px; }
+#etips .siri li { font-size: 21px; }
+#etips .siri li q { color: #d8b8ff; font-weight: 600; quotes: "「" "」"; }
+#etips .wide { grid-column: 1 / -1; }
 #night { position: fixed; inset: 0; z-index: 50; background: #000; display: none; color: #b98a5e; }
 body.night #night { display: block; }
 body.night #pages, body.night #dots { display: none; }   /* hidden pages stop their animations: easy on the old iPad */
@@ -918,6 +983,38 @@ body.night #live { display: none; }   /* no scores on the night clock */
   <div id="ebody"></div>
 </div>
 </div>
+<div class="page" id="preview">
+<div class="stage" id="ereview">
+  <div class="top"><h1>能源回顧<span>Energy review · 點樣慳 How to save</span></h1><span class="sm" id="rtag" hidden>示範 · sample</span></div>
+  <div id="rbody"></div>
+</div>
+</div>
+<div class="page" id="ptips">
+<div class="stage" id="etips">
+  <h1>慳錢貼士<span>Save energy &amp; money</span></h1>
+  <div class="grid">
+    <div class="rt"><div class="nm">🔥 暖氣 <em>Heating · biggest win</em></div><ul>
+      <li><i>🌡️</i>室溫調低 1°（21° → 20°），煤氣約慳 <b>10%</b><small>Down 1° saves about 10% on gas</small></li>
+      <li><i>🚪</i>冇人用嘅房（客房、走廊）暖氣閥收細<small>Turn spare rooms' radiators down</small></li>
+      <li><i>♨️</i>鍋爐暖氣水溫調到 55°C 左右，慳 6–8%<small>Boiler flow temperature about 55°C</small></li>
+      <li><i>⏰</i>瞓覺同出門前半粒鐘熄暖氣，屋企仲暖<small>Heating off 30 min before bed or going out</small></li>
+    </ul></div>
+    <div class="rt"><div class="nm">⚡ 電 <em>Electricity</em></div><ul>
+      <li><i>🔌</i>睇「長開電器」：夜晚超過 150 W，熄咗電視盒、遊戲機、舊充電器<small>Each 50 W switched off saves about <b id="tip50">£100</b> a year</small></li>
+      <li><i>🧺</i>洗衫機、洗碗機避開 16:00–19:00，用 30° 環保洗<small>Wash after 19:00, eco 30° programmes</small></li>
+      <li><i>🐙</i>喺 Octopus app 參加 Free Electricity 同 Saving Sessions<small>Free power and OctoPoints: banners show on the energy page</small></li>
+      <li><i>📄</i>固定價維持到<b id="tipFix">合約完</b>，5 月再比較<small>Agile cost more last month. Compare again before the fix ends</small></li>
+    </ul></div>
+    <div class="rt wide siri"><div class="nm">🗣️ 叫 Siri 調暖氣 <em>Say to Siri (Home app)</em></div><ul>
+      <li><i>🌡️</i><q>Hey Siri, set the heating to 20 degrees</q><small>全屋暖氣 20° · all heaters to 20°</small></li>
+      <li><i>🛏️</i><q>Hey Siri, set the bedroom heating to 18 degrees</q><small>用 Home app 入面嘅房名 · use your room names from the Home app</small></li>
+      <li><i>❄️</i><q>Hey Siri, turn off the heating in the spare room</q><small>熄冇人用嘅房 · switch off an unused room</small></li>
+      <li><i>🏠</i><q>Hey Siri, what's the temperature in the dining room?</q><small>睇下係咪太熱 · check before turning it up</small></li>
+      <li><i>🤖</i>Home app ➜ 自動化 Automation ➜「最後一個人離開」設 16°，「第一個人返嚟」設 20°<small>When the last person leaves: 16°. When the first person arrives: 20°. Set once and it runs by itself</small></li>
+    </ul></div>
+  </div>
+</div>
+</div>
 </div></div>
 <div id="dots"></div>
 <div id="live" hidden></div>
@@ -950,7 +1047,7 @@ var CONFIG = {
   secondCity: '香港', secondZone: 'Asia/Hong_Kong',
   // Pages turn by themselves: each page in 'pages' (1 = dashboard) shows for 'secs' seconds.
   // After a swipe to a page outside the list, it stays there for 'stay' seconds before carrying on.
-  // The big pink clock (page 10) and energy (page 11) sit at the end, outside the turning pages: swipe to them any time.
+  // The big pink clock (page 10), energy (page 11) and the energy review (page 12) sit at the end, outside the turning pages: swipe to them any time.
   rotate: { secs: 60, pages: [1, 2, 3, 4, 5, 6, 7], stay: 300 },
   // Night mode: between these hours (iPad's own clock) a dim, soft clock replaces the pages.
   // A tap shows the dashboard (dimmed) for 'wake' seconds, then the night clock comes back. ?night=1 / ?night=0 to test.
@@ -1021,7 +1118,7 @@ function fitStage() {
 addEventListener('resize', fitStage); fitStage();
 
 /* ---------- pages: swipe left/right, tap the dots, or use the arrow keys ----------
-   Page 1 is the dashboard, page 2 this week's calendar, page 3 the news map, page 4 the Hong Kong corner, page 5 UK + Hong Kong weather side by side, page 6 book of the day, page 7 the space corner, page 8 the league table, page 9 birthday countdown, page 10 the analog clock, page 11 home energy (Octopus). To add a page, add another
+   Page 1 is the dashboard, page 2 this week's calendar, page 3 the news map, page 4 the Hong Kong corner, page 5 UK + Hong Kong weather side by side, page 6 book of the day, page 7 the space corner, page 8 the league table, page 9 birthday countdown, page 10 the analog clock, page 11 home energy (Octopus), page 12 the energy review (months, budget, tips), page 13 saving tips + Siri phrases. To add a page, add another
    <div class="page"> inside #track. The iPad remembers the last page shown. */
 var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
 (function () {
@@ -2288,9 +2385,23 @@ function sampleEnergy() {
   elec = elec.filter(function (x) { return x.kwh > 0; }); gas = gas.filter(function (x) { return x.kwh > 0; });
   var y = new Date(now.getTime() - 864e5); y.setHours(23, 30, 0, 0);
   var f = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 2, 13, 0, 0);
+  // review page: two years of days, outdoor temperatures, a month's average day, tariff check
+  var eh2 = [], gh2 = [], temps = [], base = [], prof = [], gp = [];
+  for (i = 760; i >= 1; i--) {
+    var dd = new Date(now.getFullYear(), now.getMonth(), now.getDate() - i), kk = enKey(dd);
+    var doy = (dd - new Date(dd.getFullYear(), 0, 1)) / 864e5, tC = 11 - 7 * Math.cos((doy - 20) / 365 * 2 * Math.PI) + (rnd() - .5) * 5;
+    var gk2 = Math.max(4, (16 - tC) * 5.2 + rnd() * 8) * (dd.getDay() % 6 === 0 ? 1.15 : 1), ek2 = 8.5 + rnd() * 3.5 + (dd.getDay() % 6 === 0 ? 1.5 : 0) - (i < 400 ? 0.6 : 0);
+    eh2.push([kk, +ek2.toFixed(2), +(ek2 * 24.5 + 53.4).toFixed(1)]); gh2.push([kk, +gk2.toFixed(2), +(gk2 * 6.2 + 31.9).toFixed(1)]);
+    if (i <= 92) temps.push([kk, +tC.toFixed(1)]);
+    if (i <= 28) base.push([kk, Math.round(165 + rnd() * 30)]);
+  }
+  for (h = 0; h < 48; h++) { var tt = h / 2;
+    prof.push(+(0.085 + (tt >= 7 && tt < 8.5 ? 0.2 : 0) + (tt >= 17 && tt < 21.5 ? 0.42 : 0) + (tt >= 12 && tt < 14 ? 0.1 : 0)).toFixed(3));
+    gp.push(+((tt >= 6 && tt < 8.5 ? 3.1 : 0) + (tt >= 16.5 && tt < 22 ? 2.4 : 0) + 0.05).toFixed(3)); }
   return { saved: new Date().toISOString(),
-    elec: { tariff: 'E-1R-VAR-22-11-01-C', unit: 24.5, standing: 53.4, last: y.toISOString(), days: elec },
-    gas: { tariff: 'G-1R-VAR-22-11-01-C', unit: 6.2, standing: 31.9, last: y.toISOString(), days: gas },
+    elec: { tariff: 'E-1R-FIX-12M-26-06-18-C', unit: 24.5, standing: 53.4, last: y.toISOString(), days: elec, until: '2027-06-18T00:00:00+01:00', hist: eh2, base: base, profile: prof },
+    gas: { tariff: 'G-1R-FIX-12M-26-06-18-C', unit: 6.2, standing: 31.9, last: y.toISOString(), days: gas, until: '2027-06-18T00:00:00+01:00', hist: gh2, profile: gp },
+    temps: temps, compare: { elec: { days: 28, now: 6120, agile: 5480, tracker: 5890 }, gas: { days: 28, now: 9350, tracker: 8760 } },
     free: [{ start: f.toISOString(), end: new Date(f.getTime() + 36e5).toISOString() }], saving: [] };
 }
 function enDur(ms) {
@@ -2403,6 +2514,7 @@ function showEnergy() {
     '<div id="ecards">' + enCard(d.elec, 'el', '⚡ 電 <em>Electricity</em>', '#ffd66b') + enCard(d.gas, 'gs', '🔥 煤氣 · 暖氣 <em>Gas · heating</em>', '#ff9d5c') + '</div>' +
     enWeek(d) +
     '<div id="efoot">Octopus 智能電錶讀數通常遲一日先到 · Smart meter readings usually arrive a day late' + (price.length ? ' · ' + price.join(' · ') : '') + '</div>';
+  showReview();
 }
 function useEnergy(d) {
   if (!d.enc) { if (!d.elec && !d.gas) throw 0; EN = d; enSample = false; enLocked = null; showEnergy(); return; }
@@ -2415,6 +2527,8 @@ function lockEnergy(msg) {
   EN = null; $('etag').hidden = true; $('eupd').innerHTML = '';
   $('ebody').style.cssText = 'flex:1;display:flex;min-height:0';
   $('ebody').innerHTML = '<div class="lock"><div>🔒<br>' + msg + '撳一下輸入密碼<br>Tap to enter the passcode</div></div>';
+  $('rtag').hidden = true;
+  $('rbody').innerHTML = '<div class="lock" style="flex:1;display:flex;align-items:center;justify-content:center;font-size:26px;color:var(--muted)">🔒 喺上一頁輸入密碼 · Enter the passcode on the energy page</div>';
 }
 $('ebody').addEventListener('click', function () {
   if (!enLocked) return;
@@ -2426,6 +2540,163 @@ function loadEnergy() {
     .then(useEnergy)
     .catch(function () { if (enLocked) return; if (!EN || enSample) { EN = sampleEnergy(); enSample = true; showEnergy(); } });
 }
+
+/* ---------- energy review page: months, this year vs last, budget, always-on power, tariffs,
+   heating vs outdoor temperature and the average day. Uses hist / base / profile / compare / temps
+   from energy.json (see tools/build_energy.py). The monthly budget is set by tapping its tile and
+   is remembered on this iPad. */
+var MON3_ZH = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
+function rvHist(f) { var m = {}; ((EN[f] && EN[f].hist) || []).forEach(function (r) { m[r[0]] = r; }); return m; }
+function rvSum(m, a, b) {   // total pence and days with data from date a up to (not incl.) b
+  var p = 0, n = 0, d = new Date(a);
+  while (d < b) { var r = m[enKey(d)]; if (r) { p += r[2]; n++; } d.setDate(d.getDate() + 1); }
+  return { p: p, n: n };
+}
+function rvPct(a, b) { if (!b) return ''; var pc = Math.round((a - b) / b * 100); return '<small class="' + (pc > 0 ? 'up' : 'dn') + '">' + (pc > 0 ? '▲ ' : '▼ ') + Math.abs(pc) + '%</small>'; }
+function rvMonths(E, G) {
+  var t = new Date(), last = null, keys = Object.keys(E).concat(Object.keys(G)).sort();
+  if (!keys.length) return '<div class="rt" id="rmon"><div class="nm">未有歷史讀數 · No history yet</div></div>';
+  last = enDate(keys[keys.length - 1]);
+  var end = new Date(last.getFullYear(), last.getMonth(), last.getDate() + 1), rows = [], mx = 1, i;
+  for (i = 11; i >= 0; i--) {
+    var a = new Date(t.getFullYear(), t.getMonth() - i, 1), b = new Date(a.getFullYear(), a.getMonth() + 1, 1);
+    var e = rvSum(E, a, b), g = rvSum(G, a, b), la = new Date(a.getFullYear() - 1, a.getMonth(), 1), lb = new Date(la.getFullYear(), la.getMonth() + 1, 1);
+    var le = rvSum(E, la, lb), lg = rvSum(G, la, lb), dim = (b - a) / 864e5;
+    var r = { a: a, e: e.p, g: g.p, n: Math.max(e.n, g.n), dim: dim, ly: (le.n + lg.n) > dim ? le.p + lg.p : 0, cur: i === 0 };
+    r.pj = r.cur && r.n ? (r.e + r.g) / r.n * dim : 0;
+    rows.push(r); mx = Math.max(mx, r.e + r.g, r.ly, r.pj);
+  }
+  var H = 205, bars = rows.map(function (r) {
+    var s = r.e + r.g, h = s / mx * H;
+    return '<div class="bar' + (r.cur ? ' cur' : '') + '"><div class="p num">' + (s ? gbp(s).replace(/\.\d\d$/, '') : '–') + '</div>' +
+      (r.pj > s ? '<div class="pj" style="height:' + ((r.pj - s) / mx * H).toFixed(0) + 'px"></div>' : '') +
+      '<div class="st" style="height:' + Math.max(3, h).toFixed(0) + 'px"><i class="g" style="height:' + (s ? r.g / s * 100 : 0) + '%"></i><i class="e" style="height:' + (s ? r.e / s * 100 : 0) + '%"></i></div>' +
+      (r.ly ? '<div class="gh" style="bottom:' + (30 + r.ly / mx * H).toFixed(0) + 'px"></div>' : '') +
+      '<div class="d">' + (r.a.getMonth() === 0 ? r.a.getFullYear() % 100 + '年' : '') + MON3_ZH[r.a.getMonth()] + '</div></div>';
+  }).join('');
+  // this year so far vs same days last year; projected year = last 365 days (or the average day x 365)
+  var y0 = new Date(last.getFullYear(), 0, 1), ty = rvSum(E, y0, end).p + rvSum(G, y0, end).p;
+  var ly = rvSum(E, new Date(y0.getFullYear() - 1, 0, 1), new Date(end.getFullYear() - 1, end.getMonth(), end.getDate()));
+  var lyg = rvSum(G, new Date(y0.getFullYear() - 1, 0, 1), new Date(end.getFullYear() - 1, end.getMonth(), end.getDate()));
+  var yr0 = new Date(end.getTime() - 365 * 864e5), ye = rvSum(E, yr0, end), yg = rvSum(G, yr0, end), n = Math.max(ye.n, yg.n);
+  var proj = n ? (ye.p + yg.p) / n * 365 : 0;
+  var py = new Date(end.getTime() - 730 * 864e5), pe = rvSum(E, py, yr0), pg = rvSum(G, py, yr0);
+  var prev = Math.max(pe.n, pg.n) > 330 ? (pe.p + pg.p) / Math.max(pe.n, pg.n) * 365 : 0;
+  var cur = rows[11];
+  return '<div class="rt" id="rmon"><div class="sum">' +
+    '<div><div class="l">' + y0.getFullYear() + ' 年至今 · This year so far</div><div class="v num">' + gbp(ty).replace(/\.\d\d$/, '') + (ly.n > 30 ? rvPct(ty, ly.p + lyg.p) : '') + '</div>' +
+    '<div class="l">' + (ly.n > 30 ? '去年同期 Same time last year ' + gbp(ly.p + lyg.p).replace(/\.\d\d$/, '') : '未有去年資料 No last year yet') + '</div></div>' +
+    '<div><div class="l">預計一年 · Yearly bill' + (n < 330 ? ' (估 rough)' : '') + '</div><div class="v num">' + gbp(proj).replace(/\.\d\d$/, '') + (prev ? rvPct(proj, prev) : '') + '</div>' +
+    '<div class="l">≈ 每月 ' + gbp(proj / 12).replace(/\.\d\d$/, '') + ' a month' + (prev ? ' · 之前一年 year before ' + gbp(prev).replace(/\.\d\d$/, '') : '') + '</div></div>' +
+    (cur.pj ? '<div><div class="l">' + MON3_ZH[cur.a.getMonth()] + '預計 · ' + MONTHS[cur.a.getMonth()].slice(0, 3) + ' on track for</div><div class="v num" style="font-size:34px">' + gbp(cur.pj).replace(/\.\d\d$/, '') + (cur.ly ? rvPct(cur.pj, cur.ly) : '') + '</div></div>' : '') +
+    '</div><div style="flex:1;display:flex;flex-direction:column;min-width:0"><div class="nm">每月 · Each month <em>電 + 煤氣，連固定收費</em></div>' +
+    '<div class="bars">' + bars + '</div>' +
+    '<div class="key"><i class="e" style="background:#ffd66b;margin-left:0"></i>電 Electricity<i style="background:#ff9d5c"></i>煤氣 Gas<i class="gh"></i>去年同月 Same month last year</div></div></div>';
+}
+function rvBudget(E, G) {
+  var t = new Date(), keys = Object.keys(E).concat(Object.keys(G)).sort();
+  var tgt = +(store('enBudget') || 0) || 150;
+  var last = keys.length ? enDate(keys[keys.length - 1]) : t, a = new Date(last.getFullYear(), last.getMonth(), 1);
+  var end = new Date(last.getFullYear(), last.getMonth(), last.getDate() + 1), dim = new Date(a.getFullYear(), a.getMonth() + 1, 0).getDate();
+  var e = rvSum(E, a, end), g = rvSum(G, a, end), so = (e.p + g.p) / 100, n = Math.max(e.n, g.n) || 1, pj = so / n * dim;
+  var left = dim - n, per = left > 0 ? (tgt - so) / left : 0, over = pj > tgt, w = Math.max(pj, tgt) * 1.08;
+  return '<div class="rt" id="rbud"><span class="set">✎ 改目標 Set</span><div class="nm">本月預算 <em>Budget for ' + MONTHS[a.getMonth()].slice(0, 3) + '</em></div>' +
+    '<div class="big num">£' + so.toFixed(0) + '<small>/ £' + tgt + ' 用咗 used</small></div>' +
+    '<div class="meter"><div class="f' + (over ? ' over' : '') + '" style="width:' + Math.min(100, so / w * 100).toFixed(1) + '%"></div>' +
+    '<div class="tg" style="left:' + (tgt / w * 100).toFixed(1) + '%"></div><div class="pj" style="left:' + Math.min(99, pj / w * 100).toFixed(1) + '%"></div></div>' +
+    '<div class="row"><span>預計 On track for £' + pj.toFixed(0) + '</span><span>目標 Goal £' + tgt + '</span></div>' +
+    '<div class="tip">' + (left <= 0 ? '' : per > 0 ? '餘下 ' + left + ' 日，每日用 <b class="' + (over ? 'up' : '') + '">£' + per.toFixed(2) + '</b> 以內就達標<br>Keep under £' + per.toFixed(2) + ' a day to hit the goal' :
+      '<b class="up">已超出預算 Over budget</b>') + '</div></div>';
+}
+function rvBase(el) {
+  var b = (el && el.base) || [];
+  if (!b.length) return '<div class="rt" id="rbase"><div class="nm">長開電器 <em>Always on</em></div><div class="tip">未有半小時讀數 · No half-hour readings yet</div></div>';
+  var ws = b.map(function (r) { return r[1]; }).sort(function (x, y) { return x - y; }), w = ws[Math.floor(ws.length / 2)];
+  var unit = (el.unit || 25), yr = w / 1000 * 24 * 365 * unit / 100, W = 300, H = 46, mx = Math.max.apply(null, ws) * 1.1, pts = '';
+  b.forEach(function (r, i) { pts += (i ? ' ' : '') + (i / Math.max(1, b.length - 1) * W).toFixed(1) + ',' + (H - r[1] / mx * H).toFixed(1); });
+  var save50 = 50 / 1000 * 24 * 365 * unit / 100;
+  return '<div class="rt" id="rbase"><div class="nm">長開電器 <em>Always-on power</em></div>' +
+    '<div class="big num">' + w + ' W<small>≈ £' + yr.toFixed(0) + ' 一年 a year</small></div>' +
+    '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" style="height:46px;margin-top:6px"><polyline points="' + pts + '" fill="none" stroke="#ffd66b" stroke-width="3" stroke-linejoin="round" vector-effect="non-scaling-stroke"/></svg>' +
+    '<div class="tip">半夜都停唔到嘅電：雪櫃、路由器、電視盒、待機。每熄 50 W 慳 <b>£' + save50.toFixed(0) + '/年</b> a year</div></div>';
+}
+function rvTariff(d) {
+  var el = d.elec || {}, c = d.compare || {}, ce = c.elec, cg = c.gas, out = '';
+  var until = el.until ? new Date(el.until) : null, left = until ? Math.ceil((until - Date.now()) / 864e5) : 0;
+  var fix = /FIX/.test(el.tariff || ''), nm = fix ? '固定價 Fixed' : /AGILE/.test(el.tariff || '') ? 'Agile' : /SILVER/.test(el.tariff || '') ? 'Tracker' : '浮動 Variable';
+  out += '<div class="fx">' + nm + ' · 電 ' + (el.unit || 0).toFixed(1) + 'p' + (d.gas && d.gas.unit ? ' · 煤氣 ' + d.gas.unit.toFixed(1) + 'p' : '') + '/kWh' +
+    (until && left > 0 ? '<br>' + (fix ? '鎖價至' : '合約至') + ' <b>' + until.getDate() + ' ' + MONTHS[until.getMonth()].slice(0, 3) + ' ' + until.getFullYear() + '</b> · 仲有 ' + left + ' 日 days left' : '') + '</div>';
+  if (ce) {
+    var now = ce.now + (cg ? cg.now : 0), opts = [['你而家 Your tariff', now]];
+    if (ce.agile) opts.push(['Agile <span>(電 elec) + 你嘅煤氣</span>', ce.agile + (cg ? cg.now : 0)]);
+    if (ce.tracker) opts.push(['Tracker', ce.tracker + (cg ? (cg.tracker || cg.now) : 0)]);
+    var best = opts.reduce(function (x, y) { return y[1] < x[1] ? y : x; });
+    out += opts.map(function (o) { return '<div class="ln' + (o === best && o[1] < now ? ' best' : '') + '"><div>' + o[0] + '</div><div class="num">' + gbp(o[1]).replace(/\.\d\d$/, '') + (o[1] !== now ? ' <span>' + (o[1] < now ? '−' : '+') + gbp(Math.abs(o[1] - now)).replace(/\.\d\d$/, '') + '</span>' : '') + '</div></div>'; }).join('');
+    out += '<div class="tip" style="font-size:13px">過去 ' + ce.days + ' 日真實用量計 · Last ' + ce.days + ' days, your real use' + (fix ? ' · 鎖價期內轉會有離場費 exit fees may apply' : '') + '</div>';
+  } else out += '<div class="tip">比較資料下次更新就有 · Comparison arrives with the next update</div>';
+  return '<div class="rt" id="rtar"><div class="nm">電價 <em>Tariff check</em></div>' + out + '</div>';
+}
+function rvHeat(d, G) {
+  var T = d.temps || [], pts = [], i, gas = d.gas || {};
+  T.forEach(function (r) { var g = G[r[0]]; if (g && g[1] > 0) pts.push([r[1], g[1], r[0]]); });
+  var head = '<div class="nm">暖氣 vs 天氣 <em>Heating vs outdoor temperature</em></div>';
+  if (pts.length < 8) return '<div class="rt" id="rheat">' + head + '<div class="tip">要多啲日子先畫到 · Needs a few more days of data</div></div>';
+  var n = pts.length, sx = 0, sy = 0, sxx = 0, sxy = 0;
+  pts.forEach(function (p) { sx += p[0]; sy += p[1]; sxx += p[0] * p[0]; sxy += p[0] * p[1]; });
+  var k = (n * sxy - sx * sy) / (n * sxx - sx * sx || 1), c0 = (sy - k * sx) / n;
+  var x0 = Math.floor(Math.min.apply(null, pts.map(function (p) { return p[0]; }))) - 1, x1 = Math.ceil(Math.max.apply(null, pts.map(function (p) { return p[0]; }))) + 1;
+  var ym = Math.max.apply(null, pts.map(function (p) { return p[1]; })) * 1.1, W = 600, H = 200, L = 44, B = 26;
+  function X(v) { return L + (v - x0) / (x1 - x0) * (W - L - 6); } function Y(v) { return H - B - v / ym * (H - B - 6); }
+  var s = '', last = pts[pts.length - 1];
+  for (i = Math.ceil(x0 / 5) * 5; i <= x1; i += 5) s += '<line x1="' + X(i) + '" x2="' + X(i) + '" y1="0" y2="' + (H - B) + '" stroke="#233042" stroke-dasharray="4 5"/><text x="' + X(i) + '" y="' + (H - 6) + '" fill="#8a97a8" font-size="16" text-anchor="middle">' + i + '°C</text>';
+  s += '<text x="4" y="16" fill="#8a97a8" font-size="16">kWh</text>';
+  pts.forEach(function (p) { s += '<circle cx="' + X(p[0]).toFixed(1) + '" cy="' + Y(p[1]).toFixed(1) + '" r="6" fill="#ff9d5c" opacity=".55"/>'; });
+  s += '<line x1="' + X(x0) + '" y1="' + Y(Math.max(0, k * x0 + c0)) + '" x2="' + X(x1) + '" y2="' + Y(Math.max(0, k * x1 + c0)) + '" stroke="#c9d3df" stroke-width="2.5" stroke-dasharray="7 6"/>';
+  s += '<circle cx="' + X(last[0]).toFixed(1) + '" cy="' + Y(last[1]).toFixed(1) + '" r="10" fill="#ff9d5c" stroke="#fff" stroke-width="3"/>';
+  var exp = Math.max(1, k * last[0] + c0), pc = Math.round((last[1] - exp) / exp * 100), ld = enDate(last[2]);
+  var perC = -k * (gas.unit || 6.2) / 100;
+  return '<div class="rt" id="rheat">' + head +
+    '<svg viewBox="0 0 ' + W + ' ' + H + '" style="flex:1;min-height:0;margin-top:6px">' + s + '</svg>' +
+    '<div class="tip">⚪ ' + ld.getDate() + ' ' + MONTHS[ld.getMonth()].slice(0, 3) + ' ' + last[0].toFixed(0) + '°C 用 ' + last[1].toFixed(0) + ' kWh，按天氣預計 ' + exp.toFixed(0) + ' · ' +
+    (Math.abs(pc) < 8 ? '<b>正常 as expected</b>' : '<b class="' + (pc > 0 ? 'up' : '') + '">' + (pc > 0 ? '多咗 ' : '少咗 ') + Math.abs(pc) + '% ' + (pc > 0 ? 'more' : 'less') + '</b>') +
+    (perC > 0 ? '<br>外面每凍 1°C 暖氣多用 £' + perC.toFixed(2) + '/日 · 室內調低 1°C 約慳 <b>10%</b> 煤氣' : '') + '</div></div>';
+}
+function rvDay(d) {
+  var pe = (d.elec && d.elec.profile) || [], pg = (d.gas && d.gas.profile) || [];
+  var head = '<div class="nm">平均一日 <em>Your average day (last 4 weeks)</em></div>';
+  if (!pe.length) return '<div class="rt" id="rday">' + head + '<div class="tip">未有半小時讀數 · No half-hour readings yet</div></div>';
+  var W = 560, H = 190, bw = W / 48, mx = Math.max.apply(null, pe) || 1, gm = Math.max.apply(null, pg.length ? pg : [1]) || 1, s = '', i, tot = 0, pk = 0;
+  s += '<rect x="' + (32 * bw) + '" y="0" width="' + (6 * bw) + '" height="' + H + '" fill="#ff9b7a" opacity=".08"/>';
+  for (i = 6; i < 24; i += 6) s += '<line x1="' + (i * 2 * bw) + '" x2="' + (i * 2 * bw) + '" y1="0" y2="' + H + '" stroke="#233042" stroke-width="1.5" stroke-dasharray="4 5"/>';
+  for (i = 0; i < 48; i++) {
+    var h = Math.max(2, pe[i] / mx * (H - 8)); tot += pe[i]; if (i >= 32 && i < 38) pk += pe[i];
+    s += '<rect x="' + (i * bw + 1.5).toFixed(1) + '" y="' + (H - h).toFixed(1) + '" width="' + (bw - 3).toFixed(1) + '" height="' + h.toFixed(1) + '" rx="3" fill="#ffd66b"' + (i >= 32 && i < 38 ? '' : ' opacity=".75"') + '/>';
+  }
+  if (pg.length) { var pts = pg.map(function (v, j) { return ((j + .5) * bw).toFixed(1) + ',' + (H - v / gm * (H - 8)).toFixed(1); }).join(' ');
+    s += '<polyline points="' + pts + '" fill="none" stroke="#ff9d5c" stroke-width="3" stroke-linejoin="round" opacity=".9"/>'; }
+  var share = tot ? Math.round(pk / tot * 100) : 0;
+  return '<div class="rt" id="rday">' + head +
+    '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" style="flex:1;min-height:0;margin-top:8px">' + s + '</svg>' +
+    '<div class="ax" style="display:flex;justify-content:space-between;font-size:13px;color:var(--muted);font-weight:600;padding-top:4px"><span>00:00</span><span>06:00</span><span>12:00</span><span>16–19 繁忙</span><span>24:00</span></div>' +
+    '<div class="tip">⚡ 用電最多 ' + enPeak(pe) + (pg.length ? ' · 🔥 暖氣最勁 ' + enPeak(pg) : '') + '<br>' + share + '% 電喺 16:00–19:00 用，洗衫機、洗碗機、乾衣機可以遲啲開 · Move washing to later</div></div>';
+}
+function showReview() {
+  if (!EN) return;
+  var u = (EN.elec && EN.elec.unit) || 25, fx = EN.elec && EN.elec.until ? new Date(EN.elec.until) : null;
+  $('tip50').textContent = '£' + Math.round(50 / 1000 * 24 * 365 * u / 100);
+  if (fx) $('tipFix').textContent = fx.getDate() + ' ' + MONTHS[fx.getMonth()].slice(0, 3) + ' ' + fx.getFullYear();
+  $('rtag').hidden = !enSample;
+  var E = rvHist('elec'), G = rvHist('gas');
+  $('rbody').innerHTML = rvMonths(E, G) +
+    '<div class="rrow b">' + rvBudget(E, G) + rvBase(EN.elec) + rvTariff(EN) + '</div>' +
+    '<div class="rrow c">' + rvHeat(EN, G) + rvDay(EN) + '</div>';
+}
+$('rbody').addEventListener('click', function (ev) {
+  var t = ev.target; while (t && t !== this && t.id !== 'rbud') t = t.parentNode;
+  if (!t || t.id !== 'rbud') return;
+  var v = prompt('每月預算（英鎊）Monthly budget in £', store('enBudget') || '150'); if (!v) return;
+  v = parseFloat(v.replace(/[^\d.]/g, '')); if (v > 0) { store('enBudget', String(Math.round(v))); showReview(); }
+});
 loadEnergy(); setInterval(loadEnergy, 30 * 60 * 1000); setInterval(showEnergy, 60 * 1000);
 
 /* ---------- warm-up button ----------
