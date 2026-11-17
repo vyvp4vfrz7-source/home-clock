@@ -1,13 +1,55 @@
 {
- "updated": "2026-11-17T11:22+00:00",
+ "updated": "2026-11-17T12:15+00:00",
  "items": [
   {
    "src": "香港",
    "lang": "zh",
-   "t": "警方接逾40人報案指兩店疑拖欠寄賣款項 涉款共1660萬元",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878160-20261117.htm",
-   "d": "警方接獲超40人報案，指兩間寄賣店分別懷疑拖欠寄賣款項，涉款共逾1660萬元。 警方表示，截至下午3時，共接獲37人報案，指銅鑼灣羅素街一間店舖懷疑拖欠寄賣款項，涉款約1400萬元。 另外，警方共接獲6人報案，指金鐘夏愨道一間店舖懷疑拖欠寄賣款項，涉款約260萬元。 警方暫時將相關案件列作「欺詐」處理，案件仍在調查中，並交由灣仔警區重案組及中區警區重案組跟進。 編輯：鍾慧儀",
-   "at": "2026-11-17T11:06+00:00",
+   "t": "深圳APEC｜陳旭：會議成果文件磋商工作已啟動",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878164-20261117.htm",
+   "d": "亞太經合組織領導人非正式會議明日舉行。 2026年亞太經合組織高官會主席陳旭相信，會議一定會取得圓滿成功，會議的成果文件磋商工作已經啟動，在已取得的務實合作成果基礎上，推動發表一份富有雄心的領導人成果文件。 編輯：朱錫君",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878164_1_M_20261117195837.jpg",
+   "at": "2026-11-17T11:58+00:00",
+   "where": [
+    22.54,
+    114.06,
+    "深圳"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "特朗普訪華之際 美國封堵中國公司在東南亞租用AI算力的「後門」",
+   "u": "https://www.bbc.com/zhongwen/articles/cmpdwn010nyvo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "在美國限制最先進英偉達芯片直接銷往中國的背景下，中國大型互聯網公司和AI實驗室逐漸轉向「只租算力、不買硬件」的模式。芯片部署在第三國數據中心，中國企業再通過互聯網遠程調用算力訓練模型，而無須把相關硬件運入中國。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/f965/live/d542c590-e275-11f1-b639-73d1df360b76.jpg",
+   "at": "2026-11-17T11:37+00:00",
+   "where": [
+    34.0,
+    108.0,
+    "中國"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "深圳APEC｜習近平稱中墨關係對促進全球南方自強具重要意義",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878173-20261117.htm",
+   "d": "國家主席習近平下午在深圳，會見來華出席亞太經合組織領導人非正式會議的墨西哥總統辛鮑姆。 習近平指出，中國與墨西哥同為全球南方大國，都處在發展振興的關鍵階段。在當前複雜多變的國際形勢下，推動中墨關係向更高水平、更寬領域、更深層次發展，對實現各自國家發展戰略、促進全球南方聯合自強具有重要意義。 新華社報道，辛鮑姆說墨西哥堅定恪守一個中國原則，高度重視對華關係。墨方將主辦2028年亞太經合組織會議，願意與中方加強多邊協調，堅持多邊主義，維護全…",
+   "at": "2026-11-17T12:07+00:00",
+   "where": [
+    22.54,
+    114.06,
+    "深圳"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "【重溫】2026年11月17日新聞天地",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878157-20261117.htm",
+   "d": "詳盡報道本地時事、大中華消息、國際局勢等新聞，緊貼最新熱話。",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878157_1_M_20261117195653.jpg",
+   "at": "2026-11-17T11:56+00:00",
    "where": [
     22.32,
     114.17,
@@ -21,7 +63,7 @@
    "u": "https://www.bbc.com/zhongwen/articles/crgj360lnqv6o/trad?at_medium=RSS&at_campaign=rss",
    "d": "離開深圳充滿科技感的天際線後，你將會看到習近平治下中國所面臨的種種挑戰。",
    "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/c637/live/5938bed0-e1b4-11f1-9a3f-99aca912798e.jpg",
-   "at": "2026-11-17T07:05+00:00",
+   "at": "2026-11-17T11:44+00:00",
    "where": [
     34.0,
     108.0,
@@ -31,11 +73,10 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "深圳APEC｜習近平晤蘇林 稱中越要妥控海上分歧推進海上合作",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878128-20261117.htm",
-   "d": "中共中央總書記、國家主席習近平在深圳，會見來華出席亞太經合組織領導人非正式會議的越共中央總書記、國家主席蘇林。 習近平表示，中越要增進互信團結，深化全面合作，共守和平穩定、共促發展繁榮；要深化多維聯通，促進利益融合，推動智慧口岸和跨境經濟合作區早日落地，拓展數字轉型、綠色低碳等合作，探索人工智能應用合作。他又說雙方要妥善管控海上分歧，穩步推進海上合作，攜手落實四大全球倡議，加強在聯合國、中國-東盟、瀾湄合作等框架內協作。 新華社報道，蘇…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878128_1_M_20261117162604.jpg",
-   "at": "2026-11-17T07:25+00:00",
+   "t": "深圳APEC｜習近平晤藤森慶子 稱錢凱港促進亞洲拉美經貿合作",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878172-20261117.htm",
+   "d": "國家主席習近平下午在深圳，會見來華出席亞太經合組織領導人非正式會議的秘魯總統藤森慶子。 習近平指出，中秘自由貿易協定升級議定書，兩星期前正式生效，中國企業參與建設的錢凱港，有力促進了亞洲與拉美經貿合作。習近平強調今年是中國「十五五」開局之年，中方願意與秘方共享中國式現代化機遇，雙方可加強多邊協作，在聯合國、亞太經合組織等框架內，加強溝通與協調，維護真正多邊主義與自由貿易，共同捍衛國際公平正義。 新華社報道，藤森慶子表示，秘魯堅定恪守一個…",
+   "at": "2026-11-17T11:59+00:00",
    "where": [
     22.54,
     114.06,
@@ -45,14 +86,14 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "路政署：皇崗新聯檢大樓公共運輸交匯處急轉彎路段已加防滑物料",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878159-20261117.htm",
-   "d": "路政署表示，早前已安排在皇崗新聯檢大樓公共運輸交匯處內主要急轉彎路段，加設路面防滑物料。署方表示，路面防滑度受天雨、路面狀況及場地整潔等因素影響，相關部門十分重視道路安全，一直因應港方實際需要及使用情況進行適當優化及調整。 運輸署已要求巴士公司加強車長訓練，並提醒車長在駕駛時注意安全。 署方表示，因應口岸開通後，公共運輸交匯處的使用情況，於交匯處其他路段加設防滑措施工程已於星期一起，分階段展開，範圍將覆蓋交匯處內餘下所有路段，以加強相關…",
-   "at": "2026-11-17T10:50+00:00",
+   "t": "深圳APEC｜李家超鼓勵亞太企業以香港作為開拓大灣區跳板",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878169-20261117.htm",
+   "d": "行政長官李家超下午抵達深圳，出席亞太經合組織工商領導人峰會，在「粵港澳大灣區與亞太發展機遇」專題研討上作特別致辭。 李家超致辭時表示，全球環境日益複雜，亞太區的國家、經濟體和企業，更需要開放和持續的合作。粵港澳大灣區作為全球最具活力的經濟引擎之一，在「一國兩制」、三個司法管轄區和三種貨幣的獨特制度框架下，創造超過2.1萬億美元的本地生產總值，反映開放合作帶來的豐碩成果。 李家超說，自香港特區成立，在「一國兩制」下，香港以「中國香港」名義…",
+   "at": "2026-11-17T11:44+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    22.54,
+    114.06,
+    "深圳"
    ]
   },
   {
@@ -72,28 +113,29 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "習近平：巴布政府堅守一個中國原則是順應歷史大勢的正義之舉",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878116-20261117.htm",
-   "d": "國家主席習近平在深圳會見出席亞太經合組織領導人非正式會議的巴布亞新幾內亞總理馬拉佩。 習近平指出，巴新政府堅定恪守一個中國原則，以實際行動支持中國維護領土完整和國家統一，是順應歷史大勢的正義之舉。 習近平強調，中國願同巴新加強高質量共建「一帶一路」同「聯通巴新」計劃等戰略對接，深化合作，拓展合作新空間，幫助巴新實現可持續發展。雙方要加強多邊場合的相互協調，維護國際公平正義，拓展應對氣候變化、海洋環境保護等合作，維護全球南方共同利益。 新…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878116_1_M_20261117142118.jpg",
-   "at": "2026-11-17T06:21+00:00",
+   "t": "深圳APEC｜越南學者：中國和越南在很多方面有互補性",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878162-20261117.htm",
+   "d": "亞太經合組織第33次領導人非正式會議，即將在深圳舉行。 有越南學者認為，中越在技術和供應鏈上優勢互補，綠色轉型和數字化帶來新的合作機會。 編輯：朱錫君",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878162_1_M_20261117195631.jpg",
+   "at": "2026-11-17T11:56+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    22.54,
+    114.06,
+    "深圳"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "環保署：責成I.PARK1承建商加強消除火警風險收緊禁煙範圍",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878158-20261117.htm",
-   "d": "石鼓洲旁人工島綜合廢物管理設施第一期（I.PARK1）上月26日發生火警。環保署表示，已收到消防處提供的調查報告，並留意到報告指出火警成因可能與燒焊工程或吸煙有關，已責成承建商即時檢視及加強其消除火警風險的措施，並特別針對處理包括燒焊在內的熱工序及進一步收緊地盤全面禁煙的範疇。 環保署重申，一直非常重視轄下廢物管理設施的安全水平，並透過多管齊下的措施，嚴格督促承建商落實各項安全與防火管理，包括執行地盤禁煙。I.PARK1承建商自今年一月…",
-   "at": "2026-11-17T10:46+00:00",
+   "t": "深圳APEC｜李家超籲亞太經濟體透過香港把握大灣區機遇",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878165-20261117.htm",
+   "d": "到深圳出席亞太經合組織領導人非正式會議的行政長官李家超，今天在工商領導人峰會致辭。 李家超表示，粵港澳大灣區是開放合作達致成果，最具說服力的例子之一，邀請各經濟體透過香港這個具有多項優勢的跳板，把握大灣區的龐大機遇。 編輯：梁家奇",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878165_1_M_20261117193942.jpg",
+   "at": "2026-11-17T11:39+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    22.54,
+    114.06,
+    "深圳"
    ]
   },
   {
@@ -113,67 +155,24 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "深圳APEC｜習近平晤加國總理 稱兩國要妥控及化解矛盾分歧",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878113-20261117.htm",
-   "d": "國家主席習近平在深圳會見來華出席亞太經合組織領導人非正式會議的外國領袖。 習近平在會見加拿大總理卡尼時表示，中加關係的發展歷程給予的啟示，就是相互尊重、平等互利、求同存異。中方願同加方一道努力，推動中加新型戰略伙伴關係不斷向前發展，做相互尊重、共同發展、彼此信任、相互協作的伙伴。 習近平就發展中加關係提出四點意見，要增進政治互信，建設性對話溝通，妥善管控和化解矛盾分歧；要進一步深化傳統和新興合作，實現優勢互補、互利共贏。雙方又要加強協調…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878113_1_M_20261117135147.jpg",
-   "at": "2026-11-17T05:51+00:00",
+   "t": "美國聯合航空一度系統故障 多個航班延誤或取消",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878170-20261117.htm",
+   "d": "美國聯合航空公司於當地星期一，一度出現系統故障，多個航班延誤或取消，公司方面向客戶致歉。 報道指故障持續約1小時40分鐘。美聯航在一份聲明中說，系統故障問題已得到解決，無跡象表明事件與網絡安全問題有關。聲明又說，在飛行途中的航班及由美聯航旗下聯翔公司營運的航班，未受影響。 路透社報道，代表美聯航機師的工會的一份內部備忘錄指出，美聯航系統故障影響機師所使用包括機組人員通信系統在內的多項應用程式，系統故障導致公司無法向離港航班提供最終飛機載…",
+   "at": "2026-11-17T11:47+00:00",
    "where": [
-    22.54,
-    114.06,
-    "深圳"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "港怡醫院有病人接受腎臟替代治療被輸錯劑量 涉事護士已離職",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878155-20261117.htm",
-   "d": "衞生署在「醫療風險警示事件及重要風險事件統計數字」公布，有病人在私家醫院接受連續性腎臟替代治療期間，被輸入錯誤劑量的濃縮電解質。港怡醫院回覆查詢說，一名病人早前入院接受連續性腎臟替代治療，當值護士曾誤調濃縮電解質的劑量，發現後立刻修正相關劑量，病人情況一直維持穩定。 院方又指，得悉事件後已立即展開調查，並呈報衞生署，同時向病人溝通及解釋事件，涉事護士已離職。 編輯：鍾慧儀",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878155_1_M_20261117181521.jpg",
-   "at": "2026-11-17T10:11+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "俄羅斯超級富豪們已經在設想一個「後普京時代」",
-   "u": "https://www.bbc.com/zhongwen/articles/cmx27v835864o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "一些俄羅斯富豪渴望回到90年代的寡頭政治體制，當時商人掌握著權力。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/0d12/live/ba3084e0-de83-11f1-93e1-3b657b665bcf.jpg",
-   "at": "2026-11-17T00:34+00:00",
-   "where": [
-    55.75,
-    37.6,
-    "俄羅斯"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "深圳APEC｜習近平在深圳會見加拿大總理卡尼",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878094-20261117.htm",
-   "d": "國家主席習近平同出席APEC領導人非正式會議的外國領導人舉行雙邊會晤。 他早上在深圳與加拿大總理卡尼會面。 編輯：方潤南",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878094_1_M_20261117111305.jpg",
-   "at": "2026-11-17T02:58+00:00",
-   "where": [
-    22.54,
-    114.06,
-    "深圳"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "女病人被錯切雙側卵巢 中大醫院稱醫生出現認知盲點會作出處分",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878153-20261117.htm",
-   "d": "一名45歲女病人在香港中文大學醫院接受腹腔鏡子宮及雙側輸卵管切除手術期間，雙側卵巢被錯誤切除。中大醫院指，調查結果顯示，該醫生在手術期間因高度專注於處理當下的臨床步驟，出現短暫的認知盲點，未能貫徹執行原定保留卵巢的手術方案。 中大醫院重申，嚴肅跟進該名醫生的個人責任，並會根據人事條例對該醫生作出處分。而病人情況穩定，繼續於中大醫院接受適切的醫療跟進及支援。 中大醫院下午再發聲明交代詳情，指該名女病人早前到中大醫院求診，經診斷後懷疑子宮內…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878153_1_M_20261117180527.jpg",
-   "at": "2026-11-17T10:04+00:00",
+   "t": "李家超：五年規劃助鞏固香港國際航運中心地位",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878167-20261117.htm",
+   "d": "行政長官李家超出席「亞洲物流航運及空運會議」，他致辭時表示，《香港第一個五年規劃》有助鞏固本港作為國際航運中心和航空樞紐的地位。 李家超在另一個論壇致辭時又提到，香港要強化「四中心、一高地」的定位，主動對接國家發展戰略。 編輯：梁家奇",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878167_1_M_20261117193739.jpg",
+   "at": "2026-11-17T11:37+00:00",
    "where": [
     22.32,
     114.17,
@@ -197,25 +196,24 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "五個歐盟國家在盧旺達設非法移民遣返中心",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878090-20261117.htm",
-   "d": "五個歐盟國家荷蘭、丹麥、德國、希臘和奧地利宣布，將在盧旺達設立非法移民遣返中心，明年開始實施。 他們表示，計劃適用於在其境內非法居留並面臨驅逐出境的人員，如果被驅逐者無法被遣返回原住的國家，將提供其他安置方案。被驅逐人員可以選擇融入盧旺達社會。 這個計劃適用於那些已用盡所有合法途徑、無法繼續留在上述五個國家的人員。 報道說，遣返中心初期規模小，預計只收容約100到200人。 丹麥首相弗雷澤里克森表示，計劃目標是發出信號，那些人員不能再非…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878090_1_M_20261117104155.jpg",
-   "at": "2026-11-17T02:41+00:00",
+   "t": "深圳APEC｜習近平晤蘇林 稱中越要妥控海上分歧推進海上合作",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878128-20261117.htm",
+   "d": "中共中央總書記、國家主席習近平在深圳，會見來華出席亞太經合組織領導人非正式會議的越共中央總書記、國家主席蘇林。 習近平表示，中越要增進互信團結，深化全面合作，共守和平穩定、共促發展繁榮；要深化多維聯通，促進利益融合，推動智慧口岸和跨境經濟合作區早日落地，拓展數字轉型、綠色低碳等合作，探索人工智能應用合作。他又說雙方要妥善管控海上分歧，穩步推進海上合作，攜手落實四大全球倡議，加強在聯合國、中國-東盟、瀾湄合作等框架內協作。 新華社報道，蘇…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878128_1_M_20261117162604.jpg",
+   "at": "2026-11-17T07:25+00:00",
    "where": [
-    52.5,
-    -1.5,
-    "英國"
+    22.54,
+    114.06,
+    "深圳"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "選舉委員會界別分組一般選舉投票通知卡已經寄出",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878151-20261117.htm",
-   "d": "2026年選舉委員會界別分組一般選舉將於本月22日星期日舉行。選舉事務處表示，已向31個需要競逐的界別分組的投票人或獲授權代表寄出投票通知卡，通知他們在投票時間內前往獲編配的投票站投票。 選舉事務處發言人表示，投票人或獲授權代表亦可透過「智方便」或選民登記網站登入「選民資料網上查閱系統」查閱選舉郵件內全部資料。亦可致電選舉熱線2891 1001查詢。發言人提醒投票人或獲授權代表，只可在其獲編配的投票站投票，亦必須帶備有效的香港身份證或指…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878151_1_M_20261117174513.jpg",
-   "at": "2026-11-17T09:34+00:00",
+   "t": "尖東聖誕燈飾亮燈 羅淑佩：尖東燈飾成香港冬日節慶標誌性風景",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878166-20261117.htm",
+   "d": "尖東百週年紀念花園傍晚舉行聖誕燈飾亮燈儀式。 東尖沙咀地產發展商聯會主辦「閃爍尖東耀香江」，文化體育及旅遊局局長羅淑佩致辭時表示，尖東燈飾照耀維港，成為香港冬日節慶的標誌性風景，深受市民和旅客的喜愛，陪伴香港超過40年，局方會繼續與香港旅遊發展局、聯會及各界夥伴緊密合作，豐富具香港特色的主題旅遊產品和體驗，吸引更多旅客「一訪再訪」。 民政及青年事務局局長麥美娟致辭時表示，民青局一直致力完善地區治理，透過協調「政、商、民」三方力量，精準回…",
+   "at": "2026-11-17T11:23+00:00",
    "where": [
     22.32,
     114.17,
@@ -239,28 +237,28 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "深圳APEC｜工商領導人峰會 習近平明天上午將發表主旨演講",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878085-20261117.htm",
-   "d": "2026年亞太經合組織工商領導人峰會一連兩日在深圳前海舉行，主題為「共促繁榮、共贏未來」。 峰會主席、中國貿促會會長任鴻斌致歡迎辭時表示，國家主席習近平明天上午將出席峰會開幕式，並發表主旨演講。澳洲、加拿大、智利、中國香港、印尼、韓國、馬來西亞、俄羅斯等11名APEC經濟體領導人，亦將出席峰會並發表演講、致辭或參與專題研討。 任鴻斌又說，今屆峰會聚焦開放、創新、合作三大優先領域，APEC全部21個經濟體和英國、法國、德國等13個域外經濟…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878085_1_M_20261117102044.jpg",
-   "at": "2026-11-17T01:51+00:00",
+   "t": "習近平：巴布政府堅守一個中國原則是順應歷史大勢的正義之舉",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878116-20261117.htm",
+   "d": "國家主席習近平在深圳會見出席亞太經合組織領導人非正式會議的巴布亞新幾內亞總理馬拉佩。 習近平指出，巴新政府堅定恪守一個中國原則，以實際行動支持中國維護領土完整和國家統一，是順應歷史大勢的正義之舉。 習近平強調，中國願同巴新加強高質量共建「一帶一路」同「聯通巴新」計劃等戰略對接，深化合作，拓展合作新空間，幫助巴新實現可持續發展。雙方要加強多邊場合的相互協調，維護國際公平正義，拓展應對氣候變化、海洋環境保護等合作，維護全球南方共同利益。 新…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878116_1_M_20261117142118.jpg",
+   "at": "2026-11-17T06:21+00:00",
    "where": [
-    22.54,
-    114.06,
-    "深圳"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "一批新西蘭進口蘋果汁棒曲霉素超出法例上限 食安中心籲不要飲用",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878150-20261117.htm",
-   "d": "一批由新西蘭進口的瓶裝蘋果汁飲品樣本，被檢出霉菌毒素「棒曲霉素」濃度超出法例上限，食安中心呼籲市民不要飲用。有關進口商已按中心指令，將受影響批次產品停售和下架，並展開回收。 涉事產品「100% PURE NZ APPLE JUICE」，屬於「Homegrown」品牌，每瓶1公升，進口商是「The Homegrown Juice Company Limited」，最佳食用日期為2027年2月11日。 中心發言人表示，中心透過恆常食物監測計…",
-   "at": "2026-11-17T09:33+00:00",
+   "t": "警方接逾40人報案指兩店疑拖欠寄賣款項 涉款共1660萬元",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878160-20261117.htm",
+   "d": "警方接獲超40人報案，指兩間寄賣店分別懷疑拖欠寄賣款項，涉款共逾1660萬元。 警方表示，截至下午3時，共接獲37人報案，指銅鑼灣羅素街一間店舖懷疑拖欠寄賣款項，涉款約1400萬元。 另外，警方共接獲6人報案，指金鐘夏愨道一間店舖懷疑拖欠寄賣款項，涉款約260萬元。 警方暫時將相關案件列作「欺詐」處理，案件仍在調查中，並交由灣仔警區重案組及中區警區重案組跟進。 編輯：鍾慧儀",
+   "at": "2026-11-17T11:06+00:00",
    "where": [
-    -41.3,
-    174.8,
-    "紐西蘭"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
@@ -280,10 +278,10 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "《環看天下》： 中俄美元首將於深圳會晤 外交部稱具開創性意義",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878084-20261117.htm",
-   "d": "國家主席習近平，將於本周四在深圳同俄羅斯總統普京，以及美國總統特朗普舉行中俄美元首會晤。外交部表示，中俄美三國元首史上首次面對面會晤，具有開創性的意義，加強溝通，管控分歧，符合三國利益，有利穩定世界局勢。 分析普遍預期，這次三方會面未必能夠達成重大協議，但從中可以展現出大國之間的外交協調能力。",
-   "at": "2026-11-17T01:48+00:00",
+   "t": "深圳APEC｜習近平晤加國總理 稱兩國要妥控及化解矛盾分歧",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878113-20261117.htm",
+   "d": "國家主席習近平在深圳會見來華出席亞太經合組織領導人非正式會議的外國領袖。 習近平在會見加拿大總理卡尼時表示，中加關係的發展歷程給予的啟示，就是相互尊重、平等互利、求同存異。中方願同加方一道努力，推動中加新型戰略伙伴關係不斷向前發展，做相互尊重、共同發展、彼此信任、相互協作的伙伴。 習近平就發展中加關係提出四點意見，要增進政治互信，建設性對話溝通，妥善管控和化解矛盾分歧；要進一步深化傳統和新興合作，實現優勢互補、互利共贏。雙方又要加強協調…",
+   "at": "2026-11-17T05:51+00:00",
    "where": [
     22.54,
     114.06,
@@ -293,14 +291,14 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "深圳APEC｜工商峰會 李家超稱香港是資本開拓大灣區首選門戶",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878149-20261117.htm",
-   "d": "行政長官李家超出席在深圳舉行的亞太經合組織工商領導人峰會並致辭，表示在全球環境日益複雜之下，亞太地區的國家、經濟體和企業，比以往更加需要開放和持續合作，而粵港澳大灣區正是全球最具活力的經濟動力之一。 李家超表示，今年首三季，大灣區9個內地城市與亞太經合組織之間的貿易額達到約8370億美元，創下同比增長超過 26%的歷史新高，其中高端製造業、電子產品、集成電路及綠色產品是主要增長動力之一。他說有關動力建基於大灣區獨特的「一國兩制」制度框架…",
-   "at": "2026-11-17T09:30+00:00",
+   "t": "路政署：皇崗新聯檢大樓公共運輸交匯處急轉彎路段已加防滑物料",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878159-20261117.htm",
+   "d": "路政署表示，早前已安排在皇崗新聯檢大樓公共運輸交匯處內主要急轉彎路段，加設路面防滑物料。署方表示，路面防滑度受天雨、路面狀況及場地整潔等因素影響，相關部門十分重視道路安全，一直因應港方實際需要及使用情況進行適當優化及調整。 運輸署已要求巴士公司加強車長訓練，並提醒車長在駕駛時注意安全。 署方表示，因應口岸開通後，公共運輸交匯處的使用情況，於交匯處其他路段加設防滑措施工程已於星期一起，分階段展開，範圍將覆蓋交匯處內餘下所有路段，以加強相關…",
+   "at": "2026-11-17T10:50+00:00",
    "where": [
-    22.54,
-    114.06,
-    "深圳"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
@@ -320,27 +318,27 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "金正恩考察三池淵市旅遊區建設工作",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878076-20261117.htm",
-   "d": "朝中社報道，朝鮮領袖金正恩考察三池淵市旅遊區建設工作。 金正恩又指導三池淵機場擴建工程，表示工程完工後，三池淵市將全面具備航空及鐵路運輸、公路等旅遊業發展所需的基礎設施。 路透社報道，三池淵市與中國吉林省接壤，金正恩到訪正值美國總統特朗普表示，可能今個星期在中國與金正恩會面。 俄羅斯傳媒也引述克里姆林宮發言人佩斯科夫表示，如果金正恩也出席在深圳舉行的亞太經合組織峰會，俄羅斯總統普京可能會與對方會面。 朝鮮並非亞太經合組織成員經濟體，中方…",
-   "at": "2026-11-17T00:47+00:00",
+   "t": "深圳APEC｜習近平在深圳會見加拿大總理卡尼",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878094-20261117.htm",
+   "d": "國家主席習近平同出席APEC領導人非正式會議的外國領導人舉行雙邊會晤。 他早上在深圳與加拿大總理卡尼會面。 編輯：方潤南",
+   "at": "2026-11-17T02:58+00:00",
    "where": [
-    39.03,
-    125.75,
-    "北韓"
+    22.54,
+    114.06,
+    "深圳"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "深圳APEC｜有社區籲減少開車 有深圳居民這周在家辦公",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878148-20261117.htm",
-   "d": "深圳廣電集團聯同北京廣播電視台、上海廣播電視台推出《APEC「中國年」100小時全媒體大直播》節目。 有深圳居民表示，今屆APEC會議在深圳舉行，是無比幸福的事情，可見深圳的成績舉世觸目，發展迅速，對此感到自豪；也有年長居民說，子女這周均在家辦公，響應綠色出行，以實際行動助力APEC會議在深圳成功舉辦。 蓮花街道蓮花北社區黨委副書記劉玉涵表示，近日加強向居民和企業發放綠色出行倡議，呼籲減少開車，並在地鐵站和公共交通車站附近整理單車停放點…",
-   "at": "2026-11-17T09:23+00:00",
+   "t": "環保署：責成I.PARK1承建商加強消除火警風險收緊禁煙範圍",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878158-20261117.htm",
+   "d": "石鼓洲旁人工島綜合廢物管理設施第一期（I.PARK1）上月26日發生火警。環保署表示，已收到消防處提供的調查報告，並留意到報告指出火警成因可能與燒焊工程或吸煙有關，已責成承建商即時檢視及加強其消除火警風險的措施，並特別針對處理包括燒焊在內的熱工序及進一步收緊地盤全面禁煙的範疇。 環保署重申，一直非常重視轄下廢物管理設施的安全水平，並透過多管齊下的措施，嚴格督促承建商落實各項安全與防火管理，包括執行地盤禁煙。I.PARK1承建商自今年一月…",
+   "at": "2026-11-17T10:46+00:00",
    "where": [
-    22.54,
-    114.06,
-    "深圳"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
@@ -360,10 +358,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "明晚市區氣溫料下降至最低約21度 周五周六料最低15、16度",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878144-20261117.htm",
-   "d": "天文台表示，一道冷鋒已在華南北部形成，並會在明日稍後橫過廣東沿岸。預計明早氣溫約24度，日間短暫時間有陽光，最高氣溫約27度。明日稍後北風增強及有一兩陣雨，明晚市區氣溫下降至最低約21度，新界再低兩三度。 天文台說，隨後一兩日天氣顯著轉涼，星期五及星期六市區最低氣溫在15、16度左右，新界再低兩三度。 天文台說，受強烈東北季候風影響，星期五及星期六初時高地風寒效應會較為明顯及寒冷，提醒市民特別是進行戶外活動的人士，留意天氣變化，注意保暖…",
-   "at": "2026-11-17T08:39+00:00",
+   "t": "港怡醫院有病人接受腎臟替代治療被輸錯劑量 涉事護士已離職",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878155-20261117.htm",
+   "d": "衞生署在「醫療風險警示事件及重要風險事件統計數字」公布，有病人在私家醫院接受連續性腎臟替代治療期間，被輸入錯誤劑量的濃縮電解質。港怡醫院回覆查詢說，一名病人早前入院接受連續性腎臟替代治療，當值護士曾誤調濃縮電解質的劑量，發現後立刻修正相關劑量，病人情況一直維持穩定。 院方又指，得悉事件後已立即展開調查，並呈報衞生署，同時向病人溝通及解釋事件，涉事護士已離職。 編輯：鍾慧儀",
+   "at": "2026-11-17T10:11+00:00",
    "where": [
     22.32,
     114.17,
@@ -373,25 +371,25 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "APEC深圳觀察：習近平想告訴世界，中國掌握著未來",
-   "u": "https://www.bbc.com/zhongwen/articles/c893rg46x0ygo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "當世界領導人本週齊聚深圳，他們將看到一座代表中國未來的科技之城：機器人、AI、摩天大樓，處處展現蓬勃的創新活力。但這很可能只是故事的一半：因為峰會停工的建築工人、為生計奔波的零工群體，對未來有著不同的想像。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/a64b/live/ec420ab0-e1b4-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-17T02:09+00:00",
+   "t": "俄羅斯超級富豪們已經在設想一個「後普京時代」",
+   "u": "https://www.bbc.com/zhongwen/articles/cmx27v835864o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "一些俄羅斯富豪渴望回到90年代的寡頭政治體制，當時商人掌握著權力。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/0d12/live/ba3084e0-de83-11f1-93e1-3b657b665bcf.jpg",
+   "at": "2026-11-17T00:34+00:00",
    "where": [
-    22.54,
-    114.06,
-    "深圳"
+    55.75,
+    37.6,
+    "俄羅斯"
    ]
   },
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Greater Bay Area a proven model of cooperation: CE",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1878147-20261117.htm",
-   "d": "The Greater Bay Area is a proven model of how complementary strengths can generate opportunities far greater than the sum of their parts, Chief Executive John Lee told the Apec CEO Summit in Shenzhen on Tuesday. \"Prosper…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878147_1_M_20261117171330.jpg",
-   "at": "2026-11-17T09:28+00:00",
+   "t": "Airport closer to sustainable aviation fuel facility",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1878132-20261117.htm",
+   "d": "The Airport Authority signed a memorandum of understanding on Tuesday with Hong Kong and China Gas Company (Towngas) and EcoCeres to develop a sustainable aviation fuel blending facility in the city to support the aviati…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878132_1_M_20261117153317.jpg",
+   "at": "2026-11-17T11:42+00:00",
    "where": [
     22.32,
     114.17,
@@ -443,7 +441,7 @@
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+   "t": "Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
    "u": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
    "d": "Ukraine says the attack took weeks to plan, while the Kremlin vows to rebuild the strategic bridge.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/222d/live/db8315b0-e278-11f1-99a1-253766e7ad8b.png",
@@ -499,11 +497,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "HK urged to offer tax cut for small commodity traders",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1878137-20261117.htm",
-   "d": "The vice president of Our Hong Kong Foundation, Kenny Shui, has called on authorities to introduce an entry-level tax concession to attract small commodity traders in a bid to drive the development of maritime services i…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878137_1_M_20261117161859.jpg",
-   "at": "2026-11-17T09:22+00:00",
+   "t": "Greater Bay Area a proven model of cooperation: CE",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1878147-20261117.htm",
+   "d": "The Greater Bay Area is a proven model of how complementary strengths can generate opportunities far greater than the sum of their parts, Chief Executive John Lee told the Apec CEO Summit in Shenzhen on Tuesday. \"Prosper…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878147_1_M_20261117171330.jpg",
+   "at": "2026-11-17T09:28+00:00",
    "where": [
     22.32,
     114.17,
@@ -516,7 +514,7 @@
    "t": "Woman who accuses Russell Brand of rape says prison message 'upsetting'",
    "u": "https://www.bbc.co.uk/news/articles/cqvg27zyrd99o?at_medium=RSS&at_campaign=rss",
    "d": "Mia Latter spoke to the BBC after the jailed comedian claimed he was innocent of offences against four other women, in comments on a podcast following his convction.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1138/live/ab486c50-e274-11f1-99a1-253766e7ad8b.jpg",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1329/live/41714e10-e27d-11f1-a094-5fdc692f3e33.jpg",
    "at": "2026-11-17T10:11+00:00",
    "where": [
     52.5,
@@ -611,11 +609,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Welding or smoking suspected in Shek Kwu Chau fire",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1878138-20261117.htm",
-   "d": "The Fire Services Department on Tuesday said a fire at a waste-management facility on an artificial island off Shek Kwu Chau last month was suspected to be related to welding works or smoking. In a reply to media enquiri…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878138_1_M_20261117162005.jpg",
-   "at": "2026-11-17T08:20+00:00",
+   "t": "HK urged to offer tax cut for small commodity traders",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1878137-20261117.htm",
+   "d": "The vice president of Our Hong Kong Foundation, Kenny Shui, has called on authorities to introduce an entry-level tax concession to attract small commodity traders in a bid to drive the development of maritime services i…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878137_1_M_20261117161859.jpg",
+   "at": "2026-11-17T09:22+00:00",
    "where": [
     22.32,
     114.17,
@@ -723,15 +721,15 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "John Lee arrives in Shenzhen for Apec meeting",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1878135-20261117.htm",
-   "d": "Chief Executive John Lee arrived in Shenzhen on Tuesday to attend the Apec Economic Leaders’ Meeting, beginning a trip aimed at promoting Hong Kong’s role in Apec's \"China Year\". In a post on social media, Lee said he wa…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878135_1_M_20261117160813.jpg",
-   "at": "2026-11-17T08:08+00:00",
+   "t": "Welding or smoking suspected in Shek Kwu Chau fire",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1878138-20261117.htm",
+   "d": "The Fire Services Department on Tuesday said a fire at a waste-management facility on an artificial island off Shek Kwu Chau last month was suspected to be related to welding works or smoking. In a reply to media enquiri…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878138_1_M_20261117162005.jpg",
+   "at": "2026-11-17T08:20+00:00",
    "where": [
-    22.54,
-    114.06,
-    "深圳"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
@@ -835,15 +833,15 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Ovaries wrongly removed in private hospital op",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1878110-20261117.htm",
-   "d": "Local authorities on Tuesday made public two incidents in September, one of which saw both ovaries of a 45-year-old woman mistakenly removed during surgery, the Department of Health said. The department said, in reply to…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878110_1_M_20261117143938.jpg",
-   "at": "2026-11-17T06:39+00:00",
+   "t": "John Lee arrives in Shenzhen for Apec meeting",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1878135-20261117.htm",
+   "d": "Chief Executive John Lee arrived in Shenzhen on Tuesday to attend the Apec Economic Leaders’ Meeting, beginning a trip aimed at promoting Hong Kong’s role in Apec's \"China Year\". In a post on social media, Lee said he wa…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878135_1_M_20261117160813.jpg",
+   "at": "2026-11-17T08:08+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    22.54,
+    114.06,
+    "深圳"
    ]
   },
   {
@@ -947,11 +945,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "HK to become centre for maritime business: CE",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1878096-20261117.htm",
-   "d": "Hong Kong will move beyond being a port through which goods pass and become a centre where maritime business of every kind is conducted, Chief Executive John Lee said on Tuesday. \"More than a port, through which goods mo…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878096_1_M_20261117115142.jpg",
-   "at": "2026-11-17T03:51+00:00",
+   "t": "Ovaries wrongly removed in private hospital op",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1878110-20261117.htm",
+   "d": "Local authorities on Tuesday made public two incidents in September, one of which saw both ovaries of a 45-year-old woman mistakenly removed during surgery, the Department of Health said. The department said, in reply to…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878110_1_M_20261117143938.jpg",
+   "at": "2026-11-17T06:39+00:00",
    "where": [
     22.32,
     114.17,
@@ -961,11 +959,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Russell Brand prison message 'appalling' and being investigated, No 10 says",
-   "u": "https://www.bbc.co.uk/news/articles/cm9d7pe8y559o?at_medium=RSS&at_campaign=rss",
-   "d": "Brand's wife read out comments from the comedian on their podcast in which the convicted rapist said he was \"not guilty of the offences I have been jailed for\".",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a6a9/live/58ecf9b0-e1bd-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-16T18:22+00:00",
+   "t": "Robert Pattinson to replace Daniel Craig as James Bond",
+   "u": "https://www.bbc.co.uk/news/articles/cwx2ev0pxmvjo?at_medium=RSS&at_campaign=rss",
+   "d": "The 40-year old is best known for his role in films including Twilight, The Batman and The Odyssey.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6cce/live/ac752f20-e209-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-17T02:11+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1054,10 +1052,10 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Govt moves to implement Wang Fuk recommendations",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1878027-20261116.htm",
-   "d": "Chief Secretary Eric Chan has urged government bureaux and departments to implement recommendations from the independent committee report on the deadly Wang Fuk Court fire “swiftly and precisely”. This came as a steering…",
-   "at": "2026-11-16T13:33+00:00",
+   "t": "HK to become centre for maritime business: CE",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1878096-20261117.htm",
+   "d": "Hong Kong will move beyond being a port through which goods pass and become a centre where maritime business of every kind is conducted, Chief Executive John Lee said on Tuesday. \"More than a port, through which goods mo…",
+   "at": "2026-11-17T03:51+00:00",
    "where": [
     22.32,
     114.17,
@@ -1067,11 +1065,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "UK lost more than it gained from Brexit, Burnham says ahead of EU summit",
-   "u": "https://www.bbc.co.uk/news/articles/crp3e1n5kezpo?at_medium=RSS&at_campaign=rss",
-   "d": "The prime minister tells an audience at the Lord Mayor's Banquet that the \"Brexit we were given has not worked\".",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b29e/live/e82f8ae0-e210-11f1-a541-6d0c391a4254.jpg",
-   "at": "2026-11-16T22:10+00:00",
+   "t": "Russell Brand prison message 'appalling' and being investigated, No 10 says",
+   "u": "https://www.bbc.co.uk/news/articles/cm9d7pe8y559o?at_medium=RSS&at_campaign=rss",
+   "d": "Brand's wife read out comments from the comedian on their podcast in which the convicted rapist said he was \"not guilty of the offences I have been jailed for\".",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a6a9/live/58ecf9b0-e1bd-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-16T18:22+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1151,10 +1149,10 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "RTHK, CGTN join hands in Apec coverage",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1878022-20261116.htm",
-   "d": "All eyes are on Shenzhen as the city prepares to host the annual Apec summit. World leaders will converge in China's tech hub to discuss a wide range of issues, ranging from economic development to bolstering regional co…",
-   "at": "2026-11-16T11:42+00:00",
+   "t": "Govt moves to implement Wang Fuk recommendations",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1878027-20261116.htm",
+   "d": "Chief Secretary Eric Chan has urged government bureaux and departments to implement recommendations from the independent committee report on the deadly Wang Fuk Court fire “swiftly and precisely”. This came as a steering…",
+   "at": "2026-11-16T13:33+00:00",
    "where": [
     22.32,
     114.17,
@@ -1164,11 +1162,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Woman who got hooked on nasal spray for 10 years says it cost her thousands",
-   "u": "https://www.bbc.co.uk/news/articles/cj93ry10rl11o?at_medium=RSS&at_campaign=rss",
-   "d": "Louise Gough says her dependence on decongestant nasal sprays left her feeling like a prisoner.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/edcf/live/a82889c0-df76-11f1-b844-3146c4983677.jpg",
-   "at": "2026-11-17T06:12+00:00",
+   "t": "UK lost more than it gained from Brexit, Burnham says ahead of EU summit",
+   "u": "https://www.bbc.co.uk/news/articles/crp3e1n5kezpo?at_medium=RSS&at_campaign=rss",
+   "d": "The prime minister tells an audience at the Lord Mayor's Banquet that the \"Brexit we were given has not worked\".",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b29e/live/e82f8ae0-e210-11f1-a541-6d0c391a4254.jpg",
+   "at": "2026-11-16T22:10+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1206,6 +1204,33 @@
   {
    "src": "HONG KONG",
    "lang": "en",
+   "t": "RTHK, CGTN join hands in Apec coverage",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1878022-20261116.htm",
+   "d": "All eyes are on Shenzhen as the city prepares to host the annual Apec summit. World leaders will converge in China's tech hub to discuss a wide range of issues, ranging from economic development to bolstering regional co…",
+   "at": "2026-11-16T11:42+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "UK",
+   "lang": "en",
+   "t": "Woman who got hooked on nasal spray for 10 years says it cost her thousands",
+   "u": "https://www.bbc.co.uk/news/articles/cj93ry10rl11o?at_medium=RSS&at_campaign=rss",
+   "d": "Louise Gough says her dependence on decongestant nasal sprays left her feeling like a prisoner.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/edcf/live/a82889c0-df76-11f1-b844-3146c4983677.jpg",
+   "at": "2026-11-17T06:12+00:00",
+   "where": [
+    52.5,
+    -1.5,
+    "英國"
+   ]
+  },
+  {
+   "src": "HONG KONG",
+   "lang": "en",
    "t": "CE hails HK as 'port in storm' for shipping sector",
    "u": "https://news.rthk.hk/rthk/en/component/k2/1877996-20261116.htm",
    "d": "Chief Executive John Lee on Monday said Hong Kong is “the port in a storm” for international ship owners seeking stability amid a complex geopolitical landscape and market volatility. Speaking at the opening ceremony of …",
@@ -1224,33 +1249,6 @@
    "d": "The Ballymacombs More Woman was discovered near Bellaghy - and suffered a deliberate decapitation.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6cd5/live/2a421d50-eed7-11ef-b7c5-c772dd3549de.png",
    "at": "2026-11-17T06:02+00:00",
-   "where": [
-    52.5,
-    -1.5,
-    "英國"
-   ]
-  },
-  {
-   "src": "HONG KONG",
-   "lang": "en",
-   "t": "John Lee heads to Shenzhen for Apec summit",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1877997-20261116.htm",
-   "d": "Chief Executive John Lee will travel to Shenzhen on Tuesday to attend the Apec summit, where he will seek to deepen the city’s cooperation with Asia-Pacific economies. Lee is due to take part in the Apec Economic Leaders…",
-   "at": "2026-11-16T07:58+00:00",
-   "where": [
-    22.54,
-    114.06,
-    "深圳"
-   ]
-  },
-  {
-   "src": "UK",
-   "lang": "en",
-   "t": "Emma Barnett to leave Radio 4's Today for new BBC show",
-   "u": "https://www.bbc.co.uk/news/articles/c6rrgw2p52l5o?at_medium=RSS&at_campaign=rss",
-   "d": "Barnett, who has presented Today and Woman's Hour, will front a multiplatform show in the New Year.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a85c/live/36fe5760-e1e3-11f1-9f14-b33806cfd783.jpg",
-   "at": "2026-11-16T17:46+00:00",
    "where": [
     52.5,
     -1.5,
