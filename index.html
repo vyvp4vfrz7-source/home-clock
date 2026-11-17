@@ -1165,7 +1165,7 @@ function fitStage() {
 addEventListener('resize', fitStage); fitStage();
 
 /* ---------- pages: swipe left/right, tap the dots, or use the arrow keys ----------
-   Page 1 is the dashboard, page 2 this week's calendar, page 3 the news map, page 4 YouTube news channels (yt.json: 綠豆, 法庭線, 集誌社, now 財經新聞), page 5 the Hong Kong corner, page 6 UK + Hong Kong weather side by side, page 7 book of the day, page 8 the space corner, page 9 the solar system flying through the galaxy (solar.html), page 10 the league table, page 11 birthday countdown, page 12 the analog clock, page 13 home energy (Octopus), page 14 the energy review (months, budget, tips), page 15 saving tips + Siri phrases. To add a page, add another
+   Page 1 is the dashboard, page 2 this week's calendar, page 3 the news map, page 4 YouTube news channels (yt.json: 綠豆, 法庭線, 集誌社, 有線新聞), page 5 the Hong Kong corner, page 6 UK + Hong Kong weather side by side, page 7 book of the day, page 8 the space corner, page 9 the solar system flying through the galaxy (solar.html), page 10 the league table, page 11 birthday countdown, page 12 the analog clock, page 13 home energy (Octopus), page 14 the energy review (months, budget, tips), page 15 saving tips + Siri phrases. To add a page, add another
    <div class="page"> inside #track. The iPad remembers the last page shown. */
 var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
 (function () {
@@ -3261,7 +3261,7 @@ setTimeout(function () { location.replace(freshURL()); }, 6 * 3600 * 1000);
 
 /* ---------- YouTube news page: yt.json (latest uploads of each channel). Tap a video to play it here. ---------- */
 (function () {
-  var COL = { gb: '#7bd88f', wit: '#f3b649', col: '#6aaef8', now: '#f37fb5' }, YT = null;
+  var COL = { gb: '#7bd88f', wit: '#f3b649', col: '#6aaef8', cable: '#f37fb5' }, YT = null;
   function ago(iso) {
     var m = (Date.now() - new Date(iso).getTime()) / 60000;
     if (!(m >= 0)) return '';
