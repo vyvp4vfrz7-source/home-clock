@@ -559,7 +559,8 @@ body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state
 .ytv .sh { position: absolute; left: 6px; top: 6px; font-size: 11px; font-weight: 800; color: #fff; background: rgba(0,0,0,.6); border-radius: 6px; padding: 1px 6px; }
 .ytmsg { grid-column: 1 / -1; align-self: center; text-align: center; font-size: 24px; color: var(--muted); }
 #ytw .ytcols { grid-template-columns: repeat(3, 1fr); }
-.ytc .hd small.chs { font-size: 15px; }
+.ytc .hd small.chs { font-size: 15px; min-width: 0; }
+.ytc .hd { white-space: nowrap; }
 #ytPlay { position: absolute; inset: 0; z-index: 7; background: rgba(5,8,12,.94); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; }
 #ytPlay[hidden] { display: none; }
 #ytFrame { width: 1200px; height: 675px; border-radius: 18px; overflow: hidden; background: #000; }

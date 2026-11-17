@@ -3,8 +3,6 @@ on:
   schedule:
     - cron: "7,37 * * * *"
   workflow_dispatch:
-  push:
-    branches: [claude/project-thread-qxro28]
 permissions:
   contents: write
 concurrency: site-data
@@ -14,7 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 tools/build_yt.py yt.json
-      - run: python3 -c "import json;print(json.dumps(json.load(open('yt.json')),ensure_ascii=True))"
       - name: Commit
         if: github.ref == 'refs/heads/main'
         run: |
