@@ -14,6 +14,16 @@ CHANNELS = [
     {"key": "wit", "zh": "法庭線", "en": "The Witness", "id": "UCYRpTuLTvC7S6zfATKNfDXw"},
     {"key": "col", "zh": "集誌社", "en": "The Collective", "id": "UCfQa67fC_15Aiaywz8lPMNg"},
     {"key": "cable", "zh": "有線新聞", "en": "Cable News", "id": "UC_q7e5XYJB0JDGagcF0KW0w"},
+    # page 2 (world): 'grp' = column on that page
+    {"key": "bbc", "zh": "BBC News", "en": "BBC News", "id": "UC16niRr50-MSBwiO3YDb3RA", "page": 2, "grp": "world"},
+    {"key": "cnn", "zh": "CNN", "en": "CNN", "id": "UCupvZG-5ko_eiXAupbDfxWw", "page": 2, "grp": "world"},
+    {"key": "sky", "zh": "Sky News", "en": "Sky News", "id": "UCoMdktPbSTixAyNGwb-UYkQ", "page": 2, "grp": "world"},
+    {"key": "tmp", "zh": "Two Minute Papers", "en": "Two Minute Papers", "id": "UCbfYPyITQ-7l4upoX8nvctg", "page": 2, "grp": "ai"},
+    {"key": "verge", "zh": "The Verge", "en": "The Verge", "id": "UCddiUEpeqJcYeBxX1IVBKvQ", "page": 2, "grp": "ai"},
+    {"key": "bbgtech", "zh": "Bloomberg Tech", "en": "Bloomberg Technology", "id": "UCrM7B7SL_g1edFOnmj-SDKg", "page": 2, "grp": "ai"},
+    {"key": "bbgtv", "zh": "Bloomberg TV", "en": "Bloomberg Television", "id": "UCIALMKvObZNtJ6AmdCLP7Lg", "page": 2, "grp": "fin"},
+    {"key": "cnbc", "zh": "CNBC", "en": "CNBC", "id": "UCvJJ_dzjViJCoLf5uKUTwoA", "page": 2, "grp": "fin"},
+    {"key": "yf", "zh": "Yahoo Finance", "en": "Yahoo Finance", "id": "UCEAZeUIeJs0IjQiqTCdVSIg", "page": 2, "grp": "fin"},
 ]
 PER = 12  # videos kept per channel
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Version/17.0 Safari/605.1.15",
@@ -93,6 +103,8 @@ def main(path):
         print(ch["en"])
         cid = ch["id"] or (old.get(ch["key"]) or {}).get("id") or find_id(ch)
         row = {"key": ch["key"], "zh": ch["zh"], "en": ch["en"], "id": cid, "title": "", "videos": []}
+        if ch.get("page"):
+            row["page"], row["grp"] = ch["page"], ch["grp"]
         if cid:
             try:
                 row["title"], row["videos"] = videos(cid)
