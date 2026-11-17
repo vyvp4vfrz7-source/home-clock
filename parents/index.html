@@ -243,6 +243,7 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
   <div id="toast" hidden></div>
 </div>
 
+<script src="../sound.js?v=1"></script>
 <script>
 /* ES5, so it runs on any iPad.  Address options (put them in the address before "Add to Home Screen"):
      &frame            the real screen (no sample photos)
@@ -432,13 +433,15 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
   function loadPhotos() {
     getJSON('../photos.json' + t(), function (l) {
       if (!l || !l.length) return;
-      var list = l.map(function (p) { return { src: /^(https?:|data:|\/)/.test(p.src) ? p.src : '../' + p.src, id: photoId(p), text: p.text || '', when: p.when || '', place: p.place || '' }; });
+      var list = l.map(function (p) { return { src: /^(https?:|data:|\/)/.test(p.src) ? p.src : '../' + p.src, id: photoId(p), video: p.video ? '../' + p.video : '', text: p.text || '', when: p.when || '', place: p.place || '' }; });
       var same = list.length === PHOTOS.length && list.every(function (p, i) { return p.src === PHOTOS[i].src; });
-      PHOTOS = list; if (!same) startPhotos();
+      PHOTOS = list; PHOTOS.some(function (p) { return p.video && (HomeSound.setFirst(p.video), true); }); if (!same) startPhotos();
     });
     getJSON('../notes.json' + t(), function (n) { NOTES = n || {}; capPhoto(); });
   }
   var idx = -1;
+  var hsBox = HomeSound.mount($('pPage'), 'big');   // 🔊 video volume + 🎵 music, top-right of the photo page
+  hsBox.style.top = 'calc(env(safe-area-inset-top, 0px) + 3.4vmin)'; hsBox.style.right = 'max(16px, calc(env(safe-area-inset-right, 0px) + 4vmin))';
   function startPhotos() {
     var box = $('photos'); box.innerHTML = ''; idx = -1;
     PHOTOS.forEach(function (p) { var d = document.createElement('div'); d.className = 'ph'; d.setAttribute('data-src', p.src); box.appendChild(d); });
@@ -446,12 +449,14 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
   }
   function nextPhoto() {
     var els = $('photos').children; if (!els.length) return;
-    if (idx >= 0) els[idx].className = 'ph';
+    if (idx >= 0) { els[idx].className = 'ph'; HomeSound.stop(els[idx]); }
     idx = (idx + 1) % els.length;
     var el = els[idx]; if (!el.style.backgroundImage) el.style.backgroundImage = 'url("' + el.getAttribute('data-src') + '")';
     var nx = els[(idx + 1) % els.length]; if (!nx.style.backgroundImage) nx.style.backgroundImage = 'url("' + nx.getAttribute('data-src') + '")';   // preload the next one
     void el.offsetWidth; el.className = 'ph on';
     capPhoto();
+    var p = PHOTOS[idx];   // album videos play (with sound after a tap, see ../sound.js); the slideshow waits for them
+    if (p && p.video && page === 0 && !isNight()) HomeSound.play(el, p.video, p.src, function (secs) { setTimeout(function () { if (page === 0 && $('photos').children[idx] === el && !busy()) { step(); loop(); } }, secs * 1000); });
   }
   function capPhoto() {
     var p = PHOTOS[idx]; if (!p) { $('pCap').innerHTML = ''; return; }
@@ -574,7 +579,7 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
   /* ---------- pages ---------- */
   var PAGES = ['pPage', 'tPage', 'nPage', 'cPage'], page = 0, shown = 0, info = 0, timer;
   function setPage(i) {
-    page = i;
+    page = i; if (i && idx >= 0 && $('photos').children[idx]) HomeSound.stop($('photos').children[idx]);
     for (var k = 0; k < PAGES.length; k++) { $(PAGES[k]).className = $(PAGES[k]).className.replace(/\s*on/g, '') + (k === i ? ' on' : ''); $('dots').children[k].className = k === i ? 'on' : ''; }
     document.body.className = document.body.className.replace(/\s*(compact|cwx)/g, '') + (i ? ' compact' : '') + (i === 3 ? ' cwx' : '');
     if (i === 2) drawNews(); if (i === 1) drawToday();
@@ -583,11 +588,14 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
   function loop() {
     clearTimeout(timer); if (S.fixed) return;
     timer = setTimeout(function () {
-      if (busy()) { loop(); return; }
-      if (page === 0) { shown++; if (shown % S.every === 0) { info++; setPage(1 + (info - 1) % 3); } else nextPhoto(); }
-      else { setPage(0); nextPhoto(); }
-      loop();
+      if (busy() || (page === 0 && HomeSound.playing())) { loop(); return; }   // a video plays to its end
+      step(); loop();
     }, (page === 0 ? S.photoSec : S.infoSec) * 1000);
+  }
+  function step() {
+    var els = $('photos').children; if (idx >= 0 && els[idx]) HomeSound.stop(els[idx]);
+    if (page === 0) { shown++; if (shown % S.every === 0) { info++; setPage(1 + (info - 1) % 3); } else nextPhoto(); }
+    else { setPage(0); nextPhoto(); }
   }
   function busy() { return !$('sheet').hidden || !$('bpop').hidden || !$('sub').hidden; }
   $('app').onclick = function () { if (page === 0) setPage(1); else if (page === 1 || page === 2) setPage(page + 1); else { setPage(0); nextPhoto(); } loop(); };
@@ -691,7 +699,7 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
     var h = parts(S.tz).h; return S.nightFrom > S.nightTo ? (h >= S.nightFrom || h < S.nightTo) : (h >= S.nightFrom && h < S.nightTo);
   }
   function drawNight() {
-    var on = isNight() && Date.now() > peek; $('night').hidden = !on; $('dock').style.opacity = on ? 0 : 1;
+    var on = isNight() && Date.now() > peek; $('night').hidden = !on; HomeSound.setQuiet(on); $('dock').style.opacity = on ? 0 : 1;
     if (!on) return;
     var p = parts(S.tz), w = hkNow();
     $('nClock').innerHTML = clock12(p); $('nDate').innerHTML = dateZh(p) + ' · ' + lunarName(lunarMD(new Date()));
