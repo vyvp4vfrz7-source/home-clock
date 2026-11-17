@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 tools/build_yt.py yt.json
-      - run: head -c 3000 yt.json || true
+      - run: python3 -c "import json;print(json.dumps(json.load(open('yt.json')),ensure_ascii=True))"
       - name: Commit
         if: github.ref == 'refs/heads/main'
         run: |
