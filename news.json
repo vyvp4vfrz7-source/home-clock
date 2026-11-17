@@ -1,14 +1,55 @@
 {
- "updated": "2026-11-17T01:59+00:00",
+ "updated": "2026-11-17T02:48+00:00",
  "items": [
   {
    "src": "香港",
    "lang": "zh",
-   "t": "【重溫】2026年11月17日《社評摘要》",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878075-20261117.htm",
-   "d": "匯集各大報章社論及評論精華，多角度呈現各方觀點。",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878075_1_M_20261117084327.jpg",
-   "at": "2026-11-17T01:35+00:00",
+   "t": "9月兩宗醫療風險警示 私家醫院有女病人被錯誤切除雙側卵巢",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878089-20261117.htm",
+   "d": "衞生署表示，9月收到兩宗私營醫療機構呈報的醫療風險警示事件，其中一宗涉及45歲女病人在一間私家醫院，進行腹腔鏡子宮及雙側輸卵管切除手術期間，雙側卵巢被錯誤切除。病人情況穩定。沒有證據顯示醫院在房舍、人手、設備方面，違反實務守則適用的要求，導致今次事件。 另一宗涉及27歲女病人，在日間醫療中心被誤認為另一名病人，而接受了洗牙治療。病人情況穩定。 衞生署回覆查詢時表示，在收到通報後隨即跟進，並要求有關私營醫療機構於4星期內提交調查報告。衞生…",
+   "at": "2026-11-17T02:37+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "APEC深圳觀察：習近平想告訴世界，中國掌握著未來",
+   "u": "https://www.bbc.com/zhongwen/articles/c893rg46x0ygo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "當世界領導人本週齊聚深圳，他們將看到一座代表中國未來的科技之城：機器人、AI、摩天大樓，處處展現蓬勃的創新活力。但這很可能只是故事的一半：因為峰會停工的建築工人、為生計奔波的零工群體，對未來有著不同的想像。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/a64b/live/ec420ab0-e1b4-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-17T02:09+00:00",
+   "where": [
+    22.54,
+    114.06,
+    "深圳"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "《環看天下》： 中俄美元首將於深圳會晤 外交部稱具開創性意義",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878084-20261117.htm",
+   "d": "國家主席習近平，將於本周四在深圳同俄羅斯總統普京，以及美國總統特朗普舉行中俄美元首會晤。外交部表示，中俄美三國元首史上首次面對面會晤，具有開創性的意義，加強溝通，管控分歧，符合三國利益，有利穩定世界局勢。 分析普遍預期，這次三方會面未必能夠達成重大協議，但從中可以展現出大國之間的外交協調能力。",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878084_1_M_20261117094831.jpg",
+   "at": "2026-11-17T01:48+00:00",
+   "where": [
+    22.54,
+    114.06,
+    "深圳"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "吳傑莊稱香港網絡安全事故協調中心或須調撥更多人手支援業界",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878086-20261117.htm",
+   "d": "香港網絡安全事故協調中心今年首10個月處理的事故按年升7%。選委界立法會議員吳傑莊在本台節目《千禧年代》表示，生產力局有25人是網絡安全專家，其中一半在事故協調中心工作，協助企業堵塞網絡安全漏洞，防止黑客入侵。他認為，可能要調撥更多人手，支援業界提高網絡安全意識，否則會令市民受騙機會增加。 吳傑莊指出，網絡安全系統日新月異，對中型企業來說，不會投放很多成本在網絡安全，例如不會定期更新系統，容易造成資料外洩。他提到，外界質疑目前的個人資料…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878086_1_M_20261117103740.jpg",
+   "at": "2026-11-17T02:06+00:00",
    "where": [
     22.32,
     114.17,
@@ -32,29 +73,29 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "《環看天下》： 中俄美元首將於深圳會晤 外交部稱具開創性意義",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878084-20261117.htm",
-   "d": "國家主席習近平，將於本周四在深圳同俄羅斯總統普京，以及美國總統特朗普舉行中俄美元首會晤。外交部表示，中俄美三國元首史上首次面對面會晤，具有開創性的意義，加強溝通，管控分歧，符合三國利益，有利穩定世界局勢。 分析普遍預期，這次三方會面未必能夠達成重大協議，但從中可以展現出大國之間的外交協調能力。",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878084_1_M_20261117094831.jpg",
-   "at": "2026-11-17T01:48+00:00",
+   "t": "金正恩考察三池淵市旅遊區建設工作",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878076-20261117.htm",
+   "d": "朝中社報道，朝鮮領袖金正恩考察三池淵市旅遊區建設工作。 金正恩又指導三池淵機場擴建工程，表示工程完工後，三池淵市將全面具備航空及鐵路運輸、公路等旅遊業發展所需的基礎設施。 路透社報道，三池淵市與中國吉林省接壤，金正恩到訪正值美國總統特朗普表示，可能今個星期在中國與金正恩會面。 俄羅斯傳媒也引述克里姆林宮發言人佩斯科夫表示，如果金正恩也出席在深圳舉行的亞太經合組織峰會，俄羅斯總統普京可能會與對方會面。 朝鮮並非亞太經合組織成員經濟體，中方…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878076_1_M_20261117084720.jpg",
+   "at": "2026-11-17T00:47+00:00",
    "where": [
-    22.54,
-    114.06,
-    "深圳"
+    39.03,
+    125.75,
+    "北韓"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "【重溫】2026年11月17日《報章摘要》",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878074-20261117.htm",
-   "d": "每日搜羅本港主要報章要聞，緊貼社會動態。",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878074_1_M_20261117084241.jpg",
-   "at": "2026-11-17T01:34+00:00",
+   "t": "深圳APEC｜工商領導人峰會 習近平明天上午將發表主旨演講",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878085-20261117.htm",
+   "d": "2026年亞太經合組織工商領導人峰會一連兩日在深圳前海舉行，主題為「共促繁榮、共贏未來」。 峰會主席、中國貿促會會長任鴻斌致歡迎辭時表示，國家主席習近平明天上午將出席峰會開幕式，並發表主旨演講。澳洲、加拿大、智利、中國香港、印尼、韓國、馬來西亞、俄羅斯等11名APEC經濟體領導人，亦將出席峰會並發表演講、致辭或參與專題研討。 任鴻斌又說，今屆峰會聚焦開放、創新、合作三大優先領域，APEC全部21個經濟體和英國、法國、德國等13個域外經濟…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878085_1_M_20261117102044.jpg",
+   "at": "2026-11-17T01:51+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    22.54,
+    114.06,
+    "深圳"
    ]
   },
   {
@@ -74,48 +115,6 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "金正恩考察三池淵市旅遊區建設工作",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878076-20261117.htm",
-   "d": "朝中社報道，朝鮮領袖金正恩考察三池淵市旅遊區建設工作。 金正恩又指導三池淵機場擴建工程，表示工程完工後，三池淵市將全面具備航空及鐵路運輸、公路等旅遊業發展所需的基礎設施。 路透社報道，三池淵市與中國吉林省接壤，金正恩到訪正值美國總統特朗普表示，可能今個星期在中國與金正恩會面。 俄羅斯傳媒也引述克里姆林宮發言人佩斯科夫表示，如果金正恩也出席在深圳舉行的亞太經合組織峰會，俄羅斯總統普京可能會與對方會面。 朝鮮並非亞太經合組織成員經濟體，中方…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878076_1_M_20261117084720.jpg",
-   "at": "2026-11-17T00:47+00:00",
-   "where": [
-    39.03,
-    125.75,
-    "北韓"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "證監會：證券無紙化設定主要費用 措施提升香港金融市場效率",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878070-20261117.htm",
-   "d": "投資者想要實名持有無紙化股票，關鍵第一步是到實物股票相關的股份過戶處，開立「持股易」戶口（USI），將股票電子化。現時證監會核准的股份過戶處有6間，當中，香港中央證券登記及卓佳證券登記，率先獲批准可以提供無紙證券市場相關服務，其餘4間已經接觸證監會並提出申請。 證監會市場監察部執行董事梁仲賢，接受本台節目《財經新思維》訪問時表示，最大兩間股份過戶處合計市佔率逾90%，未來希望做到一個綜合戶口，處理到6間股份過戶處的戶口。 證監會為開設「…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878070_1_M_20261117074403.jpg",
-   "at": "2026-11-17T00:11+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "里長赴中旅遊受關注：為何北京鎖定里長？里長怎麼看？",
-   "u": "https://www.bbc.com/zhongwen/articles/cm3elx8gxdn3o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "台灣地方選舉即將到來，近年北京對台統戰工作重心從政商菁英轉向基層社會，而里長作為選舉期間的地方「樁腳」，就成為了北京的重要接觸對象。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7e59/live/86a92b40-d75d-11f1-b441-2b33b063138f.jpg",
-   "at": "2026-11-16T09:03+00:00",
-   "where": [
-    23.7,
-    121.0,
-    "台灣"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
    "t": "美國商務部宣布新規定 防止第三方國家遠程調用先進人工智能芯片",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878056-20261117.htm",
    "d": "美國商務部宣布新規定，防止第三方國家遠程調用先進人工智能芯片。 商務部的聲明表示，新規定旨在確保不能透過第三方國家數據中心的遠程計算，來規避現有的美國敏感技術使用限制。 路透社報道，新規定可能會影響中國獲取先進人工智能芯片。 在北京，外交部上星期表示，中方在美國輸華芯片問題上，立場一貫，堅決反對美方泛化國家安全概念，劃設各種名目的歧視清單，無理打壓中國機構。 編輯：盧曉珊",
@@ -130,11 +129,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "彌敦道凌晨有私家車懷疑逃避警方截查 撞到四架的士",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878053-20261117.htm",
-   "d": "彌敦道凌晨發生交通意外，一架私家車懷疑逃避警方截查，駛離現場時撞到四架的士，一名的士司機送院。 事發在凌晨1時許，警方表示，警員當時在彌敦道近山林道一帶截查可疑車輛，一架私家車懷疑逃避截查，倒車往山林道方向逃去，期間撞到四架的士，一名的士司機報稱頸痛送院，警方仍在追查涉案私家車司機下落。 運輸署表示，受事故影響，彌敦道往梳士巴利道方向，介乎山林道與柯士甸道之間，全線一度封閉，部分巴士路線曾經需要改道行駛，去到凌晨3時許全線解封。 編輯：…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878053_1_M_20261117052916.jpg",
-   "at": "2026-11-16T21:29+00:00",
+   "t": "【重溫】2026年11月17日《社評摘要》",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878075-20261117.htm",
+   "d": "匯集各大報章社論及評論精華，多角度呈現各方觀點。",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878075_1_M_20261117084327.jpg",
+   "at": "2026-11-17T01:35+00:00",
    "where": [
     22.32,
     114.17,
@@ -144,10 +143,10 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "里長赴中旅遊：台灣《反滲透法》為何「查辦多、定罪少」？",
-   "u": "https://www.bbc.com/zhongwen/articles/cr7428z1wx74o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "台灣「九合一」地方選舉進入倒數，北京試圖介入台灣選舉的相關活動再受關注。台灣《反滲透法》施行後，儘管近年相關案件數量快速增加，但查辦近600人，只有5人被定罪，使現行法律規範與執法標準受到外界檢視。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/885c/live/600cf080-e175-11f1-93f3-8bc2b127a55c.jpg",
+   "t": "里長赴中旅遊受關注：為何北京鎖定里長？里長怎麼看？",
+   "u": "https://www.bbc.com/zhongwen/articles/cm3elx8gxdn3o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣地方選舉即將到來，近年北京對台統戰工作重心從政商菁英轉向基層社會，而里長作為選舉期間的地方「樁腳」，就成為了北京的重要接觸對象。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7e59/live/86a92b40-d75d-11f1-b441-2b33b063138f.jpg",
    "at": "2026-11-16T09:03+00:00",
    "where": [
     23.7,
@@ -172,30 +171,25 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "特朗普表示訪華期間或與金正恩會面 中朝雙方均未有相關公布",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878042-20261117.htm",
-   "d": "美國總統特朗普表示，本周訪華期間，可能會與朝鮮領袖金正恩會面。 特朗普星期一離開華盛頓，展開亞洲訪問行程，包括本周稍後在深圳出席亞太經合組織領導人非正式會議。特朗普在白宮見記者時提到，訪華期間可能與金正恩會面，形容將會是一件好事，有機會取得很多成果。 朝鮮並非亞太經合組織成員經濟體，中方及朝方亦未有公布金正恩訪華的消息。 特朗普首個美國總統任期，曾經三度與金正恩會晤，包括2019年6月，兩人於兩韓邊境非軍事區會面。 編輯：盧曉珊",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878042_1_M_20261117004633.jpg",
-   "at": "2026-11-16T16:40+00:00",
+   "t": "【重溫】2026年11月17日《報章摘要》",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878074-20261117.htm",
+   "d": "每日搜羅本港主要報章要聞，緊貼社會動態。",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878074_1_M_20261117084241.jpg",
+   "at": "2026-11-17T01:34+00:00",
    "where": [
-    39.03,
-    125.75,
-    "北韓"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
    "src": "國際",
    "lang": "zh",
-   "t": "據報黃仁勳商討重返Nvidia，Megaspeed稱黃樂去年已離職",
-   "u": "https://www.bbc.com/zhongwen/articles/cw8dvqp5z412o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "英偉達醜聞引發了人們的質疑：儘管美國有所限制，但先進的人工智慧晶片最終是否流入了中國。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/fa43/live/e2a9a870-e10d-11f1-93e1-3b657b665bcf.jpg",
-   "at": "2026-11-16T03:49+00:00",
-   "where": [
-    34.0,
-    108.0,
-    "中國"
-   ]
+   "t": "羅伯·派汀森：《暮光之城》男主角如何成為007",
+   "u": "https://www.bbc.com/zhongwen/articles/c893rgw9zrxqo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "羅伯·派汀森（Robert Pattinson）早已在《暮光之城》系列、《蝙蝠俠》和《奧德賽》等電影，奠定了自己作為男主角、動作明星及演員的地位。如今，他接下詹姆士·龐德（James Bond；占士邦）一角，將使他的知名度更上一層樓。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/5f95/live/31a7c6d0-e1e7-11f1-9f14-b33806cfd783.jpg",
+   "at": "2026-11-17T02:38+00:00"
   },
   {
    "src": "世界",
@@ -214,15 +208,15 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "深圳APEC｜召集全球網民接力唱廣東歌《朋友》有英文泰文版",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878040-20261116.htm",
-   "d": "深圳廣電集團聯同北京、上海廣播電視台推出《APEC「中國年」100小時全媒體大直播》節目。 晚上節目環節，包括請來多名導演談及製作概念。有導演表示，APEC會議對一般人來說或有點抽象，甚至有些人或不認識21個經濟體成員，因此想到透過「接力唱」網路活動，讓大家能夠參與這宗國際大事。 這名導演指，選了廣東歌《朋友》作為「接力唱」的歌曲，最終收到全球數十個國家及地區的網民投稿，當中有人用英文、泰文等翻唱，並製作成影片。 另外，有製作機械人樂隊…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878040_1_M_20261116234634.jpg",
-   "at": "2026-11-16T15:46+00:00",
+   "t": "證監會：證券無紙化設定主要費用 措施提升香港金融市場效率",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878070-20261117.htm",
+   "d": "投資者想要實名持有無紙化股票，關鍵第一步是到實物股票相關的股份過戶處，開立「持股易」戶口（USI），將股票電子化。現時證監會核准的股份過戶處有6間，當中，香港中央證券登記及卓佳證券登記，率先獲批准可以提供無紙證券市場相關服務，其餘4間已經接觸證監會並提出申請。 證監會市場監察部執行董事梁仲賢，接受本台節目《財經新思維》訪問時表示，最大兩間股份過戶處合計市佔率逾90%，未來希望做到一個綜合戶口，處理到6間股份過戶處的戶口。 證監會為開設「…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878070_1_M_20261117074403.jpg",
+   "at": "2026-11-17T00:11+00:00",
    "where": [
-    22.54,
-    114.06,
-    "深圳"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
@@ -245,7 +239,6 @@
    "t": "教宗良十四世完成南美三國訪問行程 籲青年保持希望相信自己",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878050-20261117.htm",
    "d": "教宗良十四世完成南美三國訪問行程，在最後一站秘魯與民眾會面。 良十四世曾經被派往秘魯傳教，在當地擔任教區主教，擁有秘魯國籍。他星期一在當地一個空軍基地出席活動，向約150萬民眾演講。良十四世說，一直把秘魯人民放在心上，又呼籲年輕人保持希望，相信自己。 良十四世為期12天的行程期間，亦到訪過烏拉圭及阿根廷，與政要、天主教團體、及民眾會面。 編輯：盧曉珊",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878050_1_M_20261117035600.jpg",
    "at": "2026-11-16T20:10+00:00",
    "where": [
     -38.4,
@@ -256,14 +249,14 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "日本千葉縣、英國及印度部分地區禽肉禽蛋因禽流感暫停進口本港",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878035-20261116.htm",
-   "d": "食物安全中心宣布，因應世界動物衞生組織通報，指印度及英國部分地區爆發高致病性H5N1禽流感，及日本農林水產省通報指日本爆發高致病性H5禽流感，中心即時暫停從有關地區進口禽肉及禽類產品，包括禽蛋，以保障公眾健康。 中心表示，有關地區為印度安得拉邦Anantapur區；英國諾福克郡King's Lynn & West Norfolk區、東約克郡東約克區；蘭開夏郡Wyre區及其附近的Lancaster區、Fylde區和Preston區；日本千…",
-   "at": "2026-11-16T14:25+00:00",
+   "t": "彌敦道凌晨有私家車懷疑逃避警方截查 撞到四架的士",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878053-20261117.htm",
+   "d": "彌敦道凌晨發生交通意外，一架私家車懷疑逃避警方截查，駛離現場時撞到四架的士，一名的士司機送院。 事發在凌晨1時許，警方表示，警員當時在彌敦道近山林道一帶截查可疑車輛，一架私家車懷疑逃避截查，倒車往山林道方向逃去，期間撞到四架的士，一名的士司機報稱頸痛送院，警方仍在追查涉案私家車司機下落。 運輸署表示，受事故影響，彌敦道往梳士巴利道方向，介乎山林道與柯士甸道之間，全線一度封閉，部分巴士路線曾經需要改道行駛，去到凌晨3時許全線解封。 編輯：…",
+   "at": "2026-11-16T21:29+00:00",
    "where": [
-    52.5,
-    -1.5,
-    "英國"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
@@ -291,14 +284,14 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "東瀛遊接供應商通知系統遭未經授權網絡存取 涉部分客戶證件資料",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878034-20261116.htm",
-   "d": "旅行社東瀛遊表示，本月13日接獲第三方技術服務供應商通知，系統曾遭受未經授權的網絡存取，部分客戶的姓名、聯絡資料、身份證號碼及旅遊證件資料等，可能涉及相關事件。東瀛遊已報警處理，以及向私隱專員公署立案。 東瀛遊向客戶發出通知，指發生第三方技術服務供應商的資料安全事件，由於公司一直使用獨立的銀行付款系統，因此調查確認，事件不涉及任何信用卡或付款相關資料，暫未有證據顯示相關資料遭不當使用。另外，公司的核心旅遊預訂系統及日常業務運作並無受影響…",
-   "at": "2026-11-16T14:18+00:00",
+   "t": "特朗普表示訪華期間或與金正恩會面 中朝雙方均未有相關公布",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878042-20261117.htm",
+   "d": "美國總統特朗普表示，本周訪華期間，可能會與朝鮮領袖金正恩會面。 特朗普星期一離開華盛頓，展開亞洲訪問行程，包括本周稍後在深圳出席亞太經合組織領導人非正式會議。特朗普在白宮見記者時提到，訪華期間可能與金正恩會面，形容將會是一件好事，有機會取得很多成果。 朝鮮並非亞太經合組織成員經濟體，中方及朝方亦未有公布金正恩訪華的消息。 特朗普首個美國總統任期，曾經三度與金正恩會晤，包括2019年6月，兩人於兩韓邊境非軍事區會面。 編輯：盧曉珊",
+   "at": "2026-11-16T16:40+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    39.03,
+    125.75,
+    "北韓"
    ]
   },
   {
@@ -316,29 +309,16 @@
    ]
   },
   {
-   "src": "世界",
-   "lang": "zh",
-   "t": "特朗普：不介意黃仁勳重返Nvidia復職行政總裁",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878046-20261117.htm",
-   "d": "美國總統特朗普表示，對於黃仁勳重返Nvidia擔任行政總裁，持開放態度。 捲入婚外情風波的黃仁勳，早前辭去Nvidia行政總裁職務。特朗普星期一表示，不介意黃仁勳復職，認為對方已經吸取深刻教訓。 特朗普即將到中國深圳出席亞太經合組織領導人非正式會議，期間與國家主席習近平會晤。特朗普回答記者提問時表示，屆時可能與習近平討論黃仁勳相關議題。 特朗普又說，不肯定被指是黃仁勳婚外情對象的女子黃樂是否中國間諜，說沒有聽過這個說法，形容任何美麗的中…",
-   "at": "2026-11-16T18:14+00:00",
-   "where": [
-    38.9,
-    -77.04,
-    "美國"
-   ]
-  },
-  {
    "src": "香港",
    "lang": "zh",
-   "t": "香港迪士尼連串聖誕慶祝活動 聖誕樹亮燈配無人機表演及飄雪效果",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878030-20261116.htm",
-   "d": "香港迪士尼樂園度假區公布連串聖誕新年活動。明天至明年1月3日將舉辦聖誕慶祝活動，期間每日傍晚6時20分在美國小鎮大街的巨型聖誕樹會亮燈，上空會上演節日無人機表演，現場亦有飄雪效果。 原有每晚煙花匯演期間，城堡上空的無人機表演亦會繼續，即每晚有兩場無人機表演。園區下午舉行活動啟動儀式，邀請了韓國女團成員張員瑛與迪士尼人物，點亮美國小鎮大街的大型聖誕樹，吸引大批賓客在場拍照。 香港迪士尼由本周末至12月初會舉行聖誕音樂會，有本地鋼琴家及兒童…",
-   "at": "2026-11-16T13:11+00:00",
+   "t": "深圳APEC｜召集全球網民接力唱廣東歌《朋友》有英文泰文版",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878040-20261116.htm",
+   "d": "深圳廣電集團聯同北京、上海廣播電視台推出《APEC「中國年」100小時全媒體大直播》節目。 晚上節目環節，包括請來多名導演談及製作概念。有導演表示，APEC會議對一般人來說或有點抽象，甚至有些人或不認識21個經濟體成員，因此想到透過「接力唱」網路活動，讓大家能夠參與這宗國際大事。 這名導演指，選了廣東歌《朋友》作為「接力唱」的歌曲，最終收到全球數十個國家及地區的網民投稿，當中有人用英文、泰文等翻唱，並製作成影片。 另外，有製作機械人樂隊…",
+   "at": "2026-11-16T15:46+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    22.54,
+    114.06,
+    "深圳"
    ]
   },
   {
@@ -358,28 +338,28 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "有小學升中呈分試出問題全級學生重考 教育局︰已要求嚴肅跟進",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878029-20261116.htm",
-   "d": "有報道指，九龍塘喇沙小學和元朗官立小學，小六升中呈分試出問題，全級學生要重考。 教育局回覆查詢指，已接獲兩間學校通報，知悉學校已就事件及相關安排通知學生及家長。局方分別要求兩間學校調查，嚴肅跟進及妥善處理，就事件提交報告。 教育局提醒學校務必確保所有校內測考均在公平和公正的原則下進行，亦須與家長及學生保持良好溝通，提供支援。 編輯：鍾慧儀",
-   "at": "2026-11-16T13:10+00:00",
+   "t": "日本千葉縣、英國及印度部分地區禽肉禽蛋因禽流感暫停進口本港",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878035-20261116.htm",
+   "d": "食物安全中心宣布，因應世界動物衞生組織通報，指印度及英國部分地區爆發高致病性H5N1禽流感，及日本農林水產省通報指日本爆發高致病性H5禽流感，中心即時暫停從有關地區進口禽肉及禽類產品，包括禽蛋，以保障公眾健康。 中心表示，有關地區為印度安得拉邦Anantapur區；英國諾福克郡King's Lynn & West Norfolk區、東約克郡東約克區；蘭開夏郡Wyre區及其附近的Lancaster區、Fylde區和Preston區；日本千…",
+   "at": "2026-11-16T14:25+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    52.5,
+    -1.5,
+    "英國"
    ]
   },
   {
    "src": "國際",
    "lang": "zh",
-   "t": "APEC深圳峰會：中方確認美中俄會晤，日方盼習近平與高市握手",
-   "u": "https://www.bbc.com/zhongwen/articles/c6wy4373q50go/trad?at_medium=RSS&at_campaign=rss",
-   "d": "深圳APEC2026到來，特朗普（川普）稱將與中俄領袖在深圳會面，中俄確認正協調三方會晤。BBC中文專訪APEC執行秘書長討論敏感議，稱對領導人出席保持樂觀。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/f0ac/live/5861faf0-df50-11f1-8364-2717a13d3b08.jpg",
-   "at": "2026-11-16T01:43+00:00",
+   "t": "里長赴中旅遊：台灣《反滲透法》為何「查辦多、定罪少」？",
+   "u": "https://www.bbc.com/zhongwen/articles/cr7428z1wx74o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣「九合一」地方選舉進入倒數，北京試圖介入台灣選舉的相關活動再受關注。台灣《反滲透法》施行後，儘管近年相關案件數量快速增加，但查辦近600人，只有5人被定罪，使現行法律規範與執法標準受到外界檢視。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/885c/live/600cf080-e175-11f1-93f3-8bc2b127a55c.jpg",
+   "at": "2026-11-16T09:03+00:00",
    "where": [
-    22.54,
-    114.06,
-    "深圳"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -427,15 +407,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Lindsay Clancy to face retrial next year for deaths of her three children",
-   "u": "https://www.bbc.co.uk/news/articles/cw5y1v8de35go?at_medium=RSS&at_campaign=rss",
-   "d": "The 36-year-old's first trial this year fell apart when a 12-person jury failed to reach a verdict.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0f3a/live/c50f43d0-e1dd-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-16T19:30+00:00",
+   "t": "California sues OpenAI over Hugging Face attack",
+   "u": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
+   "d": "Attorney General Rob Bonta alleges OpenAI misled and endangered the public",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ce1a/live/7c81aa70-e211-11f1-a541-6d0c391a4254.jpg",
+   "at": "2026-11-16T23:12+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    37.0,
+    -120.0,
+    "加州"
    ]
   },
   {
@@ -534,11 +514,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
-   "u": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-   "d": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
-   "at": "2026-11-17T01:49+00:00",
+   "t": "Lindsay Clancy to face retrial next year for deaths of her three children",
+   "u": "https://www.bbc.co.uk/news/articles/cw5y1v8de35go?at_medium=RSS&at_campaign=rss",
+   "d": "The 36-year-old's first trial this year fell apart when a 12-person jury failed to reach a verdict.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0f3a/live/c50f43d0-e1dd-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-16T19:30+00:00",
    "where": [
     38.9,
     -77.04,
@@ -646,15 +626,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Pope Leo hit by flying rosary while waving to crowds in Peru",
-   "u": "https://www.bbc.co.uk/news/videos/ckpdwn23j5j8o?at_medium=RSS&at_campaign=rss",
-   "d": "The pontiff was struck in the face by what is thought to be prayer beads while travelling aboard the popemobile to deliver a farewell Mass.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0861/live/f40b1380-e200-11f1-ba8d-01314a590f72.jpg",
-   "at": "2026-11-16T21:12+00:00",
+   "t": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+   "u": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+   "d": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/78e4/live/4bc24280-e1d2-11f1-b8c8-67fa35f5afdb.jpg",
+   "at": "2026-11-17T02:37+00:00",
    "where": [
-    -12.05,
+    38.9,
     -77.04,
-    "秘魯"
+    "美國"
    ]
   },
   {
@@ -758,15 +738,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
-   "u": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
-   "d": "The Ukrainian president says the slowed-down internet is making it difficult to stop Russian attacks.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9a51/live/78372760-e180-11f1-9386-1b849272ca8f.jpg",
-   "at": "2026-11-16T20:16+00:00",
+   "t": "Pope Leo hit by flying rosary while waving to crowds in Peru",
+   "u": "https://www.bbc.co.uk/news/videos/ckpdwn23j5j8o?at_medium=RSS&at_campaign=rss",
+   "d": "The pontiff was struck in the face by what is thought to be prayer beads while travelling aboard the popemobile to deliver a farewell Mass.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0861/live/f40b1380-e200-11f1-ba8d-01314a590f72.jpg",
+   "at": "2026-11-16T21:12+00:00",
    "where": [
-    49.0,
-    31.4,
-    "烏克蘭"
+    -12.05,
+    -77.04,
+    "秘魯"
    ]
   },
   {
@@ -870,15 +850,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "US flights returning to normal levels after weekend of disruption",
-   "u": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss",
-   "d": "Every US airline was affected by Friday's ground stop, as the national air-traffic control system recovered from a technical failure.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1b00/live/90c0ff50-e11b-11f1-a7a2-7bb21fac8f0b.jpg",
-   "at": "2026-11-16T17:34+00:00",
+   "t": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+   "u": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
+   "d": "The Ukrainian president says the slowed-down internet is making it difficult to stop Russian attacks.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9a51/live/78372760-e180-11f1-9386-1b849272ca8f.jpg",
+   "at": "2026-11-16T20:16+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    49.0,
+    31.4,
+    "烏克蘭"
    ]
   },
   {
@@ -982,11 +962,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "49ers stun Cowboys, Chiefs and Bengals impress - NFL week 10",
-   "u": "https://www.bbc.co.uk/sport/american-football/articles/cmjre22gz0wwo?at_medium=RSS&at_campaign=rss",
-   "d": "The NFL's brightest stars lit up week 10 of the 2026 season with some astonishing plays as the San Francisco 49ers, Kansas City Chiefs and Cincinnati Bengals all won on Sunday.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8bdd/live/17f3a220-e1bc-11f1-99a1-253766e7ad8b.png",
-   "at": "2026-11-16T07:33+00:00",
+   "t": "US flights returning to normal levels after weekend of disruption",
+   "u": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss",
+   "d": "Every US airline was affected by Friday's ground stop, as the national air-traffic control system recovered from a technical failure.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1b00/live/90c0ff50-e11b-11f1-a7a2-7bb21fac8f0b.jpg",
+   "at": "2026-11-16T17:34+00:00",
    "where": [
     38.9,
     -77.04,
