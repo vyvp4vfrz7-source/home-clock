@@ -1037,7 +1037,7 @@ body.night #live { display: none; }   /* no scores on the night clock */
   <div class="msg" id="bMsg"></div>
   <div class="btns"><button type="button" id="bClose">關閉 Close</button><button type="button" class="ok" id="bSend">貼上 Post</button></div>
 </div></div>
-<script src="sound.js?v=1"></script>
+<script src="sound.js?v=2"></script>
 <script>
 /* ===== Settings you can change ===== */
 var CONFIG = {
@@ -1056,6 +1056,9 @@ var CONFIG = {
   // Birthday page (page 10): joins the turning pages when the next birthday is this many days away or less.
   birthdaySoon: 14,
   night: { from: 23, to: 7, wake: 120 },
+  // Cute visitors (cute.js): a random one every 6-12 minutes, cat or cuckoo on the hour. cold = snowman at or below this °C.
+  // off: true turns them all off; fish: false hides the night fish tank.
+  cute: { every: [6, 12], cold: 4 },
   // Live football scores (ESPN): a card shows at the top while a match is on.
   // 'follow' = your team (names or ESPN 3-letter code); its cup games show too, and its match day shows a kick-off time.
   football: { follow: ['Man United', 'Manchester United', 'MUN'], leagues: ['eng.1'], cups: ['eng.fa', 'eng.league_cup', 'uefa.champions', 'uefa.europa', 'uefa.europa.conf'] }
@@ -2218,7 +2221,11 @@ function liveShow() {
       else if (fav && m.state === 'pre' && t - now < 4 * 3600000 && t - now > -3 * 3600000 && new Date(t).toDateString() === new Date().toDateString()) show.push(m);
       else if (fav && m.state === 'post' && now - t < (110 + 45) * 60000) show.push(m);
       var k = m.home.score + '-' + m.away.score, was = LIVE.goalAt[m.id];
-      if (m.state === 'in' && was && was.k !== k) LIVE.goalAt[m.id] = { k: k, at: now }; else if (!was) LIVE.goalAt[m.id] = { k: k, at: 0 };
+      if (m.state === 'in' && was && was.k !== k) {
+        LIVE.goalAt[m.id] = { k: k, at: now };
+        var side = +m.home.score > +was.k.split('-')[0] ? m.home : m.away;   // who scored: party only for our team
+        if (window.Cute && liveFav({ home: side, away: side })) Cute.goal();
+      } else if (!was) LIVE.goalAt[m.id] = { k: k, at: 0 };
     });
   });
   show.sort(function (a, b) { return (liveFav(b) - liveFav(a)) || ((b.state === 'in') - (a.state === 'in')) || (Date.parse(a.date) - Date.parse(b.date)); });
@@ -3210,5 +3217,6 @@ $('bList').addEventListener('click', function (e) {
 /* Reload every 6 hours so the page stays fresh and light. */
 setTimeout(function () { location.replace(freshURL()); }, 6 * 3600 * 1000);
 </script>
+<script src="cute.js?v=1"></script>
 </body>
 </html>

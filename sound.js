@@ -106,6 +106,24 @@
     var n = v._n; v.muted = true; if (now === v) now = null; refresh();
     setTimeout(function () { if (v._n !== n) return; try { v.pause(); v.removeAttribute('src'); v.load(); } catch (e) {} if (v.parentNode) v.parentNode.removeChild(v); }, 2600);   // after the crossfade, free the memory
   };
+  /* Little sound effects for the cute animations (cute.js). Silent unless the speaker button is turned up
+     and the iPad has been tapped since loading; never while the night clock shows. */
+  HS.chirp = function (kind) {
+    if (!soundOn() || quiet) return;
+    var c = ctx(); if (!c) return;
+    var lvl = GAIN[vol] * 0.35, t0 = c.currentTime + 0.05;
+    function blip(f1, f2, at, len, type) {
+      var o = c.createOscillator(), g = c.createGain(); o.type = type || 'sine';
+      o.frequency.setValueAtTime(f1, t0 + at); o.frequency.exponentialRampToValueAtTime(f2, t0 + at + len);
+      g.gain.setValueAtTime(0, t0 + at); g.gain.linearRampToValueAtTime(lvl, t0 + at + 0.03); g.gain.exponentialRampToValueAtTime(0.0001, t0 + at + len);
+      o.connect(g); g.connect(c.destination); o.start(t0 + at); o.stop(t0 + at + len + 0.05);
+    }
+    if (kind === 'cuckoo') { blip(660, 650, 0, 0.32); blip(525, 515, 0.38, 0.5); }
+    else if (kind === 'meow') { blip(520, 820, 0, 0.18, 'triangle'); blip(820, 430, 0.18, 0.45, 'triangle'); }
+    else if (kind === 'quack') { blip(300, 220, 0, 0.14, 'square'); blip(300, 210, 0.22, 0.16, 'square'); }
+    else if (kind === 'pop') { blip(900, 300, 0, 0.12); }
+    else if (kind === 'cheer') { [523, 659, 784, 1047, 784, 1047].forEach(function (f, i) { blip(f, f, i * 0.12, 0.3, 'triangle'); }); }
+  };
   HS.setQuiet = function (q) { q = !!q; if (q !== quiet) { quiet = q; refresh(); } };
 
   /* ---- buttons: HomeSound.mount(box, 'big') puts 🔊 and 🎵 in the top-right of box ---- */
