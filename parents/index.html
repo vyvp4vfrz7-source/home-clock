@@ -139,7 +139,7 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
 /* ---------- overlays ---------- */
 .over { position: absolute; z-index: 9; top: 0; right: 0; bottom: 0; left: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 3vmin; padding: 6vmin; box-sizing: border-box; }
 .btns { display: flex; gap: 4vmin; margin-top: 2vmin; flex-wrap: wrap; justify-content: center; }
-.btns button { border: 0; border-radius: 999px; min-height: 64px; padding: 2.4vmin 6vmin; font: 800 max(20px, 4.4vmin) var(--body); display: flex; align-items: center; gap: 1.6vmin; -webkit-tap-highlight-color: transparent; }
+.btns button, .btns a { text-decoration: none; border: 0; border-radius: 999px; min-height: 64px; padding: 2.4vmin 6vmin; font: 800 max(20px, 4.4vmin) var(--body); display: flex; align-items: center; gap: 1.6vmin; -webkit-tap-highlight-color: transparent; }
 .b-no { background: #e5484d; color: #fff; } .b-go { background: #34c46a; color: #05230f; } .b-soft { background: rgba(255,255,255,.14); color: var(--ink); } .b-ink { background: #3a2e12; color: var(--note); }
 /* calling sheet */
 #sheet { background: radial-gradient(ellipse at 50% 38%, #24331f 0%, #0d0b09 70%); }
@@ -222,10 +222,10 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
 
   <section class="over" id="sheet" hidden aria-label="打俾 Billy">
     <span class="orb"><span class="glow"></span><span class="core">B</span></span>
-    <h2>打緊俾 Billy…</h2>
+    <h2>打俾 Billy？</h2>
     <div class="zz" id="sheetZz" hidden></div>
     <div class="cd" id="cd"></div>
-    <div class="btns"><button class="b-no" id="no" type="button">✕ 唔打住</button><button class="b-go" id="go" type="button">即刻打</button></div>
+    <div class="btns"><button class="b-no" id="no" type="button">✕ 唔打住</button><a class="b-go" id="go" href="#">📞 照打</a></div>
     <div class="hint">下次可以直接講：<b>「喂 Siri，FaceTime Billy」</b></div>
   </section>
 
@@ -656,28 +656,31 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
       .catch(function () { $('bOk').disabled = false; toast('冇網絡，遲啲再試'); });
   };
 
-  /* ---------- call Billy: 3 seconds to cancel, then FaceTime ---------- */
-  var toastT, cdT, left;
+  /* ---------- call Billy ----------
+     iPad only opens FaceTime when the tap itself follows a real facetime: link.  The old version
+     dialled from a 3-second countdown timer, which a Home Screen web app silently ignores, so
+     nothing happened.  Now the orb is the link; iPad then asks "FaceTime …?" and that pop-up is
+     the chance to cancel.  When it is night in London, a sheet asks first, and its green button is
+     the link. */
+  var toastT;
   function toast(tx) { var el = $('toast'); el.innerHTML = tx; el.hidden = false; clearTimeout(toastT); toastT = setTimeout(function () { el.hidden = true; }, 5000); }
-  function closeSheet() { clearInterval(cdT); $('sheet').hidden = true; }
-  function dial() {
-    closeSheet();
-    if (!S.ft) { toast('未設定 Billy 嘅 FaceTime<br><small>(add &amp;ft= to the address)</small>'); return; }
-    location.href = 'facetime:' + S.ft;
-    toast('打緊俾 Billy…<br>如果彈出視窗，請撳「FaceTime」');
-  }
+  var FT = S.ft ? 'facetime://' + S.ft.replace(/\s+/g, '') : '';
+  if (FT) { $('call').setAttribute('href', FT); $('go').setAttribute('href', FT); }
+  function closeSheet() { $('sheet').hidden = true; }
+  function dialing() { closeSheet(); toast('打緊俾 Billy…<br>如果彈出視窗，請撳「FaceTime」'); }
   function openSheet(demo) {
     var c = callTime(parts(S.me.tz));
     $('sheetZz').hidden = !c.zz; $('sheetZz').innerHTML = c.zz ? '倫敦而家係 ' + ampm(parts(S.me.tz).h) + ((parts(S.me.tz).h % 12) || 12) + ':' + pad(parts(S.me.tz).mi) + '，Billy 可能瞓緊覺' : '';
-    left = c.zz ? 6 : 3; $('sheet').hidden = false;
-    var tick = function () { $('cd').innerHTML = '<b class="num">' + left + '</b> 秒後接通'; };
-    tick(); clearInterval(cdT);
-    if (demo) return;
-    say(c.zz ? 'Billy 可能瞓緊覺，真係要打嗎？' : '而家打俾Billy。', false);
-    cdT = setInterval(function () { left--; if (left <= 0) dial(); else tick(); }, 1000);
+    $('cd').innerHTML = '撳綠色掣就打'; $('sheet').hidden = false;
+    if (!demo) say(c.zz ? 'Billy 可能瞓緊覺，真係要打嗎？' : '而家打俾Billy。', false);
   }
-  $('call').onclick = function (e) { e.preventDefault(); e.stopPropagation(); openSheet(); };
-  $('go').onclick = function (e) { e.stopPropagation(); dial(); };
+  $('call').onclick = function (e) {
+    e.stopPropagation();
+    if (!FT) { e.preventDefault(); toast('未設定 Billy 嘅 FaceTime<br><small>(add &amp;ft= to the address)</small>'); return; }
+    if (callTime(parts(S.me.tz)).zz) { e.preventDefault(); openSheet(); return; }
+    dialing();            // no preventDefault: the link itself opens FaceTime
+  };
+  $('go').onclick = function (e) { e.stopPropagation(); if (!FT) { e.preventDefault(); return; } dialing(); };
   $('no').onclick = function (e) { e.stopPropagation(); closeSheet(); if (TTS) TTS.cancel(); };
   $('sheet').onclick = function (e) { e.stopPropagation(); };
 
