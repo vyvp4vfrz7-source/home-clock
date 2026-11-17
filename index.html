@@ -889,7 +889,7 @@ body.night #pages, body.night #dots { display: none; }   /* hidden pages stop th
 #nhint { position: absolute; left: 0; right: 0; bottom: 18px; text-align: center; font-size: 13px; color: #b98a5e; opacity: .18; }
 body.peek #pages { opacity: .5; }
 body.night #live { display: none; }   /* no scores on the night clock */
-#cityFrame { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; pointer-events: none; }   /* page 5 lives in cities.html; touches pass through for swiping */
+#cityFrame, #solarFrame { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; pointer-events: none; }   /* page 5 lives in cities.html; touches pass through for swiping */
 </style>
 </head>
 <body>
@@ -946,6 +946,7 @@ body.night #live { display: none; }   /* no scores on the night clock */
   </div>
 </div>
 </div>
+<div class="page" id="psolar"><iframe id="solarFrame" src="solar.html?embed" onload="if (window.goPage) goPage(PAGE, true)" title="Solar system" scrolling="no"></iframe></div>
 <div class="page" id="p3">
 <div class="stage" id="league">
   <div class="top"><h1>Premier League<span>英超積分榜</span></h1><div id="apps"><a class="app sp" href="spotify:"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">Spotify</span></a><a class="app yt" href="youtube://"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">YouTube</span></a></div><div class="upd" id="lupd"></div></div>
@@ -1047,11 +1048,11 @@ var CONFIG = {
   secondCity: '香港', secondZone: 'Asia/Hong_Kong',
   // Pages turn by themselves: each page in 'pages' (1 = dashboard) shows for 'secs' seconds.
   // After a swipe to a page outside the list, it stays there for 'stay' seconds before carrying on.
-  // The big pink clock (page 10), energy (page 11) and the energy review (page 12) sit at the end, outside the turning pages: swipe to them any time.
-  rotate: { secs: 60, pages: [1, 2, 3, 4, 5, 6, 7], stay: 300 },
+  // The big pink clock (page 11), energy (page 12) and the energy review (page 13) sit at the end, outside the turning pages: swipe to them any time.
+  rotate: { secs: 60, pages: [1, 2, 3, 4, 5, 6, 7, 8], stay: 300 },
   // Night mode: between these hours (iPad's own clock) a dim, soft clock replaces the pages.
   // A tap shows the dashboard (dimmed) for 'wake' seconds, then the night clock comes back. ?night=1 / ?night=0 to test.
-  // Birthday page (page 9): joins the turning pages when the next birthday is this many days away or less.
+  // Birthday page (page 10): joins the turning pages when the next birthday is this many days away or less.
   birthdaySoon: 14,
   night: { from: 23, to: 7, wake: 120 },
   // Live football scores (ESPN): a card shows at the top while a match is on.
@@ -1118,7 +1119,7 @@ function fitStage() {
 addEventListener('resize', fitStage); fitStage();
 
 /* ---------- pages: swipe left/right, tap the dots, or use the arrow keys ----------
-   Page 1 is the dashboard, page 2 this week's calendar, page 3 the news map, page 4 the Hong Kong corner, page 5 UK + Hong Kong weather side by side, page 6 book of the day, page 7 the space corner, page 8 the league table, page 9 birthday countdown, page 10 the analog clock, page 11 home energy (Octopus), page 12 the energy review (months, budget, tips), page 13 saving tips + Siri phrases. To add a page, add another
+   Page 1 is the dashboard, page 2 this week's calendar, page 3 the news map, page 4 the Hong Kong corner, page 5 UK + Hong Kong weather side by side, page 6 book of the day, page 7 the space corner, page 8 the solar system flying through the galaxy (solar.html), page 9 the league table, page 10 birthday countdown, page 11 the analog clock, page 12 home energy (Octopus), page 13 the energy review (months, budget, tips), page 14 saving tips + Siri phrases. To add a page, add another
    <div class="page"> inside #track. The iPad remembers the last page shown. */
 var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
 (function () {
@@ -1141,6 +1142,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
     document.body.classList.toggle('pbday', PAGE === BDAY_PAGE);
     document.body.classList.toggle('pnews', !!pages[PAGE] && pages[PAGE].id === 'pnews');
     try { $('cityFrame').contentWindow.document.body.classList.toggle('on', !!pages[PAGE] && pages[PAGE].id === 'pcity'); } catch (e) {}   // its animations run only while it shows
+    try { $('solarFrame').contentWindow.document.body.classList.toggle('on', !!pages[PAGE] && pages[PAGE].id === 'psolar'); } catch (e) {}
     document.body.classList.toggle('penergy', !!pages[PAGE] && pages[PAGE].id === 'penergy');
     if (window.ZH_DAYS) bigTick(new Date());   // start or stop the sweeping hand right away
   };

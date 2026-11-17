@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Solar system</title>
+<!-- Solar system racing through the Milky Way: the Sun flies forward and each planet
+     leaves a spiral trail. Planet places start from today's real positions (mean longitudes)
+     and real orbit times; distances and the Sun's speed are squeezed so it fits the screen.
+     ?embed = start paused until the page around it adds class "on" to <body>. -->
+<style>
+html, body { margin: 0; height: 100%; background: #02040b; overflow: hidden; }
+body { font-family: -apple-system, "PingFang HK", "Helvetica Neue", sans-serif; color: #e8eefc; -webkit-user-select: none; user-select: none; }
+#stage { position: absolute; left: 0; top: 0; width: 1366px; height: 1024px; transform-origin: 0 0; }
+canvas { position: absolute; left: 0; top: 0; width: 1366px; height: 1024px; }
+.top { position: absolute; left: 48px; top: 34px; right: 48px; display: flex; justify-content: space-between; align-items: flex-start; pointer-events: none; }
+h1 { margin: 0; font-size: 46px; font-weight: 700; letter-spacing: 2px; text-shadow: 0 2px 18px rgba(0,0,0,.8); }
+h1 span { display: block; font-size: 20px; font-weight: 500; letter-spacing: 1px; color: #9fb3d9; margin-top: 4px; }
+#year { text-align: right; font-size: 20px; color: #9fb3d9; text-shadow: 0 2px 12px #000; }
+#year b { display: block; font-size: 54px; font-weight: 300; color: #fff; font-variant-numeric: tabular-nums; letter-spacing: 1px; }
+#facts { position: absolute; left: 48px; bottom: 40px; width: 430px; font-size: 19px; line-height: 1.5; color: #c9d6f2; text-shadow: 0 2px 10px #000; pointer-events: none; }
+#facts b { color: #ffd76a; font-weight: 600; }
+#facts .en { font-size: 15px; color: #8496bd; margin-top: 2px; }
+#legend { position: absolute; right: 48px; bottom: 40px; display: grid; grid-template-columns: repeat(4, auto); gap: 8px 22px; font-size: 16px; color: #c9d6f2; text-shadow: 0 2px 8px #000; pointer-events: none; }
+#legend i { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 7px; vertical-align: 0; }
+#legend small { color: #7f90b6; margin-left: 4px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <canvas id="cv" width="1366" height="1024"></canvas>
+  <div class="top"><h1>太陽系大遊行<span>The Solar System racing through the galaxy</span></h1><div id="year">模擬年份 Year<b id="yr">2026</b></div></div>
+  <div id="facts">
+    太陽帶住八大行星，以每秒 <b>230 公里</b>繞銀河系中心飛行，行一圈要 <b>2.3 億年</b>。行星今日嘅位置係真嘅，<b>1 年 = 6 秒</b>。
+    <div class="en">The Sun carries the planets round the Milky Way at 230 km/s; one lap takes 230 million years. Planets start where they really are today. 1 year = 6 seconds (distances squeezed to fit).</div>
+  </div>
+  <div id="legend"></div>
+</div>
+<script>
+(function () {
+  var W = 1366, H = 1024, YEAR_SECS = 6, FPS = 30;
+  var stage = document.getElementById('stage'), cv = document.getElementById('cv'), cx = cv.getContext('2d');
+  function fit() { var s = Math.min(innerWidth / W, innerHeight / H); stage.style.transform = 'translate(' + (innerWidth - W * s) / 2 + 'px,' + (innerHeight - H * s) / 2 + 'px) scale(' + s + ')'; }
+  addEventListener('resize', fit); fit();
+  if (!/[?&]embed/.test(location.search)) document.body.classList.add('on');
+
+  // name, Chinese, AU, orbit days, mean longitude at J2000 (deg), colour, size px
+  var PL = [
+    ['Mercury', '水星', 0.387, 87.969, 252.25, '#b9b2a8', 4],
+    ['Venus', '金星', 0.723, 224.70, 181.98, '#f0d39a', 6],
+    ['Earth', '地球', 1.0, 365.256, 100.46, '#5aa9ff', 6.5],
+    ['Mars', '火星', 1.524, 686.98, 355.45, '#ff7a4d', 5],
+    ['Jupiter', '木星', 5.203, 4332.6, 34.40, '#e8b98a', 12],
+    ['Saturn', '土星', 9.537, 10759.2, 49.94, '#f2dc9b', 10],
+    ['Uranus', '天王星', 19.19, 30688.5, 313.23, '#9fe3ea', 8],
+    ['Neptune', '海王星', 30.07, 60182, 304.88, '#5b7cff', 8]
+  ];
+  var lg = '';
+  PL.forEach(function (p) {
+    p.r = Math.pow(p[2], 0.5);                       // squeezed distance (Earth = 1)
+    p.trail = []; p.every = Math.max(1 / 30, p[3] / 365.256 * YEAR_SECS / 46); p.next = 0;
+    lg += '<div><i style="background:' + p[5] + '"></i>' + p[1] + '<small>' + p[0] + '</small></div>';
+  });
+  document.getElementById('legend').innerHTML = lg;
+
+  // World: x = way the Sun flies, y = up. The planets' plane is tipped ~60° to that path.
+  var SPEED = 2.3, TILT = 60 * Math.PI / 180;
+  var U = [Math.sin(TILT) * 0 + 0, 0, 1];           // first in-plane axis (sideways)
+  var V = [Math.cos(TILT), Math.sin(TILT), 0];      // second in-plane axis (forward + up)
+  function sunAt(t) { return [SPEED * t / YEAR_SECS, 1.4 * Math.sin(t / 37), 1.2 * Math.sin(t / 53)]; }
+  function planetAt(p, t, days0, s) {
+    var a = (p[4] + 360 * (days0 + t / YEAR_SECS * 365.256) / p[3]) * Math.PI / 180;
+    var c = Math.cos(a) * p.r, d = Math.sin(a) * p.r;
+    return [s[0] + U[0] * c + V[0] * d, s[1] + U[1] * c + V[1] * d, s[2] + U[2] * c + V[2] * d];
+  }
+
+  // Camera follows the Sun from the side and slowly swings round.
+  var SCALE = 70, DIST = 22, cam = { yaw: 0, pitch: 0, sun: [0, 0, 0] }, CXo = W * 0.64, CYo = H * 0.52;
+  function proj(P) {
+    var x = P[0] - cam.sun[0], y = P[1] - cam.sun[1], z = P[2] - cam.sun[2];
+    var cy = Math.cos(cam.yaw), sy = Math.sin(cam.yaw), x1 = x * cy - z * sy, z1 = x * sy + z * cy;
+    var cp = Math.cos(cam.pitch), sp = Math.sin(cam.pitch), y1 = y * cp - z1 * sp, z2 = y * sp + z1 * cp;
+    var k = DIST / (DIST + z2); if (k < 0) k = 0;
+    return [CXo + x1 * SCALE * k, CYo - y1 * SCALE * k, k];
+  }
+
+  // Backdrop drawn once: deep sky, stars and a tilted spiral galaxy.
+  var bg = document.createElement('canvas'); bg.width = W; bg.height = H;
+  (function () {
+    var g = bg.getContext('2d'), rnd = mulberry(7);
+    var gr = g.createRadialGradient(W * 0.75, H * 0.45, 40, W * 0.75, H * 0.45, 900);
+    gr.addColorStop(0, '#1b2547'); gr.addColorStop(0.45, '#0b1230'); gr.addColorStop(1, '#02040b');
+    g.fillStyle = gr; g.fillRect(0, 0, W, H);
+    for (var i = 0; i < 900; i++) { g.fillStyle = 'rgba(255,255,255,' + (0.15 + rnd() * 0.6) + ')'; var s = rnd() < 0.06 ? 1.8 : 1; g.fillRect(rnd() * W, rnd() * H, s, s); }
+    g.save(); g.translate(W * 0.78, H * 0.42); g.rotate(-0.42); g.scale(1, 0.42);
+    var core = g.createRadialGradient(0, 0, 0, 0, 0, 230);
+    core.addColorStop(0, 'rgba(255,236,200,.75)'); core.addColorStop(0.25, 'rgba(190,170,255,.28)'); core.addColorStop(1, 'rgba(60,80,160,0)');
+    g.fillStyle = core; g.beginPath(); g.arc(0, 0, 230, 0, 7); g.fill();
+    for (var arm = 0; arm < 4; arm++) for (var j = 0; j < 1600; j++) {
+      var t = rnd() * 3.4, r = 40 * Math.exp(0.62 * t) + (rnd() - 0.5) * 50 * (1 + t / 2), a = t + arm * Math.PI / 2 + (rnd() - 0.5) * 0.35;
+      var al = 0.12 + rnd() * 0.5; g.fillStyle = rnd() < 0.2 ? 'rgba(180,200,255,' + al + ')' : 'rgba(235,240,255,' + al + ')';
+      g.fillRect(Math.cos(a) * r, Math.sin(a) * r, 1.6, 1.6);
+    }
+    g.restore();
+  })();
+  function mulberry(a) { return function () { a |= 0; a = a + 0x6D2B79F5 | 0; var t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+
+  // Glow sprite for the Sun.
+  var glow = document.createElement('canvas'); glow.width = glow.height = 240;
+  (function () { var g = glow.getContext('2d'), r = g.createRadialGradient(120, 120, 0, 120, 120, 120);
+    r.addColorStop(0, 'rgba(255,250,210,1)'); r.addColorStop(0.1, 'rgba(255,224,90,.95)'); r.addColorStop(0.22, 'rgba(255,190,60,.35)'); r.addColorStop(0.55, 'rgba(255,170,60,.08)'); r.addColorStop(1, 'rgba(255,170,60,0)');
+    g.fillStyle = r; g.fillRect(0, 0, 240, 240); })();
+
+  // Space dust the Sun flies through (fixed in space, so it streams past).
+  var dust = [], drnd = mulberry(11);
+  for (var i = 0; i < 260; i++) dust.push([0, 0, 0, 0.2 + drnd() * 0.6]);
+  function placeDust(d, s, ahead) {
+    d[0] = s[0] + (ahead ? 14 + drnd() * 6 : (drnd() - 0.4) * 34); d[1] = s[1] + (drnd() - 0.5) * 22; d[2] = s[2] + (drnd() - 0.5) * 22;
+  }
+
+  var t = 0, days0 = 0, last = 0, acc = 0, startYear = 2026;
+  function reset() {
+    var now = new Date(); startYear = now.getFullYear() + (now - new Date(now.getFullYear(), 0, 1)) / 31557600000;
+    days0 = (now.getTime() - Date.UTC(2000, 0, 1, 12)) / 86400000; t = 0;
+    var s = sunAt(0);
+    PL.forEach(function (p) { p.trail = []; p.next = -1e9; });
+    // pre-fill the trails with the last ~28 seconds of travel so it starts already flowing
+    for (var tt = -28; tt <= 0; tt += 1 / 30) step(tt);
+    t = 0; dust.forEach(function (d) { placeDust(d, s, false); });
+  }
+  function step(tt) {
+    var s = sunAt(tt);
+    PL.forEach(function (p) {
+      if (tt < p.next) return;
+      p.next = tt + p.every; p.trail.push(planetAt(p, tt, days0, s));
+      var keep = Math.ceil(28 / p.every) + 2; if (p.trail.length > keep) p.trail.splice(0, p.trail.length - keep);
+    });
+  }
+
+  function draw() {
+    var s = sunAt(t);
+    cam.sun = s; cam.yaw = -0.55 + 0.25 * Math.sin(t / 41); cam.pitch = 0.32 + 0.1 * Math.sin(t / 29);
+    cx.globalCompositeOperation = 'source-over'; cx.drawImage(bg, 0, 0);
+    // dust
+    for (var i = 0; i < dust.length; i++) {
+      var d = dust[i]; if (d[0] < s[0] - 22) placeDust(d, s, true);
+      var q = proj(d); if (q[2] <= 0) continue;
+      cx.fillStyle = 'rgba(200,215,255,' + d[3] + ')'; var z = 1.6 * q[2]; cx.fillRect(q[0], q[1], z, z);
+    }
+    // trails: newest end bright, oldest end fades away
+    cx.lineCap = 'round'; cx.lineJoin = 'round';
+    var now = [];
+    PL.forEach(function (p) {
+      var pts = p.trail.map(proj), cur = proj(planetAt(p, t, days0, s)); now.push(cur);
+      pts.push(cur);
+      var n = pts.length, CH = 7;
+      for (var c = 0; c < CH; c++) {
+        var a = Math.floor(n * c / CH), b = Math.min(n - 1, Math.floor(n * (c + 1) / CH));
+        if (b <= a) continue;
+        cx.strokeStyle = p[5]; cx.globalAlpha = 0.08 + 0.75 * Math.pow((c + 1) / CH, 1.6);
+        cx.lineWidth = p[6] > 9 ? 1.6 : 1.2;
+        cx.beginPath(); cx.moveTo(pts[a][0], pts[a][1]);
+        for (var j = a + 1; j <= b; j++) cx.lineTo(pts[j][0], pts[j][1]);
+        cx.stroke();
+      }
+      cx.globalAlpha = 1;
+    });
+    // Sun trail (straight-ish line of its path)
+    cx.strokeStyle = 'rgba(255,214,110,.35)'; cx.lineWidth = 2; cx.beginPath();
+    for (var k = 0; k <= 28; k++) { var sp = proj(sunAt(t - 28 + k)); k ? cx.lineTo(sp[0], sp[1]) : cx.moveTo(sp[0], sp[1]); }
+    cx.stroke();
+    // Sun
+    var S = proj(s); cx.globalCompositeOperation = 'lighter';
+    cx.drawImage(glow, S[0] - 120, S[1] - 120);
+    cx.globalCompositeOperation = 'source-over';
+    cx.fillStyle = '#fff3b0'; cx.beginPath(); cx.arc(S[0], S[1], 13, 0, 7); cx.fill();
+    // planets + names
+    cx.font = '15px -apple-system, "PingFang HK", sans-serif'; cx.textBaseline = 'middle';
+    PL.forEach(function (p, i) {
+      var q = now[i], r = p[6] * q[2];
+      cx.fillStyle = p[5]; cx.shadowColor = p[5]; cx.shadowBlur = 10;
+      cx.beginPath(); cx.arc(q[0], q[1], r, 0, 7); cx.fill(); cx.shadowBlur = 0;
+      if (p[0] === 'Saturn') { cx.strokeStyle = 'rgba(242,220,155,.8)'; cx.lineWidth = 1.5; cx.beginPath(); cx.ellipse(q[0], q[1], r * 2.1, r * 0.7, -0.4, 0, 7); cx.stroke(); }
+      if (i >= 2) { cx.fillStyle = 'rgba(220,230,255,.85)'; cx.fillText(p[1], q[0] + r + 6, q[1] - r - 4); }
+    });
+    var y = startYear + t / YEAR_SECS, m = Math.floor((y % 1) * 12) + 1;
+    document.getElementById('yr').textContent = Math.floor(y) + '年' + m + '月';
+  }
+
+  function loop(ms) {
+    requestAnimationFrame(loop);
+    if (!document.body.classList.contains('on')) { last = 0; return; }
+    if (!last) { last = ms; if (!draw.ran) { draw.ran = 1; } }
+    var dt = (ms - last) / 1000; if (dt < 1 / FPS - 0.004) return;
+    last = ms; if (dt > 0.2) dt = 1 / FPS;
+    t += dt; step(t); draw();
+  }
+  // Each time the page comes into view, start again from today's real positions.
+  var wasOn = false;
+  setInterval(function () { var on = document.body.classList.contains('on'); if (on && !wasOn) { reset(); draw(); } wasOn = on; }, 250);
+  reset(); draw();
+  requestAnimationFrame(loop);
+})();
+</script>
+</body>
+</html>
