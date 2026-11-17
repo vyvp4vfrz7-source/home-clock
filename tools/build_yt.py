@@ -13,7 +13,7 @@ CHANNELS = [
     {"key": "gb", "zh": "綠豆", "en": "Green Bean", "id": "UCLYWo70xBDrPYJgJsxoX7Qg"},
     {"key": "wit", "zh": "法庭線", "en": "The Witness", "id": "UCYRpTuLTvC7S6zfATKNfDXw"},
     {"key": "col", "zh": "集誌社", "en": "The Collective", "id": "UCfQa67fC_15Aiaywz8lPMNg"},
-    {"key": "viu", "zh": "ViuTV", "en": "ViuTV", "id": "UCHOmxBZKt6uCFqoCvRHnSgQ"},
+    {"key": "viu", "zh": "Viu 新聞", "en": "now News", "id": "", "must": "now", "handles": ["nownews", "nownewshk", "NowNewsHK"], "q": ["now 新聞", "now新聞台"]},
 ]
 PER = 12  # videos kept per channel
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Version/17.0 Safari/605.1.15",
