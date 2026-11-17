@@ -532,6 +532,41 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 .brow.soon { border-color: #6a3f5a; background: linear-gradient(90deg, #2a1b2b, var(--tile)); }
 .brow.soon .dl b { color: #f3c1d6; }
 body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state: paused !important; }
+/* ----- YouTube news (page 4): yt.json, saved every 30 min by .github/workflows/yt.yml (tools/build_yt.py) ----- */
+#ytp { padding: 26px 40px 58px; display: flex; flex-direction: column; gap: 16px; }
+#ytp .top { display: flex; align-items: baseline; justify-content: space-between; padding: 0 6px; }
+#ytp h1 { margin: 0; font-size: 44px; font-weight: 600; letter-spacing: -.01em; }
+#ytp h1 span { color: var(--muted); font-weight: 400; font-size: 30px; margin-left: 12px; }
+#ytUpd { font-size: 20px; color: var(--muted); font-weight: 600; }
+#ytCols { flex: 1; min-height: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+.ytc { min-width: 0; min-height: 0; display: flex; flex-direction: column; border-radius: 26px; border: 1px solid var(--line); background: var(--tile); overflow: hidden; }
+.ytc .hd { display: flex; align-items: center; gap: 10px; padding: 14px 18px 12px; font-size: 25px; font-weight: 800; }
+.ytc .hd i { width: 14px; height: 14px; border-radius: 50%; background: var(--c); flex: none; }
+.ytc .hd small { font-size: 16px; color: var(--muted); font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ytc .list { flex: 1; min-height: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; padding: 0 12px 12px; }
+.ytv { display: flex; gap: 12px; padding: 9px 6px; border-radius: 14px; cursor: pointer; }
+.ytv:active { background: rgba(255,255,255,.07); }
+.ytv .th { position: relative; flex: none; width: 128px; height: 72px; border-radius: 10px; overflow: hidden; background: #222c38 center / cover no-repeat; }
+.ytv .tx { min-width: 0; flex: 1; }
+.ytv b { display: block; font-size: 17px; line-height: 1.3; font-weight: 600; max-height: 3.9em; overflow: hidden; }
+.ytv em { display: block; font-style: normal; font-size: 14px; color: var(--muted); font-weight: 600; margin-top: 4px; }
+.ytv em .new { color: #10151c; background: var(--c); border-radius: 999px; padding: 1px 8px; margin-right: 6px; }
+.ytv.first { flex-direction: column; gap: 10px; padding: 4px 6px 14px; margin-bottom: 4px; border-bottom: 1px solid var(--line); border-radius: 14px 14px 0 0; }
+.ytv.first .th { width: 100%; height: 0; padding-top: 56.25%; border-radius: 14px; }
+.ytv.first b { font-size: 21px; max-height: 3.9em; font-weight: 700; }
+.ytv .th:after { content: '▶'; position: absolute; right: 6px; bottom: 6px; font-size: 12px; color: #fff; background: rgba(0,0,0,.6); border-radius: 6px; padding: 2px 6px; }
+.ytv.first .th:after { font-size: 20px; padding: 6px 13px; right: 50%; bottom: 50%; transform: translate(50%, 50%); background: rgba(220,30,30,.88); border-radius: 14px; }
+.ytv .sh { position: absolute; left: 6px; top: 6px; font-size: 11px; font-weight: 800; color: #fff; background: rgba(0,0,0,.6); border-radius: 6px; padding: 1px 6px; }
+#ytMsg { grid-column: 1 / 5; align-self: center; text-align: center; font-size: 24px; color: var(--muted); }
+#ytPlay { position: absolute; inset: 0; z-index: 7; background: rgba(5,8,12,.94); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; }
+#ytPlay[hidden] { display: none; }
+#ytFrame { width: 1200px; height: 675px; border-radius: 18px; overflow: hidden; background: #000; }
+#ytFrame iframe { width: 100%; height: 100%; border: 0; display: block; }
+#ytBar { width: 1200px; display: flex; align-items: center; gap: 14px; }
+#ytNow { flex: 1; min-width: 0; font-size: 22px; font-weight: 700; line-height: 1.3; }
+#ytNow small { display: block; font-size: 16px; color: var(--muted); font-weight: 600; }
+#ytBar a, #ytBar button { font: 700 18px var(--font); border: 0; border-radius: 999px; padding: 12px 20px; white-space: nowrap; text-decoration: none; background: #2a3442; color: #fff; cursor: pointer; }
+#ytBar #ytClose { background: var(--sun); color: #1a1a1a; }
 /* ----- Book of the day (page 5): book.json (a newly reviewed book, picked each morning) or books.json (fallback list) ----- */
 #bookp { padding: 26px 40px 58px; display: flex; flex-direction: column; gap: 16px; }
 #bookp .top { display: flex; align-items: baseline; justify-content: space-between; padding: 0 6px; }
@@ -920,6 +955,13 @@ body.night #live { display: none; }   /* no scores on the night clock */
   </div>
 </div>
 </div>
+<div class="page" id="pyt">
+<div class="stage" id="ytp">
+  <div class="top"><h1>YouTube 新聞<span>香港 · Hong Kong news channels</span></h1><div id="ytUpd"></div></div>
+  <div id="ytCols"><div id="ytMsg">載入影片… Loading videos</div></div>
+  <div id="ytPlay" hidden><div id="ytFrame"></div><div id="ytBar"><div id="ytNow"></div><a id="ytOpen" target="_blank" rel="noopener">喺 YouTube 開 ↗</a><button type="button" id="ytClose">✕ 關閉 Close</button></div></div>
+</div>
+</div>
 <div class="page" id="phk">
 <div class="stage" id="hkc">
   <div class="top"><h1>香港角落<span>Hong Kong corner</span></h1><div id="hkTime" class="num"></div></div>
@@ -1049,11 +1091,11 @@ var CONFIG = {
   secondCity: '香港', secondZone: 'Asia/Hong_Kong',
   // Pages turn by themselves: each page in 'pages' (1 = dashboard) shows for 'secs' seconds.
   // After a swipe to a page outside the list, it stays there for 'stay' seconds before carrying on.
-  // The big pink clock (page 11), energy (page 12) and the energy review (page 13) sit at the end, outside the turning pages: swipe to them any time.
-  rotate: { secs: 60, pages: [1, 2, 3, 4, 5, 6, 7, 8], stay: 300 },
+  // The big pink clock (page 12), energy (page 13) and the energy review (page 14) sit at the end, outside the turning pages: swipe to them any time.
+  rotate: { secs: 60, pages: [1, 2, 3, 4, 5, 6, 7, 8, 9], stay: 300 },
   // Night mode: between these hours (iPad's own clock) a dim, soft clock replaces the pages.
   // A tap shows the dashboard (dimmed) for 'wake' seconds, then the night clock comes back. ?night=1 / ?night=0 to test.
-  // Birthday page (page 10): joins the turning pages when the next birthday is this many days away or less.
+  // Birthday page (page 11): joins the turning pages when the next birthday is this many days away or less.
   birthdaySoon: 14,
   night: { from: 23, to: 7, wake: 120 },
   // Cute visitors (cute.js): a random one every 6-12 minutes, cat or cuckoo on the hour. cold = snowman at or below this °C.
@@ -1123,7 +1165,7 @@ function fitStage() {
 addEventListener('resize', fitStage); fitStage();
 
 /* ---------- pages: swipe left/right, tap the dots, or use the arrow keys ----------
-   Page 1 is the dashboard, page 2 this week's calendar, page 3 the news map, page 4 the Hong Kong corner, page 5 UK + Hong Kong weather side by side, page 6 book of the day, page 7 the space corner, page 8 the solar system flying through the galaxy (solar.html), page 9 the league table, page 10 birthday countdown, page 11 the analog clock, page 12 home energy (Octopus), page 13 the energy review (months, budget, tips), page 14 saving tips + Siri phrases. To add a page, add another
+   Page 1 is the dashboard, page 2 this week's calendar, page 3 the news map, page 4 YouTube news channels (yt.json), page 5 the Hong Kong corner, page 6 UK + Hong Kong weather side by side, page 7 book of the day, page 8 the space corner, page 9 the solar system flying through the galaxy (solar.html), page 10 the league table, page 11 birthday countdown, page 12 the analog clock, page 13 home energy (Octopus), page 14 the energy review (months, budget, tips), page 15 saving tips + Siri phrases. To add a page, add another
    <div class="page"> inside #track. The iPad remembers the last page shown. */
 var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
 (function () {
@@ -1183,7 +1225,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
   setInterval(function () {
     var R = CONFIG.rotate; if (!R || !R.secs || !R.pages || !R.pages.length) return;
     if (isNight()) { pageAt = Date.now(); return; }   // night: no page turning, even while peeking
-    if ((typeof noteOpen !== 'undefined' && noteOpen) || window.BOARD_BUSY || (window.speechSynthesis && speechSynthesis.speaking)) { pageAt = Date.now(); return; }
+    if ((typeof noteOpen !== 'undefined' && noteOpen) || window.BOARD_BUSY || window.YT_BUSY || (window.speechSynthesis && speechSynthesis.speaking)) { pageAt = Date.now(); return; }
     var list = R.pages.map(function (p) { return p - 1; });
     if (window.bdaySoon && BDAY_PAGE >= 0 && list.indexOf(BDAY_PAGE) < 0) list.push(BDAY_PAGE);   // birthday page joins in when one is close
     var at = list.indexOf(PAGE);
@@ -3216,6 +3258,61 @@ $('bList').addEventListener('click', function (e) {
 
 /* Reload every 6 hours so the page stays fresh and light. */
 setTimeout(function () { location.replace(freshURL()); }, 6 * 3600 * 1000);
+
+/* ---------- YouTube news page: yt.json (latest uploads of each channel). Tap a video to play it here. ---------- */
+(function () {
+  var COL = { gb: '#7bd88f', wit: '#f3b649', col: '#6aaef8', viu: '#f37fb5' }, YT = null;
+  function ago(iso) {
+    var m = (Date.now() - new Date(iso).getTime()) / 60000;
+    if (!(m >= 0)) return '';
+    if (m < 60) return Math.max(1, Math.round(m)) + ' 分鐘前';
+    if (m < 60 * 24) return Math.round(m / 60) + ' 小時前';
+    return Math.round(m / 1440) + ' 日前';
+  }
+  function draw() {
+    if (!YT || !YT.channels) return;
+    var h = '';
+    YT.channels.forEach(function (c) {
+      h += '<div class="ytc" style="--c:' + (COL[c.key] || '#9aa7b6') + '"><div class="hd"><i></i>' + esc(c.zh) + ' <small>' + esc(c.en) + '</small></div><div class="list">';
+      if (!c.videos || !c.videos.length) h += '<div class="ytv"><em>暫時冇片 · No videos yet</em></div>';
+      (c.videos || []).forEach(function (v, i) {
+        var fresh = Date.now() - new Date(v.at).getTime() < 3 * 3600000;
+        h += '<div class="ytv' + (i ? '' : ' first') + '" data-v="' + esc(v.v) + '" data-c="' + esc(c.zh) + '">' +
+          '<div class="th" style="background-image:url(https://i.ytimg.com/vi/' + encodeURIComponent(v.v) + '/' + (i ? 'mqdefault' : 'hqdefault') + '.jpg)">' + (v.short ? '<span class="sh">Shorts</span>' : '') + '</div>' +
+          '<div class="tx"><b>' + esc(v.t) + '</b><em>' + (fresh ? '<span class="new">新</span>' : '') + ago(v.at) + '</em></div></div>';
+      });
+      h += '</div></div>';
+    });
+    $('ytCols').innerHTML = h;
+    var u = new Date(YT.updated); if (!isNaN(u)) $('ytUpd').textContent = '更新 Updated ' + pad(u.getHours()) + ':' + pad(u.getMinutes());
+  }
+  function load() {
+    fetch('yt.json?t=' + Date.now()).then(function (r) { if (!r.ok) throw 0; return r.json(); })
+      .then(function (d) { if ($('ytPlay').hidden) { YT = d; draw(); } })
+      .catch(function () { if (!YT) $('ytMsg').textContent = '未有影片 · No videos yet'; });
+  }
+  function shut() {
+    $('ytFrame').innerHTML = ''; $('ytPlay').hidden = true; window.YT_BUSY = false; pageAt = Date.now();
+    try { HomeSound.setQuiet(isNight()); } catch (e) {}
+  }
+  $('ytCols').addEventListener('click', function (e) {
+    var el = e.target; while (el && el !== this && !(el.getAttribute && el.getAttribute('data-v'))) el = el.parentNode;
+    if (!el || el === this) return;
+    var id = el.getAttribute('data-v'), t = el.querySelector('b');
+    $('ytFrame').innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + encodeURIComponent(id) + '?autoplay=1&playsinline=1&rel=0&modestbranding=1" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>';
+    $('ytNow').innerHTML = '<small>' + esc(el.getAttribute('data-c')) + '</small>' + (t ? t.innerHTML : '');
+    $('ytOpen').href = 'https://www.youtube.com/watch?v=' + encodeURIComponent(id);
+    $('ytPlay').hidden = false; window.YT_BUSY = true;   // no page turning while a video is open
+    try { HomeSound.setQuiet(true); } catch (e) {}   // soft music off while it plays
+  });
+  $('ytClose').addEventListener('click', shut);
+  $('ytOpen').addEventListener('click', function () { setTimeout(shut, 500); });
+  setInterval(function () {   // close the player if someone swipes away from the page
+    if (!$('ytPlay').hidden && $('track').children[PAGE].id !== 'pyt') shut();
+    if (YT && $('ytPlay').hidden) draw();   // keep "x 分鐘前" fresh
+  }, 60000);
+  load(); setInterval(load, 10 * 60000);
+})();
 </script>
 <script src="cute.js?v=1"></script>
 </body>
