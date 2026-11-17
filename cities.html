@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>UK · 香港 天氣</title>
+<style>
+/* Two places side by side: UK (London + Birmingham) | Hong Kong. Shown as page 5 on the family iPad (index.html)
+   and on the parents' screen (parents/index.html), both through an <iframe>; also works on its own.
+   ?embed = start paused until the page around it says it is showing (adds class "on" to <body>). */
+:root { --bg: #0b1016; --fg: #e9eef4; --muted: #8492a5; --font: "Manrope", "Helvetica Neue", Arial, sans-serif; }
+html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); font-family: var(--font); overflow: hidden; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent; }
+.num { font-variant-numeric: tabular-nums; }
+.stage { position: absolute; width: 1366px; height: 1024px; transform-origin: 0 0; box-sizing: border-box; }
+.cw { flex: none; overflow: visible; animation: cwBob 3.6s ease-in-out infinite; }
+@keyframes cwBob { 0%, 100% { transform: translateY(1.5px); } 50% { transform: translateY(-2px); } }
+/* ----- page 5: two places side by side (UK: London + Birmingham | Hong Kong), cute weather over landmarks ----- */
+#cty { padding: 26px 28px 70px; display: flex; gap: 22px; }
+#cty .side { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+#cty .hd { height: 104px; display: flex; align-items: flex-end; justify-content: space-between; padding: 0 10px 14px; box-sizing: border-box; }
+#cty .hd h1 { margin: 0; font-size: 40px; font-weight: 700; letter-spacing: -.01em; line-height: 1.05; }
+#cty .hd h1 span { display: block; font-size: 19px; font-weight: 500; color: var(--muted); margin-top: 6px; letter-spacing: 0; }
+#cty .hd .tm { text-align: right; }
+#cty .hd .tm b { display: block; font-size: 76px; font-weight: 600; line-height: .95; letter-spacing: -.02em; }
+#cty .hd .tm small { display: block; font-size: 17px; color: var(--muted); margin-top: 4px; }
+#cty .cards { flex: 1; display: flex; flex-direction: column; gap: 16px; }
+.cc { position: relative; flex: 1; border-radius: 34px; overflow: hidden; color: #1f2b3d; background: linear-gradient(180deg, var(--s1), var(--s2)); box-shadow: 0 10px 30px rgba(0,0,0,.35);
+  --s1: #8fd3ff; --s2: #e4f6ff; --st: #e9cf98; --st2: #d9b878; --hill: #a6d98f; --wat: #6fb7e8; --win: #8db4d6; --ink: #1f2b3d; --rd: #8b8f99; }
+.cc.k-partly { --s1: #9fcdee; --s2: #eaf4fb; }
+.cc.k-cloudy, .cc.k-windy { --s1: #b4c3d2; --s2: #e9eef3; --hill: #a3c79a; }
+.cc.k-fog { --s1: #c8d0d8; --s2: #eef1f4; --hill: #b5c9b4; }
+.cc.k-rain { --s1: #8fa3b8; --s2: #d3dde6; --hill: #93b98d; --wat: #6f9cc0; }
+.cc.k-thunder { --s1: #5e6884; --s2: #a2abbf; --hill: #7f9f83; --wat: #5f86a6; }
+.cc.k-snow { --s1: #c3d3e5; --s2: #f3f7fb; --hill: #f4f7fa; }
+.cc.night { color: #fff; --s1: #121a3d; --s2: #33397a; --st: #4a4c72; --st2: #3c3e61; --hill: #24334a; --wat: #1e2c5a; --win: #ffd76a; --rd: #2c3046; }
+.cc.night.k-cloudy, .cc.night.k-rain, .cc.night.k-fog, .cc.night.k-thunder, .cc.night.k-windy { --s1: #1f2640; --s2: #474e6e; }
+.cc.night.k-snow { --s1: #2a3352; --s2: #5b6487; --hill: #c9d2e3; }
+.cc .sc { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; display: block; }
+.cc .sc .st { fill: var(--st); } .cc .sc .st2 { fill: var(--st2); } .cc .sc .hill { fill: var(--hill); } .cc .sc .wat { fill: var(--wat); } .cc .sc .win { fill: var(--win); } .cc .sc .rd { fill: var(--rd); }
+.cc .sc .face { fill: #fffaf0; } .cc.night .sc .face { fill: #ffe9a3; }
+.cc .sc .hand { stroke: #3b2a2a; stroke-width: 2.4; stroke-linecap: round; fill: none; }
+.cc .sc .eye { stroke: #fff; fill: none; } .cc.night .sc .eye { stroke: #8fd0ff; }
+.cc .sc .pod { fill: #fff; } .cc.night .sc .pod { fill: #ff8fc8; }
+.cc .sc .wave { stroke: rgba(255,255,255,.55); stroke-width: 2; fill: none; stroke-linecap: round; }
+.cc.night .sc .wave { stroke: #ff7bc5; opacity: .75; } .cc.night .sc .wave.b { stroke: #66e0ff; }
+.cc .sc .peak { fill: #86bf8f; } .cc.night .sc .peak { fill: #23384a; }
+.cc .sc .hb1 { fill: #f2c6c2; } .cc .sc .hb2 { fill: #bfd8ea; } .cc .sc .hb3 { fill: #f3dfae; } .cc .sc .hb4 { fill: #cfc6e8; } .cc .sc .hb5 { fill: #bfe0cc; }
+.cc.night .sc .hb1, .cc.night .sc .hb2, .cc.night .sc .hb3, .cc.night .sc .hb4, .cc.night .sc .hb5 { fill: #3d4166; }
+.cc.night .sc .ifc { fill: #57618c; } .cc.night .sc .boc1 { fill: #4b6a9a; } .cc.night .sc .boc2 { fill: #3a5480; } .cc.night .sc .cpz { fill: #6b5c8a; }
+.cc .sc .lw { fill: #8db4d6; opacity: .8; } .cc.night .sc .lw { fill: #ffd76a; opacity: 1; } .cc.night .sc .lw.off { opacity: .15; }
+.cc .sc .wheel { transform-origin: 470px 98px; animation: ccTurn 160s linear infinite; }
+.cc .sc .bus { animation: ccDrive 38s linear infinite; }
+.cc .sc .boat { animation: ccDrift 26s ease-in-out infinite alternate; }
+.cc .sc .junk { transform-origin: 495px 312px; animation: ccRock 4.5s ease-in-out infinite; }
+.cc .sc .ferry { animation: ccFerry 40s ease-in-out infinite alternate; }
+@keyframes ccTurn { to { transform: rotate(360deg); } }
+@keyframes ccDrive { from { transform: translateX(-420px); } to { transform: translateX(420px); } }
+@keyframes ccDrift { from { transform: translateX(-40px); } to { transform: translateX(60px); } }
+@keyframes ccRock { 0%, 100% { transform: rotate(-2deg) translateY(0); } 50% { transform: rotate(2deg) translateY(-2px); } }
+@keyframes ccFerry { from { transform: translateX(-60px); } to { transform: translateX(160px); } }
+.cc .fx { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+.cc .fx .dr { position: absolute; top: -30px; width: 3px; height: 22px; border-radius: 2px; background: rgba(120,170,230,.7); animation: ccRain .9s linear infinite; }
+.cc.night .fx .dr { background: rgba(170,200,255,.6); }
+.cc .fx .fl { position: absolute; top: -16px; width: 9px; height: 9px; border-radius: 50%; background: #fff; box-shadow: 0 0 4px rgba(255,255,255,.8); animation: ccSnow 9s linear infinite; }
+.cc .fx .cl { position: absolute; height: 34px; border-radius: 20px; background: rgba(255,255,255,.75); animation: ccCloud 70s linear infinite; }
+.cc .fx .cl:before, .cc .fx .cl:after { content: ""; position: absolute; background: inherit; border-radius: 50%; }
+.cc .fx .cl:before { width: 46px; height: 46px; left: 18px; top: -22px; } .cc .fx .cl:after { width: 34px; height: 34px; left: 52px; top: -14px; }
+.cc.night .fx .cl { background: rgba(150,160,200,.35); }
+.cc .fx .str { position: absolute; width: 3px; height: 3px; border-radius: 50%; background: #fff; animation: ccTw 3s ease-in-out infinite; }
+@keyframes ccRain { from { transform: translate(0, 0); } to { transform: translate(-30px, 560px); } }
+@keyframes ccSnow { from { transform: translate(0, 0); } to { transform: translate(40px, 860px); } }
+@keyframes ccCloud { from { transform: translateX(-160px); } to { transform: translateX(820px); } }
+@keyframes ccTw { 0%, 100% { opacity: .25; } 50% { opacity: 1; } }
+body:not(.on) #cty *, body:not(.on) #cty *:before, body:not(.on) #cty *:after { animation-play-state: paused !important; }
+.cc .in { position: relative; padding: 20px 26px 0; display: flex; justify-content: space-between; }
+.cc .nm { font-size: 30px; font-weight: 700; line-height: 1; } .cc .nm small { font-size: 18px; font-weight: 500; opacity: .7; margin-left: 8px; }
+.cc .cn { display: flex; align-items: center; margin-top: 6px; }
+.cc .cn .cw { margin: -10px -4px -12px -22px; }
+.cc .tp { font-size: 92px; font-weight: 600; letter-spacing: -.03em; line-height: 1; margin-left: 4px; }
+.cc .ds { font-size: 22px; font-weight: 700; margin-top: 2px; } .cc .ds small { font-size: 16px; font-weight: 500; opacity: .7; margin-left: 8px; }
+.cc .mt { font-size: 16px; opacity: .8; margin-top: 4px; } .cc .mt b { font-weight: 700; opacity: 1; }
+.cc .fc { display: flex; gap: 8px; align-self: flex-start; }
+.cc .fc > div { width: 78px; text-align: center; padding: 8px 0 6px; border-radius: 18px; background: rgba(255,255,255,.45); font-size: 15px; font-weight: 700; }
+.cc.night .fc > div { background: rgba(255,255,255,.12); }
+.cc .fc .cw { display: block; margin: -8px auto -2px; }
+.cc .fc .lo { opacity: .6; font-weight: 500; }
+.cc .fc .pp { font-size: 12px; font-weight: 600; opacity: .75; min-height: 14px; }
+#ccHK .in { flex-direction: column; padding: 26px 34px 0; }
+#ccHK .cn .cw { margin: -20px 0 -20px -30px; }
+#ccHK .tp { font-size: 136px; }
+#ccHK .ds { font-size: 30px; } #ccHK .ds small { font-size: 20px; }
+#ccHK .mt { font-size: 19px; margin-top: 8px; }
+#ccHK .fc { margin-top: 20px; gap: 12px; }
+#ccHK .fc > div { width: 130px; font-size: 18px; padding: 10px 0 8px; } #ccHK .fc .pp { font-size: 14px; }
+#ccHK .fc .dn { font-size: 16px; }
+#cty .ft { position: absolute; left: 0; right: 0; bottom: 34px; text-align: center; font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="stage" id="cty">
+  <div class="side"><div class="hd"><h1>英國<span>UK · London &amp; Birmingham</span></h1><div class="tm"><b class="num" id="ctUK"></b><small id="cdUK"></small></div></div>
+    <div class="cards"><div class="cc" id="ccL"></div><div class="cc" id="ccB"></div></div></div>
+  <div class="side"><div class="hd"><h1>香港<span id="cgap">Hong Kong</span></h1><div class="tm"><b class="num" id="ctHK"></b><small id="cdHK"></small></div></div>
+    <div class="cards"><div class="cc" id="ccHK"></div></div></div>
+  <div class="ft" id="cft"></div>
+</div>
+</div>
+<script>
+var ZH_DAYS = ['星期日','星期一','星期二','星期三','星期四','星期五','星期六'];
+function $(id) { return document.getElementById(id); }
+function r(x) { return Math.round(x); }
+if (!/[?&]embed/.test(location.search)) document.body.classList.add('on');
+function fitStage() {
+  var k = Math.min(innerWidth / 1366, innerHeight / 1024), st = $('cty');
+  st.style.transform = 'scale(' + k + ')';
+  st.style.left = ((innerWidth - 1366 * k) / 2) + 'px';
+  st.style.top = ((innerHeight - 1024 * k) / 2) + 'px';
+}
+addEventListener('resize', fitStage); fitStage();
+/* WMO weather code -> [icon, English, Cantonese] */
+function wx(code, isDay) {
+  var c = code;
+  if (c <= 1) return [isDay === 0 ? 'night' : 'sun', c === 0 ? 'Clear' : 'Mostly clear', '天晴'];
+  if (c === 2) return [isDay === 0 ? 'night' : 'partly', 'Partly cloudy', '部分時間有雲'];
+  if (c === 3) return ['cloud', 'Cloudy', '多雲'];
+  if (c === 45 || c === 48) return ['fog', 'Fog', '有霧'];
+  if (c >= 51 && c <= 57) return ['rain', 'Drizzle', '有毛毛雨'];
+  if (c >= 61 && c <= 67) return ['rain', c === 61 ? 'Light rain' : c === 65 ? 'Heavy rain' : 'Rain', c === 65 ? '有大雨' : '有雨'];
+  if ((c >= 71 && c <= 77) || c === 85 || c === 86) return ['snow', 'Snow', '落雪'];
+  if (c >= 80 && c <= 82) return ['rain', 'Showers', '有驟雨'];
+  if (c >= 95) return ['storm', 'Thunderstorm', '有雷暴'];
+  return ['cloud', '', ''];
+}
+function cuteKind(code, wind, isDay) {
+  var k = 'cloudy', night = isDay === 0;
+  if (code <= 1) k = night ? 'night' : 'sunny';
+  else if (code === 2) k = night ? 'nightcloud' : 'partly';
+  else if (code === 45 || code === 48) k = 'fog';
+  else if ((code >= 71 && code <= 77) || code === 85 || code === 86) k = 'snow';
+  else if (code >= 95) k = 'thunder';
+  else if (code >= 51 && code <= 82) k = 'rain';
+  if (wind >= 40 && (k === 'sunny' || k === 'partly' || k === 'cloudy')) k = 'windy';
+  return k;
+}
+function cuteWx(k, i, size) {
+  var F = '#3b2a2a', B = '#ff9fb0';
+  function face(x, y, s, m) {   // eyes, blush and mouth: m = 'smile' | 'o' | 'sleep' | 'frown'
+    var e = m === 'sleep' ? '<path d="M' + (x - 3.6 * s) + ' ' + y + 'q' + 1.2 * s + ' ' + 1.4 * s + ' ' + 2.4 * s + ' 0M' + (x + 1.2 * s) + ' ' + y + 'q' + 1.2 * s + ' ' + 1.4 * s + ' ' + 2.4 * s + ' 0" stroke="' + F + '" stroke-width="' + 0.9 * s + '" fill="none" stroke-linecap="round"/>'
+      : '<circle cx="' + (x - 2.4 * s) + '" cy="' + y + '" r="' + 1.05 * s + '" fill="' + F + '"/><circle cx="' + (x + 2.4 * s) + '" cy="' + y + '" r="' + 1.05 * s + '" fill="' + F + '"/>';
+    var b = '<ellipse cx="' + (x - 4.3 * s) + '" cy="' + (y + 2 * s) + '" rx="' + 1.3 * s + '" ry="' + 0.75 * s + '" fill="' + B + '" opacity=".85"/><ellipse cx="' + (x + 4.3 * s) + '" cy="' + (y + 2 * s) + '" rx="' + 1.3 * s + '" ry="' + 0.75 * s + '" fill="' + B + '" opacity=".85"/>';
+    var mo = m === 'o' ? '<circle cx="' + x + '" cy="' + (y + 2.6 * s) + '" r="' + 0.8 * s + '" fill="none" stroke="' + F + '" stroke-width="' + 0.7 * s + '"/>'
+      : m === 'frown' ? '<path d="M' + (x - 1.4 * s) + ' ' + (y + 3.2 * s) + 'q' + 1.4 * s + ' ' + -1.6 * s + ' ' + 2.8 * s + ' 0" stroke="' + F + '" stroke-width="' + 0.8 * s + '" fill="none" stroke-linecap="round"/>'
+      : m === 'sleep' ? '' : '<path d="M' + (x - 1.5 * s) + ' ' + (y + 1.8 * s) + 'q' + 1.5 * s + ' ' + 1.7 * s + ' ' + 3 * s + ' 0" stroke="' + F + '" stroke-width="' + 0.8 * s + '" fill="none" stroke-linecap="round"/>';
+    return e + b + mo;
+  }
+  function cloud(x, y, s, c) {   // a puffy cloud, (x, y) = middle of its flat bottom
+    return '<g fill="' + c + '"><rect x="' + (x - 11 * s) + '" y="' + (y - 8 * s) + '" width="' + 22 * s + '" height="' + 8 * s + '" rx="' + 4 * s + '"/>' +
+      '<circle cx="' + (x - 3.5 * s) + '" cy="' + (y - 8 * s) + '" r="' + 6 * s + '"/><circle cx="' + (x + 4.5 * s) + '" cy="' + (y - 7 * s) + '" r="' + 4.6 * s + '"/></g>';
+  }
+  function sun(x, y, s, rays) {
+    var r = '';
+    if (rays) for (var a = 0; a < 8; a++) r += '<rect x="' + (x - 1.1 * s) + '" y="' + (y - 13 * s) + '" width="' + 2.2 * s + '" height="' + 3.6 * s + '" rx="' + 1.1 * s + '" fill="#ffb627" transform="rotate(' + a * 45 + ' ' + x + ' ' + y + ')"/>';
+    return r + '<circle cx="' + x + '" cy="' + y + '" r="' + 8.2 * s + '" fill="#ffd23f"/><circle cx="' + (x - 2.4 * s) + '" cy="' + (y - 2.6 * s) + '" r="' + 3 * s + '" fill="#fff1a6" opacity=".7"/>';
+  }
+  var g = '';
+  function moon(x, y, s) {   // sleeping round moon with a little crater
+    return '<circle cx="' + x + '" cy="' + y + '" r="' + 9 * s + '" fill="#ffe9a3"/><circle cx="' + (x + 4.5 * s) + '" cy="' + (y + 5 * s) + '" r="' + 1.6 * s + '" fill="#e8c873"/>';
+  }
+  if (k === 'sunny') g = sun(24, 24, 1.25, 1) + face(24, 23, 1.1, 'smile');
+  else if (k === 'night') g = '<g fill="#fff"><circle cx="9" cy="10" r="1.3"/><circle cx="40" cy="12" r="1"/><circle cx="38" cy="38" r="1.3"/><circle cx="8" cy="36" r="1"/></g>' +
+    moon(23, 25, 1.35) + face(22, 24, 1, 'sleep') + '<text x="35" y="14" font-size="9" font-weight="700" fill="#ffe9a3" font-family="sans-serif">z</text>';
+  else if (k === 'nightcloud') g = '<g fill="#fff"><circle cx="8" cy="9" r="1.2"/><circle cx="18" cy="5" r="1"/></g>' + moon(31, 15, .95) + face(30.5, 14.5, .75, 'sleep') +
+    cloud(21, 40, 1, '#c9d2e6') + face(18.5, 33.5, .85, 'smile');
+  else if (k === 'partly') g = sun(30, 15, .95, 1) + face(30, 14, .8, 'o') + cloud(21, 40, 1, '#fff') + face(18.5, 33.5, .85, 'smile');
+  else if (k === 'cloudy') g = cloud(28, 36, .85, '#c9d2dd') + cloud(22, 40, 1.05, '#f2f5f9') + face(20, 33, .9, 'sleep');
+  else if (k === 'rain') g = cloud(23, 25, 1, '#dde4ee') + face(20.5, 18.5, .85, 'o') +
+    '<g stroke="#7fbfff" stroke-width="2.2" stroke-linecap="round"><path d="M12 30l-1.5 4M18 31l-1.5 4M11 39l-1.2 3"/></g>' +
+    '<path d="M24 37a9 9 0 0 1 18 0z" fill="#ff7b9c"/><path d="M24 37q2.25 -1.6 4.5 0t4.5 0t4.5 0t4.5 0" fill="#ff7b9c" stroke="#e8577d" stroke-width=".8"/>' +
+    '<path d="M33 37v7a1.8 1.8 0 0 1-3.6 0" stroke="#5c4033" stroke-width="1.6" fill="none" stroke-linecap="round"/>';
+  else if (k === 'thunder') g = cloud(24, 27, 1.1, '#8a8fa6') + face(21.5, 20, .9, 'frown') +
+    '<polygon points="24,26 17,37 22,37 19,46 29,33 24,33 27,26" fill="#ffd84a" stroke="#fff3b0" stroke-width=".8" stroke-linejoin="round"/>';
+  else if (k === 'snow') g = '<circle cx="24" cy="35" r="9" fill="#fbfdff"/><circle cx="24" cy="19" r="7" fill="#fbfdff"/>' +
+    '<rect x="17" y="10" width="14" height="2.4" rx="1" fill="#3a3f55"/><rect x="19.5" y="3" width="9" height="8" rx="1.2" fill="#3a3f55"/><rect x="19.5" y="8.2" width="9" height="1.6" fill="#ff7b9c"/>' +
+    face(24, 18, .75, 'smile') + '<path d="M24 20.4l4.6 1.1-4.6 1z" fill="#ff8c3a"/>' +
+    '<path d="M17.5 25.5q6.5 3 13 0v2.6q-6.5 3-13 0z" fill="#e8577d"/><rect x="27" y="26" width="3" height="7" rx="1" fill="#e8577d"/>' +
+    '<circle cx="24" cy="33" r="1" fill="#3a3f55"/><circle cx="24" cy="37.5" r="1" fill="#3a3f55"/>' +
+    '<g fill="#fff"><circle cx="8" cy="12" r="1.6"/><circle cx="40" cy="8" r="1.3"/><circle cx="41" cy="26" r="1.5"/><circle cx="7" cy="30" r="1.2"/></g>';
+  else if (k === 'fog') g = cloud(24, 26, 1.05, '#e3e8ef') + face(21.5, 19.5, .9, 'sleep') +
+    '<g stroke="#b9c3cf" stroke-width="2.6" stroke-linecap="round"><path d="M8 31h24M14 36.5h26M6 42h22"/></g>';
+  else if (k === 'windy') g = cloud(20, 24, .95, '#f2f5f9') + face(17.5, 17.5, .85, 'o') +
+    '<g stroke="#cfe3f5" stroke-width="2" fill="none" stroke-linecap="round"><path d="M27 18q8-1 10 3t-3 4M29 25h12q4 0 4 4t-4 2"/><path d="M8 34h18q4 0 4 3"/></g>' +
+    '<ellipse cx="38" cy="39" rx="4" ry="2" fill="#f29c38" transform="rotate(-30 38 39)"/><ellipse cx="17" cy="42" rx="3.4" ry="1.7" fill="#9bc45a" transform="rotate(20 17 42)"/>';
+  return '<svg class="cw cw-' + k + '"' + (size ? ' width="' + size + '" height="' + size + '"' : '') + ' viewBox="0 0 48 48" style="animation-delay:-' + ((i || 0) * .45 % 3.6).toFixed(2) + 's" aria-hidden="true">' + g + '</svg>';
+}
+/* ---------- two places side by side: UK (London + Birmingham) | Hong Kong ----------
+   Cute weather characters over little landmark pictures. Live from Open-Meteo, or the copy GitHub saves
+   every 15 minutes (cities.json, tools/build_cities.py) when this iPad can't reach it.
+   Try a look with ?cwx=rain,snow,night (London, Birmingham, Hong Kong; add -night). */
+var CITIES = [
+  { id: 'ccL', zh: '倫敦', en: 'London', lat: 51.5074, lon: -0.1278, tz: 'Europe/London', scene: 'london' },
+  { id: 'ccB', zh: '伯明翰', en: 'Birmingham', lat: 52.4814, lon: -1.8998, tz: 'Europe/London', scene: 'brum' },
+  { id: 'ccHK', zh: '香港', en: 'Hong Kong', lat: 22.3027, lon: 114.1772, tz: 'Asia/Hong_Kong', scene: 'hk' }
+];
+var CW = null, CW_SAVED = '';
+var CITY_SCENES = (function () {
+  var i, s;
+  function wins(x, y, w, h, cols, rows, cls, seed) {   // a grid of little windows (some off at night)
+    var o = '', gx = w / cols, gy = h / rows;
+    for (var r2 = 0; r2 < rows; r2++) for (var c = 0; c < cols; c++) {
+      var off = ((r2 * 7 + c * 13 + (seed || 0)) % 5) === 0;
+      o += '<rect class="' + (cls || 'lw') + (off ? ' off' : '') + '" x="' + (x + c * gx + gx * .25).toFixed(1) + '" y="' + (y + r2 * gy + gy * .25).toFixed(1) + '" width="' + (gx * .5).toFixed(1) + '" height="' + (gy * .5).toFixed(1) + '" rx="1"/>';
+    }
+    return o;
+  }
+  // London: Big Ben + Westminster, red bus, the London Eye, Tower Bridge, the Thames
+  s = '<svg class="sc" viewBox="0 0 648 200" preserveAspectRatio="xMidYMax meet">' +
+    '<path class="hill" d="M0 168 Q 140 140 280 158 T 648 150 V200 H0Z"/>' +
+    '<rect class="st" x="130" y="148" width="150" height="44"/>';
+  for (i = 0; i < 4; i++) s += '<rect class="st2" x="' + (140 + i * 36) + '" y="132" width="10" height="16"/><polygon class="st2" points="' + (138 + i * 36) + ',132 ' + (152 + i * 36) + ',132 ' + (145 + i * 36) + ',120"/>';
+  s += wins(132, 154, 146, 30, 12, 2) +
+    '<rect class="st" x="282" y="70" width="36" height="122"/>' + wins(284, 92, 32, 96, 2, 6) +
+    '<rect class="st2" x="276" y="38" width="48" height="46" rx="3"/><circle class="face" cx="300" cy="61" r="16"/><path class="hand" d="M300 61V50M300 61h8"/>' +
+    '<rect class="st" x="282" y="24" width="36" height="14"/><polygon class="st2" points="278,25 322,25 300,0"/>' +
+    '<g class="wheel"><circle class="eye" cx="470" cy="98" r="80" stroke-width="5"/><circle class="eye" cx="470" cy="98" r="72" stroke-width="1.5"/>';
+  for (i = 0; i < 16; i++) { var a = i * Math.PI / 8; s += '<line class="eye" stroke-width="1.2" x1="470" y1="98" x2="' + (470 + 80 * Math.cos(a)).toFixed(1) + '" y2="' + (98 + 80 * Math.sin(a)).toFixed(1) + '"/><ellipse class="pod" cx="' + (470 + 84 * Math.cos(a)).toFixed(1) + '" cy="' + (98 + 84 * Math.sin(a)).toFixed(1) + '" rx="5" ry="3.6"/>'; }
+  s += '<circle class="pod" cx="470" cy="98" r="7"/></g><path class="eye" stroke-width="5" d="M470 98L438 192M470 98L502 192"/>' +
+    '<rect class="st" x="572" y="112" width="22" height="80"/><rect class="st" x="622" y="112" width="22" height="80"/><polygon class="st2" points="569,112 597,112 583,92"/><polygon class="st2" points="619,112 647,112 633,92"/>' +
+    '<rect fill="#5b9bd5" x="594" y="122" width="28" height="5"/><rect fill="#5b9bd5" x="594" y="166" width="28" height="6"/>' +
+    '<rect class="rd" x="0" y="190" width="648" height="5"/><rect class="wat" x="0" y="195" width="648" height="5"/>' +
+    '<g class="bus"><rect x="300" y="156" width="76" height="34" rx="7" fill="#e5423b"/><rect x="300" y="171" width="76" height="3" fill="#b8302b"/>' +
+    '<rect x="306" y="160" width="64" height="8" rx="2" fill="#fde9c8" opacity=".9"/><rect x="306" y="176" width="52" height="8" rx="2" fill="#fde9c8" opacity=".9"/>' +
+    '<circle cx="318" cy="190" r="6" fill="#333"/><circle cx="360" cy="190" r="6" fill="#333"/></g></svg>';
+  var london = s;
+  // Birmingham: Selfridges (Bullring) with its discs, Library of Birmingham rings, BT Tower, a narrowboat on the canal
+  s = '<svg class="sc" viewBox="0 0 648 200" preserveAspectRatio="xMidYMax meet"><defs><clipPath id="selC"><path d="M44 192 C 34 120, 76 96, 140 100 C 206 104, 236 140, 228 192 Z"/></clipPath>' +
+    '<clipPath id="libC1"><rect x="262" y="104" width="172" height="46"/></clipPath><clipPath id="libC2"><rect x="278" y="66" width="140" height="38"/></clipPath></defs>' +
+    '<path class="hill" d="M0 160 Q 160 136 320 156 T 648 146 V200 H0Z"/>' +
+    '<path fill="#2f5fa8" d="M44 192 C 34 120, 76 96, 140 100 C 206 104, 236 140, 228 192 Z"/><g clip-path="url(#selC)" fill="#e3ebf7">';
+  for (var y = 104; y < 196; y += 11) for (var x = 40 + ((y / 11) % 2) * 5.5; x < 236; x += 11) s += '<circle cx="' + x.toFixed(1) + '" cy="' + y + '" r="3.6"/>';
+  s += '</g><rect fill="#4e5568" x="272" y="150" width="152" height="42"/>' + wins(274, 156, 148, 30, 10, 2) +
+    '<rect fill="#e3b54a" x="262" y="104" width="172" height="46"/><g clip-path="url(#libC1)" fill="none" stroke="#9a7420" stroke-width="1.6">';
+  for (x = 262; x < 440; x += 14) for (y = 108; y < 156; y += 14) s += '<circle cx="' + x + '" cy="' + y + '" r="9"/>';
+  s += '</g><rect fill="#cfd6dd" x="278" y="66" width="140" height="38"/><g clip-path="url(#libC2)" fill="none" stroke="#8a96a3" stroke-width="1.4">';
+  for (x = 278; x < 422; x += 12) for (y = 70; y < 108; y += 12) s += '<circle cx="' + x + '" cy="' + y + '" r="8"/>';
+  s += '</g><rect fill="#e3b54a" x="328" y="48" width="40" height="18" rx="4"/>' +
+    '<rect class="st" x="524" y="22" width="16" height="170"/><rect class="st2" x="516" y="44" width="32" height="9" rx="3"/><rect class="st2" x="516" y="62" width="32" height="9" rx="3"/><rect class="st2" x="518" y="80" width="28" height="7" rx="3"/><line x1="532" y1="22" x2="532" y2="4" stroke="#d24b4b" stroke-width="2"/>' +
+    '<rect fill="#c97a5a" x="566" y="150" width="34" height="42"/><polygon fill="#8e4f3a" points="562,150 604,150 583,132"/><rect fill="#b96b4d" x="604" y="140" width="40" height="52"/><polygon fill="#7c4231" points="600,140 648,140 624,120"/>' +
+    wins(566, 156, 34, 30, 2, 2, 'lw', 1) + wins(604, 148, 40, 40, 2, 3, 'lw', 2) +
+    '<rect class="rd" x="0" y="190" width="648" height="3"/><rect class="wat" x="0" y="193" width="648" height="7"/>' +
+    '<g class="boat"><rect x="410" y="180" width="120" height="13" rx="4" fill="#2e7d4f"/><rect x="420" y="173" width="94" height="8" rx="2" fill="#c0392b"/>' +
+    '<circle cx="436" cy="186" r="2.6" fill="#f6e6b4"/><circle cx="452" cy="186" r="2.6" fill="#f6e6b4"/><circle cx="468" cy="186" r="2.6" fill="#f6e6b4"/><circle cx="484" cy="186" r="2.6" fill="#f6e6b4"/>' +
+    '<rect x="498" y="164" width="5" height="9" fill="#333"/></g></svg>';
+  var brum = s;
+  // Hong Kong: the Peak, IFC, Bank of China Tower, Central Plaza, Victoria Harbour with a red-sail junk and the Star Ferry
+  s = '<svg class="sc" viewBox="0 0 648 340" preserveAspectRatio="xMidYMax meet">' +
+    '<path class="peak" d="M0 176 Q 80 96 170 124 Q 250 62 360 112 Q 470 72 560 122 Q 612 100 648 116 V282 H0Z"/>';
+  var hbs = [[8, 40, 92, 1], [50, 36, 128, 2], [196, 40, 112, 3], [238, 32, 150, 4], [352, 40, 132, 5], [458, 36, 104, 1], [496, 46, 158, 2], [544, 32, 96, 3], [578, 60, 126, 4]];
+  for (i = 0; i < hbs.length; i++) { var b = hbs[i]; s += '<rect class="hb' + b[3] + '" x="' + b[0] + '" y="' + (282 - b[2]) + '" width="' + b[1] + '" height="' + b[2] + '"/>' + wins(b[0], 290 - b[2], b[1], b[2] - 14, Math.max(2, Math.round(b[1] / 12)), Math.round(b[2] / 14), 'lw', i); }
+  s += '<rect class="ifc" fill="#bccbd9" x="118" y="44" width="52" height="238"/>' + wins(120, 54, 48, 220, 4, 18, 'lw', 3) +
+    '<polygon class="ifc" fill="#a9bacb" points="118,44 170,44 164,24 124,24"/><polygon class="ifc" fill="#a9bacb" points="128,24 160,24 152,10 136,10"/>' +
+    '<polygon class="boc1" fill="#7fa6cf" points="284,282 284,118 316,64 316,282"/><polygon class="boc2" fill="#5f88b6" points="316,282 316,40 348,98 348,282"/><g stroke="#fff" stroke-width="2" opacity=".85">';
+  for (y = 122; y < 270; y += 40) s += '<path d="M284 ' + y + 'L348 ' + (y + 40) + 'M348 ' + y + 'L284 ' + (y + 40) + '"/>';
+  s += '</g><line x1="306" y1="80" x2="306" y2="26" stroke="#9aa6b5" stroke-width="2.5"/><line x1="322" y1="44" x2="322" y2="6" stroke="#9aa6b5" stroke-width="2.5"/>' +
+    '<rect class="cpz" fill="#ecc86e" x="404" y="74" width="46" height="208"/>' + wins(406, 82, 42, 196, 3, 14, 'lw', 4) +
+    '<polygon class="cpz" fill="#d9ad4a" points="404,74 450,74 427,48"/><line x1="427" y1="48" x2="427" y2="16" stroke="#9aa6b5" stroke-width="2.5"/>' +
+    '<rect class="wat" x="0" y="282" width="648" height="58"/>' +
+    '<path class="wave" d="M20 300h60M140 312h80M300 298h70M420 322h90M560 306h60"/><path class="wave b" d="M60 326h70M230 330h60M380 308h40M520 334h80"/>' +
+    '<g class="ferry"><rect x="70" y="300" width="74" height="11" rx="3" fill="#2f8f5b"/><rect x="78" y="290" width="58" height="11" rx="2" fill="#fff"/><rect x="78" y="295" width="58" height="2" fill="#2f8f5b"/><rect x="104" y="282" width="8" height="8" fill="#2f8f5b"/></g>' +
+    '<g class="junk"><path d="M450 304 L544 304 L530 320 L462 320 Z" fill="#7a4a2e"/><line x1="482" y1="304" x2="482" y2="236" stroke="#5c3a24" stroke-width="2.5"/>' +
+    '<path d="M482 300 L482 238 Q 506 232 518 248 L512 300 Z" fill="#d9473b"/><path d="M512 300 L514 256 Q 532 254 538 268 L534 300Z" fill="#e8604f"/>' +
+    '<g stroke="#9c2a22" stroke-width="1.4"><path d="M482 252h33M482 266h32M482 280h31M513 270h23M513 284h22"/></g></g></svg>';
+  return { london: london, brum: brum, hk: s };
+})();
+function loadCities() {
+  var url = 'https://api.open-meteo.com/v1/forecast?latitude=' + CITIES.map(function (c) { return c.lat; }).join(',') +
+    '&longitude=' + CITIES.map(function (c) { return c.lon; }).join(',') +
+    '&current=temperature_2m,apparent_temperature,relative_humidity_2m,weather_code,wind_speed_10m,is_day' +
+    '&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,wind_speed_10m_max,sunrise,sunset' +
+    '&timezone=auto&forecast_days=4';
+  function get(u) { return fetch(u).then(function (res) { if (!res.ok) throw new Error(res.status); return res.json(); }); }
+  get(url).then(function (d) {
+    if (!d || d.length !== 3) throw new Error('bad');
+    CW = d; CW_SAVED = ''; renderCities();
+  }).catch(function () {
+    return get('cities.json?t=' + Date.now()).then(function (d) { CW = d.list; CW_SAVED = d.saved || ''; renderCities(); })
+      .catch(function () { setTimeout(loadCities, 60 * 1000); });
+  });
+}
+function cityTime(tz) {   // { t: '07:56', d: '星期二 · 17 Nov' } in that place
+  var now = new Date();
+  try {
+    var t = now.toLocaleTimeString('en-GB', { timeZone: tz, hour: '2-digit', minute: '2-digit' });
+    var en = now.toLocaleDateString('en-GB', { timeZone: tz, weekday: 'short', day: 'numeric', month: 'short' });
+    var wd = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(en.slice(0, 3));
+    return { t: t, d: (wd >= 0 ? ZH_DAYS[wd] + ' · ' : '') + en.replace(/^\w+,?\s*/, '') };
+  } catch (e) { return { t: '', d: '' }; }
+}
+function cityClock() {
+  var u = cityTime('Europe/London'), h = cityTime('Asia/Hong_Kong');
+  $('ctUK').textContent = u.t; $('cdUK').textContent = u.d; $('ctHK').textContent = h.t; $('cdHK').textContent = h.d;
+  var gap = CW ? Math.round((CW[2].utc_offset_seconds - CW[0].utc_offset_seconds) / 3600) : 8;
+  $('cgap').textContent = 'Hong Kong · 快英國 ' + gap + ' 個鐘 · ' + gap + 'h ahead';
+}
+function renderCities() {
+  if (!CW) return;
+  function rn(a, b) { return a + Math.random() * (b - a); }
+  var force = (new URLSearchParams(location.search).get('cwx') || '').split(',');
+  for (var n = 0; n < CITIES.length; n++) {
+    var C = CITIES[n], d = CW[n], c = d.current, dl = d.daily, big = C.scene === 'hk';
+    var day = c.is_day !== 0, kind = cuteKind(c.weather_code, c.wind_speed_10m || 0, 1), w = wx(c.weather_code, 1);
+    if (force[n]) { var f = force[n].split('-'); kind = f[0]; day = f[1] !== 'night'; }
+    var shown = !day && (kind === 'sunny' || kind === 'partly') ? (kind === 'sunny' ? 'night' : 'nightcloud') : kind;
+    var el = $(C.id), key = kind + day;
+    el.className = 'cc k-' + kind + (day ? '' : ' night');
+    if (el.getAttribute('data-k') !== key) {   // weather changed: rebuild the picture and the rain/snow
+      el.setAttribute('data-k', key);
+      var fx = '', i, W2 = big ? 644 : 644, H2 = big ? 800 : 390;
+      if (!day) for (i = 0; i < (big ? 26 : 14); i++) fx += '<i class="str" style="left:' + rn(10, W2 - 10).toFixed(0) + 'px;top:' + rn(8, H2 * .45).toFixed(0) + 'px;animation-delay:-' + rn(0, 3).toFixed(1) + 's"></i>';
+      if (kind === 'cloudy' || kind === 'partly' || kind === 'rain' || kind === 'thunder' || kind === 'windy' || kind === 'fog')
+        for (i = 0; i < 3; i++) fx += '<i class="cl" style="width:' + rn(70, 110).toFixed(0) + 'px;top:' + rn(30, big ? 300 : 150).toFixed(0) + 'px;animation-duration:' + rn(50, 90).toFixed(0) + 's;animation-delay:-' + rn(0, 80).toFixed(0) + 's;opacity:' + rn(.5, .9).toFixed(2) + '"></i>';
+      if (kind === 'rain' || kind === 'thunder') for (i = 0; i < (big ? 44 : 26); i++) fx += '<i class="dr" style="left:' + rn(0, W2 + 30).toFixed(0) + 'px;animation-delay:-' + rn(0, 1).toFixed(2) + 's;animation-duration:' + rn(.7, 1.1).toFixed(2) + 's"></i>';
+      if (kind === 'snow') for (i = 0; i < (big ? 40 : 24); i++) fx += '<i class="fl" style="left:' + rn(0, W2).toFixed(0) + 'px;animation-delay:-' + rn(0, 9).toFixed(1) + 's;animation-duration:' + rn(7, 12).toFixed(1) + 's"></i>';
+      el.innerHTML = '<div class="fx">' + fx + '</div>' + CITY_SCENES[C.scene] + '<div class="in"></div>';
+    }
+    var fc = '';
+    for (var k = 1; k <= 3 && k < dl.time.length; k++) {
+      var p = dl.time[k].split('-'), dt = new Date(+p[0], +p[1] - 1, +p[2]), pp = dl.precipitation_probability_max[k] || 0;
+      fc += '<div><div class="dn">' + (k === 1 ? '聽日' : ZH_DAYS[dt.getDay()].replace('星期', '週')) + '</div>' +
+        cuteWx(cuteKind(dl.weather_code[k], dl.wind_speed_10m_max ? dl.wind_speed_10m_max[k] : 0, 1), n * 3 + k, big ? 84 : 66) +
+        '<div class="num">' + r(dl.temperature_2m_max[k]) + '° <span class="lo">' + r(dl.temperature_2m_min[k]) + '°</span></div><div class="pp">' + (pp >= 20 ? '☂ ' + pp + '%' : '') + '</div></div>';
+    }
+    var now = '<div class="nm">' + C.zh + '<small>' + C.en + '</small></div>' +
+      '<div class="cn">' + cuteWx(shown, n, big ? 190 : 136) + '<div><div class="tp num">' + r(c.temperature_2m) + '°</div></div></div>' +
+      '<div class="ds">' + (w[2] || w[1]) + '<small>' + w[1] + '</small></div>' +
+      '<div class="mt">高 H <b>' + r(dl.temperature_2m_max[0]) + '°</b> 低 L <b>' + r(dl.temperature_2m_min[0]) + '°</b> · 體感 Feels <b>' + r(c.apparent_temperature) + '°</b>' +
+      (big ? '<br>濕度 Humidity <b>' + r(c.relative_humidity_2m || 0) + '%</b> · 落雨 Rain <b>' + (dl.precipitation_probability_max[0] || 0) + '%</b> · 風 Wind <b>' + r(c.wind_speed_10m || 0) + ' km/h</b>' : '') + '</div>';
+    el.lastChild.innerHTML = big ? now + '<div class="fc">' + fc + '</div>' : '<div>' + now + '</div><div class="fc">' + fc + '</div>';
+  }
+  $('cft').textContent = CW_SAVED ? '天氣 Weather · saved copy ' + CW_SAVED : '';
+  cityClock();
+}
+cityClock(); setInterval(cityClock, 10 * 1000);
+loadCities(); setInterval(loadCities, 15 * 60 * 1000);
+/* Reload every 6 hours so the page stays fresh. */
+setTimeout(function () { location.reload(); }, 6 * 3600 * 1000);
+</script>
+</body>
+</html>

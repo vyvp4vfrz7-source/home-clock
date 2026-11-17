@@ -12,9 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 tools/build_weather.py weather.json
+      - run: python3 tools/build_cities.py cities.json   # London + Birmingham + Hong Kong for the two-city page
+        continue-on-error: true
       - name: Commit
         run: |
           git config user.name "weather-bot"
           git config user.email "weather-bot@users.noreply.github.com"
-          git add weather.json
+          git add weather.json cities.json 2>/dev/null || git add weather.json
           git diff --cached --quiet || (git commit -m "Update weather" && git pull --rebase && git push)
