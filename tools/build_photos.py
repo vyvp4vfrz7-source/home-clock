@@ -5,7 +5,9 @@ import base64, json, os, plistlib, re, shutil, struct, sys, time, urllib.error, 
 from datetime import datetime, timezone
 
 TOKEN = os.environ.get("ALBUM_TOKEN", "").strip()
-OUT_DIR = "photos"
+# A second album (photos2.yml) uses its own folder and list: ALBUM_DIR=photos2, ALBUM_JSON=photos2.json
+OUT_DIR = os.environ.get("ALBUM_DIR", "").strip() or "photos"
+OUT_JSON = os.environ.get("ALBUM_JSON", "").strip() or "photos.json"
 MAX_PHOTOS = 60
 HDR = {"Content-Type": "text/plain", "Origin": "https://www.icloud.com",
        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
@@ -406,7 +408,7 @@ def main():
     for f in os.listdir(OUT_DIR):  # drop photos removed from the album
         if f.endswith((".jpg", ".mp4")) and f not in keep:
             os.remove(os.path.join(OUT_DIR, f))
-    with open("photos.json", "w", encoding="utf-8") as f:
+    with open(OUT_JSON, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     save_places()
     print("wrote", len(out), "items,", sum(1 for i in out if i.get("video")), "videos")

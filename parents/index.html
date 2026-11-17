@@ -246,6 +246,7 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
      &key=<passcode>   the family calendar passcode: unlocks the 留言板 and the birthday list
      &voice=0          no spoken time on the hour (on by default, 8am to 9pm)
      &night=22-7       night clock hours (Hong Kong time), &night=0 never
+     &album=2          photos from the second iCloud album (photos2.yml) instead of the family album
      &photo=15  seconds per photo;  &every=4  photos between the 今日 / 新聞 pages
    Preview only: &page=today|news|photo stops the rotation, &demo=warn|board|night|call shows that screen. */
 (function () {
@@ -261,6 +262,7 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
     me: { name: 'Billy', place: '倫敦', tz: 'Europe/London' }, demo: q.demo || '', fixed: q.page || ''
   };
   var REPO = 'vyvp4vfrz7-source/home-clock';
+  var ALBUM = /^photos\d*$/.test(q.album || '') ? q.album : /^\d+$/.test(q.album || '') && q.album !== '1' ? 'photos' + q.album : 'photos';   // &album=2: the second iCloud album (photos2.json)
   function $(id) { return document.getElementById(id); }
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
 
@@ -426,7 +428,7 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
   /* ---------- 1. photos (same album + notes as Billy's iPad) ---------- */
   function photoId(p) { var m = /([^\/]+)\.jpe?g$/i.exec(p && p.src || ''); return m ? m[1] : ''; }
   function loadPhotos() {
-    getJSON('../photos.json' + t(), function (l) {
+    getJSON('../' + ALBUM + '.json' + t(), function (l) {
       if (!l || !l.length) return;
       var list = l.map(function (p) { return { src: /^(https?:|data:|\/)/.test(p.src) ? p.src : '../' + p.src, id: photoId(p), text: p.text || '', when: p.when || '', place: p.place || '' }; });
       var same = list.length === PHOTOS.length && list.every(function (p, i) { return p.src === PHOTOS[i].src; });
