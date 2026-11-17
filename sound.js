@@ -138,6 +138,7 @@
     if (kind === 'cuckoo') { blip(660, 650, 0, 0.32); blip(525, 515, 0.38, 0.5); }
     else if (kind === 'meow') { blip(520, 820, 0, 0.18, 'triangle'); blip(820, 430, 0.18, 0.45, 'triangle'); }
     else if (kind === 'quack') { blip(300, 220, 0, 0.14, 'square'); blip(300, 210, 0.22, 0.16, 'square'); }
+    else if (kind === 'woof') { blip(780, 420, 0, 0.1, 'triangle'); blip(820, 440, 0.16, 0.12, 'triangle'); }
     else if (kind === 'pop') { blip(900, 300, 0, 0.12); }
     else if (kind === 'cheer') { [523, 659, 784, 1047, 784, 1047].forEach(function (f, i) { blip(f, f, i * 0.12, 0.3, 'triangle'); }); }
   };

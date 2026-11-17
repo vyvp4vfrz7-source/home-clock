@@ -4,8 +4,11 @@
    - Triggered: duck with umbrella when rain starts, snowman when it turns cold, a goal party when
      Man United score, birthday balloons, 中秋 lanterns, New Year / CNY / Bonfire Night fireworks, winter snow.
    - At night: a dim little fish tank along the bottom of the night clock.
+   - 波波 the Pomeranian drops by in 10 ways: zoomies, ball, nap on the clock, peekaboo, chases the cat, digs up a bone,
+     butterfly + sneeze, tail chase, photobomb, begs for a treat (CONFIG.cute.pom = how often vs cat 3 / cuckoo 2, 0 = never).
    Sounds go through sound.js (silent unless the speaker is turned up, never at night).
-   Try one now with ?cute=cat|cuckoo|snow|lanterns|fireworks|duck|snowman|goal|balloons|all, fish with ?night=1. */
+   Try one now with ?cute=cat|cuckoo|snow|lanterns|fireworks|duck|snowman|goal|balloons|all, the dog with
+   ?cute=pom (random) | pom-zoom|pom-ball|pom-nap|pom-peek|pom-cat|pom-dig|pom-fly|pom-spin|pom-photo|pom-beg | pom-all, fish with ?night=1. */
 (function () {
   var C = window.Cute = { goal: function () {} };
   var cfg = (window.CONFIG && CONFIG.cute) || {};
@@ -303,6 +306,260 @@
   };
   C.goal = function () { if (awake()) play('goal', true); };
 
+  /* ---------- 波波 the Pomeranian: our own fluffy dog drops by in 10 different ways ---------- */
+  var POM_C = { fur: '#f2b47a', dark: '#e39a5c', light: '#f8cf9f', cream: '#fdf1de', ear: '#f6c3b0', eye: '#2a1d19', nose: '#4b2c28', tongue: '#f2828f' };
+  function fluff(cx, cy, rx, ry, n, r, col) {   // a ring of little circles = fluffy outline
+    var s = ''; for (var i = 0; i < n; i++) { var a = i / n * 6.283; s += '<circle cx="' + (cx + Math.cos(a) * rx).toFixed(1) + '" cy="' + (cy + Math.sin(a) * ry).toFixed(1) + '" r="' + r + '" fill="' + col + '"/>'; }
+    return s;
+  }
+  var EYES = '<g class="op"><circle cx="0" cy="0" r="5.2" fill="' + POM_C.eye + '"/><circle cx="1.6" cy="-1.8" r="1.8" fill="#fff"/><circle cx="-1.6" cy="1.8" r=".8" fill="#fff"/></g>' +
+    '<path class="sh" d="M-5 0q5 4 10 0" stroke="' + POM_C.eye + '" stroke-width="2.2" fill="none" stroke-linecap="round"/>';
+  /* side view, facing right; legs, tail and eyes move with CSS classes */
+  var POM_SIDE = '<svg viewBox="0 0 130 104"><g class="bod">' +
+    '<g class="tl">' + fluff(30, 38, 13, 10, 9, 8, POM_C.light) + '<ellipse cx="30" cy="38" rx="14" ry="11" fill="' + POM_C.cream + '"/></g>' +
+    '<g class="lg"><rect class="l1" x="30" y="66" width="11" height="26" rx="5.5" fill="' + POM_C.dark + '"/><rect class="l2" x="70" y="66" width="11" height="26" rx="5.5" fill="' + POM_C.dark + '"/></g>' +
+    fluff(54, 64, 30, 19, 14, 9, POM_C.fur) + '<ellipse cx="54" cy="64" rx="31" ry="20" fill="' + POM_C.fur + '"/>' +
+    '<ellipse cx="78" cy="70" rx="15" ry="15" fill="' + POM_C.cream + '"/>' + fluff(78, 72, 12, 12, 8, 6, POM_C.cream) +
+    '<g class="lg"><rect class="l3" x="40" y="68" width="12" height="26" rx="6" fill="' + POM_C.fur + '"/><rect class="l4" x="80" y="68" width="12" height="26" rx="6" fill="' + POM_C.cream + '"/>' +
+      '<ellipse class="l3" cx="46" cy="93" rx="7.5" ry="4.5" fill="' + POM_C.cream + '"/><ellipse class="l4" cx="86" cy="93" rx="7.5" ry="4.5" fill="' + POM_C.cream + '"/></g>' +
+    '<g class="hd">' +
+      '<path d="M76 22L80 2l14 16zM98 18l12-14 2 22z" fill="' + POM_C.dark + '"/><path d="M80 18l2-10 7 8zM102 17l7-8 1 12z" fill="' + POM_C.ear + '"/>' +
+      fluff(94, 38, 23, 21, 15, 8, POM_C.fur) + '<circle cx="94" cy="38" r="24" fill="' + POM_C.light + '"/>' +
+      '<ellipse cx="108" cy="48" rx="13" ry="10" fill="' + POM_C.cream + '"/>' +
+      '<g transform="translate(102 35)">' + EYES + '</g>' +
+      '<ellipse cx="119" cy="44" rx="5" ry="4" fill="' + POM_C.nose + '"/><ellipse cx="118" cy="42.6" rx="1.8" ry="1" fill="#fff" opacity=".5"/>' +
+      '<g class="mo"><path d="M104 52q6 8 14 0z" fill="#7a3a3a"/><path class="tg" d="M107 54q4 10 9 0z" fill="' + POM_C.tongue + '"/></g>' +
+      '<circle cx="96" cy="48" r="4.5" fill="#ff9e9e" opacity=".45"/>' +
+    '</g><g class="held"></g></g></svg>';
+  /* front view, sitting, like the photo */
+  var POM_FRONT = '<svg viewBox="0 0 130 140"><g class="bod">' +
+    '<g class="tl">' + fluff(100, 100, 12, 10, 8, 8, POM_C.light) + '</g>' +
+    fluff(65, 106, 32, 26, 14, 9, POM_C.fur) + '<ellipse cx="65" cy="106" rx="33" ry="27" fill="' + POM_C.fur + '"/>' +
+    '<ellipse cx="65" cy="104" rx="22" ry="24" fill="' + POM_C.cream + '"/>' + fluff(65, 98, 20, 16, 10, 7, POM_C.cream) +
+    '<g class="pw"><ellipse cx="52" cy="130" rx="9" ry="6" fill="' + POM_C.cream + '"/><ellipse cx="78" cy="130" rx="9" ry="6" fill="' + POM_C.cream + '"/></g>' +
+    '<g class="hd">' +
+      '<path d="M32 40L36 6l26 22zM98 40L94 6 68 28z" fill="' + POM_C.dark + '"/><path d="M38 32l2-18 13 12zM92 32l-2-18-13 12z" fill="' + POM_C.ear + '"/>' +
+      fluff(65, 52, 32, 28, 18, 9, POM_C.fur) + '<ellipse cx="65" cy="52" rx="33" ry="30" fill="' + POM_C.light + '"/>' +
+      '<path d="M40 40q25-14 50 0" stroke="' + POM_C.fur + '" stroke-width="6" fill="none" opacity=".6"/>' +
+      '<ellipse cx="65" cy="68" rx="18" ry="13" fill="' + POM_C.cream + '"/>' +
+      '<g transform="translate(51 51) scale(1.2)">' + EYES + '</g><g transform="translate(79 51) scale(1.2)">' + EYES + '</g>' +
+      '<ellipse cx="65" cy="62" rx="6.5" ry="5" fill="' + POM_C.nose + '"/><ellipse cx="63.5" cy="60.5" rx="2.2" ry="1.2" fill="#fff" opacity=".5"/>' +
+      '<g class="mo"><path d="M56 69q9 13 18 0z" fill="#7a3a3a"/><path class="tg" d="M59 72q6 12 12 0z" fill="' + POM_C.tongue + '"/></g>' +
+      '<circle cx="44" cy="66" r="5" fill="#ff9e9e" opacity=".45"/><circle cx="86" cy="66" r="5" fill="#ff9e9e" opacity=".45"/>' +
+    '</g></g></svg>';
+  var POM_CSS =
+    '#cute .pom{position:absolute;left:0;top:0;width:130px;height:104px;will-change:transform}' +
+    '#cute .pom.fr{height:140px}' +
+    '#cute .pom .fl{width:100%;height:100%;transition:transform .25s}#cute .pom.left .fl{transform:scaleX(-1)}' +
+    '#cute .pom svg{width:100%;height:100%;overflow:visible}' +
+    '#cute .pom .sh,#cute .pom.sleep .op{display:none}#cute .pom.sleep .sh,#cute .pom.blink .sh{display:inline}#cute .pom.blink .op{display:none}' +
+    '#cute .pom .lg rect,#cute .pom .lg ellipse{transform-box:fill-box;transform-origin:50% 0}' +
+    '#cute .pom.run .l1,#cute .pom.run .l4{animation:pmLeg .22s ease-in-out infinite alternate}' +
+    '#cute .pom.run .l2,#cute .pom.run .l3{animation:pmLeg .22s ease-in-out infinite alternate-reverse}' +
+    '@keyframes pmLeg{from{transform:rotate(-32deg)}to{transform:rotate(32deg)}}' +
+    '#cute .pom.run .bod{animation:pmBob .22s ease-in-out infinite alternate}' +
+    '@keyframes pmBob{to{transform:translateY(-6px)}}' +
+    '#cute .pom .tl{transform-box:fill-box;transform-origin:80% 80%;animation:pmWag .3s ease-in-out infinite alternate}' +
+    '@keyframes pmWag{from{transform:rotate(-12deg)}to{transform:rotate(14deg)}}' +
+    '#cute .pom .tg{transform-box:fill-box;transform-origin:50% 0;animation:pmPant .3s ease-in-out infinite alternate}' +
+    '@keyframes pmPant{to{transform:scaleY(1.25)}}' +
+    '#cute .pom.sleep .mo,#cute .pom.sleep .lg{display:none}#cute .pom.sleep .bod{transform:translateY(10px)}#cute .pom.sleep .tl{animation:none}' +
+    '#cute .pom.sleep .bod>*{animation:none}' +
+    '#cute .pom.stretch .bod{transform-box:view-box;transform-origin:65px 95px;animation:pmStretch 1.6s ease-in-out}' +
+    '@keyframes pmStretch{40%,60%{transform:scaleX(1.18) scaleY(.88)}}' +
+    '#cute .pom.dig .l2,#cute .pom.dig .l4{animation:pmLeg .12s linear infinite alternate}#cute .pom.dig .hd{transform-box:view-box;transform-origin:90px 60px;transform:rotate(18deg)}' +
+    '#cute .pom.hop .bod{animation:pmHop .5s ease-out infinite}' +
+    '@keyframes pmHop{0%,100%{transform:none}40%{transform:translateY(-34px) rotate(-8deg)}}' +
+    '#cute .pom.jump .bod{animation:pmHop .6s ease-out 2}' +
+    '#cute .pom.beg .pw{animation:pmBeg .35s ease-in-out infinite alternate}' +
+    '@keyframes pmBeg{to{transform:translateY(-26px)}}' +
+    '#cute .pom.beg .bod{transform-box:view-box;transform-origin:65px 140px;animation:pmTilt 1.2s ease-in-out infinite alternate}' +
+    '@keyframes pmTilt{from{transform:rotate(-5deg)}to{transform:rotate(5deg)}}' +
+    '#cute .pom.ears .hd{transform-box:view-box;transform-origin:65px 60px;animation:pmTilt .5s ease-in-out 4 alternate}' +
+    '#cute .pom.spin .fl{animation:pmSpin 1s linear infinite}' +
+    '@keyframes pmSpin{0%{transform:translate(0,0) scaleX(1)}25%{transform:translate(50px,-16px) scaleX(1)}26%{transform:translate(50px,-16px) scaleX(-1)}50%{transform:translate(0,-28px) scaleX(-1)}75%{transform:translate(-50px,-16px) scaleX(-1)}76%{transform:translate(-50px,-16px) scaleX(1)}100%{transform:translate(0,0) scaleX(1)}}' +
+    '#cute .pom.dizzy .bod{transform-box:view-box;transform-origin:65px 100px;animation:pmTilt .45s ease-in-out infinite alternate}' +
+    '#cute .pmball{position:absolute;left:0;top:0;width:34px;height:34px;font-size:32px;line-height:1}' +
+    '#cute .pmball i{display:block;font-style:normal;animation:pmBounce .45s cubic-bezier(.3,0,.7,1) infinite alternate}' +
+    '@keyframes pmBounce{from{transform:translateY(-70px) rotate(0)}to{transform:translateY(0) rotate(200deg)}}' +
+    '#cute .dirt{position:absolute;width:9px;height:9px;border-radius:50%;background:#8a5a32;animation:pmDirt .7s ease-out both}' +
+    '@keyframes pmDirt{0%{transform:none;opacity:1}100%{transform:translate(var(--dx),var(--dy));opacity:0}}' +
+    '#cute .mound{position:absolute;width:70px;height:26px;border-radius:50% 50% 0 0;background:#9a6a3c;transform-origin:50% 100%;transform:scaleY(0);transition:transform 3s}' +
+    '#cute .heart{position:absolute;font-size:26px;animation:pmHeart 2.2s ease-out both;color:#ff6f91}' +
+    '@keyframes pmHeart{0%{transform:scale(.3);opacity:0}20%{opacity:1}100%{transform:translate(var(--dx),-120px) scale(1.2);opacity:0}}' +
+    '#cute .puff{position:absolute;font-size:24px;animation:pmPuff .8s ease-out both}' +
+    '@keyframes pmPuff{to{transform:translate(var(--dx),-14px) scale(1.6);opacity:0}}' +
+    '#cute .peek{position:absolute;overflow:hidden;width:150px;height:110px}' +
+    '#cute .peek .pom{transition:transform .7s cubic-bezier(.3,1.4,.6,1)}' +
+    '#cute .fly{position:absolute;left:0;top:0;font-size:34px;transition:transform 1.4s ease-in-out}' +
+    '#cute .fly i{display:block;font-style:normal;animation:pmFlap .18s ease-in-out infinite alternate}@keyframes pmFlap{to{transform:scaleX(.5)}}';
+  var pst = el('style'); pst.textContent = POM_CSS; document.head.appendChild(pst);
+
+  function ground() { return innerHeight - 104 - Math.max(16, innerHeight * 0.025); }
+  function dog(front) {   // a new dog, parked off screen
+    var d = el('div', 'pom' + (front ? ' fr' : ''), '<div class="fl">' + (front ? POM_FRONT : POM_SIDE) + '</div>');
+    d.x = -200; d.y = ground(); d.style.transform = 'translate3d(-200px,' + d.y + 'px,0)';
+    layer.appendChild(d); return d;
+  }
+  function go(d, x, y, ms, ease) {   // move the dog; faces where it is going
+    if (x < d.x - 2) d.classList.add('left'); else if (x > d.x + 2) d.classList.remove('left');
+    d.style.transition = 'transform ' + ms + 'ms ' + (ease || 'linear');
+    d.x = x; d.y = y == null ? d.y : y;
+    d.style.transform = 'translate3d(' + x + 'px,' + d.y + 'px,0)';
+  }
+  function place(d, x, y) { d.style.transition = 'none'; d.x = x; d.y = y; d.style.transform = 'translate3d(' + x + 'px,' + y + 'px,0)'; }
+  function say(txt, x, y, ms) { var b = el('div', 'bub', txt); b.style.left = x + 'px'; b.style.top = y + 'px'; layer.appendChild(b); at(ms || 1800, function () { b.style.animation = 'cuFade .4s both'; }); return b; }
+  function hearts(x, y, n) { for (var i = 0; i < (n || 5); i++) { var h = el('div', 'heart', pick(['❤', '💕', '💛'])); h.style.left = (x + rand(-30, 30)) + 'px'; h.style.top = y + 'px'; h.style.setProperty('--dx', rand(-40, 40) + 'px'); h.style.animationDelay = (i * 0.25) + 's'; layer.appendChild(h); } }
+  function puffs(d, n) { for (var i = 0; i < n; i++) at(i * 220, function () { var p = el('div', 'puff em', '💨'); var back = d.classList.contains('left'); p.style.left = (d.x + (back ? 110 : -10)) + 'px'; p.style.top = (d.y + 70) + 'px'; p.style.setProperty('--dx', (back ? 30 : -30) + 'px'); if (!back) p.style.transform = 'scaleX(-1)'; layer.appendChild(p); }); }
+  function woof() { sfx('woof'); }
+  var Wd = function () { return innerWidth; };
+
+  var POM = {};
+  /* 1. zoomies: tears across the bottom, back again, and off */
+  POM.zoom = function () {
+    var d = dog(), g = ground(); d.classList.add('run');
+    at(50, function () { go(d, Wd() - 180, g, 2000); puffs(d, 8); });
+    at(2100, function () { woof(); say('汪汪! 💨', Wd() - 220, g - 40, 1200); go(d, 120, g, 1900); puffs(d, 8); });
+    at(4100, function () { go(d, Wd() * 0.55, g, 1100); });
+    at(5300, function () { go(d, Wd() + 200, g, 1500); });
+    return 7200;
+  };
+  /* 2. ball: a tennis ball bounces past, the dog chases it and brings it back */
+  POM.ball = function () {
+    var g = ground(), b = el('div', 'pmball em', '<i>🎾</i>'); layer.appendChild(b);
+    b.style.transform = 'translate3d(' + (Wd() + 60) + 'px,' + (g + 66) + 'px,0)';
+    at(50, function () { b.style.transition = 'transform 3.2s linear'; b.style.transform = 'translate3d(-80px,' + (g + 66) + 'px,0)'; });
+    var d = dog(); place(d, Wd() + 60, g); d.classList.add('run', 'left');
+    at(900, function () { woof(); go(d, -220, g, 3400); });
+    at(4600, function () {   // back with the ball in its mouth
+      b.remove(); d.querySelector('.held').innerHTML = '<text x="106" y="64" font-size="26">🎾</text>'; d.querySelector('.mo').style.display = 'none';
+      go(d, Wd() * 0.45, g, 2000);
+    });
+    at(6700, function () { d.classList.remove('run'); d.classList.add('jump'); say('再掟多次! 🎾', d.x + 30, g - 46, 2000); hearts(d.x + 80, g, 4); });
+    at(8800, function () { d.classList.remove('jump'); d.classList.add('run'); go(d, Wd() + 200, g, 2000); });
+    return 11000;
+  };
+  /* 3. nap: trots onto the clock tile, curls up for a snooze, wakes and stretches */
+  POM.nap = function () {
+    var r = clockBox(), d = dog(), x, y;
+    if (r) { x = r.left + r.width * 0.6; y = r.bottom - 104 - Math.min(10, r.height * 0.03); } else { x = Wd() * 0.6; y = ground(); }
+    place(d, -160, y); d.classList.add('run');
+    at(50, function () { go(d, x, y, 2400); });
+    at(2500, function () { d.classList.remove('run'); d.classList.add('sleep'); });
+    for (var i = 0; i < 3; i++) (function (i) { at(2700, function () { var z = el('div', 'zz', 'z'); z.style.left = (x + 100 + i * 6) + 'px'; z.style.top = (y + 6) + 'px'; z.style.animationDelay = i + 's'; z.style.fontSize = (14 + i * 4) + 'px'; layer.appendChild(z); }); })(i);
+    at(8500, function () { [].forEach.call(layer.querySelectorAll('.zz'), function (z) { z.remove(); }); d.classList.remove('sleep'); d.classList.add('stretch'); });
+    at(9000, function () { woof(); say('瞓醒喇~ 🐾', x - 10, y - 38, 1800); });
+    at(10300, function () { d.classList.remove('stretch'); d.classList.add('run'); go(d, Wd() + 200, y, 2200); });
+    return 12800;
+  };
+  /* 4. peekaboo: pops up from the bottom edge, ducks, then peeks somewhere else */
+  POM.peek = function () {
+    var spots = [rand(0.1, 0.35), rand(0.6, 0.85)], t = 100;
+    spots.forEach(function (s, i) {
+      var box = el('div', 'peek'); box.style.left = (Wd() * s) + 'px'; box.style.top = (innerHeight - 110) + 'px';
+      var d = el('div', 'pom fr', '<div class="fl">' + POM_FRONT + '</div>'); d.style.left = '10px'; d.style.transform = 'translateY(150px)';
+      box.appendChild(d); layer.appendChild(box);
+      at(t, function () { d.style.transform = 'translateY(20px)'; });
+      at(t + 900, function () { d.classList.add('ears'); if (!i) say('👀 邊個喺度?', Wd() * s + 120, innerHeight - 140, 1600); else woof(); });
+      at(t + 1600, function () { d.classList.add('blink'); });
+      at(t + 1800, function () { d.classList.remove('blink'); });
+      at(t + 3000, function () { d.style.transform = 'translateY(150px)'; });
+      t += 3700;
+    });
+    return t + 600;
+  };
+  /* 5. chases the cat across the screen, then the cat turns round and chases the dog back */
+  POM.cat = function () {
+    var g = ground(), c = el('div', 'cat wake', CAT); c.querySelector('svg').style.animation = 'cuBob .3s ease-in-out infinite alternate'; c.style.left = '0'; c.style.top = (g + 18) + 'px'; layer.appendChild(c);
+    c.style.transition = 'none'; c.style.transform = 'translateX(' + (Wd() + 40) + 'px)';
+    var d = dog(); place(d, Wd() + 60, g); d.classList.add('run', 'left');
+    at(60, function () { c.style.transition = 'transform 3s linear'; c.style.transform = 'translateX(' + (Wd() * 0.15) + 'px)'; sfx('meow'); });
+    at(500, function () { woof(); go(d, Wd() * 0.15 + 170, g, 2600); });
+    at(3150, function () { say('喵!!! 😾', Wd() * 0.15, g - 30, 1400); c.querySelector('svg').style.transform = 'scaleX(-1)'; d.classList.remove('run'); });
+    at(4000, function () { say('😳', d.x + 60, g - 30, 900); });
+    at(4600, function () { d.classList.add('run'); go(d, Wd() + 220, g, 2200); c.style.transition = 'transform 2.8s linear'; c.style.transform = 'translateX(' + (Wd() + 80) + 'px)'; puffs(d, 6); });
+    return 7800;
+  };
+  /* 6. digs a hole and finds a bone */
+  POM.dig = function () {
+    var g = ground(), x = Wd() * rand(0.3, 0.6), d = dog(), m = el('div', 'mound');
+    m.style.left = (x + 110) + 'px'; m.style.top = (g + 78) + 'px'; layer.appendChild(m);
+    place(d, -160, g); d.classList.add('run');
+    at(50, function () { go(d, x, g, 2000); });
+    at(2100, function () { d.classList.remove('run'); d.classList.add('dig'); m.style.transform = 'scaleY(1)'; });
+    for (var i = 0; i < 26; i++) at(2200 + i * 130, function () {
+      var p = el('div', 'dirt'); p.style.left = (x + 128) + 'px'; p.style.top = (g + 84) + 'px';
+      p.style.setProperty('--dx', rand(20, 90) + 'px'); p.style.setProperty('--dy', rand(-70, -20) + 'px'); layer.appendChild(p);
+      at(800, function () { p.remove(); });
+    });
+    var bone;
+    at(5800, function () { d.classList.remove('dig'); bone = el('div', 'em', '🦴'); bone.style.cssText = 'position:absolute;font-size:38px;left:' + (x + 125) + 'px;top:' + (g + 60) + 'px;animation:cuPop .4s ease-out both'; layer.appendChild(bone); });
+    at(6400, function () { woof(); d.classList.add('jump'); say('搵到喇! 🦴✨', x + 20, g - 44, 1800); hearts(x + 80, g, 4); });
+    at(8400, function () { bone.remove(); d.classList.remove('jump'); d.querySelector('.held').innerHTML = '<text x="100" y="62" font-size="26">🦴</text>'; d.classList.add('run'); go(d, -220, g, 2200); m.style.transition = 'transform 1.5s'; m.style.transform = 'scaleY(0)'; });
+    return 10800;
+  };
+  /* 7. hops after a butterfly; it lands on the dog's nose, achoo! */
+  POM.fly = function () {
+    var g = ground(), f = el('div', 'fly em', '<i>🦋</i>'); layer.appendChild(f);
+    var path = [[0.1, 0.55], [0.3, 0.7], [0.5, 0.58], [0.7, 0.72]], d = dog();
+    f.style.transform = 'translate3d(-40px,' + (innerHeight * 0.6) + 'px,0)';
+    place(d, -200, g); d.classList.add('hop');
+    path.forEach(function (p, i) { at(100 + i * 1400, function () { f.style.transform = 'translate3d(' + (Wd() * p[0]) + 'px,' + (innerHeight * p[1]) + 'px,0)'; go(d, Wd() * p[0] - 140, g, 1400); }); });
+    at(5800, function () { d.classList.remove('hop'); f.style.transform = 'translate3d(' + (d.x + 104) + 'px,' + (g + 14) + 'px,0)'; });
+    at(6300, function () { say('?', d.x + 80, g - 30, 1200); });
+    at(7600, function () { sfx('pop'); say('哈啾! 🤧', d.x + 40, g - 40, 1400); d.classList.add('jump'); f.style.transform = 'translate3d(' + (d.x + 260) + 'px,-80px,0)'; });
+    at(9000, function () { d.classList.remove('jump'); d.classList.add('run'); go(d, Wd() + 200, g, 2400); });
+    return 11600;
+  };
+  /* 8. chases its own tail round and round, then goes dizzy */
+  POM.spin = function () {
+    var g = ground(), x = Wd() * 0.45, d = dog(); place(d, -160, g); d.classList.add('run');
+    at(50, function () { go(d, x, g, 2000); });
+    at(2100, function () { d.classList.add('spin'); say('條尾呢? 🌀', x + 30, g - 70, 1600); });
+    at(6200, function () { d.classList.remove('spin', 'run'); d.classList.add('dizzy', 'blink'); say('💫 暈暈地…', x + 20, g - 40, 2000); });
+    at(8600, function () { d.classList.remove('dizzy', 'blink'); d.classList.add('run'); go(d, Wd() + 200, g, 2000); });
+    return 10800;
+  };
+  /* 9. photobomb: pops up in front of the family photo and says hi */
+  POM.photo = function () {
+    var pg = pageEl(), t = pg && pg.querySelector('#photo'), r = t && t.getBoundingClientRect();
+    if (!r || r.width < 100) r = { left: Wd() * 0.4, width: 300, bottom: innerHeight - 10, top: innerHeight - 300 };
+    var box = el('div', 'peek'); box.style.width = '170px'; box.style.height = '150px';
+    box.style.left = (r.left + r.width * 0.62) + 'px'; box.style.top = (r.bottom - 150) + 'px';
+    var d = el('div', 'pom fr', '<div class="fl">' + POM_FRONT + '</div>'); d.style.left = '20px'; d.style.transform = 'translateY(170px)';
+    box.appendChild(d); layer.appendChild(box);
+    var bx = r.left + r.width * 0.62;
+    at(100, function () { d.style.transform = 'translateY(8px)'; });
+    at(900, function () { woof(); say('Hi! 我都要影埋 📸', bx - 120, r.bottom - 200, 2600); hearts(bx + 85, r.bottom - 140, 6); });
+    at(2200, function () { d.classList.add('ears'); });
+    at(3600, function () { d.classList.add('blink'); });
+    at(3900, function () { d.classList.remove('blink'); });
+    at(5600, function () { d.style.transform = 'translateY(170px)'; });
+    return 6600;
+  };
+  /* 10. sits up and begs; a treat drops from the sky */
+  POM.beg = function () {
+    var g = ground(), x = Wd() * 0.5 - 65, d = dog(); place(d, -160, g); d.classList.add('run');
+    at(50, function () { go(d, x, g, 2200); });
+    var f;
+    at(2300, function () {
+      d.remove(); f = el('div', 'pom fr beg', '<div class="fl">' + POM_FRONT + '</div>'); f.style.transform = 'translate3d(' + x + 'px,' + (g - 36) + 'px,0)'; layer.appendChild(f);
+      say('俾啲嘢我食吖~ 🥺', x + 70, g - 80, 2200);
+    });
+    var tr;
+    at(4400, function () { tr = el('div', 'em', '🍖'); tr.style.cssText = 'position:absolute;font-size:34px;left:' + (x + 48) + 'px;top:-50px;transition:transform 1.1s cubic-bezier(.5,0,1,1)'; layer.appendChild(tr); });
+    at(4500, function () { tr.style.transform = 'translateY(' + (g + 10) + 'px)'; });
+    at(5600, function () { tr.remove(); f.classList.remove('beg'); f.classList.add('jump'); woof(); hearts(x + 65, g - 20, 6); say('多謝晒! ❤', x + 70, g - 80, 1800); });
+    at(7800, function () { f.remove(); d = dog(); place(d, x, g); d.classList.add('run'); at(30, function () { go(d, Wd() + 200, g, 1800); }); });
+    return 10000;
+  };
+  var POMS = ['zoom', 'ball', 'nap', 'peek', 'cat', 'dig', 'fly', 'spin', 'photo', 'beg'], pomLast = '';
+  Object.keys(POM).forEach(function (k) { SHOW['pom-' + k] = POM[k]; });
+  SHOW.pom = function () {   // a random one, not the same twice in a row
+    var k; do { k = pick(POMS); } while (k === pomLast); pomLast = k;
+    return POM[k]();
+  };
+
   /* ---------- night: little fish tank along the bottom of the night clock ---------- */
   function tank() {
     var n = $('night'); if (!n || cfg.fish === false || $('tank')) return;
@@ -319,7 +576,7 @@
 
   /* ---------- when visitors come ---------- */
   function pool() {
-    var p = [['cat', 3], ['cuckoo', 2]];
+    var p = [['cat', 3], ['cuckoo', 2], ['pom', cfg.pom == null ? 4 : cfg.pom]];
     if (winter()) p.push(['snow', 3]);
     if (raining()) p.push(['duck', 4]);
     if (cold()) p.push(['snowman', 3]);
@@ -356,7 +613,7 @@
   /* ?cute=name shows one now (all = each in turn) */
   var test = new URLSearchParams(location.search).get('cute');
   if (test) {
-    var list = test === 'all' ? ['cat', 'cuckoo', 'snow', 'lanterns', 'fireworks', 'duck', 'snowman', 'goal', 'balloons'] : [test], k = 0;
+    var list = test === 'all' ? ['cat', 'cuckoo', 'snow', 'lanterns', 'fireworks', 'duck', 'snowman', 'goal', 'balloons'].concat(POMS.map(function (k) { return 'pom-' + k; })) : test === 'pom-all' ? POMS.map(function (k) { return 'pom-' + k; }) : [test], k = 0;
     nextAt = 1e15;
     setTimeout(function go() { if (k < list.length) { play(list[k++], true); setTimeout(go, Math.max(busyUntil - Date.now() + 800, 1500)); } }, 1500);
   }
