@@ -41,70 +41,87 @@ body { margin: 0; background: #000; color: var(--ink); font-family: var(--body);
 body.warn #pCap, body.warn .head { margin-top: 9vmin; }
 
 /* ---------- 1. photos ---------- */
-#photos .ph { position: absolute; top: 0; right: 0; bottom: 0; left: 0; background-size: cover; background-position: center; opacity: 0; transition: opacity 2.4s ease; transform: scale(1.04); }
-#photos .ph.on { opacity: 1; animation: drift 16s linear forwards; }
-@keyframes drift { from { transform: scale(1.04) translate(0, 0); } to { transform: scale(1.12) translate(-1.5%, -1%); } }
+/* the whole photo is shown (no cropping, no zoom) over a soft blurred copy of itself */
+#photos .ph { position: absolute; top: 0; right: 0; bottom: 0; left: 0; opacity: 0; transition: opacity 2.4s ease; overflow: hidden; background: #2a211c; }
+#photos .ph.on { opacity: 1; }
+#photos .ph i { position: absolute; top: 0; right: 0; bottom: 0; left: 0; background-position: center; background-repeat: no-repeat; }
+#photos .ph .bg { background-size: cover; -webkit-filter: blur(28px) brightness(.62) saturate(1.2); filter: blur(28px) brightness(.62) saturate(1.2); transform: scale(1.15); }
+#photos .ph .fg { background-size: contain; }
+#photos .ph video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; background: transparent; }
+#photos .ph .tap { position: absolute; z-index: 2; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 22vmin; height: 22vmin; min-width: 110px; min-height: 110px; border-radius: 50%; border: 0; background: rgba(255,255,255,.88); color: #e0577a; font-size: 11vmin; box-shadow: 0 1vmin 5vmin rgba(0,0,0,.4); }
 #pPage .scrim { position: absolute; left: 0; right: 0; bottom: 0; height: 50%; background: linear-gradient(to top, rgba(10,8,6,.86), rgba(10,8,6,.5) 45%, rgba(10,8,6,0)); }
 #pPage .scrimTop { position: absolute; left: 0; right: 0; top: 0; height: 30%; background: linear-gradient(to bottom, rgba(10,8,6,.5), rgba(10,8,6,0)); }
 #pCap { position: absolute; top: calc(env(safe-area-inset-top, 0px) + 3.4vmin); left: max(16px, calc(env(safe-area-inset-left, 0px) + 4vmin)); max-width: 52%; }
-#pCap .pl { display: inline-block; background: rgba(20,16,13,.62); border-radius: 999px; padding: 1.1vmin 2.6vmin; font-size: max(16px, 3vmin); color: var(--soft); }
-#pCap .pl b { color: var(--ink); font-weight: 600; }
+#pCap .pl { display: inline-block; background: rgba(255,248,240,.9); border-radius: 999px; padding: 1vmin 2.6vmin; margin: 0 1vmin 1vmin 0; font-size: max(16px, 2.8vmin); color: #8a6250; font-weight: 600; box-shadow: 0 .6vmin 2vmin rgba(0,0,0,.25); }
+#pCap .pl b { color: #5a3a2a; font-weight: 800; }
 .note { margin-top: 1.6vmin; background: var(--note); color: #3a2e12; border-radius: 1.6vmin 1.6vmin 4vmin 1.6vmin; padding: 1.8vmin 2.6vmin; font-size: max(20px, 4.4vmin); font-weight: 700; line-height: 1.35;
   box-shadow: 0 1vmin 3vmin rgba(0,0,0,.35); max-height: 4.2em; overflow: hidden; display: inline-block; transform: rotate(-1deg); }
 .note small { display: block; font-size: .55em; font-weight: 500; opacity: .75; margin-top: .4vmin; }
 #pBand { position: absolute; left: max(16px, calc(env(safe-area-inset-left, 0px) + 5vmin)); bottom: calc(env(safe-area-inset-bottom, 0px) + 4.5vmin); text-shadow: 0 1px 12px rgba(0,0,0,.5); }
-#pBand .t { font-family: var(--display); font-size: 16vmin; line-height: .95; font-weight: 500; }
+#pBand .t { font-family: var(--display); font-size: 12vmin; line-height: .95; font-weight: 500; }
 .ap { font-family: var(--body); font-size: .28em; font-weight: 500; color: var(--soft); margin-right: .25em; }
-#pBand .d { font-size: 4.4vmin; margin-top: 1.2vmin; font-weight: 500; }
+#pBand .d { font-size: 3.8vmin; margin-top: 1.2vmin; font-weight: 500; }
 #pBand .d span { color: var(--soft); font-weight: 400; margin-left: 1.4vmin; }
-#pBand .w { font-size: 4vmin; margin-top: 1vmin; color: var(--soft); display: flex; align-items: center; gap: 1.4vmin; }
+#pBand .w { font-size: 3.6vmin; margin-top: 1vmin; color: var(--soft); display: flex; align-items: center; gap: 1.4vmin; }
 #pBand .w b { color: var(--ink); font-size: 1.3em; font-weight: 600; }
 
-/* ---------- 2. today ---------- */
-#tPage { background: var(--ground); display: flex; flex-direction: column; gap: 3vmin; }
-.head { display: flex; align-items: flex-end; gap: 4vmin; padding-right: 46vmin; min-height: 18vmin; }
-.head .t { font-family: var(--display); font-size: 13vmin; line-height: .95; font-weight: 500; white-space: nowrap; }
-.head .d { font-size: 4.4vmin; font-weight: 600; }
-.head .d div + div { font-size: 3.4vmin; color: var(--soft); font-weight: 500; margin-top: .8vmin; }
-.fest { display: inline-block; margin-left: 1vmin; color: #ffb8a8; }
-.cols { flex: 1; min-height: 0; display: grid; grid-template-columns: 1.15fr 1fr; gap: 3vmin; }
-.card { background: var(--panel); border-radius: 3vmin; padding: 3vmin 3.4vmin; box-sizing: border-box; min-height: 0; overflow: hidden; }
-.lbl { font-size: 2.8vmin; color: var(--dim); letter-spacing: .06em; }
-.hk { display: flex; flex-direction: column; } .hk .days { margin-top: auto; padding-top: 2vmin; }
-.hk .row { display: flex; align-items: center; gap: 3vmin; margin-top: 1vmin; }
-.hk .tp { font-family: var(--display); font-size: 15vmin; line-height: .9; font-weight: 500; }
-.hk .ds { font-size: 4.6vmin; font-weight: 700; white-space: nowrap; }
-.hk .hl { font-size: 3vmin; color: var(--soft); margin-top: .8vmin; line-height: 1.4; }
-.tip { margin-top: 2vmin; font-size: 3.6vmin; line-height: 1.4; padding: 1.6vmin 2.4vmin; border-radius: 2vmin; background: rgba(143,211,180,.12); color: var(--jade); font-weight: 600; }
-.tip.wet { background: rgba(140,194,255,.13); color: var(--rain); } .tip.hot { background: rgba(242,180,90,.14); color: var(--amber); } .tip.bad { background: rgba(255,107,94,.16); color: var(--red); }
-.days { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.4vmin; margin-top: 2vmin; }
-.day { background: rgba(255,255,255,.04); border-radius: 2vmin; padding: 1.2vmin 1vmin; text-align: center; display: flex; flex-direction: column; align-items: center; gap: .6vmin; }
-.day .n { font-size: 3.6vmin; font-weight: 700; } .day .r { font-size: 3.8vmin; } .day .r span { color: var(--dim); }
-.day .p { font-size: 2.6vmin; color: var(--rain); }
-.side { display: flex; flex-direction: column; gap: 2.4vmin; min-height: 0; overflow: hidden; }
+/* ---------- 2. today + 3. news: a soft, cute, light look ---------- */
+#tPage, #nPage { --ink: #4b3426; --soft: #7d6352; --dim: #b0907c; --panel: #fffaf4; --line: #f3e3d5; --jade: #2f9a6c; --amber: #e0892c; --rain: #3d86d6; --red: #e0485a;
+  color: var(--ink); background: radial-gradient(circle at 8% 12%, #ffe1ea 0, rgba(255,225,234,0) 28vmin), radial-gradient(circle at 92% 88%, #dff3ff 0, rgba(223,243,255,0) 34vmin),
+  radial-gradient(circle at 70% 6%, #fff1c9 0, rgba(255,241,201,0) 26vmin), linear-gradient(160deg, #fff7ee, #fdeee6); }
+#tPage { display: flex; flex-direction: column; gap: 2.4vmin; }
+.card { box-shadow: 0 .8vmin 2.6vmin rgba(160,110,80,.13); border: 2px solid rgba(255,255,255,.8); }
+.bob { display: inline-block; animation: bob 3.2s ease-in-out infinite; }
+@keyframes bob { 0%, 100% { transform: translateY(0) rotate(-3deg); } 50% { transform: translateY(-1vmin) rotate(3deg); } }
+.emo { font-size: 1em; line-height: 1; }
+.head { display: flex; align-items: flex-end; gap: 3.4vmin; padding-right: 46vmin; min-height: 14vmin; }
+.head .t { font-family: var(--display); color: #c0607a; font-size: 10.5vmin; line-height: .95; font-weight: 500; white-space: nowrap; }
+.head .d { font-size: 3.7vmin; font-weight: 700; }
+.head .d div + div { font-size: 2.9vmin; color: var(--soft); font-weight: 500; margin-top: .8vmin; }
+.fest { display: inline-block; margin-left: 1vmin; color: #d45a6e; }
+.cols { flex: 1; min-height: 0; display: grid; grid-template-columns: 1.1fr 1fr; gap: 2.4vmin; }
+.card { background: var(--panel); border-radius: 3.6vmin; padding: 2.4vmin 3vmin; box-sizing: border-box; min-height: 0; overflow: hidden; }
+.lbl { font-size: 2.5vmin; color: var(--dim); font-weight: 700; letter-spacing: .04em; }
+.hk { display: flex; flex-direction: column; background: linear-gradient(170deg, #fff0e2, #fffaf4 60%); } .hk .days { margin-top: auto; padding-top: 1.6vmin; }
+.hk .row { display: flex; align-items: center; gap: 2.6vmin; margin-top: .6vmin; } .hk .row .emo { font-size: 11vmin; }
+.hk .tp { font-family: var(--display); color: #e07a3c; font-size: 12vmin; line-height: .9; font-weight: 500; }
+.hk .ds { font-size: 3.9vmin; font-weight: 700; white-space: nowrap; }
+.hk .hl { font-size: 2.7vmin; color: var(--soft); margin-top: .8vmin; line-height: 1.4; }
+.tip { margin-top: 1.6vmin; font-size: 3vmin; line-height: 1.4; padding: 1.3vmin 2.2vmin; border-radius: 999px; background: #e3f6ec; color: var(--jade); font-weight: 600; }
+.tip.wet { background: #e2efff; color: var(--rain); } .tip.hot { background: #fff0d9; color: var(--amber); } .tip.bad { background: #ffe1e4; color: var(--red); }
+.days { display: grid; grid-template-columns: repeat(7, 1fr); gap: 1vmin; margin-top: 1.6vmin; }
+.day { background: #fff; border-radius: 2.4vmin; padding: 1vmin .4vmin; box-shadow: 0 .4vmin 1.2vmin rgba(160,110,80,.1); text-align: center; display: flex; flex-direction: column; align-items: center; gap: .6vmin; }
+.day .n { font-size: 2.5vmin; font-weight: 800; color: var(--soft); } .day .emo { font-size: 5.4vmin; } .day .r { font-size: 2.8vmin; font-weight: 700; } .day .r span { color: var(--dim); font-weight: 500; }
+.day .p { font-size: 2.1vmin; color: var(--rain); font-weight: 700; min-height: 1.2em; }
+.side { display: flex; flex-direction: column; gap: 2vmin; min-height: 0; overflow: hidden; }
 .side .card { flex: none; } .side .fc { flex: 1 1 auto; }
 .ldn { display: flex; align-items: center; gap: 2.6vmin; }
 .ldn .who, .bwho { width: 9vmin; height: 9vmin; border-radius: 50%; background: var(--amber); color: #2a1d0c; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 4.4vmin; flex: none; }
 .ldn .big { font-size: 3.8vmin; font-weight: 700; white-space: nowrap; } .ldn .big b { font-size: 1.15em; }
 .ldn .sm { font-size: 3.2vmin; color: var(--soft); margin-top: .6vmin; }
+.det { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2vmin; margin-top: 1.2vmin; }
+.det div { background: #fff; border-radius: 2.2vmin; padding: 1.2vmin 1.6vmin; font-size: 2.4vmin; color: var(--soft); font-weight: 600; box-shadow: 0 .3vmin 1vmin rgba(160,110,80,.08); }
+.det b { display: block; font-size: 3.2vmin; color: var(--ink); font-weight: 800; margin-top: .3vmin; }
+.det .wide { grid-column: 1 / -1; } .det .wide b { font-size: 2.8vmin; font-weight: 700; line-height: 1.4; }
 .callok { margin-top: 2vmin; font-size: 3.6vmin; font-weight: 700; padding: 1.4vmin 2.2vmin; border-radius: 2vmin; background: rgba(52,196,106,.16); color: #7ee2a4; }
 .callok.zz { background: rgba(140,194,255,.13); color: var(--rain); }
-.list div { font-size: 3.6vmin; padding: 1vmin 0; display: flex; justify-content: space-between; gap: 2vmin; border-top: 1px solid var(--line); }
-.fc .tx { font-size: 3.4vmin; line-height: 1.5; margin-top: 1vmin; color: var(--soft); max-height: 6em; overflow: hidden; }
+.list div { font-size: 3vmin; padding: 1vmin 0; display: flex; justify-content: space-between; gap: 2vmin; border-top: 1px solid var(--line); }
+.fc2 { margin-top: 1.8vmin; min-height: 0; overflow: hidden; } .fc2 .tx { font-size: 2.7vmin; line-height: 1.55; color: var(--soft); margin-top: .6vmin; max-height: 6.2em; overflow: hidden; }
+.fc .tx { font-size: 2.8vmin; line-height: 1.5; margin-top: 1vmin; color: var(--soft); max-height: 6em; overflow: hidden; }
 .list div:first-child { border-top: 0; } .list span { color: var(--soft); white-space: nowrap; }
-#tNote { cursor: pointer; } #tNote .note { display: block; transform: none; font-size: 4vmin; margin-top: 1.2vmin; }
+#tNote { cursor: pointer; } #tNote .note { display: block; transform: none; font-size: 3.2vmin; margin-top: 1.2vmin; }
 
 /* ---------- 3. news ---------- */
-#nPage { background: #14110f; display: flex; flex-direction: column; gap: 2.4vmin; }
-#nPage h2 { margin: 0; font-size: 5vmin; font-weight: 800; padding-right: 46vmin; min-height: 11vmin; display: flex; align-items: center; gap: 2vmin; }
+#nPage { display: flex; flex-direction: column; gap: 2.4vmin; }
+#nPage h2 { margin: 0; color: #c0607a; font-size: 4.6vmin; font-weight: 800; padding-right: 46vmin; min-height: 11vmin; display: flex; align-items: center; gap: 2vmin; }
 #nPage h2 small { font-size: .6em; color: var(--dim); font-weight: 500; }
 #nList { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 2vmin; overflow: hidden; }
-.ni { display: flex; gap: 2.6vmin; background: var(--panel); border-radius: 2.4vmin; overflow: hidden; flex: 1; min-height: 0; max-height: 26vmin; }
-.ni .im { width: 30vmin; flex: none; background: #2d2622 center / cover no-repeat; }
+.ni { display: flex; gap: 2.6vmin; background: var(--panel); border-radius: 3vmin; box-shadow: 0 .6vmin 2vmin rgba(160,110,80,.12); border: 2px solid #fff; overflow: hidden; flex: 1; min-height: 0; max-height: 26vmin; }
+.ni .im { width: 30vmin; flex: none; background: #ffe3ea center / cover no-repeat; border-radius: 2.4vmin; margin: 1vmin 0 1vmin 1vmin; }
 .ni .tx { padding: 2vmin 2.4vmin 2vmin 0; min-width: 0; }
-.ni .h { font-size: 4.4vmin; font-weight: 800; line-height: 1.3; max-height: 2.6em; overflow: hidden; }
-.ni .s { font-size: 3vmin; color: var(--soft); line-height: 1.45; margin-top: 1vmin; max-height: 2.9em; overflow: hidden; }
-.ni .tg { font-size: 2.6vmin; color: var(--amber); font-weight: 700; margin-right: 1.2vmin; }
+.ni .h { font-size: 3.7vmin; font-weight: 800; line-height: 1.3; max-height: 2.6em; overflow: hidden; }
+.ni .s { font-size: 2.7vmin; color: var(--soft); line-height: 1.45; margin-top: 1vmin; max-height: 2.9em; overflow: hidden; }
+.ni .tg { font-size: 2.3vmin; color: #fff; background: #f08aa4; border-radius: 999px; padding: .2vmin 1.4vmin; font-weight: 800; margin-right: 1.2vmin; vertical-align: .3vmin; } .ni .tg.w { background: #7fb6e8; }
 
 /* ---------- call orb + speaker (top right on 今日 / news, bottom right on photos) ---------- */
 #dock { position: absolute; z-index: 7; right: max(16px, calc(env(safe-area-inset-right, 0px) + 4.5vmin)); bottom: calc(env(safe-area-inset-bottom, 0px) + 4.5vmin); display: flex; align-items: flex-end; gap: 3vmin; }
@@ -128,7 +145,9 @@ body.compact.warn #dock { top: calc(env(safe-area-inset-top, 0px) + 13vmin); }
 body.compact #call { flex-direction: row; gap: 2.2vmin; background: rgba(52,196,106,.16); border-radius: 999px; padding: 1.2vmin 3.4vmin 1.2vmin 1.2vmin; text-shadow: none; }
 body.compact .orb { width: 11vmin; height: 11vmin; min-width: 60px; min-height: 60px; }
 body.compact .orb .glow { top: -.7vmin; right: -.7vmin; bottom: -.7vmin; left: -.7vmin; -webkit-filter: blur(1vmin); filter: blur(1vmin); }
-body.compact #call .lab { text-align: left; font-size: max(18px, 4vmin); }
+body.compact #call .lab { text-align: left; font-size: max(18px, 3.6vmin); }
+body.compact:not(.cwx) #call { color: #23573a; background: #dff5e7; box-shadow: 0 .6vmin 2vmin rgba(60,140,90,.18); } body.compact:not(.cwx) #call .lab small { color: #4f8a66; }
+body.compact:not(.cwx) #dots i { background: rgba(120,80,60,.22); } body.compact:not(.cwx) #dots i.on { background: #c0607a; }
 body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.compact #say span { display: none; }
 
 /* page dots */
@@ -176,9 +195,9 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
   .cols { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
   .head { padding-right: 0; flex-direction: column; align-items: flex-start; gap: 1.6vmin; margin-top: 14vmin; }
   #nPage h2 { margin-top: 14vmin; padding-right: 0; }
-  #pBand .t { font-size: 15vmin; } #pCap { max-width: 64%; }
+  #pBand .t { font-size: 12vmin; } #pCap { max-width: 64%; }
 }
-@media (prefers-reduced-motion: reduce) { .orb, .orb .glow, #photos .ph.on { animation: none; } }
+@media (prefers-reduced-motion: reduce) { .orb, .orb .glow, .bob { animation: none; } }
 #cityFrame { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; pointer-events: none; }   /* page 4: ../cities.html (UK + Hong Kong weather) */
 </style>
 </head>
@@ -195,7 +214,7 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
     <div class="cols">
       <div class="card hk" id="tHk"></div>
       <div class="side">
-        <div class="card" id="tLdn"></div>
+        <div class="card" id="tDet"></div>
         <div class="card" id="tNote" hidden></div>
         <div class="card" id="tBday" hidden></div>
         <div class="card fc" id="tFc" hidden></div>
@@ -204,7 +223,7 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
   </section>
 
   <section class="page pad" id="nPage" aria-label="新聞">
-    <h2>📰 香港新聞 <small id="nTime"></small></h2>
+    <h2><span class="bob">📰</span> 香港新聞 <small id="nTime"></small></h2>
     <div id="nList"></div>
   </section>
 
@@ -243,13 +262,13 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
   <div id="toast" hidden></div>
 </div>
 
-<script src="../sound.js?v=1"></script>
+<script src="../sound.js?v=3"></script>
 <script>
 /* ES5, so it runs on any iPad.  Address options (put them in the address before "Add to Home Screen"):
      &frame            the real screen (no sample photos)
      &ft=<Apple ID or phone>   who the big call button FaceTimes (kept out of the code: the repo is public)
      &key=<passcode>   the family calendar passcode: unlocks the 留言板 and the birthday list
-     &voice=0          no spoken time on the hour (on by default, 8am to 9pm)
+     &voice=1          speak aloud again (hourly time, 講俾我聽 button, messages); off by default
      &night=22-7       night clock hours (Hong Kong time), &night=0 never
      &photo=15  seconds per photo;  &every=4  photos between the 今日 / 新聞 pages
    Preview only: &page=today|news|weather|photo stops the rotation, &demo=warn|board|night|call shows that screen. */
@@ -261,7 +280,7 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
   if (q.ft) store('ft', q.ft);
   var nightHrs = (q.night || '22-7').split('-');
   var S = {
-    tz: 'Asia/Hong_Kong', ft: q.ft || store('ft') || '', key: q.key || store('calKey') || '', voice: q.voice !== '0',
+    tz: 'Asia/Hong_Kong', ft: q.ft || store('ft') || '', key: q.key || store('calKey') || '', voice: q.voice === '1',
     photoSec: +q.photo || 15, every: +q.every || 4, infoSec: 40, nightFrom: +nightHrs[0], nightTo: +(nightHrs[1] || 7), noNight: q.night === '0',
     me: { name: 'Billy', place: '倫敦', tz: 'Europe/London' }, demo: q.demo || '', fixed: q.page || ''
   };
@@ -433,7 +452,7 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
   function loadPhotos() {
     getJSON('../photos.json' + t(), function (l) {
       if (!l || !l.length) return;
-      var list = l.map(function (p) { return { src: /^(https?:|data:|\/)/.test(p.src) ? p.src : '../' + p.src, id: photoId(p), video: p.video ? '../' + p.video : '', text: p.text || '', when: p.when || '', place: p.place || '' }; });
+      var list = l.map(function (p) { return { src: /^(https?:|data:|\/)/.test(p.src) ? p.src : '../' + p.src, id: photoId(p), video: p.video ? '../' + p.video : '', text: p.text || '', when: p.when || '', taken: p.taken || '', place: p.place || '' }; });
       var same = list.length === PHOTOS.length && list.every(function (p, i) { return p.src === PHOTOS[i].src; });
       PHOTOS = list; PHOTOS.some(function (p) { return p.video && (HomeSound.setFirst(p.video), true); }); if (!same) startPhotos();
     });
@@ -444,25 +463,35 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
   hsBox.style.top = 'calc(env(safe-area-inset-top, 0px) + 3.4vmin)'; hsBox.style.right = 'max(16px, calc(env(safe-area-inset-right, 0px) + 4vmin))';
   function startPhotos() {
     var box = $('photos'); box.innerHTML = ''; idx = -1;
-    PHOTOS.forEach(function (p) { var d = document.createElement('div'); d.className = 'ph'; d.setAttribute('data-src', p.src); box.appendChild(d); });
+    PHOTOS.forEach(function (p) { var d = document.createElement('div'); d.className = 'ph'; d.setAttribute('data-src', p.src); d.innerHTML = '<i class="bg"></i><i class="fg"></i>'; box.appendChild(d); });
     nextPhoto();
   }
   function nextPhoto() {
     var els = $('photos').children; if (!els.length) return;
     if (idx >= 0) { els[idx].className = 'ph'; HomeSound.stop(els[idx]); }
     idx = (idx + 1) % els.length;
-    var el = els[idx]; if (!el.style.backgroundImage) el.style.backgroundImage = 'url("' + el.getAttribute('data-src') + '")';
-    var nx = els[(idx + 1) % els.length]; if (!nx.style.backgroundImage) nx.style.backgroundImage = 'url("' + nx.getAttribute('data-src') + '")';   // preload the next one
+    var el = els[idx], nx = els[(idx + 1) % els.length]; paintPh(el); paintPh(nx);   // and preload the next one
     void el.offsetWidth; el.className = 'ph on';
     capPhoto();
     var p = PHOTOS[idx];   // album videos play (with sound after a tap, see ../sound.js); the slideshow waits for them
     if (p && p.video && page === 0 && !isNight()) HomeSound.play(el, p.video, p.src, function (secs) { setTimeout(function () { if (page === 0 && $('photos').children[idx] === el && !busy()) { step(); loop(); } }, secs * 1000); });
   }
+  function paintPh(el) {
+    if (el._painted) return; el._painted = 1;
+    var u = 'url("' + el.getAttribute('data-src') + '")'; el.children[0].style.backgroundImage = u; el.children[1].style.backgroundImage = u;
+  }
+  // when the photo was taken: "2026年7月29日 星期三 下午3:20" (UK time, where most are taken)
+  function takenZh(iso) {
+    var d = new Date(iso); if (isNaN(d)) return '';
+    var x = parts(S.me.tz, d);
+    return x.y + '年' + x.mo + '月' + x.d + '日 星期' + WEEK[x.w] + ' ' + ampm(x.h) + ((x.h % 12) || 12) + ':' + pad(x.mi);
+  }
   function capPhoto() {
     var p = PHOTOS[idx]; if (!p) { $('pCap').innerHTML = ''; return; }
     var notes = (NOTES[p.id] || []).slice(-2), h = '';
-    var pl = [p.place, p.when].filter(Boolean);
-    if (pl.length) h += '<div class="pl">📍 <b>' + esc(pl[0]) + '</b>' + (pl[1] ? ' · ' + esc(pl[1]) : '') + '</div>';
+    var when = p.taken ? takenZh(p.taken) : p.when;
+    if (when) h += '<div class="pl">📷 <b>' + esc(when) + '</b></div>';
+    if (p.place) h += '<div class="pl">📍 <b>' + esc(p.place) + '</b></div>';
     if (p.text) h += '<div><div class="note">' + esc(p.text) + '</div></div>';
     notes.forEach(function (n) { h += '<div><div class="note">' + esc(n.text) + (n.who ? '<small>' + esc(n.who) + '</small>' : '') + '</div></div>'; });
     $('pCap').innerHTML = h;
@@ -523,28 +552,26 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
     $('tDate').innerHTML = '<div>' + dateZh(p) + '</div><div>' + lunarName(lunarMD(new Date())) + (f ? '<span class="fest">🏮 ' + esc(f) + '</span>' : '') + '</div>';
     if (w) {
       var tp = tip(w), d0 = w.today;
-      h = '<div class="lbl">香港天文台 · 而家</div><div class="row">' + icon(hkKind(w.ic), '13vmin') + '<div><div class="tp num">' + (w.t === null ? '–' : w.t) + '°</div></div>' +
+      h = '<div class="lbl">🌈 香港天文台 · 而家</div><div class="row"><span class="emo bob">' + EMO[hkKind(w.ic)] + '</span><div><div class="tp num">' + (w.t === null ? '–' : w.t) + '°</div></div>' +
         '<div><div class="ds">' + esc(w.desc) + '</div><div class="hl num">' + (d0 ? '今日 ' + d0.forecastMintemp.value + '° 至 ' + d0.forecastMaxtemp.value + '°' : '') + (w.hum !== null ? '<br>濕度 ' + w.hum + '%' : '') + '</div></div></div>' +
-        '<div class="tip ' + tp.c + '">' + esc(tp.t) + '</div><div class="days">';
+        '<div class="tip ' + tp.c + '">' + esc(tp.t) + '</div>' + (HK.flw && HK.flw.forecastDesc ? '<div class="fc2"><div class="lbl">📮 天文台話</div><div class="tx">' + esc(HK.flw.forecastDesc + (HK.flw.outlook ? ' ' + HK.flw.outlook : '')) + '</div></div>' : '') +
+        '<div class="days" style="grid-template-columns:repeat(' + Math.max(4, Math.min(7, w.days.length)) + ',1fr)">';
       var names = ['今日', '聽日', '後日'];
-      for (i = 0; i < 4 && i < w.days.length; i++) {
+      for (i = 0; i < 7 && i < w.days.length; i++) {
         var dd = w.days[i];
-        h += '<div class="day"><div class="n">' + (names[i] || dd.week.replace('星期', '週')) + '</div>' + icon(hkKind(dd.ForecastIcon), '8vmin') +
-          '<div class="r num">' + dd.forecastMaxtemp.value + '° <span>' + dd.forecastMintemp.value + '°</span></div><div class="p">' + (/高|中/.test(dd.PSR) ? '☂ 有雨' : '') + '</div></div>';
+        h += '<div class="day"><div class="n">' + (names[i] || dd.week.replace('星期', '週')) + '</div><span class="emo">' + EMO[hkKind(dd.ForecastIcon)] + '</span>' +
+          '<div class="r num">' + dd.forecastMaxtemp.value + '° <span>' + dd.forecastMintemp.value + '°</span></div><div class="p">' + (/高|中/.test(dd.PSR) ? '☂ ' + esc(dd.PSR) : '') + '</div></div>';
       }
       $('tHk').innerHTML = h + '</div>';
     } else $('tHk').innerHTML = '<div class="lbl">香港天文台</div><div class="hl" style="font-size:4vmin;margin-top:2vmin">天氣載入中…</div>';
-    var c = callTime(m), lw = LDN && LDN.current;
-    $('tLdn').innerHTML = '<div class="ldn"><span class="who">B</span><div><div class="big">Billy 喺倫敦 · <b class="num">' + ampm(m.h) + ' ' + ((m.h % 12) || 12) + ':' + pad(m.mi) + '</b></div>' +
-      '<div class="sm">' + (lw ? Math.round(lw.temperature_2m) + '° ' + omDesc(lw.weather_code) + ' · ' : '') + '比香港慢 ' + hkGap() + ' 個鐘</div></div></div>' +
-      '<div class="callok' + (c.zz ? ' zz' : '') + '">' + c.t + '</div>';
+    $('tDet').innerHTML = detailHTML(w); $('tDet').hidden = !w;
     var b = BOARD.length ? BOARD[BOARD.length - 1] : null;
     if (b && Date.now() - Date.parse(b.at) < 3 * 864e5) {
       $('tNote').innerHTML = '<div class="lbl">📌 倫敦留言 · ' + esc(fromName(b.who)) + ' · ' + ago(b.at) + '</div><div class="note">' + esc(b.text) + '</div>';
       $('tNote').hidden = false;
     } else $('tNote').hidden = true;
     var fl = HK && HK.flw;
-    if (fl && fl.forecastDesc) { $('tFc').innerHTML = '<div class="lbl">☁️ 天文台預測</div><div class="tx">' + esc(fl.forecastDesc + (fl.outlook ? ' ' + fl.outlook : '')) + '</div>'; $('tFc').hidden = false; } else $('tFc').hidden = true;
+    if (false) { $('tFc').innerHTML = '<div class="lbl">📮 天文台話</div><div class="tx">' + esc(fl.forecastDesc + (fl.outlook ? ' ' + fl.outlook : '')) + '</div>'; $('tFc').hidden = false; } else $('tFc').hidden = true;
     var bl = bdayList();
     if (bl.length) {
       $('tBday').innerHTML = '<div class="lbl">🎂 生日</div><div class="list">' + bl.map(function (x) {
@@ -552,6 +579,20 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
       }).join('') + '</div>';
       $('tBday').hidden = false;
     } else $('tBday').hidden = true;
+  }
+  // more weather: wind, rain chance, humidity, UV, rain in the last hour, today's forecast words
+  var EMO = { sun: '☀️', partly: '⛅', cloud: '☁️', rain: '🌧️', storm: '⛈️', moon: '🌙', fog: '🌫️' };
+  function detailHTML(w) {
+    if (!w) return '';
+    var d = w.today || {}, now = HK.now || {}, uv = now.uvindex && now.uvindex.data && now.uvindex.data[0], rain = 0, cells = [];
+    ((now.rainfall && now.rainfall.data) || []).forEach(function (x) { if (x.max > rain) rain = x.max; });
+    if (d.PSR) cells.push('☔ 落雨機會<b>' + esc(d.PSR) + '</b>');
+    if (d.forecastMinrh) cells.push('💧 濕度<b class="num">' + d.forecastMinrh.value + '–' + d.forecastMaxrh.value + '%</b>');
+    if (uv) cells.push('🧴 紫外線<b class="num">' + uv.value + ' ' + esc(uv.desc || '') + '</b>');
+    cells.push('🌂 過去一個鐘雨量<b class="num">' + (rain ? '最多 ' + rain + ' 毫米' : '冇落雨') + '</b>');
+    if (d.forecastWind) cells.push('<span class="wide">🍃 風<b>' + esc(d.forecastWind) + '</b></span>');
+    if (d.forecastWeather) cells.push('<span class="wide">🌤️ 今日<b>' + esc(d.forecastWeather) + '</b></span>');
+    return '<div class="lbl">🔍 天氣詳情</div><div class="det">' + cells.map(function (c) { return /^<span class="wide">/.test(c) ? '<div class="wide">' + c.replace(/^<span class="wide">|<\/span>$/g, '') + '</div>' : '<div>' + c + '</div>'; }).join('') + '</div>';
   }
   function hkGap() { var a = parts(S.tz), b = parts(S.me.tz), g = (a.h - b.h + 24) % 24; return g; }
   function ago(at) { var mn = Math.round((Date.now() - Date.parse(at)) / 60000); return mn < 60 ? (mn <= 1 ? '啱啱' : mn + ' 分鐘前') : mn < 1440 ? Math.round(mn / 60) + ' 個鐘前' : Math.round(mn / 1440) + ' 日前'; }
@@ -561,9 +602,9 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
   function drawNews() {
     var p = parts(S.tz);
     $('nTime').innerHTML = clock12(p).replace(/<[^>]+>/g, ' ') + ' · 香港電台 RTHK';
-    $('nList').innerHTML = NEWS.length ? NEWS.map(function (n) {
+    $('nList').innerHTML = NEWS.length ? NEWS.slice(0, 4).map(function (n) {
       return '<div class="ni">' + (n.img ? '<div class="im" style="background-image:url(\'' + esc(n.img) + '\')"></div>' : '') +
-        '<div class="tx"><div class="h"><span class="tg">' + esc(n.src === '香港' ? '本地' : '國際') + '</span>' + esc(n.t) + '</div><div class="s">' + esc(n.d || '') + '</div></div></div>';
+        '<div class="tx"><div class="h"><span class="tg' + (n.src === '香港' ? '' : ' w') + '">' + esc(n.src === '香港' ? '本地' : '國際') + '</span>' + esc(n.t) + '</div><div class="s">' + esc(n.d || '') + '</div></div></div>';
     }).join('') : '<div class="hl" style="font-size:4vmin">新聞載入中…</div>';
   }
 
@@ -572,7 +613,7 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
     var p = parts(S.tz), w = hkNow();
     $('pTime').innerHTML = clock12(p);
     $('pDate').innerHTML = dateZh(p) + '<span>' + lunarName(lunarMD(new Date())) + '</span>';
-    $('pWx').innerHTML = w ? icon(hkKind(w.ic), '6vmin') + '<b class="num">' + w.t + '°</b>' + esc(w.desc) + (w.today ? ' · ' + w.today.forecastMintemp.value + '–' + w.today.forecastMaxtemp.value + '°' : '') : '';
+    $('pWx').innerHTML = w ? '<span class="emo">' + EMO[hkKind(w.ic)] + '</span>' + '<b class="num">' + w.t + '°</b>' + esc(w.desc) + (w.today ? ' · ' + w.today.forecastMintemp.value + '–' + w.today.forecastMaxtemp.value + '°' : '') : '';
   }
   function drawAll() { drawPhotoBand(); drawToday(); drawWarn(); drawNight(); }
 
@@ -604,7 +645,9 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
   var TTS = window.speechSynthesis, VOICE = null, subT;
   function pickVoice() { if (!TTS) return; var vs = TTS.getVoices(); for (var i = 0; i < vs.length; i++) if (/zh[-_]HK|yue/i.test(vs[i].lang)) { VOICE = vs[i]; return; } }
   if (TTS) { pickVoice(); TTS.onvoiceschanged = pickVoice; }
+  if (!S.voice) { $('say').hidden = true; $('bAgain').hidden = true; }
   function say(text, show) {
+    if (!S.voice) return;   // Billy, 2026-11-17: nothing is spoken aloud (add &voice=1 to the address to bring the voice back)
     var done = function () { $('sub').hidden = true; $('say').className = ''; };
     if (show !== false) { $('subText').innerHTML = text; $('sub').hidden = false; $('say').className = 'on'; }
     clearTimeout(subT); subT = setTimeout(done, 4000 + text.length * 260);
@@ -621,8 +664,6 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
     var p = parts(S.tz), m = parts(S.me.tz), w = hkNow(), s = (p.h >= 5 && p.h < 11 ? '早晨！' : '') + '而家係' + spokenTime(p) + '，' + p.mo + '月' + p.d + '號，星期' + WEEK[p.w] + '，' + lunarName(lunarMD(new Date())) + '。';
     var f = nextFest(); if (f) s += f + '。';
     if (w) s += '<br>香港而家' + w.t + '度，' + w.desc + (w.today ? '，今日' + w.today.forecastMintemp.value + '至' + w.today.forecastMaxtemp.value + '度' : '') + '。' + tip(w).t;
-    var lw = LDN && LDN.current;
-    s += '<br>Billy 喺倫敦，嗰邊而家係' + spokenTime(m) + (lw ? '，' + Math.round(lw.temperature_2m) + '度' : '') + '。';
     bdayList().forEach(function (x) { if (x.days <= 7) s += '<br>' + x.p.name + (x.days === 0 ? '今日生日！' : x.days === 1 ? '聽日生日。' : '仲有' + x.days + '日生日。'); });
     return s;
   }

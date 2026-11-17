@@ -118,6 +118,7 @@ def cloudkit_photos():
             continue
         ms = ck_val(a, "assetDate") or (m and ck_val(m, "originalCreationDate")) or 0
         date = datetime.fromtimestamp(ms / 1000, timezone.utc).strftime("%Y-%m-%d") if ms else ""
+        taken = datetime.fromtimestamp(ms / 1000, timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ") if ms else ""
         loc = ck_plist(a, "locationEnc")
         latlon = (loc["lat"], loc["lon"]) if isinstance(loc, dict) and "lat" in loc and "lon" in loc else None
         caption = post_text.get(ck_val(a, "assetBatchId") or "", "")
@@ -126,7 +127,7 @@ def cloudkit_photos():
             if isinstance(v, str) and v.strip() and not caption:
                 caption = v.strip()
                 break
-        out.append({"id": a["recordName"], "url": url, "video": video, "date": date, "caption": caption, "latlon": latlon})
+        out.append({"id": a["recordName"], "url": url, "video": video, "date": date, "taken": taken, "caption": caption, "latlon": latlon})
     out.sort(key=lambda x: x["date"], reverse=True)
     print("photos:", len(out))
     return out[:MAX_PHOTOS]
@@ -205,7 +206,7 @@ def sharedstreams_photos():
             continue
         loc = locs[it["url_location"]]
         out.append({"id": p["photoGuid"], "url": f"{loc['scheme']}://{loc['hosts'][0]}{it['url_path']}",
-                    "date": (p.get("dateCreated") or "")[:10], "caption": (p.get("caption") or "").strip(), "latlon": None})
+                    "date": (p.get("dateCreated") or "")[:10], "taken": p.get("dateCreated") or "", "caption": (p.get("caption") or "").strip(), "latlon": None})
     return out
 
 def exif_gps(path):
@@ -396,6 +397,8 @@ def main():
         d = p["date"]
         when = f"{int(d[5:7])}月{int(d[8:10])}日" if len(d) == 10 else ""
         item = {"src": f"{OUT_DIR}/{name}" if os.path.exists(path) else "", "text": p["caption"], "when": when}
+        if p.get("taken"):
+            item["taken"] = p["taken"]  # full date + time (UTC); pages show it in local time
         if vname:
             item["video"] = f"{OUT_DIR}/{vname}"
         ll = p.get("latlon") or (exif_gps(path) if not vname else None)
