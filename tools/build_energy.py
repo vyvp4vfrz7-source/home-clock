@@ -230,10 +230,12 @@ def other_tariffs(data, now):
     if not region or not e.get("_month"):
         return None
     try:
-        prods = get(API + "products/?brand=OCTOPUS_ENERGY&is_business=false&page_size=100", auth=False).get("results", [])
+        prods = get_all(API + "products/?brand=OCTOPUS_ENERGY&is_business=false&page_size=100")
     except Exception as ex:
         print("products:", ex)
         return None
+
+    print("products:", " ".join(sorted(p["code"] for p in prods if p["code"].startswith(("AGILE", "SILVER", "TRACKER")))))
 
     def pick(prefix):
         ps = [p for p in prods if p["code"].startswith(prefix) and "OUTGOING" not in p["code"] and not p.get("available_to")]
@@ -241,7 +243,7 @@ def other_tariffs(data, now):
 
     out = {}
     for name, prefix in (("agile", "AGILE-"), ("tracker", "SILVER-")):
-        code = pick(prefix)
+        code = pick(prefix) or (pick("TRACKER-") if name == "tracker" else None)
         if not code:
             continue
         try:
@@ -284,12 +286,14 @@ def other_tariffs(data, now):
 
 def outdoor_temps():
     """Daily mean temperature at home for the last three months (Open-Meteo, no key)."""
-    try:
+    for attempt in range(3):          # Open-Meteo sometimes times out from GitHub's runners
+      try:
         d = get("https://api.open-meteo.com/v1/forecast?latitude=%s&longitude=%s&daily=temperature_2m_mean&past_days=92&forecast_days=1&timezone=Europe%%2FLondon" % (LAT, LON), auth=False)
         return [[k, v] for k, v in zip(d["daily"]["time"], d["daily"]["temperature_2m_mean"]) if v is not None]
-    except Exception as e:
+      except Exception as e:
         print("outdoor temperature:", e)
-        return None
+        __import__("time").sleep(5)
+    return None
 
 
 def free_sessions(now):
