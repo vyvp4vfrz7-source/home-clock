@@ -3284,6 +3284,7 @@ setTimeout(function () { location.replace(freshURL()); }, 6 * 3600 * 1000);
       h += '</div></div>';
     });
     $('ytCols').innerHTML = h;
+    var u = new Date(YT.updated); if (!isNaN(u)) $('ytUpd').textContent = '更新 Updated ' + pad(u.getHours()) + ':' + pad(u.getMinutes());
   }
   function load() {
     fetch('yt.json?t=' + Date.now()).then(function (r) { if (!r.ok) throw 0; return r.json(); })
