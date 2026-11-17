@@ -13,7 +13,7 @@ CHANNELS = [
     {"key": "gb", "zh": "綠豆", "en": "Green Bean", "id": "UCLYWo70xBDrPYJgJsxoX7Qg"},
     {"key": "wit", "zh": "法庭線", "en": "The Witness", "id": "UCYRpTuLTvC7S6zfATKNfDXw"},
     {"key": "col", "zh": "集誌社", "en": "The Collective", "id": "UCfQa67fC_15Aiaywz8lPMNg"},
-    {"key": "viu", "zh": "ViuTV", "en": "ViuTV", "id": "UCHOmxBZKt6uCFqoCvRHnSgQ"},
+    {"key": "now", "zh": "now 財經新聞", "en": "now Finance News", "id": "UCChMBgirwM2nnT3Bbe8METQ"},  # now News has no general news channel on YouTube
 ]
 PER = 12  # videos kept per channel
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Version/17.0 Safari/605.1.15",
@@ -28,6 +28,7 @@ def get(url):
 
 def find_id(ch):
     must = re.compile(ch.get("must", "."))
+    cands = []
     for h in ch.get("handles", []):
         try:
             html = get("https://www.youtube.com/@" + urllib.parse.quote(h))
@@ -39,18 +40,26 @@ def find_id(ch):
         t = t.group(1) if t else ""
         print("  @%s -> %s (%s)" % (h, m and m.group(1), t))
         if m and must.search(t):
-            return m.group(1)
+            cands.append(m.group(1))
     for q in ch.get("q", []):  # YouTube search, channels only
         try:
             html = get("https://www.youtube.com/results?sp=EgIQAg%253D%253D&search_query=" + urllib.parse.quote(q))
         except Exception as e:
             print("  search: %s" % e); continue
         found = re.findall(r'"channelRenderer":\{"channelId":"(UC[\w-]{22})","title":\{"simpleText":"((?:[^"\\]|\\.)*)"', html)
-        print("  search '%s': %s" % (q, found[:6]))
-        for cid, t in found:
-            if must.search(t):
-                return cid
-    return ""
+        print("  search '%s': %s" % (q, found[:8]))
+        cands += [cid for cid, t in found if must.search(t)]
+    best, when = "", ""
+    for cid in dict.fromkeys(cands):  # the matching channel that posted most recently
+        try:
+            title, vs = videos(cid)
+        except Exception:
+            continue
+        top = max([v["at"] for v in vs] or [""])
+        print("  candidate %s %s newest %s: %s" % (cid, title, top[:10], " | ".join(v["t"] for v in vs[:2])))
+        if top > when:
+            best, when = cid, top
+    return best
 
 
 NS = {"a": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015", "m": "http://search.yahoo.com/mrss/"}
