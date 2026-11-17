@@ -395,7 +395,7 @@ body:not(.pcal) #week *, body:not(.pcal) #week *:before, body:not(.pcal) #week *
 #photo .cap > span { background: rgba(8,12,18,.62); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-radius: 14px; padding: 8px 14px; font-size: 18px; font-weight: 600; }
 #photo .cap .w { color: #c9d3df; font-size: 15px; font-weight: 500; white-space: nowrap; }
 #photo .cap > span:empty { display: none; }
-#photo .loc { position: absolute; left: 18px; top: 16px; max-width: calc(100% - 36px); background: rgba(8,12,18,.62); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-radius: 12px; padding: 6px 12px 6px 10px; font-size: 16px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#photo .loc { position: absolute; left: 18px; top: 16px; max-width: calc(100% - 180px); background: rgba(8,12,18,.62); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-radius: 12px; padding: 6px 12px 6px 10px; font-size: 16px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 #photo .loc:empty { display: none; }
 #photo .loc svg { width: 14px; height: 14px; vertical-align: -1px; margin-right: 5px; fill: #f6a35c; }
 /* plain block + max-height, not -webkit-line-clamp: the old iPad's Safari drew the clamped note with no width, so it never showed */
@@ -1037,6 +1037,7 @@ body.night #live { display: none; }   /* no scores on the night clock */
   <div class="msg" id="bMsg"></div>
   <div class="btns"><button type="button" id="bClose">關閉 Close</button><button type="button" class="ok" id="bSend">貼上 Post</button></div>
 </div></div>
+<script src="sound.js?v=1"></script>
 <script>
 /* ===== Settings you can change ===== */
 var CONFIG = {
@@ -1223,6 +1224,7 @@ function nightTick(d) {
   document.body.classList.toggle('peek', on && !show);
   if (show !== document.body.classList.contains('night')) {
     document.body.classList.toggle('night', show);
+    HomeSound.setQuiet(show);   // no background music while the night clock shows
     if (!show) fitStage();   // pages were hidden; lay them out again
   }
   if (!show) return;
@@ -1476,6 +1478,7 @@ var PHOTOS = [], pIdx = -1, pTimer = null;
 var PHOTO_SECS = 20;   // how long each photo stays; a video stays until it has played to the end
 function startPhotos(list) {
   PHOTOS = list; var box = $('photo');
+  PHOTOS.some(function (p) { return p.video && (HomeSound.setFirst(p.video), true); });
   PHOTOS.forEach(function (p) { var d = document.createElement('div'); d.className = 'ph'; if (p.src) d.style.backgroundImage = 'url("' + p.src + '")'; box.insertBefore(d, box.firstChild); });
   nextPhoto();
 }
@@ -1489,24 +1492,16 @@ function nextPhoto() {
   showCaption(p);
   if (p.video && !document.body.classList.contains('night')) playVideo(els[pIdx], p); else photoAfter(PHOTO_SECS);
 }
-/* Videos (photos.json "video": "photos/<id>.mp4", "src" is its poster frame) play silently:
-   iPad Safari only starts a video by itself when it is muted. When it ends, the slideshow moves on. */
+/* Videos (photos.json "video": "photos/<id>.mp4", "src" is its poster frame) play with sound and volume
+   steps, and 🎵 picks background music: see sound.js. When a video ends, the slideshow moves on. */
+var hsBox = HomeSound.mount($('photo'));
+hsBox.style.top = '14px'; hsBox.style.right = '66px';
 function playVideo(el, p) {
-  var v = document.createElement('video'), done = false;
-  v.muted = true; v.defaultMuted = true; v.setAttribute('muted', ''); v.setAttribute('playsinline', ''); v.setAttribute('webkit-playsinline', '');
-  v.preload = 'auto'; if (p.src) v.poster = p.src;
-  function finish(secs) { if (!done) { done = true; photoAfter(secs); } }
-  v.addEventListener('ended', function () { finish(1); });
-  v.addEventListener('error', function () { finish(PHOTO_SECS); });   // can't play: show the poster like a photo
-  v.addEventListener('loadedmetadata', function () { if (!done && isFinite(v.duration) && v.duration > 0) photoAfter(Math.min(v.duration, 600) + 20); });   // safety net if "ended" never fires
   photoAfter(60);   // safety net until the video has loaded
-  v.src = p.video; el.appendChild(v);
-  var pr = v.play(); if (pr && pr.catch) pr.catch(function () { finish(PHOTO_SECS); });   // e.g. Low Power Mode blocks autoplay
+  var v = HomeSound.play(el, p.video, p.src, function (secs) { photoAfter(secs); });
+  var n = v._n; v.onloadedmetadata = function () { if (v._n === n && isFinite(v.duration) && v.duration > 0) photoAfter(Math.min(v.duration, 600) + 20); };   // safety net if "ended" never fires
 }
-function stopVideo(el) {
-  var v = el.querySelector('video'); if (!v) return;
-  setTimeout(function () { try { v.pause(); v.removeAttribute('src'); v.load(); } catch (e) {} if (v.parentNode) v.parentNode.removeChild(v); }, 2600);   // after the crossfade, free the memory
-}
+function stopVideo(el) { HomeSound.stop(el); }
 var PIN = '<svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>';
 function esc(t) { return String(t).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
 /* place: Hong Kong Chinese place name (tools/build_photos.py, from the photo's GPS).
