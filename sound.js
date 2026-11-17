@@ -93,12 +93,29 @@
     v.onended = function () { finish(1); };
     v.onerror = function () { finish(15); };   // can't play: the poster shows like a photo
     v.poster = poster || ''; v.muted = !soundOn(); v.src = src; el.appendChild(v); refresh();
+    if (actx && actx.state !== 'running' && actx.resume) try { actx.resume(); } catch (e) {}   // a paused sound route freezes the video on iPad
+    var wait = null, last = -1, still = 0, ticks = 0;
+    function tapToPlay() {   // the iPad refused to start it by itself (e.g. Low Power Mode): a big ▶ starts it with a tap
+      if (v._n !== n || el.querySelector('.tap')) return;
+      var b = document.createElement('button'); b.className = 'tap'; b.type = 'button'; b.textContent = '▶'; el.appendChild(b);
+      b.addEventListener('click', function (e) { e.stopPropagation(); clearTimeout(wait); if (b.parentNode) b.parentNode.removeChild(b); unlock(); v.muted = !soundOn(); var p3 = v.play(); if (p3 && p3.catch) p3.catch(function () { finish(3); }); });
+      wait = setTimeout(function () { if (b.parentNode) b.parentNode.removeChild(b); finish(1); }, 20000);
+    }
     var pr = v.play();
     if (pr && pr.catch) pr.catch(function () {
       if (v._n !== n) return;
-      if (!v.muted) { v.muted = true; var p2 = v.play(); if (p2 && p2.catch) p2.catch(function () { finish(15); }); }   // sound refused: play silently
-      else finish(15);   // e.g. Low Power Mode blocks autoplay
+      if (!v.muted) { v.muted = true; var p2 = v.play(); if (p2 && p2.catch) p2.catch(tapToPlay); }   // sound refused: play silently
+      else tapToPlay();
     });
+    // watchdog: if the picture stops moving for ~10 s, nudge it once, then move on
+    var dog = setInterval(function () {
+      if (v._n !== n || fin) { clearInterval(dog); return; }
+      if (v.paused || el.querySelector('.tap')) return;
+      ticks++; if (!v.currentTime && ticks >= 23) { clearInterval(dog); finish(1); return; }   // never started in ~45 s
+      if (v.readyState < 3) return;   // still downloading
+      if (v.currentTime === last) { still++; if (still === 3) { if (actx && actx.resume) try { actx.resume(); } catch (e) {} if (!v.muted && actx && actx.state !== 'running') v.muted = true; try { v.play(); } catch (e) {} } if (still >= 6) { clearInterval(dog); finish(1); } }
+      else { still = 0; last = v.currentTime; }
+    }, 2000);
     return v;
   };
   HS.stop = function (el) {
