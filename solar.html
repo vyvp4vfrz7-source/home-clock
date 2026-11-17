@@ -25,6 +25,20 @@ h1 span { display: block; font-size: 20px; font-weight: 500; letter-spacing: 1px
 #legend { position: absolute; right: 48px; bottom: 40px; display: grid; grid-template-columns: repeat(4, auto); gap: 8px 22px; font-size: 16px; color: #c9d6f2; text-shadow: 0 2px 8px #000; pointer-events: none; }
 #legend i { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 7px; vertical-align: 0; }
 #legend small { color: #7f90b6; margin-left: 4px; }
+#card { position: absolute; left: 48px; top: 160px; width: 390px; box-sizing: border-box; padding: 22px 26px 20px; border-radius: 22px; background: rgba(8,14,34,.72); border: 1px solid rgba(160,185,255,.18); box-shadow: 0 18px 50px rgba(0,0,0,.5); pointer-events: none; transition: opacity .6s; }
+#card.fade { opacity: 0; }
+#card .hd { display: flex; align-items: center; gap: 14px; }
+#card .dot { width: 44px; height: 44px; border-radius: 50%; flex: none; }
+#card h2 { margin: 0; font-size: 32px; font-weight: 700; }
+#card h2 small { display: block; font-size: 16px; font-weight: 500; color: #8fa3cc; letter-spacing: 1px; }
+#card dl { display: grid; grid-template-columns: auto 1fr; gap: 7px 14px; margin: 18px 0 14px; font-size: 18px; }
+#card dt { color: #8fa3cc; font-size: 15px; padding-top: 2px; }
+#card dd { margin: 0; color: #fff; font-variant-numeric: tabular-nums; }
+#card dd span { color: #8fa3cc; font-size: 14px; margin-left: 4px; }
+#card .fun { border-top: 1px solid rgba(160,185,255,.18); padding-top: 12px; font-size: 18px; line-height: 1.5; color: #ffe39a; }
+#card .fun div { font-size: 14px; color: #9fb0d4; margin-top: 3px; line-height: 1.4; }
+#flown { margin-top: 10px; color: #c9d6f2; }
+#flown b { font-variant-numeric: tabular-nums; }
 </style>
 </head>
 <body>
@@ -34,7 +48,9 @@ h1 span { display: block; font-size: 20px; font-weight: 500; letter-spacing: 1px
   <div id="facts">
     太陽帶住八大行星，以每秒 <b>230 公里</b>繞銀河系中心飛行，行一圈要 <b>2.3 億年</b>。行星今日嘅位置係真嘅，<b>1 年 = 6 秒</b>。
     <div class="en">The Sun carries the planets round the Milky Way at 230 km/s; one lap takes 230 million years. Planets start where they really are today. 1 year = 6 seconds (distances squeezed to fit).</div>
+    <div id="flown">睇緊呢頁嘅時候，我哋已經喺銀河飛咗 <b id="km">0</b> 公里<div class="en">Distance we have flown through the galaxy while this page has been showing</div></div>
   </div>
+  <div id="card"></div>
   <div id="legend"></div>
 </div>
 <script>
@@ -74,6 +90,37 @@ h1 span { display: block; font-size: 20px; font-weight: 500; letter-spacing: 1px
     var c = Math.cos(a) * p.r, d = Math.sin(a) * p.r;
     return [s[0] + U[0] * c + V[0] * d, s[1] + U[1] * c + V[1] * d, s[2] + U[2] * c + V[2] * d];
   }
+
+
+  // Spotlight card: one body at a time, every 10 s. [distance from Sun, year, day, moons, temperature, fact zh, fact en]
+  var INFO = {
+    Sun: ['—', '2.3 億年 · 繞銀河一圈', '25 日 days', '8 粒行星 planets', '5,500°C', '闊 139 萬公里，可以塞入 130 萬個地球；佢嘅光要 8 分 20 秒先到地球。', '1.39 million km wide: 1.3 million Earths would fit inside. Its light takes 8 min 20 s to reach us.'],
+    Mercury: ['5,790 萬公里 km', '88 日 days', '176 日 days', '0', '-180 ~ 430°C', '最細又最近太陽，冇空氣保暖，日頭熱到 430°C，夜晚凍到 -180°C。', 'Smallest planet. No air, so days hit 430°C and nights drop to -180°C.'],
+    Venus: ['1.08 億公里 km', '225 日 days', '117 日 days', '0', '465°C', '最熱嘅行星，熱過水星！仲倒轉咁自轉，太陽喺西邊出。', 'Hottest planet, hotter than Mercury. It spins backwards, so the Sun rises in the west.'],
+    Earth: ['1.5 億公里 km', '365.25 日 days', '24 小時 hrs', '1', '15°C', '唯一知道有生命嘅星球，七成係水。', 'The only planet known to have life; 71% of it is covered in water.'],
+    Mars: ['2.28 億公里 km', '687 日 days', '24 小時 37 分', '2', '-63°C', '有太陽系最高嘅火山奧林帕斯山，高 22 公里，係珠峰兩倍半。', 'Home of Olympus Mons, 22 km high: about 2.5 times Everest.'],
+    Jupiter: ['7.78 億公里 km', '11.9 年 yrs', '9 小時 56 分', '95', '-110°C', '大到塞得入 1,300 個地球；個大紅斑係一場比地球仲大、吹咗幾百年嘅風暴。', '1,300 Earths would fit inside. The Great Red Spot is a storm bigger than Earth, raging for centuries.'],
+    Saturn: ['14.3 億公里 km', '29.4 年 yrs', '10 小時 33 分', '274', '-140°C', '密度比水仲輕，有個夠大嘅浴缸佢會浮起！光環主要係冰塊。', 'Lighter than water: in a big enough bath it would float. Its rings are mostly chunks of ice.'],
+    Uranus: ['28.7 億公里 km', '84 年 yrs', '17 小時 14 分', '28', '-195°C', '打側瞓住咁轉，每個極有 42 年日光、跟住 42 年黑夜。', 'It spins on its side, so each pole gets 42 years of daylight, then 42 years of night.'],
+    Neptune: ['45 億公里 km', '165 年 yrs', '16 小時 6 分', '16', '-200°C', '風速最快，每小時 2,100 公里；1846 年發現至今只行咗一圈多啲。', 'Fastest winds in the solar system, 2,100 km/h. Found in 1846, it has done just over one lap since.']
+  };
+  var ORDER = ['Sun', 'Earth', 'Jupiter', 'Mars', 'Saturn', 'Venus', 'Neptune', 'Mercury', 'Uranus'], spot = -1, SPOT = 'Sun';
+  function showCard() {
+    spot = (spot + 1) % ORDER.length; SPOT = ORDER[spot];
+    var p = null; PL.forEach(function (q) { if (q[0] === SPOT) p = q; });
+    var I = INFO[SPOT], col = p ? p[5] : '#ffd23f', zh = p ? p[1] : '太陽';
+    var light = p ? Math.round(p[2] * 499) : 0, lt = light < 60 ? light + ' 秒 s' : light < 3600 ? Math.round(light / 60) + ' 分鐘 min' : (light / 3600).toFixed(1) + ' 小時 hrs';
+    var card = document.getElementById('card');
+    card.className = 'fade';
+    setTimeout(function () {
+      card.innerHTML = '<div class="hd"><div class="dot" style="background:radial-gradient(circle at 35% 35%,#fff,' + col + ' 45%,#000 140%);box-shadow:0 0 24px ' + col + '"></div><h2>' + zh + '<small>' + SPOT + '</small></h2></div><dl>' +
+        (p ? '<dt>離太陽</dt><dd>' + I[0] + '</dd><dt>陽光到達</dt><dd>' + lt + '<span>sunlight takes</span></dd>' : '<dt>大細</dt><dd>109 個地球咁闊<span>× Earth</span></dd>') +
+        '<dt>一年</dt><dd>' + I[1] + '</dd><dt>一日</dt><dd>' + I[2] + '</dd><dt>' + (p ? '月亮' : '家族') + '</dt><dd>' + I[3] + '<span>' + (p ? 'moons' : '') + '</span></dd><dt>溫度</dt><dd>' + I[4] + '</dd></dl>' +
+        '<div class="fun">' + I[5] + '<div>' + I[6] + '</div></div>';
+      card.className = '';
+    }, 600);
+  }
+  var shownAt = Date.now();
 
   // Camera follows the Sun from the side and slowly swings round.
   var SCALE = 70, DIST = 22, cam = { yaw: 0, pitch: 0, sun: [0, 0, 0] }, CXo = W * 0.64, CYo = H * 0.52;
@@ -175,6 +222,7 @@ h1 span { display: block; font-size: 20px; font-weight: 500; letter-spacing: 1px
     cx.drawImage(glow, S[0] - 120, S[1] - 120);
     cx.globalCompositeOperation = 'source-over';
     cx.fillStyle = '#fff3b0'; cx.beginPath(); cx.arc(S[0], S[1], 13, 0, 7); cx.fill();
+    if (SPOT === 'Sun') { cx.strokeStyle = 'rgba(255,255,255,.85)'; cx.lineWidth = 2; cx.beginPath(); cx.arc(S[0], S[1], 24 + 3 * Math.sin(t * 4), 0, 7); cx.stroke(); }
     // planets + names
     cx.font = '15px -apple-system, "PingFang HK", sans-serif'; cx.textBaseline = 'middle';
     PL.forEach(function (p, i) {
@@ -182,7 +230,8 @@ h1 span { display: block; font-size: 20px; font-weight: 500; letter-spacing: 1px
       cx.fillStyle = p[5]; cx.shadowColor = p[5]; cx.shadowBlur = 10;
       cx.beginPath(); cx.arc(q[0], q[1], r, 0, 7); cx.fill(); cx.shadowBlur = 0;
       if (p[0] === 'Saturn') { cx.strokeStyle = 'rgba(242,220,155,.8)'; cx.lineWidth = 1.5; cx.beginPath(); cx.ellipse(q[0], q[1], r * 2.1, r * 0.7, -0.4, 0, 7); cx.stroke(); }
-      if (i >= 2) { cx.fillStyle = 'rgba(220,230,255,.85)'; cx.fillText(p[1], q[0] + r + 6, q[1] - r - 4); }
+      if (p[0] === SPOT) { cx.strokeStyle = 'rgba(255,255,255,.85)'; cx.lineWidth = 2; cx.beginPath(); cx.arc(q[0], q[1], r + 9 + 3 * Math.sin(t * 4), 0, 7); cx.stroke(); }
+      if (i >= 2 || p[0] === SPOT) { cx.fillStyle = 'rgba(220,230,255,.85)'; cx.fillText(p[1], q[0] + r + 6, q[1] - r - 4); }
     });
     var y = startYear + t / YEAR_SECS, m = Math.floor((y % 1) * 12) + 1;
     document.getElementById('yr').textContent = Math.floor(y) + '年' + m + '月';
@@ -197,8 +246,15 @@ h1 span { display: block; font-size: 20px; font-weight: 500; letter-spacing: 1px
     t += dt; step(t); draw();
   }
   // Each time the page comes into view, start again from today's real positions.
-  var wasOn = false;
-  setInterval(function () { var on = document.body.classList.contains('on'); if (on && !wasOn) { reset(); draw(); } wasOn = on; }, 250);
+  var wasOn = false, cardAt = 0;
+  setInterval(function () {
+    var on = document.body.classList.contains('on');
+    if (on && !wasOn) { reset(); shownAt = Date.now(); spot = -1; cardAt = 0; draw(); }
+    wasOn = on; if (!on) return;
+    var now = Date.now();
+    if (now - cardAt >= 10000) { cardAt = now; showCard(); }
+    document.getElementById('km').textContent = Math.round((now - shownAt) / 1000 * 230).toLocaleString('en-GB');
+  }, 250);
   reset(); draw();
   requestAnimationFrame(loop);
 })();
