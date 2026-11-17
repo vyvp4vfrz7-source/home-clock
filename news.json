@@ -1,18 +1,17 @@
 {
- "updated": "2026-11-17T12:15+00:00",
+ "updated": "2026-11-17T13:41+00:00",
  "items": [
   {
    "src": "香港",
    "lang": "zh",
-   "t": "深圳APEC｜陳旭：會議成果文件磋商工作已啟動",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878164-20261117.htm",
-   "d": "亞太經合組織領導人非正式會議明日舉行。 2026年亞太經合組織高官會主席陳旭相信，會議一定會取得圓滿成功，會議的成果文件磋商工作已經啟動，在已取得的務實合作成果基礎上，推動發表一份富有雄心的領導人成果文件。 編輯：朱錫君",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878164_1_M_20261117195837.jpg",
-   "at": "2026-11-17T11:58+00:00",
+   "t": "選舉事務處就選舉委員會界別分組一般選舉舉行培訓及演練",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878177-20261117.htm",
+   "d": "2026年選舉委員會界別分組一般選舉，將於本月22日舉行。選舉事務處連日來為負責不同崗位的選舉工作人員，舉行多場培訓和模擬演練，加強他們對相關工作的了解及應變能力。選舉管理委員會主席陸啟康及委員石丹理，今日視察選舉事務處為投票站工作人員安排的實地排練。 是次訓練為相關選舉工作人員而設，旨在加深他們對投票站運作和發票工作的認識，包括熟習以電子選民登記冊系統發票，以及一旦需要啓動其後備模式的發票程序。 陸啟康表示，實地排練有助工作人員熟悉投…",
+   "at": "2026-11-17T13:18+00:00",
    "where": [
-    22.54,
-    114.06,
-    "深圳"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
@@ -32,9 +31,52 @@
   {
    "src": "世界",
    "lang": "zh",
+   "t": "伊朗指打擊巴林美軍雷達系統 巴林稱多次攔截伊朗空中打擊",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878174-20261117.htm",
+   "d": "伊朗伊斯蘭革命衛隊公共關係部門發聲明說，革命衛隊使用無人機，精準打擊美軍位於巴林的一個空軍基地內一套雷達系統。巴林國防軍總司令部同日發聲明指，巴林攔截了多次伊朗的空中打擊。 伊朗伊斯蘭革命衛隊說，侵犯伊朗領空、利用地區內軍事基地及設施對伊朗採取敵對行動，都將「得到回應」，美軍應為有關行為造成的後果，承擔責任。 巴林國防軍總司令部就說，巴林防空部隊攔截了多次伊朗的空中打擊，令打擊未能得逞。巴林內政部同日發聲明指危險已解除。 編輯：羅宇光",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878174_1_M_20261117211255.jpg",
+   "at": "2026-11-17T12:12+00:00",
+   "where": [
+    32.4,
+    53.7,
+    "伊朗"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "深圳APEC｜陳旭：會議成果文件磋商工作已啟動",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878164-20261117.htm",
+   "d": "亞太經合組織領導人非正式會議明日舉行。 2026年亞太經合組織高官會主席陳旭相信，會議一定會取得圓滿成功，會議的成果文件磋商工作已經啟動，在已取得的務實合作成果基礎上，推動發表一份富有雄心的領導人成果文件。 編輯：朱錫君",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878164_1_M_20261117195837.jpg",
+   "at": "2026-11-17T11:58+00:00",
+   "where": [
+    22.54,
+    114.06,
+    "深圳"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "中國以AI奇境接待各國領袖，但他們看不到的另一面是什麼？",
+   "u": "https://www.bbc.com/zhongwen/articles/crgj360lnqv6o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "離開深圳充滿科技感的天際線後，你將會看到習近平治下中國所面臨的種種挑戰。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/c637/live/5938bed0-e1b4-11f1-9a3f-99aca912798e.jpg",
+   "at": "2026-11-17T11:44+00:00",
+   "where": [
+    34.0,
+    108.0,
+    "中國"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
    "t": "深圳APEC｜習近平稱中墨關係對促進全球南方自強具重要意義",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878173-20261117.htm",
    "d": "國家主席習近平下午在深圳，會見來華出席亞太經合組織領導人非正式會議的墨西哥總統辛鮑姆。 習近平指出，中國與墨西哥同為全球南方大國，都處在發展振興的關鍵階段。在當前複雜多變的國際形勢下，推動中墨關係向更高水平、更寬領域、更深層次發展，對實現各自國家發展戰略、促進全球南方聯合自強具有重要意義。 新華社報道，辛鮑姆說墨西哥堅定恪守一個中國原則，高度重視對華關係。墨方將主辦2028年亞太經合組織會議，願意與中方加強多邊協調，堅持多邊主義，維護全…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878173_1_M_20261117210647.jpg",
    "at": "2026-11-17T12:07+00:00",
    "where": [
     22.54,
@@ -59,15 +101,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "中國以AI奇境接待各國領袖，但他們看不到的另一面是什麼？",
-   "u": "https://www.bbc.com/zhongwen/articles/crgj360lnqv6o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "離開深圳充滿科技感的天際線後，你將會看到習近平治下中國所面臨的種種挑戰。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/c637/live/5938bed0-e1b4-11f1-9a3f-99aca912798e.jpg",
-   "at": "2026-11-17T11:44+00:00",
+   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
+   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
+   "at": "2026-11-17T09:49+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -76,6 +118,7 @@
    "t": "深圳APEC｜習近平晤藤森慶子 稱錢凱港促進亞洲拉美經貿合作",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878172-20261117.htm",
    "d": "國家主席習近平下午在深圳，會見來華出席亞太經合組織領導人非正式會議的秘魯總統藤森慶子。 習近平指出，中秘自由貿易協定升級議定書，兩星期前正式生效，中國企業參與建設的錢凱港，有力促進了亞洲與拉美經貿合作。習近平強調今年是中國「十五五」開局之年，中方願意與秘方共享中國式現代化機遇，雙方可加強多邊協作，在聯合國、亞太經合組織等框架內，加強溝通與協調，維護真正多邊主義與自由貿易，共同捍衛國際公平正義。 新華社報道，藤森慶子表示，秘魯堅定恪守一個…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878172_1_M_20261117210503.jpg",
    "at": "2026-11-17T11:59+00:00",
    "where": [
     22.54,
@@ -99,15 +142,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
-   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
-   "at": "2026-11-17T09:49+00:00",
+   "t": "APEC深圳峰會：賴清德派施振榮出席 台灣參會空間再成焦點",
+   "u": "https://www.bbc.com/zhongwen/articles/ck5y1g89jnnxo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣試圖以企業家身分與科技優勢擴大能見度，中國則以原則框架維持主導權。APEC作為平台，或許能讓雙方同時在場，但仍難以消弭兩岸在全球外交參與的既有分歧。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/e760/live/fbdccce0-e262-11f1-900c-895604014268.jpg",
+   "at": "2026-11-17T08:44+00:00",
    "where": [
-    23.7,
-    121.0,
-    "台灣"
+    22.54,
+    114.06,
+    "深圳"
    ]
   },
   {
@@ -141,47 +184,6 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "APEC深圳峰會：賴清德派施振榮出席 台灣參會空間再成焦點",
-   "u": "https://www.bbc.com/zhongwen/articles/ck5y1g89jnnxo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "台灣試圖以企業家身分與科技優勢擴大能見度，中國則以原則框架維持主導權。APEC作為平台，或許能讓雙方同時在場，但仍難以消弭兩岸在全球外交參與的既有分歧。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/e760/live/fbdccce0-e262-11f1-900c-895604014268.jpg",
-   "at": "2026-11-17T08:44+00:00",
-   "where": [
-    22.54,
-    114.06,
-    "深圳"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "美國聯合航空一度系統故障 多個航班延誤或取消",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878170-20261117.htm",
-   "d": "美國聯合航空公司於當地星期一，一度出現系統故障，多個航班延誤或取消，公司方面向客戶致歉。 報道指故障持續約1小時40分鐘。美聯航在一份聲明中說，系統故障問題已得到解決，無跡象表明事件與網絡安全問題有關。聲明又說，在飛行途中的航班及由美聯航旗下聯翔公司營運的航班，未受影響。 路透社報道，代表美聯航機師的工會的一份內部備忘錄指出，美聯航系統故障影響機師所使用包括機組人員通信系統在內的多項應用程式，系統故障導致公司無法向離港航班提供最終飛機載…",
-   "at": "2026-11-17T11:47+00:00",
-   "where": [
-    38.9,
-    -77.04,
-    "美國"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "李家超：五年規劃助鞏固香港國際航運中心地位",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878167-20261117.htm",
-   "d": "行政長官李家超出席「亞洲物流航運及空運會議」，他致辭時表示，《香港第一個五年規劃》有助鞏固本港作為國際航運中心和航空樞紐的地位。 李家超在另一個論壇致辭時又提到，香港要強化「四中心、一高地」的定位，主動對接國家發展戰略。 編輯：梁家奇",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878167_1_M_20261117193739.jpg",
-   "at": "2026-11-17T11:37+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
    "t": "歐盟峰會前夕 貝安德稱英國脫歐「得不償失」",
    "u": "https://www.bbc.com/zhongwen/articles/c68x0j2r8lkyo/trad?at_medium=RSS&at_campaign=rss",
    "d": "英國首相在倫敦金融城市長晚宴上向與會人士表示，「我們得到的脫歐結果並沒有奏效」。",
@@ -196,11 +198,11 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "深圳APEC｜習近平晤蘇林 稱中越要妥控海上分歧推進海上合作",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878128-20261117.htm",
-   "d": "中共中央總書記、國家主席習近平在深圳，會見來華出席亞太經合組織領導人非正式會議的越共中央總書記、國家主席蘇林。 習近平表示，中越要增進互信團結，深化全面合作，共守和平穩定、共促發展繁榮；要深化多維聯通，促進利益融合，推動智慧口岸和跨境經濟合作區早日落地，拓展數字轉型、綠色低碳等合作，探索人工智能應用合作。他又說雙方要妥善管控海上分歧，穩步推進海上合作，攜手落實四大全球倡議，加強在聯合國、中國-東盟、瀾湄合作等框架內協作。 新華社報道，蘇…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878128_1_M_20261117162604.jpg",
-   "at": "2026-11-17T07:25+00:00",
+   "t": "深圳APEC｜習近平在深圳與多國領袖雙邊會面",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878161-20261117.htm",
+   "d": "亞太經合組織領導人非正式會議，即將在深圳舉行。東道主，國家主席習近平分別與多位與會的外國領導人，舉行雙邊會面，包括加拿大總理卡尼、越共中央總書記、國家主席蘇林，及墨西哥總統辛鮑姆等。 其中，習近平與卡尼會面時，就發展中加關係提出四點意見，又表示，從中加關係這些年發展歷程，得出的重要啟示，就是相互尊重、平等互利、求同存異。中方願同加方一道努力，推動中加新型戰略夥伴關係不斷向前發展。 編輯：朱錫君",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878161_1_M_20261117194833.jpg",
+   "at": "2026-11-17T11:48+00:00",
    "where": [
     22.54,
     114.06,
@@ -210,10 +212,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "尖東聖誕燈飾亮燈 羅淑佩：尖東燈飾成香港冬日節慶標誌性風景",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878166-20261117.htm",
-   "d": "尖東百週年紀念花園傍晚舉行聖誕燈飾亮燈儀式。 東尖沙咀地產發展商聯會主辦「閃爍尖東耀香江」，文化體育及旅遊局局長羅淑佩致辭時表示，尖東燈飾照耀維港，成為香港冬日節慶的標誌性風景，深受市民和旅客的喜愛，陪伴香港超過40年，局方會繼續與香港旅遊發展局、聯會及各界夥伴緊密合作，豐富具香港特色的主題旅遊產品和體驗，吸引更多旅客「一訪再訪」。 民政及青年事務局局長麥美娟致辭時表示，民青局一直致力完善地區治理，透過協調「政、商、民」三方力量，精準回…",
-   "at": "2026-11-17T11:23+00:00",
+   "t": "李家超：五年規劃助鞏固香港國際航運中心地位",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878167-20261117.htm",
+   "d": "行政長官李家超出席「亞洲物流航運及空運會議」，他致辭時表示，《香港第一個五年規劃》有助鞏固本港作為國際航運中心和航空樞紐的地位。 李家超在另一個論壇致辭時又提到，香港要強化「四中心、一高地」的定位，主動對接國家發展戰略。 編輯：梁家奇",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878167_1_M_20261117193739.jpg",
+   "at": "2026-11-17T11:37+00:00",
    "where": [
     22.32,
     114.17,
@@ -237,24 +240,24 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "習近平：巴布政府堅守一個中國原則是順應歷史大勢的正義之舉",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878116-20261117.htm",
-   "d": "國家主席習近平在深圳會見出席亞太經合組織領導人非正式會議的巴布亞新幾內亞總理馬拉佩。 習近平指出，巴新政府堅定恪守一個中國原則，以實際行動支持中國維護領土完整和國家統一，是順應歷史大勢的正義之舉。 習近平強調，中國願同巴新加強高質量共建「一帶一路」同「聯通巴新」計劃等戰略對接，深化合作，拓展合作新空間，幫助巴新實現可持續發展。雙方要加強多邊場合的相互協調，維護國際公平正義，拓展應對氣候變化、海洋環境保護等合作，維護全球南方共同利益。 新…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878116_1_M_20261117142118.jpg",
-   "at": "2026-11-17T06:21+00:00",
+   "t": "美國聯合航空一度系統故障 多個航班延誤或取消",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878170-20261117.htm",
+   "d": "美國聯合航空公司於當地星期一，一度出現系統故障，多個航班延誤或取消，公司方面向客戶致歉。 報道指故障持續約1小時40分鐘。美聯航在一份聲明中說，系統故障問題已得到解決，無跡象表明事件與網絡安全問題有關。聲明又說，在飛行途中的航班及由美聯航旗下聯翔公司營運的航班，未受影響。 路透社報道，代表美聯航機師的工會的一份內部備忘錄指出，美聯航系統故障影響機師所使用包括機組人員通信系統在內的多項應用程式，系統故障導致公司無法向離港航班提供最終飛機載…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878170_1_M_20261117205908.jpg",
+   "at": "2026-11-17T11:47+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "警方接逾40人報案指兩店疑拖欠寄賣款項 涉款共1660萬元",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878160-20261117.htm",
-   "d": "警方接獲超40人報案，指兩間寄賣店分別懷疑拖欠寄賣款項，涉款共逾1660萬元。 警方表示，截至下午3時，共接獲37人報案，指銅鑼灣羅素街一間店舖懷疑拖欠寄賣款項，涉款約1400萬元。 另外，警方共接獲6人報案，指金鐘夏愨道一間店舖懷疑拖欠寄賣款項，涉款約260萬元。 警方暫時將相關案件列作「欺詐」處理，案件仍在調查中，並交由灣仔警區重案組及中區警區重案組跟進。 編輯：鍾慧儀",
-   "at": "2026-11-17T11:06+00:00",
+   "t": "尖東聖誕燈飾亮燈 羅淑佩：尖東燈飾成香港冬日節慶標誌性風景",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878166-20261117.htm",
+   "d": "尖東百週年紀念花園傍晚舉行聖誕燈飾亮燈儀式。 東尖沙咀地產發展商聯會主辦「閃爍尖東耀香江」，文化體育及旅遊局局長羅淑佩致辭時表示，尖東燈飾照耀維港，成為香港冬日節慶的標誌性風景，深受市民和旅客的喜愛，陪伴香港超過40年，局方會繼續與香港旅遊發展局、聯會及各界夥伴緊密合作，豐富具香港特色的主題旅遊產品和體驗，吸引更多旅客「一訪再訪」。 民政及青年事務局局長麥美娟致辭時表示，民青局一直致力完善地區治理，透過協調「政、商、民」三方力量，精準回…",
+   "at": "2026-11-17T11:23+00:00",
    "where": [
     22.32,
     114.17,
@@ -278,10 +281,10 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "深圳APEC｜習近平晤加國總理 稱兩國要妥控及化解矛盾分歧",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878113-20261117.htm",
-   "d": "國家主席習近平在深圳會見來華出席亞太經合組織領導人非正式會議的外國領袖。 習近平在會見加拿大總理卡尼時表示，中加關係的發展歷程給予的啟示，就是相互尊重、平等互利、求同存異。中方願同加方一道努力，推動中加新型戰略伙伴關係不斷向前發展，做相互尊重、共同發展、彼此信任、相互協作的伙伴。 習近平就發展中加關係提出四點意見，要增進政治互信，建設性對話溝通，妥善管控和化解矛盾分歧；要進一步深化傳統和新興合作，實現優勢互補、互利共贏。雙方又要加強協調…",
-   "at": "2026-11-17T05:51+00:00",
+   "t": "深圳APEC｜習近平晤蘇林 稱中越要妥控海上分歧推進海上合作",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878128-20261117.htm",
+   "d": "中共中央總書記、國家主席習近平在深圳，會見來華出席亞太經合組織領導人非正式會議的越共中央總書記、國家主席蘇林。 習近平表示，中越要增進互信團結，深化全面合作，共守和平穩定、共促發展繁榮；要深化多維聯通，促進利益融合，推動智慧口岸和跨境經濟合作區早日落地，拓展數字轉型、綠色低碳等合作，探索人工智能應用合作。他又說雙方要妥善管控海上分歧，穩步推進海上合作，攜手落實四大全球倡議，加強在聯合國、中國-東盟、瀾湄合作等框架內協作。 新華社報道，蘇…",
+   "at": "2026-11-17T07:25+00:00",
    "where": [
     22.54,
     114.06,
@@ -291,10 +294,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "路政署：皇崗新聯檢大樓公共運輸交匯處急轉彎路段已加防滑物料",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878159-20261117.htm",
-   "d": "路政署表示，早前已安排在皇崗新聯檢大樓公共運輸交匯處內主要急轉彎路段，加設路面防滑物料。署方表示，路面防滑度受天雨、路面狀況及場地整潔等因素影響，相關部門十分重視道路安全，一直因應港方實際需要及使用情況進行適當優化及調整。 運輸署已要求巴士公司加強車長訓練，並提醒車長在駕駛時注意安全。 署方表示，因應口岸開通後，公共運輸交匯處的使用情況，於交匯處其他路段加設防滑措施工程已於星期一起，分階段展開，範圍將覆蓋交匯處內餘下所有路段，以加強相關…",
-   "at": "2026-11-17T10:50+00:00",
+   "t": "警方接逾40人報案指兩店疑拖欠寄賣款項 涉款共1660萬元",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878160-20261117.htm",
+   "d": "警方接獲超40人報案，指兩間寄賣店分別懷疑拖欠寄賣款項，涉款共逾1660萬元。 警方表示，截至下午3時，共接獲37人報案，指銅鑼灣羅素街一間店舖懷疑拖欠寄賣款項，涉款約1400萬元。 另外，警方共接獲6人報案，指金鐘夏愨道一間店舖懷疑拖欠寄賣款項，涉款約260萬元。 警方暫時將相關案件列作「欺詐」處理，案件仍在調查中，並交由灣仔警區重案組及中區警區重案組跟進。 編輯：鍾慧儀",
+   "at": "2026-11-17T11:06+00:00",
    "where": [
     22.32,
     114.17,
@@ -318,23 +321,23 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "深圳APEC｜習近平在深圳會見加拿大總理卡尼",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878094-20261117.htm",
-   "d": "國家主席習近平同出席APEC領導人非正式會議的外國領導人舉行雙邊會晤。 他早上在深圳與加拿大總理卡尼會面。 編輯：方潤南",
-   "at": "2026-11-17T02:58+00:00",
+   "t": "習近平：巴布政府堅守一個中國原則是順應歷史大勢的正義之舉",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878116-20261117.htm",
+   "d": "國家主席習近平在深圳會見出席亞太經合組織領導人非正式會議的巴布亞新幾內亞總理馬拉佩。 習近平指出，巴新政府堅定恪守一個中國原則，以實際行動支持中國維護領土完整和國家統一，是順應歷史大勢的正義之舉。 習近平強調，中國願同巴新加強高質量共建「一帶一路」同「聯通巴新」計劃等戰略對接，深化合作，拓展合作新空間，幫助巴新實現可持續發展。雙方要加強多邊場合的相互協調，維護國際公平正義，拓展應對氣候變化、海洋環境保護等合作，維護全球南方共同利益。 新…",
+   "at": "2026-11-17T06:21+00:00",
    "where": [
-    22.54,
-    114.06,
-    "深圳"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "環保署：責成I.PARK1承建商加強消除火警風險收緊禁煙範圍",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878158-20261117.htm",
-   "d": "石鼓洲旁人工島綜合廢物管理設施第一期（I.PARK1）上月26日發生火警。環保署表示，已收到消防處提供的調查報告，並留意到報告指出火警成因可能與燒焊工程或吸煙有關，已責成承建商即時檢視及加強其消除火警風險的措施，並特別針對處理包括燒焊在內的熱工序及進一步收緊地盤全面禁煙的範疇。 環保署重申，一直非常重視轄下廢物管理設施的安全水平，並透過多管齊下的措施，嚴格督促承建商落實各項安全與防火管理，包括執行地盤禁煙。I.PARK1承建商自今年一月…",
-   "at": "2026-11-17T10:46+00:00",
+   "t": "路政署：皇崗新聯檢大樓公共運輸交匯處急轉彎路段已加防滑物料",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878159-20261117.htm",
+   "d": "路政署表示，早前已安排在皇崗新聯檢大樓公共運輸交匯處內主要急轉彎路段，加設路面防滑物料。署方表示，路面防滑度受天雨、路面狀況及場地整潔等因素影響，相關部門十分重視道路安全，一直因應港方實際需要及使用情況進行適當優化及調整。 運輸署已要求巴士公司加強車長訓練，並提醒車長在駕駛時注意安全。 署方表示，因應口岸開通後，公共運輸交匯處的使用情況，於交匯處其他路段加設防滑措施工程已於星期一起，分階段展開，範圍將覆蓋交匯處內餘下所有路段，以加強相關…",
+   "at": "2026-11-17T10:50+00:00",
    "where": [
     22.32,
     114.17,
@@ -358,10 +361,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "港怡醫院有病人接受腎臟替代治療被輸錯劑量 涉事護士已離職",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878155-20261117.htm",
-   "d": "衞生署在「醫療風險警示事件及重要風險事件統計數字」公布，有病人在私家醫院接受連續性腎臟替代治療期間，被輸入錯誤劑量的濃縮電解質。港怡醫院回覆查詢說，一名病人早前入院接受連續性腎臟替代治療，當值護士曾誤調濃縮電解質的劑量，發現後立刻修正相關劑量，病人情況一直維持穩定。 院方又指，得悉事件後已立即展開調查，並呈報衞生署，同時向病人溝通及解釋事件，涉事護士已離職。 編輯：鍾慧儀",
-   "at": "2026-11-17T10:11+00:00",
+   "t": "環保署：責成I.PARK1承建商加強消除火警風險收緊禁煙範圍",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878158-20261117.htm",
+   "d": "石鼓洲旁人工島綜合廢物管理設施第一期（I.PARK1）上月26日發生火警。環保署表示，已收到消防處提供的調查報告，並留意到報告指出火警成因可能與燒焊工程或吸煙有關，已責成承建商即時檢視及加強其消除火警風險的措施，並特別針對處理包括燒焊在內的熱工序及進一步收緊地盤全面禁煙的範疇。 環保署重申，一直非常重視轄下廢物管理設施的安全水平，並透過多管齊下的措施，嚴格督促承建商落實各項安全與防火管理，包括執行地盤禁煙。I.PARK1承建商自今年一月…",
+   "at": "2026-11-17T10:46+00:00",
    "where": [
     22.32,
     114.17,
@@ -427,11 +430,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Lindsay Clancy to face retrial next year for deaths of her three children",
-   "u": "https://www.bbc.co.uk/news/articles/cw5y1v8de35go?at_medium=RSS&at_campaign=rss",
-   "d": "The 36-year-old's first trial this year fell apart when a 12-person jury failed to reach a verdict.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0f3a/live/c50f43d0-e1dd-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-16T19:30+00:00",
+   "t": "We couldn't afford a house alone, so we bought one with strangers",
+   "u": "https://www.bbc.co.uk/news/articles/c5742lwdyzglo?at_medium=RSS&at_campaign=rss",
+   "d": "People who can't afford to get on the housing ladder are buying homes with someone they don't know.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/da1d/live/2cfb5880-e265-11f1-900c-895604014268.jpg",
+   "at": "2026-11-17T00:00+00:00",
    "where": [
     38.9,
     -77.04,
@@ -445,7 +448,7 @@
    "u": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
    "d": "Ukraine says the attack took weeks to plan, while the Kremlin vows to rebuild the strategic bridge.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/222d/live/db8315b0-e278-11f1-99a1-253766e7ad8b.png",
-   "at": "2026-11-17T10:45+00:00",
+   "at": "2026-11-17T13:01+00:00",
    "where": [
     49.0,
     31.4,
@@ -469,15 +472,15 @@
   {
    "src": "LATIN AMERICA",
    "lang": "en",
-   "t": "Mexican drug lord Miguel Ángel Félix Gallardo dies age 80",
-   "u": "https://www.bbc.co.uk/news/articles/c51k9nkwrndxo?at_medium=RSS&at_campaign=rss",
-   "d": "Known as the 'Boss of Bosses', he was the head of all-powerful Guadalajara Cartel in the 1980s before his arrest broke up his drug organisation.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9e63/live/e166e240-e19c-11f1-93e1-3b657b665bcf.jpg",
-   "at": "2026-11-16T03:21+00:00",
+   "t": "Gunmen kill Costa Rican journalist who reported on drugs trade",
+   "u": "https://www.bbc.co.uk/news/articles/c6ly7g5lx7gyo?at_medium=RSS&at_campaign=rss",
+   "d": "Rodríguez had denounced alleged links between criminal organisations and powerful figures in Costa Rica.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1bb5/live/140763d0-e26c-11f1-b19c-7b42f37bea48.jpg",
+   "at": "2026-11-17T11:58+00:00",
    "where": [
-    23.6,
-    -102.6,
-    "墨西哥"
+    -12.0,
+    -60.0,
+    "拉丁美洲"
    ]
   },
   {
@@ -486,8 +489,8 @@
    "t": "Mozambique opposition leader faces trial over deadly 2024 election unrest",
    "u": "https://www.bbc.co.uk/news/articles/crq5vl1l6z2po?at_medium=RSS&at_campaign=rss",
    "d": "Venâncio Mondlane faces several charges over 2024 post-election protests that left hundreds of people dead.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8a7e/live/95f17ee0-e257-11f1-8199-439bbe0918ee.jpg",
-   "at": "2026-11-17T09:20+00:00",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8344/live/da8191f0-e27d-11f1-bd1e-f9c53347c5a6.jpg",
+   "at": "2026-11-17T12:35+00:00",
    "where": [
     -25.97,
     32.57,
@@ -539,11 +542,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Customers report service outages at major US banks",
-   "u": "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
-   "d": "Chase Bank, the largest US bank, said a software bug might be causing the issue, but that it was not \"systemic'\" or \"cyber-related\".",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d633/live/6fb04df0-e212-11f1-b9ca-b9964628501b.jpg",
-   "at": "2026-11-17T00:18+00:00",
+   "t": "Lindsay Clancy to face retrial next year for deaths of her three children",
+   "u": "https://www.bbc.co.uk/news/articles/cw5y1v8de35go?at_medium=RSS&at_campaign=rss",
+   "d": "The 36-year-old's first trial this year fell apart when a 12-person jury failed to reach a verdict.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0f3a/live/c50f43d0-e1dd-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-16T19:30+00:00",
    "where": [
     38.9,
     -77.04,
@@ -581,15 +584,15 @@
   {
    "src": "LATIN AMERICA",
    "lang": "en",
-   "t": "Ashes of exiled Nobel Laureate Miguel Ángel Asturias returned to Guatemala",
-   "u": "https://www.bbc.co.uk/news/articles/cvde1klewg88o?at_medium=RSS&at_campaign=rss",
-   "d": "The poet, writer and diplomat died in Europe in 1974 having been forced to leave his native country.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/da54/live/f1263820-e1b5-11f1-9a3f-99aca912798e.jpg",
-   "at": "2026-11-16T12:42+00:00",
+   "t": "Mexican drug lord Miguel Ángel Félix Gallardo dies age 80",
+   "u": "https://www.bbc.co.uk/news/articles/c51k9nkwrndxo?at_medium=RSS&at_campaign=rss",
+   "d": "Known as the 'Boss of Bosses', he was the head of all-powerful Guadalajara Cartel in the 1980s before his arrest broke up his drug organisation.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9e63/live/e166e240-e19c-11f1-93e1-3b657b665bcf.jpg",
+   "at": "2026-11-16T03:21+00:00",
    "where": [
-    14.63,
-    -90.51,
-    "危地馬拉"
+    23.6,
+    -102.6,
+    "墨西哥"
    ]
   },
   {
@@ -651,6 +654,118 @@
   {
    "src": "US & CANADA",
    "lang": "en",
+   "t": "Customers report service outages at major US banks",
+   "u": "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
+   "d": "Chase Bank, the largest US bank, said a software bug might be causing the issue, but that it was not \"systemic'\" or \"cyber-related\".",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d633/live/6fb04df0-e212-11f1-b9ca-b9964628501b.jpg",
+   "at": "2026-11-17T00:18+00:00",
+   "where": [
+    38.9,
+    -77.04,
+    "美國"
+   ]
+  },
+  {
+   "src": "EUROPE",
+   "lang": "en",
+   "t": "Dozens injured after trains collide head-on in Prague",
+   "u": "https://www.bbc.co.uk/news/articles/c6reg7r589nro?at_medium=RSS&at_campaign=rss",
+   "d": "The low speed collision outside the Czech capital's main station triggered a massive emergency response.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7e5b/live/253833c0-e274-11f1-b639-73d1df360b76.jpg",
+   "at": "2026-11-17T11:48+00:00",
+   "where": [
+    50.08,
+    14.44,
+    "捷克"
+   ]
+  },
+  {
+   "src": "AUSTRALIA",
+   "lang": "en",
+   "t": "Final whistle a blessing as Scotland edge dull Test against Australia",
+   "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cmd91np3pqk0o?at_medium=RSS&at_campaign=rss",
+   "d": "Scotland edge a dull Nations Championship encounter against Australia at Murrayfield.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/43db/live/232a4100-e124-11f1-9198-73c27e618086.jpg",
+   "at": "2026-11-15T17:17+00:00",
+   "where": [
+    56.5,
+    -4.2,
+    "蘇格蘭"
+   ]
+  },
+  {
+   "src": "LATIN AMERICA",
+   "lang": "en",
+   "t": "Ashes of exiled Nobel Laureate Miguel Ángel Asturias returned to Guatemala",
+   "u": "https://www.bbc.co.uk/news/articles/cvde1klewg88o?at_medium=RSS&at_campaign=rss",
+   "d": "The poet, writer and diplomat died in Europe in 1974 having been forced to leave his native country.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/da54/live/f1263820-e1b5-11f1-9a3f-99aca912798e.jpg",
+   "at": "2026-11-16T12:42+00:00",
+   "where": [
+    14.63,
+    -90.51,
+    "危地馬拉"
+   ]
+  },
+  {
+   "src": "AFRICA",
+   "lang": "en",
+   "t": "Owono did not deserve 12-match ban - Pique",
+   "u": "https://www.bbc.co.uk/sport/football/articles/c91430yk4el2o?at_medium=RSS&at_campaign=rss",
+   "d": "FC Andorra owner Gerard Pique says goalkeeper Jesus Owono did not deserve the 12-match suspension he received following his challenge which resulted in the death of Tenerife forward Jesus de Miguel.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/729a/live/738fe790-e25e-11f1-84cb-b9a30b11458c.jpg",
+   "at": "2026-11-17T08:28+00:00",
+   "where": [
+    5.0,
+    20.0,
+    "非洲"
+   ]
+  },
+  {
+   "src": "HONG KONG",
+   "lang": "en",
+   "t": "Welding or smoking suspected in Shek Kwu Chau fire",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1878138-20261117.htm",
+   "d": "The Fire Services Department on Tuesday said a fire at a waste-management facility on an artificial island off Shek Kwu Chau last month was suspected to be related to welding works or smoking. In a reply to media enquiri…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878138_1_M_20261117162005.jpg",
+   "at": "2026-11-17T08:20+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "UK",
+   "lang": "en",
+   "t": "UK sanctions firms over Israeli West Bank settlements",
+   "u": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+   "d": "It marks the first sanctions since the UK announced a tougher approach to Israeli actions in the territory.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b109/live/1b3b72b0-e283-11f1-b166-176de21e2352.jpg",
+   "at": "2026-11-17T13:10+00:00",
+   "where": [
+    31.5,
+    34.9,
+    "以色列"
+   ]
+  },
+  {
+   "src": "ASIA",
+   "lang": "en",
+   "t": "Japan sends up jets after alleged Russian incursion of its airspace",
+   "u": "https://www.bbc.co.uk/news/articles/c60evw20qe47o?at_medium=RSS&at_campaign=rss",
+   "d": "Taiwan and South Korea also responded to Russian military aircraft detected near their airspaces.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/af8a/live/92244d70-e25b-11f1-8bed-2b9fd907b22d.jpg",
+   "at": "2026-11-17T07:44+00:00",
+   "where": [
+    55.75,
+    37.6,
+    "俄羅斯"
+   ]
+  },
+  {
+   "src": "US & CANADA",
+   "lang": "en",
    "t": "Trump says Alaska voters chose the wrong Dan Sullivan. What does the data show?",
    "u": "https://www.bbc.co.uk/news/articles/cxnv4jlr269eo?at_medium=RSS&at_campaign=rss",
    "d": "Votes are still being counted in the Alaska Senate race, with Democrat Mary Peltola ahead of Republican incumbent Senator Dan S Sullivan.",
@@ -679,15 +794,15 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "Final whistle a blessing as Scotland edge dull Test against Australia",
-   "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cmd91np3pqk0o?at_medium=RSS&at_campaign=rss",
-   "d": "Scotland edge a dull Nations Championship encounter against Australia at Murrayfield.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/43db/live/232a4100-e124-11f1-9198-73c27e618086.jpg",
-   "at": "2026-11-15T17:17+00:00",
+   "t": "Australian cricket's sandpapergate is back - and it cuts deep in a 'nation of good sports'",
+   "u": "https://www.bbc.co.uk/news/articles/c6702z750zvyo?at_medium=RSS&at_campaign=rss",
+   "d": "Claims the entire Australian team knew of the 2018 sandpaper cheating plot are dividing the cricket world.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/97a5/live/fac09110-df39-11f1-a701-fddedf244c16.jpg",
+   "at": "2026-11-13T08:20+00:00",
    "where": [
-    56.5,
-    -4.2,
-    "蘇格蘭"
+    -25.3,
+    133.8,
+    "澳洲"
    ]
   },
   {
@@ -716,118 +831,6 @@
     14.7,
     -17.44,
     "塞內加爾"
-   ]
-  },
-  {
-   "src": "HONG KONG",
-   "lang": "en",
-   "t": "Welding or smoking suspected in Shek Kwu Chau fire",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1878138-20261117.htm",
-   "d": "The Fire Services Department on Tuesday said a fire at a waste-management facility on an artificial island off Shek Kwu Chau last month was suspected to be related to welding works or smoking. In a reply to media enquiri…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878138_1_M_20261117162005.jpg",
-   "at": "2026-11-17T08:20+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "UK",
-   "lang": "en",
-   "t": "Failed asylum seekers face removal without five-day notice period",
-   "u": "https://www.bbc.co.uk/news/articles/cq20xnp2egm8o?at_medium=RSS&at_campaign=rss",
-   "d": "Under proposed new rules, the Home Office would have six months in which to remove a person without telling them in advance.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b8c2/live/ba87c490-e210-11f1-a541-6d0c391a4254.jpg",
-   "at": "2026-11-17T01:24+00:00",
-   "where": [
-    52.5,
-    -1.5,
-    "英國"
-   ]
-  },
-  {
-   "src": "ASIA",
-   "lang": "en",
-   "t": "Japan sends up jets after alleged Russian incursion of its airspace",
-   "u": "https://www.bbc.co.uk/news/articles/c60evw20qe47o?at_medium=RSS&at_campaign=rss",
-   "d": "Taiwan and South Korea also responded to Russian military aircraft detected near their airspaces.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/af8a/live/92244d70-e25b-11f1-8bed-2b9fd907b22d.jpg",
-   "at": "2026-11-17T07:44+00:00",
-   "where": [
-    55.75,
-    37.6,
-    "俄羅斯"
-   ]
-  },
-  {
-   "src": "US & CANADA",
-   "lang": "en",
-   "t": "Vance says he will decide 'sometime next year' about 2028 US presidential run",
-   "u": "https://www.bbc.co.uk/news/articles/cwkgr9m41engo?at_medium=RSS&at_campaign=rss",
-   "d": "The US vice-president tells Fox News that when he makes a decision to run or otherwise, he will \"be all in on whatever that decision is\".",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/31c6/live/3f22aa50-e255-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-17T03:07+00:00",
-   "where": [
-    38.9,
-    -77.04,
-    "美國"
-   ]
-  },
-  {
-   "src": "EUROPE",
-   "lang": "en",
-   "t": "Gérard Depardieu drops appeal against sexual assault conviction",
-   "u": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss",
-   "d": "The French film star was due to start an appeal trial after being found guilty of sexually assaulting two women on a Paris set.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6e5e/live/d9ec2540-e1b8-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-16T13:40+00:00",
-   "where": [
-    50.0,
-    10.0,
-    "歐洲"
-   ]
-  },
-  {
-   "src": "AUSTRALIA",
-   "lang": "en",
-   "t": "Australian cricket's sandpapergate is back - and it cuts deep in a 'nation of good sports'",
-   "u": "https://www.bbc.co.uk/news/articles/c6702z750zvyo?at_medium=RSS&at_campaign=rss",
-   "d": "Claims the entire Australian team knew of the 2018 sandpaper cheating plot are dividing the cricket world.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/97a5/live/fac09110-df39-11f1-a701-fddedf244c16.jpg",
-   "at": "2026-11-13T08:20+00:00",
-   "where": [
-    -25.3,
-    133.8,
-    "澳洲"
-   ]
-  },
-  {
-   "src": "LATIN AMERICA",
-   "lang": "en",
-   "t": "Pope Leo rides in helicopter cockpit during Peru trip",
-   "u": "https://www.bbc.co.uk/news/videos/c6pw4rl00lrjo?at_medium=RSS&at_campaign=rss",
-   "d": "The Pope took to the skies before arriving in Cusco on the penultimate day of his Latin America tour.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/655a/live/29ee8330-e1a0-11f1-a83a-71a20ac9b219.jpg",
-   "at": "2026-11-15T18:38+00:00",
-   "where": [
-    -12.05,
-    -77.04,
-    "秘魯"
-   ]
-  },
-  {
-   "src": "AFRICA",
-   "lang": "en",
-   "t": "Two mass shootings in South Africa leave 17 dead",
-   "u": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo?at_medium=RSS&at_campaign=rss",
-   "d": "The shootings in KwaZulu-Natal and Gauteng highlight South Africa's struggle to curb violent crime.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e2e5/live/66487e80-e1a0-11f1-902c-ad301cbf1208.jpg",
-   "at": "2026-11-16T10:57+00:00",
-   "where": [
-    -30.6,
-    22.9,
-    "南非"
    ]
   },
   {
@@ -875,6 +878,113 @@
   {
    "src": "US & CANADA",
    "lang": "en",
+   "t": "Vance says he will decide 'sometime next year' about 2028 US presidential run",
+   "u": "https://www.bbc.co.uk/news/articles/cwkgr9m41engo?at_medium=RSS&at_campaign=rss",
+   "d": "The US vice-president tells Fox News that when he makes a decision to run or otherwise, he will \"be all in on whatever that decision is\".",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/31c6/live/3f22aa50-e255-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-17T03:07+00:00",
+   "where": [
+    38.9,
+    -77.04,
+    "美國"
+   ]
+  },
+  {
+   "src": "EUROPE",
+   "lang": "en",
+   "t": "Gérard Depardieu drops appeal against sexual assault conviction",
+   "u": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss",
+   "d": "The French film star was due to start an appeal trial after being found guilty of sexually assaulting two women on a Paris set.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6e5e/live/d9ec2540-e1b8-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-16T13:40+00:00",
+   "where": [
+    50.0,
+    10.0,
+    "歐洲"
+   ]
+  },
+  {
+   "src": "AUSTRALIA",
+   "lang": "en",
+   "t": "Sydney Swans players will not be charged after hotel incident, police say",
+   "u": "https://www.bbc.co.uk/news/articles/ckregjwr7njqo?at_medium=RSS&at_campaign=rss",
+   "d": "Four players had been under investigation after an alleged sexual assault after a game in Melbourne.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e9a2/live/04510720-defc-11f1-9b2e-c7d61d5838d4.jpg",
+   "at": "2026-11-13T03:02+00:00",
+   "where": [
+    -33.87,
+    151.21,
+    "悉尼"
+   ]
+  },
+  {
+   "src": "LATIN AMERICA",
+   "lang": "en",
+   "t": "Pope Leo rides in helicopter cockpit during Peru trip",
+   "u": "https://www.bbc.co.uk/news/videos/c6pw4rl00lrjo?at_medium=RSS&at_campaign=rss",
+   "d": "The Pope took to the skies before arriving in Cusco on the penultimate day of his Latin America tour.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/655a/live/29ee8330-e1a0-11f1-a83a-71a20ac9b219.jpg",
+   "at": "2026-11-15T18:38+00:00",
+   "where": [
+    -12.05,
+    -77.04,
+    "秘魯"
+   ]
+  },
+  {
+   "src": "AFRICA",
+   "lang": "en",
+   "t": "Two mass shootings in South Africa leave 17 dead",
+   "u": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo?at_medium=RSS&at_campaign=rss",
+   "d": "The shootings in KwaZulu-Natal and Gauteng highlight South Africa's struggle to curb violent crime.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e2e5/live/66487e80-e1a0-11f1-902c-ad301cbf1208.jpg",
+   "at": "2026-11-16T10:57+00:00",
+   "where": [
+    -30.6,
+    22.9,
+    "南非"
+   ]
+  },
+  {
+   "src": "HONG KONG",
+   "lang": "en",
+   "t": "Ovaries wrongly removed in private hospital op",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1878110-20261117.htm",
+   "d": "Local authorities on Tuesday made public two incidents in September, one of which saw both ovaries of a 45-year-old woman mistakenly removed during surgery, the Department of Health said. The department said, in reply to…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878110_1_M_20261117143938.jpg",
+   "at": "2026-11-17T06:39+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "UK",
+   "lang": "en",
+   "t": "Government must act now or lose Royal Mail, former minister warns",
+   "u": "https://www.bbc.co.uk/news/articles/cjvg26p3z2gdo?at_medium=RSS&at_campaign=rss",
+   "d": "The former business secretary says \"undercutting\" by rivals will make Royal Mail \"unviable\".",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9890/live/489f1940-e1c1-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-17T12:43+00:00",
+   "where": [
+    52.5,
+    -1.5,
+    "英國"
+   ]
+  },
+  {
+   "src": "ASIA",
+   "lang": "en",
+   "t": "Taking Korea's toughest exam from behind bars",
+   "u": "https://www.bbc.co.uk/news/articles/cmewvxg855yno?at_medium=RSS&at_campaign=rss",
+   "d": "Eleven convicts at the Mandela Boys' School will be among the thousands of young Koreans taking the country's hardest exam, the Suneung.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a2ce/live/66eb6250-e1ad-11f1-8ee3-23d0d09d2796.png",
+   "at": "2026-11-16T23:09+00:00"
+  },
+  {
+   "src": "US & CANADA",
+   "lang": "en",
    "t": "Nigerians among 12 suspects arrested in $4.5m Canada luxury car theft syndicate",
    "u": "https://www.bbc.co.uk/news/articles/cm5y1wr1535ko?at_medium=RSS&at_campaign=rss",
    "d": "Canadian authorities say they have recovered 96 luxury vehicles destined for West Africa.",
@@ -903,113 +1013,6 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "Sydney Swans players will not be charged after hotel incident, police say",
-   "u": "https://www.bbc.co.uk/news/articles/ckregjwr7njqo?at_medium=RSS&at_campaign=rss",
-   "d": "Four players had been under investigation after an alleged sexual assault after a game in Melbourne.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e9a2/live/04510720-defc-11f1-9b2e-c7d61d5838d4.jpg",
-   "at": "2026-11-13T03:02+00:00",
-   "where": [
-    -33.87,
-    151.21,
-    "悉尼"
-   ]
-  },
-  {
-   "src": "LATIN AMERICA",
-   "lang": "en",
-   "t": "Pope Leo speaks of community 'suffering' on visit to remote Andes town",
-   "u": "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo?at_medium=RSS&at_campaign=rss",
-   "d": "Santa Cruz de Succhabamba is part of the Diocese of Chiclayo, where the Pope served as bishop from 2015 to 2023.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/80df/live/ea970890-e09d-11f1-a298-b1f4784d44cc.jpg",
-   "at": "2026-11-15T09:57+00:00",
-   "where": [
-    -12.0,
-    -60.0,
-    "拉丁美洲"
-   ]
-  },
-  {
-   "src": "AFRICA",
-   "lang": "en",
-   "t": "US basketball player arrested with 34kg of cannabis at Nigerian airport",
-   "u": "https://www.bbc.co.uk/news/articles/cj93rggenq4xo?at_medium=RSS&at_campaign=rss",
-   "d": "The anti-drugs agency says the American attempted to leave the airport, abandoning his luggage with the drugs.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bb80/live/543bf260-e189-11f1-938f-7d0e2ede1ea5.png",
-   "at": "2026-11-16T07:24+00:00",
-   "where": [
-    9.1,
-    8.7,
-    "尼日利亞"
-   ]
-  },
-  {
-   "src": "HONG KONG",
-   "lang": "en",
-   "t": "Ovaries wrongly removed in private hospital op",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1878110-20261117.htm",
-   "d": "Local authorities on Tuesday made public two incidents in September, one of which saw both ovaries of a 45-year-old woman mistakenly removed during surgery, the Department of Health said. The department said, in reply to…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878110_1_M_20261117143938.jpg",
-   "at": "2026-11-17T06:39+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "UK",
-   "lang": "en",
-   "t": "Robert Pattinson to replace Daniel Craig as James Bond",
-   "u": "https://www.bbc.co.uk/news/articles/cwx2ev0pxmvjo?at_medium=RSS&at_campaign=rss",
-   "d": "The 40-year old is best known for his role in films including Twilight, The Batman and The Odyssey.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6cce/live/ac752f20-e209-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-17T02:11+00:00",
-   "where": [
-    52.5,
-    -1.5,
-    "英國"
-   ]
-  },
-  {
-   "src": "ASIA",
-   "lang": "en",
-   "t": "Taking Korea's toughest exam from behind bars",
-   "u": "https://www.bbc.co.uk/news/articles/cmewvxg855yno?at_medium=RSS&at_campaign=rss",
-   "d": "Eleven convicts at the Mandela Boys' School will be among the thousands of young Koreans taking the country's hardest exam, the Suneung.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a2ce/live/66eb6250-e1ad-11f1-8ee3-23d0d09d2796.png",
-   "at": "2026-11-16T23:09+00:00"
-  },
-  {
-   "src": "US & CANADA",
-   "lang": "en",
-   "t": "Pope Leo hit by flying rosary while waving to crowds in Peru",
-   "u": "https://www.bbc.co.uk/news/videos/ckpdwn23j5j8o?at_medium=RSS&at_campaign=rss",
-   "d": "The pontiff was struck in the face by what is thought to be prayer beads while travelling aboard the popemobile to deliver a farewell Mass.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0861/live/f40b1380-e200-11f1-ba8d-01314a590f72.jpg",
-   "at": "2026-11-16T21:12+00:00",
-   "where": [
-    -12.05,
-    -77.04,
-    "秘魯"
-   ]
-  },
-  {
-   "src": "EUROPE",
-   "lang": "en",
-   "t": "Czechs rally against plan to switch funding of public media",
-   "u": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
-   "d": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0f9f/live/b7b68ac0-e121-11f1-9705-e15ce514cc96.jpg",
-   "at": "2026-11-15T21:03+00:00",
-   "where": [
-    50.08,
-    14.44,
-    "捷克"
-   ]
-  },
-  {
-   "src": "AUSTRALIA",
-   "lang": "en",
    "t": "Australian teen missing in bush for six days rescued alive",
    "u": "https://www.bbc.co.uk/news/articles/ckvg25zmppglo?at_medium=RSS&at_campaign=rss",
    "d": "The 17-year-old's mum has joked that he is \"grounded for life\" and \"never leaving the house again\".",
@@ -1024,11 +1027,11 @@
   {
    "src": "LATIN AMERICA",
    "lang": "en",
-   "t": "Chapecoense air crash survivor wins promotion in final game",
-   "u": "https://www.bbc.co.uk/sport/football/articles/ckp8017p1e3go?at_medium=RSS&at_campaign=rss",
-   "d": "Alan Ruschel, one of six survivors in the 2016 plane crash that was carrying members of the Chapecoense team, wins promotion to Brazil‘s Serie A in his final match before retiring.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/306d/live/586b44a0-e10f-11f1-b3df-4961589d9b68.jpg",
-   "at": "2026-11-15T17:10+00:00",
+   "t": "Pope Leo speaks of community 'suffering' on visit to remote Andes town",
+   "u": "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo?at_medium=RSS&at_campaign=rss",
+   "d": "Santa Cruz de Succhabamba is part of the Diocese of Chiclayo, where the Pope served as bishop from 2015 to 2023.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/80df/live/ea970890-e09d-11f1-a298-b1f4784d44cc.jpg",
+   "at": "2026-11-15T09:57+00:00",
    "where": [
     -12.0,
     -60.0,
@@ -1065,11 +1068,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Russell Brand prison message 'appalling' and being investigated, No 10 says",
-   "u": "https://www.bbc.co.uk/news/articles/cm9d7pe8y559o?at_medium=RSS&at_campaign=rss",
-   "d": "Brand's wife read out comments from the comedian on their podcast in which the convicted rapist said he was \"not guilty of the offences I have been jailed for\".",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a6a9/live/58ecf9b0-e1bd-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-16T18:22+00:00",
+   "t": "Six in court accused of high-value Pokemon card theft",
+   "u": "https://www.bbc.co.uk/news/articles/cme3d2xq5ez3o?at_medium=RSS&at_campaign=rss",
+   "d": "Six men have been charged in connection with the theft of high-value Pokemon cards from a warehouse.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4544/live/f9f08d70-e287-11f1-b5d8-418a23bac683.jpg",
+   "at": "2026-11-17T13:22+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1093,29 +1096,29 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "OpenAI sued by California over Hugging Face attack",
-   "u": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
-   "d": "Attorney General Rob Bonta alleges that the artificial intelligence misled and endangered the public.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ce1a/live/7c81aa70-e211-11f1-a541-6d0c391a4254.jpg",
-   "at": "2026-11-16T23:12+00:00",
+   "t": "Pope Leo hit by flying rosary while waving to crowds in Peru",
+   "u": "https://www.bbc.co.uk/news/videos/ckpdwn23j5j8o?at_medium=RSS&at_campaign=rss",
+   "d": "The pontiff was struck in the face by what is thought to be prayer beads while travelling aboard the popemobile to deliver a farewell Mass.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0861/live/f40b1380-e200-11f1-ba8d-01314a590f72.jpg",
+   "at": "2026-11-16T21:12+00:00",
    "where": [
-    37.0,
-    -120.0,
-    "加州"
+    -12.05,
+    -77.04,
+    "秘魯"
    ]
   },
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "Police ban protests near 10 schools and five universities in Paris",
-   "u": "https://www.bbc.co.uk/news/articles/cqm2j0jvep4eo?at_medium=RSS&at_campaign=rss",
-   "d": "The order will be in place from 16 to 20 November, Paris police chief Patrice Faure says.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ff1f/live/556dd490-e13a-11f1-9d9b-d15c0ae9fc2e.jpg",
-   "at": "2026-11-15T22:28+00:00",
+   "t": "Czechs rally against plan to switch funding of public media",
+   "u": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
+   "d": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0f9f/live/b7b68ac0-e121-11f1-9705-e15ce514cc96.jpg",
+   "at": "2026-11-15T21:03+00:00",
    "where": [
-    46.6,
-    2.4,
-    "法國"
+    50.08,
+    14.44,
+    "捷克"
    ]
   },
   {
@@ -1135,11 +1138,11 @@
   {
    "src": "LATIN AMERICA",
    "lang": "en",
-   "t": "The Peruvian city that has embraced Pope Leo as one of its own",
-   "u": "https://www.bbc.co.uk/news/articles/cwg7l8n7dx5mo?at_medium=RSS&at_campaign=rss",
-   "d": "Pope Leo XIV is in Peru as part of his Latin America tour, just weeks after having surgery for lung cancer.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/566c/live/8649d9e0-df84-11f1-a8e2-5b59832bb2f1.jpg",
-   "at": "2026-11-13T18:34+00:00",
+   "t": "Ronaldinho makes comeback in Ravenna win",
+   "u": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&at_campaign=rss",
+   "d": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/45e6/live/30f37df0-e116-11f1-a7db-d90284d21c62.jpg",
+   "at": "2026-11-15T19:31+00:00",
    "where": [
     -12.0,
     -60.0,
@@ -1162,11 +1165,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "UK lost more than it gained from Brexit, Burnham says ahead of EU summit",
-   "u": "https://www.bbc.co.uk/news/articles/crp3e1n5kezpo?at_medium=RSS&at_campaign=rss",
-   "d": "The prime minister tells an audience at the Lord Mayor's Banquet that the \"Brexit we were given has not worked\".",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b29e/live/e82f8ae0-e210-11f1-a541-6d0c391a4254.jpg",
-   "at": "2026-11-16T22:10+00:00",
+   "t": "E-motorbike killer's jail sentence increased",
+   "u": "https://www.bbc.co.uk/news/articles/cr3wgejle0lqo?at_medium=RSS&at_campaign=rss",
+   "d": "Billy Stokoe, then 18, hit Gloria Stephenson, 86, on a zebra crossing in Sunderland, then rode away.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b406/live/7fd1c320-5082-11f1-b65e-7792809e12cc.jpg",
+   "at": "2026-11-17T12:59+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1188,17 +1191,17 @@
    ]
   },
   {
-   "src": "EUROPE",
+   "src": "LATIN AMERICA",
    "lang": "en",
-   "t": "Ronaldinho makes comeback in Ravenna win",
-   "u": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&at_campaign=rss",
-   "d": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/45e6/live/30f37df0-e116-11f1-a7db-d90284d21c62.jpg",
-   "at": "2026-11-15T19:31+00:00",
+   "t": "The Peruvian city that has embraced Pope Leo as one of its own",
+   "u": "https://www.bbc.co.uk/news/articles/cwg7l8n7dx5mo?at_medium=RSS&at_campaign=rss",
+   "d": "Pope Leo XIV is in Peru as part of his Latin America tour, just weeks after having surgery for lung cancer.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/566c/live/8649d9e0-df84-11f1-a8e2-5b59832bb2f1.jpg",
+   "at": "2026-11-13T18:34+00:00",
    "where": [
-    50.0,
-    10.0,
-    "歐洲"
+    -12.0,
+    -60.0,
+    "拉丁美洲"
    ]
   },
   {
@@ -1217,15 +1220,15 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Woman who got hooked on nasal spray for 10 years says it cost her thousands",
-   "u": "https://www.bbc.co.uk/news/articles/cj93ry10rl11o?at_medium=RSS&at_campaign=rss",
-   "d": "Louise Gough says her dependence on decongestant nasal sprays left her feeling like a prisoner.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/edcf/live/a82889c0-df76-11f1-b844-3146c4983677.jpg",
-   "at": "2026-11-17T06:12+00:00",
+   "t": "Gleneagles Hotel buys Scotland's 'ghost' golf course",
+   "u": "https://www.bbc.co.uk/news/articles/cre3d20lp3gko?at_medium=RSS&at_campaign=rss",
+   "d": "The gWest course in Blackford was completed in 2009, but never officially opened to the public.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1eaf/live/d4cf6730-b0d9-11f1-b427-b9b4ddc559ae.jpg",
+   "at": "2026-11-17T11:08+00:00",
    "where": [
-    52.5,
-    -1.5,
-    "英國"
+    56.5,
+    -4.2,
+    "蘇格蘭"
    ]
   },
   {
@@ -1244,11 +1247,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Mystery of 2,000-year-old bog body solved in 'first of its kind' investigation",
-   "u": "https://www.bbc.co.uk/news/articles/cwzr53y51gk4o?at_medium=RSS&at_campaign=rss",
-   "d": "The Ballymacombs More Woman was discovered near Bellaghy - and suffered a deliberate decapitation.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6cd5/live/2a421d50-eed7-11ef-b7c5-c772dd3549de.png",
-   "at": "2026-11-17T06:02+00:00",
+   "t": "Speed camera fault may have allowed drivers to escape fines",
+   "u": "https://www.bbc.co.uk/news/articles/c5y4j7z373kzo?at_medium=RSS&at_campaign=rss",
+   "d": "The Home Office has revoked approval that allowed footage from speed cameras to be used in evidence.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a189/live/29535f50-e28a-11f1-b166-176de21e2352.jpg",
+   "at": "2026-11-17T13:03+00:00",
    "where": [
     52.5,
     -1.5,
