@@ -9,10 +9,11 @@ import json, re, sys, time, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 
 CHANNELS = [
-    {"key": "gb", "zh": "綠豆", "en": "Green Bean", "id": "", "handles": ["greenbeanmedia", "GreenBean.Media", "greenbeanhk"], "q": "綠豆 Green Bean"},
-    {"key": "wit", "zh": "法庭線", "en": "The Witness", "id": "", "handles": ["thewitnesshk", "TheWitness.hk"], "q": "法庭線 The Witness"},
-    {"key": "col", "zh": "集誌社", "en": "The Collective", "id": "", "handles": ["thecollectivehk", "collectivehk"], "q": "集誌社 The Collective HK"},
-    {"key": "viu", "zh": "Viu 新聞", "en": "Viu News", "id": "", "handles": ["ViuNews", "viutvnews", "ViuTVhk"], "q": "ViuTV 新聞"},
+    # 'must': the channel's own name has to match this, so a look-up never picks a stranger's channel
+    {"key": "gb", "zh": "綠豆", "en": "Green Bean", "id": "", "must": "綠豆", "handles": ["greenbeanhk", "GreenBeanMediaHK", "greenbean.media"], "q": ["綠豆 Green Bean 香港", "綠豆 greenbean.media"]},
+    {"key": "wit", "zh": "法庭線", "en": "The Witness", "id": "UCYRpTuLTvC7S6zfATKNfDXw"},
+    {"key": "col", "zh": "集誌社", "en": "The Collective", "id": "UCfQa67fC_15Aiaywz8lPMNg"},
+    {"key": "viu", "zh": "Viu 新聞", "en": "Viu News", "id": "", "must": "(?i)viu.*(新聞|news)|(新聞|news).*viu", "handles": ["viutvnews", "ViuTVNews", "viutvnewshk"], "q": ["ViuTV 新聞", "Viu News 香港", "ViuTV News"]},
 ]
 PER = 12  # videos kept per channel
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Version/17.0 Safari/605.1.15",
@@ -26,25 +27,29 @@ def get(url):
 
 
 def find_id(ch):
-    for h in ch["handles"]:
+    must = re.compile(ch.get("must", "."))
+    for h in ch.get("handles", []):
         try:
             html = get("https://www.youtube.com/@" + urllib.parse.quote(h))
         except Exception as e:
             print("  @%s: %s" % (h, e)); continue
         m = re.search(r'<link rel="canonical" href="https://www\.youtube\.com/channel/(UC[\w-]{22})"', html) or \
             re.search(r'"externalId":"(UC[\w-]{22})"', html)
-        if m:
-            t = re.search(r'<meta property="og:title" content="([^"]*)"', html)
-            print("  @%s -> %s (%s)" % (h, m.group(1), t and t.group(1)))
+        t = re.search(r'<meta property="og:title" content="([^"]*)"', html)
+        t = t.group(1) if t else ""
+        print("  @%s -> %s (%s)" % (h, m and m.group(1), t))
+        if m and must.search(t):
             return m.group(1)
-    try:  # last try: YouTube search, channels only
-        html = get("https://www.youtube.com/results?sp=EgIQAg%253D%253D&search_query=" + urllib.parse.quote(ch["q"]))
-        m = re.search(r'"channelId":"(UC[\w-]{22})"', html)
-        if m:
-            print("  search '%s' -> %s" % (ch["q"], m.group(1)))
-            return m.group(1)
-    except Exception as e:
-        print("  search: %s" % e)
+    for q in ch.get("q", []):  # YouTube search, channels only
+        try:
+            html = get("https://www.youtube.com/results?sp=EgIQAg%253D%253D&search_query=" + urllib.parse.quote(q))
+        except Exception as e:
+            print("  search: %s" % e); continue
+        found = re.findall(r'"channelRenderer":\{"channelId":"(UC[\w-]{22})","title":\{"simpleText":"((?:[^"\\]|\\.)*)"', html)
+        print("  search '%s': %s" % (q, found[:6]))
+        for cid, t in found:
+            if must.search(t):
+                return cid
     return ""
 
 
