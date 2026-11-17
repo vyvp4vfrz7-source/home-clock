@@ -861,6 +861,22 @@ body:not(.penergy) #energy * { animation-play-state: paused !important; }
 #rtar .fx { font-size: 15px; color: #c9d3df; margin: 4px 0 8px; }
 #rtar .fx b { color: #ffd66b; }
 .rrow.c { flex: 1; } .rrow.b { flex: .9; }
+/* ---------- saving tips page ---------- */
+#etips { padding: 30px 40px 50px; display: flex; flex-direction: column; gap: 16px; background: radial-gradient(900px 600px at 10% 0%, #1f2f22 0%, rgba(11,16,22,0) 70%), radial-gradient(800px 600px at 100% 100%, #2a1c2e 0%, rgba(11,16,22,0) 70%); }
+#etips h1 { margin: 0 6px; font-size: 44px; font-weight: 600; }
+#etips h1 span { color: var(--muted); font-weight: 400; font-size: 30px; margin-left: 12px; }
+#etips .grid { flex: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; min-height: 0; }
+#etips .rt { padding: 20px 24px; }
+#etips .nm { font-size: 22px; margin-bottom: 8px; }
+#etips ul { margin: 0; padding: 0; list-style: none; }
+#etips li { font-size: 20px; line-height: 1.4; color: #dfe6ee; padding: 11px 0 11px 36px; position: relative; border-bottom: 1px solid var(--line); }
+#etips li:last-child { border-bottom: 0; }
+#etips li i { position: absolute; left: 0; top: 6px; font-style: normal; font-size: 20px; }
+#etips li b { color: #7fe0a4; }
+#etips li small { display: block; color: var(--muted); font-size: 16px; }
+#etips .siri li { font-size: 21px; }
+#etips .siri li q { color: #d8b8ff; font-weight: 600; quotes: "「" "」"; }
+#etips .wide { grid-column: 1 / -1; }
 #night { position: fixed; inset: 0; z-index: 50; background: #000; display: none; color: #b98a5e; }
 body.night #night { display: block; }
 body.night #pages, body.night #dots { display: none; }   /* hidden pages stop their animations: easy on the old iPad */
@@ -973,6 +989,32 @@ body.night #live { display: none; }   /* no scores on the night clock */
   <div id="rbody"></div>
 </div>
 </div>
+<div class="page" id="ptips">
+<div class="stage" id="etips">
+  <h1>慳錢貼士<span>Save energy &amp; money</span></h1>
+  <div class="grid">
+    <div class="rt"><div class="nm">🔥 暖氣 <em>Heating · biggest win</em></div><ul>
+      <li><i>🌡️</i>室溫調低 1°（21° → 20°），煤氣約慳 <b>10%</b><small>Down 1° saves about 10% on gas</small></li>
+      <li><i>🚪</i>冇人用嘅房（客房、走廊）暖氣閥收細<small>Turn spare rooms' radiators down</small></li>
+      <li><i>♨️</i>鍋爐暖氣水溫調到 55°C 左右，慳 6–8%<small>Boiler flow temperature about 55°C</small></li>
+      <li><i>⏰</i>瞓覺同出門前半粒鐘熄暖氣，屋企仲暖<small>Heating off 30 min before bed or going out</small></li>
+    </ul></div>
+    <div class="rt"><div class="nm">⚡ 電 <em>Electricity</em></div><ul>
+      <li><i>🔌</i>睇「長開電器」：夜晚超過 150 W，熄咗電視盒、遊戲機、舊充電器<small>Each 50 W switched off saves about <b id="tip50">£100</b> a year</small></li>
+      <li><i>🧺</i>洗衫機、洗碗機避開 16:00–19:00，用 30° 環保洗<small>Wash after 19:00, eco 30° programmes</small></li>
+      <li><i>🐙</i>喺 Octopus app 參加 Free Electricity 同 Saving Sessions<small>Free power and OctoPoints: banners show on the energy page</small></li>
+      <li><i>📄</i>固定價維持到<b id="tipFix">合約完</b>，5 月再比較<small>Agile cost more last month. Compare again before the fix ends</small></li>
+    </ul></div>
+    <div class="rt wide siri"><div class="nm">🗣️ 叫 Siri 調暖氣 <em>Say to Siri (Home app)</em></div><ul>
+      <li><i>🌡️</i><q>Hey Siri, set the heating to 20 degrees</q><small>全屋暖氣 20° · all heaters to 20°</small></li>
+      <li><i>🛏️</i><q>Hey Siri, set the bedroom heating to 18 degrees</q><small>用 Home app 入面嘅房名 · use your room names from the Home app</small></li>
+      <li><i>❄️</i><q>Hey Siri, turn off the heating in the spare room</q><small>熄冇人用嘅房 · switch off an unused room</small></li>
+      <li><i>🏠</i><q>Hey Siri, what's the temperature in the dining room?</q><small>睇下係咪太熱 · check before turning it up</small></li>
+      <li><i>🤖</i>Home app ➜ 自動化 Automation ➜「最後一個人離開」設 16°，「第一個人返嚟」設 20°<small>When the last person leaves: 16°. When the first person arrives: 20°. Set once and it runs by itself</small></li>
+    </ul></div>
+  </div>
+</div>
+</div>
 </div></div>
 <div id="dots"></div>
 <div id="live" hidden></div>
@@ -1076,7 +1118,7 @@ function fitStage() {
 addEventListener('resize', fitStage); fitStage();
 
 /* ---------- pages: swipe left/right, tap the dots, or use the arrow keys ----------
-   Page 1 is the dashboard, page 2 this week's calendar, page 3 the news map, page 4 the Hong Kong corner, page 5 UK + Hong Kong weather side by side, page 6 book of the day, page 7 the space corner, page 8 the league table, page 9 birthday countdown, page 10 the analog clock, page 11 home energy (Octopus), page 12 the energy review (months, budget, tips). To add a page, add another
+   Page 1 is the dashboard, page 2 this week's calendar, page 3 the news map, page 4 the Hong Kong corner, page 5 UK + Hong Kong weather side by side, page 6 book of the day, page 7 the space corner, page 8 the league table, page 9 birthday countdown, page 10 the analog clock, page 11 home energy (Octopus), page 12 the energy review (months, budget, tips), page 13 saving tips + Siri phrases. To add a page, add another
    <div class="page"> inside #track. The iPad remembers the last page shown. */
 var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
 (function () {
@@ -2640,6 +2682,9 @@ function rvDay(d) {
 }
 function showReview() {
   if (!EN) return;
+  var u = (EN.elec && EN.elec.unit) || 25, fx = EN.elec && EN.elec.until ? new Date(EN.elec.until) : null;
+  $('tip50').textContent = '£' + Math.round(50 / 1000 * 24 * 365 * u / 100);
+  if (fx) $('tipFix').textContent = fx.getDate() + ' ' + MONTHS[fx.getMonth()].slice(0, 3) + ' ' + fx.getFullYear();
   $('rtag').hidden = !enSample;
   var E = rvHist('elec'), G = rvHist('gas');
   $('rbody').innerHTML = rvMonths(E, G) +
