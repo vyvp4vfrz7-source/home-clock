@@ -555,6 +555,10 @@ body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state
 #bkTag { align-self: flex-start; font-size: 17px; font-weight: 700; color: #10151c; background: var(--bk, #6aaef8); padding: 5px 14px; border-radius: 999px; }
 #bkT { font-size: 42px; font-weight: 800; line-height: 1.08; letter-spacing: -.02em; margin-top: 12px; }
 #bkTz { font-size: 28px; font-weight: 600; color: #dfe6ee; margin-top: 6px; }
+#bkT small { display: block; font-size: 24px; font-weight: 600; color: #c9d3df; letter-spacing: 0; margin-top: 6px; line-height: 1.25; }
+#bkTx.fit #bkT { font-size: calc(42px * var(--fit)); }
+#bkTx.fit #bkEn { font-size: calc(19px * var(--fit)); }
+#bkTx.fit #bkZh { font-size: calc(19.5px * var(--fit)); }
 #bkTz small { font-size: 16px; color: var(--muted); margin-left: 8px; font-weight: 600; }
 #bkA { font-size: 21px; color: var(--muted); font-weight: 600; margin-top: 8px; }
 #bkEn, #bkZh { font-size: 19px; line-height: 1.48; color: #d6dee8; margin: 0; }
@@ -2593,7 +2597,8 @@ function bookDraw() {
   m.style.setProperty('--bk', c); m.style.setProperty('--bk2', c + '33');
   $('bkCov').innerHTML = bookCover(b);
   $('bkTag').textContent = (b.tag || '') + ' · ' + (BOOK_EN[b.tag] || b.tag || '') + (b.reviews ? ' · 新書 New' : '');
-  $('bkT').textContent = b.t;
+  var tt = String(b.t || ''), ci = tt.indexOf(': ');   // long subtitle goes on its own smaller line
+  $('bkT').innerHTML = ci > 0 && tt.length > 34 ? esc(tt.slice(0, ci)) + '<small>' + esc(tt.slice(ci + 2)) + '</small>' : esc(tt);
   $('bkTz').innerHTML = b.tz && b.tz !== b.t ? '《' + esc(b.tz) + '》' + (b.tz_note ? '<small>' + esc(b.tz_note) + '</small>' : '') : '';
   $('bkA').textContent = (b.az ? b.az + ' ' : '') + b.a + (b.y ? ' · ' + b.y : '');
   var meta = [];
@@ -2604,11 +2609,18 @@ function bookDraw() {
   $('bkEn').textContent = b.en || '';
   $('bkZh').textContent = b.zh || '';
   var rv = (b.reviews || []).slice(0, 4);
-  $('bkRv').innerHTML = rv.length ? '<div class="lbl">書評點講 · What reviewers say</div><div class="g">' + rv.map(function (r) {
+  $('bkRv').innerHTML = rv.length ? '<div class="lbl">書評點講 · What reviewers say</div><div class="g" style="grid-template-columns:repeat(' + Math.max(rv.length, 2) + ',1fr)">' + rv.map(function (r) {
     return '<div class="bkr"><b>' + esc(r.src) + '</b>' + (r.d ? '<div>' + esc(r.d) + '</div>' : '') + (r.dz ? '<div>' + esc(r.dz) + '</div>' : '') + '</div>';
   }).join('') + '</div>' :
     (b.ken || b.kzh ? '<div class="lbl">一個重點 · One idea to keep</div><div class="bkr one">' + (b.kzh ? '<div>' + esc(b.kzh) + '</div>' : '') + (b.ken ? '<div>' + esc(b.ken) + '</div>' : '') + '</div>' : '');
   $('bkDay').textContent = d.getDate() + ' ' + MONTHS[d.getMonth()];
+  bookFit();
+}
+function bookFit() {   // shrink the text a little at a time until it all fits (long titles, long briefs)
+  var t = $('bkTx'), k = 1;
+  t.style.fontSize = ''; t.className = '';
+  if (!t.clientHeight) return;   // page not laid out yet
+  while (t.scrollHeight > t.clientHeight + 1 && k > .78) { k -= .03; t.style.setProperty('--fit', k); t.className = 'fit'; }
 }
 function bookLoad() {
   var h = Math.floor(Date.now() / 1800000);
