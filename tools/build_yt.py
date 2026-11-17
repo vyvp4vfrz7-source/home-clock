@@ -13,7 +13,7 @@ CHANNELS = [
     {"key": "gb", "zh": "綠豆", "en": "Green Bean", "id": "UCLYWo70xBDrPYJgJsxoX7Qg"},
     {"key": "wit", "zh": "法庭線", "en": "The Witness", "id": "UCYRpTuLTvC7S6zfATKNfDXw"},
     {"key": "col", "zh": "集誌社", "en": "The Collective", "id": "UCfQa67fC_15Aiaywz8lPMNg"},
-    {"key": "now", "zh": "now 新聞", "en": "now News", "id": "", "must": "(?i)now", "handles": ["nowtvnews", "nownewsHK", "now.news.hk", "nowtv"], "q": ["now新聞台 香港 新聞 now.com"], "try": ["UCbNvkqzg5HRhlPfptjh6hjA", "UCChMBgirwM2nnT3Bbe8METQ", "UC20PbF9Di_XJUfkZq6OcYjg"]},
+    {"key": "now", "zh": "now 財經新聞", "en": "now Finance News", "id": "UCChMBgirwM2nnT3Bbe8METQ"},  # now News has no general news channel on YouTube
 ]
 PER = 12  # videos kept per channel
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Version/17.0 Safari/605.1.15",
@@ -27,7 +27,7 @@ def get(url):
 
 
 def find_id(ch):
-    must = re.compile(ch.get("must", "."))  # noqa
+    must = re.compile(ch.get("must", "."))
     cands = []
     for h in ch.get("handles", []):
         try:
@@ -49,7 +49,6 @@ def find_id(ch):
         found = re.findall(r'"channelRenderer":\{"channelId":"(UC[\w-]{22})","title":\{"simpleText":"((?:[^"\\]|\\.)*)"', html)
         print("  search '%s': %s" % (q, found[:8]))
         cands += [cid for cid, t in found if must.search(t)]
-    cands = ch.get("try", []) + cands
     best, when = "", ""
     for cid in dict.fromkeys(cands):  # the matching channel that posted most recently
         try:
