@@ -5,7 +5,8 @@
      Man United score, birthday balloons, 中秋 lanterns, New Year / CNY / Bonfire Night fireworks, winter snow.
    - At night: a dim little fish tank along the bottom of the night clock.
    - 波波 the Pomeranian drops by in 10 ways: zoomies, ball, nap on the clock, peekaboo, chases the cat, digs up a bone,
-     butterfly + sneeze, tail chase, photobomb, begs for a treat (CONFIG.cute.pom = how often vs cat 3 / cuckoo 2, 0 = never).
+     butterfly + sneeze, tail chase, photobomb, begs for a treat. Every CONFIG.cute.dog minutes ([0] = 0 turns it off),
+     and 30 s after the page loads or the night clock ends.
    Sounds go through sound.js (silent unless the speaker is turned up, never at night).
    Try one now with ?cute=cat|cuckoo|snow|lanterns|fireworks|duck|snowman|goal|balloons|all, the dog with
    ?cute=pom (random) | pom-zoom|pom-ball|pom-nap|pom-peek|pom-cat|pom-dig|pom-fly|pom-spin|pom-photo|pom-beg | pom-all, fish with ?night=1. */
@@ -576,7 +577,7 @@
 
   /* ---------- when visitors come ---------- */
   function pool() {
-    var p = [['cat', 3], ['cuckoo', 2], ['pom', cfg.pom == null ? 4 : cfg.pom]];
+    var p = [['cat', 3], ['cuckoo', 2], ['pom', cfg.pom || 0]];
     if (winter()) p.push(['snow', 3]);
     if (raining()) p.push(['duck', 4]);
     if (cold()) p.push(['snowman', 3]);
@@ -592,8 +593,12 @@
   }
   var nextAt = Date.now() + rand(1, 3) * 60e3, lastHour = new Date().getHours(), wasRain = null, wasCold = null, bdayShown = '';
   function soon() { nextAt = Date.now() + rand(EVERY[0], EVERY[1]) * 60e3; }
+  /* 波波 has its own timer so it is seen often: 30 s after the page loads or the night clock ends, then every CONFIG.cute.dog minutes */
+  var DOG = cfg.dog || [5, 10], dogAt = Date.now() + 30e3, wasAwake = true;
   function check() {
-    if (!awake()) { if (night()) clear(); return; }
+    if (!awake()) { if (night()) { clear(); wasAwake = false; } return; }
+    if (!wasAwake) { wasAwake = true; dogAt = Date.now() + 20e3; }
+    if (DOG[0] > 0 && Date.now() >= dogAt) { if (play('pom')) { dogAt = Date.now() + rand(DOG[0], DOG[1]) * 60e3; return; } dogAt = Date.now() + 15e3; }
     var d = new Date(), h = d.getHours();
     if (h !== lastHour && d.getMinutes() === 0) { lastHour = h; if (play(Math.random() < 0.5 ? 'cat' : 'cuckoo')) soon(); return; }
     if (h !== lastHour) lastHour = h;

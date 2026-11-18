@@ -1107,9 +1107,9 @@ var CONFIG = {
   // Birthday page (page 12): joins the turning pages when the next birthday is this many days away or less.
   birthdaySoon: 14,
   night: { from: 23, to: 7, wake: 120 },
-  // Cute visitors (cute.js): a random one every 6-12 minutes, cat or cuckoo on the hour. cold = snowman at or below this °C.
+  // Cute visitors (cute.js): a random one every 6-12 minutes, cat or cuckoo on the hour. cold = snowman at or below this °C. dog = 波波 every 5-10 minutes.
   // off: true turns them all off; fish: false hides the night fish tank.
-  cute: { every: [6, 12], cold: 4 },
+  cute: { every: [6, 12], cold: 4, dog: [5, 10] },
   // Live football scores (ESPN): a card shows at the top while a match is on.
   // 'follow' = your team (names or ESPN 3-letter code); its cup games show too, and its match day shows a kick-off time.
   football: { follow: ['Man United', 'Manchester United', 'MUN'], leagues: ['eng.1'], cups: ['eng.fa', 'eng.league_cup', 'uefa.champions', 'uefa.europa', 'uefa.europa.conf'] }
@@ -3342,6 +3342,6 @@ setTimeout(function () { location.replace(freshURL()); }, 6 * 3600 * 1000);
   load(); setInterval(load, 10 * 60000);
 })();
 </script>
-<script src="cute.js?v=2"></script>
+<script src="cute.js?v=3"></script>
 </body>
 </html>
