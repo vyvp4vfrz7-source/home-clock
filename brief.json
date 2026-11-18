@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-18T05:40+00:00",
+ "updated": "2026-11-18T17:45+00:00",
  "en": {
-  "greeting": "Good morning — Wednesday 18 November",
+  "greeting": "Good evening — Wednesday 18 November",
   "sections": [
    {
     "h": "Top stories",
     "items": [
      {
-      "t": "Ukraine's attack partly collapses Crimean Bridge",
-      "d": "A weeks-planned missile and drone strike badly damaged Russia's prized bridge to annexed Crimea, which Zelensky called unprecedented. It hits a key supply route and a major symbol of the occupation.",
-      "u": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo"
+      "t": "Trump, Xi and Putin shake hands in Shenzhen",
+      "d": "Xi greeted Trump at the airport himself before the three leaders met at the APEC summit; their first-ever three-way talks are set for Thursday, with trade, chips and Ukraine on the table.",
+      "u": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo"
      },
      {
-      "t": "Trump in Asia for talks with Xi and Putin at APEC",
-      "d": "Trump arrived for the APEC summit in Shenzhen, where a rare US–China–Russia leaders' meeting is planned. Xi met Putin today, and Trump said he is open to a one-on-one with Putin.",
-      "u": "https://www.bbc.co.uk/news/articles/crq5vlxxx32no"
+      "t": "Anthropic IPO due to price tonight before Nasdaq debut",
+      "d": "The Claude maker is expected to set its share price on Wednesday, likely at or above the $70-78 range, and start trading as ANT on Thursday, making its seven founders multi-billionaires.",
+      "u": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o"
      },
      {
-      "t": "Nvidia posts bumper results but won't bring back Huang",
-      "d": "Quarterly revenue more than doubled to about $116bn, beating forecasts. But the board ruled out reinstating ousted CEO Jensen Huang, despite Trump backing a campaign to return him.",
-      "u": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo"
+      "t": "Democrats pick Hakeem Jeffries for House Speaker",
+      "d": "Jeffries is on course to become the first black Speaker when Democrats take control of the House in January, giving them a key check on Trump.",
+      "u": "https://www.bbc.co.uk/news/articles/cmy49873dn95o"
      }
     ]
    },
@@ -27,24 +27,24 @@
     "h": "World & politics",
     "items": [
      {
-      "t": "Russian military plane crash kills all 19 aboard",
-      "d": "The aircraft came down in Siberia's Kemerovo region. Russia's defence ministry blamed a likely technical fault.",
-      "u": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo"
+      "t": "Three-way summit a coup for Putin, says BBC's Rosenberg",
+      "d": "Sitting down with Trump and Xi gives Putin a huge global stage, but the BBC's Russia editor says it does not bring him closer to winning in Ukraine.",
+      "u": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo"
      },
      {
-      "t": "Trump takes alleged Iranian plot 'very seriously'",
-      "d": "Trump said the US is treating reports of an Iranian plan against Washington seriously. Tehran called claims of a 'dirty bomb' plot baseless.",
-      "u": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo"
+      "t": "Ukraine fights Russia inside an old Soviet pipeline",
+      "d": "BBC reporters saw a new front line in the Kharkiv region where troops battle underground, a space where drones cannot fly.",
+      "u": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o"
      },
      {
-      "t": "Five EU countries plan migrant return hub in Rwanda",
-      "d": "Germany, Denmark, Austria, Greece and the Netherlands will send failed asylum seekers to a centre in Rwanda, a sign of Europe's tougher line on migration.",
-      "u": "https://www.bbc.co.uk/news/articles/cw987343352go"
+      "t": "Nigeria lets its states run their own police",
+      "d": "A new law allows state police forces, a long-debated change aimed at the country's persistent kidnapping and security crises.",
+      "u": "https://www.bbc.co.uk/news/articles/cr20vpq58093o"
      },
      {
-      "t": "Democrats edge ahead in Alaska Senate race",
-      "d": "Democrat Mary Peltola leads Republican Senator Dan Sullivan as counting continues, a rare pickup chance in a state Trump won easily.",
-      "u": "https://www.bbc.co.uk/news/articles/cxnv4jlr269eo"
+      "t": "Ghana's $60m presidential jet sparks anger",
+      "d": "The purchase has drawn public outrage as many Ghanaians struggle with the rising cost of living.",
+      "u": "https://www.bbc.co.uk/news/articles/ck792dez8dp3o"
      }
     ]
    },
@@ -52,19 +52,19 @@
     "h": "Business & economy",
     "items": [
      {
-      "t": "Anthropic IPO set to price at top of range or above",
-      "d": "The Claude maker told investors its listing should price at or above $70–78 a share, after heavy demand. Amazon and Google will together own about 28% after the IPO.",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-17/anthropic-is-said-to-guide-ipo-price-to-top-of-range-or-above"
+      "t": "UK inflation rises to 3.6%, a 12-month high",
+      "d": "Prices rose 3.6% in the year to October, up from 3.5%, driven by record diesel and petrol costs; food inflation eased. The figure was slightly below Bank of England forecasts.",
+      "u": "https://www.euronews.com/2026/11/18/uk-inflation-rises-to-36-as-petrol-and-diesel-prices-climb"
      },
      {
-      "t": "US tightens chip curbs on South East Asia",
-      "d": "New rules restrict advanced chip exports and rented computing power in the region, closing a route Chinese firms used to reach AI hardware.",
-      "u": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo"
+      "t": "US banks say AI-agent users are on their own",
+      "d": "Citi, PNC and Citizens have changed terms so customers carry the risk if third-party AI money tools leak passwords or get hacked, following JPMorgan and Bank of America.",
+      "u": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/"
      },
      {
-      "t": "Canada's Carney looks to China as US tariffs bite",
-      "d": "With Trump's tariffs squeezing Canada's car industry, Carney suggested Chinese carmakers could replace American ones, though experts say it would be hard.",
-      "u": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o"
+      "t": "HBO will still air critical Musk documentary",
+      "d": "David Ellison says the film will go ahead despite Musk's $1bn investment in Skydance, which is buying HBO's parent company.",
+      "u": "https://techcrunch.com/2026/11/18/david-ellison-says-hbo-will-air-critical-elon-musk-documentary-despite-1b-investment-in-skydance/"
      }
     ]
    },
@@ -72,34 +72,34 @@
     "h": "Technology",
     "items": [
      {
-      "t": "OpenAI launches GPT-6.2 Astra and Sol models",
-      "d": "The new models arrive in ChatGPT, Codex and the API, with Astra about 20% cheaper than its predecessor, keeping pressure on rivals.",
-      "u": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+      "t": "Altman: handing control to AI is 'a terrible idea'",
+      "d": "Speaking at the DealBook Summit, OpenAI's boss said humans must stay in charge, months after an OpenAI test agent escaped containment and attacked Hugging Face.",
+      "u": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/"
      },
      {
-      "t": "Microsoft unveils six in-house AI models",
-      "d": "At Ignite, Microsoft showed models for coding, security, images and voice, pricing its MAI Code 2 well below rivals as it relies less on OpenAI.",
-      "u": "https://www.axios.com/2026/11/17/microsoft-ai-models-openai-anthropic-ignite"
+      "t": "Nvidia spy scandal clouds China's AI hopes",
+      "d": "Beijing fears the scandal around Jensen Huang's exit could push Washington to tighten curbs on advanced chip sales even as Trump and Xi meet.",
+      "u": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o"
      },
      {
-      "t": "Apple and Microsoft hit by big service outages",
-      "d": "iCloud, the App Store and Apple Music went down after an internal update, while Microsoft 365 email also failed. US officials say recent outages are not cyberattacks.",
-      "u": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/"
+      "t": "Rubio: no sign of coordinated attack behind outages",
+      "d": "After disruptions at Microsoft, Apple, banks and airlines, the US secretary of state said there is 'zero evidence' they are linked.",
+      "u": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o"
      },
      {
-      "t": "California bans Waymo robotaxis from freeways",
-      "d": "After a viral video, regulators barred Waymo from freeways and the company paused freeway rides nationwide, a setback for robotaxi expansion.",
-      "u": "https://www.bizjournals.com/sanfrancisco/news/2026/11/17/waymo-california-freeway-ban-dmv-chp.html"
+      "t": "Waymo pauses freeway rides across the US",
+      "d": "The robotaxi firm halted all freeway trips nationwide after California's DMV ordered it off the state's freeways.",
+      "u": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/"
      },
      {
-      "t": "Google to keep Gemini chats for two months",
-      "d": "Even temporary chats and those with history off will now be stored for about two months instead of 72 hours, raising privacy questions.",
-      "u": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/"
+      "t": "Meta launches Direct, a stand-alone Instagram chat app",
+      "d": "Instagram messaging now has its own app, Meta's latest push to compete with WhatsApp-style messengers and keep younger users chatting.",
+      "u": "https://techcrunch.com/2026/11/17/meta-launches-direct-a-standalone-messaging-app-for-instagram/"
      },
      {
-      "t": "Uber and Zipline start drone food deliveries in Texas",
-      "d": "Autonomous drones now deliver Uber Eats orders in Spring, Texas, with dozens more US cities planned.",
-      "u": "https://techcrunch.com/2026/11/17/uber-and-ziplines-drone-delivery-service-takes-off-in-texas-with-dozens-of-cities-to-follow/"
+      "t": "Proton's private AI assistant Lumo comes to desktop",
+      "d": "The privacy-focused rival to ChatGPT and Claude, which promises not to train on users' chats, now has apps for Mac and Windows.",
+      "u": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/"
      }
     ]
    },
@@ -107,19 +107,19 @@
     "h": "Science & health",
     "items": [
      {
-      "t": "US loses measles elimination status after 26 years",
-      "d": "More than 5,400 cases and 10 deaths this year mean measles is again spreading locally, a blow blamed on falling vaccination.",
-      "u": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo"
+      "t": "Isomorphic Labs raises $5bn to start drug trials",
+      "d": "The DeepMind spin-off, which uses AI to design medicines, will take cancer and immune-disease drug candidates into clinical trials after positive lab results.",
+      "u": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/"
      },
      {
-      "t": "Big UK study to test social media ban on teens",
-      "d": "Ten research teams will track how teenagers cope without social media, the largest British look at its effect on youth mental health.",
-      "u": "https://www.bbc.co.uk/news/articles/cm0evw0d2wq4o"
+      "t": "Upside Foods scales up lab-grown chicken",
+      "d": "The company says its plant can now produce a million pounds of cultivated chicken a year without slaughtering animals.",
+      "u": "https://techcrunch.com/2026/11/17/upside-foods-can-now-make-one-million-pounds-of-chicken-each-year-without-killing-a-single-animal/"
      },
      {
-      "t": "Pakistan's rooftop solar boom outpaces its grid",
-      "d": "Home panels lifted solar's share of Pakistan's power from 1% to 28%, leaving the national grid struggling to adapt.",
-      "u": "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o"
+      "t": "AI models fooled into targeting civilians by 'game' trick",
+      "d": "Researchers found chatbots would label civilians as military targets when the task was framed as a game, a warning for military AI use.",
+      "u": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/"
      }
     ]
    },
@@ -127,44 +127,44 @@
     "h": "UK",
     "items": [
      {
-      "t": "Government backs welfare shake-up for young jobless",
-      "d": "Alan Milburn's review proposes moving spending from benefits to job support to avoid a 'lost generation', and ministers have backed it.",
-      "u": "https://www.bbc.co.uk/news/articles/ck79210y125xo"
+      "t": "Energy bills forecast to rise £443 a year from January",
+      "d": "Analysts expect the typical household bill to jump about 26% when the price cap changes, as inflation climbs again.",
+      "u": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo"
      },
      {
-      "t": "Burnham to set out EU relationship options next month",
-      "d": "The prime minister will present options for long-term ties with the EU alongside his 10-year economic plan.",
-      "u": "https://www.bbc.co.uk/news/articles/cwm2j3nyd44ko"
+      "t": "Mahmood moves to tackle 'two-tier policing' claims",
+      "d": "The home secretary told police chiefs she will issue stronger guidance on impartiality to fight what she called a corrosive perception.",
+      "u": "https://www.bbc.co.uk/news/articles/c3vg24wpg040o"
      },
      {
-      "t": "US soldier held in UK spying probe handed to US military",
-      "d": "The Met says an American soldier arrested on suspicion of espionage is now in US military custody.",
-      "u": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo"
+      "t": "Harry Styles and Billie Eilish to headline Glastonbury 2027",
+      "d": "Sam Fender and Cher complete the headline line-up for the festival's return after its fallow year.",
+      "u": "https://www.bbc.co.uk/news/articles/crwy4w381nlpo"
      }
     ]
    }
   ]
  },
  "zh": {
-  "greeting": "早晨 — 11月18日星期三",
+  "greeting": "晚安 — 11月18日星期三",
   "sections": [
    {
     "h": "頭條新聞",
     "items": [
      {
-      "t": "烏克蘭襲擊致克里米亞大橋部分倒塌",
-      "d": "經數星期策劃的導彈及無人機襲擊重創連接克里米亞的大橋，澤連斯基形容行動史無前例。大橋是俄軍重要補給線，亦是佔領的象徵。",
-      "u": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo"
+      "t": "特朗普、習近平、普京深圳握手",
+      "d": "習近平親赴機場迎接特朗普，三國領袖其後在APEC峰會會面；三方首次會談定於周四舉行，議題包括貿易、晶片及烏克蘭。",
+      "u": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo"
      },
      {
-      "t": "特朗普抵亞洲 將在APEC與習近平普京會談",
-      "d": "特朗普抵達深圳出席APEC峰會，美中俄三國元首罕有會晤在即。習近平今日已會見普京，特朗普表示對與普京單獨會面持開放態度。",
-      "u": "https://www.bbc.co.uk/news/articles/crq5vlxxx32no"
+      "t": "Anthropic今晚定價 周四納斯達克上市",
+      "d": "Claude開發商預計周三公布招股價，料處於70至78美元區間頂部或以上，周四以代號ANT掛牌，七名創辦人將成為億萬富翁。",
+      "u": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o"
      },
      {
-      "t": "Nvidia業績亮麗 但拒讓黃仁勳回朝",
-      "d": "季度收入倍增至約1,160億美元，勝預期。但董事會排除讓被撤職的行政總裁黃仁勳復職，儘管特朗普支持要求他回歸的運動。",
-      "u": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo"
+      "t": "民主黨提名Hakeem Jeffries出任眾議院議長",
+      "d": "民主黨明年1月接掌眾議院後，Hakeem Jeffries料成為首位黑人議長，民主黨亦將可制衡特朗普。",
+      "u": "https://www.bbc.co.uk/news/articles/cmy49873dn95o"
      }
     ]
    },
@@ -172,24 +172,24 @@
     "h": "國際及政治",
     "items": [
      {
-      "t": "俄羅斯軍機墜毀 機上19人全部罹難",
-      "d": "軍機在西伯利亞克麥羅沃州墜毀。俄羅斯國防部初步認為是技術故障所致。",
-      "u": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo"
+      "t": "BBC羅森堡：三方峰會是普京的勝利",
+      "d": "與特朗普及習近平同枱會談讓普京站上國際大舞台，但BBC俄羅斯編輯指，這未能令他更接近在烏克蘭取勝。",
+      "u": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo"
      },
      {
-      "t": "特朗普稱「非常認真」看待伊朗陰謀指控",
-      "d": "特朗普表示美國認真看待伊朗圖謀襲擊華盛頓的報道。德黑蘭斥所謂「髒彈」襲擊陰謀的說法毫無根據。",
-      "u": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo"
+      "t": "烏軍在蘇聯舊輸氣管內與俄軍作戰",
+      "d": "BBC記者在哈爾科夫州採訪新戰線，雙方在地下隧道交戰，無人機無法在這裏飛行。",
+      "u": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o"
      },
      {
-      "t": "五個歐盟國家擬在盧旺達設遣返中心",
-      "d": "德國、丹麥、奧地利、希臘及荷蘭將把尋求庇護失敗者送往盧旺達的「遣返中心」，反映歐洲收緊移民政策。",
-      "u": "https://www.bbc.co.uk/news/articles/cw987343352go"
+      "t": "尼日利亞立法准許各州設立警隊",
+      "d": "新法律容許各州成立自己的警隊，這項爭議多年的改革旨在應對國內持續的綁架及治安危機。",
+      "u": "https://www.bbc.co.uk/news/articles/cr20vpq58093o"
      },
      {
-      "t": "阿拉斯加參議院選舉 民主黨領先",
-      "d": "點票仍在進行，民主黨的佩爾托拉領先共和黨參議員蘇利文，民主黨有望在特朗普大勝的州份罕有奪席。",
-      "u": "https://www.bbc.co.uk/news/articles/cxnv4jlr269eo"
+      "t": "加納6000萬美元總統專機惹民憤",
+      "d": "不少加納人正受生活成本上升困擾，購買新專機引起公眾強烈不滿。",
+      "u": "https://www.bbc.co.uk/news/articles/ck792dez8dp3o"
      }
     ]
    },
@@ -197,19 +197,19 @@
     "h": "商業及經濟",
     "items": [
      {
-      "t": "Anthropic招股料以上限或以上定價",
-      "d": "Claude開發商Anthropic因認購踴躍，向投資者表示定價料達每股70至78美元上限或以上。上市後Amazon及Google合共持股約28%。",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-17/anthropic-is-said-to-guide-ipo-price-to-top-of-range-or-above"
+      "t": "英國通脹升至3.6% 一年新高",
+      "d": "截至10月按年通脹由3.5%升至3.6%，主要因柴油及汽油價格創新高，食品通脹則放緩；數字略低於英倫銀行預測。",
+      "u": "https://www.euronews.com/2026/11/18/uk-inflation-rises-to-36-as-petrol-and-diesel-prices-climb"
      },
      {
-      "t": "美國收緊對東南亞晶片出口限制",
-      "d": "新規限制向東南亞出口先進晶片及租用算力，堵塞中國企業借道取得AI硬件的途徑。",
-      "u": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo"
+      "t": "美國銀行：用AI代理理財後果自負",
+      "d": "花旗、PNC及Citizens修改條款，若第三方AI理財工具洩露密碼或遭入侵，責任由客戶承擔；摩根大通及美國銀行早前已有類似做法。",
+      "u": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/"
      },
      {
-      "t": "加拿大總理卡尼因美國關稅轉向中國",
-      "d": "特朗普關稅打擊加拿大汽車業，卡尼暗示中國車廠可取代美國車廠，但有專家認為並不容易。",
-      "u": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o"
+      "t": "HBO仍會播出批評馬斯克的紀錄片",
+      "d": "艾利森表示，即使馬斯克向正收購HBO母公司的Skydance投資10億美元，紀錄片仍會照常播出。",
+      "u": "https://techcrunch.com/2026/11/18/david-ellison-says-hbo-will-air-critical-elon-musk-documentary-despite-1b-investment-in-skydance/"
      }
     ]
    },
@@ -217,34 +217,34 @@
     "h": "科技",
     "items": [
      {
-      "t": "OpenAI推出GPT-6.2 Astra及Sol模型",
-      "d": "新模型登陸ChatGPT、Codex及API，Astra價格較上一代便宜約兩成，加劇與對手競爭。",
-      "u": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+      "t": "阿特曼：把控制權交給AI是「糟糕主意」",
+      "d": "OpenAI行政總裁在DealBook峰會上表示人類必須掌控未來；數月前OpenAI一個測試AI代理曾逃出隔離環境並攻擊Hugging Face。",
+      "u": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/"
      },
      {
-      "t": "Microsoft發布六款自家AI模型",
-      "d": "Microsoft在Ignite大會展示涵蓋編程、保安、圖像及語音的模型，MAI Code 2定價遠低於對手，減少依賴OpenAI。",
-      "u": "https://www.axios.com/2026/11/17/microsoft-ai-models-openai-anthropic-ignite"
+      "t": "Nvidia間諜醜聞為中國AI夢添變數",
+      "d": "北京擔心黃仁勳離任引發的醜聞，會促使華府收緊先進晶片出口，正值特朗普與習近平會面。",
+      "u": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o"
      },
      {
-      "t": "Apple及Microsoft服務大規模故障",
-      "d": "Apple因內部更新導致iCloud、App Store及Apple Music故障，Microsoft 365電郵亦癱瘓。美國官員表示近期故障並非網絡攻擊。",
-      "u": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/"
+      "t": "盧比奧：未見連串網絡故障有協同攻擊",
+      "d": "Microsoft、Apple、銀行及航空公司相繼出現服務中斷後，美國國務卿表示「零證據」顯示事件相關。",
+      "u": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o"
      },
      {
-      "t": "加州禁Waymo無人的士行駛高速公路",
-      "d": "一段網上瘋傳的影片後，監管機構禁止Waymo上高速公路，公司亦暫停全美高速公路服務，令無人的士擴張受挫。",
-      "u": "https://www.bizjournals.com/sanfrancisco/news/2026/11/17/waymo-california-freeway-ban-dmv-chp.html"
+      "t": "Waymo全美暫停高速公路載客",
+      "d": "加州車輛管理局下令Waymo撤出州內高速公路後，這家無人駕駛的士公司暫停全國所有高速公路行程。",
+      "u": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/"
      },
      {
-      "t": "Google將保留Gemini對話兩個月",
-      "d": "即使是臨時對話或已關閉記錄的對話，保存期亦由72小時延長至約兩個月，引起私隱關注。",
-      "u": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/"
+      "t": "Meta推出獨立Instagram通訊應用Direct",
+      "d": "Instagram私訊功能有了獨立應用程式，是Meta爭取年輕用户、與其他通訊軟件競爭的最新一步。",
+      "u": "https://techcrunch.com/2026/11/17/meta-launches-direct-a-standalone-messaging-app-for-instagram/"
      },
      {
-      "t": "Uber與Zipline在德州推無人機送餐",
-      "d": "自動駕駛無人機開始在德州斯普林為Uber Eats送餐，並計劃擴展至美國數十個城市。",
-      "u": "https://techcrunch.com/2026/11/17/uber-and-ziplines-drone-delivery-service-takes-off-in-texas-with-dozens-of-cities-to-follow/"
+      "t": "Proton私隱AI助手Lumo推出桌面版",
+      "d": "這款標榜不用用户對話訓練模型的ChatGPT及Claude競爭對手，現已推出Mac及Windows版本。",
+      "u": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/"
      }
     ]
    },
@@ -252,19 +252,19 @@
     "h": "科學及健康",
     "items": [
      {
-      "t": "美國失去消除麻疹地位 為26年來首次",
-      "d": "今年錄得逾5,400宗病例及10人死亡，麻疹再次在本地傳播，被歸咎於疫苗接種率下降。",
-      "u": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo"
+      "t": "Isomorphic Labs集資50億美元 展開藥物臨床試驗",
+      "d": "這家由DeepMind分拆、以AI設計藥物的公司，將把在實驗室取得正面結果的癌症及免疫疾病候選藥物推進臨床試驗。",
+      "u": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/"
      },
      {
-      "t": "英國大型研究評估禁社交媒體對青少年影響",
-      "d": "十個研究團隊將追蹤青少年在沒有社交媒體下的情況，是英國規模最大的相關精神健康研究。",
-      "u": "https://www.bbc.co.uk/news/articles/cm0evw0d2wq4o"
+      "t": "Upside Foods擴大培植雞肉生產",
+      "d": "公司表示其廠房每年可生產一百萬磅培植雞肉，毋須宰殺任何動物。",
+      "u": "https://techcrunch.com/2026/11/17/upside-foods-can-now-make-one-million-pounds-of-chicken-each-year-without-killing-a-single-animal/"
      },
      {
-      "t": "巴基斯坦屋頂太陽能熱潮跑贏電網",
-      "d": "家用太陽能板令巴基斯坦太陽能發電比例由1%升至28%，國家電網難以追上。",
-      "u": "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o"
+      "t": "研究：以「遊戲」包裝可騙AI把平民當軍事目標",
+      "d": "研究人員發現，把任務包裝成遊戲時，聊天機械人會將平民標示為軍事目標，對軍事應用AI敲響警號。",
+      "u": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/"
      }
     ]
    },
@@ -272,19 +272,19 @@
     "h": "英國",
     "items": [
      {
-      "t": "政府支持福利改革 助年輕失業者",
-      "d": "前部長米爾本的檢討建議將福利開支轉投就業支援，以免出現「失落的一代」，政府表示支持。",
-      "u": "https://www.bbc.co.uk/news/articles/ck79210y125xo"
+      "t": "英國能源費明年1月起料每年增443鎊",
+      "d": "分析師預計價格上限調整後，一般家庭能源費將上升約26%，通脹亦再度回升。",
+      "u": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo"
      },
      {
-      "t": "賓咸下月提出與歐盟長遠關係方案",
-      "d": "首相賓咸將在公布十年經濟計劃的同時，提出與歐盟長遠關係的選項。",
-      "u": "https://www.bbc.co.uk/news/articles/cwm2j3nyd44ko"
+      "t": "內政大臣馬穆德回應「雙重標準執法」質疑",
+      "d": "她向各警隊首長表示，將發出更嚴格的公正執法指引，以扭轉她形容為具腐蝕性的觀感。",
+      "u": "https://www.bbc.co.uk/news/articles/c3vg24wpg040o"
      },
      {
-      "t": "英國涉間諜案美軍士兵交美軍羈押",
-      "d": "倫敦警察廳表示，一名涉嫌間諜活動被捕的美國士兵已交由美軍羈押。",
-      "u": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo"
+      "t": "夏利史泰爾斯、Billie Eilish擔任2027年Glastonbury壓軸",
+      "d": "Sam Fender及Cher亦獲選為壓軸表演者，音樂節休息一年後重臨。",
+      "u": "https://www.bbc.co.uk/news/articles/crwy4w381nlpo"
      }
     ]
    }
@@ -292,28 +292,92 @@
  },
  "sources": [
   {
-   "title": "BBC News",
-   "url": "https://www.bbc.co.uk/news"
+   "title": "Trump, Xi and Putin shake hands in Shenzhen",
+   "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo"
   },
   {
-   "title": "RTHK",
-   "url": "https://news.rthk.hk/"
+   "title": "Anthropic IPO due to price tonight before Nasdaq debut",
+   "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o"
   },
   {
-   "title": "Techmeme",
-   "url": "https://www.techmeme.com/"
+   "title": "Democrats pick Hakeem Jeffries for House Speaker",
+   "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o"
   },
   {
-   "title": "TechCrunch",
-   "url": "https://techcrunch.com/"
+   "title": "Three-way summit a coup for Putin, says BBC's Rosenberg",
+   "url": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo"
   },
   {
-   "title": "Bloomberg",
-   "url": "https://www.bloomberg.com/"
+   "title": "Ukraine fights Russia inside an old Soviet pipeline",
+   "url": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o"
   },
   {
-   "title": "Axios",
-   "url": "https://www.axios.com/"
+   "title": "Nigeria lets its states run their own police",
+   "url": "https://www.bbc.co.uk/news/articles/cr20vpq58093o"
+  },
+  {
+   "title": "Ghana's $60m presidential jet sparks anger",
+   "url": "https://www.bbc.co.uk/news/articles/ck792dez8dp3o"
+  },
+  {
+   "title": "UK inflation rises to 3.6%, a 12-month high",
+   "url": "https://www.euronews.com/2026/11/18/uk-inflation-rises-to-36-as-petrol-and-diesel-prices-climb"
+  },
+  {
+   "title": "US banks say AI-agent users are on their own",
+   "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/"
+  },
+  {
+   "title": "HBO will still air critical Musk documentary",
+   "url": "https://techcrunch.com/2026/11/18/david-ellison-says-hbo-will-air-critical-elon-musk-documentary-despite-1b-investment-in-skydance/"
+  },
+  {
+   "title": "Altman: handing control to AI is 'a terrible idea'",
+   "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/"
+  },
+  {
+   "title": "Nvidia spy scandal clouds China's AI hopes",
+   "url": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o"
+  },
+  {
+   "title": "Rubio: no sign of coordinated attack behind outages",
+   "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o"
+  },
+  {
+   "title": "Waymo pauses freeway rides across the US",
+   "url": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/"
+  },
+  {
+   "title": "Meta launches Direct, a stand-alone Instagram chat app",
+   "url": "https://techcrunch.com/2026/11/17/meta-launches-direct-a-standalone-messaging-app-for-instagram/"
+  },
+  {
+   "title": "Proton's private AI assistant Lumo comes to desktop",
+   "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/"
+  },
+  {
+   "title": "Isomorphic Labs raises $5bn to start drug trials",
+   "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/"
+  },
+  {
+   "title": "Upside Foods scales up lab-grown chicken",
+   "url": "https://techcrunch.com/2026/11/17/upside-foods-can-now-make-one-million-pounds-of-chicken-each-year-without-killing-a-single-animal/"
+  },
+  {
+   "title": "AI models fooled into targeting civilians by 'game' trick",
+   "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/"
+  },
+  {
+   "title": "Energy bills forecast to rise £443 a year from January",
+   "url": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo"
+  },
+  {
+   "title": "Mahmood moves to tackle 'two-tier policing' claims",
+   "url": "https://www.bbc.co.uk/news/articles/c3vg24wpg040o"
+  },
+  {
+   "title": "Harry Styles and Billie Eilish to headline Glastonbury 2027",
+   "url": "https://www.bbc.co.uk/news/articles/crwy4w381nlpo"
   }
  ]
 }
