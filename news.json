@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T23:39+00:00",
+ "updated": "2026-11-18T00:45+00:00",
  "items": [
   {
    "src": "香港",
@@ -32,15 +32,15 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "美軍證實打擊伊朗格什姆島導彈發射場 稱回應革命衛隊侵略行為",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878213-20261118.htm",
-   "d": "美國軍方星期二證實，對伊朗南部格什姆島一處導彈發射場，實施精準打擊，回應伊朗革命衛隊針對美國人員和資產的侵略行為。 伊朗傳媒較早時報道，格什姆島傳出爆炸聲並冒出濃煙。霍爾木茲甘省副省長其後證實，美軍襲擊格什姆島部分地點，當地情況受控，居民區、商業和基礎設施沒有受損。 據報在格什姆島襲擊發生前幾小時，伊朗對美軍位於巴林的一處雷達站發動襲擊，美軍中央司令部否認巴林基地的雷達系統被擊中。巴林國防軍總司令部說，防空部隊攔截了多次伊朗的空中打擊。…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878213_1_M_20261118061413.jpg",
-   "at": "2026-11-17T22:36+00:00",
+   "t": "黃仁勳下月初出席美國國會聽證會",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878227-20261118.htm",
+   "d": "美國眾議院外交事務委員會一份聲明指出，Nvidia前行政總裁黃仁勳，已同意12月1日出席由多個委員會共同舉行的聽證會，並接受質詢。 華爾街日報引述消息人士指，黃仁勳辭任行政總裁後，美國證券交易委員會（SEC）正對集團展開調查。 另外，路透引述監管文件指，黃仁勳及其基金會持有Nvidia約3.5%股份，他有權在股東周年大會舉行前，向董事會提名兩名董事。報道指，任何持有Nvidia至少3%表決權、持股時間不少於3年的股東，均有權提名董事候選…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878227_1_M_20261118080612.jpg",
+   "at": "2026-11-18T00:07+00:00",
    "where": [
-    32.4,
-    53.7,
-    "伊朗"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -74,15 +74,15 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "美國國安局內部系統短暫網速下降 影響部分功能",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878208-20261118.htm",
-   "d": "美國國家安全局星期二公布，局方用於內部通訊的網絡系統，在一次定期維護期間，出現短暫網速下降，影響系統部分功能，局方重申，系統的關鍵任務能力保持全面正常運作，但美國國家安全局的聲明並無交代事故原因。 美國總統特朗普回應說，類似事件間中都會發生，形容是無法避免。 編輯：盧曉珊",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878208_1_M_20261118053542.jpg",
-   "at": "2026-11-17T21:55+00:00",
+   "t": "美軍證實打擊伊朗格什姆島導彈發射場 稱回應革命衛隊侵略行為",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878213-20261118.htm",
+   "d": "美國軍方星期二證實，對伊朗南部格什姆島一處導彈發射場，實施精準打擊，回應伊朗革命衛隊針對美國人員和資產的侵略行為。 伊朗傳媒較早時報道，格什姆島傳出爆炸聲並冒出濃煙。霍爾木茲甘省副省長其後證實，美軍襲擊格什姆島部分地點，當地情況受控，居民區、商業和基礎設施沒有受損。 據報在格什姆島襲擊發生前幾小時，伊朗對美軍位於巴林的一處雷達站發動襲擊，美軍中央司令部否認巴林基地的雷達系統被擊中。巴林國防軍總司令部說，防空部隊攔截了多次伊朗的空中打擊。…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878213_1_M_20261118061413.jpg",
+   "at": "2026-11-17T22:36+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    32.4,
+    53.7,
+    "伊朗"
    ]
   },
   {
@@ -102,11 +102,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
-   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
-   "at": "2026-11-17T09:49+00:00",
+   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-17T16:25+00:00",
    "where": [
     23.7,
     121.0,
@@ -116,15 +116,15 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "德國芬蘭重申 涉烏克蘭未來談判須有歐洲參與",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878205-20261118.htm",
-   "d": "德國和芬蘭表示，涉及烏克蘭未來的談判必須有歐洲參與。 芬蘭總統斯圖布到訪德國，與德國總統施泰因邁爾一同見記者。 施泰因邁爾說，本月較早時在阿聯酋阿布扎比舉行的俄美烏三方會談，推動了談判進程，預計未來數星期會舉行進一步會談，但他重申，歐洲只會接受由歐洲親自參與談判達成的安全保障。 斯圖布也認為談判已經重回正軌，明天在柏林舉行的「自願聯盟」會議，對於進一步協調行動十分重要。他表示首要是制定明確的談判時間表和議程，令到對話和談判在關鍵領域持續…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878205_1_M_20261118033416.jpg",
-   "at": "2026-11-17T21:09+00:00",
+   "t": "美國國安局內部系統短暫網速下降 影響部分功能",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878208-20261118.htm",
+   "d": "美國國家安全局星期二公布，局方用於內部通訊的網絡系統，在一次定期維護期間，出現短暫網速下降，影響系統部分功能，局方重申，系統的關鍵任務能力保持全面正常運作，但美國國家安全局的聲明並無交代事故原因。 美國總統特朗普回應說，類似事件間中都會發生，形容是無法避免。 編輯：盧曉珊",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878208_1_M_20261118053542.jpg",
+   "at": "2026-11-17T21:55+00:00",
    "where": [
-    51.2,
-    10.4,
-    "德國"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -158,15 +158,15 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "深圳APEC｜普京凌晨抵達深圳 蔡奇到機場迎接",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878206-20261118.htm",
-   "d": "俄羅斯總統普京凌晨抵達深圳，準備出席亞太經合組織領導人非正式會議。 普京的專機凌晨接近2時，降落深圳寶安國際機場，中共中央政治局常委、中央書記處書記蔡奇到機場迎接。 國家主席習近平，明天將與普京及美國總統特朗普，舉行中俄美三國元首史上首次面對面會晤，外交部早前表示，三國元首將圍繞維護世界和平、促進大國關係戰略穩定深入交換意見，會面具有開創性意義。 編輯：盧曉珊",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878206_1_M_20261118034343.jpg",
-   "at": "2026-11-17T20:12+00:00",
+   "t": "德國芬蘭重申 涉烏克蘭未來談判須有歐洲參與",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878205-20261118.htm",
+   "d": "德國和芬蘭表示，涉及烏克蘭未來的談判必須有歐洲參與。 芬蘭總統斯圖布到訪德國，與德國總統施泰因邁爾一同見記者。 施泰因邁爾說，本月較早時在阿聯酋阿布扎比舉行的俄美烏三方會談，推動了談判進程，預計未來數星期會舉行進一步會談，但他重申，歐洲只會接受由歐洲親自參與談判達成的安全保障。 斯圖布也認為談判已經重回正軌，明天在柏林舉行的「自願聯盟」會議，對於進一步協調行動十分重要。他表示首要是制定明確的談判時間表和議程，令到對話和談判在關鍵領域持續…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878205_1_M_20261118033416.jpg",
+   "at": "2026-11-17T21:09+00:00",
    "where": [
-    22.54,
-    114.06,
-    "深圳"
+    51.2,
+    10.4,
+    "德國"
    ]
   },
   {
@@ -186,29 +186,24 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "歐盟峰會前夕 貝安德稱英國脫歐「得不償失」",
-   "u": "https://www.bbc.com/zhongwen/articles/c68x0j2r8lkyo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "英國首相在倫敦金融城市長晚宴上向與會人士表示，「我們得到的脫歐結果並沒有奏效」。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b29e/live/e82f8ae0-e210-11f1-a541-6d0c391a4254.jpg",
-   "at": "2026-11-17T07:52+00:00",
-   "where": [
-    52.5,
-    -1.5,
-    "英國"
-   ]
+   "t": "身體最常受傷、卻很少人會刻意鍛鍊的部位：腳踝",
+   "u": "https://www.bbc.com/zhongwen/articles/cwj05r347d0lo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "運動物理治療師珍妮薇芙·陶亞（Genevieve Tawiah）分享了她護理關節的秘訣；關節問題佔急診就診量的 5%。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/14f3/live/2e24a220-e0f8-11f1-97b9-9110abfffc70.jpg",
+   "at": "2026-11-18T00:29+00:00"
   },
   {
    "src": "世界",
    "lang": "zh",
-   "t": "伊朗指美軍襲擊格什姆島部分地點 美軍未有回應",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878204-20261118.htm",
-   "d": "伊朗傳媒星期二報道，南部格什姆島傳出爆炸聲並冒出濃煙。 霍爾木茲甘省副省長其後證實，美軍襲擊格什姆島部分地點，但當地情況受控，居民區、商業和基礎設施沒有受損，救援、服務和行政部門處於全面戒備狀態；美軍暫時未有回應。 編輯：盧曉珊",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878204_1_M_20261118031154.jpg",
-   "at": "2026-11-17T19:11+00:00",
+   "t": "深圳APEC｜普京凌晨抵達深圳 蔡奇到機場迎接",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878206-20261118.htm",
+   "d": "俄羅斯總統普京凌晨抵達深圳，準備出席亞太經合組織領導人非正式會議。 普京的專機凌晨接近2時，降落深圳寶安國際機場，中共中央政治局常委、中央書記處書記蔡奇到機場迎接。 國家主席習近平，明天將與普京及美國總統特朗普，舉行中俄美三國元首史上首次面對面會晤，外交部早前表示，三國元首將圍繞維護世界和平、促進大國關係戰略穩定深入交換意見，會面具有開創性意義。 編輯：盧曉珊",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878206_1_M_20261118034343.jpg",
+   "at": "2026-11-17T20:12+00:00",
    "where": [
-    32.4,
-    53.7,
-    "伊朗"
+    22.54,
+    114.06,
+    "深圳"
    ]
   },
   {
@@ -228,11 +223,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "台灣高雄市選戰：「知識藍」柯志恩對決「新潮流」賴瑞隆，國民黨有可能複製「韓流」嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-17T16:25+00:00",
+   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
+   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
+   "at": "2026-11-17T09:49+00:00",
    "where": [
     23.7,
     121.0,
@@ -242,15 +237,15 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "黃仁勳：若Nvidia董事會同意 願重新出任行政總裁",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878202-20261118.htm",
-   "d": "早前辭去Nvidia行政總裁職務的黃仁勳說，如果Nvidia董事會認為他重返公司，符合股東、員工、公司以至美國的最佳利益，他會重新出任行政總裁一職。 捲入婚外情風波的黃仁勳在社交平台發文，再次承認自己在私人生活犯下嚴重錯誤，但他感受到大量來自員工、投資者、商業夥伴和客戶的聲音，支持他重返Nvidia。 Nvidia對黃仁勳的最新表態未有回應。 至於網上一份支持黃仁勳復職的聯署信，增加至超過19萬人簽署，包括富商馬斯克。美國總統特朗普日前…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878202_1_M_20261118015711.jpg",
-   "at": "2026-11-17T18:12+00:00",
+   "t": "伊朗指美軍襲擊格什姆島部分地點 美軍未有回應",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878204-20261118.htm",
+   "d": "伊朗傳媒星期二報道，南部格什姆島傳出爆炸聲並冒出濃煙。 霍爾木茲甘省副省長其後證實，美軍襲擊格什姆島部分地點，但當地情況受控，居民區、商業和基礎設施沒有受損，救援、服務和行政部門處於全面戒備狀態；美軍暫時未有回應。 編輯：盧曉珊",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878204_1_M_20261118031154.jpg",
+   "at": "2026-11-17T19:11+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    32.4,
+    53.7,
+    "伊朗"
    ]
   },
   {
@@ -283,14 +278,14 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "中加延長初步聯合安排豁免措施2年 加方將擴大中國鋼鋁產品豁免",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878200-20261118.htm",
-   "d": "國家主席習近平昨日與加拿大總理卡尼會面，習近平就中加關係提出幾點意見，包括要增進政治互信，妥善管控及化解矛盾分歧，並加強協調，共同踐行真正多邊主義維護聯合國權威及多邊貿易體制。 在北京，商務部發言人表示，在兩國領導人重要共識的引領下，雙方本著相互尊重、合作共贏的精神，在初步聯合安排基礎上，展開多輪經貿磋商，就雙方關注的經貿問題形成補充聯合安排，同意將初步聯合安排的相關豁免措施延長2年。 發言人說，加方將進一步擴大對中國鋼鋁產品的豁免範圍…",
-   "at": "2026-11-17T17:12+00:00",
+   "t": "黃仁勳：若Nvidia董事會同意 願重新出任行政總裁",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878202-20261118.htm",
+   "d": "早前辭去Nvidia行政總裁職務的黃仁勳說，如果Nvidia董事會認為他重返公司，符合股東、員工、公司以至美國的最佳利益，他會重新出任行政總裁一職。 捲入婚外情風波的黃仁勳在社交平台發文，再次承認自己在私人生活犯下嚴重錯誤，但他感受到大量來自員工、投資者、商業夥伴和客戶的聲音，支持他重返Nvidia。 Nvidia對黃仁勳的最新表態未有回應。 至於網上一份支持黃仁勳復職的聯署信，增加至超過19萬人簽署，包括富商馬斯克。美國總統特朗普日前…",
+   "at": "2026-11-17T18:12+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -323,14 +318,14 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "中加外長會面 王毅籲以實際行動落實領導人合作共識",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878197-20261118.htm",
-   "d": "中共中央政治局委員、外長王毅，昨日在深圳，與加拿大外長阿南德會面。 王毅表示，得益於兩國領導人的戰略引領，中加關係進入健康穩定的發展軌道，雙方要以實際行動落實兩國領導人新的合作共識，為構建新型戰略夥伴關係不斷注入新內涵，為雙方人民帶來更多福祉，為動蕩的世界提供穩定性。中方支持加方堅定奉行多邊主義，為亞太合作作出更大貢獻。 中方引述阿南德表示，加中關係改善發展勢頭強勁，符合雙方共同利益，有利兩國發展繁榮。加方願與中方在貿易、金融、科技、旅…",
-   "at": "2026-11-17T16:37+00:00",
+   "t": "中加延長初步聯合安排豁免措施2年 加方將擴大中國鋼鋁產品豁免",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878200-20261118.htm",
+   "d": "國家主席習近平昨日與加拿大總理卡尼會面，習近平就中加關係提出幾點意見，包括要增進政治互信，妥善管控及化解矛盾分歧，並加強協調，共同踐行真正多邊主義維護聯合國權威及多邊貿易體制。 在北京，商務部發言人表示，在兩國領導人重要共識的引領下，雙方本著相互尊重、合作共贏的精神，在初步聯合安排基礎上，展開多輪經貿磋商，就雙方關注的經貿問題形成補充聯合安排，同意將初步聯合安排的相關豁免措施延長2年。 發言人說，加方將進一步擴大對中國鋼鋁產品的豁免範圍…",
+   "at": "2026-11-17T17:12+00:00",
    "where": [
-    22.54,
-    114.06,
-    "深圳"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
@@ -376,15 +371,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "俄羅斯超級富豪們已經在設想一個「後普京時代」",
-   "u": "https://www.bbc.com/zhongwen/articles/cmx27v835864o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "一些俄羅斯富豪渴望回到90年代的寡頭政治體制，當時商人掌握著權力。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/0d12/live/ba3084e0-de83-11f1-93e1-3b657b665bcf.jpg",
-   "at": "2026-11-17T00:34+00:00",
+   "t": "歐盟峰會前夕 貝安德稱英國脫歐「得不償失」",
+   "u": "https://www.bbc.com/zhongwen/articles/c68x0j2r8lkyo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "英國首相在倫敦金融城市長晚宴上向與會人士表示，「我們得到的脫歐結果並沒有奏效」。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b29e/live/e82f8ae0-e210-11f1-a541-6d0c391a4254.jpg",
+   "at": "2026-11-17T07:52+00:00",
    "where": [
-    55.75,
-    37.6,
-    "俄羅斯"
+    52.5,
+    -1.5,
+    "英國"
    ]
   },
   {
@@ -418,11 +413,11 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "How new US chip restrictions on South East Asia will hit China",
-   "u": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
-   "d": "The new rules restrict chip exports and also access to their computing power, which China relies on heavily.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bfea/live/8fbafe20-e225-11f1-ae7e-97d0d3a43181.jpg",
-   "at": "2026-11-17T14:25+00:00",
+   "t": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+   "u": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
+   "d": "China worries the scandal could ramp up pressure on the US to further restrict the sale of advanced chips.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ec0d/live/1061d030-dea2-11f1-b441-2b33b063138f.jpg",
+   "at": "2026-11-17T23:02+00:00",
    "where": [
     34.0,
     108.0,
@@ -432,11 +427,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Nvidia reports bumper results as firm says it's not reinstating Huang",
+   "t": "Nvidia says it won't reinstate Huang as firm reports bumper results",
    "u": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
-   "d": "Nvidia reported strong quarterly earnings on Tuesday amid the dramatic exit of ex-CEO Jensen Huang.",
+   "d": "The AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2e48/live/58880030-e2d7-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-17T23:03+00:00",
+   "at": "2026-11-18T00:28+00:00",
    "where": [
     38.9,
     -77.04,
@@ -530,15 +525,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Will President Trump meet Kim Jong Un?",
-   "u": "https://www.bbc.co.uk/news/videos/c6grew79p7qdo?at_medium=RSS&at_campaign=rss",
-   "d": "President Trump says he would be keen to meet the North Korea leader in China.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4583/live/99273800-e263-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-17T10:13+00:00",
+   "t": "How new US chip restrictions on South East Asia will hit China",
+   "u": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
+   "d": "The new rules restrict chip exports and also access to their computing power, which China relies on heavily.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bfea/live/8fbafe20-e225-11f1-ae7e-97d0d3a43181.jpg",
+   "at": "2026-11-17T14:25+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
@@ -630,7 +625,7 @@
    "lang": "en",
    "t": "Thomas Markle charged over child sex abuse material in Philippines",
    "u": "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
-   "d": "Markle is being held in prison in the US on a separate charge and has previously denied all of the allegations.",
+   "d": "Markle is being held in custody in the US after one charge and has previously denied all of the allegations.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5b0e/live/040fc640-dd79-11f1-93e1-3b657b665bcf.jpg",
    "at": "2026-11-17T22:44+00:00",
    "where": [
@@ -642,15 +637,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "China is hosting the world's leaders in its AI wonderland. Here's what they won't see",
-   "u": "https://www.bbc.co.uk/news/articles/cm3eg3v9jkk8o?at_medium=RSS&at_campaign=rss",
-   "d": "Leave Shenzhen's tech-flecked city skyline and you run into the challenges confronting Xi's China.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/947c/live/0bef2190-e278-11f1-ad71-0bc71faa76c4.png",
-   "at": "2026-11-16T23:07+00:00",
+   "t": "Will President Trump meet Kim Jong Un?",
+   "u": "https://www.bbc.co.uk/news/videos/c6grew79p7qdo?at_medium=RSS&at_campaign=rss",
+   "d": "President Trump says he would be keen to meet the North Korea leader in China.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4583/live/99273800-e263-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-17T10:13+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -754,15 +749,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Japan sends up jets after alleged Russian incursion of its airspace",
-   "u": "https://www.bbc.co.uk/news/articles/c60evw20qe47o?at_medium=RSS&at_campaign=rss",
-   "d": "Taiwan and South Korea also responded to Russian military aircraft detected near their airspaces.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/af8a/live/92244d70-e25b-11f1-8bed-2b9fd907b22d.jpg",
-   "at": "2026-11-17T07:44+00:00",
+   "t": "Pakistan's solar revolution seems unstoppable - but there's a problem",
+   "u": "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o?at_medium=RSS&at_campaign=rss",
+   "d": "People installing their own solar panels has helped boost the solar share of Pakistan's electricity from 1% to 28%.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7f9b/live/9d67ed20-e29e-11f1-8dda-8925a81c3da5.jpg",
+   "at": "2026-11-17T23:34+00:00",
    "where": [
-    55.75,
-    37.6,
-    "俄羅斯"
+    30.4,
+    69.3,
+    "巴基斯坦"
    ]
   },
   {
@@ -866,15 +861,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Imran Khan seeks urgent medical care fearing he 'may not return alive'",
-   "u": "https://www.bbc.co.uk/news/articles/cr894xq5yeyko?at_medium=RSS&at_campaign=rss",
-   "d": "Pakistan's ex-prime minister, who has been in prison since August 2023, says he has been denied justice.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/34cb/live/06da8400-e224-11f1-91de-bf87f3de9484.jpg",
-   "at": "2026-11-17T01:26+00:00",
+   "t": "China is hosting the world's leaders in its AI wonderland. Here's what they won't see",
+   "u": "https://www.bbc.co.uk/news/articles/cm3eg3v9jkk8o?at_medium=RSS&at_campaign=rss",
+   "d": "Leave Shenzhen's tech-flecked city skyline and you run into the challenges confronting Xi's China.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/947c/live/0bef2190-e278-11f1-ad71-0bc71faa76c4.png",
+   "at": "2026-11-16T23:07+00:00",
    "where": [
-    30.4,
-    69.3,
-    "巴基斯坦"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
@@ -978,11 +973,16 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Taking Korea's toughest exam from behind bars",
-   "u": "https://www.bbc.co.uk/news/articles/cmewvxg855yno?at_medium=RSS&at_campaign=rss",
-   "d": "Eleven convicts at the Mandela Boys' School will be among the thousands of young Koreans taking the country's hardest exam, the Suneung.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a2ce/live/66eb6250-e1ad-11f1-8ee3-23d0d09d2796.png",
-   "at": "2026-11-16T23:09+00:00"
+   "t": "Japan sends up jets after alleged Russian incursion of its airspace",
+   "u": "https://www.bbc.co.uk/news/articles/c60evw20qe47o?at_medium=RSS&at_campaign=rss",
+   "d": "Taiwan and South Korea also responded to Russian military aircraft detected near their airspaces.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/af8a/live/92244d70-e25b-11f1-8bed-2b9fd907b22d.jpg",
+   "at": "2026-11-17T07:44+00:00",
+   "where": [
+    55.75,
+    37.6,
+    "俄羅斯"
+   ]
   },
   {
    "src": "US & CANADA",
