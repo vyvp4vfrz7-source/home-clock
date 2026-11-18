@@ -1,18 +1,18 @@
 {
- "updated": "2026-11-18T17:28+00:00",
+ "updated": "2026-11-18T18:15+00:00",
  "items": [
   {
    "src": "香港",
    "lang": "zh",
-   "t": "特首辦：辦公室車輛灣仔遇途人衝出馬路 途人拒送院",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878350-20261118.htm",
-   "d": "行政長官辦公室回覆查詢時表示，一輛特首辦車輛下午約5時48分，在灣仔告士打道慢駛左轉入分域街時，遇到一名途人，在沒有行人過路設施的路段突然衝出馬路，司機及時煞停車輛，並即場報警備案。 特首辦表示，警察到場後確認涉事途人屬違規橫過馬路，而該途人拒絕到醫院接受進一步檢查。事件作備案處理。 編輯：鍾慧儀",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878350_1_M_20261118231428.jpg",
-   "at": "2026-11-18T15:14+00:00",
+   "t": "深圳APEC｜渣打：將發揮網絡優勢 促進區域合作及共同繁榮",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878354-20261119.htm",
+   "d": "渣打香港兼大中華及北亞區行政總裁、亞太經合組織（APEC）商貿諮詢理事會中國香港代表禤惠儀表示，渣打的網絡已覆蓋APEC約3分之2的經濟體，並連接亞洲、非洲及中東的重要市場。 禤惠儀在深圳出席APEC工商領導人峰會時表示，在全球經濟和貿易格局持續演變的背景下，渣打深知開放、自由及互惠的多邊合作，對促進跨境貿易和投資的重要性，致力發揮橋樑作用，促進跨境資金、貿易和投資流動，協助企業把握區域發展機遇。 她表示，渣打將發揮網絡優勢，促進區域合…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878354_1_M_20261119011725.jpg",
+   "at": "2026-11-18T17:17+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    22.54,
+    114.06,
+    "深圳"
    ]
   },
   {
@@ -32,9 +32,47 @@
   {
    "src": "世界",
    "lang": "zh",
+   "t": "商務部：中韓自貿協定第二階段談判實質性完成",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878355-20261119.htm",
+   "d": "商務部表示，中韓雙方以兩國元首重要共識為指引，推進中韓自貿協定第二階段談判，歷經8年多時間，在近日實質性完成，達成互利共贏的高水平談判成果。 商務部國際司負責人表示，中韓自貿協定第二階段對原中韓自貿協定投資、服務貿易、金融服務和經濟合作章及有關附件進行升級，進一步提升了雙方投資和服務自由化、便利化規則水平，並採用負面清單模式針對投資、跨境服務貿易、金融服務等領域作出開放承諾，為後續雙向投資和服務貿易往來建立了透明、穩定、可預期的准入規則…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878355_1_M_20261119021234.jpg",
+   "at": "2026-11-18T18:07+00:00"
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "特首辦：辦公室車輛灣仔遇途人衝出馬路 途人拒送院",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878350-20261118.htm",
+   "d": "行政長官辦公室回覆查詢時表示，一輛特首辦車輛下午約5時48分，在灣仔告士打道慢駛左轉入分域街時，遇到一名途人，在沒有行人過路設施的路段突然衝出馬路，司機及時煞停車輛，並即場報警備案。 特首辦表示，警察到場後確認涉事途人屬違規橫過馬路，而該途人拒絕到醫院接受進一步檢查。事件作備案處理。 編輯：鍾慧儀",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878350_1_M_20261118231428.jpg",
+   "at": "2026-11-18T15:14+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "美中俄峰會：為何選在深圳麒麟山莊？習仲勳、金正日都曾下榻",
+   "u": "https://www.bbc.com/zhongwen/articles/cqn0dy4ppxp7o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "麒麟山莊離APEC主會場約30分鐘車程，三面環山、一面臨水，封閉性和安保條件都很好。它也與習近平的父親習仲勳有淵源，還接待過已故朝鮮領導人金正日。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/f1ea/live/ab525c80-e326-11f1-baab-4b3b35d174b7.jpg",
+   "at": "2026-11-18T08:06+00:00",
+   "where": [
+    22.54,
+    114.06,
+    "深圳"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
    "t": "斐濟持續乾旱進入災難狀態 政府撥專項資金救災",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878351-20261119.htm",
    "d": "南太平洋島國斐濟遭遇罕見持續乾旱，當地星期三宣布全國進入災難狀態，全力應對嚴峻缺水危機。 斐濟總理蘭布卡表示，災難狀態啟動後，政府將有權統一調配應急隊伍、救災物資及各類公共資源，當局已撥出專項救災資金，用於應急供水保障、受災社區幫扶、農業養殖救濟及乾旱衍生災害處置等工作。 斐濟屬熱帶海洋性氣候，降雨充足。今年以來，強厄爾尼諾現象打破當地水文常態，引發罕見持續乾旱，令這個水資源豐裕的島國陷入嚴重缺水危機。斐濟當局警告，當地11月底警戒級缺…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878351_1_M_20261119013424.jpg",
    "at": "2026-11-18T16:41+00:00"
   },
   {
@@ -54,15 +92,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "美中俄峰會：為何選在深圳麒麟山莊？習仲勳、金正日都曾下榻",
-   "u": "https://www.bbc.com/zhongwen/articles/cqn0dy4ppxp7o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "麒麟山莊離APEC主會場約30分鐘車程，三面環山、一面臨水，封閉性和安保條件都很好。它也與習近平的父親習仲勳有淵源，還接待過已故朝鮮領導人金正日。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/f1ea/live/ab525c80-e326-11f1-baab-4b3b35d174b7.jpg",
-   "at": "2026-11-18T08:06+00:00",
+   "t": "黃仁勳婚外情掀「中國間諜」迷因：幽默與偏見之間，亞裔女性如何自處？",
+   "u": "https://www.bbc.com/zhongwen/articles/cvze7n4gp5rro/trad?at_medium=RSS&at_campaign=rss",
+   "d": "黃仁勳醜聞曝光後，網上湧現大量「中國間諜」、「美人計」笑話。這些看似無傷大雅的時事迷因，卻讓部分亞裔女性感到困擾。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/cdfb/live/3e3fdc00-e103-11f1-b441-2b33b063138f.jpg",
+   "at": "2026-11-18T12:17+00:00",
    "where": [
-    22.54,
-    114.06,
-    "深圳"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
@@ -96,11 +134,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "黃仁勳婚外情掀「中國間諜」迷因：幽默與偏見之間，亞裔女性如何自處？",
-   "u": "https://www.bbc.com/zhongwen/articles/cvze7n4gp5rro/trad?at_medium=RSS&at_campaign=rss",
-   "d": "黃仁勳醜聞曝光後，網上湧現大量「中國間諜」、「美人計」笑話。這些看似無傷大雅的時事迷因，卻讓部分亞裔女性感到困擾。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/cdfb/live/3e3fdc00-e103-11f1-b441-2b33b063138f.jpg",
-   "at": "2026-11-18T12:17+00:00",
+   "t": "特朗普訪華之際 美國封堵中國公司在東南亞租用AI算力的「後門」",
+   "u": "https://www.bbc.com/zhongwen/articles/cmpdwn010nyvo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "在美國限制最先進英偉達芯片直接銷往中國的背景下，中國大型互聯網公司和AI實驗室逐漸轉向「只租算力、不買硬件」的模式。芯片部署在第三國數據中心，中國企業再通過互聯網遠程調用算力訓練模型，而無須把相關硬件運入中國。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/f965/live/d542c590-e275-11f1-b639-73d1df360b76.jpg",
+   "at": "2026-11-17T11:37+00:00",
    "where": [
     34.0,
     108.0,
@@ -138,15 +176,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "特朗普訪華之際 美國封堵中國公司在東南亞租用AI算力的「後門」",
-   "u": "https://www.bbc.com/zhongwen/articles/cmpdwn010nyvo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "在美國限制最先進英偉達芯片直接銷往中國的背景下，中國大型互聯網公司和AI實驗室逐漸轉向「只租算力、不買硬件」的模式。芯片部署在第三國數據中心，中國企業再通過互聯網遠程調用算力訓練模型，而無須把相關硬件運入中國。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/f965/live/d542c590-e275-11f1-b639-73d1df360b76.jpg",
-   "at": "2026-11-17T11:37+00:00",
+   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-17T16:25+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -180,11 +218,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-17T16:25+00:00",
+   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
+   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
+   "at": "2026-11-17T09:49+00:00",
    "where": [
     23.7,
     121.0,
@@ -197,7 +235,6 @@
    "t": "深圳APEC｜習近平：中方支持成立世界灣區經濟合作聯盟",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878331-20261118.htm",
    "d": "國家主席習近平在深圳出席亞太經合組織工商領導人峰會開幕式，並發表主旨演講。 他表示，中方願同各方攜手建設亞太共同體，促進亞太共同繁榮，亦支持成立世界灣區經濟合作聯盟，探索亞太經濟合作新路徑。 編輯：王濱南",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878331_1_M_20261118200139.jpg",
    "at": "2026-11-18T12:01+00:00",
    "where": [
     22.54,
@@ -211,7 +248,6 @@
    "t": "深圳APEC｜習近平稱領導人會議將討論拓展各領域務實合作機遇",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878335-20261118.htm",
    "d": "國家主席習近平與夫人彭麗媛，在深圳國際交流中心舉行宴會，歡迎出席亞太經合組織領導人非正式會議的來賓。習近平致祝酒辭時說，謹代表中國政府及中國人民，對各位嘉賓的到來表示熱烈歡迎。 習近平說深圳是一個有大故事的地方，1978年他第一次到深圳，看到的還是小漁村，彈指之間40多年過去，如今深圳高樓林立、車水馬龍，變化之大可謂滄海桑田。他說開放是深圳與生俱來的基因、創新是深圳的活力所在、合作是深圳的力量之源。深圳的故事是中國改革開放的縮影，也是亞…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878335_2_M_20261118210929.jpg",
    "at": "2026-11-18T12:10+00:00",
    "where": [
     22.54,
@@ -222,11 +258,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
-   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
-   "at": "2026-11-17T09:49+00:00",
+   "t": "九合一前夕：台灣幾乎年年選舉，會引起「投票疲勞」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c63egjkzqpz2o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣在過去七年間，幾乎每年都有大型選舉、罷免或公投。有學者形容台灣政治人物常處於「選舉模式」，在面對不同議題時往往急於回應。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7a49/live/c76f08c0-dcda-11f1-a8e1-e3454837ffc6.jpg",
+   "at": "2026-11-13T10:39+00:00",
    "where": [
     23.7,
     121.0,
@@ -262,46 +298,6 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "九合一前夕：台灣幾乎年年選舉，會引起「投票疲勞」嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/c63egjkzqpz2o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "台灣在過去七年間，幾乎每年都有大型選舉、罷免或公投。有學者形容台灣政治人物常處於「選舉模式」，在面對不同議題時往往急於回應。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7a49/live/c76f08c0-dcda-11f1-a8e1-e3454837ffc6.jpg",
-   "at": "2026-11-13T10:39+00:00",
-   "where": [
-    23.7,
-    121.0,
-    "台灣"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "深圳APEC｜習近平與夫人為出席來賓舉行歡迎宴會",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878334-20261118.htm",
-   "d": "國家主席習近平和彭麗媛，為出席亞太經合組織第三十三次領導人非正式會議的來賓，舉行歡迎宴會。 宴會開始前，習近平和彭麗媛分別與各經濟體的領導人、代表及配偶合照，包括俄羅斯總統普京及日本首相高市早苗等。 美國總統特朗普與習近平夫婦握手，三人短暫交談。在集體合照前，俄羅斯總統普京上前與特朗普握手。 行政長官李家超亦有與習近平和彭麗媛合照。 編輯：羅宇光",
-   "at": "2026-11-18T11:50+00:00",
-   "where": [
-    22.54,
-    114.06,
-    "深圳"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "深圳APEC｜李家超對習近平演講感振奮和鼓舞",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878329-20261118.htm",
-   "d": "在深圳出席亞太經合組織會議的行政長官李家超表示，對國家主席習近平在工商領導人峰會開幕式發表的主旨演講，感到十分振奮和鼓舞。 李家超又分別和多個亞太經合組織經濟體領袖雙邊會談，包括越南國家主席蘇林、泰國總理阿努廷和文萊蘇丹哈桑納爾等。 編輯：王濱南",
-   "at": "2026-11-18T11:45+00:00",
-   "where": [
-    22.54,
-    114.06,
-    "深圳"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
    "t": "里長赴中旅遊受關注：為何北京鎖定里長？里長怎麼看？",
    "u": "https://www.bbc.com/zhongwen/articles/cm3elx8gxdn3o/trad?at_medium=RSS&at_campaign=rss",
    "d": "台灣地方選舉即將到來，近年北京對台統戰工作重心從政商菁英轉向基層社會，而里長作為選舉期間的地方「樁腳」，就成為了北京的重要接觸對象。",
@@ -316,14 +312,14 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "【重溫】2026年11月18日新聞天地",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878317-20261118.htm",
-   "d": "詳盡報道本地時事、大中華消息、國際局勢等新聞，緊貼最新熱話。",
-   "at": "2026-11-18T11:42+00:00",
+   "t": "深圳APEC｜李家超對習近平演講感振奮和鼓舞",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878329-20261118.htm",
+   "d": "在深圳出席亞太經合組織會議的行政長官李家超表示，對國家主席習近平在工商領導人峰會開幕式發表的主旨演講，感到十分振奮和鼓舞。 李家超又分別和多個亞太經合組織經濟體領袖雙邊會談，包括越南國家主席蘇林、泰國總理阿努廷和文萊蘇丹哈桑納爾等。 編輯：王濱南",
+   "at": "2026-11-18T11:45+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    22.54,
+    114.06,
+    "深圳"
    ]
   },
   {
@@ -343,14 +339,14 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "深圳APEC｜香港智利工作假期協議雙方每年各百名額",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878328-20261118.htm",
-   "d": "香港與智利簽署協議，設立讓兩地青年參與的雙邊工作假期計劃。協議在行政長官李家超與智利總統卡斯特共同見證下，由勞工及福利局局長孫玉菡與智利外交部部長弗朗西斯科·佩雷斯·麥肯納於深圳舉行的亞太區經濟合作組織第三十三次領導人非正式會議期間簽署。 孫玉菡歡迎計劃，說智利是香港在拉丁美洲的首個工作假期計劃合作夥伴，將為香港和智利的青年提供開拓視野的機會，讓他們親身體驗在不同文化中生活和工作。 弗朗西斯科·佩雷斯·麥肯納表示，香港東西方文化的獨特融…",
-   "at": "2026-11-18T11:01+00:00",
+   "t": "【重溫】2026年11月18日新聞天地",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878317-20261118.htm",
+   "d": "詳盡報道本地時事、大中華消息、國際局勢等新聞，緊貼最新熱話。",
+   "at": "2026-11-18T11:42+00:00",
    "where": [
-    22.54,
-    114.06,
-    "深圳"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
@@ -428,7 +424,7 @@
    "lang": "en",
    "t": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
    "u": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
-   "d": "Watch: The BBC's Jonathan Beale joins Ukrainian forces who have taken the battle below ground and out of sight of Russian drones.",
+   "d": "Watch: The BBC's Jonathan Beale joins Ukrainian forces taking the battle below ground and out of sight of Russian drones.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7a52/live/a0e1e280-e36b-11f1-99b6-a35a62fa4264.jpg",
    "at": "2026-11-18T17:00+00:00",
    "where": [
@@ -496,11 +492,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Home secretary plans to tackle 'corrosive' perception of two-tier policing",
-   "u": "https://www.bbc.co.uk/news/articles/c3vg24wpg040o?at_medium=RSS&at_campaign=rss",
-   "d": "Shabana Mahmood announces stronger guidance on police impartiality in a speech to police chiefs.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4035/live/d90bfb90-e2c2-11f1-a9da-01a195e70ea0.jpg",
-   "at": "2026-11-18T13:19+00:00",
+   "t": "Council wins legal fight against flags on lamp-posts",
+   "u": "https://www.bbc.co.uk/news/articles/ckq5vg81805qo?at_medium=RSS&at_campaign=rss",
+   "d": "In her decision, Judge Emma Kelly says there was a \"compelling need\" to grant the interim injunction.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2b62/live/877c24c0-a17d-11f1-9619-edac4fa7937f.jpg",
+   "at": "2026-11-18T17:59+00:00",
    "where": [
     52.5,
     -1.5,
@@ -640,7 +636,7 @@
    "u": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
    "d": "The nomination sets him on the path to become the first black lawmaker to lead the chamber when Democrats take control of the House in January.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/128f/live/04ac0df0-e366-11f1-9f51-4bfc31543510.jpg",
-   "at": "2026-11-18T17:09+00:00",
+   "at": "2026-11-18T17:34+00:00",
    "where": [
     38.9,
     -77.04,
@@ -724,7 +720,7 @@
    "u": "https://www.bbc.co.uk/news/articles/cr0qjw7xqqwlo?at_medium=RSS&at_campaign=rss",
    "d": "Sir Chris Bryant said all that \"talking to the media emphasises the divisions rather than the collaborations\".",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7b09/live/ee1589b0-e34a-11f1-99aa-0f40b013ad11.jpg",
-   "at": "2026-11-18T13:09+00:00",
+   "at": "2026-11-18T18:01+00:00",
    "where": [
     54.6,
     -6.7,
@@ -832,11 +828,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Harry Styles, Billie Eilish, Sam Fender and Cher to headline Glastonbury 2027",
-   "u": "https://www.bbc.co.uk/news/articles/crwy4w381nlpo?at_medium=RSS&at_campaign=rss",
-   "d": "The festival will also host Cher in the Sunday \"legends\" slot, the unofficial fourth headline set.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c012/live/0ebd38d0-e340-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-18T07:59+00:00",
+   "t": "Police investigate death of boy, 3, after nursery incident",
+   "u": "https://www.bbc.co.uk/news/articles/cm8x0q1p2q8jo?at_medium=RSS&at_campaign=rss",
+   "d": "The boy died in hospital three days after an incident at Cosy Toes Nursery in Middleton, police say.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0797/live/c7d45720-e365-11f1-9f51-4bfc31543510.jpg",
+   "at": "2026-11-18T16:51+00:00",
    "where": [
     52.5,
     -1.5,
@@ -944,11 +940,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Police investigate death of boy, 3, after nursery incident",
-   "u": "https://www.bbc.co.uk/news/articles/cm8x0q1p2q8jo?at_medium=RSS&at_campaign=rss",
-   "d": "The boy died in hospital three days after an incident at Cosy Toes Nursery in Middleton, police say.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0797/live/c7d45720-e365-11f1-9f51-4bfc31543510.jpg",
-   "at": "2026-11-18T16:51+00:00",
+   "t": "Ivan Toney loses bid to avoid Euro 2028 court clash",
+   "u": "https://www.bbc.co.uk/news/articles/ckm2m1899mqyo?at_medium=RSS&at_campaign=rss",
+   "d": "Ivan Toney's trial, for an alleged assault which he denies, is due to take place during the Euro 2028 tournament.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5cbd/live/7b56a630-e349-11f1-99aa-0f40b013ad11.jpg",
+   "at": "2026-11-18T12:46+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1169,8 +1165,8 @@
    "t": "Raise The Colours member guilty of dancefloor murder",
    "u": "https://www.bbc.co.uk/news/articles/cmd71dz58dnvo?at_medium=RSS&at_campaign=rss",
    "d": "Billy Allison punched Matthew O'Gara in the neck at a bar in Lichfield in May.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9e84/live/ee631800-e34b-11f1-99aa-0f40b013ad11.png",
-   "at": "2026-11-18T17:13+00:00",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/739d/live/c69fd420-e378-11f1-99b6-a35a62fa4264.png",
+   "at": "2026-11-18T18:00+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1262,11 +1258,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Ivan Toney loses bid to avoid Euro 2028 court clash",
-   "u": "https://www.bbc.co.uk/news/articles/ckm2m1899mqyo?at_medium=RSS&at_campaign=rss",
-   "d": "Ivan Toney's trial, for an alleged assault which he denies, is due to take place during the Euro 2028 tournament.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5cbd/live/7b56a630-e349-11f1-99aa-0f40b013ad11.jpg",
-   "at": "2026-11-18T12:46+00:00",
+   "t": "Joanna Page says male actor made 'awful' and 'inappropriate' comments to her on set",
+   "u": "https://www.bbc.co.uk/news/articles/cqj3kelenm0do?at_medium=RSS&at_campaign=rss",
+   "d": "Page spoke of the comments during Tuesday's episode of I'm a Celebrity... Get Me Out Of Here!",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ca06/live/582be290-e33c-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-18T11:00+00:00",
    "where": [
     52.5,
     -1.5,
