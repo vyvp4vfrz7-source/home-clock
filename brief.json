@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-17T17:45+00:00",
+ "updated": "2026-11-18T05:40+00:00",
  "en": {
-  "greeting": "Good evening — Tuesday 17 November",
+  "greeting": "Good morning — Wednesday 18 November",
   "sections": [
    {
     "h": "Top stories",
     "items": [
      {
-      "t": "Ukraine damages Crimea bridge in record drone attack",
-      "d": "Kyiv's biggest drone strike of the war left a section of the Kerch bridge linking Russia to Crimea collapsed. The Kremlin vows to rebuild; Russian strikes killed at least seven in Ukraine.",
+      "t": "Ukraine's attack partly collapses Crimean Bridge",
+      "d": "A weeks-planned missile and drone strike badly damaged Russia's prized bridge to annexed Crimea, which Zelensky called unprecedented. It hits a key supply route and a major symbol of the occupation.",
       "u": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo"
      },
      {
-      "t": "US envoys meet Europeans in Berlin as Trump heads for Xi-Putin summit",
-      "d": "Witkoff and Kushner are holding Ukraine talks in Berlin, while Trump, now in Asia, plans a three-way summit with Xi and Putin in Shenzhen on Thursday. Moscow still resists a seat for Europe.",
-      "u": "https://www.axios.com/2026/11/17/witkoff-kushner-ukraine-europe-russia-berlin-meeting"
+      "t": "Trump in Asia for talks with Xi and Putin at APEC",
+      "d": "Trump arrived for the APEC summit in Shenzhen, where a rare US–China–Russia leaders' meeting is planned. Xi met Putin today, and Trump said he is open to a one-on-one with Putin.",
+      "u": "https://www.bbc.co.uk/news/articles/crq5vlxxx32no"
      },
      {
-      "t": "Bahrain intercepts Iranian drone aimed at US radar",
-      "d": "Iran's Revolutionary Guards said they hit a US radar at a Bahrain base; Bahrain says it stopped the drone. More ships caught fire in the Strait of Hormuz, keeping Gulf tensions high.",
-      "u": "https://www.reuters.com/world/middle-east/oman-iran-foreign-ministers-discuss-safeguarding-maritime-corridors-2026-11-17/"
+      "t": "Nvidia posts bumper results but won't bring back Huang",
+      "d": "Quarterly revenue more than doubled to about $116bn, beating forecasts. But the board ruled out reinstating ousted CEO Jensen Huang, despite Trump backing a campaign to return him.",
+      "u": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo"
      }
     ]
    },
@@ -27,19 +27,24 @@
     "h": "World & politics",
     "items": [
      {
-      "t": "Netanyahu camp faces election-meddling allegations",
-      "d": "Reports say Netanyahu aides tipped off police before the 27 October vote, leading to arrests of Arab party workers. Prime minister-elect Gadi Eisenkot has demanded an inquiry.",
-      "u": "https://www.washingtonpost.com/world/2026/11/16/after-claiming-election-stolen-netanyahu-allies-face-their-own-meddling-allegations/"
+      "t": "Russian military plane crash kills all 19 aboard",
+      "d": "The aircraft came down in Siberia's Kemerovo region. Russia's defence ministry blamed a likely technical fault.",
+      "u": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo"
      },
      {
-      "t": "Mongolia's president to resign over bribery claim",
-      "d": "Khurelsukh Ukhnaa said he will step down after an ex-Ulaanbaatar mayor accused him of taking $25m tied to a railway deal. He denies wrongdoing and says he will cooperate.",
-      "u": "https://apnews.com/article/mongolia-president-corruption-allegations-9542b2bf7536db6ae65b371aac07bbf4"
+      "t": "Trump takes alleged Iranian plot 'very seriously'",
+      "d": "Trump said the US is treating reports of an Iranian plan against Washington seriously. Tehran called claims of a 'dirty bomb' plot baseless.",
+      "u": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo"
      },
      {
-      "t": "Japan scrambles jets as Russian planes enter its airspace",
-      "d": "Tokyo protested after two suspected Russian aircraft crossed into Japanese airspace; South Korea and Taiwan also tracked Russian planes, as Putin travels to Asia.",
-      "u": "https://www.bbc.co.uk/news/articles/c60evw20qe47o"
+      "t": "Five EU countries plan migrant return hub in Rwanda",
+      "d": "Germany, Denmark, Austria, Greece and the Netherlands will send failed asylum seekers to a centre in Rwanda, a sign of Europe's tougher line on migration.",
+      "u": "https://www.bbc.co.uk/news/articles/cw987343352go"
+     },
+     {
+      "t": "Democrats edge ahead in Alaska Senate race",
+      "d": "Democrat Mary Peltola leads Republican Senator Dan Sullivan as counting continues, a rare pickup chance in a state Trump won easily.",
+      "u": "https://www.bbc.co.uk/news/articles/cxnv4jlr269eo"
      }
     ]
    },
@@ -47,19 +52,19 @@
     "h": "Business & economy",
     "items": [
      {
-      "t": "Wall Street falls ahead of Nvidia's results",
-      "d": "The Dow dropped about 1.4% and the S&P 500 1% as a Fed official urged rate rises of up to 1.5 points. October US retail sales beat forecasts; Disney and Home Depot also beat.",
-      "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+      "t": "Anthropic IPO set to price at top of range or above",
+      "d": "The Claude maker told investors its listing should price at or above $70–78 a share, after heavy demand. Amazon and Google will together own about 28% after the IPO.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-17/anthropic-is-said-to-guide-ipo-price-to-top-of-range-or-above"
      },
      {
-      "t": "Anthropic IPO set to debut Thursday",
-      "d": "The Claude maker's share sale, seeking up to $64bn at about a $1.4tn valuation, is expected to be the largest stock market debut on record.",
-      "u": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation"
+      "t": "US tightens chip curbs on South East Asia",
+      "d": "New rules restrict advanced chip exports and rented computing power in the region, closing a route Chinese firms used to reach AI hardware.",
+      "u": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo"
      },
      {
-      "t": "China and Canada agree further tariff cuts",
-      "d": "Xi and Carney agreed China will ease duties on about $280m of Canadian goods, while Canada extends exemptions on some Chinese steel and aluminium for two years.",
-      "u": "https://apnews.com/article/apec-china-canada-xi-carney-1427deb4175e27c61efec6ee8eef36e8"
+      "t": "Canada's Carney looks to China as US tariffs bite",
+      "d": "With Trump's tariffs squeezing Canada's car industry, Carney suggested Chinese carmakers could replace American ones, though experts say it would be hard.",
+      "u": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o"
      }
     ]
    },
@@ -67,29 +72,34 @@
     "h": "Technology",
     "items": [
      {
-      "t": "California sues OpenAI over AI safety",
-      "d": "Attorney General Rob Bonta alleges OpenAI built powerful AI without proper safeguards, citing experimental OpenAI agents that broke into Hugging Face's systems in July. OpenAI says it is being unfairly singled out.",
-      "u": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo"
+      "t": "OpenAI launches GPT-6.2 Astra and Sol models",
+      "d": "The new models arrive in ChatGPT, Codex and the API, with Astra about 20% cheaper than its predecessor, keeping pressure on rivals.",
+      "u": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
      },
      {
-      "t": "Nvidia reports tonight, its first results without Huang",
-      "d": "Interim CEO Colette Kress hosts the call after Jensen Huang's shock exit; analysts expect revenue near $109bn. Nvidia's board reportedly won't consider Huang's return.",
-      "u": "https://finance.yahoo.com/technology/live/nvidia-live-updates-interim-ceo-kress-prepares-for-q3-earnings-with-huang-reportedly-planning-comeback-153114076.html"
+      "t": "Microsoft unveils six in-house AI models",
+      "d": "At Ignite, Microsoft showed models for coding, security, images and voice, pricing its MAI Code 2 well below rivals as it relies less on OpenAI.",
+      "u": "https://www.axios.com/2026/11/17/microsoft-ai-models-openai-anthropic-ignite"
      },
      {
-      "t": "US tightens rules on overseas AI data centres",
-      "d": "A new Commerce Department rule makes foreign data centres get a licence before selling large amounts of computing power to firms from China and other high-risk countries.",
-      "u": "https://media.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
+      "t": "Apple and Microsoft hit by big service outages",
+      "d": "iCloud, the App Store and Apple Music went down after an internal update, while Microsoft 365 email also failed. US officials say recent outages are not cyberattacks.",
+      "u": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/"
      },
      {
-      "t": "Google warns AI-run cyberattacks have crossed a threshold",
-      "d": "A Google threat report says attackers are now using autonomous AI agents to find flaws and break in faster, raising the stakes for defenders.",
-      "u": "https://thehill.com/policy/technology/6224604-autonomous-ai-threats-google-report/"
+      "t": "California bans Waymo robotaxis from freeways",
+      "d": "After a viral video, regulators barred Waymo from freeways and the company paused freeway rides nationwide, a setback for robotaxi expansion.",
+      "u": "https://www.bizjournals.com/sanfrancisco/news/2026/11/17/waymo-california-freeway-ban-dmv-chp.html"
      },
      {
-      "t": "Apple launches big study on health chatbots",
-      "d": "Up to 200,000 US iPhone users can join an Apple study, built with OpenEvidence, on how people use and trust AI health advice. Apple says the data won't train AI models.",
-      "u": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/"
+      "t": "Google to keep Gemini chats for two months",
+      "d": "Even temporary chats and those with history off will now be stored for about two months instead of 72 hours, raising privacy questions.",
+      "u": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/"
+     },
+     {
+      "t": "Uber and Zipline start drone food deliveries in Texas",
+      "d": "Autonomous drones now deliver Uber Eats orders in Spring, Texas, with dozens more US cities planned.",
+      "u": "https://techcrunch.com/2026/11/17/uber-and-ziplines-drone-delivery-service-takes-off-in-texas-with-dozens-of-cities-to-follow/"
      }
     ]
    },
@@ -97,19 +107,19 @@
     "h": "Science & health",
     "items": [
      {
-      "t": "Big US data centres emit as much CO2 as Denmark",
-      "d": "A Harvard study in Nature Sustainability estimates the largest US data centres emit about 26m tonnes of CO2 a year, and urges treating them as major industrial sites.",
-      "u": "https://www.nature.com/articles/s41893-026-01985-7"
+      "t": "US loses measles elimination status after 26 years",
+      "d": "More than 5,400 cases and 10 deaths this year mean measles is again spreading locally, a blow blamed on falling vaccination.",
+      "u": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo"
      },
      {
-      "t": "128 nations debate banning killer robots at UN",
-      "d": "Talks in Geneva are weighing a treaty on lethal autonomous weapons; the US, Russia and Israel oppose binding rules, with Washington offering voluntary guidelines instead.",
-      "u": "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones"
+      "t": "Big UK study to test social media ban on teens",
+      "d": "Ten research teams will track how teenagers cope without social media, the largest British look at its effect on youth mental health.",
+      "u": "https://www.bbc.co.uk/news/articles/cm0evw0d2wq4o"
      },
      {
-      "t": "EU courts China to keep climate science reports on time",
-      "d": "At COP31 in Turkey, European officials are seeking Chinese support against an India- and Saudi-led push to delay the IPCC's next big reports, due in 2028.",
-      "u": "https://www.politico.eu/article/europe-china-talks-ipcc-climate-reports/"
+      "t": "Pakistan's rooftop solar boom outpaces its grid",
+      "d": "Home panels lifted solar's share of Pakistan's power from 1% to 28%, leaving the national grid struggling to adapt.",
+      "u": "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o"
      }
     ]
    },
@@ -117,44 +127,44 @@
     "h": "UK",
     "items": [
      {
-      "t": "UK unemployment falls unexpectedly to 4.6%",
-      "d": "Joblessness dipped in the three months to September, but payrolls and vacancies fell and pay growth slowed to 3.5%, strengthening the case for a Bank of England rate cut.",
-      "u": "https://www.investing.com/news/economic-indicators/uk-unemployment-falls-to-46-beats-forecast-payrolls-vacancies-drop-5031844"
+      "t": "Government backs welfare shake-up for young jobless",
+      "d": "Alan Milburn's review proposes moving spending from benefits to job support to avoid a 'lost generation', and ministers have backed it.",
+      "u": "https://www.bbc.co.uk/news/articles/ck79210y125xo"
      },
      {
-      "t": "Burnham says Brexit has diminished Britain",
-      "d": "In his Lord Mayor's Banquet speech the PM said the UK lost more than it gained by leaving the EU, and signalled closer ties, though on a slower timetable.",
-      "u": "https://www.politico.eu/article/andy-burnham-brexit-diminished-britain-pushes-closer-eu-ties-lord-mayors-speech/"
+      "t": "Burnham to set out EU relationship options next month",
+      "d": "The prime minister will present options for long-term ties with the EU alongside his 10-year economic plan.",
+      "u": "https://www.bbc.co.uk/news/articles/cwm2j3nyd44ko"
      },
      {
-      "t": "UK sanctions Israeli settlement builders",
-      "d": "Britain is sanctioning eight Israeli construction firms building West Bank settlements and an activist group that blocks aid to Gaza.",
-      "u": "https://www.reuters.com/world/uk/britain-sanctions-israeli-settlement-builders-gaza-aid-blocking-activists-2026-11-17/"
+      "t": "US soldier held in UK spying probe handed to US military",
+      "d": "The Met says an American soldier arrested on suspicion of espionage is now in US military custody.",
+      "u": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo"
      }
     ]
    }
   ]
  },
  "zh": {
-  "greeting": "晚安 — 11月17日星期二",
+  "greeting": "早晨 — 11月18日星期三",
   "sections": [
    {
     "h": "頭條新聞",
     "items": [
      {
-      "t": "烏克蘭以史上最大規模無人機襲擊重創克里米亞大橋",
-      "d": "基輔發動開戰以來最大規模無人機襲擊，連接俄羅斯與克里米亞的刻赤大橋有一段倒塌。克里姆林宮誓言重建；俄軍空襲則在烏克蘭造成最少七死。",
+      "t": "烏克蘭襲擊致克里米亞大橋部分倒塌",
+      "d": "經數星期策劃的導彈及無人機襲擊重創連接克里米亞的大橋，澤連斯基形容行動史無前例。大橋是俄軍重要補給線，亦是佔領的象徵。",
       "u": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo"
      },
      {
-      "t": "特朗普赴中俄三方峰會　美特使在柏林與歐洲會談",
-      "d": "美國特使韋科夫和庫什納在柏林與烏克蘭及歐洲官員商討和談；正在亞洲訪問的特朗普計劃周四在深圳與習近平、普京舉行三方峰會。莫斯科仍反對歐洲參與談判。",
-      "u": "https://www.axios.com/2026/11/17/witkoff-kushner-ukraine-europe-russia-berlin-meeting"
+      "t": "特朗普抵亞洲 將在APEC與習近平普京會談",
+      "d": "特朗普抵達深圳出席APEC峰會，美中俄三國元首罕有會晤在即。習近平今日已會見普京，特朗普表示對與普京單獨會面持開放態度。",
+      "u": "https://www.bbc.co.uk/news/articles/crq5vlxxx32no"
      },
      {
-      "t": "巴林攔截伊朗攻擊美軍雷達的無人機",
-      "d": "伊朗革命衛隊聲稱擊中巴林基地的美軍雷達，巴林則指已攔截無人機。霍爾木茲海峽再有船隻起火，海灣局勢持續緊張。",
-      "u": "https://www.reuters.com/world/middle-east/oman-iran-foreign-ministers-discuss-safeguarding-maritime-corridors-2026-11-17/"
+      "t": "Nvidia業績亮麗 但拒讓黃仁勳回朝",
+      "d": "季度收入倍增至約1,160億美元，勝預期。但董事會排除讓被撤職的行政總裁黃仁勳復職，儘管特朗普支持要求他回歸的運動。",
+      "u": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo"
      }
     ]
    },
@@ -162,19 +172,24 @@
     "h": "國際及政治",
     "items": [
      {
-      "t": "內塔尼亞胡陣營被指干預選舉",
-      "d": "報道指內塔尼亞胡助手在10月27日投票前向警方通風報信，導致阿拉伯政黨工作人員被捕。候任總理艾森科特要求展開調查。",
-      "u": "https://www.washingtonpost.com/world/2026/11/16/after-claiming-election-stolen-netanyahu-allies-face-their-own-meddling-allegations/"
+      "t": "俄羅斯軍機墜毀 機上19人全部罹難",
+      "d": "軍機在西伯利亞克麥羅沃州墜毀。俄羅斯國防部初步認為是技術故障所致。",
+      "u": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo"
      },
      {
-      "t": "蒙古總統涉受賄指控宣布辭職",
-      "d": "呼日勒蘇赫表示會辭職，此前烏蘭巴托前市長指控他收取與鐵路項目有關的2,500萬美元。他否認違法，並稱會配合調查。",
-      "u": "https://apnews.com/article/mongolia-president-corruption-allegations-9542b2bf7536db6ae65b371aac07bbf4"
+      "t": "特朗普稱「非常認真」看待伊朗陰謀指控",
+      "d": "特朗普表示美國認真看待伊朗圖謀襲擊華盛頓的報道。德黑蘭斥所謂「髒彈」襲擊陰謀的說法毫無根據。",
+      "u": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo"
      },
      {
-      "t": "俄軍機闖入日本領空　日方緊急派戰機",
-      "d": "兩架懷疑俄羅斯軍機侵犯日本領空，東京提出抗議；南韓和台灣亦追蹤俄機動向，適逢普京出訪亞洲。",
-      "u": "https://www.bbc.co.uk/news/articles/c60evw20qe47o"
+      "t": "五個歐盟國家擬在盧旺達設遣返中心",
+      "d": "德國、丹麥、奧地利、希臘及荷蘭將把尋求庇護失敗者送往盧旺達的「遣返中心」，反映歐洲收緊移民政策。",
+      "u": "https://www.bbc.co.uk/news/articles/cw987343352go"
+     },
+     {
+      "t": "阿拉斯加參議院選舉 民主黨領先",
+      "d": "點票仍在進行，民主黨的佩爾托拉領先共和黨參議員蘇利文，民主黨有望在特朗普大勝的州份罕有奪席。",
+      "u": "https://www.bbc.co.uk/news/articles/cxnv4jlr269eo"
      }
     ]
    },
@@ -182,19 +197,19 @@
     "h": "商業及經濟",
     "items": [
      {
-      "t": "Nvidia公布業績前美股下跌",
-      "d": "道指跌約1.4%，標普500指數跌1%，一名聯儲局官員主張加息最多1.5厘。美國10月零售銷售勝預期，迪士尼和家得寶業績亦優於預期。",
-      "u": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
+      "t": "Anthropic招股料以上限或以上定價",
+      "d": "Claude開發商Anthropic因認購踴躍，向投資者表示定價料達每股70至78美元上限或以上。上市後Amazon及Google合共持股約28%。",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-17/anthropic-is-said-to-guide-ipo-price-to-top-of-range-or-above"
      },
      {
-      "t": "Anthropic周四上市",
-      "d": "Claude開發商集資最多640億美元、估值約1.4萬億美元，預料成為史上最大規模的新股上市。",
-      "u": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation"
+      "t": "美國收緊對東南亞晶片出口限制",
+      "d": "新規限制向東南亞出口先進晶片及租用算力，堵塞中國企業借道取得AI硬件的途徑。",
+      "u": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo"
      },
      {
-      "t": "中加同意進一步減關稅",
-      "d": "習近平與加拿大總理卡尼達成協議，中方為約2.8億美元加拿大貨品減免關稅，加方則將部分中國鋼鋁豁免延長兩年。",
-      "u": "https://apnews.com/article/apec-china-canada-xi-carney-1427deb4175e27c61efec6ee8eef36e8"
+      "t": "加拿大總理卡尼因美國關稅轉向中國",
+      "d": "特朗普關稅打擊加拿大汽車業，卡尼暗示中國車廠可取代美國車廠，但有專家認為並不容易。",
+      "u": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o"
      }
     ]
    },
@@ -202,29 +217,34 @@
     "h": "科技",
     "items": [
      {
-      "t": "加州起訴OpenAI　指其忽視AI安全",
-      "d": "加州總檢察長邦塔指OpenAI開發強大AI卻缺乏足夠保障，並引述7月有實驗性OpenAI代理入侵Hugging Face系統。OpenAI稱被不公平針對。",
-      "u": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo"
+      "t": "OpenAI推出GPT-6.2 Astra及Sol模型",
+      "d": "新模型登陸ChatGPT、Codex及API，Astra價格較上一代便宜約兩成，加劇與對手競爭。",
+      "u": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
      },
      {
-      "t": "Nvidia今晚公布黃仁勳離任後首份業績",
-      "d": "臨時行政總裁Colette Kress主持業績會，分析師預期收入約1,090億美元。據報董事會不考慮讓黃仁勳回巢。",
-      "u": "https://finance.yahoo.com/technology/live/nvidia-live-updates-interim-ceo-kress-prepares-for-q3-earnings-with-huang-reportedly-planning-comeback-153114076.html"
+      "t": "Microsoft發布六款自家AI模型",
+      "d": "Microsoft在Ignite大會展示涵蓋編程、保安、圖像及語音的模型，MAI Code 2定價遠低於對手，減少依賴OpenAI。",
+      "u": "https://www.axios.com/2026/11/17/microsoft-ai-models-openai-anthropic-ignite"
      },
      {
-      "t": "美國收緊海外AI數據中心規定",
-      "d": "美國商務部新規要求海外數據中心向中國等高風險國家企業提供大量算力前，必須先取得許可證。",
-      "u": "https://media.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
+      "t": "Apple及Microsoft服務大規模故障",
+      "d": "Apple因內部更新導致iCloud、App Store及Apple Music故障，Microsoft 365電郵亦癱瘓。美國官員表示近期故障並非網絡攻擊。",
+      "u": "https://techcrunch.com/2026/11/17/apple-services-including-icloud-app-store-and-apple-music-hit-by-outage/"
      },
      {
-      "t": "Google警告AI自主網絡攻擊已越過臨界點",
-      "d": "Google威脅報告指，攻擊者已利用自主AI代理更快找出漏洞並入侵系統，防守方壓力大增。",
-      "u": "https://thehill.com/policy/technology/6224604-autonomous-ai-threats-google-report/"
+      "t": "加州禁Waymo無人的士行駛高速公路",
+      "d": "一段網上瘋傳的影片後，監管機構禁止Waymo上高速公路，公司亦暫停全美高速公路服務，令無人的士擴張受挫。",
+      "u": "https://www.bizjournals.com/sanfrancisco/news/2026/11/17/waymo-california-freeway-ban-dmv-chp.html"
      },
      {
-      "t": "Apple推大型健康AI研究",
-      "d": "最多20萬名美國iPhone用戶可參與Apple與OpenEvidence合作的研究，了解大眾如何使用和信任AI健康建議。Apple稱數據不會用作訓練AI。",
-      "u": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/"
+      "t": "Google將保留Gemini對話兩個月",
+      "d": "即使是臨時對話或已關閉記錄的對話，保存期亦由72小時延長至約兩個月，引起私隱關注。",
+      "u": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/"
+     },
+     {
+      "t": "Uber與Zipline在德州推無人機送餐",
+      "d": "自動駕駛無人機開始在德州斯普林為Uber Eats送餐，並計劃擴展至美國數十個城市。",
+      "u": "https://techcrunch.com/2026/11/17/uber-and-ziplines-drone-delivery-service-takes-off-in-texas-with-dozens-of-cities-to-follow/"
      }
     ]
    },
@@ -232,19 +252,19 @@
     "h": "科學及健康",
     "items": [
      {
-      "t": "美國大型數據中心碳排放媲美丹麥",
-      "d": "哈佛大學刊於《Nature Sustainability》的研究估計，美國最大型數據中心每年排放約2,600萬噸二氧化碳，建議當作大型工業設施監管。",
-      "u": "https://www.nature.com/articles/s41893-026-01985-7"
+      "t": "美國失去消除麻疹地位 為26年來首次",
+      "d": "今年錄得逾5,400宗病例及10人死亡，麻疹再次在本地傳播，被歸咎於疫苗接種率下降。",
+      "u": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo"
      },
      {
-      "t": "128國在聯合國商討禁止「殺手機械人」",
-      "d": "日內瓦會議討論禁止致命自主武器的條約；美國、俄羅斯和以色列反對具約束力的規則，美方建議改為自願性指引。",
-      "u": "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones"
+      "t": "英國大型研究評估禁社交媒體對青少年影響",
+      "d": "十個研究團隊將追蹤青少年在沒有社交媒體下的情況，是英國規模最大的相關精神健康研究。",
+      "u": "https://www.bbc.co.uk/news/articles/cm0evw0d2wq4o"
      },
      {
-      "t": "歐盟拉攏中國　力保氣候報告如期發表",
-      "d": "歐洲官員在土耳其COP31會議爭取中方支持，對抗印度和沙特阿拉伯推遲IPCC下一批報告的建議，報告原定2028年發表。",
-      "u": "https://www.politico.eu/article/europe-china-talks-ipcc-climate-reports/"
+      "t": "巴基斯坦屋頂太陽能熱潮跑贏電網",
+      "d": "家用太陽能板令巴基斯坦太陽能發電比例由1%升至28%，國家電網難以追上。",
+      "u": "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o"
      }
     ]
    },
@@ -252,19 +272,19 @@
     "h": "英國",
     "items": [
      {
-      "t": "英國失業率意外降至4.6%",
-      "d": "截至9月的三個月失業率回落，但受薪職位和職位空缺減少，薪金增長放緩至3.5%，加強英倫銀行減息的理據。",
-      "u": "https://www.investing.com/news/economic-indicators/uk-unemployment-falls-to-46-beats-forecast-payrolls-vacancies-drop-5031844"
+      "t": "政府支持福利改革 助年輕失業者",
+      "d": "前部長米爾本的檢討建議將福利開支轉投就業支援，以免出現「失落的一代」，政府表示支持。",
+      "u": "https://www.bbc.co.uk/news/articles/ck79210y125xo"
      },
      {
-      "t": "賓咸指脫歐令英國實力削弱",
-      "d": "首相在倫敦市長晚宴演說中表示，英國脫歐得不償失，並暗示會加強與歐盟關係，但步伐較慢。",
-      "u": "https://www.politico.eu/article/andy-burnham-brexit-diminished-britain-pushes-closer-eu-ties-lord-mayors-speech/"
+      "t": "賓咸下月提出與歐盟長遠關係方案",
+      "d": "首相賓咸將在公布十年經濟計劃的同時，提出與歐盟長遠關係的選項。",
+      "u": "https://www.bbc.co.uk/news/articles/cwm2j3nyd44ko"
      },
      {
-      "t": "英國制裁以色列屯墾區建築商",
-      "d": "英國制裁八間在西岸興建屯墾區的以色列建築公司，以及一個阻撓援助物資進入加沙的激進組織。",
-      "u": "https://www.reuters.com/world/uk/britain-sanctions-israeli-settlement-builders-gaza-aid-blocking-activists-2026-11-17/"
+      "t": "英國涉間諜案美軍士兵交美軍羈押",
+      "d": "倫敦警察廳表示，一名涉嫌間諜活動被捕的美國士兵已交由美軍羈押。",
+      "u": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo"
      }
     ]
    }
@@ -272,84 +292,28 @@
  },
  "sources": [
   {
-   "title": "Ukraine damages Crimea bridge in record drone attack",
-   "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo"
+   "title": "BBC News",
+   "url": "https://www.bbc.co.uk/news"
   },
   {
-   "title": "US envoys meet Europeans in Berlin as Trump heads for Xi-Putin summit",
-   "url": "https://www.axios.com/2026/11/17/witkoff-kushner-ukraine-europe-russia-berlin-meeting"
+   "title": "RTHK",
+   "url": "https://news.rthk.hk/"
   },
   {
-   "title": "Bahrain intercepts Iranian drone aimed at US radar",
-   "url": "https://www.reuters.com/world/middle-east/oman-iran-foreign-ministers-discuss-safeguarding-maritime-corridors-2026-11-17/"
+   "title": "Techmeme",
+   "url": "https://www.techmeme.com/"
   },
   {
-   "title": "Netanyahu camp faces election-meddling allegations",
-   "url": "https://www.washingtonpost.com/world/2026/11/16/after-claiming-election-stolen-netanyahu-allies-face-their-own-meddling-allegations/"
+   "title": "TechCrunch",
+   "url": "https://techcrunch.com/"
   },
   {
-   "title": "Mongolia's president to resign over bribery claim",
-   "url": "https://apnews.com/article/mongolia-president-corruption-allegations-9542b2bf7536db6ae65b371aac07bbf4"
+   "title": "Bloomberg",
+   "url": "https://www.bloomberg.com/"
   },
   {
-   "title": "Japan scrambles jets as Russian planes enter its airspace",
-   "url": "https://www.bbc.co.uk/news/articles/c60evw20qe47o"
-  },
-  {
-   "title": "Wall Street falls ahead of Nvidia's results",
-   "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-17-dow-sp-500-nasdaq-nvidia-earnings-retail-sales-143848454.html"
-  },
-  {
-   "title": "Anthropic IPO set to debut Thursday",
-   "url": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation"
-  },
-  {
-   "title": "China and Canada agree further tariff cuts",
-   "url": "https://apnews.com/article/apec-china-canada-xi-carney-1427deb4175e27c61efec6ee8eef36e8"
-  },
-  {
-   "title": "California sues OpenAI over AI safety",
-   "url": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo"
-  },
-  {
-   "title": "Nvidia reports tonight, its first results without Huang",
-   "url": "https://finance.yahoo.com/technology/live/nvidia-live-updates-interim-ceo-kress-prepares-for-q3-earnings-with-huang-reportedly-planning-comeback-153114076.html"
-  },
-  {
-   "title": "US tightens rules on overseas AI data centres",
-   "url": "https://media.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
-  },
-  {
-   "title": "Google warns AI-run cyberattacks have crossed a threshold",
-   "url": "https://thehill.com/policy/technology/6224604-autonomous-ai-threats-google-report/"
-  },
-  {
-   "title": "Apple launches big study on health chatbots",
-   "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/"
-  },
-  {
-   "title": "Big US data centres emit as much CO2 as Denmark",
-   "url": "https://www.nature.com/articles/s41893-026-01985-7"
-  },
-  {
-   "title": "128 nations debate banning killer robots at UN",
-   "url": "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones"
-  },
-  {
-   "title": "EU courts China to keep climate science reports on time",
-   "url": "https://www.politico.eu/article/europe-china-talks-ipcc-climate-reports/"
-  },
-  {
-   "title": "UK unemployment falls unexpectedly to 4.6%",
-   "url": "https://www.investing.com/news/economic-indicators/uk-unemployment-falls-to-46-beats-forecast-payrolls-vacancies-drop-5031844"
-  },
-  {
-   "title": "Burnham says Brexit has diminished Britain",
-   "url": "https://www.politico.eu/article/andy-burnham-brexit-diminished-britain-pushes-closer-eu-ties-lord-mayors-speech/"
-  },
-  {
-   "title": "UK sanctions Israeli settlement builders",
-   "url": "https://www.reuters.com/world/uk/britain-sanctions-israeli-settlement-builders-gaza-aid-blocking-activists-2026-11-17/"
+   "title": "Axios",
+   "url": "https://www.axios.com/"
   }
  ]
 }
