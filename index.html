@@ -606,6 +606,14 @@ body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state
 .bkr b { display: block; font-size: 15px; font-weight: 800; color: var(--bk, #6aaef8); letter-spacing: .02em; }
 .bkr div { font-size: 16px; line-height: 1.4; color: #d6dee8; margin-top: 4px; }
 .bkr div + div { font-size: 16px; color: #aeb9c6; margin-top: 3px; }
+.bkv { position: relative; padding-left: 150px; overflow: hidden; cursor: pointer; }
+.bkv .th { position: absolute; left: 0; top: 0; bottom: 0; width: 138px; background: #000 center/cover; }
+.bkv .th i { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); width: 46px; height: 46px; border-radius: 50%; background: rgba(220,30,30,.92); color: #fff; font-style: normal; font-size: 20px; display: flex; align-items: center; justify-content: center; padding-left: 3px; box-sizing: border-box; }
+.bkv div { overflow: hidden; max-height: 4.2em; }
+.bkm .bkst, .bkm .bkln { display: block; font-size: 16px; line-height: 1.4; margin-top: 5px; color: #d6dee8; }
+.bkst b { color: var(--sun); }
+.bkst small, .bkln small { font-weight: 500; margin-left: 6px; color: #aeb9c6; }
+.bkln { color: #dfe6ee; text-decoration: none; }
 .bkr.one { border-left: 5px solid var(--bk, #6aaef8); border-radius: 0 16px 16px 0; padding: 14px 22px; }
 .bkr.one div { font-size: 22px; font-weight: 600; color: #e9eef4; margin: 0; }
 .bkr.one div + div { font-size: 19px; font-weight: 500; color: #c9d3df; margin-top: 4px; }
@@ -2915,6 +2923,7 @@ function bookCover(b) {   // picture if saved, coloured cover underneath as a fa
   return '<div class="bkc" style="--bk:' + (BOOK_COL[b.tag] || '#6aaef8') + '"><img src="' + src + '" alt="" onerror="this.parentNode.removeChild(this)">' +
     '<div class="fb"><b>' + esc(b.tz || b.t) + '</b><i>' + esc(b.az || b.a) + '</i></div></div>';
 }
+var BOOK_VID = null;
 function bookDraw() {
   var b = bookNow(); if (!b) return;
   var c = BOOK_COL[b.tag] || '#6aaef8', m = $('bkMain'), d = new Date();
@@ -2923,7 +2932,7 @@ function bookDraw() {
   $('bkCov').innerHTML = bookCover(b);
   $('bkTag').textContent = (b.tag || '') + ' · ' + (BOOK_EN[b.tag] || b.tag || '') + (b.reviews ? ' · 新書 New' : '');
   $('bkT').textContent = b.t;
-  $('bkTz').innerHTML = b.tz && b.tz !== b.t ? '《' + esc(b.tz) + '》' + (b.tz_note ? '<small>' + esc(b.tz_note) + '</small>' : '') : '';
+  $('bkTz').innerHTML = b.tz && b.tz !== b.t ? '《' + esc(b.tz.replace(/^《|》$/g, '')) + '》' + (b.tz_note ? '<small>' + esc(b.tz_note) + '</small>' : '') : '';
   $('bkA').textContent = (b.az ? b.az + ' ' : '') + b.a + (b.y ? ' · ' + b.y : '');
   var meta = [];
   if (b.published) meta.push('出版 Published <b>' + esc(b.published) + '</b>');
@@ -2932,10 +2941,19 @@ function bookDraw() {
   $('bkMeta').innerHTML = meta.join('<br>');
   $('bkEn').textContent = b.en || '';
   $('bkZh').textContent = b.zh || '';
-  var rv = (b.reviews || []).slice(0, 4);
-  $('bkRv').innerHTML = rv.length ? '<div class="lbl">書評點講 · What reviewers say</div><div class="g">' + rv.map(function (r) {
+  var v = b.video && b.video.id ? b.video : null;
+  var more = (b.ratings || []).slice(0, 2).map(function (r) {   // other platforms: star ratings + podcasts
+    return '<div class="bkst">' + esc(r.src) + ' ★ <b>' + esc(r.v) + '</b>' + (r.n ? '<small>' + esc(r.n) + '</small>' : '') + '</div>';
+  }).concat((b.listen || []).slice(0, 2).map(function (l) {
+    return '<a class="bkln" target="_blank" rel="noopener" href="' + esc(l.url) + '">🎧 ' + esc(l.src) + (l.t ? '<small>' + esc(l.t) + '</small>' : '') + '</a>';
+  }));
+  var rv = (b.reviews || []).slice(0, 4 - (v ? 1 : 0) - (more.length ? 1 : 0));
+  BOOK_VID = v;
+  $('bkRv').innerHTML = rv.length || v ? '<div class="lbl">書評點講 · What reviewers say</div><div class="g">' + (v ?
+    '<div class="bkr bkv"><div class="th" style="background-image:url(https://i.ytimg.com/vi/' + encodeURIComponent(v.id) + '/mqdefault.jpg)"><i>▶</i></div>' +
+    '<b>▶ ' + esc(v.kind || 'YouTube') + '</b><div>' + esc(v.t || '') + '</div><div>' + esc(v.ch || '') + '</div></div>' : '') + rv.map(function (r) {
     return '<div class="bkr"><b>' + esc(r.src) + '</b>' + (r.d ? '<div>' + esc(r.d) + '</div>' : '') + (r.dz ? '<div>' + esc(r.dz) + '</div>' : '') + '</div>';
-  }).join('') + '</div>' :
+  }).join('') + (more.length ? '<div class="bkr bkm"><b>其他平台 · Elsewhere</b>' + more.join('') + '</div>' : '') + '</div>' :
     (b.ken || b.kzh ? '<div class="lbl">一個重點 · One idea to keep</div><div class="bkr one">' + (b.kzh ? '<div>' + esc(b.kzh) + '</div>' : '') + (b.ken ? '<div>' + esc(b.ken) + '</div>' : '') + '</div>' : '');
   $('bkDay').textContent = d.getDate() + ' ' + MONTHS[d.getMonth()];
 }
@@ -2952,6 +2970,10 @@ function bookLoad() {
   });
 }
 bookLoad();
+$('bkRv').addEventListener('click', function (e) {   // tap the video card: play it here, like the YouTube pages
+  var el = e.target; while (el && el !== this && !/\bbkv\b/.test(el.className)) el = el.parentNode;
+  if (el && el !== this && BOOK_VID && window.ytShow) ytShow(BOOK_VID.id, (BOOK_VID.kind ? BOOK_VID.kind + ' · ' : '') + (BOOK_VID.ch || ''), esc(BOOK_VID.t || ''), this);
+});
 setInterval(bookLoad, 30 * 60000);   // the morning pick arrives around 6am
 setInterval(function () { if (BOOK_DAY && new Date().toDateString() !== BOOK_DAY) bookDraw(); }, 60000);   // new day: redraw
 $('bkPlay').addEventListener('click', function () {   // read today's brief aloud in Cantonese
@@ -3323,20 +3345,24 @@ setTimeout(function () { location.replace(freshURL()); }, 6 * 3600 * 1000);
   function tap(e) {
     var el = e.target; while (el && el !== this && !(el.getAttribute && el.getAttribute('data-v'))) el = el.parentNode;
     if (!el || el === this) return;
-    var id = el.getAttribute('data-v'), t = el.querySelector('b');
+    var t = el.querySelector('b');
+    show(el.getAttribute('data-v'), el.getAttribute('data-c'), t ? t.innerHTML : '', this);
+  }
+  function show(id, chan, title, from) {   // also used by the book page (window.ytShow)
     $('ytFrame').innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + encodeURIComponent(id) + '?autoplay=1&playsinline=1&rel=0&modestbranding=1" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>';
-    $('ytNow').innerHTML = '<small>' + esc(el.getAttribute('data-c')) + '</small>' + (t ? t.innerHTML : '');
+    $('ytNow').innerHTML = '<small>' + esc(chan || '') + '</small>' + (title || '');
     $('ytOpen').href = 'https://www.youtube.com/watch?v=' + encodeURIComponent(id);
-    var st = this; while (st && !/\bstage\b/.test(st.className)) st = st.parentNode;
+    var st = from; while (st && !/\bstage\b/.test(st.className)) st = st.parentNode;
     if (st && $('ytPlay').parentNode !== st) st.appendChild($('ytPlay'));   // one player, shown on whichever YouTube page
     $('ytPlay').hidden = false; window.YT_BUSY = true;   // no page turning while a video is open
     try { HomeSound.setQuiet(true); } catch (e) {}   // soft music off while it plays
   }
+  window.ytShow = show;
   $('ytCols').addEventListener('click', tap); $('ytwCols').addEventListener('click', tap);
   $('ytClose').addEventListener('click', shut);
   $('ytOpen').addEventListener('click', function () { setTimeout(shut, 500); });
   setInterval(function () {   // close the player if someone swipes away from the page
-    if (!$('ytPlay').hidden && !/^pytw?$/.test($('track').children[PAGE].id)) shut();
+    if (!$('ytPlay').hidden && !/^(pytw?|pbook)$/.test($('track').children[PAGE].id)) shut();
     if (YT && $('ytPlay').hidden) draw();   // keep "x 分鐘前" fresh
   }, 60000);
   load(); setInterval(load, 10 * 60000);

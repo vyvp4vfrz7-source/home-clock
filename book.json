@@ -1,54 +1,71 @@
 {
-  "date": "2026-11-18",
-  "updated": "2026-11-18T05:10:40+00:00",
-  "id": "the-agi-chronicles-kevin-roose",
-  "t": "The AGI Chronicles",
-  "tz": "《AGI 編年史》",
-  "tz_note": "暫譯",
-  "a": "Kevin Roose",
-  "published": "8 Oct 2026",
-  "publisher": "Simon & Schuster UK (US: Farrar, Straus and Giroux)",
-  "pages": 448,
-  "isbn": [
-    "9781398555310",
-    "9780374618759"
-  ],
-  "cover_url": "https://cdn11.bigcommerce.com/s-vsug6bqqyf/products/468706/images/887373/9781398555310__69570.1789891411.386.513.jpg?c=1",
-  "tag": "AI",
-  "en": "New York Times tech columnist Kevin Roose tells the inside story of the race to build artificial general intelligence, a machine that could beat humans at almost any task. Drawing on more than 150 interviews at OpenAI, Anthropic and Google DeepMind, plus internal memos, he follows the last decade: how next-word prediction turned into ChatGPT, why Anthropic's founders left OpenAI, Sam Altman's sacking and return, Google's scramble to catch up, and Washington's struggle to keep pace. Along the way he maps the feud between 'accelerationists' and safety-minded 'doomers'. A brisk, people-centred narrative for anyone who wants to understand who is building AI and what is at stake.",
-  "zh": "《紐約時報》科技專欄作家 Kevin Roose 帶你入去人工智能競賽嘅最前線：大家爭住整出一部幾乎樣樣都勝過人類嘅「通用人工智能」（AGI）。佢訪問咗 OpenAI、Anthropic 同 Google DeepMind 超過 150 個內部人士，再加上內部文件，講返過去十年點樣由「估下一個字」變成 ChatGPT、Anthropic 創辦人點解離開 OpenAI、Sam Altman 被炒又復職、Google 點樣急起直追，同埋華盛頓點樣追唔切監管。書中亦拆解「加速派」同「末日派」嘅爭拗。節奏明快，以人物帶故事，適合想知道邊個喺度建造 AI、牽涉幾大風險嘅讀者。",
-  "reviews": [
-    {
-      "src": "Kirkus Reviews",
-      "d": "Calls it the best single explainer of how AI arrived and where it may go, covering training, copyright fights and military use.",
-      "dz": "稱之為解釋 AI 點樣誕生、將來點走嘅最佳單本入門書。",
-      "url": "https://www.kirkusreviews.com/book-reviews/kevin-roose/the-agi-chronicles/"
-    },
-    {
-      "src": "Value and Opportunity (Substack)",
-      "d": "An interesting insider view of a small, tight-knit group driving AI; wisely avoids predictions, though it skips the field's longer history.",
-      "dz": "內部視角睇推動 AI 嘅一小撮人；唔亂預測，但少講早期歷史。",
-      "url": "https://valueandopportunity.substack.com/p/book-review-kevin-roose-the-agi-chronicles"
-    }
-  ],
-  "ken": "The most powerful technology of our time is being shaped by a few dozen people who know each other, and even they can't fully explain what their models can do.",
-  "kzh": "呢個年代最強大嘅科技，原來由幾十個互相認識嘅人主導，連佢哋自己都未完全明白模型點解咁叻。",
-  "sources": [
-    {
-      "title": "Kirkus Reviews: The AGI Chronicles",
-      "url": "https://www.kirkusreviews.com/book-reviews/kevin-roose/the-agi-chronicles/"
-    },
-    {
-      "title": "Value and Opportunity: Book review – The AGI Chronicles",
-      "url": "https://valueandopportunity.substack.com/p/book-review-kevin-roose-the-agi-chronicles"
-    },
-    {
-      "title": "The Times Bookshop (UK edition details)",
-      "url": "https://timesbookshop.co.uk/the-agi-chronicles-9781398555310/"
-    },
-    {
-      "title": "Bookshop.org (US edition details)",
-      "url": "https://bookshop.org/p/books/the-agi-chronicles-the-inside-story-of-the-race-to-create-an-artificial-superintelligence-kevin-roose/fedb4aef52bfc0d9?ean=9780374618759"
-    }
-  ]
+ "date": "2026-11-18",
+ "updated": "2026-11-18T05:10:40+00:00",
+ "id": "the-agi-chronicles-kevin-roose",
+ "t": "The AGI Chronicles",
+ "tz": "《AGI 編年史》",
+ "tz_note": "暫譯",
+ "a": "Kevin Roose",
+ "published": "8 Oct 2026",
+ "publisher": "Simon & Schuster UK (US: Farrar, Straus and Giroux)",
+ "pages": 448,
+ "isbn": [
+  "9781398555310",
+  "9780374618759"
+ ],
+ "cover_url": "https://cdn11.bigcommerce.com/s-vsug6bqqyf/products/468706/images/887373/9781398555310__69570.1789891411.386.513.jpg?c=1",
+ "tag": "AI",
+ "en": "New York Times tech columnist Kevin Roose tells the inside story of the race to build artificial general intelligence, a machine that could beat humans at almost any task. Drawing on more than 150 interviews at OpenAI, Anthropic and Google DeepMind, plus internal memos, he follows the last decade: how next-word prediction turned into ChatGPT, why Anthropic's founders left OpenAI, Sam Altman's sacking and return, Google's scramble to catch up, and Washington's struggle to keep pace. Along the way he maps the feud between 'accelerationists' and safety-minded 'doomers'. A brisk, people-centred narrative for anyone who wants to understand who is building AI and what is at stake.",
+ "zh": "《紐約時報》科技專欄作家 Kevin Roose 帶你入去人工智能競賽嘅最前線：大家爭住整出一部幾乎樣樣都勝過人類嘅「通用人工智能」（AGI）。佢訪問咗 OpenAI、Anthropic 同 Google DeepMind 超過 150 個內部人士，再加上內部文件，講返過去十年點樣由「估下一個字」變成 ChatGPT、Anthropic 創辦人點解離開 OpenAI、Sam Altman 被炒又復職、Google 點樣急起直追，同埋華盛頓點樣追唔切監管。書中亦拆解「加速派」同「末日派」嘅爭拗。節奏明快，以人物帶故事，適合想知道邊個喺度建造 AI、牽涉幾大風險嘅讀者。",
+ "reviews": [
+  {
+   "src": "Kirkus Reviews",
+   "d": "Calls it the best single explainer of how AI arrived and where it may go, covering training, copyright fights and military use.",
+   "dz": "稱之為解釋 AI 點樣誕生、將來點走嘅最佳單本入門書。",
+   "url": "https://www.kirkusreviews.com/book-reviews/kevin-roose/the-agi-chronicles/"
+  },
+  {
+   "src": "Value and Opportunity (Substack)",
+   "d": "An interesting insider view of a small, tight-knit group driving AI; wisely avoids predictions, though it skips the field's longer history.",
+   "dz": "內部視角睇推動 AI 嘅一小撮人；唔亂預測，但少講早期歷史。",
+   "url": "https://valueandopportunity.substack.com/p/book-review-kevin-roose-the-agi-chronicles"
+  }
+ ],
+ "ken": "The most powerful technology of our time is being shaped by a few dozen people who know each other, and even they can't fully explain what their models can do.",
+ "kzh": "呢個年代最強大嘅科技，原來由幾十個互相認識嘅人主導，連佢哋自己都未完全明白模型點解咁叻。",
+ "sources": [
+  {
+   "title": "Kirkus Reviews: The AGI Chronicles",
+   "url": "https://www.kirkusreviews.com/book-reviews/kevin-roose/the-agi-chronicles/"
+  },
+  {
+   "title": "Value and Opportunity: Book review – The AGI Chronicles",
+   "url": "https://valueandopportunity.substack.com/p/book-review-kevin-roose-the-agi-chronicles"
+  },
+  {
+   "title": "The Times Bookshop (UK edition details)",
+   "url": "https://timesbookshop.co.uk/the-agi-chronicles-9781398555310/"
+  },
+  {
+   "title": "Bookshop.org (US edition details)",
+   "url": "https://bookshop.org/p/books/the-agi-chronicles-the-inside-story-of-the-race-to-create-an-artificial-superintelligence-kevin-roose/fedb4aef52bfc0d9?ean=9780374618759"
+  },
+  {
+   "title": "Pioneers of AI (YouTube): interview with Kevin Roose",
+   "url": "https://www.youtube.com/watch?v=_f6f1aFOsSc"
+  }
+ ],
+ "video": {
+  "id": "_f6f1aFOsSc",
+  "ch": "Pioneers of AI",
+  "kind": "作者訪問",
+  "t": "Inside the race to AGI: rivalries, fear and the people in charge (Kevin Roose)"
+ },
+ "listen": [
+  {
+   "src": "NPR Book of the Day",
+   "t": "podcast, 27 Oct",
+   "url": "https://www.npr.org/2026/10/27/nx-s1-6018631/nprs-book-of-the-day-kevin-roose-the-agi-chronicles"
+  }
+ ]
 }
