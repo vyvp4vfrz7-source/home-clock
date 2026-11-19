@@ -986,20 +986,25 @@ body:not(.ptfl) #tfl * { animation-play-state: paused !important; }
 #tfw .upd { font-size: 18px; color: var(--muted); font-weight: 600; }
 #twBody { flex: 1; min-height: 0; display: grid; grid-template-columns: 860px 1fr; gap: 22px; }
 #twMap { position: relative; background: var(--tile); border: 1px solid var(--line); border-radius: 26px; overflow: hidden; }
-#twMap svg { position: absolute; left: 0; top: 10px; width: 860px; height: 760px; }
+#twTiles { position: absolute; left: 0; top: 0; width: 860px; height: 860px; overflow: hidden; }
+#twTiles img { position: absolute; max-width: none; }
+#twTiles img.ref { opacity: .75; }
+#twMap svg { position: absolute; left: 0; top: 0; width: 860px; height: 860px; }
+#twMap .ln { opacity: .85; transition: opacity .6s; }
+#twMap.sel .ln { opacity: .22; }
+#twMap.sel .ln.on { opacity: 1; }
+#twMap .ln.on polyline { stroke-width: 5; }
+#twMap .seg { fill: none; stroke-linecap: round; stroke-linejoin: round; }
 #twMap .seg.a { opacity: .35; animation: twGlow 1.6s ease-in-out infinite alternate; }
-#twMap .seg.b { stroke: #fff; stroke-dasharray: 3 8; }
-@keyframes twGlow { to { opacity: .8; } }
+#twMap .seg.b { stroke: #fff; stroke-dasharray: 2 7; }
+@keyframes twGlow { to { opacity: .85; } }
 body:not(.ptfw) #tfw * { animation-play-state: paused !important; }
-#twMap text { font-family: -apple-system, system-ui, sans-serif; fill: #d6dee8; }
-#twMap text.st { font-weight: 500; }
-#twMap text.home { fill: #ffd36b; font-weight: 800; }
-#twMap text.off { fill: #ff8a8a; font-weight: 700; }
-#twMap text.ln { font-size: 24px; font-weight: 800; }
-#twMap text.no { font-size: 20px; font-weight: 800; fill: #ff8a8a; }
-#twMap text.big { font-size: 22px; font-weight: 700; fill: #aab6c5; }
+#twMap text { font: 600 13px -apple-system, system-ui, sans-serif; fill: #e3e9f0; paint-order: stroke; stroke: #111820; stroke-width: 4px; }
+#twMap text.home { fill: #ffd36b; font-size: 17px; font-weight: 800; }
+#twMap text.off { fill: #ff9a9a; font-size: 15px; font-weight: 800; }
+#twAttr { position: absolute; right: 10px; bottom: 6px; font-size: 10px; color: #8492a5; }
 #twOff { position: absolute; right: 18px; top: 16px; font-size: 16px; font-weight: 700; color: #fff; background: #0019a8; padding: 8px 14px; border-radius: 12px; text-decoration: none; }
-#twCap { position: absolute; left: 22px; right: 22px; bottom: 18px; display: flex; align-items: center; gap: 12px; font-size: 20px; font-weight: 600; }
+#twCap { position: absolute; left: 22px; right: 22px; bottom: 26px; display: flex; align-items: center; gap: 12px; font-size: 20px; font-weight: 600; }
 #twCap .d { background: rgba(11,16,22,.85); border: 1px solid var(--line); padding: 8px 14px; border-radius: 12px; }
 #twCap .k { margin-left: auto; font-size: 14px; color: var(--muted); font-weight: 500; background: rgba(11,16,22,.85); padding: 6px 10px; border-radius: 10px; }
 #twCap .k i { display: inline-block; width: 26px; height: 6px; border-radius: 3px; background: #ff6b6b; vertical-align: middle; margin-right: 6px; box-shadow: 0 0 8px #ff6b6b; }
@@ -1043,7 +1048,7 @@ body:not(.ptfw) #tfw * { animation-play-state: paused !important; }
 <div class="stage" id="tfw">
   <div class="top"><h1>未來四星期<span>TfL · 工程 &amp; 罷工 Planned works</span></h1><div class="upd" id="twUpd"></div></div>
   <div id="twBody">
-    <div id="twMap"><svg viewBox="0 0 860 760" id="twSvg"></svg><div id="twCap"></div><a id="twOff" href="https://tfl.gov.uk/maps/track/tube" target="_blank" rel="noopener">🗺 TfL 官方地圖 Tube map ↗</a></div>
+    <div id="twMap"><div id="twTiles"></div><svg viewBox="0 0 860 860" id="twSvg"></svg><div id="twCap"></div><div id="twAttr">Map © Esri, HERE, Garmin, © OpenStreetMap contributors · Stations © TfL</div><a id="twOff" href="https://tfl.gov.uk/maps/track/tube" target="_blank" rel="noopener">🗺 TfL 官方地圖 Tube map ↗</a></div>
     <div id="twList"><div id="twScroll"><div class="twc">載入中… Loading</div></div></div>
   </div>
 </div>
@@ -3557,7 +3562,7 @@ function loadTfl() {
 
 /* ---------- TfL coming weeks: our own London rail map (tflmap.json, made by tools/build_tfl_map.py from TfL's
    station positions) + planned closures / strikes for the next 4 weeks (tfl.json "plan", saved every 15 min).
-   Each notice shows a straight-line diagram of its lines, with the closed stretch in red. Turns every 8 s; tap a notice to pick it. */
+   Drawn true to scale over an Esri basemap; each notice lights up its lines and the closed stretch glows red. Turns every 8 s; tap a notice to pick it. */
 var TW = { map: null, plan: null, now: [], i: 0, hold: 0 };
 var TW_WD = ['日', '一', '二', '三', '四', '五', '六'], TW_MO = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 function twDay(d) { return TW_WD[d.getDay()] + ' ' + d.getDate() + ' ' + TW_MO[d.getMonth()]; }
@@ -3569,69 +3574,77 @@ function twWhen(it) {
   if (a.toDateString() === b.toDateString()) return twDay(a) + (allDay ? '' : ' <em>' + t(a) + '–' + t(end) + '</em>');
   return twDay(a) + ' – ' + twDay(b) + (allDay ? '' : ' <em>' + t(a) + ' → ' + t(end) + '</em>');
 }
-function twCol(l) { return TFL_COL[l] === '#444' ? '#d8dde3' : TFL_COL[l] || '#888'; }
-function twRoute(l, seg) {
-  var M = TW.map, rs = (M.lines[l] || []).slice(), home = CONFIG.tfl.stop, best = null, score = -1;
-  rs.forEach(function (r) {
-    var s = r.length;
-    if (seg && seg.every(function (x) { return r.indexOf(x) >= 0; })) s += 1000;
-    if (r.indexOf(home) >= 0) s += 500;
-    if (s > score) { score = s; best = r; }
-  });
-  if (!best) return null;
-  best = best.slice();
-  if (M.st[best[0]][0] > M.st[best[best.length - 1]][0]) best.reverse();   // west on the left
-  return best;
+function twCol(l) { return TFL_COL[l] === '#444' ? '#e8ecf0' : TFL_COL[l] || '#888'; }
+// Map view: true scale (Web Mercator, like Esri / Google maps) so the Esri basemap lines up underneath.
+var TW_HOME = { lat: 51.56, lon: -0.175, z: 10.4 }, TW_VIEW = { lat: 51.56, lon: -0.175, z: 10.4, w: 860, h: 860 };
+var TW_LABELS = { '940GZZLUBST': 'Baker St', HUBKGX: "King's Cross", HUBBAN: 'Bank', HUBWAT: 'Waterloo', HUBSRA: 'Stratford',
+  HUBAMR: 'Amersham', HUBWFJ: 'Watford Jn', HUBHOH: 'Harrow', HUBPAD: 'Paddington', HUBBRX: 'Brixton', HUBCAW: 'Canary Wharf', '940GZZLUOXC': 'Oxford Circus' };
+function twWorld(lat, lon, z) {
+  var n = 256 * Math.pow(2, z), s = Math.sin(lat * Math.PI / 180);
+  return [(lon + 180) / 360 * n, (0.5 - Math.log((1 + s) / (1 - s)) / (4 * Math.PI)) * n];
 }
-// Straight-line diagram of each affected line (like the line diagrams on a platform), closed stretch in red.
-function twDiagram(it) {
-  var W = 860, H = 760, names = {}, h = '', lines = it.lines.slice();
-  (TFL.status || []).forEach(function (l) { names[l.id] = l.name; });
-  if (lines.length > 3) {   // strike etc.: whole lines, one bar each
-    var rh = Math.min(62, (H - 110) / lines.length);
-    lines.forEach(function (l, k) {
-      var y = 70 + k * rh + rh / 2;
-      h += '<rect x="40" y="' + (y - 7) + '" width="' + (W - 80) + '" height="14" rx="7" fill="' + twCol(l) + '"/>' +
-        '<text class="ln" x="52" y="' + (y - 14) + '">' + tflEsc(names[l] || l) + '</text>';
-    });
-    return h + '<text class="big" x="' + (W / 2) + '" y="' + (H - 6) + '" text-anchor="middle">全線受影響 · Whole lines affected</text>';
-  }
-  var rowH = H / lines.length;
-  lines.forEach(function (l, k) {
-    var seg = (it.segs || {})[l], r = twRoute(l, seg); if (!r) return;
-    var cut0 = false, cut1 = false;
-    if (seg && r.length > 28) {   // long line: show the closed stretch with 8 stations each side
-      var p0 = r.indexOf(seg[0]), p1 = r.indexOf(seg[seg.length - 1]), lo = Math.max(0, Math.min(p0, p1) - 8), hi = Math.min(r.length, Math.max(p0, p1) + 9);
-      cut0 = lo > 0; cut1 = hi < r.length; r = r.slice(lo, hi);
-    }
-    var n = r.length, x0 = 40, x1 = W - 150, step = (x1 - x0) / Math.max(1, n - 1), y = lines.length > 1 ? k * rowH + rowH - 70 : 520, col = twCol(l);
-    var fs = Math.max(11, Math.min(19, step * 0.6)), closed = {}, i0 = -1, i1 = -1;
-    if (seg) { seg.forEach(function (s) { closed[s] = 1; }); r.forEach(function (s, i) { if (closed[s]) { if (i0 < 0) i0 = i; i1 = i; } }); }
-    if (cut0) h += '<text class="st" x="' + (x0 - 30) + '" y="' + (y + 6) + '" style="font-size:20px">…</text>';
-    if (cut1) h += '<text class="st" x="' + (x1 + 14) + '" y="' + (y + 6) + '" style="font-size:20px">…</text>';
-    h += '<text class="ln" x="' + x0 + '" y="' + (k * rowH + (lines.length > 1 ? 34 : 90)) + '" fill="' + col + '">' + tflEsc(names[l] || l) + '</text>';
-    h += '<line x1="' + x0 + '" y1="' + y + '" x2="' + x1 + '" y2="' + y + '" stroke="' + col + '" stroke-width="10" stroke-linecap="round"/>';
-    if (i0 >= 0 && i1 > i0) {
-      var a = x0 + i0 * step, b = x0 + i1 * step;
-      h += '<line class="seg a" x1="' + a + '" y1="' + y + '" x2="' + b + '" y2="' + y + '" stroke="#ff5a5a" stroke-width="24" stroke-linecap="round"/>' +
-        '<line class="seg b" x1="' + a + '" y1="' + y + '" x2="' + b + '" y2="' + y + '" stroke-width="3"/>' +
-        '<text class="no" x="' + ((a + b) / 2) + '" y="' + (y + 42) + '" text-anchor="middle">停駛 No service</text>';
-    }
-    r.forEach(function (s, i) {
-      var x = x0 + i * step, home = s === CONFIG.tfl.stop, nm = TW.map.st[s][2].replace(/ \(.*?\)$/, '').replace(/ & St Pancras International/, '');
-      h += home ? '<circle cx="' + x + '" cy="' + y + '" r="10" fill="#ffd36b" stroke="#141b24" stroke-width="3"/>'
-                : '<rect x="' + (x - 2) + '" y="' + (y - 13) + '" width="4" height="8" fill="' + col + '"/>';
-      h += '<text class="st' + (home ? ' home' : closed[s] ? ' off' : '') + '" style="font-size:' + (home ? fs + 3 : fs) + 'px" transform="translate(' + (x + 3) + ',' + (y - 16) + ') rotate(-50)">' + (home ? '🏠 ' : '') + tflEsc(nm) + '</text>';
-    });
+function twXY(s) { var V = TW_VIEW, p = TW.map.st[s], w = twWorld(p[0], p[1], V.z), c = twWorld(V.lat, V.lon, V.z); return [Math.round((w[0] - c[0] + V.w / 2) * 10) / 10, Math.round((w[1] - c[1] + V.h / 2) * 10) / 10]; }
+function twPts(ids) { return ids.filter(function (s) { return TW.map.st[s]; }).map(function (s) { return twXY(s).join(','); }).join(' '); }
+function twTiles() {   // Esri dark grey basemap + its place-name layer, zoom-11 tiles scaled to the view
+  var V = TW_VIEW, tz = Math.min(16, Math.ceil(V.z - .2)), k = Math.pow(2, V.z - tz), ts = 256 * k, c = twWorld(V.lat, V.lon, V.z), L = c[0] - V.w / 2, T = c[1] - V.h / 2, h = '';
+  ['Canvas/World_Dark_Gray_Base', 'Canvas/World_Dark_Gray_Reference'].forEach(function (layer, li) {
+    for (var x = Math.floor(L / ts); x * ts < L + V.w; x++) for (var y = Math.floor(T / ts); y * ts < T + V.h; y++)
+      h += '<img class="' + (li ? 'ref' : '') + '" alt="" src="https://server.arcgisonline.com/ArcGIS/rest/services/' + layer + '/MapServer/tile/' + tz + '/' + y + '/' + x + '" style="left:' + (x * ts - L).toFixed(1) + 'px;top:' + (y * ts - T).toFixed(1) + 'px;width:' + (ts + .5).toFixed(1) + 'px;height:' + (ts + .5).toFixed(1) + 'px">';
   });
-  return h;
+  $('twTiles').innerHTML = h;
+}
+// Zoom in on the closed stretch(es) of a notice; whole-line notices use the London-wide view.
+function twFit(it) {
+  var V = TW_VIEW, ids = [], k;
+  for (k in it.segs || {}) ids = ids.concat(it.segs[k]);
+  ids = ids.filter(function (s) { return TW.map.st[s]; });
+  if (!ids.length) { V.lat = TW_HOME.lat; V.lon = TW_HOME.lon; V.z = TW_HOME.z; return; }
+  var x0 = 1e9, x1 = -1e9, y0 = 1e9, y1 = -1e9;
+  ids.forEach(function (s) { var p = TW.map.st[s], w = twWorld(p[0], p[1], 0); x0 = Math.min(x0, w[0]); x1 = Math.max(x1, w[0]); y0 = Math.min(y0, w[1]); y1 = Math.max(y1, w[1]); });
+  var z = Math.log(Math.min(V.w * .6 / Math.max(x1 - x0, 1e-6), V.h * .5 / Math.max(y1 - y0, 1e-6))) / Math.LN2;
+  V.z = Math.max(TW_HOME.z, Math.min(13, z));
+  var n = 256 * Math.pow(2, 0), cx = (x0 + x1) / 2 / n, cy = (y0 + y1) / 2 / n;   // back to lat/lon for the centre
+  V.lon = cx * 360 - 180; V.lat = Math.atan(Math.sinh(Math.PI * (1 - 2 * cy))) * 180 / Math.PI;
+}
+function twDrawMap(skip) {
+  var M = TW.map, h = '';
+  twTiles();
+  Object.keys(M.lines).forEach(function (l) {
+    h += '<g class="ln" data-l="' + l + '">';
+    M.lines[l].forEach(function (r) { h += '<polyline fill="none" stroke="' + twCol(l) + '" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" points="' + twPts(r) + '"/>'; });
+    h += '</g>';
+  });
+  h += '<g id="twHi"></g><g id="twLab">';
+  Object.keys(TW_LABELS).concat([CONFIG.tfl.stop]).forEach(function (s) {
+    if (!M.st[s]) return; var p = twXY(s);
+    if ((skip || []).some(function (q) { return Math.abs(q[0] - p[0]) < 70 && Math.abs(q[1] - p[1]) < 24; })) return;   // a closed-stretch label sits there
+    h += twLabel(s, TW_LABELS[s] || M.st[s][2], '');
+  });
+  h += '</g><g id="twLab2"></g>';
+  $('twSvg').innerHTML = h;
+}
+function twLabel(s, txt, cls) {
+  var p = twXY(s), home = s === CONFIG.tfl.stop, right = p[0] < 640;
+  return '<circle cx="' + p[0] + '" cy="' + p[1] + '" r="' + (home ? 7 : 4) + '" fill="' + (home ? '#ffd36b' : '#fff') + '" stroke="#141b24" stroke-width="2"/>' +
+    '<text x="' + (p[0] + (right ? 9 : -9)) + '" y="' + (p[1] + 4) + '" text-anchor="' + (right ? 'start' : 'end') + '" class="' + (home ? 'home' : cls) + '">' + (home ? '🏠 ' : '') + tflEsc(txt) + '</text>';
 }
 function twItems() { return TW.now.concat(TW.plan || []); }
 function twShow(i) {
   var items = twItems(); if (!items.length || !TW.map) return;
   TW.i = (i + items.length) % items.length;
-  var it = items[TW.i], hi = !!Object.keys(it.segs || {}).length;
-  $('twSvg').innerHTML = twDiagram(it);
+  var it = items[TW.i], on = {}, hi = '', lab = '';
+  twFit(it);
+  var ends = []; Object.keys(it.segs || {}).forEach(function (l) { var sg = it.segs[l]; ends.push(sg[0], sg[sg.length - 1]); });
+  twDrawMap(ends.filter(function (s) { return TW.map.st[s]; }).map(twXY));
+  it.lines.forEach(function (l) { on[l] = 1; });
+  $('twMap').className = 'sel';
+  [].forEach.call(document.querySelectorAll('#twSvg .ln'), function (g) { g.setAttribute('class', 'ln' + (on[g.getAttribute('data-l')] ? ' on' : '')); });
+  Object.keys(it.segs || {}).forEach(function (l) {
+    var sg = it.segs[l], pts = twPts(sg);
+    hi += '<polyline class="seg a" stroke="#ff5a5a" stroke-width="16" points="' + pts + '"/><polyline class="seg" stroke="' + twCol(l) + '" stroke-width="6" points="' + pts + '"/><polyline class="seg b" stroke-width="3" points="' + pts + '"/>';
+    [sg[0], sg[sg.length - 1]].forEach(function (s) { if (TW.map.st[s]) lab += twLabel(s, TW.map.st[s][2].replace(/ \(.*?\)$/, ''), 'off'); });
+  });
+  $('twHi').innerHTML = hi; $('twLab2').innerHTML = lab;
   $('twCap').innerHTML = '<span class="d">' + twWhen(it).replace(/<\/?em>/g, '') + '</span>' + (hi ? '<span class="k"><i></i>停駛路段 No service here</span>' : '');
   var cards = $('twScroll').children;
   for (var k = 0; k < cards.length; k++) cards[k].className = cards[k].className.replace(/ on\b/, '') + (k === TW.i ? ' on' : '');
@@ -3658,7 +3671,7 @@ $('twScroll').addEventListener('click', function (e) {
 });
 function loadTw() {
   var j1 = fetch('tflmap.json').then(function (r) { return r.json(); }), j2 = fetch('tfl.json?t=' + Date.now()).then(function (r) { return r.json(); });
-  j1.then(function (m) { TW.map = m; return j2; }).then(function (j) {
+  j1.then(function (m) { if (!TW.map) { TW.map = m; twDrawMap(); } return j2; }).then(function (j) {
     TW.plan = (j.plan || []).filter(function (p) { return Date.parse(p.to) > Date.now(); });
     TW.st = j.status; if (!TFL.status && j.status) TFL.status = j.status;
     var d = new Date(j.saved); $('twUpd').textContent = '更新 Updated ' + tflPad(d.getHours()) + ':' + tflPad(d.getMinutes());

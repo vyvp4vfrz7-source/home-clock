@@ -1,14 +1,11 @@
-"""Build tflmap.json: our own simple London rail map for the TfL page, drawn from TfL's station
-positions (squeezed towards the centre so outer stations still fit). Run by hand when lines change:
+"""Build tflmap.json: every station's position (lat, lon, name) and each line's routes as station lists,
+for the TfL map page (drawn over an Esri basemap). Run by hand when lines change:
     python3 tools/build_tfl_map.py tflmap.json"""
-import json, math, sys, urllib.request
+import json, sys, urllib.request
 
 LINES = ["bakerloo", "central", "circle", "district", "hammersmith-city", "jubilee", "metropolitan", "northern",
          "piccadilly", "victoria", "waterloo-city", "elizabeth", "dlr",
          "liberty", "lioness", "mildmay", "suffragette", "weaver", "windrush"]
-LAT0, LON0 = 51.5150, -0.1300          # centre of the map (near Tottenham Court Road)
-W, H, PAD = 820, 800, 22               # drawing box in page pixels
-POW, CAP = 0.42, 30                    # POW < 1 squeezes the suburbs (keeps the centre roomy); far ends pulled in to CAP km
 
 
 def get(path):
@@ -46,21 +43,8 @@ for lid in LINES:
             (i != j and ("," + ",".join(reversed(r)) + ",") in ("," + strs[j] + ",")) for j in range(len(routes)))]
     raw[lid] = keep
 
-kx = math.cos(math.radians(LAT0)) * 111.32
-xy = {}
-for sid, (lat, lon, n) in pts.items():
-    dx, dy = (lon - LON0) * kx, (LAT0 - lat) * 110.57
-    r = math.hypot(dx, dy)
-    f = (min(r, CAP) ** POW) / r if r > 0 else 0
-    xy[sid] = (dx * f, dy * f)
 used = {s for rs in raw.values() for r in rs for s in r}
-xs = [xy[s][0] for s in used]; ys = [xy[s][1] for s in used]
-sx = (W - 2 * PAD) / (max(xs) - min(xs)); sy = min(sx * 1.25, (H - 2 * PAD) / (max(ys) - min(ys)))
-ox = PAD - min(xs) * sx
-oy = (H - (max(ys) - min(ys)) * sy) / 2 - min(ys) * sy
-out = {"w": W, "h": H, "st": {}, "lines": raw}
-for s in sorted(used):
-    out["st"][s] = [round(xy[s][0] * sx + ox, 1), round(xy[s][1] * sy + oy, 1), pts[s][2]]
+out = {"st": {s: [round(pts[s][0], 5), round(pts[s][1], 5), pts[s][2]] for s in sorted(used)}, "lines": raw}
 with open(sys.argv[1] if len(sys.argv) > 1 else "tflmap.json", "w") as f:
     json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
 print(len(used), "stations")
