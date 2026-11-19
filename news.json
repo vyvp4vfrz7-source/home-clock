@@ -1,14 +1,93 @@
 {
- "updated": "2026-11-19T00:13+00:00",
+ "updated": "2026-11-19T06:54+00:00",
  "items": [
   {
    "src": "香港",
    "lang": "zh",
-   "t": "今早氣溫較昨日低三至四度 下週中期氣溫將再度下降",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878378-20261119.htm",
-   "d": "一股強烈東北季候風正影響廣東沿岸，今早多處地區氣溫較昨日低三至四度左右。 天文台表示 ，強烈東北季候風及一道雲帶影響，華南地區今明兩日顯著轉涼，未來一兩日廣東沿岸相當清涼，內陸地區早晚寒冷。隨著覆蓋廣東的雲帶在週末轉薄，該區日夜溫差較大，早上仍然相當清涼。預料一股達強風程度的偏東氣流會在下週初影響華南沿岸，該區雲量增多，氣溫稍為回升。而另一股東北季候風會在下週中期影響華南，該區氣溫將再度下降及有幾陣雨。",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878378_1_M_20261119075108.jpg",
-   "at": "2026-11-18T23:51+00:00",
+   "t": "深圳APEC｜俄總統助理稱普京與特朗普談雙邊及烏克蘭問題",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878440-20261119.htm",
+   "d": "美俄元首結束會面。 美國總統特朗普與俄羅斯總統普京在亞太經合組織峰會期間，於深圳國際交流中心會晤。俄羅斯衛星通訊社報道，普京表示很高興與特朗普會面。 報道引述俄羅斯總統助理烏沙科夫說，今次是很好的會晤，討論俄中美三方峰會的籌備情況，亦討論了涉及俄美雙邊關係的一些問題，並直接談及烏克蘭問題。他說會晤時間不長，大概是35至40分鐘，會晤過後，普京心情很好。 而在會面前，特朗普表示與普京的關係非常好，期待對話富有成果，又指彼此認識很久，多年來…",
+   "at": "2026-11-19T06:18+00:00",
+   "where": [
+    22.54,
+    114.06,
+    "深圳"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "中美俄「三巨頭」坐在了一起，世界正滑向大國共管嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/cvglr9r243x6o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "「他們能坐下來，就說明這個世界還沒有到第一次或第二次世界大戰那個狀況。」香港科技大學榮休教授丁學良對BBC說。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/ace6/live/728fbf50-e353-11f1-acd4-25eaaa5def63.jpg",
+   "at": "2026-11-19T00:11+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "德黑蘭促地區國家採取必要措施阻止美國策劃針對伊朗軍事行動",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878426-20261119.htm",
+   "d": "伊朗外交部發表聲明，敦促地區國家採取必要措施，阻止美國繼續利用這些國家的領土、境內基地與設施，策劃、籌備和實施針對伊朗的軍事行動，強調伊朗有權防禦。 聲明譴責美軍近日襲擊伊朗南部沿海地區，並表示伊朗武裝部隊對中東地區兩處涉及策劃與支持對伊軍事行動的美軍基地，實施防禦性打擊。 聲明又說，伊朗尊重地區國家的主權與領土完整，但地區國家如未能阻止美國利用其領土及設施打擊伊朗，將構成侵略行為。為維護睦鄰關係和伊斯蘭國家共同利益，伊朗保持了最大限度…",
+   "at": "2026-11-19T05:21+00:00",
+   "where": [
+    32.4,
+    53.7,
+    "伊朗"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "深圳APEC｜習近平會見美國總統特朗普",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878436-20261119.htm",
+   "at": "2026-11-19T06:03+00:00",
+   "where": [
+    22.54,
+    114.06,
+    "深圳"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "APEC的特色服飾：從克林頓皮衣到深圳「鯤鵬展翅」絲巾",
+   "u": "https://www.bbc.com/zhongwen/articles/cmly7er4rze9o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "在每一年的亞太經合組織峰會上，人們除了關心哪個國的領導人出席、他們之間的互動和談話，還有他們大合照時穿了什麼。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/8ec6/live/e8d26b90-e3c6-11f1-b13a-a59a92544d50.jpg",
+   "at": "2026-11-19T06:29+00:00",
+   "where": [
+    22.54,
+    114.06,
+    "深圳"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "華盛頓號航母離開中東 美軍於區內續保持兩艘航母規模",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878424-20261119.htm",
+   "d": "美國傳媒報道，美國海軍華盛頓號航空母艦，已經離開中東地區，美軍在中東地區繼續保持兩艘航母的規模。 美國海軍學會新聞網引述美軍太平洋艦隊發言人報道，華盛頓號航母在完成為期三個月的駐防任務後，已經離開中東地區，航母目前已歸入海軍第七艦隊序列。不過，發言人未提供更多細節，包括那些護航艦艇隨同華盛頓號一同離開等。 美軍中央司令部日前證實，羅斯福號航母已在其責任區內執行任務。美國傳媒報道，華盛頓號航母在8月與包括一艘導彈巡洋艦及一艘導彈驅逐艦在內…",
+   "at": "2026-11-19T05:15+00:00",
+   "where": [
+    38.9,
+    -77.04,
+    "美國"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "特設銷售計劃下全部項目有居民挑選 盛緻苑及樂嶺軒最快今年入伙",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878435-20261119.htm",
+   "d": "房屋局表示，為宏福苑業主而設的「特設銷售計劃」，其中一名長者於本星期一在房協的粉嶺樂嶺軒正式收樓，房協職員向這名長者及其家人，解釋交樓程序及入伙裝修等要注意的事項。 她表示很喜歡單位的景觀，亦不用裝修，會稍為添置傢俬電器和基本長者友善輔助設施，預計今年年底可以搬入新居所。她期望與母親和弟弟盡快展開新生活，又感謝社會各界出錢出力的熱心人士，以及「一戶一社工」及「解說專隊」成員的支援。 局方表示，「特設銷售計劃」下10個房屋發展項目，全部都…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878435_1_M_20261119144029.jpg",
+   "at": "2026-11-19T06:02+00:00",
    "where": [
     22.32,
     114.17,
@@ -30,27 +109,41 @@
    ]
   },
   {
-   "src": "世界",
+   "src": "香港",
    "lang": "zh",
-   "t": "中國、英國、日本9月持有美債規模均下跌",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878377-20261119.htm",
-   "d": "美國財政部數據顯示，9月外國持有美國國債規模再度轉跌，回落至9.241萬億美元，按月減少約760億美元。3大債權國日本、英國、中國減有美債規模都跌。 日本連續5個月減持美債，持有規模降至1.063萬億美元，創2024年底以來最低，按月減持0.5%，較2021年11月高位累計減持約20%。 中國持有美債規模降至5639億美元，按月跌4.5%，連續4個月下降，持倉量創逾18年新低，中國是美債第3大持有國家。 至於英國持倉量亦減至9850億美…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878377_1_M_20261119073434.jpg",
-   "at": "2026-11-18T23:36+00:00",
+   "t": "深圳APEC｜美俄元首會面約一個小時",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878431-20261119.htm",
+   "d": "美俄元首會面約一個小時。 美國總統特朗普在深圳舉行的亞太經合組織領導人非正式會議期間，與俄羅斯總統普京會面。 特朗普會前表示，他與普京的關係非常好，期待展開富有成果的對話。 特朗普又說，雙方多年來一直保持著良好關係。他與普京彼此認識很久，認為這次會晤會帶來很多美好的成果，或者至少會開啟一些美好的篇章。他相信這些成果最終會實現。普京就表示，很高興和特朗普會面。 今次在深圳的會晤，是兩人自去年8月阿拉斯加峰會以來的首次面對面接觸。 編輯：羅…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878431_1_M_20261119134242.jpg",
+   "at": "2026-11-19T05:55+00:00",
    "where": [
-    52.5,
-    -1.5,
-    "英國"
+    22.54,
+    114.06,
+    "深圳"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "Anthropic上市：七位即將成為億萬富翁的創辦人",
+   "u": "https://www.bbc.com/zhongwen/articles/cw4gn9359q37o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "開發AI聊天機器人Claude的Anthropic在美國上市，這將使其創辦人身價暴增。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/f70c/live/7ee6d930-e346-11f1-99aa-0f40b013ad11.jpg",
+   "at": "2026-11-19T06:43+00:00",
+   "where": [
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "深圳APEC｜渣打：將發揮網絡優勢 促進區域合作及共同繁榮",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878354-20261119.htm",
-   "d": "渣打香港兼大中華及北亞區行政總裁、亞太經合組織（APEC）商貿諮詢理事會中國香港代表禤惠儀表示，渣打的網絡已覆蓋APEC約3分之2的經濟體，並連接亞洲、非洲及中東的重要市場。 禤惠儀在深圳出席APEC工商領導人峰會時表示，在全球經濟和貿易格局持續演變的背景下，渣打深知開放、自由及互惠的多邊合作，對促進跨境貿易和投資的重要性，致力發揮橋樑作用，促進跨境資金、貿易和投資流動，協助企業把握區域發展機遇。 她表示，渣打將發揮網絡優勢，促進區域合…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878354_1_M_20261119011725.jpg",
-   "at": "2026-11-18T17:17+00:00",
+   "t": "深圳APEC｜習近平與李家超短暫交流 談大灣區機遇及香港優勢",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878433-20261119.htm",
+   "d": "正在深圳出席亞太經合組織會議的行政長官李家超表示，在會議期間與國家主席習近平有機會作短暫交流，向他介紹香港在亞太經合組織工商領導人峰會上，粵港澳大灣區及亞太發展機遇專題研討會的情況，期間向習近平表示，與會人士對大灣區發展前景反應十分正面，討論時相當熱烈，大家都認同粵港澳大灣區發展潛力龐大。 李家超表示，他向習近平提到香港會繼續用好「一國兩制」下「內聯外通」的優勢，發揮超級聯繫人及超級增值人角色，更好融入和服務國家發展大局，同時為亞太區合…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878433_1_M_20261119135721.jpg",
+   "at": "2026-11-19T05:53+00:00",
    "where": [
     22.54,
     114.06,
@@ -72,115 +165,17 @@
    ]
   },
   {
-   "src": "世界",
+   "src": "香港",
    "lang": "zh",
-   "t": "深圳APEC｜中俄美元首今日舉行三方會談",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878362-20261119.htm",
-   "d": "國家主席習近平、俄羅斯總統普京及美國總統特朗普，今日將在深圳舉行三方會談。外交部說，三國元首將就事關全球和平的重要問題，深入交換意見。 俄羅斯克里姆林宫發言人佩斯科夫表示，全球最重要三個國家的領導人將聚在一起，在探討最棘手問題方面，樹立起對話溝通的典範。他預計，三方會晤持續時間不會超過一個小時。 俄羅斯總統助理烏沙科夫就表示，三國領導人將自行決定討論持續多久，強調如果三人討論得非常投入，恐怕沒有人能打斷他們。 編輯︰張萬燕",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878362_1_M_20261119054804.jpg",
-   "at": "2026-11-18T21:46+00:00",
+   "t": "深圳APEC｜特首稱會面的東盟領導人支持香港盡快加入RCEP",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878430-20261119.htm",
+   "d": "行政長官李家超表示，在深圳出席亞太經合組織會議期間，已先後與馬來西亞、越南、汶萊、泰國及智利，共5個成員經濟體的領導人會面及進行雙邊會談。今日稍後將與秘魯和新加坡的領導人見面。 李家超表示，今年是APEC中國年，是國家第三次擔任東道主。國家已經成功舉辦超過300場各級別會議和活動，達成多份聲明和成果文件。他說，今次出席APEC會議，大致有五個成果。第一是貢獻香港力量，積極參與和支持國家成功舉辦APEC會議。香港特區在APEC中國年有雙重…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878430_1_M_20261119135028.jpg",
+   "at": "2026-11-19T05:36+00:00",
    "where": [
     22.54,
     114.06,
     "深圳"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "特首辦：辦公室車輛灣仔遇途人衝出馬路 途人拒送院",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878350-20261118.htm",
-   "d": "行政長官辦公室回覆查詢時表示，一輛特首辦車輛下午約5時48分，在灣仔告士打道慢駛左轉入分域街時，遇到一名途人，在沒有行人過路設施的路段突然衝出馬路，司機及時煞停車輛，並即場報警備案。 特首辦表示，警察到場後確認涉事途人屬違規橫過馬路，而該途人拒絕到醫院接受進一步檢查。事件作備案處理。 編輯：鍾慧儀",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878350_1_M_20261118231428.jpg",
-   "at": "2026-11-18T15:14+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "黃仁勳婚外情掀「中國間諜」迷因：幽默與偏見之間，亞裔女性如何自處？",
-   "u": "https://www.bbc.com/zhongwen/articles/cvze7n4gp5rro/trad?at_medium=RSS&at_campaign=rss",
-   "d": "黃仁勳醜聞曝光後，網上湧現大量「中國間諜」、「美人計」笑話。這些看似無傷大雅的時事迷因，卻讓部分亞裔女性感到困擾。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/cdfb/live/3e3fdc00-e103-11f1-b441-2b33b063138f.jpg",
-   "at": "2026-11-18T12:17+00:00",
-   "where": [
-    34.0,
-    108.0,
-    "中國"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "深圳APEC｜普京和特朗普預計將於峰會期間舉行雙邊會談",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878361-20261119.htm",
-   "d": "美國和俄羅斯官員表示，美國總統特朗普今日在深圳舉行的APEC峰會期間，預料會與俄羅斯總統普京舉行雙邊會談，隨後還將與中國國家主席習近平舉行三方會晤。 俄羅斯傳媒引述克里姆林宮發言人佩斯科夫表示，特朗普和普京將舉行雙邊會談，但不會安排全面雙邊談判。美國一名官員亦證實這項會晤計劃，但未透露更多細節。 俄羅斯總統助理烏沙科夫表示，普京與特朗普的會晤將在APEC全體會議結束後舉行，俄美代表團數名成員預計將出席。 編輯︰張萬燕",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878361_1_M_20261119051743.jpg",
-   "at": "2026-11-18T21:17+00:00",
-   "where": [
-    22.54,
-    114.06,
-    "深圳"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "大埔詹屋村單位疑電器短路引致火警 女子吸濃煙不適送院",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878345-20261118.htm",
-   "d": "大埔船灣詹屋村一個單位傍晚發生一級火警。一名女子吸入濃煙不適，經救護員初步治理後，清醒送院。 消防處發言人表示，在下午5時59分接報，4分鐘後到達現場，動用一條喉和一隊煙帽隊灌救，火勢於晚上6時18分大致被救熄。 期間約20名居民自行疏散，消防員在起火單位救出兩隻狗及一隻貓，將牠們帶到安全地方。 經調查後，處方相信火警起因沒有可疑。起火位置為涉事單位的客廳，懷疑因電器短路引致。 編輯：鍾慧儀",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878345_2_M_20261118231902.jpg",
-   "at": "2026-11-18T14:31+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "特朗普訪華之際 美國封堵中國公司在東南亞租用AI算力的「後門」",
-   "u": "https://www.bbc.com/zhongwen/articles/cmpdwn010nyvo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "在美國限制最先進英偉達芯片直接銷往中國的背景下，中國大型互聯網公司和AI實驗室逐漸轉向「只租算力、不買硬件」的模式。芯片部署在第三國數據中心，中國企業再通過互聯網遠程調用算力訓練模型，而無須把相關硬件運入中國。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/f965/live/d542c590-e275-11f1-b639-73d1df360b76.jpg",
-   "at": "2026-11-17T11:37+00:00",
-   "where": [
-    34.0,
-    108.0,
-    "中國"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "深圳APEC｜加拿大稱特朗普與卡尼會晤討論貿易問題",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878359-20261119.htm",
-   "d": "加拿大總理辦公室表示，美國總統特朗普與加拿大總理卡尼，星期三在中國舉行的亞太經濟合作組織APEC會議期間舉行會晤，就兩國在貿易協議方面開展的工作進行討論。 加拿大方面在聲明表示，兩國領導人討論了為達成互惠貿易協議正在開展的工作，相關協議將創造優質就業崗位、提高消費可負擔性，並充分尊重加拿大的語言、文化和主權。雙方同意繼續推進相關工作，並保持密切聯繫。 編輯︰張萬燕",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878359_1_M_20261119043251.jpg",
-   "at": "2026-11-18T20:24+00:00",
-   "where": [
-    22.54,
-    114.06,
-    "深圳"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "北角電燈中心低壓設備異常 一名員工受傷送院",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878344-20261118.htm",
-   "d": "港燈表示，下午約5時接報，位於北角電燈中心地下的一台低壓設備出現異常。消防員接報到場後迅速將火救熄。一名港燈員工受傷，清醒送院接受治療。 港燈十分關注員工的情況，正密切跟進並提供適切支援；同時配合有關部門調查事件起因，會進一步檢查相關設備。 北角電燈中心部分樓層的供電受事故影響，客戶的電力供應則維持正常。 編輯：鍾慧儀",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878344_1_M_20261118220319.jpg",
-   "at": "2026-11-18T13:45+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
    ]
   },
   {
@@ -189,6 +184,7 @@
    "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
    "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
    "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
    "at": "2026-11-17T16:25+00:00",
    "where": [
     23.7,
@@ -197,31 +193,16 @@
    ]
   },
   {
-   "src": "世界",
-   "lang": "zh",
-   "t": "巴基斯坦成功試射「法塔赫－3」超音速巡航導彈",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878358-20261119.htm",
-   "d": "巴基斯坦陸軍成功試射「法塔赫－3」超音速巡航導彈。 巴基斯坦三軍新聞局發表聲明說，「法塔赫－3」超音速巡航導彈配備先進的導航和推進系統，能對遠距離目標實施高精度、高殺傷力打擊，將顯著提升巴陸軍火箭部隊的作戰靈活性和打擊範圍。 聲明又說，巴基斯坦總統扎爾達里、總理夏巴茲、陸軍參謀長穆尼爾祝賀導彈成功試射。 編輯︰張萬燕",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878358_1_M_20261119032243.jpg",
-   "at": "2026-11-18T19:22+00:00",
-   "where": [
-    30.4,
-    69.3,
-    "巴基斯坦"
-   ]
-  },
-  {
    "src": "香港",
    "lang": "zh",
-   "t": "張德康承認錯誤切除病人兩邊卵巢犯很低級錯誤 深感抱歉",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878336-20261118.htm",
-   "d": "一名45歲女病人在中大醫院接受腹腔鏡子宮及雙側輸卵管切除手術期間，兩邊卵巢被錯誤切除。中大醫院顧問醫生、婦科腫瘤科專科醫生張德康接受本台訪問時承認，他是當日施手術的醫生，他說當時很專注於手術，不希望有不必要創傷、流血等，很專注在一事上時，忽略了另一方面。他形容，事故是不應該發生，亦是很低級、不應該犯的錯誤，深感抱歉。 張德康表示，當晚已立即與病人及家人說明情況，翌日再次在會面上承認錯誤並道歉，承諾會盡量照顧病人，若病人不想繼續留在中大醫…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878336_1_M_20261118203053.jpg",
-   "at": "2026-11-18T12:30+00:00",
+   "t": "深圳APEC｜國家主席習近平於深圳會見美國總統特朗普",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878429-20261119.htm",
+   "d": "國家主席習近平在深圳會見來華出席亞太經合組織領導人非正式會議的美國總統特朗普。 特朗普車隊中午後駛入麒麟山莊，央視報道，特朗普一行人下午1時許，抵達會見現場。 這是兩國元首今年內第三次會晤。 編輯：潘潔平",
+   "at": "2026-11-19T05:35+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    22.54,
+    114.06,
+    "深圳"
    ]
   },
   {
@@ -239,26 +220,12 @@
    ]
   },
   {
-   "src": "世界",
-   "lang": "zh",
-   "t": "美國民主黨提名傑弗里斯為眾議院議長",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878357-20261119.htm",
-   "d": "美國民主黨提名現任眾議院民主黨領袖傑弗里斯為眾議院議長，他有望成為美國歷史上首位非洲裔眾議院議長。 眾議院民主黨黨團星期三舉行閉門投票通過有關提名，但傑弗里斯仍需在明年1月新一屆眾議院全體會議投票中獲得過半數支持，才可正式出任議長。 美國民主黨在月初的中期選舉奪回國會參眾兩院控制權，新一屆國會任期將在明年1月3日開始。 編輯︰張萬燕",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878357_1_M_20261119022127.jpg",
-   "at": "2026-11-18T18:52+00:00",
-   "where": [
-    38.9,
-    -77.04,
-    "美國"
-   ]
-  },
-  {
    "src": "香港",
    "lang": "zh",
-   "t": "最後幻彩詠香江匯演加入煙火 大批市民遊客見證告別演出",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878337-20261118.htm",
-   "d": "有22年歷史的「幻彩詠香江」，今晚8時上演最後一場，維多利亞港兩岸超過40棟大廈配合音樂亮起燈光，包括中環廣場、會展、兩座國際金融中心等，部分大廈更特別發放煙火，匯演歷時約10分鐘。 在匯演開始前、晚上約7時，尖沙咀星光大道已人頭湧湧，不少市民及遊客帶相機到場記錄。 有奧地利旅客表示，從社交媒體得知今晚是最後一場「幻彩詠香江」，首次來觀看，對此很期待。 有市民表示，得悉是最後一場幻彩詠香江，傍晚6時已經到場，準備見證結束一刻。他又說，知…",
-   "at": "2026-11-18T12:23+00:00",
+   "t": "運輸署稱6號幹線配備多項管理設施 營辦商已增聘人手及測試設備",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878428-20261119.htm",
+   "d": "中九龍繞道九龍灣段下月6日通車，標誌著整條6號幹線將會全線開通。運輸署表示，6號幹線配備多項設施管理隧道交通，確保有效管理及交通暢順。 署方在社交網頁表示，6號幹線全線採用「交通管制及監察系統」，結合閉路電視、自動事故探測器、行車線管制燈號，以及可變速度限制或信息標誌，24小時實時監察隧道及路面情況。6號幹線分別於啟德及茶果嶺設交通控制中心，同步分別監察油麻地段，以及九龍灣段和將藍隧道。當發生交通事故，系統會自動提示監察人員啟動預案，並…",
+   "at": "2026-11-19T05:32+00:00",
    "where": [
     22.32,
     114.17,
@@ -280,24 +247,16 @@
    ]
   },
   {
-   "src": "世界",
-   "lang": "zh",
-   "t": "商務部：中韓自貿協定第二階段談判實質性完成",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878355-20261119.htm",
-   "d": "商務部表示，中韓雙方以兩國元首重要共識為指引，推進中韓自貿協定第二階段談判，歷經8年多時間，在近日實質性完成，達成互利共贏的高水平談判成果。 商務部國際司負責人表示，中韓自貿協定第二階段對原中韓自貿協定投資、服務貿易、金融服務和經濟合作章及有關附件進行升級，進一步提升了雙方投資和服務自由化、便利化規則水平，並採用負面清單模式針對投資、跨境服務貿易、金融服務等領域作出開放承諾，為後續雙向投資和服務貿易往來建立了透明、穩定、可預期的准入規則…",
-   "at": "2026-11-18T18:07+00:00"
-  },
-  {
    "src": "香港",
    "lang": "zh",
-   "t": "深圳APEC｜習近平稱領導人會議將討論拓展各領域務實合作機遇",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878335-20261118.htm",
-   "d": "國家主席習近平與夫人彭麗媛，在深圳國際交流中心舉行宴會，歡迎出席亞太經合組織領導人非正式會議的來賓。習近平致祝酒辭時說，謹代表中國政府及中國人民，對各位嘉賓的到來表示熱烈歡迎。 習近平說深圳是一個有大故事的地方，1978年他第一次到深圳，看到的還是小漁村，彈指之間40多年過去，如今深圳高樓林立、車水馬龍，變化之大可謂滄海桑田。他說開放是深圳與生俱來的基因、創新是深圳的活力所在、合作是深圳的力量之源。深圳的故事是中國改革開放的縮影，也是亞…",
-   "at": "2026-11-18T12:10+00:00",
+   "t": "鄺港智作供稱與父親不太能相處 學習海南話融入蔡天鳳家庭",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878427-20261119.htm",
+   "d": "蔡天鳯案在高等法院續審，第三被告、蔡天鳯的前夫鄺港智開始作供。鄺港智供稱，在14歲認識蔡天鳯，他之後搬入黃埔單位是因為與蔡天鳯拍拖，但與次被告、父親鄺球不太能相處，亦同意蔡天鳯的母親張燕花性格較為温和，他學習海南話以融入家庭。鄺港智說涉及以往的案件，是希望多賺錢，為了包括子女及蔡天鳯的家庭。他之後潛逃內地，但有能力每次包船支付10萬元，以乘坐「大飛」往返。 鄺港智又說，不同意依靠蔡天鳯的金錢。被問及與蔡天鳯的生意安排，就鐘錶方面，鄺港智…",
+   "at": "2026-11-19T05:27+00:00",
    "where": [
-    22.54,
-    114.06,
-    "深圳"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
@@ -315,20 +274,12 @@
    ]
   },
   {
-   "src": "世界",
-   "lang": "zh",
-   "t": "斐濟持續乾旱進入災難狀態 政府撥專項資金救災",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878351-20261119.htm",
-   "d": "南太平洋島國斐濟遭遇罕見持續乾旱，當地星期三宣布全國進入災難狀態，全力應對嚴峻缺水危機。 斐濟總理蘭布卡表示，災難狀態啟動後，政府將有權統一調配應急隊伍、救災物資及各類公共資源，當局已撥出專項救災資金，用於應急供水保障、受災社區幫扶、農業養殖救濟及乾旱衍生災害處置等工作。 斐濟屬熱帶海洋性氣候，降雨充足。今年以來，強厄爾尼諾現象打破當地水文常態，引發罕見持續乾旱，令這個水資源豐裕的島國陷入嚴重缺水危機。斐濟當局警告，當地11月底警戒級缺…",
-   "at": "2026-11-18T16:41+00:00"
-  },
-  {
    "src": "香港",
    "lang": "zh",
-   "t": "多座中環性標誌建築物外牆今晚至明年1月初呈現光影表演",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878332-20261118.htm",
-   "d": "旅發局年度旗艦節慶盛事「香港繽紛冬日巡禮」今日揭幕，文化體育及旅遊局局長羅淑佩在「香港冬日小鎮．中環」啓動禮致辭時表示，今晚至明年1月初，多座中環標誌性建築物外牆將呈現光影表演，而冬日小鎮亦會擴展至尖沙咀及銅鑼灣，帶來雙重的冬日光影體驗，與中環互相輝映，讓市民及旅客感受香港的濃厚節日氣氛。 羅淑佩表示，有22年歷史、曾列入健力士世界紀錄的「幻彩詠香江」亦將於今晚最後一次上演，將加入煙火元素，為經典的匯演劃上圓滿句號。 她又指，旅發局舉辦…",
-   "at": "2026-11-18T11:46+00:00",
+   "t": "恒指下午初段跌逾400點",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878423-20261119.htm",
+   "d": "港股下午開市初段跌逾400點，恒生指數較早時報22870點，跌424點，跌幅1.82%。 科技指數報3651點，跌84點，跌幅2.27%。 編輯：宋家樑",
+   "at": "2026-11-19T05:18+00:00",
    "where": [
     22.32,
     114.17,
@@ -338,34 +289,21 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "美國今年已10人死於麻疹 26年後失去「麻疹消除狀態」",
-   "u": "https://www.bbc.com/zhongwen/articles/c5y4jmvxr9vyo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "美國時隔26年失去麻疹消除狀態，今年病例達5400例、死亡10人，創1990年代以來新高。「疫苗懷疑論」持續遭到質疑。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/0b33/live/4927cca0-dfd1-11f1-8c90-4fc10fbf9142.jpg",
-   "at": "2026-11-18T08:16+00:00",
+   "t": "黃仁勳婚外情掀「中國間諜」迷因：幽默與偏見之間，亞裔女性如何自處？",
+   "u": "https://www.bbc.com/zhongwen/articles/cvze7n4gp5rro/trad?at_medium=RSS&at_campaign=rss",
+   "d": "黃仁勳醜聞曝光後，網上湧現大量「中國間諜」、「美人計」笑話。這些看似無傷大雅的時事迷因，卻讓部分亞裔女性感到困擾。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/cdfb/live/3e3fdc00-e103-11f1-b441-2b33b063138f.jpg",
+   "at": "2026-11-18T12:17+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "深圳APEC｜李家超對習近平演講感振奮和鼓舞",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878329-20261118.htm",
-   "d": "在深圳出席亞太經合組織會議的行政長官李家超表示，對國家主席習近平在工商領導人峰會開幕式發表的主旨演講，感到十分振奮和鼓舞。 李家超又分別和多個亞太經合組織經濟體領袖雙邊會談，包括越南國家主席蘇林、泰國總理阿努廷和文萊蘇丹哈桑納爾等。 編輯：王濱南",
-   "at": "2026-11-18T11:45+00:00",
-   "where": [
-    22.54,
-    114.06,
-    "深圳"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "\"A Symphony of Lights\" goes out on a high",
+   "t": "'A Symphony of Lights' goes out on a high",
    "u": "https://news.rthk.hk/rthk/en/component/k2/1878341-20261118.htm",
    "d": "The long-running multimedia spectacle that lights up Victoria Harbour every night has drawn to a close, after its last performance on Wednesday. Scores of locals and tourists lined the promenade in Tsim Sha Tsui to catch…",
    "img": "https://newsstatic.rthk.hk/images/mfile_1878341_1_M_20261118213814.jpg",
@@ -382,7 +320,7 @@
    "t": "McDonald's sex abuse: 'They were waiting for the younger girls to turn 18'",
    "u": "https://www.bbc.co.uk/news/articles/c6x2eve321jno?at_medium=RSS&at_campaign=rss",
    "d": "A former McDonald's worker calls on the firm to “change the way they treat younger employees” as a judge rules a legal case against the chain can go ahead.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/decb/live/a6ef9570-e364-11f1-99a1-253766e7ad8b.jpg",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/dc2e/live/1e9dd410-e3e2-11f1-a094-5fdc692f3e33.jpg",
    "at": "2026-11-19T00:00+00:00",
    "where": [
     52.5,
@@ -393,29 +331,29 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
-   "u": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
-   "d": "No state has ever been found guilty by an international court of committing genocide.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/67fc/live/b89f41e0-e336-11f1-9479-d17d3e98c29d.jpg",
-   "at": "2026-11-18T23:04+00:00",
+   "t": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
+   "u": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&at_campaign=rss",
+   "d": "The meeting comes with challenges as there are things Xi does not appear keen to discuss with Putin and Trump.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/07ac/live/bcaff6a0-e3cf-11f1-a266-6b47da5e73cc.jpg",
+   "at": "2026-11-19T04:42+00:00",
    "where": [
-    21.9,
-    95.96,
-    "緬甸"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
-   "u": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
-   "d": "The three leaders will meet together for the first time on Thursday during a closely-watched summit.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a9fb/live/b2707bf0-e349-11f1-99aa-0f40b013ad11.jpg",
-   "at": "2026-11-18T16:10+00:00",
+   "t": "AI giant Anthropic valued at up to $1.5tn ahead of stock market debut",
+   "u": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+   "d": "The firm started just five years ago and is now one of the biggest names in artificial intelligence.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3a11/live/4dfcb420-e37d-11f1-b879-03485a55c082.jpg",
+   "at": "2026-11-19T02:20+00:00",
    "where": [
-    55.75,
-    37.6,
-    "俄羅斯"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -479,7 +417,7 @@
    "lang": "en",
    "t": "RTHK, CGTN present highlights from Apec summit",
    "u": "https://news.rthk.hk/rthk/en/component/k2/1878338-20261118.htm",
-   "d": "RTHK and CGTN are joining hands in covering the Apec summit in Shenzhen. RTHK's Hailey Yip and her CGTN counterpart Zhao Yunfei give us the key takeaways from President Xi Jinping's keynote address, and Chief Executive J…",
+   "d": "RTHK and CGTN are joining hands in covering the Apec summit in Shenzhen. RTHK's Hailey Yip and her CGTN counterpart Zhao Yunfei give us the key takeaways from President Xi Jinping's keynote address at the Apec CEO Summit…",
    "img": "https://newsstatic.rthk.hk/images/mfile_1878338_1_M_20261118203453.jpg",
    "at": "2026-11-18T12:34+00:00",
    "where": [
@@ -491,11 +429,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Crew unaware of risks before Bayesian yacht accident, say investigators",
-   "u": "https://www.bbc.co.uk/news/articles/c6e9kn15z9d7o?at_medium=RSS&at_campaign=rss",
-   "d": "The vessel sank off the coast of northern Sicily, killing seven people including British tech tycoon Mike Lynch.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6aec/live/3ca33b80-6077-11ef-aea1-e764981585c4.jpg",
-   "at": "2026-11-19T00:05+00:00",
+   "t": "'Feudal' leasehold system set to be scrapped in England and Wales",
+   "u": "https://www.bbc.co.uk/news/articles/cw987ynpd0n1o?at_medium=RSS&at_campaign=rss",
+   "d": "The proposed Commonhold and Leasehold Reform Bill will also include capping ground rent at £250.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e983/live/c8f15bb0-e36c-11f1-9f51-4bfc31543510.jpg",
+   "at": "2026-11-19T02:02+00:00",
    "where": [
     52.5,
     -1.5,
@@ -505,29 +443,29 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
-   "u": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
-   "d": "China worries the scandal could ramp up pressure on the US to further restrict the sale of advanced chips.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ec0d/live/1061d030-dea2-11f1-b441-2b33b063138f.jpg",
-   "at": "2026-11-17T23:02+00:00",
+   "t": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
+   "u": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
+   "d": "No state has ever been found guilty by an international court of committing genocide.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/67fc/live/b89f41e0-e336-11f1-9479-d17d3e98c29d.jpg",
+   "at": "2026-11-18T23:04+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    21.9,
+    95.96,
+    "緬甸"
    ]
   },
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "BBC correspondents discuss historic Trump, Xi and Putin meeting",
-   "u": "https://www.bbc.co.uk/news/videos/cqp86k23d84ro?at_medium=RSS&at_campaign=rss",
-   "d": "The BBC’s Laura Bicker, Steve Rosenberg and Nada Tawfik explain everything you need to know ahead of the unprecedented trilateral meeting.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e20b/live/66ff6490-e323-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-18T08:33+00:00",
+   "t": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
+   "u": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
+   "d": "Anthropic's hotly anticipated IPO is expected to put it in the top 10 most valuable US companies, but the future is uncertain.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/dcc1/live/0bb55690-e36d-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-18T21:28+00:00",
    "where": [
-    55.75,
-    37.6,
-    "俄羅斯"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -603,11 +541,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Council wins legal fight against flags on lamp-posts",
-   "u": "https://www.bbc.co.uk/news/articles/ckq5vg81805qo?at_medium=RSS&at_campaign=rss",
-   "d": "In her decision, Judge Emma Kelly says there was a \"compelling need\" to grant the interim injunction.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/05a0/live/e737dbc0-e381-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-18T18:19+00:00",
+   "t": "Crew unaware of risks before Mike Lynch's yacht Bayesian sank, say investigators",
+   "u": "https://www.bbc.co.uk/news/articles/c6e9kn15z9d7o?at_medium=RSS&at_campaign=rss",
+   "d": "The vessel sank off the coast of northern Sicily, killing seven people including British tech tycoon Mike Lynch.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6aec/live/3ca33b80-6077-11ef-aea1-e764981585c4.jpg",
+   "at": "2026-11-19T00:05+00:00",
    "where": [
     52.5,
     -1.5,
@@ -617,11 +555,11 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "How new US chip restrictions on South East Asia will hit China",
-   "u": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
-   "d": "The new rules restrict chip exports and also access to their computing power, which China relies on heavily.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bfea/live/8fbafe20-e225-11f1-ae7e-97d0d3a43181.jpg",
-   "at": "2026-11-17T14:25+00:00",
+   "t": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+   "u": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
+   "d": "China worries the scandal could ramp up pressure on the US to further restrict the sale of advanced chips.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ec0d/live/1061d030-dea2-11f1-b441-2b33b063138f.jpg",
+   "at": "2026-11-17T23:02+00:00",
    "where": [
     34.0,
     108.0,
@@ -631,11 +569,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Can Anthropic's record breaking IPO stop the AI bubble bursting?",
-   "u": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
-   "d": "Anthropic's hotly anticipated IPO is expected to put it in the top 10 most valuable US companies, but the future is uncertain.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/dcc1/live/0bb55690-e36d-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-18T21:28+00:00",
+   "t": "Fiona the hippo undergoing care after swallowing a hat at Cincinnati Zoo",
+   "u": "https://www.bbc.co.uk/news/articles/cm2d93z0e9gjo?at_medium=RSS&at_campaign=rss",
+   "d": "Zookeepers say she cannot have surgery but are providing fluids and supportive care to help her pass the hat.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/769d/live/66da74a0-e369-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-18T16:05+00:00",
    "where": [
     38.9,
     -77.04,
@@ -715,11 +653,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
-   "u": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
-   "d": "Energy bills are expected to jump by 26% a year for a typical household as UK inflation hits its highest rate for a year.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4a59/live/128bd8c0-e35b-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-18T13:17+00:00",
+   "t": "Council wins legal fight against flags on lamp-posts",
+   "u": "https://www.bbc.co.uk/news/articles/ckq5vg81805qo?at_medium=RSS&at_campaign=rss",
+   "d": "In her decision, Judge Emma Kelly says there was a \"compelling need\" to grant the interim injunction.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/05a0/live/e737dbc0-e381-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-18T18:19+00:00",
    "where": [
     52.5,
     -1.5,
@@ -729,39 +667,39 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Will President Trump meet Kim Jong Un?",
-   "u": "https://www.bbc.co.uk/news/videos/c6grew79p7qdo?at_medium=RSS&at_campaign=rss",
-   "d": "President Trump says he would be keen to meet the North Korea leader in China.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4583/live/99273800-e263-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-17T10:13+00:00",
+   "t": "How new US chip restrictions on South East Asia will hit China",
+   "u": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
+   "d": "The new rules restrict chip exports and also access to their computing power, which China relies on heavily.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bfea/live/8fbafe20-e225-11f1-ae7e-97d0d3a43181.jpg",
+   "at": "2026-11-17T14:25+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Fiona the hippo undergoing care after swallowing a hat at Cincinnati Zoo",
-   "u": "https://www.bbc.co.uk/news/articles/cm2d93z0e9gjo?at_medium=RSS&at_campaign=rss",
-   "d": "Zookeepers say she cannot have surgery but are providing fluids and supportive care to help her pass the hat.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/769d/live/66da74a0-e369-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-18T16:05+00:00",
+   "t": "Russian arrested for spying on US defence company Palantir over Ukraine support",
+   "u": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
+   "d": "The suspect followed employees and was found with fake US IDs and two Russian passports, prosecutors say.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/eb01/live/85dba110-e39d-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-18T23:28+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    49.0,
+    31.4,
+    "烏克蘭"
    ]
   },
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "Steve Rosenberg: Historic talks with Xi and Trump are a coup for Putin",
-   "u": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo?at_medium=RSS&at_campaign=rss",
-   "d": "Thursday's meeting between the leaders of US, China and Russia will give Vladimir Putin a big stage - but it does not bring him closer to winning the war in Ukraine.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/17b2/live/72c78770-e36f-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-18T10:53+00:00",
+   "t": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+   "u": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
+   "d": "The three leaders will meet together for the first time on Thursday during a closely-watched summit.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a9fb/live/b2707bf0-e349-11f1-99aa-0f40b013ad11.jpg",
+   "at": "2026-11-18T16:10+00:00",
    "where": [
     55.75,
     37.6,
@@ -827,29 +765,29 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
-   "u": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
-   "d": "This comes after Brand's wife shared a message from him in which he claimed his innocence.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c05a/live/ff349a00-e38c-11f1-bc86-33d7d6275eba.jpg",
-   "at": "2026-11-18T23:29+00:00",
+   "t": "Prince Harry says he would rejoin army as he warns of Russia threat",
+   "u": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko?at_medium=RSS&at_campaign=rss",
+   "d": "The Duke of Sussex thought people should be ready to serve again for their country if needed.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/73ac/live/9a53b3f0-e37d-11f1-b879-03485a55c082.jpg",
+   "at": "2026-11-18T20:55+00:00",
    "where": [
-    52.5,
-    -1.5,
-    "英國"
+    55.75,
+    37.6,
+    "俄羅斯"
    ]
   },
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Pakistan's solar revolution is so successful the national grid is lagging behind",
-   "u": "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o?at_medium=RSS&at_campaign=rss",
-   "d": "People installing their own solar panels has helped boost the solar share of Pakistan's electricity from 1% to 28%.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7f9b/live/9d67ed20-e29e-11f1-8dda-8925a81c3da5.jpg",
-   "at": "2026-11-17T23:34+00:00",
+   "t": "Will President Trump meet Kim Jong Un?",
+   "u": "https://www.bbc.co.uk/news/videos/c6grew79p7qdo?at_medium=RSS&at_campaign=rss",
+   "d": "President Trump says he would be keen to meet the North Korea leader in China.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4583/live/99273800-e263-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-17T10:13+00:00",
    "where": [
-    30.4,
-    69.3,
-    "巴基斯坦"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -869,15 +807,15 @@
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "Julio Iglesias facing court investigation over alleged sexual offences",
-   "u": "https://www.bbc.co.uk/news/articles/c6x284pnn4e2o?at_medium=RSS&at_campaign=rss",
-   "d": "The 83-year-old singer is accused of abusing two former employees at Caribbean residences in 2021.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f03b/live/031efcc0-e34f-11f1-99aa-0f40b013ad11.jpg",
-   "at": "2026-11-18T16:33+00:00",
+   "t": "Steve Rosenberg: Historic talks with Xi and Trump are a coup for Putin",
+   "u": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo?at_medium=RSS&at_campaign=rss",
+   "d": "Thursday's meeting between the leaders of US, China and Russia will give Vladimir Putin a big stage - but it does not bring him closer to winning the war in Ukraine.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/17b2/live/72c78770-e36f-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-18T10:53+00:00",
    "where": [
-    50.0,
-    10.0,
-    "歐洲"
+    55.75,
+    37.6,
+    "俄羅斯"
    ]
   },
   {
@@ -927,7 +865,7 @@
    "lang": "en",
    "t": "CE encouraged by Xi's Apec speech in Shenzhen",
    "u": "https://news.rthk.hk/rthk/en/component/k2/1878277-20261118.htm",
-   "d": "Chief Executive John Lee said he had been inspired and encouraged by President Xi Jinping's speech at the Apec CEO summit in Shenzhen on Wednesday, adding the address had charted a course for the Asia-Pacific community a…",
+   "d": "Chief Executive John Lee said he had been inspired and encouraged by President Xi Jinping's speech at the Apec CEO Summit in Shenzhen on Wednesday, adding the address had charted a course for the Asia-Pacific community a…",
    "img": "https://newsstatic.rthk.hk/images/mfile_1878277_2_M_20261118131945.jpg",
    "at": "2026-11-18T05:19+00:00",
    "where": [
@@ -939,11 +877,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Minister criticises media for 'amplifying' Russell Brand's prison message",
-   "u": "https://www.bbc.co.uk/news/articles/cq702k1w8xd3o?at_medium=RSS&at_campaign=rss",
-   "d": "Lucy Powell says outlets shouldn't have played a clip of a message read by the jailed rapist's wife.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3906/live/4ed62600-e342-11f1-99aa-0f40b013ad11.jpg",
-   "at": "2026-11-18T12:11+00:00",
+   "t": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
+   "u": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
+   "d": "This comes after Brand's wife shared a message from him in which he claimed his innocence.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c05a/live/ff349a00-e38c-11f1-bc86-33d7d6275eba.jpg",
+   "at": "2026-11-18T23:29+00:00",
    "where": [
     52.5,
     -1.5,
@@ -953,15 +891,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "China is hosting the world's leaders in its AI wonderland. Here's what they won't see",
-   "u": "https://www.bbc.co.uk/news/articles/cm3eg3v9jkk8o?at_medium=RSS&at_campaign=rss",
-   "d": "Leave Shenzhen's tech-flecked city skyline and you run into the challenges confronting Xi's China.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/947c/live/0bef2190-e278-11f1-ad71-0bc71faa76c4.png",
-   "at": "2026-11-16T23:07+00:00",
+   "t": "Pakistan's solar revolution is so successful the national grid is lagging behind",
+   "u": "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o?at_medium=RSS&at_campaign=rss",
+   "d": "People installing their own solar panels has helped boost the solar share of Pakistan's electricity from 1% to 28%.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7f9b/live/9d67ed20-e29e-11f1-8dda-8925a81c3da5.jpg",
+   "at": "2026-11-17T23:34+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    30.4,
+    69.3,
+    "巴基斯坦"
    ]
   },
   {
@@ -981,11 +919,11 @@
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "New video shows explosions moments before part of Crimea Bridge collapses",
-   "u": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o?at_medium=RSS&at_campaign=rss",
-   "d": "BBC Verify analyses footage showing the final moments before part of the bridge fell and videos showing the scale of destruction.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/442c/live/51ebbbe0-e36d-11f1-99a1-253766e7ad8b.png",
-   "at": "2026-11-18T17:09+00:00",
+   "t": "Julio Iglesias facing court investigation over alleged sexual offences",
+   "u": "https://www.bbc.co.uk/news/articles/c6x284pnn4e2o?at_medium=RSS&at_campaign=rss",
+   "d": "The 83-year-old singer is accused of abusing two former employees at Caribbean residences in 2021.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f03b/live/031efcc0-e34f-11f1-99aa-0f40b013ad11.jpg",
+   "at": "2026-11-18T16:33+00:00",
    "where": [
     50.0,
     10.0,
@@ -1050,15 +988,15 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Prince Harry says he would rejoin army as he warns of Russia threat",
-   "u": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko?at_medium=RSS&at_campaign=rss",
-   "d": "The Duke of Sussex thought people should be ready to serve again for their country if needed.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/73ac/live/9a53b3f0-e37d-11f1-b879-03485a55c082.jpg",
-   "at": "2026-11-18T20:55+00:00",
+   "t": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
+   "u": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
+   "d": "Energy bills are expected to jump by 26% a year for a typical household as UK inflation hits its highest rate for a year.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4a59/live/128bd8c0-e35b-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-18T13:17+00:00",
    "where": [
-    55.75,
-    37.6,
-    "俄羅斯"
+    52.5,
+    -1.5,
+    "英國"
    ]
   },
   {
@@ -1078,11 +1016,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "The seven Anthropic founders who are about to become multi-billionaires",
-   "u": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
-   "d": "The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f70c/live/7ee6d930-e346-11f1-99aa-0f40b013ad11.jpg",
-   "at": "2026-11-18T23:42+00:00",
+   "t": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
+   "u": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
+   "d": "The multi-billionaire also said he was \"not Maga\", distancing himself from the political movement linked to Trump.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3333/live/c9ef87a0-e3b5-11f1-ac8e-bf9cbaf16b78.jpg",
+   "at": "2026-11-19T02:59+00:00",
    "where": [
     38.9,
     -77.04,
@@ -1092,15 +1030,15 @@
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "The EU that Burnham is eyeing up is very different to the one Britain left",
-   "u": "https://www.bbc.co.uk/news/articles/cq4gn3109pzgo?at_medium=RSS&at_campaign=rss",
-   "d": "Andy Burnham wants \"steps\" towards a closer EU alignment. But the bloc has changed considerably since the UK left it",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0152/live/8197ef80-e282-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-18T00:39+00:00",
+   "t": "New video shows explosions moments before part of Crimea Bridge collapses",
+   "u": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o?at_medium=RSS&at_campaign=rss",
+   "d": "BBC Verify analyses footage showing the final moments before part of the bridge fell and videos showing the scale of destruction.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/442c/live/51ebbbe0-e36d-11f1-99a1-253766e7ad8b.png",
+   "at": "2026-11-18T17:09+00:00",
    "where": [
-    52.5,
-    -1.5,
-    "英國"
+    50.0,
+    10.0,
+    "歐洲"
    ]
   },
   {
@@ -1189,15 +1127,29 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Rubio says US not 'under systemic attack' after series of tech outages",
-   "u": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
-   "d": "Secretary of State Marco Rubio said there was \"zero evidence\" supporting theories online that recent disruptions affecting Microsoft, banks and flights are connected.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c7e9/live/0b2ef0e0-e35f-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-18T04:57+00:00",
+   "t": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
+   "u": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo?at_medium=RSS&at_campaign=rss",
+   "d": "Châtaigniers en fleurs was painted in 1890 in the final two months of Vincent van Gogh's life.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ead6/live/066e7440-e3af-11f1-8476-9fd445fc522b.jpg",
+   "at": "2026-11-19T00:49+00:00",
    "where": [
     38.9,
     -77.04,
     "美國"
+   ]
+  },
+  {
+   "src": "EUROPE",
+   "lang": "en",
+   "t": "The EU that Burnham is eyeing up is very different to the one Britain left",
+   "u": "https://www.bbc.co.uk/news/articles/cq4gn3109pzgo?at_medium=RSS&at_campaign=rss",
+   "d": "Andy Burnham wants \"steps\" towards a closer EU alignment. But the bloc has changed considerably since the UK left it",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0152/live/8197ef80-e282-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-18T00:39+00:00",
+   "where": [
+    52.5,
+    -1.5,
+    "英國"
    ]
   },
   {
