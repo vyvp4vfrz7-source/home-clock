@@ -42,8 +42,11 @@ body.warn #pCap, body.warn .head { margin-top: 9vmin; }
 
 /* ---------- 1. photos ---------- */
 /* the whole photo is shown (no cropping, no zoom) over a soft blurred copy of itself */
-#photos .ph { position: absolute; top: 0; right: 0; bottom: 0; left: 0; opacity: 0; transition: opacity 2.4s ease; overflow: hidden; background: #2a211c; }
+#photos .ph { position: absolute; top: 0; right: 0; bottom: 0; left: 0; opacity: 0; transition: opacity 2.4s ease-in-out; overflow: hidden; background: #2a211c; }
 #photos .ph.on { opacity: 1; }
+/* smooth change: the new photo fades in while gently settling from a little closer */
+#photos .ph .fg { -webkit-transform: scale(1.06); transform: scale(1.06); -webkit-transition: -webkit-transform 3.2s ease-out; transition: transform 3.2s ease-out; }
+#photos .ph.on .fg { -webkit-transform: none; transform: none; }
 #photos .ph i { position: absolute; top: 0; right: 0; bottom: 0; left: 0; background-position: center; background-repeat: no-repeat; }
 #photos .ph .bg { background-size: cover; -webkit-filter: blur(28px) brightness(.62) saturate(1.2); filter: blur(28px) brightness(.62) saturate(1.2); transform: scale(1.15); }
 #photos .ph .fg { background-size: contain; }
@@ -263,6 +266,7 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
 </div>
 
 <script src="../sound.js?v=3"></script>
+<script src="../frames.js?v=1"></script>
 <script>
 /* ES5, so it runs on any iPad.  Address options (put them in the address before "Add to Home Screen"):
      &frame            the real screen (no sample photos)
@@ -461,6 +465,7 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
   var idx = -1;
   var hsBox = HomeSound.mount($('pPage'), 'big');   // 🔊 video volume + 🎵 music, top-right of the photo page
   hsBox.style.top = 'calc(env(safe-area-inset-top, 0px) + 3.4vmin)'; hsBox.style.right = 'max(16px, calc(env(safe-area-inset-right, 0px) + 4vmin))';
+  var pFrame = PhotoFrames.mount($('photos').parentNode, $('photos').nextSibling, '2.2vmin');
   function startPhotos() {
     var box = $('photos'); box.innerHTML = ''; idx = -1;
     PHOTOS.forEach(function (p) { var d = document.createElement('div'); d.className = 'ph'; d.setAttribute('data-src', p.src); d.innerHTML = '<i class="bg"></i><i class="fg"></i>'; box.appendChild(d); });
@@ -473,7 +478,9 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
     var el = els[idx], nx = els[(idx + 1) % els.length]; paintPh(el); paintPh(nx);   // and preload the next one
     void el.offsetWidth; el.className = 'ph on';
     capPhoto();
-    var p = PHOTOS[idx];   // album videos play (with sound after a tap, see ../sound.js); the slideshow waits for them
+    var p = PHOTOS[idx];
+    PhotoFrames.show(pFrame, p && p.src, true);   // ../frames.js: polaroid, wood, film… around the photo itself
+    // album videos play (with sound after a tap, see ../sound.js); the slideshow waits for them
     if (p && p.video && page === 0 && !isNight()) HomeSound.play(el, p.video, p.src, function (secs) { setTimeout(function () { if (page === 0 && $('photos').children[idx] === el && !busy()) { step(); loop(); } }, secs * 1000); });
   }
   function paintPh(el) {
