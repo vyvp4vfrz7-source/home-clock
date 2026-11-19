@@ -21,7 +21,8 @@
 html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); font-family: var(--font); overflow: hidden; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent; }
 /* Pages sit side by side; swipe left/right (or tap the dots) to move between them. */
 #pages { position: absolute; inset: 0; overflow: hidden; transition: opacity 2s; }
-#track { position: absolute; top: 0; left: 0; height: 100%; display: flex; transition: transform .45s cubic-bezier(.2,.8,.2,1); will-change: transform; }
+#track { position: absolute; top: 0; left: 0; height: 100%; display: flex; transition: transform .55s cubic-bezier(.25,.8,.25,1), opacity .35s ease; will-change: transform; }
+#track.fade { opacity: 0; }   /* long jumps (tab tap, auto-turn back to page 1) fade instead of flying past every page */
 #track.drag { transition: none; }
 .page { position: relative; width: 100vw; height: 100%; flex: none; overflow: hidden; }
 .stage { position: absolute; width: 1366px; height: 1024px; transform-origin: 0 0; box-sizing: border-box; }
@@ -933,7 +934,13 @@ body:not(.penergy) #energy * { animation-play-state: paused !important; }
 #etips .wide { grid-column: 1 / -1; }
 #night { position: fixed; inset: 0; z-index: 50; background: #000; display: none; color: #b98a5e; }
 body.night #night { display: block; }
-body.night #pages, body.night #dots { display: none; }   /* hidden pages stop their animations: easy on the old iPad */
+/* Top bar of page tabs: hidden until a top corner is touched, hides itself after 8 s without use. */
+#tabs { position: absolute; top: max(10px, env(safe-area-inset-top)); left: 50%; max-width: calc(100vw - 32px); z-index: 20; display: flex; gap: 2px; padding: 5px; box-sizing: border-box; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; background: rgba(22,26,34,.88); border: 1px solid rgba(255,255,255,.08); border-radius: 999px; box-shadow: 0 10px 30px rgba(0,0,0,.35); opacity: 0; pointer-events: none; transform: translate(-50%, -24px); transition: opacity .3s ease, transform .35s cubic-bezier(.25,.8,.25,1); }
+#tabs::-webkit-scrollbar { display: none; }
+#tabs.show { opacity: 1; pointer-events: auto; transform: translate(-50%, 0); }
+#tabs button { flex: none; border: 0; background: none; color: #aeb7c4; font: 500 13px/1 -apple-system, sans-serif; padding: 9px 8px; border-radius: 999px; white-space: nowrap; -webkit-tap-highlight-color: transparent; transition: background .25s, color .25s; }
+#tabs button.on { background: #eef1f5; color: #141820; }
+body.night #pages, body.night #dots, body.night #tabs { display: none; }   /* hidden pages stop their animations: easy on the old iPad */
 #nclk { position: absolute; left: 50%; top: 50%; text-align: center; transform: translate(-50%, -50%); transition: margin 2s ease; opacity: .55; }
 #ntime { white-space: nowrap; font-weight: 300; line-height: .9; letter-spacing: -.04em; font-variant-numeric: tabular-nums; text-shadow: 0 0 40px rgba(185,138,94,.25); }
 #ntime i { font-style: normal; display: inline-block; animation: nColon 4s ease-in-out infinite; }
@@ -1189,6 +1196,7 @@ body:not(.ptfw) #tfw * { animation-play-state: paused !important; }
 </div>
 </div></div>
 <div id="dots"></div>
+<div id="tabs" role="tablist"></div>
 <div id="live" hidden></div>
 <div id="night"><div id="nclk"><div id="ntime"></div><div id="ndate"></div><div id="ntemp"></div></div><div id="nhint">輕按顯示 · Tap to wake</div></div>
 <div id="spBig" hidden><div class="pic"></div><div class="tx"></div><button type="button">✕ 關閉 Close</button></div>
@@ -1310,12 +1318,38 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
     b.onclick = (function (k) { return function () { goPage(k); }; })(i);
     dots.appendChild(b);
   }
+  // Top bar tabs, one per page.
+  var NAMES = { p1: '🏠 Home', ptfl: '🚆 Trains', ptfw: '🗺️ Works', pcal: '📅 Week', pnews: '📰 News', pyt: '▶️ YouTube', pytw: '🌍 World TV', phk: '🇭🇰 HK', pcity: '⛅ UK · HK', pbook: '📚 Book', pspace: '🚀 Space', psolar: '🪐 Planets', p3: '⚽ League', pbday: '🎂 Birthdays', p2: '🕰️ Clock', penergy: '⚡ Energy', preview: '📊 Review', ptips: '💡 Tips' };
+  var tabs = $('tabs'), tabsTimer = 0;
+  for (var t = 0; t < n; t++) {
+    var tb = document.createElement('button'); tb.type = 'button'; tb.textContent = NAMES[pages[t].id] || 'Page ' + (t + 1);
+    tb.onclick = (function (k) { return function () { goPage(k); showTabs(); }; })(t);
+    tabs.appendChild(tb);
+  }
+  function showTabs() {
+    tabs.classList.add('show');
+    var on = tabs.children[PAGE]; if (on) tabs.scrollLeft = on.offsetLeft - (tabs.clientWidth - on.offsetWidth) / 2;
+    clearTimeout(tabsTimer); tabsTimer = setTimeout(function () { tabs.classList.remove('show'); }, 8000);
+  }
+  // Touch a top corner to show the bar; touching anywhere else while it shows just keeps it a bit longer if on the bar.
+  document.addEventListener('touchstart', function (e) {
+    var p = e.touches[0]; if (!p) return;
+    if (tabs.contains(e.target)) { showTabs(); return; }
+    if (p.clientY < 90 && (p.clientX < 110 || p.clientX > innerWidth - 110)) { if (tabs.classList.contains('show')) { clearTimeout(tabsTimer); tabs.classList.remove('show'); } else showTabs(); }
+  }, { passive: true });
+  var fading = 0;
   window.goPage = function (k, instant) {
-    PAGE = Math.max(0, Math.min(n - 1, k));
+    k = Math.max(0, Math.min(n - 1, k));
+    if (!instant && Math.abs(k - PAGE) > 1) {   // far jump: fade out, jump, fade in
+      clearTimeout(fading); track.classList.add('fade');
+      fading = setTimeout(function () { goPage(k, true); track.classList.remove('fade'); }, 350);
+      return;
+    }
+    PAGE = k;
     if (instant) track.classList.add('drag');
     track.style.transform = 'translate3d(' + (-PAGE * innerWidth) + 'px,0,0)';
     if (instant) { track.offsetWidth; track.classList.remove('drag'); }
-    for (var j = 0; j < n; j++) dots.children[j].className = j === PAGE ? 'on' : '';
+    for (var j = 0; j < n; j++) { dots.children[j].className = j === PAGE ? 'on' : ''; if (tabs.children[j]) tabs.children[j].className = j === PAGE ? 'on' : ''; }
     try { localStorage.setItem('page', PAGE); } catch (e) {}
     pageAt = Date.now();
     document.body.classList.toggle('pcal', PAGE === CAL_PAGE);   // calendar animations only run while it shows
@@ -1335,7 +1369,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
   // Finger follows the swipe; let go past a quarter of the screen (or flick) to change page.
   var x0 = null, y0 = 0, t0 = 0, dx = 0, horiz = null;
   document.addEventListener('touchstart', function (e) {
-    if (e.touches.length !== 1) { x0 = null; return; }
+    if (e.touches.length !== 1 || $('tabs').contains(e.target)) { x0 = null; return; }   // scrolling the top bar is not a page swipe
     x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; t0 = Date.now(); dx = 0; horiz = null;
   }, { passive: true });
   document.addEventListener('touchmove', function (e) {
