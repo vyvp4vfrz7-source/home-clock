@@ -10,7 +10,7 @@
 <meta name="theme-color" content="#0b1016">
 <meta name="robots" content="noindex, nofollow">
 <title>Home Clock</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Oswald:wght@600&display=swap">
 <style>
 :root {
   --bg: #0b1016; --tile: #141b24; --tile-2: #1a2330; --line: #233042;
@@ -158,21 +158,19 @@ body.np1 #wbg *, body.np1 #wbg *::before, body.np1 #wbg *::after { animation-pla
 /* night versions of grey-sky scenes */
 #wbg.dark.cloudy .cloud, #wbg.dark.fog .band { opacity: .55; }
 
-/* ----- page 9: analog clock (dusty pink, square face, engraved numbers) ----- */
-#p2 { background: radial-gradient(ellipse at 35% 25%, #dcbcb9 0%, #cfaba8 60%, #c29d9b 100%); }
-#big { position: absolute; inset: 0; }
-#face { position: absolute; border-radius: 19%; background: linear-gradient(150deg, #e6cac7 0%, #dcbcb9 55%, #d2b0ad 100%);
-  box-shadow: 0 30px 70px rgba(90,40,40,.22), 0 4px 14px rgba(90,40,40,.12), inset 0 2px 2px rgba(255,245,242,.6), inset 0 -3px 6px rgba(120,70,70,.12); }
-#face .n { position: absolute; width: 2em; height: 1.2em; margin: -.6em 0 0 -1em; display: flex; align-items: center; justify-content: center;
-  font-weight: 400; line-height: 1; letter-spacing: -.02em; color: #d7b5b2;
-  text-shadow: -.015em -.015em .02em rgba(110,60,60,.38), .02em .02em .02em rgba(255,244,240,.9), 0 0 1px rgba(100,50,50,.3); }
-#face svg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
-#big .info { position: absolute; font-size: 26px; font-weight: 600; color: rgba(107,42,42,.55); letter-spacing: .02em; line-height: 1.35; }
-#big .info b { font-weight: 700; color: rgba(107,42,42,.75); }
-#binfoL { left: 40px; bottom: 44px; }
-#binfoR { right: 40px; bottom: 44px; text-align: right; }
-body.p2 #dots button i { background: rgba(107,42,42,.25); }
-body.p2 #dots button.on i { background: rgba(107,42,42,.55); }
+/* ----- big clock page: a family photo fills the screen, huge frosted-glass hour / minute digits on the side away from faces ----- */
+#p2 { background: #111; cursor: pointer; }
+#big { position: absolute; inset: 0; overflow: hidden; }
+#bsvg { position: absolute; left: 0; top: 0; display: block; }
+#bsvg .gl { font-family: 'Oswald', 'DIN Condensed', 'Avenir Next Condensed', 'Arial Narrow', sans-serif; font-weight: 600; }
+#bscene, #bglass, #bline { transition: opacity 1.2s ease; }
+#big.fading #bscene, #big.fading #bglass, #big.fading #bline { opacity: 0; }
+#big .info { position: absolute; font-size: 22px; font-weight: 600; color: rgba(255,255,255,.92); letter-spacing: .02em; line-height: 1.35;
+  text-shadow: 0 1px 3px rgba(0,0,0,.55), 0 0 14px rgba(0,0,0,.35); white-space: nowrap; transition: opacity 1.2s ease; }
+#big .info b { font-weight: 700; color: #fff; }
+#big.fading .info { opacity: 0; }
+body.p2 #dots button i { background: rgba(255,255,255,.35); }
+body.p2 #dots button.on i { background: rgba(255,255,255,.85); }
 
 /* ----- page 7: Premier League table ----- */
 #league { padding: 34px 40px 64px; display: flex; flex-direction: column; }
@@ -1261,22 +1259,24 @@ body:not(.ptfw) #tfw * { animation-play-state: paused !important; }
 </div>
 </div>
 <div class="page" id="p2">
-<div id="big">
-  <div id="face">
-    <div id="bnums"></div>
-    <svg viewBox="0 0 1000 1000" aria-hidden="true">
-      <defs>
-        <filter id="hs" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="3" dy="6" stdDeviation="5" flood-color="#5a2626" flood-opacity=".35"/></filter>
-        <filter id="ss" x="-50%" y="-10%" width="200%" height="120%"><feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#5a2626" flood-opacity=".3"/></filter>
-      </defs>
-      <g id="hh" filter="url(#hs)"><rect x="-5" y="-55" width="10" height="60" rx="5" fill="#6b2a2a"/><rect x="-16" y="-245" width="32" height="200" rx="16" fill="#6b2a2a"/></g>
-      <g id="mh" filter="url(#hs)"><rect x="-5" y="-55" width="10" height="60" rx="5" fill="#6b2a2a"/><rect x="-14" y="-355" width="28" height="310" rx="14" fill="#6b2a2a"/></g>
-      <circle cx="500" cy="500" r="13" fill="#6b2a2a"/>
-      <g id="sh" filter="url(#ss)"><rect x="-2.5" y="-380" width="5" height="450" rx="2.5" fill="#ef4fc9"/><circle r="10" fill="#ef4fc9"/><circle r="4.5" fill="#f6dfe9"/></g>
-    </svg>
-  </div>
-  <div class="info" id="binfoL"></div>
-  <div class="info" id="binfoR"></div>
+<div id="big" title="Tap for another photo">
+  <svg id="bsvg" aria-hidden="true">
+    <defs>
+      <filter id="bfillBlur" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="28"/></filter>
+      <filter id="bglassBlur" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="9"/>
+        <feColorMatrix type="matrix" values="1.08 0 0 0 .07  0 1.08 0 0 .07  0 0 1.08 0 .07  0 0 0 1 0"/></filter>
+      <filter id="bshade" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity=".28"/></filter>
+      <clipPath id="bclip"><text class="gl" id="bc1"></text><text class="gl" id="bc2"></text></clipPath>
+    </defs>
+    <g id="bscene">
+      <image id="bfill" preserveAspectRatio="xMidYMid slice" filter="url(#bfillBlur)"/>
+      <rect id="bdim" fill="#000" opacity=".18"/>
+      <image id="bmain" preserveAspectRatio="none"/>
+    </g>
+    <g id="bglass" clip-path="url(#bclip)"><use href="#bscene" xlink:href="#bscene" filter="url(#bglassBlur)"/><rect id="bwash" fill="#fff" opacity=".16"/></g>
+    <g id="bline" filter="url(#bshade)" fill="none" stroke="rgba(255,255,255,.62)" stroke-width="2"><text class="gl" id="bt1"></text><text class="gl" id="bt2"></text></g>
+  </svg>
+  <div class="info" id="binfo"></div>
 </div>
 </div>
 <div class="page" id="penergy">
@@ -1430,7 +1430,7 @@ function fitStage() {
 addEventListener('resize', fitStage); fitStage();
 
 /* ---------- pages: swipe left/right, tap the dots, or use the arrow keys ----------
-   Page 1 is the dashboard, page 2 TfL trains + line status, page 3 TfL coming weeks (map + planned works), page 4 this week's calendar, page 5 the news map, page 6 YouTube news channels (yt.json: 綠豆, 法庭線, 集誌社, 有線新聞), page 7 YouTube world / AI / finance channels, page 8 the Hong Kong corner, page 9 UK + Hong Kong weather side by side, page 10 book of the day, page 11 the space corner, page 12 the solar system flying through the galaxy (solar.html), page 13 the league table, page 14 birthday countdown, page 15 the analog clock, page 16 home energy (Octopus), page 17 the energy review (months, budget, tips), page 18 saving tips + Siri phrases. To add a page, add another
+   Page 1 is the dashboard, page 2 TfL trains + line status, page 3 TfL coming weeks (map + planned works), page 4 this week's calendar, page 5 the news map, page 6 YouTube news channels (yt.json: 綠豆, 法庭線, 集誌社, 有線新聞), page 7 YouTube world / AI / finance channels, page 8 the Hong Kong corner, page 9 UK + Hong Kong weather side by side, page 10 book of the day, page 11 the space corner, page 12 the solar system flying through the galaxy (solar.html), page 13 the league table, page 14 birthday countdown, page 15 the full-photo clock, page 16 home energy (Octopus), page 17 the energy review (months, budget, tips), page 18 saving tips + Siri phrases. To add a page, add another
    <div class="page"> inside #track. The iPad remembers the last page shown. */
 var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
 (function () {
@@ -1541,7 +1541,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
     document.body.classList.toggle('ptfl', !!pages[PAGE] && pages[PAGE].id === 'ptfl');
     document.body.classList.toggle('ptfw', !!pages[PAGE] && pages[PAGE].id === 'ptfw');
     document.body.classList.toggle('penergy', !!pages[PAGE] && pages[PAGE].id === 'penergy');
-    if (window.ZH_DAYS) bigTick(new Date());   // start or stop the sweeping hand right away
+    if (window.ZH_DAYS) bigTick(new Date());   // show the photo clock right away
   };
   var start = +new URLSearchParams(location.search).get('page') - 1;
   if (!(start >= 0)) { try { start = +localStorage.getItem('page') || 0; } catch (e) { start = 0; } }
@@ -1646,49 +1646,120 @@ $('night').addEventListener('click', function () {
 });
 document.addEventListener('touchstart', function () { if (NIGHT && Date.now() < peekUntil) peekUntil = Math.max(peekUntil, Date.now() + 60000); }, { passive: true });   // still using it: stay awake a bit longer
 
-/* ---------- page 9: analog clock ---------- */
+/* ---------- big clock page: full-screen family photo + frosted-glass digits ----------
+   faces.json (made by the photos workflow, tools/face_boxes.py) lists the face boxes in each photo.
+   The photo is zoomed in as far as it can go WITHOUT cutting any face (and a little of the body) off;
+   leftover edges get a blurred copy of the same photo. The digits go on the side with no faces. */
 var ZH_DAYS = ['星期日','星期一','星期二','星期三','星期四','星期五','星期六'];
-(function () {   // 12 upright engraved numbers, evenly spaced around the inside of the square face
-  var out = '', R = 39;   // % of the face from centre to the number ring
-  for (var n = 1; n <= 12; n++) {
-    var t = n * 30 * Math.PI / 180, x = Math.sin(t), y = -Math.cos(t), k = R / Math.max(Math.abs(x), Math.abs(y));
-    out += '<div class="n" style="left:' + (50 + x * k).toFixed(2) + '%;top:' + (50 + y * k).toFixed(2) + '%">' + n + '</div>';
+var FACES = {}, BIG = { src: '', img: null, at: 0, key: '', hm: '' };
+fetch('faces.json?t=' + Date.now()).then(function (r) { return r.json(); }).then(function (f) { FACES = f || {}; BIG.key = ''; }).catch(function () {});
+var SVGNS = 'http://www.w3.org/2000/svg', XLINK = 'http://www.w3.org/1999/xlink';
+function sattr(id, o) { var e = $(id); for (var k in o) e.setAttribute(k, o[k]); return e; }
+function shref(id, src) { var e = $(id); e.setAttribute('href', src); e.setAttributeNS(XLINK, 'xlink:href', src); }
+function bigNext() {   // pick another photo (not the same one), load it, then lay it out
+  var list = (typeof PHOTOS !== 'undefined' ? PHOTOS : []).filter(function (p) { return p.src; });
+  if (!list.length) return;
+  var p = list[Math.floor(Math.random() * list.length)];
+  if (list.length > 1 && p.src === BIG.src) p = list[(list.indexOf(p) + 1) % list.length];
+  var img = new Image();
+  img.onload = function () {
+    var first = !BIG.img;
+    $('big').classList.add('fading');
+    setTimeout(function () { BIG.src = p.src; BIG.img = img; BIG.key = ''; bigLayout(); $('big').classList.remove('fading'); }, first ? 0 : 1200);
+  };
+  img.src = p.src;
+  BIG.at = Date.now();
+}
+function bigFaces(src) { return FACES[src.split('/').pop()] || []; }
+function bigLayout() {
+  var img = BIG.img; if (!img) return;
+  var W = innerWidth, H = innerHeight, now = new Date();
+  var hh = ('0' + (CONFIG.h12 ? (now.getHours() % 12 || 12) : now.getHours())).slice(-2), mm = ('0' + now.getMinutes()).slice(-2);
+  var key = W + 'x' + H + BIG.src + hh + mm;
+  if (key === BIG.key) return;
+  BIG.key = key;
+  var iw = img.naturalWidth, ih = img.naturalHeight, faces = bigFaces(BIG.src);
+  // area to keep whole: every face plus hair above, shoulders below and a bit either side
+  var k = null;
+  faces.forEach(function (b) {
+    var fw = b[2] - b[0], fh = b[3] - b[1];
+    var e = [Math.max(0, b[0] - .45 * fw), Math.max(0, b[1] - .55 * fh), Math.min(1, b[2] + .45 * fw), Math.min(1, b[3] + 1.1 * fh)];
+    k = k ? [Math.min(k[0], e[0]), Math.min(k[1], e[1]), Math.max(k[2], e[2]), Math.max(k[3], e[3])] : e;
+  });
+  var sFit = Math.min(W / iw, H / ih), sCover = Math.max(W / iw, H / ih);
+  var kw = k ? k[2] - k[0] : .84, kh = k ? k[3] - k[1] : .84;   // no faces found: crop at most 8% off each edge
+  var s = Math.max(sFit, Math.min(sCover, W / (kw * iw), H / (kh * ih)));
+  var dw = iw * s, dh = ih * s;
+  function range(d, V, a, b) {   // allowed offsets so the keep area [a, b] stays on screen
+    var lo = d > V ? V - d : 0, hi = d > V ? 0 : V - d;
+    if (d > V) { lo = Math.max(lo, V - b * d); hi = Math.min(hi, -a * d); if (lo > hi) lo = hi = (V - (a + b) * d) / 2; }
+    return [lo, hi];
   }
-  $('bnums').innerHTML = out;
-})();
-function sizeFace() {   // largest square that fits, leaving room for the small text in the corners
-  var W = innerWidth, H = innerHeight, f = $('face');
-  var S = Math.round(W >= H ? Math.min(H * 0.86, W - 2 * 250) : Math.min(W * 0.88, H - 260));
-  f.style.width = f.style.height = S + 'px';
-  f.style.left = Math.round((W - S) / 2) + 'px';
-  f.style.top = Math.round((W >= H ? (H - S) / 2 : (H - 120 - S) / 2)) + 'px';
-  f.style.fontSize = Math.round(S * 0.115) + 'px';
-  var info = Math.max(16, Math.min(26, Math.round(Math.min(W, H) * 0.024)));
-  $('binfoL').style.fontSize = $('binfoR').style.fontSize = info + 'px';
+  var xr = range(dw, W, k ? k[0] : .08, k ? k[2] : .92), yr = range(dh, H, k ? k[1] : .08, k ? k[3] : .92);
+  // digit block size: two stacked lines, as tall as the screen allows
+  var land = W >= H, F = land ? Math.min(H * .5, W * .26) : Math.min(H * .3, W * .5);
+  var lineH = F * .86, bw = F * .98, bh = lineH * 2, m = Math.round(Math.min(W, H) * .045);
+  var top = Math.round((H - bh - 40) / 2);
+  var spots = land ? [{ x: W - m - bw, y: top }, { x: m, y: top }]
+    : [{ x: W - m - bw, y: m }, { x: m, y: m }, { x: W - m - bw, y: H - m - bh - 60 }, { x: m, y: H - m - bh - 60 }];
+  var best = null;
+  spots.forEach(function (sp, si) {
+    for (var a = 0; a <= 10; a++) for (var c = 0; c <= 4; c++) {
+      var x = xr[0] + (xr[1] - xr[0]) * a / 10, y = yr[0] + (yr[1] - yr[0]) * c / 4, hit = 0, pic = 0;
+      faces.forEach(function (b) {   // face area under the digits counts heavily
+        var fw = (b[2] - b[0]) * dw, fh = (b[3] - b[1]) * dh;
+        var x0 = x + b[0] * dw - fw * .3, x1 = x + b[2] * dw + fw * .3, y0 = y + b[1] * dh - fh * .3, y1 = y + b[3] * dh + fh * .8;
+        hit += Math.max(0, Math.min(x1, sp.x + bw) - Math.max(x0, sp.x)) * Math.max(0, Math.min(y1, sp.y + bh) - Math.max(y0, sp.y));
+        x0 -= fw * .5; x1 += fw * .5; y0 = y1; y1 += fh * 2.5;   // their body below counts a little
+        hit += .25 * Math.max(0, Math.min(x1, sp.x + bw) - Math.max(x0, sp.x)) * Math.max(0, Math.min(y1, sp.y + bh) - Math.max(y0, sp.y));
+      });
+      pic = Math.max(0, Math.min(x + dw, sp.x + bw) - Math.max(x, sp.x)) * Math.max(0, Math.min(y + dh, sp.y + bh) - Math.max(y, sp.y));
+      var mid = Math.abs(x - (xr[0] + xr[1]) / 2) / W + Math.abs(y - (yr[0] + yr[1]) / 2) / H;
+      var score = hit / (W * H) * 100 + pic / (W * H) * .3 + mid * .5 + si * .001;
+      if (!best || score < best.score) best = { score: score, x: x, y: y, sp: sp };
+    }
+  });
+  var X = Math.round(best.x), Y = Math.round(best.y), sp = best.sp;
+  sattr('bsvg', { width: W, height: H, viewBox: '0 0 ' + W + ' ' + H });
+  shref('bfill', BIG.src); shref('bmain', BIG.src);
+  sattr('bfill', { x: -60, y: -60, width: W + 120, height: H + 120 });
+  sattr('bdim', { x: 0, y: 0, width: W, height: H, opacity: (dw >= W - 1 && dh >= H - 1) ? 0 : .18 });
+  sattr('bmain', { x: X, y: Y, width: Math.round(dw), height: Math.round(dh) });
+  sattr('bwash', { x: 0, y: 0, width: W, height: H });
+  var cx = Math.round(sp.x + bw / 2), y1 = Math.round(sp.y + lineH * .93), y2 = Math.round(sp.y + lineH * 1.93);
+  [['bc1', hh, y1], ['bc2', mm, y2], ['bt1', hh, y1], ['bt2', mm, y2]].forEach(function (t) {
+    var e = sattr(t[0], { x: cx, y: t[2], 'font-size': Math.round(F), 'text-anchor': 'middle', 'letter-spacing': Math.round(-F * .02) });
+    e.textContent = t[1];
+  });
+  var info = $('binfo'), fs = Math.max(15, Math.min(24, Math.round(Math.min(W, H) * .022)));
+  info.style.fontSize = fs + 'px';
+  info.style.textAlign = sp.x > W / 2 ? 'right' : 'left';
+  info.style.left = sp.x > W / 2 ? 'auto' : Math.round(sp.x + bw * .06) + 'px';
+  info.style.right = sp.x > W / 2 ? Math.round(W - sp.x - bw * .94) + 'px' : 'auto';
+  info.style.top = Math.round(sp.y + bh + fs * .6) + 'px';
 }
-addEventListener('resize', sizeFace); sizeFace();
-function hand(id, deg) { $(id).setAttribute('transform', 'translate(500 500) rotate(' + deg.toFixed(2) + ')'); }
-function analog() {   // smooth sweeping second hand while the clock page is showing
-  var d = new Date(), ms = d.getMilliseconds(), s = d.getSeconds() + ms / 1000, m = d.getMinutes() + s / 60, h = d.getHours() % 12 + m / 60;
-  hand('hh', h * 30); hand('mh', m * 6); hand('sh', s * 6);
-  if (PAGE === CLOCK_PAGE) (window.requestAnimationFrame || setTimeout)(analog, 33); else analogOn = false;
-}
-var analogOn = false;
+$('big').addEventListener('click', function () { bigNext(); });
+addEventListener('resize', function () { BIG.key = ''; bigLayout(); });
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { BIG.key = ''; bigLayout(); });
 function bigTick(d) {
   document.body.classList.toggle('p2', PAGE === CLOCK_PAGE);
   document.body.classList.toggle('np1', PAGE !== 0);
-  if (PAGE === CLOCK_PAGE && !analogOn) { analogOn = true; analog(); }
-  if (PAGE !== CLOCK_PAGE) analog();
-  var hk = '';
-  try { hk = CONFIG.secondCity + ' ' + d.toLocaleTimeString('en-GB', { timeZone: CONFIG.secondZone, hour: '2-digit', minute: '2-digit' }); } catch (e) {}
-  $('binfoL').innerHTML = '<b>' + DAYS[d.getDay()] + ' ' + d.getDate() + ' ' + MONTHS[d.getMonth()].slice(0, 3) + '</b><br>' + (d.getMonth() + 1) + '月' + d.getDate() + '日 ' + ZH_DAYS[d.getDay()] + (hk ? ' · ' + hk : '');
-  if (d.getSeconds() % 30 === 0 || !$('binfoR').innerHTML) bigFoot();
+  if (PAGE !== CLOCK_PAGE) return;
+  if (!BIG.img || Date.now() - BIG.at > ((CONFIG.bigPhotoSecs || 120) * 1000)) bigNext();
+  bigLayout();
+  if (d.getSeconds() % 30 === 0 || !$('binfo').innerHTML) bigFoot();
 }
 function bigFoot() {
-  var a = [], b = [];
-  if (typeof W !== 'undefined' && W) { var c = W.current; a.push((CONFIG.city || 'Outside') + ' <b class="num">' + r(c.temperature_2m) + '°</b>'); }
-  if (typeof HOME !== 'undefined' && HOME && homeAge() <= 12 * 60) a.push('室內 Indoors <b class="num">' + HOME.temp.toFixed(1) + '°</b>');
-  $('binfoR').innerHTML = a.join('<br>') || '&nbsp;';
+  var d = new Date(), a = [];
+  var hk = '';
+  try { hk = CONFIG.secondCity + ' ' + d.toLocaleTimeString('en-GB', { timeZone: CONFIG.secondZone, hour: '2-digit', minute: '2-digit' }); } catch (e) {}
+  a.push('<b>' + DAYS[d.getDay()] + ' ' + d.getDate() + ' ' + MONTHS[d.getMonth()].slice(0, 3) + '</b> · ' + (d.getMonth() + 1) + '月' + d.getDate() + '日 ' + ZH_DAYS[d.getDay()]);
+  var t = [];
+  if (typeof W !== 'undefined' && W) t.push((CONFIG.city || 'Outside') + ' <b>' + r(W.current.temperature_2m) + '°</b>');
+  if (typeof HOME !== 'undefined' && HOME && homeAge() <= 12 * 60) t.push('室內 <b>' + HOME.temp.toFixed(1) + '°</b>');
+  if (hk) t.push(hk);
+  if (t.length) a.push(t.join(' · '));
+  if ($('binfo')) $('binfo').innerHTML = a.join('<br>');
 }
 tick(); setInterval(tick, 1000);
 
