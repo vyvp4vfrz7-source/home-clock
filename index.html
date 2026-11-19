@@ -611,7 +611,10 @@ body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state
 /* prize shelf + book sheet (long description, all reviews, Google Books sample pages) */
 #bkShelf { position: absolute; left: 40px; right: 40px; top: 96px; z-index: 8; padding: 22px 26px 26px; border-radius: 28px; background: #0e131b; border: 1px solid var(--line); box-shadow: 0 30px 80px rgba(0,0,0,.6); }
 #bkShelf[hidden] { display: none; }
-#bkShelf .lbl { font-size: 17px; font-weight: 700; color: var(--muted); margin: 0 4px 16px; }
+#bkShelf .tabs { display: flex; align-items: center; gap: 10px; margin: 0 4px 16px; }
+#bkShelf .tabs button { font: 700 18px var(--font); background: #1d2734; color: var(--muted); border: 0; border-radius: 999px; padding: 9px 18px; }
+#bkShelf .tabs button.on { background: #f3c46b; color: #1a1406; }
+#bkShelf .tabs span { margin-left: auto; font-size: 15px; font-weight: 600; color: var(--muted); }
 #bkShelf .row { display: flex; gap: 16px; }
 .bks { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 10px; padding: 16px; border-radius: 20px; background: var(--tile); border: 1px solid var(--line); cursor: pointer; }
 .bks.on { border-color: #f3c46b; background: rgba(243,196,107,.12); }
@@ -3223,7 +3226,9 @@ function bookFresh(b) {   // book.json counts if it was picked today or yesterda
 var BOOK_PICK = null, BOOK_PICK_T = 0;   // a book tapped on the prize shelf, shown for 5 minutes
 function bookDaily() { return bookFresh(BOOK_TODAY) ? BOOK_TODAY : (BOOKS && BOOKS.length ? bookFor(0) : null); }
 function bookNow() { return BOOK_PICK && Date.now() - BOOK_PICK_T < 5 * 60000 ? BOOK_PICK : bookDaily(); }
-function bookPrizes() { return (BOOKS || []).filter(function (b) { return b.prize; }).sort(function (a, b) { return (b.py || 0) - (a.py || 0); }).slice(0, 6); }
+var BOOK_SHELF = 'en';   // which shelf tab: 'en' = English-language prize fiction, 'hktw' = Hong Kong + Taiwan Chinese books
+function bookShelf(k) { return (BOOKS || []).filter(function (b) { return k === 'hktw' ? b.hktw : b.prize && !/Taipei/.test(b.prize); }).sort(function (a, b) { return (b.py || 0) - (a.py || 0); }).slice(0, 5); }
+function bookPrizes() { return bookShelf('en').concat(bookShelf('hktw')); }
 function bookCover(b) {   // picture if saved, coloured cover underneath as a fallback
   var src = b === BOOK_TODAY ? 'books/today.jpg?d=' + encodeURIComponent(b.date + b.id) : 'books/' + encodeURIComponent(b.id) + '.jpg';
   return '<div class="bkc" style="--bk:' + (BOOK_COL[b.tag] || '#6aaef8') + '"><img src="' + src + '" alt="" onerror="this.parentNode.removeChild(this)">' +
@@ -3240,10 +3245,10 @@ function bookDraw() {
   $('bkPrize').textContent = b.prize ? '🏆 ' + b.prize + (b.prize_zh ? ' · ' + b.prize_zh : '') : '';
   $('bkBack').hidden = b === bookDaily();
   $('bkPrizeBtn').hidden = !bookPrizes().length;
-  $('bkShelf').innerHTML = '<div class="lbl">🏆 最新得獎小說 · Latest prize-winning fiction · 撳一本睇詳情 Tap a book</div><div class="row">' + bookPrizes().map(function (p) {
+  $('bkShelf').innerHTML = '<div class="tabs"><button type="button" data-k="en"' + (BOOK_SHELF === 'en' ? ' class="on"' : '') + '>🏆 得獎小說 Prize fiction</button><button type="button" data-k="hktw"' + (BOOK_SHELF === 'hktw' ? ' class="on"' : '') + '>📚 港台好書 HK · Taiwan</button><span>撳一本睇詳情 · Tap a book</span></div><div class="row">' + bookShelf(BOOK_SHELF).map(function (p) {
     var q = (p.reviews || []).filter(function (r) { return r.q; })[0];
     return '<div class="bks' + (p === b ? ' on' : '') + '" data-id="' + esc(p.id) + '">' + bookCover(p) + '<i>🏆 ' + esc(p.prize_s || p.prize) + '</i><b>' + esc(p.t) + '</b><small>' + esc(p.az || p.a) + '</small>' +
-      (q ? '<span class="qt">“' + esc(q.q) + '” <small>' + esc(q.src) + '</small></span>' : '') + '</div>';
+      (q ? '<span class="qt">' + (p.hktw ? '「' + esc(q.q) + '」' : '“' + esc(q.q) + '”') + ' <small>' + esc(q.src) + '</small></span>' : '') + '</div>';
   }).join('') + '</div>';
   $('bkT').textContent = b.t;
   $('bkTz').innerHTML = b.tz && b.tz !== b.t ? '《' + esc(b.tz.replace(/^《|》$/g, '')) + '》' + (b.tz_note ? '<small>' + esc(b.tz_note) + '</small>' : '') : '';
@@ -3291,8 +3296,9 @@ $('bkRv').addEventListener('click', function (e) {   // tap the video card: play
   if (el && el !== this && BOOK_VID && window.ytShow) ytShow(BOOK_VID.id, (BOOK_VID.kind ? BOOK_VID.kind + ' · ' : '') + (BOOK_VID.ch || ''), esc(BOOK_VID.t || ''), this);
 });
 $('bkShelf').addEventListener('click', function (e) {   // tap a prize book: show it on the page for a few minutes
-  var el = e.target; while (el && el !== this && !(el.getAttribute && el.getAttribute('data-id'))) el = el.parentNode;
+  var el = e.target; while (el && el !== this && !(el.getAttribute && (el.getAttribute('data-id') || el.getAttribute('data-k')))) el = el.parentNode;
   if (!el || el === this) return;
+  if (el.getAttribute('data-k')) { BOOK_SHELF = el.getAttribute('data-k'); pageAt = Date.now(); bookDraw(); return; }
   var id = el.getAttribute('data-id'), b = bookPrizes().filter(function (x) { return x.id === id; })[0];
   if (!b) return;
   BOOK_PICK = b === bookDaily() ? null : b; BOOK_PICK_T = Date.now(); this.hidden = true; bookDraw();
@@ -3331,7 +3337,9 @@ function bookSheet() {
   }).join('');
   $('bkInfo').innerHTML = '<div class="who">' + esc((b.az ? b.az + ' ' : '') + b.a) + (b.published ? ' · ' + esc(b.published) : b.y ? ' · ' + esc(b.y) : '') + '</div>' +
     (b.prize ? '<div class="bkpz">🏆 ' + esc(b.prize) + (b.prize_zh ? ' · ' + esc(b.prize_zh) : '') + '</div>' : '') +
-    '<h3>故事 · ABOUT THE BOOK</h3><p>' + esc(b.en || '') + (b.more_en ? ' ' + esc(b.more_en) : '') + '</p><p class="zh">' + esc(b.zh || '') + (b.more_zh ? esc(b.more_zh) : '') + '</p>' +
+    '<h3>故事 · ABOUT THE BOOK</h3>' + (function () {
+      var en = '<p>' + esc(b.en || '') + (b.more_en ? ' ' + esc(b.more_en) : '') + '</p>', zh = '<p class="zh">' + esc(b.zh || '') + (b.more_zh ? esc(b.more_zh) : '') + '</p>';
+      return b.hktw ? zh + en : en + zh; })() +
     (rv ? '<h3>評論家點講 · WHAT CRITICS SAY</h3>' + rv : '') +
     (b.ken || b.kzh ? '<h3>一個重點 · ONE IDEA TO KEEP</h3><div class="bkr one">' + (b.kzh ? '<div>' + esc(b.kzh) + '</div>' : '') + (b.ken ? '<div>' + esc(b.ken) + '</div>' : '') + '</div>' : '');
   $('bkInfo').scrollTop = 0;
@@ -3342,7 +3350,8 @@ function bookSheet() {
     if (id) $('bkView').innerHTML = '<iframe src="https://books.google.com/books?id=' + encodeURIComponent(id) + '&lpg=PP1&pg=PP1&output=embed" title="Sample pages" allowfullscreen></iframe>';
     else $('bkView').innerHTML = '<div class="msg"><b>📕</b>' + (id === null ? '暫時連唔到 Google Books<br>Could not reach Google Books, try again later' :
       '出版社暫時未開放試讀<br>No free sample from the publisher yet') +
-      '<a target="_blank" rel="noopener" href="https://www.amazon.co.uk/s?k=' + encodeURIComponent(bookIsbns(b)[0] || (b.t + ' ' + b.a)) + '">喺 Amazon「Look inside」試睇 ↗</a></div>';
+      (b.buy_url ? '<a target="_blank" rel="noopener" href="' + esc(b.buy_url) + '">喺誠品睇介紹同試閱 ↗</a></div>' :
+      '<a target="_blank" rel="noopener" href="https://www.amazon.co.uk/s?k=' + encodeURIComponent(bookIsbns(b)[0] || (b.t + ' ' + b.a)) + '">喺 Amazon「Look inside」試睇 ↗</a></div>');
   });
 }
 function bookSheetShut() { if ($('bkSheet').hidden) return; $('bkSheet').hidden = true; $('bkView').innerHTML = ''; window.YT_BUSY = false; pageAt = Date.now(); }
