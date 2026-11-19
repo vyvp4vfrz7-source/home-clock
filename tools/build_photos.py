@@ -412,6 +412,11 @@ def main():
     with open("photos.json", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     save_places()
+    try:   # face boxes for the full-photo clock (needs opencv-python-headless; fine to skip)
+        import face_boxes
+        face_boxes.update([i["src"] for i in out if i.get("src")])
+    except Exception as e:
+        print("face check skipped:", e)
     print("wrote", len(out), "items,", sum(1 for i in out if i.get("video")), "videos")
 
 if __name__ == "__main__":
