@@ -937,6 +937,11 @@ body.night #night { display: block; }
 /* Top bar of page tabs: hidden until a top corner is touched, hides itself after 8 s without use. */
 #tabs { position: absolute; top: max(10px, env(safe-area-inset-top)); left: 50%; max-width: calc(100vw - 32px); z-index: 20; display: flex; gap: 2px; padding: 5px; box-sizing: border-box; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; background: rgba(22,26,34,.88); border: 1px solid rgba(255,255,255,.08); border-radius: 999px; box-shadow: 0 10px 30px rgba(0,0,0,.35); opacity: 0; pointer-events: none; transform: translate(-50%, -24px); transition: opacity .3s ease, transform .35s cubic-bezier(.25,.8,.25,1); }
 #tabs::-webkit-scrollbar { display: none; }
+/* A new page's tiles come in one by one, quickly (title, then the rows, left to right). */
+.pcIn { animation: pieceIn .42s cubic-bezier(.2,.8,.2,1) backwards; }
+.pcFade { animation: pieceFade .42s ease backwards; }
+@keyframes pieceIn { from { opacity: 0; transform: translateY(18px) scale(.98); } }
+@keyframes pieceFade { from { opacity: 0; } }
 #tabs.show { opacity: 1; pointer-events: auto; transform: translate(-50%, 0); }
 #tabs button { flex: none; border: 0; background: none; color: #aeb7c4; font: 500 13px/1 -apple-system, sans-serif; padding: 9px 8px; border-radius: 999px; white-space: nowrap; -webkit-tap-highlight-color: transparent; transition: background .25s, color .25s; }
 #tabs button.on { background: #eef1f5; color: #141820; }
@@ -1331,12 +1336,32 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
     var on = tabs.children[PAGE]; if (on) tabs.scrollLeft = on.offsetLeft - (tabs.clientWidth - on.offsetWidth) / 2;
     clearTimeout(tabsTimer); tabsTimer = setTimeout(function () { tabs.classList.remove('show'); }, 8000);
   }
-  // Touch a top corner to show the bar; touching anywhere else while it shows just keeps it a bit longer if on the bar.
-  document.addEventListener('touchstart', function (e) {
-    var p = e.touches[0]; if (!p) return;
-    if (tabs.contains(e.target)) { showTabs(); return; }
-    if (p.clientY < 90 && (p.clientX < 110 || p.clientX > innerWidth - 110)) { if (tabs.classList.contains('show')) { clearTimeout(tabsTimer); tabs.classList.remove('show'); } else showTabs(); }
-  }, { passive: true });
+  // Any touch shows the bar; it hides again 8 s after the last touch.
+  document.addEventListener('touchstart', function () { showTabs(); }, { passive: true });
+  // Pick the page's tiles: go down through single wrappers, and split wide rows into their tiles.
+  function pieces(pg) {
+    var box = pg, out = [], W = pg.offsetWidth || innerWidth;
+    while (box.children.length === 1 && box.firstElementChild.tagName !== 'IFRAME') box = box.firstElementChild;
+    for (var i = 0; i < box.children.length && out.length < 16; i++) {
+      var c = box.children[i];
+      if (!c.offsetWidth || c.tagName === 'SCRIPT') continue;
+      if (c.children.length >= 2 && c.children.length <= 6 && c.offsetWidth > W * .6 && c.offsetHeight < innerHeight * .8) {
+        for (var j = 0; j < c.children.length; j++) if (c.children[j].offsetWidth) out.push(c.children[j]);
+      } else out.push(c);
+    }
+    return out.length ? out : [pg];
+  }
+  var lastIn = [], inTimer = 0;
+  function bringIn(pg) {
+    for (var i = 0; i < lastIn.length; i++) lastIn[i].classList.remove('pcIn', 'pcFade');
+    clearTimeout(inTimer); lastIn = pieces(pg);
+    for (var k = 0; k < lastIn.length; k++) {
+      var el = lastIn[k], moved = getComputedStyle(el).transform !== 'none';
+      el.style.animationDelay = (k * 55) + 'ms';
+      el.classList.add(moved ? 'pcFade' : 'pcIn');   // tiles that are already tilted or centred just fade
+    }
+    inTimer = setTimeout(function () { for (var i = 0; i < lastIn.length; i++) { lastIn[i].classList.remove('pcIn', 'pcFade'); lastIn[i].style.animationDelay = ''; } lastIn = []; }, 1500);
+  }
   var fading = 0;
   window.goPage = function (k, instant) {
     k = Math.max(0, Math.min(n - 1, k));
@@ -1345,6 +1370,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
       fading = setTimeout(function () { goPage(k, true); track.classList.remove('fade'); }, 350);
       return;
     }
+    if (k !== PAGE || fading) { fading = 0; if (pages[k]) bringIn(pages[k]); }
     PAGE = k;
     if (instant) track.classList.add('drag');
     track.style.transform = 'translate3d(' + (-PAGE * innerWidth) + 'px,0,0)';
