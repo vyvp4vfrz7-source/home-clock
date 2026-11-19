@@ -942,6 +942,11 @@ body.night #night { display: block; }
 .pcFade { animation: pieceFade .42s ease backwards; }
 @keyframes pieceIn { from { opacity: 0; transform: translateY(18px) scale(.98); } }
 @keyframes pieceFade { from { opacity: 0; } }
+/* Bars grow up to their value when a page comes in. */
+.grY { transform-origin: 50% 100%; animation: growY .8s cubic-bezier(.2,.8,.2,1) backwards; }
+.grX { transform-origin: 0 50%; animation: growX .8s cubic-bezier(.2,.8,.2,1) backwards; }
+@keyframes growY { from { transform: scaleY(0); } }
+@keyframes growX { from { transform: scaleX(0); } }
 #tabs.show { opacity: 1; pointer-events: auto; transform: translate(-50%, 0); }
 #tabs button { flex: none; border: 0; background: none; color: #aeb7c4; font: 500 13px/1 -apple-system, sans-serif; padding: 9px 8px; border-radius: 999px; white-space: nowrap; -webkit-tap-highlight-color: transparent; transition: background .25s, color .25s; }
 #tabs button.on { background: #eef1f5; color: #141820; }
@@ -1351,7 +1356,43 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
     }
     return out.length ? out : [pg];
   }
-  var lastIn = [], inTimer = 0;
+  var lastIn = [], inTimer = 0, grown = [];
+  // Numbers count up from 0 and bars grow to their value (only plain numbers: no times, dates or years).
+  var NUM = /^([^\d:\/]{0,2}?)(-?)(\d{1,3}(?:,\d{3})*|\d+)(\.\d+)?([^\d:\/]{0,5})$/;
+  function countUp(pg) {
+    var list = [], w = document.createTreeWalker(pg, NodeFilter.SHOW_TEXT, null, false), t, m;
+    while ((t = w.nextNode()) && list.length < 120) {
+      var raw = t.nodeValue, txt = raw.trim();
+      if (!txt || !(m = NUM.exec(txt))) continue;
+      var v = parseFloat((m[2] + m[3] + (m[4] || '')).replace(/,/g, ''));
+      if (!v || (!m[4] && v >= 1900 && v <= 2100) || !t.parentNode.offsetWidth || t.parentNode.closest('#time')) continue;
+      if (!m[1] && !m[4] && !m[5] && v <= 31) continue;   // a bare small number is likely an hour or a day: leave it
+      list.push({ n: t, raw: raw, txt: txt, m: m, v: v, last: raw });
+    }
+    for (var i = 0; i < grown.length; i++) grown[i].classList.remove('grY', 'grX');
+    grown = [];
+    var els = pg.querySelectorAll('[style*="height"],[style*="width"]');
+    for (var j = 0; j < els.length && grown.length < 200; j++) {
+      var e = els[j], st = e.getAttribute('style'), cs = getComputedStyle(e);
+      if (cs.transform !== 'none' || e.tagName === 'IMG' || e.tagName === 'IFRAME' || e.tagName === 'svg' || e.parentNode.closest('.grY,.grX')) continue;
+      if (cs.position !== 'absolute' && /(^|;)\s*height:/.test(st) && e.offsetWidth < 90) { e.classList.add('grY'); grown.push(e); }
+      else if (/(^|;)\s*width:[^;]*%/.test(st) && e.offsetHeight < 30) { e.classList.add('grX'); grown.push(e); }
+    }
+    if (!list.length) return;
+    var t0 = Date.now(), D = 800;
+    (function step() {
+      var k = Math.min(1, (Date.now() - t0) / D), ease = 1 - Math.pow(1 - k, 3);
+      for (var i = 0; i < list.length; i++) {
+        var o = list[i]; if (!o) continue;
+        if (o.n.nodeValue !== o.last) { list[i] = null; continue; }   // the page updated it meanwhile: leave it
+        var dec = o.m[4] ? o.m[4].length - 1 : 0, x = (o.v * ease).toFixed(dec);
+        if (!dec && /,/.test(o.m[3])) x = (+x).toLocaleString('en-GB');
+        o.last = k < 1 ? o.raw.replace(o.txt, o.m[1] + x + o.m[5]) : o.raw;
+        o.n.nodeValue = o.last;
+      }
+      if (k < 1) (window.requestAnimationFrame || setTimeout)(step, 16);
+    })();
+  }
   function bringIn(pg) {
     for (var i = 0; i < lastIn.length; i++) lastIn[i].classList.remove('pcIn', 'pcFade');
     clearTimeout(inTimer); lastIn = pieces(pg);
@@ -1360,7 +1401,8 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
       el.style.animationDelay = (k * 55) + 'ms';
       el.classList.add(moved ? 'pcFade' : 'pcIn');   // tiles that are already tilted or centred just fade
     }
-    inTimer = setTimeout(function () { for (var i = 0; i < lastIn.length; i++) { lastIn[i].classList.remove('pcIn', 'pcFade'); lastIn[i].style.animationDelay = ''; } lastIn = []; }, 1500);
+    if (!/^(p3|p2|pcity|psolar)$/.test(pg.id)) countUp(pg);   // not the league table or clock face
+    inTimer = setTimeout(function () { for (var i = 0; i < lastIn.length; i++) { lastIn[i].classList.remove('pcIn', 'pcFade'); lastIn[i].style.animationDelay = ''; } lastIn = []; for (i = 0; i < grown.length; i++) grown[i].classList.remove('grY', 'grX'); grown = []; }, 1500);
   }
   var fading = 0;
   window.goPage = function (k, instant) {
