@@ -936,6 +936,48 @@ body.night #pages, body.night #dots { display: none; }   /* hidden pages stop th
 body.peek #pages { opacity: .5; }
 body.night #live { display: none; }   /* no scores on the night clock */
 #cityFrame, #solarFrame { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; pointer-events: none; }   /* page 5 lives in cities.html; touches pass through for swiping */
+/* ---------- TfL page: Northwood trains + line status ---------- */
+#tfl { padding: 30px 40px 60px; display: flex; flex-direction: column; gap: 18px; background: radial-gradient(900px 600px at 10% 0%, #2a1426 0%, rgba(11,16,22,0) 70%), radial-gradient(800px 600px at 100% 100%, #10213a 0%, rgba(11,16,22,0) 70%); }
+#tfl .top { display: flex; align-items: center; justify-content: space-between; padding: 0 6px; }
+#tfl h1 { margin: 0; font-size: 44px; font-weight: 600; display: flex; align-items: center; gap: 14px; }
+#tfl h1 span { color: var(--muted); font-weight: 400; font-size: 30px; }
+#tfl .upd { font-size: 18px; color: var(--muted); font-weight: 600; display: flex; align-items: center; gap: 10px; }
+#tfl .upd i { width: 11px; height: 11px; border-radius: 50%; background: #4cd28a; box-shadow: 0 0 0 0 rgba(76,210,138,.6); animation: tfPulse 2s infinite; }
+#tfl .upd i.old { background: #f3b649; animation: none; }
+@keyframes tfPulse { 70% { box-shadow: 0 0 0 10px rgba(76,210,138,0); } 100% { box-shadow: 0 0 0 0 rgba(76,210,138,0); } }
+body:not(.ptfl) #tfl * { animation-play-state: paused !important; }
+#tfBody { flex: 1; min-height: 0; display: grid; grid-template-columns: 790px 1fr; gap: 22px; }
+#tfDirs { display: flex; flex-direction: column; gap: 22px; min-height: 0; }
+.tfd { flex: 1; min-height: 0; overflow: hidden; background: var(--tile); border: 1px solid var(--line); border-radius: 26px; padding: 22px 28px; display: flex; flex-direction: column; }
+.tfd .hd { display: flex; align-items: center; gap: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+.tfd .hd b { font-size: 32px; font-weight: 700; }
+.tfd .hd em { font-style: normal; font-size: 18px; color: var(--muted); display: block; margin-top: 2px; }
+.tfd .hd .pl { margin-left: auto; font-size: 16px; font-weight: 700; color: #fff; background: #9b0056; border-radius: 10px; padding: 6px 12px; white-space: nowrap; }
+.tfr { display: flex; align-items: center; gap: 20px; padding: 10px 0; border-bottom: 1px solid rgba(35,48,66,.6); }
+.tfr:last-child { border-bottom: 0; }
+.tfr .m { flex: none; width: 128px; text-align: right; font-size: 44px; font-weight: 700; font-variant-numeric: tabular-nums; color: #ffd36b; line-height: 1; }
+.tfr .m small { font-size: 20px; color: var(--muted); font-weight: 600; margin-left: 4px; }
+.tfr .d { flex: 1; min-width: 0; }
+.tfr .d b { display: block; font-size: 28px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tfr .d span { display: block; font-size: 17px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 3px; }
+.tfr .t { flex: none; font-size: 22px; color: #c9d3df; font-variant-numeric: tabular-nums; }
+.tfr.first .m { font-size: 64px; width: 150px; }
+.tfr.first .d b { font-size: 34px; }
+.tfr .m.due, .tfr.first .m.due { color: #4cd28a; font-size: 40px; }
+.tfr .m.due small { display: block; margin: 4px 0 0; font-size: 17px; }
+.tfd .none { flex: 1; display: flex; align-items: center; justify-content: center; text-align: center; color: var(--muted); font-size: 24px; line-height: 1.6; }
+#tfStat { background: var(--tile); border: 1px solid var(--line); border-radius: 26px; padding: 22px 24px; overflow: hidden; display: flex; flex-direction: column; }
+#tfStat .lbl { font-size: 15px; letter-spacing: .1em; color: var(--muted); font-weight: 700; margin-bottom: 8px; }
+.tfl { display: flex; align-items: center; gap: 12px; padding: 4px 0; font-size: 19px; }
+.tfl .c { flex: none; width: 12px; height: 26px; border-radius: 4px; }
+.tfl .n { flex: 1; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tfl .s { flex: none; font-size: 15px; font-weight: 700; padding: 3px 9px; border-radius: 9px; background: rgba(76,210,138,.14); color: #6fe0a4; white-space: nowrap; }
+.tfl.warn .s { background: rgba(243,182,73,.18); color: #ffc75e; }
+.tfl.bad .s { background: rgba(255,92,92,.18); color: #ff8080; }
+.tfl.shut .s { background: rgba(132,146,165,.16); color: var(--muted); }
+.tfl.me { background: rgba(155,0,86,.22); border-radius: 12px; padding: 8px 10px; margin: 0 -10px 6px; }
+.tfl.me .n { font-size: 24px; }
+.tfwhy { font-size: 15px; line-height: 1.4; color: #c9d3df; margin: -2px 0 6px 24px; max-height: 2.8em; overflow: hidden; }
 </style>
 </head>
 <body>
@@ -947,6 +989,15 @@ body.night #live { display: none; }   /* no scores on the night clock */
   <section class="t" id="photo"><div class="loc" id="capL"></div><div class="cap"><span id="capT"></span><span class="w" id="capW"></span></div><div class="tag" id="ptag" hidden>示範相片 · sample</div><div class="add" id="padd" aria-label="Add a note">✎</div></section>
   <section class="t" id="days"><div class="lbl">未來五日 · Next 5 days</div><div id="dstrip"></div></section>
   <div id="status"></div>
+</div>
+</div>
+<div class="page" id="ptfl">
+<div class="stage" id="tfl">
+  <div class="top"><h1><svg width="54" height="44" viewBox="0 0 54 44" aria-hidden="true"><circle cx="27" cy="22" r="17" fill="none" stroke="#dc241f" stroke-width="8"/><rect x="2" y="17" width="50" height="10" fill="#0019a8"/></svg>倫敦交通<span>TfL · <b id="tfStop">Northwood</b></span></h1><div class="upd" id="tfUpd"></div></div>
+  <div id="tfBody">
+    <div id="tfDirs"><div class="tfd" id="tfS"></div><div class="tfd" id="tfN"></div></div>
+    <div id="tfStat"><div class="lbl">路線狀況 · LINE STATUS</div><div id="tfLines"><div class="tfwhy">載入中… Loading</div></div></div>
+  </div>
 </div>
 </div>
 <div class="page" id="pcal">
@@ -1106,13 +1157,17 @@ var CONFIG = {
   // heat: { shortcut: 'Warm Up Home', temp: 21 },   // turned off until the Shortcut is set up; remove the // to bring the button back
   heat: null,
   secondCity: '香港', secondZone: 'Asia/Hong_Kong',
+  // TfL page (page 2): live trains at this station both ways + line status. Lines in 'lines' go to the top of the status list.
+  tfl: { stop: '940GZZLUNOW', name: 'Northwood', lines: ['metropolitan'], modes: 'tube,elizabeth-line,overground,dlr',
+    dirs: { S: { zh: '往倫敦', en: 'To London', via: 'Harrow · Baker Street · Aldgate', plat: '月台 Platform 2' },
+            N: { zh: '往 Watford / Amersham', en: 'Northbound', via: 'Rickmansworth · Chesham', plat: '月台 Platform 1' } } },
   // Pages turn by themselves: each page in 'pages' (1 = dashboard) shows for 'secs' seconds.
   // After a swipe to a page outside the list, it stays there for 'stay' seconds before carrying on.
-  // The big pink clock (page 13), energy (page 14) and the energy review (page 15) sit at the end, outside the turning pages: swipe to them any time.
-  rotate: { secs: 60, pages: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], stay: 300 },
+  // The big pink clock (page 14), energy (page 15) and the energy review (page 16) sit at the end, outside the turning pages: swipe to them any time.
+  rotate: { secs: 60, pages: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], stay: 300 },
   // Night mode: between these hours (iPad's own clock) a dim, soft clock replaces the pages.
   // A tap shows the dashboard (dimmed) for 'wake' seconds, then the night clock comes back. ?night=1 / ?night=0 to test.
-  // Birthday page (page 12): joins the turning pages when the next birthday is this many days away or less.
+  // Birthday page (page 13): joins the turning pages when the next birthday is this many days away or less.
   birthdaySoon: 14,
   night: { from: 23, to: 7, wake: 120 },
   // Cute visitors (cute.js): a random one every 6-12 minutes, cat or cuckoo on the hour. cold = snowman at or below this °C. dog = 波波 every 5-10 minutes.
@@ -1182,7 +1237,7 @@ function fitStage() {
 addEventListener('resize', fitStage); fitStage();
 
 /* ---------- pages: swipe left/right, tap the dots, or use the arrow keys ----------
-   Page 1 is the dashboard, page 2 this week's calendar, page 3 the news map, page 4 YouTube news channels (yt.json: 綠豆, 法庭線, 集誌社, 有線新聞), page 5 YouTube world / AI / finance channels, page 6 the Hong Kong corner, page 7 UK + Hong Kong weather side by side, page 8 book of the day, page 9 the space corner, page 10 the solar system flying through the galaxy (solar.html), page 11 the league table, page 12 birthday countdown, page 13 the analog clock, page 14 home energy (Octopus), page 15 the energy review (months, budget, tips), page 16 saving tips + Siri phrases. To add a page, add another
+   Page 1 is the dashboard, page 2 TfL trains + line status, page 3 this week's calendar, page 4 the news map, page 5 YouTube news channels (yt.json: 綠豆, 法庭線, 集誌社, 有線新聞), page 6 YouTube world / AI / finance channels, page 7 the Hong Kong corner, page 8 UK + Hong Kong weather side by side, page 9 book of the day, page 10 the space corner, page 11 the solar system flying through the galaxy (solar.html), page 12 the league table, page 13 birthday countdown, page 14 the analog clock, page 15 home energy (Octopus), page 16 the energy review (months, budget, tips), page 17 saving tips + Siri phrases. To add a page, add another
    <div class="page"> inside #track. The iPad remembers the last page shown. */
 var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
 (function () {
@@ -1206,6 +1261,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
     document.body.classList.toggle('pnews', !!pages[PAGE] && pages[PAGE].id === 'pnews');
     try { $('cityFrame').contentWindow.document.body.classList.toggle('on', !!pages[PAGE] && pages[PAGE].id === 'pcity'); } catch (e) {}   // its animations run only while it shows
     try { $('solarFrame').contentWindow.document.body.classList.toggle('on', !!pages[PAGE] && pages[PAGE].id === 'psolar'); } catch (e) {}
+    document.body.classList.toggle('ptfl', !!pages[PAGE] && pages[PAGE].id === 'ptfl');
     document.body.classList.toggle('penergy', !!pages[PAGE] && pages[PAGE].id === 'penergy');
     if (window.ZH_DAYS) bigTick(new Date());   // start or stop the sweeping hand right away
   };
@@ -3366,6 +3422,88 @@ setTimeout(function () { location.replace(freshURL()); }, 6 * 3600 * 1000);
     if (YT && $('ytPlay').hidden) draw();   // keep "x 分鐘前" fresh
   }, 60000);
   load(); setInterval(load, 10 * 60000);
+})();
+
+/* ---------- TfL page: live trains from CONFIG.tfl.stop (both directions) + line status.
+   The iPad asks api.tfl.gov.uk itself (free, no key) every 30 s while the page shows, 3 min otherwise.
+   If TfL can't be reached it uses tfl.json, saved every 15 min by .github/workflows/weather.yml (tools/build_tfl.py). */
+var TFL = { arr: null, status: null, at: 0, live: false };
+var TFL_COL = { bakerloo: '#b36305', central: '#e32017', circle: '#ffd300', district: '#00782a', 'hammersmith-city': '#f3a9bb', jubilee: '#a0a5a9',
+  metropolitan: '#9b0056', northern: '#444', piccadilly: '#1c4fc0', victoria: '#0098d4', 'waterloo-city': '#95cdba', elizabeth: '#6950a1', dlr: '#00a4a7',
+  liberty: '#7a7d80', lioness: '#faa61a', mildmay: '#437ec1', suffragette: '#5bbd72', weaver: '#a2457f', windrush: '#d22730' };
+var TFL_ZH = { 'Good Service': '正常', 'Minor Delays': '輕微延誤', 'Severe Delays': '嚴重延誤', 'Part Closure': '部分停駛', 'Planned Closure': '停駛',
+  'Service Closed': '已收車', 'Reduced Service': '班次減少', 'Part Suspended': '部分暫停', 'Suspended': '暫停', 'Special Service': '特別安排', 'Closed': '關閉', 'Bus Service': '巴士代替' };
+function tflPad(n) { return (n < 10 ? '0' : '') + n; }
+function tflEsc(s) { return String(s || '').replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+function tflName(s) { return String(s || '').replace(/ (Underground|Rail|DLR) Station$/, '').replace(/ Station$/, ''); }
+function tflDir(a) {
+  var p = (a.platform || a.platformName || '') + ' ' + (a.direction || '');
+  if (/south|inbound/i.test(p)) return 'S';
+  if (/north|outbound/i.test(p)) return 'N';
+  return /Aldgate|Baker Street|Harrow|Wembley|Uxbridge/.test(a.dest || a.destinationName || '') ? 'S' : 'N';
+}
+function tflUse(arr, status, live) {
+  if (arr) TFL.arr = arr.map(function (a) {
+    return { line: a.lineId || a.line, dest: tflName(a.destinationName || a.dest), towards: a.towards || '', loc: a.currentLocation || a.loc || '',
+      exp: Date.parse(a.expectedArrival || a.exp), plat: (a.platformName || a.platform || '').replace(/^.*Platform\s*/i, ''), dir: tflDir(a) };
+  });
+  if (status) TFL.status = status.map(function (l) {
+    if (l.lineStatuses) { var s = l.lineStatuses.slice().sort(function (a, b) { return a.statusSeverity - b.statusSeverity; });
+      return { id: l.id, name: l.name, sev: s.length ? s[0].statusSeverity : 10, desc: s.map(function (x) { return x.statusSeverityDescription; }), reason: s.length ? s[0].reason || '' : '' }; }
+    return l;
+  });
+  TFL.at = Date.now(); TFL.live = live;
+  showTfl();
+}
+function showTfl() {
+  var C = CONFIG.tfl, now = Date.now(), d;
+  $('tfStop').textContent = C.name;
+  ['S', 'N'].forEach(function (k) {
+    var D = C.dirs[k], box = $(k === 'S' ? 'tfS' : 'tfN');
+    var list = (TFL.arr || []).filter(function (a) { return a.dir === k && a.exp > now - 30000; }).sort(function (a, b) { return a.exp - b.exp; }).slice(0, 3);
+    var plat = list.length && list[0].plat ? '月台 Platform ' + list[0].plat : D.plat;
+    var h = '<div class="hd"><div><b>' + D.zh + '</b><em>' + D.en + ' · ' + D.via + '</em></div><div class="pl">' + plat + '</div></div>';
+    if (!TFL.arr) h += '<div class="none">載入中… Loading trains</div>';
+    else if (!list.length) h += '<div class="none">暫時冇車<br>No trains due right now</div>';
+    else list.forEach(function (a, i) {
+      var s = Math.round((a.exp - now) / 1000), m = Math.floor(s / 60), t = new Date(a.exp);
+      var dest = /check front/i.test(a.dest) || !a.dest ? (a.towards && !/check front/i.test(a.towards) ? a.towards : '睇車頭 Check front of train') : a.dest;
+      h += '<div class="tfr' + (i ? '' : ' first') + '"><div class="m' + (s < 60 ? ' due' : '') + '">' + (s < 60 ? '到站<small>Due</small>' : m + '<small>分</small>') + '</div>' +
+        '<div class="d"><b>' + tflEsc(dest) + '</b><span>' + tflEsc(a.loc || '') + '</span></div><div class="t">' + tflPad(t.getHours()) + ':' + tflPad(t.getMinutes()) + '</div></div>';
+    });
+    box.innerHTML = h;
+  });
+  if (TFL.status) {
+    var mine = C.lines || [], rows = TFL.status.slice().sort(function (a, b) { return (mine.indexOf(b.id) >= 0) - (mine.indexOf(a.id) >= 0); }), h = '';
+    rows.forEach(function (l) {
+      var cls = l.sev === 10 ? '' : l.sev === 20 ? ' shut' : l.sev >= 9 ? ' warn' : ' bad', me = mine.indexOf(l.id) >= 0;
+      var txt = l.desc.filter(function (x, i, a) { return a.indexOf(x) === i; }).map(function (x) { return (TFL_ZH[x] || '') + ' ' + x; }).join(' / ');
+      h += '<div class="tfl' + cls + (me ? ' me' : '') + '"><i class="c" style="background:' + (TFL_COL[l.id] || '#888') + '"></i><span class="n">' + tflEsc(l.name) + '</span><span class="s">' + tflEsc(txt) + '</span></div>';
+      if (me && l.sev < 10 && l.reason) h += '<div class="tfwhy">' + tflEsc(l.reason.replace(/^[^:]{0,40}:\s*/, '')) + '</div>';
+    });
+    $('tfLines').innerHTML = h;
+  }
+  if (TFL.at) { d = new Date(TFL.at); $('tfUpd').innerHTML = '<i class="' + (TFL.live && now - TFL.at < 120000 ? '' : 'old') + '"></i>' + (TFL.live ? '即時 Live · ' : '備份 Saved copy · ') + tflPad(d.getHours()) + ':' + tflPad(d.getMinutes()); }
+}
+function loadTfl() {
+  var C = CONFIG.tfl, base = 'https://api.tfl.gov.uk', got = 0, arr = null, st = null, bad = false;
+  function done() {
+    if (++got < 2) return;
+    if (!bad) return tflUse(arr, st, true);
+    fetch('tfl.json?t=' + Date.now()).then(function (r) { if (!r.ok) throw 0; return r.json(); })
+      .then(function (j) { tflUse(arr || j.arrivals, st || j.status, false); TFL.at = Date.parse(j.saved) || TFL.at; showTfl(); }).catch(function () { showTfl(); });
+  }
+  fetch(base + '/StopPoint/' + C.stop + '/Arrivals').then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (j) { arr = j; }).catch(function () { bad = true; }).then(done);
+  fetch(base + '/Line/Mode/' + C.modes + '/Status').then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (j) { st = j; }).catch(function () { bad = true; }).then(done);
+}
+(function () {
+  var last = 0;
+  loadTfl(); last = Date.now();
+  setInterval(function () {
+    var on = document.body.classList.contains('ptfl');
+    if (Date.now() - last > (on ? 30000 : 180000)) { last = Date.now(); loadTfl(); }
+    if (on) showTfl();   // minutes count down between fetches
+  }, 5000);
 })();
 </script>
 <script src="cute.js?v=3"></script>
