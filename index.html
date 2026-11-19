@@ -608,6 +608,43 @@ body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state
 #bkEn { margin-top: 14px; }
 #bkZh { margin-top: 10px; font-size: 19.5px; line-height: 1.58; color: #e9eef4; }
 #bkRv { flex: none; }
+/* prize shelf + book sheet (long description, all reviews, Google Books sample pages) */
+#bkShelf { position: absolute; left: 40px; right: 40px; top: 96px; z-index: 8; padding: 22px 26px 26px; border-radius: 28px; background: #0e131b; border: 1px solid var(--line); box-shadow: 0 30px 80px rgba(0,0,0,.6); }
+#bkShelf[hidden] { display: none; }
+#bkShelf .lbl { font-size: 17px; font-weight: 700; color: var(--muted); margin: 0 4px 16px; }
+#bkShelf .row { display: flex; gap: 16px; }
+.bks { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 10px; padding: 16px; border-radius: 20px; background: var(--tile); border: 1px solid var(--line); cursor: pointer; }
+.bks.on { border-color: #f3c46b; background: rgba(243,196,107,.12); }
+.bks .bkc { width: 70%; padding-top: 105%; margin: 0 auto 4px; font-size: 9px; }
+.bks i { font-style: normal; font-size: 14px; font-weight: 800; color: #f3c46b; letter-spacing: .02em; }
+.bks b { font-size: 19px; line-height: 1.2; font-weight: 800; color: #e9eef4; }
+.bks small { font-size: 14px; color: var(--muted); font-weight: 600; }
+.bks .qt { font-size: 15px; line-height: 1.35; color: #f3e3b8; font-style: italic; }
+#bkPrizeBtn { font: 700 17px var(--font); background: #3a3020; color: #f3c46b; border: 0; border-radius: 999px; padding: 9px 16px; white-space: nowrap; }
+#bkPrize, .bkpz { display: inline-block; align-self: flex-start; margin-top: 10px; font-size: 17px; font-weight: 800; color: #1a1406; background: linear-gradient(90deg, #f3c46b, #ffe2a0); padding: 5px 14px; border-radius: 10px; }
+#bkPrize:empty { display: none; }
+#bkOpen { font: 700 18px var(--font); color: #10151c; background: var(--bk, #6aaef8); border: 0; border-radius: 999px; padding: 12px 18px; }
+#bkBack { font: 700 16px var(--font); background: #2a3646; color: var(--fg); border: 0; border-radius: 999px; padding: 9px 16px; white-space: nowrap; }
+#bkBack[hidden] { display: none; }
+#bkSheet { position: absolute; inset: 0; z-index: 8; background: #0b1017; display: flex; flex-direction: column; padding: 26px 34px 56px; gap: 16px; }
+#bkSheet[hidden] { display: none; }
+#bkSheet .hd { flex: none; display: flex; align-items: center; gap: 14px; }
+#bkSheet .hd h2 { margin: 0; flex: 1; min-width: 0; font-size: 30px; font-weight: 800; letter-spacing: -.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#bkSheet .hd button { font: 700 18px var(--font); background: #2a3646; color: var(--fg); border: 0; border-radius: 999px; padding: 10px 20px; }
+#bkSheet .bd { flex: 1; min-height: 0; display: flex; gap: 24px; }
+#bkInfo { flex: none; width: 520px; overflow-y: auto; -webkit-overflow-scrolling: touch; padding-right: 8px; }
+#bkInfo .who { font-size: 19px; color: var(--muted); font-weight: 600; }
+#bkInfo p { font-size: 19px; line-height: 1.55; color: #d6dee8; margin: 12px 0 0; }
+#bkInfo p.zh { color: #e9eef4; font-size: 19.5px; line-height: 1.62; }
+#bkInfo h3 { font-size: 15px; font-weight: 700; color: var(--muted); margin: 22px 0 8px; letter-spacing: .03em; }
+#bkInfo .bkr { margin-bottom: 10px; }
+#bkInfo .bkr a { color: #9cc7ff; font-size: 14px; text-decoration: none; display: block; margin-top: 4px; }
+#bkInfo .q { font-style: italic; color: #f3e3b8; }
+#bkView { flex: 1; min-width: 0; border-radius: 18px; overflow: hidden; background: #f4f1ea; position: relative; }
+#bkView iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+#bkView .msg { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; text-align: center; padding: 40px; background: #1a222d; color: var(--muted); font-size: 20px; line-height: 1.5; }
+#bkView .msg b { font-size: 46px; }
+#bkView .msg a { color: #9cc7ff; font-weight: 700; text-decoration: none; }
 #bkRv:empty { display: none; }
 #bkRv .lbl { font-size: 15px; font-weight: 700; color: var(--muted); margin-bottom: 10px; }
 #bkRv .g { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
@@ -1160,8 +1197,10 @@ body:not(.ptfw) #tfw * { animation-play-state: paused !important; }
 <div class="page" id="pcity"><iframe id="cityFrame" src="cities.html?embed" onload="if (window.goPage) goPage(PAGE, true)" title="UK and Hong Kong weather" scrolling="no"></iframe></div>
 <div class="page" id="pbook">
 <div class="stage" id="bookp">
-  <div class="top"><h1>今日好書<span>Book of the day</span></h1><div class="rng"><span id="bkDay"></span><button id="bkPlay" type="button">▶ 讀出嚟</button></div></div>
-  <div id="bkMain"><div id="bkUp"><div id="bkL"><div id="bkCov"></div><div id="bkMeta"></div></div><div id="bkTx"><div id="bkTag"></div><div id="bkT">Loading…</div><div id="bkTz"></div><div id="bkA"></div><p id="bkEn"></p><p id="bkZh"></p></div></div><div id="bkRv"></div></div>
+  <div class="top"><h1>今日好書<span>Book of the day</span></h1><div class="rng"><button id="bkBack" type="button" hidden>↩ 今日好書</button><button id="bkPrizeBtn" type="button">🏆 得獎小說</button><span id="bkDay"></span><button id="bkPlay" type="button">▶ 讀出嚟</button></div></div>
+  <div id="bkMain"><div id="bkUp"><div id="bkL"><div id="bkCov"></div><button id="bkOpen" type="button">📖 試讀 · 詳情 Sample</button><div id="bkMeta"></div></div><div id="bkTx"><div id="bkTag"></div><div id="bkPrize"></div><div id="bkT">Loading…</div><div id="bkTz"></div><div id="bkA"></div><p id="bkEn"></p><p id="bkZh"></p></div></div><div id="bkRv"></div></div>
+  <div id="bkShelf" hidden></div>
+  <div id="bkSheet" hidden><div class="hd"><h2 id="bkSheetT"></h2><button type="button" id="bkSheetX">✕ 關閉 Close</button></div><div class="bd"><div id="bkInfo"></div><div id="bkView"></div></div></div>
 </div>
 </div>
 <div class="page" id="pspace">
@@ -3181,7 +3220,10 @@ function bookFresh(b) {   // book.json counts if it was picked today or yesterda
   var p = b.date.split('-'), d = new Date(+p[0], p[1] - 1, +p[2], 12), now = new Date(); now.setHours(12, 0, 0, 0);
   return (now - d) / 864e5 < 2;
 }
-function bookNow() { return bookFresh(BOOK_TODAY) ? BOOK_TODAY : (BOOKS && BOOKS.length ? bookFor(0) : null); }
+var BOOK_PICK = null, BOOK_PICK_T = 0;   // a book tapped on the prize shelf, shown for 5 minutes
+function bookDaily() { return bookFresh(BOOK_TODAY) ? BOOK_TODAY : (BOOKS && BOOKS.length ? bookFor(0) : null); }
+function bookNow() { return BOOK_PICK && Date.now() - BOOK_PICK_T < 5 * 60000 ? BOOK_PICK : bookDaily(); }
+function bookPrizes() { return (BOOKS || []).filter(function (b) { return b.prize; }).sort(function (a, b) { return (b.py || 0) - (a.py || 0); }).slice(0, 6); }
 function bookCover(b) {   // picture if saved, coloured cover underneath as a fallback
   var src = b === BOOK_TODAY ? 'books/today.jpg?d=' + encodeURIComponent(b.date + b.id) : 'books/' + encodeURIComponent(b.id) + '.jpg';
   return '<div class="bkc" style="--bk:' + (BOOK_COL[b.tag] || '#6aaef8') + '"><img src="' + src + '" alt="" onerror="this.parentNode.removeChild(this)">' +
@@ -3194,7 +3236,15 @@ function bookDraw() {
   BOOK_DAY = d.toDateString();
   m.style.setProperty('--bk', c); m.style.setProperty('--bk2', c + '33');
   $('bkCov').innerHTML = bookCover(b);
-  $('bkTag').textContent = (b.tag || '') + ' · ' + (BOOK_EN[b.tag] || b.tag || '') + (b.reviews ? ' · 新書 New' : '');
+  $('bkTag').textContent = (b.tag || '') + ' · ' + (BOOK_EN[b.tag] || b.tag || '') + (b.date ? ' · 新書 New' : '');
+  $('bkPrize').textContent = b.prize ? '🏆 ' + b.prize + (b.prize_zh ? ' · ' + b.prize_zh : '') : '';
+  $('bkBack').hidden = b === bookDaily();
+  $('bkPrizeBtn').hidden = !bookPrizes().length;
+  $('bkShelf').innerHTML = '<div class="lbl">🏆 最新得獎小說 · Latest prize-winning fiction · 撳一本睇詳情 Tap a book</div><div class="row">' + bookPrizes().map(function (p) {
+    var q = (p.reviews || []).filter(function (r) { return r.q; })[0];
+    return '<div class="bks' + (p === b ? ' on' : '') + '" data-id="' + esc(p.id) + '">' + bookCover(p) + '<i>🏆 ' + esc(p.prize_s || p.prize) + '</i><b>' + esc(p.t) + '</b><small>' + esc(p.az || p.a) + '</small>' +
+      (q ? '<span class="qt">“' + esc(q.q) + '” <small>' + esc(q.src) + '</small></span>' : '') + '</div>';
+  }).join('') + '</div>';
   $('bkT').textContent = b.t;
   $('bkTz').innerHTML = b.tz && b.tz !== b.t ? '《' + esc(b.tz.replace(/^《|》$/g, '')) + '》' + (b.tz_note ? '<small>' + esc(b.tz_note) + '</small>' : '') : '';
   $('bkA').textContent = (b.az ? b.az + ' ' : '') + b.a + (b.y ? ' · ' + b.y : '');
@@ -3220,6 +3270,8 @@ function bookDraw() {
   }).join('') + (more.length ? '<div class="bkr bkm"><b>其他平台 · Elsewhere</b>' + more.join('') + '</div>' : '') + '</div>' :
     (b.ken || b.kzh ? '<div class="lbl">一個重點 · One idea to keep</div><div class="bkr one">' + (b.kzh ? '<div>' + esc(b.kzh) + '</div>' : '') + (b.ken ? '<div>' + esc(b.ken) + '</div>' : '') + '</div>' : '');
   $('bkDay').textContent = d.getDate() + ' ' + MONTHS[d.getMonth()];
+  var tx = $('bkTx'), f = 19; $('bkEn').style.fontSize = $('bkZh').style.fontSize = '';   // long brief: shrink the text a little so it all fits
+  while (tx.scrollHeight > tx.clientHeight + 2 && f > 15) { f -= 0.5; $('bkEn').style.fontSize = f + 'px'; $('bkZh').style.fontSize = (f + 0.5) + 'px'; }
 }
 function bookLoad() {
   var h = Math.floor(Date.now() / 1800000);
@@ -3238,6 +3290,68 @@ $('bkRv').addEventListener('click', function (e) {   // tap the video card: play
   var el = e.target; while (el && el !== this && !/\bbkv\b/.test(el.className)) el = el.parentNode;
   if (el && el !== this && BOOK_VID && window.ytShow) ytShow(BOOK_VID.id, (BOOK_VID.kind ? BOOK_VID.kind + ' · ' : '') + (BOOK_VID.ch || ''), esc(BOOK_VID.t || ''), this);
 });
+$('bkShelf').addEventListener('click', function (e) {   // tap a prize book: show it on the page for a few minutes
+  var el = e.target; while (el && el !== this && !(el.getAttribute && el.getAttribute('data-id'))) el = el.parentNode;
+  if (!el || el === this) return;
+  var id = el.getAttribute('data-id'), b = bookPrizes().filter(function (x) { return x.id === id; })[0];
+  if (!b) return;
+  BOOK_PICK = b === bookDaily() ? null : b; BOOK_PICK_T = Date.now(); this.hidden = true; bookDraw();
+});
+$('bkBack').addEventListener('click', function () { BOOK_PICK = null; bookDraw(); });
+$('bkPrizeBtn').addEventListener('click', function () { $('bkShelf').hidden = !$('bkShelf').hidden; pageAt = Date.now(); });
+setInterval(function () { if (!$('bkShelf').hidden && Date.now() - pageAt > 2 * 60000) $('bkShelf').hidden = true; }, 30000);
+setInterval(function () { if (BOOK_PICK && bookNow() !== BOOK_PICK) { BOOK_PICK = null; bookDraw(); } }, 30000);
+
+/* Book sheet: the long description, every review, and the first pages from Google Books where the publisher allows a
+   preview (Google's own embeddable viewer; we look the book up by ISBN, then by title + author). */
+var BOOK_GB = {};   // book id -> Google Books volume id ('' = no preview)
+function bookIsbns(b) { return [].concat(b.isbn || []).filter(Boolean); }
+function bookPreview(b, cb) {
+  if (b.gb !== undefined) return cb(b.gb);
+  if (BOOK_GB[b.id] !== undefined) return cb(BOOK_GB[b.id]);
+  var qs = bookIsbns(b).map(function (i) { return 'isbn:' + i; });
+  qs.push('intitle:"' + b.t.split(':')[0] + '" inauthor:"' + b.a.split(/[,&]/)[0].trim().split(' ').pop() + '"');
+  (function next() {
+    var q = qs.shift();
+    if (!q) { BOOK_GB[b.id] = ''; return cb(''); }
+    fetch('https://www.googleapis.com/books/v1/volumes?maxResults=10&q=' + encodeURIComponent(q))
+      .then(function (r) { if (!r.ok) throw 0; return r.json(); })
+      .then(function (d) {
+        var v = (d.items || []).filter(function (x) { var a = x.accessInfo || {}; return a.embeddable && a.viewability && a.viewability !== 'NO_PAGES'; })[0];
+        if (v) { BOOK_GB[b.id] = v.id; cb(v.id); } else next();
+      }).catch(function () { cb(null); });   // offline / quota: say so, try again next time
+  })();
+}
+function bookSheet() {
+  var b = bookNow(); if (!b) return;
+  $('bkSheetT').textContent = b.t + (b.tz && b.tz !== b.t ? '  《' + b.tz.replace(/^《|》$/g, '') + '》' : '');
+  var rv = (b.reviews || []).map(function (r) {
+    return '<div class="bkr"><b>' + esc(r.src) + (r.by ? ' · ' + esc(r.by) : '') + '</b>' + (r.q ? '<div class="q">“' + esc(r.q) + '”</div>' : '') +
+      (r.d ? '<div>' + esc(r.d) + '</div>' : '') + (r.dz ? '<div>' + esc(r.dz) + '</div>' : '') + (r.url ? '<a target="_blank" rel="noopener" href="' + esc(r.url) + '">閱讀全文 Read the review ↗</a>' : '') + '</div>';
+  }).join('');
+  $('bkInfo').innerHTML = '<div class="who">' + esc((b.az ? b.az + ' ' : '') + b.a) + (b.published ? ' · ' + esc(b.published) : b.y ? ' · ' + esc(b.y) : '') + '</div>' +
+    (b.prize ? '<div class="bkpz">🏆 ' + esc(b.prize) + (b.prize_zh ? ' · ' + esc(b.prize_zh) : '') + '</div>' : '') +
+    '<h3>故事 · ABOUT THE BOOK</h3><p>' + esc(b.en || '') + (b.more_en ? ' ' + esc(b.more_en) : '') + '</p><p class="zh">' + esc(b.zh || '') + (b.more_zh ? esc(b.more_zh) : '') + '</p>' +
+    (rv ? '<h3>評論家點講 · WHAT CRITICS SAY</h3>' + rv : '') +
+    (b.ken || b.kzh ? '<h3>一個重點 · ONE IDEA TO KEEP</h3><div class="bkr one">' + (b.kzh ? '<div>' + esc(b.kzh) + '</div>' : '') + (b.ken ? '<div>' + esc(b.ken) + '</div>' : '') + '</div>' : '');
+  $('bkInfo').scrollTop = 0;
+  $('bkView').innerHTML = '<div class="msg"><b>📖</b>搵緊試讀… Looking for sample pages</div>';
+  $('bkSheet').hidden = false; window.YT_BUSY = true; pageAt = Date.now();
+  bookPreview(b, function (id) {
+    if ($('bkSheet').hidden || bookNow() !== b) return;
+    if (id) $('bkView').innerHTML = '<iframe src="https://books.google.com/books?id=' + encodeURIComponent(id) + '&lpg=PP1&pg=PP1&output=embed" title="Sample pages" allowfullscreen></iframe>';
+    else $('bkView').innerHTML = '<div class="msg"><b>📕</b>' + (id === null ? '暫時連唔到 Google Books<br>Could not reach Google Books, try again later' :
+      '出版社暫時未開放試讀<br>No free sample from the publisher yet') +
+      '<a target="_blank" rel="noopener" href="https://www.amazon.co.uk/s?k=' + encodeURIComponent(bookIsbns(b)[0] || (b.t + ' ' + b.a)) + '">喺 Amazon「Look inside」試睇 ↗</a></div>';
+  });
+}
+function bookSheetShut() { if ($('bkSheet').hidden) return; $('bkSheet').hidden = true; $('bkView').innerHTML = ''; window.YT_BUSY = false; pageAt = Date.now(); }
+$('bkOpen').addEventListener('click', bookSheet);
+$('bkCov').addEventListener('click', bookSheet);
+$('bkSheetX').addEventListener('click', bookSheetShut);
+setInterval(function () {   // close it after 10 minutes, or if someone swipes to another page
+  if (!$('bkSheet').hidden && ($('track').children[PAGE].id !== 'pbook' || Date.now() - pageAt > 10 * 60000)) bookSheetShut();
+}, 30000);
 setInterval(bookLoad, 30 * 60000);   // the morning pick arrives around 6am
 setInterval(function () { if (BOOK_DAY && new Date().toDateString() !== BOOK_DAY) bookDraw(); }, 60000);   // new day: redraw
 $('bkPlay').addEventListener('click', function () {   // read today's brief aloud in Cantonese
