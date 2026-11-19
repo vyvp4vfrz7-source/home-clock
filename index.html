@@ -1012,7 +1012,34 @@ body.night #live { display: none; }   /* no scores on the night clock */
 @keyframes tfPulse { 70% { box-shadow: 0 0 0 10px rgba(76,210,138,0); } 100% { box-shadow: 0 0 0 0 rgba(76,210,138,0); } }
 body:not(.ptfl) #tfl * { animation-play-state: paused !important; }
 #tfBody { flex: 1; min-height: 0; display: grid; grid-template-columns: 790px 1fr; gap: 22px; }
-#tfDirs { display: flex; flex-direction: column; gap: 22px; min-height: 0; }
+#tfDirs { display: flex; flex-direction: column; gap: 20px; min-height: 0; }
+#tfM { height: 400px; }
+#tfM .train circle.s { fill: #ffd36b; } #tfM .train circle.n { fill: #5ad1ff; }
+#tfM .train circle { stroke: #111820; stroke-width: 3; }
+#tfM .train .halo { fill: none; stroke-width: 2; animation: tfRing 1.8s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+#tfM .train .halo.s { stroke: #ffd36b; } #tfM .train .halo.n { stroke: #5ad1ff; }
+@keyframes tfRing { from { transform: scale(.6); opacity: .9; } to { transform: scale(2.2); opacity: 0; } }
+#tfM text.tm { font-size: 14px; font-weight: 800; fill: #fff; }
+#tfKey { position: absolute; left: 16px; bottom: 16px; display: flex; gap: 8px; font-size: 14px; font-weight: 600; color: #c9d3df; }
+#tfKey span { background: rgba(11,16,22,.85); border: 1px solid var(--line); padding: 5px 10px; border-radius: 10px; }
+#tfKey i { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+#tfKey i.s { background: #ffd36b; } #tfKey i.n { background: #5ad1ff; }
+#tfPair { flex: 1; min-height: 0; display: flex; gap: 20px; }
+#tfPair .tfd { padding: 18px 20px; min-width: 0; }
+#tfPair .tfd .hd { gap: 10px; padding-bottom: 8px; align-items: flex-start; }
+#tfPair .tfd .hd b { font-size: 24px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; }
+#tfPair .tfd .hd em { font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#tfPair .tfd .hd > div:first-child { min-width: 0; }
+#tfPair .tfd .hd .pl { font-size: 13px; padding: 5px 9px; }
+#tfPair .tfr { gap: 12px; padding: 8px 0; }
+#tfPair .tfr .m { width: 78px; font-size: 36px; }
+#tfPair .tfr.first .m { width: 92px; font-size: 48px; }
+#tfPair .tfr .m small { font-size: 16px; margin-left: 2px; }
+#tfPair .tfr .d b, #tfPair .tfr.first .d b { font-size: 21px; }
+#tfPair .tfr .d span { font-size: 14px; }
+#tfPair .tfr .t { font-size: 16px; }
+#tfPair .tfr .m.due, #tfPair .tfr.first .m.due { font-size: 30px; }
+#tfPair .tfd .none { font-size: 19px; }
 .tfd { flex: 1; min-height: 0; overflow: hidden; background: var(--tile); border: 1px solid var(--line); border-radius: 26px; padding: 22px 28px; display: flex; flex-direction: column; }
 .tfd .hd { display: flex; align-items: center; gap: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
 .tfd .hd b { font-size: 32px; font-weight: 700; }
@@ -1139,7 +1166,10 @@ body:not(.ptfw) #tfw * { animation-play-state: paused !important; }
 <div class="stage" id="tfl">
   <div class="top"><h1><svg width="54" height="44" viewBox="0 0 54 44" aria-hidden="true"><circle cx="27" cy="22" r="17" fill="none" stroke="#dc241f" stroke-width="8"/><rect x="2" y="17" width="50" height="10" fill="#0019a8"/></svg>倫敦交通<span>TfL · <b id="tfStop">Northwood</b></span></h1><div class="upd" id="tfUpd"></div></div>
   <div id="tfBody">
-    <div id="tfDirs"><div class="tfd" id="tfS"></div><div class="tfd" id="tfN"></div></div>
+    <div id="tfDirs">
+      <div class="twm sel" id="tfM"><div class="tl"></div><svg></svg><div class="tag">即時列車 LIVE TRAINS<b>Metropolitan</b></div><div id="tfKey"><span><i class="s"></i>往倫敦 To London</span><span><i class="n"></i>往 Watford / Amersham</span></div><div class="attr">Map © Esri, HERE, Garmin, © OpenStreetMap contributors · Stations © TfL</div></div>
+      <div id="tfPair"><div class="tfd" id="tfS"></div><div class="tfd" id="tfN"></div></div>
+    </div>
     <div id="tfStat"><div class="lbl">路線狀況 · LINE STATUS</div><div id="tfLines"><div class="tfwhy">載入中… Loading</div></div></div>
   </div>
 </div>
@@ -3804,6 +3834,7 @@ function showTfl() {
     });
     box.innerHTML = h;
   });
+  tfMap();
   if (TFL.status) {
     var mine = C.lines || [], rows = TFL.status.slice().sort(function (a, b) { return (mine.indexOf(b.id) >= 0) - (mine.indexOf(a.id) >= 0); }), h = '';
     rows.forEach(function (l) {
@@ -3815,6 +3846,50 @@ function showTfl() {
     $('tfLines').innerHTML = h;
   }
   if (TFL.at) { d = new Date(TFL.at); $('tfUpd').innerHTML = '<i class="' + (TFL.live && now - TFL.at < 120000 ? '' : 'old') + '"></i>' + (TFL.live ? '即時 Live · ' : '備份 Saved copy · ') + tflPad(d.getHours()) + ':' + tflPad(d.getMinutes()); }
+}
+/* ---------- Live map on the trains page: the Metropolitan line on the Esri map, every train due at Northwood
+   placed from TfL's "currentLocation" text (At X / Between X and Y / Approaching X), plus today's closed stretches. */
+var TF_LABELS = ['Amersham', 'Chesham', 'Watford', 'Rickmansworth', 'Uxbridge', 'Harrow-on-the-Hill', 'Wembley Park', 'Finchley Road', 'Baker Street', 'Aldgate'];
+function tfNorm(n) { return String(n || '').toLowerCase().replace(/\(.*?\)/g, '').replace(/&/g, 'and').replace(/[^a-z0-9]/g, ''); }
+function tfSt(name) {   // station id on our line for a name in TfL's text
+  var M = TW.map, q = tfNorm(name), ids = {};
+  (M.lines[(CONFIG.tfl.lines || ['metropolitan'])[0]] || []).forEach(function (r) { r.forEach(function (s) { ids[s] = 1; }); });
+  for (var s in ids) if (M.st[s] && tfNorm(M.st[s][2]) === q) return s;
+  for (s in ids) if (M.st[s] && (tfNorm(M.st[s][2]).indexOf(q) === 0 || q.indexOf(tfNorm(M.st[s][2])) === 0)) return s;
+  return null;
+}
+function tfWhere(loc, V) {   // pixel spot for "At Pinner Platform 1", "Between Moor Park and Northwood", ...
+  var t = String(loc || '').replace(/\s*Platform.*$/i, ''), m, a, b, k = .5;
+  if ((m = t.match(/between (.+?) and (.+)$/i))) { a = tfSt(m[1]); b = tfSt(m[2]); }
+  else if ((m = t.match(/(?:approaching|arriving at|arriving) (.+)$/i))) { a = b = tfSt(m[1]); }
+  else if ((m = t.match(/(?:at|left|departed|leaving) (.+)$/i))) { a = b = tfSt(m[1]); }
+  if (!a || !b) return null;
+  var p = twXY(a, V), q = twXY(b, V);
+  return [p[0] + (q[0] - p[0]) * k, p[1] + (q[1] - p[1]) * k];
+}
+function tfMap() {
+  if (typeof TW === 'undefined' || !TW || !TW.map || typeof TWV === 'undefined' || !$('tfM')) return;
+  var V = TWV.l || (TWV.l = { id: 'tfM', w: 790, h: 400 }), line = (CONFIG.tfl.lines || ['metropolitan'])[0], on = {}, segs = [], now = Date.now();
+  if (!V.z) {   // fit the whole line once
+    twSize(V);
+    var x0 = 1e9, x1 = -1e9, y0 = 1e9, y1 = -1e9;
+    TW.map.lines[line].forEach(function (r) { r.forEach(function (s) { var w = twWorld(TW.map.st[s][0], TW.map.st[s][1], 0); x0 = Math.min(x0, w[0]); x1 = Math.max(x1, w[0]); y0 = Math.min(y0, w[1]); y1 = Math.max(y1, w[1]); }); });
+    V.z = Math.log(Math.min(V.w * .86 / (x1 - x0), V.h * .7 / (y1 - y0))) / Math.LN2;
+    var cx = (x0 + x1) / 2 / 256, cy = (y0 + y1) / 2 / 256 - (V.h * .02) / (256 * Math.pow(2, V.z));
+    V.lon = cx * 360 - 180; V.lat = Math.atan(Math.sinh(Math.PI * (1 - 2 * cy))) * 180 / Math.PI;
+  }
+  on[line] = 1;
+  (TW.now || []).forEach(function (it) { var g = twSegs(it, 1); g.forEach(function (x) { on[x.l] = 1; }); segs = segs.concat(g); });   // only closures with a stretch
+  var labels = {};
+  TF_LABELS.forEach(function (n) { var s = tfSt(n); if (s) labels[s] = n.replace('-on-the-Hill', ''); });
+  var h = '<g class="train">';
+  (TFL.arr || []).filter(function (a) { return a.exp > now - 30000; }).sort(function (a, b) { return b.exp - a.exp; }).forEach(function (a) {
+    var p = tfWhere(a.loc, V); if (!p) return;
+    var c = a.dir === 'S' ? 's' : 'n', mins = Math.max(0, Math.round((a.exp - now) / 60000));
+    h += '<circle class="halo ' + c + '" cx="' + p[0] + '" cy="' + p[1] + '" r="9"/><circle class="' + c + '" cx="' + p[0] + '" cy="' + p[1] + '" r="9"/>' +
+      '<text class="tm" x="' + (p[0] + 13) + '" y="' + (p[1] - 9) + '">' + (mins ? mins + '分' : '到') + '</text>';
+  });
+  twDraw(V, on, segs, labels, h + '</g>');
 }
 function loadTfl() {
   var C = CONFIG.tfl, base = 'https://api.tfl.gov.uk', got = 0, arr = null, st = null, bad = false;
@@ -4037,7 +4112,7 @@ $('twCal').addEventListener('click', function (e) {
 });
 function loadTw() {
   var j1 = fetch('tflmap.json').then(function (r) { return r.json(); }), j2 = fetch('tfl.json?t=' + Date.now()).then(function (r) { return r.json(); });
-  j1.then(function (m) { if (!TW.map) TW.map = m; return j2; }).then(function (j) {
+  j1.then(function (m) { if (!TW.map) { TW.map = m; tfMap(); } return j2; }).then(function (j) {
     TW.plan = (j.plan || []).filter(function (p) { return Date.parse(p.to) > Date.now(); });
     TW.st = j.status; if (!TFL.status && j.status) TFL.status = j.status;
     // "now": today's problems from the live status list
