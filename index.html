@@ -3870,7 +3870,7 @@ function twSize(V) { var e = $(V.id); if (e.offsetWidth) { V.w = e.offsetWidth; 
 // Zoom in on the closed stretch(es) of a notice; whole-line notices use the London-wide view.
 function twFit(it, V) {
   var ids = [], k;
-  for (k in it.segs || {}) ids = ids.concat(it.segs[k]);
+  for (k in it.segs || {}) twParts(it.segs[k]).forEach(function (p) { if (p.length < 40) ids = ids.concat(p); });   // whole-line routes: London view
   ids = ids.filter(function (s) { return TW.map.st[s]; });
   if (!ids.length) { V.lat = TW_HOME.lat; V.lon = TW_HOME.lon; V.z = TW_HOME.z - .3; return; }
   var x0 = 1e9, x1 = -1e9, y0 = 1e9, y1 = -1e9;
@@ -3897,7 +3897,7 @@ function twDraw(V, on, segs, labels, extra) {
   segs.forEach(function (g) {
     var pts = twPts(g.ids, V), big = V.id === 'twZ';
     hi += '<polyline class="seg' + (big || g.cur ? ' a' : ' o') + '" stroke="#ff5a5a" stroke-width="' + (big ? 16 : g.cur ? 13 : 8) + '" points="' + pts + '"/><polyline class="seg" stroke="' + twCol(g.l) + '" stroke-width="' + (big ? 6 : 4) + '" points="' + pts + '"/>' + (big || g.cur ? '<polyline class="seg b" stroke-width="' + (big ? 3 : 2) + '" points="' + pts + '"/>' : '');
-    if (big) [g.ids[0], g.ids[g.ids.length - 1]].forEach(function (s) { if (M.st[s]) { skip.push(twXY(s, V)); lab += twLabel(s, M.st[s][2].replace(/ \(.*?\)$/, ''), 'off', V); } });
+    if (big && !g.whole) [g.ids[0], g.ids[g.ids.length - 1]].forEach(function (s) { if (M.st[s] && !skip.some(function (q) { var p = twXY(s, V); return q[0] === p[0] && q[1] === p[1]; })) { skip.push(twXY(s, V)); lab += twLabel(s, M.st[s][2].replace(/ \(.*?\)$/, ''), 'off', V); } });
   });
   Object.keys(labels).concat([CONFIG.tfl.stop]).forEach(function (s) {
     if (!M.st[s]) return; var p = twXY(s, V);
@@ -3909,7 +3909,14 @@ function twDraw(V, on, segs, labels, extra) {
   svg.setAttribute('width', V.w); svg.setAttribute('height', V.h); svg.setAttribute('viewBox', '0 0 ' + V.w + ' ' + V.h);
   svg.innerHTML = h + hi + lab + (extra || '');
 }
-function twSegs(it, cur) { return Object.keys(it.segs || {}).map(function (l) { return { l: l, ids: it.segs[l], cur: cur }; }); }
+// A closed stretch is a list of station ids; newer tfl.json keeps a list of them per line (branches, "X / Y").
+function twParts(g) { return g && g.length && typeof g[0] !== 'string' ? g : g && g.length ? [g] : []; }
+function twWhole(l, ps) { var r = (TW.map.lines[l] || []); return ps.length >= r.length && r.length > 0 && ps.every(function (p, i) { return r[i] && p.length === r[i].length; }); }
+function twSegs(it, cur) {
+  var out = [];
+  Object.keys(it.segs || {}).forEach(function (l) { var ps = twParts(it.segs[l]), wh = twWhole(l, ps); ps.forEach(function (p) { out.push({ l: l, ids: p, cur: cur, whole: wh }); }); });
+  return out;
+}
 // Service days run 04:00 to 04:00, so a Friday night closure counts as Friday.
 function twMid(k) { var d = new Date(); d.setHours(0, 0, 0, 0); d.setDate(d.getDate() + k); return d; }
 function twOn(it, k) {
@@ -3924,9 +3931,13 @@ function twPill(l, names) { return '<b style="background:' + (TFL_COL[l] || '#66
 function twStretch(it) {
   var M = TW.map, out = [];
   if (!M) return '';
+  var nm = function (s) { return M.st[s] ? M.st[s][2].replace(/ \(.*?\)$/, '') : ''; }, names = twNames(), many = Object.keys(it.segs || {}).length > 1;
   Object.keys(it.segs || {}).forEach(function (l) {
-    var g = it.segs[l], a = M.st[g[0]], b = M.st[g[g.length - 1]];
-    if (a && b) out.push(a[2].replace(/ \(.*?\)$/, '') + ' ⇄ ' + b[2].replace(/ \(.*?\)$/, ''));
+    var ps = twParts(it.segs[l]), pre = many ? (names[l] || l) + ': ' : '';
+    if (twWhole(l, ps)) { out.push(pre + '全線 Whole line'); return; }
+    var by = {}, order = [];   // "Highbury & Islington ⇄ Clapham Junction / New Cross / New Cross Gate"
+    ps.forEach(function (p) { var f = nm(p[0]), e = nm(p[p.length - 1]); if (!by[f]) { by[f] = []; order.push(f); } if (by[f].indexOf(e) < 0) by[f].push(e); });
+    out.push(pre + order.map(function (f) { return f + ' ⇄ ' + by[f].join(' / '); }).join(', '));
   });
   return out.join(' · ');
 }
