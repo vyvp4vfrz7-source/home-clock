@@ -1,6 +1,48 @@
 {
- "updated": "2026-11-18T23:15+00:00",
+ "updated": "2026-11-19T00:13+00:00",
  "items": [
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "今早氣溫較昨日低三至四度 下週中期氣溫將再度下降",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878378-20261119.htm",
+   "d": "一股強烈東北季候風正影響廣東沿岸，今早多處地區氣溫較昨日低三至四度左右。 天文台表示 ，強烈東北季候風及一道雲帶影響，華南地區今明兩日顯著轉涼，未來一兩日廣東沿岸相當清涼，內陸地區早晚寒冷。隨著覆蓋廣東的雲帶在週末轉薄，該區日夜溫差較大，早上仍然相當清涼。預料一股達強風程度的偏東氣流會在下週初影響華南沿岸，該區雲量增多，氣溫稍為回升。而另一股東北季候風會在下週中期影響華南，該區氣溫將再度下降及有幾陣雨。",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878378_1_M_20261119075108.jpg",
+   "at": "2026-11-18T23:51+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "APEC深圳峰會：習近平親赴機場迎接特朗普，46年來首次中國元首接機",
+   "u": "https://www.bbc.com/zhongwen/articles/cjy5xkw9g1zpo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "這是中國自1980年以來，首次有最高領導人親赴機場迎接外國元首。1980年前，華國鋒、毛澤東都有多次赴機場迎接外國領袖的歷史。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/2476/live/e169d970-e352-11f1-99aa-0f40b013ad11.jpg",
+   "at": "2026-11-18T13:21+00:00",
+   "where": [
+    22.54,
+    114.06,
+    "深圳"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "中國、英國、日本9月持有美債規模均下跌",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878377-20261119.htm",
+   "d": "美國財政部數據顯示，9月外國持有美國國債規模再度轉跌，回落至9.241萬億美元，按月減少約760億美元。3大債權國日本、英國、中國減有美債規模都跌。 日本連續5個月減持美債，持有規模降至1.063萬億美元，創2024年底以來最低，按月減持0.5%，較2021年11月高位累計減持約20%。 中國持有美債規模降至5639億美元，按月跌4.5%，連續4個月下降，持倉量創逾18年新低，中國是美債第3大持有國家。 至於英國持倉量亦減至9850億美…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878377_1_M_20261119073434.jpg",
+   "at": "2026-11-18T23:36+00:00",
+   "where": [
+    52.5,
+    -1.5,
+    "英國"
+   ]
+  },
   {
    "src": "香港",
    "lang": "zh",
@@ -18,11 +60,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "APEC深圳峰會：習近平親赴機場迎接特朗普，46年來首次中國元首接機",
-   "u": "https://www.bbc.com/zhongwen/articles/cjy5xkw9g1zpo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "這是中國自1980年以來，首次有最高領導人親赴機場迎接外國元首。1980年前，華國鋒、毛澤東都有多次赴機場迎接外國領袖的歷史。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/2476/live/e169d970-e352-11f1-99aa-0f40b013ad11.jpg",
-   "at": "2026-11-18T13:21+00:00",
+   "t": "美中俄峰會：為何選在深圳麒麟山莊？習仲勳、金正日都曾下榻",
+   "u": "https://www.bbc.com/zhongwen/articles/cqn0dy4ppxp7o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "麒麟山莊離APEC主會場約30分鐘車程，三面環山、一面臨水，封閉性和安保條件都很好。它也與習近平的父親習仲勳有淵源，還接待過已故朝鮮領導人金正日。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/f1ea/live/ab525c80-e326-11f1-baab-4b3b35d174b7.jpg",
+   "at": "2026-11-18T08:06+00:00",
    "where": [
     22.54,
     114.06,
@@ -60,15 +102,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "美中俄峰會：為何選在深圳麒麟山莊？習仲勳、金正日都曾下榻",
-   "u": "https://www.bbc.com/zhongwen/articles/cqn0dy4ppxp7o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "麒麟山莊離APEC主會場約30分鐘車程，三面環山、一面臨水，封閉性和安保條件都很好。它也與習近平的父親習仲勳有淵源，還接待過已故朝鮮領導人金正日。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/f1ea/live/ab525c80-e326-11f1-baab-4b3b35d174b7.jpg",
-   "at": "2026-11-18T08:06+00:00",
+   "t": "黃仁勳婚外情掀「中國間諜」迷因：幽默與偏見之間，亞裔女性如何自處？",
+   "u": "https://www.bbc.com/zhongwen/articles/cvze7n4gp5rro/trad?at_medium=RSS&at_campaign=rss",
+   "d": "黃仁勳醜聞曝光後，網上湧現大量「中國間諜」、「美人計」笑話。這些看似無傷大雅的時事迷因，卻讓部分亞裔女性感到困擾。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/cdfb/live/3e3fdc00-e103-11f1-b441-2b33b063138f.jpg",
+   "at": "2026-11-18T12:17+00:00",
    "where": [
-    22.54,
-    114.06,
-    "深圳"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
@@ -102,11 +144,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "黃仁勳婚外情掀「中國間諜」迷因：幽默與偏見之間，亞裔女性如何自處？",
-   "u": "https://www.bbc.com/zhongwen/articles/cvze7n4gp5rro/trad?at_medium=RSS&at_campaign=rss",
-   "d": "黃仁勳醜聞曝光後，網上湧現大量「中國間諜」、「美人計」笑話。這些看似無傷大雅的時事迷因，卻讓部分亞裔女性感到困擾。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/cdfb/live/3e3fdc00-e103-11f1-b441-2b33b063138f.jpg",
-   "at": "2026-11-18T12:17+00:00",
+   "t": "特朗普訪華之際 美國封堵中國公司在東南亞租用AI算力的「後門」",
+   "u": "https://www.bbc.com/zhongwen/articles/cmpdwn010nyvo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "在美國限制最先進英偉達芯片直接銷往中國的背景下，中國大型互聯網公司和AI實驗室逐漸轉向「只租算力、不買硬件」的模式。芯片部署在第三國數據中心，中國企業再通過互聯網遠程調用算力訓練模型，而無須把相關硬件運入中國。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/f965/live/d542c590-e275-11f1-b639-73d1df360b76.jpg",
+   "at": "2026-11-17T11:37+00:00",
    "where": [
     34.0,
     108.0,
@@ -144,15 +186,14 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "特朗普訪華之際 美國封堵中國公司在東南亞租用AI算力的「後門」",
-   "u": "https://www.bbc.com/zhongwen/articles/cmpdwn010nyvo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "在美國限制最先進英偉達芯片直接銷往中國的背景下，中國大型互聯網公司和AI實驗室逐漸轉向「只租算力、不買硬件」的模式。芯片部署在第三國數據中心，中國企業再通過互聯網遠程調用算力訓練模型，而無須把相關硬件運入中國。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/f965/live/d542c590-e275-11f1-b639-73d1df360b76.jpg",
-   "at": "2026-11-17T11:37+00:00",
+   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
+   "at": "2026-11-17T16:25+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -186,11 +227,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-17T16:25+00:00",
+   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
+   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
+   "at": "2026-11-17T09:49+00:00",
    "where": [
     23.7,
     121.0,
@@ -217,7 +258,6 @@
    "t": "最後幻彩詠香江匯演加入煙火 大批市民遊客見證告別演出",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878337-20261118.htm",
    "d": "有22年歷史的「幻彩詠香江」，今晚8時上演最後一場，維多利亞港兩岸超過40棟大廈配合音樂亮起燈光，包括中環廣場、會展、兩座國際金融中心等，部分大廈更特別發放煙火，匯演歷時約10分鐘。 在匯演開始前、晚上約7時，尖沙咀星光大道已人頭湧湧，不少市民及遊客帶相機到場記錄。 有奧地利旅客表示，從社交媒體得知今晚是最後一場「幻彩詠香江」，首次來觀看，對此很期待。 有市民表示，得悉是最後一場幻彩詠香江，傍晚6時已經到場，準備見證結束一刻。他又說，知…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878337_2_M_20261118205914.jpg",
    "at": "2026-11-18T12:23+00:00",
    "where": [
     22.32,
@@ -228,11 +268,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
-   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
-   "at": "2026-11-17T09:49+00:00",
+   "t": "九合一前夕：台灣幾乎年年選舉，會引起「投票疲勞」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c63egjkzqpz2o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣在過去七年間，幾乎每年都有大型選舉、罷免或公投。有學者形容台灣政治人物常處於「選舉模式」，在面對不同議題時往往急於回應。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7a49/live/c76f08c0-dcda-11f1-a8e1-e3454837ffc6.jpg",
+   "at": "2026-11-13T10:39+00:00",
    "where": [
     23.7,
     121.0,
@@ -245,7 +285,6 @@
    "t": "商務部：中韓自貿協定第二階段談判實質性完成",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878355-20261119.htm",
    "d": "商務部表示，中韓雙方以兩國元首重要共識為指引，推進中韓自貿協定第二階段談判，歷經8年多時間，在近日實質性完成，達成互利共贏的高水平談判成果。 商務部國際司負責人表示，中韓自貿協定第二階段對原中韓自貿協定投資、服務貿易、金融服務和經濟合作章及有關附件進行升級，進一步提升了雙方投資和服務自由化、便利化規則水平，並採用負面清單模式針對投資、跨境服務貿易、金融服務等領域作出開放承諾，為後續雙向投資和服務貿易往來建立了透明、穩定、可預期的准入規則…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878355_1_M_20261119021234.jpg",
    "at": "2026-11-18T18:07+00:00"
   },
   {
@@ -264,11 +303,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "九合一前夕：台灣幾乎年年選舉，會引起「投票疲勞」嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/c63egjkzqpz2o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "台灣在過去七年間，幾乎每年都有大型選舉、罷免或公投。有學者形容台灣政治人物常處於「選舉模式」，在面對不同議題時往往急於回應。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7a49/live/c76f08c0-dcda-11f1-a8e1-e3454837ffc6.jpg",
-   "at": "2026-11-13T10:39+00:00",
+   "t": "「九合一」五大看點：「洋流」能否撼動台北？誰在卡位2028？",
+   "u": "https://www.bbc.com/zhongwen/articles/cm8xzrg40dq1o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "中共是否介入台灣選舉？ 這次選舉將如何影響賴清德與國民黨主席鄭麗文的政治能量？捲土重來、希望藉著地方議員選舉有所斬獲的小黨，此次結盟能否在主流政黨夾殺中突圍而出？",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/5997/live/fdfeb670-d293-11f1-a701-fddedf244c16.jpg",
+   "at": "2026-10-28T02:45+00:00",
    "where": [
     23.7,
     121.0,
@@ -299,28 +338,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "里長赴中旅遊受關注：為何北京鎖定里長？里長怎麼看？",
-   "u": "https://www.bbc.com/zhongwen/articles/cm3elx8gxdn3o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "台灣地方選舉即將到來，近年北京對台統戰工作重心從政商菁英轉向基層社會，而里長作為選舉期間的地方「樁腳」，就成為了北京的重要接觸對象。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7e59/live/86a92b40-d75d-11f1-b441-2b33b063138f.jpg",
-   "at": "2026-11-16T09:03+00:00",
+   "t": "美國今年已10人死於麻疹 26年後失去「麻疹消除狀態」",
+   "u": "https://www.bbc.com/zhongwen/articles/c5y4jmvxr9vyo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "美國時隔26年失去麻疹消除狀態，今年病例達5400例、死亡10人，創1990年代以來新高。「疫苗懷疑論」持續遭到質疑。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/0b33/live/4927cca0-dfd1-11f1-8c90-4fc10fbf9142.jpg",
+   "at": "2026-11-18T08:16+00:00",
    "where": [
-    23.7,
-    121.0,
-    "台灣"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "深圳APEC｜學者分析習近平與特朗普已建立不俗關係",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878343-20261118.htm",
-   "d": "美國總統特朗普乘坐專機抵達深圳，明日出席亞太經合組織第三十三次領導人非正式會議及元首會晤。國家主席習近平親自到機場迎接，兩人握手擁抱。 中文大學香港亞太研究所副研究員紀緯紋分析，兩人肢體動作表現親近，反映經過今年5月和9月的兩度會談，兩人從個人層面已建立不俗的關係，相信有助在中俄美元首會晤營造良好氣氛，預料會面主要圍繞自由貿易、促進國際合作等議題，不排除在經貿合作方面可達至較具體和明確的共識。 習近平在工商領導人峰會開幕式發表主旨演講時…",
-   "at": "2026-11-18T13:44+00:00",
-   "where": [
-    22.54,
-    114.06,
-    "深圳"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -334,47 +360,6 @@
     22.54,
     114.06,
     "深圳"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "「九合一」五大看點：「洋流」能否撼動台北？誰在卡位2028？",
-   "u": "https://www.bbc.com/zhongwen/articles/cm8xzrg40dq1o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "中共是否介入台灣選舉？ 這次選舉將如何影響賴清德與國民黨主席鄭麗文的政治能量？捲土重來、希望藉著地方議員選舉有所斬獲的小黨，此次結盟能否在主流政黨夾殺中突圍而出？",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/5997/live/fdfeb670-d293-11f1-a701-fddedf244c16.jpg",
-   "at": "2026-10-28T02:45+00:00",
-   "where": [
-    23.7,
-    121.0,
-    "台灣"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "【重溫】2026年11月18日新聞天地",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878317-20261118.htm",
-   "d": "詳盡報道本地時事、大中華消息、國際局勢等新聞，緊貼最新熱話。",
-   "at": "2026-11-18T11:42+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "美國今年已10人死於麻疹 26年後失去「麻疹消除狀態」",
-   "u": "https://www.bbc.com/zhongwen/articles/c5y4jmvxr9vyo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "美國時隔26年失去麻疹消除狀態，今年病例達5400例、死亡10人，創1990年代以來新高。「疫苗懷疑論」持續遭到質疑。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/0b33/live/4927cca0-dfd1-11f1-8c90-4fc10fbf9142.jpg",
-   "at": "2026-11-18T08:16+00:00",
-   "where": [
-    38.9,
-    -77.04,
-    "美國"
    ]
   },
   {
@@ -394,11 +379,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "UK government asks for Russell Brand's YouTube account to be removed",
-   "u": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
-   "d": "This comes after Brand's wife shared a message from him in which he claimed his innocence.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c05a/live/ff349a00-e38c-11f1-bc86-33d7d6275eba.jpg",
-   "at": "2026-11-18T21:17+00:00",
+   "t": "McDonald's sex abuse: 'They were waiting for the younger girls to turn 18'",
+   "u": "https://www.bbc.co.uk/news/articles/c6x2eve321jno?at_medium=RSS&at_campaign=rss",
+   "d": "A former McDonald's worker calls on the firm to “change the way they treat younger employees” as a judge rules a legal case against the chain can go ahead.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/decb/live/a6ef9570-e364-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-19T00:00+00:00",
    "where": [
     52.5,
     -1.5,
@@ -506,11 +491,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
-   "u": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
-   "d": "Energy bills are expected to jump by 26% a year for a typical household as UK inflation hits its highest rate for a year.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4a59/live/128bd8c0-e35b-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-18T13:17+00:00",
+   "t": "Crew unaware of risks before Bayesian yacht accident, say investigators",
+   "u": "https://www.bbc.co.uk/news/articles/c6e9kn15z9d7o?at_medium=RSS&at_campaign=rss",
+   "d": "The vessel sank off the coast of northern Sicily, killing seven people including British tech tycoon Mike Lynch.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6aec/live/3ca33b80-6077-11ef-aea1-e764981585c4.jpg",
+   "at": "2026-11-19T00:05+00:00",
    "where": [
     52.5,
     -1.5,
@@ -730,11 +715,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Minister criticises media for 'amplifying' Russell Brand's prison message",
-   "u": "https://www.bbc.co.uk/news/articles/cq702k1w8xd3o?at_medium=RSS&at_campaign=rss",
-   "d": "Lucy Powell says outlets shouldn't have played a clip of a message read by the jailed rapist's wife.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3906/live/4ed62600-e342-11f1-99aa-0f40b013ad11.jpg",
-   "at": "2026-11-18T12:11+00:00",
+   "t": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
+   "u": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
+   "d": "Energy bills are expected to jump by 26% a year for a typical household as UK inflation hits its highest rate for a year.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4a59/live/128bd8c0-e35b-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-18T13:17+00:00",
    "where": [
     52.5,
     -1.5,
@@ -842,15 +827,15 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Prince Harry says he would rejoin army as he warns of Russia threat",
-   "u": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko?at_medium=RSS&at_campaign=rss",
-   "d": "The Duke of Sussex thought people should be ready to serve again for their country if needed.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/73ac/live/9a53b3f0-e37d-11f1-b879-03485a55c082.jpg",
-   "at": "2026-11-18T20:55+00:00",
+   "t": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
+   "u": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
+   "d": "This comes after Brand's wife shared a message from him in which he claimed his innocence.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c05a/live/ff349a00-e38c-11f1-bc86-33d7d6275eba.jpg",
+   "at": "2026-11-18T23:29+00:00",
    "where": [
-    55.75,
-    37.6,
-    "俄羅斯"
+    52.5,
+    -1.5,
+    "英國"
    ]
   },
   {
@@ -954,11 +939,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Police investigate death of boy, 3, after nursery incident",
-   "u": "https://www.bbc.co.uk/news/articles/cm8x0q1p2q8jo?at_medium=RSS&at_campaign=rss",
-   "d": "The boy died in hospital three days after an incident at Cosy Toes Nursery in Middleton, police say.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0797/live/c7d45720-e365-11f1-9f51-4bfc31543510.jpg",
-   "at": "2026-11-18T16:51+00:00",
+   "t": "Minister criticises media for 'amplifying' Russell Brand's prison message",
+   "u": "https://www.bbc.co.uk/news/articles/cq702k1w8xd3o?at_medium=RSS&at_campaign=rss",
+   "d": "Lucy Powell says outlets shouldn't have played a clip of a message read by the jailed rapist's wife.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3906/live/4ed62600-e342-11f1-99aa-0f40b013ad11.jpg",
+   "at": "2026-11-18T12:11+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1065,15 +1050,15 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Regulator mistakenly sent complaints about doctors to newspaper",
-   "u": "https://www.bbc.co.uk/news/articles/c8wy5erexq0ko?at_medium=RSS&at_campaign=rss",
-   "d": "Information sent to the Times newspaper by the General Medical Council included summaries of complaints alleging antisemitism and Islamophobia against doctors.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/73cb/live/11eb1800-e373-11f1-9f51-4bfc31543510.jpg",
-   "at": "2026-11-18T17:48+00:00",
+   "t": "Prince Harry says he would rejoin army as he warns of Russia threat",
+   "u": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko?at_medium=RSS&at_campaign=rss",
+   "d": "The Duke of Sussex thought people should be ready to serve again for their country if needed.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/73ac/live/9a53b3f0-e37d-11f1-b879-03485a55c082.jpg",
+   "at": "2026-11-18T20:55+00:00",
    "where": [
-    52.5,
-    -1.5,
-    "英國"
+    55.75,
+    37.6,
+    "俄羅斯"
    ]
   },
   {
@@ -1097,7 +1082,7 @@
    "u": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
    "d": "The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f70c/live/7ee6d930-e346-11f1-99aa-0f40b013ad11.jpg",
-   "at": "2026-11-18T13:55+00:00",
+   "at": "2026-11-18T23:42+00:00",
    "where": [
     38.9,
     -77.04,
@@ -1176,11 +1161,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Police chief says racists and misogynists working inside force",
-   "u": "https://www.bbc.co.uk/news/articles/cm0qjw4d2gd3o?at_medium=RSS&at_campaign=rss",
-   "d": "Wales' four police chiefs were asked how they were clamping down on misconduct \"in a post-Sarah Everard era\".",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2c3a/live/e1a4e5d0-e382-11f1-b879-03485a55c082.jpg",
-   "at": "2026-11-18T19:10+00:00",
+   "t": "Police investigate death of boy, 3, after nursery incident",
+   "u": "https://www.bbc.co.uk/news/articles/cm8x0q1p2q8jo?at_medium=RSS&at_campaign=rss",
+   "d": "The boy died in hospital three days after an incident at Cosy Toes Nursery in Middleton, police say.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0797/live/c7d45720-e365-11f1-9f51-4bfc31543510.jpg",
+   "at": "2026-11-18T16:51+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1259,11 +1244,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Raise The Colours member guilty of dancefloor murder",
-   "u": "https://www.bbc.co.uk/news/articles/cmd71dz58dnvo?at_medium=RSS&at_campaign=rss",
-   "d": "Billy Allison punched Matthew O'Gara in the neck at a bar in Lichfield in May.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/739d/live/c69fd420-e378-11f1-99b6-a35a62fa4264.png",
-   "at": "2026-11-18T19:15+00:00",
+   "t": "Regulator mistakenly sent complaints about doctors to newspaper",
+   "u": "https://www.bbc.co.uk/news/articles/c8wy5erexq0ko?at_medium=RSS&at_campaign=rss",
+   "d": "Information sent to the Times newspaper by the General Medical Council included summaries of complaints alleging antisemitism and Islamophobia against doctors.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/73cb/live/11eb1800-e373-11f1-9f51-4bfc31543510.jpg",
+   "at": "2026-11-18T17:48+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1286,11 +1271,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Thousands regain water supply after major outage",
-   "u": "https://www.bbc.co.uk/news/articles/c9e85y3ex824o?at_medium=RSS&at_campaign=rss",
-   "d": "Some residents were unable to cook, wash or flush their toilets since Tuesday afternoon.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d5e0/live/7337fa50-e360-11f1-99b6-a35a62fa4264.png",
-   "at": "2026-11-18T21:01+00:00",
+   "t": "Police chief says racists and misogynists working inside force",
+   "u": "https://www.bbc.co.uk/news/articles/cm0qjw4d2gd3o?at_medium=RSS&at_campaign=rss",
+   "d": "Wales' four police chiefs were asked how they were clamping down on misconduct \"in a post-Sarah Everard era\".",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2c3a/live/e1a4e5d0-e382-11f1-b879-03485a55c082.jpg",
+   "at": "2026-11-18T19:10+00:00",
    "where": [
     52.5,
     -1.5,
