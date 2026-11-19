@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-19T06:00+00:00",
+ "updated": "2026-11-19T18:00+00:00",
  "en": {
-  "greeting": "Good morning — Thursday 19 November",
+  "greeting": "Good evening — Thursday 19 November",
   "sections": [
    {
     "h": "Top stories",
     "items": [
      {
-      "t": "Trump, Xi and Putin hold first three-way summit in Shenzhen",
-      "d": "The three leaders meet today on the sidelines of APEC. Iran, a possible nuclear arms deal and the US-China tariff truce are on the table, but analysts expect mostly symbolic results.",
-      "u": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting"
+      "t": "Trump, Xi and Putin issue 'peace declaration' in Shenzhen",
+      "d": "The first three-way summit ended with a pledge to hold talks on cutting nuclear risks and stopping proliferation. Ukraine and the Iran war got little detail, but Trump said Xi agreed the Strait of Hormuz must stay open.",
+      "u": "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways"
      },
      {
-      "t": "Iran widens Gulf attacks, targeting US base in Kuwait and Bahrain",
-      "d": "Kuwait says it intercepted drones aimed at a US air base, as the nine-month US-Israel war with Iran escalates around the Gulf and tankers in the Strait of Hormuz.",
-      "u": "https://www.pbs.org/newshour/world/iran-widens-gulf-attacks-by-targeting-u-s-air-base-in-kuwait-and-sites-in-bahrain"
+      "t": "Anthropic shares soar in record-breaking Nasdaq debut",
+      "d": "Priced at $83 after raising $81.3bn, the biggest IPO ever, Anthropic opened at about $111.50 and hit $114.99. The debut is seen as a test of how much investors will pay for AI.",
+      "u": "https://www.cbsnews.com/news/anthropic-ipo-nasdaq-debut-claude-ai/"
      },
      {
-      "t": "Anthropic prices record IPO at $83 a share",
-      "d": "The Claude maker priced above its range, raising over $81bn in the largest listing on record. Shares start trading on Nasdaq today under the ticker ANT.",
-      "u": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+      "t": "Iran hits US base in Kuwait and Bahrain as Gulf war widens",
+      "d": "Iran launched drones at a US airbase in Kuwait and attacked Bahrain after a US strike on Qeshm Island. A tanker was hit off Oman and Trump said the conflict would end 'one way or the other'.",
+      "u": "https://gulfnews.com/world/mena/middle-east-war-riyadh-skyscraper-damaged-tanker-hit-near-oman-as-trump-weighs-fresh-iran-strikes-1.500752996"
      }
     ]
    },
@@ -27,19 +27,24 @@
     "h": "World & politics",
     "items": [
      {
-      "t": "UN court to rule on whether Myanmar committed genocide",
-      "d": "The International Court of Justice is due to give its verdict on the Rohingya massacres. No state has ever been found guilty of genocide by an international court.",
-      "u": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o"
+      "t": "UN top court rules Myanmar committed genocide against Rohingya",
+      "d": "The International Court of Justice found Myanmar responsible for genocide over the 2017 military campaign against the Rohingya, a landmark ruling in a case brought by The Gambia.",
+      "u": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo"
      },
      {
-      "t": "Russian arrested in US for spying on Palantir staff",
-      "d": "Prosecutors say the suspect tailed employees of the defence-tech firm over its support for Ukraine and carried fake US IDs and two Russian passports.",
-      "u": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o"
+      "t": "Putin vows 'far more painful' response to Crimean Bridge strikes",
+      "d": "Speaking during his China trip, Putin threatened tougher retaliation after Ukrainian attacks on the bridge linking Russia to occupied Crimea, even as he praised talks with Trump and Xi.",
+      "u": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo"
      },
      {
-      "t": "China threatens retaliation over US curbs on overseas AI computing",
-      "d": "Beijing warned of countermeasures after Washington moved to stop Chinese firms renting advanced US chips in data centres abroad, mainly in South East Asia.",
-      "u": "https://www.semafor.com/article/11/17/2026/china-threatens-retaliation-against-us-chip-curbs"
+      "t": "Venezuela signs military deal with the US",
+      "d": "Less than a year after Nicolás Maduro was removed, Caracas agreed a defence pact with Washington, deepening US influence over the oil-rich country.",
+      "u": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo"
+     },
+     {
+      "t": "Denmark approves Greenland defence deal with the US",
+      "d": "Danish MPs backed a security agreement letting the US set up new defence areas in Greenland, easing a long row over the Arctic island.",
+      "u": "https://news.rthk.hk/rthk/ch/component/k2/1878512-20261120.htm"
      }
     ]
    },
@@ -47,19 +52,19 @@
     "h": "Business & economy",
     "items": [
      {
-      "t": "Nvidia posts record $115.8bn revenue, but shares slide",
-      "d": "Sales doubled and it forecasts about $130bn next quarter, excluding China. The board ruled out reinstating Jensen Huang as CEO, and the stock fell nearly 3%.",
-      "u": "https://www.scrippsnews.com/business/nvidia-board-rules-out-jensen-huangs-return-as-ceo-during-earnings-call"
+      "t": "FTSE 100 slips while Wall Street eyes Anthropic",
+      "d": "London's blue chips ended lower on Thursday as attention turned to Anthropic's debut in New York, which lifted US tech sentiment after a shaky week for AI stocks.",
+      "u": "https://www.lse.co.uk/news/london-market-close-ftse-100-down-but-anthropic-makes-strong-debut-cvq2se0vjggko2j.html"
      },
      {
-      "t": "FTSE 100 drops 1.3% as metal prices tumble",
-      "d": "Miners led the fall as gold, silver and copper slid on a stronger dollar and AI doubts. UK inflation rose to 3.6%, slightly below forecasts.",
-      "u": "https://www.marketscreener.com/news/ftse-100-sinks-as-miners-plummet-inflation-rises-ce785edddd8cff27"
+      "t": "US group beats Chinese rivals to huge Kenya mining deal",
+      "d": "A US-led consortium won a major Kenyan mining contract, a sign of Washington's push to secure critical minerals in Africa against Chinese competition.",
+      "u": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o"
      },
      {
-      "t": "Hang Seng falls below 23,000 as tech stocks slump",
-      "d": "Hong Kong shares dropped almost 2% by midday, with Tencent and Alibaba down 6-7%, as the Shenzhen summit got under way.",
-      "u": "https://news.rthk.hk/rthk/ch/component/k2/1878415-20261119.htm"
+      "t": "Van Gogh painting sells for record $190.4m",
+      "d": "The work fetched a record price at auction in New York despite a dispute over its history under the Nazis, showing strong demand at the top of the art market.",
+      "u": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo"
      }
     ]
    },
@@ -67,34 +72,29 @@
     "h": "Technology",
     "items": [
      {
-      "t": "OpenAI launches GPT-6.2 Astra and Sol",
-      "d": "Astra is a frontier model for hard coding and research work; Sol is a cheaper everyday model. Both come to paid ChatGPT plans, Codex and the API.",
-      "u": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+      "t": "Google launches Gemini 4 Neon model",
+      "d": "The new mid-tier model ranks third on the Artificial Analysis index behind GPT-6.2 Astra and Claude Fable 5.2, costs $3/$15 per million tokens, and replaces Argon in the Gemini app.",
+      "u": "https://thenextweb.com/news/gemini-4-neon-google-third-intelligence-index-replaces-argon"
      },
      {
-      "t": "'Java4Shell' flaw lets hackers take over Java servers",
-      "d": "A critical bug in Java's Base64 decoder allows remote code execution without login. US agency CISA urges firms to patch and restart every Java process now.",
-      "u": "https://www.security.com/threat-intelligence/java4shell-cve2026114938-patch-now"
+      "t": "Intel lands first outside customer for its 18A chips",
+      "d": "Intel says it has signed its first external client for its most advanced process, with yields reportedly at 70%, and Microsoft is using its EMIB packaging. It is a boost for Intel's foundry comeback.",
+      "u": "https://www.trendforce.com/news/2026/11/19/news-intel-scores-dual-foundry-wins-microsoft-named-first-emib-customer-tan-says-18a-secures-first-external-deal/"
      },
      {
-      "t": "Nvidia's new leaders reportedly pull out of China",
-      "d": "After Jensen Huang's ouster, the company is said to be halting chip sales to China, a market it had fought hard to keep.",
-      "u": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
+      "t": "GTA 6 launches worldwide to record reviews",
+      "d": "Rockstar's Grand Theft Auto VI is now out, after becoming the best-reviewed game ever on Metacritic. Fans queued and took time off; PS5 owners need a firmware update to play.",
+      "u": "https://www.bbc.co.uk/news/articles/c6z74ep2n17zo"
      },
      {
-      "t": "Jensen Huang to testify to Congress on 1 December",
-      "d": "The former Nvidia boss agreed to face House committees examining possible national security breaches, with Nvidia's general counsel appearing the next day.",
-      "u": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-house-committee.html"
+      "t": "New US chip curbs on South East Asia aim at China",
+      "d": "Washington's latest restrictions target AI chips flowing through South East Asian data centres, closing a route Chinese firms have used to reach advanced computing power.",
+      "u": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo"
      },
      {
-      "t": "Microsoft releases cheaper MAI Code 2 coding models",
-      "d": "MAI Code 2 and a lighter Flash version aim to match rivals for everyday software work at a fraction of the cost. Both are in GitHub Copilot.",
-      "u": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/"
-     },
-     {
-      "t": "Google to keep some Gemini chats for two months",
-      "d": "Even with history turned off, chats will be kept for about two months instead of 72 hours, for safety and operations. Users can still opt out of training.",
-      "u": "https://gizmodo.com/google-to-keep-ai-chat-logs-for-two-months-even-with-gemini-history-turned-off-2000841271"
+      "t": "Anthropic IPO puts AI's circular financing to the test",
+      "d": "Big backers such as Google, Microsoft and Nvidia also sell Anthropic chips and cloud. The listing tests whether that web of deals reflects real demand.",
+      "u": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/"
      }
     ]
    },
@@ -102,19 +102,19 @@
     "h": "Science & health",
     "items": [
      {
-      "t": "US officially loses measles elimination status",
-      "d": "After 26 years, the US is no longer measles-free: about 5,400 cases and 10 deaths this year, the worst since the 1990s, amid falling vaccination.",
-      "u": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+      "t": "DeepMind's AlphaGenome 2 impresses geneticists",
+      "d": "The new AI can predict which cell types a DNA variant is likely to affect, which could speed up the search for the genetic causes of disease.",
+      "u": "https://www.nature.com/articles/d41586-026-03673-0"
      },
      {
-      "t": "Why a billion years vanished from Earth's rock record",
-      "d": "A Nature study suggests slow mantle movements lifted continents so erosion wiped away old rock, explaining the 'Great Unconformity' gap.",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261116023403.htm"
+      "t": "RSV jabs are slashing infections, data show",
+      "d": "Vaccines and antibody injections against RSV are sharply cutting hospital admissions in babies and older people, a big win against a common winter virus.",
+      "u": "https://www.nature.com/articles/d41586-026-03573-3"
      },
      {
-      "t": "New test for a possible twist in the universe's oldest light",
-      "d": "UC San Diego physicists built a method to check a hinted rotation in Planck data; it matches earlier results, which could point to new physics.",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm"
+      "t": "New obesity definition beats BMI at predicting health",
+      "d": "Adding waist size to height and weight gives a more accurate picture of health risk than BMI alone, researchers report.",
+      "u": "https://www.nature.com/articles/d41586-026-03636-5"
      }
     ]
    },
@@ -122,44 +122,39 @@
     "h": "UK",
     "items": [
      {
-      "t": "'Feudal' leasehold to be scrapped in England and Wales",
-      "d": "A new bill would end leasehold for most new homes and cap ground rent at £250 a year.",
+      "t": "Covid inquiry delivers verdict on test and trace",
+      "d": "The UK Covid inquiry's latest report sets out its findings on testing, contact tracing and the 2021 'pingdemic', when app alerts forced huge numbers to isolate.",
+      "u": "https://www.bbc.co.uk/news/articles/crx20q8ql4gwo"
+     },
+     {
+      "t": "Timetable set for ending leasehold in England and Wales",
+      "d": "The government set out when the leasehold system will be dismantled, moving homeowners towards commonhold and ending ground rents and many service-charge disputes.",
       "u": "https://www.bbc.co.uk/news/articles/cw987ynpd0n1o"
-     },
-     {
-      "t": "Bayesian crew unaware of risks, investigators find",
-      "d": "The report into the superyacht sinking off Sicily, which killed seven including tech tycoon Mike Lynch, says the crew did not know the danger.",
-      "u": "https://www.bbc.co.uk/news/articles/c6e9kn15z9d7o"
-     },
-     {
-      "t": "Prince Harry says he would rejoin the army",
-      "d": "Warning of the threat from Russia, the Duke of Sussex said people should be ready to serve their country again if needed.",
-      "u": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko"
      }
     ]
    }
   ]
  },
  "zh": {
-  "greeting": "早晨 — 11月19日星期四",
+  "greeting": "晚安 — 11月19日星期四",
   "sections": [
    {
     "h": "頭條新聞",
     "items": [
      {
-      "t": "特朗普、習近平與普京深圳首度三方會談",
-      "d": "三國領袖今日在APEC峰會期間會面，議題包括伊朗、可能的核軍控協議及中美關稅休戰，但分析認為成果多屬象徵性。",
-      "u": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting"
+      "t": "特朗普、習近平、普京深圳發表「和平宣言」",
+      "d": "首次三方峰會結束，三國承諾就降低核風險及防止核擴散展開對話。宣言對烏克蘭及伊朗戰事着墨不多，但特朗普稱習近平同意霍爾木茲海峽必須保持暢通。",
+      "u": "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways"
      },
      {
-      "t": "伊朗擴大海灣攻擊 目標包括科威特美軍基地及巴林",
-      "d": "科威特稱攔截了襲擊美軍空軍基地的無人機。美以與伊朗的戰爭已持續九個月，戰火正蔓延至海灣及荷姆茲海峽的油輪。",
-      "u": "https://www.pbs.org/newshour/world/iran-widens-gulf-attacks-by-targeting-u-s-air-base-in-kuwait-and-sites-in-bahrain"
+      "t": "Anthropic納斯達克上市首日股價急升",
+      "d": "Anthropic以每股83美元招股，集資813億美元，為史上最大規模IPO。股價首日以約111.50美元開市，最高見114.99美元，被視為市場對AI估值的試金石。",
+      "u": "https://www.cbsnews.com/news/anthropic-ipo-nasdaq-debut-claude-ai/"
      },
      {
-      "t": "Anthropic招股價定83美元 創史上最大IPO",
-      "d": "Claude開發商以高於招股範圍的價格定價，集資逾810億美元，為史上最大規模上市。股份今日在納斯達克掛牌，代號ANT。",
-      "u": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+      "t": "伊朗襲擊科威特美軍基地及巴林　海灣戰火擴大",
+      "d": "美軍空襲格什姆島後，伊朗向科威特美軍空軍基地發射無人機，並襲擊巴林。一艘油輪在阿曼對開被擊中，特朗普稱衝突將「以這種或那種方式」結束。",
+      "u": "https://gulfnews.com/world/mena/middle-east-war-riyadh-skyscraper-damaged-tanker-hit-near-oman-as-trump-weighs-fresh-iran-strikes-1.500752996"
      }
     ]
    },
@@ -167,19 +162,24 @@
     "h": "國際及政治",
     "items": [
      {
-      "t": "國際法院將裁決緬甸是否犯種族滅絕罪",
-      "d": "國際法院將就羅興亞人遭屠殺一案作出裁決。至今從未有國家被國際法院裁定犯種族滅絕罪。",
-      "u": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o"
+      "t": "國際法院裁定緬甸對羅興亞人犯種族滅絕罪",
+      "d": "國際法院裁定，緬甸須為2017年針對羅興亞人的軍事行動負上種族滅絕責任。案件由岡比亞提出，裁決具里程碑意義。",
+      "u": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo"
      },
      {
-      "t": "俄羅斯男子在美被捕 涉監視Palantir員工",
-      "d": "檢方指疑犯因Palantir支援烏克蘭而跟蹤其員工，身上搜出偽造美國證件及兩本俄羅斯護照。",
-      "u": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o"
+      "t": "普京揚言就克里米亞大橋遇襲作「更痛」回應",
+      "d": "普京訪華期間表示，烏克蘭襲擊連接俄羅斯與被佔克里米亞的大橋後，俄方會作出更嚴厲報復，同時讚揚與特朗普及習近平的會談。",
+      "u": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo"
      },
      {
-      "t": "中方揚言反制美國限制海外AI算力",
-      "d": "美國擬禁止中國企業透過東南亞等海外數據中心租用先進美國晶片，北京警告將採取反制措施。",
-      "u": "https://www.semafor.com/article/11/17/2026/china-threatens-retaliation-against-us-chip-curbs"
+      "t": "委內瑞拉與美國簽訂軍事協議",
+      "d": "馬杜羅下台不足一年，委內瑞拉與美國簽署防務協議，美國對這個石油大國的影響力進一步加深。",
+      "u": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo"
+     },
+     {
+      "t": "丹麥國會通過格陵蘭防務協議",
+      "d": "丹麥國會通過安全協議，容許美國在格陵蘭設立新防務區域，緩和雙方就這個北極島嶼的長期爭拗。",
+      "u": "https://news.rthk.hk/rthk/ch/component/k2/1878512-20261120.htm"
      }
     ]
    },
@@ -187,19 +187,19 @@
     "h": "商業及經濟",
     "items": [
      {
-      "t": "Nvidia收入創新高達1158億美元 股價仍下跌",
-      "d": "收入按年翻倍，預計下季約1300億美元（不計中國）。董事會表明不會讓黃仁勳復任行政總裁，股價跌近3%。",
-      "u": "https://www.scrippsnews.com/business/nvidia-board-rules-out-jensen-huangs-return-as-ceo-during-earnings-call"
+      "t": "富時100指數回落　市場焦點落在Anthropic",
+      "d": "倫敦藍籌股周四收低，市場注意力集中在Anthropic紐約上市，提振經歷波動一周的美國科技股氣氛。",
+      "u": "https://www.lse.co.uk/news/london-market-close-ftse-100-down-but-anthropic-makes-strong-debut-cvq2se0vjggko2j.html"
      },
      {
-      "t": "富時100指數跌1.3% 金屬價格急挫",
-      "d": "美元轉強及市場對AI存疑，金、銀、銅價下滑，礦業股領跌。英國通脹升至3.6%，略低於預期。",
-      "u": "https://www.marketscreener.com/news/ftse-100-sinks-as-miners-plummet-inflation-rises-ce785edddd8cff27"
+      "t": "美國財團擊敗中國對手奪肯尼亞大型礦業合約",
+      "d": "一個美國牽頭的財團奪得肯尼亞大型採礦合約，反映華府正積極在非洲爭取關鍵礦產，與中國競爭。",
+      "u": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o"
      },
      {
-      "t": "恒指失守23000點 科技股急跌",
-      "d": "港股半日跌近2%，騰訊及阿里巴巴跌6%至7%，深圳峰會同日舉行。",
-      "u": "https://news.rthk.hk/rthk/ch/component/k2/1878415-20261119.htm"
+      "t": "梵高畫作以創紀錄1.904億美元成交",
+      "d": "畫作雖涉納粹時期來歷爭議，仍在紐約拍賣以破紀錄價格成交，顯示頂級藝術品市場需求強勁。",
+      "u": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo"
      }
     ]
    },
@@ -207,34 +207,29 @@
     "h": "科技",
     "items": [
      {
-      "t": "OpenAI推出GPT-6.2 Astra及Sol",
-      "d": "Astra針對高難度編程及研究工作，Sol則是較便宜的日常模型，兩者均開放予ChatGPT付費用戶、Codex及API。",
-      "u": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+      "t": "Google推出Gemini 4 Neon模型",
+      "d": "新中階模型在Artificial Analysis指數排第三，僅次於GPT-6.2 Astra及Claude Fable 5.2，收費每百萬token 3/15美元，並在Gemini app取代Argon。",
+      "u": "https://thenextweb.com/news/gemini-4-neon-google-third-intelligence-index-replaces-argon"
      },
      {
-      "t": "「Java4Shell」漏洞可讓黑客遙控Java伺服器",
-      "d": "Java的Base64解碼器出現嚴重漏洞，無需登入即可遠程執行程式碼。美國網絡安全局促請企業立即更新並重啟所有Java程序。",
-      "u": "https://www.security.com/threat-intelligence/java4shell-cve2026114938-patch-now"
+      "t": "Intel 18A製程首獲外部客戶",
+      "d": "Intel表示其最先進製程簽下首個外部客戶，良率據報達七成，Microsoft亦採用其EMIB封裝技術，為Intel晶圓代工業務重振帶來支持。",
+      "u": "https://www.trendforce.com/news/2026/11/19/news-intel-scores-dual-foundry-wins-microsoft-named-first-emib-customer-tan-says-18a-secures-first-external-deal/"
      },
      {
-      "t": "據報Nvidia新管理層撤出中國市場",
-      "d": "黃仁勳被撤職後，據報公司將停止向中國銷售晶片，放棄其一直力保的市場。",
-      "u": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
+      "t": "《GTA 6》全球推出　評分破紀錄",
+      "d": "Rockstar的《俠盜獵車手6》正式推出，此前已成為Metacritic史上評分最高遊戲。玩家排隊搶購甚至請假，PS5用家須先更新系統才能遊玩。",
+      "u": "https://www.bbc.co.uk/news/articles/c6z74ep2n17zo"
      },
      {
-      "t": "黃仁勳12月1日到國會作供",
-      "d": "Nvidia前行政總裁同意出席眾議院委員會聆訊，交代可能的國家安全漏洞，公司法律總顧問翌日亦會作供。",
-      "u": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-house-committee.html"
+      "t": "美國對東南亞晶片新限制劍指中國",
+      "d": "華府最新措施針對經東南亞數據中心流動的AI晶片，堵塞中國企業取得先進算力的途徑。",
+      "u": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo"
      },
      {
-      "t": "Microsoft推出平價編程模型MAI Code 2",
-      "d": "MAI Code 2及輕量版Flash以遠低於對手的成本處理日常軟件開發，已加入GitHub Copilot。",
-      "u": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/"
-     },
-     {
-      "t": "Google將保留部分Gemini對話兩個月",
-      "d": "即使關閉記錄，對話亦會保留約兩個月（原為72小時），作安全及營運用途；用戶仍可拒絕用作訓練。",
-      "u": "https://gizmodo.com/google-to-keep-ai-chat-logs-for-two-months-even-with-gemini-history-turned-off-2000841271"
+      "t": "Anthropic上市考驗AI「循環融資」",
+      "d": "Google、Microsoft及Nvidia等大股東同時向Anthropic出售晶片及雲端服務，上市將檢驗這些交易是否反映真實需求。",
+      "u": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/"
      }
     ]
    },
@@ -242,19 +237,19 @@
     "h": "科學及健康",
     "items": [
      {
-      "t": "美國正式失去「麻疹消除」地位",
-      "d": "美國時隔26年失去麻疹消除地位，今年約5400宗病例、10人死亡，為1990年代以來最多，疫苗接種率下降。",
-      "u": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+      "t": "DeepMind AlphaGenome 2令科學家驚嘆",
+      "d": "新AI能預測DNA變異可能影響哪類細胞，有助加快尋找疾病的遺傳成因。",
+      "u": "https://www.nature.com/articles/d41586-026-03673-0"
      },
      {
-      "t": "地球岩層缺失十億年之謎或有解",
-      "d": "《自然》期刊研究指，地幔緩慢對流令大陸抬升，舊岩層被侵蝕，或可解釋「大不整合面」的缺口。",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261116023403.htm"
+      "t": "數據顯示RSV疫苗大減感染",
+      "d": "預防呼吸道合胞病毒的疫苗及抗體針，大幅減少嬰兒及長者入院個案，對付這種常見冬季病毒成效顯著。",
+      "u": "https://www.nature.com/articles/d41586-026-03573-3"
      },
      {
-      "t": "宇宙最古老光線或有扭轉 新方法驗證",
-      "d": "加州大學聖地牙哥分校物理學家以新方法分析普朗克衛星數據，結果與早前研究吻合，或指向新物理。",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm"
+      "t": "新肥胖定義預測健康比BMI更準",
+      "d": "研究指出，在身高體重以外加入腰圍，比單用BMI更準確反映健康風險。",
+      "u": "https://www.nature.com/articles/d41586-026-03636-5"
      }
     ]
    },
@@ -262,19 +257,14 @@
     "h": "英國",
     "items": [
      {
-      "t": "英格蘭及威爾斯將廢除「封建」租賃業權制",
-      "d": "新法案將令大部分新建住宅不再採用租賃業權，並把地租上限定為每年250英鎊。",
+      "t": "新冠調查報告評檢測及追蹤系統",
+      "d": "英國新冠疫情公開調查最新報告，就檢測、接觸追蹤及2021年「通知疫潮」作出結論，當時程式通知令大批人須隔離。",
+      "u": "https://www.bbc.co.uk/news/articles/crx20q8ql4gwo"
+     },
+     {
+      "t": "政府公布英格蘭及威爾斯廢除租賃業權時間表",
+      "d": "政府公布逐步拆解租賃業權制度的時間表，業主將轉向共同業權，地租及不少管理費爭拗可望終結。",
       "u": "https://www.bbc.co.uk/news/articles/cw987ynpd0n1o"
-     },
-     {
-      "t": "調查指Bayesian遊艇船員事前不知風險",
-      "d": "遊艇在西西里島對開沉沒，釀成包括科技富豪Mike Lynch在內七人死亡；調查報告指船員不知危險。",
-      "u": "https://www.bbc.co.uk/news/articles/c6e9kn15z9d7o"
-     },
-     {
-      "t": "哈里王子稱願重返軍隊",
-      "d": "薩塞克斯公爵警告俄羅斯威脅，認為國民應準備在有需要時再為國效力。",
-      "u": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko"
      }
     ]
    }
@@ -282,88 +272,84 @@
  },
  "sources": [
   {
-   "title": "Trump, Xi and Putin hold first three-way summit in Shenzhen",
-   "url": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting"
+   "title": "Trump, Xi and Putin issue 'peace declaration' in Shenzhen",
+   "url": "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways"
   },
   {
-   "title": "Iran widens Gulf attacks, targeting US base in Kuwait and Bahrain",
-   "url": "https://www.pbs.org/newshour/world/iran-widens-gulf-attacks-by-targeting-u-s-air-base-in-kuwait-and-sites-in-bahrain"
+   "title": "Anthropic shares soar in record-breaking Nasdaq debut",
+   "url": "https://www.cbsnews.com/news/anthropic-ipo-nasdaq-debut-claude-ai/"
   },
   {
-   "title": "Anthropic prices record IPO at $83 a share",
-   "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+   "title": "Iran hits US base in Kuwait and Bahrain as Gulf war widens",
+   "url": "https://gulfnews.com/world/mena/middle-east-war-riyadh-skyscraper-damaged-tanker-hit-near-oman-as-trump-weighs-fresh-iran-strikes-1.500752996"
   },
   {
-   "title": "UN court to rule on whether Myanmar committed genocide",
-   "url": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o"
+   "title": "UN top court rules Myanmar committed genocide against Rohingya",
+   "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo"
   },
   {
-   "title": "Russian arrested in US for spying on Palantir staff",
-   "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o"
+   "title": "Putin vows 'far more painful' response to Crimean Bridge strikes",
+   "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo"
   },
   {
-   "title": "China threatens retaliation over US curbs on overseas AI computing",
-   "url": "https://www.semafor.com/article/11/17/2026/china-threatens-retaliation-against-us-chip-curbs"
+   "title": "Venezuela signs military deal with the US",
+   "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo"
   },
   {
-   "title": "Nvidia posts record $115.8bn revenue, but shares slide",
-   "url": "https://www.scrippsnews.com/business/nvidia-board-rules-out-jensen-huangs-return-as-ceo-during-earnings-call"
+   "title": "Denmark approves Greenland defence deal with the US",
+   "url": "https://news.rthk.hk/rthk/ch/component/k2/1878512-20261120.htm"
   },
   {
-   "title": "FTSE 100 drops 1.3% as metal prices tumble",
-   "url": "https://www.marketscreener.com/news/ftse-100-sinks-as-miners-plummet-inflation-rises-ce785edddd8cff27"
+   "title": "FTSE 100 slips while Wall Street eyes Anthropic",
+   "url": "https://www.lse.co.uk/news/london-market-close-ftse-100-down-but-anthropic-makes-strong-debut-cvq2se0vjggko2j.html"
   },
   {
-   "title": "Hang Seng falls below 23,000 as tech stocks slump",
-   "url": "https://news.rthk.hk/rthk/ch/component/k2/1878415-20261119.htm"
+   "title": "US group beats Chinese rivals to huge Kenya mining deal",
+   "url": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o"
   },
   {
-   "title": "OpenAI launches GPT-6.2 Astra and Sol",
-   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+   "title": "Van Gogh painting sells for record $190.4m",
+   "url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo"
   },
   {
-   "title": "'Java4Shell' flaw lets hackers take over Java servers",
-   "url": "https://www.security.com/threat-intelligence/java4shell-cve2026114938-patch-now"
+   "title": "Google launches Gemini 4 Neon model",
+   "url": "https://thenextweb.com/news/gemini-4-neon-google-third-intelligence-index-replaces-argon"
   },
   {
-   "title": "Nvidia's new leaders reportedly pull out of China",
-   "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
+   "title": "Intel lands first outside customer for its 18A chips",
+   "url": "https://www.trendforce.com/news/2026/11/19/news-intel-scores-dual-foundry-wins-microsoft-named-first-emib-customer-tan-says-18a-secures-first-external-deal/"
   },
   {
-   "title": "Jensen Huang to testify to Congress on 1 December",
-   "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-house-committee.html"
+   "title": "GTA 6 launches worldwide to record reviews",
+   "url": "https://www.bbc.co.uk/news/articles/c6z74ep2n17zo"
   },
   {
-   "title": "Microsoft releases cheaper MAI Code 2 coding models",
-   "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/"
+   "title": "New US chip curbs on South East Asia aim at China",
+   "url": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo"
   },
   {
-   "title": "Google to keep some Gemini chats for two months",
-   "url": "https://gizmodo.com/google-to-keep-ai-chat-logs-for-two-months-even-with-gemini-history-turned-off-2000841271"
+   "title": "Anthropic IPO puts AI's circular financing to the test",
+   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/"
   },
   {
-   "title": "US officially loses measles elimination status",
-   "url": "https://www.npr.org/2026/11/17/nx-s1-6044227/u-s-officially-loses-its-measles-elimination-status"
+   "title": "DeepMind's AlphaGenome 2 impresses geneticists",
+   "url": "https://www.nature.com/articles/d41586-026-03673-0"
   },
   {
-   "title": "Why a billion years vanished from Earth's rock record",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261116023403.htm"
+   "title": "RSV jabs are slashing infections, data show",
+   "url": "https://www.nature.com/articles/d41586-026-03573-3"
   },
   {
-   "title": "New test for a possible twist in the universe's oldest light",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261116023348.htm"
+   "title": "New obesity definition beats BMI at predicting health",
+   "url": "https://www.nature.com/articles/d41586-026-03636-5"
   },
   {
-   "title": "'Feudal' leasehold to be scrapped in England and Wales",
+   "title": "Covid inquiry delivers verdict on test and trace",
+   "url": "https://www.bbc.co.uk/news/articles/crx20q8ql4gwo"
+  },
+  {
+   "title": "Timetable set for ending leasehold in England and Wales",
    "url": "https://www.bbc.co.uk/news/articles/cw987ynpd0n1o"
-  },
-  {
-   "title": "Bayesian crew unaware of risks, investigators find",
-   "url": "https://www.bbc.co.uk/news/articles/c6e9kn15z9d7o"
-  },
-  {
-   "title": "Prince Harry says he would rejoin the army",
-   "url": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko"
   }
  ]
 }
