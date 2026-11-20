@@ -1,53 +1,54 @@
 {
-  "date": "2026-11-19",
-  "updated": "2026-11-19T05:10:37+00:00",
-  "id": "plunder-max-hastings",
-  "t": "Plunder: The Last of the War in Europe, 1945",
-  "tz": "《掠奪：1945年歐洲戰爭的終章》",
+  "date": "2026-11-20",
+  "updated": "2026-11-20T05:20:00+00:00",
+  "id": "reverse-centaurs-guide-to-life-after-ai-cory-doctorow",
+  "t": "The Reverse Centaur's Guide to Life After AI",
+  "tz": "《反向半人馬：AI 之後生活指南》",
   "tz_note": "暫譯",
-  "a": "Max Hastings",
-  "published": "24 Sep 2026",
-  "publisher": "HarperCollins",
-  "pages": 448,
+  "a": "Cory Doctorow",
+  "published": "23 Jun 2026",
+  "publisher": "Verso Books (UK); MCD / Farrar, Straus and Giroux (US)",
+  "pages": 240,
   "isbn": [
-    "9780008778231"
+    "9781836745525",
+    "9780374621568"
   ],
-  "cover_url": "https://mrbsemporium.com/wp-content/uploads/2026/08/9780008778231.jpg",
-  "tag": "歷史",
-  "en": "Veteran military historian Max Hastings returns to the final weeks of the Second World War in western Europe, taking his title from Montgomery's Rhine crossing of March 1945, Operation Plunder. He moves between generals and ordinary people: the seizure of the Remagen bridge, Nazi 'Werewolf' killers in Aachen, the Dutch famine, the liberation of Belsen, Patton's doomed raid to free his son-in-law and the last SAS mission, ending with the German surrenders. A running thread is why German soldiers kept fighting so fiercely when all was lost. For anyone who likes big history told through vivid human stories.",
-  "zh": "資深戰史作家 Max Hastings 帶你重返二戰喺西歐嘅最後幾個星期。書名取自 1945 年 3 月蒙哥馬利橫渡萊茵河嘅「掠奪行動」。佢喺將軍同普通人之間穿插：盟軍搶佔雷馬根大橋、納粹「狼人」喺亞琛暗殺市長、荷蘭大饑荒、解放貝爾森集中營、巴頓為救女婿而發動嘅失敗突襲，同 SAS 最後一次任務，一直講到德國投降。書中不斷追問：明知必敗，點解德軍仲咁死命頑抗？適合鍾意由真實人物故事睇大歷史嘅讀者。",
+  "cover_url": "https://mrbsemporium.com/wp-content/uploads/2026/05/9781836745525.jpg",
+  "tag": "AI",
+  "en": "A \"centaur\" is a person whom technology makes stronger. A \"reverse centaur\" is the opposite: a delivery driver, warehouse worker or coder forced by software to work at a machine's pace. Cory Doctorow, author of Enshittification, uses this idea to ask who AI is really for. He argues that much of the AI boom is hype fuelled by investors who need endless growth, that chatbots are useful but cannot do many of the jobs bosses hope to replace, and that the bubble could hurt the wider economy. He is not anti-AI and uses it himself. A short, punchy read for anyone who wants a clear-eyed view of AI at work.",
+  "zh": "「半人馬」係指借科技令自己更強嘅人；「反向半人馬」就啱啱相反：送貨司機、倉務員、程式員，被軟件逼住用機器嘅速度做嘢。寫過《Enshittification》嘅 Cory Doctorow 用呢個比喻問一個問題：人工智能究竟係為邊個服務？佢認為好多 AI 熱潮只係投資者為咗追求無限增長而炒作出嚟；聊天機械人有用，但做唔到老闆想取代嘅好多工作；而呢個泡沫大到可能拖累成個經濟。佢唔係反對 AI，自己都有用。篇幅短、講得爽快，啱想冷靜睇清 AI 點樣影響工作嘅讀者。",
   "reviews": [
     {
-      "src": "The Spectator",
-      "d": "Michela Wrong calls Hastings 'a natural storyteller' with strong material; some passages feel like a class teacher and linger on archives.",
-      "dz": "讚佢係天生說故事高手，材料扎實；但有時似老師說教，部分檔案太長。",
-      "url": "https://spectator.com/article/the-dark-finale-of-the-second-world-war/"
+      "src": "City AM",
+      "d": "Persuasive and reassuring on AI hype, but the confident tone grates; too early to call, as railways and dotcom survived their bubbles.",
+      "dz": "講AI炒作有說服力，但語氣太篤定；鐵路同科網都捱過泡沫。",
+      "url": "https://www.cityam.com/book-review-the-reverse-centaurs-guide-to-life-after-ai-by-cory-doctorow/"
     },
     {
-      "src": "Marginal Revolution",
-      "d": "Tyler Cowen says he benefited from every page, struck by how hard the Germans fought on the way down.",
-      "dz": "Tyler Cowen 話每頁都有得着，驚訝德軍敗局已定仍死戰。",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/plunder-the-last-of-the-war-in-europe-1945.html"
+      "src": "Quillette",
+      "d": "A \"wonderful\" book: shows LLMs are useful but not truly intelligent, and that their gains go to a narrow group of insiders.",
+      "dz": "好書：講清大型語言模型有用但唔算真正有智能，好處只落入少數人手。",
+      "url": "https://quillette.com/2026/07/18/the-modern-mythology-of-ai-cory-doctorow-review/"
     }
   ],
-  "ken": "Wars rarely end cleanly: some of the cruellest fighting and suffering of 1945 came after the outcome was already certain.",
-  "kzh": "戰爭好少乾淨利落咁完結：1945 年最慘烈嘅戰鬥同苦難，好多都發生喺勝負早已分明之後。",
+  "ken": "Ask of any AI tool: does it make the worker a centaur, or turn them into a reverse centaur?",
+  "kzh": "用任何 AI 工具前問一句：佢令工人變成半人馬，定係反向半人馬？",
   "sources": [
     {
-      "title": "The Spectator: The dark finale of the Second World War (Michela Wrong)",
-      "url": "https://spectator.com/article/the-dark-finale-of-the-second-world-war/"
+      "title": "City AM review (Simon Hunt)",
+      "url": "https://www.cityam.com/book-review-the-reverse-centaurs-guide-to-life-after-ai-by-cory-doctorow/"
     },
     {
-      "title": "Marginal Revolution: Plunder (Tyler Cowen)",
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/plunder-the-last-of-the-war-in-europe-1945.html"
+      "title": "Quillette review (Peter L. Levin)",
+      "url": "https://quillette.com/2026/07/18/the-modern-mythology-of-ai-cory-doctorow-review/"
     },
     {
-      "title": "Topping & Company: Plunder",
-      "url": "https://www.toppingbooks.co.uk/books/max-hastings/plunder/9780008778231/"
+      "title": "Mr B's Emporium (UK edition)",
+      "url": "https://mrbsemporium.com/shop/books/the-reverse-centaurs-guide-to-life-after-ai/"
     },
     {
-      "title": "jpc.de: Plunder (details)",
-      "url": "https://www.jpc.de/jpcng/books/detail/-/art/max-hastings-plunder/hnum/12639559"
+      "title": "Porchlight Books (US edition)",
+      "url": "https://www.porchlightbooks.com/products/reverse-centaurs-guide-to-life-after-ai-cory-doctorow-9780374621568"
     }
   ]
 }
