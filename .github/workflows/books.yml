@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - books.json
+      - bestsellers.json
       - tools/build_books.py
       - .github/workflows/books.yml
 permissions:

@@ -56,6 +56,9 @@ def shrink(data):
 
 def main():
     books = json.load(open("books.json", encoding="utf-8"))["books"]
+    if os.path.exists("bestsellers.json"):   # the bestsellers page: books that aren't in books.json need covers too
+        for l in json.load(open("bestsellers.json", encoding="utf-8"))["lists"]:
+            books += [b for b in l["books"] if not b.get("ref")]
     os.makedirs(OUT, exist_ok=True)
     missing = []
     for b in books:

@@ -658,6 +658,60 @@ body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state
 #bkView .msg b { font-size: 46px; }
 #bkView .msg a { color: #9cc7ff; font-weight: 700; text-decoration: none; }
 #bkRv:empty { display: none; }
+/* prize page (5 UK + 5 Taiwan) + bestsellers page (Eslite, NYT, UK) + the pop-up brief they share */
+.bkpg { padding: 26px 40px 58px; display: flex; flex-direction: column; gap: 14px; }
+.bkpg .top { display: flex; align-items: baseline; justify-content: space-between; padding: 0 6px; }
+.bkpg h1 { margin: 0; font-size: 44px; font-weight: 600; letter-spacing: -.01em; }
+.bkpg h1 span { font-size: 22px; color: var(--muted); margin-left: 14px; font-weight: 600; }
+.bkpg .hint { font-size: 17px; color: var(--muted); font-weight: 600; }
+.prow { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 10px; }
+.prow h2 { margin: 0 6px; font-size: 21px; font-weight: 700; color: #f3c46b; }
+.prow h2 small { font-size: 16px; color: var(--muted); font-weight: 600; margin-left: 10px; }
+.prow .row { flex: 1; min-height: 0; display: flex; gap: 16px; }
+.pbk { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 7px; padding: 14px 14px 12px; border-radius: 22px; background: var(--tile); border: 1px solid var(--line); cursor: pointer; overflow: hidden; }
+.pbk .bkc { width: 66%; padding-top: 99%; margin: 0 auto 4px; font-size: 8.5px; flex: none; }
+.pbk i { font-style: normal; font-size: 14px; font-weight: 800; color: #f3c46b; }
+.pbk b { font-size: 19px; line-height: 1.18; font-weight: 800; color: #e9eef4; }
+.pbk .z { font-size: 16px; color: #dfe6ee; font-weight: 600; }
+.pbk small { font-size: 14px; color: var(--muted); font-weight: 600; }
+.pbk:active, .bsr:active { background: var(--tile-2); }
+#bsCols { flex: 1; min-height: 0; display: flex; gap: 18px; }
+.bsmsg { margin: auto; font-size: 22px; color: var(--muted); }
+.bscol { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 8px; background: var(--tile); border-radius: 26px; padding: 16px 16px 12px; }
+.bscol h2 { margin: 0 4px 2px; font-size: 22px; font-weight: 800; color: var(--c); }
+.bscol h2 small { display: block; font-size: 14px; color: var(--muted); font-weight: 600; margin-top: 2px; }
+.bsr { flex: 1; min-height: 0; display: flex; gap: 12px; align-items: center; padding: 6px 8px; border-radius: 16px; cursor: pointer; }
+.bsr .n { flex: none; width: 30px; font-size: 30px; font-weight: 800; color: var(--c); text-align: center; }
+.bsr .bkc { flex: none; width: 82px; padding-top: 123px; font-size: 5px; }
+.bsr .tx { min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.bsr b { font-size: 18px; line-height: 1.2; font-weight: 800; color: #e9eef4; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.bsr .z { font-size: 15px; color: #dfe6ee; font-weight: 600; }
+.bsr small { font-size: 14px; color: var(--muted); font-weight: 600; }
+.bscol .src { font-size: 12.5px; color: var(--muted); margin: 0 6px; }
+#bkPop { position: absolute; left: 60px; right: 60px; top: 90px; max-height: 864px; box-sizing: border-box; z-index: 6; display: flex; gap: 34px; padding: 30px 34px; border-radius: 30px; background: #0e131b; border: 1px solid var(--line); box-shadow: 0 30px 90px rgba(0,0,0,.7); }
+#bkPop[hidden] { display: none; }
+#bkPop .l { flex: none; width: 260px; display: flex; flex-direction: column; gap: 14px; }
+#bkPop .r { flex: 1; min-width: 0; display: flex; flex-direction: column; overflow-y: auto; -webkit-overflow-scrolling: touch; padding-right: 6px; }
+#bkPop .x { position: absolute; right: 20px; top: 18px; font: 700 18px var(--font); background: #2a3646; color: var(--fg); border: 0; border-radius: 999px; padding: 10px 20px; }
+#bkPop .chip { align-self: flex-start; font-size: 16px; font-weight: 800; color: #1a1406; background: linear-gradient(90deg, #f3c46b, #ffe2a0); padding: 5px 14px; border-radius: 10px; margin-right: 120px; }
+#bkPop .chip.bs { background: var(--c, #9cc7ff); }
+#bkPop h2 { margin: 12px 0 0; font-size: 36px; line-height: 1.1; font-weight: 800; letter-spacing: -.01em; }
+#bkPop .z { font-size: 24px; color: #dfe6ee; font-weight: 600; margin-top: 6px; }
+#bkPop .a { font-size: 19px; color: var(--muted); font-weight: 600; margin-top: 6px; }
+#bkPop p { font-size: 18.5px; line-height: 1.5; color: #d6dee8; margin: 12px 0 0; }
+#bkPop p.zh { color: #e9eef4; line-height: 1.6; }
+#bkPop .q { margin-top: 14px; font-size: 17px; font-style: italic; color: #f3e3b8; }
+#bkPop .q small { font-style: normal; color: var(--muted); margin-left: 6px; }
+#bkPop .btn { display: block; text-align: center; font: 700 17px var(--font); border: 0; border-radius: 999px; padding: 12px 14px; text-decoration: none; }
+#bkPop .btn.yt { background: #ff4e45; color: #fff; }
+#bkPop .btn.rd { background: #6aaef8; color: #0b1016; }
+#bkPop h3 { font-size: 15px; font-weight: 700; color: var(--muted); margin: 20px 0 8px; letter-spacing: .03em; }
+#bkPop .vids { display: flex; gap: 12px; }
+#bkPop .vid { flex: 0 0 31%; min-width: 0; cursor: pointer; font-size: 14px; line-height: 1.3; color: #d6dee8; }
+#bkPop .vid .th { position: relative; padding-top: 56%; border-radius: 12px; background: #222c38 center / cover; margin-bottom: 6px; }
+#bkPop .vid .th i { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-style: normal; font-size: 22px; color: #fff; background: rgba(0,0,0,.55); border-radius: 999px; padding: 6px 13px; }
+#bkPop .vid small { display: block; color: var(--muted); margin-top: 2px; }
+#bkPop .none { font-size: 15px; color: var(--muted); }
 #bkRv .lbl { font-size: 15px; font-weight: 700; color: var(--muted); margin-bottom: 10px; }
 #bkRv .g { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
 .bkr { background: rgba(0,0,0,.22); border-radius: 16px; padding: 12px 16px; min-width: 0; }
@@ -1237,6 +1291,19 @@ body:not(.ptfw) #tfw * { animation-play-state: paused !important; }
 </div>
 </div>
 <div class="page" id="pcity"><iframe id="cityFrame" src="cities.html?embed" onload="if (window.goPage) goPage(PAGE, true)" title="UK and Hong Kong weather" scrolling="no"></iframe></div>
+<div class="page" id="pprize">
+<div class="stage bkpg" id="prizep">
+  <div class="top"><h1>得獎好書<span>Prize-winning books</span></h1><div class="rng"><span class="hint">撳一本睇簡介 · Tap a book</span></div></div>
+  <div class="prow" id="ppUk"></div>
+  <div class="prow" id="ppTw"></div>
+</div>
+</div>
+<div class="page" id="pbest">
+<div class="stage bkpg" id="bestp">
+  <div class="top"><h1>暢銷榜 Top 5<span>Bestsellers</span></h1><div class="rng"><span class="hint">撳一本睇簡介 · Tap a book</span></div></div>
+  <div id="bsCols"><div class="bsmsg">載入中… Loading</div></div>
+</div>
+</div>
 <div class="page" id="pbook">
 <div class="stage" id="bookp">
   <div class="top"><h1>今日好書<span>Book of the day</span></h1><div class="rng"><button id="bkBack" type="button" hidden>↩ 今日好書</button><button id="bkPrizeBtn" type="button">🏆 得獎小說</button><span id="bkDay"></span><button id="bkPlay" type="button">▶ 讀出嚟</button></div></div>
@@ -1453,7 +1520,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
     dots.appendChild(b);
   }
   // Top bar tabs, one per page.
-  var NAMES = { p1: '🏠 Home', ptfl: '🚆 Trains', ptfw: '🗺️ Works', pcal: '📅 Week', pnews: '📰 News', pyt: '▶️ YouTube', pytw: '🌍 World TV', phk: '🇭🇰 HK', pcity: '⛅ UK · HK', pbook: '📚 Book', pspace: '🚀 Space', psolar: '🪐 Planets', p3: '⚽ League', pbday: '🎂 Birthdays', p2: '🕰️ Clock', penergy: '⚡ Energy', preview: '📊 Review', ptips: '💡 Tips' };
+  var NAMES = { p1: '🏠 Home', ptfl: '🚆 Trains', ptfw: '🗺️ Works', pcal: '📅 Week', pnews: '📰 News', pyt: '▶️ YouTube', pytw: '🌍 World TV', phk: '🇭🇰 HK', pcity: '⛅ UK · HK', pprize: '🏆 Prizes', pbest: '📈 Top 5', pbook: '📚 Book', pspace: '🚀 Space', psolar: '🪐 Planets', p3: '⚽ League', pbday: '🎂 Birthdays', p2: '🕰️ Clock', penergy: '⚡ Energy', preview: '📊 Review', ptips: '💡 Tips' };
   var tabs = $('tabs'), tabsTimer = 0;
   for (var t = 0; t < n; t++) {
     var tb = document.createElement('button'); tb.type = 'button'; tb.textContent = NAMES[pages[t].id] || 'Page ' + (t + 1);
@@ -1587,7 +1654,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
   setInterval(function () {
     var R = CONFIG.rotate; if (!R || !R.secs || !R.pages || !R.pages.length) return;
     if (isNight()) { pageAt = Date.now(); return; }   // night: no page turning, even while peeking
-    if ((typeof noteOpen !== 'undefined' && noteOpen) || window.BOARD_BUSY || window.YT_BUSY || (window.speechSynthesis && speechSynthesis.speaking)) { pageAt = Date.now(); return; }
+    if ((typeof noteOpen !== 'undefined' && noteOpen) || window.BOARD_BUSY || window.YT_BUSY || window.BKPOP || (window.speechSynthesis && speechSynthesis.speaking)) { pageAt = Date.now(); return; }
     var list = R.pages.map(function (p) { return p - 1; });
     if (window.bdaySoon && BDAY_PAGE >= 0 && list.indexOf(BDAY_PAGE) < 0) list.push(BDAY_PAGE);   // birthday page joins in when one is close
     var at = list.indexOf(PAGE);
@@ -3434,9 +3501,11 @@ function bookLoad() {
     if (r[0]) BOOK_TODAY = r[0];
     if (r[1] && r[1].books) BOOKS = r[1].books;
     if (bookNow()) bookDraw(); else $('bkT').textContent = '暫時載入唔到 · Could not load';
+    shelfDraw();
   });
 }
 bookLoad();
+shelfLoad();
 $('bkRv').addEventListener('click', function (e) {   // tap the video card: play it here, like the YouTube pages
   var el = e.target; while (el && el !== this && !/\bbkv\b/.test(el.className)) el = el.parentNode;
   if (el && el !== this && BOOK_VID && window.ytShow) ytShow(BOOK_VID.id, (BOOK_VID.kind ? BOOK_VID.kind + ' · ' : '') + (BOOK_VID.ch || ''), esc(BOOK_VID.t || ''), this);
@@ -3450,9 +3519,105 @@ $('bkShelf').addEventListener('click', function (e) {   // tap a prize book: sho
   BOOK_PICK = b === bookDaily() ? null : b; BOOK_PICK_T = Date.now(); this.hidden = true; bookDraw();
 });
 $('bkBack').addEventListener('click', function () { BOOK_PICK = null; bookDraw(); });
-$('bkPrizeBtn').addEventListener('click', function () { $('bkShelf').hidden = !$('bkShelf').hidden; pageAt = Date.now(); });
+$('bkPrizeBtn').addEventListener('click', function () { var t = $('track').children; for (var i = 0; i < t.length; i++) if (t[i].id === 'pprize') goPage(i); });
 setInterval(function () { if (!$('bkShelf').hidden && Date.now() - pageAt > 2 * 60000) $('bkShelf').hidden = true; }, 30000);
 setInterval(function () { if (BOOK_PICK && bookNow() !== BOOK_PICK) { BOOK_PICK = null; bookDraw(); } }, 30000);
+
+/* Prize page (5 UK + 5 Taiwan prize books, books.json "pp") and bestsellers page (bestsellers.json).
+   Tap a book: a pop-up brief with YouTube reviews (bookvids.json, found weekly by GitHub) and a button that
+   searches YouTube for more. Books that are also in books.json can open the full sheet with sample pages. */
+var BEST = null, BVIDS = {}, POP = null;
+function shelfLoad() {
+  var h = Math.floor(Date.now() / 1800000);
+  fetch('bestsellers.json?t=' + h).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) { BEST = d; shelfDraw(); }).catch(function () {});
+  fetch('bookvids.json?t=' + h).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) { BVIDS = d.books || {}; }).catch(function () {});
+}
+setInterval(shelfLoad, 6 * 3600000);
+function bookById(id) { return (BOOKS || []).filter(function (x) { return x.id === id; })[0]; }
+function bestBook(b) { return b.ref && bookById(b.ref) || b; }
+function shelfDraw() {
+  if (BOOKS) [['uk', 'ppUk', '🇬🇧 英國文學獎', 'UK prizes'], ['tw', 'ppTw', '🇹🇼 台灣文學獎', 'Taiwan prizes']].forEach(function (k) {
+    var bs = BOOKS.filter(function (b) { return b.pp === k[0]; }).sort(function (a, b) { return (b.py || 0) - (a.py || 0); }).slice(0, 5);
+    $(k[1]).innerHTML = '<h2>' + k[2] + '<small>' + k[3] + '</small></h2><div class="row">' + bs.map(function (b) {
+      return '<div class="pbk" data-id="' + esc(b.id) + '">' + bookCover(b) + '<i>🏆 ' + esc(b.prize_s || b.prize) + '</i><b>' + esc(b.t) + '</b>' +
+        (b.tz && b.tz !== b.t && !/^The /.test(b.tz) ? '<span class="z">' + esc(b.tz.replace(/^《|》$/g, '')) + '</span>' : '') + '<small>' + esc(b.az || b.a) + '</small></div>';
+    }).join('') + '</div>';
+  });
+  if (BEST && BEST.lists && BOOKS) $('bsCols').innerHTML = BEST.lists.map(function (l) {
+    return '<div class="bscol" style="--c:' + esc(l.c || '#9cc7ff') + '"><h2>' + esc(l.flag || '') + ' ' + esc(l.name) + '<small>' + esc(l.en) + ' · ' + esc(l.asof || '') + '</small></h2>' +
+      l.books.slice(0, 5).map(function (r) {
+        var b = bestBook(r), zhFirst = l.key === 'eslite';
+        var t1 = zhFirst && b.tz ? b.tz : b.t, t2 = zhFirst ? (b.tz ? b.t : '') : (b.tz && b.tz !== b.t ? b.tz : '');
+        return '<div class="bsr" data-l="' + esc(l.key) + '" data-id="' + esc(r.id) + '"><span class="n">' + r.rank + '</span>' + bookCover(b) +
+          '<div class="tx"><b>' + esc(t1) + '</b>' + (t2 ? '<span class="z">' + esc(t2) + '</span>' : '') + '<small>' + esc(zhFirst && b.az ? b.az : b.a) + '</small></div></div>';
+      }).join('') + (l.note ? '<div class="src">' + esc(l.note) + '</div>' : '') + '</div>';
+  }).join('');
+}
+function popVids(b) {
+  var vs = BVIDS[b.id] || [];
+  if (b.video && b.video.id && !vs.some(function (v) { return v.v === b.video.id; })) vs = [{ v: b.video.id, t: b.video.t, ch: b.video.ch }].concat(vs);
+  return vs.slice(0, 3);
+}
+function popOpen(b, chip, stage) {
+  POP = b;
+  var el = $('bkPop');
+  if (el.parentNode !== stage) stage.appendChild(el);
+  var q = (b.reviews || []).filter(function (r) { return r.q; })[0], zh = !!b.hktw, vs = popVids(b);
+  var en = esc(b.en || '') + (b.more_en ? ' ' + esc(b.more_en) : ''), zt = esc(b.zh || '') + (b.more_zh ? esc(b.more_zh) : '');
+  var sq = (b.hktw || /^bs-/.test(b.id) && b.tz && !b.t ? (b.tz + ' ' + (b.az || '')) : (b.t + ' ' + b.a)) + (zh ? ' 書評' : ' book review');
+  el.innerHTML = '<button type="button" class="x">✕ 關閉 Close</button>' +
+    '<div class="l">' + bookCover(b) +
+      '<a class="btn yt" target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query=' + encodeURIComponent(sq.replace(/[《》]/g, '')) + '">🔎 搵 YouTube 書評</a>' +
+      (bookById(b.id) ? '<button type="button" class="btn rd">📖 試讀 · 詳情 More</button>' : '') + '</div>' +
+    '<div class="r">' + chip + '<h2>' + esc(zh && b.tz ? b.tz.replace(/^《|》$/g, '') : b.t) + '</h2>' +
+      (zh ? (b.t ? '<div class="z">' + esc(b.t) + '</div>' : '') : b.tz && b.tz !== b.t ? '<div class="z">《' + esc(b.tz.replace(/^《|》$/g, '')) + '》</div>' : '') +
+      '<div class="a">' + esc((b.az ? b.az + ' ' : '') + b.a) + (b.published ? ' · ' + esc(b.published) : b.y ? ' · ' + esc(b.y) : '') + '</div>' +
+      (zh ? '<p class="zh">' + zt + '</p><p>' + en + '</p>' : '<p>' + en + '</p><p class="zh">' + zt + '</p>') +
+      (q ? '<div class="q">' + (zh ? '「' + esc(q.q) + '」' : '“' + esc(q.q) + '”') + '<small>' + esc(q.src) + '</small></div>' : '') +
+      '<h3>▶ YOUTUBE 書評 · VIDEO REVIEWS</h3>' + (vs.length ? '<div class="vids">' + vs.map(function (v, i) {
+        return '<div class="vid" data-i="' + i + '"><div class="th" style="background-image:url(https://i.ytimg.com/vi/' + encodeURIComponent(v.v) + '/mqdefault.jpg)"><i>▶</i></div>' + esc(v.t || '') + '<small>' + esc(v.ch || '') + (v.len ? ' · ' + esc(v.len) : '') + '</small></div>';
+      }).join('') + '</div>' : '<div class="none">未搵到現成影片，撳左邊「🔎 搵 YouTube 書評」喺 YouTube 搜尋。<br>No saved videos yet. Tap 🔎 to search YouTube.</div>') +
+    '</div>';
+  el.scrollTop = 0; el.hidden = false; window.BKPOP = true; pageAt = Date.now();
+}
+function popShut() { if ($('bkPop').hidden) return; $('bkPop').hidden = true; POP = null; window.BKPOP = false; pageAt = Date.now(); }
+(function () {
+  var pop = document.createElement('div'); pop.id = 'bkPop'; pop.hidden = true; $('prizep').appendChild(pop);
+  function find(e, attr, top) { var el = e.target; while (el && el !== top && !(el.getAttribute && el.getAttribute(attr))) el = el.parentNode; return el && el !== top ? el : null; }
+  $('prizep').addEventListener('click', function (e) {
+    if ($('bkPop').contains(e.target)) return;
+    var el = find(e, 'data-id', this); if (!el) return;
+    var b = bookById(el.getAttribute('data-id')); if (!b) return;
+    popOpen(b, '<span class="chip">🏆 ' + esc(b.prize || b.prize_s) + (b.prize_zh ? ' · ' + esc(b.prize_zh) : '') + '</span>', this);
+  });
+  $('bestp').addEventListener('click', function (e) {
+    if ($('bkPop').contains(e.target)) return;
+    var el = find(e, 'data-id', this); if (!el || !BEST) return;
+    var l = BEST.lists.filter(function (x) { return x.key === el.getAttribute('data-l'); })[0]; if (!l) return;
+    var r = l.books.filter(function (x) { return x.id === el.getAttribute('data-id'); })[0]; if (!r) return;
+    popOpen(bestBook(r), '<span class="chip bs" style="--c:' + esc(l.c) + '">' + esc(l.flag) + ' ' + esc(l.name) + ' 第 ' + r.rank + ' 位 · No. ' + r.rank + '</span>', this);
+  });
+  pop.addEventListener('click', function (e) {
+    var t = e.target;
+    if (/\bx\b/.test(t.className)) return popShut();
+    if (/\brd\b/.test(t.className) && POP) {   // the full sheet (long description, all reviews, sample pages) on the book page
+      var b = POP, tr = $('track').children; popShut();
+      BOOK_PICK = b === bookDaily() ? null : b; BOOK_PICK_T = Date.now(); bookDraw();
+      for (var i = 0; i < tr.length; i++) if (tr[i].id === 'pbook') goPage(i);
+      setTimeout(bookSheet, 450); return;
+    }
+    if (/\byt\b/.test(t.className)) { pageAt = Date.now(); return; }
+    while (t && t !== pop && !(t.getAttribute && t.getAttribute('data-i'))) t = t.parentNode;
+    if (t && t !== pop && POP && window.ytShow) {
+      var v = popVids(POP)[+t.getAttribute('data-i')];
+      if (v) ytShow(v.v, 'YouTube · ' + (v.ch || ''), esc(v.t || ''), pop);
+    }
+  });
+  setInterval(function () {   // close after 10 minutes, or when someone swipes away
+    var id = $('track').children[PAGE].id;
+    if (!$('bkPop').hidden && ((id !== 'pprize' && id !== 'pbest') || Date.now() - pageAt > 10 * 60000)) popShut();
+  }, 30000);
+})();
 
 /* Book sheet: the long description, every review, and the first pages from Google Books where the publisher allows a
    preview (Google's own embeddable viewer; we look the book up by ISBN, then by title + author). */
@@ -3895,7 +4060,7 @@ setTimeout(function () { location.replace(freshURL()); }, 6 * 3600 * 1000);
   $('ytClose').addEventListener('click', shut);
   $('ytOpen').addEventListener('click', function () { setTimeout(shut, 500); });
   setInterval(function () {   // close the player if someone swipes away from the page
-    if (!$('ytPlay').hidden && !/^(pytw?|pbook)$/.test($('track').children[PAGE].id)) shut();
+    if (!$('ytPlay').hidden && !/^(pytw?|pbook|pprize|pbest)$/.test($('track').children[PAGE].id)) shut();
     if (YT && $('ytPlay').hidden) draw();   // keep "x 分鐘前" fresh
   }, 60000);
   load(); setInterval(load, 10 * 60000);

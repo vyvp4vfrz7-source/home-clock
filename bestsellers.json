@@ -1,0 +1,178 @@
+{
+ "_about": "Top 5 bestsellers shown on the 📈 bestsellers page. Each list: name/en/flag/c (colour)/asof, books in rank order. A book with ref = an id in books.json reuses that book (cover, reviews, sample pages). Otherwise t/a (English), tz/az (Chinese), en/zh brief. Covers are saved as books/<id>.jpg by books.yml (cover \"\" = plain drawn cover).",
+ "updated": "2026-11-20",
+ "lists": [
+  {
+   "key": "eslite",
+   "name": "誠品暢銷榜",
+   "en": "Eslite, Taiwan",
+   "flag": "🇹🇼",
+   "c": "#7fd3a8",
+   "asof": "2026 全年 · Year so far (17 Nov 2026)",
+   "books": [
+    {
+     "id": "bs-taiwan-travelogue",
+     "ref": "taiwan-travelogue-yang",
+     "rank": 1
+    },
+    {
+     "id": "bs-naval",
+     "t": "The Almanack of Naval Ravikant",
+     "tz": "納瓦爾寶典",
+     "a": "Eric Jorgenson",
+     "az": "艾瑞克·喬根森",
+     "tag": "商業",
+     "en": "Silicon Valley investor Naval Ravikant's thoughts on getting rich without getting lucky, and on being happy, gathered from his interviews and tweets. Wealth comes from owning things that earn while you sleep, and from judgment and leverage; happiness is a skill you can practise.",
+     "zh": "矽谷投資人 Naval Ravikant 嘅訪問同推文整理成書。講點樣唔靠運氣致富：擁有會幫你「瞓覺都賺錢」嘅資產，靠判斷力同槓桿；仲講快樂其實係一種可以練習嘅技能。",
+     "rank": 2
+    },
+    {
+     "id": "bs-rewire",
+     "t": "Rewire",
+     "tz": "Rewire 神經可塑性",
+     "a": "Nicole Vignola",
+     "az": "妮可·維諾拉",
+     "tag": "心理",
+     "en": "A neuroscientist's practical guide to changing your habits by working with your brain's ability to rewire itself. Short, science-based steps for overthinking, procrastination and negative self-talk.",
+     "zh": "神經科學家寫嘅實用書：大腦可以自己「重新接線」，所以習慣係改得到嘅。用有科學根據嘅小步驟，對付諗太多、拖延同埋負面嘅自我對話。",
+     "rank": 3
+    },
+    {
+     "id": "bs-nordic-time",
+     "tz": "北歐時間",
+     "t": "Nordic Time",
+     "a": "Inko Higurashi",
+     "az": "日暮 Inko",
+     "tag": "生活",
+     "cover": "",
+     "en": "A Japanese writer living in Finland describes how Nordic people treat time: short working days, long holidays, saunas and saying no without guilt. A gentle book about slowing down.",
+     "zh": "住喺芬蘭嘅日本作家，觀察北歐人點對待時間：準時收工、放長假、焗桑拿、理直氣壯咁講「唔」。一本教人慢落嚟嘅療癒書。",
+     "rank": 4
+    },
+    {
+     "id": "bs-toad",
+     "t": "Counselling for Toads",
+     "tz": "蛤蟆先生去看心理師",
+     "a": "Robert de Board",
+     "az": "羅伯·狄保德",
+     "tag": "心理",
+     "en": "Toad from The Wind in the Willows is depressed, and his friends send him to a counsellor, Heron. Over ten sessions he learns why he feels the way he does. A friendly way into how therapy works.",
+     "zh": "《柳林風聲》入面嘅蛤蟆先生抑鬱咗，朋友叫佢去見心理師蒼鷺。十次面談之中，佢慢慢明白自己點解會咁。用童話帶你了解心理輔導係點運作。",
+     "rank": 5
+    }
+   ]
+  },
+  {
+   "key": "nyt",
+   "name": "紐約時報暢銷榜",
+   "en": "New York Times, fiction",
+   "flag": "🇺🇸",
+   "c": "#9cc7ff",
+   "asof": "22 Nov 2026 · Hardcover fiction",
+   "books": [
+    {
+     "id": "bs-acotar6",
+     "t": "A Court of Splintered Harmony",
+     "a": "Sarah J. Maas",
+     "tag": "小說",
+     "en": "The sixth book in the Court of Thorns and Roses fantasy series. Old alliances must be rebuilt to fight the threat of Koschei the Deathless.",
+     "zh": "奇幻系列《荊棘與玫瑰之庭》第六集。舊盟友要重新聯手，對抗不死者 Koschei 嘅威脅。",
+     "rank": 1
+    },
+    {
+     "id": "bs-threshing-day",
+     "t": "Threshing Day",
+     "a": "Rebecca Yarros",
+     "tag": "小說",
+     "en": "Thirteen short stories set in the world of Fourth Wing, in which cadets compete to win the bond of a dragon.",
+     "zh": "《第四翼》世界嘅十三個短篇故事：軍校生互相競爭，爭取同巨龍結盟。",
+     "rank": 2
+    },
+    {
+     "id": "bs-calamity-club",
+     "t": "The Calamity Club",
+     "a": "Kathryn Stockett",
+     "tag": "小說",
+     "en": "The long-awaited second novel from the author of The Help. During the Great Depression, several women look for ways to improve their lives as times get harder.",
+     "zh": "《姊妹》（The Help）作者等咗十幾年嘅第二本小說。大蕭條時期，日子越嚟越難，幾個女人各自諗辦法改善生活。",
+     "rank": 3
+    },
+    {
+     "id": "bs-french-illusion",
+     "t": "The French Illusion",
+     "a": "John Grisham",
+     "tag": "小說",
+     "en": "A couple is kidnapped on honeymoon in the French countryside, and a young lawyer is drawn into a CIA operation to get them back.",
+     "zh": "一對新婚夫婦喺法國鄉郊度蜜月時被綁架，一個年輕律師被捲入中情局嘅營救行動。",
+     "rank": 4
+    },
+    {
+     "id": "bs-the-hollow",
+     "t": "The Hollow",
+     "a": "Michael Connelly",
+     "tag": "小說",
+     "en": "The 21st Harry Bosch novel. Bosch investigates the children's home where he lived as a ward of the state when he was young.",
+     "zh": "Harry Bosch 系列第 21 集。Bosch 調查佢細個寄住過嘅兒童院。",
+     "rank": 5
+    }
+   ]
+  },
+  {
+   "key": "uk",
+   "name": "英國暢銷榜",
+   "en": "UK top 5 (all shops)",
+   "flag": "🇬🇧",
+   "c": "#f3a6c0",
+   "asof": "Week to 14 Nov 2026",
+   "note": "Waterstones' own chart can't be read automatically, so this is the UK-wide chart.",
+   "books": [
+    {
+     "id": "bs-gruffalo-granny",
+     "t": "Gruffalo Granny",
+     "a": "Julia Donaldson",
+     "tag": "生活",
+     "en": "A new picture book from Julia Donaldson, author of The Gruffalo and one of Britain's best-loved children's writers.",
+     "zh": "《咕嚕牛》作者 Julia Donaldson 嘅新繪本。",
+     "rank": 1
+    },
+    {
+     "id": "bs-sprinkle-in-time",
+     "t": "A Sprinkle in Time",
+     "a": "Dav Pilkey & Wes Dzioba",
+     "tag": "生活",
+     "en": "The newest comic for children from Dav Pilkey, the creator of Dog Man and Captain Underpants.",
+     "zh": "《狗狗神探》、《內褲超人》作者 Dav Pilkey 嘅最新兒童漫畫。",
+     "rank": 2
+    },
+    {
+     "id": "bs-fight-or-flight",
+     "t": "Fight or Flight",
+     "a": "Jeff Kinney",
+     "tag": "生活",
+     "en": "The newest book by Jeff Kinney, creator of the Diary of a Wimpy Kid series, which tops the children's charts every autumn.",
+     "zh": "《遜咖日記》作者 Jeff Kinney 嘅新書，每年秋天都霸住兒童榜。",
+     "rank": 3
+    },
+    {
+     "id": "bs-judi-dench",
+     "t": "Is It Too Late to Make a Run for It?",
+     "a": "Judi Dench & Brendan O'Hea",
+     "tag": "生活",
+     "en": "Dame Judi Dench talks about her long career on stage and screen and what happens behind the scenes, in conversation with actor Brendan O'Hea.",
+     "zh": "英國影后 Judi Dench 同演員 Brendan O'Hea 對談，講佢喺舞台同銀幕上嘅一生，同埋幕後嘅點滴。",
+     "rank": 4
+    },
+    {
+     "id": "bs-guinness-2027",
+     "t": "Guinness World Records 2027",
+     "a": "Guinness World Records",
+     "tag": "生活",
+     "cover": "",
+     "en": "The yearly book of record-breaking feats, from the tallest and fastest to the strangest, in eight chapters.",
+     "zh": "每年一本嘅健力士世界紀錄大全，八個章節，最高、最快、最奇怪嘅紀錄都有。",
+     "rank": 5
+    }
+   ]
+  }
+ ]
+}
