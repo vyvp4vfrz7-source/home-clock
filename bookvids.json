@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T17:24:31Z",
+ "updated": "2026-11-20T17:41:16Z",
  "books": {
   "the-end-of-everything-harrison": [
    {
@@ -9,16 +9,16 @@
     "len": "14:46"
    },
    {
-    "v": "sWgXIcUgSV4",
-    "t": "Why did The End of Everything win the 2026 Booker Prize? What's so special about this book? ",
-    "ch": "Study English Literature",
-    "len": "7:44"
+    "v": "nPef2vYosdc",
+    "t": "What to Read Next by M. John Harrison, Winner of the 2026 Booker Prize for \"The End of Everything\"",
+    "ch": "Speculative Reader",
+    "len": "14:45"
    },
    {
-    "v": "cFAkUPupBm4",
-    "t": "The End of Everything by M. John Harrison | Booker Prize 2026 Explained",
-    "ch": "Dr. Literature",
-    "len": "11:04"
+    "v": "LvZ9GoMuOjo",
+    "t": "Review: The End of Everything by M. John Harrison",
+    "ch": "Haste Ye Books",
+    "len": "3:02"
    }
   ],
   "taiwan-travelogue-yang": [
@@ -55,10 +55,10 @@
     "len": "4:00"
    },
    {
-    "v": "kwPkEtxFdr4",
-    "t": "The Correspondent: The Story Behind the Unexpected Bestseller Everyone Is Reading",
-    "ch": "Oprah",
-    "len": "44:30"
+    "v": "lR5qmHKv3Nw",
+    "t": "THE CORRESPONDENT | book review",
+    "ch": "lyndsayreads",
+    "len": "8:08"
    }
   ],
   "flesh-szalay": [
@@ -75,21 +75,22 @@
     "len": "11:13"
    },
    {
-    "v": "cMzbCxy0P50",
-    "t": "Maybe the Booker prize isn't so bad after all | Flesh by David Szalay",
-    "ch": "CriminOlly",
-    "len": "14:14"
+    "v": "SGz34XmZq5o",
+    "t": "'Flesh' by David Szalay - BOOK REVIEW",
+    "ch": "TheDiscoKing",
+    "len": "9:21"
    }
   ],
   "naked-mountain-hon-lai-chu": [],
-  "lightning-in-july-lin-jun-ying": [],
-  "the-rouse-mieville": [
+  "lightning-in-july-lin-jun-ying": [
    {
-    "v": "tVY2r8vyUqA",
-    "t": "The Rouse by China Miéville · Audiobook preview",
-    "ch": "Google Play Books",
-    "len": "10:40"
-   },
+    "v": "obDK5eiBMOc",
+    "t": "2025臺灣文學獎金典獎年度大獎──《七月爍爁》林俊頴著，麥田出版",
+    "ch": "臺灣文學獎",
+    "len": "2:06"
+   }
+  ],
+  "the-rouse-mieville": [
    {
     "v": "dBWI8mHkpQE",
     "t": "China Miéville : The Rouse",
@@ -101,6 +102,12 @@
     "t": "Imperial Hauntings - Some Thoughts On China Miéville's The Rouse",
     "ch": "Raf Blutaxt",
     "len": "31:12"
+   },
+   {
+    "v": "tVY2r8vyUqA",
+    "t": "The Rouse by China Miéville · Audiobook preview",
+    "ch": "Google Play Books",
+    "len": "10:40"
    }
   ],
   "the-matchbox-girl-jolly": [
@@ -111,16 +118,16 @@
     "len": "16:05"
    },
    {
+    "v": "UDSaba6UoxM",
+    "t": "The Matchbox Girl: Winner of the 2026 Walter… by Alice Jolly · Audiobook preview",
+    "ch": "Google Play Books",
+    "len": "18:29"
+   },
+   {
     "v": "dxpvYPFjn2w",
     "t": "WSP 2026 Winner: Alice Jolly Full Interview - THE MATCHBOX GIRL",
     "ch": "Walter Scott Prizes",
     "len": "2:48"
-   },
-   {
-    "v": "IoGmOlpzebE",
-    "t": "The Matchbox Girl Audiobook by Alice Jolly",
-    "ch": "Free Audiobook",
-    "len": "4:48"
    }
   ],
   "zaisheng-liu-tzu-chieh": [
@@ -158,19 +165,13 @@
     "len": "9:44"
    },
    {
-    "v": "q53gW1Qbjh8",
-    "t": "像《納瓦爾寶典》那樣思考人生，這集一定令你有所收穫。｜千芸說書",
-    "ch": "千芸說書book review",
-    "len": "14:47"
+    "v": "UvirHm6ePzk",
+    "t": "如何不靠運氣致富？《納瓦爾寶典》原始Podcast（中文精譯完整版）｜How to Get Rich",
+    "ch": "言究院",
+    "len": "4:15:48"
    }
   ],
   "bs-rewire": [
-   {
-    "v": "psESWwYh1Rk",
-    "t": "睡前一直重播今天說錯的話？｜搞陰謀對付你的，其實是你的大腦｜《Rewire－神經可塑性》｜睡前聽書",
-    "ch": "留一點時間 讀懂一本書   Booked Studio",
-    "len": "27:07"
-   },
    {
     "v": "QThq85xkOVM",
     "t": "【腦科學的真相】大腦根本不在乎你的幸福！ ►《Rewire-神經可塑性》｜說書｜書評｜千芸說書",
@@ -178,10 +179,16 @@
     "len": "13:03"
    },
    {
-    "v": "PLgNlJfvdfc",
-    "t": "《Rewire 神經可塑性》成功學沒告訴你的神經真相：你只是大腦「低電量」了。神經科學家教你打開大腦後台，重新編程潛意識！EP78",
-    "ch": "覺醒.玩家攻略",
-    "len": "36:54"
+    "v": "6LOC_caw2ik",
+    "t": "想減少焦慮、擺脫負面思考？你需要的不是心靈雞湯，是重新塑造你的大腦神經！｜《Rewire - 神經可塑性》",
+    "ch": "下一本讀什麼?",
+    "len": "13:25"
+   },
+   {
+    "v": "psESWwYh1Rk",
+    "t": "睡前一直重播今天說錯的話？｜搞陰謀對付你的，其實是你的大腦｜《Rewire－神經可塑性》｜睡前聽書",
+    "ch": "留一點時間 讀懂一本書   Booked Studio",
+    "len": "27:07"
    }
   ],
   "bs-nordic-time": [
@@ -198,10 +205,10 @@
     "len": "16:46"
    },
    {
-    "v": "4FcgrHWlYGA",
-    "t": "'26.04.08【世界一把抓】郝旭烈 ╳ 祝子慧：北歐時間 最幸福國度教會我們的事",
-    "ch": "九八新聞台",
-    "len": "49:50"
+    "v": "BwnvhSv0Ee8",
+    "t": "本週台灣暢銷書：北歐時間: 世界第一幸福國度教會我的事(115年三月第四週) #閱讀",
+    "ch": "瑪莉蓮讀BAR",
+    "len": "18:18"
    }
   ],
   "bs-toad": [
@@ -218,12 +225,93 @@
     "len": "8:16"
    },
    {
-    "v": "Naz1HRGARiY",
-    "t": "📖 好書推薦｜蛤蟆先生去看心理師：是你自己選擇要生氣的！所有情緒都是自己的選擇",
-    "ch": "MissCrazy Apple",
-    "len": "14:18"
+    "v": "FhjM92elawY",
+    "t": "給我75分鐘，讓你心情越來越好。《蛤蟆先生去看心理師》",
+    "ch": "維思維WeisWay",
+    "len": "1:14:24"
    }
   ],
+  "bs-atomic-habits": [
+   {
+    "v": "4nmM9v0fLkY",
+    "t": "懶惰蟲專用的原子習慣｜《打造理想人生的習慣大全》｜文森說書",
+    "ch": "文森說書",
+    "len": "9:29"
+   },
+   {
+    "v": "j86YZfiCq5U",
+    "t": "【大大讀書】《原子習慣》（說書人：許景泰）",
+    "ch": "商戰CXO × 大大學院",
+    "len": "15:59"
+   },
+   {
+    "v": "ESWo40VJD24",
+    "t": "《原子習慣WORKBOOK》值得買嗎？這本跟原著《原子習慣》有什麼差異？",
+    "ch": "下一本讀什麼?",
+    "len": "14:59"
+   }
+  ],
+  "bs-let-them": [
+   {
+    "v": "pRKmfVuHuRY",
+    "t": "設立界限，找回平靜，1500 萬人都在討論的人際關係心法 ►《隨他們去》｜說書｜書評｜千芸說書",
+    "ch": "千芸說書book review",
+    "len": "8:34"
+   },
+   {
+    "v": "1lxDrghv07k",
+    "t": "遠看像是一本雞湯大全，仔細一看才發現真的是神作｜《隨他們去》｜文森說書",
+    "ch": "文森說書",
+    "len": "17:40"
+   },
+   {
+    "v": "tbrfKFRg3ys",
+    "t": "全球熱銷破 1000 萬冊！《隨他們去》：放下對別人的期待，才能停止內耗｜經理人讀書會《隨他們去》",
+    "ch": "經理人",
+    "len": "47:06"
+   }
+  ],
+  "bs-diamond-sutra": [
+   {
+    "v": "LTYX4h-XeFs",
+    "t": "【青春作伴 單元】專訪《金剛經白話講座：放下的人生修行》作者 王思迅｜蘭萱時間 2025.09.18",
+    "ch": "中廣流行網 i like radio",
+    "len": "43:15"
+   },
+   {
+    "v": "FE95cNB_Bnk",
+    "t": "【金剛經白話講座】金剛經教我們的三件事｜完整版【王思迅】",
+    "ch": "大雁文化",
+    "len": "34:48"
+   },
+   {
+    "v": "PjL4znvZEA0",
+    "t": "【金剛經白話講座】2026/08/22 王思迅 香港暢銷書分享會【完整版】",
+    "ch": "大雁文化",
+    "len": "1:04:53"
+   }
+  ],
+  "bs-cafe-end-world": [
+   {
+    "v": "o9N_QPvlTpI",
+    "t": "讀完這本書，多了份勇氣。►《重返世界盡頭的咖啡館》約翰‧史崔勒基 ｜說書｜書評｜千芸說書",
+    "ch": "千芸說書book review",
+    "len": "8:06"
+   },
+   {
+    "v": "x8eV4mH3qmo",
+    "t": "會讀書020｜《世界盡頭的咖啡館》｜全球每19秒售出1本！療癒千萬人的暢銷經典｜靈魂拷問：你點解存在？你害怕死亡嗎？你感到滿足嗎？｜塞車Road Trip變覺醒之旅｜AI生成字幕｜4/9/2025",
+    "ch": "會八十",
+    "len": "53:53"
+   },
+   {
+    "v": "jaQNRqMZT2c",
+    "t": "生活過得還不錯，卻莫名空虛？《世界盡頭的咖啡館》3個思考，活成自己想要的樣子！｜經理人讀書會《世界盡頭的咖啡館》《重返世界盡頭的咖啡館》",
+    "ch": "經理人",
+    "len": "28:53"
+   }
+  ],
+  "bs-mind-your-own": [],
   "bs-acotar6": [],
   "bs-threshing-day": [
    {
@@ -233,19 +321,25 @@
     "len": "17:57"
    },
    {
-    "v": "itejrL2U5WM",
-    "t": "I read threshing day so you don't have to!!! #fourthwing #booktok #booktube #threshingday",
-    "ch": "madikayreads",
-    "len": "4:23:13"
+    "v": "PI-JewW2TAc",
+    "t": "Threshing Day [The Empyrean Series #3.5] - Rebecca Yarros -  Fantasy Romance Audiobook Full",
+    "ch": "Romance Fantasy Audio",
+    "len": "5:53:28"
    },
    {
-    "v": "kf5Zv1HquQU",
-    "t": "Threshing Day Theories: Xaden, Sgaeyl, Andarna & Naolin | Fourth Wing | AITA Book Review Podcast #0",
-    "ch": "Once Upon a Red Flag Podcast",
-    "len": "22:38"
+    "v": "EfaOwTkT1Ng",
+    "t": "I Read Threshing Day So You Don't Have To | Empyrian Series.",
+    "ch": "Bookgirlnextdoor",
+    "len": "18:54"
    }
   ],
   "bs-calamity-club": [
+   {
+    "v": "zJ7iXD36lqs",
+    "t": "The Calamity Club by Kathryn Stockett | Book Summery",
+    "ch": "Bookology",
+    "len": "7:41"
+   },
    {
     "v": "-F6dB9ZQSVc",
     "t": "The Calamity Club by Kathryn Stockett | Spoiler-Free Review",
@@ -253,16 +347,10 @@
     "len": "6:47"
    },
    {
-    "v": "5JN6I_woIZE",
-    "t": "The Calamity Club Review | Kathryn Stockett’s Most Ambitious Novel?",
-    "ch": "Harry's Book cafe",
-    "len": "22:34"
-   },
-   {
-    "v": "zJ7iXD36lqs",
-    "t": "The Calamity Club by Kathryn Stockett | Book Summery",
-    "ch": "Bookology",
-    "len": "7:41"
+    "v": "VnHppEZXsuA",
+    "t": "The Calamity Club- Unpopular Opinion ",
+    "ch": "Enter the Book",
+    "len": "11:45"
    }
   ],
   "bs-french-illusion": [
@@ -273,16 +361,16 @@
     "len": "9:41"
    },
    {
-    "v": "xI0DXTQ8RxY",
-    "t": "Author John Grisham tackles his first-ever spy novel with new book, 'The French Illusion'",
-    "ch": "MS NOW",
-    "len": "10:14"
-   },
-   {
     "v": "4CGTlbrS830",
     "t": "The French Illusion - John Grisham",
     "ch": "Brandon’s Books",
     "len": "23:52"
+   },
+   {
+    "v": "xI0DXTQ8RxY",
+    "t": "Author John Grisham tackles his first-ever spy novel with new book, 'The French Illusion'",
+    "ch": "MS NOW",
+    "len": "10:14"
    }
   ],
   "bs-the-hollow": [
@@ -305,7 +393,113 @@
     "len": "1:00:35"
    }
   ],
+  "bs-the-witch": [
+   {
+    "v": "w37gQ4sHpyw",
+    "t": "The Witch by Freida McFadden Was NOT What I Expected | Book Review",
+    "ch": "Shelf Made Stories",
+    "len": "13:17"
+   },
+   {
+    "v": "JS9wp_FNNPI",
+    "t": "Freida McFadden's Most Boring Book Yet 🧙‍♀️ | The Witch RANT REVIEW",
+    "ch": "AuroraInTheArchives",
+    "len": "3:19:42"
+   },
+   {
+    "v": "xyb-VIR_3S0",
+    "t": "What Did We Think Of The Witch As Freida Fans?",
+    "ch": "Fiction Addictions",
+    "len": "12:15"
+   }
+  ],
+  "bs-married-christmas": [
+   {
+    "v": "lEfQJvQ10jA",
+    "t": "A Married Little Christmas by Abby Jimenez | Summary | Holiday Romantic Comedy",
+    "ch": "URSummary (Your Summary) - Audio Book Summaries",
+    "len": "21:35"
+   },
+   {
+    "v": "_SePqx3gLP4",
+    "t": "A Married Little Christmas Review: Abby Jimenez's Holiday Hit?",
+    "ch": "Open Books Studio",
+    "len": "4:56"
+   },
+   {
+    "v": "ODrH1GyZx_o",
+    "t": "★ avis livresque : a married little christmas (abby jimenez)",
+    "ch": "Whimsy Limonette",
+    "len": "4:03"
+   }
+  ],
+  "bs-defy-the-dusk": [
+   {
+    "v": "JxQrifyMNJI",
+    "t": "Ep 132 🌄 Defy the Dusk “ADD THIS DYSTOPIAN FANTASY TO YOUR TBR NOW!” | Danielle L Jensen Interview",
+    "ch": "Besties and the Books",
+    "len": "1:20:52"
+   },
+   {
+    "v": "z_sP5SO6ruw",
+    "t": "Is Defy the Dusk by Danielle L. Jensen good?! I new anticipated ROMANTASY",
+    "ch": "AjaReads",
+    "len": "52:02"
+   },
+   {
+    "v": "gN17YW-Vmd8",
+    "t": "DEFY THE DUSK: Mad Max Meets Romantasy | Fantasy Book Review",
+    "ch": "Hot Off The Press - Book Reviews",
+    "len": "6:51"
+   }
+  ],
+  "bs-pirate-queen": [
+   {
+    "v": "6p14LTIK4PQ",
+    "t": "Why this book matters. The Pirate Queen by Ariel Lawhon #bookreview #books",
+    "ch": "AmeliaReadsBooks1",
+    "len": "2:54"
+   },
+   {
+    "v": "xk8DJUZ0_lU",
+    "t": "📚The Pirate Queen by Ariel Lawhon #booktok #bookreview #historicalfiction #thepiratequeen",
+    "ch": "Lori Wild",
+    "len": "2:29"
+   },
+   {
+    "v": "xgPoiruSBL4",
+    "t": "5 ⭐️ review: The Pirate Queen#booktube #bookish #bookrecs #thepiratequeen #ariellawhon",
+    "ch": "ReadingWith_Rachel",
+    "len": "2:02"
+   }
+  ],
+  "bs-the-gift": [
+   {
+    "v": "M5HpcVCHZVQ",
+    "t": "'The Gift' by Freida McFadden, Review ",
+    "ch": "Chloe Huntington",
+    "len": "9:03"
+   },
+   {
+    "v": "1x7XOICV2GU",
+    "t": "The Gift By Freida McFadden | Full Audiobook Summary Free & Review",
+    "ch": "Audiobook Free",
+    "len": "2:25"
+   },
+   {
+    "v": "W9T54AHNnn4",
+    "t": "The Gift by Freida Mcfadden 💜📓💜 A Panic at the Book Club Discussion Review 💜📓💜",
+    "ch": "Terri Westwell",
+    "len": "14:45"
+   }
+  ],
   "bs-gruffalo-granny": [
+   {
+    "v": "pt4CEHRM9-k",
+    "t": "GRUFFALO GRANNY! — Julia Donaldson's BRAND NEW Book | Amber's Storytime - I Waited YEARS For This! 🧡",
+    "ch": "Amber's Storytime Adventures",
+    "len": "7:26"
+   },
    {
     "v": "89JM6c9odb4",
     "t": "Gruffalo Granny | Bedtime Story Read Aloud By Grandad Pat",
@@ -317,12 +511,6 @@
     "t": "Julia Donaldson & Axel Scheffler on Highly-Anticipated 'Gruffalo Granny' | What's On Scotland | STV",
     "ch": "STV",
     "len": "5:21"
-   },
-   {
-    "v": "BUsuUyBIxRA",
-    "t": "Picture Books rise ahead of Gruffalo Granny & Julia Donaldson interview (UK) 23/Mar/2026",
-    "ch": "Mark 1333",
-    "len": "7:04"
    }
   ],
   "bs-sprinkle-in-time": [
@@ -339,10 +527,10 @@
     "len": "2:20"
    },
    {
-    "v": "toc9cIymKIY",
-    "t": "Dog Man 15: A Sprinkle in Time | Full Book",
-    "ch": "Ali Abbas",
-    "len": "29:31"
+    "v": "1Lr8hGu-owc",
+    "t": "Dog Man A Sprinkle in Time is GOATED | Read Aloud 📖",
+    "ch": "Isaac The Animator",
+    "len": "53:03"
    }
   ],
   "bs-fight-or-flight": [
@@ -353,16 +541,16 @@
     "len": "11:09"
    },
    {
-    "v": "xE1QmmjetYE",
-    "t": "Buying The New Diary of a Wimpy Kid Book (Fight or Flight)",
-    "ch": "CrowRanaBurger",
-    "len": "10:04"
+    "v": "qz0ufLP6ri0",
+    "t": "FIGHT or FLIGHT - The latest book from Diary of a Wimpy Kid",
+    "ch": "MindShift Lane",
+    "len": "9:04"
    },
    {
-    "v": "ha9MK-_IImU",
-    "t": "Diary of a Wimpy Kid: Fight or Flight is Genuinely Concerning.",
-    "ch": "The Shortwave Show",
-    "len": "9:38"
+    "v": "DmVQMmYZq6U",
+    "t": "Diary of a Wimpy Kid #21: Fight or Flight - Book Review",
+    "ch": "Arglefumph Reads",
+    "len": "7:40"
    }
   ],
   "bs-judi-dench": [],
