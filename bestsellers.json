@@ -1,5 +1,5 @@
 {
- "_about": "Top 5 bestsellers shown on the 📈 bestsellers page. Each list: name/en/flag/c (colour)/asof, books in rank order. A book with ref = an id in books.json reuses that book (cover, reviews, sample pages). Otherwise t/a (English), tz/az (Chinese), en/zh brief. Covers are saved as books/<id>.jpg by books.yml (cover \"\" = plain drawn cover).",
+ "_about": "Top 10 bestsellers shown on the 📈 bestsellers page. Each list: name/en/flag/c (colour)/asof, books in rank order. A book with ref = an id in books.json reuses that book (cover, reviews, sample pages). Otherwise t/a (English), tz/az (Chinese), en/zh brief. Covers are saved as books/<id>.jpg by books.yml (cover \"\" = plain drawn cover). nyt + indie are refreshed weekly by tools/build_bestsellers.py.",
  "updated": "2026-11-20",
  "lists": [
   {
@@ -220,58 +220,56 @@
    ]
   },
   {
-   "key": "uk",
-   "name": "Waterstones 暢銷榜",
-   "en": "Waterstones, UK",
-   "flag": "🇬🇧",
+   "key": "indie",
+   "name": "美國獨立書店榜",
+   "en": "US indie bookshops (ABA)",
+   "flag": "📚",
    "c": "#f3a6c0",
-   "asof": "Week to 14 Nov 2026",
-   "note": "Until the first weekly Waterstones update, this shows the UK-wide top 5.",
+   "asof": "18 Nov 2026 · Hardcover fiction Top 10",
    "books": [
     {
-     "id": "bs-gruffalo-granny",
-     "t": "Gruffalo Granny",
-     "a": "Julia Donaldson",
-     "tag": "生活",
-     "en": "A new picture book from Julia Donaldson, author of The Gruffalo and one of Britain's best-loved children's writers.",
-     "zh": "《咕嚕牛》作者 Julia Donaldson 嘅新繪本。",
+     "id": "ib-acotar6",
+     "t": "A Court of Splintered Harmony",
+     "a": "Sarah J. Maas",
+     "tag": "小說",
+     "en": "The sixth book in the Court of Thorns and Roses fantasy series. Old alliances must be rebuilt to fight the threat of Koschei the Deathless.",
+     "zh": "奇幻系列《荊棘與玫瑰之庭》第六集。舊盟友要重新聯手，對抗不死者 Koschei 嘅威脅。",
      "rank": 1
     },
     {
-     "id": "bs-sprinkle-in-time",
-     "t": "A Sprinkle in Time",
-     "a": "Dav Pilkey & Wes Dzioba",
-     "tag": "生活",
-     "en": "The newest comic for children from Dav Pilkey, the creator of Dog Man and Captain Underpants.",
-     "zh": "《狗狗神探》、《內褲超人》作者 Dav Pilkey 嘅最新兒童漫畫。",
+     "id": "ib-pirate-queen",
+     "t": "The Pirate Queen",
+     "a": "Ariel Lawhon",
+     "tag": "小說",
+     "en": "A historical novel about Grace O'Malley, the real 16th-century Irish chieftain and sea captain who defied the English crown.",
+     "zh": "歷史小說，寫十六世紀愛爾蘭真實人物 Grace O'Malley：一位敢同英國王室對抗嘅女族長兼船長。",
      "rank": 2
     },
     {
-     "id": "bs-fight-or-flight",
-     "t": "Fight or Flight",
-     "a": "Jeff Kinney",
-     "tag": "生活",
-     "en": "The newest book by Jeff Kinney, creator of the Diary of a Wimpy Kid series, which tops the children's charts every autumn.",
-     "zh": "《遜咖日記》作者 Jeff Kinney 嘅新書，每年秋天都霸住兒童榜。",
+     "id": "ib-calamity-club",
+     "t": "The Calamity Club",
+     "a": "Kathryn Stockett",
+     "tag": "小說",
+     "en": "The long-awaited second novel from the author of The Help. During the Great Depression, several women look for ways to improve their lives as times get harder.",
+     "zh": "《姊妹》（The Help）作者等咗十幾年嘅第二本小說。大蕭條時期，日子越嚟越難，幾個女人各自諗辦法改善生活。",
      "rank": 3
     },
     {
-     "id": "bs-judi-dench",
-     "t": "Is It Too Late to Make a Run for It?",
-     "a": "Judi Dench & Brendan O'Hea",
-     "tag": "生活",
-     "en": "Dame Judi Dench talks about her long career on stage and screen and what happens behind the scenes, in conversation with actor Brendan O'Hea.",
-     "zh": "英國影后 Judi Dench 同演員 Brendan O'Hea 對談，講佢喺舞台同銀幕上嘅一生，同埋幕後嘅點滴。",
+     "id": "ib-partita",
+     "t": "Partita",
+     "a": "Barbara Kingsolver",
+     "tag": "小說",
+     "en": "The new novel from Barbara Kingsolver, Pulitzer Prize winner for Demon Copperhead.",
+     "zh": "憑《惡魔銅頭蛇》奪普立茲獎嘅 Barbara Kingsolver 最新小說。",
      "rank": 4
     },
     {
-     "id": "bs-guinness-2027",
-     "t": "Guinness World Records 2027",
-     "a": "Guinness World Records",
-     "tag": "生活",
-     "cover": "",
-     "en": "The yearly book of record-breaking feats, from the tallest and fastest to the strangest, in eight chapters.",
-     "zh": "每年一本嘅健力士世界紀錄大全，八個章節，最高、最快、最奇怪嘅紀錄都有。",
+     "id": "ib-peck-and-peck",
+     "t": "Peck & Peck",
+     "a": "Bonnie Garmus",
+     "tag": "小說",
+     "en": "The second novel from Bonnie Garmus, author of the bestseller Lessons in Chemistry.",
+     "zh": "《化學課》作者 Bonnie Garmus 嘅第二本小說。",
      "rank": 5
     }
    ]
