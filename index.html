@@ -680,7 +680,9 @@ body:not(.pbday) #bday *, body:not(.pbday) #bday *:before { animation-play-state
 .bscol { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 8px; background: var(--tile); border-radius: 26px; padding: 16px 16px 12px; }
 .bscol h2 { margin: 0 4px 2px; font-size: 22px; font-weight: 800; color: var(--c); }
 .bscol h2 small { display: block; font-size: 14px; color: var(--muted); font-weight: 600; margin-top: 2px; }
-.bsr { flex: 1; min-height: 0; display: flex; gap: 12px; align-items: center; padding: 6px 8px; border-radius: 16px; cursor: pointer; }
+.bsl { flex: 1; min-height: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; display: flex; flex-direction: column; gap: 4px; }
+.bscol .more { flex: none; text-align: center; font-size: 14px; font-weight: 700; color: var(--c); opacity: .85; }
+.bsr { flex: none; height: 141px; box-sizing: border-box; display: flex; gap: 12px; align-items: center; padding: 6px 8px; border-radius: 16px; cursor: pointer; }
 .bsr .n { flex: none; width: 30px; font-size: 30px; font-weight: 800; color: var(--c); text-align: center; }
 .bsr .bkc { flex: none; width: 82px; padding-top: 123px; font-size: 5px; }
 .bsr .tx { min-width: 0; display: flex; flex-direction: column; gap: 3px; }
@@ -1215,6 +1217,16 @@ body:not(.ptfw) #tfw * { animation-play-state: paused !important; }
 </style>
 </head>
 <body>
+<div id="bkHold" hidden><!-- the old book-of-the-day page, kept off the page list: its sheet (sample pages) opens from the prize + bestseller pages -->
+<div class="hold" id="pbook">
+<div class="stage" id="bookp">
+  <div class="top"><h1>今日好書<span>Book of the day</span></h1><div class="rng"><button id="bkBack" type="button" hidden>↩ 今日好書</button><button id="bkPrizeBtn" type="button">🏆 得獎小說</button><span id="bkDay"></span><button id="bkPlay" type="button">▶ 讀出嚟</button></div></div>
+  <div id="bkMain"><div id="bkUp"><div id="bkL"><div id="bkCov"></div><button id="bkOpen" type="button">📖 試讀 · 詳情 Sample</button><div id="bkMeta"></div></div><div id="bkTx"><div id="bkTag"></div><div id="bkPrize"></div><div id="bkT">Loading…</div><div id="bkTz"></div><div id="bkA"></div><p id="bkEn"></p><p id="bkZh"></p></div></div><div id="bkRv"></div></div>
+  <div id="bkShelf" hidden></div>
+  <div id="bkSheet" hidden><div class="hd"><h2 id="bkSheetT"></h2><button type="button" id="bkSheetX">✕ 關閉 Close</button></div><div class="bd"><div id="bkInfo"></div><div id="bkView"></div></div></div>
+</div>
+</div>
+</div>
 <div id="pages"><div id="track">
 <div class="page" id="p1">
 <div class="stage" id="stage">
@@ -1273,16 +1285,8 @@ body:not(.ptfw) #tfw * { animation-play-state: paused !important; }
 </div>
 <div class="page" id="pbest">
 <div class="stage bkpg" id="bestp">
-  <div class="top"><h1>暢銷榜 Top 5<span>Bestsellers</span></h1><div class="rng"><span class="hint">撳一本睇簡介 · Tap a book</span></div></div>
+  <div class="top"><h1>暢銷榜 Top 10<span>Bestsellers</span></h1><div class="rng"><span class="hint">撳一本睇簡介 · Tap a book</span></div></div>
   <div id="bsCols"><div class="bsmsg">載入中… Loading</div></div>
-</div>
-</div>
-<div class="page" id="pbook">
-<div class="stage" id="bookp">
-  <div class="top"><h1>今日好書<span>Book of the day</span></h1><div class="rng"><button id="bkBack" type="button" hidden>↩ 今日好書</button><button id="bkPrizeBtn" type="button">🏆 得獎小說</button><span id="bkDay"></span><button id="bkPlay" type="button">▶ 讀出嚟</button></div></div>
-  <div id="bkMain"><div id="bkUp"><div id="bkL"><div id="bkCov"></div><button id="bkOpen" type="button">📖 試讀 · 詳情 Sample</button><div id="bkMeta"></div></div><div id="bkTx"><div id="bkTag"></div><div id="bkPrize"></div><div id="bkT">Loading…</div><div id="bkTz"></div><div id="bkA"></div><p id="bkEn"></p><p id="bkZh"></p></div></div><div id="bkRv"></div></div>
-  <div id="bkShelf" hidden></div>
-  <div id="bkSheet" hidden><div class="hd"><h2 id="bkSheetT"></h2><button type="button" id="bkSheetX">✕ 關閉 Close</button></div><div class="bd"><div id="bkInfo"></div><div id="bkView"></div></div></div>
 </div>
 </div>
 <div class="page" id="pspace">
@@ -1520,7 +1524,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
     dots.appendChild(b);
   }
   // Top bar tabs, one per page.
-  var NAMES = { p1: '🏠 Home', ptfl: '🚆 Trains', ptfw: '🗺️ Works', pcal: '📅 Week', pnews: '📰 News', pyt: '▶️ YouTube', pytw: '🌍 World TV', phk: '🇭🇰 HK', pcity: '⛅ UK · HK', pprize: '🏆 Prizes', pbest: '📈 Top 5', pbook: '📚 Book', pspace: '🚀 Space', psolar: '🪐 Planets', p3: '⚽ League', pbday: '🎂 Birthdays', p2: '🕰️ Clock', penergy: '⚡ Energy', preview: '📊 Review', ptips: '💡 Tips' };
+  var NAMES = { p1: '🏠 Home', ptfl: '🚆 Trains', ptfw: '🗺️ Works', pcal: '📅 Week', pnews: '📰 News', pyt: '▶️ YouTube', pytw: '🌍 World TV', phk: '🇭🇰 HK', pcity: '⛅ UK · HK', pprize: '🏆 Prizes', pbest: '📈 Top 10', pspace: '🚀 Space', psolar: '🪐 Planets', p3: '⚽ League', pbday: '🎂 Birthdays', p2: '🕰️ Clock', penergy: '⚡ Energy', preview: '📊 Review', ptips: '💡 Tips' };
   var tabs = $('tabs'), tabsTimer = 0;
   for (var t = 0; t < n; t++) {
     var tb = document.createElement('button'); tb.type = 'button'; tb.textContent = NAMES[pages[t].id] || 'Page ' + (t + 1);
@@ -3506,7 +3510,7 @@ function bookLoad() {
   function get(u) { return fetch(u).then(function (r) { if (!r.ok) throw 0; return r.json(); }); }
   Promise.all([
     get('book.json?t=' + h).catch(function () { return null; }),
-    get('books.json?t=' + h).catch(function () { return null; })
+    get('books.json?v=3&t=' + h).catch(function () { return null; })
   ]).then(function (r) {
     if (r[0]) BOOK_TODAY = r[0];
     if (r[1] && r[1].books) BOOKS = r[1].books;
@@ -3539,7 +3543,7 @@ setInterval(function () { if (BOOK_PICK && bookNow() !== BOOK_PICK) { BOOK_PICK 
 var BEST = null, BVIDS = {}, POP = null;
 function shelfLoad() {
   var h = Math.floor(Date.now() / 1800000);
-  fetch('bestsellers.json?t=' + h).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) { BEST = d; shelfDraw(); }).catch(function () {});
+  fetch('bestsellers.json?v=3&t=' + h).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) { BEST = d; shelfDraw(); }).catch(function () {});
   fetch('bookvids.json?t=' + h).then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) { BVIDS = d.books || {}; }).catch(function () {});
 }
 setInterval(shelfLoad, 6 * 3600000);
@@ -3554,13 +3558,13 @@ function shelfDraw() {
     }).join('') + '</div>';
   });
   if (BEST && BEST.lists && BOOKS) $('bsCols').innerHTML = BEST.lists.map(function (l) {
-    return '<div class="bscol" style="--c:' + esc(l.c || '#9cc7ff') + '"><h2>' + esc(l.flag || '') + ' ' + esc(l.name) + '<small>' + esc(l.en) + ' · ' + esc(l.asof || '') + '</small></h2>' +
-      l.books.slice(0, 5).map(function (r) {
+    return '<div class="bscol" style="--c:' + esc(l.c || '#9cc7ff') + '"><h2>' + esc(l.flag || '') + ' ' + esc(l.name) + '<small>' + esc(l.en) + ' · ' + esc(l.asof || '') + '</small></h2><div class="bsl">' +
+      l.books.slice(0, 10).map(function (r) {
         var b = bestBook(r), zhFirst = l.key === 'eslite';
         var t1 = zhFirst && b.tz ? b.tz : b.t, t2 = zhFirst ? (b.tz ? b.t : '') : (b.tz && b.tz !== b.t ? b.tz : '');
         return '<div class="bsr" data-l="' + esc(l.key) + '" data-id="' + esc(r.id) + '"><span class="n">' + r.rank + '</span>' + bookCover(b) +
           '<div class="tx"><b>' + esc(t1) + '</b>' + (t2 ? '<span class="z">' + esc(t2) + '</span>' : '') + '<small>' + esc(zhFirst && b.az ? b.az : b.a) + '</small></div></div>';
-      }).join('') + (l.note ? '<div class="src">' + esc(l.note) + '</div>' : '') + '</div>';
+      }).join('') + (l.note ? '<div class="src">' + esc(l.note) + '</div>' : '') + '</div>' + (l.books.length > 5 ? '<div class="more">↓ 向下捲睇 6–' + Math.min(10, l.books.length) + ' · Scroll for more</div>' : '') + '</div>';
   }).join('');
 }
 function popVids(b) {
@@ -3611,10 +3615,10 @@ function popShut() { if ($('bkPop').hidden) return; $('bkPop').hidden = true; PO
     var t = e.target;
     if (/\bx\b/.test(t.className)) return popShut();
     if (/\brd\b/.test(t.className) && POP) {   // the full sheet (long description, all reviews, sample pages) on the book page
-      var b = POP, tr = $('track').children; popShut();
-      BOOK_PICK = b === bookDaily() ? null : b; BOOK_PICK_T = Date.now(); bookDraw();
-      for (var i = 0; i < tr.length; i++) if (tr[i].id === 'pbook') goPage(i);
-      setTimeout(bookSheet, 450); return;
+      var b = POP, st = pop.parentNode; popShut();
+      BOOK_PICK = b; BOOK_PICK_T = Date.now(); bookDraw();
+      if ($('bkSheet').parentNode !== st) st.appendChild($('bkSheet'));
+      bookSheet(); return;
     }
     if (/\byt\b/.test(t.className)) { pageAt = Date.now(); return; }
     while (t && t !== pop && !(t.getAttribute && t.getAttribute('data-i'))) t = t.parentNode;
@@ -3680,7 +3684,7 @@ $('bkOpen').addEventListener('click', bookSheet);
 $('bkCov').addEventListener('click', bookSheet);
 $('bkSheetX').addEventListener('click', bookSheetShut);
 setInterval(function () {   // close it after 10 minutes, or if someone swipes to another page
-  if (!$('bkSheet').hidden && ($('track').children[PAGE].id !== 'pbook' || Date.now() - pageAt > 10 * 60000)) bookSheetShut();
+  if (!$('bkSheet').hidden && (!/^(pprize|pbest)$/.test($('track').children[PAGE].id) || Date.now() - pageAt > 10 * 60000)) bookSheetShut();
 }, 30000);
 setInterval(bookLoad, 30 * 60000);   // the morning pick arrives around 6am
 setInterval(function () { if (BOOK_DAY && new Date().toDateString() !== BOOK_DAY) bookDraw(); }, 60000);   // new day: redraw
@@ -4070,7 +4074,7 @@ setTimeout(function () { location.replace(freshURL()); }, 6 * 3600 * 1000);
   $('ytClose').addEventListener('click', shut);
   $('ytOpen').addEventListener('click', function () { setTimeout(shut, 500); });
   setInterval(function () {   // close the player if someone swipes away from the page
-    if (!$('ytPlay').hidden && !/^(pytw?|pbook|pprize|pbest)$/.test($('track').children[PAGE].id)) shut();
+    if (!$('ytPlay').hidden && !/^(pytw?|pprize|pbest)$/.test($('track').children[PAGE].id)) shut();
     if (YT && $('ytPlay').hidden) draw();   // keep "x 分鐘前" fresh
   }, 60000);
   load(); setInterval(load, 10 * 60000);
