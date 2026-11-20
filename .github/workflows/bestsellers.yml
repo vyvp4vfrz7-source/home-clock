@@ -9,7 +9,7 @@ on:
       - .github/workflows/bestsellers.yml
 permissions:
   contents: write
-concurrency: site-data
+concurrency: ${{ github.ref == 'refs/heads/main' && 'site-data' || github.run_id }}   # test runs on other branches don't wait or get cancelled
 jobs:
   lists:
     runs-on: ubuntu-latest
