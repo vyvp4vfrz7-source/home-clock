@@ -58,7 +58,7 @@ def main():
         print("! could not read the bestsellers page:", e)
         return
     paths = list(dict.fromkeys(re.findall(r'href="(/book/[^"/]+/[^"/]+/\d{10,13})"', page)))
-    print("book links found:", len(paths))
+    print("bestsellers page: %d chars, book links found: %d" % (len(page), len(paths)))
     if len(paths) < 5:
         print("! too few books; page sample:", len(page), page.count("/book/"), page[:1500].replace("\n", " "))
         return
