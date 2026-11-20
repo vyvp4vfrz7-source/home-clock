@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T01:39+00:00",
+ "updated": "2026-11-20T02:42+00:00",
  "items": [
   {
    "src": "香港",
@@ -18,7 +18,7 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "中美俄「三巨頭」峰會結束：涉及烏克蘭、伊朗議題，發表和平宣言承諾核對話",
+   "t": "中美俄元首峰會：從烏克蘭、伊朗、和平宣言到承諾核對話",
    "u": "https://www.bbc.com/zhongwen/articles/c38x04eppnpdo/trad?at_medium=RSS&at_campaign=rss",
    "d": "會後發表的中俄美元首和平宣言顯示，三國領導人承諾就「減少核風險、防止核擴散」展開對話，並就聯合國改革、能源穩定和國際刑事法院管轄權等議題達成四點共識。",
    "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/1b0f/live/68aa4e30-e40f-11f1-b37c-b3a71d7200af.jpg",
@@ -32,15 +32,15 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "《環看天下》：歐洲有名牌手袋減價三成 奢侈品市場近年持續面",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878534-20261120.htm",
-   "d": "歐洲多個奢侈品牌近日接連有個別產品減價。一個意大利時裝品牌旗下一款手袋，近日在法國的正價，較今年7月大減三成。品牌的母公司早前承認，部分產品過去幾年曾經加價，超出消費者承受能力，但強調減價並非核心銷售策略。 全球奢侈品市場近年整體表現持續未見起色。有報道認為，除了反映經濟環境影響部分中產消費意欲之外，大眾對奢侈品的追求態度亦開始改觀。 編輯：羅宇光",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878534_1_M_20261120072651.jpg",
-   "at": "2026-11-19T23:26+00:00",
+   "t": "深圳APEC｜習近平晤阿爾巴內塞及普拉博沃",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878552-20261120.htm",
+   "d": "國家主席習近平今日上午在深圳，分別會見來華出席亞太經合組織領導人非正式會議的澳洲總理阿爾巴內塞，以及印尼總統普拉博沃。 編輯：羅宇光",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878552_1_M_20261120103712.jpg",
+   "at": "2026-11-20T02:20+00:00",
    "where": [
-    50.0,
-    10.0,
-    "歐洲"
+    22.54,
+    114.06,
+    "深圳"
    ]
   },
   {
@@ -74,15 +74,15 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "國際法院裁定緬甸對境內羅興亞少數族群犯種族滅絕罪行",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878530-20261120.htm",
-   "d": "國際法院裁定，緬甸在2017年鎮壓行動中，對境內羅興亞少數族群犯下種族滅絕罪行，是聯合國最高司法機構首次認定一個主權國家，犯下種族滅絕。 法院院長宣讀裁決時，詳述緬甸對羅興亞少數族群犯下的暴行，包括安全部隊殺害以千計平民，對婦女實施廣泛性暴力，並對兒童施加極端暴力。法院下令緬甸必須批准、並協助因暴力而逃離家園的民眾，安全、自願並有尊嚴地返回原居地，亦要求緬甸調查及懲處涉嫌犯下種族滅絕的人，至於賠償問題將於日後決定。 多個人權組織及羅興亞…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878530_1_M_20261120065326.jpg",
-   "at": "2026-11-19T22:39+00:00",
+   "t": "《環看天下》：歐洲有名牌袋減價 分析指大眾對奢侈品心態改觀",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878534-20261120.htm",
+   "d": "歐洲多個奢侈品牌近日接連有個別產品減價。 一個意大利時裝品牌旗下一款手袋，近日在法國的正價，較今年7月大減三成。品牌的母公司早前承認，部分產品過去幾年，曾經加價，超出消費者承受能力，但強調減價並非核心銷售策略。 全球奢侈品市場近年整體表現持續未見起色。有報道認為，除了反映經濟環境影響部分中產消費意欲，大眾對奢侈品的追求態度亦開始改觀。 編輯：羅宇光",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878534_1_M_20261120072651.jpg",
+   "at": "2026-11-19T23:26+00:00",
    "where": [
-    21.9,
-    95.96,
-    "緬甸"
+    50.0,
+    10.0,
+    "歐洲"
    ]
   },
   {
@@ -115,6 +115,48 @@
   {
    "src": "世界",
    "lang": "zh",
+   "t": "國際法院裁定緬甸對境內羅興亞少數族群犯種族滅絕罪行",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878530-20261120.htm",
+   "d": "國際法院裁定，緬甸在2017年鎮壓行動中，對境內羅興亞少數族群犯下種族滅絕罪行，是聯合國最高司法機構首次認定一個主權國家，犯下種族滅絕。 法院院長宣讀裁決時，詳述緬甸對羅興亞少數族群犯下的暴行，包括安全部隊殺害以千計平民，對婦女實施廣泛性暴力，並對兒童施加極端暴力。法院下令緬甸必須批准、並協助因暴力而逃離家園的民眾，安全、自願並有尊嚴地返回原居地，亦要求緬甸調查及懲處涉嫌犯下種族滅絕的人，至於賠償問題將於日後決定。 多個人權組織及羅興亞…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878530_1_M_20261120065326.jpg",
+   "at": "2026-11-19T22:39+00:00",
+   "where": [
+    21.9,
+    95.96,
+    "緬甸"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "天文台今早錄得最低氣溫15.3度 是入秋以來最低紀錄",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878529-20261120.htm",
+   "d": "本港今早天氣顯著轉涼，截至上午5時30分，天文台錄得最低氣溫15.3度，是入秋以來的最低紀錄。 天文台說，一股強烈東北季候風及一道雲雨帶正影響廣東沿岸。預測今日密雲，有幾陣雨。日間市區氣溫介乎14至16度，新界再低一兩度，新界部分地區及高地寒冷。吹清勁北至東北風，離岸及高地吹強風。 編輯︰張萬燕",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878529_1_M_20261120062740.jpg",
+   "at": "2026-11-19T22:27+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "APEC的特色服飾：從克林頓皮衣到深圳「鯤鵬展翅」絲巾",
+   "u": "https://www.bbc.com/zhongwen/articles/cmly7er4rze9o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "在每一年的亞太經合組織峰會上，人們除了關心哪個國的領導人出席、他們之間的互動和談話，還有他們大合照時穿了什麼。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/fefc/live/96bdd5d0-e3e7-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-19T07:05+00:00",
+   "where": [
+    22.54,
+    114.06,
+    "深圳"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
    "t": "特朗普稱不會在新年前倉促決定對伊朗行動",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878526-20261120.htm",
    "d": "美國總統特朗普表示，他不會在新年前就伊朗問題的下一步行動倉促作出決定。 特朗普星期四接受美國阿克西奧斯新聞網站電話採訪，在談及伊朗問題時，他說要看看新年之後局勢如何發展。阿克西奧斯新聞網站分析，特朗普所提及的時間節點可能意味，他希望為美國對伊朗實施的海上封鎖和經濟施壓行動留出更多時間以發揮作用，亦可能表明如果伊朗今年年底前不讓步，特朗普希望在由民主黨掌控的新一屆國會正式履職前，為自己留出足夠的時間來採取軍事行動。 報道又說，特朗普面臨來…",
@@ -129,11 +171,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "天文台今早錄得最低氣溫15.3度 是入秋以來最低紀錄",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878529-20261120.htm",
-   "d": "本港今早天氣顯著轉涼，截至上午5時30分，天文台錄得最低氣溫15.3度，是入秋以來的最低紀錄。 天文台說，一股強烈東北季候風及一道雲雨帶正影響廣東沿岸。預測今日密雲，有幾陣雨。日間市區氣溫介乎14至16度，新界再低一兩度，新界部分地區及高地寒冷。吹清勁北至東北風，離岸及高地吹強風。 編輯︰張萬燕",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878529_1_M_20261120062740.jpg",
-   "at": "2026-11-19T22:27+00:00",
+   "t": "強烈季候風信號生效",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878521-20261120.htm",
+   "d": "天文台在凌晨4時45分發出強烈季候風信號。預料本港吹偏北強風，平均風速每小時超過四十公里。陣風間中達烈風程度。 編輯︰張萬燕",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878521_1_M_20261120052319.jpg",
+   "at": "2026-11-19T21:23+00:00",
    "where": [
     22.32,
     114.17,
@@ -171,48 +213,6 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "強烈季候風信號生效",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878521-20261120.htm",
-   "d": "天文台在凌晨4時45分發出強烈季候風信號。預料本港吹偏北強風，平均風速每小時超過四十公里。陣風間中達烈風程度。 編輯︰張萬燕",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878521_1_M_20261120052319.jpg",
-   "at": "2026-11-19T21:23+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "APEC的特色服飾：從克林頓皮衣到深圳「鯤鵬展翅」絲巾",
-   "u": "https://www.bbc.com/zhongwen/articles/cmly7er4rze9o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "在每一年的亞太經合組織峰會上，人們除了關心哪個國的領導人出席、他們之間的互動和談話，還有他們大合照時穿了什麼。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/fefc/live/96bdd5d0-e3e7-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-19T07:05+00:00",
-   "where": [
-    22.54,
-    114.06,
-    "深圳"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "特朗普結束訪華行程回國 當地周五將召開記者會",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878519-20261120.htm",
-   "d": "美國總統特朗普結束中國訪問行程回國，他在社交平台發文，形容今次訪問非常好和影響深遠，他星期五中午會在白宮召開記者會，屆時亦會討論與泰國、菲律賓及其他國家的貿易協議。 特朗普在深圳出席APEC峰會期間，與國家主席習近平及俄羅斯總統普京舉行三方會談，討論到烏克蘭危機、防止核武器擴散、中東局勢、朝鮮半島等重大國際和地區問題，會後發表和平宣言。 在結束三方會談後，特朗普乘坐專車前往寶安國際機場，再登上空軍一號專機啟程離開，外長王毅到機場送行。 …",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878519_1_M_20261120033658.jpg",
-   "at": "2026-11-19T19:36+00:00",
-   "where": [
-    38.9,
-    -77.04,
-    "美國"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
    "t": "深圳APEC｜王毅稱宣言凝聚三方共識 對維護和平具重大意義",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878509-20261119.htm",
    "d": "中共中央政治局委員、外長王毅說，中俄美三國元首歷史性會晤，開創三國最高領導人交往的新記錄，亦為新時期的大國協調互動，構建新範式，可以稱為國際關係史上一個重大創舉，是一次體現大國擔當標誌性的會晤，意義重大，影響深遠，是載入史冊的標誌性事件，是一次和平峰會。 他說，會晤氣氛坦誠友好，富有建設性，取得一系列共識，對外發布面向世界的和平宣言，宣言凝聚三方共識，對更有效應對挑戰，維護好世界和平和穩定，具有重大和積極意義。 王毅表示，世界百年變局加…",
@@ -241,15 +241,15 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "沙特稱首都最高建築遭胡塞武裝襲擊受損",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878514-20261120.htm",
-   "d": "沙特阿拉伯當局表示，首都利雅得最高建築遭到也門胡塞武裝襲擊，多個樓層和周邊建築受損，但未造成人員傷亡。 沙特民防總局星期四發表聲明，譴責襲擊針對民用設施，公然違反國際人道法。聲明附有的圖片顯示，遇襲建築是位於利雅得阿卜杜拉國王金融區的公共投資基金大廈，是利雅得目前最高的建築。 編輯︰張萬燕",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878514_1_M_20261120033823.jpg",
-   "at": "2026-11-19T18:40+00:00",
+   "t": "特朗普結束訪華行程回國 當地周五將召開記者會",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878519-20261120.htm",
+   "d": "美國總統特朗普結束中國訪問行程回國，他在社交平台發文，形容今次訪問非常好和影響深遠，他星期五中午會在白宮召開記者會，屆時亦會討論與泰國、菲律賓及其他國家的貿易協議。 特朗普在深圳出席APEC峰會期間，與國家主席習近平及俄羅斯總統普京舉行三方會談，討論到烏克蘭危機、防止核武器擴散、中東局勢、朝鮮半島等重大國際和地區問題，會後發表和平宣言。 在結束三方會談後，特朗普乘坐專車前往寶安國際機場，再登上空軍一號專機啟程離開，外長王毅到機場送行。 …",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878519_1_M_20261120033658.jpg",
+   "at": "2026-11-19T19:36+00:00",
    "where": [
-    24.7,
-    46.7,
-    "沙特"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -282,10 +282,15 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "蒙古議會表決批准總統呼日勒蘇赫辭職",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878513-20261120.htm",
-   "d": "蒙古議會召開全體會議，表決批准呼日勒蘇赫辭去總統職務。報道說，今次是蒙古歷史上首次出現現任總統主動提前辭職。投票的104名議員中，96人對總統辭職議案投贊成票。 根據蒙古憲法規定，如果總統自願辭職，由議會主席代行總統職權，直至新總統宣誓就職。同時，議會須在4個月內宣布並舉行總統選舉。 呼日勒蘇赫2021年當選總統。本月17日，他宣布辭去總統職務。針對外界流傳的濫用職權、腐敗斂財等指控，呼日勒蘇赫表示自己並未犯下任何政策性錯誤，亦未竊取過…",
-   "at": "2026-11-19T17:16+00:00"
+   "t": "沙特稱首都最高建築遭胡塞武裝襲擊受損",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878514-20261120.htm",
+   "d": "沙特阿拉伯當局表示，首都利雅得最高建築遭到也門胡塞武裝襲擊，多個樓層和周邊建築受損，但未造成人員傷亡。 沙特民防總局星期四發表聲明，譴責襲擊針對民用設施，公然違反國際人道法。聲明附有的圖片顯示，遇襲建築是位於利雅得阿卜杜拉國王金融區的公共投資基金大廈，是利雅得目前最高的建築。 編輯︰張萬燕",
+   "at": "2026-11-19T18:40+00:00",
+   "where": [
+    24.7,
+    46.7,
+    "沙特"
+   ]
   },
   {
    "src": "香港",
@@ -317,15 +322,10 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "丹麥議會通過涉格陵蘭島安全防衛協議 允許美國設新防務區域",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878512-20261120.htm",
-   "d": "丹麥議會表決通過一項涉及丹麥自治領地格陵蘭島的安全與防衛協議，相關協議今年9月由丹麥、格陵蘭島與美國在紐約聯合國總部簽署，修訂美國與丹麥1951年簽署的防務協定，允許美國在格陵蘭島設立新的防務區域，以及升級相關設施和擴大軍事行動。 根據協議，丹麥和格陵蘭島完成議會審批程序後，協議將在美方收到相關外交照會後生效。格陵蘭島自治議會已經在本月3日通過協議。 編輯︰張萬燕",
-   "at": "2026-11-19T16:17+00:00",
-   "where": [
-    38.9,
-    -77.04,
-    "美國"
-   ]
+   "t": "蒙古議會表決批准總統呼日勒蘇赫辭職",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878513-20261120.htm",
+   "d": "蒙古議會召開全體會議，表決批准呼日勒蘇赫辭去總統職務。報道說，今次是蒙古歷史上首次出現現任總統主動提前辭職。投票的104名議員中，96人對總統辭職議案投贊成票。 根據蒙古憲法規定，如果總統自願辭職，由議會主席代行總統職權，直至新總統宣誓就職。同時，議會須在4個月內宣布並舉行總統選舉。 呼日勒蘇赫2021年當選總統。本月17日，他宣布辭去總統職務。針對外界流傳的濫用職權、腐敗斂財等指控，呼日勒蘇赫表示自己並未犯下任何政策性錯誤，亦未竊取過…",
+   "at": "2026-11-19T17:16+00:00"
   },
   {
    "src": "香港",
@@ -395,7 +395,7 @@
    "lang": "en",
    "t": "Woman drugged and advertised for sex by husband speaks out as abusers found guilty",
    "u": "https://www.bbc.co.uk/news/articles/crq5n5pe935no?at_medium=RSS&at_campaign=rss",
-   "d": "Joanne Young said the actions of her husband over 13 years had \"cost me my life as I knew it.\"",
+   "d": "Joanne Young said the actions of her husband over 13 years had \"cost me my life as I knew it\".",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/db7d/live/acdc01e0-e467-11f1-99b6-a35a62fa4264.jpg",
    "at": "2026-11-20T01:12+00:00",
    "where": [
@@ -505,11 +505,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Covid inquiry report: key findings on testing, tracing and 'the pingdemic'",
-   "u": "https://www.bbc.co.uk/news/articles/crx20q8ql4gwo?at_medium=RSS&at_campaign=rss",
-   "d": "Early efforts to contain coronavirus \"were doomed to fail\", the public inquiry has found. Here's what you need to know.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/907e/live/c7d0e7d0-e37d-11f1-b879-03485a55c082.png",
-   "at": "2026-11-19T12:47+00:00",
+   "t": "Tens of thousands of UK fridges secured from hackers in secret nationwide operation",
+   "u": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o?at_medium=RSS&at_campaign=rss",
+   "d": "Supermarkets, warehouses, restaurants and stadiums have been scrambling to make their devices safe.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d3db/live/57d6aa20-d769-11f1-a956-ff083523ef77.jpg",
+   "at": "2026-11-20T00:02+00:00",
    "where": [
     52.5,
     -1.5,
@@ -519,15 +519,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Bowen: Myanmar genocide verdict is historic and could have far-reaching implications",
-   "u": "https://www.bbc.co.uk/news/articles/c6ly58ndgd0no?at_medium=RSS&at_campaign=rss",
-   "d": "Lawyers will study the way in which Gambia proved the crucial point that Myanmar intended to commit genocide, writes the BBC's international editor.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3c23/live/ca0d1d80-e480-11f1-8b52-e985038d8723.jpg",
-   "at": "2026-11-19T20:02+00:00",
+   "t": "Indonesian daycare principal jailed for five years over child abuse case",
+   "u": "https://www.bbc.co.uk/news/articles/cvkg58d7z10ro?at_medium=RSS&at_campaign=rss",
+   "d": "Toddlers were found with their hands and feet tied with rags when police raided the centre in April.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1787/live/a2be3860-e483-11f1-bb74-ddffc6a7ed93.jpg",
+   "at": "2026-11-20T01:48+00:00",
    "where": [
-    21.9,
-    95.96,
-    "緬甸"
+    -0.8,
+    113.9,
+    "印尼"
    ]
   },
   {
@@ -617,11 +617,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Timetable set out for dismantling leasehold system in England and Wales",
-   "u": "https://www.bbc.co.uk/news/articles/cw987ynpd0n1o?at_medium=RSS&at_campaign=rss",
-   "d": "Under the government's plans, a ban on the sale of most new leasehold flats is expected around 2031.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5545/live/187c4b30-e40e-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-19T17:49+00:00",
+   "t": "Massive hope for pancreatic cancer pill after trial saw tumours vanish",
+   "u": "https://www.bbc.co.uk/news/articles/cqrmgjnzz9l0o?at_medium=RSS&at_campaign=rss",
+   "d": "Daily pill daraxonrasib appears to shrink and possibly even eliminate tumours in some patients with one of the deadliest cancers.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6ca3/live/9b3a4680-e445-11f1-9192-3924a59e54c7.jpg",
+   "at": "2026-11-20T00:08+00:00",
    "where": [
     52.5,
     -1.5,
@@ -631,15 +631,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Cumin-laced fizzy sodas are giving cola giants a tough fight in India",
-   "u": "https://www.bbc.co.uk/news/articles/cw1m4ym7ez2eo?at_medium=RSS&at_campaign=rss",
-   "d": "Cumin-laced sodas are capturing a bigger market share in India as demand for homegrown flavours goes up.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9306/live/f4b27990-e31d-11f1-baab-4b3b35d174b7.jpg",
-   "at": "2026-11-19T23:29+00:00",
+   "t": "Bowen: Myanmar genocide verdict is historic and could have far-reaching implications",
+   "u": "https://www.bbc.co.uk/news/articles/c6ly58ndgd0no?at_medium=RSS&at_campaign=rss",
+   "d": "Lawyers will study the way in which Gambia proved the crucial point that Myanmar intended to commit genocide, writes the BBC's international editor.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d6fc/live/482060d0-e489-11f1-844f-c7a24d31dcc3.jpg",
+   "at": "2026-11-19T20:02+00:00",
    "where": [
-    21.0,
-    78.0,
-    "印度"
+    21.9,
+    95.96,
+    "緬甸"
    ]
   },
   {
@@ -729,11 +729,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "UK joins in GTA 6 frenzy as game becomes available worldwide",
-   "u": "https://www.bbc.co.uk/news/articles/c6z74ep2n17zo?at_medium=RSS&at_campaign=rss",
-   "d": "The game, which was in development for 13 years, is set become one of the world's most popular entertainment products ever.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/01c9/live/8b711120-e422-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-19T12:26+00:00",
+   "t": "UK and EU to agree youth mobility scheme, BBC understands",
+   "u": "https://www.bbc.co.uk/news/articles/c623j4kpg94go?at_medium=RSS&at_campaign=rss",
+   "d": "The scheme is expected to be approved at Friday's UK-EU summit, with new deals on food trade and carbon emissions also on the table.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/30e0/live/a012a6c0-e48b-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-20T02:40+00:00",
    "where": [
     52.5,
     -1.5,
@@ -743,15 +743,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
-   "u": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&at_campaign=rss",
-   "d": "The meeting comes with challenges as there are things Xi does not appear keen to discuss with Putin and Trump.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/07ac/live/bcaff6a0-e3cf-11f1-a266-6b47da5e73cc.jpg",
-   "at": "2026-11-19T04:42+00:00",
+   "t": "Cumin-laced fizzy sodas are giving cola giants a tough fight in India",
+   "u": "https://www.bbc.co.uk/news/articles/cw1m4ym7ez2eo?at_medium=RSS&at_campaign=rss",
+   "d": "Cumin-laced sodas are capturing a bigger market share in India as demand for homegrown flavours goes up.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9306/live/f4b27990-e31d-11f1-baab-4b3b35d174b7.jpg",
+   "at": "2026-11-19T23:29+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    21.0,
+    78.0,
+    "印度"
    ]
   },
   {
@@ -841,11 +841,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Crew unaware of risks before Mike Lynch's yacht Bayesian sank, say investigators",
-   "u": "https://www.bbc.co.uk/news/articles/c6e9kn15z9d7o?at_medium=RSS&at_campaign=rss",
-   "d": "The vessel sank off the coast of northern Sicily, killing seven people including British tech tycoon Mike Lynch.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6aec/live/3ca33b80-6077-11ef-aea1-e764981585c4.jpg",
-   "at": "2026-11-19T00:05+00:00",
+   "t": "Next round of BBC cuts will be more noticeable to audiences, report warns",
+   "u": "https://www.bbc.co.uk/news/articles/cmpdwev0jgp6o?at_medium=RSS&at_campaign=rss",
+   "d": "The BBC has already cut jobs, programmes and services but has further to go to reach its £500m target.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e693/live/c254bab0-e42d-11f1-a630-a951c13e48b7.jpg",
+   "at": "2026-11-20T00:38+00:00",
    "where": [
     52.5,
     -1.5,
@@ -855,15 +855,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Indian driver wins $1.3m in life-changing lottery prize",
-   "u": "https://www.bbc.co.uk/news/videos/cke89vdn75gyo?at_medium=RSS&at_campaign=rss",
-   "d": "A truck driver's fortunes have changed overnight after he won a Diwali lottery in the northern Indian state of Punjab.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/31eb/live/93fec7f0-e40a-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-19T11:38+00:00",
+   "t": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
+   "u": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&at_campaign=rss",
+   "d": "The meeting comes with challenges as there are things Xi does not appear keen to discuss with Putin and Trump.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/07ac/live/bcaff6a0-e3cf-11f1-a266-6b47da5e73cc.jpg",
+   "at": "2026-11-19T04:42+00:00",
    "where": [
-    21.0,
-    78.0,
-    "印度"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
@@ -953,11 +953,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Surgeon calls for corporate homicide probe over claims patients unnecessarily bled to death",
-   "u": "https://www.bbc.co.uk/news/articles/crjeqxexyq05o?at_medium=RSS&at_campaign=rss",
-   "d": "Dr Mohammed Habib said he had been raising concerns about NHS Grampian for a decade, including with government ministers and police.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a0bf/live/715d23f0-e41d-11f1-9e08-55a8a3b48445.png",
-   "at": "2026-11-19T15:30+00:00",
+   "t": "Airbnb's divisive new house rules come into force",
+   "u": "https://www.bbc.co.uk/news/articles/cmx278n2genyo?at_medium=RSS&at_campaign=rss",
+   "d": "New rules on what Airbnb hosts can reasonably ask guests to do could mean fewer chores but higher costs for customers.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/005c/live/dfcb5350-e410-11f1-b37c-b3a71d7200af.jpg",
+   "at": "2026-11-20T00:12+00:00",
    "where": [
     52.5,
     -1.5,
@@ -967,11 +967,11 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "William and Kate meet PM Modi as they wrap up India tour",
-   "u": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&at_campaign=rss",
-   "d": "The meeting in New Delhi was a late addition to the royal couple's India visit, which also included their appearance at the annual Earthshot Prize",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/efe9/live/814a0670-e35a-11f1-a8cd-2ff5ed84046e.jpg",
-   "at": "2026-11-18T20:07+00:00",
+   "t": "Indian driver wins $1.3m in life-changing lottery prize",
+   "u": "https://www.bbc.co.uk/news/videos/cke89vdn75gyo?at_medium=RSS&at_campaign=rss",
+   "d": "A truck driver's fortunes have changed overnight after he won a Diwali lottery in the northern Indian state of Punjab.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/31eb/live/93fec7f0-e40a-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-19T11:38+00:00",
    "where": [
     21.0,
     78.0,
@@ -1064,11 +1064,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Letby prosecutors knew expert witness was under investigation",
-   "u": "https://www.bbc.co.uk/news/articles/cm5y1494e950o?at_medium=RSS&at_campaign=rss",
-   "d": "The Crown Prosecution Service knew an expert witness was being investigated by the General Medical Council.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cbde/live/af12c660-e417-11f1-b37c-b3a71d7200af.jpg",
-   "at": "2026-11-19T16:28+00:00",
+   "t": "Covid inquiry report: key findings on testing, tracing and 'the pingdemic'",
+   "u": "https://www.bbc.co.uk/news/articles/crx20q8ql4gwo?at_medium=RSS&at_campaign=rss",
+   "d": "Early efforts to contain coronavirus \"were doomed to fail\", the public inquiry has found. Here's what you need to know.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/907e/live/c7d0e7d0-e37d-11f1-b879-03485a55c082.png",
+   "at": "2026-11-19T12:47+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1078,15 +1078,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
-   "u": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
-   "d": "No state has ever been found guilty by an international court of committing genocide.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/67fc/live/b89f41e0-e336-11f1-9479-d17d3e98c29d.jpg",
-   "at": "2026-11-18T23:04+00:00",
+   "t": "William and Kate meet PM Modi as they wrap up India tour",
+   "u": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&at_campaign=rss",
+   "d": "The meeting in New Delhi was a late addition to the royal couple's India visit, which also included their appearance at the annual Earthshot Prize",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/efe9/live/814a0670-e35a-11f1-a8cd-2ff5ed84046e.jpg",
+   "at": "2026-11-18T20:07+00:00",
    "where": [
-    21.9,
-    95.96,
-    "緬甸"
+    21.0,
+    78.0,
+    "印度"
    ]
   },
   {
@@ -1189,15 +1189,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Pakistan's solar revolution is so successful the national grid is lagging behind",
-   "u": "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o?at_medium=RSS&at_campaign=rss",
-   "d": "People installing their own solar panels has helped boost the solar share of Pakistan's electricity from 1% to 28%.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7f9b/live/9d67ed20-e29e-11f1-8dda-8925a81c3da5.jpg",
-   "at": "2026-11-17T23:34+00:00",
+   "t": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
+   "u": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
+   "d": "No state has ever been found guilty by an international court of committing genocide.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/67fc/live/b89f41e0-e336-11f1-9479-d17d3e98c29d.jpg",
+   "at": "2026-11-18T23:04+00:00",
    "where": [
-    30.4,
-    69.3,
-    "巴基斯坦"
+    21.9,
+    95.96,
+    "緬甸"
    ]
   },
   {
