@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-19T18:00+00:00",
+ "updated": "2026-11-20T05:43+00:00",
  "en": {
-  "greeting": "Good evening — Thursday 19 November",
+  "greeting": "Good morning — Friday 20 November",
   "sections": [
    {
     "h": "Top stories",
     "items": [
      {
-      "t": "Trump, Xi and Putin issue 'peace declaration' in Shenzhen",
-      "d": "The first three-way summit ended with a pledge to hold talks on cutting nuclear risks and stopping proliferation. Ukraine and the Iran war got little detail, but Trump said Xi agreed the Strait of Hormuz must stay open.",
-      "u": "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways"
+      "t": "Anthropic makes record stock market debut",
+      "d": "Anthropic's $81bn IPO, the biggest ever, priced at $83 a share. ANT opened 34% higher on Nasdaq but faded to close up 17% at $97.17.",
+      "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
      },
      {
-      "t": "Anthropic shares soar in record-breaking Nasdaq debut",
-      "d": "Priced at $83 after raising $81.3bn, the biggest IPO ever, Anthropic opened at about $111.50 and hit $114.99. The debut is seen as a test of how much investors will pay for AI.",
-      "u": "https://www.cbsnews.com/news/anthropic-ipo-nasdaq-debut-claude-ai/"
+      "t": "Trump, Xi and Putin meet in Shenzhen at APEC",
+      "d": "The three leaders held a rare 90-minute meeting at the APEC summit. They pledged more oil and gas output and said no one can win a nuclear war, but little concrete was agreed.",
+      "u": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
      },
      {
-      "t": "Iran hits US base in Kuwait and Bahrain as Gulf war widens",
-      "d": "Iran launched drones at a US airbase in Kuwait and attacked Bahrain after a US strike on Qeshm Island. A tanker was hit off Oman and Trump said the conflict would end 'one way or the other'.",
-      "u": "https://gulfnews.com/world/mena/middle-east-war-riyadh-skyscraper-damaged-tanker-hit-near-oman-as-trump-weighs-fresh-iran-strikes-1.500752996"
+      "t": "Burnham ready to walk away before EU summit",
+      "d": "Ahead of today's UK-EU summit in Brussels, the PM said he would quit a deal not in Britain's interest. The UK has reportedly accepted 100,000 youth visas a year; EU food rules remain the sticking point.",
+      "u": "https://www.rte.ie/news/uk/2026/1120/1599941-uk-eu-summit/"
      }
     ]
    },
@@ -27,24 +27,19 @@
     "h": "World & politics",
     "items": [
      {
-      "t": "UN top court rules Myanmar committed genocide against Rohingya",
-      "d": "The International Court of Justice found Myanmar responsible for genocide over the 2017 military campaign against the Rohingya, a landmark ruling in a case brought by The Gambia.",
-      "u": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo"
+      "t": "Senate Republicans block bid to end Iran war",
+      "d": "The Senate again rejected a Democratic war powers resolution to end US involvement in the Iran war, with no new Republican support despite the party's election losses.",
+      "u": "https://www.dailyherald.com/2026/11/19/congress-war-powers-iran-war/"
      },
      {
-      "t": "Putin vows 'far more painful' response to Crimean Bridge strikes",
-      "d": "Speaking during his China trip, Putin threatened tougher retaliation after Ukrainian attacks on the bridge linking Russia to occupied Crimea, even as he praised talks with Trump and Xi.",
-      "u": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo"
+      "t": "Trump 'not rushing' on Iran as war costs top $48bn",
+      "d": "Trump said he may wait until the new year to decide next steps. Iran claimed two more tankers hit mines in the Strait of Hormuz, and the Pentagon put the war's cost above $48bn.",
+      "u": "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
      },
      {
-      "t": "Venezuela signs military deal with the US",
-      "d": "Less than a year after Nicolás Maduro was removed, Caracas agreed a defence pact with Washington, deepening US influence over the oil-rich country.",
-      "u": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo"
-     },
-     {
-      "t": "Denmark approves Greenland defence deal with the US",
-      "d": "Danish MPs backed a security agreement letting the US set up new defence areas in Greenland, easing a long row over the Arctic island.",
-      "u": "https://news.rthk.hk/rthk/ch/component/k2/1878512-20261120.htm"
+      "t": "Putin rules out direct talks with Ukraine",
+      "d": "After a Ukrainian strike on the Kerch bridge in Crimea, Putin said at APEC there would be no direct negotiations with Kyiv, dimming hopes for a peace push.",
+      "u": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
      }
     ]
    },
@@ -52,19 +47,19 @@
     "h": "Business & economy",
     "items": [
      {
-      "t": "FTSE 100 slips while Wall Street eyes Anthropic",
-      "d": "London's blue chips ended lower on Thursday as attention turned to Anthropic's debut in New York, which lifted US tech sentiment after a shaky week for AI stocks.",
-      "u": "https://www.lse.co.uk/news/london-market-close-ftse-100-down-but-anthropic-makes-strong-debut-cvq2se0vjggko2j.html"
+      "t": "Wall Street slides as AI trade wobbles",
+      "d": "The Dow fell 1,101 points (2.2%) to below 50,000 and the Nasdaq lost 2.25%. Chip stocks led losses; AMD dropped about 8% after a short seller targeted it.",
+      "u": "https://eurasiabusinessnews.com/2026/11/19/stock-market-today-november-19-2026-dow-sinks-1084-points-nasdaq-drops-2-2-after-anthropic-debut"
      },
      {
-      "t": "US group beats Chinese rivals to huge Kenya mining deal",
-      "d": "A US-led consortium won a major Kenyan mining contract, a sign of Washington's push to secure critical minerals in Africa against Chinese competition.",
-      "u": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o"
+      "t": "Walmart beats forecasts and lifts outlook",
+      "d": "Walmart's quarterly revenue reached $188.8bn, ahead of expectations, with US same-store sales up 2.9% and online sales up 17%. It raised its full-year forecast.",
+      "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
      },
      {
-      "t": "Van Gogh painting sells for record $190.4m",
-      "d": "The work fetched a record price at auction in New York despite a dispute over its history under the Nazis, showing strong demand at the top of the art market.",
-      "u": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo"
+      "t": "Moody's cuts Nvidia outlook after CEO exit",
+      "d": "Moody's lowered Nvidia's credit outlook to stable from positive, citing no formal succession plan after Jensen Huang's sudden departure.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-18/moody-s-lowers-nvidia-s-ratings-outlook-to-stable-from-positive"
      }
     ]
    },
@@ -72,29 +67,34 @@
     "h": "Technology",
     "items": [
      {
-      "t": "Google launches Gemini 4 Neon model",
-      "d": "The new mid-tier model ranks third on the Artificial Analysis index behind GPT-6.2 Astra and Claude Fable 5.2, costs $3/$15 per million tokens, and replaces Argon in the Gemini app.",
-      "u": "https://thenextweb.com/news/gemini-4-neon-google-third-intelligence-index-replaces-argon"
+      "t": "Nvidia stops shipping H200 AI chips to China",
+      "d": "Despite US approval for some sales, Nvidia says it plans no more licensed Hopper shipments to China, after $2.4bn in China sales last quarter.",
+      "u": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling"
      },
      {
-      "t": "Intel lands first outside customer for its 18A chips",
-      "d": "Intel says it has signed its first external client for its most advanced process, with yields reportedly at 70%, and Microsoft is using its EMIB packaging. It is a boost for Intel's foundry comeback.",
-      "u": "https://www.trendforce.com/news/2026/11/19/news-intel-scores-dual-foundry-wins-microsoft-named-first-emib-customer-tan-says-18a-secures-first-external-deal/"
+      "t": "Nvidia's interim CEO rallies staff",
+      "d": "Colette Kress held her first all-hands after Jensen Huang's exit, reportedly promising pay rises and extra equity before December to keep staff.",
+      "u": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html"
      },
      {
-      "t": "GTA 6 launches worldwide to record reviews",
-      "d": "Rockstar's Grand Theft Auto VI is now out, after becoming the best-reviewed game ever on Metacritic. Fans queued and took time off; PS5 owners need a firmware update to play.",
-      "u": "https://www.bbc.co.uk/news/articles/c6z74ep2n17zo"
+      "t": "Google launches Gemini 4 Neon",
+      "d": "Google's new model targets coding and complex analysis, with a 1-million-token context window. It is rolling out via the API and to Gemini subscribers.",
+      "u": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
      },
      {
-      "t": "New US chip curbs on South East Asia aim at China",
-      "d": "Washington's latest restrictions target AI chips flowing through South East Asian data centres, closing a route Chinese firms have used to reach advanced computing power.",
-      "u": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo"
+      "t": "Banks say AI agent users are on their own",
+      "d": "Citi and other banks now make customers liable for transactions made by third-party AI assistants with account access, even if the tools are hacked.",
+      "u": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/"
      },
      {
-      "t": "Anthropic IPO puts AI's circular financing to the test",
-      "d": "Big backers such as Google, Microsoft and Nvidia also sell Anthropic chips and cloud. The listing tests whether that web of deals reflects real demand.",
-      "u": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/"
+      "t": "Big US school districts weigh dropping Google",
+      "d": "New York, Los Angeles and Chicago schools are looking at alternatives after Google said schools cannot switch off Gemini AI features in Search from next year.",
+      "u": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google"
+     },
+     {
+      "t": "OpenAI uses its own AI to design chips",
+      "d": "OpenAI says model-suggested changes shrank one chip circuit by about 15% and halved a calculation's clock cycles. It is working with Synopsys on AI design tools.",
+      "u": "https://openai.com/index/advancing-chip-design-with-our-models/"
      }
     ]
    },
@@ -102,19 +102,19 @@
     "h": "Science & health",
     "items": [
      {
-      "t": "DeepMind's AlphaGenome 2 impresses geneticists",
-      "d": "The new AI can predict which cell types a DNA variant is likely to affect, which could speed up the search for the genetic causes of disease.",
-      "u": "https://www.nature.com/articles/d41586-026-03673-0"
+      "t": "Blood test may spot CTE in living people",
+      "d": "A JAMA study of 21 former American football players found a tau marker in blood was higher in those with severe CTE, a brain disease until now only confirmed after death.",
+      "u": "https://www.click2houston.com/news/local/2026/11/20/this-is-a-game-changer-blood-test-may-help-detect-cte-in-people-still-alive-study-finds/"
      },
      {
-      "t": "RSV jabs are slashing infections, data show",
-      "d": "Vaccines and antibody injections against RSV are sharply cutting hospital admissions in babies and older people, a big win against a common winter virus.",
-      "u": "https://www.nature.com/articles/d41586-026-03573-3"
+      "t": "Clue to why type 1 diabetes attack persists",
+      "d": "University of Florida scientists found self-renewing, stem-like T cells near the pancreas that may keep the immune attack going, a possible new drug target.",
+      "u": "https://www.news4jax.com/health/2026/11/20/uf-researchers-discover-what-may-be-driving-the-immune-system-to-keep-attacking-in-type-1-diabetes/"
      },
      {
-      "t": "New obesity definition beats BMI at predicting health",
-      "d": "Adding waist size to height and weight gives a more accurate picture of health risk than BMI alone, researchers report.",
-      "u": "https://www.nature.com/articles/d41586-026-03636-5"
+      "t": "Night shifts linked to heart structure changes",
+      "d": "A UK Biobank study of 42,671 people found frequent night-shift workers had slightly thicker heart walls and smaller chambers, though pumping strength was similar.",
+      "u": "https://www.eurekalert.org/news-releases/1152488"
      }
     ]
    },
@@ -122,39 +122,39 @@
     "h": "UK",
     "items": [
      {
-      "t": "Covid inquiry delivers verdict on test and trace",
-      "d": "The UK Covid inquiry's latest report sets out its findings on testing, contact tracing and the 2021 'pingdemic', when app alerts forced huge numbers to isolate.",
-      "u": "https://www.bbc.co.uk/news/articles/crx20q8ql4gwo"
+      "t": "Inflation edges up to 3.6% as diesel hits record",
+      "d": "CPI rose to 3.6% in October from 3.5%, driven by fuel. Diesel averaged 199.5p a litre, the highest since records began in 1996.",
+      "u": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026"
      },
      {
-      "t": "Timetable set for ending leasehold in England and Wales",
-      "d": "The government set out when the leasehold system will be dismantled, moving homeowners towards commonhold and ending ground rents and many service-charge disputes.",
-      "u": "https://www.bbc.co.uk/news/articles/cw987ynpd0n1o"
+      "t": "Polls show most Britons now back rejoining EU",
+      "d": "As Burnham heads to Brussels, a YouGov poll found 59% would back rejoining. He has ruled out big changes before the next election but plans wider talks.",
+      "u": "https://www.aljazeera.com/news/2026/11/19/as-burnham-heads-to-brussels-are-new-brexit-wars-about-to-begin"
      }
     ]
    }
   ]
  },
  "zh": {
-  "greeting": "晚安 — 11月19日星期四",
+  "greeting": "早晨 — 11月20日星期五",
   "sections": [
    {
     "h": "頭條新聞",
     "items": [
      {
-      "t": "特朗普、習近平、普京深圳發表「和平宣言」",
-      "d": "首次三方峰會結束，三國承諾就降低核風險及防止核擴散展開對話。宣言對烏克蘭及伊朗戰事着墨不多，但特朗普稱習近平同意霍爾木茲海峽必須保持暢通。",
-      "u": "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways"
+      "t": "Anthropic上市創紀錄",
+      "d": "Anthropic以每股83美元招股，集資約810億美元，為史上最大型IPO。股份（ANT）在納斯達克首日高開34%，其後回落，收市仍升17%報97.17美元。",
+      "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
      },
      {
-      "t": "Anthropic納斯達克上市首日股價急升",
-      "d": "Anthropic以每股83美元招股，集資813億美元，為史上最大規模IPO。股價首日以約111.50美元開市，最高見114.99美元，被視為市場對AI估值的試金石。",
-      "u": "https://www.cbsnews.com/news/anthropic-ipo-nasdaq-debut-claude-ai/"
+      "t": "特朗普、習近平、普京深圳APEC會面",
+      "d": "三國領袖在亞太經合組織峰會期間罕有會面約90分鐘，承諾增加石油及天然氣產量，並重申核戰沒有贏家，但未有具體成果。",
+      "u": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
      },
      {
-      "t": "伊朗襲擊科威特美軍基地及巴林　海灣戰火擴大",
-      "d": "美軍空襲格什姆島後，伊朗向科威特美軍空軍基地發射無人機，並襲擊巴林。一艘油輪在阿曼對開被擊中，特朗普稱衝突將「以這種或那種方式」結束。",
-      "u": "https://gulfnews.com/world/mena/middle-east-war-riyadh-skyscraper-damaged-tanker-hit-near-oman-as-trump-weighs-fresh-iran-strikes-1.500752996"
+      "t": "英歐峰會前夕 賓咸稱準備放棄協議",
+      "d": "今日在布魯塞爾舉行英歐峰會前，首相賓咸表示若協議不符英國利益會放棄。英方據報已接受每年10萬個青年工作簽證，歐盟食品規例仍是癥結。",
+      "u": "https://www.rte.ie/news/uk/2026/1120/1599941-uk-eu-summit/"
      }
     ]
    },
@@ -162,24 +162,19 @@
     "h": "國際及政治",
     "items": [
      {
-      "t": "國際法院裁定緬甸對羅興亞人犯種族滅絕罪",
-      "d": "國際法院裁定，緬甸須為2017年針對羅興亞人的軍事行動負上種族滅絕責任。案件由岡比亞提出，裁決具里程碑意義。",
-      "u": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo"
+      "t": "美參院共和黨再阻終結伊朗戰爭決議",
+      "d": "參議院再次否決民主黨提出、要求美國結束參與伊朗戰爭的戰爭權力決議。共和黨在選舉失利後仍無新增議員支持。",
+      "u": "https://www.dailyherald.com/2026/11/19/congress-war-powers-iran-war/"
      },
      {
-      "t": "普京揚言就克里米亞大橋遇襲作「更痛」回應",
-      "d": "普京訪華期間表示，烏克蘭襲擊連接俄羅斯與被佔克里米亞的大橋後，俄方會作出更嚴厲報復，同時讚揚與特朗普及習近平的會談。",
-      "u": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo"
+      "t": "特朗普稱不急於對伊朗決策 戰費逾480億",
+      "d": "特朗普表示或待明年才決定下一步。伊朗稱再有兩艘油輪在荷姆茲海峽觸雷，五角大樓指戰爭開支已超過480億美元。",
+      "u": "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
      },
      {
-      "t": "委內瑞拉與美國簽訂軍事協議",
-      "d": "馬杜羅下台不足一年，委內瑞拉與美國簽署防務協議，美國對這個石油大國的影響力進一步加深。",
-      "u": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo"
-     },
-     {
-      "t": "丹麥國會通過格陵蘭防務協議",
-      "d": "丹麥國會通過安全協議，容許美國在格陵蘭設立新防務區域，緩和雙方就這個北極島嶼的長期爭拗。",
-      "u": "https://news.rthk.hk/rthk/ch/component/k2/1878512-20261120.htm"
+      "t": "普京排除與烏克蘭直接談判",
+      "d": "烏克蘭襲擊克里米亞刻赤大橋後，普京在APEC期間表示不會與基輔直接談判，令和談前景更黯淡。",
+      "u": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
      }
     ]
    },
@@ -187,19 +182,19 @@
     "h": "商業及經濟",
     "items": [
      {
-      "t": "富時100指數回落　市場焦點落在Anthropic",
-      "d": "倫敦藍籌股周四收低，市場注意力集中在Anthropic紐約上市，提振經歷波動一周的美國科技股氣氛。",
-      "u": "https://www.lse.co.uk/news/london-market-close-ftse-100-down-but-anthropic-makes-strong-debut-cvq2se0vjggko2j.html"
+      "t": "AI股受壓 華爾街急跌",
+      "d": "道指跌1,101點（2.2%），失守50,000點；納指跌2.25%。晶片股領跌，AMD遭沽空機構狙擊後跌約8%。",
+      "u": "https://eurasiabusinessnews.com/2026/11/19/stock-market-today-november-19-2026-dow-sinks-1084-points-nasdaq-drops-2-2-after-anthropic-debut"
      },
      {
-      "t": "美國財團擊敗中國對手奪肯尼亞大型礦業合約",
-      "d": "一個美國牽頭的財團奪得肯尼亞大型採礦合約，反映華府正積極在非洲爭取關鍵礦產，與中國競爭。",
-      "u": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o"
+      "t": "Walmart業績勝預期並上調展望",
+      "d": "Walmart季度收入達1,888億美元，高於預期；美國同店銷售升2.9%，網購升17%，並上調全年預測。",
+      "u": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
      },
      {
-      "t": "梵高畫作以創紀錄1.904億美元成交",
-      "d": "畫作雖涉納粹時期來歷爭議，仍在紐約拍賣以破紀錄價格成交，顯示頂級藝術品市場需求強勁。",
-      "u": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo"
+      "t": "穆迪下調Nvidia評級展望",
+      "d": "黃仁勳突然離任後，Nvidia未有正式接班計劃，穆迪將其信貸評級展望由「正面」降至「穩定」。",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-18/moody-s-lowers-nvidia-s-ratings-outlook-to-stable-from-positive"
      }
     ]
    },
@@ -207,29 +202,34 @@
     "h": "科技",
     "items": [
      {
-      "t": "Google推出Gemini 4 Neon模型",
-      "d": "新中階模型在Artificial Analysis指數排第三，僅次於GPT-6.2 Astra及Claude Fable 5.2，收費每百萬token 3/15美元，並在Gemini app取代Argon。",
-      "u": "https://thenextweb.com/news/gemini-4-neon-google-third-intelligence-index-replaces-argon"
+      "t": "Nvidia停止向中國付運H200晶片",
+      "d": "雖然美國已批准部分銷售，Nvidia表示不再計劃向中國付運獲許可的Hopper晶片；上季中國銷售額為24億美元。",
+      "u": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling"
      },
      {
-      "t": "Intel 18A製程首獲外部客戶",
-      "d": "Intel表示其最先進製程簽下首個外部客戶，良率據報達七成，Microsoft亦採用其EMIB封裝技術，為Intel晶圓代工業務重振帶來支持。",
-      "u": "https://www.trendforce.com/news/2026/11/19/news-intel-scores-dual-foundry-wins-microsoft-named-first-emib-customer-tan-says-18a-secures-first-external-deal/"
+      "t": "Nvidia署理行政總裁安撫員工",
+      "d": "黃仁勳離任後，Colette Kress首次舉行全體員工大會，據報承諾12月前加薪及增發股份以挽留人才。",
+      "u": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html"
      },
      {
-      "t": "《GTA 6》全球推出　評分破紀錄",
-      "d": "Rockstar的《俠盜獵車手6》正式推出，此前已成為Metacritic史上評分最高遊戲。玩家排隊搶購甚至請假，PS5用家須先更新系統才能遊玩。",
-      "u": "https://www.bbc.co.uk/news/articles/c6z74ep2n17zo"
+      "t": "Google推出Gemini 4 Neon",
+      "d": "Google新模型主打編程及複雜分析，支援100萬token上下文，正透過API及向Gemini訂戶推出。",
+      "u": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
      },
      {
-      "t": "美國對東南亞晶片新限制劍指中國",
-      "d": "華府最新措施針對經東南亞數據中心流動的AI晶片，堵塞中國企業取得先進算力的途徑。",
-      "u": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo"
+      "t": "銀行：用AI代理交易風險自負",
+      "d": "Citi等銀行修訂條款，客戶授權第三方AI助理操作帳戶所作交易，即使工具被入侵，責任亦由客戶承擔。",
+      "u": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/"
      },
      {
-      "t": "Anthropic上市考驗AI「循環融資」",
-      "d": "Google、Microsoft及Nvidia等大股東同時向Anthropic出售晶片及雲端服務，上市將檢驗這些交易是否反映真實需求。",
-      "u": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/"
+      "t": "美國大型學區考慮棄用Google",
+      "d": "Google表示學校明年起不能關閉搜尋中的Gemini AI功能，紐約、洛杉磯及芝加哥學區正研究其他選擇。",
+      "u": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google"
+     },
+     {
+      "t": "OpenAI用自家AI設計晶片",
+      "d": "OpenAI表示，模型建議的修改令一個晶片電路面積縮小約15%，並把一項運算由兩個時鐘週期減至一個；亦與Synopsys合作開發AI設計工具。",
+      "u": "https://openai.com/index/advancing-chip-design-with-our-models/"
      }
     ]
    },
@@ -237,19 +237,19 @@
     "h": "科學及健康",
     "items": [
      {
-      "t": "DeepMind AlphaGenome 2令科學家驚嘆",
-      "d": "新AI能預測DNA變異可能影響哪類細胞，有助加快尋找疾病的遺傳成因。",
-      "u": "https://www.nature.com/articles/d41586-026-03673-0"
+      "t": "驗血或可診斷在世者CTE",
+      "d": "《美國醫學會雜誌》研究分析21名前美式足球員，發現血液中一種tau標記在嚴重CTE患者中較高；此腦病過往只能死後確診。",
+      "u": "https://www.click2houston.com/news/local/2026/11/20/this-is-a-game-changer-blood-test-may-help-detect-cte-in-people-still-alive-study-finds/"
      },
      {
-      "t": "數據顯示RSV疫苗大減感染",
-      "d": "預防呼吸道合胞病毒的疫苗及抗體針，大幅減少嬰兒及長者入院個案，對付這種常見冬季病毒成效顯著。",
-      "u": "https://www.nature.com/articles/d41586-026-03573-3"
+      "t": "揭示一型糖尿病免疫攻擊持續之謎",
+      "d": "佛羅里達大學發現胰臟附近有能自我更新的幹細胞樣T細胞，可能令免疫攻擊持續，或成新藥目標。",
+      "u": "https://www.news4jax.com/health/2026/11/20/uf-researchers-discover-what-may-be-driving-the-immune-system-to-keep-attacking-in-type-1-diabetes/"
      },
      {
-      "t": "新肥胖定義預測健康比BMI更準",
-      "d": "研究指出，在身高體重以外加入腰圍，比單用BMI更準確反映健康風險。",
-      "u": "https://www.nature.com/articles/d41586-026-03636-5"
+      "t": "夜班工作與心臟結構變化有關",
+      "d": "英國生物樣本庫42,671人研究發現，經常上夜班者心壁略厚、心腔略小，但泵血能力相若。",
+      "u": "https://www.eurekalert.org/news-releases/1152488"
      }
     ]
    },
@@ -257,14 +257,14 @@
     "h": "英國",
     "items": [
      {
-      "t": "新冠調查報告評檢測及追蹤系統",
-      "d": "英國新冠疫情公開調查最新報告，就檢測、接觸追蹤及2021年「通知疫潮」作出結論，當時程式通知令大批人須隔離。",
-      "u": "https://www.bbc.co.uk/news/articles/crx20q8ql4gwo"
+      "t": "通脹升至3.6% 柴油價創紀錄",
+      "d": "10月消費物價指數由3.5%升至3.6%，主要受燃油推動。柴油平均每公升199.5便士，創1996年有紀錄以來新高。",
+      "u": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026"
      },
      {
-      "t": "政府公布英格蘭及威爾斯廢除租賃業權時間表",
-      "d": "政府公布逐步拆解租賃業權制度的時間表，業主將轉向共同業權，地租及不少管理費爭拗可望終結。",
-      "u": "https://www.bbc.co.uk/news/articles/cw987ynpd0n1o"
+      "t": "民調：多數英國人支持重返歐盟",
+      "d": "賓咸赴布魯塞爾之際，YouGov民調顯示59%人支持重新加入歐盟。他已排除下屆大選前作重大改變，但計劃展開更廣泛磋商。",
+      "u": "https://www.aljazeera.com/news/2026/11/19/as-burnham-heads-to-brussels-are-new-brexit-wars-about-to-begin"
      }
     ]
    }
@@ -272,84 +272,76 @@
  },
  "sources": [
   {
-   "title": "Trump, Xi and Putin issue 'peace declaration' in Shenzhen",
-   "url": "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways"
+   "title": "Yahoo Finance: Anthropic IPO market live",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
   },
   {
-   "title": "Anthropic shares soar in record-breaking Nasdaq debut",
-   "url": "https://www.cbsnews.com/news/anthropic-ipo-nasdaq-debut-claude-ai/"
+   "title": "CBS News: Trump, Xi and Putin meet in China",
+   "url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
   },
   {
-   "title": "Iran hits US base in Kuwait and Bahrain as Gulf war widens",
-   "url": "https://gulfnews.com/world/mena/middle-east-war-riyadh-skyscraper-damaged-tanker-hit-near-oman-as-trump-weighs-fresh-iran-strikes-1.500752996"
+   "title": "RTÉ/PA: Burnham could walk away from EU deal",
+   "url": "https://www.rte.ie/news/uk/2026/1120/1599941-uk-eu-summit/"
   },
   {
-   "title": "UN top court rules Myanmar committed genocide against Rohingya",
-   "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo"
+   "title": "Daily Herald/AP: Senate blocks Iran war powers bid",
+   "url": "https://www.dailyherald.com/2026/11/19/congress-war-powers-iran-war/"
   },
   {
-   "title": "Putin vows 'far more painful' response to Crimean Bridge strikes",
-   "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo"
+   "title": "CBS News: Iran war live updates",
+   "url": "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
   },
   {
-   "title": "Venezuela signs military deal with the US",
-   "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo"
+   "title": "Eurasia Business News: Stock market today 19 Nov",
+   "url": "https://eurasiabusinessnews.com/2026/11/19/stock-market-today-november-19-2026-dow-sinks-1084-points-nasdaq-drops-2-2-after-anthropic-debut"
   },
   {
-   "title": "Denmark approves Greenland defence deal with the US",
-   "url": "https://news.rthk.hk/rthk/ch/component/k2/1878512-20261120.htm"
+   "title": "Bloomberg: Moody's lowers Nvidia outlook",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-18/moody-s-lowers-nvidia-s-ratings-outlook-to-stable-from-positive"
   },
   {
-   "title": "FTSE 100 slips while Wall Street eyes Anthropic",
-   "url": "https://www.lse.co.uk/news/london-market-close-ftse-100-down-but-anthropic-makes-strong-debut-cvq2se0vjggko2j.html"
+   "title": "The Verge: Nvidia stops H200 sales to China",
+   "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling"
   },
   {
-   "title": "US group beats Chinese rivals to huge Kenya mining deal",
-   "url": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o"
+   "title": "CNBC: Nvidia interim CEO addresses staff",
+   "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html"
   },
   {
-   "title": "Van Gogh painting sells for record $190.4m",
-   "url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo"
+   "title": "Google: Introducing Gemini 4 Neon",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
   },
   {
-   "title": "Google launches Gemini 4 Neon model",
-   "url": "https://thenextweb.com/news/gemini-4-neon-google-third-intelligence-index-replaces-argon"
+   "title": "TechCrunch: Banks on AI agents",
+   "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/"
   },
   {
-   "title": "Intel lands first outside customer for its 18A chips",
-   "url": "https://www.trendforce.com/news/2026/11/19/news-intel-scores-dual-foundry-wins-microsoft-named-first-emib-customer-tan-says-18a-secures-first-external-deal/"
+   "title": "The Verge: School districts ditching Google",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google"
   },
   {
-   "title": "GTA 6 launches worldwide to record reviews",
-   "url": "https://www.bbc.co.uk/news/articles/c6z74ep2n17zo"
+   "title": "OpenAI: Advancing chip design with our models",
+   "url": "https://openai.com/index/advancing-chip-design-with-our-models/"
   },
   {
-   "title": "New US chip curbs on South East Asia aim at China",
-   "url": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo"
+   "title": "KPRC: Blood test may detect CTE",
+   "url": "https://www.click2houston.com/news/local/2026/11/20/this-is-a-game-changer-blood-test-may-help-detect-cte-in-people-still-alive-study-finds/"
   },
   {
-   "title": "Anthropic IPO puts AI's circular financing to the test",
-   "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/"
+   "title": "News4JAX: UF type 1 diabetes research",
+   "url": "https://www.news4jax.com/health/2026/11/20/uf-researchers-discover-what-may-be-driving-the-immune-system-to-keep-attacking-in-type-1-diabetes/"
   },
   {
-   "title": "DeepMind's AlphaGenome 2 impresses geneticists",
-   "url": "https://www.nature.com/articles/d41586-026-03673-0"
+   "title": "EurekAlert/ESC: Night shifts and heart structure",
+   "url": "https://www.eurekalert.org/news-releases/1152488"
   },
   {
-   "title": "RSV jabs are slashing infections, data show",
-   "url": "https://www.nature.com/articles/d41586-026-03573-3"
+   "title": "ONS: Consumer price inflation, October 2026",
+   "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/october2026"
   },
   {
-   "title": "New obesity definition beats BMI at predicting health",
-   "url": "https://www.nature.com/articles/d41586-026-03636-5"
-  },
-  {
-   "title": "Covid inquiry delivers verdict on test and trace",
-   "url": "https://www.bbc.co.uk/news/articles/crx20q8ql4gwo"
-  },
-  {
-   "title": "Timetable set for ending leasehold in England and Wales",
-   "url": "https://www.bbc.co.uk/news/articles/cw987ynpd0n1o"
+   "title": "Al Jazeera: Burnham heads to Brussels",
+   "url": "https://www.aljazeera.com/news/2026/11/19/as-burnham-heads-to-brussels-are-new-brexit-wars-about-to-begin"
   }
  ]
 }
