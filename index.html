@@ -983,7 +983,7 @@ body:not(.penergy) #energy * { animation-play-state: paused !important; }
 #etips .wide { grid-column: 1 / -1; }
 #night { position: fixed; inset: 0; z-index: 50; background: #000; display: none; color: #b98a5e; }
 body.night #night { display: block; }
-/* Top bar of page tabs: hidden until a top corner is touched, hides itself after 8 s without use. */
+/* Top bar of page tabs: a tap shows it, another tap hides it; it also hides itself after 8 s without use. */
 #tabs { position: absolute; top: max(10px, env(safe-area-inset-top)); left: 50%; max-width: calc(100vw - 32px); z-index: 20; display: flex; gap: 2px; padding: 5px; box-sizing: border-box; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; background: rgba(22,26,34,.88); border: 1px solid rgba(255,255,255,.08); border-radius: 999px; box-shadow: 0 10px 30px rgba(0,0,0,.35); opacity: 0; pointer-events: none; transform: translate(-50%, -24px); transition: opacity .3s ease, transform .35s cubic-bezier(.25,.8,.25,1); }
 #tabs::-webkit-scrollbar { display: none; }
 /* A new page's tiles come in one by one, quickly (title, then the rows, left to right). */
@@ -1465,8 +1465,18 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
     var on = tabs.children[PAGE]; if (on) tabs.scrollLeft = on.offsetLeft - (tabs.clientWidth - on.offsetWidth) / 2;
     clearTimeout(tabsTimer); tabsTimer = setTimeout(function () { tabs.classList.remove('show'); }, 8000);
   }
-  // Any touch shows the bar; it hides again 8 s after the last touch.
-  document.addEventListener('touchstart', function () { showTabs(); }, { passive: true });
+  function hideTabs() { clearTimeout(tabsTimer); tabs.classList.remove('show'); }
+  // A tap shows the bar; another tap (outside the bar) hides it. Swipes keep it up. It also hides 8 s after the last touch.
+  var tapWasShown = false, tapX = 0, tapY = 0, tapMoved = false;
+  document.addEventListener('touchstart', function (e) {
+    tapWasShown = tabs.classList.contains('show') && !tabs.contains(e.target);
+    tapMoved = e.touches.length !== 1; tapX = e.touches[0].clientX; tapY = e.touches[0].clientY;
+    showTabs();
+  }, { passive: true });
+  document.addEventListener('touchmove', function (e) {
+    if (Math.abs(e.touches[0].clientX - tapX) > 10 || Math.abs(e.touches[0].clientY - tapY) > 10) tapMoved = true;
+  }, { passive: true });
+  document.addEventListener('touchend', function () { if (tapWasShown && !tapMoved) hideTabs(); tapWasShown = false; }, { passive: true });
   // Pick the page's tiles: go down through single wrappers, and split wide rows into their tiles.
   function pieces(pg) {
     var box = pg, out = [], W = pg.offsetWidth || innerWidth;
