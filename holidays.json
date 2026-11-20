@@ -1,0 +1,390 @@
+{
+"uk": [
+{
+"date": "2025-01-01",
+"title": "New Year’s Day"
+},
+{
+"date": "2025-04-18",
+"title": "Good Friday"
+},
+{
+"date": "2025-04-21",
+"title": "Easter Monday"
+},
+{
+"date": "2025-05-05",
+"title": "Early May bank holiday"
+},
+{
+"date": "2025-05-26",
+"title": "Spring bank holiday"
+},
+{
+"date": "2025-08-25",
+"title": "Summer bank holiday"
+},
+{
+"date": "2025-12-25",
+"title": "Christmas Day"
+},
+{
+"date": "2025-12-26",
+"title": "Boxing Day"
+},
+{
+"date": "2026-01-01",
+"title": "New Year’s Day"
+},
+{
+"date": "2026-04-03",
+"title": "Good Friday"
+},
+{
+"date": "2026-04-06",
+"title": "Easter Monday"
+},
+{
+"date": "2026-05-04",
+"title": "Early May bank holiday"
+},
+{
+"date": "2026-05-25",
+"title": "Spring bank holiday"
+},
+{
+"date": "2026-08-31",
+"title": "Summer bank holiday"
+},
+{
+"date": "2026-12-25",
+"title": "Christmas Day"
+},
+{
+"date": "2026-12-28",
+"title": "Boxing Day"
+},
+{
+"date": "2027-01-01",
+"title": "New Year’s Day"
+},
+{
+"date": "2027-03-26",
+"title": "Good Friday"
+},
+{
+"date": "2027-03-29",
+"title": "Easter Monday"
+},
+{
+"date": "2027-05-03",
+"title": "Early May bank holiday"
+},
+{
+"date": "2027-05-31",
+"title": "Spring bank holiday"
+},
+{
+"date": "2027-08-30",
+"title": "Summer bank holiday"
+},
+{
+"date": "2027-12-27",
+"title": "Christmas Day"
+},
+{
+"date": "2027-12-28",
+"title": "Boxing Day"
+},
+{
+"date": "2028-01-03",
+"title": "New Year’s Day"
+},
+{
+"date": "2028-04-14",
+"title": "Good Friday"
+},
+{
+"date": "2028-04-17",
+"title": "Easter Monday"
+},
+{
+"date": "2028-05-01",
+"title": "Early May bank holiday"
+},
+{
+"date": "2028-05-29",
+"title": "Spring bank holiday"
+},
+{
+"date": "2028-08-28",
+"title": "Summer bank holiday"
+},
+{
+"date": "2028-12-25",
+"title": "Christmas Day"
+},
+{
+"date": "2028-12-26",
+"title": "Boxing Day"
+}
+],
+"hk": [
+{
+"date": "2025-01-01",
+"zh": "一月一日",
+"title": "The first day of January"
+},
+{
+"date": "2025-01-29",
+"zh": "農曆年初一",
+"title": "Lunar New Year’s Day"
+},
+{
+"date": "2025-01-30",
+"zh": "農曆年初二",
+"title": "The second day of Lunar New Year"
+},
+{
+"date": "2025-01-31",
+"zh": "農曆年初三",
+"title": "The third day of Lunar New Year"
+},
+{
+"date": "2025-04-04",
+"zh": "清明節",
+"title": "Ching Ming Festival"
+},
+{
+"date": "2025-04-18",
+"zh": "耶穌受難節",
+"title": "Good Friday"
+},
+{
+"date": "2025-04-19",
+"zh": "耶穌受難節翌日",
+"title": "The day following Good Friday"
+},
+{
+"date": "2025-04-21",
+"zh": "復活節星期一",
+"title": "Easter Monday"
+},
+{
+"date": "2025-05-01",
+"zh": "勞動節",
+"title": "Labour Day"
+},
+{
+"date": "2025-05-05",
+"zh": "佛誕",
+"title": "The Birthday of the Buddha"
+},
+{
+"date": "2025-05-31",
+"zh": "端午節",
+"title": "Tuen Ng Festival"
+},
+{
+"date": "2025-07-01",
+"zh": "香港特別行政區成立紀念日",
+"title": "Hong Kong Special Administrative Region Establishment Day"
+},
+{
+"date": "2025-10-01",
+"zh": "國慶日",
+"title": "National Day"
+},
+{
+"date": "2025-10-07",
+"zh": "中秋節翌日",
+"title": "The day following the Chinese Mid-Autumn Festival"
+},
+{
+"date": "2025-10-29",
+"zh": "重陽節",
+"title": "Chung Yeung Festival"
+},
+{
+"date": "2025-12-25",
+"zh": "聖誕節",
+"title": "Christmas Day"
+},
+{
+"date": "2025-12-26",
+"zh": "聖誕節後第一個周日",
+"title": "The first weekday after Christmas Day"
+},
+{
+"date": "2026-01-01",
+"zh": "一月一日",
+"title": "The first day of January"
+},
+{
+"date": "2026-02-17",
+"zh": "農曆年初一",
+"title": "Lunar New Year’s Day"
+},
+{
+"date": "2026-02-18",
+"zh": "農曆年初二",
+"title": "The second day of Lunar New Year"
+},
+{
+"date": "2026-02-19",
+"zh": "農曆年初三",
+"title": "The third day of Lunar New Year"
+},
+{
+"date": "2026-04-03",
+"zh": "耶穌受難節",
+"title": "Good Friday"
+},
+{
+"date": "2026-04-04",
+"zh": "耶穌受難節翌日",
+"title": "The day following Good Friday"
+},
+{
+"date": "2026-04-06",
+"zh": "清明節翌日",
+"title": "The day following Ching Ming Festival"
+},
+{
+"date": "2026-04-07",
+"zh": "復活節星期一翌日",
+"title": "The day following Easter Monday"
+},
+{
+"date": "2026-05-01",
+"zh": "勞動節",
+"title": "Labour Day"
+},
+{
+"date": "2026-05-25",
+"zh": "佛誕翌日",
+"title": "The day following the Birthday of the Buddha"
+},
+{
+"date": "2026-06-19",
+"zh": "端午節",
+"title": "Tuen Ng Festival"
+},
+{
+"date": "2026-07-01",
+"zh": "香港特別行政區成立紀念日",
+"title": "Hong Kong Special Administrative Region Establishment Day"
+},
+{
+"date": "2026-09-26",
+"zh": "中秋節翌日",
+"title": "The day following the Chinese Mid-Autumn Festival"
+},
+{
+"date": "2026-10-01",
+"zh": "國慶日",
+"title": "National Day"
+},
+{
+"date": "2026-10-19",
+"zh": "重陽節翌日",
+"title": "The day following Chung Yeung Festival"
+},
+{
+"date": "2026-12-25",
+"zh": "聖誕節",
+"title": "Christmas Day"
+},
+{
+"date": "2026-12-26",
+"zh": "聖誕節後第一個周日",
+"title": "The first weekday after Christmas Day"
+},
+{
+"date": "2027-01-01",
+"zh": "一月一日",
+"title": "The first day of January"
+},
+{
+"date": "2027-02-06",
+"zh": "農曆年初一",
+"title": "Lunar New Year's Day"
+},
+{
+"date": "2027-02-08",
+"zh": "農曆年初三",
+"title": "The third day of Lunar New Year"
+},
+{
+"date": "2027-02-09",
+"zh": "農曆年初四",
+"title": "The fourth day of Lunar New Year"
+},
+{
+"date": "2027-03-26",
+"zh": "耶穌受難節",
+"title": "Good Friday"
+},
+{
+"date": "2027-03-27",
+"zh": "耶穌受難節翌日",
+"title": "The day following Good Friday"
+},
+{
+"date": "2027-03-29",
+"zh": "復活節星期一",
+"title": "Easter Monday"
+},
+{
+"date": "2027-04-05",
+"zh": "清明節",
+"title": "Ching Ming Festival"
+},
+{
+"date": "2027-05-01",
+"zh": "勞動節",
+"title": "Labour Day"
+},
+{
+"date": "2027-05-13",
+"zh": "佛誕",
+"title": "The Birthday of the Buddha"
+},
+{
+"date": "2027-06-09",
+"zh": "端午節",
+"title": "Tuen Ng Festival"
+},
+{
+"date": "2027-07-01",
+"zh": "香港特別行政區成立紀念日",
+"title": "Hong Kong Special Administrative Region Establishment Day"
+},
+{
+"date": "2027-09-16",
+"zh": "中秋節翌日",
+"title": "The day following the Chinese Mid-Autumn Festival"
+},
+{
+"date": "2027-10-01",
+"zh": "國慶日",
+"title": "National Day"
+},
+{
+"date": "2027-10-08",
+"zh": "重陽節",
+"title": "Chung Yeung Festival"
+},
+{
+"date": "2027-12-25",
+"zh": "聖誕節",
+"title": "Christmas Day"
+},
+{
+"date": "2027-12-27",
+"zh": "聖誕節後第一個周日",
+"title": "The first weekday after Christmas Day"
+}
+],
+"saved": "2026-11-20"
+}
