@@ -280,6 +280,17 @@ body.np1 #hours .cw, body.np1 #days .cw { animation-play-state: paused; }
 .wwx .p { margin-left: auto; color: var(--rain); font-size: 15px; }
 .wd .wh.hasw { border-bottom: 0; padding-bottom: 4px; }
 .wd.wkend .wh .dn { color: #f0a8c8; }
+/* weekends + UK bank holidays: Saturday blue, Sunday and bank holidays red; HK holidays only a thin strip on top */
+.wd.sat { background: linear-gradient(180deg, rgba(106,174,248,.16) 0%, var(--tile) 55%); }
+.wd.sat .wh .dn, .wd.sat .wh .dw { color: #8cc4ff; }
+.wd.sun, .wd.ukhol { background: linear-gradient(180deg, rgba(255,106,128,.2) 0%, var(--tile) 55%); }
+.wd.sun .wh .dn, .wd.sun .wh .dw, .wd.ukhol .wh .dn, .wd.ukhol .wh .dw { color: #ff8e9e; }
+.wd.today.sat, .wd.today.sun, .wd.today.ukhol { background: linear-gradient(180deg, #2a2a3e 0%, #141b24 45%); }
+.wd .wh .dw small { color: var(--muted); }
+.uk { position: relative; z-index: 2; flex: none; margin: -2px 2px 0; padding: 3px 8px; border-radius: 9px; background: rgba(255,106,128,.22); color: #ffc2cb; font-size: 14px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.wd.hk { padding-top: 24px; }
+.hkt { position: absolute; z-index: 3; left: 0; right: 0; top: 0; height: 19px; padding: 0 10px; background: rgba(255,255,255,.07); border-bottom: 1px solid var(--line); color: #c9b3bd; font-size: 12px; font-weight: 600; line-height: 19px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hkt b { color: #ff8e9e; font-weight: 700; margin-right: 4px; }
 .we { position: relative; z-index: 2; flex: none; background: var(--tile-2); border-radius: 12px; padding: 5px 9px 7px 13px; overflow: hidden; }
 .we:before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; background: var(--c, #6aaef8); }
 .we .tr { display: flex; justify-content: space-between; align-items: center; height: 22px; }
@@ -2338,6 +2349,37 @@ function dayWeather(d) {   // the forecast for one day from the weather data (7 
     '<span class="num">' + r(dl.temperature_2m_max[i]) + '° <span class="lo">' + r(dl.temperature_2m_min[i]) + '°</span></span>' +
     (pp >= 20 ? '<span class="p num">' + pp + '%</span>' : '') + '</div>';
 }
+/* Holidays. holidays.json is saved weekly by .github/workflows/holidays.yml (tools/build_holidays.py, from
+   gov.uk and 1823.gov.hk): {"uk":[{"date":"2026-12-25","title":"Christmas Day"}],"hk":[{"date":..,"zh":..,"title":..}]}.
+   The list below stands in until it loads. UK = England & Wales bank holidays (coloured red like Sundays);
+   HK = Hong Kong public holidays (a thin strip on top of the day, since we live in the UK). */
+var HOL = { uk: {}, hk: {} };
+function holSet(d) {
+  var h = { uk: {}, hk: {} };
+  (d.uk || []).forEach(function (x) { h.uk[x.date] = x.title; });
+  (d.hk || []).forEach(function (x) { h.hk[x.date] = x.zh || x.title; });
+  HOL = h;
+}
+holSet({ uk: [
+  ['2026-01-01', 'New Year\'s Day'], ['2026-04-03', 'Good Friday'], ['2026-04-06', 'Easter Monday'], ['2026-05-04', 'Early May bank holiday'],
+  ['2026-05-25', 'Spring bank holiday'], ['2026-08-31', 'Summer bank holiday'], ['2026-12-25', 'Christmas Day'], ['2026-12-28', 'Boxing Day (substitute day)'],
+  ['2027-01-01', 'New Year\'s Day'], ['2027-03-26', 'Good Friday'], ['2027-03-29', 'Easter Monday'], ['2027-05-03', 'Early May bank holiday'],
+  ['2027-05-31', 'Spring bank holiday'], ['2027-08-30', 'Summer bank holiday'], ['2027-12-27', 'Christmas Day (substitute day)'], ['2027-12-28', 'Boxing Day (substitute day)']
+].map(function (x) { return { date: x[0], title: x[1] }; }), hk: [
+  ['2026-01-01', '一月一日'], ['2026-02-17', '農曆年初一'], ['2026-02-18', '農曆年初二'], ['2026-02-19', '農曆年初三'], ['2026-04-03', '耶穌受難節'],
+  ['2026-04-04', '耶穌受難節翌日'], ['2026-04-06', '復活節星期一'], ['2026-04-07', '清明節翌日'], ['2026-05-01', '勞動節'], ['2026-05-25', '佛誕翌日'],
+  ['2026-06-19', '端午節'], ['2026-07-01', '香港特別行政區成立紀念日'], ['2026-09-26', '中秋節翌日'], ['2026-10-01', '國慶日'], ['2026-10-19', '重陽節翌日'],
+  ['2026-12-25', '聖誕節'], ['2026-12-26', '聖誕節後第一個周日'],
+  ['2027-01-01', '一月一日'], ['2027-02-06', '農曆年初一'], ['2027-02-08', '農曆年初三'], ['2027-02-09', '農曆年初四'], ['2027-03-26', '耶穌受難節'],
+  ['2027-03-27', '耶穌受難節翌日'], ['2027-03-29', '復活節星期一'], ['2027-04-05', '清明節'], ['2027-05-01', '勞動節'], ['2027-05-13', '佛誕'],
+  ['2027-06-09', '端午節'], ['2027-07-01', '香港特別行政區成立紀念日'], ['2027-09-16', '中秋節翌日'], ['2027-10-01', '國慶日'], ['2027-10-08', '重陽節'],
+  ['2027-12-25', '聖誕節'], ['2027-12-27', '聖誕節後第一個周日']
+].map(function (x) { return { date: x[0], zh: x[1] }; }) });
+function loadHol() {
+  fetch('holidays.json?t=' + Date.now()).then(function (r) { if (!r.ok) throw 0; return r.json(); })
+    .then(function (d) { if (!d.uk && !d.hk) throw 0; holSet(d); showCal(); }).catch(function () {});
+}
+function isoDay(d) { return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
 function showCal() {
   if (!CAL) return;
   $('ctag').hidden = !calSample;
@@ -2375,18 +2417,21 @@ function showCal() {
       festKind = festKind || fest[0];
     }
     if (i === 0 && list.length > MAX) list = list.filter(function (y) { return y.e.allDay || y.en >= now; });   // today: drop finished ones first
-    var dw = x.d.getDay(), cls = 'wd' + (i === 0 ? ' today' : '') + (dw === 0 || dw === 6 ? ' wkend' : '');
+    var dw = x.d.getDay(), iso = isoDay(x.d), uk = HOL.uk[iso], hk = HOL.hk[iso];
+    var cls = 'wd' + (i === 0 ? ' today' : '') + (dw === 0 || dw === 6 ? ' wkend' : '') + (dw === 6 ? ' sat' : '') + (dw === 0 ? ' sun' : '') + (uk ? ' ukhol' : '') + (hk ? ' hk' : '');
+    if (uk && fest && fest[2] === uk) uk = '';   // Christmas etc. already has its festival banner
+    if (uk || hk) MAX = 3;
     var head = i === 0 ? '今日 Today' : i === 1 ? '聽日' : ZH_DAYS[dw];
     var wxRow = dayWeather(x.d);
-    out += '<div class="' + cls + '">' + (festKind ? scene(festKind, x.k % 233280) : '') +
-      '<div class="wh' + (wxRow ? ' hasw' : '') + '"><span class="dn">' + x.d.getDate() + '</span><span class="dw">' + head + '<small>' + DAYS[dw].slice(0, 3) + ' · ' + MONTHS[x.d.getMonth()].slice(0, 3) + '</small></span></div>' + wxRow +
+    out += '<div class="' + cls + '">' + (festKind ? scene(festKind, x.k % 233280) : '') + (hk ? '<div class="hkt"><b>香港假期</b>' + esc(hk) + '</div>' : '') +
+      '<div class="wh' + (wxRow ? ' hasw' : '') + '"><span class="dn">' + x.d.getDate() + '</span><span class="dw">' + head + '<small>' + DAYS[dw].slice(0, 3) + ' · ' + MONTHS[x.d.getMonth()].slice(0, 3) + '</small></span></div>' + wxRow + (uk ? '<div class="uk">🇬🇧 ' + esc(uk.replace(/ \(substitute day\)/, ' 補假')) + '</div>' : '') +
       (list.length ? list.slice(0, MAX).map(chip).join('') + (list.length > MAX ? '<div class="wmore">+' + (list.length - MAX) + ' more</div>' : '') : '<div class="wnone">冇嘢 · Free</div>') + '</div>';
   });
   var last = days[13].d;
   $('wrng').textContent = days[0].d.getDate() + ' ' + MONTHS[days[0].d.getMonth()].slice(0, 3) + ' – ' + last.getDate() + ' ' + MONTHS[last.getMonth()].slice(0, 3);
   if (out !== WK_HTML) { WK_HTML = out; $('wk').innerHTML = out; }   // only redraw when something changed, so animations don't restart
 }
-loadCal(); setInterval(loadCal, 15 * 60 * 1000); setInterval(showCal, 60 * 1000);
+loadCal(); loadHol(); setInterval(loadCal, 15 * 60 * 1000); setInterval(loadHol, 6 * 60 * 60 * 1000); setInterval(showCal, 60 * 1000);
 
 /* ---------- indoor temperature ----------
    home.json is written by .github/workflows/home-temp.yml when the
