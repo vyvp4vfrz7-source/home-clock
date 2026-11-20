@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T17:41:16Z",
+ "updated": "2026-11-20T18:34:34Z",
  "books": {
   "the-end-of-everything-harrison": [
    {
@@ -23,16 +23,16 @@
   ],
   "taiwan-travelogue-yang": [
    {
-    "v": "Ku0TaghIB80",
-    "t": "敘事視角，原來有這麼多鋩角？楊双子親自來聊《臺灣漫遊錄》｜創作招式帖",
-    "ch": "朱宥勳使出人生攻擊!",
-    "len": "14:24"
-   },
-   {
     "v": "re-oVkYyzMc",
     "t": "【作家說｜EP47】我想為當代讀者示範，一個「外地人」眼中的臺灣──楊双子與蔡珠兒談《臺灣漫遊錄》有聲書",
     "ch": "鏡好聽",
     "len": "49:10"
+   },
+   {
+    "v": "Ku0TaghIB80",
+    "t": "敘事視角，原來有這麼多鋩角？楊双子親自來聊《臺灣漫遊錄》｜創作招式帖",
+    "ch": "朱宥勳使出人生攻擊!",
+    "len": "14:24"
    },
    {
     "v": "Ro7GYUiC_5U",
@@ -43,22 +43,22 @@
   ],
   "the-correspondent-evans": [
    {
-    "v": "2VTKhHW3RHs",
-    "t": "The Correspondent by Virginia Evans |  A Novel Told Entirely in Letters?",
-    "ch": "Spineless Books",
-    "len": "6:36"
+    "v": "PAgy4qnTpYE",
+    "t": "The Correspondent by Virginia Evans | An Epistolary Masterpiece",
+    "ch": "Spencer Reads Everything",
+    "len": "20:12"
    },
    {
-    "v": "Ct5b52tIXqg",
-    "t": "Author Virginia Evans talks 'The Correspondent'",
-    "ch": "Good Morning America",
-    "len": "4:00"
+    "v": "YDc-aTSKEkc",
+    "t": "The Correspondent by Virginia Evans / review",
+    "ch": "Eric Karl Anderson",
+    "len": "25:04"
    },
    {
-    "v": "lR5qmHKv3Nw",
-    "t": "THE CORRESPONDENT | book review",
-    "ch": "lyndsayreads",
-    "len": "8:08"
+    "v": "aoDipkOAXeI",
+    "t": "The Correspondent - Virginia Evans (Book Club Discussion)",
+    "ch": "So Approachable Podcast",
+    "len": "1:00:37"
    }
   ],
   "flesh-szalay": [
@@ -75,10 +75,10 @@
     "len": "11:13"
    },
    {
-    "v": "SGz34XmZq5o",
-    "t": "'Flesh' by David Szalay - BOOK REVIEW",
-    "ch": "TheDiscoKing",
-    "len": "9:21"
+    "v": "cMzbCxy0P50",
+    "t": "Maybe the Booker prize isn't so bad after all | Flesh by David Szalay",
+    "ch": "CriminOlly",
+    "len": "14:14"
    }
   ],
   "naked-mountain-hon-lai-chu": [],
@@ -92,6 +92,12 @@
   ],
   "the-rouse-mieville": [
    {
+    "v": "tVY2r8vyUqA",
+    "t": "The Rouse by China Miéville · Audiobook preview",
+    "ch": "Google Play Books",
+    "len": "10:40"
+   },
+   {
     "v": "dBWI8mHkpQE",
     "t": "China Miéville : The Rouse",
     "ch": "Between the Covers Podcast",
@@ -102,12 +108,6 @@
     "t": "Imperial Hauntings - Some Thoughts On China Miéville's The Rouse",
     "ch": "Raf Blutaxt",
     "len": "31:12"
-   },
-   {
-    "v": "tVY2r8vyUqA",
-    "t": "The Rouse by China Miéville · Audiobook preview",
-    "ch": "Google Play Books",
-    "len": "10:40"
    }
   ],
   "the-matchbox-girl-jolly": [
@@ -165,10 +165,10 @@
     "len": "9:44"
    },
    {
-    "v": "UvirHm6ePzk",
-    "t": "如何不靠運氣致富？《納瓦爾寶典》原始Podcast（中文精譯完整版）｜How to Get Rich",
-    "ch": "言究院",
-    "len": "4:15:48"
+    "v": "t94_eGJbiqo",
+    "t": "從白手起家到財務自由， 矽谷傳奇創投家的投資哲學與人生智慧—《納瓦爾寶典》【5分鐘閱讀計畫】E60",
+    "ch": "博客來",
+    "len": "16:12"
    }
   ],
   "bs-rewire": [
@@ -199,16 +199,16 @@
     "len": "28:13"
    },
    {
-    "v": "yQ-vfIo1S8k",
-    "t": "在Threads上爆紅、網友讀到熱淚盈匡的療癒小書！掌握生活中的「這三種時間」，就能讓人生過得更幸福？！｜《北歐時間》",
-    "ch": "下一本讀什麼?",
-    "len": "16:46"
+    "v": "eZ_VESnVSgM",
+    "t": "【型男老總愛說書】《北歐時間》#0102",
+    "ch": "Bravo913",
+    "len": "39:23"
    },
    {
-    "v": "BwnvhSv0Ee8",
-    "t": "本週台灣暢銷書：北歐時間: 世界第一幸福國度教會我的事(115年三月第四週) #閱讀",
-    "ch": "瑪莉蓮讀BAR",
-    "len": "18:18"
+    "v": "4FcgrHWlYGA",
+    "t": "'26.04.08【世界一把抓】郝旭烈 ╳ 祝子慧：北歐時間 最幸福國度教會我們的事",
+    "ch": "九八新聞台",
+    "len": "49:50"
    }
   ],
   "bs-toad": [
@@ -233,16 +233,16 @@
   ],
   "bs-atomic-habits": [
    {
-    "v": "4nmM9v0fLkY",
-    "t": "懶惰蟲專用的原子習慣｜《打造理想人生的習慣大全》｜文森說書",
-    "ch": "文森說書",
-    "len": "9:29"
-   },
-   {
     "v": "j86YZfiCq5U",
     "t": "【大大讀書】《原子習慣》（說書人：許景泰）",
     "ch": "商戰CXO × 大大學院",
     "len": "15:59"
+   },
+   {
+    "v": "4nmM9v0fLkY",
+    "t": "懶惰蟲專用的原子習慣｜《打造理想人生的習慣大全》｜文森說書",
+    "ch": "文森說書",
+    "len": "9:29"
    },
    {
     "v": "ESWo40VJD24",
@@ -279,10 +279,10 @@
     "len": "43:15"
    },
    {
-    "v": "FE95cNB_Bnk",
-    "t": "【金剛經白話講座】金剛經教我們的三件事｜完整版【王思迅】",
-    "ch": "大雁文化",
-    "len": "34:48"
+    "v": "H3NboQs8tC4",
+    "t": "2000 年前就寫好的《顯化攻略》｜金剛經白話講座",
+    "ch": "罌粟花 Heroin-E",
+    "len": "13:23"
    },
    {
     "v": "PjL4znvZEA0",
@@ -311,9 +311,47 @@
     "len": "28:53"
    }
   ],
-  "bs-mind-your-own": [],
-  "bs-acotar6": [],
-  "bs-threshing-day": [
+  "bs-mind-your-own": [
+   {
+    "v": "vBRCBMdqSZg",
+    "t": "《人生只有兩件事，關你屁事和關我屁事》｜停止內耗，不再討好任何人，活出真正的自己｜睡前聽書",
+    "ch": "缘圆",
+    "len": "2:07:09"
+   },
+   {
+    "v": "lCUnuEezk0E",
+    "t": "總是活在別人的眼光裡，覺得好累好痛苦？聽懂好書《人生只有兩件事，關你屁事和關我屁事》：終結討好型人格，奪回人生主動權｜你以為的善良，其實是沒有邊界的軟弱#精神內耗 #人生智慧  #自我成長 #心理學",
+    "ch": "聽懂好書",
+    "len": "22:46"
+   },
+   {
+    "v": "Jl-buM5-2eE",
+    "t": "睡前讀《人生只有兩件事，關你屁事和關我屁事》：藉由課題分離釐清責任歸屬，收回對他人情緒的過度承擔。#精神內耗 #心理成長 #心靈成長 #自我照顧 #課題分離 #阿德勒 #人際關係 #情緒勒索",
+    "ch": "静夜书话",
+    "len": "29:18"
+   }
+  ],
+  "nyt-a-court-of-splintered-harmony": [
+   {
+    "v": "Pyg6oRUMhyk",
+    "t": "A Court Of Splintered Harmony - A Spoiler Free Review",
+    "ch": "Steven’s Book Reviews",
+    "len": "13:28"
+   },
+   {
+    "v": "dsMu8XXj9TI",
+    "t": "A Complete Summary of A Court Of Splintered Harmony",
+    "ch": "Steven’s Book Reviews",
+    "len": "10:26"
+   },
+   {
+    "v": "fV24GWRvV3M",
+    "t": "1⭐️ — A Court Of Splintered Harmony is one gigantic miss *SPOILERS*",
+    "ch": "The Petite Reader",
+    "len": "32:16"
+   }
+  ],
+  "nyt-threshing-day": [
    {
     "v": "WUZOb4BFPNQ",
     "t": "Threshing Day Book Review",
@@ -321,24 +359,24 @@
     "len": "17:57"
    },
    {
-    "v": "PI-JewW2TAc",
-    "t": "Threshing Day [The Empyrean Series #3.5] - Rebecca Yarros -  Fantasy Romance Audiobook Full",
-    "ch": "Romance Fantasy Audio",
-    "len": "5:53:28"
+    "v": "tWZ7_MzS-PU",
+    "t": "Happy Threshing Day",
+    "ch": "The Story is Podcast",
+    "len": "54:09"
    },
    {
-    "v": "EfaOwTkT1Ng",
-    "t": "I Read Threshing Day So You Don't Have To | Empyrian Series.",
-    "ch": "Bookgirlnextdoor",
-    "len": "18:54"
+    "v": "itejrL2U5WM",
+    "t": "I read threshing day so you don't have to!!! #fourthwing #booktok #booktube #threshingday",
+    "ch": "madikayreads",
+    "len": "4:23:13"
    }
   ],
-  "bs-calamity-club": [
+  "nyt-the-calamity-club": [
    {
-    "v": "zJ7iXD36lqs",
-    "t": "The Calamity Club by Kathryn Stockett | Book Summery",
-    "ch": "Bookology",
-    "len": "7:41"
+    "v": "VnHppEZXsuA",
+    "t": "The Calamity Club- Unpopular Opinion ",
+    "ch": "Enter the Book",
+    "len": "11:45"
    },
    {
     "v": "-F6dB9ZQSVc",
@@ -347,13 +385,13 @@
     "len": "6:47"
    },
    {
-    "v": "VnHppEZXsuA",
-    "t": "The Calamity Club- Unpopular Opinion ",
-    "ch": "Enter the Book",
-    "len": "11:45"
+    "v": "pz7d4lnbgCU",
+    "t": "I Read The Calamity Club So You Don't Have To (Spoilers & Author Rant)",
+    "ch": "Juline Moussa",
+    "len": "27:26"
    }
   ],
-  "bs-french-illusion": [
+  "nyt-the-french-illusion": [
    {
     "v": "GR0luH5baOI",
     "t": "THE FRENCH ILLUSION / John Grisham / Book Review / Brian Lee Durfee (spoiler free)",
@@ -361,19 +399,19 @@
     "len": "9:41"
    },
    {
+    "v": "0BgP8d-o2qc",
+    "t": "Brief Book Review - The French Illusion by John Grisham",
+    "ch": "Brief Book Reviews",
+    "len": "11:03"
+   },
+   {
     "v": "4CGTlbrS830",
     "t": "The French Illusion - John Grisham",
     "ch": "Brandon’s Books",
     "len": "23:52"
-   },
-   {
-    "v": "xI0DXTQ8RxY",
-    "t": "Author John Grisham tackles his first-ever spy novel with new book, 'The French Illusion'",
-    "ch": "MS NOW",
-    "len": "10:14"
    }
   ],
-  "bs-the-hollow": [
+  "nyt-the-hollow": [
    {
     "v": "GmuMzzYMLRE",
     "t": "THE HOLLOW / Michael Connelly / Book Review / Brian Lee Durfee (spoiler free)",
@@ -387,33 +425,33 @@
     "len": "7:32"
    },
    {
-    "v": "Yp00z4Flg6Y",
-    "t": "Michael Connelly's Book Club: THE HOLLOW",
-    "ch": "Little, Brown and Company",
-    "len": "1:00:35"
+    "v": "W6nE0lbrKr8",
+    "t": "Michael Connelly discusses The Hollow",
+    "ch": "The Poisoned Pen Bookstore",
+    "len": "16:50"
    }
   ],
-  "bs-the-witch": [
+  "nyt-the-witch": [
    {
-    "v": "w37gQ4sHpyw",
-    "t": "The Witch by Freida McFadden Was NOT What I Expected | Book Review",
-    "ch": "Shelf Made Stories",
-    "len": "13:17"
-   },
-   {
-    "v": "JS9wp_FNNPI",
-    "t": "Freida McFadden's Most Boring Book Yet 🧙‍♀️ | The Witch RANT REVIEW",
-    "ch": "AuroraInTheArchives",
-    "len": "3:19:42"
+    "v": "y4M8prDbaRE",
+    "t": "The Witch by Freida McFadden - Book Review",
+    "ch": "Peter Likes Books",
+    "len": "16:23"
    },
    {
     "v": "xyb-VIR_3S0",
     "t": "What Did We Think Of The Witch As Freida Fans?",
     "ch": "Fiction Addictions",
     "len": "12:15"
+   },
+   {
+    "v": "LRuHlp3fUYI",
+    "t": "THE WITCH by FREIDA McFADDEN — Has She Just Written a Horror Novel? | Book Review",
+    "ch": "Harry's Book cafe",
+    "len": "10:40"
    }
   ],
-  "bs-married-christmas": [
+  "nyt-a-married-little-christmas": [
    {
     "v": "lEfQJvQ10jA",
     "t": "A Married Little Christmas by Abby Jimenez | Summary | Holiday Romantic Comedy",
@@ -433,7 +471,7 @@
     "len": "4:03"
    }
   ],
-  "bs-defy-the-dusk": [
+  "nyt-defy-the-dusk": [
    {
     "v": "JxQrifyMNJI",
     "t": "Ep 132 🌄 Defy the Dusk “ADD THIS DYSTOPIAN FANTASY TO YOUR TBR NOW!” | Danielle L Jensen Interview",
@@ -453,7 +491,7 @@
     "len": "6:51"
    }
   ],
-  "bs-pirate-queen": [
+  "nyt-the-pirate-queen": [
    {
     "v": "6p14LTIK4PQ",
     "t": "Why this book matters. The Pirate Queen by Ariel Lawhon #bookreview #books",
@@ -461,106 +499,180 @@
     "len": "2:54"
    },
    {
-    "v": "xk8DJUZ0_lU",
-    "t": "📚The Pirate Queen by Ariel Lawhon #booktok #bookreview #historicalfiction #thepiratequeen",
-    "ch": "Lori Wild",
-    "len": "2:29"
+    "v": "LD6tAK2Qfk8",
+    "t": "Why You Should Read The Pirate Queen",
+    "ch": "Topher's Library",
+    "len": "15:42"
    },
    {
-    "v": "xgPoiruSBL4",
-    "t": "5 ⭐️ review: The Pirate Queen#booktube #bookish #bookrecs #thepiratequeen #ariellawhon",
-    "ch": "ReadingWith_Rachel",
-    "len": "2:02"
+    "v": "qVNT1yibqQA",
+    "t": "Author Ariel Lawhon on her new novel \"The Pirate Queen\"",
+    "ch": "CBS New York",
+    "len": "4:15"
    }
   ],
-  "bs-the-gift": [
+  "nyt-the-gift": [],
+  "ib-9781639739134": [
    {
-    "v": "M5HpcVCHZVQ",
-    "t": "'The Gift' by Freida McFadden, Review ",
-    "ch": "Chloe Huntington",
-    "len": "9:03"
+    "v": "Pyg6oRUMhyk",
+    "t": "A Court Of Splintered Harmony - A Spoiler Free Review",
+    "ch": "Steven’s Book Reviews",
+    "len": "13:28"
    },
    {
-    "v": "1x7XOICV2GU",
-    "t": "The Gift By Freida McFadden | Full Audiobook Summary Free & Review",
-    "ch": "Audiobook Free",
-    "len": "2:25"
+    "v": "fV24GWRvV3M",
+    "t": "1⭐️ — A Court Of Splintered Harmony is one gigantic miss *SPOILERS*",
+    "ch": "The Petite Reader",
+    "len": "32:16"
    },
    {
-    "v": "W9T54AHNnn4",
-    "t": "The Gift by Freida Mcfadden 💜📓💜 A Panic at the Book Club Discussion Review 💜📓💜",
-    "ch": "Terri Westwell",
-    "len": "14:45"
+    "v": "MDBmQem0S30",
+    "t": "A Court of Splintered Harmony Book Review: Spoiler + Non-Spoiler Review",
+    "ch": "Loch’s Library",
+    "len": "28:10"
    }
   ],
-  "bs-gruffalo-granny": [
+  "ib-9780385550345": [
    {
-    "v": "pt4CEHRM9-k",
-    "t": "GRUFFALO GRANNY! — Julia Donaldson's BRAND NEW Book | Amber's Storytime - I Waited YEARS For This! 🧡",
-    "ch": "Amber's Storytime Adventures",
-    "len": "7:26"
+    "v": "LD6tAK2Qfk8",
+    "t": "Why You Should Read The Pirate Queen",
+    "ch": "Topher's Library",
+    "len": "15:42"
    },
    {
-    "v": "89JM6c9odb4",
-    "t": "Gruffalo Granny | Bedtime Story Read Aloud By Grandad Pat",
-    "ch": "Bedtime Stories with Grandad Pat",
-    "len": "8:25"
+    "v": "6p14LTIK4PQ",
+    "t": "Why this book matters. The Pirate Queen by Ariel Lawhon #bookreview #books",
+    "ch": "AmeliaReadsBooks1",
+    "len": "2:54"
    },
    {
-    "v": "rIOC21o_xdo",
-    "t": "Julia Donaldson & Axel Scheffler on Highly-Anticipated 'Gruffalo Granny' | What's On Scotland | STV",
-    "ch": "STV",
-    "len": "5:21"
+    "v": "qVNT1yibqQA",
+    "t": "Author Ariel Lawhon on her new novel \"The Pirate Queen\"",
+    "ch": "CBS New York",
+    "len": "4:15"
    }
   ],
-  "bs-sprinkle-in-time": [
+  "ib-9781954118812": [
    {
-    "v": "QxoKGZ2ZqcI",
-    "t": "The Best Dog Man Book in Years - A Sprinkle In Time",
-    "ch": "Crazy Gamer Inc.",
-    "len": "9:01"
+    "v": "-F6dB9ZQSVc",
+    "t": "The Calamity Club by Kathryn Stockett | Spoiler-Free Review",
+    "ch": "SofiaReads",
+    "len": "6:47"
    },
    {
-    "v": "LdNZZYcZDa4",
-    "t": "Dog Man: A Sprinkle in Time by Dav Pilkey | Book Summary and Review",
-    "ch": "BrainBook Summaries",
-    "len": "2:20"
+    "v": "zJ7iXD36lqs",
+    "t": "The Calamity Club by Kathryn Stockett | Book Summery",
+    "ch": "Bookology",
+    "len": "7:41"
    },
    {
-    "v": "1Lr8hGu-owc",
-    "t": "Dog Man A Sprinkle in Time is GOATED | Read Aloud 📖",
-    "ch": "Isaac The Animator",
-    "len": "53:03"
+    "v": "MScVeiHonW4",
+    "t": "Kathryn Stockett for The Calamity Club",
+    "ch": "Square Books",
+    "len": "44:58"
    }
   ],
-  "bs-fight-or-flight": [
+  "ib-9780063577541": [
    {
-    "v": "525gu_EvM_E",
-    "t": "My REAL Thoughts On Diary of a Wimpy Kid: Fight or Flight",
-    "ch": "CrowRanaBurger",
-    "len": "11:09"
+    "v": "jvSl4bLh4e0",
+    "t": "Partita by Barbara Kingsolver",
+    "ch": "Alex’s life and thoughts ",
+    "len": "5:41"
    },
    {
-    "v": "qz0ufLP6ri0",
-    "t": "FIGHT or FLIGHT - The latest book from Diary of a Wimpy Kid",
-    "ch": "MindShift Lane",
-    "len": "9:04"
+    "v": "8HzQCj1BUSw",
+    "t": "Partita by Barbara Kingsolver - the music of a life",
+    "ch": "Milly's Book Shelf",
+    "len": "6:27"
    },
    {
-    "v": "DmVQMmYZq6U",
-    "t": "Diary of a Wimpy Kid #21: Fight or Flight - Book Review",
-    "ch": "Arglefumph Reads",
-    "len": "7:40"
+    "v": "Fx5oh6s_u8M",
+    "t": "Partita by Barbara Kingsolver | Literary Fiction Book Summary",
+    "ch": "URSummary (Your Summary) - Audio Book Summaries",
+    "len": "20:32"
    }
   ],
-  "bs-judi-dench": [],
-  "bs-guinness-2027": [
+  "ib-9781668251065": [
    {
-    "v": "gjI51_MN2pA",
-    "t": "What's Inside Guinness World Records 2027? | Guinness World Records",
-    "ch": "Guinness World Records",
-    "len": "18:20"
+    "v": "Psrq760ssSo",
+    "t": "\"Lessons in Chemistry\" author Bonnie Garmus discusses new book \"Peck & Peck\"",
+    "ch": "CBS New York",
+    "len": "4:30"
+   },
+   {
+    "v": "_AnMn4aJZ4M",
+    "t": "'Lessons in Chemistry' author Bonnie Garmus on her new novel 'Peck & Peck' | Book of the Day",
+    "ch": "NPR Podcasts",
+    "len": "12:48"
+   },
+   {
+    "v": "uEkauR3FQ7Q",
+    "t": "Behind The Stack with Bonnie Garmus, Peck & Peck",
+    "ch": "Brett's Book Stack",
+    "len": "38:40"
    }
-  ]
+  ],
+  "ib-9781538752036": [
+   {
+    "v": "Gnp8KevkffQ",
+    "t": "Min Jin Lee 'American Hagwon' Review - Korea Book Club",
+    "ch": "KBS WORLD English",
+    "len": "12:15"
+   },
+   {
+    "v": "ceRLaf-DGt0",
+    "t": "Author Min Jin Lee on \"American Hagwon\"",
+    "ch": "CBS Sunday Morning",
+    "len": "6:53"
+   },
+   {
+    "v": "CmhWBPpUJC4",
+    "t": "American Hagwon by Min Jin Lee | SPOILER FREE Book Review",
+    "ch": "Brithney",
+    "len": "13:00"
+   }
+  ],
+  "ib-9781538780046": [],
+  "ib-9798217438655": [
+   {
+    "v": "7Jnxlnl43zQ",
+    "t": "The End of Everything by M. John Harrison — 2026 Booker Prize WINNER / review",
+    "ch": "Eric Karl Anderson",
+    "len": "14:46"
+   },
+   {
+    "v": "Bj-UBVeCR3I",
+    "t": "The Booker Winner Everyone’s Arguing About (I Loved It) | The End of Everything",
+    "ch": "TBRKyle",
+    "len": "18:16"
+   },
+   {
+    "v": "50eXMbVLzfU",
+    "t": "‘The End of Everything’ by M. John Harrison- The 2026 Booker Prize Longlist ",
+    "ch": "Bob The Bookerer",
+    "len": "19:54"
+   }
+  ],
+  "ib-9780063511637": [
+   {
+    "v": "rWf4p7AfIUA",
+    "t": "Whistler by Ann Patchett | Book Review",
+    "ch": "rincey reads",
+    "len": "6:48"
+   },
+   {
+    "v": "VU8fuReUidE",
+    "t": "Victoria’s Book Reviews: Whistler by Ann Patchett",
+    "ch": "Victoria's Book Reviews",
+    "len": "4:37"
+   },
+   {
+    "v": "bqDUcvU9gC4",
+    "t": "Whistler by Ann Patchett - Your next FEEL GOOD read!",
+    "ch": "Spineless Books",
+    "len": "9:56"
+   }
+  ],
+  "ib-9781250412607": []
  }
 }
