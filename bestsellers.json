@@ -8,7 +8,7 @@
    "en": "Eslite, Taiwan",
    "flag": "🇹🇼",
    "c": "#7fd3a8",
-   "asof": "2026 全年 · Year so far (17 Nov 2026)",
+   "asof": "2026 全年 Top 10 · Year so far (17 Nov 2026)",
    "books": [
     {
      "id": "bs-taiwan-travelogue",
@@ -59,6 +59,63 @@
      "en": "Toad from The Wind in the Willows is depressed, and his friends send him to a counsellor, Heron. Over ten sessions he learns why he feels the way he does. A friendly way into how therapy works.",
      "zh": "《柳林風聲》入面嘅蛤蟆先生抑鬱咗，朋友叫佢去見心理師蒼鷺。十次面談之中，佢慢慢明白自己點解會咁。用童話帶你了解心理輔導係點運作。",
      "rank": 5
+    },
+    {
+     "id": "bs-atomic-habits",
+     "t": "Atomic Habits",
+     "tz": "原子習慣",
+     "a": "James Clear",
+     "az": "詹姆斯·克利爾",
+     "tag": "心理",
+     "en": "How tiny changes add up: get 1% better every day. Clear's four laws make a good habit obvious, attractive, easy and satisfying, and a bad one the opposite. Focus on systems and on who you want to become, not on goals.",
+     "zh": "細小改變點樣累積成大成果：每日進步 1%。作者提出四個法則：令好習慣變得明顯、吸引、容易、有滿足感，壞習慣就反過嚟。重點唔係目標，而係系統同埋你想成為點樣嘅人。",
+     "rank": 6
+    },
+    {
+     "id": "bs-let-them",
+     "t": "The Let Them Theory",
+     "tz": "隨他們去",
+     "a": "Mel Robbins",
+     "az": "梅爾·羅賓斯",
+     "tag": "心理",
+     "en": "Two words, \"let them\": stop trying to control what other people think, say and do, and put that energy into what you can control. Robbins pairs it with \"let me\" to take charge of your own life.",
+     "zh": "兩個字：「隨佢」。唔好再嘗試控制人哋點諗、點講、點做，將精力放返喺自己控制得到嘅嘢。再配合「讓我」，主動掌握自己嘅人生。",
+     "rank": 7
+    },
+    {
+     "id": "bs-diamond-sutra",
+     "tz": "金剛經白話講座",
+     "t": "Diamond Sutra in Plain Words",
+     "a": "Wang Si-xun",
+     "az": "王思迅",
+     "tag": "生活",
+     "cover": "",
+     "en": "A plain-language reading of the Diamond Sutra, treating it less as religion and more as a guide to seeing through attachment and worry in everyday life.",
+     "zh": "用淺白嘅說話講解《金剛經》，唔係當宗教書，而係當做一本教你放低執著、減少煩惱嘅生活指南。",
+     "rank": 8
+    },
+    {
+     "id": "bs-cafe-end-world",
+     "t": "The Why Café",
+     "tz": "世界盡頭的咖啡館",
+     "a": "John P. Strelecky",
+     "az": "約翰·史崔勒基",
+     "tag": "生活",
+     "en": "A short fable: a lost traveller stops at a café in the middle of nowhere, where the menu asks three questions, starting with \"Why are you here?\". A quick, gentle read about finding your purpose.",
+     "zh": "一個短篇寓言：迷路嘅旅人喺荒郊見到一間咖啡館，餐牌上有三條問題，第一條係「你點解喺度？」。輕鬆易讀，講搵返人生目標。",
+     "rank": 9
+    },
+    {
+     "id": "bs-mind-your-own",
+     "tz": "人生只有兩件事，關你屁事和關我屁事",
+     "t": "Life Is Only Two Things",
+     "a": "Lao Yang de Mao Tou Ying",
+     "az": "老楊的貓頭鷹",
+     "tag": "心理",
+     "cover": "",
+     "en": "About 42 short essays on boundaries: what other people do is their business, what you do is yours. A light, blunt book about not over-managing others or letting them manage you.",
+     "zh": "大約 42 篇短文講界線：人哋做乜係人哋嘅事，你做乜係你嘅事。輕鬆直接，教你唔好管太多，亦唔好俾人管住。",
+     "rank": 10
     }
    ]
   },
@@ -68,7 +125,7 @@
    "en": "New York Times, fiction",
    "flag": "🇺🇸",
    "c": "#9cc7ff",
-   "asof": "22 Nov 2026 · Hardcover fiction",
+   "asof": "22 Nov 2026 · Hardcover fiction Top 10",
    "books": [
     {
      "id": "bs-acotar6",
@@ -114,17 +171,62 @@
      "en": "The 21st Harry Bosch novel. Bosch investigates the children's home where he lived as a ward of the state when he was young.",
      "zh": "Harry Bosch 系列第 21 集。Bosch 調查佢細個寄住過嘅兒童院。",
      "rank": 5
+    },
+    {
+     "id": "bs-the-witch",
+     "t": "The Witch",
+     "a": "Freida McFadden",
+     "tag": "小說",
+     "en": "Julia Barlow retreats to a family estate tied to the execution of a witch in 1692, and finds the past is not finished with her. A twisty thriller from the author of The Housemaid.",
+     "zh": "Julia Barlow 退隱到家族大宅，呢度同 1692 年一宗處決女巫事件有關，而過去似乎仲未放過佢。《女傭》作者嘅懸疑驚慄小說。",
+     "rank": 6
+    },
+    {
+     "id": "bs-married-christmas",
+     "t": "A Married Little Christmas",
+     "a": "Abby Jimenez",
+     "tag": "小說",
+     "en": "Three cosy holiday romance novellas in one deluxe edition.",
+     "zh": "三個溫馨嘅聖誕愛情中篇故事，合成一本精裝版。",
+     "rank": 7
+    },
+    {
+     "id": "bs-defy-the-dusk",
+     "t": "Defy the Dusk",
+     "a": "Danielle L. Jensen",
+     "tag": "小說",
+     "en": "Book one of the Sundering Duet, a fantasy in which a woman's loyalty is put to the test.",
+     "zh": "奇幻二部曲第一集：一個女人嘅忠誠受到考驗。",
+     "rank": 8
+    },
+    {
+     "id": "bs-pirate-queen",
+     "t": "The Pirate Queen",
+     "a": "Ariel Lawhon",
+     "tag": "小說",
+     "en": "A historical novel about Grace O'Malley, the real 16th-century Irish chieftain and sea captain who defied the English crown.",
+     "zh": "歷史小說，寫十六世紀愛爾蘭真實人物 Grace O'Malley：一位敢同英國王室對抗嘅女族長兼船長。",
+     "rank": 9
+    },
+    {
+     "id": "bs-the-gift",
+     "t": "The Gift",
+     "a": "Freida McFadden",
+     "tag": "小說",
+     "en": "A short story with a dark twist, inspired by O. Henry's Christmas classic The Gift of the Magi.",
+     "zh": "一個帶黑色轉折嘅短篇故事，靈感來自歐亨利嘅聖誕經典《聖誕禮物》。",
+     "rank": 10
     }
    ]
   },
   {
    "key": "uk",
-   "name": "英國暢銷榜",
-   "en": "UK top 5 (all shops)",
+   "name": "Waterstones 暢銷榜",
+   "en": "Waterstones, UK",
    "flag": "🇬🇧",
    "c": "#f3a6c0",
    "asof": "Week to 14 Nov 2026",
-   "note": "Waterstones' own chart can't be read automatically, so this is the UK-wide chart.",
+   "note": "Until the first weekly Waterstones update, this shows the UK-wide top 5.",
    "books": [
     {
      "id": "bs-gruffalo-granny",
