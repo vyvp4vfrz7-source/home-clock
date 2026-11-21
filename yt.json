@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T03:25:14Z",
+ "updated": "2026-11-21T04:32:09Z",
  "channels": [
   {
    "key": "gb",
@@ -13,7 +13,7 @@
      "t": "台灣九合一選前最後民調：台北市長選情膠着，沈伯洋、蔣萬安支持度勢均力敵｜國際多Bean事．兩岸焦點",
      "at": "2026-11-21T00:00:31+00:00",
      "short": true,
-     "views": 350
+     "views": 403
     },
     {
      "v": "ZuRDSWtjc8A",
@@ -27,28 +27,28 @@
      "t": "新世界發展「1供11」震撼市場 ｜中美俄深圳峰會各說各話｜英青年「三無」陷死結 苗易彬改革被批「離地」｜兩邊走走 EP223 焦點",
      "at": "2026-11-20T14:20:05+00:00",
      "short": true,
-     "views": 984
+     "views": 1185
     },
     {
      "v": "QgGv5ZRS7ZE",
      "t": "黃之鋒案判刑剖析：延遲起訴、最低刑期與「拍片減刑」爭議｜陳文敏、黃瑞紅、蔡騏深入探討國安案量刑與程序公義",
      "at": "2026-11-20T12:00:09+00:00",
      "short": false,
-     "views": 24315
+     "views": 24813
     },
     {
      "v": "HfxZGDCZx-k",
      "t": "【國際 2026.11.19】美中俄歷史性峰會籲合作 俄重返國際舞台｜烏克蘭炸毁克里米亞大橋｜台灣九合一選前最後民調   藍綠膠着",
      "at": "2026-11-19T20:00:15+00:00",
      "short": false,
-     "views": 35472
+     "views": 35484
     },
     {
      "v": "efiNTmL3g6E",
      "t": "反修例暴動罪釋囚親述BNO簽證申請被拒｜英內相稱案底原則上不應阻申請，如何落實？｜英港兩地暴動罪可直接比較嗎？｜《綠豆深耕》（with EN subtitles）",
      "at": "2026-11-18T13:30:30+00:00",
      "short": false,
-     "views": 68528
+     "views": 68565
     },
     {
      "v": "NZ2CuyqyXBs",
@@ -62,7 +62,7 @@
      "t": "【英國 2026.11.17】貝安德：英國脫歐弊多於利  雙方關係將重置｜青少年報告倡削福利促就業｜羅拔柏迪臣成新一代 007",
      "at": "2026-11-17T20:00:03+00:00",
      "short": false,
-     "views": 50851
+     "views": 50878
     },
     {
      "v": "tH4TEEL_3Ns",
@@ -76,14 +76,14 @@
      "t": "【移英喜劇】俾個爛 gag 你估下！｜《綠豆》原創，港英兩地搖擺式處境喜劇",
      "at": "2026-11-16T17:01:13+00:00",
      "short": true,
-     "views": 1142
+     "views": 1151
     },
     {
      "v": "jCJKAp3HiN0",
      "t": "土地查冊制度明年收緊   記協、調查記者憂礙公眾監察｜香港Bean啲事",
      "at": "2026-11-15T22:10:35+00:00",
      "short": true,
-     "views": 1068
+     "views": 1069
     },
     {
      "v": "XLq6unqSNOw",
@@ -106,14 +106,14 @@
      "t": "【一周法庭線報】2026.11.8-11.14　蔡天鳳案；瑜伽導師伏屍酒店案；興達大廈圍標案",
      "at": "2026-11-14T12:00:34+00:00",
      "short": false,
-     "views": 23450
+     "views": 23455
     },
     {
      "v": "yVGB057eMSE",
      "t": "宏福苑業主揀樓　冼婆婆：人生最後大事　盼為女兒留歸宿",
      "at": "2026-11-09T11:21:36+00:00",
      "short": true,
-     "views": 2112
+     "views": 2119
     },
     {
      "v": "si5jQlfAWN0",
@@ -134,7 +134,7 @@
      "t": "黃之鋒認串謀勾結判囚10年　官指屬主腦罪行重大　求情信談獄中自勉",
      "at": "2026-11-05T22:36:12+00:00",
      "short": false,
-     "views": 90191
+     "views": 90199
     },
     {
      "v": "R7U8iQPe0B8",
@@ -148,7 +148,7 @@
      "t": "黃之鋒判囚10年　劉公子：我哋呢代睇唔到（黃之鋒出獄）",
      "at": "2026-11-05T05:44:03+00:00",
      "short": true,
-     "views": 4785
+     "views": 4786
     },
     {
      "v": "lCvV-V4R1Qc",
@@ -169,7 +169,7 @@
      "t": "黃之鋒認串謀勾結明判刑　法院外約30人排隊　將設211公眾席、正庭佔29席",
      "at": "2026-11-04T10:34:30+00:00",
      "short": true,
-     "views": 1917
+     "views": 1918
     },
     {
      "v": "HDGwj_RpUmo",
@@ -195,32 +195,39 @@
    "title": "集誌社 The Collective HK",
    "videos": [
     {
+     "v": "4RLWnNqe5rA",
+     "t": "聚焦．Podcast｜28分鐘回顧宏福苑人和事　難屬與傷痛同行　拒賣樓居民的堅持　街坊含淚告別",
+     "at": "2026-11-21T04:08:12+00:00",
+     "short": false,
+     "views": 140
+    },
+    {
      "v": "cIBdutWuU-4",
      "t": "影像記錄｜宏福苑大火一年　父親的印記",
      "at": "2026-11-20T23:00:37+00:00",
      "short": false,
-     "views": 4054
+     "views": 6013
     },
     {
      "v": "KC8q08AmyM0",
      "t": "影像記錄．宏福苑大火一年｜帶蛋糕與太陽花上山  爸爸：慢慢等，一定會再見",
      "at": "2026-11-20T06:54:01+00:00",
      "short": false,
-     "views": 22387
+     "views": 22598
     },
     {
      "v": "NhAbdywcHsA",
      "t": "宏福苑大火一年｜苦等第三次上樓　一直冇回音",
      "at": "2026-11-18T08:29:49+00:00",
      "short": false,
-     "views": 4637
+     "views": 4663
     },
     {
      "v": "5UoVjotnkug",
      "t": "宏福苑大火一年｜為街坊表態　無悔最後揀樓",
      "at": "2026-11-18T06:23:53+00:00",
      "short": true,
-     "views": 681
+     "views": 682
     },
     {
      "v": "vsQ_Wh73f0I",
@@ -234,7 +241,7 @@
      "t": "影像記錄｜宏福苑大火一年　IT’S OK TO BE NOT OK !",
      "at": "2026-11-16T01:22:14+00:00",
      "short": false,
-     "views": 109323
+     "views": 109434
     },
     {
      "v": "VxuXt5V4lY8",
@@ -248,7 +255,7 @@
      "t": "聚焦．Podcast｜28分鐘回顧　悼念宏福苑波折多　災民申索新指引　港鐵北環綫有錢慳？　黃仁勳事件看查冊",
      "at": "2026-11-14T04:13:12+00:00",
      "short": false,
-     "views": 9703
+     "views": 9734
     },
     {
      "v": "DI2VfDVeWKQ",
@@ -270,13 +277,6 @@
      "at": "2026-11-07T05:15:39+00:00",
      "short": false,
      "views": 4846
-    },
-    {
-     "v": "XNGiJD3wEyw",
-     "t": "聚焦．Podcast｜35 分鐘剖析重判黃之鋒　澳門首宗國安案判決　 篤灰打圍標有冇效？",
-     "at": "2026-11-07T04:10:45+00:00",
-     "short": false,
-     "views": 18338
     }
    ]
   },
@@ -288,32 +288,39 @@
    "title": "HOY 78 × 有線新聞 Cable News",
    "videos": [
     {
+     "v": "UMdJwRn7Pk8",
+     "t": "有線新聞 午間香港新聞｜即時新聞｜港聞｜兩岸國際｜資訊｜HOY NEWS｜ 20261121",
+     "at": "2026-11-21T03:59:02+00:00",
+     "short": false,
+     "views": 348
+    },
+    {
      "v": "OnJd_AFWvec",
      "t": "有線新聞｜1000 新聞報道｜即時新聞｜港聞｜兩岸國際｜資訊｜HOY NEWS｜ 20261121",
      "at": "2026-11-21T02:16:52+00:00",
      "short": false,
-     "views": 1103
+     "views": 1934
     },
     {
      "v": "eyH825d4a48",
      "t": "有線新聞 晨早新聞報道｜俄烏戰爭｜基輔連夜受襲波及波蘭　圖斯克質疑俄方蓄意挑釁｜日本受寒流吹襲　北海道等有強風雪　四國鳥取迎初雪｜HOY NEWS｜ 20261121",
      "at": "2026-11-20T22:43:51+00:00",
      "short": false,
-     "views": 4901
+     "views": 6586
     },
     {
      "v": "P75n_96x5mE",
      "t": "有線新聞 晚間新聞｜即時新聞｜港聞｜兩岸國際｜資訊｜HOY NEWS｜ 20261121",
      "at": "2026-11-20T18:28:09+00:00",
      "short": false,
-     "views": 3898
+     "views": 3918
     },
     {
      "v": "fByOJq_0BMs",
      "t": "每日樓市｜數連跌6周樓價持續向下｜早年溢價入市轉手仍未見家鄉｜恒指挫430點見一年半低位｜恒指季檢科指新增20股｜28Hse特約 : 每日樓市｜HOY77",
      "at": "2026-11-20T15:00:00+00:00",
      "short": false,
-     "views": 4391
+     "views": 4747
     },
     {
      "v": "ZwUpX0f9vDk",
@@ -327,14 +334,14 @@
      "t": "#有線新聞｜瑜伽導師前男友謀殺罪成囚終身｜鄺港智稱看新聞始知碎屍｜入冬後首個寒冷警告｜電動車電池擬徵再造費｜陳國基：不阻止合法悼念｜今日重點新聞｜HOY｜20261120",
      "at": "2026-11-20T14:31:36+00:00",
      "short": false,
-     "views": 1314
+     "views": 1320
     },
     {
      "v": "JTMy_aqXPpI",
      "t": "#有線新聞 六點新聞報道｜蔡天鳳案｜鄺港智稱鄺球坐在後座，稱「唔好講住，返村屋先」｜瑜伽導師被殺案　死者前男友勞浚銘謀殺罪成　依例判終身監禁｜寒冷天氣警告　市區最低12.7度｜HOY｜20261120",
      "at": "2026-11-20T11:05:13+00:00",
      "short": false,
-     "views": 11687
+     "views": 11710
     },
     {
      "v": "E4ks1yT0LvI",
@@ -355,7 +362,7 @@
      "t": "有線新聞｜財經HOY視野｜即時新聞｜港聞｜兩岸國際｜資訊｜HOY NEWS｜ 20261120",
      "at": "2026-11-20T08:17:16+00:00",
      "short": false,
-     "views": 3623
+     "views": 3638
     },
     {
      "v": "6ymModZYPrY",
@@ -363,13 +370,6 @@
      "at": "2026-11-20T07:30:07+00:00",
      "short": false,
      "views": 20700
-    },
-    {
-     "v": "oOCUxP-RE6U",
-     "t": "有線新聞 午間香港新聞｜天文台中午錄13.2度創入秋新低　下周中期氣溫再降｜蔡天鳳案｜鄺港智稱蔡倒地後曾問報警定call白車　鄺球稱「你通緝緊」並與鄺港傑合力搬蔡入屋｜HOY｜20261120",
-     "at": "2026-11-20T04:41:44+00:00",
-     "short": false,
-     "views": 14780
     }
    ]
   },
@@ -385,84 +385,84 @@
      "t": "Is the US under cyber attack? | BBC Americast",
      "at": "2026-11-21T00:00:12+00:00",
      "short": false,
-     "views": 28923
+     "views": 39435
     },
     {
      "v": "LOGSmFiVePI",
      "t": "Donald Trump stands by his decision to attack Iran | BBC News",
      "at": "2026-11-20T23:00:08+00:00",
      "short": false,
-     "views": 80703
+     "views": 93224
     },
     {
      "v": "p-NbJyWKPPU",
      "t": "Sales of tins and UHT milk INCREASE after UK stockpiling campaign. #BBCNews",
      "at": "2026-11-20T22:50:55+00:00",
      "short": true,
-     "views": 4643
+     "views": 5462
     },
     {
      "v": "sfTt-kJvik4",
      "t": "What's been agreed at the EU-UK summit? | BBC Newscast",
      "at": "2026-11-20T22:00:24+00:00",
      "short": false,
-     "views": 13695
+     "views": 15528
     },
     {
      "v": "33vwbmwAnGA",
      "t": "Police departments across America issue warnings around GTA 6 release. #BBCNews|  BBC News",
      "at": "2026-11-20T21:45:25+00:00",
      "short": true,
-     "views": 12898
+     "views": 15600
     },
     {
      "v": "3IVU86mra8w",
      "t": "Is the COP climate summit a failure? | Global News Podcast",
      "at": "2026-11-20T21:30:17+00:00",
      "short": false,
-     "views": 14398
+     "views": 15121
     },
     {
      "v": "TxvL1gmS-sA",
      "t": "Texas death-row inmate screams as execution takes more than one hour. #BBCNews",
      "at": "2026-11-20T21:00:15+00:00",
      "short": true,
-     "views": 10265
+     "views": 11709
     },
     {
      "v": "Mk8hfEzMIJc",
      "t": "New Brexit deal is 'win-win' for UK and EU, Andy Burnham says | BBC News",
      "at": "2026-11-20T20:45:30+00:00",
      "short": false,
-     "views": 23696
+     "views": 25398
     },
     {
      "v": "POpOkVg2Q0o",
      "t": "Abusers found guilty after woman was drugged and advertised for sex by her husband | BBC News",
      "at": "2026-11-20T20:00:16+00:00",
      "short": false,
-     "views": 30966
+     "views": 31244
     },
     {
      "v": "Mrtb8n9rg3w",
      "t": "How will Nato respond to a Russian missile landing in Poland? | BBC News",
      "at": "2026-11-20T19:21:50+00:00",
      "short": false,
-     "views": 338436
+     "views": 383701
     },
     {
      "v": "RvpOzs6M3xM",
      "t": "The secret UK operation we couldn't tell you about - until now | BBC News",
      "at": "2026-11-20T18:45:30+00:00",
      "short": false,
-     "views": 643723
+     "views": 686761
     },
     {
      "v": "ufsSNiqaMv0",
      "t": "Former MP Jordan Lane proposes to girlfriend in Parliament. #Australia #Proposal #BBCNews",
      "at": "2026-11-20T18:00:17+00:00",
      "short": true,
-     "views": 19883
+     "views": 20711
     }
    ],
    "page": 2,
@@ -476,88 +476,88 @@
    "title": "CNN",
    "videos": [
     {
+     "v": "tQgtMUn6Qmw",
+     "t": "Harry Kane suffers ankle ligament tear, out for 'next few months'",
+     "at": "2026-11-21T04:10:39+00:00",
+     "short": true,
+     "views": 5
+    },
+    {
+     "v": "QdnrbM-Bm74",
+     "t": "Tens of thousands of young people protest across Europe",
+     "at": "2026-11-21T03:50:38+00:00",
+     "short": true,
+     "views": 2333
+    },
+    {
+     "v": "MVo6ZDgbTC0",
+     "t": "Judge halts Army’s plan to detonate bomb-making material as Iowans worry about lead",
+     "at": "2026-11-21T03:25:43+00:00",
+     "short": true,
+     "views": 2280
+    },
+    {
      "v": "RGmCWiSmNx4",
      "t": "Zelensky reacts to Trump calling Putin a friend",
      "at": "2026-11-21T03:00:27+00:00",
      "short": false,
-     "views": 2835
+     "views": 20668
     },
     {
      "v": "_kj745sGs6A",
      "t": "Trump Defends China Summit in Sprawling WH Press Conference",
      "at": "2026-11-21T03:01:30+00:00",
      "short": false,
-     "views": 204
+     "views": 1424
     },
     {
      "v": "x0lib3BBb2k",
      "t": "Why this Apprentice exec compares Trump presser to show's boardroom",
      "at": "2026-11-21T02:42:45+00:00",
      "short": true,
-     "views": 1447
+     "views": 4917
     },
     {
      "v": "PiZYjgnGZMk",
      "t": "One of Fiona’s doctors describes her final moments",
      "at": "2026-11-21T02:25:48+00:00",
      "short": true,
-     "views": 3255
+     "views": 6955
     },
     {
      "v": "0zWL200ohX8",
      "t": "Trump introduces 'most powerful man in the world,' Stephen Miller",
      "at": "2026-11-21T01:53:36+00:00",
      "short": true,
-     "views": 20257
+     "views": 26250
     },
     {
      "v": "b9ojDFqX1yc",
      "t": "Trump pits Vance against Rubio in White House appearance",
      "at": "2026-11-21T01:45:32+00:00",
      "short": false,
-     "views": 75607
+     "views": 129838
     },
     {
      "v": "RmesMBY-PIM",
      "t": "Businesses and homes partially submerged in Daytona Beach flooding",
      "at": "2026-11-21T01:40:44+00:00",
      "short": true,
-     "views": 7678
+     "views": 12420
     },
     {
      "v": "8UZvDYM_ELw",
      "t": "Listen to the celestial sounds of baby stars from NASA",
      "at": "2026-11-21T01:10:35+00:00",
      "short": true,
-     "views": 7756
+     "views": 10718
     },
     {
      "v": "Hcokpvh2kss",
      "t": "$3.7B in day 1 sales: GTA 6 now one of history’s biggest entertainment launches",
      "at": "2026-11-21T01:06:38+00:00",
      "short": false,
-     "views": 39018
-    },
-    {
-     "v": "JXGU1I_IP90",
-     "t": "CNN Exclusive: Trump administration official jailed for reckless driving defended speeding on Reddit",
-     "at": "2026-11-21T00:51:01+00:00",
-     "short": true,
-     "views": 4970
-    },
-    {
-     "v": "0GBqdPrWBTc",
-     "t": "Florida man on trial in killing of British woman he met on porn site Motherless",
-     "at": "2026-11-21T00:27:48+00:00",
-     "short": true,
-     "views": 1663
-    },
-    {
-     "v": "mTX2Bnv-hUU",
-     "t": "Forensic expert: Epstein likely killed while in custody",
-     "at": "2026-11-21T00:00:18+00:00",
-     "short": false,
-     "views": 95822
+     "views": 92889
     }
    ],
    "page": 2,
@@ -575,56 +575,56 @@
      "t": "Trump is back from China. What's his big takeaway? | Analysing full speech",
      "at": "2026-11-21T00:00:09+00:00",
      "short": false,
-     "views": 4662
+     "views": 7821
     },
     {
      "v": "HwC-PBl0dDg",
      "t": "Trump is back from China: What is his big takeaway?",
      "at": "2026-11-20T23:47:31+00:00",
      "short": true,
-     "views": 3128
+     "views": 3727
     },
     {
      "v": "8NLDKDTsmXQ",
      "t": "UK and EU agree new deal on three areas | The Wrap with Gillian Joseph",
      "at": "2026-11-20T22:58:28+00:00",
      "short": false,
-     "views": 10015
+     "views": 10515
     },
     {
      "v": "UGM8b-T4aWQ",
      "t": "Deal or no deal? How tuition fees nearly snagged Burnham's EU deal",
      "at": "2026-11-20T21:00:04+00:00",
      "short": false,
-     "views": 12967
+     "views": 13179
     },
     {
      "v": "rOpHCyuWZjM",
      "t": "Burnham's Brexit reset: Deal or no deal?",
      "at": "2026-11-20T20:57:56+00:00",
      "short": true,
-     "views": 5770
+     "views": 5922
     },
     {
      "v": "Mby19kXfq7I",
      "t": "Ukraine peace talks: Is it time for Europe to step up? | Michael Clarke talks to Pierre Vimont",
      "at": "2026-11-20T20:14:06+00:00",
      "short": false,
-     "views": 14485
+     "views": 14685
     },
     {
      "v": "RWpwsga5uHE",
      "t": "Is the law on consent outdated?",
      "at": "2026-11-20T19:13:14+00:00",
      "short": true,
-     "views": 3129
+     "views": 3163
     },
     {
      "v": "rrTMOy0dQ-U",
      "t": "Donald Trump speaks at White House after meeting Xi and Putin",
      "at": "2026-11-20T19:05:52+00:00",
      "short": false,
-     "views": 41645
+     "views": 41672
     },
     {
      "v": "CQKGTNco_AM",
@@ -638,7 +638,7 @@
      "t": "GTA 6 was inspired by the mean streets of Dundee. This Is Why",
      "at": "2026-11-20T16:30:37+00:00",
      "short": false,
-     "views": 13089
+     "views": 13173
     },
     {
      "v": "eWRBpHyXN78",
@@ -670,35 +670,35 @@
      "t": "DeepMind Just Released The Best Thing AI Ever Did",
      "at": "2026-11-19T09:26:19+00:00",
      "short": false,
-     "views": 184799
+     "views": 184970
     },
     {
      "v": "gl2U4fGTr6g",
      "t": "OpenAI's New Breakthrough Is... Utter Chaos",
      "at": "2026-11-17T12:46:24+00:00",
      "short": false,
-     "views": 215951
+     "views": 216004
     },
     {
      "v": "x7iwI6WfWS0",
      "t": "AI Can Do Everything…Except This",
      "at": "2026-11-14T08:40:55+00:00",
      "short": false,
-     "views": 53976
+     "views": 53992
     },
     {
      "v": "gPNiuyYirfw",
      "t": "DeepMind’s AI Just Did The Impossible",
      "at": "2026-11-12T13:41:41+00:00",
      "short": false,
-     "views": 318215
+     "views": 318236
     },
     {
      "v": "vug73goPJaM",
      "t": "Is Software Over?",
      "at": "2026-11-10T10:15:57+00:00",
      "short": false,
-     "views": 190430
+     "views": 190442
     },
     {
      "v": "GJ6PMUm5oTA",
@@ -733,7 +733,7 @@
      "t": "Gemini 4 Argon Is Not What I Expected",
      "at": "2026-10-19T08:49:21+00:00",
      "short": false,
-     "views": 259792
+     "views": 259799
     },
     {
      "v": "z_sXLlLVUls",
@@ -765,84 +765,84 @@
      "t": "Elon Musk wants distance from MAGA #Vergecast",
      "at": "2026-11-20T17:00:29+00:00",
      "short": true,
-     "views": 4853
+     "views": 5045
     },
     {
      "v": "CaxQ0K28mZY",
      "t": "This week everything broke #Vergecast",
      "at": "2026-11-20T15:55:53+00:00",
      "short": true,
-     "views": 4953
+     "views": 5156
     },
     {
      "v": "B6RMk8mLs_8",
      "t": "The week everything fell apart | The Vergecast",
      "at": "2026-11-20T13:00:35+00:00",
      "short": false,
-     "views": 27893
+     "views": 28722
     },
     {
      "v": "u_QUVqvdcig",
      "t": "AI agents are only as good as the context you give them. #ad  ⁨@Atlassian",
      "at": "2026-11-19T20:00:14+00:00",
      "short": true,
-     "views": 2696
+     "views": 2755
     },
     {
      "v": "3P_f85a44Zg",
      "t": "The new age of video game romances?",
      "at": "2026-11-19T19:00:05+00:00",
      "short": true,
-     "views": 4784
+     "views": 4823
     },
     {
      "v": "R9xMKDppPRQ",
      "t": "GTA VI's cultural awareness #Vergecast",
      "at": "2026-11-19T18:10:31+00:00",
      "short": true,
-     "views": 12975
+     "views": 13029
     },
     {
      "v": "4p5iI_a1HTs",
      "t": "The gaming business after GTA VI | The Vergecast",
      "at": "2026-11-19T14:52:58+00:00",
      "short": false,
-     "views": 26250
+     "views": 26329
     },
     {
      "v": "U2EvRbFgKm0",
      "t": "GTA VI is about the little things #Vergecast",
      "at": "2026-11-18T17:50:22+00:00",
      "short": true,
-     "views": 16695
+     "views": 16752
     },
     {
      "v": "xHYNF0wp8No",
      "t": "GTA VI is full of hot coffee #Vergecast",
      "at": "2026-11-18T16:51:37+00:00",
      "short": true,
-     "views": 11878
+     "views": 11970
     },
     {
      "v": "aodQae0bVt0",
      "t": "GTA VI is the love story of our times | The Vergecast",
      "at": "2026-11-18T14:54:18+00:00",
      "short": false,
-     "views": 56241
+     "views": 56271
     },
     {
      "v": "nHfCg6YarQE",
      "t": "GTA VI lives up to hype",
      "at": "2026-11-18T11:00:06+00:00",
      "short": true,
-     "views": 92496
+     "views": 92540
     },
     {
      "v": "vrLos-_o0r4",
      "t": "Is Moore’s Law real? #Vergecast",
      "at": "2026-11-17T19:30:33+00:00",
      "short": true,
-     "views": 7166
+     "views": 7210
     }
    ],
    "page": 2,
@@ -860,49 +860,49 @@
      "t": "Anthropic Falls After Blockbuster Debut as Tech Sells Off",
      "at": "2026-11-20T18:41:53+00:00",
      "short": false,
-     "views": 6850
+     "views": 7040
     },
     {
      "v": "KJvspEUr8JU",
      "t": "GTA VI Earns Near-Perfect Reviews in Record Launch",
      "at": "2026-11-20T18:38:59+00:00",
      "short": false,
-     "views": 1576
+     "views": 1578
     },
     {
      "v": "euXj_4vMSo8",
      "t": "Anthropic Slides as AI Selloff Deepens",
      "at": "2026-11-20T18:37:38+00:00",
      "short": false,
-     "views": 9252
+     "views": 9676
     },
     {
      "v": "bMDnuKEoGPw",
      "t": "Anthropic Investor Sees Huge Runway Beyond Coding",
      "at": "2026-11-20T18:35:42+00:00",
      "short": false,
-     "views": 2403
+     "views": 2433
     },
     {
      "v": "2wjZ_yvDPjs",
      "t": "Odd Lots: GTA VI Is the Most Expensive Game Ever Made. Is It Worth It?",
      "at": "2026-11-19T22:19:09+00:00",
      "short": true,
-     "views": 1754
+     "views": 1755
     },
     {
      "v": "P_NCnetY7p4",
      "t": "Anthropic Makes Historic Debut on Nasdaq",
      "at": "2026-11-19T19:08:57+00:00",
      "short": false,
-     "views": 14824
+     "views": 14840
     },
     {
      "v": "c6EMD7m4nmQ",
      "t": "Anthropic Investor Sees Opportunity Beyond IPO",
      "at": "2026-11-19T17:50:57+00:00",
      "short": false,
-     "views": 6973
+     "views": 6985
     },
     {
      "v": "EK8FTlMsDxs",
@@ -916,7 +916,7 @@
      "t": "Apple’s Software Problem with Joanna Stern | Power On with Mark Gurman",
      "at": "2026-11-19T17:17:24+00:00",
      "short": false,
-     "views": 4601
+     "views": 4604
     },
     {
      "v": "OKqL0lT4MjA",
@@ -930,7 +930,7 @@
      "t": "Anthropic CFO on 'Democratizing Access' to Company Stock",
      "at": "2026-11-19T16:19:03+00:00",
      "short": false,
-     "views": 11224
+     "views": 11301
     },
     {
      "v": "mLRX-Us19pk",
@@ -955,84 +955,84 @@
      "t": "Trump Vows To Tax US Companies Building Data Centers Abroad",
      "at": "2026-11-21T00:09:39+00:00",
      "short": false,
-     "views": 2175
+     "views": 3541
     },
     {
      "v": "JDWS_SF4ir0",
      "t": "Wall Street Week | Gaming Blockbuster, Healthcare Costs, Cybersecurity Meets AI",
      "at": "2026-11-21T00:00:31+00:00",
      "short": false,
-     "views": 2341
+     "views": 3512
     },
     {
      "v": "dM5_l_31zIU",
      "t": "Historic Market Selloff Deepens After Anthropic IPO",
      "at": "2026-11-20T23:51:14+00:00",
      "short": false,
-     "views": 5138
+     "views": 6818
     },
     {
      "v": "EWPEat-a_LU",
      "t": "Gov. Lujan Grisham: 2028 Hopefuls Already Eyeing New Mexico",
      "at": "2026-11-20T23:37:59+00:00",
      "short": false,
-     "views": 984
+     "views": 1670
     },
     {
      "v": "BFiDTr97in4",
      "t": "Stocks Plunge After Anthropic IPO, Trump Returns from Asia",
      "at": "2026-11-20T23:34:14+00:00",
      "short": false,
-     "views": 4796
+     "views": 5635
     },
     {
      "v": "uPUVs41q4eo",
      "t": "Sol Trujillo Says Latino Economic Growth Is an Undervalued Investment Opportunity",
      "at": "2026-11-20T23:31:35+00:00",
      "short": false,
-     "views": 1237
+     "views": 1498
     },
     {
      "v": "7fbq429Zdbg",
      "t": "Rediker: AI Selloff Is a ‘Healthy’ Correction",
      "at": "2026-11-20T23:31:03+00:00",
      "short": false,
-     "views": 4442
+     "views": 5209
     },
     {
      "v": "Xx6jz7bo9FM",
      "t": "Curnutt: Selloff May Be ‘Cleansing,’ But Risks Remain",
      "at": "2026-11-20T23:27:01+00:00",
      "short": false,
-     "views": 11099
+     "views": 14479
     },
     {
      "v": "KLAEQz1VTQs",
      "t": "‘Always Remain Liquid’: Richards",
      "at": "2026-11-20T22:56:40+00:00",
      "short": false,
-     "views": 5114
+     "views": 6068
     },
     {
      "v": "blumBAMqbVM",
      "t": "Fear of Missing Out Driving Young Investors: Chaudhuri",
      "at": "2026-11-20T22:31:26+00:00",
      "short": false,
-     "views": 6442
+     "views": 7109
     },
     {
      "v": "dFNoyrfcDGY",
      "t": "Huang Behavior Complaints, Kalshi to Add Stock Trading",
      "at": "2026-11-20T22:30:27+00:00",
      "short": false,
-     "views": 2198
+     "views": 2508
     },
     {
      "v": "Q2kHWuOxuSw",
      "t": "Nvidia Plunges as SEC Probe Deepens AI Market Selloff | Closing Bell",
      "at": "2026-11-20T22:07:43+00:00",
      "short": false,
-     "views": 60358
+     "views": 66373
     }
    ],
    "page": 2,
@@ -1050,14 +1050,14 @@
      "t": "How Cheap Clothing Got So Expensive",
      "at": "2026-11-20T15:00:11+00:00",
      "short": false,
-     "views": 63035
+     "views": 65844
     },
     {
      "v": "E5qCMDYjdDA",
      "t": "GTA VI: Gaming's billion-dollar bet",
      "at": "2026-11-18T19:00:33+00:00",
      "short": true,
-     "views": 16530
+     "views": 16603
     },
     {
      "v": "YYNTzUHobU0",
@@ -1078,35 +1078,35 @@
      "t": "France's borrowing costs are climbing. Could the U.S. be next?",
      "at": "2026-11-16T15:00:12+00:00",
      "short": true,
-     "views": 12178
+     "views": 12179
     },
     {
      "v": "_19PHik8_Jg",
      "t": "GTA 6's Billion-Dollar Hype Machine",
      "at": "2026-11-15T15:00:31+00:00",
      "short": false,
-     "views": 1058960
+     "views": 1059237
     },
     {
      "v": "tX5oNAxULSY",
      "t": "The rise, reinvention and uncertain future of Nvidia without Jensen Huang",
      "at": "2026-11-14T19:00:34+00:00",
      "short": true,
-     "views": 80998
+     "views": 80999
     },
     {
      "v": "vk198A0VrFI",
      "t": "Will A Democratic Congress Ease U.S. Tariffs On Canada?",
      "at": "2026-11-14T15:00:14+00:00",
      "short": false,
-     "views": 86385
+     "views": 86490
     },
     {
      "v": "Yx2lgDruVaI",
      "t": "Nvidia In Crisis: The Rise Of Jensen Huang’s Empire At The Center Of The AI Boom",
      "at": "2026-11-13T15:00:06+00:00",
      "short": false,
-     "views": 495875
+     "views": 495972
     },
     {
      "v": "r8zFAZr1uKY",
@@ -1120,7 +1120,7 @@
      "t": "Why Cheaper Car Sales Have Fallen",
      "at": "2026-11-11T15:00:34+00:00",
      "short": false,
-     "views": 893338
+     "views": 893340
     },
     {
      "v": "rkDiNKDv3Cg",
@@ -1145,77 +1145,77 @@
      "t": "Carta CEO Henry Ward: Who Actually Wins When the AI Trade Cracks?",
      "at": "2026-11-21T02:00:13+00:00",
      "short": false,
-     "views": 323
+     "views": 565
     },
     {
      "v": "4HUyZThOJAw",
      "t": "Joking about Theranos is a bold move when you’re building a blood test.",
      "at": "2026-11-21T01:31:12+00:00",
      "short": true,
-     "views": 285
+     "views": 507
     },
     {
      "v": "RT1x8q8ma7I",
      "t": "Is the AI Trade Headed for a Dot-Com Crash? Dan Niles Weighs In",
      "at": "2026-11-21T00:00:06+00:00",
      "short": false,
-     "views": 23872
+     "views": 56463
     },
     {
      "v": "qK2Z_0go_Ek",
      "t": "President Trump would love to see Nvidia give Jensen Huang a second chance.",
      "at": "2026-11-20T23:19:38+00:00",
      "short": true,
-     "views": 6293
+     "views": 7547
     },
     {
      "v": "KUBNgANiicU",
      "t": "Chip Sales Are at Records. So Why Are Chip Stocks Crashing? | Deirdre Bosa Live",
      "at": "2026-11-20T22:05:11+00:00",
      "short": false,
-     "views": 22908
+     "views": 29968
     },
     {
      "v": "E46DqGYi3PA",
      "t": "Could Washington come for the AI labs? Strategists weigh the oversight risk",
      "at": "2026-11-20T21:30:07+00:00",
      "short": false,
-     "views": 2484
+     "views": 2630
     },
     {
      "v": "ZfhlwokYmv8",
      "t": "California AG Targets Nvidia: What You Need To Know Now",
      "at": "2026-11-20T20:30:16+00:00",
      "short": false,
-     "views": 4398
+     "views": 4569
     },
     {
      "v": "vktqIFvhXMI",
      "t": "Stocks slide into correction territory as Anthropic falls toward its IPO price | Market Hang",
      "at": "2026-11-20T18:38:12+00:00",
      "short": false,
-     "views": 5045
+     "views": 5120
     },
     {
      "v": "oaUHSYQpVAA",
      "t": "Anthropic went public into a tech stock sell-off, and it's not over",
      "at": "2026-11-20T18:23:15+00:00",
      "short": true,
-     "views": 1873
+     "views": 1931
     },
     {
      "v": "-uTAENzYuS8",
      "t": "Bitcoin just got singled out again",
      "at": "2026-11-20T18:00:29+00:00",
      "short": false,
-     "views": 27837
+     "views": 28045
     },
     {
      "v": "ZFD_F2kDdqo",
      "t": "Why the tech selloff has to keep going | Sozzi Unleashed",
      "at": "2026-11-20T16:12:41+00:00",
      "short": false,
-     "views": 4954
+     "views": 4971
     },
     {
      "v": "Sl8HaNqG5PU",
