@@ -1,54 +1,64 @@
 {
-  "date": "2026-11-20",
-  "updated": "2026-11-20T05:20:00+00:00",
-  "id": "reverse-centaurs-guide-to-life-after-ai-cory-doctorow",
-  "t": "The Reverse Centaur's Guide to Life After AI",
-  "tz": "《反向半人馬：AI 之後生活指南》",
+  "date": "2026-11-21",
+  "updated": "2026-11-21T05:09:56+00:00",
+  "id": "stations-louise-kennedy",
+  "t": "Stations",
+  "tz": "停靠站",
   "tz_note": "暫譯",
-  "a": "Cory Doctorow",
-  "published": "23 Jun 2026",
-  "publisher": "Verso Books (UK); MCD / Farrar, Straus and Giroux (US)",
-  "pages": 240,
+  "a": "Louise Kennedy",
+  "published": "24 Sep 2026 (UK); 3 Nov 2026 (US)",
+  "publisher": "Bloomsbury (UK); Riverhead (US)",
+  "pages": 288,
   "isbn": [
-    "9781836745525",
-    "9780374621568"
+    "9781526664327",
+    "9780593714607"
   ],
-  "cover_url": "https://mrbsemporium.com/wp-content/uploads/2026/05/9781836745525.jpg",
-  "tag": "AI",
-  "en": "A \"centaur\" is a person whom technology makes stronger. A \"reverse centaur\" is the opposite: a delivery driver, warehouse worker or coder forced by software to work at a machine's pace. Cory Doctorow, author of Enshittification, uses this idea to ask who AI is really for. He argues that much of the AI boom is hype fuelled by investors who need endless growth, that chatbots are useful but cannot do many of the jobs bosses hope to replace, and that the bubble could hurt the wider economy. He is not anti-AI and uses it himself. A short, punchy read for anyone who wants a clear-eyed view of AI at work.",
-  "zh": "「半人馬」係指借科技令自己更強嘅人；「反向半人馬」就啱啱相反：送貨司機、倉務員、程式員，被軟件逼住用機器嘅速度做嘢。寫過《Enshittification》嘅 Cory Doctorow 用呢個比喻問一個問題：人工智能究竟係為邊個服務？佢認為好多 AI 熱潮只係投資者為咗追求無限增長而炒作出嚟；聊天機械人有用，但做唔到老闆想取代嘅好多工作；而呢個泡沫大到可能拖累成個經濟。佢唔係反對 AI，自己都有用。篇幅短、講得爽快，啱想冷靜睇清 AI 點樣影響工作嘅讀者。",
+  "cover_url": "https://mrbsemporium.com/wp-content/uploads/2026/06/9781526664327.jpg",
+  "tag": "小說",
+  "en": "The second novel from the Irish author of Trespasses. In 1982 teenage Róisín McCaffery, whose family has moved south from Belfast to the edge of Dublin, becomes close to Red Camelin. Red leaves for London, and Róisín later follows him into a squat in Pimlico, among the Irish community of Thatcher-era London. The story then jumps ahead decades, when the death of her father sends Róisín looking for Red again. Spanning about 25 years, it is a story of first love, friendship, family and class, and of the choices that quietly fix the shape of a life. For readers who like Sally Rooney, Claire Keegan or Maggie O'Farrell.",
+  "zh": "《Trespasses》愛爾蘭女作家嘅第二本小說。1982年，少女Róisín一家由北愛搬到都柏林郊區，佢同少年Red成為好朋友。後來Red去咗倫敦，佢都跟住過去，住入Pimlico一間空置屋，喺戴卓爾年代嘅愛爾蘭人圈子度生活。故事再跳到幾十年後，父親過身，令佢再去搵Red。全書橫跨約25年，講初戀、友情、家庭同階級，同埋細小決定點樣改變一生。",
   "reviews": [
     {
-      "src": "City AM",
-      "d": "Persuasive and reassuring on AI hype, but the confident tone grates; too early to call, as railways and dotcom survived their bubbles.",
-      "dz": "講AI炒作有說服力，但語氣太篤定；鐵路同科網都捱過泡沫。",
-      "url": "https://www.cityam.com/book-review-the-reverse-centaurs-guide-to-life-after-ai-by-cory-doctorow/"
+      "src": "The Boston Globe",
+      "d": "Cory Oldweiler calls it a rapturous, bittersweet love story that deserves a far wider readership.",
+      "dz": "評論人話佢係一個令人陶醉又苦甜參半嘅愛情故事，值得更多人讀。",
+      "url": "https://www.bostonglobe.com/2026/10/28/arts/louise-kennedy-stations-novel/"
     },
     {
-      "src": "Quillette",
-      "d": "A \"wonderful\" book: shows LLMs are useful but not truly intelligent, and that their gains go to a narrow group of insiders.",
-      "dz": "好書：講清大型語言模型有用但唔算真正有智能，好處只落入少數人手。",
-      "url": "https://quillette.com/2026/07/18/the-modern-mythology-of-ai-cory-doctorow-review/"
+      "src": "Bookreporter",
+      "d": "Norah Piehl praises its vivid Irish community in 1980s London and a heroine finding her way, with no easy answers.",
+      "dz": "讚佢寫活咗八十年代倫敦嘅愛爾蘭人圈子，冇俾簡單答案。",
+      "url": "https://www.bookreporter.com/reviews/stations"
+    },
+    {
+      "src": "Chapters Bookstore (Dublin)",
+      "d": "A bookseller found it heartbreaking at times but deeply satisfying: a novel about escape, memory and the homes we make.",
+      "dz": "書店店員話有時令人心碎，但好滿足：講逃離、記憶同自己建立嘅家。",
+      "url": "https://chaptersbookstore.com/blogs/news/louise-kennedy-s-stations-the-book-that-made-me-forget-my-phone-my-grief-and-the-room-i-was-in"
     }
   ],
-  "ken": "Ask of any AI tool: does it make the worker a centaur, or turn them into a reverse centaur?",
-  "kzh": "用任何 AI 工具前問一句：佢令工人變成半人馬，定係反向半人馬？",
+  "ken": "Small choices made at seventeen can quietly decide the shape of a whole life.",
+  "kzh": "十七歲時一個細小嘅決定，可以靜靜咁決定成世嘅樣。",
   "sources": [
     {
-      "title": "City AM review (Simon Hunt)",
-      "url": "https://www.cityam.com/book-review-the-reverse-centaurs-guide-to-life-after-ai-by-cory-doctorow/"
+      "title": "Boston Globe review",
+      "url": "https://www.bostonglobe.com/2026/10/28/arts/louise-kennedy-stations-novel/"
     },
     {
-      "title": "Quillette review (Peter L. Levin)",
-      "url": "https://quillette.com/2026/07/18/the-modern-mythology-of-ai-cory-doctorow-review/"
+      "title": "Bookreporter review",
+      "url": "https://www.bookreporter.com/reviews/stations"
+    },
+    {
+      "title": "Chapters Bookstore blog",
+      "url": "https://chaptersbookstore.com/blogs/news/louise-kennedy-s-stations-the-book-that-made-me-forget-my-phone-my-grief-and-the-room-i-was-in"
+    },
+    {
+      "title": "Penguin Random House (US edition)",
+      "url": "https://www.penguinrandomhouse.com/books/735417/stations-by-louise-kennedy/9780593714607/"
     },
     {
       "title": "Mr B's Emporium (UK edition)",
-      "url": "https://mrbsemporium.com/shop/books/the-reverse-centaurs-guide-to-life-after-ai/"
-    },
-    {
-      "title": "Porchlight Books (US edition)",
-      "url": "https://www.porchlightbooks.com/products/reverse-centaurs-guide-to-life-after-ai-cory-doctorow-9780374621568"
+      "url": "https://mrbsemporium.com/shop/books/stations/"
     }
   ]
 }
