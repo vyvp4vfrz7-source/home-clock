@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-21T06:00+00:00",
+ "updated": "2026-11-21T18:00+00:00",
  "en": {
-  "greeting": "Good morning — Saturday 21 November",
+  "greeting": "Good evening — Saturday 21 November",
   "sections": [
    {
     "h": "Top stories",
     "items": [
      {
-      "t": "Trump, Xi and Putin say nuclear war cannot be won",
-      "d": "After a rare three-way meeting, the leaders pledged talks to cut nuclear risk, though Putin admitted the joint statement sets no ambitious goals.",
-      "u": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+      "t": "Russian missile lands in Poland during allied drills",
+      "d": "Tusk called it a Moscow 'provocation'. No one was hurt, but it came as Ukraine's allies held a military exercise, raising NATO tensions again.",
+      "u": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro"
      },
      {
-      "t": "UK and EU seal post-Brexit reset deal",
-      "d": "A Brussels summit agreed youth mobility, a food and plant trade deal and linked carbon markets. Burnham says it could add 0.5% to the economy; the EU wants lower tuition fees for its students.",
-      "u": "https://www.aljazeera.com/news/2026/11/20/eu-and-uk-seal-reset-deal"
+      "t": "Zelensky defends Crimean Bridge strikes in UK talks",
+      "d": "Meeting Britain's Wes Streeting, Zelensky called the strikes a 'fair response' to 109 Russian air attacks on Ukrainian bridges, after Russia hit Kyiv crossings.",
+      "u": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo"
      },
      {
-      "t": "Russian strikes kill eight in Kyiv; objects cross into Poland",
-      "d": "Overnight attacks also killed two in Lviv and injured 28 across nine regions, while Poland investigates objects reported as missiles and a drone near its border.",
-      "u": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o"
+      "t": "Denmark accuses Russia of plot to kill rapper",
+      "d": "Copenhagen expelled Russia's defence attaché over an alleged plan to assassinate a US-Ukrainian rapper. Russia's embassy denies it.",
+      "u": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno"
      }
     ]
    },
@@ -27,19 +27,24 @@
     "h": "World & politics",
     "items": [
      {
-      "t": "World Court rules Myanmar committed genocide against Rohingya",
-      "d": "The ICJ ruled 9-6 against Myanmar, which rejected the verdict. The UK expelled Myanmar's defence attaché in response.",
-      "u": "https://apnews.com/article/bangladesh-rohingya-myanmar-un-world-court-ruling-c76dcb3f97c1077262f87e0cba01bb78"
+      "t": "ANC fights to hold South Africa's big cities",
+      "d": "After a local election setback, the ANC seems reluctant to repeat its national power-sharing deal with the pro-business DA in city councils.",
+      "u": "https://www.bbc.co.uk/news/articles/cqpv94d10rwpo"
      },
      {
-      "t": "Senate Republicans block Iran war-powers vote",
-      "d": "The resolution failed 51-48 as Trump said he will not decide his next step on Iran until the new year.",
-      "u": "https://www.nytimes.com/2026/11/19/us/politics/senate-iran-war-powers-trump.html"
+      "t": "Mexican cartel boss on FBI most-wanted list caught",
+      "d": "Fausto Isidro Meza Flores, accused of drug trafficking and torture, was arrested after a gunfight, a major win for US-Mexico cooperation.",
+      "u": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o"
      },
      {
-      "t": "Estonia to shut Russian border for six months",
-      "d": "Moscow accused Tallinn of building a new 'iron curtain' and warned of political and diplomatic retaliation.",
-      "u": "https://www.reuters.com/world/europe/russia-accuses-estonia-erecting-new-iron-curtain-with-border-closure-says-it-2026-11-20/"
+      "t": "Nepal's new PM tests ties on first India visit",
+      "d": "Balendra Shah's talks in Delhi focus on trade, connectivity and regional cooperation, a key test of Nepal's balance between India and China.",
+      "u": "https://www.bbc.co.uk/news/articles/c6jre8xd83qgo"
+     },
+     {
+      "t": "Cost-of-living protests sweep Europe",
+      "d": "Thousands marched in cities across Europe on Friday over living costs and other grievances, a sign of pressure on governments.",
+      "u": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o"
      }
     ]
    },
@@ -47,19 +52,19 @@
     "h": "Business & economy",
     "items": [
      {
-      "t": "Anthropic's record IPO fails to calm AI jitters",
-      "d": "The listing raised about $81bn and valued Anthropic near $1.5 trillion, but tech shares slid and the Nasdaq erased its gains for the year.",
-      "u": "https://www.semafor.com/article/11/19/2026/anthropic-makes-record-market-debut"
+      "t": "Tech sell-off pushes S&P 500 and Dow into correction",
+      "d": "Anthropic shares slid after its debut and tech stocks fell, dragging both indexes more than 10% below their peaks.",
+      "u": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo"
      },
      {
-      "t": "California subpoenas Nvidia over chips reaching China",
-      "d": "State attorney general Rob Bonta is probing whether Nvidia chips were diverted to China, adding pressure on the AI chip leader.",
-      "u": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html"
+      "t": "Bayer's $7.25bn Roundup settlement approved",
+      "d": "A US judge approved the deal covering people with non-Hodgkin lymphoma linked to the weedkiller, including future cases, easing a huge legal risk for Bayer.",
+      "u": "https://www.bbc.co.uk/news/articles/cwvg21gyl650o"
      },
      {
-      "t": "US sells first deep-sea mining lease off American Samoa",
-      "d": "Wetstone U.S. Ventures paid $6m for 31.5 million acres of seabed, a first that alarms environmental groups.",
-      "u": "https://www.nytimes.com/2026/11/19/climate/metals-company-seafloor-mining-auction.html"
+      "t": "US group beats China to $60bn Kenya minerals deal",
+      "d": "A US consortium won rights to Mrima Hill's critical minerals, part of Washington's push to cut reliance on Chinese supply chains.",
+      "u": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o"
      }
     ]
    },
@@ -67,34 +72,29 @@
     "h": "Technology",
     "items": [
      {
-      "t": "Apple reportedly building an AI agent to run your Mac",
-      "d": "The early-stage agent could operate apps, browse the web and write code, Apple's answer to rivals' computer-use AI.",
-      "u": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
+      "t": "Trump threatens ban on US AI data centres abroad",
+      "d": "Trump floated stopping US firms building AI data centres overseas but gave few details, adding uncertainty for big tech's global expansion plans.",
+      "u": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko"
      },
      {
-      "t": "Google's Gemini can now use your Mac for you",
-      "d": "Gemini for Mac can sort files, fill in forms and drive apps, first for US paying subscribers in English.",
-      "u": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
+      "t": "Anthropic mathematician claims AI-aided Riemann proof",
+      "d": "He says an AI helped prove maths' most famous unsolved problem. Experts stress the claim needs long, careful verification before anyone celebrates.",
+      "u": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o"
      },
      {
-      "t": "Meta's Muse AI agent reportedly leaked private data",
-      "d": "Users reportedly saw strangers' childcare messages, reminders and bank balances, raising fresh privacy worries about AI agents.",
-      "u": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
+      "t": "FBI probes apparent hack of national crime database",
+      "d": "The National Crime Information Center, used by police across the US to share records, may have been breached, a serious security worry.",
+      "u": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o"
      },
      {
-      "t": "AI-assisted cyberattack hits European Commission",
-      "d": "The attack briefly disrupted staff payroll and medical claims systems; investigators linked it to an AI security-testing tool.",
-      "u": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103"
+      "t": "OpenAI reportedly picks Foxconn to build its phone",
+      "d": "The iPhone assembler would make OpenAI's first smartphone, signalling the ChatGPT maker's push into its own hardware.",
+      "u": "https://businesstoday.in/technology/news/story/openais-first-smartphone-chatgpt-maker-reportedly-picks-iphone-supplier-foxconn-for-assembly-568684-2026-11-20"
      },
      {
-      "t": "Google picks Blue Origin to launch AI servers into orbit",
-      "d": "Project Suncatcher satellites, each with data-centre-rack computing power, are due to launch in early 2029.",
-      "u": "https://www.theverge.com/tech/1037535/google-blue-origin-project-suncatcher-2029"
-     },
-     {
-      "t": "ChatGPT Live Dictation rolls out worldwide",
-      "d": "OpenAI's feature turns speech into text as you talk, expanding voice input for all users.",
-      "u": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation"
+      "t": "Smart devices catch 111 exam cheats in South Korea",
+      "d": "New detection measures caught students with banned gadgets during the high-stakes Suneung university entrance exam.",
+      "u": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo"
      }
     ]
    },
@@ -102,19 +102,19 @@
     "h": "Science & health",
     "items": [
      {
-      "t": "Two stars may be feeding the Milky Way's black hole",
-      "d": "Astronomers traced gas clouds near the central black hole to a massive star pair whose colliding winds shed material.",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261119194605.htm"
+      "t": "Study finds why microplastics may be more harmful",
+      "d": "Researchers identified a mechanism suggesting microplastics could pose greater health risks than thought, adding urgency to studies of their effects.",
+      "u": "https://www.sciencedaily.com/releases/2026/11/261120075549.htm"
      },
      {
-      "t": "Compound burns fat without losing muscle, in mice",
-      "d": "UC Berkeley researchers found a compound that makes the body burn more energy rather than suppressing appetite.",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261118073918.htm"
+      "t": "Nigeria moves to stop jailing attempted suicide",
+      "d": "A proposed reform, long urged by psychiatrists, would treat attempted suicide as a health issue rather than a crime.",
+      "u": "https://www.bbc.co.uk/news/articles/cm3rgnvxj339o"
      },
      {
-      "t": "Fungal toxins found in all 212 plant-based foods tested",
-      "d": "Researchers tested vegan and vegetarian products and found mycotoxins in every one, though levels varied.",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261118073749.htm"
+      "t": "Next halts baby sleeping bag after safety alarm",
+      "d": "A mother found the neck hole was too big, letting a baby slip down inside; the retailer stopped sales.",
+      "u": "https://www.bbc.co.uk/news/articles/cw9874p114dro"
      }
     ]
    },
@@ -122,44 +122,44 @@
     "h": "UK",
     "items": [
      {
-      "t": "EU says reset hinges on lower tuition fees for its students",
-      "d": "Brussels says the deal will not take effect unless the UK cuts fees or agrees an alternative within six months; Farage called Burnham 'naive'.",
-      "u": "https://www.bbc.co.uk/news/articles/c623j4kpg94go"
+      "t": "Miliband: EU deal not tied to tuition fees",
+      "d": "He said the reset deal does not depend on cutting fees for EU students, after Brussels suggested it might.",
+      "u": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o"
      },
      {
-      "t": "UK expels Myanmar's defence attaché after genocide ruling",
-      "d": "London acted after the World Court found Myanmar responsible for genocide against the Rohingya.",
-      "u": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo"
+      "t": "England thrash New Zealand by record margin",
+      "d": "England's rugby revival gathered pace with their biggest ever win over the All Blacks in the Nations Championship.",
+      "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo"
      },
      {
-      "t": "Two men to face trial over alleged Iran-linked RAF Fairford plot",
-      "d": "Prosecutors say the September incident was directed from Iran; the trial is set for November 2027.",
-      "u": "https://www.reuters.com/world/uk/two-men-stand-trial-uk-next-year-over-raf-fairford-incident-allegedly-linked-2026-11-20/"
+      "t": "Man charged after Bradford councillor stabbed",
+      "d": "Arfan Ali is charged with attempted murder over Thursday's attack on councillor Ibrar Ali.",
+      "u": "https://www.bbc.co.uk/news/articles/cmkgv2nlpy8ko"
      }
     ]
    }
   ]
  },
  "zh": {
-  "greeting": "早晨 — 11月21日星期六",
+  "greeting": "晚安 — 11月21日星期六",
   "sections": [
    {
     "h": "頭條新聞",
     "items": [
      {
-      "t": "特朗普、習近平、普京聲明核戰無贏家",
-      "d": "三方罕有會面後，三國領袖承諾就降低核風險展開對話，但普京承認聯合聲明未有訂下宏大目標。",
-      "u": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+      "t": "俄羅斯導彈落入波蘭 時值盟國軍演",
+      "d": "波蘭總理圖斯克指事件是莫斯科「挑釁」。事件無人受傷，但發生於烏克蘭盟友舉行軍演期間，令北約局勢再度緊張。",
+      "u": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro"
      },
      {
-      "t": "英國與歐盟敲定脫歐後關係重啟協議",
-      "d": "布魯塞爾峰會同意青年流動計劃、動植物產品貿易協議及連接碳排放市場。賓咸稱可令經濟增長0.5%；歐盟則要求英國調低歐盟學生學費。",
-      "u": "https://www.aljazeera.com/news/2026/11/20/eu-and-uk-seal-reset-deal"
+      "t": "澤連斯基晤英方 為襲擊克里米亞大橋辯護",
+      "d": "澤連斯基與英國的斯特里廷會面，稱襲擊大橋是對俄方109次空襲烏克蘭橋樑的「合理回應」；俄軍早前轟炸基輔多條過河通道。",
+      "u": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo"
      },
      {
-      "t": "俄軍空襲基輔八死　不明物體闖波蘭領空",
-      "d": "俄軍夜間空襲亦令利沃夫兩人死亡，九個地區共28人受傷；波蘭正調查邊境附近疑為導彈及無人機的不明物體。",
-      "u": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o"
+      "t": "丹麥指俄羅斯密謀暗殺饒舌歌手",
+      "d": "丹麥驅逐俄羅斯國防武官，指俄方策劃暗殺一名美籍烏克蘭裔饒舌歌手。俄羅斯大使館否認指控。",
+      "u": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno"
      }
     ]
    },
@@ -167,19 +167,24 @@
     "h": "國際及政治",
     "items": [
      {
-      "t": "國際法院裁定緬甸對羅興亞人犯種族滅絕罪",
-      "d": "國際法院以9比6裁定緬甸罪成，緬甸拒絕接受。英國隨即驅逐緬甸駐英國防武官。",
-      "u": "https://apnews.com/article/bangladesh-rohingya-myanmar-un-world-court-ruling-c76dcb3f97c1077262f87e0cba01bb78"
+      "t": "非國大力保南非大城市控制權",
+      "d": "地方選舉失利後，非洲人國民大會似乎不願在市議會複製與親商界民主聯盟的全國分權安排。",
+      "u": "https://www.bbc.co.uk/news/articles/cqpv94d10rwpo"
      },
      {
-      "t": "美國參議院共和黨人否決伊朗戰爭權力決議",
-      "d": "決議以51比48被否決；特朗普表示要到新年才決定對伊朗的下一步行動。",
-      "u": "https://www.nytimes.com/2026/11/19/us/politics/senate-iran-war-powers-trump.html"
+      "t": "FBI十大通緝墨西哥毒梟槍戰後落網",
+      "d": "被控販毒及施酷刑的梅薩·弗洛雷斯經駁火後被捕，是美墨合作打擊毒品的重大成果。",
+      "u": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o"
      },
      {
-      "t": "愛沙尼亞將關閉對俄邊境至少半年",
-      "d": "莫斯科指責愛沙尼亞築起新「鐵幕」，並警告會採取政治及外交報復。",
-      "u": "https://www.reuters.com/world/europe/russia-accuses-estonia-erecting-new-iron-curtain-with-border-closure-says-it-2026-11-20/"
+      "t": "尼泊爾新總理首訪印度 考驗兩國關係",
+      "d": "巴倫德拉·沙阿在新德里的會談以貿易、互聯互通及區域合作為重點，考驗尼泊爾在印度與中國之間的平衡。",
+      "u": "https://www.bbc.co.uk/news/articles/c6jre8xd83qgo"
+     },
+     {
+      "t": "歐洲多地爆發生活成本抗議",
+      "d": "周五歐洲多個城市有數以千計民眾遊行，抗議生活成本高昂等問題，反映各國政府承受壓力。",
+      "u": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o"
      }
     ]
    },
@@ -187,19 +192,19 @@
     "h": "商業及經濟",
     "items": [
      {
-      "t": "Anthropic破紀錄上市　未能平息AI憂慮",
-      "d": "是次上市集資約810億美元，估值近1.5萬億美元，但科技股下挫，納斯達克指數今年升幅全數蒸發。",
-      "u": "https://www.semafor.com/article/11/19/2026/anthropic-makes-record-market-debut"
+      "t": "科技股拋售 標普500及道指陷調整市",
+      "d": "Anthropic上市後股價下滑，科技股普遍下跌，拖累兩大指數較高位回落超過一成。",
+      "u": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo"
      },
      {
-      "t": "加州向Nvidia發傳票　調查晶片流入中國",
-      "d": "加州總檢察長邦塔調查Nvidia晶片是否被轉運至中國，令這家AI晶片龍頭再添壓力。",
-      "u": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html"
+      "t": "拜耳72.5億美元除草劑和解獲批",
+      "d": "美國法官批准和解方案，賠償因使用Roundup除草劑而患非霍奇金淋巴瘤的人士，包括日後患病者，減輕拜耳的巨大法律風險。",
+      "u": "https://www.bbc.co.uk/news/articles/cwvg21gyl650o"
      },
      {
-      "t": "美國首次出售美屬薩摩亞外海深海採礦權",
-      "d": "Wetstone U.S. Ventures以600萬美元取得3150萬英畝海床採礦權，屬首例，令環保團體憂慮。",
-      "u": "https://www.nytimes.com/2026/11/19/climate/metals-company-seafloor-mining-auction.html"
+      "t": "美國財團擊敗中國對手 奪肯尼亞600億美元礦權",
+      "d": "美國財團取得姆里馬山關鍵礦產開採權，是華府減少依賴中國供應鏈的部署之一。",
+      "u": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o"
      }
     ]
    },
@@ -207,34 +212,29 @@
     "h": "科技",
     "items": [
      {
-      "t": "傳Apple研發可操控Mac的AI代理",
-      "d": "這個仍在早期階段的代理可操作程式、瀏覽網頁及編寫程式碼，是Apple對抗對手「操控電腦」AI的回應。",
-      "u": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
+      "t": "特朗普揚言禁美企在海外建AI數據中心",
+      "d": "特朗普提出或禁止美國企業在海外興建AI數據中心，但未有交代細節，令大型科技公司的全球擴張計劃添變數。",
+      "u": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko"
      },
      {
-      "t": "Google Gemini可代用戶操作Mac",
-      "d": "Mac版Gemini可整理檔案、填寫表格及操作程式，首先開放予美國付費英文用戶。",
-      "u": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
+      "t": "Anthropic數學家稱借助AI證明黎曼猜想",
+      "d": "他表示AI協助證明了數學界最著名的未解難題。專家強調，聲稱須經長時間嚴謹驗證。",
+      "u": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o"
      },
      {
-      "t": "傳Meta AI代理Muse外洩私隱資料",
-      "d": "據報用戶看到陌生人的托兒訊息、提醒事項及銀行結餘，再引起外界對AI代理私隱的憂慮。",
-      "u": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
+      "t": "FBI調查全國罪案資料庫疑遭入侵",
+      "d": "全美警方用以共享紀錄的國家犯罪資訊中心資料庫疑被入侵，引起嚴重保安疑慮。",
+      "u": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o"
      },
      {
-      "t": "歐盟委員會遭AI輔助網絡攻擊",
-      "d": "攻擊一度影響職員薪酬及醫療報銷系統；調查人員指與一款AI保安測試工具有關。",
-      "u": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103"
+      "t": "報道指OpenAI選富士康組裝手機",
+      "d": "這家iPhone組裝商將生產OpenAI首部智能手機，顯示ChatGPT開發商積極進軍自家硬件。",
+      "u": "https://businesstoday.in/technology/news/story/openais-first-smartphone-chatgpt-maker-reportedly-picks-iphone-supplier-foxconn-for-assembly-568684-2026-11-20"
      },
      {
-      "t": "Google選Blue Origin發射太空AI伺服器",
-      "d": "Suncatcher計劃的衛星每枚具備一個數據中心機架的運算能力，預計2029年初發射。",
-      "u": "https://www.theverge.com/tech/1037535/google-blue-origin-project-suncatcher-2029"
-     },
-     {
-      "t": "ChatGPT即時聽寫功能全球推出",
-      "d": "OpenAI新功能可一邊說話一邊轉成文字，令所有用戶都能更方便以語音輸入。",
-      "u": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation"
+      "t": "南韓新措施揪出111名考試作弊考生",
+      "d": "在高風險的大學入學試修能考試中，新偵測措施發現考生攜帶違禁智能裝置。",
+      "u": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo"
      }
     ]
    },
@@ -242,19 +242,19 @@
     "h": "科學及健康",
     "items": [
      {
-      "t": "兩顆恆星或為銀河系黑洞提供「食糧」",
-      "d": "天文學家追蹤到中央黑洞附近的氣體雲，來自一對大質量恆星互相碰撞的星風。",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261119194605.htm"
+      "t": "研究揭微塑膠或比想像中更有害",
+      "d": "研究人員發現一種機制，顯示微塑膠對健康的風險可能高於預期，令相關研究更顯迫切。",
+      "u": "https://www.sciencedaily.com/releases/2026/11/261120075549.htm"
      },
      {
-      "t": "新化合物助燃脂而不減肌肉（小鼠實驗）",
-      "d": "加州大學柏克萊分校研究人員發現一種化合物，令身體消耗更多能量，而非抑制食慾。",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261118073918.htm"
+      "t": "尼日利亞擬取消企圖自殺入獄刑罰",
+      "d": "精神科醫生多年來爭取的改革建議，將企圖自殺視為健康問題而非罪行。",
+      "u": "https://www.bbc.co.uk/news/articles/cm3rgnvxj339o"
      },
      {
-      "t": "測試212款素食產品　全部含真菌毒素",
-      "d": "研究人員測試全素及素食產品，發現每一款都含真菌毒素，惟含量各有不同。",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261118073749.htm"
+      "t": "Next停售嬰兒睡袋 母親揭安全隱患",
+      "d": "一名母親發現睡袋頸口過大，嬰兒可滑入袋內，零售商已停售。",
+      "u": "https://www.bbc.co.uk/news/articles/cw9874p114dro"
      }
     ]
    },
@@ -262,19 +262,19 @@
     "h": "英國",
     "items": [
      {
-      "t": "歐盟稱重啟協議取決於調低歐盟學生學費",
-      "d": "歐盟表示，除非英國調低學費或在六個月內同意替代方案，否則協議不會生效；法拉奇批評賓咸「天真」。",
-      "u": "https://www.bbc.co.uk/news/articles/c623j4kpg94go"
+      "t": "文禮彬：英歐協議不取決於學費",
+      "d": "他表示英歐重啟協議並不取決於調低歐盟學生學費，此前布魯塞爾曾暗示可能掛鈎。",
+      "u": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o"
      },
      {
-      "t": "英國因種族滅絕裁決驅逐緬甸國防武官",
-      "d": "國際法院裁定緬甸須為對羅興亞人的種族滅絕負責後，英國採取行動。",
-      "u": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo"
+      "t": "英格蘭破紀錄大勝新西蘭",
+      "d": "英格蘭欖球隊在國家錦標賽以史上最大比數擊敗全黑隊，復興勢頭加快。",
+      "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo"
      },
      {
-      "t": "兩男涉伊朗指使費爾福德空軍基地事件受審",
-      "d": "檢方指九月的事件由伊朗指使；案件定於2027年11月開審。",
-      "u": "https://www.reuters.com/world/uk/two-men-stand-trial-uk-next-year-over-raf-fairford-incident-allegedly-linked-2026-11-20/"
+      "t": "布拉德福德市議員遇襲 男子被控謀殺未遂",
+      "d": "阿凡·阿里被控於周四襲擊市議員易卜拉·阿里，涉嫌謀殺未遂。",
+      "u": "https://www.bbc.co.uk/news/articles/cmkgv2nlpy8ko"
      }
     ]
    }
@@ -282,88 +282,16 @@
  },
  "sources": [
   {
-   "title": "Trump, Xi and Putin say nuclear war cannot be won",
-   "url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/"
+   "title": "BBC News",
+   "url": "https://www.bbc.co.uk/news"
   },
   {
-   "title": "UK and EU seal post-Brexit reset deal",
-   "url": "https://www.aljazeera.com/news/2026/11/20/eu-and-uk-seal-reset-deal"
+   "title": "Business Today",
+   "url": "https://businesstoday.in/technology/news/story/openais-first-smartphone-chatgpt-maker-reportedly-picks-iphone-supplier-foxconn-for-assembly-568684-2026-11-20"
   },
   {
-   "title": "Russian strikes kill eight in Kyiv; objects cross into Poland",
-   "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o"
-  },
-  {
-   "title": "World Court rules Myanmar committed genocide against Rohingya",
-   "url": "https://apnews.com/article/bangladesh-rohingya-myanmar-un-world-court-ruling-c76dcb3f97c1077262f87e0cba01bb78"
-  },
-  {
-   "title": "Senate Republicans block Iran war-powers vote",
-   "url": "https://www.nytimes.com/2026/11/19/us/politics/senate-iran-war-powers-trump.html"
-  },
-  {
-   "title": "Estonia to shut Russian border for six months",
-   "url": "https://www.reuters.com/world/europe/russia-accuses-estonia-erecting-new-iron-curtain-with-border-closure-says-it-2026-11-20/"
-  },
-  {
-   "title": "Anthropic's record IPO fails to calm AI jitters",
-   "url": "https://www.semafor.com/article/11/19/2026/anthropic-makes-record-market-debut"
-  },
-  {
-   "title": "California subpoenas Nvidia over chips reaching China",
-   "url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html"
-  },
-  {
-   "title": "US sells first deep-sea mining lease off American Samoa",
-   "url": "https://www.nytimes.com/2026/11/19/climate/metals-company-seafloor-mining-auction.html"
-  },
-  {
-   "title": "Apple reportedly building an AI agent to run your Mac",
-   "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
-  },
-  {
-   "title": "Google's Gemini can now use your Mac for you",
-   "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
-  },
-  {
-   "title": "Meta's Muse AI agent reportedly leaked private data",
-   "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
-  },
-  {
-   "title": "AI-assisted cyberattack hits European Commission",
-   "url": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103"
-  },
-  {
-   "title": "Google picks Blue Origin to launch AI servers into orbit",
-   "url": "https://www.theverge.com/tech/1037535/google-blue-origin-project-suncatcher-2029"
-  },
-  {
-   "title": "ChatGPT Live Dictation rolls out worldwide",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation"
-  },
-  {
-   "title": "Two stars may be feeding the Milky Way's black hole",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261119194605.htm"
-  },
-  {
-   "title": "Compound burns fat without losing muscle, in mice",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261118073918.htm"
-  },
-  {
-   "title": "Fungal toxins found in all 212 plant-based foods tested",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261118073749.htm"
-  },
-  {
-   "title": "EU says reset hinges on lower tuition fees for its students",
-   "url": "https://www.bbc.co.uk/news/articles/c623j4kpg94go"
-  },
-  {
-   "title": "UK expels Myanmar's defence attaché after genocide ruling",
-   "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo"
-  },
-  {
-   "title": "Two men to face trial over alleged Iran-linked RAF Fairford plot",
-   "url": "https://www.reuters.com/world/uk/two-men-stand-trial-uk-next-year-over-raf-fairford-incident-allegedly-linked-2026-11-20/"
+   "title": "ScienceDaily",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261120075549.htm"
   }
  ]
 }
