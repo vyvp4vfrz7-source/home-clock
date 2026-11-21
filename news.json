@@ -1,6 +1,43 @@
 {
- "updated": "2026-11-21T11:34+00:00",
+ "updated": "2026-11-21T12:37+00:00",
  "items": [
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "【重溫】2026年11月21日新聞天地",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878719-20261121.htm",
+   "d": "詳盡報道本地時事、大中華消息、國際局勢等新聞，緊貼最新熱話。",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878719_1_M_20261121192601.jpg",
+   "at": "2026-11-21T11:26+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "中俄美三方峰會「場面大於實質成果」",
+   "u": "https://www.bbc.com/zhongwen/articles/cm5y120z0pw0o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "BBC駐北美記者澤克爾：這次高峰唯一讓人留下的持久印象，或許只是歷史性的三方會晤的畫面。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/e1f4/live/f36e5af0-e448-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-20T05:46+00:00"
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "俄羅斯貨船於芬蘭灣遭無人機攻擊 芬蘭稱貨船遇襲後進入領海",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878721-20261121.htm",
+   "d": "俄羅斯列寧格勒州州長德羅茲登科表示，一艘前往加里寧格勒的貨船，在芬蘭灣的公海遭到兩架無人機攻擊，船員正在撤離，受損程度亦正在評估中。 芬蘭國防部表示，軍方當地星期六上午偵測到一次針對俄羅斯貨船的無人機攻擊事件，地點位於波羅的海東部。芬蘭邊防衛隊指出，遇襲船隻起火，並從國際水域進入芬蘭領海，對其他海上交通未構成危險，當局正與境內及國際其他相關單位合作，準備可能採取的救援行動。 加里寧格勒州州長別斯普羅茲萬內赫表示，事件不會對當地物資供應造…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878721_1_M_20261121195719.jpg",
+   "at": "2026-11-21T11:57+00:00",
+   "where": [
+    55.75,
+    37.6,
+    "俄羅斯"
+   ]
+  },
   {
    "src": "香港",
    "lang": "zh",
@@ -18,11 +55,16 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "中俄美三方峰會「場面大於實質成果」",
-   "u": "https://www.bbc.com/zhongwen/articles/cm5y120z0pw0o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "BBC駐北美記者澤克爾：這次高峰唯一讓人留下的持久印象，或許只是歷史性的三方會晤的畫面。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/e1f4/live/f36e5af0-e448-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-20T05:46+00:00"
+   "t": "緬甸種族滅絕裁決影響深遠的歷史意義",
+   "u": "https://www.bbc.com/zhongwen/articles/c5n4eylmmg8po/trad?at_medium=RSS&at_campaign=rss",
+   "d": "BBC國際編輯寫道，律師將研究岡比亞如何證明緬甸意圖實施種族滅絕。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/d6fc/live/482060d0-e489-11f1-844f-c7a24d31dcc3.jpg",
+   "at": "2026-11-20T08:53+00:00",
+   "where": [
+    21.9,
+    95.96,
+    "緬甸"
+   ]
   },
   {
    "src": "世界",
@@ -55,15 +97,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "緬甸種族滅絕裁決影響深遠的歷史意義",
-   "u": "https://www.bbc.com/zhongwen/articles/c5n4eylmmg8po/trad?at_medium=RSS&at_campaign=rss",
-   "d": "BBC國際編輯寫道，律師將研究岡比亞如何證明緬甸意圖實施種族滅絕。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/d6fc/live/482060d0-e489-11f1-844f-c7a24d31dcc3.jpg",
-   "at": "2026-11-20T08:53+00:00",
+   "t": "從倉頡換成漢語拼音：電腦輸入法會影響下一代學習中文嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/cxq6e216p7ylo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "香港教育局提出小學二年級學生應該初步掌握以「漢語拼音輸入法」在電腦上輸入中文。打字方式的改變，會如何影響下一代學習語言？",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7c0d/live/e9fc49e0-e4a8-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-20T06:12+00:00",
    "where": [
-    21.9,
-    95.96,
-    "緬甸"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
@@ -97,15 +139,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "從倉頡換成漢語拼音：電腦輸入法會影響下一代學習中文嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/cxq6e216p7ylo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "香港教育局提出小學二年級學生應該初步掌握以「漢語拼音輸入法」在電腦上輸入中文。打字方式的改變，會如何影響下一代學習語言？",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7c0d/live/e9fc49e0-e4a8-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-20T06:12+00:00",
+   "t": "英國女子遭丈夫下藥，13年間被陌生男子輪流性侵",
+   "u": "https://www.bbc.com/zhongwen/articles/cx8dv4e080ldo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "四名男子性侵一名被其丈夫下藥的女子，被裁定性侵罪成。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/dae1/live/2fc34f30-e433-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-20T09:24+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    52.5,
+    -1.5,
+    "英國"
    ]
   },
   {
@@ -139,15 +181,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "英國女子遭丈夫下藥，13年間被陌生男子輪流性侵",
-   "u": "https://www.bbc.com/zhongwen/articles/cx8dv4e080ldo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "四名男子性侵一名被其丈夫下藥的女子，被裁定性侵罪成。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/dae1/live/2fc34f30-e433-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-20T09:24+00:00",
+   "t": "Anthropic 破紀錄IPO能否阻止AI泡沫破裂？",
+   "u": "https://www.bbc.com/zhongwen/articles/cw7v2zlle4v4o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "備受矚目的Anthropic上市案，預料將讓其晉身美國十大最具價值企業之列，但AI產業前景依然存在變數。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/dcc1/live/0bb55690-e36d-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-20T07:52+00:00",
    "where": [
-    52.5,
-    -1.5,
-    "英國"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -176,15 +218,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "Anthropic 破紀錄IPO能否阻止AI泡沫破裂？",
-   "u": "https://www.bbc.com/zhongwen/articles/cw7v2zlle4v4o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "備受矚目的Anthropic上市案，預料將讓其晉身美國十大最具價值企業之列，但AI產業前景依然存在變數。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/dcc1/live/0bb55690-e36d-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-20T07:52+00:00",
+   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-17T16:25+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -207,49 +249,7 @@
    "t": "陳振英相信亞投行在港設辦公室 肯定本港國際金融中心地位及優勢",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878707-20261121.htm",
    "d": "國家及香港特區政府與亞投行簽署兩份協議，包括正式確立亞投行在港設立辦事處。金融界立法會議員陳振英歡迎有關簽訂，認為亞投行承諾在港設立辦公室，是對香港國際金融中心地位及「一國兩制」制度優勢的肯定。他相信亞投行會盡快物色辦事處地點，或可於明年正式投入服務，估計上半年啟用機會高。 另外，香港亦將向亞投行「項目準備特別基金」再注資2000萬美元，陳振英認為可用於支援發展中國家的基建項目，不少鄰近國家正大力發展鐵路項目，相信不少資源將用於道路及鐵…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878707_1_M_20261121165216.jpg",
    "at": "2026-11-21T08:31+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-17T16:25+00:00",
-   "where": [
-    23.7,
-    121.0,
-    "台灣"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "印度東北部曼尼普爾邦有人懷疑飲用有問題酒後不適至少11死",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878704-20261121.htm",
-   "d": "印度東北部曼尼普爾邦有人懷疑在飲用有問題的酒後不適，至少11人死亡，超過180人送院。 當地首席部長表示，受害者是在飲酒後出現不適症狀，超過180人被送往兩間醫院接受治療，48小時內有11人死亡。他下令就事件展開調查，強調會追究責任。 外電報道，在印度，因為飲用有問題酒類而導致死亡的事件時有所聞，這類透過非正規渠道販賣的廉價酒類，有時會摻入高度毒性工業化學物質甲醇。 編輯：許敬軒",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878704_1_M_20261121160730.jpg",
-   "at": "2026-11-21T08:07+00:00",
-   "where": [
-    21.0,
-    78.0,
-    "印度"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "海關機場檢獲4隻懷疑受管制瀕危物種活龜 巿值約四千元",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878702-20261121.htm",
-   "d": "海關在機場檢獲4隻懷疑受管制屬瀕危物種的活龜，估計市值共約四千元。 海關人員於一件由美國進口至香港，報稱玩具禮盒的包裹，發現該批懷疑受管制屬瀕危物種的活龜，案件已轉交漁護署跟進。 海關表示，根據《保護瀕危動植物物種條例》，任何人如非按照《條例》規定進出口或管有瀕危物種均屬違法。一經定罪，最高可被判罰款一千萬元及監禁十年，有關物品亦會被充公。 編輯：黃佩珊",
-   "at": "2026-11-21T07:49+00:00",
    "where": [
     22.32,
     114.17,
@@ -273,27 +273,27 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "回應特朗普稱呼普京為朋友 澤連斯基表明普京是殺人兇手",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878700-20261121.htm",
-   "d": "對於美國總統特朗普形容俄羅斯總統普京是朋友，烏克蘭總統澤連斯基表明普京是殺人兇手。 美俄元首日前在深圳會晤時，特朗普稱呼普京為朋友，指兩人多年來一直維持非常好的關係。澤連斯基接受美國傳媒訪問時認為，特朗普如何稱呼普京是對方的自由，但對於烏克蘭而言，普京是敵人和殺人兇手，日日夜夜都殺人，把普京形容為朋友，意味普京感受到的壓力未夠大。 特朗普星期五在白宮總結亞洲之旅時說，俄烏元首都想結束戰爭，自己與兩人都有交情，認為是好事。特朗普未有收回普…",
-   "at": "2026-11-21T07:10+00:00",
+   "t": "印度東北部曼尼普爾邦有人懷疑飲用有問題酒後不適至少11死",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878704-20261121.htm",
+   "d": "印度東北部曼尼普爾邦有人懷疑在飲用有問題的酒後不適，至少11人死亡，超過180人送院。 當地首席部長表示，受害者是在飲酒後出現不適症狀，超過180人被送往兩間醫院接受治療，48小時內有11人死亡。他下令就事件展開調查，強調會追究責任。 外電報道，在印度，因為飲用有問題酒類而導致死亡的事件時有所聞，這類透過非正規渠道販賣的廉價酒類，有時會摻入高度毒性工業化學物質甲醇。 編輯：許敬軒",
+   "at": "2026-11-21T08:07+00:00",
    "where": [
-    49.0,
-    31.4,
-    "烏克蘭"
+    21.0,
+    78.0,
+    "印度"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "香港飛巴布亞新幾內亞客機疑引擎起火 在菲律賓南部安全降落",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878701-20261121.htm",
-   "d": "新幾內亞航空一架由香港前往巴布亞新幾內亞的客機，因為懷疑引擎起火，在菲律賓南部安全降落。 事發在星期五深夜，涉事的波音767-383ER客機，載著137名乘客與9名機組人員從香港起飛，原定前往巴布亞新幾內亞，機師在飛行途中報告，儀表顯示右邊引擎可能起火，隨即執行安全程序，並在午夜過後請求在達沃國際機場降落，機上人員透過緊急逃生滑梯撤離，事件中無人受傷。 菲律賓民航局表示，目前未發現飛機受損，機場一度因為配合客機緊急降落而暫時關閉。 編輯…",
-   "at": "2026-11-21T07:43+00:00",
+   "t": "海關機場檢獲4隻懷疑受管制瀕危物種活龜 巿值約四千元",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878702-20261121.htm",
+   "d": "海關在機場檢獲4隻懷疑受管制屬瀕危物種的活龜，估計市值共約四千元。 海關人員於一件由美國進口至香港，報稱玩具禮盒的包裹，發現該批懷疑受管制屬瀕危物種的活龜，案件已轉交漁護署跟進。 海關表示，根據《保護瀕危動植物物種條例》，任何人如非按照《條例》規定進出口或管有瀕危物種均屬違法。一經定罪，最高可被判罰款一千萬元及監禁十年，有關物品亦會被充公。 編輯：黃佩珊",
+   "at": "2026-11-21T07:49+00:00",
    "where": [
-    12.9,
-    121.8,
-    "菲律賓"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
@@ -313,14 +313,14 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "國家及特區政府與亞投行簽署協議 確立亞投行在港設辦事處",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878697-20261121.htm",
-   "d": "國家及香港特區政府與亞洲基礎設施投資銀行簽署兩份協議，國家財政部部長藍佛安、亞投行副行長鄒加怡、中央政府駐港聯絡辦副主任張勇，出席協議簽署儀式。 財政司司長陳茂波表示，剛簽署的協議包括正式確立亞投行在香港設立辦事處，充分展現亞投行對香港作為國際金融中心的堅定信心，香港亦能夠直接在多方面為亞投行工作作出貢獻。 他強調，香港資產管理規模逾5萬億美元，融資渠道完善，可提供相關專業知識，認為香港金融市場能夠為各方提供進入龐大國際資金池的途徑。 …",
-   "at": "2026-11-21T05:48+00:00",
+   "t": "香港飛巴布亞新幾內亞客機疑引擎起火 在菲律賓南部安全降落",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878701-20261121.htm",
+   "d": "新幾內亞航空一架由香港前往巴布亞新幾內亞的客機，因為懷疑引擎起火，在菲律賓南部安全降落。 事發在星期五深夜，涉事的波音767-383ER客機，載著137名乘客與9名機組人員從香港起飛，原定前往巴布亞新幾內亞，機師在飛行途中報告，儀表顯示右邊引擎可能起火，隨即執行安全程序，並在午夜過後請求在達沃國際機場降落，機上人員透過緊急逃生滑梯撤離，事件中無人受傷。 菲律賓民航局表示，目前未發現飛機受損，機場一度因為配合客機緊急降落而暫時關閉。 編輯…",
+   "at": "2026-11-21T07:43+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    12.9,
+    121.8,
+    "菲律賓"
    ]
   },
   {
@@ -340,10 +340,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "立法會堅決反對美中經濟與安全審議委員會所謂「2026年報告」",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878696-20261121.htm",
-   "d": "立法會表示，強烈不滿和堅決反對美中經濟與安全審議委員會發表所謂「2026年報告」，對香港情況作出失實、偏頗的陳述，肆意詆毀「一國兩制」，又對香港的司法獨立和法治、依法維護國家安全工作、選舉制度，以及經濟發展等多方面無理抹黑。立法會發言人表示強烈譴責，並堅定支持特區政府就該報告發出的聲明，直斥其非，以正視聽，維護香港聲譽。 立法會發言人指出，美方所謂報告指責《香港國安法》及《基本法》第二十三條立法系統性侵蝕香港法治，卻隻字不提2019年香…",
-   "at": "2026-11-21T05:43+00:00",
+   "t": "國家及特區政府與亞投行簽署協議 確立亞投行在港設辦事處",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878697-20261121.htm",
+   "d": "國家及香港特區政府與亞洲基礎設施投資銀行簽署兩份協議，國家財政部部長藍佛安、亞投行副行長鄒加怡、中央政府駐港聯絡辦副主任張勇，出席協議簽署儀式。 財政司司長陳茂波表示，剛簽署的協議包括正式確立亞投行在香港設立辦事處，充分展現亞投行對香港作為國際金融中心的堅定信心，香港亦能夠直接在多方面為亞投行工作作出貢獻。 他強調，香港資產管理規模逾5萬億美元，融資渠道完善，可提供相關專業知識，認為香港金融市場能夠為各方提供進入龐大國際資金池的途徑。 …",
+   "at": "2026-11-21T05:48+00:00",
    "where": [
     22.32,
     114.17,
@@ -488,11 +488,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Staff gagging clauses lifted ahead of probe into culture at data watchdog",
-   "u": "https://www.bbc.co.uk/news/articles/cwdr1xyzr5lmo?at_medium=RSS&at_campaign=rss",
-   "d": "Ministers are expected to publish the details of how an independent review of the working environment at the Information Commission will be carried out next week.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/578a/live/71169aa0-e505-11f1-b40b-5f46e8cf687c.jpg",
-   "at": "2026-11-21T06:01+00:00",
+   "t": "Catherine talks openly about how cancer changed her in documentary on BBC",
+   "u": "https://www.bbc.co.uk/news/articles/c85y14zvexz9o?at_medium=RSS&at_campaign=rss",
+   "d": "\"There is a much, much deeper part to what a cancer diagnosis shifts in you,\" says Catherine in the documentary.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c010/live/8fc02730-e5a7-11f1-8df2-d7de7bfd91b9.jpg",
+   "at": "2026-11-21T12:00+00:00",
    "where": [
     52.5,
     -1.5,
@@ -600,11 +600,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Man charged with attempted murder after Bradford councillor stabbed",
-   "u": "https://www.bbc.co.uk/news/articles/cmkgv2nlpy8ko?at_medium=RSS&at_campaign=rss",
-   "d": "Arfan Ali is due before magistrates charged over Thursday's attack on Bradford councillor Ibrar Ali.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bc67/live/17204b50-e4d7-11f1-ae38-71bf515761f1.jpg",
-   "at": "2026-11-21T09:56+00:00",
+   "t": "Staff gagging clauses lifted ahead of probe into culture at data watchdog",
+   "u": "https://www.bbc.co.uk/news/articles/cwdr1xyzr5lmo?at_medium=RSS&at_campaign=rss",
+   "d": "Ministers are expected to publish the details of how an independent review of the working environment at the Information Commission will be carried out next week.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/578a/live/71169aa0-e505-11f1-b40b-5f46e8cf687c.jpg",
+   "at": "2026-11-21T06:01+00:00",
    "where": [
     52.5,
     -1.5,
@@ -712,11 +712,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Sales of baby sleeping bag halted by Next after new mum raises alarm",
-   "u": "https://www.bbc.co.uk/news/articles/cw9874p114dro?at_medium=RSS&at_campaign=rss",
-   "d": "The sleeping bag’s neck hole was far too big, meaning Emma's baby daughter could wriggle down and it could cover her face.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5fff/live/40c02ae0-e50c-11f1-b40b-5f46e8cf687c.jpg",
-   "at": "2026-11-21T00:02+00:00",
+   "t": "Man charged with attempted murder after Bradford councillor stabbed",
+   "u": "https://www.bbc.co.uk/news/articles/cmkgv2nlpy8ko?at_medium=RSS&at_campaign=rss",
+   "d": "Arfan Ali appears before magistrates charged over Thursday's attack on councillor Ibrar Ali.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bc67/live/17204b50-e4d7-11f1-ae38-71bf515761f1.jpg",
+   "at": "2026-11-21T12:06+00:00",
    "where": [
     52.5,
     -1.5,
@@ -740,7 +740,7 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
+   "t": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
    "u": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
    "d": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/78a0/live/a0688a80-e531-11f1-99b6-a35a62fa4264.jpg",
@@ -824,11 +824,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "PM to meet pub bombings families in new year",
-   "u": "https://www.bbc.co.uk/news/articles/c8qlqyp6k0kvo?at_medium=RSS&at_campaign=rss",
-   "d": "Andy Burnham has confirmed that he will meet families in Birmingham early in the new year.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2764/live/6a3e5e90-c560-11f0-a892-01d657345866.png",
-   "at": "2026-11-21T07:27+00:00",
+   "t": "Sales of baby sleeping bag halted by Next after new mum raises alarm",
+   "u": "https://www.bbc.co.uk/news/articles/cw9874p114dro?at_medium=RSS&at_campaign=rss",
+   "d": "The sleeping bag’s neck hole was far too big, meaning Emma's baby daughter could wriggle down and it could cover her face.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5fff/live/40c02ae0-e50c-11f1-b40b-5f46e8cf687c.jpg",
+   "at": "2026-11-21T00:02+00:00",
    "where": [
     52.5,
     -1.5,
@@ -936,15 +936,15 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Cold alerts in force as UK sees lowest overnight temperatures of autumn",
-   "u": "https://www.bbc.co.uk/weather/articles/ckvg251xz51do?at_medium=RSS&at_campaign=rss",
-   "d": "Temperatures dropped well below freezing in many areas on Friday night but how long will the chilly weather last?",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b6a9/live/a865a040-e4fc-11f1-a8e4-b1e12a49db15.jpg",
-   "at": "2026-11-21T06:38+00:00",
+   "t": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+   "u": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
+   "d": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f21c/live/2c923cc0-e5a2-11f1-b7d5-65d6a750eced.jpg",
+   "at": "2026-11-21T12:20+00:00",
    "where": [
-    52.5,
-    -1.5,
-    "英國"
+    49.0,
+    31.4,
+    "烏克蘭"
    ]
   },
   {
@@ -1158,11 +1158,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Plans unveiled for one of UK's biggest solar farms",
-   "u": "https://www.bbc.co.uk/news/articles/cm98x1r551p1o?at_medium=RSS&at_campaign=rss",
-   "d": "Low Carbon wants to install solar panels across 4,200 acres (1,700 hectares) of Essex countryside.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/301d/live/e8311ba0-e4fc-11f1-a8e4-b1e12a49db15.png",
-   "at": "2026-11-21T06:33+00:00",
+   "t": "PM to meet pub bombings families in new year",
+   "u": "https://www.bbc.co.uk/news/articles/c8qlqyp6k0kvo?at_medium=RSS&at_campaign=rss",
+   "d": "Andy Burnham has confirmed that he will meet families in Birmingham early in the new year.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2764/live/6a3e5e90-c560-11f0-a892-01d657345866.png",
+   "at": "2026-11-21T07:27+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1269,11 +1269,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "First minister 'gobsmacked' by Burnham's devolution calls rejection",
-   "u": "https://www.bbc.co.uk/news/articles/ck9874vydr83o?at_medium=RSS&at_campaign=rss",
-   "d": "The prime minister says he is \"not persuaded\" by the argument that devolution would benefit Wales.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a0e1/live/d4aecf30-c195-11f1-aa62-b37233e4aed8.jpg",
-   "at": "2026-11-21T10:53+00:00",
+   "t": "Plans unveiled for one of UK's biggest solar farms",
+   "u": "https://www.bbc.co.uk/news/articles/cm98x1r551p1o?at_medium=RSS&at_campaign=rss",
+   "d": "Low Carbon wants to install solar panels across 4,200 acres (1,700 hectares) of Essex countryside.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/301d/live/e8311ba0-e4fc-11f1-a8e4-b1e12a49db15.png",
+   "at": "2026-11-21T06:33+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1296,11 +1296,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Two men die after glider crashes into Loch Leven",
-   "u": "https://www.bbc.co.uk/news/articles/cm8791qw0y79o?at_medium=RSS&at_campaign=rss",
-   "d": "The Scottish Gliding Centre said a two-seater Perkoz aircraft had \"crashed whilst on a local training flight\".",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3816/live/130519c0-e503-11f1-9e2f-7fb5281f0b3c.jpg",
-   "at": "2026-11-20T16:54+00:00",
+   "t": "First minister 'gobsmacked' by Burnham's devolution calls rejection",
+   "u": "https://www.bbc.co.uk/news/articles/ck9874vydr83o?at_medium=RSS&at_campaign=rss",
+   "d": "The prime minister says he is \"not persuaded\" by the argument that devolution would benefit Wales.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a0e1/live/d4aecf30-c195-11f1-aa62-b37233e4aed8.jpg",
+   "at": "2026-11-21T10:53+00:00",
    "where": [
     52.5,
     -1.5,
