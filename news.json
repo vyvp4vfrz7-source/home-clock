@@ -1,6 +1,43 @@
 {
- "updated": "2026-11-21T12:37+00:00",
+ "updated": "2026-11-21T13:48+00:00",
  "items": [
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "選管會主席陸啟康呼籲合資格投票人 明日選委會選舉踴躍投票",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878725-20261121.htm",
+   "d": "選舉委員會界別分組一般選舉明日舉行，選舉管理委員會主席陸啟康表示，選舉籌備工作已準備就緒，工作人員正最後準備及演練，確保選舉公開、誠實、公平進行，呼籲合資格投票人踴躍投票。 陸啟康說，將繼續使用電子選民登記冊系統，為投票或獲授權代表發出選票，讓發票程序高效進行。投票結束後，所有票箱會運送至會展中央點票站進行點票。 選舉日前夕，陸啟康在灣仔先後巡視港灣道體育館投票站及會展的中央點票站。選管會委員石丹理等亦有到設於車公廟體育館及調景嶺體育館…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878725_1_M_20261121204740.jpg",
+   "at": "2026-11-21T12:47+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "中俄美三方峰會「場面大於實質成果」",
+   "u": "https://www.bbc.com/zhongwen/articles/cm5y120z0pw0o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "BBC駐北美記者澤克爾：這次高峰唯一讓人留下的持久印象，或許只是歷史性的三方會晤的畫面。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/e1f4/live/f36e5af0-e448-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-20T05:46+00:00"
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "俄稱克里米亞大橋鐵路恢復通行 澤連斯基指烏方襲擊回應俄軍行動",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878722-20261121.htm",
+   "d": "俄羅斯副總理尼基京表示，克里米亞大橋鐵路段已全面恢復列車通行。 克里米亞大橋在連日烏軍襲擊下結構受損，交通受阻。烏克蘭總統澤連斯基星期六與英國國防大臣施卓添會晤時說，在烏方打擊克里米亞大橋前，俄軍已使用導彈和無人機，對烏克蘭境內橋樑發動過百次襲擊，烏方針對大橋的行動，是在俄軍多次襲擊烏克蘭橋樑後作出的回應。 澤連斯基認為，俄方持續襲擊烏克蘭基礎設施的行為，表明莫斯科沒有結束戰爭的意願，並尋找藉口升級戰事。 編輯：許敬軒",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878722_1_M_20261121203358.jpg",
+   "at": "2026-11-21T12:33+00:00",
+   "where": [
+    49.0,
+    31.4,
+    "烏克蘭"
+   ]
+  },
   {
    "src": "香港",
    "lang": "zh",
@@ -18,11 +55,16 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "中俄美三方峰會「場面大於實質成果」",
-   "u": "https://www.bbc.com/zhongwen/articles/cm5y120z0pw0o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "BBC駐北美記者澤克爾：這次高峰唯一讓人留下的持久印象，或許只是歷史性的三方會晤的畫面。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/e1f4/live/f36e5af0-e448-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-20T05:46+00:00"
+   "t": "緬甸種族滅絕裁決影響深遠的歷史意義",
+   "u": "https://www.bbc.com/zhongwen/articles/c5n4eylmmg8po/trad?at_medium=RSS&at_campaign=rss",
+   "d": "BBC國際編輯寫道，律師將研究岡比亞如何證明緬甸意圖實施種族滅絕。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/d6fc/live/482060d0-e489-11f1-844f-c7a24d31dcc3.jpg",
+   "at": "2026-11-20T08:53+00:00",
+   "where": [
+    21.9,
+    95.96,
+    "緬甸"
+   ]
   },
   {
    "src": "世界",
@@ -55,15 +97,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "緬甸種族滅絕裁決影響深遠的歷史意義",
-   "u": "https://www.bbc.com/zhongwen/articles/c5n4eylmmg8po/trad?at_medium=RSS&at_campaign=rss",
-   "d": "BBC國際編輯寫道，律師將研究岡比亞如何證明緬甸意圖實施種族滅絕。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/d6fc/live/482060d0-e489-11f1-844f-c7a24d31dcc3.jpg",
-   "at": "2026-11-20T08:53+00:00",
+   "t": "從倉頡換成漢語拼音：電腦輸入法會影響下一代學習中文嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/cxq6e216p7ylo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "香港教育局提出小學二年級學生應該初步掌握以「漢語拼音輸入法」在電腦上輸入中文。打字方式的改變，會如何影響下一代學習語言？",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7c0d/live/e9fc49e0-e4a8-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-20T06:12+00:00",
    "where": [
-    21.9,
-    95.96,
-    "緬甸"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
@@ -97,15 +139,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "從倉頡換成漢語拼音：電腦輸入法會影響下一代學習中文嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/cxq6e216p7ylo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "香港教育局提出小學二年級學生應該初步掌握以「漢語拼音輸入法」在電腦上輸入中文。打字方式的改變，會如何影響下一代學習語言？",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7c0d/live/e9fc49e0-e4a8-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-20T06:12+00:00",
+   "t": "英國女子遭丈夫下藥，13年間被陌生男子輪流性侵",
+   "u": "https://www.bbc.com/zhongwen/articles/cx8dv4e080ldo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "四名男子性侵一名被其丈夫下藥的女子，被裁定性侵罪成。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/dae1/live/2fc34f30-e433-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-20T09:24+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    52.5,
+    -1.5,
+    "英國"
    ]
   },
   {
@@ -139,15 +181,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "英國女子遭丈夫下藥，13年間被陌生男子輪流性侵",
-   "u": "https://www.bbc.com/zhongwen/articles/cx8dv4e080ldo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "四名男子性侵一名被其丈夫下藥的女子，被裁定性侵罪成。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/dae1/live/2fc34f30-e433-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-20T09:24+00:00",
+   "t": "Anthropic 破紀錄IPO能否阻止AI泡沫破裂？",
+   "u": "https://www.bbc.com/zhongwen/articles/cw7v2zlle4v4o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "備受矚目的Anthropic上市案，預料將讓其晉身美國十大最具價值企業之列，但AI產業前景依然存在變數。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/dcc1/live/0bb55690-e36d-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-20T07:52+00:00",
    "where": [
-    52.5,
-    -1.5,
-    "英國"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -181,15 +223,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "Anthropic 破紀錄IPO能否阻止AI泡沫破裂？",
-   "u": "https://www.bbc.com/zhongwen/articles/cw7v2zlle4v4o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "備受矚目的Anthropic上市案，預料將讓其晉身美國十大最具價值企業之列，但AI產業前景依然存在變數。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/dcc1/live/0bb55690-e36d-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-20T07:52+00:00",
+   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-17T16:25+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -207,7 +249,6 @@
    "t": "選委會界別分組一般選舉明日舉行 李家超到訪投票站",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878710-20261121.htm",
    "d": "選舉委員會界別分組一般選舉明日舉行。行政長官李家超下午在政制及內地事務局局長謝小華及選舉管理委員會主席陸啟康陪同下，到訪灣仔港灣道體育館的一般投票站，了解場地佈置及最後準備情況，亦為票站工作人員打氣。 李家超在社交專頁說，視察期間有在場人員介紹票站運作及投票流程，並指已做好充分準備，將於選管會指導下，按相關法例及指引，確保投票在公開、公平、誠實的情況下，安全有序並高效進行。 李家超指出，今次選舉有31個需要競逐的界別分組，由約5700名…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878710_1_M_20261121164749.jpg",
    "at": "2026-11-21T08:47+00:00",
    "where": [
     22.32,
@@ -218,11 +259,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-17T16:25+00:00",
+   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
+   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
+   "at": "2026-11-17T09:49+00:00",
    "where": [
     23.7,
     121.0,
@@ -235,7 +276,6 @@
    "t": "日本中部新潟縣有大雨 北部及東部山區出現降雪",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878705-20261121.htm",
    "d": "日本中部新潟縣有大雨，當局向部分地區發布四級緊急警報，警告可能出現山泥傾瀉，呼籲民眾提高警覺。 截至當地今日清晨5時的48小時內，加茂市累積雨量超過190毫米，創下當地11月份新高，阿賀町的累積雨量亦達到180毫米。 與此同時，日本北部及東部山區出現降雪，其中福島縣豬苗代町的積雪達53厘米，岩手縣西和賀町為51厘米。預計到星期日上午的24小時內，山形縣與岐阜縣的降雪量可能達50厘米，北海道約30厘米。 當局呼籲民眾外出前確認天氣狀況，由…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878705_1_M_20261121162611.jpg",
    "at": "2026-11-21T08:26+00:00",
    "where": [
     35.68,
@@ -259,11 +299,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
-   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
-   "at": "2026-11-17T09:49+00:00",
+   "t": "九合一前夕：台灣幾乎年年選舉，會引起「投票疲勞」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c63egjkzqpz2o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣在過去七年間，幾乎每年都有大型選舉、罷免或公投。有學者形容台灣政治人物常處於「選舉模式」，在面對不同議題時往往急於回應。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7a49/live/c76f08c0-dcda-11f1-a8e1-e3454837ffc6.jpg",
+   "at": "2026-11-13T10:39+00:00",
    "where": [
     23.7,
     121.0,
@@ -299,11 +339,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "九合一前夕：台灣幾乎年年選舉，會引起「投票疲勞」嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/c63egjkzqpz2o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "台灣在過去七年間，幾乎每年都有大型選舉、罷免或公投。有學者形容台灣政治人物常處於「選舉模式」，在面對不同議題時往往急於回應。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7a49/live/c76f08c0-dcda-11f1-a8e1-e3454837ffc6.jpg",
-   "at": "2026-11-13T10:39+00:00",
+   "t": "「九合一」五大看點：「洋流」能否撼動台北？誰在卡位2028？",
+   "u": "https://www.bbc.com/zhongwen/articles/cm8xzrg40dq1o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "中共是否介入台灣選舉？ 這次選舉將如何影響賴清德與國民黨主席鄭麗文的政治能量？捲土重來、希望藉著地方議員選舉有所斬獲的小黨，此次結盟能否在主流政黨夾殺中突圍而出？",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/5997/live/fdfeb670-d293-11f1-a701-fddedf244c16.jpg",
+   "at": "2026-10-28T02:45+00:00",
    "where": [
     23.7,
     121.0,
@@ -321,33 +361,6 @@
     12.9,
     121.8,
     "菲律賓"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "「九合一」五大看點：「洋流」能否撼動台北？誰在卡位2028？",
-   "u": "https://www.bbc.com/zhongwen/articles/cm8xzrg40dq1o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "中共是否介入台灣選舉？ 這次選舉將如何影響賴清德與國民黨主席鄭麗文的政治能量？捲土重來、希望藉著地方議員選舉有所斬獲的小黨，此次結盟能否在主流政黨夾殺中突圍而出？",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/5997/live/fdfeb670-d293-11f1-a701-fddedf244c16.jpg",
-   "at": "2026-10-28T02:45+00:00",
-   "where": [
-    23.7,
-    121.0,
-    "台灣"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "國家及特區政府與亞投行簽署協議 確立亞投行在港設辦事處",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878697-20261121.htm",
-   "d": "國家及香港特區政府與亞洲基礎設施投資銀行簽署兩份協議，國家財政部部長藍佛安、亞投行副行長鄒加怡、中央政府駐港聯絡辦副主任張勇，出席協議簽署儀式。 財政司司長陳茂波表示，剛簽署的協議包括正式確立亞投行在香港設立辦事處，充分展現亞投行對香港作為國際金融中心的堅定信心，香港亦能夠直接在多方面為亞投行工作作出貢獻。 他強調，香港資產管理規模逾5萬億美元，融資渠道完善，可提供相關專業知識，認為香港金融市場能夠為各方提供進入龐大國際資金池的途徑。 …",
-   "at": "2026-11-21T05:48+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
    ]
   },
   {
@@ -740,15 +753,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
-   "u": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
-   "d": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/78a0/live/a0688a80-e531-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-20T23:08+00:00",
+   "t": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+   "u": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+   "d": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5701/live/7ac9e270-e5ad-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-21T13:15+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    23.6,
+    -102.6,
+    "墨西哥"
    ]
   },
   {
@@ -852,11 +865,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Judge approves $7.25bn settlement for Roundup weedkiller cancer claims",
-   "u": "https://www.bbc.co.uk/news/articles/cwvg21gyl650o?at_medium=RSS&at_campaign=rss",
-   "d": "The settlement will be paid by Bayer to users who already have non-Hodgkin lymphoma and those who fall ill in the future.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/39e3/live/c6e1e8a0-e559-11f1-b23f-abf0ac4ebbc0.jpg",
-   "at": "2026-11-21T03:49+00:00",
+   "t": "Removal of hat inside Fiona the hippo was 'impossible', Cincinnati Zoo says",
+   "u": "https://www.bbc.co.uk/news/articles/cwly43km54n6o?at_medium=RSS&at_campaign=rss",
+   "d": "The location of the hat and the 2,400-pound animal's anatomy made removal unfeasible, the zoo said.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0f80/live/5c64b970-e52d-11f1-964d-a1d5fe40573e.jpg",
+   "at": "2026-11-20T22:14+00:00",
    "where": [
     38.9,
     -77.04,
@@ -939,8 +952,8 @@
    "t": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
    "u": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
    "d": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f21c/live/2c923cc0-e5a2-11f1-b7d5-65d6a750eced.jpg",
-   "at": "2026-11-21T12:20+00:00",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3686/live/9ee585d0-e5a6-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-21T13:17+00:00",
    "where": [
     49.0,
     31.4,
@@ -964,11 +977,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "US declassifies more UFO footage filmed in the Middle East",
-   "u": "https://www.bbc.co.uk/news/videos/cqdr1x8mypnko?at_medium=RSS&at_campaign=rss",
-   "d": "The Pentagon has released an eighth tranche of UFO records, which includes three video clips recorded in 2020, 2023 and 2026.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/029f/live/9fdeb250-e537-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-20T23:15+00:00",
+   "t": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
+   "u": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
+   "d": "A mathematician at Anthropic says he used an AI to prove the famed Riemann hypothesis, though verification will take some time.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/78a0/live/a0688a80-e531-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-20T23:08+00:00",
    "where": [
     38.9,
     -77.04,
@@ -1047,11 +1060,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Villagers to vote on 'leaving UK' over plans to house migrants at RAF base",
-   "u": "https://www.bbc.co.uk/news/articles/cqn70v1p6ymlo?at_medium=RSS&at_campaign=rss",
-   "d": "Barnham is proposing breaking away from the UK in protest of plans to house migrants at RAF Barnham.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fdcb/live/1ec7e940-e4fe-11f1-a8e4-b1e12a49db15.jpg",
-   "at": "2026-11-21T01:34+00:00",
+   "t": "Scouts say they face £1m tourist tax cost for overnight trips",
+   "u": "https://www.bbc.co.uk/news/articles/cxdd1e9yvlzjo?at_medium=RSS&at_campaign=rss",
+   "d": "The increased cost after the proposed Visitors Levy is imposed could price some young people out of joining Scout camps and other trips, the group said.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8a35/live/b16af070-a12a-11f1-8c37-3f30331ac537.jpg",
+   "at": "2026-11-21T13:29+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1075,11 +1088,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Removal of hat inside Fiona the hippo was 'impossible', Cincinnati Zoo says",
-   "u": "https://www.bbc.co.uk/news/articles/cwly43km54n6o?at_medium=RSS&at_campaign=rss",
-   "d": "The location of the hat and the 2,400-pound animal's anatomy made removal unfeasible, the zoo said.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0f80/live/5c64b970-e52d-11f1-964d-a1d5fe40573e.jpg",
-   "at": "2026-11-20T22:14+00:00",
+   "t": "Judge approves $7.25bn settlement for Roundup weedkiller cancer claims",
+   "u": "https://www.bbc.co.uk/news/articles/cwvg21gyl650o?at_medium=RSS&at_campaign=rss",
+   "d": "The settlement will be paid by Bayer to users who already have non-Hodgkin lymphoma and those who fall ill in the future.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/39e3/live/c6e1e8a0-e559-11f1-b23f-abf0ac4ebbc0.jpg",
+   "at": "2026-11-21T03:49+00:00",
    "where": [
     38.9,
     -77.04,
@@ -1158,11 +1171,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "PM to meet pub bombings families in new year",
-   "u": "https://www.bbc.co.uk/news/articles/c8qlqyp6k0kvo?at_medium=RSS&at_campaign=rss",
-   "d": "Andy Burnham has confirmed that he will meet families in Birmingham early in the new year.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2764/live/6a3e5e90-c560-11f0-a892-01d657345866.png",
-   "at": "2026-11-21T07:27+00:00",
+   "t": "Villagers to vote on 'leaving UK' over plans to house migrants at RAF base",
+   "u": "https://www.bbc.co.uk/news/articles/cqn70v1p6ymlo?at_medium=RSS&at_campaign=rss",
+   "d": "Barnham is proposing breaking away from the UK in protest of plans to house migrants at RAF Barnham.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fdcb/live/1ec7e940-e4fe-11f1-a8e4-b1e12a49db15.jpg",
+   "at": "2026-11-21T01:34+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1186,15 +1199,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
-   "u": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo?at_medium=RSS&at_campaign=rss",
-   "d": "Nikhil Gupta pleaded guilty to murder-for-hire, conspiracy to commit murder-for-hire, and conspiracy to commit money laundering in February.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a37e/live/01b2ac80-e505-11f1-b40b-5f46e8cf687c.jpg",
-   "at": "2026-11-20T19:27+00:00",
+   "t": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
+   "u": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo?at_medium=RSS&at_campaign=rss",
+   "d": "Plans to shutter the troubled facility date back to 2019, when the city council first voted to close it but delays arose over where to place inmates.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4622/live/d8e189d0-e52b-11f1-964d-a1d5fe40573e.jpg",
+   "at": "2026-11-21T00:01+00:00",
    "where": [
-    21.0,
-    78.0,
-    "印度"
+    40.71,
+    -74.0,
+    "紐約"
    ]
   },
   {
@@ -1269,11 +1282,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Plans unveiled for one of UK's biggest solar farms",
-   "u": "https://www.bbc.co.uk/news/articles/cm98x1r551p1o?at_medium=RSS&at_campaign=rss",
-   "d": "Low Carbon wants to install solar panels across 4,200 acres (1,700 hectares) of Essex countryside.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/301d/live/e8311ba0-e4fc-11f1-a8e4-b1e12a49db15.png",
-   "at": "2026-11-21T06:33+00:00",
+   "t": "PM to meet pub bombings families in new year",
+   "u": "https://www.bbc.co.uk/news/articles/c8qlqyp6k0kvo?at_medium=RSS&at_campaign=rss",
+   "d": "Andy Burnham has confirmed that he will meet families in Birmingham early in the new year.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2764/live/6a3e5e90-c560-11f0-a892-01d657345866.png",
+   "at": "2026-11-21T07:27+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1296,11 +1309,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "First minister 'gobsmacked' by Burnham's devolution calls rejection",
-   "u": "https://www.bbc.co.uk/news/articles/ck9874vydr83o?at_medium=RSS&at_campaign=rss",
-   "d": "The prime minister says he is \"not persuaded\" by the argument that devolution would benefit Wales.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a0e1/live/d4aecf30-c195-11f1-aa62-b37233e4aed8.jpg",
-   "at": "2026-11-21T10:53+00:00",
+   "t": "Plans unveiled for one of UK's biggest solar farms",
+   "u": "https://www.bbc.co.uk/news/articles/cm98x1r551p1o?at_medium=RSS&at_campaign=rss",
+   "d": "Low Carbon wants to install solar panels across 4,200 acres (1,700 hectares) of Essex countryside.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/301d/live/e8311ba0-e4fc-11f1-a8e4-b1e12a49db15.png",
+   "at": "2026-11-21T06:33+00:00",
    "where": [
     52.5,
     -1.5,
