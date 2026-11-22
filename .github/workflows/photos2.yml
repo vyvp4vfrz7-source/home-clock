@@ -1,0 +1,34 @@
+# Second iCloud Shared Album (repo secret ALBUM2_TOKEN = the part of the album link after "#").
+# Shown at /parents/?album=2
+name: Refresh second album photos
+on:
+  schedule:
+    - cron: "20,50 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: site-data
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q opencc-python-reimplemented || true
+      - run: python tools/build_photos.py
+        env:
+          ALBUM_TOKEN: ${{ secrets.ALBUM2_TOKEN }}
+          ALBUM_DIR: photos2
+          ALBUM_JSON: photos2.json
+      - name: Show what a test run made (runs from other branches don't commit)
+        if: github.ref != 'refs/heads/main'
+        run: ls -la photos2 | grep -i mp4 || echo "no videos"; grep -c '"video"' photos2.json || true
+      - name: Commit if changed
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "photo-bot"
+          git config user.email "photo-bot@users.noreply.github.com"
+          git add -A photos2 photos2.json places.json
+          git diff --cached --quiet || (git commit -m "Update second album photos" && git pull --rebase && git push)
