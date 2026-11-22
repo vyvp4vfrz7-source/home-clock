@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-22T05:46+00:00",
+ "updated": "2026-11-22T06:49+00:00",
  "items": [
   {
    "src": "香港",
    "lang": "zh",
-   "t": "謝小華樂見各投票站一帶選舉氣氛熱烈 秩序大致良好",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878771-20261122.htm",
-   "d": "選舉委員會界別分組一般選舉投票，政制及內地事務局局長謝小華、常任秘書長黃少珠和副局胡健民，分別前往荃灣體育館、九龍公園體育館、車公廟體育館、調景嶺體育館和港灣道體育館的投票站巡視，確保運作暢順有序，高效進行。 政制及內地事務局表示，謝小華樂見各投票站一帶的選舉氣氛熱烈，不少選民一早已到場排隊輪候投票，秩序大致良好，投票過程亦流暢。 她呼籲各合資格選民把握時間，踴躍投票，選出心儀的代表，讓有擔當、有視野、真正能代表業界和整體社會利益的賢能…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878771_1_M_20261122133954.jpg",
-   "at": "2026-11-22T05:19+00:00",
+   "t": "選委會界別分組選舉 截至下午2時投票率93.55%",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878774-20261122.htm",
+   "d": "選舉委員會界別分組一般選舉早上9時開始投票。截至下午2時，投票率93.55%，5341名選民投票。 編輯：譚佩貞",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878774_1_M_20261122144705.jpg",
+   "at": "2026-11-22T06:17+00:00",
    "where": [
     22.32,
     114.17,
@@ -28,6 +28,43 @@
     37.6,
     "俄羅斯"
    ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "伊朗能源短缺惡化 實施限電措施",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878773-20261122.htm",
+   "d": "隨著中東戰爭對關鍵基礎設施造成的破壞加劇，伊朗能源短缺問題惡化，當局宣布星期日開始實施限電措施。 伊朗國家電力公司負責人向國家電視台說，根據不同地區情況，停電預計每兩日一次，每次持續約兩小時，部分地區則可能每天停電兩小時。 伊朗總統佩澤希齊揚之前說，美國和以色列襲擊伊朗能源基礎設施，加劇能源問題，令冬季來臨前的能源供應形勢更加嚴峻。又形容伊朗正捲入一場無聲的經濟戰，這場戰爭遠比軍事衝突更艱難。 伊朗擁有全球規模最大的石油和天然氣儲存量之…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878773_1_M_20261122135404.jpg",
+   "at": "2026-11-22T05:54+00:00",
+   "where": [
+    32.4,
+    53.7,
+    "伊朗"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "謝小華樂見各投票站一帶選舉氣氛熱烈 秩序大致良好",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878771-20261122.htm",
+   "d": "選舉委員會界別分組一般選舉投票，政制及內地事務局局長謝小華、常任秘書長黃少珠和副局胡健民，分別前往荃灣體育館、九龍公園體育館、車公廟體育館、調景嶺體育館和港灣道體育館的投票站巡視，確保運作暢順有序，高效進行。 政制及內地事務局表示，謝小華樂見各投票站一帶的選舉氣氛熱烈，不少選民一早已到場排隊輪候投票，秩序大致良好，投票過程亦流暢。 她呼籲各合資格選民把握時間，踴躍投票，選出心儀的代表，讓有擔當、有視野、真正能代表業界和整體社會利益的賢能…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878771_1_M_20261122133954.jpg",
+   "at": "2026-11-22T05:19+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "以毒攻毒？道路安全研究人員找 《GTA》幫忙",
+   "u": "https://www.bbc.com/zhongwen/articles/c8p3vdpxwk5xo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "《俠盜獵車手》（GTA）系列中，玩家駕車在虛構城市裡橫衝直撞、大肆破壞，本來就是遊戲樂趣之一。但研究人員卻有不同想法。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/9076/live/00fe2880-de81-11f1-b88b-3f1671ea859d.jpg",
+   "at": "2026-11-22T06:19+00:00"
   },
   {
    "src": "世界",
@@ -139,11 +176,16 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "中俄美三方峰會「場面大於實質成果」",
-   "u": "https://www.bbc.com/zhongwen/articles/cm5y120z0pw0o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "BBC駐北美記者澤克爾：這次高峰唯一讓人留下的持久印象，或許只是歷史性的三方會晤的畫面。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/e1f4/live/f36e5af0-e448-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-20T05:46+00:00"
+   "t": "緬甸種族滅絕裁決影響深遠的歷史意義",
+   "u": "https://www.bbc.com/zhongwen/articles/c5n4eylmmg8po/trad?at_medium=RSS&at_campaign=rss",
+   "d": "BBC國際編輯寫道，律師將研究岡比亞如何證明緬甸意圖實施種族滅絕。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/d6fc/live/482060d0-e489-11f1-844f-c7a24d31dcc3.jpg",
+   "at": "2026-11-20T08:53+00:00",
+   "where": [
+    21.9,
+    95.96,
+    "緬甸"
+   ]
   },
   {
    "src": "世界",
@@ -176,15 +218,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "緬甸種族滅絕裁決影響深遠的歷史意義",
-   "u": "https://www.bbc.com/zhongwen/articles/c5n4eylmmg8po/trad?at_medium=RSS&at_campaign=rss",
-   "d": "BBC國際編輯寫道，律師將研究岡比亞如何證明緬甸意圖實施種族滅絕。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/d6fc/live/482060d0-e489-11f1-844f-c7a24d31dcc3.jpg",
-   "at": "2026-11-20T08:53+00:00",
+   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-17T16:25+00:00",
    "where": [
-    21.9,
-    95.96,
-    "緬甸"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -207,7 +249,6 @@
    "t": "廉署派員巡視票站及點票中心 確保選舉公平公開誠實地進行",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878764-20261122.htm",
    "d": "選舉委員會界別分組一般選舉投票。廉政公署表示，會嚴格執行《選舉（舞弊及非法行為）條例》，派員巡視投票站及點票中心，確保今次選舉能公平、公開和誠實地進行。 廉署表示，廉潔選舉查詢熱線由上午9時至下午6時運作，接受查詢。又呼籲合資格的投票人和獲授權代表，踴躍投票，選出心儀的候選人。 編輯：譚佩貞",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878764_1_M_20261122125753.jpg",
    "at": "2026-11-22T04:27+00:00",
    "where": [
     22.32,
@@ -218,11 +259,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-17T16:25+00:00",
+   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
+   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
+   "at": "2026-11-17T09:49+00:00",
    "where": [
     23.7,
     121.0,
@@ -235,7 +276,6 @@
    "t": "日本東北及北陸地區落大雪 有景點因道路受阻孤立無援",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878738-20261122.htm",
    "d": "日本東北和北陸地區的日本海一側，過去兩日落大雪，各地交通及公共服務受影響。 共同社報道，在福島縣北鹽原村，大雪導致樹木倒塌，國道459號及部分縣道受阻，縣內西北部山區著名旅遊景點裏磐梯，周邊510多戶、超過940名居民，以及入住賓館等最少500人，孤立無援。 福島縣土木事務所表示，大量樹木壓著電線，妨礙除雪作業，無法預計電力供應何時能夠復常。村內約700戶停電，據報通信設備故障導致很多住宿設施及居民的電話無法接通，連緊急報警電話110亦…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878738_1_M_20261122062102.jpg",
    "at": "2026-11-21T21:09+00:00",
    "where": [
     35.68,
@@ -259,11 +299,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
-   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
-   "at": "2026-11-17T09:49+00:00",
+   "t": "九合一前夕：台灣幾乎年年選舉，會引起「投票疲勞」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c63egjkzqpz2o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣在過去七年間，幾乎每年都有大型選舉、罷免或公投。有學者形容台灣政治人物常處於「選舉模式」，在面對不同議題時往往急於回應。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7a49/live/c76f08c0-dcda-11f1-a8e1-e3454837ffc6.jpg",
+   "at": "2026-11-13T10:39+00:00",
    "where": [
     23.7,
     121.0,
@@ -299,46 +339,6 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "九合一前夕：台灣幾乎年年選舉，會引起「投票疲勞」嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/c63egjkzqpz2o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "台灣在過去七年間，幾乎每年都有大型選舉、罷免或公投。有學者形容台灣政治人物常處於「選舉模式」，在面對不同議題時往往急於回應。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7a49/live/c76f08c0-dcda-11f1-a8e1-e3454837ffc6.jpg",
-   "at": "2026-11-13T10:39+00:00",
-   "where": [
-    23.7,
-    121.0,
-    "台灣"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "呂特強調北約將捍衛波蘭領土 指仍在調查領土被侵犯事件",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878736-20261122.htm",
-   "d": "北約秘書長呂特就波蘭方面通報的領空被侵犯事件表示，北約將捍衛波蘭的每一寸領土。 呂特訪問波蘭首都華沙，在接受記者訪問時說，波蘭領空被侵犯是危險事件，具體情況仍在調查中。 波蘭國防部長科西尼亞克卡梅什較早時說，俄羅斯對烏克蘭發動大規模夜間空襲期間，來自俄羅斯的飛行物，侵犯波蘭領空，波蘭東南部喀爾巴阡山省和盧布林省的三處地點發現墜落物，其中兩處墜落物可能是導彈，另一處墜落物可能為噴氣式無人機。俄方未就此作出回應。 編輯：羅宇光",
-   "at": "2026-11-21T19:43+00:00",
-   "where": [
-    52.1,
-    19.4,
-    "波蘭"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "麥美娟：不少選民踴躍投票 呼籲合資格選民盡早投票",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878761-20261122.htm",
-   "d": "選舉委員會界別分組一般選舉進行投票，民政及青年事務局局長麥美娟到各個票站了解運作情況。 麥美娟視察九龍公園體育館的票站後表示，見到選民認真對待今次選舉，包括認識候選人的政綱等，而候選人的選舉工作亦很認真投入。她說，有不少選民踴躍投票，有選民一早就到場投票，她呼籲合資格的選民盡早投票。 麥美娟又說，選委會不同界別的候選人都透過競選工程，讓選民認識其政綱，從而作出選擇。她希望選民能把握機會，選出德才兼備、對社會有貢獻的人士。 編輯：譚佩貞",
-   "at": "2026-11-22T04:08+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
    "t": "「九合一」五大看點：「洋流」能否撼動台北？誰在卡位2028？",
    "u": "https://www.bbc.com/zhongwen/articles/cm8xzrg40dq1o/trad?at_medium=RSS&at_campaign=rss",
    "d": "中共是否介入台灣選舉？ 這次選舉將如何影響賴清德與國民黨主席鄭麗文的政治能量？捲土重來、希望藉著地方議員選舉有所斬獲的小黨，此次結盟能否在主流政黨夾殺中突圍而出？",
@@ -353,10 +353,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "陸啟康：有信心選舉在公開公平下進行 於合理時間完成點票",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878757-20261122.htm",
-   "d": "選舉委員會界別分組一般選舉正在舉行，選舉管理委員會主席陸啟康表示，選委會在特區治理架構扮演非常重要和關鍵的角色，委員職能任重道遠，包括提名行政長官候選人和選出候任行政長官，呼籲投票人踴躍投票，進一步推動香港良政善治。 陸啟康見傳媒時表示，早上各投票站運作暢順、秩序良好，現階段非常滿意選舉安排和進度，但不會評論投票率，亦沒有任何指標。他又說，很開心見到職員謹守崗位、精神奕奕，有信心選舉可以在公開、誠實、公平的情況下進行，投票和點票工作暢順…",
-   "at": "2026-11-22T03:36+00:00",
+   "t": "麥美娟：不少選民踴躍投票 呼籲合資格選民盡早投票",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878761-20261122.htm",
+   "d": "選舉委員會界別分組一般選舉進行投票，民政及青年事務局局長麥美娟到各個票站了解運作情況。 麥美娟視察九龍公園體育館的票站後表示，見到選民認真對待今次選舉，包括認識候選人的政綱等，而候選人的選舉工作亦很認真投入。她說，有不少選民踴躍投票，有選民一早就到場投票，她呼籲合資格的選民盡早投票。 麥美娟又說，選委會不同界別的候選人都透過競選工程，讓選民認識其政綱，從而作出選擇。她希望選民能把握機會，選出德才兼備、對社會有貢獻的人士。 編輯：譚佩貞",
+   "at": "2026-11-22T04:08+00:00",
    "where": [
     22.32,
     114.17,
@@ -394,11 +394,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Catherine talks openly about how cancer changed her in documentary on BBC",
-   "u": "https://www.bbc.co.uk/news/articles/c85y14zvexz9o?at_medium=RSS&at_campaign=rss",
-   "d": "\"There is a much, much deeper part to what a cancer diagnosis shifts in you,\" says Catherine in the documentary.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c010/live/8fc02730-e5a7-11f1-8df2-d7de7bfd91b9.jpg",
-   "at": "2026-11-21T12:00+00:00",
+   "t": "Theresa May 'aghast' at Burnham's EU plans and says 'Brexit is done'",
+   "u": "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o?at_medium=RSS&at_campaign=rss",
+   "d": "\"Just accept Brexit and move on,\" the former prime minister told BBC's Laura Kuenssberg.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4fb1/live/99436a80-e5f0-11f1-b1d8-fd34c88a50a0.jpg",
+   "at": "2026-11-22T06:01+00:00",
    "where": [
     52.5,
     -1.5,
@@ -408,11 +408,16 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "These dead pets were meant to be cremated - then their bodies appeared on a livestream",
-   "u": "https://www.bbc.co.uk/news/articles/cmn502ek17yvo?at_medium=RSS&at_campaign=rss",
-   "d": "Grieving Filipinos confront a distressing reality: their dogs and cats may not have received the send-off they paid for.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c4bc/live/7ab356d0-e4f5-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-20T23:20+00:00"
+   "t": "Dozens missing after fire at Indonesian factory",
+   "u": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+   "d": "At least three people were killed and four injured in a fire at a confectionary factory over the weekend.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0675/live/85d2f2e0-e62c-11f1-b2ea-350d14ed1ad7.jpg",
+   "at": "2026-11-22T06:05+00:00",
+   "where": [
+    -0.8,
+    113.9,
+    "印尼"
+   ]
   },
   {
    "src": "US & CANADA",
@@ -501,11 +506,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Spitting Image co-creator Peter Fluck dies aged 85",
-   "u": "https://www.bbc.co.uk/news/articles/cm3vg9dqr6zyo?at_medium=RSS&at_campaign=rss",
-   "d": "The 85-year-old he died in the early hours of Saturday at home in Cornwall, following a recent illness.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5613/live/accb12d0-e5e4-11f1-9ab8-8737221634d6.jpg",
-   "at": "2026-11-21T21:39+00:00",
+   "t": "UK should only rejoin EU if it innovates on technology, Blair warns",
+   "u": "https://www.bbc.co.uk/news/articles/c893r4923wngo?at_medium=RSS&at_campaign=rss",
+   "d": "The former prime minister argues the European Union is probably moving in the wrong direction on technology innovation.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2cc5/live/a77124b0-e5d9-11f1-9ab8-8737221634d6.jpg",
+   "at": "2026-11-21T19:33+00:00",
    "where": [
     52.5,
     -1.5,
@@ -515,16 +520,11 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "A new Nepal, an old neighbour - Balendra Shah's India test on first visit",
-   "u": "https://www.bbc.co.uk/news/articles/c6jre8xd83qgo?at_medium=RSS&at_campaign=rss",
-   "d": "Trade, connectivity and regional cooperation will be on top of the agenda when Nepal's PM meets his India counterpart.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6ce4/live/0cd0ed60-e3e9-11f1-a16c-7de3762c094b.jpg",
-   "at": "2026-11-20T23:28+00:00",
-   "where": [
-    21.0,
-    78.0,
-    "印度"
-   ]
+   "t": "These dead pets were meant to be cremated - then their bodies appeared on a livestream",
+   "u": "https://www.bbc.co.uk/news/articles/cmn502ek17yvo?at_medium=RSS&at_campaign=rss",
+   "d": "Grieving Filipinos confront a distressing reality: their dogs and cats may not have received the send-off they paid for.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c4bc/live/7ab356d0-e4f5-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-20T23:20+00:00"
   },
   {
    "src": "US & CANADA",
@@ -613,11 +613,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "UK should only rejoin EU if it innovates on technology, Blair warns",
-   "u": "https://www.bbc.co.uk/news/articles/c893r4923wngo?at_medium=RSS&at_campaign=rss",
-   "d": "The former prime minister argues the European Union is probably moving in the wrong direction on technology innovation.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2cc5/live/a77124b0-e5d9-11f1-9ab8-8737221634d6.jpg",
-   "at": "2026-11-21T19:33+00:00",
+   "t": "BBC apologises for 'any offence caused' by Strictly noise disruption",
+   "u": "https://www.bbc.co.uk/news/articles/cm8e0p5dexy6o?at_medium=RSS&at_campaign=rss",
+   "d": "Lancashire police says a mobile phone has been seized and it is assessing whether any criminal offences may have taken place.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/73a1/live/9ea5a0c0-e621-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-22T04:39+00:00",
    "where": [
     52.5,
     -1.5,
@@ -627,15 +627,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Bowen: Myanmar genocide verdict is historic and could have far-reaching implications",
-   "u": "https://www.bbc.co.uk/news/articles/c6ly58ndgd0no?at_medium=RSS&at_campaign=rss",
-   "d": "Lawyers will study the way in which The Gambia proved the crucial point that Myanmar intended to commit genocide, writes the BBC's international editor.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d6fc/live/482060d0-e489-11f1-844f-c7a24d31dcc3.jpg",
-   "at": "2026-11-19T20:02+00:00",
+   "t": "A new Nepal, an old neighbour - Balendra Shah's India test on first visit",
+   "u": "https://www.bbc.co.uk/news/articles/c6jre8xd83qgo?at_medium=RSS&at_campaign=rss",
+   "d": "Trade, connectivity and regional cooperation will be on top of the agenda when Nepal's PM meets his India counterpart.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6ce4/live/0cd0ed60-e3e9-11f1-a16c-7de3762c094b.jpg",
+   "at": "2026-11-20T23:28+00:00",
    "where": [
-    21.9,
-    95.96,
-    "緬甸"
+    21.0,
+    78.0,
+    "印度"
    ]
   },
   {
@@ -725,29 +725,29 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Australia hold on for narrow win against Wales",
-   "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm25ev1z8y8o?at_medium=RSS&at_campaign=rss",
-   "d": "Wales could not emulate their famous victory against New Zealand as Australia claimed the Nations Championship spoils in Cardiff.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9dd5/live/e5f01650-e5ee-11f1-b1d8-fd34c88a50a0.jpg",
-   "at": "2026-11-21T22:25+00:00",
+   "t": "Catherine talks openly about how cancer changed her in documentary on BBC",
+   "u": "https://www.bbc.co.uk/news/articles/c85y14zvexz9o?at_medium=RSS&at_campaign=rss",
+   "d": "\"There is a much, much deeper part to what a cancer diagnosis shifts in you,\" says Catherine in the documentary.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c010/live/8fc02730-e5a7-11f1-8df2-d7de7bfd91b9.jpg",
+   "at": "2026-11-21T12:00+00:00",
    "where": [
-    -25.3,
-    133.8,
-    "澳洲"
+    52.5,
+    -1.5,
+    "英國"
    ]
   },
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "South Korea catches 111 students with new measures against exam cheating",
-   "u": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo?at_medium=RSS&at_campaign=rss",
-   "d": "The students were caught with banned smart devices while taking the high-stakes Suneung exam.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f32a/live/51464610-e4cb-11f1-8ebd-0fa6091698b5.jpg",
-   "at": "2026-11-20T10:16+00:00",
+   "t": "Bowen: Myanmar genocide verdict is historic and could have far-reaching implications",
+   "u": "https://www.bbc.co.uk/news/articles/c6ly58ndgd0no?at_medium=RSS&at_campaign=rss",
+   "d": "Lawyers will study the way in which The Gambia proved the crucial point that Myanmar intended to commit genocide, writes the BBC's international editor.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d6fc/live/482060d0-e489-11f1-844f-c7a24d31dcc3.jpg",
+   "at": "2026-11-19T20:02+00:00",
    "where": [
-    37.57,
-    126.98,
-    "南韓"
+    21.9,
+    95.96,
+    "緬甸"
    ]
   },
   {
@@ -837,11 +837,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Village votes to 'leave UK' over migrant plan",
-   "u": "https://www.bbc.co.uk/news/articles/cvze71y6g85yo?at_medium=RSS&at_campaign=rss",
-   "d": "Barnham is the second village to declare \"independence\" in protest at plans to house asylum seekers.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c693/live/fd5f2ba0-e5da-11f1-9ab8-8737221634d6.jpg",
-   "at": "2026-11-21T19:51+00:00",
+   "t": "Man charged with attempted murder after Bradford councillor stabbed",
+   "u": "https://www.bbc.co.uk/news/articles/cmkgv2nlpy8ko?at_medium=RSS&at_campaign=rss",
+   "d": "Arfan Ali appears before magistrates charged over Thursday's attack on councillor Ibrar Ali.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bc67/live/17204b50-e4d7-11f1-ae38-71bf515761f1.jpg",
+   "at": "2026-11-21T12:06+00:00",
    "where": [
     52.5,
     -1.5,
@@ -851,15 +851,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Indonesian daycare principal jailed for five years over child abuse case",
-   "u": "https://www.bbc.co.uk/news/articles/cvkg58d7z10ro?at_medium=RSS&at_campaign=rss",
-   "d": "Toddlers were found with their hands and feet tied with rags when police raided the centre in April.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1787/live/a2be3860-e483-11f1-bb74-ddffc6a7ed93.jpg",
-   "at": "2026-11-20T01:48+00:00",
+   "t": "South Korea catches 111 students with new measures against exam cheating",
+   "u": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo?at_medium=RSS&at_campaign=rss",
+   "d": "The students were caught with banned smart devices while taking the high-stakes Suneung exam.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f32a/live/51464610-e4cb-11f1-8ebd-0fa6091698b5.jpg",
+   "at": "2026-11-20T10:16+00:00",
    "where": [
-    -0.8,
-    113.9,
-    "印尼"
+    37.57,
+    126.98,
+    "南韓"
    ]
   },
   {
@@ -949,29 +949,29 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Man charged with attempted murder after Bradford councillor stabbed",
-   "u": "https://www.bbc.co.uk/news/articles/cmkgv2nlpy8ko?at_medium=RSS&at_campaign=rss",
-   "d": "Arfan Ali appears before magistrates charged over Thursday's attack on councillor Ibrar Ali.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bc67/live/17204b50-e4d7-11f1-ae38-71bf515761f1.jpg",
-   "at": "2026-11-21T12:06+00:00",
+   "t": "Serious crash closes M42 near Birmingham Airport",
+   "u": "https://www.bbc.co.uk/news/articles/c8vg2pd5707wo?at_medium=RSS&at_campaign=rss",
+   "d": "Drivers describe seeing a \"huge fire\" from cars on the M42 motorway.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6a32/live/851f0970-e5ae-11f1-a3d4-adbb3f9e5dfd.png",
+   "at": "2026-11-21T21:30+00:00",
    "where": [
-    52.5,
-    -1.5,
-    "英國"
+    52.49,
+    -1.89,
+    "伯明翰"
    ]
   },
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "China issues Mount Fuji warning as family of missing climber offers reward",
-   "u": "https://www.bbc.co.uk/news/articles/c61wr088jnzzo?at_medium=RSS&at_campaign=rss",
-   "d": "The $75,000 reward offered by Chen Jie's family has sparked fears of more reckless climbing attempts.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7477/live/03075bf0-e495-11f1-aa9a-13606df278ac.jpg",
-   "at": "2026-11-20T04:13+00:00",
+   "t": "Indonesian daycare principal jailed for five years over child abuse case",
+   "u": "https://www.bbc.co.uk/news/articles/cvkg58d7z10ro?at_medium=RSS&at_campaign=rss",
+   "d": "Toddlers were found with their hands and feet tied with rags when police raided the centre in April.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1787/live/a2be3860-e483-11f1-bb74-ddffc6a7ed93.jpg",
+   "at": "2026-11-20T01:48+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    -0.8,
+    113.9,
+    "印尼"
    ]
   },
   {
@@ -1060,11 +1060,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Staff gagging clauses lifted ahead of probe into culture at data watchdog",
-   "u": "https://www.bbc.co.uk/news/articles/cwdr1xyzr5lmo?at_medium=RSS&at_campaign=rss",
-   "d": "Ministers are expected to publish the details of how an independent review of the working environment at the Information Commission will be carried out next week.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/578a/live/71169aa0-e505-11f1-b40b-5f46e8cf687c.jpg",
-   "at": "2026-11-21T06:01+00:00",
+   "t": "Village votes to 'leave UK' over migrant plan",
+   "u": "https://www.bbc.co.uk/news/articles/cvze71y6g85yo?at_medium=RSS&at_campaign=rss",
+   "d": "Barnham is the second village to declare \"independence\" in protest at plans to house asylum seekers.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c693/live/fd5f2ba0-e5da-11f1-9ab8-8737221634d6.jpg",
+   "at": "2026-11-21T19:51+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1074,15 +1074,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Myanmar committed genocide against Rohingya minority, top UN court rules",
-   "u": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
-   "d": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d789/live/7c1a8b30-e435-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-19T20:07+00:00",
+   "t": "China issues Mount Fuji warning as family of missing climber offers reward",
+   "u": "https://www.bbc.co.uk/news/articles/c61wr088jnzzo?at_medium=RSS&at_campaign=rss",
+   "d": "The $75,000 reward offered by Chen Jie's family has sparked fears of more reckless climbing attempts.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7477/live/03075bf0-e495-11f1-aa9a-13606df278ac.jpg",
+   "at": "2026-11-20T04:13+00:00",
    "where": [
-    21.9,
-    95.96,
-    "緬甸"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
@@ -1171,29 +1171,29 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "England run up record win over New Zealand in rugby union's Nations Championship",
-   "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo?at_medium=RSS&at_campaign=rss",
-   "d": "England's revival roars up a gear as they beat New Zealand by a record margin after former captain Lewis Moody leads the hosts' response to the haka.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/afc0/live/c8a34840-e5c8-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-21T16:08+00:00",
+   "t": "Rare Titanic items sell for record-breaking sums",
+   "u": "https://www.bbc.co.uk/news/articles/cme872563304o?at_medium=RSS&at_campaign=rss",
+   "d": "The items sold included a watch, ring and letter belonging to passengers from different classes.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f7eb/live/4eb5f6f0-84d3-11f1-8a1f-271692b35cb6.jpg",
+   "at": "2026-11-21T19:25+00:00",
    "where": [
-    -41.3,
-    174.8,
-    "紐西蘭"
+    52.5,
+    -1.5,
+    "英國"
    ]
   },
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Cumin-laced fizzy sodas are giving cola giants a tough fight in India",
-   "u": "https://www.bbc.co.uk/news/articles/cw1m4ym7ez2eo?at_medium=RSS&at_campaign=rss",
-   "d": "Cumin-laced sodas are capturing a bigger market share in India as demand for homegrown flavours goes up.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9306/live/f4b27990-e31d-11f1-baab-4b3b35d174b7.jpg",
-   "at": "2026-11-19T23:29+00:00",
+   "t": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+   "u": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+   "d": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d789/live/7c1a8b30-e435-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-19T20:07+00:00",
    "where": [
-    21.0,
-    78.0,
-    "印度"
+    21.9,
+    95.96,
+    "緬甸"
    ]
   },
   {
@@ -1268,11 +1268,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Former journalist and Lost Lives author David McKittrick dies",
-   "u": "https://www.bbc.co.uk/news/articles/cmkgd515jp47o?at_medium=RSS&at_campaign=rss",
-   "d": "David McKittrick was best known for his work during the Troubles, and his book Lost Lives.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4051/live/fa8d1420-e5bf-11f1-a188-ff49e70cc466.jpg",
-   "at": "2026-11-21T16:47+00:00",
+   "t": "Man dies putting up shopping centre festive lights",
+   "u": "https://www.bbc.co.uk/news/articles/c64gnr08d0dpo?at_medium=RSS&at_campaign=rss",
+   "d": "The shopping centre said the incident happened during overnight Christmas lights installation works.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cbeb/live/9b57d8f0-e5ab-11f1-a42b-e1717a876d49.jpg",
+   "at": "2026-11-21T16:17+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1295,11 +1295,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Scouts say they face £1m tourist tax cost for overnight trips",
-   "u": "https://www.bbc.co.uk/news/articles/cxdd1e9yvlzjo?at_medium=RSS&at_campaign=rss",
-   "d": "The increased cost after the proposed Visitors Levy is imposed could price some young people out of joining Scout camps and other trips, the group said.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8a35/live/b16af070-a12a-11f1-8c37-3f30331ac537.jpg",
-   "at": "2026-11-21T13:29+00:00",
+   "t": "Spitting Image co-creator Peter Fluck dies aged 85",
+   "u": "https://www.bbc.co.uk/news/articles/cm3vg9dqr6zyo?at_medium=RSS&at_campaign=rss",
+   "d": "The 85-year-old he died in the early hours of Saturday at home in Cornwall, following a recent illness.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5613/live/accb12d0-e5e4-11f1-9ab8-8737221634d6.jpg",
+   "at": "2026-11-21T21:39+00:00",
    "where": [
     52.5,
     -1.5,
