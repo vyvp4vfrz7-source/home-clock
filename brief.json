@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-21T18:00+00:00",
+ "updated": "2026-11-22T06:00+00:00",
  "en": {
-  "greeting": "Good evening — Saturday 21 November",
+  "greeting": "Good morning — Sunday 22 November",
   "sections": [
    {
     "h": "Top stories",
     "items": [
      {
-      "t": "Russian missile lands in Poland during allied drills",
-      "d": "Tusk called it a Moscow 'provocation'. No one was hurt, but it came as Ukraine's allies held a military exercise, raising NATO tensions again.",
-      "u": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro"
+      "t": "Trump seeks 'permanent' Iran deal, says no rush",
+      "d": "Trump said any deal must stop Iran ever getting a nuclear weapon, but he could wait until 2027. Tankers were hit near Hormuz as the strait stays shut.",
+      "u": "https://www.yahoo.com/news/politics/articles/trump-insists-hes-not-rushing-145502949.html"
      },
      {
-      "t": "Zelensky defends Crimean Bridge strikes in UK talks",
-      "d": "Meeting Britain's Wes Streeting, Zelensky called the strikes a 'fair response' to 109 Russian air attacks on Ukrainian bridges, after Russia hit Kyiv crossings.",
-      "u": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo"
+      "t": "Trump and Xi back human control of military AI",
+      "d": "US Treasury Secretary Bessent said the two leaders agreed AI must not make military decisions without humans involved, a rare joint limit on AI in warfare.",
+      "u": "https://www.defensenews.com/global/asia-pacific/2026/11/20/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says/"
      },
      {
-      "t": "Denmark accuses Russia of plot to kill rapper",
-      "d": "Copenhagen expelled Russia's defence attaché over an alleged plan to assassinate a US-Ukrainian rapper. Russia's embassy denies it.",
-      "u": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno"
+      "t": "US tech stocks suffer worst week since Covid",
+      "d": "AI doubts drove a steep sell-off: the Nasdaq fell over 5% on Friday and chipmakers slumped, pushing tech shares toward a bear market despite Anthropic's listing.",
+      "u": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/"
      }
     ]
    },
@@ -27,24 +27,14 @@
     "h": "World & politics",
     "items": [
      {
-      "t": "ANC fights to hold South Africa's big cities",
-      "d": "After a local election setback, the ANC seems reluctant to repeat its national power-sharing deal with the pro-business DA in city councils.",
-      "u": "https://www.bbc.co.uk/news/articles/cqpv94d10rwpo"
+      "t": "NATO stands with Poland after Russian missiles land",
+      "d": "Two Russian missiles and a drone fell in south-east Poland during an attack on Ukraine. Tusk called it a deliberate provocation; analysts doubt NATO's Article 5 will be used.",
+      "u": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond"
      },
      {
-      "t": "Mexican cartel boss on FBI most-wanted list caught",
-      "d": "Fausto Isidro Meza Flores, accused of drug trafficking and torture, was arrested after a gunfight, a major win for US-Mexico cooperation.",
-      "u": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o"
-     },
-     {
-      "t": "Nepal's new PM tests ties on first India visit",
-      "d": "Balendra Shah's talks in Delhi focus on trade, connectivity and regional cooperation, a key test of Nepal's balance between India and China.",
-      "u": "https://www.bbc.co.uk/news/articles/c6jre8xd83qgo"
-     },
-     {
-      "t": "Cost-of-living protests sweep Europe",
-      "d": "Thousands marched in cities across Europe on Friday over living costs and other grievances, a sign of pressure on governments.",
-      "u": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o"
+      "t": "Violence in Sinaloa after 'El Chapo Isidro' capture",
+      "d": "Mexican forces caught FBI most-wanted cartel boss Fausto Isidro Meza Flores; burning cars, blockades and deadly clashes followed in Sinaloa.",
+      "u": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico"
      }
     ]
    },
@@ -52,19 +42,19 @@
     "h": "Business & economy",
     "items": [
      {
-      "t": "Tech sell-off pushes S&P 500 and Dow into correction",
-      "d": "Anthropic shares slid after its debut and tech stocks fell, dragging both indexes more than 10% below their peaks.",
-      "u": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo"
+      "t": "Anthropic valued near $1.8 trillion after record IPO",
+      "d": "The Claude maker's stock debut was the biggest AI listing yet, but it could not stop the wider market slide that followed.",
+      "u": "https://www.cnn.com/2026/11/19/business/live-news/anthropic-ipo"
      },
      {
-      "t": "Bayer's $7.25bn Roundup settlement approved",
-      "d": "A US judge approved the deal covering people with non-Hodgkin lymphoma linked to the weedkiller, including future cases, easing a huge legal risk for Bayer.",
-      "u": "https://www.bbc.co.uk/news/articles/cwvg21gyl650o"
+      "t": "Bank of Canada raises interest rates",
+      "d": "Canada's central bank lifted its key rate as inflation stays stubborn, joining others signalling tighter policy rather than cuts.",
+      "u": "https://www.riotimesonline.com/bank-of-canada-rate-hike-explained-2026/"
      },
      {
-      "t": "US group beats China to $60bn Kenya minerals deal",
-      "d": "A US consortium won rights to Mrima Hill's critical minerals, part of Washington's push to cut reliance on Chinese supply chains.",
-      "u": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o"
+      "t": "John Deere buys farm-AI firm Orchard Robotics",
+      "d": "The tractor giant is buying the start-up, whose camera systems count and map fruit, to expand precision tools for orchards and vineyards.",
+      "u": "https://agfundernews.com/john-deere-orchard-robotics-deal-signals-growing-value-of-actionable-farm-data-says-ag-robotics-og"
      }
     ]
    },
@@ -72,29 +62,29 @@
     "h": "Technology",
     "items": [
      {
-      "t": "Trump threatens ban on US AI data centres abroad",
-      "d": "Trump floated stopping US firms building AI data centres overseas but gave few details, adding uncertainty for big tech's global expansion plans.",
-      "u": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko"
+      "t": "Report: Nvidia sought chip exports to China military-linked firms",
+      "d": "A report says Nvidia pursued AI chip sales to companies tied to China's military, adding pressure as Washington tightens export controls.",
+      "u": "https://biz.chosun.com/en/en-international/2026/11/21/YE6UOEWBZJGVHLWYYRFTQKU2OY/"
      },
      {
-      "t": "Anthropic mathematician claims AI-aided Riemann proof",
-      "d": "He says an AI helped prove maths' most famous unsolved problem. Experts stress the claim needs long, careful verification before anyone celebrates.",
-      "u": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o"
+      "t": "Bell Canada says 'agentic' AI hacker stole data",
+      "d": "The telecom firm said an attacker using autonomous AI tools took enterprise customer data in a breach on 17 November.",
+      "u": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/"
      },
      {
-      "t": "FBI probes apparent hack of national crime database",
-      "d": "The National Crime Information Center, used by police across the US to share records, may have been breached, a serious security worry.",
-      "u": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o"
+      "t": "AI agents found zero-day in medical imaging server",
+      "d": "Attackers' AI agents discovered an unknown flaw in the MONAI Label medical-imaging tool, a sign AI is speeding up real-world hacking.",
+      "u": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
      },
      {
-      "t": "OpenAI reportedly picks Foxconn to build its phone",
-      "d": "The iPhone assembler would make OpenAI's first smartphone, signalling the ChatGPT maker's push into its own hardware.",
-      "u": "https://businesstoday.in/technology/news/story/openais-first-smartphone-chatgpt-maker-reportedly-picks-iphone-supplier-foxconn-for-assembly-568684-2026-11-20"
+      "t": "BADBOX botnet returns with 40bn daily ad requests",
+      "d": "The malware network, hidden in cheap Android TV boxes and gadgets, is back at record scale for ad fraud. Avoid unbranded streaming boxes.",
+      "u": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/"
      },
      {
-      "t": "Smart devices catch 111 exam cheats in South Korea",
-      "d": "New detection measures caught students with banned gadgets during the high-stakes Suneung university entrance exam.",
-      "u": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo"
+      "t": "SpaceX launches spy satellites for US NRO",
+      "d": "A Falcon 9 carried another batch of National Reconnaissance Office satellites from California, part of a fast-growing US surveillance constellation.",
+      "u": "https://spaceflightnow.com/2026/11/21/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office-3"
      }
     ]
    },
@@ -102,19 +92,19 @@
     "h": "Science & health",
     "items": [
      {
-      "t": "Study finds why microplastics may be more harmful",
-      "d": "Researchers identified a mechanism suggesting microplastics could pose greater health risks than thought, adding urgency to studies of their effects.",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261120075549.htm"
+      "t": "US measles cases hit highest level since 1991",
+      "d": "Nearly 5,840 confirmed cases have been reported in 2026, as falling vaccination rates let outbreaks spread.",
+      "u": "https://ianslive.in/us-reports-nearly-5840-confirmed-measles-cases-in-2026-highest-since-1991--20261121110258"
      },
      {
-      "t": "Nigeria moves to stop jailing attempted suicide",
-      "d": "A proposed reform, long urged by psychiatrists, would treat attempted suicide as a health issue rather than a crime.",
-      "u": "https://www.bbc.co.uk/news/articles/cm3rgnvxj339o"
+      "t": "AI video spots early delirium in ICU patients",
+      "d": "Stanford researchers built a camera system that watches ICU patients and flags early signs of delirium, which staff often miss.",
+      "u": "https://hai.stanford.edu/news/ai-enabled-video-system-monitors-icu-patients-for-early-signs-of-delirium"
      },
      {
-      "t": "Next halts baby sleeping bag after safety alarm",
-      "d": "A mother found the neck hole was too big, letting a baby slip down inside; the retailer stopped sales.",
-      "u": "https://www.bbc.co.uk/news/articles/cw9874p114dro"
+      "t": "AI predicts three pregnancy complications early",
+      "d": "Kaiser Permanente models flag risks such as pre-eclampsia earlier in pregnancy, giving doctors more time to act.",
+      "u": "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/kaiser-permanente-ai-models-predict-3-pregnancy-complications-early/"
      }
     ]
    },
@@ -122,44 +112,44 @@
     "h": "UK",
     "items": [
      {
-      "t": "Miliband: EU deal not tied to tuition fees",
-      "d": "He said the reset deal does not depend on cutting fees for EU students, after Brussels suggested it might.",
-      "u": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o"
+      "t": "Burnham to meet Birmingham pub bombings families",
+      "d": "The PM pledged to meet relatives of the 21 killed in 1974, who want a judge-led public inquiry; talks are expected early in the new year.",
+      "u": "https://www.itv.com/news/central/2026-11-21/andy-burnham-to-meet-birmingham-pub-bombings-families-in-major-breakthrough"
      },
      {
-      "t": "England thrash New Zealand by record margin",
-      "d": "England's rugby revival gathered pace with their biggest ever win over the All Blacks in the Nations Championship.",
-      "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo"
+      "t": "Hundreds march in London for tougher AI rules",
+      "d": "Protesters marched to Downing Street on Saturday, citing scientists' warnings about the risks of advanced AI.",
+      "u": "https://www.ibtimes.co.uk/london-protesters-demand-tougher-advanced-ai-controls-1820296"
      },
      {
-      "t": "Man charged after Bradford councillor stabbed",
-      "d": "Arfan Ali is charged with attempted murder over Thursday's attack on councillor Ibrar Ali.",
-      "u": "https://www.bbc.co.uk/news/articles/cmkgv2nlpy8ko"
+      "t": "UK borrowing hits £17bn in October",
+      "d": "It was the third-highest October on record, with £11.2bn spent on debt interest, squeezing the Chancellor's room before the budget.",
+      "u": "https://www.dailymail.co.uk/news/article-16308283/Taxes-record-debt-Labour-spending-splurge-Government-borrowing.html"
      }
     ]
    }
   ]
  },
  "zh": {
-  "greeting": "晚安 — 11月21日星期六",
+  "greeting": "早晨 — 11月22日星期日",
   "sections": [
    {
     "h": "頭條新聞",
     "items": [
      {
-      "t": "俄羅斯導彈落入波蘭 時值盟國軍演",
-      "d": "波蘭總理圖斯克指事件是莫斯科「挑釁」。事件無人受傷，但發生於烏克蘭盟友舉行軍演期間，令北約局勢再度緊張。",
-      "u": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro"
+      "t": "特朗普稱要與伊朗達「永久」協議 不急於行動",
+      "d": "特朗普表示任何協議須永久阻止伊朗擁核，但可等到2027年才決定下一步。霍爾木茲海峽仍然封閉，附近有油輪遇襲。",
+      "u": "https://www.yahoo.com/news/politics/articles/trump-insists-hes-not-rushing-145502949.html"
      },
      {
-      "t": "澤連斯基晤英方 為襲擊克里米亞大橋辯護",
-      "d": "澤連斯基與英國的斯特里廷會面，稱襲擊大橋是對俄方109次空襲烏克蘭橋樑的「合理回應」；俄軍早前轟炸基輔多條過河通道。",
-      "u": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo"
+      "t": "特朗普與習近平同意軍用AI須由人類把關",
+      "d": "美國財長貝森特表示，兩國領導人同意軍事決策不能交由AI獨自作出，是中美罕有就戰爭中使用AI設限。",
+      "u": "https://www.defensenews.com/global/asia-pacific/2026/11/20/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says/"
      },
      {
-      "t": "丹麥指俄羅斯密謀暗殺饒舌歌手",
-      "d": "丹麥驅逐俄羅斯國防武官，指俄方策劃暗殺一名美籍烏克蘭裔饒舌歌手。俄羅斯大使館否認指控。",
-      "u": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno"
+      "t": "美國科技股錄得新冠疫情以來最差一周",
+      "d": "市場對AI前景存疑引發拋售，納指周五跌逾5%，晶片股急挫，科技股逼近熊市，Anthropic上市亦未能扭轉跌勢。",
+      "u": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/"
      }
     ]
    },
@@ -167,24 +157,14 @@
     "h": "國際及政治",
     "items": [
      {
-      "t": "非國大力保南非大城市控制權",
-      "d": "地方選舉失利後，非洲人國民大會似乎不願在市議會複製與親商界民主聯盟的全國分權安排。",
-      "u": "https://www.bbc.co.uk/news/articles/cqpv94d10rwpo"
+      "t": "北約力撐波蘭 俄導彈落入波蘭境內",
+      "d": "俄羅斯空襲烏克蘭期間，兩枚導彈及一架無人機墮落波蘭東南部。總理圖斯克斥為蓄意挑釁，分析認為北約不大可能啟動第五條。",
+      "u": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond"
      },
      {
-      "t": "FBI十大通緝墨西哥毒梟槍戰後落網",
-      "d": "被控販毒及施酷刑的梅薩·弗洛雷斯經駁火後被捕，是美墨合作打擊毒品的重大成果。",
-      "u": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o"
-     },
-     {
-      "t": "尼泊爾新總理首訪印度 考驗兩國關係",
-      "d": "巴倫德拉·沙阿在新德里的會談以貿易、互聯互通及區域合作為重點，考驗尼泊爾在印度與中國之間的平衡。",
-      "u": "https://www.bbc.co.uk/news/articles/c6jre8xd83qgo"
-     },
-     {
-      "t": "歐洲多地爆發生活成本抗議",
-      "d": "周五歐洲多個城市有數以千計民眾遊行，抗議生活成本高昂等問題，反映各國政府承受壓力。",
-      "u": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o"
+      "t": "「El Chapo Isidro」落網 錫那羅亞爆發暴力",
+      "d": "墨西哥部隊拘捕美國聯邦調查局頭號通緝毒梟梅薩弗洛雷斯，錫那羅亞州隨即出現焚車、路障及致命衝突。",
+      "u": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico"
      }
     ]
    },
@@ -192,19 +172,19 @@
     "h": "商業及經濟",
     "items": [
      {
-      "t": "科技股拋售 標普500及道指陷調整市",
-      "d": "Anthropic上市後股價下滑，科技股普遍下跌，拖累兩大指數較高位回落超過一成。",
-      "u": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo"
+      "t": "Anthropic破紀錄上市 市值近1.8萬億美元",
+      "d": "Claude開發商Anthropic上市為史上最大AI企業招股，但未能阻止其後大市下滑。",
+      "u": "https://www.cnn.com/2026/11/19/business/live-news/anthropic-ipo"
      },
      {
-      "t": "拜耳72.5億美元除草劑和解獲批",
-      "d": "美國法官批准和解方案，賠償因使用Roundup除草劑而患非霍奇金淋巴瘤的人士，包括日後患病者，減輕拜耳的巨大法律風險。",
-      "u": "https://www.bbc.co.uk/news/articles/cwvg21gyl650o"
+      "t": "加拿大央行加息",
+      "d": "加拿大央行因通脹頑固上調基準利率，與其他央行一樣轉向收緊而非減息。",
+      "u": "https://www.riotimesonline.com/bank-of-canada-rate-hike-explained-2026/"
      },
      {
-      "t": "美國財團擊敗中國對手 奪肯尼亞600億美元礦權",
-      "d": "美國財團取得姆里馬山關鍵礦產開採權，是華府減少依賴中國供應鏈的部署之一。",
-      "u": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o"
+      "t": "John Deere收購農業AI公司Orchard Robotics",
+      "d": "農機巨頭收購這家以鏡頭點算及繪製果實分佈的初創，擴展果園及葡萄園的精準農業工具。",
+      "u": "https://agfundernews.com/john-deere-orchard-robotics-deal-signals-growing-value-of-actionable-farm-data-says-ag-robotics-og"
      }
     ]
    },
@@ -212,29 +192,29 @@
     "h": "科技",
     "items": [
      {
-      "t": "特朗普揚言禁美企在海外建AI數據中心",
-      "d": "特朗普提出或禁止美國企業在海外興建AI數據中心，但未有交代細節，令大型科技公司的全球擴張計劃添變數。",
-      "u": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko"
+      "t": "報道指Nvidia曾尋求向與中國軍方有關公司出口晶片",
+      "d": "報道指Nvidia曾爭取向與中國軍方有關連的公司出售AI晶片，在美國收緊出口管制下令公司承受更大壓力。",
+      "u": "https://biz.chosun.com/en/en-international/2026/11/21/YE6UOEWBZJGVHLWYYRFTQKU2OY/"
      },
      {
-      "t": "Anthropic數學家稱借助AI證明黎曼猜想",
-      "d": "他表示AI協助證明了數學界最著名的未解難題。專家強調，聲稱須經長時間嚴謹驗證。",
-      "u": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o"
+      "t": "加拿大Bell指AI代理駭客盜取客戶資料",
+      "d": "這家電訊公司表示，有攻擊者利用自主AI工具於11月17日入侵，盜取企業客戶資料。",
+      "u": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/"
      },
      {
-      "t": "FBI調查全國罪案資料庫疑遭入侵",
-      "d": "全美警方用以共享紀錄的國家犯罪資訊中心資料庫疑被入侵，引起嚴重保安疑慮。",
-      "u": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o"
+      "t": "AI代理發現醫療影像伺服器零日漏洞",
+      "d": "攻擊者的AI代理在醫療影像工具MONAI Label發現未知漏洞，顯示AI正加快真實世界的入侵速度。",
+      "u": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
      },
      {
-      "t": "報道指OpenAI選富士康組裝手機",
-      "d": "這家iPhone組裝商將生產OpenAI首部智能手機，顯示ChatGPT開發商積極進軍自家硬件。",
-      "u": "https://businesstoday.in/technology/news/story/openais-first-smartphone-chatgpt-maker-reportedly-picks-iphone-supplier-foxconn-for-assembly-568684-2026-11-20"
+      "t": "BADBOX殭屍網絡捲土重來 每日發出400億廣告請求",
+      "d": "這個藏於廉價Android電視盒等裝置的惡意網絡以破紀錄規模重現，用作廣告詐騙。宜避免使用無品牌串流盒。",
+      "u": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/"
      },
      {
-      "t": "南韓新措施揪出111名考試作弊考生",
-      "d": "在高風險的大學入學試修能考試中，新偵測措施發現考生攜帶違禁智能裝置。",
-      "u": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo"
+      "t": "SpaceX為美國國家偵察局發射間諜衛星",
+      "d": "Falcon 9火箭從加州再發射一批國家偵察局衛星，屬美國迅速擴展中的偵察衛星群。",
+      "u": "https://spaceflightnow.com/2026/11/21/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office-3"
      }
     ]
    },
@@ -242,19 +222,19 @@
     "h": "科學及健康",
     "items": [
      {
-      "t": "研究揭微塑膠或比想像中更有害",
-      "d": "研究人員發現一種機制，顯示微塑膠對健康的風險可能高於預期，令相關研究更顯迫切。",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261120075549.htm"
+      "t": "美國麻疹個案創1991年來新高",
+      "d": "美國今年已錄得近5,840宗確診，疫苗接種率下降令疫情擴散。",
+      "u": "https://ianslive.in/us-reports-nearly-5840-confirmed-measles-cases-in-2026-highest-since-1991--20261121110258"
      },
      {
-      "t": "尼日利亞擬取消企圖自殺入獄刑罰",
-      "d": "精神科醫生多年來爭取的改革建議，將企圖自殺視為健康問題而非罪行。",
-      "u": "https://www.bbc.co.uk/news/articles/cm3rgnvxj339o"
+      "t": "AI影像系統及早識別深切治療部病人譫妄",
+      "d": "史丹福大學研究人員開發鏡頭系統監察深切治療部病人，及早發現醫護人員常忽略的譫妄徵狀。",
+      "u": "https://hai.stanford.edu/news/ai-enabled-video-system-monitors-icu-patients-for-early-signs-of-delirium"
      },
      {
-      "t": "Next停售嬰兒睡袋 母親揭安全隱患",
-      "d": "一名母親發現睡袋頸口過大，嬰兒可滑入袋內，零售商已停售。",
-      "u": "https://www.bbc.co.uk/news/articles/cw9874p114dro"
+      "t": "AI及早預測三種妊娠併發症",
+      "d": "Kaiser Permanente的模型可在懷孕較早階段預測先兆子癇等風險，讓醫生有更多時間處理。",
+      "u": "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/kaiser-permanente-ai-models-predict-3-pregnancy-complications-early/"
      }
     ]
    },
@@ -262,19 +242,19 @@
     "h": "英國",
     "items": [
      {
-      "t": "文禮彬：英歐協議不取決於學費",
-      "d": "他表示英歐重啟協議並不取決於調低歐盟學生學費，此前布魯塞爾曾暗示可能掛鈎。",
-      "u": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o"
+      "t": "賓咸將會見伯明翰酒吧爆炸案家屬",
+      "d": "首相承諾會見1974年爆炸案21名死者的家屬，家屬要求由法官主持公開調查，會面預計明年初舉行。",
+      "u": "https://www.itv.com/news/central/2026-11-21/andy-burnham-to-meet-birmingham-pub-bombings-families-in-major-breakthrough"
      },
      {
-      "t": "英格蘭破紀錄大勝新西蘭",
-      "d": "英格蘭欖球隊在國家錦標賽以史上最大比數擊敗全黑隊，復興勢頭加快。",
-      "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo"
+      "t": "數百人倫敦遊行 要求收緊AI規管",
+      "d": "示威者周六遊行至唐寧街，引述科學家對先進AI風險的警告。",
+      "u": "https://www.ibtimes.co.uk/london-protesters-demand-tougher-advanced-ai-controls-1820296"
      },
      {
-      "t": "布拉德福德市議員遇襲 男子被控謀殺未遂",
-      "d": "阿凡·阿里被控於周四襲擊市議員易卜拉·阿里，涉嫌謀殺未遂。",
-      "u": "https://www.bbc.co.uk/news/articles/cmkgv2nlpy8ko"
+      "t": "英國10月借貸達170億英鎊",
+      "d": "為有紀錄以來第三高的10月數字，其中112億英鎊用於支付債務利息，令財相在預算案前的空間更緊。",
+      "u": "https://www.dailymail.co.uk/news/article-16308283/Taxes-record-debt-Labour-spending-splurge-Government-borrowing.html"
      }
     ]
    }
@@ -282,16 +262,80 @@
  },
  "sources": [
   {
-   "title": "BBC News",
-   "url": "https://www.bbc.co.uk/news"
+   "title": "Trump seeks 'permanent' Iran deal, says no rush",
+   "url": "https://www.yahoo.com/news/politics/articles/trump-insists-hes-not-rushing-145502949.html"
   },
   {
-   "title": "Business Today",
-   "url": "https://businesstoday.in/technology/news/story/openais-first-smartphone-chatgpt-maker-reportedly-picks-iphone-supplier-foxconn-for-assembly-568684-2026-11-20"
+   "title": "Trump and Xi back human control of military AI",
+   "url": "https://www.defensenews.com/global/asia-pacific/2026/11/20/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says/"
   },
   {
-   "title": "ScienceDaily",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261120075549.htm"
+   "title": "US tech stocks suffer worst week since Covid",
+   "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/"
+  },
+  {
+   "title": "NATO stands with Poland after Russian missiles land",
+   "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond"
+  },
+  {
+   "title": "Violence in Sinaloa after 'El Chapo Isidro' capture",
+   "url": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico"
+  },
+  {
+   "title": "Anthropic valued near $1.8 trillion after record IPO",
+   "url": "https://www.cnn.com/2026/11/19/business/live-news/anthropic-ipo"
+  },
+  {
+   "title": "Bank of Canada raises interest rates",
+   "url": "https://www.riotimesonline.com/bank-of-canada-rate-hike-explained-2026/"
+  },
+  {
+   "title": "John Deere buys farm-AI firm Orchard Robotics",
+   "url": "https://agfundernews.com/john-deere-orchard-robotics-deal-signals-growing-value-of-actionable-farm-data-says-ag-robotics-og"
+  },
+  {
+   "title": "Report: Nvidia sought chip exports to China military-linked firms",
+   "url": "https://biz.chosun.com/en/en-international/2026/11/21/YE6UOEWBZJGVHLWYYRFTQKU2OY/"
+  },
+  {
+   "title": "Bell Canada says 'agentic' AI hacker stole data",
+   "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/"
+  },
+  {
+   "title": "AI agents found zero-day in medical imaging server",
+   "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
+  },
+  {
+   "title": "BADBOX botnet returns with 40bn daily ad requests",
+   "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/"
+  },
+  {
+   "title": "SpaceX launches spy satellites for US NRO",
+   "url": "https://spaceflightnow.com/2026/11/21/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office-3"
+  },
+  {
+   "title": "US measles cases hit highest level since 1991",
+   "url": "https://ianslive.in/us-reports-nearly-5840-confirmed-measles-cases-in-2026-highest-since-1991--20261121110258"
+  },
+  {
+   "title": "AI video spots early delirium in ICU patients",
+   "url": "https://hai.stanford.edu/news/ai-enabled-video-system-monitors-icu-patients-for-early-signs-of-delirium"
+  },
+  {
+   "title": "AI predicts three pregnancy complications early",
+   "url": "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/kaiser-permanente-ai-models-predict-3-pregnancy-complications-early/"
+  },
+  {
+   "title": "Burnham to meet Birmingham pub bombings families",
+   "url": "https://www.itv.com/news/central/2026-11-21/andy-burnham-to-meet-birmingham-pub-bombings-families-in-major-breakthrough"
+  },
+  {
+   "title": "Hundreds march in London for tougher AI rules",
+   "url": "https://www.ibtimes.co.uk/london-protesters-demand-tougher-advanced-ai-controls-1820296"
+  },
+  {
+   "title": "UK borrowing hits £17bn in October",
+   "url": "https://www.dailymail.co.uk/news/article-16308283/Taxes-record-debt-Labour-spending-splurge-Government-borrowing.html"
   }
  ]
 }
