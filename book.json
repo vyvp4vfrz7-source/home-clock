@@ -1,64 +1,63 @@
 {
- "date": "2026-11-21",
- "updated": "2026-11-21T05:09:56+00:00",
- "id": "stations-louise-kennedy",
- "t": "Stations",
- "tz": "停靠站",
+ "date": "2026-11-22",
+ "updated": "2026-11-22T05:09:38+00:00",
+ "id": "the-telephone-james-gleick",
+ "t": "The Telephone: A New History",
+ "tz": "電話：一部新歷史",
  "tz_note": "暫譯",
- "a": "Louise Kennedy",
- "published": "24 Sep 2026 (UK); 3 Nov 2026 (US)",
- "publisher": "Bloomsbury (UK); Riverhead (US)",
- "pages": 288,
+ "a": "James Gleick",
+ "az": "葛雷易克",
+ "published": "12 Nov 2026",
+ "publisher": "Picador (UK); Farrar, Straus and Giroux (US)",
+ "pages": 544,
  "isbn": [
-  "9781526664327",
-  "9780593714607"
+  "9781035056651",
+  "9780374618940"
  ],
- "cover_url": "https://mrbsemporium.com/wp-content/uploads/2026/06/9781526664327.jpg",
- "tag": "小說",
- "en": "The second novel from the Irish author of Trespasses. In 1982 teenage Róisín McCaffery, whose family has moved south from Belfast to the edge of Dublin, becomes close to Red Camelin. Red leaves for London, and Róisín later follows him into a squat in Pimlico, among the Irish community of Thatcher-era London. The story then jumps ahead decades, when the death of her father sends Róisín looking for Red again. Spanning about 25 years, it is a story of first love, friendship, family and class, and of the choices that quietly fix the shape of a life. For readers who like Sally Rooney, Claire Keegan or Maggie O'Farrell.",
- "zh": "《Trespasses》愛爾蘭女作家嘅第二本小說。1982年，少女Róisín一家由北愛搬到都柏林郊區，佢同少年Red成為好朋友。後來Red去咗倫敦，佢都跟住過去，住入Pimlico一間空置屋，喺戴卓爾年代嘅愛爾蘭人圈子度生活。故事再跳到幾十年後，父親過身，令佢再去搵Red。全書橫跨約25年，講初戀、友情、家庭同階級，同埋細小決定點樣改變一生。",
+ "cover_url": "https://ik.imagekit.io/panmac/tr:f-jpg,di-placeholder_portrait_aMjPtD9YZ.jpg,w-350/edition/9781035056644.jpg",
+ "tag": "科技",
+ "en": "The author of Chaos and The Information turns to the device that first carried voices across cities and oceans. Gleick shows the telephone was no single eureka: Johann Philipp Reis had a 'Telephon' in 1861, and Bell, Elisha Gray and Western Union fought over patents for decades. He follows AT&T's long monopoly, which held back inventions like the answering machine; the switchboard operators, mostly women; area codes, Bell Labs and Claude Shannon; and the phone's life in films, novels and pop songs. For anyone curious how today's networks, and perhaps AI, came to be.",
+ "zh": "寫過《混沌》同《資訊》嘅葛雷易克，今次講電話點樣改變人類溝通。原來電話唔係貝爾一人發明：1861年德國人Reis已整咗部「Telephon」，之後貝爾、Gray同Western Union為專利打咗幾十年官司。書中講AT&T點樣壟斷、壓住答錄機等新發明，亦講女接線生、區號、Bell Labs同Shannon，仲有電話喺電影、小說同流行曲嘅角色。想知今日網絡同人工智能點嚟，好啱睇。",
  "reviews": [
   {
-   "src": "The Boston Globe",
-   "d": "Cory Oldweiler calls it a rapturous, bittersweet love story that deserves a far wider readership.",
-   "dz": "評論人話佢係一個令人陶醉又苦甜參半嘅愛情故事，值得更多人讀。",
-   "url": "https://www.bostonglobe.com/2026/10/28/arts/louise-kennedy-stations-novel/"
+   "src": "Kirkus Reviews",
+   "d": "A ringing, exhaustive history of an everyday technology: everything you could want to know about the phone, and more.",
+   "dz": "一部響亮又詳盡嘅電話史，想知嘅全部都有，仲多過你想像。",
+   "url": "https://www.kirkusreviews.com/book-reviews/james-gleick/the-telephone/"
   },
   {
-   "src": "Bookreporter",
-   "d": "Norah Piehl praises its vivid Irish community in 1980s London and a heroine finding her way, with no easy answers.",
-   "dz": "讚佢寫活咗八十年代倫敦嘅愛爾蘭人圈子，冇俾簡單答案。",
-   "url": "https://www.bookreporter.com/reviews/stations"
+   "src": "Boston Globe",
+   "d": "Clear, instructive writing full of chance, accidents and eccentric inventors; a lovely read that leaves you wanting Gleick on AI next.",
+   "dz": "文筆清楚，充滿巧合同古怪發明家；好好睇，令人想佢下本寫AI。",
+   "url": "https://www.bostonglobe.com/2026/11/03/arts/james-gleick-telephone-history/"
   },
   {
-   "src": "Chapters Bookstore (Dublin)",
-   "d": "A bookseller found it heartbreaking at times but deeply satisfying: a novel about escape, memory and the homes we make.",
-   "dz": "書店店員話有時令人心碎，但好滿足：講逃離、記憶同自己建立嘅家。",
-   "url": "https://chaptersbookstore.com/blogs/news/louise-kennedy-s-stations-the-book-that-made-me-forget-my-phone-my-grief-and-the-room-i-was-in"
+   "src": "LA Review of Books",
+   "d": "Strong on Bell, patents and the global story, but rushes the smartphone era, so the ending feels like an anticlimax.",
+   "dz": "貝爾同專利戰寫得好，但智能電話時代講得太少，結尾有啲失望。",
+   "url": "https://lareviewofbooks.org/article/telephone-new-history-james-gleick-telegraph-pop-culture/"
+  },
+  {
+   "src": "Book Marks",
+   "d": "Critics' consensus is a rave: 5 raves and 3 positive reviews from 8, including the NYT and The New Yorker.",
+   "dz": "評論界一致讚好：8篇書評有5篇大讚、3篇正面。",
+   "url": "https://bookmarks.reviews/reviews/the-telephone-a-new-history/"
   }
  ],
- "ken": "Small choices made at seventeen can quietly decide the shape of a whole life.",
- "kzh": "十七歲時一個細小嘅決定，可以靜靜咁決定成世嘅樣。",
+ "ken": "Big technologies are rarely one genius's invention; they grow from many hands, patents and monopolies, and then reshape us.",
+ "kzh": "偉大科技好少係一個天才發明，係好多人、專利同壟斷砌出嚟，然後再改變我哋。",
  "sources": [
   {
-   "title": "Boston Globe review",
-   "url": "https://www.bostonglobe.com/2026/10/28/arts/louise-kennedy-stations-novel/"
+   "title": "Pan Macmillan: The Telephone",
+   "url": "https://www.panmacmillan.com/authors/james-gleick/the-telephone/9781035056644"
   },
   {
-   "title": "Bookreporter review",
-   "url": "https://www.bookreporter.com/reviews/stations"
+   "title": "Nautilus: 8 books for November",
+   "url": "https://nautil.us/forgotten-coding-queens-telephones-untangled-and-a-poisonous-quest-8-books-were-excited-to-read-this-november-1286136/"
   },
   {
-   "title": "Chapters Bookstore blog",
-   "url": "https://chaptersbookstore.com/blogs/news/louise-kennedy-s-stations-the-book-that-made-me-forget-my-phone-my-grief-and-the-room-i-was-in"
-  },
-  {
-   "title": "Penguin Random House (US edition)",
-   "url": "https://www.penguinrandomhouse.com/books/735417/stations-by-louise-kennedy/9780593714607/"
-  },
-  {
-   "title": "Mr B's Emporium (UK edition)",
-   "url": "https://mrbsemporium.com/shop/books/stations/"
+   "title": "Book Marks: The Telephone",
+   "url": "https://bookmarks.reviews/reviews/the-telephone-a-new-history/"
   }
  ]
 }
