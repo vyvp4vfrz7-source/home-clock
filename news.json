@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T23:31+00:00",
+ "updated": "2026-11-23T00:38+00:00",
  "items": [
   {
    "src": "香港",
@@ -18,15 +18,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "分析：APEC上與習近平、特朗普歷史性會晤，對普京是一場重大勝利",
-   "u": "https://www.bbc.com/zhongwen/articles/cq702kdw845ro/trad?at_medium=RSS&at_campaign=rss",
-   "d": "週四美國、中國和俄羅斯領導人的會晤將為普京（普丁）提供一個重要的舞台——但這並不會讓他離贏得烏克蘭戰爭更近一步。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/17b2/live/72c78770-e36f-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-22T03:46+00:00",
+   "t": "說唱歌手出身尼泊爾新總理首訪印度：如何平衡對華關係",
+   "u": "https://www.bbc.com/zhongwen/articles/c64gn9jl5lveo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "說唱歌手出身的尼泊爾新總理沙哈首訪印度，盼重啟關係並爭取山洪重建援助，但邊界爭議與經驗不足成考驗",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/6ce4/live/0cd0ed60-e3e9-11f1-a16c-7de3762c094b.jpg",
+   "at": "2026-11-23T00:09+00:00",
    "where": [
-    55.75,
-    37.6,
-    "俄羅斯"
+    21.0,
+    78.0,
+    "印度"
    ]
   },
   {
@@ -60,11 +60,10 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "以毒攻毒？道路安全研究人員找 《GTA》幫忙",
-   "u": "https://www.bbc.com/zhongwen/articles/c8p3vdpxwk5xo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "《俠盜獵車手》（GTA）系列中，玩家駕車在虛構城市裡橫衝直撞、大肆破壞，本來就是遊戲樂趣之一。但研究人員卻有不同想法。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/9076/live/00fe2880-de81-11f1-b88b-3f1671ea859d.jpg",
-   "at": "2026-11-22T06:19+00:00"
+   "t": "Anthropic公司或許已解決重大數學難題：黎曼猜想",
+   "u": "https://www.bbc.com/zhongwen/articles/cwe85gr487dno/trad?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/78a0/live/a0688a80-e531-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-23T00:10+00:00"
   },
   {
    "src": "世界",
@@ -97,11 +96,16 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "凱特王妃在BBC紀錄片《療癒》中談癌症如何改變了她",
-   "u": "https://www.bbc.com/zhongwen/articles/crn4kj25vqlyo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "凱特王妃在紀錄片的片段中說道。這部片記錄了她對疾病與康復過程的私人想法。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/c010/live/8fc02730-e5a7-11f1-8df2-d7de7bfd91b9.jpg",
-   "at": "2026-11-22T07:39+00:00"
+   "t": "APEC上與習近平、特朗普歷史性會晤，對普京是一場重大勝利",
+   "u": "https://www.bbc.com/zhongwen/articles/cq702kdw845ro/trad?at_medium=RSS&at_campaign=rss",
+   "d": "週四美國、中國和俄羅斯領導人的會晤將為普京（普丁）提供一個重要的舞台——但這並不會讓他離贏得烏克蘭戰爭更近一步。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/17b2/live/72c78770-e36f-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-22T03:46+00:00",
+   "where": [
+    55.75,
+    37.6,
+    "俄羅斯"
+   ]
   },
   {
    "src": "世界",
@@ -134,16 +138,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "菲律賓寵物火葬場醜聞：死去貓狗本應火化，但屍體卻出現在直播畫面中",
-   "u": "https://www.bbc.com/zhongwen/articles/cv62pjg5d533o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "許多傷心的菲律賓人面臨著一個令人痛心的現實：他們的寵物能並沒有得到應有的葬禮",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/c4bc/live/7ab356d0-e4f5-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-22T08:57+00:00",
-   "where": [
-    12.9,
-    121.8,
-    "菲律賓"
-   ]
+   "t": "以毒攻毒？道路安全研究人員找 《GTA》幫忙",
+   "u": "https://www.bbc.com/zhongwen/articles/c8p3vdpxwk5xo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "《俠盜獵車手》（GTA）系列中，玩家駕車在虛構城市裡橫衝直撞、大肆破壞，本來就是遊戲樂趣之一。但研究人員卻有不同想法。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/9076/live/00fe2880-de81-11f1-b88b-3f1671ea859d.jpg",
+   "at": "2026-11-22T06:19+00:00"
   },
   {
    "src": "世界",
@@ -176,11 +175,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "地球迎來新的「迷你月亮」——它並不孤單",
-   "u": "https://www.bbc.com/zhongwen/articles/cqy7rg0yyxxko/trad?at_medium=RSS&at_campaign=rss",
-   "d": "地球迎來新迷你衛星，體積極小且僅短暫繞行。同時存在準衛星與幽靈衛星等暫時天體，但皆遠不及月球，也無危險。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/6058/live/b11dbc70-ddd3-11f1-9053-236ccb99630c.jpg",
-   "at": "2026-11-22T01:30+00:00"
+   "t": "你的孩子會說謊嗎？這或許並非壞事",
+   "u": "https://www.bbc.com/zhongwen/articles/crvg2lyq7dxvo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "父母可能會因為孩子撒謊而生氣，但專家解釋說，這是孩子人格成長的過程",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/c771/live/6eeb3600-e3cf-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-23T00:10+00:00"
   },
   {
    "src": "世界",
@@ -361,16 +360,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "從倉頡換成漢語拼音：電腦輸入法會影響下一代學習中文嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/cxq6e216p7ylo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "香港教育局提出小學二年級學生應該初步掌握以「漢語拼音輸入法」在電腦上輸入中文。打字方式的改變，會如何影響下一代學習語言？",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7c0d/live/e9fc49e0-e4a8-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-20T06:12+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
+   "t": "凱特王妃在BBC紀錄片《療癒》中談癌症如何改變了她",
+   "u": "https://www.bbc.com/zhongwen/articles/crn4kj25vqlyo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "凱特王妃在紀錄片的片段中說道。這部片記錄了她對疾病與康復過程的私人想法。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/c010/live/8fc02730-e5a7-11f1-8df2-d7de7bfd91b9.jpg",
+   "at": "2026-11-22T07:39+00:00"
   },
   {
    "src": "HONG KONG",
@@ -445,11 +439,11 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "Australia hold on for narrow win against Wales",
-   "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm25ev1z8y8o?at_medium=RSS&at_campaign=rss",
-   "d": "Wales could not emulate their famous victory against New Zealand as Australia claimed the Nations Championship spoils in Cardiff.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9dd5/live/e5f01650-e5ee-11f1-b1d8-fd34c88a50a0.jpg",
-   "at": "2026-11-21T22:25+00:00",
+   "t": "Australian music legend Molly Meldrum dies aged 83",
+   "u": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o?at_medium=RSS&at_campaign=rss",
+   "d": "The promoter and broadcaster helped define the music tastes of Australians for decades.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0cfc/live/c3bcfc70-e6ce-11f1-a9db-c39c38a2d17c.jpg",
+   "at": "2026-11-22T23:51+00:00",
    "where": [
     -25.3,
     133.8,
@@ -557,15 +551,15 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "Sydney marathon champion Jepchirchir gets three-year doping ban",
-   "u": "https://www.bbc.co.uk/sport/athletics/articles/cv5y1e1zle88o?at_medium=RSS&at_campaign=rss",
-   "d": "Reigning world marathon champion Peres Jepchirchir is banned for three years for a doping violation.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c292/live/4a3d4a90-ced6-11f1-b2b0-07f43a3ad2d3.jpg",
-   "at": "2026-11-19T10:56+00:00",
+   "t": "Australia hold on for narrow win against Wales",
+   "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm25ev1z8y8o?at_medium=RSS&at_campaign=rss",
+   "d": "Wales could not emulate their famous victory against New Zealand as Australia claimed the Nations Championship spoils in Cardiff.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9dd5/live/e5f01650-e5ee-11f1-b1d8-fd34c88a50a0.jpg",
+   "at": "2026-11-21T22:25+00:00",
    "where": [
-    -33.87,
-    151.21,
-    "悉尼"
+    -25.3,
+    133.8,
+    "澳洲"
    ]
   },
   {
@@ -664,15 +658,15 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "Cummins' integrity not compromised - CA",
-   "u": "https://www.bbc.co.uk/sport/cricket/articles/c65y1gjnqe50o?at_medium=RSS&at_campaign=rss",
-   "d": "Cricket Australia has \"unequivocally rejected\" the suggestion that captain Pat Cummins' integrity has been compromised by the sandpaper scandal.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7262/live/0dfc94a0-e574-11f1-9d7f-154de60fca60.jpg",
-   "at": "2026-11-21T09:32+00:00",
+   "t": "Sydney marathon champion Jepchirchir gets three-year doping ban",
+   "u": "https://www.bbc.co.uk/sport/athletics/articles/cv5y1e1zle88o?at_medium=RSS&at_campaign=rss",
+   "d": "Reigning world marathon champion Peres Jepchirchir is banned for three years for a doping violation.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c292/live/4a3d4a90-ced6-11f1-b2b0-07f43a3ad2d3.jpg",
+   "at": "2026-11-19T10:56+00:00",
    "where": [
-    -25.3,
-    133.8,
-    "澳洲"
+    -33.87,
+    151.21,
+    "悉尼"
    ]
   },
   {
@@ -776,11 +770,11 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "Australia's Barty elected into Tennis Hall of Fame",
-   "u": "https://www.bbc.co.uk/sport/tennis/articles/c5n4eme37p4ko?at_medium=RSS&at_campaign=rss",
-   "d": "Three-time Grand Slam winner Ash Barty will be elected into the International Tennis Hall of Fame at a ceremony in August next year.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2c49/live/52d10070-e3e9-11f1-a16c-7de3762c094b.jpg",
-   "at": "2026-11-19T08:13+00:00",
+   "t": "Cummins' integrity not compromised - CA",
+   "u": "https://www.bbc.co.uk/sport/cricket/articles/c65y1gjnqe50o?at_medium=RSS&at_campaign=rss",
+   "d": "Cricket Australia has \"unequivocally rejected\" the suggestion that captain Pat Cummins' integrity has been compromised by the sandpaper scandal.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7262/live/0dfc94a0-e574-11f1-9d7f-154de60fca60.jpg",
+   "at": "2026-11-21T09:32+00:00",
    "where": [
     -25.3,
     133.8,
@@ -888,15 +882,15 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "Body of Melbourne Cup horse found dumped in Sydney skip",
-   "u": "https://www.bbc.co.uk/news/articles/ck1ewl2zjqgzo?at_medium=RSS&at_campaign=rss",
-   "d": "The remains of a top Australian racehorse that died of colic on Monday were found at a public rubbish tip.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/632b/live/b9ed96e0-e251-11f1-876d-1dfc6cf3b709.jpg",
-   "at": "2026-11-17T07:01+00:00",
+   "t": "Australia's Barty elected into Tennis Hall of Fame",
+   "u": "https://www.bbc.co.uk/sport/tennis/articles/c5n4eme37p4ko?at_medium=RSS&at_campaign=rss",
+   "d": "Three-time Grand Slam winner Ash Barty will be elected into the International Tennis Hall of Fame at a ceremony in August next year.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2c49/live/52d10070-e3e9-11f1-a16c-7de3762c094b.jpg",
+   "at": "2026-11-19T08:13+00:00",
    "where": [
-    -33.87,
-    151.21,
-    "悉尼"
+    -25.3,
+    133.8,
+    "澳洲"
    ]
   },
   {
@@ -1000,15 +994,15 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "Commonwealth medallist Lobban switches from Scotland to Australia",
-   "u": "https://www.bbc.co.uk/sport/olympics/articles/cmy0xn047w07o?at_medium=RSS&at_campaign=rss",
-   "d": "Scottish-born squash player Greg Lobban will represent Australia for the first time at this week's China Open.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/51df/live/fcdc7c40-e2a7-11f1-8226-87dfa5049e9a.jpg",
-   "at": "2026-11-17T16:54+00:00",
+   "t": "Body of Melbourne Cup horse found dumped in Sydney skip",
+   "u": "https://www.bbc.co.uk/news/articles/ck1ewl2zjqgzo?at_medium=RSS&at_campaign=rss",
+   "d": "The remains of a top Australian racehorse that died of colic on Monday were found at a public rubbish tip.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/632b/live/b9ed96e0-e251-11f1-876d-1dfc6cf3b709.jpg",
+   "at": "2026-11-17T07:01+00:00",
    "where": [
-    56.5,
-    -4.2,
-    "蘇格蘭"
+    -33.87,
+    151.21,
+    "悉尼"
    ]
   },
   {
@@ -1111,15 +1105,15 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
-   "u": "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss",
-   "d": "The MP lost both of her legs after the alleged attack outside her electorate office four weeks ago.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/083d/live/b9880d40-e15f-11f1-a6b7-c136ad7bd6e3.jpg",
-   "at": "2026-11-16T03:09+00:00",
+   "t": "Commonwealth medallist Lobban switches from Scotland to Australia",
+   "u": "https://www.bbc.co.uk/sport/olympics/articles/cmy0xn047w07o?at_medium=RSS&at_campaign=rss",
+   "d": "Scottish-born squash player Greg Lobban will represent Australia for the first time at this week's China Open.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/51df/live/fcdc7c40-e2a7-11f1-8226-87dfa5049e9a.jpg",
+   "at": "2026-11-17T16:54+00:00",
    "where": [
-    -25.3,
-    133.8,
-    "澳洲"
+    56.5,
+    -4.2,
+    "蘇格蘭"
    ]
   },
   {
