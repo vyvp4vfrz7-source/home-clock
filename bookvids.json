@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:34:34Z",
+ "updated": "2026-11-23T05:41:33Z",
  "books": {
   "the-end-of-everything-harrison": [
    {
@@ -15,19 +15,13 @@
     "len": "14:45"
    },
    {
-    "v": "LvZ9GoMuOjo",
-    "t": "Review: The End of Everything by M. John Harrison",
-    "ch": "Haste Ye Books",
-    "len": "3:02"
+    "v": "F_s_svq5tn8",
+    "t": "How To Read The 2026 Booker Prize Winner 'The End of Everything' by M John Harrison #literature",
+    "ch": "Outlaw Bookseller",
+    "len": "10:55"
    }
   ],
   "taiwan-travelogue-yang": [
-   {
-    "v": "re-oVkYyzMc",
-    "t": "【作家說｜EP47】我想為當代讀者示範，一個「外地人」眼中的臺灣──楊双子與蔡珠兒談《臺灣漫遊錄》有聲書",
-    "ch": "鏡好聽",
-    "len": "49:10"
-   },
    {
     "v": "Ku0TaghIB80",
     "t": "敘事視角，原來有這麼多鋩角？楊双子親自來聊《臺灣漫遊錄》｜創作招式帖",
@@ -35,30 +29,36 @@
     "len": "14:24"
    },
    {
-    "v": "Ro7GYUiC_5U",
-    "t": "Taiwan Travelogue: Yang Shuang-zi & Lin King — National Book Award & International Booker Prize",
-    "ch": "知定講堂 曹興誠",
-    "len": "17:05"
+    "v": "re-oVkYyzMc",
+    "t": "【作家說｜EP47】我想為當代讀者示範，一個「外地人」眼中的臺灣──楊双子與蔡珠兒談《臺灣漫遊錄》有聲書",
+    "ch": "鏡好聽",
+    "len": "49:10"
+   },
+   {
+    "v": "4v22OPLtdWI",
+    "t": "臺灣漫遊錄 ｜說書｜書評｜►經由兩位女性的美食與情感，穿越到1938年的臺灣。作者:楊双子",
+    "ch": "星星點燈",
+    "len": "17:27"
    }
   ],
   "the-correspondent-evans": [
    {
-    "v": "PAgy4qnTpYE",
-    "t": "The Correspondent by Virginia Evans | An Epistolary Masterpiece",
-    "ch": "Spencer Reads Everything",
-    "len": "20:12"
+    "v": "2VTKhHW3RHs",
+    "t": "The Correspondent by Virginia Evans |  A Novel Told Entirely in Letters?",
+    "ch": "Spineless Books",
+    "len": "6:36"
    },
    {
-    "v": "YDc-aTSKEkc",
-    "t": "The Correspondent by Virginia Evans / review",
-    "ch": "Eric Karl Anderson",
-    "len": "25:04"
+    "v": "Ct5b52tIXqg",
+    "t": "Author Virginia Evans talks 'The Correspondent'",
+    "ch": "Good Morning America",
+    "len": "4:00"
    },
    {
-    "v": "aoDipkOAXeI",
-    "t": "The Correspondent - Virginia Evans (Book Club Discussion)",
-    "ch": "So Approachable Podcast",
-    "len": "1:00:37"
+    "v": "kwPkEtxFdr4",
+    "t": "The Correspondent: The Story Behind the Unexpected Bestseller Everyone Is Reading",
+    "ch": "Oprah",
+    "len": "44:30"
    }
   ],
   "flesh-szalay": [
@@ -75,10 +75,10 @@
     "len": "11:13"
    },
    {
-    "v": "cMzbCxy0P50",
-    "t": "Maybe the Booker prize isn't so bad after all | Flesh by David Szalay",
-    "ch": "CriminOlly",
-    "len": "14:14"
+    "v": "SKrLdMYX0Ik",
+    "t": "David Szalay on his Booker Prize-winning novel 'Flesh'",
+    "ch": "PBS NewsHour",
+    "len": "6:16"
    }
   ],
   "naked-mountain-hon-lai-chu": [],
@@ -92,16 +92,16 @@
   ],
   "the-rouse-mieville": [
    {
-    "v": "tVY2r8vyUqA",
-    "t": "The Rouse by China Miéville · Audiobook preview",
-    "ch": "Google Play Books",
-    "len": "10:40"
-   },
-   {
     "v": "dBWI8mHkpQE",
     "t": "China Miéville : The Rouse",
     "ch": "Between the Covers Podcast",
     "len": "2:41:08"
+   },
+   {
+    "v": "tVY2r8vyUqA",
+    "t": "The Rouse by China Miéville · Audiobook preview",
+    "ch": "Google Play Books",
+    "len": "10:40"
    },
    {
     "v": "fyCnb83gKDY",
@@ -132,8 +132,14 @@
   ],
   "zaisheng-liu-tzu-chieh": [
    {
+    "v": "zJtQfI_QIdc",
+    "t": "Taiwan Literature Awards: Liu Zi-Jie's \"Rebirth\" Wins Grand Prize | PTS Taigi | 20261116 @taigita...",
+    "ch": "公視台語台新聞",
+    "len": "2:08"
+   },
+   {
     "v": "6cxelNNhgaE",
-    "t": "Taiwan Literature Awards: Liu Tzu-chieh Wins Grand Prize for \"Rebirth\" | Central News Agency Vide...",
+    "t": "Taiwan Literature Awards: Liu Tzu-chieh's \"Rebirth\" Wins Grand Prize | Central News Agency Video ...",
     "ch": "中央社",
     "len": "4:41"
    },
@@ -142,12 +148,6 @@
     "t": "【#102完整版】Podcast #給我一個故事的時間｜晚安再見，我正在前往check in的路上 ──#劉梓潔《#再生》──#華文小說#文學小說#世界上最完美的死法#晚安#再見",
     "ch": "Podcast 給我一個故事的時間",
     "len": "44:40"
-   },
-   {
-    "v": "zJtQfI_QIdc",
-    "t": "Taiwan Literature Awards: Liu Zi-Jie's \"Rebirth\" Wins Grand Prize | PTS Taigi | 20261116 @taigita...",
-    "ch": "公視台語台新聞",
-    "len": "2:08"
    }
   ],
   "snaliq-kao-jun-honn": [],
@@ -159,16 +159,16 @@
     "len": "16:39"
    },
    {
+    "v": "q53gW1Qbjh8",
+    "t": "像《納瓦爾寶典》那樣思考人生，這集一定令你有所收穫。｜千芸說書",
+    "ch": "千芸說書book review",
+    "len": "14:47"
+   },
+   {
     "v": "D1PRGLnyKsY",
     "t": "99%的人努力一輩子，卻用錯方法致富《納瓦爾寶典》納瓦爾·拉維肯特｜NeKo嗚喵．說書",
     "ch": "NeKo嗚喵",
     "len": "9:44"
-   },
-   {
-    "v": "t94_eGJbiqo",
-    "t": "從白手起家到財務自由， 矽谷傳奇創投家的投資哲學與人生智慧—《納瓦爾寶典》【5分鐘閱讀計畫】E60",
-    "ch": "博客來",
-    "len": "16:12"
    }
   ],
   "bs-rewire": [
@@ -193,22 +193,22 @@
   ],
   "bs-nordic-time": [
    {
-    "v": "uLR0EtON0H0",
-    "t": "北歐時間：世界第一幸福國度，教會我們怎麼慢下來生活",
-    "ch": "分手的99個理由",
-    "len": "28:13"
+    "v": "ZSXR68h50jo",
+    "t": "每天忙著照顧別人，誰來照顧你？｜五種時間，讓人生過得更幸福｜《北歐時間》｜睡前聽書",
+    "ch": "留一點時間 讀懂一本書   Booked Studio",
+    "len": "24:31"
    },
    {
-    "v": "eZ_VESnVSgM",
-    "t": "【型男老總愛說書】《北歐時間》#0102",
-    "ch": "Bravo913",
-    "len": "39:23"
+    "v": "yQ-vfIo1S8k",
+    "t": "在Threads上爆紅、網友讀到熱淚盈匡的療癒小書！掌握生活中的「這三種時間」，就能讓人生過得更幸福？！｜《北歐時間》",
+    "ch": "下一本讀什麼?",
+    "len": "16:46"
    },
    {
-    "v": "4FcgrHWlYGA",
-    "t": "'26.04.08【世界一把抓】郝旭烈 ╳ 祝子慧：北歐時間 最幸福國度教會我們的事",
-    "ch": "九八新聞台",
-    "len": "49:50"
+    "v": "gejg_xUDCXk",
+    "t": "Book Summary a Day: \"Nordic Time\": Why Do We Have More but Feel Less Happy?",
+    "ch": "今夜共读",
+    "len": "38:37"
    }
   ],
   "bs-toad": [
@@ -225,24 +225,24 @@
     "len": "8:16"
    },
    {
-    "v": "FhjM92elawY",
-    "t": "給我75分鐘，讓你心情越來越好。《蛤蟆先生去看心理師》",
-    "ch": "維思維WeisWay",
-    "len": "1:14:24"
+    "v": "Naz1HRGARiY",
+    "t": "📖 好書推薦｜蛤蟆先生去看心理師：是你自己選擇要生氣的！所有情緒都是自己的選擇",
+    "ch": "MissCrazy Apple",
+    "len": "14:18"
    }
   ],
   "bs-atomic-habits": [
-   {
-    "v": "j86YZfiCq5U",
-    "t": "【大大讀書】《原子習慣》（說書人：許景泰）",
-    "ch": "商戰CXO × 大大學院",
-    "len": "15:59"
-   },
    {
     "v": "4nmM9v0fLkY",
     "t": "懶惰蟲專用的原子習慣｜《打造理想人生的習慣大全》｜文森說書",
     "ch": "文森說書",
     "len": "9:29"
+   },
+   {
+    "v": "j86YZfiCq5U",
+    "t": "【大大讀書】《原子習慣》（說書人：許景泰）",
+    "ch": "商戰CXO × 大大學院",
+    "len": "15:59"
    },
    {
     "v": "ESWo40VJD24",
@@ -265,10 +265,10 @@
     "len": "17:40"
    },
    {
-    "v": "tbrfKFRg3ys",
-    "t": "全球熱銷破 1000 萬冊！《隨他們去》：放下對別人的期待，才能停止內耗｜經理人讀書會《隨他們去》",
-    "ch": "經理人",
-    "len": "47:06"
+    "v": "K8FPNVdQuys",
+    "t": "全球熱銷突破千萬冊！把握這兩個觀念就能改變人生？什麼是「隨他們去（Let Them）」與「讓我來（Let Me）」理論？｜《隨他們去》",
+    "ch": "下一本讀什麼?",
+    "len": "18:01"
    }
   ],
   "bs-diamond-sutra": [
@@ -285,10 +285,10 @@
     "len": "13:23"
    },
    {
-    "v": "PjL4znvZEA0",
-    "t": "【金剛經白話講座】2026/08/22 王思迅 香港暢銷書分享會【完整版】",
+    "v": "FE95cNB_Bnk",
+    "t": "【金剛經白話講座】金剛經教我們的三件事｜完整版【王思迅】",
     "ch": "大雁文化",
-    "len": "1:04:53"
+    "len": "34:48"
    }
   ],
   "bs-cafe-end-world": [
@@ -305,10 +305,10 @@
     "len": "53:53"
    },
    {
-    "v": "jaQNRqMZT2c",
-    "t": "生活過得還不錯，卻莫名空虛？《世界盡頭的咖啡館》3個思考，活成自己想要的樣子！｜經理人讀書會《世界盡頭的咖啡館》《重返世界盡頭的咖啡館》",
-    "ch": "經理人",
-    "len": "28:53"
+    "v": "AajpgifUiVQ",
+    "t": "一間詭異咖啡館，菜單上的三個問題，如何改變一個人的人生｜〈世界盡頭的咖啡館〉在說什麼｜詳細書評與解讀",
+    "ch": "富腦袋學社",
+    "len": "24:49"
    }
   ],
   "bs-mind-your-own": [
@@ -319,16 +319,16 @@
     "len": "2:07:09"
    },
    {
-    "v": "lCUnuEezk0E",
-    "t": "總是活在別人的眼光裡，覺得好累好痛苦？聽懂好書《人生只有兩件事，關你屁事和關我屁事》：終結討好型人格，奪回人生主動權｜你以為的善良，其實是沒有邊界的軟弱#精神內耗 #人生智慧  #自我成長 #心理學",
-    "ch": "聽懂好書",
-    "len": "22:46"
-   },
-   {
     "v": "Jl-buM5-2eE",
     "t": "睡前讀《人生只有兩件事，關你屁事和關我屁事》：藉由課題分離釐清責任歸屬，收回對他人情緒的過度承擔。#精神內耗 #心理成長 #心靈成長 #自我照顧 #課題分離 #阿德勒 #人際關係 #情緒勒索",
     "ch": "静夜书话",
     "len": "29:18"
+   },
+   {
+    "v": "lCUnuEezk0E",
+    "t": "總是活在別人的眼光裡，覺得好累好痛苦？聽懂好書《人生只有兩件事，關你屁事和關我屁事》：終結討好型人格，奪回人生主動權｜你以為的善良，其實是沒有邊界的軟弱#精神內耗 #人生智慧  #自我成長 #心理學",
+    "ch": "聽懂好書",
+    "len": "22:46"
    }
   ],
   "nyt-a-court-of-splintered-harmony": [
@@ -373,22 +373,22 @@
   ],
   "nyt-the-calamity-club": [
    {
-    "v": "VnHppEZXsuA",
-    "t": "The Calamity Club- Unpopular Opinion ",
-    "ch": "Enter the Book",
-    "len": "11:45"
-   },
-   {
     "v": "-F6dB9ZQSVc",
     "t": "The Calamity Club by Kathryn Stockett | Spoiler-Free Review",
     "ch": "SofiaReads",
     "len": "6:47"
    },
    {
-    "v": "pz7d4lnbgCU",
-    "t": "I Read The Calamity Club So You Don't Have To (Spoilers & Author Rant)",
-    "ch": "Juline Moussa",
-    "len": "27:26"
+    "v": "zJ7iXD36lqs",
+    "t": "The Calamity Club by Kathryn Stockett | Book Summery",
+    "ch": "Bookology",
+    "len": "7:41"
+   },
+   {
+    "v": "5JN6I_woIZE",
+    "t": "The Calamity Club Review | Kathryn Stockett’s Most Ambitious Novel?",
+    "ch": "Harry's Book cafe",
+    "len": "22:34"
    }
   ],
   "nyt-the-french-illusion": [
@@ -399,10 +399,10 @@
     "len": "9:41"
    },
    {
-    "v": "0BgP8d-o2qc",
-    "t": "Brief Book Review - The French Illusion by John Grisham",
-    "ch": "Brief Book Reviews",
-    "len": "11:03"
+    "v": "xI0DXTQ8RxY",
+    "t": "Author John Grisham tackles his first-ever spy novel with new book, 'The French Illusion'",
+    "ch": "MS NOW",
+    "len": "10:14"
    },
    {
     "v": "4CGTlbrS830",
@@ -425,10 +425,10 @@
     "len": "7:32"
    },
    {
-    "v": "W6nE0lbrKr8",
-    "t": "Michael Connelly discusses The Hollow",
-    "ch": "The Poisoned Pen Bookstore",
-    "len": "16:50"
+    "v": "Yp00z4Flg6Y",
+    "t": "Michael Connelly's Book Club: THE HOLLOW",
+    "ch": "Little, Brown and Company",
+    "len": "1:00:35"
    }
   ],
   "nyt-the-witch": [
@@ -453,22 +453,22 @@
   ],
   "nyt-a-married-little-christmas": [
    {
-    "v": "lEfQJvQ10jA",
-    "t": "A Married Little Christmas by Abby Jimenez | Summary | Holiday Romantic Comedy",
-    "ch": "URSummary (Your Summary) - Audio Book Summaries",
-    "len": "21:35"
-   },
-   {
     "v": "_SePqx3gLP4",
     "t": "A Married Little Christmas Review: Abby Jimenez's Holiday Hit?",
     "ch": "Open Books Studio",
     "len": "4:56"
    },
    {
-    "v": "ODrH1GyZx_o",
-    "t": "★ avis livresque : a married little christmas (abby jimenez)",
-    "ch": "Whimsy Limonette",
-    "len": "4:03"
+    "v": "lEfQJvQ10jA",
+    "t": "A Married Little Christmas by Abby Jimenez | Summary | Holiday Romantic Comedy",
+    "ch": "URSummary (Your Summary) - Audio Book Summaries",
+    "len": "21:35"
+   },
+   {
+    "v": "YcYLJOrGfiE",
+    "t": "A Married Little Christmas Abby Jimenez: Full Summary",
+    "ch": "Book Explained",
+    "len": "9:45"
    }
   ],
   "nyt-defy-the-dusk": [
@@ -479,25 +479,19 @@
     "len": "1:20:52"
    },
    {
-    "v": "z_sP5SO6ruw",
-    "t": "Is Defy the Dusk by Danielle L. Jensen good?! I new anticipated ROMANTASY",
-    "ch": "AjaReads",
-    "len": "52:02"
-   },
-   {
     "v": "gN17YW-Vmd8",
     "t": "DEFY THE DUSK: Mad Max Meets Romantasy | Fantasy Book Review",
     "ch": "Hot Off The Press - Book Reviews",
     "len": "6:51"
+   },
+   {
+    "v": "z_sP5SO6ruw",
+    "t": "Is Defy the Dusk by Danielle L. Jensen good?! I new anticipated ROMANTASY",
+    "ch": "AjaReads",
+    "len": "52:02"
    }
   ],
   "nyt-the-pirate-queen": [
-   {
-    "v": "6p14LTIK4PQ",
-    "t": "Why this book matters. The Pirate Queen by Ariel Lawhon #bookreview #books",
-    "ch": "AmeliaReadsBooks1",
-    "len": "2:54"
-   },
    {
     "v": "LD6tAK2Qfk8",
     "t": "Why You Should Read The Pirate Queen",
@@ -505,13 +499,38 @@
     "len": "15:42"
    },
    {
-    "v": "qVNT1yibqQA",
-    "t": "Author Ariel Lawhon on her new novel \"The Pirate Queen\"",
-    "ch": "CBS New York",
-    "len": "4:15"
+    "v": "6p14LTIK4PQ",
+    "t": "Why this book matters. The Pirate Queen by Ariel Lawhon #bookreview #books",
+    "ch": "AmeliaReadsBooks1",
+    "len": "2:54"
+   },
+   {
+    "v": "xk8DJUZ0_lU",
+    "t": "📚The Pirate Queen by Ariel Lawhon #booktok #bookreview #historicalfiction #thepiratequeen",
+    "ch": "Lori Wild",
+    "len": "2:29"
    }
   ],
-  "nyt-the-gift": [],
+  "nyt-the-gift": [
+   {
+    "v": "1x7XOICV2GU",
+    "t": "The Gift By Freida McFadden | Full Audiobook Summary Free & Review",
+    "ch": "Audiobook Free",
+    "len": "2:25"
+   },
+   {
+    "v": "M5HpcVCHZVQ",
+    "t": "'The Gift' by Freida McFadden, Review ",
+    "ch": "Chloe Huntington",
+    "len": "9:03"
+   },
+   {
+    "v": "W9T54AHNnn4",
+    "t": "The Gift by Freida Mcfadden 💜📓💜 A Panic at the Book Club Discussion Review 💜📓💜",
+    "ch": "Terri Westwell",
+    "len": "14:45"
+   }
+  ],
   "ib-9781639739134": [
    {
     "v": "Pyg6oRUMhyk",
@@ -526,10 +545,10 @@
     "len": "32:16"
    },
    {
-    "v": "MDBmQem0S30",
-    "t": "A Court of Splintered Harmony Book Review: Spoiler + Non-Spoiler Review",
-    "ch": "Loch’s Library",
-    "len": "28:10"
+    "v": "aBpmwlZCBp0",
+    "t": "Was A Court of Splintered Harmony Worth The Wait? 🔥 Sarah J Maas Spoiler Reading Vlog & Discussion",
+    "ch": "Becca and The Books",
+    "len": "49:38"
    }
   ],
   "ib-9780385550345": [
@@ -546,10 +565,10 @@
     "len": "2:54"
    },
    {
-    "v": "qVNT1yibqQA",
-    "t": "Author Ariel Lawhon on her new novel \"The Pirate Queen\"",
-    "ch": "CBS New York",
-    "len": "4:15"
+    "v": "xk8DJUZ0_lU",
+    "t": "📚The Pirate Queen by Ariel Lawhon #booktok #bookreview #historicalfiction #thepiratequeen",
+    "ch": "Lori Wild",
+    "len": "2:29"
    }
   ],
   "ib-9781954118812": [
@@ -566,10 +585,10 @@
     "len": "7:41"
    },
    {
-    "v": "MScVeiHonW4",
-    "t": "Kathryn Stockett for The Calamity Club",
-    "ch": "Square Books",
-    "len": "44:58"
+    "v": "5JN6I_woIZE",
+    "t": "The Calamity Club Review | Kathryn Stockett’s Most Ambitious Novel?",
+    "ch": "Harry's Book cafe",
+    "len": "22:34"
    }
   ],
   "ib-9780063577541": [
@@ -580,16 +599,16 @@
     "len": "5:41"
    },
    {
-    "v": "8HzQCj1BUSw",
-    "t": "Partita by Barbara Kingsolver - the music of a life",
-    "ch": "Milly's Book Shelf",
-    "len": "6:27"
+    "v": "8nqR5yERc24",
+    "t": "Barbara Kingsolver New Book: Is Partita Worth It?",
+    "ch": "Book Explained",
+    "len": "9:20"
    },
    {
-    "v": "Fx5oh6s_u8M",
-    "t": "Partita by Barbara Kingsolver | Literary Fiction Book Summary",
-    "ch": "URSummary (Your Summary) - Audio Book Summaries",
-    "len": "20:32"
+    "v": "Xe3EZXQgzsI",
+    "t": "The Arcadia Book Club discusses Partita by Barbara Kingsolver",
+    "ch": "Arcadia Books Presents",
+    "len": "1:05:19"
    }
   ],
   "ib-9781668251065": [
@@ -620,16 +639,16 @@
     "len": "12:15"
    },
    {
-    "v": "ceRLaf-DGt0",
-    "t": "Author Min Jin Lee on \"American Hagwon\"",
-    "ch": "CBS Sunday Morning",
-    "len": "6:53"
-   },
-   {
     "v": "CmhWBPpUJC4",
     "t": "American Hagwon by Min Jin Lee | SPOILER FREE Book Review",
     "ch": "Brithney",
     "len": "13:00"
+   },
+   {
+    "v": "ceRLaf-DGt0",
+    "t": "Author Min Jin Lee on \"American Hagwon\"",
+    "ch": "CBS Sunday Morning",
+    "len": "6:53"
    }
   ],
   "ib-9781538780046": [],
@@ -641,16 +660,16 @@
     "len": "14:46"
    },
    {
-    "v": "Bj-UBVeCR3I",
-    "t": "The Booker Winner Everyone’s Arguing About (I Loved It) | The End of Everything",
-    "ch": "TBRKyle",
-    "len": "18:16"
+    "v": "F_s_svq5tn8",
+    "t": "How To Read The 2026 Booker Prize Winner 'The End of Everything' by M John Harrison #literature",
+    "ch": "Outlaw Bookseller",
+    "len": "10:55"
    },
    {
-    "v": "50eXMbVLzfU",
-    "t": "‘The End of Everything’ by M. John Harrison- The 2026 Booker Prize Longlist ",
-    "ch": "Bob The Bookerer",
-    "len": "19:54"
+    "v": "nPef2vYosdc",
+    "t": "What to Read Next by M. John Harrison, Winner of the 2026 Booker Prize for \"The End of Everything\"",
+    "ch": "Speculative Reader",
+    "len": "14:45"
    }
   ],
   "ib-9780063511637": [
