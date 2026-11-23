@@ -1,18 +1,60 @@
 {
- "updated": "2026-11-23T14:51+00:00",
+ "updated": "2026-11-23T15:53+00:00",
  "items": [
   {
    "src": "香港",
    "lang": "zh",
-   "t": "海關「雙十一」購物節期間採取行動 檢約12萬件冒牌貨",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878979-20261123.htm",
-   "d": "海關上月23日起，一連三星期採取行動，重點打擊「雙十一」購物節期間，跨境轉運及供應本地冒牌貨物活動。行動中，偵破39宗案件，檢獲共約12萬件懷疑冒牌貨物，估計市值共約6800萬，拘捕兩人。 海關鎖定位於新界的多間物流公司進行突擊搜查，並偵破多宗案件，亦於屯門內河船碼頭抽查3個從內地抵港的貨櫃，檢獲3批懷疑冒牌貨物。檢獲的懷疑冒牌貨物，包括手錶、鞋、衣服、電子產品和眼鏡等。海關相信檢獲的懷疑冒牌貨物全部均轉口至海外地區。案件仍在調查中。 …",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878979_1_M_20261123222821.jpg",
-   "at": "2026-11-23T13:32+00:00",
+   "t": "上星期本港錄得4宗社區感染退伍軍人病個案",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878990-20261123.htm",
+   "d": "衞生防護中心公布，在本月15日至21日期間，中心錄得4宗社區感染退伍軍人病個案，初步調查顯示相關個案屬散發個案，沒有資料顯示有關個案與本港早前錄得的其他確診個案有流行病學關連。 4宗個案涉及一男三女，年齡介乎66至89歲，全部有長期病患，分別居於東區、大埔區及中西區。中心正展開流行病學調查，以找出可能的感染源頭和高風險接觸因素。 編輯：李俊傑",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878990_1_M_20261123232044.jpg",
+   "at": "2026-11-23T15:16+00:00",
    "where": [
     22.32,
     114.17,
     "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "黃仁勳辭職11天後重掌Nvidia：白宮背書下上演大逆轉，盤前股價漲超30%",
+   "u": "https://www.bbc.com/zhongwen/articles/cqvg2947xvx0o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "從一週前斷然拒絕其回歸，到如今全票通過復職，英偉達完成了一次戲劇性轉向。投資者的反應同樣直接：消息公佈後，公司股價在紐約盤前交易中上升一度超過30%。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/95ec/live/efcce770-e74c-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-23T15:02+00:00",
+   "where": [
+    38.9,
+    -77.04,
+    "美國"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "特朗普：沒理由相信黃仁勳回歸Nvidia會帶來國家安全風險",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878987-20261123.htm",
+   "d": "美國晶片製造商Nvidia董事會宣布，捲入婚外情及國家安全醜聞的黃仁勳已恢復擔任行政總裁，即時生效。 集團在公告表示，在與黃仁勳進行一系列討論和會議後，董事會一致決定恢復他的職務，集團滿意黃仁勳的坦誠和領導能力，在作出決定的過程中，董事會聽取了美國政府高層的意見，並確信黃仁勳的復職不會構成國家安全風險。 公告又說，鑑於近期有報道指黃仁勳已成爲外國情報機構的目標，董事會已成立完全由獨立董事組成的委員會調查，調查將會持續至完成。董事會近期亦…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878987_1_M_20261123225455.jpg",
+   "at": "2026-11-23T14:54+00:00",
+   "where": [
+    38.9,
+    -77.04,
+    "美國"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "陳茂波英國劍橋出席圓桌會議 冀與英國攜手把科研成果轉化為產業",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878989-20261123.htm",
+   "d": "財政司司長陳茂波在英國劍橋，出席由香港貿發局與劍橋大學可持續領導力學院合辦的「英國—香港創新對話」圓桌會議。他致辭時表示，香港與英國的科研合作基礎深厚，雙方優勢互補。期望在資金、聯通和人才三方面加強合作，攜手把科研成果轉化為產業，並帶往更廣闊的市場。 陳茂波指出，在「InnoHK創新香港研發平台」下，全球超過30所大學和科研機構與香港的院校合作設立聯合實驗室，其中8所來自英國，劍橋大學是3所研發中心的合作夥伴。 陳茂波表示，香港為科技企…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878989_1_M_20261123232246.jpg",
+   "at": "2026-11-23T15:13+00:00",
+   "where": [
+    52.5,
+    -1.5,
+    "英國"
    ]
   },
   {
@@ -30,11 +72,85 @@
    "t": "Nvidia董事會恢復黃仁勳行政總裁職務",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1878983-20261123.htm",
    "d": "Nvidia公布，董事會一致通過恢復黃仁勳行政總裁職務，即時生效。 集團指，經過與黃仁勳進行一系列討論與會面，董事會對黃仁勳的坦誠態度及領導能力感到滿意，同時董事會亦聽取美國政府高層的意見，有信心黃仁勳復職不會構成國家安全風險。 消息公布後，Nvidia在美股盤前交易曾急升29%。 編輯：羅煒皓",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878983_1_M_20261123225629.jpg",
    "at": "2026-11-23T14:02+00:00",
    "where": [
     38.9,
     -77.04,
     "美國"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "寶勒巷交通意外 被捕男子被控危險駕駛引致他人死亡等罪明早提堂",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878988-20261123.htm",
+   "d": "尖沙咀寶勒巷昨日發生致命交通意外，一架私家車懷疑剷上行人路，造成一死三傷。涉案的38歲男司機，被警方暫控「危險駕駛引致他人死亡」罪、「發生意外後沒有報案」罪、及「被取消駕駛資格期間駕駛」等多項罪名，明日上午在九龍城裁判法院提堂。 事發在昨日下午，警方表示，涉案司機駕駛私家車駛入寶勒巷前，先於緬甸臺撞到一支交通標誌柱，其後在赫德道再撞到另一架停泊在路旁的輕型貨車。涉事私家車未有停下，右轉入寶勒巷，撞到4名途人。司機在意外發生後下車逃離現場…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878988_1_M_20261123231916.jpg",
+   "at": "2026-11-23T15:07+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "Anthropic公司或許已解決重大數學難題：黎曼猜想",
+   "u": "https://www.bbc.com/zhongwen/articles/cwe85gr487dno/trad?at_medium=RSS&at_campaign=rss",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/78a0/live/a0688a80-e531-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-23T00:10+00:00"
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "比利時大規模示威及罷工 反對政府計劃推行緊縮政策",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878981-20261123.htm",
+   "d": "比利時爆發大規模示威及罷工，反對政府計劃推行緊縮政策，交通和公共服務大受影響。 在首都布魯塞爾，警方估計有5萬人上街遊行，部分示威者與警方衝突。 民眾的不滿主要針對首相德韋弗提出未來幾年削減100億歐元開支，以縮減高額財政赤字，有關議題在德韋弗所屬的執政聯盟內部亦引發爭議，聯盟針對預算問題的協商已僵持數星期。 在德韋弗回報協商仍然未有突破後，國王菲利普指示他繼續努力，尋求達成協議。 受罷工影響，布魯塞爾機場大量航班取消，只提供應急及其他…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878981_1_M_20261123214834.jpg",
+   "at": "2026-11-23T13:48+00:00",
+   "where": [
+    50.8,
+    4.4,
+    "比利時"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "海關「雙十一」購物節期間採取行動 檢約12萬件冒牌貨",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878979-20261123.htm",
+   "d": "海關上月23日起，一連三星期採取行動，重點打擊「雙十一」購物節期間，跨境轉運及供應本地冒牌貨物活動。行動中，偵破39宗案件，檢獲共約12萬件懷疑冒牌貨物，估計市值共約6800萬，拘捕兩人。 海關鎖定位於新界的多間物流公司進行突擊搜查，並偵破多宗案件，亦於屯門內河船碼頭抽查3個從內地抵港的貨櫃，檢獲3批懷疑冒牌貨物。檢獲的懷疑冒牌貨物，包括手錶、鞋、衣服、電子產品和眼鏡等。海關相信檢獲的懷疑冒牌貨物全部均轉口至海外地區。案件仍在調查中。 …",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878979_1_M_20261123222821.jpg",
+   "at": "2026-11-23T13:32+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "胰臟癌治療現突破，新藥試驗顯示部分患者腫瘤消失",
+   "u": "https://www.bbc.com/zhongwen/articles/c6vg2vv10kjdo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "一款新藥在臨床試驗中顯示可縮小腫瘤，甚至可能令小部分胰臟癌患者體內腫瘤完全消失，但仍需要更長期的臨床試驗。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/4568/live/3c973e20-e4be-11f1-99a1-253766e7ad8b.png",
+   "at": "2026-11-23T11:23+00:00"
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "王毅：中歐應跳出貿易不平衡敘事陷阱 透過對話協商妥處分歧",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878972-20261123.htm",
+   "d": "中共中央政治局委員、外長王毅，在南京與瑞士聯邦副主席兼外長卡西斯，共同舉行中瑞第五輪外長級戰略對話。 王毅說，中方願同瑞方落實好兩國元首共識，密切各領域各層級交往，夯實高水平政治互信。雙方要就科技合作加強對接，做好規劃，在雙多邊層面展開人工智能對話合作，共同推動人工智能向上向善、造福人類。 王毅又說，中歐應跳出所謂貿易不平衡敘事陷阱，透過對話協商妥處分歧，透過做大合作蛋糕實現互利共贏，希望瑞方為中歐平穩解決經貿分歧發揮積極影響。 中方引…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878972_1_M_20261123201319.jpg",
+   "at": "2026-11-23T12:13+00:00",
+   "where": [
+    46.8,
+    8.2,
+    "瑞士"
    ]
   },
   {
@@ -54,89 +170,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "說唱歌手出身尼泊爾新總理首訪印度：如何平衡對華關係",
-   "u": "https://www.bbc.com/zhongwen/articles/c64gn9jl5lveo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "說唱歌手出身的尼泊爾新總理沙哈首訪印度，盼重啟關係並爭取山洪重建援助，但邊界爭議與經驗不足成考驗",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/6ce4/live/0cd0ed60-e3e9-11f1-a16c-7de3762c094b.jpg",
-   "at": "2026-11-23T00:09+00:00",
-   "where": [
-    21.0,
-    78.0,
-    "印度"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "比利時大規模示威及罷工 反對政府計劃推行緊縮政策",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878981-20261123.htm",
-   "d": "比利時爆發大規模示威及罷工，反對政府計劃推行緊縮政策，交通和公共服務大受影響。 在首都布魯塞爾，警方估計有5萬人上街遊行，部分示威者與警方衝突。 民眾的不滿主要針對首相德韋弗提出未來幾年削減100億歐元開支，以縮減高額財政赤字，有關議題在德韋弗所屬的執政聯盟內部亦引發爭議，聯盟針對預算問題的協商已僵持數星期。 在德韋弗回報協商仍然未有突破後，國王菲利普指示他繼續努力，尋求達成協議。 受罷工影響，布魯塞爾機場大量航班取消，只提供應急及其他…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878981_1_M_20261123214834.jpg",
-   "at": "2026-11-23T13:48+00:00",
-   "where": [
-    50.8,
-    4.4,
-    "比利時"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "競委會稱圍標集團組織嚴密行事隱秘 挑選無用「招標妥」項目作案",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878975-20261123.htm",
-   "d": "打擊樓宇維修工程圍標聯合特遣隊，就第二輪聯合行動舉行記者會。競委會行政總裁畢仲明指出，今日競委會搜查9個處所，包括工程承建商及顧問公司的辦公室以及涉案人士住所。涉事圍標集團涉嫌在7幢大廈的維修工程招標中，意圖以圍標、合謀定價和交換敏感資料等行為操控投票的結果，涉及工程合約總值約5000萬元。 畢仲明表示，發現有圍標集團組織嚴密、行事隱秘，骨幹成員溝通時以暗號代替目標大廈名稱，增加調查難度。在深入調查，再與特遣隊交流情報和協調後，發現集團…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878975_1_M_20261123215327.jpg",
-   "at": "2026-11-23T12:28+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "Anthropic公司或許已解決重大數學難題：黎曼猜想",
-   "u": "https://www.bbc.com/zhongwen/articles/cwe85gr487dno/trad?at_medium=RSS&at_campaign=rss",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/78a0/live/a0688a80-e531-11f1-99b6-a35a62fa4264.jpg",
+   "t": "你的孩子會說謊嗎？這或許並非壞事",
+   "u": "https://www.bbc.com/zhongwen/articles/crvg2lyq7dxvo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "父母可能會因為孩子撒謊而生氣，但專家解釋說，這是孩子人格成長的過程",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/c771/live/6eeb3600-e3cf-11f1-a094-5fdc692f3e33.jpg",
    "at": "2026-11-23T00:10+00:00"
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "王毅：中歐應跳出貿易不平衡敘事陷阱 透過對話協商妥處分歧",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878972-20261123.htm",
-   "d": "中共中央政治局委員、外長王毅，在南京與瑞士聯邦副主席兼外長卡西斯，共同舉行中瑞第五輪外長級戰略對話。 王毅說，中方願同瑞方落實好兩國元首共識，密切各領域各層級交往，夯實高水平政治互信。雙方要就科技合作加強對接，做好規劃，在雙多邊層面展開人工智能對話合作，共同推動人工智能向上向善、造福人類。 王毅又說，中歐應跳出所謂貿易不平衡敘事陷阱，透過對話協商妥處分歧，透過做大合作蛋糕實現互利共贏，希望瑞方為中歐平穩解決經貿分歧發揮積極影響。 中方引…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878972_1_M_20261123201319.jpg",
-   "at": "2026-11-23T12:13+00:00",
-   "where": [
-    46.8,
-    8.2,
-    "瑞士"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "房屋局宣布「公營房屋樓宇管制組」正式成立",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878974-20261123.htm",
-   "d": "房屋局宣布，「公營房屋樓宇管制組」正式成立，取代原有的獨立審查組，以加強及聚焦規管所有房委會已出售或分拆出售的公共屋邨，和資助出售屋苑及相關設施的現有樓宇及維修工程，並規管房委會正在興建的新公營房屋建築項目，包括出租公屋及資助出售房屋，以及沒有分拆出售的現有公共屋邨的相關工程。 局方表示，「管制組」設有新發展工程分組和規管現有樓宇分組。就現有樓宇的大型維修工程，將實行全新的監管制度，以每個屋苑的大型維修項目作基礎，統籌和綜合處理有關屋苑…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878974_1_M_20261123215304.jpg",
-   "at": "2026-11-23T12:24+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "胰臟癌治療現突破，新藥試驗顯示部分患者腫瘤消失",
-   "u": "https://www.bbc.com/zhongwen/articles/c6vg2vv10kjdo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "一款新藥在臨床試驗中顯示可縮小腫瘤，甚至可能令小部分胰臟癌患者體內腫瘤完全消失，但仍需要更長期的臨床試驗。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/4568/live/3c973e20-e4be-11f1-99a1-253766e7ad8b.png",
-   "at": "2026-11-23T11:23+00:00"
   },
   {
    "src": "世界",
@@ -155,48 +193,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "李家超聽取各司局長就宏福苑火災工作報告",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878973-20261123.htm",
-   "d": "行政長官李家超聽取各司局長就大埔宏福苑火災事故的工作報告，涉及多個範疇。當中就居民長遠居住安排，當局的收購計劃有超過96%業主、即1913戶簽署具約束力《買賣協議》，超過84%業主、即1682戶已完成所有業權轉讓手續；特區政府已是相關單位業主，安排進展順利。 當局亦指，超過73%業主、即1456戶已選擇政府提供的「特設銷售計劃」項目單位，或以綠表資格購入資助出售單位作長遠居所；自本月9日起，13戶業主已收取九龍灣盛緻苑單位鎖匙，另有兩戶…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878973_1_M_20261123212256.jpg",
-   "at": "2026-11-23T12:22+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "你的孩子會說謊嗎？這或許並非壞事",
-   "u": "https://www.bbc.com/zhongwen/articles/crvg2lyq7dxvo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "父母可能會因為孩子撒謊而生氣，但專家解釋說，這是孩子人格成長的過程",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/c771/live/6eeb3600-e3cf-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-23T00:10+00:00"
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "英國曼市演唱會發生不明物質釋放事件 逾1.2萬名觀眾緊急疏散",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878970-20261123.htm",
-   "d": "英國曼徹斯特一個室內演唱會舉行期間，發生不明物質釋放事件，多人不適，超過12000名觀眾緊急疏散。 事發在當地星期日晚10時，美國一名饒舌歌手演出期間，場館工作人員報案，現場有觀眾不適，警方把事件列為重大事故。社交媒體流傳的片段顯示，觀眾在疏散過程中捂住口鼻，不時咳嗽。 急救部門說，在演唱會接近尾聲時，有人向人群釋放懷疑催淚氣體的物質，醫護人員為50多人進行評估，部分人出現眼部和呼吸道症狀。 警方正調查事件起因及不明物質的具體成分。 編…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878970_1_M_20261123193749.jpg",
-   "at": "2026-11-23T11:37+00:00",
-   "where": [
-    52.5,
-    -1.5,
-    "英國"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "【重溫】2026年11月23日新聞天地",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878957-20261123.htm",
-   "d": "詳盡報道本地時事、大中華消息、國際局勢等新聞，緊貼最新熱話。",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878957_1_M_20261123195843.jpg",
-   "at": "2026-11-23T11:58+00:00",
+   "t": "競委會稱圍標集團組織嚴密行事隱秘 挑選無用「招標妥」項目作案",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878975-20261123.htm",
+   "d": "打擊樓宇維修工程圍標聯合特遣隊，就第二輪聯合行動舉行記者會。競委會行政總裁畢仲明指出，今日競委會搜查9個處所，包括工程承建商及顧問公司的辦公室以及涉案人士住所。涉事圍標集團涉嫌在7幢大廈的維修工程招標中，意圖以圍標、合謀定價和交換敏感資料等行為操控投票的結果，涉及工程合約總值約5000萬元。 畢仲明表示，發現有圍標集團組織嚴密、行事隱秘，骨幹成員溝通時以暗號代替目標大廈名稱，增加調查難度。在深入調查，再與特遣隊交流情報和協調後，發現集團…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878975_1_M_20261123215327.jpg",
+   "at": "2026-11-23T12:28+00:00",
    "where": [
     22.32,
     114.17,
@@ -220,24 +221,24 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "澤連斯基證實烏克蘭在利比亞沿海擊沉俄羅斯護衛艦",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878959-20261123.htm",
-   "d": "烏克蘭總統澤連斯基證實，國家安全局在國防軍配合下，星期日利用無人艇在利比亞沿海擊沉俄羅斯護衛艦水星號。 澤連斯基在社交平台說，一切發生在利比亞海岸附近，烏方使用七艘本國製造的無人艇，襲擊俄羅斯最新艦船之一、2023年服役的水星號護衛艦，雖然敵方試圖反擊，但水星號依然被擊沉，一架俄軍直升機一併被摧毀。烏方亦成功打擊一艘俄羅斯乾貨船，該船被敵方用於運輸武器。 一艘停泊在班加西海軍基地的俄羅斯船隻，星期日凌晨遇襲起火。利比亞傳媒報道，一艘商船…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1878959_1_M_20261123171446.jpg",
-   "at": "2026-11-23T09:14+00:00",
+   "t": "英國曼市演唱會發生不明物質釋放事件 逾1.2萬名觀眾緊急疏散",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878970-20261123.htm",
+   "d": "英國曼徹斯特一個室內演唱會舉行期間，發生不明物質釋放事件，多人不適，超過12000名觀眾緊急疏散。 事發在當地星期日晚10時，美國一名饒舌歌手演出期間，場館工作人員報案，現場有觀眾不適，警方把事件列為重大事故。社交媒體流傳的片段顯示，觀眾在疏散過程中捂住口鼻，不時咳嗽。 急救部門說，在演唱會接近尾聲時，有人向人群釋放懷疑催淚氣體的物質，醫護人員為50多人進行評估，部分人出現眼部和呼吸道症狀。 警方正調查事件起因及不明物質的具體成分。 編…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1878970_1_M_20261123193749.jpg",
+   "at": "2026-11-23T11:37+00:00",
    "where": [
-    49.0,
-    31.4,
-    "烏克蘭"
+    52.5,
+    -1.5,
+    "英國"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "李家超：世界技能大賽佳績說好香港故事",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878962-20261123.htm",
-   "d": "中國香港隊在上海世界技能大賽奪得一面銀牌及14面優異獎章，合共15個獎項，刷新香港歷屆最好成績。 行政長官李家超在政府總部與代表團會面，讚揚選手憑藉精湛工藝和拼搏精神，展現年輕一代的優秀技能和才華，以實際行動說好香港故事。 編輯：詹可揚",
-   "at": "2026-11-23T11:45+00:00",
+   "t": "房屋局宣布「公營房屋樓宇管制組」正式成立",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878974-20261123.htm",
+   "d": "房屋局宣布，「公營房屋樓宇管制組」正式成立，取代原有的獨立審查組，以加強及聚焦規管所有房委會已出售或分拆出售的公共屋邨，和資助出售屋苑及相關設施的現有樓宇及維修工程，並規管房委會正在興建的新公營房屋建築項目，包括出租公屋及資助出售房屋，以及沒有分拆出售的現有公共屋邨的相關工程。 局方表示，「管制組」設有新發展工程分組和規管現有樓宇分組。就現有樓宇的大型維修工程，將實行全新的監管制度，以每個屋苑的大型維修項目作基礎，統籌和綜合處理有關屋苑…",
+   "at": "2026-11-23T12:24+00:00",
    "where": [
     22.32,
     114.17,
@@ -261,23 +262,23 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "特朗普再表態支持黃仁勳復職 據報黃樂持續與中國國安官員聯繫",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878950-20261123.htm",
-   "d": "美國總統特朗普再次表態，支持晶片製造商Nvidia前行政總裁黃仁勳復職，希望Nvidia董事會重新聘用對方，認為這樣對公司抑或美國而言，都是最好的結果。 財長貝森特接受哥倫比亞廣播公司節目訪問時說，華府正就Nvidia向中國銷售晶片尋求答案，並會查明黃仁勳在任期間，由誰人負責公司的合規事務。 《紐約時報》引述知悉相關美國情報報告的人士報道，捲入Nvidia醜聞的中國女子黃樂，在與Nvidia前行政總裁黃仁勳發展婚外情期間，曾經與中國國家…",
-   "at": "2026-11-23T08:41+00:00",
+   "t": "澤連斯基證實烏克蘭在利比亞沿海擊沉俄羅斯護衛艦",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878959-20261123.htm",
+   "d": "烏克蘭總統澤連斯基證實，國家安全局在國防軍配合下，星期日利用無人艇在利比亞沿海擊沉俄羅斯護衛艦水星號。 澤連斯基在社交平台說，一切發生在利比亞海岸附近，烏方使用七艘本國製造的無人艇，襲擊俄羅斯最新艦船之一、2023年服役的水星號護衛艦，雖然敵方試圖反擊，但水星號依然被擊沉，一架俄軍直升機一併被摧毀。烏方亦成功打擊一艘俄羅斯乾貨船，該船被敵方用於運輸武器。 一艘停泊在班加西海軍基地的俄羅斯船隻，星期日凌晨遇襲起火。利比亞傳媒報道，一艘商船…",
+   "at": "2026-11-23T09:14+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    49.0,
+    31.4,
+    "烏克蘭"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "社工指有宏福苑居民 由情緒低落變得更堅強",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878971-20261123.htm",
-   "d": "大埔宏福苑火災發生接近一年，社署「一戶一社工」一直跟進居民的需要。有社工表示，有居民最初情緒低落不願外出，現時會主動約朋友見面，變得更堅強。 亦有社工指，有居民反映近期浮現不同片段，需要協助調整心情。 編輯：詹可揚",
-   "at": "2026-11-23T11:43+00:00",
+   "t": "李家超聽取各司局長就宏福苑火災工作報告",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878973-20261123.htm",
+   "d": "行政長官李家超聽取各司局長就大埔宏福苑火災事故的工作報告，涉及多個範疇。當中就居民長遠居住安排，當局的收購計劃有超過96%業主、即1913戶簽署具約束力《買賣協議》，超過84%業主、即1682戶已完成所有業權轉讓手續；特區政府已是相關單位業主，安排進展順利。 當局亦指，超過73%業主、即1456戶已選擇政府提供的「特設銷售計劃」項目單位，或以綠表資格購入資助出售單位作長遠居所；自本月9日起，13戶業主已收取九龍灣盛緻苑單位鎖匙，另有兩戶…",
+   "at": "2026-11-23T12:22+00:00",
    "where": [
     22.32,
     114.17,
@@ -301,23 +302,23 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "美國民主黨取得自1992年以來在國會眾議院的最大優勢席位",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878935-20261123.htm",
-   "d": "美國中期選舉，隨著民主黨候選人哈伯德在北卡羅來納州擊敗共和黨候選人，民主黨取得自1992年以來，在國會眾議院的最大優勢席位。 民主黨在本月初的中期選舉中，已肯定重奪參眾兩院控制權，隨著確定哈伯德在北卡州勝出，民主黨在眾議院435個議席中，已獲得258席，共和黨就取得173席，仍有四席結果未確定。 民主黨人將可利用在兩院的掌控權，調查總統特朗普及親信可能涉及的利益衝突或其他行為，參議院亦有權確認或否決內閣及司法提名人選，民主黨亦能夠更順利…",
-   "at": "2026-11-23T07:11+00:00",
+   "t": "特朗普再表態支持黃仁勳復職 據報黃樂持續與中國國安官員聯繫",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878950-20261123.htm",
+   "d": "美國總統特朗普再次表態，支持晶片製造商Nvidia前行政總裁黃仁勳復職，希望Nvidia董事會重新聘用對方，認為這樣對公司抑或美國而言，都是最好的結果。 財長貝森特接受哥倫比亞廣播公司節目訪問時說，華府正就Nvidia向中國銷售晶片尋求答案，並會查明黃仁勳在任期間，由誰人負責公司的合規事務。 《紐約時報》引述知悉相關美國情報報告的人士報道，捲入Nvidia醜聞的中國女子黃樂，在與Nvidia前行政總裁黃仁勳發展婚外情期間，曾經與中國國家…",
+   "at": "2026-11-23T08:41+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "為受宏福苑火災影響居民提供免費中西醫義診等延長至明年四月底",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878968-20261123.htm",
-   "d": "醫衞局宣布，原定至今年12月底為受大埔宏福苑火災影響居民提供的免費中、西醫義診和牙醫免費鑲配假牙服務，以及醫管局全額醫療費用豁免安排，延長4個月至明年4月30日。 截至10月30日，十八區康健中心熱線累計接獲641人次的來電；康健中心累計已處理共266宗轉介；而醫管局已為約2500名受影響居民免費提供所需醫療服務。 另外，在火災中送往不同公立醫院接受治療的79名傷者，現已全部康復出院。 在心理健康支援方面，由事發至今年10月底，「情緒通…",
-   "at": "2026-11-23T10:50+00:00",
+   "t": "【重溫】2026年11月23日新聞天地",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878957-20261123.htm",
+   "d": "詳盡報道本地時事、大中華消息、國際局勢等新聞，緊貼最新熱話。",
+   "at": "2026-11-23T11:58+00:00",
    "where": [
     22.32,
     114.17,
@@ -341,10 +342,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "孫東訪問南京及合肥 將參觀當地大學及科研機構等",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878967-20261123.htm",
-   "d": "創新科技及工業局局長孫東傍晚啓程前往南京及合肥訪問，並出席星期四於合肥舉行的內地與香港科技合作委員會第二十次會議。 今次會議將由孫東與國家科學技術部副部長張光軍共同主持。孫東在合肥亦會出席「皖港攜手．揚帆啟航」伴航內地企業走向全球交流晚餐會，參訪當地大學、科研平台和先進科技企業。代表團成員包括創新科技署署長李國彬，以及來自大學、創科園區和研發機構等的代表。 訪問南京期間，孫東將參觀當地大學、重點科研機構和設施，以及創科企業，了解江蘇省在…",
-   "at": "2026-11-23T10:26+00:00",
+   "t": "李家超：世界技能大賽佳績說好香港故事",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1878962-20261123.htm",
+   "d": "中國香港隊在上海世界技能大賽奪得一面銀牌及14面優異獎章，合共15個獎項，刷新香港歷屆最好成績。 行政長官李家超在政府總部與代表團會面，讚揚選手憑藉精湛工藝和拼搏精神，展現年輕一代的優秀技能和才華，以實際行動說好香港故事。 編輯：詹可揚",
+   "at": "2026-11-23T11:45+00:00",
    "where": [
     22.32,
     114.17,
@@ -354,15 +355,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "APEC上與習近平、特朗普歷史性會晤，對普京是一場重大勝利",
-   "u": "https://www.bbc.com/zhongwen/articles/cq702kdw845ro/trad?at_medium=RSS&at_campaign=rss",
-   "d": "週四美國、中國和俄羅斯領導人的會晤將為普京（普丁）提供一個重要的舞台——但這並不會讓他離贏得烏克蘭戰爭更近一步。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/17b2/live/72c78770-e36f-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-22T03:46+00:00",
+   "t": "說唱歌手出身尼泊爾新總理首訪印度：如何平衡對華關係",
+   "u": "https://www.bbc.com/zhongwen/articles/c64gn9jl5lveo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "說唱歌手出身的尼泊爾新總理沙哈首訪印度，盼重啟關係並爭取山洪重建援助，但邊界爭議與經驗不足成考驗",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/6ce4/live/0cd0ed60-e3e9-11f1-a16c-7de3762c094b.jpg",
+   "at": "2026-11-23T00:09+00:00",
    "where": [
-    55.75,
-    37.6,
-    "俄羅斯"
+    21.0,
+    78.0,
+    "印度"
    ]
   },
   {
@@ -382,15 +383,15 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Police investigate unknown substance that caused Manchester's Co-op Live evacuation",
-   "u": "https://www.bbc.co.uk/news/articles/c9e851dn8516o?at_medium=RSS&at_campaign=rss",
-   "d": "People describe a \"horrible smell\" and hearing screaming as they were evacuated from the Don Toliver gig.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9c37/live/7f3ca7f0-e744-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-23T12:42+00:00",
+   "t": "Can AI spot breast cancer earlier? NHS launches world's largest trial to find out",
+   "u": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo?at_medium=RSS&at_campaign=rss",
+   "d": "Researchers will test the technology in breast cancer screening which could ease pressure on the NHS.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6158/live/7701a960-e298-11f1-8dda-8925a81c3da5.jpg",
+   "at": "2026-11-23T00:49+00:00",
    "where": [
-    53.48,
-    -2.24,
-    "曼徹斯特"
+    52.5,
+    -1.5,
+    "英國"
    ]
   },
   {
@@ -456,7 +457,7 @@
    "u": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss",
    "d": "Eight suspects are arrested after firing on soldiers trying to re-establish order following the arrest of 'El Chapo Isidro'.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/17c3/live/64308a00-e73d-11f1-802a-678be58471bb.jpg",
-   "at": "2026-11-23T13:26+00:00",
+   "at": "2026-11-23T14:54+00:00",
    "where": [
     23.6,
     -102.6,
@@ -494,11 +495,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Can AI spot breast cancer earlier? NHS launches world's largest trial to find out",
-   "u": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo?at_medium=RSS&at_campaign=rss",
-   "d": "Researchers will test the technology in breast cancer screening which could ease pressure on the NHS.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6158/live/7701a960-e298-11f1-8dda-8925a81c3da5.jpg",
-   "at": "2026-11-23T00:49+00:00",
+   "t": "Pip assessments need 'fundamental overhaul', report to say",
+   "u": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo?at_medium=RSS&at_campaign=rss",
+   "d": "Disability Minister Sir Stephen Timms says he will recommend major reforms to the personal independence payment.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1e9d/live/6a04c6f0-e6f5-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-23T13:20+00:00",
    "where": [
     52.5,
     -1.5,
@@ -536,7 +537,7 @@
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "Flights and train services cancelled in Belgium due to strike",
+   "t": "Flights cancelled in Belgium due to cost-of-living strike",
    "u": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
    "d": "A series of strikes have hit Belgium in recent months as the prime minister struggles to agree a budget to cut costs.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6bf3/live/3920ed00-e738-11f1-8294-033bd8ee7e95.jpg",
@@ -578,15 +579,15 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Kenya and DR Congo agree to restore ties after tensions over conflict",
-   "u": "https://www.bbc.co.uk/news/articles/cmvg2qnn95vro?at_medium=RSS&at_campaign=rss",
-   "d": "The two leaders committed to upholding sovereignty and \"non-interference in the internal affairs of states\".",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ae1f/live/ec9cfdb0-e71f-11f1-914b-6d226d813a52.jpg",
-   "at": "2026-11-23T08:53+00:00",
+   "t": "Prominent Zimbabwean preacher arrested on indecent assault allegations",
+   "u": "https://www.bbc.co.uk/news/articles/cxyvdmjr893zo?at_medium=RSS&at_campaign=rss",
+   "d": "Uebert Angel, a British-Zimbabwean national, leads a charismatic church with branches in several countries.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/caba/live/164c61e0-e73a-11f1-8294-033bd8ee7e95.jpg",
+   "at": "2026-11-23T14:55+00:00",
    "where": [
-    -0.02,
-    37.9,
-    "肯尼亞"
+    -17.83,
+    31.05,
+    "津巴布韋"
    ]
   },
   {
@@ -606,15 +607,15 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Tyson Fury reveals schizophrenia diagnosis",
-   "u": "https://www.bbc.co.uk/sport/boxing/articles/c6y80n3dn15yo?at_medium=RSS&at_campaign=rss",
-   "d": "Tyson Fury describes hearing voices in his head when he suffered a breakdown in 2015, and was also diagnosed with bipolar disorder.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f7f7/live/4c6eae80-e709-11f1-b584-c942e4bef845.jpg",
-   "at": "2026-11-23T09:53+00:00",
+   "t": "US rapper postpones O2 arena show after Manchester evacuation",
+   "u": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo?at_medium=RSS&at_campaign=rss",
+   "d": "Don Toliver's show on Sunday was evacuated after an \"unknown substance\" was released into the crowd.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cfc1/live/cdea3a90-e747-11f1-88dc-f746e0cde621.jpg",
+   "at": "2026-11-23T14:42+00:00",
    "where": [
-    52.5,
-    -1.5,
-    "英國"
+    53.48,
+    -2.24,
+    "曼徹斯特"
    ]
   },
   {
@@ -685,15 +686,15 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Search and rescue teams race against time to find survivors after Nigeria boat tragedy",
-   "u": "https://www.bbc.co.uk/news/articles/cq7820xjm49po?at_medium=RSS&at_campaign=rss",
-   "d": "The government blames overcrowding, poor maintenance, and missing life jackets for boat accidents.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4f67/live/f7d15990-e6fe-11f1-b302-63c5d030cf64.jpg",
-   "at": "2026-11-23T12:43+00:00",
+   "t": "Kenya and DR Congo agree to restore ties after tensions over conflict",
+   "u": "https://www.bbc.co.uk/news/articles/cmvg2qnn95vro?at_medium=RSS&at_campaign=rss",
+   "d": "The two leaders committed to upholding sovereignty and \"non-interference in the internal affairs of states\".",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ae1f/live/ec9cfdb0-e71f-11f1-914b-6d226d813a52.jpg",
+   "at": "2026-11-23T08:53+00:00",
    "where": [
-    9.1,
-    8.7,
-    "尼日利亞"
+    -0.02,
+    37.9,
+    "肯尼亞"
    ]
   },
   {
@@ -713,11 +714,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Pip assessments need 'fundamental overhaul', report to say",
-   "u": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo?at_medium=RSS&at_campaign=rss",
-   "d": "Disability Minister Sir Stephen Timms says he will recommend major reforms to the personal independence payment.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1e9d/live/6a04c6f0-e6f5-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-23T13:20+00:00",
+   "t": "Jury out in train stabbing attempted murder trial",
+   "u": "https://www.bbc.co.uk/news/articles/cqn70z6e5d3jo?at_medium=RSS&at_campaign=rss",
+   "d": "Anthony Williams, 33, denies attempting to murder 10 passengers he stabbed on a London-bound train.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/419e/live/71ba9b40-e754-11f1-88dc-f746e0cde621.jpg",
+   "at": "2026-11-23T15:24+00:00",
    "where": [
     52.5,
     -1.5,
@@ -758,8 +759,8 @@
    "t": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
    "u": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
    "d": "The Kremlin warns of an \"escalation of tensions in the region\", but declines to comment directly on the attacks in Libya.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/927f/live/24790470-e740-11f1-99b6-a35a62fa4264.png",
-   "at": "2026-11-23T11:40+00:00",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f684/live/02351f90-e74d-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-23T15:41+00:00",
    "where": [
     49.0,
     31.4,
@@ -797,15 +798,15 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Morocco and Senegal await Afcon final verdict after court case",
-   "u": "https://www.bbc.co.uk/sport/football/articles/ckjw5jj2l26lo?at_medium=RSS&at_campaign=rss",
-   "d": "The Court of Arbitration for Sport is set to rule on the decision to strip Senegal of the Afcon 2025 title.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/473b/live/8627f400-bd98-11f1-babe-4199b0e7ccea.png",
-   "at": "2026-11-23T11:56+00:00",
+   "t": "Search and rescue teams race against time to find survivors after Nigeria boat tragedy",
+   "u": "https://www.bbc.co.uk/news/articles/cq7820xjm49po?at_medium=RSS&at_campaign=rss",
+   "d": "The government blames overcrowding, poor maintenance, and missing life jackets for boat accidents.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4f67/live/f7d15990-e6fe-11f1-b302-63c5d030cf64.jpg",
+   "at": "2026-11-23T12:43+00:00",
    "where": [
-    33.97,
-    -6.85,
-    "摩洛哥"
+    9.1,
+    8.7,
+    "尼日利亞"
    ]
   },
   {
@@ -909,15 +910,15 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
-   "u": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
-   "d": "Fewer young people have registered to vote in next year's election than in 2023 - are young people losing faith in democracy?",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/abb2/live/99a82d30-e4e7-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-22T00:10+00:00",
+   "t": "Morocco and Senegal await Afcon final verdict after court case",
+   "u": "https://www.bbc.co.uk/sport/football/articles/ckjw5jj2l26lo?at_medium=RSS&at_campaign=rss",
+   "d": "The Court of Arbitration for Sport is set to rule on the decision to strip Senegal of the Afcon 2025 title.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/473b/live/8627f400-bd98-11f1-babe-4199b0e7ccea.png",
+   "at": "2026-11-23T11:56+00:00",
    "where": [
-    9.1,
-    8.7,
-    "尼日利亞"
+    33.97,
+    -6.85,
+    "摩洛哥"
    ]
   },
   {
@@ -1021,15 +1022,15 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Ghanaian boy killed in US 'deserved so much better', says New York Mayor Mamdani",
-   "u": "https://www.bbc.co.uk/news/articles/cv8e07825l90o?at_medium=RSS&at_campaign=rss",
-   "d": "At the funeral for the 15-year-old who was fatally shot last month, Mamdani spoke alongside the boy's father and civil rights leaders.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/452c/live/6ef65d70-e52b-11f1-964d-a1d5fe40573e.jpg",
-   "at": "2026-11-21T01:19+00:00",
+   "t": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
+   "u": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
+   "d": "Fewer young people have registered to vote in next year's election than in 2023 - are young people losing faith in democracy?",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/abb2/live/99a82d30-e4e7-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-22T00:10+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    9.1,
+    8.7,
+    "尼日利亞"
    ]
   },
   {
@@ -1051,7 +1052,7 @@
    "t": "Welsh Greens back plan to separate from English party",
    "u": "https://www.bbc.co.uk/news/articles/cjy5xewrw657o?at_medium=RSS&at_campaign=rss",
    "d": "by 2035",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ad50/live/38e58b50-e730-11f1-8294-033bd8ee7e95.jpg",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d31d/live/527ffc90-e752-11f1-88dc-f746e0cde621.jpg",
    "at": "2026-11-23T14:01+00:00",
    "where": [
     52.3,
@@ -1159,11 +1160,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "GTA 6 hacker released on licence with warning 'don't let this happen again'",
-   "u": "https://www.bbc.co.uk/news/articles/cqpv9kr7pxmro?at_medium=RSS&at_campaign=rss",
-   "d": "21-year-old Arion Kurtaj pleaded guilty to the Rockstar Games hack and others he carried out when he was a teenager.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e22e/live/1d07a600-e269-11f1-a094-5fdc692f3e33.png",
-   "at": "2026-11-23T14:08+00:00",
+   "t": "Mother and son riot ringleaders jailed for 'disgraceful' acts",
+   "u": "https://www.bbc.co.uk/news/articles/c6qj57y4gwlyo?at_medium=RSS&at_campaign=rss",
+   "d": "The judge said Kelvin and Tracy Kane were both \"a total disgrace to the decent law-abiding citizens of Ballymena\".",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/438f/live/bcffbd40-e751-11f1-88dc-f746e0cde621.png",
+   "at": "2026-11-23T15:24+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1269,11 +1270,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Paralympian charged with 11 counts of rape",
-   "u": "https://www.bbc.co.uk/news/articles/cqx2xj4j33d1o?at_medium=RSS&at_campaign=rss",
-   "d": "Paris 2024 silver medalist Lee Fryer will stand trial in March charged with 11 counts of rape.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3110/live/8a33a450-e731-11f1-8294-033bd8ee7e95.jpg",
-   "at": "2026-11-23T12:25+00:00",
+   "t": "Girl, 14, stabbed 55 times by 14-year-old boy, murder trial told",
+   "u": "https://www.bbc.co.uk/news/articles/cmlydn1zye23o?at_medium=RSS&at_campaign=rss",
+   "d": "Lilly Jones's body was found near Dyffryn Park in Blaina two days after she was reported missing.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4f0c/live/0faea620-e750-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-23T15:36+00:00",
    "where": [
     52.5,
     -1.5,
