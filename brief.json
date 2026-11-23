@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-22T17:42+00:00",
+ "updated": "2026-11-23T06:00+00:00",
  "en": {
-  "greeting": "Good evening — Sunday 22 November",
+  "greeting": "Good morning — Monday 23 November",
   "sections": [
    {
     "h": "Top stories",
     "items": [
      {
-      "t": "Russian missiles land in Poland during huge Ukraine strike",
-      "d": "Two missiles and a drone fell in south-east Poland as Russia fired 400+ drones and 110+ missiles at Ukraine. No one was hurt; Tusk called it a deliberate provocation and Poland may seek NATO consultations.",
-      "u": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond"
+      "t": "COP31 climate summit ends with no deal",
+      "d": "The longest UN climate summit on record closed in Antalya without agreement after the EU, UK and Tuvalu rejected a text that dropped any mention of fossil fuels.",
+      "u": "https://www.yahoo.com/news/science/articles/cop31-fails-reach-climate-deal-124907599.html"
      },
      {
-      "t": "Iran steps up Gulf attacks; 25 tankers hit in a week",
-      "d": "Iran's Revolutionary Guards say they targeted US radars in Bahrain. Around 25 tankers were hit near the Strait of Hormuz in seven days, briefly pushing oil above $100 before it eased to about $83.",
-      "u": "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf"
+      "t": "AI sell-off spreads to Asian markets",
+      "d": "South Korea's Kospi fell as much as 5.8% on Monday, with Hong Kong and China also lower, after Friday's slump pushed the S&P 500 into a correction and wiped out the Nasdaq's 2026 gains.",
+      "u": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount"
      },
      {
-      "t": "AI stock rout deepens as Anthropic slips after record IPO",
-      "d": "Anthropic shares fell nearly 10% on their first full trading day, while Nvidia and AMD dropped about 10%. Investors are worrying about stretched valuations and debt-funded data-centre spending.",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stock-falls-9-first-164916488.html"
+      "t": "Burnham to sell 'landmark' EU deal to MPs",
+      "d": "The prime minister will tell MPs Friday's agreement with the EU is a choice between a broken status quo and change, as Tories vow to scrap it.",
+      "u": "https://www.bbc.co.uk/news/articles/cmde1dy82lepo"
      }
     ]
    },
@@ -27,24 +27,24 @@
     "h": "World & politics",
     "items": [
      {
-      "t": "Iran holds talks with Qatari mediators in Tehran",
-      "d": "Iran says reopening Hormuz is 'not difficult' if the US ends the war, unfreezes assets and lifts oil sanctions. Trump says he wants a permanent deal; it is not yet formal negotiation.",
-      "u": "https://www.aljazeera.com/news/2026/11/21/iran-says-held-talks-with-qatari-mediators-urges-us-to-accept-conditions"
+      "t": "Russian ship hit by suspected drone at Libyan port",
+      "d": "An explosion struck a Russia-bound vessel refuelling in eastern Libya, officials said, a day after another Russia-bound ship was attacked in the Gulf of Finland.",
+      "u": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo"
      },
      {
-      "t": "Sanctioned Russian cargo ship burns off Finland after drone hit",
-      "d": "The Kaliningrad-bound Sparta II drifted into Finnish waters still on fire; all 16 crew were evacuated. Finland says Ukraine likely struck it and warns the war is spilling into the Baltic.",
-      "u": "https://www.aljazeera.com/news/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-drone-attack"
+      "t": "Drone strikes hit Khartoum, UN site damaged",
+      "d": "At least four people were killed in drone attacks on Sudan's capital and Omdurman on Sunday, with a UN facility among the sites hit.",
+      "u": "https://news.rthk.hk/rthk/ch/component/k2/1878860-20261123.htm"
      },
      {
-      "t": "Displaced Gazans protest as Israeli strikes continue",
-      "d": "Hundreds protested in Deir el-Balah. Gaza's Health Ministry says 1,661 people have been killed since the October 2025 ceasefire, and over 500 homes in Maghazi were destroyed in under a month.",
-      "u": "https://www.aljazeera.com/news/2026/11/22/displaced-palestinians-protest-as-israeli-air-strikes-continue-in-gaza"
+      "t": "Indonesia sweet factory fire leaves dozens missing",
+      "d": "Rescuers have recovered 24 body bags from a confectionery factory fire in Banten province, with about 30 people still unaccounted for.",
+      "u": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo"
      },
      {
-      "t": "Indonesia sweets factory fire kills 3, with 36 missing",
-      "d": "About 60 people were inside the three-storey factory in Banten, near Jakarta. The fire was still burning after 12 hours; the cause is under investigation.",
-      "u": "https://www.aljazeera.com/news/2026/11/22/indonesia-factory-fire-kills-three-36-missing"
+      "t": "Hong Kong hosts Interpol general assembly",
+      "d": "Police chiefs from 196 countries meet in Hong Kong from Monday for four days, with temporary no-fly zones for drones across the city.",
+      "u": "https://news.rthk.hk/rthk/en/component/k2/1878899-20261123.htm"
      }
     ]
    },
@@ -52,19 +52,19 @@
     "h": "Business & economy",
     "items": [
      {
-      "t": "Oracle raises $20bn to fund OpenAI data-centre deal",
-      "d": "Oracle priced about $20bn of new shares and bonds and says its huge OpenAI contract is now fully funded, after its stock fell sharply on AI-debt worries.",
-      "u": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Pricing-of-20-Billion-of-Common-Stock-and-Senior-Notes/default.aspx"
+      "t": "Wall Street enters correction as AI trade unravels",
+      "d": "The S&P 500 fell 3.7% and the Nasdaq 5.3% on Friday as investors dumped Nvidia, Anthropic and other AI names over doubts about huge spending plans.",
+      "u": "https://www.axios.com/2026/11/20/anthropic-ipo-nvidia-ai-tech-selloff"
      },
      {
-      "t": "Apollo and Goldman price $44bn deal to finance SpaceX GPUs",
-      "d": "The debt pays for Nvidia chips leased to SpaceX, one of the largest AI hardware financings yet, a sign of how much borrowing now backs the AI build-out.",
-      "u": "https://www.apollo.com/insights-news/pressreleases/2026/11/apollo-and-goldman-sachs-announce-pricing-of-44-billion-spacex-gpu-financing-3407671"
+      "t": "British Gas owner warns over soaring bills",
+      "d": "Centrica boss Chris O'Shea says more households will be unable or unwilling to pay as energy prices climb this winter.",
+      "u": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o"
      },
      {
-      "t": "Databricks in talks to raise money at $225bn valuation",
-      "d": "The data and AI firm is in early talks to raise several billion dollars, up from a $190bn valuation, showing private AI deals continue despite the public-market slump.",
-      "u": "https://www.investing.com/news/stock-market-news/databricks-in-early-talks-to-raise-funds-at-225-billion-valuation-wsj-reports-5042898"
+      "t": "Delta system fault delays hundreds of flights",
+      "d": "A failure in Delta's weight-and-balance automation caused widespread delays at Atlanta airport on Sunday, averaging close to an hour.",
+      "u": "https://news.rthk.hk/rthk/ch/component/k2/1878861-20261123.htm"
      }
     ]
    },
@@ -72,24 +72,29 @@
     "h": "Technology",
     "items": [
      {
-      "t": "OpenAI explains ChatGPT outage that failed 75% of requests",
-      "d": "A database maintenance job knocked out read replicas that login services relied on, breaking ChatGPT for paid and free users for about 3.5 hours on Friday. OpenAI published fixes.",
-      "u": "https://status.openai.com/incidents/01JMYB602A6H2E04Y1497J434X/write-up"
+      "t": "Anthropic researcher claims Riemann hypothesis proof",
+      "d": "Mathematician Levent Alpöge says he proved maths' most famous open problem with help from Claude; rival claims have emerged and experts urge caution until it is checked.",
+      "u": "https://www.yahoo.com/news/science/articles/anthropic-mathematician-claims-claude-helped-190054374.html"
      },
      {
-      "t": "Google opens Genie 4 world model to developers",
-      "d": "Genie 4, which generates playable 720p worlds with sound in real time, is now in the Gemini API and AI Studio, priced at roughly 10 cents per second of video.",
-      "u": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/"
+      "t": "FBI probes apparent hack of crime database",
+      "d": "The National Crime Information Center, shared by US federal and local police, appears to have been breached, according to reports.",
+      "u": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o"
      },
      {
-      "t": "Coding-AI start-up Cognition eyes $75bn valuation",
-      "d": "The maker of the Devin coding agent is reportedly raising over $2bn, up from $48bn in September, as AI coding tools remain the hottest area for investors.",
-      "u": "https://thenextweb.com/news/cognition-funding-75bn-valuation-bloomberg-devin"
+      "t": "Trump threatens ban on overseas AI data centres",
+      "d": "The US president floated barring American firms from building AI data centres abroad, giving few details on how it would work.",
+      "u": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko"
      },
      {
-      "t": "Amazon nears $7.5bn deal for AI start-up Decart",
-      "d": "Decart makes AI models run efficiently across Nvidia, Google and Amazon chips. The deal would help Amazon cut AI costs on its own Trainium hardware, the FT reported.",
-      "u": "https://seekingalpha.com/news/4675396-amazon-nears-75b-deal-buy-ai-start-up-decart"
+      "t": "Korean minister quits over AI exam cheating",
+      "d": "Choi Kyo-jin resigned after admitting last-minute steps to stop AI-assisted cheating in the college entrance exam caused chaos.",
+      "u": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no"
+     },
+     {
+      "t": "RAF says next fighter may be last with a pilot",
+      "d": "The RAF chief said AI-enabled uncrewed aircraft should begin flying in UK airspace next year.",
+      "u": "https://www.bbc.co.uk/news/articles/c68x08nzpk9no"
      }
     ]
    },
@@ -97,14 +102,14 @@
     "h": "Science & health",
     "items": [
      {
-      "t": "Webb sees a star swallow another in Andromeda",
-      "d": "A small star spiralled into a supergiant and merged, creating a new star nicknamed 'Bao'. Webb caught it 47 days after the flare, the earliest such follow-up, published in Nature.",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261120075556.htm"
+      "t": "NHS launches world's biggest AI breast screening trial",
+      "d": "Researchers will test whether AI can spot breast cancer earlier in routine screening, which could ease pressure on radiologists.",
+      "u": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo"
      },
      {
-      "t": "NASA fires new Moon rocket engine for full 200 seconds",
-      "d": "A developmental RS-25 engine test at Stennis will help make engines for the SLS rocket more powerful and reliable, ahead of the crewed Artemis IV Moon landing planned for 2028.",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261120075551.htm"
+      "t": "Judge approves $7.25bn Roundup cancer settlement",
+      "d": "Bayer will pay users of Roundup weedkiller who have non-Hodgkin lymphoma, and those diagnosed in future.",
+      "u": "https://www.bbc.co.uk/news/articles/cwvg21gyl650o"
      }
     ]
    },
@@ -112,44 +117,44 @@
     "h": "UK",
     "items": [
      {
-      "t": "Energy price cap forecast to jump 26% in January",
-      "d": "Cornwall Insight expects the cap to reach £2,166, adding over £400 a year to typical bills; Ofgem confirms on Wednesday. Charities say the government's £100 payment is 'a drop in the ocean'.",
-      "u": "https://morningstaronline.co.uk/article/government-intervention-drop-ocean-ahead-energy-price-cap-rise-many-struggling-cope"
+      "t": "Theresa May tells Burnham to accept Brexit",
+      "d": "The former PM said she was aghast at the government's EU plans, while the Tories pledged to scrap the deal.",
+      "u": "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o"
      },
      {
-      "t": "Burnham defends EU deal as universities warn of costs",
-      "d": "The PM says the deal, cutting red tape on food exports, helps ordinary people. But the EU wants home-rate fees for EU students, which university leaders say would hit their finances.",
-      "u": "https://morningstaronline.co.uk/article/burnham-insists-eu-deal-good-ordinary-people-university-bosses-fear-financial-hit"
+      "t": "PIP assessments need overhaul, report to say",
+      "d": "Disability minister Sir Stephen Timms will recommend major changes to how personal independence payment claims are assessed.",
+      "u": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo"
      },
      {
-      "t": "Last-ditch talks to stop Tube drivers' strike on Thursday",
-      "d": "RMT drivers plan a 24-hour walkout from noon Thursday over a voluntary four-day week. Talks are set for Tuesday, with more strike dates into February.",
-      "u": "https://morningstaronline.co.uk/article/last-ditch-talks-are-be-held-bid-avert-first-series-strikes-london-underground-drivers"
+      "t": "Manchester's Co-op Live evacuated during concert",
+      "d": "A major incident was declared after an unknown substance was released in the crowd; one person went to hospital.",
+      "u": "https://www.bbc.co.uk/news/articles/c9e851dn8516o"
      }
     ]
    }
   ]
  },
  "zh": {
-  "greeting": "晚安 — 11月22日星期日",
+  "greeting": "早晨 — 11月23日星期一",
   "sections": [
    {
     "h": "頭條新聞",
     "items": [
      {
-      "t": "俄導彈落入波蘭境內",
-      "d": "俄羅斯向烏克蘭發射逾400架無人機及110多枚導彈期間，兩枚導彈及一架無人機落入波蘭東南部，無人受傷。總理圖斯克指這是蓄意挑釁，波蘭或要求北約磋商。",
-      "u": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond"
+      "t": "COP31氣候峰會無協議告終",
+      "d": "史上最長的聯合國氣候峰會在安塔利亞閉幕，未能達成協議。歐盟、英國及圖瓦盧拒絕接受刪去化石燃料字眼的文本。",
+      "u": "https://www.yahoo.com/news/science/articles/cop31-fails-reach-climate-deal-124907599.html"
      },
      {
-      "t": "伊朗加強攻擊海灣　一周25艘油輪中招",
-      "d": "伊斯蘭革命衞隊稱襲擊巴林美軍雷達。霍爾木茲海峽一帶七日內約25艘油輪被擊中，油價一度突破100美元，其後回落至約83美元。",
-      "u": "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf"
+      "t": "AI股拋售潮蔓延亞洲股市",
+      "d": "南韓綜合指數周一一度急跌5.8%，港股及內地股市亦下跌。上周五美股重挫，標普500指數陷入調整，納斯達克今年升幅盡失。",
+      "u": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount"
      },
      {
-      "t": "AI股拋售加劇　Anthropic上市後下跌",
-      "d": "Anthropic首個完整交易日股價跌近一成，Nvidia及AMD亦跌約一成。投資者憂慮估值過高及靠借貸支撐的數據中心投資。",
-      "u": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stock-falls-9-first-164916488.html"
+      "t": "賓咸向國會推銷「里程碑」英歐協議",
+      "d": "首相賓咸將向議員表示，上周五與歐盟達成的協議是在「破碎的現狀」與改變之間作出選擇；保守黨揚言上台後會撤銷協議。",
+      "u": "https://www.bbc.co.uk/news/articles/cmde1dy82lepo"
      }
     ]
    },
@@ -157,24 +162,24 @@
     "h": "國際及政治",
     "items": [
      {
-      "t": "伊朗與卡塔爾斡旋代表在德黑蘭會談",
-      "d": "伊朗稱若美國結束戰爭、解凍資產及撤銷石油制裁，重開霍爾木茲海峽「並不困難」。特朗普表示希望達成永久協議，目前仍未算正式談判。",
-      "u": "https://www.aljazeera.com/news/2026/11/21/iran-says-held-talks-with-qatari-mediators-urges-us-to-accept-conditions"
+      "t": "俄船在利比亞港口疑遭無人機襲擊",
+      "d": "利比亞東部官員稱，一艘駛返俄羅斯的船隻在港口補給時發生爆炸；此前一日，另一艘前往俄羅斯的船在芬蘭灣遇襲。",
+      "u": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo"
      },
      {
-      "t": "受制裁俄貨輪遭無人機擊中　在芬蘭外海焚燒",
-      "d": "駛往加里寧格勒的Sparta II號起火後漂入芬蘭水域，16名船員全部撤離。芬蘭指相信是烏克蘭所為，警告戰火正蔓延至波羅的海。",
-      "u": "https://www.aljazeera.com/news/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-drone-attack"
+      "t": "喀土穆遭無人機襲擊 聯合國設施受損",
+      "d": "蘇丹首都喀土穆及恩圖曼周日多處遭無人機襲擊，最少4人死亡，一處聯合國設施受損。",
+      "u": "https://news.rthk.hk/rthk/ch/component/k2/1878860-20261123.htm"
      },
      {
-      "t": "加沙流離失所者抗議　以軍空襲持續",
-      "d": "數百人在代爾拜萊赫示威。加沙衞生部指2025年10月停火以來已有1,661人死亡，馬加齊一個月內逾500個住宅單位被毀。",
-      "u": "https://www.aljazeera.com/news/2026/11/22/displaced-palestinians-protest-as-israeli-air-strikes-continue-in-gaza"
+      "t": "印尼糖果廠大火 數十人失蹤",
+      "d": "印尼萬丹省糖果廠火災，救援人員已整理出24個屍袋，另有約30人下落不明。",
+      "u": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo"
      },
      {
-      "t": "印尼糖果廠大火　3死36失蹤",
-      "d": "火警發生在雅加達附近萬丹省一幢三層高工廠，當時約60人在內。大火燒逾12小時，起火原因仍在調查。",
-      "u": "https://www.aljazeera.com/news/2026/11/22/indonesia-factory-fire-kills-three-36-missing"
+      "t": "香港主辦國際刑警大會",
+      "d": "國際刑警組織第94屆全體大會周一起一連四日在香港舉行，196個成員國警隊首長出席，全港設臨時無人機禁飛區。",
+      "u": "https://news.rthk.hk/rthk/en/component/k2/1878899-20261123.htm"
      }
     ]
    },
@@ -182,19 +187,19 @@
     "h": "商業及經濟",
     "items": [
      {
-      "t": "Oracle集資200億美元支持OpenAI數據中心合約",
-      "d": "Oracle發行約200億美元新股及債券，稱與OpenAI的巨額合約已有足夠資金；此前其股價因AI債務憂慮大跌。",
-      "u": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Pricing-of-20-Billion-of-Common-Stock-and-Senior-Notes/default.aspx"
+      "t": "美股陷入調整 AI交易崩潰",
+      "d": "上周五標普500指數跌3.7%，納指跌5.3%。投資者憂慮巨額AI開支，大舉拋售Nvidia、Anthropic等AI股。",
+      "u": "https://www.axios.com/2026/11/20/anthropic-ipo-nvidia-ai-tech-selloff"
      },
      {
-      "t": "Apollo與高盛安排440億美元SpaceX晶片融資",
-      "d": "資金用於購買租予SpaceX的Nvidia晶片，是至今最大型AI硬件融資之一，反映AI擴張愈來愈依賴借貸。",
-      "u": "https://www.apollo.com/insights-news/pressreleases/2026/11/apollo-and-goldman-sachs-announce-pricing-of-44-billion-spacex-gpu-financing-3407671"
+      "t": "British Gas母公司憂能源費飆升",
+      "d": "Centrica行政總裁奧謝表示，今冬能源價格上升，無力或不願繳費的家庭將會增加。",
+      "u": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o"
      },
      {
-      "t": "Databricks洽集資　估值達2,250億美元",
-      "d": "這家數據及AI公司正初步商討集資數十億美元，估值較早前的1,900億美元上升，顯示公開市場下跌下私募AI交易仍然熾熱。",
-      "u": "https://www.investing.com/news/stock-market-news/databricks-in-early-talks-to-raise-funds-at-225-billion-valuation-wsj-reports-5042898"
+      "t": "達美航空系統故障 數百航班延誤",
+      "d": "達美航空重量與平衡自動化系統故障，周日亞特蘭大機場數以百計航班延誤，平均近一小時。",
+      "u": "https://news.rthk.hk/rthk/ch/component/k2/1878861-20261123.htm"
      }
     ]
    },
@@ -202,24 +207,29 @@
     "h": "科技",
     "items": [
      {
-      "t": "OpenAI交代ChatGPT大故障　75%請求失敗",
-      "d": "一項數據庫維護工作令登入服務依賴的讀取副本失效，ChatGPT付費及免費用戶周五約3.5小時無法使用，OpenAI已公布改善措施。",
-      "u": "https://status.openai.com/incidents/01JMYB602A6H2E04Y1497J434X/write-up"
+      "t": "Anthropic研究員稱證明黎曼猜想",
+      "d": "數學家Alpöge稱借助Claude證明了數學界最著名的未解難題，但亦有對立說法出現，專家提醒須待驗證。",
+      "u": "https://www.yahoo.com/news/science/articles/anthropic-mathematician-claims-claude-helped-190054374.html"
      },
      {
-      "t": "Google向開發者開放Genie 4世界模型",
-      "d": "可即時生成720p、附聲音的互動世界的Genie 4登上Gemini API及AI Studio，影片收費約每秒10美仙。",
-      "u": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/"
+      "t": "FBI調查犯罪資料庫疑遭入侵",
+      "d": "據報美國聯邦及地方警察共用的國家犯罪資訊中心資料庫疑遭黑客入侵，FBI正調查。",
+      "u": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o"
      },
      {
-      "t": "AI編程初創Cognition估值或達750億美元",
-      "d": "開發Devin編程助手的Cognition據報集資逾20億美元，估值較9月的480億美元大升，AI編程工具仍是投資者至愛。",
-      "u": "https://thenextweb.com/news/cognition-funding-75bn-valuation-bloomberg-devin"
+      "t": "特朗普揚言禁美企海外建AI數據中心",
+      "d": "美國總統特朗普提出可能禁止美國企業在海外興建AI數據中心，但未有交代細節。",
+      "u": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko"
      },
      {
-      "t": "Amazon擬斥75億美元收購AI初創Decart",
-      "d": "Decart令AI模型在Nvidia、Google及Amazon晶片上都能高效運行。據《金融時報》報道，交易有助Amazon降低自家Trainium晶片的AI成本。",
-      "u": "https://seekingalpha.com/news/4675396-amazon-nears-75b-deal-buy-ai-start-up-decart"
+      "t": "南韓教育部長因AI考試作弊辭職",
+      "d": "南韓教育部長崔教振承認為防範高考AI作弊而臨時推出的措施引起混亂，宣布辭職。",
+      "u": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no"
+     },
+     {
+      "t": "英空軍：下一代戰機或是最後有人駕駛",
+      "d": "英國皇家空軍司令表示，具備AI的無人駕駛戰機預計明年開始在英國領空飛行。",
+      "u": "https://www.bbc.co.uk/news/articles/c68x08nzpk9no"
      }
     ]
    },
@@ -227,14 +237,14 @@
     "h": "科學及健康",
     "items": [
      {
-      "t": "韋伯望遠鏡目睹仙女座星系「吞星」",
-      "d": "一顆細小恆星螺旋墜入超巨星並合併，新恆星暱稱「Bao」。韋伯在爆發後47日觀測，是同類事件最早的跟進觀測，研究刊於《自然》。",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261120075556.htm"
+      "t": "NHS展開全球最大AI乳癌篩查試驗",
+      "d": "研究人員將測試AI能否在常規篩查中更早發現乳癌，有望減輕放射科人手壓力。",
+      "u": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo"
      },
      {
-      "t": "NASA登月火箭引擎完成200秒點火測試",
-      "d": "在史坦尼斯中心進行的RS-25發展型引擎測試，有助提升SLS火箭引擎的推力及可靠性，為2028年載人登月的Artemis IV任務作準備。",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261120075551.htm"
+      "t": "法官批准72.5億美元除草劑致癌和解",
+      "d": "拜耳將向患非霍奇金淋巴瘤的Roundup除草劑用家，以及日後確診者作出賠償。",
+      "u": "https://www.bbc.co.uk/news/articles/cwvg21gyl650o"
      }
     ]
    },
@@ -242,19 +252,19 @@
     "h": "英國",
     "items": [
      {
-      "t": "能源價格上限明年1月料升26%",
-      "d": "Cornwall Insight預計上限升至2,166英鎊，一般家庭每年多付逾400英鎊，Ofgem周三公布。慈善團體批評政府100英鎊補貼「杯水車薪」。",
-      "u": "https://morningstaronline.co.uk/article/government-intervention-drop-ocean-ahead-energy-price-cap-rise-many-struggling-cope"
+      "t": "文翠珊促賓咸接受脫歐",
+      "d": "前首相文翠珊對政府的歐盟計劃表示震驚，保守黨亦承諾會撤銷協議。",
+      "u": "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o"
      },
      {
-      "t": "賓咸力撐歐盟協議　大學憂財政受損",
-      "d": "首相賓咸稱協議減少食品出口繁文縟節，惠及普通市民。但歐盟要求英國向歐盟學生收本地學費，大學校長警告財政將受打擊。",
-      "u": "https://morningstaronline.co.uk/article/burnham-insists-eu-deal-good-ordinary-people-university-bosses-fear-financial-hit"
+      "t": "報告將指PIP評估需徹底改革",
+      "d": "殘疾事務大臣蒂姆斯將建議大幅改革個人獨立津貼的評估方式。",
+      "u": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo"
      },
      {
-      "t": "地鐵車長周四罷工　勞資最後談判",
-      "d": "RMT工會車長計劃周四中午起罷工24小時，反對自願四天工作周安排。雙方周二談判，其後罷工日期延至明年2月。",
-      "u": "https://morningstaronline.co.uk/article/last-ditch-talks-are-be-held-bid-avert-first-series-strikes-london-underground-drivers"
+      "t": "曼徹斯特Co-op Live音樂會疏散",
+      "d": "有人在觀眾群中釋放不明物質，當局宣布發生重大事故，一人送院。",
+      "u": "https://www.bbc.co.uk/news/articles/c9e851dn8516o"
      }
     ]
    }
@@ -262,32 +272,84 @@
  },
  "sources": [
   {
-   "title": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond"
+   "title": "COP31 climate summit ends with no deal",
+   "url": "https://www.yahoo.com/news/science/articles/cop31-fails-reach-climate-deal-124907599.html"
   },
   {
-   "title": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/22/whats-behind-irans-escalation-of-attacks-in-the-gulf"
+   "title": "AI sell-off spreads to Asian markets",
+   "url": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount"
   },
   {
-   "title": "Yahoo Finance",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stock-falls-9-first-164916488.html"
+   "title": "Burnham to sell 'landmark' EU deal to MPs",
+   "url": "https://www.bbc.co.uk/news/articles/cmde1dy82lepo"
   },
   {
-   "title": "OpenAI status",
-   "url": "https://status.openai.com/incidents/01JMYB602A6H2E04Y1497J434X/write-up"
+   "title": "Russian ship hit by suspected drone at Libyan port",
+   "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo"
   },
   {
-   "title": "Google blog",
-   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/"
+   "title": "Drone strikes hit Khartoum, UN site damaged",
+   "url": "https://news.rthk.hk/rthk/ch/component/k2/1878860-20261123.htm"
   },
   {
-   "title": "ScienceDaily / NASA",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261120075556.htm"
+   "title": "Indonesia sweet factory fire leaves dozens missing",
+   "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo"
   },
   {
-   "title": "Morning Star",
-   "url": "https://morningstaronline.co.uk/article/government-intervention-drop-ocean-ahead-energy-price-cap-rise-many-struggling-cope"
+   "title": "Hong Kong hosts Interpol general assembly",
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1878899-20261123.htm"
+  },
+  {
+   "title": "Wall Street enters correction as AI trade unravels",
+   "url": "https://www.axios.com/2026/11/20/anthropic-ipo-nvidia-ai-tech-selloff"
+  },
+  {
+   "title": "British Gas owner warns over soaring bills",
+   "url": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o"
+  },
+  {
+   "title": "Delta system fault delays hundreds of flights",
+   "url": "https://news.rthk.hk/rthk/ch/component/k2/1878861-20261123.htm"
+  },
+  {
+   "title": "Anthropic researcher claims Riemann hypothesis proof",
+   "url": "https://www.yahoo.com/news/science/articles/anthropic-mathematician-claims-claude-helped-190054374.html"
+  },
+  {
+   "title": "FBI probes apparent hack of crime database",
+   "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o"
+  },
+  {
+   "title": "Trump threatens ban on overseas AI data centres",
+   "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko"
+  },
+  {
+   "title": "Korean minister quits over AI exam cheating",
+   "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no"
+  },
+  {
+   "title": "RAF says next fighter may be last with a pilot",
+   "url": "https://www.bbc.co.uk/news/articles/c68x08nzpk9no"
+  },
+  {
+   "title": "NHS launches world's biggest AI breast screening trial",
+   "url": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo"
+  },
+  {
+   "title": "Judge approves $7.25bn Roundup cancer settlement",
+   "url": "https://www.bbc.co.uk/news/articles/cwvg21gyl650o"
+  },
+  {
+   "title": "Theresa May tells Burnham to accept Brexit",
+   "url": "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o"
+  },
+  {
+   "title": "PIP assessments need overhaul, report to say",
+   "url": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo"
+  },
+  {
+   "title": "Manchester's Co-op Live evacuated during concert",
+   "url": "https://www.bbc.co.uk/news/articles/c9e851dn8516o"
   }
  ]
 }
