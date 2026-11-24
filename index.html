@@ -1256,6 +1256,36 @@ body.phone #tfM { height: 330px; }
 body.phone #tfPair { flex-direction: column; gap: 14px; }
 body.phone #bsCols { flex-direction: column; gap: 14px; overflow-y: auto; -webkit-overflow-scrolling: touch; }   /* three lists, one under another: scroll up/down */
 body.phone .bscol { flex: none; }
+
+/* ---------- iPhone (upright): the rest of the pages ---------- */
+body.phone #ytp, body.phone #ytw, body.phone #hkc, body.phone #space, body.phone #tfw, body.phone #bday, body.phone #energy, body.phone #ereview, body.phone #etips { padding: calc(env(safe-area-inset-top) * 1.95 + 24px) 22px calc(env(safe-area-inset-bottom) * 1.95 + 56px); }
+body.phone #ytp .top, body.phone #ytw .top, body.phone #hkc .top, body.phone #space .top, body.phone #tfw .top, body.phone #bday .top, body.phone #energy .top, body.phone #ereview .top { flex-wrap: wrap; align-items: flex-end; gap: 10px; }
+body.phone .ytstage h1 span, body.phone #hkc h1 span, body.phone #space h1 span, body.phone #bday h1 span, body.phone #energy h1 span, body.phone #ereview h1 span, body.phone #etips h1 span { display: block; margin: 4px 0 0; font-size: 22px; }
+body.phone .ytcols { grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; }
+body.phone #ytw .ytcols { grid-template-columns: 1fr; grid-template-rows: repeat(3, 1fr); }
+body.phone #ytFrame { width: 716px; height: 403px; }
+body.phone #ytBar { width: 716px; flex-wrap: wrap; }
+body.phone #hkc { grid-template-columns: 1fr; grid-template-rows: auto 420px 1fr 150px; }
+body.phone #hkc .top, body.phone #hkCams { grid-column: 1; }
+body.phone #space { grid-template-columns: 1fr; grid-template-rows: auto 400px auto 1fr; }
+body.phone #space .top { grid-column: 1; }
+body.phone #spSide { grid-row: auto; grid-column: 1; }
+body.phone #spApod .pic { width: 220px; }
+body.phone #twBody { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+body.phone #twO { height: 300px; }
+body.phone #twZ { flex: none; height: 300px; }
+body.phone #bd { grid-template-columns: 1fr; grid-template-rows: 1.2fr 1fr; }
+body.phone #bd .lock { grid-column: 1; grid-row: 1 / -1; }
+body.phone .bhero { padding: 30px 32px; }
+body.phone .bhero .cd { gap: 24px; }
+body.phone .ring { width: 260px; height: 260px; }
+body.phone #ecards { grid-template-columns: 1fr; }
+body.phone #eweek .sum { width: 190px; }
+body.phone #rmon { flex-direction: column; gap: 12px; }
+body.phone #rmon .sum { width: auto; flex-direction: row; flex-wrap: wrap; gap: 6px 18px; align-items: baseline; }
+body.phone .rrow { flex-direction: column; }
+body.phone #etips .grid { grid-template-columns: 1fr; overflow-y: auto; -webkit-overflow-scrolling: touch; }   /* long list: scroll up/down */
+body.phone #etips .wide { grid-column: 1; }
 </style>
 </head>
 <body>
@@ -1544,7 +1574,7 @@ function wx(code, isDay) {
 /* ---------- fit the 1366x1024 design to the screen ---------- */
 /* iPhone held upright: the dashboard (page 1) gets a tall one-column layout (body.phone CSS);
    the other pages keep the iPad design, shrunk to fit - turn the phone sideways to see them bigger. */
-var PHONE_STAGES = ['stage', 'week', 'newsp', 'league', 'tfl', 'prizep', 'bestp'];   /* pages with an upright-phone layout */
+var PHONE_STAGES = ['stage', 'week', 'newsp', 'league', 'tfl', 'prizep', 'bestp', 'ytp', 'ytw', 'hkc', 'space', 'tfw', 'bday', 'energy', 'ereview', 'etips'];   /* pages with an upright-phone layout */
 function fitStage() {
   var k = Math.min(innerWidth / 1366, innerHeight / 1024), st = document.querySelectorAll('.stage');
   var phone = innerWidth < 600 && innerHeight > innerWidth;

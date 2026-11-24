@@ -95,6 +95,9 @@ body:not(.on) #cty *, body:not(.on) #cty *:before, body:not(.on) #cty *:after { 
 #ccHK .fc > div { width: 130px; font-size: 18px; padding: 10px 0 8px; } #ccHK .fc .pp { font-size: 14px; }
 #ccHK .fc .dn { font-size: 16px; }
 #cty .ft { position: absolute; left: 0; right: 0; bottom: 34px; text-align: center; font-size: 14px; color: var(--muted); }
+body.phone #cty { flex-direction: column; padding: calc(env(safe-area-inset-top) * 1.95 + 18px) 18px 90px; gap: 14px; }
+body.phone #cty .hd { height: 92px; }
+body.phone #cty .ft { bottom: 50px; }
 </style>
 </head>
 <body>
@@ -113,6 +116,15 @@ function r(x) { return Math.round(x); }
 if (!/[?&]embed/.test(location.search)) document.body.classList.add('on');
 function fitStage() {
   var k = Math.min(innerWidth / 1366, innerHeight / 1024), st = $('cty');
+  var phone = innerWidth < 600 && innerHeight > innerWidth;   /* iPhone upright: UK on top, Hong Kong below */
+  document.body.classList.toggle('phone', phone);
+  if (phone) {
+    k = innerWidth / 760;
+    st.style.width = '760px'; st.style.height = (innerHeight / k) + 'px';
+    st.style.transform = 'scale(' + k + ')'; st.style.left = '0px'; st.style.top = '0px';
+    return;
+  }
+  st.style.width = ''; st.style.height = '';
   st.style.transform = 'scale(' + k + ')';
   st.style.left = ((innerWidth - 1366 * k) / 2) + 'px';
   st.style.top = ((innerHeight - 1024 * k) / 2) + 'px';
