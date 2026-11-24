@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-24T06:00+00:00",
+ "updated": "2026-11-24T17:42+00:00",
  "en": {
-  "greeting": "Good morning — Tuesday 24 November",
+  "greeting": "Good evening — Tuesday 24 November",
   "sections": [
    {
     "h": "Top stories",
     "items": [
      {
-      "t": "COP31 climate talks in Turkey end without a deal",
-      "d": "The UN summit ran past its deadline into Sunday night but countries could not agree, renewing calls to scrap the consensus rule that lets any nation block an outcome.",
-      "u": "https://www.thestandard.com.hk/world/article/349343/"
+      "t": "Nvidia brings back Jensen Huang as chief executive",
+      "d": "Nvidia's board unanimously reinstated Huang less than two weeks after he quit, saying Washington judged him no security risk. Shares jumped 31% on Monday, then fell about 5% today on governance worries.",
+      "u": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o"
      },
      {
-      "t": "Russia threatens 'painful consequences' over Ukrainian sea drone strikes",
-      "d": "Kyiv says it sank a Russian corvette in Benghazi, Libya, and a Baltic cargo ship was set ablaze. The Kremlin calls the widening attacks a dangerous trend.",
-      "u": "https://www.aljazeera.com/news/2026/11/23/russia-warns-ukraine-of-dangerous-trend-after-libya-and-baltic-attacks"
+      "t": "NATO warns of Russian nuclear-armed satellite threat",
+      "d": "Allied intelligence suggests Russia could launch a nuclear-armed satellite as soon as next month. NATO chief Mark Rutte said the alliance would defend against space threats; the Kremlin dismissed the reports.",
+      "u": "https://www.theguardian.com/world/2026/nov/23/russia-nuclear-weapons-space-german-intelligence"
      },
      {
-      "t": "Huang's Nvidia return sparks global stock rally",
-      "d": "Nvidia jumped 31.5% and the Nasdaq 6.5% on Monday. Asia followed on Tuesday: Taiwan's Taiex rose over 9%, Seoul's Kospi 6.5% and Tokyo's Nikkei 3.9%.",
-      "u": "https://www.news4jax.com/business/2026/11/24/asian-stocks-rally-after-wall-street-rebound-as-jensen-huang-returns-as-nvidias-ceo/"
+      "t": "Iran vows to fight renewed US naval blockade",
+      "d": "Tehran said it would use every available tool against the US blockade, reinstated in July. Vice-President Vance and Secretary of State Rubio met Qatar's prime minister at the White House.",
+      "u": "https://www.reuters.com/world/middle-east/iran-says-it-will-use-all-available-tools-confront-us-naval-blockade-2026-11-23/"
      }
     ]
    },
@@ -27,19 +27,24 @@
     "h": "World & politics",
     "items": [
      {
-      "t": "NATO believes Russia ready to launch nuclear-armed satellite",
-      "d": "German media say allied spy agencies think Moscow could put the weapon in orbit soon, which would breach the treaty banning nuclear arms in space.",
-      "u": "https://www.reuters.com/business/aerospace-defense/nato-believes-russia-is-ready-launch-nuclear-armed-satellite-german-media-say-2026-11-23/"
+      "t": "Russian strike on Zaporizhzhia kills two, wounds dozens",
+      "d": "An overnight attack hit an apartment block in the Ukrainian city, killing two people and wounding around 40, including four children, the regional governor said.",
+      "u": "https://www.reuters.com/world/russian-attack-kills-2-people-wounds-22-ukraines-zaporizhzhia-official-says-2026-11-24/"
      },
      {
-      "t": "Drought pushes millions of Afghans deeper into crisis",
-      "d": "Failed rains and shrinking foreign aid are leaving families short of food and water as winter arrives.",
-      "u": "https://www.pbs.org/newshour/show/severe-drought-pushes-millions-in-afghanistan-deeper-into-crisis"
+      "t": "Israeli strike kills Hamas security chief in Gaza City",
+      "d": "Israel confirmed an airstrike in western Gaza City that killed Hamas internal security head Naeem Abu Nahel and six others. A separate strike near Jabalia killed a UN aid worker.",
+      "u": "https://www.reuters.com/world/middle-east/israeli-airstrike-kills-least-three-palestinians-southern-gaza-medics-say-2026-11-24/"
      },
      {
-      "t": "Beijing praises turnout in Hong Kong Election Committee vote",
-      "d": "Thousands voted in the poll for the body that picks Hong Kong's leader; Beijing hailed what it called healthy competition.",
-      "u": "https://hongkongfp.com/2026/11/23/beijing-praises-healthy-competition-as-thousands-vote-in-hong-kong-election-committee-race/"
+      "t": "Sheikh Hasina says she will return to Bangladesh",
+      "d": "The ousted leader, sentenced to death in absentia, plans to fly home on 16 December. Bangladesh's foreign minister said she would be brought back \"in handcuffs\".",
+      "u": "https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/"
+     },
+     {
+      "t": "Japan pays ICC dues early ahead of US sanctions",
+      "d": "Prime Minister Sanae Takaichi said Japan will pay its full 2027 contribution to the International Criminal Court before year-end, as US sanctions threaten the court's finances.",
+      "u": "https://www.reuters.com/world/americas/japan-accelerates-icc-funding-us-sanctions-threaten-court-2026-11-24/"
      }
     ]
    },
@@ -47,19 +52,19 @@
     "h": "Business & economy",
     "items": [
      {
-      "t": "Nvidia adds nearly $1tn in value in a single day",
-      "d": "It was the chipmaker's best day in over two decades, recovering most of the slump that followed Huang's exit; SEC and DOJ probes continue.",
-      "u": "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html"
+      "t": "Wall Street slips after Monday's big tech rally",
+      "d": "The S&P 500 fell about 1% and the Nasdaq 2% as chip stocks gave back gains. HPE dropped 12% on a weak forecast, and reports of higher US tariffs on China and the EU weighed.",
+      "u": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833"
      },
      {
-      "t": "Deloitte sees Hong Kong back in budget surplus",
-      "d": "The firm forecasts a HK$20.8bn surplus for 2026/27, with fiscal reserves rising to about HK$686bn by March 2027.",
-      "u": "https://www.thestandard.com.hk/finance/article/349349/"
+      "t": "CrowdStrike agrees $44bn deal for Zscaler",
+      "d": "The all-stock deal, at about a 34% premium, would create a cybersecurity giant. CrowdStrike shares fell 9% while Zscaler rose 18%.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-23/crowdstrike-reaches-44-billion-cybersecurity-deal-for-zscaler"
      },
      {
-      "t": "Dell and HPE seek AI server price rises of up to 45%",
-      "d": "Customers were asked to pay more even after deals were signed, as memory and chip costs soar from AI demand.",
-      "u": "https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f"
+      "t": "US blacklists Singapore firm over Nvidia chip diversion",
+      "d": "Commerce added cloud firm Megaspeed to its Entity List over fears of chips reaching China. Singapore's PM Lawrence Wong said the city would not be a conduit to dodge US curbs.",
+      "u": "https://www.semafor.com/article/11/23/2026/commerce-to-add-megaspeed-to-trade-blacklist"
      }
     ]
    },
@@ -67,34 +72,34 @@
     "h": "Technology",
     "items": [
      {
-      "t": "Nvidia brings Jensen Huang back as CEO after 11 days",
-      "d": "The board said it was satisfied after talks with him and US officials found no security risk. He quit over affairs, one with a suspected Chinese spy.",
-      "u": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/"
+      "t": "US lawmakers attack Nvidia over Huang's return",
+      "d": "Members of both parties criticised the decision and called for tougher laws on chip exports to China. Huang is due to testify publicly before senators on 3 December.",
+      "u": "https://www.reuters.com/business/lawmakers-criticize-nvidia-decision-reinstate-huang-ceo-2026-11-23/"
      },
      {
-      "t": "Apple builds an autonomous AI agent for the Mac",
-      "d": "The agent would carry out tasks across apps on its own, putting Apple in direct competition with OpenAI and Anthropic.",
-      "u": "https://dataconomy.com/2026/11/23/apple-builds-autonomous-ai-agent-to-take-on-openai-and/"
+      "t": "Ex-OpenAI engineer charged with bugging executive meeting room",
+      "d": "Prosecutors say Abdulrahman Alfozan secretly recorded dozens of OpenAI meetings, many likely containing trade secrets.",
+      "u": "https://www.nytimes.com/2026/11/23/technology/openai-engineer-secret-recordings.html"
      },
      {
-      "t": "Meta rethinks its 2030 net-zero goal as AI emissions soar",
-      "d": "Its emissions rose about 40% in a year to over 21.7m tonnes, driven by power-hungry AI data centres.",
-      "u": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+      "t": "Two US states sue SpaceX over Grok sexualised images",
+      "d": "Oregon and Virginia allege Grok Imagine's \"spicy mode\" produced over 1.8 million sexualised images of women, and dozens of children.",
+      "u": "https://www.nytimes.com/2026/11/23/technology/spacex-lawsuit-ai-sexualized-images.html"
      },
      {
-      "t": "Mathematician says Claude helped prove the Riemann hypothesis",
-      "d": "Anthropic's Levent Alpoge published a machine-checkable proof; experts are still verifying that it proves the 167-year-old problem as intended.",
-      "u": "https://thenextweb.com/news/anthropic-researcher-claims-claude-helped-him-prove-the-riemann-hypothesis"
+      "t": "Amazon to pay $7.5bn for AI startup Decart's tech",
+      "d": "Amazon is taking over much of the real-time AI video startup, including its optimisation software and founding team, in one of its biggest AI deals.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-23/amazon-is-said-to-pay-7-5-billion-for-ai-startup-decart-s-tech"
      },
      {
-      "t": "Chrome patches six critical flaws, two found with AI help",
-      "d": "Google urges users to update now; it shows AI tools are increasingly finding serious security bugs.",
-      "u": "https://www.malwarebytes.com/blog/bugs/2026/11/chrome-patches-six-critical-flaws-two-found-with-ais-help"
+      "t": "US probes cyberattacks on oil tankers via Fortinet flaw",
+      "d": "Investigators are examining whether Iran was behind attacks on up to 50 energy tankers through a router vulnerability; Russia is also a suspect.",
+      "u": "https://www.wsj.com/politics/national-security/iran-us-cyberattack-suspect-fed78942"
      },
      {
-      "t": "Supply-chain hack served malicious code on big news sites",
-      "d": "Attackers compromised Optimizely software used by sites including CNN, BBC and Zoom, briefly pushing harmful scripts to visitors.",
-      "u": "https://www.malwarebytes.com/blog/news/2026/11/cnn-bbc-zoom-and-other-sites-served-malicious-code-in-supply-chain-attack"
+      "t": "AI data centres build their own gas power plants",
+      "d": "Facing grid waits of up to a decade, developers have announced over 100 on-site gas plants in the US, raising climate concerns.",
+      "u": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/"
      }
     ]
    },
@@ -102,19 +107,24 @@
     "h": "Science & health",
     "items": [
      {
-      "t": "US loses measles elimination status after 25 years",
-      "d": "The Pan American Health Organization confirmed it after more than 5,400 US cases this year, as surveys show vaccine myths persist.",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261122060323.htm"
+      "t": "Global warming may have halted the next ice age",
+      "d": "A Science study finds a Baffin Island ice cap began regrowing about 2,000 years ago, hinting at a coming ice age, until warming reversed it by the 1960s.",
+      "u": "https://www.sciencedaily.com/releases/2026/11/261123005350.htm"
      },
      {
-      "t": "Newly found viruses reveal an evolutionary missing link",
-      "d": "Using AI protein tools, scientists found tiny viruses suggesting viruses and cell structures called encapsulins evolved from each other repeatedly.",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261122060334.htm"
+      "t": "IBM quantum computer beats classical machines on hard task",
+      "d": "IBM and University of Chicago researchers say a quantum computer finished in 15 minutes a calculation beyond the practical reach of top supercomputers.",
+      "u": "https://www.sciencedaily.com/releases/2026/11/261123231244.htm"
      },
      {
-      "t": "Cargo ship named after Jim Lovell set for ISS launch",
-      "d": "Northrop Grumman's Cygnus XL will carry about 5 tonnes of supplies on a SpaceX Falcon 9, no earlier than 29 November.",
-      "u": "https://spaceflightnow.com/2026/11/23/as-it-happened-ng-25-preview-news-teleconference"
+      "t": "Leukaemia can start 50 years before diagnosis",
+      "d": "Researchers traced the first cancer-driving mutation in acute myeloid leukaemia to decades before symptoms, opening a window for earlier detection.",
+      "u": "https://www.sciencedaily.com/releases/2026/11/261121221122.htm"
+     },
+     {
+      "t": "COP31 collapse sparks calls to reform climate talks",
+      "d": "After the summit failed, campaigners and officials urged ending the consensus rule that lets a single country block any deal.",
+      "u": "https://www.theguardian.com/environment/2026/nov/23/failure-cop31-calls-urgent-reform-un-climate-summits"
      }
     ]
    },
@@ -122,39 +132,39 @@
     "h": "UK",
     "items": [
      {
-      "t": "Burnham defends 'landmark' EU deal to MPs",
-      "d": "The prime minister said the agreement offers change over a broken status quo, but rejoining the EU without a referendum would be unthinkable.",
-      "u": "https://www.japantimes.co.jp/news/2026/11/24/world/politics/burnham-eu-uk-referendum/"
+      "t": "UK sanctions Myanmar generals after ICJ genocide ruling",
+      "d": "Britain sanctioned five senior Myanmar military leaders after the International Court of Justice ruled Myanmar committed genocide against the Rohingya.",
+      "u": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo"
      },
      {
-      "t": "Snow warning as cold, unsettled weather continues",
-      "d": "The Met Office has warnings in force with snow and ice risks, so check travel before setting off.",
-      "u": "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2026/snow-warning-in-force-as-unsettled-weather-continues-"
+      "t": "Guardian: Trump made up to $15m on Nvidia shares",
+      "d": "Trump's holdings gained as much as $15 million when Nvidia jumped on Huang's return, after the White House lobbied for his reinstatement.",
+      "u": "https://www.theguardian.com/technology/2026/nov/24/donald-trump-nvidia-stock-jensen-huang-stock-market"
      }
     ]
    }
   ]
  },
  "zh": {
-  "greeting": "早晨 — 11月24日星期二",
+  "greeting": "晚安 — 11月24日星期二",
   "sections": [
    {
     "h": "頭條新聞",
     "items": [
      {
-      "t": "COP31氣候峰會無協議告終",
-      "d": "在土耳其舉行的聯合國氣候大會延至周日深夜仍未能達成共識，各國再度要求改革容許任何一國否決結果的「協商一致」規則。",
-      "u": "https://www.thestandard.com.hk/world/article/349343/"
+      "t": "Nvidia 復任黃仁勳為行政總裁",
+      "d": "Nvidia 董事會一致決定恢復黃仁勳職務，距他辭職不足兩星期，稱美國政府認為他不構成安全風險。股價周一急升31%，今日因管治疑慮回落約5%。",
+      "u": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o"
      },
      {
-      "t": "俄警告烏克蘭海上無人機襲擊將招「痛苦後果」",
-      "d": "基輔稱在利比亞班加西擊沉一艘俄羅斯輕型護衛艦，波羅的海一艘貨輪亦起火。克里姆林宮指襲擊擴大是危險趨勢。",
-      "u": "https://www.aljazeera.com/news/2026/11/23/russia-warns-ukraine-of-dangerous-trend-after-libya-and-baltic-attacks"
+      "t": "北約警告俄羅斯或發射核武衛星",
+      "d": "盟國情報顯示，俄羅斯最快下月可能發射載有核武的衛星。北約秘書長呂特表示，北約會防禦太空威脅；克里姆林宮否認有關報道。",
+      "u": "https://www.theguardian.com/world/2026/nov/23/russia-nuclear-weapons-space-german-intelligence"
      },
      {
-      "t": "黃仁勳重返Nvidia 環球股市急升",
-      "d": "Nvidia周一股價急升31.5%，納指升6.5%。亞洲股市周二跟隨：台灣加權指數升逾9%，韓國綜指升6.5%，日經指數升3.9%。",
-      "u": "https://www.news4jax.com/business/2026/11/24/asian-stocks-rally-after-wall-street-rebound-as-jensen-huang-returns-as-nvidias-ceo/"
+      "t": "伊朗誓言以一切手段對抗美國海上封鎖",
+      "d": "德黑蘭表示會動用一切手段對抗美國自7月恢復的海上封鎖。美國副總統萬斯及國務卿盧比奧在白宮分別會見卡塔爾首相。",
+      "u": "https://www.reuters.com/world/middle-east/iran-says-it-will-use-all-available-tools-confront-us-naval-blockade-2026-11-23/"
      }
     ]
    },
@@ -162,19 +172,24 @@
     "h": "國際及政治",
     "items": [
      {
-      "t": "北約相信俄羅斯準備發射核武衛星",
-      "d": "德國傳媒報道，盟國情報機構認為莫斯科或於短期內把核武送上軌道，將違反禁止太空核武的條約。",
-      "u": "https://www.reuters.com/business/aerospace-defense/nato-believes-russia-is-ready-launch-nuclear-armed-satellite-german-media-say-2026-11-23/"
+      "t": "俄軍空襲扎波羅熱 兩死數十傷",
+      "d": "俄軍夜間襲擊烏克蘭扎波羅熱一幢住宅大廈，州長表示兩人死亡、約40人受傷，包括四名兒童。",
+      "u": "https://www.reuters.com/world/russian-attack-kills-2-people-wounds-22-ukraines-zaporizhzhia-official-says-2026-11-24/"
      },
      {
-      "t": "旱災令數以百萬計阿富汗人陷更深危機",
-      "d": "雨水不足加上外國援助減少，入冬之際大批家庭缺糧缺水。",
-      "u": "https://www.pbs.org/newshour/show/severe-drought-pushes-millions-in-afghanistan-deeper-into-crisis"
+      "t": "以軍空襲加沙城 擊斃哈馬斯保安首長",
+      "d": "以色列確認空襲加沙城西部，擊斃哈馬斯內部保安首長阿布納赫勒及另外六人。另一次在賈巴利亞附近的空襲炸死一名聯合國救援人員。",
+      "u": "https://www.reuters.com/world/middle-east/israeli-airstrike-kills-least-three-palestinians-southern-gaza-medics-say-2026-11-24/"
      },
      {
-      "t": "北京讚揚香港選委會選舉投票踴躍",
-      "d": "數以千計選民投票選出負責選舉特首的選舉委員會，北京稱選舉競爭良性。",
-      "u": "https://hongkongfp.com/2026/11/23/beijing-praises-healthy-competition-as-thousands-vote-in-hong-kong-election-committee-race/"
+      "t": "哈西娜稱將返回孟加拉",
+      "d": "被缺席判處死刑的孟加拉前總理哈西娜計劃12月16日回國。孟加拉外長表示，她將被「戴上手銬」押返。",
+      "u": "https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/"
+     },
+     {
+      "t": "日本提早繳付國際刑事法院會費",
+      "d": "日本首相高市早苗表示，日本會在年底前繳付2027年全數國際刑事法院會費，以應對美國制裁對法院財政的威脅。",
+      "u": "https://www.reuters.com/world/americas/japan-accelerates-icc-funding-us-sanctions-threaten-court-2026-11-24/"
      }
     ]
    },
@@ -182,19 +197,19 @@
     "h": "商業及經濟",
     "items": [
      {
-      "t": "Nvidia一日市值增近一萬億美元",
-      "d": "這是該公司二十多年來最好的一日，收復黃仁勳離任後大部分跌幅；美國證監會及司法部調查仍在進行。",
-      "u": "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html"
+      "t": "美股周一急升後回落",
+      "d": "標普500指數跌約1%，納指跌2%，晶片股回吐升幅。HPE 因業績預測遜色急跌12%，美國考慮對中國及歐盟加徵關稅的報道亦拖累大市。",
+      "u": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833"
      },
      {
-      "t": "德勤預測香港財政重回盈餘",
-      "d": "德勤估計2026/27年度盈餘208億港元，財政儲備於2027年3月底升至約6,863億港元。",
-      "u": "https://www.thestandard.com.hk/finance/article/349349/"
+      "t": "CrowdStrike 斥440億美元收購 Zscaler",
+      "d": "這宗全換股交易溢價約34%，將造就一間網絡安全巨企。CrowdStrike 股價跌9%，Zscaler 則升18%。",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-23/crowdstrike-reaches-44-billion-cybersecurity-deal-for-zscaler"
      },
      {
-      "t": "Dell及HPE擬加AI伺服器價最多45%",
-      "d": "即使合約已簽，客戶仍被要求付更多，反映AI需求推高記憶體及晶片成本。",
-      "u": "https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f"
+      "t": "美國將新加坡 Megaspeed 列入實體清單",
+      "d": "美國商務部以晶片可能流入中國為由，將雲端公司 Megaspeed 列入實體清單。新加坡總理黃循財表示，新加坡不會成為規避美國管制的渠道。",
+      "u": "https://www.semafor.com/article/11/23/2026/commerce-to-add-megaspeed-to-trade-blacklist"
      }
     ]
    },
@@ -202,34 +217,34 @@
     "h": "科技",
     "items": [
      {
-      "t": "Nvidia十一日後重新委任黃仁勳為行政總裁",
-      "d": "董事會稱與他及美國官員商討後滿意，認為沒有國家安全風險。他早前因婚外情辭職，其中一人涉嫌是中國間諜。",
-      "u": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/"
+      "t": "美國議員批評 Nvidia 復任黃仁勳",
+      "d": "兩黨議員批評這項決定，並要求立法收緊對華晶片出口。黃仁勳將於12月3日在參議院公開作證。",
+      "u": "https://www.reuters.com/business/lawmakers-criticize-nvidia-decision-reinstate-huang-ceo-2026-11-23/"
      },
      {
-      "t": "Apple為Mac研發自主AI代理",
-      "d": "該代理可自行跨應用程式完成工作，令Apple與OpenAI及Anthropic直接競爭。",
-      "u": "https://dataconomy.com/2026/11/23/apple-builds-autonomous-ai-agent-to-take-on-openai-and/"
+      "t": "前 OpenAI 工程師被控在會議室裝竊聽器",
+      "d": "檢方指 Abdulrahman Alfozan 秘密錄下數十個 OpenAI 會議，當中不少可能涉及商業機密。",
+      "u": "https://www.nytimes.com/2026/11/23/technology/openai-engineer-secret-recordings.html"
      },
      {
-      "t": "AI排放急增 Meta重新檢討2030淨零目標",
-      "d": "耗電的AI數據中心令其排放一年內增約四成，至逾2,170萬公噸。",
-      "u": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+      "t": "美國兩州就 Grok 色情圖像起訴 SpaceX",
+      "d": "俄勒岡州及維珍尼亞州指控 Grok Imagine 的「辛辣模式」生成逾180萬張女性色情圖像，另有數十張涉及兒童。",
+      "u": "https://www.nytimes.com/2026/11/23/technology/spacex-lawsuit-ai-sexualized-images.html"
      },
      {
-      "t": "數學家稱Claude協助證明黎曼猜想",
-      "d": "Anthropic的Levent Alpoge發表可由電腦驗證的證明；專家仍在核實它是否真正解決這個167年難題。",
-      "u": "https://thenextweb.com/news/anthropic-researcher-claims-claude-helped-him-prove-the-riemann-hypothesis"
+      "t": "Amazon 斥75億美元收購 Decart 技術",
+      "d": "Amazon 將接手即時 AI 影片初創 Decart 大部分業務，包括優化軟件及創辦團隊，屬其最大型 AI 交易之一。",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-23/amazon-is-said-to-pay-7-5-billion-for-ai-startup-decart-s-tech"
      },
      {
-      "t": "Chrome修補六個嚴重漏洞 其中兩個由AI發現",
-      "d": "Google呼籲用戶立即更新；顯示AI工具愈來愈多被用來找出嚴重保安漏洞。",
-      "u": "https://www.malwarebytes.com/blog/bugs/2026/11/chrome-patches-six-critical-flaws-two-found-with-ais-help"
+      "t": "美國調查利用 Fortinet 漏洞攻擊油輪事件",
+      "d": "調查人員正追查伊朗是否利用路由器漏洞攻擊多達50艘能源油輪，俄羅斯亦是懷疑對象。",
+      "u": "https://www.wsj.com/politics/national-security/iran-us-cyberattack-suspect-fed78942"
      },
      {
-      "t": "供應鏈攻擊令大型新聞網站播出惡意程式碼",
-      "d": "黑客入侵CNN、BBC及Zoom等網站使用的Optimizely軟件，短暫向訪客推送有害程式。",
-      "u": "https://www.malwarebytes.com/blog/news/2026/11/cnn-bbc-zoom-and-other-sites-served-malicious-code-in-supply-chain-attack"
+      "t": "AI 數據中心自建燃氣發電廠",
+      "d": "由於接駁電網要等上十年，美國發展商已宣布興建逾100座自用燃氣發電廠，引起氣候方面的憂慮。",
+      "u": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/"
      }
     ]
    },
@@ -237,19 +252,24 @@
     "h": "科學及健康",
     "items": [
      {
-      "t": "美國失去消除麻疹地位 為25年來首次",
-      "d": "泛美衛生組織確認，美國今年麻疹個案逾5,400宗；調查顯示疫苗謬誤仍然普遍。",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261122060323.htm"
+      "t": "全球暖化或已阻止下一次冰河時期",
+      "d": "《科學》期刊研究發現，巴芬島一個冰帽約2000年前開始重新擴大，顯示冰河期將至，但至1960年代已被暖化逆轉。",
+      "u": "https://www.sciencedaily.com/releases/2026/11/261123005350.htm"
      },
      {
-      "t": "新發現病毒揭示演化缺失一環",
-      "d": "科學家利用AI蛋白質工具找到微小病毒，顯示病毒與細胞內稱為encapsulin的結構曾多次互相演化而來。",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261122060334.htm"
+      "t": "IBM 量子電腦完成傳統電腦難及的運算",
+      "d": "IBM 與芝加哥大學研究人員表示，量子電腦用15分鐘完成一項頂級超級電腦實際上難以完成的運算。",
+      "u": "https://www.sciencedaily.com/releases/2026/11/261123231244.htm"
      },
      {
-      "t": "以Jim Lovell命名貨運飛船將飛往太空站",
-      "d": "Northrop Grumman的Cygnus XL將由SpaceX獵鷹9號運載約5噸物資，最早11月29日發射。",
-      "u": "https://spaceflightnow.com/2026/11/23/as-it-happened-ng-25-preview-news-teleconference"
+      "t": "白血病可於確診前50年已開始形成",
+      "d": "研究人員追溯到急性骨髓性白血病的首個致癌突變早於病徵出現數十年，為及早檢測帶來機會。",
+      "u": "https://www.sciencedaily.com/releases/2026/11/261121221122.htm"
+     },
+     {
+      "t": "COP31 破裂 引發改革氣候峰會呼聲",
+      "d": "峰會未能達成協議後，環保團體及官員呼籲取消讓單一國家可否決協議的共識規則。",
+      "u": "https://www.theguardian.com/environment/2026/nov/23/failure-cop31-calls-urgent-reform-un-climate-summits"
      }
     ]
    },
@@ -257,14 +277,14 @@
     "h": "英國",
     "items": [
      {
-      "t": "賓咸向議員力撐與歐盟的「里程碑」協議",
-      "d": "首相稱協議代表改變而非破舊現狀，但表示不經公投重新加入歐盟是不可想像的。",
-      "u": "https://www.japantimes.co.jp/news/2026/11/24/world/politics/burnham-eu-uk-referendum/"
+      "t": "英國制裁緬甸將領",
+      "d": "國際法院裁定緬甸對羅興亞人犯下種族滅絕罪後，英國宣布制裁五名緬甸軍方高層。",
+      "u": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo"
      },
      {
-      "t": "天氣持續寒冷不穩 氣象局發降雪警告",
-      "d": "英國氣象局警告生效，有降雪及結冰風險，出門前宜查看交通情況。",
-      "u": "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2026/snow-warning-in-force-as-unsettled-weather-continues-"
+      "t": "《衞報》：特朗普持有 Nvidia 股票獲利最多1500萬美元",
+      "d": "白宮游說黃仁勳復職後，Nvidia 股價急升，特朗普所持股份獲利最多1500萬美元。",
+      "u": "https://www.theguardian.com/technology/2026/nov/24/donald-trump-nvidia-stock-jensen-huang-stock-market"
      }
     ]
    }
@@ -272,84 +292,100 @@
  },
  "sources": [
   {
-   "title": "COP31 climate talks in Turkey end without a deal",
-   "url": "https://www.thestandard.com.hk/world/article/349343/"
+   "title": "Nvidia brings back Jensen Huang as chief executive",
+   "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o"
   },
   {
-   "title": "Russia threatens 'painful consequences' over Ukrainian sea drone strikes",
-   "url": "https://www.aljazeera.com/news/2026/11/23/russia-warns-ukraine-of-dangerous-trend-after-libya-and-baltic-attacks"
+   "title": "NATO warns of Russian nuclear-armed satellite threat",
+   "url": "https://www.theguardian.com/world/2026/nov/23/russia-nuclear-weapons-space-german-intelligence"
   },
   {
-   "title": "Huang's Nvidia return sparks global stock rally",
-   "url": "https://www.news4jax.com/business/2026/11/24/asian-stocks-rally-after-wall-street-rebound-as-jensen-huang-returns-as-nvidias-ceo/"
+   "title": "Iran vows to fight renewed US naval blockade",
+   "url": "https://www.reuters.com/world/middle-east/iran-says-it-will-use-all-available-tools-confront-us-naval-blockade-2026-11-23/"
   },
   {
-   "title": "NATO believes Russia ready to launch nuclear-armed satellite",
-   "url": "https://www.reuters.com/business/aerospace-defense/nato-believes-russia-is-ready-launch-nuclear-armed-satellite-german-media-say-2026-11-23/"
+   "title": "Russian strike on Zaporizhzhia kills two, wounds dozens",
+   "url": "https://www.reuters.com/world/russian-attack-kills-2-people-wounds-22-ukraines-zaporizhzhia-official-says-2026-11-24/"
   },
   {
-   "title": "Drought pushes millions of Afghans deeper into crisis",
-   "url": "https://www.pbs.org/newshour/show/severe-drought-pushes-millions-in-afghanistan-deeper-into-crisis"
+   "title": "Israeli strike kills Hamas security chief in Gaza City",
+   "url": "https://www.reuters.com/world/middle-east/israeli-airstrike-kills-least-three-palestinians-southern-gaza-medics-say-2026-11-24/"
   },
   {
-   "title": "Beijing praises turnout in Hong Kong Election Committee vote",
-   "url": "https://hongkongfp.com/2026/11/23/beijing-praises-healthy-competition-as-thousands-vote-in-hong-kong-election-committee-race/"
+   "title": "Sheikh Hasina says she will return to Bangladesh",
+   "url": "https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/"
   },
   {
-   "title": "Nvidia adds nearly $1tn in value in a single day",
-   "url": "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html"
+   "title": "Japan pays ICC dues early ahead of US sanctions",
+   "url": "https://www.reuters.com/world/americas/japan-accelerates-icc-funding-us-sanctions-threaten-court-2026-11-24/"
   },
   {
-   "title": "Deloitte sees Hong Kong back in budget surplus",
-   "url": "https://www.thestandard.com.hk/finance/article/349349/"
+   "title": "Wall Street slips after Monday's big tech rally",
+   "url": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833"
   },
   {
-   "title": "Dell and HPE seek AI server price rises of up to 45%",
-   "url": "https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f"
+   "title": "CrowdStrike agrees $44bn deal for Zscaler",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-23/crowdstrike-reaches-44-billion-cybersecurity-deal-for-zscaler"
   },
   {
-   "title": "Nvidia brings Jensen Huang back as CEO after 11 days",
-   "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/"
+   "title": "US blacklists Singapore firm over Nvidia chip diversion",
+   "url": "https://www.semafor.com/article/11/23/2026/commerce-to-add-megaspeed-to-trade-blacklist"
   },
   {
-   "title": "Apple builds an autonomous AI agent for the Mac",
-   "url": "https://dataconomy.com/2026/11/23/apple-builds-autonomous-ai-agent-to-take-on-openai-and/"
+   "title": "US lawmakers attack Nvidia over Huang's return",
+   "url": "https://www.reuters.com/business/lawmakers-criticize-nvidia-decision-reinstate-huang-ceo-2026-11-23/"
   },
   {
-   "title": "Meta rethinks its 2030 net-zero goal as AI emissions soar",
-   "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+   "title": "Ex-OpenAI engineer charged with bugging executive meeting room",
+   "url": "https://www.nytimes.com/2026/11/23/technology/openai-engineer-secret-recordings.html"
   },
   {
-   "title": "Mathematician says Claude helped prove the Riemann hypothesis",
-   "url": "https://thenextweb.com/news/anthropic-researcher-claims-claude-helped-him-prove-the-riemann-hypothesis"
+   "title": "Two US states sue SpaceX over Grok sexualised images",
+   "url": "https://www.nytimes.com/2026/11/23/technology/spacex-lawsuit-ai-sexualized-images.html"
   },
   {
-   "title": "Chrome patches six critical flaws, two found with AI help",
-   "url": "https://www.malwarebytes.com/blog/bugs/2026/11/chrome-patches-six-critical-flaws-two-found-with-ais-help"
+   "title": "Amazon to pay $7.5bn for AI startup Decart's tech",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-23/amazon-is-said-to-pay-7-5-billion-for-ai-startup-decart-s-tech"
   },
   {
-   "title": "Supply-chain hack served malicious code on big news sites",
-   "url": "https://www.malwarebytes.com/blog/news/2026/11/cnn-bbc-zoom-and-other-sites-served-malicious-code-in-supply-chain-attack"
+   "title": "US probes cyberattacks on oil tankers via Fortinet flaw",
+   "url": "https://www.wsj.com/politics/national-security/iran-us-cyberattack-suspect-fed78942"
   },
   {
-   "title": "US loses measles elimination status after 25 years",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261122060323.htm"
+   "title": "AI data centres build their own gas power plants",
+   "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/"
   },
   {
-   "title": "Newly found viruses reveal an evolutionary missing link",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261122060334.htm"
+   "title": "Global warming may have halted the next ice age",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261123005350.htm"
   },
   {
-   "title": "Cargo ship named after Jim Lovell set for ISS launch",
-   "url": "https://spaceflightnow.com/2026/11/23/as-it-happened-ng-25-preview-news-teleconference"
+   "title": "IBM quantum computer beats classical machines on hard task",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261123231244.htm"
   },
   {
-   "title": "Burnham defends 'landmark' EU deal to MPs",
-   "url": "https://www.japantimes.co.jp/news/2026/11/24/world/politics/burnham-eu-uk-referendum/"
+   "title": "Leukaemia can start 50 years before diagnosis",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261121221122.htm"
   },
   {
-   "title": "Snow warning as cold, unsettled weather continues",
-   "url": "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2026/snow-warning-in-force-as-unsettled-weather-continues-"
+   "title": "COP31 collapse sparks calls to reform climate talks",
+   "url": "https://www.theguardian.com/environment/2026/nov/23/failure-cop31-calls-urgent-reform-un-climate-summits"
+  },
+  {
+   "title": "UK sanctions Myanmar generals after ICJ genocide ruling",
+   "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo"
+  },
+  {
+   "title": "Guardian: Trump made up to $15m on Nvidia shares",
+   "url": "https://www.theguardian.com/technology/2026/nov/24/donald-trump-nvidia-stock-jensen-huang-stock-market"
+  },
+  {
+   "title": "Just Security Early Edition, 24 Nov 2026",
+   "url": "https://www.justsecurity.org/165763/early-edition-november-24-2026/"
+  },
+  {
+   "title": "Techmeme",
+   "url": "https://www.techmeme.com/river"
   }
  ]
 }
