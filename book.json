@@ -1,60 +1,60 @@
 {
- "date": "2026-11-23",
- "updated": "2026-11-23T05:09:59+00:00",
- "id": "what-should-my-children-do-daniel-susskind",
- "t": "What Should My Children Do? How to Flourish in the Age of AI",
- "tz": "我的孩子該做甚麼？在人工智能時代活得好",
+ "date": "2026-11-24",
+ "updated": "2026-11-24T05:09:20+00:00",
+ "id": "castles-dan-jones",
+ "t": "Castles: A Fortified History of the World",
+ "tz": "城堡：一部世界防禦史",
  "tz_note": "暫譯",
- "a": "Daniel Susskind",
- "published": "10 Sep 2026",
- "publisher": "Allen Lane (UK); Penguin Press (US)",
- "pages": 240,
+ "a": "Dan Jones",
+ "published": "3 Nov 2026 (US); UK edition autumn 2026",
+ "publisher": "Head of Zeus (UK); Viking (US)",
+ "pages": 416,
  "isbn": [
-  "9780241791172",
-  "9798217061716"
+  "9781035911974",
+  "9798217060306"
  ],
- "cover_url": "https://mrbsemporium.com/wp-content/uploads/2026/08/9780241791172.jpg",
- "tag": "AI",
- "en": "Oxford economist Daniel Susskind, author of A World Without Work and a father of three young children, asks the question many parents now share: what should our kids learn, and aim for, when AI can do so much? He argues against banning the tools or clinging to old ways of working. His guiding idea comes from how British schools handled the pocket calculator: teach both, test both, so children learn to use AI while keeping the basic skills that could wither. He also covers AI tutors, how to choose a career by the problem it solves, and how white-collar work may change. For parents, teachers and anyone planning a career.",
- "zh": "牛津經濟學家Daniel Susskind自己有三個讀小學嘅仔女，佢問咗好多家長都想問嘅問題：人工智能咁叻，細路應該學乜、將來做乜？佢反對一味禁止，亦唔贊成死守舊方法。全書核心借鏡英國學校當年點樣面對計數機：「兩樣都教、兩樣都考」，即係教小朋友用AI，同時保住基本功，唔好俾佢退化。書中亦講到AI私人補習、揀職業要睇佢解決咩問題，以及白領工作點樣轉變。適合家長、老師同正在諗前途嘅人。",
+ "cover_url": "https://www.medievalists.net/wp-content/uploads/2026/09/Castles_Fortified_History.jpg",
+ "tag": "歷史",
+ "en": "Popular historian Dan Jones takes a grand tour of the walls people have built to keep danger out, from Bronze Age cities in the eastern Mediterranean and the walls of Troy and Jericho to Iron Age hillforts in Britain, Viking ring forts, the Tower of London, Japanese samurai castles and the Ming Great Wall. He follows castles into fantasy and fiction, American millionaires' mansions such as Hearst's San Simeon, and ends in the nuclear age with doomsday bunkers built by tech billionaires. It is a book about people as much as stone: why we fortify, and what that says about fear and power. Good for anyone who loves visiting castles.",
+ "zh": "英國人氣歷史作家Dan Jones帶你周遊世界各地嘅城牆同堡壘：由青銅時代地中海東岸嘅城邦、特洛伊同耶利哥城牆，到英國鐵器時代山堡、維京環形要塞、倫敦塔、日本武士城，以至明代長城。佢仲講城堡點樣走入奇幻小說，美國富豪點樣起私人城堡，最後一章講核子時代，科技富豪喺夏威夷同舊軍營起末日地堡。重點唔止係石頭，而係人：我哋點解要築牆自保，恐懼同權力又點樣塑造世界。鍾意去古堡遊覽嘅人一定啱睇。",
  "reviews": [
   {
-   "src": "The Irish Times",
-   "d": "Optimistic and full of genuinely helpful ideas for families, schools and work, though it says too little about who controls AI.",
-   "dz": "樂觀實用，對家庭、學校同工作都有好建議，但少講邊個控制AI。",
-   "url": "https://www.irishtimes.com/culture/books/review/2026/10/10/what-should-my-children-do-by-daniel-susskind-an-optimistic-book-about-ai/"
+   "src": "Medievalists.net",
+   "d": "Historian Nicholas Morton calls it thought-provoking and wide-ranging, rich in detail, and a page-turner for scholars and first-time castle visitors alike.",
+   "dz": "歷史學者Nicholas Morton話內容廣闊、細節豐富，引人入勝，學者同初遊古堡者都啱睇。",
+   "url": "https://www.medievalists.net/2026/09/book-review-castles-a-fortified-history-of-the-world/"
   },
   {
-   "src": "Education Next",
-   "d": "Accessible, thoughtful advice for parents with cautious optimism; weaker on how schools and testing would actually change.",
-   "dz": "易讀又有心思，審慎樂觀；但點樣改革學校同考試就講得較弱。",
-   "url": "https://www.educationnext.org/guiding-kids-to-adapt-to-a-future-with-ai-book-review-what-should-my-children-do-susskind/"
+   "src": "Kirkus Reviews",
+   "d": "An entertaining, fact-filled history of fortifications; praises the breezy, absorbing style and careful research, from Troy to billionaires' bunkers.",
+   "dz": "資料豐富又好睇嘅防禦工事史，文筆輕鬆吸引，考據仔細，由特洛伊講到富豪地堡。",
+   "url": "https://www.kirkusreviews.com/book-reviews/dan-jones/castles-2/"
   },
   {
-   "src": "The Critic",
-   "d": "Sharply negative: treats AI adoption as inevitable and skirts the hardest questions, from cheating to children's own views.",
-   "dz": "嚴厲批評：當AI普及係必然，迴避作弊、細路自己意見等難題。",
-   "url": "https://thecritic.co.uk/issues/october-2026/what-should-my-children-do-how-to-flourish-in-the-age-of-ai/"
+   "src": "Shelf Awareness",
+   "d": "A highly personal tour across three millennia; focusing on people rather than masonry makes it more entertaining than a technical history.",
+   "dz": "跨越三千年嘅個人導賞；著重人而唔係磚石，比技術史更有趣。",
+   "url": "https://www.shelf-awareness.com/theshelf/2026-08-25/review:_castles:_a_fortified_history_of_the_world.html"
   }
  ],
- "ken": "Don't choose between AI and basic skills: teach both, test both.",
- "kzh": "唔使喺AI同基本功之間二揀一：兩樣都教，兩樣都考。",
+ "ken": "Every wall we build is a map of what we fear, from Troy's ramparts to a billionaire's bunker.",
+ "kzh": "每一道牆都畫出我哋最驚嘅嘢：由特洛伊城牆到富豪嘅末日地堡。",
  "sources": [
   {
-   "title": "Penguin UK: What Should My Children Do?",
-   "url": "https://www.penguin.co.uk/books/475229/what-should-my-children-do-by-susskind-daniel/9780241791172"
+   "title": "Medievalists.net review",
+   "url": "https://www.medievalists.net/2026/09/book-review-castles-a-fortified-history-of-the-world/"
   },
   {
-   "title": "Penguin Random House US",
-   "url": "https://www.penguinrandomhouse.com/books/812111/what-should-my-children-do-by-daniel-susskind/"
+   "title": "Kirkus Reviews",
+   "url": "https://www.kirkusreviews.com/book-reviews/dan-jones/castles-2/"
   },
   {
-   "title": "Mr B's Emporium",
-   "url": "https://mrbsemporium.com/shop/books/what-should-my-children-do/"
+   "title": "Shelf Awareness",
+   "url": "https://www.shelf-awareness.com/theshelf/2026-08-25/review:_castles:_a_fortified_history_of_the_world.html"
   },
   {
-   "title": "Next Big Idea Club: November 2026 must-reads",
-   "url": "https://nextbigideaclub.com/magazine/next-big-idea-clubs-november-2026-must-read-books/61737/amp/"
+   "title": "Penguin Random House (US edition)",
+   "url": "https://www.penguinrandomhouse.com/books/797010/castles-by-dan-jones/9798217060306"
   }
  ]
 }
