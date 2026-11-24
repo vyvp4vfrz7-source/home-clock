@@ -464,20 +464,30 @@ body.compact #say { margin-bottom: 0; width: 11vmin; height: 11vmin; } body.comp
     });
     getJSON('../notes.json' + t(), function (n) { NOTES = n || {}; capPhoto(); });
   }
-  var idx = -1;
+  var idx = -1, deck = [];
+  /* Random order: each round shows every photo once, shuffled, and never the same one twice in a row. */
+  function shuffleNext(deck, cur, n) {
+    if (deck.n !== n) { deck.length = 0; deck.n = n; }
+    if (!deck.length) {
+      for (var i = 0; i < n; i++) deck.push(i);
+      for (i = n - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), x = deck[i]; deck[i] = deck[j]; deck[j] = x; }
+      if (n > 1 && deck[n - 1] === cur) { x = deck[n - 1]; deck[n - 1] = deck[0]; deck[0] = x; }
+    }
+    return deck.pop();
+  }
   var hsBox = HomeSound.mount($('pPage'), 'big');   // 🔊 video volume + 🎵 music, top-right of the photo page
   hsBox.style.top = 'calc(env(safe-area-inset-top, 0px) + 3.4vmin)'; hsBox.style.right = 'max(16px, calc(env(safe-area-inset-right, 0px) + 4vmin))';
   var pFrame = PhotoFrames.mount($('photos').parentNode, $('photos').nextSibling, '2.2vmin');
   function startPhotos() {
-    var box = $('photos'); box.innerHTML = ''; idx = -1;
+    var box = $('photos'); box.innerHTML = ''; idx = -1; deck.length = 0;
     PHOTOS.forEach(function (p) { var d = document.createElement('div'); d.className = 'ph'; d.setAttribute('data-src', p.src); d.innerHTML = '<i class="bg"></i><i class="fg"></i>'; box.appendChild(d); });
     nextPhoto();
   }
   function nextPhoto() {
     var els = $('photos').children; if (!els.length) return;
     if (idx >= 0) { els[idx].className = 'ph'; HomeSound.stop(els[idx]); }
-    idx = (idx + 1) % els.length;
-    var el = els[idx], nx = els[(idx + 1) % els.length]; paintPh(el); paintPh(nx);   // and preload the next one
+    idx = shuffleNext(deck, idx, els.length);
+    var el = els[idx], nx = els[deck.length ? deck[deck.length - 1] : idx]; paintPh(el); paintPh(nx);   // and preload the next one
     void el.offsetWidth; el.className = 'ph on';
     capPhoto();
     var p = PHOTOS[idx];
