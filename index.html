@@ -2033,7 +2033,17 @@ var SCENES = [
       for (var yy = h - bh + 20; yy < h - 20; yy += 34) for (var xx = x + 12; xx < x + 100; xx += 24) if (Math.random() > .55) { g.fillStyle = Math.random() > .3 ? '#f7cf7a' : '#9fd0ff'; g.fillRect(xx, yy, 12, 16); } }
   } }
 ];
-var PHOTOS = [], pIdx = -1, pTimer = null;
+var PHOTOS = [], pIdx = -1, pTimer = null, pDeck = [], pForce = -1;
+/* Random order: each round shows every photo once, shuffled, and never the same one twice in a row. */
+function shuffleNext(deck, cur, n) {
+  if (deck.n !== n) { deck.length = 0; deck.n = n; }
+  if (!deck.length) {
+    for (var i = 0; i < n; i++) deck.push(i);
+    for (i = n - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), x = deck[i]; deck[i] = deck[j]; deck[j] = x; }
+    if (n > 1 && deck[n - 1] === cur) { x = deck[n - 1]; deck[n - 1] = deck[0]; deck[0] = x; }
+  }
+  return deck.pop();
+}
 var PHOTO_SECS = 20;   // how long each photo stays; a video stays until it has played to the end
 function startPhotos(list) {
   PHOTOS = list; var box = $('photo');
@@ -2046,7 +2056,7 @@ function nextPhoto() {
   var els = $('photo').querySelectorAll('.ph'); if (!els.length) return;
   if (noteOpen) { photoAfter(5); return; }   // wait while a note is being written
   if (pIdx >= 0) { els[pIdx].classList.remove('on'); stopVideo(els[pIdx]); }
-  pIdx = (pIdx + 1) % els.length; els[pIdx].classList.add('on');
+  pIdx = pForce >= 0 && pForce < els.length ? pForce : shuffleNext(pDeck, pIdx, els.length); pForce = -1; els[pIdx].classList.add('on');
   var p = PHOTOS[els.length - 1 - pIdx] || {};
   showCaption(p);
   PhotoFrames.show(pFrame, p.src);   // frames.js: polaroid, wood, film…
@@ -2113,7 +2123,7 @@ function showNewNote() {
   var els = $('photo').querySelectorAll('.ph');
   for (var j = 0; j < PHOTOS.length; j++) if (photoId(PHOTOS[j]) === fresh) {
     if (pIdx >= 0 && els[pIdx]) { els[pIdx].classList.remove('on'); stopVideo(els[pIdx]); }
-    pIdx = els.length - 2 - j; nextPhoto();   // nextPhoto() moves on by one, to element els.length-1-j
+    pForce = els.length - 1 - j; nextPhoto();   // show element els.length-1-j next, then back to random order
     photoAfter(60);
     return;
   }
