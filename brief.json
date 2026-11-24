@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-23T18:00+00:00",
+ "updated": "2026-11-24T06:00+00:00",
  "en": {
-  "greeting": "Good evening — Monday 23 November",
+  "greeting": "Good morning — Tuesday 24 November",
   "sections": [
    {
     "h": "Top stories",
     "items": [
      {
-      "t": "Nvidia reinstates Jensen Huang; tech stocks surge",
-      "d": "Nvidia's board brought Huang back as CEO with immediate effect, under two weeks after ousting him, citing US government assurances. Nvidia shares jumped over 30%, leading a sharp rebound after last week's AI sell-off.",
-      "u": "https://www.fastcompany.com/91647421/tech-stocks-up-today-nvidia-amazon-spacex-will-rebound-last"
+      "t": "COP31 climate talks in Turkey end without a deal",
+      "d": "The UN summit ran past its deadline into Sunday night but countries could not agree, renewing calls to scrap the consensus rule that lets any nation block an outcome.",
+      "u": "https://www.thestandard.com.hk/world/article/349343/"
      },
      {
-      "t": "Ukrainian drones hit Russian warship in Libya, Zelensky says",
-      "d": "Zelensky said Ukraine struck a Russian navy ship at a Libyan port, far from the front line. The Kremlin warned of rising regional tensions but did not directly confirm the attack.",
-      "u": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo"
+      "t": "Russia threatens 'painful consequences' over Ukrainian sea drone strikes",
+      "d": "Kyiv says it sank a Russian corvette in Benghazi, Libya, and a Baltic cargo ship was set ablaze. The Kremlin calls the widening attacks a dangerous trend.",
+      "u": "https://www.aljazeera.com/news/2026/11/23/russia-warns-ukraine-of-dangerous-trend-after-libya-and-baltic-attacks"
      },
      {
-      "t": "Mexican soldiers attacked after drug lord's arrest",
-      "d": "Gunmen fired on troops restoring order after the capture of a cartel boss on the FBI's most-wanted list. Eight suspects were arrested, showing the violent backlash such arrests can trigger.",
-      "u": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o"
+      "t": "Huang's Nvidia return sparks global stock rally",
+      "d": "Nvidia jumped 31.5% and the Nasdaq 6.5% on Monday. Asia followed on Tuesday: Taiwan's Taiex rose over 9%, Seoul's Kospi 6.5% and Tokyo's Nikkei 3.9%.",
+      "u": "https://www.news4jax.com/business/2026/11/24/asian-stocks-rally-after-wall-street-rebound-as-jensen-huang-returns-as-nvidias-ceo/"
      }
     ]
    },
@@ -27,24 +27,19 @@
     "h": "World & politics",
     "items": [
      {
-      "t": "Kenya and DR Congo agree to restore ties",
-      "d": "The two leaders pledged to respect each other's sovereignty after a row over the conflict in eastern Congo, a step that could ease regional diplomacy.",
-      "u": "https://www.bbc.co.uk/news/articles/cmvg2qnn95vro"
+      "t": "NATO believes Russia ready to launch nuclear-armed satellite",
+      "d": "German media say allied spy agencies think Moscow could put the weapon in orbit soon, which would breach the treaty banning nuclear arms in space.",
+      "u": "https://www.reuters.com/business/aerospace-defense/nato-believes-russia-is-ready-launch-nuclear-armed-satellite-german-media-say-2026-11-23/"
      },
      {
-      "t": "Belgium strike grounds flights",
-      "d": "A national cost-of-living strike cancelled flights, the latest walkout as the prime minister struggles to pass a budget with spending cuts.",
-      "u": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o"
+      "t": "Drought pushes millions of Afghans deeper into crisis",
+      "d": "Failed rains and shrinking foreign aid are leaving families short of food and water as winter arrives.",
+      "u": "https://www.pbs.org/newshour/show/severe-drought-pushes-millions-in-afghanistan-deeper-into-crisis"
      },
      {
-      "t": "Seattle airport 'outraged' over ICE arrests",
-      "d": "The airport operator condemned immigration agents detaining a Mexican father and daughter, adding to tension between US cities and federal immigration enforcement.",
-      "u": "https://www.bbc.co.uk/news/articles/cmwy479wz91no"
-     },
-     {
-      "t": "Nigeria races to find boat disaster survivors",
-      "d": "Rescuers are searching for missing passengers; the government blamed overcrowding, poor maintenance and lack of life jackets.",
-      "u": "https://www.bbc.co.uk/news/articles/cq7820xjm49po"
+      "t": "Beijing praises turnout in Hong Kong Election Committee vote",
+      "d": "Thousands voted in the poll for the body that picks Hong Kong's leader; Beijing hailed what it called healthy competition.",
+      "u": "https://hongkongfp.com/2026/11/23/beijing-praises-healthy-competition-as-thousands-vote-in-hong-kong-election-committee-race/"
      }
     ]
    },
@@ -52,19 +47,19 @@
     "h": "Business & economy",
     "items": [
      {
-      "t": "Wall Street rebounds after AI correction",
-      "d": "US stocks rallied strongly as battered chip and AI shares recovered, following a week in which the Nasdaq fell about 10%.",
-      "u": "https://www.foxbusiness.com/markets/stocks-november-23-2026"
+      "t": "Nvidia adds nearly $1tn in value in a single day",
+      "d": "It was the chipmaker's best day in over two decades, recovering most of the slump that followed Huang's exit; SEC and DOJ probes continue.",
+      "u": "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html"
      },
      {
-      "t": "Capita shares plunge 70% as boss quits",
-      "d": "The outsourcer's chief executive resigned after failures in the civil service pension scheme it runs left public workers facing payment delays.",
-      "u": "https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo"
+      "t": "Deloitte sees Hong Kong back in budget surplus",
+      "d": "The firm forecasts a HK$20.8bn surplus for 2026/27, with fiscal reserves rising to about HK$686bn by March 2027.",
+      "u": "https://www.thestandard.com.hk/finance/article/349349/"
      },
      {
-      "t": "HK pushes renminbi as global currency",
-      "d": "Financial secretary Christopher Hui said the yuan is primed to become more attractive internationally, with Hong Kong aiming to be its main offshore hub.",
-      "u": "https://news.rthk.hk/rthk/en/component/k2/1878917-20261123.htm"
+      "t": "Dell and HPE seek AI server price rises of up to 45%",
+      "d": "Customers were asked to pay more even after deals were signed, as memory and chip costs soar from AI demand.",
+      "u": "https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f"
      }
     ]
    },
@@ -72,29 +67,34 @@
     "h": "Technology",
     "items": [
      {
-      "t": "CrowdStrike to buy Zscaler in $43.9bn deal",
-      "d": "The all-stock takeover would combine two of the biggest cybersecurity firms, creating a giant spanning device and cloud network security.",
-      "u": "https://www.cnbc.com/2026/11/23/crowdstrike-to-buy-zscaler.html"
+      "t": "Nvidia brings Jensen Huang back as CEO after 11 days",
+      "d": "The board said it was satisfied after talks with him and US officials found no security risk. He quit over affairs, one with a suspected Chinese spy.",
+      "u": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/"
      },
      {
-      "t": "US states sue SpaceX, X and xAI over Grok deepfakes",
-      "d": "Virginia and Oregon's attorneys general allege Grok's 'spicy mode' was used to create sexual deepfakes, raising pressure on AI image tools.",
-      "u": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html"
+      "t": "Apple builds an autonomous AI agent for the Mac",
+      "d": "The agent would carry out tasks across apps on its own, putting Apple in direct competition with OpenAI and Anthropic.",
+      "u": "https://dataconomy.com/2026/11/23/apple-builds-autonomous-ai-agent-to-take-on-openai-and/"
      },
      {
-      "t": "Microsoft prepares for possible loss of OpenAI tech",
-      "d": "Microsoft has teams ready in case OpenAI withdraws licensed technology, and is building its own MAI models as backup.",
-      "u": "https://dataconomy.com/2026/11/23/microsoft-prepares-for-possible-loss-of-openai-technology/"
+      "t": "Meta rethinks its 2030 net-zero goal as AI emissions soar",
+      "d": "Its emissions rose about 40% in a year to over 21.7m tonnes, driven by power-hungry AI data centres.",
+      "u": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
      },
      {
-      "t": "Startup raises $277m to run AI on non-Nvidia chips",
-      "d": "Seattle start-up Marlowe, led by ex-Convoy and Microsoft figures, raised a huge seed round at a $1.15bn valuation to rethink AI inference hardware.",
-      "u": "https://www.geekwire.com/2026/beyond-nvidia-convoy-co-founder-and-former-microsoft-leader-raise-277m-to-rethink-ai-infrastructure/"
+      "t": "Mathematician says Claude helped prove the Riemann hypothesis",
+      "d": "Anthropic's Levent Alpoge published a machine-checkable proof; experts are still verifying that it proves the 167-year-old problem as intended.",
+      "u": "https://thenextweb.com/news/anthropic-researcher-claims-claude-helped-him-prove-the-riemann-hypothesis"
      },
      {
-      "t": "Apple begins rolling out AI Siri across its apps",
-      "d": "The new Siri arrives in eight Apple apps, with a developer preview letting third-party apps plug in.",
-      "u": "https://forkast.news/apple-starts-siri-ai-rollout-in-its-apps-alongside-third-party-developer-preview"
+      "t": "Chrome patches six critical flaws, two found with AI help",
+      "d": "Google urges users to update now; it shows AI tools are increasingly finding serious security bugs.",
+      "u": "https://www.malwarebytes.com/blog/bugs/2026/11/chrome-patches-six-critical-flaws-two-found-with-ais-help"
+     },
+     {
+      "t": "Supply-chain hack served malicious code on big news sites",
+      "d": "Attackers compromised Optimizely software used by sites including CNN, BBC and Zoom, briefly pushing harmful scripts to visitors.",
+      "u": "https://www.malwarebytes.com/blog/news/2026/11/cnn-bbc-zoom-and-other-sites-served-malicious-code-in-supply-chain-attack"
      }
     ]
    },
@@ -102,19 +102,19 @@
     "h": "Science & health",
     "items": [
      {
-      "t": "Pancreatic cancer drug shrinks tumours in trial",
-      "d": "A new drug shrank tumours and in a few patients made them vanish, offering hope for one of the deadliest cancers; longer trials are needed.",
-      "u": "https://www.bbc.com/zhongwen/articles/c6vg2vv10kjdo/trad"
+      "t": "US loses measles elimination status after 25 years",
+      "d": "The Pan American Health Organization confirmed it after more than 5,400 US cases this year, as surveys show vaccine myths persist.",
+      "u": "https://www.sciencedaily.com/releases/2026/11/261122060323.htm"
      },
      {
-      "t": "NHS starts world's largest AI breast screening trial",
-      "d": "Researchers will test whether AI can spot breast cancer earlier and ease pressure on radiologists.",
-      "u": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo"
+      "t": "Newly found viruses reveal an evolutionary missing link",
+      "d": "Using AI protein tools, scientists found tiny viruses suggesting viruses and cell structures called encapsulins evolved from each other repeatedly.",
+      "u": "https://www.sciencedaily.com/releases/2026/11/261122060334.htm"
      },
      {
-      "t": "Snow risk as mild and arctic air clash over UK",
-      "d": "Milder Atlantic air meeting cold arctic air could bring snow to parts of the UK this week.",
-      "u": "https://www.bbc.co.uk/weather/articles/c5dj1l21w9pmo"
+      "t": "Cargo ship named after Jim Lovell set for ISS launch",
+      "d": "Northrop Grumman's Cygnus XL will carry about 5 tonnes of supplies on a SpaceX Falcon 9, no earlier than 29 November.",
+      "u": "https://spaceflightnow.com/2026/11/23/as-it-happened-ng-25-preview-news-teleconference"
      }
     ]
    },
@@ -122,44 +122,39 @@
     "h": "UK",
     "items": [
      {
-      "t": "PIP assessments need 'fundamental overhaul'",
-      "d": "Disability Minister Sir Stephen Timms will recommend major reforms to how personal independence payment claims are judged.",
-      "u": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo"
+      "t": "Burnham defends 'landmark' EU deal to MPs",
+      "d": "The prime minister said the agreement offers change over a broken status quo, but rejoining the EU without a referendum would be unthinkable.",
+      "u": "https://www.japantimes.co.jp/news/2026/11/24/world/politics/burnham-eu-uk-referendum/"
      },
      {
-      "t": "Ballymena riot ringleaders jailed",
-      "d": "A mother and son who led riots in County Antrim were jailed, with the judge calling their actions disgraceful.",
-      "u": "https://www.bbc.co.uk/news/articles/c6qj57y4gwlyo"
-     },
-     {
-      "t": "Don Toliver postpones O2 show after Manchester scare",
-      "d": "The rapper's London gig was put off after his Manchester concert was evacuated when an unknown substance was released.",
-      "u": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo"
+      "t": "Snow warning as cold, unsettled weather continues",
+      "d": "The Met Office has warnings in force with snow and ice risks, so check travel before setting off.",
+      "u": "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2026/snow-warning-in-force-as-unsettled-weather-continues-"
      }
     ]
    }
   ]
  },
  "zh": {
-  "greeting": "晚安 — 11月23日星期一",
+  "greeting": "早晨 — 11月24日星期二",
   "sections": [
    {
     "h": "頭條新聞",
     "items": [
      {
-      "t": "Nvidia黃仁勳復任行政總裁　科技股急升",
-      "d": "Nvidia董事會在罷免黃仁勳不足兩星期後，以美國政府保證為由即時恢復其行政總裁職務。股價急升逾三成，帶動上周AI股拋售後的大反彈。",
-      "u": "https://www.fastcompany.com/91647421/tech-stocks-up-today-nvidia-amazon-spacex-will-rebound-last"
+      "t": "COP31氣候峰會無協議告終",
+      "d": "在土耳其舉行的聯合國氣候大會延至周日深夜仍未能達成共識，各國再度要求改革容許任何一國否決結果的「協商一致」規則。",
+      "u": "https://www.thestandard.com.hk/world/article/349343/"
      },
      {
-      "t": "澤連斯基：烏克蘭無人機擊中利比亞港口俄艦",
-      "d": "澤連斯基表示烏軍襲擊停泊利比亞港口的俄羅斯軍艦，遠離前線。克里姆林宮警告地區局勢升溫，但未直接證實。",
-      "u": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo"
+      "t": "俄警告烏克蘭海上無人機襲擊將招「痛苦後果」",
+      "d": "基輔稱在利比亞班加西擊沉一艘俄羅斯輕型護衛艦，波羅的海一艘貨輪亦起火。克里姆林宮指襲擊擴大是危險趨勢。",
+      "u": "https://www.aljazeera.com/news/2026/11/23/russia-warns-ukraine-of-dangerous-trend-after-libya-and-baltic-attacks"
      },
      {
-      "t": "墨西哥毒梟落網後軍人遇襲",
-      "d": "槍手向協助恢復秩序的軍人開火，事發前美國聯邦調查局十大通緝要犯之一的毒梟被捕，當局拘捕八名疑犯。",
-      "u": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o"
+      "t": "黃仁勳重返Nvidia 環球股市急升",
+      "d": "Nvidia周一股價急升31.5%，納指升6.5%。亞洲股市周二跟隨：台灣加權指數升逾9%，韓國綜指升6.5%，日經指數升3.9%。",
+      "u": "https://www.news4jax.com/business/2026/11/24/asian-stocks-rally-after-wall-street-rebound-as-jensen-huang-returns-as-nvidias-ceo/"
      }
     ]
    },
@@ -167,24 +162,19 @@
     "h": "國際及政治",
     "items": [
      {
-      "t": "肯尼亞與剛果民主共和國同意恢復關係",
-      "d": "兩國領袖承諾尊重彼此主權，為剛果東部衝突引發的緊張關係降溫。",
-      "u": "https://www.bbc.co.uk/news/articles/cmvg2qnn95vro"
+      "t": "北約相信俄羅斯準備發射核武衛星",
+      "d": "德國傳媒報道，盟國情報機構認為莫斯科或於短期內把核武送上軌道，將違反禁止太空核武的條約。",
+      "u": "https://www.reuters.com/business/aerospace-defense/nato-believes-russia-is-ready-launch-nuclear-armed-satellite-german-media-say-2026-11-23/"
      },
      {
-      "t": "比利時罷工　航班取消",
-      "d": "全國反生活成本罷工令航班取消，總理至今難以通過削減開支的預算案。",
-      "u": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o"
+      "t": "旱災令數以百萬計阿富汗人陷更深危機",
+      "d": "雨水不足加上外國援助減少，入冬之際大批家庭缺糧缺水。",
+      "u": "https://www.pbs.org/newshour/show/severe-drought-pushes-millions-in-afghanistan-deeper-into-crisis"
      },
      {
-      "t": "西雅圖機場不滿移民局拘捕乘客",
-      "d": "機場營運機構譴責移民及海關執法局拘捕一對墨西哥籍父女，反映美國城市與聯邦移民執法的矛盾。",
-      "u": "https://www.bbc.co.uk/news/articles/cmwy479wz91no"
-     },
-     {
-      "t": "尼日利亞翻船　搜救爭分奪秒",
-      "d": "救援人員搜尋失蹤乘客，政府指超載、保養欠佳及缺乏救生衣是主因。",
-      "u": "https://www.bbc.co.uk/news/articles/cq7820xjm49po"
+      "t": "北京讚揚香港選委會選舉投票踴躍",
+      "d": "數以千計選民投票選出負責選舉特首的選舉委員會，北京稱選舉競爭良性。",
+      "u": "https://hongkongfp.com/2026/11/23/beijing-praises-healthy-competition-as-thousands-vote-in-hong-kong-election-committee-race/"
      }
     ]
    },
@@ -192,19 +182,19 @@
     "h": "商業及經濟",
     "items": [
      {
-      "t": "華爾街從AI調整中反彈",
-      "d": "晶片及AI股大幅回升，美股強勁上揚；上周納斯達克指數累跌約一成。",
-      "u": "https://www.foxbusiness.com/markets/stocks-november-23-2026"
+      "t": "Nvidia一日市值增近一萬億美元",
+      "d": "這是該公司二十多年來最好的一日，收復黃仁勳離任後大部分跌幅；美國證監會及司法部調查仍在進行。",
+      "u": "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html"
      },
      {
-      "t": "Capita股價急瀉七成　行政總裁辭職",
-      "d": "外判商Capita管理的公務員退休金計劃出錯，導致公務員延遲收款，行政總裁請辭。",
-      "u": "https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo"
+      "t": "德勤預測香港財政重回盈餘",
+      "d": "德勤估計2026/27年度盈餘208億港元，財政儲備於2027年3月底升至約6,863億港元。",
+      "u": "https://www.thestandard.com.hk/finance/article/349349/"
      },
      {
-      "t": "香港推動人民幣國際化",
-      "d": "財經事務及庫務局局長許正宇表示，人民幣已具備成為國際貨幣的條件，香港將爭取成為主要離岸中心。",
-      "u": "https://news.rthk.hk/rthk/en/component/k2/1878917-20261123.htm"
+      "t": "Dell及HPE擬加AI伺服器價最多45%",
+      "d": "即使合約已簽，客戶仍被要求付更多，反映AI需求推高記憶體及晶片成本。",
+      "u": "https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f"
      }
     ]
    },
@@ -212,29 +202,34 @@
     "h": "科技",
     "items": [
      {
-      "t": "CrowdStrike擬以439億美元收購Zscaler",
-      "d": "全換股交易將合併兩大網絡保安公司，覆蓋裝置及雲端網絡保安。",
-      "u": "https://www.cnbc.com/2026/11/23/crowdstrike-to-buy-zscaler.html"
+      "t": "Nvidia十一日後重新委任黃仁勳為行政總裁",
+      "d": "董事會稱與他及美國官員商討後滿意，認為沒有國家安全風險。他早前因婚外情辭職，其中一人涉嫌是中國間諜。",
+      "u": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/"
      },
      {
-      "t": "美國兩州起訴SpaceX、X及xAI　涉Grok深偽圖像",
-      "d": "維珍尼亞州及俄勒岡州總檢察長指Grok「辛辣模式」被用作製作色情深偽圖像，AI圖像工具面對更大壓力。",
-      "u": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html"
+      "t": "Apple為Mac研發自主AI代理",
+      "d": "該代理可自行跨應用程式完成工作，令Apple與OpenAI及Anthropic直接競爭。",
+      "u": "https://dataconomy.com/2026/11/23/apple-builds-autonomous-ai-agent-to-take-on-openai-and/"
      },
      {
-      "t": "Microsoft準備應對失去OpenAI技術",
-      "d": "Microsoft已組織團隊應對OpenAI收回授權技術的可能，並加緊研發自家MAI模型作後備。",
-      "u": "https://dataconomy.com/2026/11/23/microsoft-prepares-for-possible-loss-of-openai-technology/"
+      "t": "AI排放急增 Meta重新檢討2030淨零目標",
+      "d": "耗電的AI數據中心令其排放一年內增約四成，至逾2,170萬公噸。",
+      "u": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
      },
      {
-      "t": "初創集資2.77億美元　以非Nvidia晶片運行AI",
-      "d": "西雅圖初創Marlowe種子輪估值達11.5億美元，旨在重塑AI推理硬件。",
-      "u": "https://www.geekwire.com/2026/beyond-nvidia-convoy-co-founder-and-former-microsoft-leader-raise-277m-to-rethink-ai-infrastructure/"
+      "t": "數學家稱Claude協助證明黎曼猜想",
+      "d": "Anthropic的Levent Alpoge發表可由電腦驗證的證明；專家仍在核實它是否真正解決這個167年難題。",
+      "u": "https://thenextweb.com/news/anthropic-researcher-claims-claude-helped-him-prove-the-riemann-hypothesis"
      },
      {
-      "t": "Apple開始在旗下應用推出AI版Siri",
-      "d": "新Siri登陸八個Apple應用程式，並開放開發者預覽讓第三方應用接入。",
-      "u": "https://forkast.news/apple-starts-siri-ai-rollout-in-its-apps-alongside-third-party-developer-preview"
+      "t": "Chrome修補六個嚴重漏洞 其中兩個由AI發現",
+      "d": "Google呼籲用戶立即更新；顯示AI工具愈來愈多被用來找出嚴重保安漏洞。",
+      "u": "https://www.malwarebytes.com/blog/bugs/2026/11/chrome-patches-six-critical-flaws-two-found-with-ais-help"
+     },
+     {
+      "t": "供應鏈攻擊令大型新聞網站播出惡意程式碼",
+      "d": "黑客入侵CNN、BBC及Zoom等網站使用的Optimizely軟件，短暫向訪客推送有害程式。",
+      "u": "https://www.malwarebytes.com/blog/news/2026/11/cnn-bbc-zoom-and-other-sites-served-malicious-code-in-supply-chain-attack"
      }
     ]
    },
@@ -242,19 +237,19 @@
     "h": "科學及健康",
     "items": [
      {
-      "t": "胰臟癌新藥試驗見效　部分腫瘤消失",
-      "d": "新藥可縮小腫瘤，少數病人腫瘤更完全消失，為最致命癌症之一帶來希望，但仍需更長期試驗。",
-      "u": "https://www.bbc.com/zhongwen/articles/c6vg2vv10kjdo/trad"
+      "t": "美國失去消除麻疹地位 為25年來首次",
+      "d": "泛美衛生組織確認，美國今年麻疹個案逾5,400宗；調查顯示疫苗謬誤仍然普遍。",
+      "u": "https://www.sciencedaily.com/releases/2026/11/261122060323.htm"
      },
      {
-      "t": "英國醫療服務展開全球最大AI乳癌篩查試驗",
-      "d": "研究人員將測試AI能否更早發現乳癌，並減輕放射科醫生壓力。",
-      "u": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo"
+      "t": "新發現病毒揭示演化缺失一環",
+      "d": "科學家利用AI蛋白質工具找到微小病毒，顯示病毒與細胞內稱為encapsulin的結構曾多次互相演化而來。",
+      "u": "https://www.sciencedaily.com/releases/2026/11/261122060334.htm"
      },
      {
-      "t": "溫和氣流與北極冷空氣交匯　英國或下雪",
-      "d": "大西洋溫和空氣與北極冷空氣在英國上空交匯，本周部分地區或會下雪。",
-      "u": "https://www.bbc.co.uk/weather/articles/c5dj1l21w9pmo"
+      "t": "以Jim Lovell命名貨運飛船將飛往太空站",
+      "d": "Northrop Grumman的Cygnus XL將由SpaceX獵鷹9號運載約5噸物資，最早11月29日發射。",
+      "u": "https://spaceflightnow.com/2026/11/23/as-it-happened-ng-25-preview-news-teleconference"
      }
     ]
    },
@@ -262,19 +257,14 @@
     "h": "英國",
     "items": [
      {
-      "t": "個人獨立生活津貼評估須「根本改革」",
-      "d": "殘疾事務大臣Stephen Timms將建議大幅改革個人獨立生活津貼的申請評估。",
-      "u": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo"
+      "t": "賓咸向議員力撐與歐盟的「里程碑」協議",
+      "d": "首相稱協議代表改變而非破舊現狀，但表示不經公投重新加入歐盟是不可想像的。",
+      "u": "https://www.japantimes.co.jp/news/2026/11/24/world/politics/burnham-eu-uk-referendum/"
      },
      {
-      "t": "巴利米納騷亂主謀判監",
-      "d": "在安特里姆郡帶頭騷亂的一對母子被判入獄，法官斥其行為可恥。",
-      "u": "https://www.bbc.co.uk/news/articles/c6qj57y4gwlyo"
-     },
-     {
-      "t": "曼徹斯特疏散事件後　Don Toliver押後倫敦演出",
-      "d": "其曼徹斯特演唱會因有人釋放不明物質而疏散，倫敦O2演出因而押後。",
-      "u": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo"
+      "t": "天氣持續寒冷不穩 氣象局發降雪警告",
+      "d": "英國氣象局警告生效，有降雪及結冰風險，出門前宜查看交通情況。",
+      "u": "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2026/snow-warning-in-force-as-unsettled-weather-continues-"
      }
     ]
    }
@@ -282,88 +272,84 @@
  },
  "sources": [
   {
-   "title": "Nvidia reinstates Jensen Huang; tech stocks surge",
-   "url": "https://www.fastcompany.com/91647421/tech-stocks-up-today-nvidia-amazon-spacex-will-rebound-last"
+   "title": "COP31 climate talks in Turkey end without a deal",
+   "url": "https://www.thestandard.com.hk/world/article/349343/"
   },
   {
-   "title": "Ukrainian drones hit Russian warship in Libya, Zelensky says",
-   "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo"
+   "title": "Russia threatens 'painful consequences' over Ukrainian sea drone strikes",
+   "url": "https://www.aljazeera.com/news/2026/11/23/russia-warns-ukraine-of-dangerous-trend-after-libya-and-baltic-attacks"
   },
   {
-   "title": "Mexican soldiers attacked after drug lord's arrest",
-   "url": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o"
+   "title": "Huang's Nvidia return sparks global stock rally",
+   "url": "https://www.news4jax.com/business/2026/11/24/asian-stocks-rally-after-wall-street-rebound-as-jensen-huang-returns-as-nvidias-ceo/"
   },
   {
-   "title": "Kenya and DR Congo agree to restore ties",
-   "url": "https://www.bbc.co.uk/news/articles/cmvg2qnn95vro"
+   "title": "NATO believes Russia ready to launch nuclear-armed satellite",
+   "url": "https://www.reuters.com/business/aerospace-defense/nato-believes-russia-is-ready-launch-nuclear-armed-satellite-german-media-say-2026-11-23/"
   },
   {
-   "title": "Belgium strike grounds flights",
-   "url": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o"
+   "title": "Drought pushes millions of Afghans deeper into crisis",
+   "url": "https://www.pbs.org/newshour/show/severe-drought-pushes-millions-in-afghanistan-deeper-into-crisis"
   },
   {
-   "title": "Seattle airport 'outraged' over ICE arrests",
-   "url": "https://www.bbc.co.uk/news/articles/cmwy479wz91no"
+   "title": "Beijing praises turnout in Hong Kong Election Committee vote",
+   "url": "https://hongkongfp.com/2026/11/23/beijing-praises-healthy-competition-as-thousands-vote-in-hong-kong-election-committee-race/"
   },
   {
-   "title": "Nigeria races to find boat disaster survivors",
-   "url": "https://www.bbc.co.uk/news/articles/cq7820xjm49po"
+   "title": "Nvidia adds nearly $1tn in value in a single day",
+   "url": "https://finance.yahoo.com/technology/article/nvidia-reinstates-jensen-huang-as-ceo-stock-rockets-141145439.html"
   },
   {
-   "title": "Wall Street rebounds after AI correction",
-   "url": "https://www.foxbusiness.com/markets/stocks-november-23-2026"
+   "title": "Deloitte sees Hong Kong back in budget surplus",
+   "url": "https://www.thestandard.com.hk/finance/article/349349/"
   },
   {
-   "title": "Capita shares plunge 70% as boss quits",
-   "url": "https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo"
+   "title": "Dell and HPE seek AI server price rises of up to 45%",
+   "url": "https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f"
   },
   {
-   "title": "HK pushes renminbi as global currency",
-   "url": "https://news.rthk.hk/rthk/en/component/k2/1878917-20261123.htm"
+   "title": "Nvidia brings Jensen Huang back as CEO after 11 days",
+   "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/"
   },
   {
-   "title": "CrowdStrike to buy Zscaler in $43.9bn deal",
-   "url": "https://www.cnbc.com/2026/11/23/crowdstrike-to-buy-zscaler.html"
+   "title": "Apple builds an autonomous AI agent for the Mac",
+   "url": "https://dataconomy.com/2026/11/23/apple-builds-autonomous-ai-agent-to-take-on-openai-and/"
   },
   {
-   "title": "US states sue SpaceX, X and xAI over Grok deepfakes",
-   "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html"
+   "title": "Meta rethinks its 2030 net-zero goal as AI emissions soar",
+   "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
   },
   {
-   "title": "Microsoft prepares for possible loss of OpenAI tech",
-   "url": "https://dataconomy.com/2026/11/23/microsoft-prepares-for-possible-loss-of-openai-technology/"
+   "title": "Mathematician says Claude helped prove the Riemann hypothesis",
+   "url": "https://thenextweb.com/news/anthropic-researcher-claims-claude-helped-him-prove-the-riemann-hypothesis"
   },
   {
-   "title": "Startup raises $277m to run AI on non-Nvidia chips",
-   "url": "https://www.geekwire.com/2026/beyond-nvidia-convoy-co-founder-and-former-microsoft-leader-raise-277m-to-rethink-ai-infrastructure/"
+   "title": "Chrome patches six critical flaws, two found with AI help",
+   "url": "https://www.malwarebytes.com/blog/bugs/2026/11/chrome-patches-six-critical-flaws-two-found-with-ais-help"
   },
   {
-   "title": "Apple begins rolling out AI Siri across its apps",
-   "url": "https://forkast.news/apple-starts-siri-ai-rollout-in-its-apps-alongside-third-party-developer-preview"
+   "title": "Supply-chain hack served malicious code on big news sites",
+   "url": "https://www.malwarebytes.com/blog/news/2026/11/cnn-bbc-zoom-and-other-sites-served-malicious-code-in-supply-chain-attack"
   },
   {
-   "title": "Pancreatic cancer drug shrinks tumours in trial",
-   "url": "https://www.bbc.com/zhongwen/articles/c6vg2vv10kjdo/trad"
+   "title": "US loses measles elimination status after 25 years",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261122060323.htm"
   },
   {
-   "title": "NHS starts world's largest AI breast screening trial",
-   "url": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo"
+   "title": "Newly found viruses reveal an evolutionary missing link",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261122060334.htm"
   },
   {
-   "title": "Snow risk as mild and arctic air clash over UK",
-   "url": "https://www.bbc.co.uk/weather/articles/c5dj1l21w9pmo"
+   "title": "Cargo ship named after Jim Lovell set for ISS launch",
+   "url": "https://spaceflightnow.com/2026/11/23/as-it-happened-ng-25-preview-news-teleconference"
   },
   {
-   "title": "PIP assessments need 'fundamental overhaul'",
-   "url": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo"
+   "title": "Burnham defends 'landmark' EU deal to MPs",
+   "url": "https://www.japantimes.co.jp/news/2026/11/24/world/politics/burnham-eu-uk-referendum/"
   },
   {
-   "title": "Ballymena riot ringleaders jailed",
-   "url": "https://www.bbc.co.uk/news/articles/c6qj57y4gwlyo"
-  },
-  {
-   "title": "Don Toliver postpones O2 show after Manchester scare",
-   "url": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo"
+   "title": "Snow warning as cold, unsettled weather continues",
+   "url": "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news/2026/snow-warning-in-force-as-unsettled-weather-continues-"
   }
  ]
 }
