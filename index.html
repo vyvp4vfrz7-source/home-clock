@@ -1214,6 +1214,27 @@ body:not(.ptfw) #tfw * { animation-play-state: paused !important; }
 .twc .me { white-space: nowrap; font-size: 11px; font-weight: 700; background: #9b0056; color: #fff; padding: 2px 7px; border-radius: 6px; margin-left: 8px; vertical-align: 2px; }
 .twnone { padding: 30px 10px; text-align: center; color: var(--muted); font-size: 19px; line-height: 1.6; }
 .twnone b { display: block; font-size: 40px; }
+
+/* ---------- iPhone (upright): one-column dashboard; smaller page dots on any phone ---------- */
+body.small #dots { gap: 0; }
+body.small #dots button { width: 15px; height: 22px; }
+body.small #dots button i { width: 6px; height: 6px; }
+body.phone #stage { padding: calc(env(safe-area-inset-top) * 1.95 + 18px) 18px calc(env(safe-area-inset-bottom) * 1.95 + 46px); grid-template-columns: 1fr; grid-template-rows: 7.4fr 4.6fr 2.5fr 2.8fr; gap: 16px; }
+body.phone #clock { grid-column: 1; grid-row: 1; flex-direction: column; padding: 30px 34px 28px; }
+body.phone #cl { flex: none; }
+body.phone #time { font-size: 180px; }
+body.phone #date { margin-top: 12px; }
+body.phone #cw { text-align: left; }
+body.phone #cw .top { justify-content: flex-start; }
+body.phone #cw .temp { font-size: 100px; }
+body.phone #indoor { justify-content: flex-start; }
+body.phone #cw .stats { margin-top: 16px; }
+body.phone #clock > #bnote { left: auto; right: 34px; bottom: auto; top: 350px; width: 280px; }
+body.phone #cw { width: auto; flex: 1; margin-top: 18px; }
+body.phone #photo { grid-column: 1; grid-row: 2; }
+body.phone #photo .ph { background-position: center 25%; }   /* wide tile: tall photos keep the faces (usually in the top third) */
+body.phone #hours { grid-column: 1; grid-row: 3; }
+body.phone #days { grid-column: 1; grid-row: 4; }
 </style>
 </head>
 <body>
@@ -1500,9 +1521,21 @@ function wx(code, isDay) {
 }
 
 /* ---------- fit the 1366x1024 design to the screen ---------- */
+/* iPhone held upright: the dashboard (page 1) gets a tall one-column layout (body.phone CSS);
+   the other pages keep the iPad design, shrunk to fit - turn the phone sideways to see them bigger. */
 function fitStage() {
   var k = Math.min(innerWidth / 1366, innerHeight / 1024), st = document.querySelectorAll('.stage');
+  var phone = innerWidth < 600 && innerHeight > innerWidth;
+  document.body.classList.toggle('phone', phone);
+  document.body.classList.toggle('small', Math.min(innerWidth, innerHeight) < 600);
   for (var i = 0; i < st.length; i++) {
+    if (phone && st[i].id === 'stage') {
+      var pk = innerWidth / 760;
+      st[i].style.width = '760px'; st[i].style.height = (innerHeight / pk) + 'px';
+      st[i].style.transform = 'scale(' + pk + ')'; st[i].style.left = '0px'; st[i].style.top = '0px';
+      continue;
+    }
+    st[i].style.width = ''; st[i].style.height = '';
     st[i].style.transform = 'scale(' + k + ')';
     st[i].style.left = ((innerWidth - 1366 * k) / 2) + 'px';
     st[i].style.top = ((innerHeight - 1024 * k) / 2) + 'px';
