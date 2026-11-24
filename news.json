@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-24T15:28+00:00",
+ "updated": "2026-11-24T16:36+00:00",
  "items": [
   {
    "src": "香港",
    "lang": "zh",
-   "t": "海關機場偵破兩宗販毒案 檢約懷疑大麻花巿值約4百萬",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879125-20261124.htm",
-   "d": "海關在機場偵破兩宗涉及航空入境旅客的販毒案件，共檢獲約19公斤懷疑大麻花，估計市值約400萬元。 首宗案件中，一名59歲內地男旅客昨日從廣州飛抵本港，海關人員清關時，在他的隨身行李內發現約11公斤懷疑大麻花，該名男子隨即被捕。經調查後，海關人員再拘捕一名今日從泰國曼谷飛抵本港的懷疑涉案40歲內地男旅客，人員清關時，在他身上同時檢獲9支未完稅香煙。 第二宗案件中，兩名分別26歲和49歲內地男旅客今日從泰國曼谷飛抵本港。海關人員替他們進行清…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879125_1_M_20261124225713.jpg",
-   "at": "2026-11-24T14:53+00:00",
+   "t": "天文台預料本港今晚沿岸水位較正常稍高 部分低窪地區或輕微水浸",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879133-20261125.htm",
+   "d": "天文台發出特別天氣提示，指受到天文大潮及東北季候風共同影響，預料本港今晚沿岸水位會較正常稍高，部分低窪地區可能出現輕微水浸。 編輯：盧曉珊",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879133_1_M_20261125001207.jpg",
+   "at": "2026-11-24T16:12+00:00",
    "where": [
     22.32,
     114.17,
@@ -27,6 +27,48 @@
     31.23,
     121.47,
     "上海"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "沙特聯軍指利雅得金融區一座大樓遭恐襲 胡塞武裝未有回應",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879131-20261125.htm",
+   "d": "沙特阿拉伯主導的多國聯軍表示，位於沙特首都利雅得的阿卜杜拉國王金融區，一座大樓遭到襲擊，發言人指事件是恐怖襲擊，有關部門正在現場處理。 利雅得最高的建築物，日前遭到也門胡塞武裝襲擊，多個樓層受損，沒有造成傷亡。沙特民防總局早前譴責襲擊，公然違反國際人道法。 也門胡塞武裝對今次事件暫時未有回應。 編輯：盧曉珊",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879131_1_M_20261124235602.jpg",
+   "at": "2026-11-24T16:09+00:00",
+   "where": [
+    24.7,
+    46.7,
+    "沙特"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "海關機場偵破兩宗販毒案 檢約懷疑大麻花巿值約4百萬",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879125-20261124.htm",
+   "d": "海關在機場偵破兩宗涉及航空入境旅客的販毒案件，共檢獲約19公斤懷疑大麻花，估計市值約400萬元。 首宗案件中，一名59歲內地男旅客昨日從廣州飛抵本港，海關人員清關時，在他的隨身行李內發現約11公斤懷疑大麻花，該名男子隨即被捕。經調查後，海關人員再拘捕一名今日從泰國曼谷飛抵本港的懷疑涉案40歲內地男旅客，人員清關時，在他身上同時檢獲9支未完稅香煙。 第二宗案件中，兩名分別26歲和49歲內地男旅客今日從泰國曼谷飛抵本港。海關人員替他們進行清…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879125_1_M_20261124225713.jpg",
+   "at": "2026-11-24T14:53+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "宏福苑大火一周年：居民受壓、媒體噤聲，為何悼念變得小心翼翼？",
+   "u": "https://www.bbc.com/zhongwen/articles/cw8dv46pv125o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "宏福苑大火一周年前夕，港府官員稱「政府絕對容許」合法活動，但有遺屬表示悼念活動受壓，也有新聞工作者向BBC中文透露，相關周年報導在製作完成後突然「被抽起」。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b501/live/4704feb0-e80b-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-24T10:13+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
@@ -60,15 +102,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "宏福苑大火一周年：居民受壓、媒體噤聲，為何悼念變得小心翼翼？",
-   "u": "https://www.bbc.com/zhongwen/articles/cw8dv46pv125o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "宏福苑大火一周年前夕，港府官員稱「政府絕對容許」合法活動，但有遺屬表示悼念活動受壓，也有新聞工作者向BBC中文透露，相關周年報導在製作完成後突然「被抽起」。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b501/live/4704feb0-e80b-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-24T10:13+00:00",
+   "t": "「不能沒有你」：黃仁勳回歸，台灣股市的狂歡與半導體「 黑天鵝」風險",
+   "u": "https://www.bbc.com/zhongwen/articles/crp3eqg9l8eeo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "黃仁勳在美國總統特朗普介入下重掌輝達，台灣股民在台股漲停板的氣氛大喊「爸爸回來了」。但「台灣乾爹」會再一次變成黑天鵝嗎？",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/e399/live/879aee70-e7e9-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-24T14:35+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -102,15 +144,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "「不能沒有你」：黃仁勳回歸，台灣股市的狂歡與半導體「 黑天鵝」風險",
-   "u": "https://www.bbc.com/zhongwen/articles/crp3eqg9l8eeo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "黃仁勳在美國總統特朗普介入下重掌輝達，台灣股民在台股漲停板的氣氛大喊「爸爸回來了」。但「台灣乾爹」會再一次變成黑天鵝嗎？",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/e399/live/879aee70-e7e9-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-24T14:35+00:00",
+   "t": "黃仁勳重掌Nvidia：習近平從特朗普身上看到了什麼？",
+   "u": "https://www.bbc.com/zhongwen/articles/cjr4gwxzgyydo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "黃仁勳戲劇性重返英偉達，不僅讓北京看到了影響華盛頓的可能，也讓習近平進一步了解特朗普的軟肋，以及中國在中美科技與貿易博弈中可以利用的籌碼。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/47a8/live/2d61caf0-e7d5-11f1-939f-471cde339c0e.jpg",
+   "at": "2026-11-24T16:15+00:00",
    "where": [
-    23.7,
-    121.0,
-    "台灣"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
@@ -144,15 +186,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "Nvidia和黃仁勳對美國經濟有多重要？",
-   "u": "https://www.bbc.com/zhongwen/articles/cvwy0jx7nj84o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "黃仁勳離職僅11天便重掌英偉達，凸顯他對人工智能產業及美國經濟的重要性。他本人和這家晶片巨頭究竟有多大影響力？",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b812/live/3d66a730-e79f-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-24T00:24+00:00",
+   "t": "伊朗女歌手演出不戴頭巾「已遭執行74鞭笞刑」",
+   "u": "https://www.bbc.com/zhongwen/articles/cxzd9y2gre3lo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "據律師團隊所稱，伊朗女歌手帕拉斯托·阿赫瑪迪、三名音樂人及一名製作人在庫姆被執行74鞭笞刑。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/6a11/live/e201bf70-bb4c-11f1-bc1f-3f186ca4140c.jpg",
+   "at": "2026-11-24T02:19+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    32.4,
+    53.7,
+    "伊朗"
    ]
   },
   {
@@ -186,15 +228,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "伊朗女歌手演出不戴頭巾「已遭執行74鞭笞刑」",
-   "u": "https://www.bbc.com/zhongwen/articles/cxzd9y2gre3lo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "據律師團隊所稱，伊朗女歌手帕拉斯托·阿赫瑪迪、三名音樂人及一名製作人在庫姆被執行74鞭笞刑。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/6a11/live/e201bf70-bb4c-11f1-bc1f-3f186ca4140c.jpg",
-   "at": "2026-11-24T02:19+00:00",
+   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-17T16:25+00:00",
    "where": [
-    32.4,
-    53.7,
-    "伊朗"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -217,7 +259,6 @@
    "t": "伊利沙伯醫院4名女病人感染甲型流感",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1879117-20261124.htm",
    "d": "伊利沙伯醫院一個內科女病房自上星期五起，先後有4名病人，年齡由60歲至75歲出現發燒或呼吸道感染徵狀。院方已為病人進行所需病毒測試，結果均對甲型流感病毒呈陽性反應。 4名病人現時於本院接受隔離治療。其中一名病人因自身疾病而情況危殆，其餘三名病人目前情況穩定。院方已根據既定指引加強感染控制措施，並會繼續緊密監察該病房病人的健康情況。 院方已將有關個案呈報醫管局總辦事處及衞生防護中心跟進。 編輯：李俊傑",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879117_1_M_20261124213551.jpg",
    "at": "2026-11-24T13:22+00:00",
    "where": [
     22.32,
@@ -228,11 +269,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-17T16:25+00:00",
+   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
+   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
+   "at": "2026-11-17T09:49+00:00",
    "where": [
     23.7,
     121.0,
@@ -245,7 +286,6 @@
    "t": "孟加拉前總理哈西娜冀下月回國 達卡當局稱只能是囚犯身份",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1879090-20261124.htm",
    "d": "正流亡印度的孟加拉前總理哈西娜表示，希望能夠在下月16日「勝利日」回國，孟加拉政府表明，若果哈西娜回國，只能是囚犯身份。 現年79歲的哈西娜，前年在民眾抗議中被迫下台，並流亡印度。她因為涉及致命鎮壓行動而被控反人類罪，在缺席審判情況下被判處死刑，達卡當局已經向印度提出引渡請求，印度方面就表示，正按照法律審查。 雖然達卡當局表明，哈西娜回國將面臨絞刑，但哈西娜堅持要返回孟加拉。發言人說，哈西娜呼籲政府安排從德里飛回達卡的航班。 法新社報道…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879090_1_M_20261124171744.jpg",
    "at": "2026-11-24T09:17+00:00",
    "where": [
     23.7,
@@ -269,11 +309,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
-   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
-   "at": "2026-11-17T09:49+00:00",
+   "t": "九合一前夕：台灣幾乎年年選舉，會引起「投票疲勞」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c63egjkzqpz2o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣在過去七年間，幾乎每年都有大型選舉、罷免或公投。有學者形容台灣政治人物常處於「選舉模式」，在面對不同議題時往往急於回應。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7a49/live/c76f08c0-dcda-11f1-a8e1-e3454837ffc6.jpg",
+   "at": "2026-11-13T10:39+00:00",
    "where": [
     23.7,
     121.0,
@@ -309,28 +349,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "九合一前夕：台灣幾乎年年選舉，會引起「投票疲勞」嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/c63egjkzqpz2o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "台灣在過去七年間，幾乎每年都有大型選舉、罷免或公投。有學者形容台灣政治人物常處於「選舉模式」，在面對不同議題時往往急於回應。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7a49/live/c76f08c0-dcda-11f1-a8e1-e3454837ffc6.jpg",
-   "at": "2026-11-13T10:39+00:00",
+   "t": "「九合一」五大看點：「洋流」能否撼動台北？誰在卡位2028？",
+   "u": "https://www.bbc.com/zhongwen/articles/cm8xzrg40dq1o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "中共是否介入台灣選舉？ 這次選舉將如何影響賴清德與國民黨主席鄭麗文的政治能量？捲土重來、希望藉著地方議員選舉有所斬獲的小黨，此次結盟能否在主流政黨夾殺中突圍而出？",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/5997/live/fdfeb670-d293-11f1-a701-fddedf244c16.jpg",
+   "at": "2026-10-28T02:45+00:00",
    "where": [
     23.7,
     121.0,
     "台灣"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "黃仁勳回歸Nvidia獲員工熱烈歡迎 承諾會做得更好",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879083-20261124.htm",
-   "d": "獲美國晶片製造商Nvidia批准復任行政總裁的黃仁勳，獲員工熱烈歡迎。 網上片段顯示，黃仁勳復職後，星期一返到公司位於加州的總部，大批員工歡呼迎接，有人上前與黃仁勳擁抱。黃仁勳向員工發表講話，表示很抱歉讓他們經歷這一切，承認自己犯了一些非常嚴重的錯誤，會努力改善，多謝大家給予他第二次機會，會做得更好。 Nvidia董事會星期一發表聲明，指一致通過恢復黃仁勳的職務，決策過程中聽取了美國政府高層意見，確信黃仁勳復職不構成國家安全風險。 總統…",
-   "at": "2026-11-24T08:20+00:00",
-   "where": [
-    38.9,
-    -77.04,
-    "美國"
    ]
   },
   {
@@ -349,38 +376,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "「九合一」五大看點：「洋流」能否撼動台北？誰在卡位2028？",
-   "u": "https://www.bbc.com/zhongwen/articles/cm8xzrg40dq1o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "中共是否介入台灣選舉？ 這次選舉將如何影響賴清德與國民黨主席鄭麗文的政治能量？捲土重來、希望藉著地方議員選舉有所斬獲的小黨，此次結盟能否在主流政黨夾殺中突圍而出？",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/5997/live/fdfeb670-d293-11f1-a701-fddedf244c16.jpg",
-   "at": "2026-10-28T02:45+00:00",
-   "where": [
-    23.7,
-    121.0,
-    "台灣"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "麥美娟：宏福苑援助基金推新生活支援補助",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879107-20261124.htm",
-   "d": "民政及青年事務局局長麥美娟表示，「大埔宏福苑援助基金」再推出兩項新措施，向每戶宏福苑業主及每名死者的家屬、包括離世外傭家屬，提供分別30萬元及20萬元的「新生活支援補助」。 麥美娟表示，40多億元的援助基金，超過8成金額來自本港與內地企業、僑界組織等大額捐款，連同今次的新措施，基金餘款已不多。基金報告將於稍後向立法會提交。 編輯：朱錫君",
-   "at": "2026-11-24T11:52+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "Nvidia醜聞：美國將Megaspeed列入黑名單",
-   "u": "https://www.bbc.com/zhongwen/articles/c804wekz407ko/trad?at_medium=RSS&at_campaign=rss",
-   "d": "Megaspeed一名前高層與黃仁勳的婚外情緋聞曝光後，該企業被指控將 AI 晶片輸送至中國。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/4a66/live/7c413f70-e78a-11f1-a5c2-c57ab9df3111.jpg",
-   "at": "2026-11-24T08:29+00:00",
+   "t": "Nvidia和黃仁勳對美國經濟有多重要？",
+   "u": "https://www.bbc.com/zhongwen/articles/cvwy0jx7nj84o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "黃仁勳離職僅11天便重掌英偉達，凸顯他對人工智能產業及美國經濟的重要性。他本人和這家晶片巨頭究竟有多大影響力？",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b812/live/3d66a730-e79f-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-24T00:24+00:00",
    "where": [
     38.9,
     -77.04,
@@ -408,7 +408,7 @@
    "u": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno?at_medium=RSS&at_campaign=rss",
    "d": "The break-in took place at the family's country retreat in Norfolk, on the Sandringham Estate.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7ecc/live/c4219c10-e80a-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-24T15:25+00:00",
+   "at": "2026-11-24T16:19+00:00",
    "where": [
     52.5,
     -1.5,
@@ -492,7 +492,7 @@
    "u": "https://www.bbc.co.uk/sport/football/articles/crn80y2l1404o?at_medium=RSS&at_campaign=rss",
    "d": "Ten months after the 2025 Africa Cup of Nations final, Senegal are reinstated as champions following a ruling by the Court of Arbitration for Sport.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/08c6/live/67284a50-e7fa-11f1-ab60-79086b6495b8.jpg",
-   "at": "2026-11-24T15:16+00:00",
+   "at": "2026-11-24T16:11+00:00",
    "where": [
     14.7,
     -17.44,
@@ -520,7 +520,7 @@
    "u": "https://www.bbc.co.uk/news/articles/cm930y07p0j2o?at_medium=RSS&at_campaign=rss",
    "d": "Triple killer Anthony Russell admits murdering child killer Ian Huntley at Frankland Prison.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/be90/live/aad9c570-e729-11f1-914b-6d226d813a52.jpg",
-   "at": "2026-11-24T13:32+00:00",
+   "at": "2026-11-24T16:30+00:00",
    "where": [
     52.5,
     -1.5,
@@ -604,7 +604,7 @@
    "u": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&at_campaign=rss",
    "d": "A South African fighter pilot and a Ugandan officer are reportedly among those aboard the downed plane.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/467b/live/5cf1a7a0-e7d4-11f1-939f-471cde339c0e.jpg",
-   "at": "2026-11-24T10:48+00:00",
+   "at": "2026-11-24T16:31+00:00",
    "where": [
     -4.32,
     15.31,
@@ -628,11 +628,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Government probe into housing scheme 'exploitation'",
-   "u": "https://www.bbc.co.uk/news/articles/cm0rk19kl52do?at_medium=RSS&at_campaign=rss",
-   "d": "Birmingham has more than 34,000 people living in Supported Exempt Accommodation.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8509/live/e31149b0-e7f9-11f1-99a1-253766e7ad8b.png",
-   "at": "2026-11-24T15:18+00:00",
+   "t": "Tories accuse Burnham of turning No 10 into 'joke' after influencer video row",
+   "u": "https://www.bbc.co.uk/news/articles/cv0l3nlgl80ro?at_medium=RSS&at_campaign=rss",
+   "d": "Social media influencer Max Balegde has deleted a video filmed outside the door of Number 10, which was posted on TikTok, in which he mimed along to explicit lyrics.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2299/live/7d060080-e802-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-24T16:11+00:00",
    "where": [
     52.5,
     -1.5,
@@ -740,11 +740,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Baby P's mother given open prison recommendation",
-   "u": "https://www.bbc.co.uk/news/articles/cwn70z7ryp8ro?at_medium=RSS&at_campaign=rss",
-   "d": "Tracey Connelly was first sentenced in 2009 over the death of her toddler son Peter.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7ba1/live/832ce060-af31-11f0-b1c6-736a05ed5483.jpg",
-   "at": "2026-11-24T13:02+00:00",
+   "t": "Government probe into housing scheme 'exploitation'",
+   "u": "https://www.bbc.co.uk/news/articles/cm0rk19kl52do?at_medium=RSS&at_campaign=rss",
+   "d": "Birmingham has more than 34,000 people living in Supported Exempt Accommodation.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8509/live/e31149b0-e7f9-11f1-99a1-253766e7ad8b.png",
+   "at": "2026-11-24T15:18+00:00",
    "where": [
     52.5,
     -1.5,
@@ -851,11 +851,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "BBC secret filming shows dog breeder selling sick puppies for £2k each",
-   "u": "https://www.bbc.co.uk/news/articles/c8d36d43y8po?at_medium=RSS&at_campaign=rss",
-   "d": "The breeder's rating was downgraded but he continued to advertise as five-star, investigation finds.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bbbd/live/db7cd3b0-e7d4-11f1-939f-471cde339c0e.jpg",
-   "at": "2026-11-24T00:11+00:00",
+   "t": "Former police chief inspector jailed for rape",
+   "u": "https://www.bbc.co.uk/news/articles/crjeq7ey7llqo?at_medium=RSS&at_campaign=rss",
+   "d": "Glen Mahony once worked with Wayne Couzens, who was convicted of the 2021 murder of Sarah Everard.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/57fd/live/148104c0-e80b-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-24T15:41+00:00",
    "where": [
     52.5,
     -1.5,
@@ -963,11 +963,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "State failing to keep public safe, warns victims' commissioner",
-   "u": "https://www.bbc.co.uk/news/articles/cr0jx7dw234jo?at_medium=RSS&at_campaign=rss",
-   "d": "Claire Waxman tells the BBC Andy Burnham needs to put justice in his 10-year plan for government.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/825c/live/4af90c20-e7d2-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-24T06:02+00:00",
+   "t": "Record 5,200 heat-linked deaths estimated in England this year",
+   "u": "https://www.bbc.co.uk/news/articles/cq2e83egrez3o?at_medium=RSS&at_campaign=rss",
+   "d": "The UK Health Security Agency says this year's number of deaths is twice that of the previous record year.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7439/live/723aa2a0-e802-11f1-95bb-3f37d3e026b0.jpg",
+   "at": "2026-11-24T16:22+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1074,11 +1074,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Tories accuse Burnham of turning No 10 into 'joke' after influencer video row",
-   "u": "https://www.bbc.co.uk/news/articles/cv0l3nlgl80ro?at_medium=RSS&at_campaign=rss",
-   "d": "Social media influencer Max Balegde has deleted a video filmed outside the door of Number 10, which was posted on TikTok, in which he mimed along to explicit lyrics.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2299/live/7d060080-e802-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-24T15:12+00:00",
+   "t": "Baby P's mother given open prison recommendation",
+   "u": "https://www.bbc.co.uk/news/articles/cwn70z7ryp8ro?at_medium=RSS&at_campaign=rss",
+   "d": "Tracey Connelly was first sentenced in 2009 over the death of her toddler son Peter.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7ba1/live/832ce060-af31-11f0-b1c6-736a05ed5483.jpg",
+   "at": "2026-11-24T13:02+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1185,11 +1185,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Police fear missing 20-year-old 'may have come to harm'",
-   "u": "https://www.bbc.co.uk/news/articles/cw4gn7n0pkp4o?at_medium=RSS&at_campaign=rss",
-   "d": "Kelsey Hunter was last seen in Castle Douglas on Saturday but police activity is focused around a field in a nearby village.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/29d3/live/cfbb0b40-e7fd-11f1-ab60-79086b6495b8.jpg",
-   "at": "2026-11-24T12:55+00:00",
+   "t": "Southport survivors' parents 'disgusted' by school recovery funding",
+   "u": "https://www.bbc.co.uk/news/articles/c3wy0x4774dpo?at_medium=RSS&at_campaign=rss",
+   "d": "Southport survivors' families are criticising disparities in school recovery funding.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6406/live/b2b7c680-e81d-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-24T15:50+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1282,11 +1282,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "BBC and Netflix team up for new CBeebies hub on streamer",
-   "u": "https://www.bbc.co.uk/news/articles/c9zr585dxkgzo?at_medium=RSS&at_campaign=rss",
-   "d": "The limited trial will see a CBeebies hub on Netflix for the first time and will feature 24 programmes.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f314/live/d76f1600-e808-11f1-95bb-3f37d3e026b0.jpg",
-   "at": "2026-11-24T13:05+00:00",
+   "t": "Nephew wants change after killings of uncles",
+   "u": "https://www.bbc.co.uk/news/articles/crx27q7vzyewo?at_medium=RSS&at_campaign=rss",
+   "d": "Alexander Lewis-Ranwell killed Roger and Dick Carter while in an acutely psychotic episode.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/19ce/live/7b590520-ceda-11f1-8507-45cb00a1c41c.jpg",
+   "at": "2026-11-24T13:02+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1309,11 +1309,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Prince William meets Burnham on first Downing Street visit",
-   "u": "https://www.bbc.co.uk/news/articles/cm5y1xk1gpqvo?at_medium=RSS&at_campaign=rss",
-   "d": "The Prince of Wales is meeting Andy Burnham with homelessness expected to be among the topics.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/394d/live/5d721e40-e800-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-24T11:37+00:00",
+   "t": "BBC secret filming shows dog breeder selling sick puppies for £2k each",
+   "u": "https://www.bbc.co.uk/news/articles/c8d36d43y8po?at_medium=RSS&at_campaign=rss",
+   "d": "The breeder's rating was downgraded but he continued to advertise as five-star, investigation finds.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bbbd/live/db7cd3b0-e7d4-11f1-939f-471cde339c0e.jpg",
+   "at": "2026-11-24T00:11+00:00",
    "where": [
     52.5,
     -1.5,
