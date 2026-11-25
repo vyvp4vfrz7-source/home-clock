@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-24T17:42+00:00",
+ "updated": "2026-11-25T05:41+00:00",
  "en": {
-  "greeting": "Good evening — Tuesday 24 November",
+  "greeting": "Good morning — Wednesday 25 November",
   "sections": [
    {
     "h": "Top stories",
     "items": [
      {
-      "t": "Nvidia brings back Jensen Huang as chief executive",
-      "d": "Nvidia's board unanimously reinstated Huang less than two weeks after he quit, saying Washington judged him no security risk. Shares jumped 31% on Monday, then fell about 5% today on governance worries.",
-      "u": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o"
+      "t": "Trump stakes his fortunes on Nvidia after Huang's return",
+      "d": "Jensen Huang is back as Nvidia chief after White House pressure, and has told staff he is in therapy. Critics say Trump has now tied himself to the chipmaker's fate.",
+      "u": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo"
      },
      {
-      "t": "NATO warns of Russian nuclear-armed satellite threat",
-      "d": "Allied intelligence suggests Russia could launch a nuclear-armed satellite as soon as next month. NATO chief Mark Rutte said the alliance would defend against space threats; the Kremlin dismissed the reports.",
-      "u": "https://www.theguardian.com/world/2026/nov/23/russia-nuclear-weapons-space-german-intelligence"
+      "t": "Huawei guilty of stealing trade secrets in US trial",
+      "d": "A New York jury convicted Huawei of trade-secret theft but cleared it of racketeering after a months-long trial, a blow to the Chinese tech giant amid US-China tensions.",
+      "u": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo"
      },
      {
-      "t": "Iran vows to fight renewed US naval blockade",
-      "d": "Tehran said it would use every available tool against the US blockade, reinstated in July. Vice-President Vance and Secretary of State Rubio met Qatar's prime minister at the White House.",
-      "u": "https://www.reuters.com/world/middle-east/iran-says-it-will-use-all-available-tools-confront-us-naval-blockade-2026-11-23/"
+      "t": "Putin vows to hit back over Ukraine's energy strikes",
+      "d": "Putin said Russia will respond to Ukrainian attacks on its fuel and power sites, which continue despite Trump's call to stop. Russia said it struck three Ukrainian substations.",
+      "u": "https://news.rthk.hk/rthk/ch/component/k2/1879141-20261125.htm"
      }
     ]
    },
@@ -27,24 +27,24 @@
     "h": "World & politics",
     "items": [
      {
-      "t": "Russian strike on Zaporizhzhia kills two, wounds dozens",
-      "d": "An overnight attack hit an apartment block in the Ukrainian city, killing two people and wounding around 40, including four children, the regional governor said.",
-      "u": "https://www.reuters.com/world/russian-attack-kills-2-people-wounds-22-ukraines-zaporizhzhia-official-says-2026-11-24/"
+      "t": "Solomon Islands drops China pact for Australia treaty",
+      "d": "The Pacific nation ended its controversial 2022 security deal with Beijing in favour of a new treaty with Australia, a notable shift in regional influence.",
+      "u": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno"
      },
      {
-      "t": "Israeli strike kills Hamas security chief in Gaza City",
-      "d": "Israel confirmed an airstrike in western Gaza City that killed Hamas internal security head Naeem Abu Nahel and six others. A separate strike near Jabalia killed a UN aid worker.",
-      "u": "https://www.reuters.com/world/middle-east/israeli-airstrike-kills-least-three-palestinians-southern-gaza-medics-say-2026-11-24/"
+      "t": "Houthis hit Riyadh's tallest tower again, 11 hurt",
+      "d": "Saudi Arabia says Yemen's Houthis attacked the Public Investment Fund tower for the second time in a week, injuring at least 11 people.",
+      "u": "https://news.rthk.hk/rthk/ch/component/k2/1879136-20261125.htm"
      },
      {
-      "t": "Sheikh Hasina says she will return to Bangladesh",
-      "d": "The ousted leader, sentenced to death in absentia, plans to fly home on 16 December. Bangladesh's foreign minister said she would be brought back \"in handcuffs\".",
-      "u": "https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/"
+      "t": "Kilmar Ábrego García to leave US for Spain",
+      "d": "The man wrongly deported to El Salvador and later returned will move to Spain, ending a case that became a symbol of fights over Trump's immigration policy.",
+      "u": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o"
      },
      {
-      "t": "Japan pays ICC dues early ahead of US sanctions",
-      "d": "Prime Minister Sanae Takaichi said Japan will pay its full 2027 contribution to the International Criminal Court before year-end, as US sanctions threaten the court's finances.",
-      "u": "https://www.reuters.com/world/americas/japan-accelerates-icc-funding-us-sanctions-threaten-court-2026-11-24/"
+      "t": "Sarkozy and Carla Bruni ordered to stand trial",
+      "d": "France's former president and his wife will face trial in another legal case; Sarkozy became the first ex-president to go to jail last year.",
+      "u": "https://www.bbc.co.uk/news/articles/c65y17pwv1z7o"
      }
     ]
    },
@@ -52,19 +52,19 @@
     "h": "Business & economy",
     "items": [
      {
-      "t": "Wall Street slips after Monday's big tech rally",
-      "d": "The S&P 500 fell about 1% and the Nasdaq 2% as chip stocks gave back gains. HPE dropped 12% on a weak forecast, and reports of higher US tariffs on China and the EU weighed.",
-      "u": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833"
+      "t": "Nasdaq slides as money rotates out of AI; Dow tops 50,000",
+      "d": "Nasdaq fell about 1.5% as Nvidia and other AI stocks dropped, while the Dow rose about 0.9% to a record above 50,000 as investors moved into value and healthcare stocks.",
+      "u": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-tech-sell-off-drags-nasdaq-as-dow-gains-on-value-rotation/"
      },
      {
-      "t": "CrowdStrike agrees $44bn deal for Zscaler",
-      "d": "The all-stock deal, at about a 34% premium, would create a cybersecurity giant. CrowdStrike shares fell 9% while Zscaler rose 18%.",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-23/crowdstrike-reaches-44-billion-cybersecurity-deal-for-zscaler"
+      "t": "US consumer confidence jumps far beyond forecasts",
+      "d": "The Conference Board index rose 11.4 points to 103.3 in November, well above the 92.2 expected, a boost for spending heading into the holiday season.",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-24-221148355.html"
      },
      {
-      "t": "US blacklists Singapore firm over Nvidia chip diversion",
-      "d": "Commerce added cloud firm Megaspeed to its Entity List over fears of chips reaching China. Singapore's PM Lawrence Wong said the city would not be a conduit to dodge US curbs.",
-      "u": "https://www.semafor.com/article/11/23/2026/commerce-to-add-megaspeed-to-trade-blacklist"
+      "t": "Hong Kong power bills to rise, HK Electric up 7.9%",
+      "d": "Hong Kong's two power companies set next year's tariffs: HK Electric customers face a 7.9% rise and CLP customers 1.8%.",
+      "u": "https://news.rthk.hk/rthk/en/component/k2/1879110-20261124.htm"
      }
     ]
    },
@@ -72,34 +72,29 @@
     "h": "Technology",
     "items": [
      {
-      "t": "US lawmakers attack Nvidia over Huang's return",
-      "d": "Members of both parties criticised the decision and called for tougher laws on chip exports to China. Huang is due to testify publicly before senators on 3 December.",
-      "u": "https://www.reuters.com/business/lawmakers-criticize-nvidia-decision-reinstate-huang-ceo-2026-11-23/"
+      "t": "Huang faces Congress grilling next month on Nvidia",
+      "d": "US lawmakers plan a public hearing in early December where Huang is expected to answer on Nvidia's governance and chip exports. Trump says his return poses no security risk.",
+      "u": "https://news.rthk.hk/rthk/ch/component/k2/1879175-20261125.htm"
      },
      {
-      "t": "Ex-OpenAI engineer charged with bugging executive meeting room",
-      "d": "Prosecutors say Abdulrahman Alfozan secretly recorded dozens of OpenAI meetings, many likely containing trade secrets.",
-      "u": "https://www.nytimes.com/2026/11/23/technology/openai-engineer-secret-recordings.html"
+      "t": "DeepMind AI agents find faster quantum algorithms",
+      "d": "Google DeepMind says its agents, checked by formal verification, found quantum algorithms for fusion research that cut estimated computing cost nearly 12-fold.",
+      "u": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
      },
      {
-      "t": "Two US states sue SpaceX over Grok sexualised images",
-      "d": "Oregon and Virginia allege Grok Imagine's \"spicy mode\" produced over 1.8 million sexualised images of women, and dozens of children.",
-      "u": "https://www.nytimes.com/2026/11/23/technology/spacex-lawsuit-ai-sexualized-images.html"
+      "t": "NHS starts huge AI breast-screening trial",
+      "d": "Nearly 700,000 women will take part over three years to test whether AI can spot breast cancer earlier and speed up reading of mammograms.",
+      "u": "https://www.semafor.com/article/11/23/2026/uk-starts-major-ai-breast-cancer-trial"
      },
      {
-      "t": "Amazon to pay $7.5bn for AI startup Decart's tech",
-      "d": "Amazon is taking over much of the real-time AI video startup, including its optimisation software and founding team, in one of its biggest AI deals.",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-23/amazon-is-said-to-pay-7-5-billion-for-ai-startup-decart-s-tech"
+      "t": "Google patent imagines AI TV shows starring you",
+      "d": "A Google patent application describes personalised AI-generated episodes featuring a digital double of the viewer. No product has been announced.",
+      "u": "https://gizmodo.com/google-wants-to-make-ai-tv-shows-starring-you-2000844299"
      },
      {
-      "t": "US probes cyberattacks on oil tankers via Fortinet flaw",
-      "d": "Investigators are examining whether Iran was behind attacks on up to 50 energy tankers through a router vulnerability; Russia is also a suspect.",
-      "u": "https://www.wsj.com/politics/national-security/iran-us-cyberattack-suspect-fed78942"
-     },
-     {
-      "t": "AI data centres build their own gas power plants",
-      "d": "Facing grid waits of up to a decade, developers have announced over 100 on-site gas plants in the US, raising climate concerns.",
-      "u": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/"
+      "t": "Hong Kong's Gleneagles Hospital reports patient data leak",
+      "d": "The private hospital says patient data was leaked and has notified the authorities, the latest in a string of data breaches at Hong Kong organisations.",
+      "u": "https://news.rthk.hk/rthk/en/component/k2/1879119-20261124.htm"
      }
     ]
    },
@@ -107,24 +102,19 @@
     "h": "Science & health",
     "items": [
      {
-      "t": "Global warming may have halted the next ice age",
-      "d": "A Science study finds a Baffin Island ice cap began regrowing about 2,000 years ago, hinting at a coming ice age, until warming reversed it by the 1960s.",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261123005350.htm"
+      "t": "Record 5,200 heat-linked deaths in England this year",
+      "d": "UKHSA estimates this year's heat-related deaths were double the previous record, a stark sign of how hotter summers are hitting health.",
+      "u": "https://www.bbc.co.uk/news/articles/cq2e83egrez3o"
      },
      {
-      "t": "IBM quantum computer beats classical machines on hard task",
-      "d": "IBM and University of Chicago researchers say a quantum computer finished in 15 minutes a calculation beyond the practical reach of top supercomputers.",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261123231244.htm"
+      "t": "Moon far-side rocks point to violent early solar system",
+      "d": "Analysis of rocks from the Moon's far side suggests the young solar system saw more violent impacts than thought, reshaping theories of how planets formed.",
+      "u": "https://www.sciencedaily.com/releases/2026/11/261121221136.htm"
      },
      {
-      "t": "Leukaemia can start 50 years before diagnosis",
-      "d": "Researchers traced the first cancer-driving mutation in acute myeloid leukaemia to decades before symptoms, opening a window for earlier detection.",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261121221122.htm"
-     },
-     {
-      "t": "COP31 collapse sparks calls to reform climate talks",
-      "d": "After the summit failed, campaigners and officials urged ending the consensus rule that lets a single country block any deal.",
-      "u": "https://www.theguardian.com/environment/2026/nov/23/failure-cop31-calls-urgent-reform-un-climate-summits"
+      "t": "Ancient oceans may have misled scientists on oxygen",
+      "d": "New research suggests chemical clues in old ocean rocks may give a misleading timeline of when Earth's air became oxygen-rich, a key question for early life.",
+      "u": "https://www.sciencedaily.com/releases/2026/11/261122060340.htm"
      }
     ]
    },
@@ -132,39 +122,44 @@
     "h": "UK",
     "items": [
      {
-      "t": "UK sanctions Myanmar generals after ICJ genocide ruling",
-      "d": "Britain sanctioned five senior Myanmar military leaders after the International Court of Justice ruled Myanmar committed genocide against the Rohingya.",
-      "u": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo"
+      "t": "Ofgem to reveal January price cap as gas costs surge",
+      "d": "The regulator announces the new cap today, with household gas prices expected to rise significantly from January, piling on winter cost-of-living pressure.",
+      "u": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o"
      },
      {
-      "t": "Guardian: Trump made up to $15m on Nvidia shares",
-      "d": "Trump's holdings gained as much as $15 million when Nvidia jumped on Huang's return, after the White House lobbied for his reinstatement.",
-      "u": "https://www.theguardian.com/technology/2026/nov/24/donald-trump-nvidia-stock-jensen-huang-stock-market"
+      "t": "Burnham orders independent panel for nuclear test veterans",
+      "d": "The PM promised veterans of Britain's Cold War nuclear tests the full truth, with a Hillsborough-style panel examining the programme's health legacy.",
+      "u": "https://www.bbc.co.uk/news/articles/c6808k8dxvgko"
+     },
+     {
+      "t": "Firms backing Ukraine warned of Russian sabotage",
+      "d": "A UK security alert told businesses supporting Ukraine to act now against rising risks of arson, sabotage and threats to staff.",
+      "u": "https://www.bbc.co.uk/news/articles/ckpdw4d0z2dwo"
      }
     ]
    }
   ]
  },
  "zh": {
-  "greeting": "晚安 — 11月24日星期二",
+  "greeting": "早晨 — 11月25日星期三",
   "sections": [
    {
     "h": "頭條新聞",
     "items": [
      {
-      "t": "Nvidia 復任黃仁勳為行政總裁",
-      "d": "Nvidia 董事會一致決定恢復黃仁勳職務，距他辭職不足兩星期，稱美國政府認為他不構成安全風險。股價周一急升31%，今日因管治疑慮回落約5%。",
-      "u": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o"
+      "t": "特朗普助黃仁勳回巢 政治前途與Nvidia掛鈎",
+      "d": "黃仁勳在白宮施壓下重掌Nvidia，並向員工透露正接受心理治療。批評者指特朗普的政治命運已與這家晶片巨企綁在一起。",
+      "u": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo"
      },
      {
-      "t": "北約警告俄羅斯或發射核武衛星",
-      "d": "盟國情報顯示，俄羅斯最快下月可能發射載有核武的衛星。北約秘書長呂特表示，北約會防禦太空威脅；克里姆林宮否認有關報道。",
-      "u": "https://www.theguardian.com/world/2026/nov/23/russia-nuclear-weapons-space-german-intelligence"
+      "t": "華為美國案被裁盜竊商業機密罪成",
+      "d": "紐約陪審團經數月審訊後，裁定華為盜竊商業機密等罪成，但敲詐勒索罪名不成立，在中美角力下對華為是一大打擊。",
+      "u": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo"
      },
      {
-      "t": "伊朗誓言以一切手段對抗美國海上封鎖",
-      "d": "德黑蘭表示會動用一切手段對抗美國自7月恢復的海上封鎖。美國副總統萬斯及國務卿盧比奧在白宮分別會見卡塔爾首相。",
-      "u": "https://www.reuters.com/world/middle-east/iran-says-it-will-use-all-available-tools-confront-us-naval-blockade-2026-11-23/"
+      "t": "普京誓言回應烏克蘭襲擊能源設施",
+      "d": "普京表示，烏克蘭不顧特朗普要求繼續襲擊俄羅斯燃料及能源設施，俄方必定回應。俄軍稱已以無人機襲擊烏克蘭三個變電站。",
+      "u": "https://news.rthk.hk/rthk/ch/component/k2/1879141-20261125.htm"
      }
     ]
    },
@@ -172,24 +167,24 @@
     "h": "國際及政治",
     "items": [
      {
-      "t": "俄軍空襲扎波羅熱 兩死數十傷",
-      "d": "俄軍夜間襲擊烏克蘭扎波羅熱一幢住宅大廈，州長表示兩人死亡、約40人受傷，包括四名兒童。",
-      "u": "https://www.reuters.com/world/russian-attack-kills-2-people-wounds-22-ukraines-zaporizhzhia-official-says-2026-11-24/"
+      "t": "所羅門群島棄中國安全協議 改簽澳洲條約",
+      "d": "這個太平洋島國終止與北京具爭議的安全協議，改與澳洲簽訂新條約，顯示區內影響力出現明顯轉變。",
+      "u": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno"
      },
      {
-      "t": "以軍空襲加沙城 擊斃哈馬斯保安首長",
-      "d": "以色列確認空襲加沙城西部，擊斃哈馬斯內部保安首長阿布納赫勒及另外六人。另一次在賈巴利亞附近的空襲炸死一名聯合國救援人員。",
-      "u": "https://www.reuters.com/world/middle-east/israeli-airstrike-kills-least-three-palestinians-southern-gaza-medics-say-2026-11-24/"
+      "t": "胡塞武裝再襲利雅得最高大廈 最少11傷",
+      "d": "沙特指也門胡塞武裝一星期內第二度襲擊利雅得公共投資基金大廈，最少11人受傷。",
+      "u": "https://news.rthk.hk/rthk/ch/component/k2/1879136-20261125.htm"
      },
      {
-      "t": "哈西娜稱將返回孟加拉",
-      "d": "被缺席判處死刑的孟加拉前總理哈西娜計劃12月16日回國。孟加拉外長表示，她將被「戴上手銬」押返。",
-      "u": "https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/"
+      "t": "阿夫雷戈加西亞將離美赴西班牙",
+      "d": "這名曾被錯誤遣返薩爾瓦多、其後獲送回美國的男子將移居西班牙，為這宗象徵特朗普移民政策爭議的案件畫上句號。",
+      "u": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o"
      },
      {
-      "t": "日本提早繳付國際刑事法院會費",
-      "d": "日本首相高市早苗表示，日本會在年底前繳付2027年全數國際刑事法院會費，以應對美國制裁對法院財政的威脅。",
-      "u": "https://www.reuters.com/world/americas/japan-accelerates-icc-funding-us-sanctions-threaten-court-2026-11-24/"
+      "t": "薩爾科齊與妻子布妮將受審",
+      "d": "法國前總統薩爾科齊及妻子布妮將在另一宗案件中受審；薩爾科齊去年成為首位入獄的法國前總統。",
+      "u": "https://www.bbc.co.uk/news/articles/c65y17pwv1z7o"
      }
     ]
    },
@@ -197,19 +192,19 @@
     "h": "商業及經濟",
     "items": [
      {
-      "t": "美股周一急升後回落",
-      "d": "標普500指數跌約1%，納指跌2%，晶片股回吐升幅。HPE 因業績預測遜色急跌12%，美國考慮對中國及歐盟加徵關稅的報道亦拖累大市。",
-      "u": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833"
+      "t": "資金撤離AI股 納指跌 道指破五萬點",
+      "d": "Nvidia等AI股下跌，納斯達克指數跌約1.5%；資金轉投價值股及醫療股，道指升約0.9%，創新高升穿五萬點。",
+      "u": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-tech-sell-off-drags-nasdaq-as-dow-gains-on-value-rotation/"
      },
      {
-      "t": "CrowdStrike 斥440億美元收購 Zscaler",
-      "d": "這宗全換股交易溢價約34%，將造就一間網絡安全巨企。CrowdStrike 股價跌9%，Zscaler 則升18%。",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-23/crowdstrike-reaches-44-billion-cybersecurity-deal-for-zscaler"
+      "t": "美國消費者信心大幅高於預期",
+      "d": "世界大型企業研究會11月消費者信心指數急升11.4點至103.3，遠高於預期的92.2，有利節日消費。",
+      "u": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-24-221148355.html"
      },
      {
-      "t": "美國將新加坡 Megaspeed 列入實體清單",
-      "d": "美國商務部以晶片可能流入中國為由，將雲端公司 Megaspeed 列入實體清單。新加坡總理黃循財表示，新加坡不會成為規避美國管制的渠道。",
-      "u": "https://www.semafor.com/article/11/23/2026/commerce-to-add-megaspeed-to-trade-blacklist"
+      "t": "港燈明年電費加7.9% 中電加1.8%",
+      "d": "本港兩電公布明年電費，港燈平均淨電價加7.9%，中電加1.8%。",
+      "u": "https://news.rthk.hk/rthk/en/component/k2/1879110-20261124.htm"
      }
     ]
    },
@@ -217,34 +212,29 @@
     "h": "科技",
     "items": [
      {
-      "t": "美國議員批評 Nvidia 復任黃仁勳",
-      "d": "兩黨議員批評這項決定，並要求立法收緊對華晶片出口。黃仁勳將於12月3日在參議院公開作證。",
-      "u": "https://www.reuters.com/business/lawmakers-criticize-nvidia-decision-reinstate-huang-ceo-2026-11-23/"
+      "t": "黃仁勳下月須赴國會作證",
+      "d": "美國國會下月初舉行公開聽證會，預料要求黃仁勳交代Nvidia管治及晶片出口問題。特朗普稱他復職不構成國家安全風險。",
+      "u": "https://news.rthk.hk/rthk/ch/component/k2/1879175-20261125.htm"
      },
      {
-      "t": "前 OpenAI 工程師被控在會議室裝竊聽器",
-      "d": "檢方指 Abdulrahman Alfozan 秘密錄下數十個 OpenAI 會議，當中不少可能涉及商業機密。",
-      "u": "https://www.nytimes.com/2026/11/23/technology/openai-engineer-secret-recordings.html"
+      "t": "DeepMind AI代理找出更快量子演算法",
+      "d": "Google DeepMind表示，其AI代理配合形式驗證，為核聚變研究找到更高效的量子演算法，估計運算成本減少近12倍。",
+      "u": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
      },
      {
-      "t": "美國兩州就 Grok 色情圖像起訴 SpaceX",
-      "d": "俄勒岡州及維珍尼亞州指控 Grok Imagine 的「辛辣模式」生成逾180萬張女性色情圖像，另有數十張涉及兒童。",
-      "u": "https://www.nytimes.com/2026/11/23/technology/spacex-lawsuit-ai-sexualized-images.html"
+      "t": "英國展開大型AI乳癌篩查試驗",
+      "d": "近70萬名女性將在三年內參與試驗，測試AI能否更早發現乳癌及加快分析乳房X光片。",
+      "u": "https://www.semafor.com/article/11/23/2026/uk-starts-major-ai-breast-cancer-trial"
      },
      {
-      "t": "Amazon 斥75億美元收購 Decart 技術",
-      "d": "Amazon 將接手即時 AI 影片初創 Decart 大部分業務，包括優化軟件及創辦團隊，屬其最大型 AI 交易之一。",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-23/amazon-is-said-to-pay-7-5-billion-for-ai-startup-decart-s-tech"
+      "t": "Google專利構想由你主演的AI電視劇",
+      "d": "Google一份專利申請描述以AI生成個人化劇集，並由觀眾的數碼分身演出，但公司未有宣布任何產品。",
+      "u": "https://gizmodo.com/google-wants-to-make-ai-tv-shows-starring-you-2000844299"
      },
      {
-      "t": "美國調查利用 Fortinet 漏洞攻擊油輪事件",
-      "d": "調查人員正追查伊朗是否利用路由器漏洞攻擊多達50艘能源油輪，俄羅斯亦是懷疑對象。",
-      "u": "https://www.wsj.com/politics/national-security/iran-us-cyberattack-suspect-fed78942"
-     },
-     {
-      "t": "AI 數據中心自建燃氣發電廠",
-      "d": "由於接駁電網要等上十年，美國發展商已宣布興建逾100座自用燃氣發電廠，引起氣候方面的憂慮。",
-      "u": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/"
+      "t": "港怡醫院報告病人資料外洩",
+      "d": "港怡醫院表示有病人資料外洩，已通知當局，是本港機構接連發生的資料外洩事故之一。",
+      "u": "https://news.rthk.hk/rthk/en/component/k2/1879119-20261124.htm"
      }
     ]
    },
@@ -252,24 +242,19 @@
     "h": "科學及健康",
     "items": [
      {
-      "t": "全球暖化或已阻止下一次冰河時期",
-      "d": "《科學》期刊研究發現，巴芬島一個冰帽約2000年前開始重新擴大，顯示冰河期將至，但至1960年代已被暖化逆轉。",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261123005350.htm"
+      "t": "英格蘭今年估計5200人死於炎熱天氣",
+      "d": "英國衞生安全局估計，今年與炎熱有關的死亡人數是以往紀錄的兩倍，反映夏季愈來愈熱對健康的衝擊。",
+      "u": "https://www.bbc.co.uk/news/articles/cq2e83egrez3o"
      },
      {
-      "t": "IBM 量子電腦完成傳統電腦難及的運算",
-      "d": "IBM 與芝加哥大學研究人員表示，量子電腦用15分鐘完成一項頂級超級電腦實際上難以完成的運算。",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261123231244.htm"
+      "t": "月球背面岩石揭示早期太陽系更動盪",
+      "d": "分析月球背面岩石樣本後，科學家認為早期太陽系經歷的撞擊比想像中更猛烈，或改寫行星形成理論。",
+      "u": "https://www.sciencedaily.com/releases/2026/11/261121221136.htm"
      },
      {
-      "t": "白血病可於確診前50年已開始形成",
-      "d": "研究人員追溯到急性骨髓性白血病的首個致癌突變早於病徵出現數十年，為及早檢測帶來機會。",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261121221122.htm"
-     },
-     {
-      "t": "COP31 破裂 引發改革氣候峰會呼聲",
-      "d": "峰會未能達成協議後，環保團體及官員呼籲取消讓單一國家可否決協議的共識規則。",
-      "u": "https://www.theguardian.com/environment/2026/nov/23/failure-cop31-calls-urgent-reform-un-climate-summits"
+      "t": "古代海洋或誤導科學家對氧氣史判斷",
+      "d": "新研究指，古代海洋岩石中的化學線索可能令科學家誤判地球大氣何時變得富氧，這是研究早期生命的關鍵問題。",
+      "u": "https://www.sciencedaily.com/releases/2026/11/261122060340.htm"
      }
     ]
    },
@@ -277,14 +262,19 @@
     "h": "英國",
     "items": [
      {
-      "t": "英國制裁緬甸將領",
-      "d": "國際法院裁定緬甸對羅興亞人犯下種族滅絕罪後，英國宣布制裁五名緬甸軍方高層。",
-      "u": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo"
+      "t": "Ofgem今公布一月能源價格上限 氣價急升",
+      "d": "能源監管機構今日公布新價格上限，預料家庭燃氣價格明年一月起大幅上升，加重冬季生活開支壓力。",
+      "u": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o"
      },
      {
-      "t": "《衞報》：特朗普持有 Nvidia 股票獲利最多1500萬美元",
-      "d": "白宮游說黃仁勳復職後，Nvidia 股價急升，特朗普所持股份獲利最多1500萬美元。",
-      "u": "https://www.theguardian.com/technology/2026/nov/24/donald-trump-nvidia-stock-jensen-huang-stock-market"
+      "t": "賓咸成立獨立小組調查核試老兵健康",
+      "d": "首相賓咸承諾向參與冷戰時期核試的老兵交代全部真相，將仿照希斯堡慘劇模式成立獨立小組，調查核試對健康的影響。",
+      "u": "https://www.bbc.co.uk/news/articles/c6808k8dxvgko"
+     },
+     {
+      "t": "支援烏克蘭企業獲警告提防俄羅斯破壞",
+      "d": "英國發出安全警報，促支援烏克蘭的企業立即加強防範，應對縱火、破壞及員工受威脅等風險上升。",
+      "u": "https://www.bbc.co.uk/news/articles/ckpdw4d0z2dwo"
      }
     ]
    }
@@ -292,100 +282,88 @@
  },
  "sources": [
   {
-   "title": "Nvidia brings back Jensen Huang as chief executive",
-   "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o"
+   "title": "Trump stakes his fortunes on Nvidia after Huang's return",
+   "url": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo"
   },
   {
-   "title": "NATO warns of Russian nuclear-armed satellite threat",
-   "url": "https://www.theguardian.com/world/2026/nov/23/russia-nuclear-weapons-space-german-intelligence"
+   "title": "Huawei guilty of stealing trade secrets in US trial",
+   "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo"
   },
   {
-   "title": "Iran vows to fight renewed US naval blockade",
-   "url": "https://www.reuters.com/world/middle-east/iran-says-it-will-use-all-available-tools-confront-us-naval-blockade-2026-11-23/"
+   "title": "Putin vows to hit back over Ukraine's energy strikes",
+   "url": "https://news.rthk.hk/rthk/ch/component/k2/1879141-20261125.htm"
   },
   {
-   "title": "Russian strike on Zaporizhzhia kills two, wounds dozens",
-   "url": "https://www.reuters.com/world/russian-attack-kills-2-people-wounds-22-ukraines-zaporizhzhia-official-says-2026-11-24/"
+   "title": "Solomon Islands drops China pact for Australia treaty",
+   "url": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno"
   },
   {
-   "title": "Israeli strike kills Hamas security chief in Gaza City",
-   "url": "https://www.reuters.com/world/middle-east/israeli-airstrike-kills-least-three-palestinians-southern-gaza-medics-say-2026-11-24/"
+   "title": "Houthis hit Riyadh's tallest tower again, 11 hurt",
+   "url": "https://news.rthk.hk/rthk/ch/component/k2/1879136-20261125.htm"
   },
   {
-   "title": "Sheikh Hasina says she will return to Bangladesh",
-   "url": "https://www.reuters.com/world/asia-pacific/sheikh-hasina-seeks-return-bangladesh-december-16-state-carrier-2026-11-24/"
+   "title": "Kilmar Ábrego García to leave US for Spain",
+   "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o"
   },
   {
-   "title": "Japan pays ICC dues early ahead of US sanctions",
-   "url": "https://www.reuters.com/world/americas/japan-accelerates-icc-funding-us-sanctions-threaten-court-2026-11-24/"
+   "title": "Sarkozy and Carla Bruni ordered to stand trial",
+   "url": "https://www.bbc.co.uk/news/articles/c65y17pwv1z7o"
   },
   {
-   "title": "Wall Street slips after Monday's big tech rally",
-   "url": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833"
+   "title": "Nasdaq slides as money rotates out of AI; Dow tops 50,000",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-tech-sell-off-drags-nasdaq-as-dow-gains-on-value-rotation/"
   },
   {
-   "title": "CrowdStrike agrees $44bn deal for Zscaler",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-23/crowdstrike-reaches-44-billion-cybersecurity-deal-for-zscaler"
+   "title": "US consumer confidence jumps far beyond forecasts",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-24-221148355.html"
   },
   {
-   "title": "US blacklists Singapore firm over Nvidia chip diversion",
-   "url": "https://www.semafor.com/article/11/23/2026/commerce-to-add-megaspeed-to-trade-blacklist"
+   "title": "Hong Kong power bills to rise, HK Electric up 7.9%",
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879110-20261124.htm"
   },
   {
-   "title": "US lawmakers attack Nvidia over Huang's return",
-   "url": "https://www.reuters.com/business/lawmakers-criticize-nvidia-decision-reinstate-huang-ceo-2026-11-23/"
+   "title": "Huang faces Congress grilling next month on Nvidia",
+   "url": "https://news.rthk.hk/rthk/ch/component/k2/1879175-20261125.htm"
   },
   {
-   "title": "Ex-OpenAI engineer charged with bugging executive meeting room",
-   "url": "https://www.nytimes.com/2026/11/23/technology/openai-engineer-secret-recordings.html"
+   "title": "DeepMind AI agents find faster quantum algorithms",
+   "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
   },
   {
-   "title": "Two US states sue SpaceX over Grok sexualised images",
-   "url": "https://www.nytimes.com/2026/11/23/technology/spacex-lawsuit-ai-sexualized-images.html"
+   "title": "NHS starts huge AI breast-screening trial",
+   "url": "https://www.semafor.com/article/11/23/2026/uk-starts-major-ai-breast-cancer-trial"
   },
   {
-   "title": "Amazon to pay $7.5bn for AI startup Decart's tech",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-23/amazon-is-said-to-pay-7-5-billion-for-ai-startup-decart-s-tech"
+   "title": "Google patent imagines AI TV shows starring you",
+   "url": "https://gizmodo.com/google-wants-to-make-ai-tv-shows-starring-you-2000844299"
   },
   {
-   "title": "US probes cyberattacks on oil tankers via Fortinet flaw",
-   "url": "https://www.wsj.com/politics/national-security/iran-us-cyberattack-suspect-fed78942"
+   "title": "Hong Kong's Gleneagles Hospital reports patient data leak",
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879119-20261124.htm"
   },
   {
-   "title": "AI data centres build their own gas power plants",
-   "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/"
+   "title": "Record 5,200 heat-linked deaths in England this year",
+   "url": "https://www.bbc.co.uk/news/articles/cq2e83egrez3o"
   },
   {
-   "title": "Global warming may have halted the next ice age",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261123005350.htm"
+   "title": "Moon far-side rocks point to violent early solar system",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261121221136.htm"
   },
   {
-   "title": "IBM quantum computer beats classical machines on hard task",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261123231244.htm"
+   "title": "Ancient oceans may have misled scientists on oxygen",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261122060340.htm"
   },
   {
-   "title": "Leukaemia can start 50 years before diagnosis",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261121221122.htm"
+   "title": "Ofgem to reveal January price cap as gas costs surge",
+   "url": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o"
   },
   {
-   "title": "COP31 collapse sparks calls to reform climate talks",
-   "url": "https://www.theguardian.com/environment/2026/nov/23/failure-cop31-calls-urgent-reform-un-climate-summits"
+   "title": "Burnham orders independent panel for nuclear test veterans",
+   "url": "https://www.bbc.co.uk/news/articles/c6808k8dxvgko"
   },
   {
-   "title": "UK sanctions Myanmar generals after ICJ genocide ruling",
-   "url": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo"
-  },
-  {
-   "title": "Guardian: Trump made up to $15m on Nvidia shares",
-   "url": "https://www.theguardian.com/technology/2026/nov/24/donald-trump-nvidia-stock-jensen-huang-stock-market"
-  },
-  {
-   "title": "Just Security Early Edition, 24 Nov 2026",
-   "url": "https://www.justsecurity.org/165763/early-edition-november-24-2026/"
-  },
-  {
-   "title": "Techmeme",
-   "url": "https://www.techmeme.com/river"
+   "title": "Firms backing Ukraine warned of Russian sabotage",
+   "url": "https://www.bbc.co.uk/news/articles/ckpdw4d0z2dwo"
   }
  ]
 }
