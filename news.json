@@ -1,6 +1,90 @@
 {
- "updated": "2026-11-25T00:46+00:00",
+ "updated": "2026-11-25T02:11+00:00",
  "items": [
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "陳茂波在倫敦與工商金融界交流 介紹香港最新發展",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879163-20261125.htm",
+   "d": "財政司司長陳茂波率領香港經貿和創科代表團在倫敦繼續訪問行程，與當地工商和金融界人士交流，介紹香港的最新發展，探討香港與英國在金融、創新科技和專業服務等領域的合作機會。 陳茂波出席香港－歐洲商務委員會會議並致辭，表示香港商品出口表現強勁，消費與投資錄得增長，股票市場交投活躍，持續吸引海内外資金。《香港第一個五年規劃》訂明未來五年的發展方向和重點，為企業在港投資和拓展業務提供確定性。 陳茂波之後拜會中國駐英國大使鄭澤光，介紹代表團在英國的訪…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879163_1_M_20261125093430.jpg",
+   "at": "2026-11-25T01:17+00:00",
+   "where": [
+    51.51,
+    -0.13,
+    "倫敦"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "陳吉寧被調查：「清華系」失勢、「上海跳板」失靈與政治局委員落馬創紀錄",
+   "u": "https://www.bbc.com/zhongwen/articles/ck7v27vn9659o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "陳吉寧落馬的時點尤其敏感：距離二十一大換屆不到一年，他本是外界觀察下屆常委佈局的關鍵人物，被查前僅僅六天仍在公開調研。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/d057/live/8d390820-e80d-11f1-ab42-55d8d8278025.jpg",
+   "at": "2026-11-24T14:54+00:00",
+   "where": [
+    31.23,
+    121.47,
+    "上海"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "華為被紐約法院陪審團裁定10項罪名成立",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879169-20261125.htm",
+   "d": "中國電訊設備商華為被美國一個法院陪審團裁定十項罪名成立，包括銀行欺詐、違反美國制裁規定和串謀竊取商業機密。 華為對裁決表示失望，表示將提出上訴。 紐約布魯克林聯邦法院陪審團裁定，華為面對的12項刑事罪名中，有10項成立，但串謀從事有組織犯罪，以及串謀妨礙司法公正罪都不成立。 法官將在明年9月判刑。 華為代表律師說，對裁決感到失望，但重申被控串謀有組織犯罪的罪名不成立，證明華為秉持誠信的合規文化。 白宮和中國駐美國大使館未有回應案件。 中…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879169_1_M_20261125093637.jpg",
+   "at": "2026-11-25T01:36+00:00",
+   "where": [
+    40.71,
+    -74.0,
+    "紐約"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "鄧炳強稱爭取早日完成修例將圍標刑事化 反圍標熱線接逾百來電",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879162-20261125.htm",
+   "d": "保安局局長鄧炳強表示，當局就樓宇維修工程圍標問題設立聯合特遣隊，可及早交流情報。圍標問題以往由競委會負責，屬民事程序，當局爭取早日完成修例將圍標刑事化，警方、廉署及競委會日後均可調查，亦將獲賦予新權力，包括要求被調查人士接受盤問的證人令及充公令等。 鄧炳強在一個電台節目表示，反圍標熱線「182000」設立兩星期，已收到超過100個來電，來自不想啞忍的業主、不想同流合污的建築業人士，甚至參與過圍標的人士等，認為他們提供的資料有幫助。 明日…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879162_1_M_20261125092306.jpg",
+   "at": "2026-11-25T01:06+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "宏福苑大火一周年：居民受壓、媒體噤聲，為何悼念變得小心翼翼？",
+   "u": "https://www.bbc.com/zhongwen/articles/cw8dv46pv125o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "宏福苑大火一周年前夕，港府官員稱「政府絕對容許」合法活動，但有遺屬表示悼念活動受壓，也有新聞工作者向BBC中文透露，相關周年報導在製作完成後突然「被抽起」。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b501/live/4704feb0-e80b-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-24T10:13+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "黃仁勳向員工透露正接受心理治療",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879164-20261125.htm",
+   "d": "重返Nvidia擔任行政總裁的黃仁勳，在公司全體員工大會上向員工道歉，並透露正接受心理治療。 彭博社報道，黃仁勳表示，讓員工失望，這是他經歷過最艱難的一次公司會議。他承認違反公司行為準則，並感謝董事會給他第二次機會，繼續領導三十年前與人共同創立的Nvidia。 報道引述知情人士透露，黃仁勳強調，復職並非因為他凌駕於法律之上，而是因為董事會經過評估後作出的決定。他也承諾，今後會接受董事會監督。他坦言，最艱難是面對妻子。 黃仁勳稱讚總統特朗…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879164_1_M_20261125091724.jpg",
+   "at": "2026-11-25T01:17+00:00",
+   "where": [
+    38.9,
+    -77.04,
+    "美國"
+   ]
+  },
   {
    "src": "香港",
    "lang": "zh",
@@ -18,15 +102,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "陳吉寧被調查：「清華系」失勢、「上海跳板」失靈與政治局委員落馬創紀錄",
-   "u": "https://www.bbc.com/zhongwen/articles/ck7v27vn9659o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "陳吉寧落馬的時點尤其敏感：距離二十一大換屆不到一年，他本是外界觀察下屆常委佈局的關鍵人物，被查前僅僅六天仍在公開調研。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/d057/live/8d390820-e80d-11f1-ab42-55d8d8278025.jpg",
-   "at": "2026-11-24T14:54+00:00",
+   "t": "「不能沒有你」：黃仁勳回歸，台灣股市的狂歡與半導體「 黑天鵝」風險",
+   "u": "https://www.bbc.com/zhongwen/articles/crp3eqg9l8eeo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "黃仁勳在美國總統特朗普介入下重掌輝達，台灣股民在台股漲停板的氣氛大喊「爸爸回來了」。但「台灣乾爹」會再一次變成黑天鵝嗎？",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/e399/live/879aee70-e7e9-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-24T14:35+00:00",
    "where": [
-    31.23,
-    121.47,
-    "上海"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -60,15 +144,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "宏福苑大火一周年：居民受壓、媒體噤聲，為何悼念變得小心翼翼？",
-   "u": "https://www.bbc.com/zhongwen/articles/cw8dv46pv125o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "宏福苑大火一周年前夕，港府官員稱「政府絕對容許」合法活動，但有遺屬表示悼念活動受壓，也有新聞工作者向BBC中文透露，相關周年報導在製作完成後突然「被抽起」。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b501/live/4704feb0-e80b-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-24T10:13+00:00",
+   "t": "黃仁勳重掌Nvidia：習近平從特朗普身上看到了什麼？",
+   "u": "https://www.bbc.com/zhongwen/articles/cjr4gwxzgyydo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "黃仁勳戲劇性重返英偉達，不僅讓北京看到了影響華盛頓的可能，也讓習近平進一步了解特朗普的軟肋，以及中國在中美科技與貿易博弈中可以利用的籌碼。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/47a8/live/2d61caf0-e7d5-11f1-939f-471cde339c0e.jpg",
+   "at": "2026-11-24T16:15+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
@@ -102,16 +186,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "「不能沒有你」：黃仁勳回歸，台灣股市的狂歡與半導體「 黑天鵝」風險",
-   "u": "https://www.bbc.com/zhongwen/articles/crp3eqg9l8eeo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "黃仁勳在美國總統特朗普介入下重掌輝達，台灣股民在台股漲停板的氣氛大喊「爸爸回來了」。但「台灣乾爹」會再一次變成黑天鵝嗎？",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/e399/live/879aee70-e7e9-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-24T14:35+00:00",
-   "where": [
-    23.7,
-    121.0,
-    "台灣"
-   ]
+   "t": "我每月花250英鎊請人幫我處理生活雜務，而這很值得",
+   "u": "https://www.bbc.com/zhongwen/articles/cqdr15vp81jno/trad?at_medium=RSS&at_campaign=rss",
+   "d": "大西洋兩岸忙碌的母親們正付費請公司代為處理她們的待辦事項清單。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/e5a9/live/c9ce40e0-e7cf-11f1-83ab-9953b30aab1f.jpg",
+   "at": "2026-11-25T00:39+00:00"
   },
   {
    "src": "世界",
@@ -144,15 +223,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "黃仁勳重掌Nvidia：習近平從特朗普身上看到了什麼？",
-   "u": "https://www.bbc.com/zhongwen/articles/cjr4gwxzgyydo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "黃仁勳戲劇性重返英偉達，不僅讓北京看到了影響華盛頓的可能，也讓習近平進一步了解特朗普的軟肋，以及中國在中美科技與貿易博弈中可以利用的籌碼。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/47a8/live/2d61caf0-e7d5-11f1-939f-471cde339c0e.jpg",
-   "at": "2026-11-24T16:15+00:00",
+   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-17T16:25+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -175,86 +254,7 @@
    "t": "私隱專員公署：初步資料顯示港怡醫療手機應用程式被黑客攻擊",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1879122-20261124.htm",
    "d": "港怡醫療本月18日發現手機應用程式「港怡『智』健康」的保安設施出現未獲授權的活動，導致部分病人及其他個人資料遭未經授權存取。私隱專員公署昨日接獲通報，初步資料顯示，事故源於相關機構的手機應用程式被黑客攻擊，機構未能確認受影響人士數目。 公署表示，受影響病人的個人資料可能包括姓名、香港身份證號碼、護照號碼、出生日期、地址、電郵地址、電話號碼和部分病人的健康及護理相關資料、預約和醫療程序預約詳情等。部分病人的緊急聯絡人個人資料包括姓名、電郵…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879122_1_M_20261124225328.jpg",
    "at": "2026-11-24T14:49+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "我每月花250英鎊請人幫我處理生活雜務，而這很值得",
-   "u": "https://www.bbc.com/zhongwen/articles/cqdr15vp81jno/trad?at_medium=RSS&at_campaign=rss",
-   "d": "大西洋兩岸忙碌的母親們正付費請公司代為處理她們的待辦事項清單。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/e5a9/live/c9ce40e0-e7cf-11f1-83ab-9953b30aab1f.jpg",
-   "at": "2026-11-25T00:39+00:00"
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "沙特首都利雅得最高建築物一周兩度遇襲 最少11人受傷",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879136-20261125.htm",
-   "d": "沙特阿拉伯首都利雅得最高的建築，一星期內兩度遇襲，最少11人受傷，沙特方面表示，襲擊是由也門胡塞武裝發動。 沙特民防總局表示，位於利雅得阿卜杜拉國王金融區的公共投資基金大廈，星期二遭到也門胡塞武裝襲擊。 沙特主導的多國聯軍發言人較早時指，事件的性質是恐怖襲擊，有關部門正在現場處理。 沙特當局上星期四發聲明，指公共投資基金大廈遭到也門胡塞武裝襲擊，沒有造成傷亡；也門胡塞武裝對今次事件暫時未有回應。 編輯：盧曉珊",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879136_1_M_20261125021520.jpg",
-   "at": "2026-11-24T18:13+00:00",
-   "where": [
-    24.7,
-    46.7,
-    "沙特"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "李家超：香港正鞏固與傳統市場關係 同時拓展東盟和中東利益",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879118-20261124.htm",
-   "d": "行政長官李家超表示，當今地緣政治局勢複雜多變，加上科技日新月異，經濟增長已非必然。為緊貼時代變遷與競爭步伐，香港需要借鑑國家的經驗，以及全球主要經濟體的行之有效做法。特區政府制定香港首個五年規劃，並與國家「十五五」規劃對接，有助香港更好融入和服務國家發展大局。 李家超出席香港管理專業協會晚宴致辭時說，鞏固提升香港「四中心、一高地」的發展，是五年規劃的關鍵所在。他又說，特區政府正穩步擴大香港的「朋友圈」，並繼續鞏固與傳統市場的穩健關係，同…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879118_1_M_20261124213441.jpg",
-   "at": "2026-11-24T13:23+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-17T16:25+00:00",
-   "where": [
-    23.7,
-    121.0,
-    "台灣"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "韓國計劃2031年前將31個政府部門搬遷到世宗市",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879134-20261125.htm",
-   "d": "韓國計劃2031年前，將中央行政機關等31個政府部門搬遷到世宗市，涉及超過5400名公務員。 行政安全部發公告指，計劃分兩批進行，其中首批22個部門將於明年完成搬遷，涉及廣電媒體通信委員會、個人信息保護委員會等；其餘9個需要專門辦公地點及特別設施的部門，包括國家人權委員會、監查院、高級公職人員犯罪調查處、警察廳等，將會搬入新興建的辦公大樓，預計2031年前完成。 首批搬遷大樓計劃預計需要482億韓元；第二批新建辦公大樓的費用預計約為1萬…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879134_1_M_20261125011953.jpg",
-   "at": "2026-11-24T17:14+00:00",
-   "where": [
-    37.57,
-    126.98,
-    "南韓"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "伊利沙伯醫院4名女病人感染甲型流感",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879117-20261124.htm",
-   "d": "伊利沙伯醫院一個內科女病房自上星期五起，先後有4名病人，年齡由60歲至75歲出現發燒或呼吸道感染徵狀。院方已為病人進行所需病毒測試，結果均對甲型流感病毒呈陽性反應。 4名病人現時於本院接受隔離治療。其中一名病人因自身疾病而情況危殆，其餘三名病人目前情況穩定。院方已根據既定指引加強感染控制措施，並會繼續緊密監察該病房病人的健康情況。 院方已將有關個案呈報醫管局總辦事處及衞生防護中心跟進。 編輯：李俊傑",
-   "at": "2026-11-24T13:22+00:00",
    "where": [
     22.32,
     114.17,
@@ -278,10 +278,10 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "沙特聯軍指利雅得金融區一座大樓遭恐襲 胡塞武裝未有回應",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879131-20261125.htm",
-   "d": "沙特阿拉伯主導的多國聯軍表示，位於沙特首都利雅得的阿卜杜拉國王金融區，一座大樓遭到襲擊，發言人指事件是恐怖襲擊，有關部門正在現場處理。 利雅得最高的建築物，日前遭到也門胡塞武裝襲擊，多個樓層受損，沒有造成傷亡。沙特民防總局早前譴責襲擊，公然違反國際人道法。 也門胡塞武裝對今次事件暫時未有回應。 編輯：盧曉珊",
-   "at": "2026-11-24T16:09+00:00",
+   "t": "沙特首都利雅得最高建築物一周兩度遇襲 最少11人受傷",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879136-20261125.htm",
+   "d": "沙特阿拉伯首都利雅得最高的建築，一星期內兩度遇襲，最少11人受傷，沙特方面表示，襲擊是由也門胡塞武裝發動。 沙特民防總局表示，位於利雅得阿卜杜拉國王金融區的公共投資基金大廈，星期二遭到也門胡塞武裝襲擊。 沙特主導的多國聯軍發言人較早時指，事件的性質是恐怖襲擊，有關部門正在現場處理。 沙特當局上星期四發聲明，指公共投資基金大廈遭到也門胡塞武裝襲擊，沒有造成傷亡；也門胡塞武裝對今次事件暫時未有回應。 編輯：盧曉珊",
+   "at": "2026-11-24T18:13+00:00",
    "where": [
     24.7,
     46.7,
@@ -291,10 +291,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "李家超：香港需社會各界凝心聚力擔當作為 對經民聯有三點期望",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879114-20261124.htm",
-   "d": "行政長官李家超出席經民聯邁向15周年慶典時說，單絲不成線，獨木不成林，香港要實現高質量發展，需要政府、政黨、業界和市民戮力同心。他指出，站在「由治及興」的關鍵節點上，香港需要包括經民聯在內的社會各界凝心聚力、擔當作為。他對經民聯有三點期望，包括繼續助力良政善治、激活發展動能、以及協助政府回應市民所需。 李家超期望，經民聯繼續在議會提供理性意見、務實建言、優化政府政策，支持行政立法良性互動，共同提升特區整體治理效能，為「愛國者治港」創造新…",
-   "at": "2026-11-24T12:33+00:00",
+   "t": "李家超：香港正鞏固與傳統市場關係 同時拓展東盟和中東利益",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879118-20261124.htm",
+   "d": "行政長官李家超表示，當今地緣政治局勢複雜多變，加上科技日新月異，經濟增長已非必然。為緊貼時代變遷與競爭步伐，香港需要借鑑國家的經驗，以及全球主要經濟體的行之有效做法。特區政府制定香港首個五年規劃，並與國家「十五五」規劃對接，有助香港更好融入和服務國家發展大局。 李家超出席香港管理專業協會晚宴致辭時說，鞏固提升香港「四中心、一高地」的發展，是五年規劃的關鍵所在。他又說，特區政府正穩步擴大香港的「朋友圈」，並繼續鞏固與傳統市場的穩健關係，同…",
+   "at": "2026-11-24T13:23+00:00",
    "where": [
     22.32,
     114.17,
@@ -318,23 +318,23 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "王毅與文立彬通話 願同英方推動中英關係成熟穩健可持續發展",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879121-20261124.htm",
-   "d": "中共中央政治局委員、外長王毅與英國外相文立彬通電話。 王毅表示，中方願同英方推動中英關係成熟、穩健、可持續向前發展，為地區和世界和平穩定發揮建設性作用，雙方要沿著兩國領導人確定的方向，規劃好下階段高層往來，充分釋放各領域合作潛力，不斷豐富中英全面戰略夥伴關係內涵。 王毅又說，希望英方切實恪守一個中國原則，維護好雙邊關係政治基礎，中國將繼續擴大對外開放，希望英方堅持自貿原則和開放姿態，為中國企業赴英合作，提供穩定政策預期和良好營商環境。 …",
-   "at": "2026-11-24T14:48+00:00",
+   "t": "韓國計劃2031年前將31個政府部門搬遷到世宗市",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879134-20261125.htm",
+   "d": "韓國計劃2031年前，將中央行政機關等31個政府部門搬遷到世宗市，涉及超過5400名公務員。 行政安全部發公告指，計劃分兩批進行，其中首批22個部門將於明年完成搬遷，涉及廣電媒體通信委員會、個人信息保護委員會等；其餘9個需要專門辦公地點及特別設施的部門，包括國家人權委員會、監查院、高級公職人員犯罪調查處、警察廳等，將會搬入新興建的辦公大樓，預計2031年前完成。 首批搬遷大樓計劃預計需要482億韓元；第二批新建辦公大樓的費用預計約為1萬…",
+   "at": "2026-11-24T17:14+00:00",
    "where": [
-    23.7,
-    121.0,
-    "台灣"
+    37.57,
+    126.98,
+    "南韓"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "私隱專員公署接OneDegree資料外洩通報 或影響11萬人",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879113-20261124.htm",
-   "d": "私隱專員公署表示，本月19日接獲虛擬保險公司OneDegree的資料外洩事故通報，初步資料顯示，可能影響約11萬人的個人資料，可能包括姓名、身份證號碼及照片、出生日期、相片及財務資料等，公署已根據既定機制展開調查。 OneDegree日前表示，本月16日偵測到系統出現可疑活動，經調查後確認系統曾遭受黑客惡意入侵。初步調查發現，部分客戶資料被未經授權人士非法盜取，涉及部分客戶的身份證及少數客戶的銀行戶口號碼，但不涉及信用卡資料。公司相關系…",
-   "at": "2026-11-24T12:16+00:00",
+   "t": "伊利沙伯醫院4名女病人感染甲型流感",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879117-20261124.htm",
+   "d": "伊利沙伯醫院一個內科女病房自上星期五起，先後有4名病人，年齡由60歲至75歲出現發燒或呼吸道感染徵狀。院方已為病人進行所需病毒測試，結果均對甲型流感病毒呈陽性反應。 4名病人現時於本院接受隔離治療。其中一名病人因自身疾病而情況危殆，其餘三名病人目前情況穩定。院方已根據既定指引加強感染控制措施，並會繼續緊密監察該病房病人的健康情況。 院方已將有關個案呈報醫管局總辦事處及衞生防護中心跟進。 編輯：李俊傑",
+   "at": "2026-11-24T13:22+00:00",
    "where": [
     22.32,
     114.17,
@@ -358,10 +358,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "醫務衞生局暫時吊銷港怡醫院醫健通登記",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879111-20261124.htm",
-   "d": "醫務衞生局公布，根據港怡醫院通報，發現病人手機應用程式港怡「智」健康的保安設施出現未獲授權活動，導致部分病人及其他個人資料遭未經授權存取。當局根據《電子健康系統條例》，暫時吊銷港怡醫院的醫健通登記，中斷系統與醫健通的接達，其間港怡醫院無法透過醫健通取得或提供登記醫護接受者的電子健康紀錄，以確保醫健通的系統保安及完整性。 院方在本月18日發現病人手機應用程式的保安設施出現未獲授權活動，導致部分病人及其他個人資料遭未經授權存取。院方指已委托…",
-   "at": "2026-11-24T11:54+00:00",
+   "t": "李家超：香港需社會各界凝心聚力擔當作為 對經民聯有三點期望",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879114-20261124.htm",
+   "d": "行政長官李家超出席經民聯邁向15周年慶典時說，單絲不成線，獨木不成林，香港要實現高質量發展，需要政府、政黨、業界和市民戮力同心。他指出，站在「由治及興」的關鍵節點上，香港需要包括經民聯在內的社會各界凝心聚力、擔當作為。他對經民聯有三點期望，包括繼續助力良政善治、激活發展動能、以及協助政府回應市民所需。 李家超期望，經民聯繼續在議會提供理性意見、務實建言、優化政府政策，支持行政立法良性互動，共同提升特區整體治理效能，為「愛國者治港」創造新…",
+   "at": "2026-11-24T12:33+00:00",
    "where": [
     22.32,
     114.17,
@@ -427,11 +427,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Thomas Markle indicted by federal grand jury in US for possessing child sex abuse images",
-   "u": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
-   "d": "The FBI arrested Markle on 6 November after a search of a storage unit he had allegedly rented in Los Angeles uncovered the abuse material.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a486/live/58170a20-e862-11f1-a094-5fdc692f3e33.png",
-   "at": "2026-11-25T00:11+00:00",
+   "t": "Trump's Nvidia intervention ties his political fortunes to the AI boom",
+   "u": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss",
+   "d": "The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e638/live/844e1780-e864-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-25T01:03+00:00",
    "where": [
     38.9,
     -77.04,
@@ -455,15 +455,15 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "King Charles and Elton John pay tribute to Australian music legend Molly Meldrum",
-   "u": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o?at_medium=RSS&at_campaign=rss",
-   "d": "The promoter and broadcaster helped define the music tastes of Australians for decades.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0cfc/live/c3bcfc70-e6ce-11f1-a9db-c39c38a2d17c.jpg",
-   "at": "2026-11-24T00:23+00:00",
+   "t": "Lies, a disguise and surfboard bags: how a jealous Sydney policeman tried to cover up double murder",
+   "u": "https://www.bbc.co.uk/news/articles/cmrrg749d02do?at_medium=RSS&at_campaign=rss",
+   "d": "Beau Lamarre was on Wednesday found guilty of murdering his ex Jesse Baird, and Baird's new partner Luke Davies.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/92ff/live/1284fd50-e871-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-25T01:51+00:00",
    "where": [
-    -25.3,
-    133.8,
-    "澳洲"
+    -33.87,
+    151.21,
+    "悉尼"
    ]
   },
   {
@@ -539,11 +539,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "US court unseals heavily redacted records on Ilhan Omar home search",
-   "u": "https://www.bbc.co.uk/news/articles/c6n831lzl5y1o?at_medium=RSS&at_campaign=rss",
-   "d": "Prosecutors say they are pursuing evidence of crimes allegedly committed by the Democratic congresswoman over decades, and unrelated to her work in Congress.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/782a/live/ec4b1900-e823-11f1-a58d-43263bea41a8.jpg",
-   "at": "2026-11-24T16:32+00:00",
+   "t": "Thomas Markle indicted in US for possessing child sex abuse images",
+   "u": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
+   "d": "The FBI arrested Markle on 6 November after a search of a storage unit he had allegedly rented in Los Angeles uncovered the abuse material.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a486/live/58170a20-e862-11f1-a094-5fdc692f3e33.png",
+   "at": "2026-11-25T01:40+00:00",
    "where": [
     38.9,
     -77.04,
@@ -567,11 +567,11 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "De Villiers claims Australia were ball-tampering from first 2018 Test",
-   "u": "https://www.bbc.co.uk/sport/cricket/articles/c607418zlpz4o?at_medium=RSS&at_campaign=rss",
-   "d": "Former South Africa batter AB de Villiers says \"there is absolutely no doubt in my mind\" that Australia were altering the ball from the opening Test in 2018.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/668e/live/70da5030-e70e-11f1-8eab-2f1116919fa3.jpg",
-   "at": "2026-11-23T08:08+00:00",
+   "t": "King Charles and Elton John pay tribute to Australian music legend Molly Meldrum",
+   "u": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o?at_medium=RSS&at_campaign=rss",
+   "d": "The promoter and broadcaster helped define the music tastes of Australians for decades.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0cfc/live/c3bcfc70-e6ce-11f1-a9db-c39c38a2d17c.jpg",
+   "at": "2026-11-24T00:23+00:00",
    "where": [
     -25.3,
     133.8,
@@ -641,7 +641,7 @@
    "u": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
    "d": "The verdict follows a months-long trial in New York.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c0cb/live/da83bf80-e849-11f1-aa88-031e8213533d.jpg",
-   "at": "2026-11-24T22:24+00:00",
+   "at": "2026-11-25T01:11+00:00",
    "where": [
     40.71,
     -74.0,
@@ -651,15 +651,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Analysis: Fears over the AI boom haven't gone away",
-   "u": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss",
-   "d": "There were legitimate fears before Huang's abrupt exit from Nvidia - and his return won't fix it",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7ec8/live/8b0c59c0-e831-11f1-917e-35f1674fb52c.jpg",
-   "at": "2026-11-24T18:21+00:00",
+   "t": "Kilmar Ábrego García leaving US for Spain, bringing deportation battle to an end",
+   "u": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+   "d": "His deportation to El Salvador and return to the US became a flash point in the debate over President Donald Trump's immigration agenda.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3c4a/live/dcbcfdf0-e85a-11f1-9b85-e50d1e9de678.jpg",
+   "at": "2026-11-25T01:51+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    40.3,
+    -3.7,
+    "西班牙"
    ]
   },
   {
@@ -679,11 +679,11 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "Australia hold on for narrow win against Wales",
-   "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm25ev1z8y8o?at_medium=RSS&at_campaign=rss",
-   "d": "Wales could not emulate their famous victory against New Zealand as Australia claimed the Nations Championship spoils in Cardiff.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9dd5/live/e5f01650-e5ee-11f1-b1d8-fd34c88a50a0.jpg",
-   "at": "2026-11-21T22:25+00:00",
+   "t": "De Villiers claims Australia were ball-tampering from first 2018 Test",
+   "u": "https://www.bbc.co.uk/sport/cricket/articles/c607418zlpz4o?at_medium=RSS&at_campaign=rss",
+   "d": "Former South Africa batter AB de Villiers says \"there is absolutely no doubt in my mind\" that Australia were altering the ball from the opening Test in 2018.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/668e/live/70da5030-e70e-11f1-8eab-2f1116919fa3.jpg",
+   "at": "2026-11-23T08:08+00:00",
    "where": [
     -25.3,
     133.8,
@@ -763,15 +763,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Watch: Trump pardons turkeys Freedom and Feathers",
-   "u": "https://www.bbc.co.uk/news/videos/crwy8g3zwq3yo?at_medium=RSS&at_campaign=rss",
-   "d": "Donald Trump continued a long-standing White House holiday tradition, pardoning two turkeys named Freedom and Feathers.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/179d/live/4d5ca260-e845-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-24T20:45+00:00",
+   "t": "US court unseals heavily redacted records on Ilhan Omar home search",
+   "u": "https://www.bbc.co.uk/news/articles/c6n831lzl5y1o?at_medium=RSS&at_campaign=rss",
+   "d": "Prosecutors say they are pursuing evidence of crimes allegedly committed by the Democratic congresswoman over decades, and unrelated to her work in Congress.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/782a/live/ec4b1900-e823-11f1-a58d-43263bea41a8.jpg",
+   "at": "2026-11-24T16:32+00:00",
    "where": [
-    39.0,
-    35.2,
-    "土耳其"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -791,15 +791,15 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "Sydney marathon champion Jepchirchir gets three-year doping ban",
-   "u": "https://www.bbc.co.uk/sport/athletics/articles/cv5y1e1zle88o?at_medium=RSS&at_campaign=rss",
-   "d": "Reigning world marathon champion Peres Jepchirchir is banned for three years for a doping violation.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c292/live/4a3d4a90-ced6-11f1-b2b0-07f43a3ad2d3.jpg",
-   "at": "2026-11-19T10:56+00:00",
+   "t": "Australia hold on for narrow win against Wales",
+   "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm25ev1z8y8o?at_medium=RSS&at_campaign=rss",
+   "d": "Wales could not emulate their famous victory against New Zealand as Australia claimed the Nations Championship spoils in Cardiff.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9dd5/live/e5f01650-e5ee-11f1-b1d8-fd34c88a50a0.jpg",
+   "at": "2026-11-21T22:25+00:00",
    "where": [
-    -33.87,
-    151.21,
-    "悉尼"
+    -25.3,
+    133.8,
+    "澳洲"
    ]
   },
   {
@@ -851,7 +851,7 @@
    "u": "https://www.bbc.co.uk/news/articles/cwgkl31kmnddo?at_medium=RSS&at_campaign=rss",
    "d": "Some campaigners have argued that different limits should apply, depending on the age gap between the people involved.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9ec8/live/48a72fa0-e850-11f1-aa88-031e8213533d.jpg",
-   "at": "2026-11-24T22:52+00:00",
+   "at": "2026-11-25T01:38+00:00",
    "where": [
     52.5,
     -1.5,
@@ -875,15 +875,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Florida politician says son's killing was not a 'freak hunting accident'",
-   "u": "https://www.bbc.co.uk/news/articles/c60md8zj091jo?at_medium=RSS&at_campaign=rss",
-   "d": "Carey Washington Vinson, 19, was inside his tent at a camping site near the Blackwater River in Florida when a bullet struck him in the head.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e904/live/a7a9a790-e84f-11f1-aa88-031e8213533d.png",
-   "at": "2026-11-24T21:51+00:00",
+   "t": "Watch: Trump pardons turkeys Freedom and Feathers",
+   "u": "https://www.bbc.co.uk/news/videos/crwy8g3zwq3yo?at_medium=RSS&at_campaign=rss",
+   "d": "Donald Trump continued a long-standing White House holiday tradition, pardoning two turkeys named Freedom and Feathers.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/179d/live/4d5ca260-e845-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-24T20:45+00:00",
    "where": [
-    28.0,
-    -82.0,
-    "佛羅里達"
+    39.0,
+    35.2,
+    "土耳其"
    ]
   },
   {
@@ -903,15 +903,15 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "Cummins' integrity not compromised - CA",
-   "u": "https://www.bbc.co.uk/sport/cricket/articles/c65y1gjnqe50o?at_medium=RSS&at_campaign=rss",
-   "d": "Cricket Australia has \"unequivocally rejected\" the suggestion that captain Pat Cummins' integrity has been compromised by the sandpaper scandal.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7262/live/0dfc94a0-e574-11f1-9d7f-154de60fca60.jpg",
-   "at": "2026-11-21T09:32+00:00",
+   "t": "Sydney marathon champion Jepchirchir gets three-year doping ban",
+   "u": "https://www.bbc.co.uk/sport/athletics/articles/cv5y1e1zle88o?at_medium=RSS&at_campaign=rss",
+   "d": "Reigning world marathon champion Peres Jepchirchir is banned for three years for a doping violation.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c292/live/4a3d4a90-ced6-11f1-b2b0-07f43a3ad2d3.jpg",
+   "at": "2026-11-19T10:56+00:00",
    "where": [
-    -25.3,
-    133.8,
-    "澳洲"
+    -33.87,
+    151.21,
+    "悉尼"
    ]
   },
   {
@@ -986,15 +986,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Watch: Flock of turkeys chases woman on Massachusetts sidewalk",
-   "u": "https://www.bbc.co.uk/news/videos/cknv4mq93gd2o?at_medium=RSS&at_campaign=rss",
-   "d": "The woman said she had to jump into a stranger's car to escape a flock of turkeys that chased her down the sidewalk.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/183e/live/1983e580-e853-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-24T22:07+00:00",
+   "t": "Florida politician says son's killing was not a 'freak hunting accident'",
+   "u": "https://www.bbc.co.uk/news/articles/c60md8zj091jo?at_medium=RSS&at_campaign=rss",
+   "d": "Carey Washington Vinson, 19, was inside his tent at a camping site near the Blackwater River in Florida when a bullet struck him in the head.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e904/live/a7a9a790-e84f-11f1-aa88-031e8213533d.png",
+   "at": "2026-11-24T21:51+00:00",
    "where": [
-    39.0,
-    35.2,
-    "土耳其"
+    28.0,
+    -82.0,
+    "佛羅里達"
    ]
   },
   {
@@ -1014,11 +1014,11 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "Australia's Barty elected into Tennis Hall of Fame",
-   "u": "https://www.bbc.co.uk/sport/tennis/articles/c5n4eme37p4ko?at_medium=RSS&at_campaign=rss",
-   "d": "Three-time Grand Slam winner Ash Barty will be elected into the International Tennis Hall of Fame at a ceremony in August next year.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2c49/live/52d10070-e3e9-11f1-a16c-7de3762c094b.jpg",
-   "at": "2026-11-19T08:13+00:00",
+   "t": "Cummins' integrity not compromised - CA",
+   "u": "https://www.bbc.co.uk/sport/cricket/articles/c65y1gjnqe50o?at_medium=RSS&at_campaign=rss",
+   "d": "Cricket Australia has \"unequivocally rejected\" the suggestion that captain Pat Cummins' integrity has been compromised by the sandpaper scandal.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7262/live/0dfc94a0-e574-11f1-9d7f-154de60fca60.jpg",
+   "at": "2026-11-21T09:32+00:00",
    "where": [
     -25.3,
     133.8,
@@ -1097,15 +1097,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-   "u": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-   "d": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c94d/live/cfb736f0-e78a-11f1-a5c2-c57ab9df3111.jpg",
-   "at": "2026-11-24T10:53+00:00",
+   "t": "Watch: Flock of turkeys chases woman on Massachusetts sidewalk",
+   "u": "https://www.bbc.co.uk/news/videos/cknv4mq93gd2o?at_medium=RSS&at_campaign=rss",
+   "d": "The woman said she had to jump into a stranger's car to escape a flock of turkeys that chased her down the sidewalk.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/183e/live/1983e580-e853-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-24T22:07+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    39.0,
+    35.2,
+    "土耳其"
    ]
   },
   {
@@ -1125,15 +1125,15 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "Body of Melbourne Cup horse found dumped in Sydney skip",
-   "u": "https://www.bbc.co.uk/news/articles/ck1ewl2zjqgzo?at_medium=RSS&at_campaign=rss",
-   "d": "The remains of a top Australian racehorse that died of colic on Monday were found at a public rubbish tip.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/632b/live/b9ed96e0-e251-11f1-876d-1dfc6cf3b709.jpg",
-   "at": "2026-11-17T07:01+00:00",
+   "t": "Australia's Barty elected into Tennis Hall of Fame",
+   "u": "https://www.bbc.co.uk/sport/tennis/articles/c5n4eme37p4ko?at_medium=RSS&at_campaign=rss",
+   "d": "Three-time Grand Slam winner Ash Barty will be elected into the International Tennis Hall of Fame at a ceremony in August next year.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2c49/live/52d10070-e3e9-11f1-a16c-7de3762c094b.jpg",
+   "at": "2026-11-19T08:13+00:00",
    "where": [
-    -33.87,
-    151.21,
-    "悉尼"
+    -25.3,
+    133.8,
+    "澳洲"
    ]
   },
   {
