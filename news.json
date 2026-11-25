@@ -1,6 +1,43 @@
 {
- "updated": "2026-11-25T18:38+00:00",
+ "updated": "2026-11-25T19:44+00:00",
  "items": [
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "警方調查清水灣道昨日傍晚致命交通意外 69歲小巴司機不治",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879283-20261126.htm",
+   "d": "清水灣道昨日傍晚發生致命交通意外，警方正在調查。 警方表示，昨日傍晚6時16分，一名69歲小巴司機，將小巴停泊在大坳門路一個巴士站對開並下車，據報小巴溜前，他嘗試制止時跌倒，被困車底，由消防員救出，他頭部嚴重受傷，昏迷送往將軍澳醫院治理，去到晚上8時01分證實不治。 東九龍總區交通部特別調查隊正在調查案件。 編輯：盧曉珊",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879283_1_M_20261126032813.jpg",
+   "at": "2026-11-25T19:28+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "宏福苑大火一週年：「這條刺永遠都在」，遺屬在傷痛中尋找答案",
+   "u": "https://www.bbc.com/zhongwen/articles/c3j4r274lj82o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "對許多家庭來說，道歉只是「最低消費」，他們仍在等一個完整的答案。BBC中文接觸了多位遇難者家屬，記錄他們怎樣度過這一年。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/56ac/live/daaf9c90-e86c-11f1-a80a-1f378de16ace.jpg",
+   "at": "2026-11-25T03:21+00:00"
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "以色列議會初步通過法案限制總理任期 分析認為針對內塔尼亞胡",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879280-20261126.htm",
+   "d": "以色列議會初步通過法案，限制總理任期及禁止受到特定刑事指控的議員組建政府，並建立機制，在在任總理面臨刑事指控時，可以解除其職務。 法案由正直黨領導人埃森科特所在的政治陣營提出，獲得65票贊成、48票反對。根據程序，法案下一步提交相關委員會審議，經過三輪表決才能夠正式成為法律。 根據法案內容，相關限制措施將從下屆議會開始生效，但具有追溯效力。以色列傳媒分析認為，這項法案明顯針對看守總理內塔尼亞胡。 編輯：盧曉珊",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879280_1_M_20261126014938.jpg",
+   "at": "2026-11-25T18:43+00:00",
+   "where": [
+    31.5,
+    34.9,
+    "以色列"
+   ]
+  },
   {
    "src": "香港",
    "lang": "zh",
@@ -18,11 +55,16 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "宏福苑大火一週年：「這條刺永遠都在」，遺屬在傷痛中尋找答案",
-   "u": "https://www.bbc.com/zhongwen/articles/c3j4r274lj82o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "對許多家庭來說，道歉只是「最低消費」，他們仍在等一個完整的答案。BBC中文接觸了多位遇難者家屬，記錄他們怎樣度過這一年。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/56ac/live/daaf9c90-e86c-11f1-a80a-1f378de16ace.jpg",
-   "at": "2026-11-25T03:21+00:00"
+   "t": "美國準備公布對全球貿易夥伴加征新關稅的計劃",
+   "u": "https://www.bbc.com/zhongwen/articles/cm9d7g967l5lo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "新關稅將打擊美國許多最大的貿易夥伴，包括中國和歐盟。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/511d/live/da29c130-e860-11f1-a330-6153c8fb2fad.jpg",
+   "at": "2026-11-25T12:18+00:00",
+   "where": [
+    38.9,
+    -77.04,
+    "美國"
+   ]
   },
   {
    "src": "世界",
@@ -55,15 +97,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "美國準備公布對全球貿易夥伴加征新關稅的計劃",
-   "u": "https://www.bbc.com/zhongwen/articles/cm9d7g967l5lo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "新關稅將打擊美國許多最大的貿易夥伴，包括中國和歐盟。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/511d/live/da29c130-e860-11f1-a330-6153c8fb2fad.jpg",
-   "at": "2026-11-25T12:18+00:00",
+   "t": "神舟二十四號成功發射 首位巴基斯坦航天員登中國「天宮」意味什麼？",
+   "u": "https://www.bbc.com/zhongwen/articles/cm9w91y0pge7o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "這次任務對航天員阿里而言，這是巴基斯坦的榮耀時刻；對中國而言，則是其與美國爭奪太空主導地位競賽中的又一步進展。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/1ba3/live/30b4f710-e8a5-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-25T09:44+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    30.4,
+    69.3,
+    "巴基斯坦"
    ]
   },
   {
@@ -97,15 +139,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "神舟二十四號成功發射 首位巴基斯坦航天員登中國「天宮」意味什麼？",
-   "u": "https://www.bbc.com/zhongwen/articles/cm9w91y0pge7o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "這次任務對航天員阿里而言，這是巴基斯坦的榮耀時刻；對中國而言，則是其與美國爭奪太空主導地位競賽中的又一步進展。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/1ba3/live/30b4f710-e8a5-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-25T09:44+00:00",
+   "t": "BBC事實查核：與中國有關帳號用AI生成影攻擊台灣選舉候選人",
+   "u": "https://www.bbc.com/zhongwen/articles/c6rmgvkp322xo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "一波與中國有關的帳號用AI生成影片，攻擊台灣執政黨關鍵人物，包括總統賴清德和台北市長候選人沈伯洋。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/73d1/live/fd148350-e825-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-25T11:53+00:00",
    "where": [
-    30.4,
-    69.3,
-    "巴基斯坦"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -139,15 +181,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "BBC事實查核：與中國有關帳號用AI生成影攻擊台灣選舉候選人",
-   "u": "https://www.bbc.com/zhongwen/articles/c6rmgvkp322xo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "一波與中國有關的帳號用AI生成影片，攻擊台灣執政黨關鍵人物，包括總統賴清德和台北市長候選人沈伯洋。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/73d1/live/fd148350-e825-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-25T11:53+00:00",
+   "t": "陳吉寧被調查：「清華系」失勢、「上海跳板」失靈與政治局委員落馬創紀錄",
+   "u": "https://www.bbc.com/zhongwen/articles/ck7v27vn9659o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "陳吉寧落馬的時點尤其敏感：距離二十一大換屆不到一年，他本是外界觀察下屆常委佈局的關鍵人物，被查前僅僅六天仍在公開調研。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/d057/live/8d390820-e80d-11f1-ab42-55d8d8278025.jpg",
+   "at": "2026-11-24T14:54+00:00",
    "where": [
-    23.7,
-    121.0,
-    "台灣"
+    31.23,
+    121.47,
+    "上海"
    ]
   },
   {
@@ -181,15 +223,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "陳吉寧被調查：「清華系」失勢、「上海跳板」失靈與政治局委員落馬創紀錄",
-   "u": "https://www.bbc.com/zhongwen/articles/ck7v27vn9659o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "陳吉寧落馬的時點尤其敏感：距離二十一大換屆不到一年，他本是外界觀察下屆常委佈局的關鍵人物，被查前僅僅六天仍在公開調研。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/d057/live/8d390820-e80d-11f1-ab42-55d8d8278025.jpg",
-   "at": "2026-11-24T14:54+00:00",
+   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-17T16:25+00:00",
    "where": [
-    31.23,
-    121.47,
-    "上海"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -212,7 +254,6 @@
    "t": "疑未獲授權為兒童病房男病人檢查 威院男醫生涉非禮被捕",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1879262-20261125.htm",
    "d": "威爾斯親王醫院表示，一名醫生早前懷疑在兒童外科病房為兩名男病人檢查身體時，未獲主治團隊授權有關檢查程序，院方就事件報警。警方指，一名31歲男子涉嫌非禮被捕，獲准保釋候查，案件由沙田警區重案組跟進。 威院表示高度重視事件，被捕醫生在威院負責教學及臨床工作，已即時禁止他進入該院臨床範圍，亦終止他執行臨床工作及登入臨床醫療系統的權限。中大說，已暫停該名教員所有職務，並將按相關程序調查。 威院回覆查詢時指出，上月30日凌晨，病房職員發現事件後，…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879262_1_M_20261125224136.jpg",
    "at": "2026-11-25T13:51+00:00",
    "where": [
     22.32,
@@ -223,11 +264,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-17T16:25+00:00",
+   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
+   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
+   "at": "2026-11-17T09:49+00:00",
    "where": [
     23.7,
     121.0,
@@ -240,7 +281,6 @@
    "t": "中國與柬埔寨舉行「金龍-2026」聯合演習",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1879256-20261125.htm",
    "d": "。 演習開始儀式在中柬雲壤港聯合保障和訓練中心舉行，中柬雙方參演官兵代表及多國駐柬武官出席。 演習以「和平、友誼、合作」為主題，圍繞聯合反恐、反海盜和人道主義救援行動課題，區分海空和陸空兩個方向，按照適應性訓練、指揮演練、實兵綜合演練3個階段展開。演習聚焦突擊營救、救治後送、海上聯合搜救和臨檢拿捕等課目，今日至下月9日在柬埔寨西哈努克國際機場、雲壤港和王家軍聯合軍官學院等地組織實施。 編輯：鄭皓璟",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879256_1_M_20261125204639.jpg",
    "at": "2026-11-25T13:01+00:00",
    "where": [
     12.6,
@@ -264,11 +304,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
-   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
-   "at": "2026-11-17T09:49+00:00",
+   "t": "九合一前夕：台灣幾乎年年選舉，會引起「投票疲勞」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c63egjkzqpz2o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣在過去七年間，幾乎每年都有大型選舉、罷免或公投。有學者形容台灣政治人物常處於「選舉模式」，在面對不同議題時往往急於回應。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7a49/live/c76f08c0-dcda-11f1-a8e1-e3454837ffc6.jpg",
+   "at": "2026-11-13T10:39+00:00",
    "where": [
     23.7,
     121.0,
@@ -304,46 +344,6 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "九合一前夕：台灣幾乎年年選舉，會引起「投票疲勞」嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/c63egjkzqpz2o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "台灣在過去七年間，幾乎每年都有大型選舉、罷免或公投。有學者形容台灣政治人物常處於「選舉模式」，在面對不同議題時往往急於回應。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7a49/live/c76f08c0-dcda-11f1-a8e1-e3454837ffc6.jpg",
-   "at": "2026-11-13T10:39+00:00",
-   "where": [
-    23.7,
-    121.0,
-    "台灣"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "中美貿易理事會項下農業工作組舉行首次會議 中方稱雙方交流坦誠",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879240-20261125.htm",
-   "d": "在北京，商務部表示，中美雙方過去兩日在北京舉行中美貿易理事會項下農業工作組首次會議。雙方以中美元首會晤重要共識為引領，就農產品監管及市場准入、農產品貿易等議題進行坦誠、深入、建設性的交流。 商務部說，雙方將繼續通過農業工作組加強溝通，推動解決各自農業領域關切，助力中美經貿關係健康、穩定、可持續發展。 編輯：鄭皓璟",
-   "at": "2026-11-25T11:40+00:00",
-   "where": [
-    34.0,
-    108.0,
-    "中國"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "香港電訊明年2月25日終止提供3G服務",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879253-20261125.htm",
-   "d": "香港電訊宣布，明年2月25日終止提供3G服務，以優化頻譜分配，滿足市場對更先進流動服務的需求。現時用於3G網絡的頻譜資源，將會重新調配至5G網絡，以加強網絡穩定性與流暢度。 公司表示，隨著人工智能（AI）應用日益普及，以及各類數碼服務和科技急速發展，本地消費者對5G流動通訊網絡和服務的需求亦與日俱增。 香港電訊5G客戶數量於今年上半年達220萬，按年增加16%，滲透率達後付客戶總數的62%，而使用3G服務的客戶人數持續下降，截至今年9月…",
-   "at": "2026-11-25T12:13+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
    "t": "「九合一」五大看點：「洋流」能否撼動台北？誰在卡位2028？",
    "u": "https://www.bbc.com/zhongwen/articles/cm8xzrg40dq1o/trad?at_medium=RSS&at_campaign=rss",
    "d": "中共是否介入台灣選舉？ 這次選舉將如何影響賴清德與國民黨主席鄭麗文的政治能量？捲土重來、希望藉著地方議員選舉有所斬獲的小黨，此次結盟能否在主流政黨夾殺中突圍而出？",
@@ -358,10 +358,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "張國鈞出席大灣區法律部門聯席會議 設平台推廣仲裁調解灣區標準",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879252-20261125.htm",
-   "d": "律政司副司長張國鈞率領代表團到澳門，出席第八次粵港澳大灣區法律部門聯席會議，與廣東省司法廳廳長陳旭東和澳門特區政府行政法務司司長黃少澤深入交流。三地正式設立粵港澳大灣區仲裁及調解灣區標準推廣平台，首批十多家機構加入，將會與聯席會議緊密合作，共同推廣相關灣區標準，並收集業界及用家意見，促進三地仲調機制銜接，持續完善相關標準，降低跨境解決爭議成本，更好服務大灣區高質量發展。 張國鈞表示，推廣平台成立後，灣區仲調標準的機制將更全面。由他領導的…",
-   "at": "2026-11-25T11:56+00:00",
+   "t": "香港電訊明年2月25日終止提供3G服務",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879253-20261125.htm",
+   "d": "香港電訊宣布，明年2月25日終止提供3G服務，以優化頻譜分配，滿足市場對更先進流動服務的需求。現時用於3G網絡的頻譜資源，將會重新調配至5G網絡，以加強網絡穩定性與流暢度。 公司表示，隨著人工智能（AI）應用日益普及，以及各類數碼服務和科技急速發展，本地消費者對5G流動通訊網絡和服務的需求亦與日俱增。 香港電訊5G客戶數量於今年上半年達220萬，按年增加16%，滲透率達後付客戶總數的62%，而使用3G服務的客戶人數持續下降，截至今年9月…",
+   "at": "2026-11-25T12:13+00:00",
    "where": [
     22.32,
     114.17,
@@ -469,11 +469,11 @@
   {
    "src": "LATIN AMERICA",
    "lang": "en",
-   "t": "Colombian police storm supermarket to free 20 held hostage for 17 hours",
+   "t": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
    "u": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
-   "d": "One gunman was killed in the operation to free around 20 shoppers and employees after a 17-hour hostage ordeal.",
+   "d": "One gunman was killed after what the country's president described as a robbery of a cash-laden armoured car gone wrong.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/997a/live/4f4b3940-e8c4-11f1-ac76-db9e97f93d67.jpg",
-   "at": "2026-11-25T16:20+00:00",
+   "at": "2026-11-25T18:41+00:00",
    "where": [
     4.6,
     -74.08,
@@ -581,15 +581,15 @@
   {
    "src": "LATIN AMERICA",
    "lang": "en",
-   "t": "Car bomb tears through Colombian city wounding more than 20",
-   "u": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&at_campaign=rss",
-   "d": "The explosion is the latest in a string of attacks on buildings housing the security forces and government offices.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/17c0/live/f8f77110-e811-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-24T11:45+00:00",
+   "t": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
+   "u": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+   "d": "His deportation to and return from El Salvador became a flashpoint in the debate the US president's immigration agenda.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/92f9/live/30ceb970-e8cd-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-25T19:22+00:00",
    "where": [
-    4.6,
-    -74.08,
-    "哥倫比亞"
+    40.3,
+    -3.7,
+    "西班牙"
    ]
   },
   {
@@ -651,15 +651,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "New York's annual Thanksgiving Parade threatened by approaching storm",
-   "u": "https://www.bbc.co.uk/weather/articles/cr894e8dd7wqo?at_medium=RSS&at_campaign=rss",
-   "d": "Strong winds and heavy rain are expected to impact celebrations across the USA, with the risk that the famous Macy's Thanksgiving Day parade could be impacted.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2bf7/live/ebffd790-e8c5-11f1-ac76-db9e97f93d67.jpg",
-   "at": "2026-11-25T14:41+00:00",
+   "t": "US Army says controlled blast of explosives in Iowa was 'huge success'",
+   "u": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss",
+   "d": "Despite widespread concern from residents ahead of the blast, officials say that lead readings in the area so far have been promising.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9049/live/be474ac0-e8f9-11f1-b8b0-a95064d74c5f.jpg",
+   "at": "2026-11-25T19:23+00:00",
    "where": [
-    40.71,
-    -74.0,
-    "紐約"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -693,15 +693,15 @@
   {
    "src": "LATIN AMERICA",
    "lang": "en",
-   "t": "Watch: Moment troops raid home and capture Mexican drug lord",
-   "u": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo?at_medium=RSS&at_campaign=rss",
-   "d": "Newly-released bodycam footage shows the moment troops detained 'El Chapo Isidro', who had managed to evade capture for years.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3d08/live/65108220-e7df-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-24T09:09+00:00",
+   "t": "Car bomb tears through Colombian city wounding more than 20",
+   "u": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&at_campaign=rss",
+   "d": "The explosion is the latest in a string of attacks on buildings housing the security forces and government offices.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/17c0/live/f8f77110-e811-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-24T11:45+00:00",
    "where": [
-    23.6,
-    -102.6,
-    "墨西哥"
+    4.6,
+    -74.08,
+    "哥倫比亞"
    ]
   },
   {
@@ -763,15 +763,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Canadian astronaut welcomes baby girl from space station",
-   "u": "https://www.bbc.co.uk/news/articles/ckx283y8wwwgo?at_medium=RSS&at_campaign=rss",
-   "d": "Joshua Kutryk, currently on his first space mission, is just the fourth astronaut in history to miss the birth of a child while aboard the International Space Station.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/19b2/live/aed9cc20-e8e5-11f1-a3b9-79c60ec9ab33.jpg",
-   "at": "2026-11-25T15:41+00:00",
+   "t": "New York's annual Thanksgiving Parade threatened by approaching storm",
+   "u": "https://www.bbc.co.uk/weather/articles/cr894e8dd7wqo?at_medium=RSS&at_campaign=rss",
+   "d": "Strong winds and heavy rain are expected to impact celebrations across the USA, with the risk that the famous Macy's Thanksgiving Day parade could be impacted.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2bf7/live/ebffd790-e8c5-11f1-ac76-db9e97f93d67.jpg",
+   "at": "2026-11-25T14:41+00:00",
    "where": [
-    56.1,
-    -106.3,
-    "加拿大"
+    40.71,
+    -74.0,
+    "紐約"
    ]
   },
   {
@@ -805,11 +805,11 @@
   {
    "src": "LATIN AMERICA",
    "lang": "en",
-   "t": "Mexican soldiers attacked in wake of drug lord's arrest",
-   "u": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss",
-   "d": "Eight suspects are arrested after firing on soldiers trying to re-establish order following the arrest of 'El Chapo Isidro'.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/17c3/live/64308a00-e73d-11f1-802a-678be58471bb.jpg",
-   "at": "2026-11-23T14:54+00:00",
+   "t": "Watch: Moment troops raid home and capture Mexican drug lord",
+   "u": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo?at_medium=RSS&at_campaign=rss",
+   "d": "Newly-released bodycam footage shows the moment troops detained 'El Chapo Isidro', who had managed to evade capture for years.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3d08/live/65108220-e7df-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-24T09:09+00:00",
    "where": [
     23.6,
     -102.6,
@@ -875,15 +875,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "She spent decades as an FBI agent and this is the case she could not let go",
-   "u": "https://www.bbc.co.uk/news/articles/c539g1pwy3wyo?at_medium=RSS&at_campaign=rss",
-   "d": "Jane Collins had all but given up on seeing Michael Donovan and Richard Moore face justice. Then they were charged with stealing from a mass-shooter’s brother.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bd15/live/0cab0d90-e815-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-25T02:48+00:00",
+   "t": "Canadian astronaut welcomes baby girl from space station",
+   "u": "https://www.bbc.co.uk/news/articles/ckx283y8wwwgo?at_medium=RSS&at_campaign=rss",
+   "d": "Joshua Kutryk, currently on his first space mission, is just the fourth astronaut in history to miss the birth of a child while aboard the International Space Station.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/19b2/live/aed9cc20-e8e5-11f1-a3b9-79c60ec9ab33.jpg",
+   "at": "2026-11-25T15:41+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    56.1,
+    -106.3,
+    "加拿大"
    ]
   },
   {
@@ -917,11 +917,11 @@
   {
    "src": "LATIN AMERICA",
    "lang": "en",
-   "t": "Seattle airport operator 'outraged' over ICE arrest of two Mexican passengers",
-   "u": "https://www.bbc.co.uk/news/articles/cmwy479wz91no?at_medium=RSS&at_campaign=rss",
-   "d": "ICE said a man and a woman, who are said to be father and daughter and both Mexican nationals, were arrested for allegedly overstaying their visas.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f10f/live/4320e1c0-e77e-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-23T12:50+00:00",
+   "t": "Mexican soldiers attacked in wake of drug lord's arrest",
+   "u": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss",
+   "d": "Eight suspects are arrested after firing on soldiers trying to re-establish order following the arrest of 'El Chapo Isidro'.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/17c3/live/64308a00-e73d-11f1-802a-678be58471bb.jpg",
+   "at": "2026-11-23T14:54+00:00",
    "where": [
     23.6,
     -102.6,
@@ -987,15 +987,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "What's driving up the cost of your Thanksgiving turkey?",
-   "u": "https://www.bbc.co.uk/news/videos/cw99e4x4x84no?at_medium=RSS&at_campaign=rss",
-   "d": "BBC Verify has looked into how prices compare with previous years as Democrats blame President Trump for recent rises.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e863/live/33fc6e30-e8d7-11f1-99b6-a35a62fa4264.png",
-   "at": "2026-11-25T13:59+00:00",
+   "t": "She spent decades as an FBI agent and this is the case she could not let go",
+   "u": "https://www.bbc.co.uk/news/articles/c539g1pwy3wyo?at_medium=RSS&at_campaign=rss",
+   "d": "Jane Collins had all but given up on seeing Michael Donovan and Richard Moore face justice. Then they were charged with stealing from a mass-shooter’s brother.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bd15/live/0cab0d90-e815-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-25T02:48+00:00",
    "where": [
-    39.0,
-    35.2,
-    "土耳其"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -1029,11 +1029,11 @@
   {
    "src": "LATIN AMERICA",
    "lang": "en",
-   "t": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
-   "u": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
-   "d": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5701/live/7ac9e270-e5ad-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-22T01:25+00:00",
+   "t": "Seattle airport operator 'outraged' over ICE arrest of two Mexican passengers",
+   "u": "https://www.bbc.co.uk/news/articles/cmwy479wz91no?at_medium=RSS&at_campaign=rss",
+   "d": "ICE said a man and a woman, who are said to be father and daughter and both Mexican nationals, were arrested for allegedly overstaying their visas.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f10f/live/4320e1c0-e77e-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-23T12:50+00:00",
    "where": [
     23.6,
     -102.6,
@@ -1070,15 +1070,15 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "EU offers UK fresh deal on 'Made in Europe' scheme",
-   "u": "https://www.bbc.co.uk/news/articles/c50md8x9gdgro?at_medium=RSS&at_campaign=rss",
-   "d": "The draft proposal could see the UK join the scheme without having to increase import taxes on Chinese cars.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/22a9/live/f650dee0-e8d1-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-25T16:45+00:00",
+   "t": "Man and daughter who dumped body in canal jailed",
+   "u": "https://www.bbc.co.uk/news/articles/cq3dg1r3ypvpo?at_medium=RSS&at_campaign=rss",
+   "d": "Chereiss Bailey was killed by John Anslow who then, along with his daughter, tried to hide the body.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c0cd/live/a1374490-e844-11f1-aa88-031e8213533d.jpg",
+   "at": "2026-11-25T17:38+00:00",
    "where": [
-    50.0,
-    10.0,
-    "歐洲"
+    52.5,
+    -1.5,
+    "英國"
    ]
   },
   {
@@ -1098,15 +1098,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Two children among six dead after plane crash off Mississippi coast",
-   "u": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_medium=RSS&at_campaign=rss",
-   "d": "Divers found the bodies of four adults and two boys, aged 8 and 10, in the fuselage, the US Coast Guard said.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cb6d/live/6e173110-e899-11f1-801d-b916df288324.jpg",
-   "at": "2026-11-25T07:08+00:00",
+   "t": "What's driving up the cost of your Thanksgiving turkey?",
+   "u": "https://www.bbc.co.uk/news/videos/cw99e4x4x84no?at_medium=RSS&at_campaign=rss",
+   "d": "BBC Verify has looked into how prices compare with previous years as Democrats blame President Trump for recent rises.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e863/live/33fc6e30-e8d7-11f1-99b6-a35a62fa4264.png",
+   "at": "2026-11-25T13:59+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    39.0,
+    35.2,
+    "土耳其"
    ]
   },
   {
@@ -1126,15 +1126,15 @@
   {
    "src": "LATIN AMERICA",
    "lang": "en",
-   "t": "The Peruvian city that has embraced Pope Leo as one of its own",
-   "u": "https://www.bbc.co.uk/news/articles/cwg7l8n7dx5mo?at_medium=RSS&at_campaign=rss",
-   "d": "Pope Leo XIV is in Peru as part of his Latin America tour, just weeks after having surgery for lung cancer.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/566c/live/8649d9e0-df84-11f1-a8e2-5b59832bb2f1.jpg",
-   "at": "2026-11-13T18:34+00:00",
+   "t": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+   "u": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+   "d": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5701/live/7ac9e270-e5ad-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-22T01:25+00:00",
    "where": [
-    -12.0,
-    -60.0,
-    "拉丁美洲"
+    23.6,
+    -102.6,
+    "墨西哥"
    ]
   },
   {
@@ -1167,11 +1167,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Badenoch challenges Burnham over university fees for EU students",
-   "u": "https://www.bbc.co.uk/news/articles/cw4gn8lxj5r1o?at_medium=RSS&at_campaign=rss",
-   "d": "The PM says EU students paying the same as British students is the European position and \"won't be put on the table\".",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/74c8/live/27d45290-e8ef-11f1-8808-1d4222955d7e.jpg",
-   "at": "2026-11-25T16:46+00:00",
+   "t": "Bid for UK Town of Culture withdrawn over 'potential disaster for community relations'",
+   "u": "https://www.bbc.co.uk/news/articles/ckg5rz4p7g68o?at_medium=RSS&at_campaign=rss",
+   "d": "UK Town of Culture: Strabane bid withdrawn over 'potential disaster for community relations'",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1bf9/live/bddfd950-cc50-11f1-9a39-31b474234113.jpg",
+   "at": "2026-11-25T18:25+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1195,15 +1195,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
-   "u": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
-   "d": "His deportation to and return from El Salvador became a flashpoint in the debate the US president's immigration agenda.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/92f9/live/30ceb970-e8cd-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-25T12:42+00:00",
+   "t": "Two children among six dead after plane crash off Mississippi coast",
+   "u": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_medium=RSS&at_campaign=rss",
+   "d": "Divers found the bodies of three adult, one teenager aged 16, and two boys, aged 12 and 10, in the wreckage.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/23e1/live/16967230-e906-11f1-b9b5-17bef7133655.jpg",
+   "at": "2026-11-25T19:26+00:00",
    "where": [
-    40.3,
-    -3.7,
-    "西班牙"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -1218,6 +1218,20 @@
     49.0,
     31.4,
     "烏克蘭"
+   ]
+  },
+  {
+   "src": "LATIN AMERICA",
+   "lang": "en",
+   "t": "The Peruvian city that has embraced Pope Leo as one of its own",
+   "u": "https://www.bbc.co.uk/news/articles/cwg7l8n7dx5mo?at_medium=RSS&at_campaign=rss",
+   "d": "Pope Leo XIV is in Peru as part of his Latin America tour, just weeks after having surgery for lung cancer.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/566c/live/8649d9e0-df84-11f1-a8e2-5b59832bb2f1.jpg",
+   "at": "2026-11-13T18:34+00:00",
+   "where": [
+    -12.0,
+    -60.0,
+    "拉丁美洲"
    ]
   },
   {
@@ -1250,15 +1264,15 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Boy, 3, died after choking in nursery, inquest hears",
-   "u": "https://www.bbc.co.uk/news/articles/cqx2ej77ry1zo?at_medium=RSS&at_campaign=rss",
-   "d": "Thiago Wall died in hospital three days after choking on food at the nursery, the inquest hears.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2277/live/58a75b40-e8ba-11f1-9e64-bddd508b9881.jpg",
-   "at": "2026-11-25T12:03+00:00",
+   "t": "EU offers UK fresh deal on 'Made in Europe' scheme",
+   "u": "https://www.bbc.co.uk/news/articles/c50md8x9gdgro?at_medium=RSS&at_campaign=rss",
+   "d": "The draft proposal could see the UK join the scheme without having to increase import taxes on Chinese cars.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/22a9/live/f650dee0-e8d1-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-25T16:45+00:00",
    "where": [
-    52.5,
-    -1.5,
-    "英國"
+    50.0,
+    10.0,
+    "歐洲"
    ]
   },
   {
@@ -1277,11 +1291,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Hundreds complain about I'm A Celebrity after Mariella Frostrup called AJ Odudu 'aggressive'",
-   "u": "https://www.bbc.co.uk/news/articles/c6ly5v11q194o?at_medium=RSS&at_campaign=rss",
-   "d": "More than 800 viewers complain to regulator Ofcom after a row between AJ Odudu and Mariella Frostrup.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f4af/live/82a22580-e8c2-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-25T11:57+00:00",
+   "t": "Badenoch challenges Burnham over university fees for EU students",
+   "u": "https://www.bbc.co.uk/news/articles/cw4gn8lxj5r1o?at_medium=RSS&at_campaign=rss",
+   "d": "The PM says EU students paying the same as British students is the European position and \"won't be put on the table\".",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/74c8/live/27d45290-e8ef-11f1-8808-1d4222955d7e.jpg",
+   "at": "2026-11-25T16:46+00:00",
    "where": [
     52.5,
     -1.5,
