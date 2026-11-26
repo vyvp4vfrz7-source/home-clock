@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-25T18:00+00:00",
+ "updated": "2026-11-26T05:50+00:00",
  "en": {
-  "greeting": "Good evening — Wednesday 25 November",
+  "greeting": "Good morning — Thursday 26 November",
   "sections": [
    {
     "h": "Top stories",
     "items": [
      {
-      "t": "Two tankers hit mines and burn in Strait of Hormuz",
-      "d": "Iran's Revolutionary Guards said two oil tankers struck naval mines after using an 'unauthorised route', raising fears for the world's key oil chokepoint as Iran says it can withstand a US blockade.",
-      "u": "https://www.reuters.com/world/iran-says-ships-hit-mines-hormuz-warns-vessels-coordinate-passage-2026-11-25/"
+      "t": "US unveils new tariffs on China, EU and others",
+      "d": "Washington proposed fresh levies on many of its biggest trading partners, with China facing rates reported at up to 40%. The move risks reigniting trade tensions and pushing up prices.",
+      "u": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
      },
      {
-      "t": "Houthis strike Saudi refinery and Riyadh tower",
-      "d": "Yemen's Houthis said they hit the Ras Tanura refinery; Saudi Arabia says it downed four drones there, while a strike on a Riyadh skyscraper injured 11 people.",
-      "u": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-saudi-oil-refinery-riyadh-financial-district-2026-11-25/"
+      "t": "Fuel tanker crash and fire kills 31 in Cairo",
+      "d": "A tanker reportedly overturned on a busy Cairo ring road and burst into flames on Wednesday evening, killing at least 31 people and injuring 21.",
+      "u": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss"
      },
      {
-      "t": "US jury convicts Huawei of fraud and trade-secret conspiracy",
-      "d": "A federal jury found Huawei guilty of bank fraud and conspiring to steal trade secrets but cleared it of racketeering, a mixed verdict in a long-running US case.",
-      "u": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo"
+      "t": "Ukraine says strike hit five Russian military jets",
+      "d": "Kyiv says it struck Savasleyka airfield, home to aircraft Russia uses to launch hypersonic missiles and glide bombs, damaging five jets.",
+      "u": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss"
      }
     ]
    },
@@ -27,24 +27,24 @@
     "h": "World & politics",
     "items": [
      {
-      "t": "Merz warns Russia is escalating threats to Europe",
-      "d": "Germany's chancellor told the Bundestag Russia poses a growing danger and defended defence spending and Ukraine aid, as Berlin plans for a US troop pullback from Europe.",
-      "u": "https://www.reuters.com/world/europe/germanys-merz-defends-aid-ukraine-says-russia-poses-growing-threat-europe-2026-11-25/"
+      "t": "Colombian police free 76 hostages after 17-hour siege",
+      "d": "Police stormed a Cartagena supermarket where gunmen had held 76 people after a botched armoured-car robbery; one gunman was killed.",
+      "u": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss"
      },
      {
-      "t": "Leaked data put Russian war dead near half a million",
-      "d": "Hacked Russian government death records analysed by the BBC suggest at least 490,000 Russians have died in the war since 2022, far above official figures.",
-      "u": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo"
+      "t": "North Korea expels Swiss diplomat in sanctions row",
+      "d": "Pyongyang ordered Switzerland's envoy out and its newly reopened office shut after Swiss sanctions. Bern says contact will continue via embassies in Bern and Beijing.",
+      "u": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss"
      },
      {
-      "t": "Solomon Islands bars foreign bases in Australia treaty",
-      "d": "The Pacific nation signed a treaty with Australia ruling out any foreign military base, and reportedly will not renew its 2022 security pact with China.",
-      "u": "https://www.nytimes.com/2026/11/24/world/asia/solomon-islands-security-treaty-australia-china.html"
+      "t": "Solomon Islands swaps China security pact for Australia deal",
+      "d": "The Pacific nation ended its contested 2022 security pact with Beijing and signed a treaty with Australia, a notable shift in regional influence.",
+      "u": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno?at_medium=RSS&at_campaign=rss"
      },
      {
-      "t": "Drone strikes kill 19 civilians in Sudan",
-      "d": "A rights group blamed the RSF for drone attacks on Damazin and another city in south-east Sudan, killing 19 civilians including six women.",
-      "u": "https://www.reuters.com/world/africa/drone-strikes-kill-19-civilians-southeastern-sudan-says-rights-group-2026-11-25/"
+      "t": "Ramaphosa wins court fight over impeachment threat",
+      "d": "A court set aside the Phala Phala panel report on cash stolen from his farm, removing the basis for parliament's impeachment process.",
+      "u": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o?at_medium=RSS&at_campaign=rss"
      }
     ]
    },
@@ -52,19 +52,24 @@
     "h": "Business & economy",
     "items": [
      {
-      "t": "US set to raise tariffs on China, EU and 14 others",
-      "d": "The US Trade Representative is expected to announce tariff increases after a months-long probe into industrial subsidies, though timing could still slip.",
-      "u": "https://apnews.com/article/trump-tariffs-china-european-union-d97ed6f4017152ca4c18de5517db6d51"
+      "t": "US inflation gauge rises to 3.8% in October",
+      "d": "The Fed's preferred price measure accelerated again, with core prices above forecasts, strengthening bets on a December rate rise.",
+      "u": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
      },
      {
-      "t": "UK energy price cap to jump about 26% in January",
-      "d": "Ofgem's cap will lift a typical bill to about £2,166 a year; ministers point to a £100 winter payment and a VAT cut, and promise market reform next month.",
-      "u": "https://www.yahoo.com/news/politics/articles/eu-students-won-t-pay-124858979.html"
+      "t": "Anthropic shares slip below $83 IPO price",
+      "d": "Days after its Nasdaq debut, the AI firm's stock closed under its offer price as worries about the AI trade returned, though most analysts stay positive.",
+      "u": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html"
      },
      {
-      "t": "Nvidia shares slip as investors weigh Huang's return",
-      "d": "Investors are assessing the risks around Jensen Huang's reinstatement as CEO after Trump's push, amid questions over chip export controls.",
-      "u": "https://www.reuters.com/business/retail-consumer/nvidia-slips-investors-assess-risks-surrounding-huangs-return-ceo-2026-11-24/"
+      "t": "Poundland collapses, putting 11,000 jobs at risk",
+      "d": "The discount chain fell into administration after its owners failed to find a buyer, another blow to the UK high street.",
+      "u": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "t": "Trump's accounts traded Nvidia shares 44 times this year",
+      "d": "Financial disclosures show the president's portfolios regularly traded the chipmaker's stock, raising conflict-of-interest questions over chip policy.",
+      "u": "https://www.bbc.co.uk/news/articles/cq772vk664yvo?at_medium=RSS&at_campaign=rss"
      }
     ]
    },
@@ -72,34 +77,34 @@
     "h": "Technology",
     "items": [
      {
-      "t": "Nvidia faces probes over GPUs sold to Megaspeed",
-      "d": "US and Singapore authorities are investigating whether Nvidia chips sold to Singapore's Megaspeed were diverted to China; the US has blacklisted the firm.",
-      "u": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/"
+      "t": "US approves SpaceX plan for a million data satellites",
+      "d": "The FCC cleared SpaceX's Starmind constellation of orbital data centres, pitched as a cheaper, more energy-efficient way to meet AI computing demand.",
+      "u": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss"
      },
      {
-      "t": "Schumer accuses Huang of breaking export-control law",
-      "d": "The Senate Democratic leader said Nvidia's chief violated chip export rules on China; the Justice Department says it has no evidence of unlawful conduct.",
-      "u": "https://www.reuters.com/world/china/schumer-accuses-nvidia-ceo-violating-us-export-control-law-2026-11-24/"
+      "t": "US blacklists Megaspeed amid Nvidia export scrutiny",
+      "d": "The Commerce Department added Megaspeed to its entity list, as lawmakers press Nvidia's Jensen Huang over chip export controls to China.",
+      "u": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list"
      },
      {
-      "t": "AI lab staff warn newest models too risky to release",
-      "d": "Some Anthropic and OpenAI employees reportedly believe unreleased models are too powerful to launch safely, fuelling a wider debate on AI control.",
-      "u": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+      "t": "Amazon says AI agent exploited a zero-day largely alone",
+      "d": "Amazon's security team detected an open-source AI agent that mostly autonomously exploited an unknown flaw, a warning sign for cyber defenders.",
+      "u": "https://gizmodo.com/amazon-says-open-source-ai-agent-mostly-autonomously-exploited-a-zero-day-2000844891"
      },
      {
-      "t": "GPT-6 Astra aces a hard theoretical physics test",
-      "d": "OpenAI's model solved 49 of 50 unpublished physics problems for a few dollars each, even spotting errors in human answers.",
-      "u": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/"
+      "t": "Hong Kong URBTIX hack exposes 1.3 million users",
+      "d": "Personal data of about 1.3 million users of the government ticketing system were accessed illegally; a contractor reported the attack on Tuesday.",
+      "u": "https://news.rthk.hk/rthk/en/component/k2/1879255-20261125.htm"
      },
      {
-      "t": "Tidal to delete 27 million AI-generated tracks",
-      "d": "The streaming service is banning fully AI-made music, saying 43% of recent uploads were AI-generated and diverted royalties from artists.",
-      "u": "https://www.theguardian.com/music/2026/nov/25/tidal-streaming-service-bans-ai-generated-music"
+      "t": "Tidal to remove millions of AI-generated tracks",
+      "d": "The music streamer will ban and delete fully AI-made songs as so-called AI slop floods streaming platforms.",
+      "u": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
      },
      {
-      "t": "New York bans AI chatbot toys for five years",
-      "d": "Governor Hochul signed a moratorium on selling talking dolls, plush toys and robots with built-in AI chatbots, starting in 90 days.",
-      "u": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot"
+      "t": "Meta puts its Muse AI assistant into Instagram DMs",
+      "d": "Users can now chat with Meta's assistant directly inside Instagram messages, part of a push to put AI agents into everyday apps.",
+      "u": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/"
      }
     ]
    },
@@ -107,19 +112,19 @@
     "h": "Science & health",
     "items": [
      {
-      "t": "Pope Leo laments failure of COP31 climate talks",
-      "d": "The pope voiced concern that UN climate negotiations ended without agreement, warning extreme weather is becoming more frequent.",
-      "u": "https://apnews.com/article/vatican-pope-environment-leo-b49de85de51e04cb2d6326e94da25e8b"
+      "t": "China's Shenzhou-24 lifts off with first Pakistani astronaut",
+      "d": "China launched three astronauts to its Tiangong space station, including Pakistan's first astronaut, expanding Beijing's space partnerships.",
+      "u": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss"
      },
      {
-      "t": "WHO urges US to lift Cuba fuel blockade",
-      "d": "Tedros said the US oil blockade is harming Cubans' health, especially children, and called for it to end immediately.",
-      "u": "https://www.reuters.com/legal/government/who-chief-calls-us-lift-oil-blockade-cuba-citing-health-impact-2026-11-24/"
+      "t": "Wisconsin reports third measles death",
+      "d": "The outbreak has reached about 920 cases since late summer, as falling vaccination rates fuel the spread across the US.",
+      "u": "https://www.nbcnews.com/health/health-news/measles-death-wisconsin-outbreak-vaccines-cdc-us-rcna611176"
      },
      {
-      "t": "Nose drops restore memory in ageing mice",
-      "d": "Researchers report nasal drops that revived youthful memory and fought Alzheimer's-like damage in old mice; human trials are still a long way off.",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261123005337.htm"
+      "t": "Study links GLP-1 weight-loss drugs to denser breasts",
+      "d": "A small study of 104 women found higher breast density on mammograms, which can make cancer harder to spot; larger studies are needed.",
+      "u": "https://www.nbcnews.com/health/womens-health/glp-1-weight-loss-drugs-breast-density-mammogram-rcna611078"
      }
     ]
    },
@@ -127,44 +132,44 @@
     "h": "UK",
     "items": [
      {
-      "t": "Burnham: EU students won't get home tuition fees",
-      "d": "At PMQs the PM rejected Brussels' demand that EU students pay the £9,790 domestic rate, despite EU threats to block his reset deal.",
-      "u": "https://www.yahoo.com/news/politics/articles/eu-students-won-t-pay-124858979.html"
+      "t": "Government to publish new treaties agreed with EU",
+      "d": "The treaties reportedly include a 10-year termination clause covering the cost of rebuilding border checks, part of Labour's reset with Brussels.",
+      "u": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss"
      },
      {
-      "t": "NDAs can't silence harassment victims from January",
-      "d": "Burnham confirmed non-disclosure agreements will no longer be usable to gag victims of sexual harassment, and promised an expert group on rape myths in court.",
-      "u": "https://www.yahoo.com/news/politics/articles/eu-students-won-t-pay-124858979.html"
+      "t": "Stalking law simplified into a single offence",
+      "d": "A review found existing stalking laws confusing, so they will be merged into one new offence to make prosecutions easier.",
+      "u": "https://www.bbc.co.uk/news/articles/c8lydnlkq7xno?at_medium=RSS&at_campaign=rss"
      },
      {
-      "t": "Review calls for disability benefit PIP to be easier to get",
-      "d": "Minister Stephen Timms published a review urging simpler access to Personal Independence Payment; Labour MPs welcomed it, the Tories called it a farce.",
-      "u": "https://www.yahoo.com/news/politics/articles/eu-students-won-t-pay-124858979.html"
+      "t": "Met Office: fewer frosts, more hot days as seasons shift",
+      "d": "Britain's seasons are changing, affecting wildlife and leading some farmers to grow different crops.",
+      "u": "https://www.bbc.co.uk/weather/articles/cr3eg1py3gv5o?at_medium=RSS&at_campaign=rss"
      }
     ]
    }
   ]
  },
  "zh": {
-  "greeting": "晚安 — 11月25日星期三",
+  "greeting": "早晨 — 11月26日星期四",
   "sections": [
    {
     "h": "頭條新聞",
     "items": [
      {
-      "t": "兩艘油輪在荷姆茲海峽觸雷起火",
-      "d": "伊朗革命衞隊稱兩艘油輪駛入「未經批准航道」後觸及水雷起火；伊朗又稱能承受美國海上封鎖，令全球最重要石油通道再添風險。",
-      "u": "https://www.reuters.com/world/iran-says-ships-hit-mines-hormuz-warns-vessels-coordinate-passage-2026-11-25/"
+      "t": "美國宣布向中國、歐盟等多國徵新關稅",
+      "d": "華府建議向多個主要貿易夥伴加徵關稅，報道指中國稅率最高達40%。措施或再度觸發貿易緊張，並推高物價。",
+      "u": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
      },
      {
-      "t": "胡塞武裝襲擊沙特煉油廠及利雅得大廈",
-      "d": "也門胡塞武裝稱擊中拉斯坦努拉煉油廠，沙特稱攔截四架無人機；另一次襲擊擊中利雅得一幢摩天大廈，11人受傷。",
-      "u": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-saudi-oil-refinery-riyadh-financial-district-2026-11-25/"
+      "t": "開羅油缸車撞車起火 最少31死",
+      "d": "一輛油缸車周三晚據報在開羅繁忙環迴公路翻側起火，造成最少31人死亡、21人受傷。",
+      "u": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss"
      },
      {
-      "t": "美國陪審團裁定華為欺詐及串謀竊取商業秘密罪成",
-      "d": "美國聯邦陪審團裁定華為銀行欺詐及串謀竊取商業秘密罪成，但敲詐勒索罪名不成立；華為稱指控缺乏事實根據。",
-      "u": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo"
+      "t": "烏克蘭稱襲擊俄軍機場 擊中五架軍機",
+      "d": "基輔稱襲擊薩瓦斯列伊卡機場，擊中五架戰機；該機場駐有俄軍用來發射高超音速導彈及滑翔炸彈的軍機。",
+      "u": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss"
      }
     ]
    },
@@ -172,24 +177,24 @@
     "h": "國際及政治",
     "items": [
      {
-      "t": "默茨警告俄羅斯對歐洲威脅升級",
-      "d": "德國總理默茨在聯邦議院表示俄羅斯威脅日增，為國防開支及援烏辯護；德國同時研究如何填補美軍撤出歐洲的缺口。",
-      "u": "https://www.reuters.com/world/europe/germanys-merz-defends-aid-ukraine-says-russia-poses-growing-threat-europe-2026-11-25/"
+      "t": "哥倫比亞警方解救76名人質 對峙17小時",
+      "d": "警方突入卡塔赫納一間超市，解救被持槍匪徒挾持的76人；事件源於劫運鈔車失手，一名匪徒被擊斃。",
+      "u": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss"
      },
      {
-      "t": "外洩數據顯示俄軍陣亡近50萬",
-      "d": "BBC分析黑客取得的俄羅斯政府死亡紀錄，顯示2022年以來至少49萬名俄羅斯人在戰爭中死亡，遠高於官方數字。",
-      "u": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo"
+      "t": "朝鮮因制裁爭拗驅逐瑞士外交官",
+      "d": "平壤因瑞士實施制裁，下令瑞士外交官離境並關閉剛重開的辦事處。瑞方稱會透過伯爾尼及北京的使館保持聯繫。",
+      "u": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss"
      },
      {
-      "t": "所羅門群島與澳洲簽約禁設外國基地",
-      "d": "所羅門群島與澳洲簽署條約，承諾不容許任何外國軍事基地；據報不會續簽2022年與中國的安全協議。",
-      "u": "https://www.nytimes.com/2026/11/24/world/asia/solomon-islands-security-treaty-australia-china.html"
+      "t": "所羅門群島棄中國安全協議 改與澳洲簽約",
+      "d": "這個太平洋島國終止與北京具爭議的安全協議，改與澳洲簽訂條約，反映區內影響力出現明顯轉變。",
+      "u": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno?at_medium=RSS&at_campaign=rss"
      },
      {
-      "t": "蘇丹無人機襲擊19名平民死亡",
-      "d": "人權組織指快速支援部隊以無人機襲擊蘇丹東南部達馬津等兩個城市，造成19名平民死亡，包括六名婦女。",
-      "u": "https://www.reuters.com/world/africa/drone-strikes-kill-19-civilians-southeastern-sudan-says-rights-group-2026-11-25/"
+      "t": "南非總統拉馬福薩贏得彈劾官司",
+      "d": "法院撤銷有關其農場現金被盜的「法拉法拉」調查報告，令國會彈劾程序失去依據。",
+      "u": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o?at_medium=RSS&at_campaign=rss"
      }
     ]
    },
@@ -197,19 +202,24 @@
     "h": "商業及經濟",
     "items": [
      {
-      "t": "美國將向中國、歐盟等16個經濟體加徵關稅",
-      "d": "美國貿易代表辦公室完成數月的工業補貼調查後，預計將宣布對中國、歐盟及另外14個經濟體提高關稅，但時間仍可能改變。",
-      "u": "https://apnews.com/article/trump-tariffs-china-european-union-d97ed6f4017152ca4c18de5517db6d51"
+      "t": "美國10月PCE通脹升至3.8%",
+      "d": "聯儲局最重視的通脹指標再度加快，核心物價高於預期，加強市場對12月加息的預期。",
+      "u": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
      },
      {
-      "t": "英國能源價格上限1月起升約26%",
-      "d": "Ofgem上調價格上限，一般家庭年費將升至約2,166英鎊；政府指有100英鎊冬季補助及削減增值稅，並承諾下月公布市場改革。",
-      "u": "https://www.yahoo.com/news/politics/articles/eu-students-won-t-pay-124858979.html"
+      "t": "Anthropic股價跌穿83美元招股價",
+      "d": "這家AI公司在納斯特克上市數日後，股價收市跌穿招股價，市場再度憂慮AI板塊，但多數分析員仍看好。",
+      "u": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html"
      },
      {
-      "t": "黃仁勳復任CEO 投資者憂風險 Nvidia股價回落",
-      "d": "特朗普施壓下黃仁勳重任Nvidia行政總裁，但晶片出口管制疑問未消，投資者評估風險，股價回落。",
-      "u": "https://www.reuters.com/business/retail-consumer/nvidia-slips-investors-assess-risks-surrounding-huangs-return-ceo-2026-11-24/"
+      "t": "Poundland倒閉 1.1萬職位不保",
+      "d": "這家平價連鎖店東主未能覓得買家，公司進入破產管理，對英國零售大街再添打擊。",
+      "u": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss"
+     },
+     {
+      "t": "特朗普戶口今年44次買賣Nvidia股票",
+      "d": "財務申報顯示總統的投資組合經常買賣這家晶片商股票，令人質疑其晶片政策涉利益衝突。",
+      "u": "https://www.bbc.co.uk/news/articles/cq772vk664yvo?at_medium=RSS&at_campaign=rss"
      }
     ]
    },
@@ -217,34 +227,34 @@
     "h": "科技",
     "items": [
      {
-      "t": "Nvidia因售予Megaspeed的GPU遭調查",
-      "d": "美國及新加坡當局調查售予新加坡數據中心公司Megaspeed的Nvidia晶片是否轉運到中國；美國已將該公司列入限制名單。",
-      "u": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/"
+      "t": "美國批准SpaceX發射百萬顆數據衞星",
+      "d": "聯邦通訊委員會批准SpaceX的Starmind軌道數據中心星群，SpaceX稱這是應付AI運算需求更便宜、更節能的方法。",
+      "u": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss"
      },
      {
-      "t": "舒默指黃仁勳違反出口管制法",
-      "d": "參議院民主黨領袖舒默指黃仁勳違反對華晶片出口規定；司法部則稱沒有證據顯示他違法。",
-      "u": "https://www.reuters.com/world/china/schumer-accuses-nvidia-ceo-violating-us-export-control-law-2026-11-24/"
+      "t": "美國將Megaspeed列入實體清單",
+      "d": "美國商務部將Megaspeed列入實體清單，國會議員亦就晶片出口管制向Nvidia行政總裁黃仁勳施壓。",
+      "u": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list"
      },
      {
-      "t": "AI公司員工警告新模型太強難以安全推出",
-      "d": "據報Anthropic及OpenAI部分員工認為未公開的新模型過於強大，未能安全推出，引發有關人類能否控制AI的辯論。",
-      "u": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+      "t": "Amazon稱AI代理幾乎自主利用零日漏洞",
+      "d": "Amazon保安團隊發現一個開源AI代理幾乎自主地利用未知漏洞發動攻擊，為網絡防衞敲響警號。",
+      "u": "https://gizmodo.com/amazon-says-open-source-ai-agent-mostly-autonomously-exploited-a-zero-day-2000844891"
      },
      {
-      "t": "GPT-6 Astra攻克高難度理論物理測試",
-      "d": "OpenAI模型解答50道未公開物理難題中的49題，每題成本僅數美元，更找出人類答案中的錯誤。",
-      "u": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/"
+      "t": "城市售票網遭入侵 130萬用戶資料外洩",
+      "d": "政府城市售票網遭黑客入侵，約130萬名用戶個人資料被非法存取，承辦商周二通報事件。",
+      "u": "https://news.rthk.hk/rthk/en/component/k2/1879255-20261125.htm"
      },
      {
-      "t": "Tidal將刪除2,700萬首AI生成歌曲",
-      "d": "串流平台Tidal禁止完全由AI製作的音樂，指近90日43%上載作品屬AI生成，攤薄藝人版稅。",
-      "u": "https://www.theguardian.com/music/2026/nov/25/tidal-streaming-service-bans-ai-generated-music"
+      "t": "Tidal將刪除數以百萬計AI生成歌曲",
+      "d": "串流音樂平台Tidal將禁止並刪除全由AI製作的歌曲，以應對大量劣質AI內容湧入串流平台。",
+      "u": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
      },
      {
-      "t": "紐約州禁售AI聊天玩具五年",
-      "d": "紐約州長霍楚簽署法例，90日後起五年內禁售內置AI聊天機械人的公仔、毛公仔及機械人玩具。",
-      "u": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot"
+      "t": "Meta把Muse AI助手加入Instagram私訊",
+      "d": "用戶現可直接在Instagram私訊中使用Meta的AI助手，是Meta將AI代理融入日常應用程式的一步。",
+      "u": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/"
      }
     ]
    },
@@ -252,19 +262,19 @@
     "h": "科學及健康",
     "items": [
      {
-      "t": "教宗良十四世對COP31無協議表憂慮",
-      "d": "教宗表示聯合國COP31氣候談判未能達成協議令人憂慮，並警告極端天氣愈來愈頻密。",
-      "u": "https://apnews.com/article/vatican-pope-environment-leo-b49de85de51e04cb2d6326e94da25e8b"
+      "t": "神舟二十四號升空 載首名巴基斯坦太空人",
+      "d": "中國發射神舟二十四號，把三名太空人送往天宮太空站，當中包括巴基斯坦首名太空人，擴大中國的太空合作。",
+      "u": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss"
      },
      {
-      "t": "世衞促美國解除對古巴燃油封鎖",
-      "d": "世衞總幹事譚德塞指美國石油封鎖損害古巴人健康，兒童尤甚，要求立即解除。",
-      "u": "https://www.reuters.com/legal/government/who-chief-calls-us-lift-oil-blockade-cuba-citing-health-impact-2026-11-24/"
+      "t": "美國威斯康星州錄第三宗麻疹死亡",
+      "d": "當地疫情自夏末以來約有920宗個案，疫苗接種率下降令麻疹在美國擴散。",
+      "u": "https://www.nbcnews.com/health/health-news/measles-death-wisconsin-outbreak-vaccines-cdc-us-rcna611176"
      },
      {
-      "t": "鼻滴劑令老鼠恢復年輕記憶力",
-      "d": "研究人員發現一種鼻滴劑能令年老老鼠恢復記憶，並對抗類似阿茲海默症的損害，但距離人體試驗尚遠。",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261123005337.htm"
+      "t": "研究指GLP-1減肥藥或令乳房密度增加",
+      "d": "一項涉及104名女性的小型研究發現，她們的乳房X光片顯示密度增加，或令癌症較難察覺，仍需更大型研究。",
+      "u": "https://www.nbcnews.com/health/womens-health/glp-1-weight-loss-drugs-breast-density-mammogram-rcna611078"
      }
     ]
    },
@@ -272,19 +282,19 @@
     "h": "英國",
     "items": [
      {
-      "t": "賓咸：歐盟學生不會享本地學費",
-      "d": "首相賓咸在首相答問時拒絕歐盟要求歐盟學生支付9,790英鎊本地學費，儘管歐盟威脅否決雙方重啟關係協議。",
-      "u": "https://www.yahoo.com/news/politics/articles/eu-students-won-t-pay-124858979.html"
+      "t": "政府將公布與歐盟達成的新條約",
+      "d": "據報條約包含10年終止條款，涵蓋重建邊境檢查設施的費用，是工黨政府改善與歐盟關係的一部分。",
+      "u": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss"
      },
      {
-      "t": "明年1月起不得以保密協議封口性騷擾受害人",
-      "d": "賓咸確認明年1月起不能再用保密協議阻止性騷擾受害人發聲，並承諾成立專家小組處理法庭上的強姦迷思。",
-      "u": "https://www.yahoo.com/news/politics/articles/eu-students-won-t-pay-124858979.html"
+      "t": "跟蹤法例簡化為單一罪行",
+      "d": "檢討發現現行跟蹤法例令人混淆，將合併為一項新罪行，以便檢控。",
+      "u": "https://www.bbc.co.uk/news/articles/c8lydnlkq7xno?at_medium=RSS&at_campaign=rss"
      },
      {
-      "t": "檢討報告建議放寬個人獨立津貼申請",
-      "d": "社會保障大臣廷斯發表檢討報告，建議簡化個人獨立津貼（PIP）申請；工黨議員歡迎，保守黨批評是鬧劇。",
-      "u": "https://www.yahoo.com/news/politics/articles/eu-students-won-t-pay-124858979.html"
+      "t": "氣象局：季節轉變 霜凍減少 炎熱日子增加",
+      "d": "英國季節正出現變化，影響野生動物，部分農民亦改種其他作物。",
+      "u": "https://www.bbc.co.uk/weather/articles/cr3eg1py3gv5o?at_medium=RSS&at_campaign=rss"
      }
     ]
    }
@@ -292,80 +302,96 @@
  },
  "sources": [
   {
-   "title": "Two tankers hit mines and burn in Strait of Hormuz",
-   "url": "https://www.reuters.com/world/iran-says-ships-hit-mines-hormuz-warns-vessels-coordinate-passage-2026-11-25/"
+   "title": "US unveils new tariffs on China, EU and others",
+   "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Houthis strike Saudi refinery and Riyadh tower",
-   "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-saudi-oil-refinery-riyadh-financial-district-2026-11-25/"
+   "title": "Fuel tanker crash and fire kills 31 in Cairo",
+   "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "US jury convicts Huawei of fraud and trade-secret conspiracy",
-   "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo"
+   "title": "Ukraine says strike hit five Russian military jets",
+   "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Merz warns Russia is escalating threats to Europe",
-   "url": "https://www.reuters.com/world/europe/germanys-merz-defends-aid-ukraine-says-russia-poses-growing-threat-europe-2026-11-25/"
+   "title": "Colombian police free 76 hostages after 17-hour siege",
+   "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Leaked data put Russian war dead near half a million",
-   "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo"
+   "title": "North Korea expels Swiss diplomat in sanctions row",
+   "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Solomon Islands bars foreign bases in Australia treaty",
-   "url": "https://www.nytimes.com/2026/11/24/world/asia/solomon-islands-security-treaty-australia-china.html"
+   "title": "Solomon Islands swaps China security pact for Australia deal",
+   "url": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Drone strikes kill 19 civilians in Sudan",
-   "url": "https://www.reuters.com/world/africa/drone-strikes-kill-19-civilians-southeastern-sudan-says-rights-group-2026-11-25/"
+   "title": "Ramaphosa wins court fight over impeachment threat",
+   "url": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "US set to raise tariffs on China, EU and 14 others",
-   "url": "https://apnews.com/article/trump-tariffs-china-european-union-d97ed6f4017152ca4c18de5517db6d51"
+   "title": "US inflation gauge rises to 3.8% in October",
+   "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
   },
   {
-   "title": "UK energy price cap to jump about 26% in January",
-   "url": "https://www.yahoo.com/news/politics/articles/eu-students-won-t-pay-124858979.html"
+   "title": "Anthropic shares slip below $83 IPO price",
+   "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html"
   },
   {
-   "title": "Nvidia shares slip as investors weigh Huang's return",
-   "url": "https://www.reuters.com/business/retail-consumer/nvidia-slips-investors-assess-risks-surrounding-huangs-return-ceo-2026-11-24/"
+   "title": "Poundland collapses, putting 11,000 jobs at risk",
+   "url": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Nvidia faces probes over GPUs sold to Megaspeed",
-   "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/"
+   "title": "Trump's accounts traded Nvidia shares 44 times this year",
+   "url": "https://www.bbc.co.uk/news/articles/cq772vk664yvo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Schumer accuses Huang of breaking export-control law",
-   "url": "https://www.reuters.com/world/china/schumer-accuses-nvidia-ceo-violating-us-export-control-law-2026-11-24/"
+   "title": "US approves SpaceX plan for a million data satellites",
+   "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "AI lab staff warn newest models too risky to release",
-   "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks"
+   "title": "US blacklists Megaspeed amid Nvidia export scrutiny",
+   "url": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list"
   },
   {
-   "title": "GPT-6 Astra aces a hard theoretical physics test",
-   "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/"
+   "title": "Amazon says AI agent exploited a zero-day largely alone",
+   "url": "https://gizmodo.com/amazon-says-open-source-ai-agent-mostly-autonomously-exploited-a-zero-day-2000844891"
   },
   {
-   "title": "Tidal to delete 27 million AI-generated tracks",
-   "url": "https://www.theguardian.com/music/2026/nov/25/tidal-streaming-service-bans-ai-generated-music"
+   "title": "Hong Kong URBTIX hack exposes 1.3 million users",
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879255-20261125.htm"
   },
   {
-   "title": "New York bans AI chatbot toys for five years",
-   "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot"
+   "title": "Tidal to remove millions of AI-generated tracks",
+   "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
   },
   {
-   "title": "Pope Leo laments failure of COP31 climate talks",
-   "url": "https://apnews.com/article/vatican-pope-environment-leo-b49de85de51e04cb2d6326e94da25e8b"
+   "title": "Meta puts its Muse AI assistant into Instagram DMs",
+   "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/"
   },
   {
-   "title": "WHO urges US to lift Cuba fuel blockade",
-   "url": "https://www.reuters.com/legal/government/who-chief-calls-us-lift-oil-blockade-cuba-citing-health-impact-2026-11-24/"
+   "title": "China's Shenzhou-24 lifts off with first Pakistani astronaut",
+   "url": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "title": "Nose drops restore memory in ageing mice",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261123005337.htm"
+   "title": "Wisconsin reports third measles death",
+   "url": "https://www.nbcnews.com/health/health-news/measles-death-wisconsin-outbreak-vaccines-cdc-us-rcna611176"
+  },
+  {
+   "title": "Study links GLP-1 weight-loss drugs to denser breasts",
+   "url": "https://www.nbcnews.com/health/womens-health/glp-1-weight-loss-drugs-breast-density-mammogram-rcna611078"
+  },
+  {
+   "title": "Government to publish new treaties agreed with EU",
+   "url": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Stalking law simplified into a single offence",
+   "url": "https://www.bbc.co.uk/news/articles/c8lydnlkq7xno?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "title": "Met Office: fewer frosts, more hot days as seasons shift",
+   "url": "https://www.bbc.co.uk/weather/articles/cr3eg1py3gv5o?at_medium=RSS&at_campaign=rss"
   }
  ]
 }
