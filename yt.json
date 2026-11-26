@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T10:34:59Z",
+ "updated": "2026-11-26T11:32:08Z",
  "channels": [
   {
    "key": "gb",
@@ -9,46 +9,53 @@
    "title": "綠豆 Green Bean Media",
    "videos": [
     {
+     "v": "J39rMXqqIaU",
+     "t": "宏福苑大火一周年｜居民歐太重返舊地心情複雜   市民祈願「公義定必彰顯」",
+     "at": "2026-11-26T10:53:48+00:00",
+     "short": true,
+     "views": 44
+    },
+    {
      "v": "YMF385o62sc",
      "t": "宏福苑大火一周年｜市民獻花悼念  遺屬重返難掩哀痛  地上水寫「沉」字寄哀思",
      "at": "2026-11-26T09:18:37+00:00",
      "short": true,
-     "views": 158
+     "views": 272
     },
     {
      "v": "4A3bZfO9-yI",
      "t": "宏福苑大火一年｜願死者安息之餘，​希望​政府​憑良心做點事，幫​市民​挽回​信心",
      "at": "2026-11-26T08:25:20+00:00",
      "short": true,
-     "views": 347
+     "views": 477
     },
     {
      "v": "fmrz0Sl7tQI",
      "t": "宏福苑大火一周年：有家歸不得，在VR世界重現昔日的家",
      "at": "2026-11-25T23:50:31+00:00",
      "short": true,
-     "views": 930
+     "views": 970
     },
     {
      "v": "cVcpEqc0Svw",
      "t": "宏福苑大火一周年：回家的路 ｜有家歸不得，在虛擬世界中重現昔日的家",
      "at": "2026-11-25T12:00:37+00:00",
      "short": false,
-     "views": 86328
+     "views": 87788
     },
     {
      "v": "u5YtofUZZIo",
      "t": "【英國 2026.11.24】提早入冬！氣象局預告本週霜凍初雪｜曼城演唱會現不明氣體1.2萬人疏散｜聯合王國辦2035女足世盃",
      "at": "2026-11-24T20:00:28+00:00",
      "short": false,
-     "views": 120737
+     "views": 121486
     },
     {
      "v": "jblAgJYqG7M",
      "t": "香港法院的定罪仲可信？英國國會跨黨派香港小組審視法院運作｜Hong Kong’s Courts Under Scrutiny｜Emily Darlington 專訪",
      "at": "2026-11-23T13:30:32+00:00",
      "short": false,
-     "views": 33684
+     "views": 33793
     },
     {
      "v": "My6VNupkuRw",
@@ -69,7 +76,7 @@
      "t": "【香港 2026.11.21】宏福苑大火周年變敏感時分，悼念亡者也要步步為營｜深圳 APEC 期間新界禁航拍拘5人｜流浮山濕地旁擬建地標｜M＋突取消《童年往事》播映｜香港Bean啲事",
      "at": "2026-11-22T10:00:15+00:00",
      "short": false,
-     "views": 30530
+     "views": 30585
     },
     {
      "v": "0cJNdPLxomA",
@@ -84,13 +91,6 @@
      "at": "2026-11-21T12:00:29+00:00",
      "short": true,
      "views": 719
-    },
-    {
-     "v": "ZuRDSWtjc8A",
-     "t": "EP223｜新世界發展「1供11」震撼市場 顏寶剛：官方監管偏袒需交待｜中美俄深圳峰會各說各話 新機制重整世界秩序？｜英青年「三無」陷死結 苗易彬改革被批「離地」",
-     "at": "2026-11-21T07:00:08+00:00",
-     "short": false,
-     "views": 92233
     }
    ]
   },
@@ -102,53 +102,60 @@
    "title": "法庭線 The Witness",
    "videos": [
     {
+     "v": "8fnKBo1aAJk",
+     "t": "宏福大火一年｜丈夫與女兒葬火海　吳女士：一世都係好痛苦",
+     "at": "2026-11-26T10:44:12+00:00",
+     "short": true,
+     "views": 71
+    },
+    {
      "v": "6i8nUe7_vxs",
      "t": "宏福大火一年｜遺屬蘇生去年與母最後通電時間默哀　痛哭「對唔住」",
      "at": "2026-11-26T09:37:20+00:00",
      "short": true,
-     "views": 30
+     "views": 72
     },
     {
      "v": "Ds89mwmNp9Q",
      "t": "宏福大火一年｜李家一家七口四人罹難　遺屬李俊豪到場獻花高呼「你哋好走喇！」",
      "at": "2026-11-26T08:30:20+00:00",
      "short": true,
-     "views": 189
+     "views": 275
     },
     {
      "v": "LIY_rDu9WpA",
      "t": "宏福大火一年｜遺屬葉家駒遙望家園　去年起火時間默哀1分鐘",
      "at": "2026-11-26T08:09:48+00:00",
      "short": true,
-     "views": 771
+     "views": 1055
     },
     {
      "v": "TIzWYD03z7U",
      "t": "宏福大火一年｜宏泰歐太獻花悼街坊：盼重遇街坊送上擁抱",
      "at": "2026-11-26T07:42:27+00:00",
      "short": true,
-     "views": 129
+     "views": 147
     },
     {
      "v": "m31WX5QCyPE",
      "t": "宏福大火一年｜市民獻花盼災民堅強：全部香港人都會支持你哋",
      "at": "2026-11-26T06:36:21+00:00",
      "short": true,
-     "views": 232
+     "views": 284
     },
     {
      "v": "Fu06nIYJxoQ",
      "t": "宏福大火一年｜主教座堂追思彌撒　4遺屬逐一讀出168亡者名字（足本）",
      "at": "2026-11-25T17:00:42+00:00",
      "short": false,
-     "views": 6485
+     "views": 6709
     },
     {
      "v": "8qlDBnLLDFc",
      "t": "宏福大火一年｜追思彌撒讀168亡者名字　陳志明：非整體數字，是獨一無二生命",
      "at": "2026-11-25T15:27:15+00:00",
      "short": true,
-     "views": 679
+     "views": 692
     },
     {
      "v": "v5iAbstvCJI",
@@ -162,14 +169,14 @@
      "t": "宏福大火一年｜菲傭抱嬰逃生受傷　災後遭解僱　至今未康復",
      "at": "2026-11-25T05:38:07+00:00",
      "short": true,
-     "views": 1158
+     "views": 1157
     },
     {
      "v": "-UElnp6Av2I",
      "t": "宏福大火一年｜上樓覓愛犬遺骸終能好好告別　主人盼夢中相見：諗唔到做咩要放低",
      "at": "2026-11-22T02:58:45+00:00",
      "short": true,
-     "views": 1313
+     "views": 1315
     },
     {
      "v": "rafzS7gsEmQ",
@@ -177,13 +184,6 @@
      "at": "2026-11-21T12:00:01+00:00",
      "short": false,
      "views": 19682
-    },
-    {
-     "v": "RGOD_avlQFQ",
-     "t": "【一周法庭線報】2026.11.8-11.14　蔡天鳳案；瑜伽導師伏屍酒店案；興達大廈圍標案",
-     "at": "2026-11-14T12:00:34+00:00",
-     "short": false,
-     "views": 24210
     }
    ]
   },
@@ -199,84 +199,84 @@
      "t": "宏福苑大火一年｜中二女生：最大尊重係要銘記於心",
      "at": "2026-11-26T06:45:00+00:00",
      "short": true,
-     "views": 334
+     "views": 409
     },
     {
      "v": "hW29JzoSbbc",
      "t": "宏福苑大火一年｜宏仁閣余太：最大心願是還 168 名死者真相",
      "at": "2026-11-26T06:43:53+00:00",
      "short": true,
-     "views": 250
+     "views": 321
     },
     {
      "v": "w4Pc7x33vEg",
      "t": "宏福苑大火一年｜丈夫大火中罹難　妻和子女獻花：淨係想靜靜地紀念",
      "at": "2026-11-26T05:32:33+00:00",
      "short": true,
-     "views": 345
+     "views": 413
     },
     {
      "v": "nxQyZcgCXQE",
      "t": "宏福苑大火一周年專頁｜168 名罹難者是誰？",
      "at": "2026-11-26T03:23:14+00:00",
      "short": true,
-     "views": 664
+     "views": 719
     },
     {
      "v": "GCFlRtVztdM",
      "t": "宏福苑大火一年．影像記錄｜輪迴情緒漩渦　跑步、見心理學家自救　把宏福紋在身上「行落去」",
      "at": "2026-11-26T02:03:37+00:00",
      "short": false,
-     "views": 9908
+     "views": 10620
     },
     {
      "v": "i1u5JhvkoQA",
      "t": "宏福苑大火一年｜影像記錄｜一個人的婚禮",
      "at": "2026-11-25T12:55:31+00:00",
      "short": false,
-     "views": 17695
+     "views": 18065
     },
     {
      "v": "L2gzY2eeIO0",
      "t": "宏福苑大火一年｜葉家駒：災民如螻蟻、被逼上梁山　帶著傷痛前行尋公義",
      "at": "2026-11-23T16:00:00+00:00",
      "short": false,
-     "views": 11179
+     "views": 11210
     },
     {
      "v": "oEF8WXY1fts",
      "t": "宏福苑大火一年｜與子拍宏福苑遇警阻稱「太敏感」　歐太：點解拍攝、悼念宏福變成忌諱？",
      "at": "2026-11-23T07:25:48+00:00",
      "short": true,
-     "views": 2093
+     "views": 2119
     },
     {
      "v": "AjxlVyUU3dQ",
      "t": "宏福苑大火一年．影像記錄｜三兄弟童年回憶被毀　一夜長大",
      "at": "2026-11-22T23:00:31+00:00",
      "short": false,
-     "views": 47825
+     "views": 48045
     },
     {
      "v": "4RLWnNqe5rA",
      "t": "聚焦．Podcast｜28分鐘回顧宏福苑人和事　難屬與傷痛同行　拒賣樓居民的堅持　街坊含淚告別",
      "at": "2026-11-21T04:08:12+00:00",
      "short": false,
-     "views": 32574
+     "views": 32723
     },
     {
      "v": "cIBdutWuU-4",
      "t": "影像記錄｜宏福苑大火一年　父親的印記",
      "at": "2026-11-20T23:00:37+00:00",
      "short": false,
-     "views": 58230
+     "views": 58457
     },
     {
      "v": "KC8q08AmyM0",
      "t": "影像記錄．宏福苑大火一年｜帶蛋糕與太陽花上山  爸爸：慢慢等，一定會再見",
      "at": "2026-11-20T06:54:01+00:00",
      "short": false,
-     "views": 53945
+     "views": 54401
     }
    ]
   },
@@ -290,65 +290,65 @@
     {
      "v": "jLSXZCsBYek",
      "t": "#有線新聞 六點新聞報道｜即時新聞｜港聞｜兩岸國際｜資訊｜HOY NEWS｜ 20261126",
-     "at": "2026-11-26T09:59:02+00:00",
+     "at": "2026-11-26T11:04:08+00:00",
      "short": false,
-     "views": 352
+     "views": 673
     },
     {
      "v": "VQ0o-F2OB8E",
      "t": "有線新聞 六點新聞報道｜24/7 FITNESS上周五發現會員系統遭入侵｜宏福苑一周年市民赴廣福公園悼念｜東京酒吧落藥盜刷信用卡案急增 英使館夥饒舌歌手拍片警世 點名4大高危區｜2026年11月26日",
      "at": "2026-11-26T10:09:54+00:00",
      "short": false,
-     "views": 261
+     "views": 998
     },
     {
      "v": "9GC_Btm_rGM",
      "t": "有線新聞 430 新聞報道｜24/7 FITNESS上周五發現會員系統遭入侵｜宏福苑一周年｜居民廣福公園悼念　難掩悲痛：每日都想回家｜數碼通的網絡下午一度不穩定｜HOY NEWS｜20261126",
      "at": "2026-11-26T09:07:43+00:00",
      "short": false,
-     "views": 1328
+     "views": 2343
     },
     {
      "v": "UxDjE3kNiZk",
      "t": "有線新聞｜財經HOY視野｜即時新聞｜港聞｜兩岸國際｜資訊｜HOY NEWS｜ 20261126",
      "at": "2026-11-26T08:24:38+00:00",
      "short": false,
-     "views": 3211
+     "views": 3383
     },
     {
      "v": "VFiB2MtnD0w",
      "t": "一線搜查｜內地網瘋傳留港生B攻略 讀高級文憑換平價分娩 借簽證成產業鏈 內地中介濫用灰色地帶 即時取得永久性居民身份｜1147｜有線新聞 余琦琪 林靜莉｜#一線搜查｜HOY77 HOY78",
      "at": "2026-11-26T06:00:08+00:00",
      "short": false,
-     "views": 1966
+     "views": 2620
     },
     {
      "v": "OTGR3jSFYDw",
      "t": "有線新聞｜時事HOY角度｜即時新聞｜港聞｜兩岸國際｜資訊｜HOY NEWS｜ 20261126",
      "at": "2026-11-26T04:55:12+00:00",
      "short": false,
-     "views": 3867
+     "views": 3928
     },
     {
      "v": "gtuV1S9B62E",
      "t": "有線新聞 午間香港新聞｜深圳走私血液案　涉違規收集孕婦血液樣本｜宏福苑一周年｜廣福公園長椅放滿花束、糕點　遺屬帶子女紀念亡父：我哋都好努力｜難掩悲痛：每日都想回家｜HOY NEWS｜20261126",
      "at": "2026-11-26T04:33:04+00:00",
      "short": false,
-     "views": 7543
+     "views": 8694
     },
     {
      "v": "_i6LQeT_XSk",
      "t": "有線新聞 晨早新聞報道｜美國推出新的301關稅措施再對中國等徵關稅　部分產品或至40%｜宏褔大火一周年｜天主教座堂追思彌撒　家屬讀出168逝者名字｜澤連斯基反問：當我是行李？｜HOY｜20261126",
      "at": "2026-11-25T22:34:07+00:00",
      "short": false,
-     "views": 10761
+     "views": 10826
     },
     {
      "v": "jxsO1M-8o3A",
      "t": "有線新聞 晚間新聞｜貿易戰｜美國推出新的301關稅措施再對中國等徵關稅　部分產品或至40% 宏褔大火一周年｜天主教座堂追思彌撒　家屬讀出168位逝者名字｜HOY NEWS｜20261126",
      "at": "2026-11-25T17:39:34+00:00",
      "short": false,
-     "views": 7446
+     "views": 7475
     },
     {
      "v": "lw4MJRUbi3k",
@@ -362,7 +362,7 @@
      "t": "每日樓市｜利率走勢有變數｜部份業主止賺離場｜啟德的天璽‧海吸金近1.2億元｜Anthropic上市四日即「潛水」｜亞太股市挫 恒指7連跌｜28Hse特約 : 每日樓市｜HOY77",
      "at": "2026-11-25T14:30:06+00:00",
      "short": false,
-     "views": 6062
+     "views": 6206
     },
     {
      "v": "BngBLvo5fa4",
@@ -385,84 +385,84 @@
      "t": "Balloons deflated as bad weather postpones Macy’s Thanksgiving Day Parade. #BBCNews",
      "at": "2026-11-26T09:50:52+00:00",
      "short": true,
-     "views": 506
+     "views": 1117
     },
     {
      "v": "a7_cq7x2m_Q",
      "t": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway. #Cairo #Egypt #BBCNews",
      "at": "2026-11-26T08:46:53+00:00",
      "short": true,
-     "views": 2957
+     "views": 6745
     },
     {
      "v": "i6jmroFromM",
      "t": "The US pastor who wants to see women's right to vote overturned. #BBCNews",
      "at": "2026-11-26T02:15:03+00:00",
      "short": true,
-     "views": 7323
+     "views": 8178
     },
     {
      "v": "J2SiPlDxiLs",
      "t": "Macy's postpones Thanksgiving parade in New York due to weather | BBC News",
      "at": "2026-11-26T00:00:17+00:00",
      "short": false,
-     "views": 41088
+     "views": 43351
     },
     {
      "v": "AXMxLrMQ5iU",
      "t": "Is this the future of US power? Bukele's Haiti experiment? | The Global Story",
      "at": "2026-11-25T23:15:21+00:00",
      "short": false,
-     "views": 22681
+     "views": 23715
     },
     {
      "v": "07W4hiTBEaU",
      "t": "US Army says controlled blast of explosives in Iowa was “huge success”. #BBCNews",
      "at": "2026-11-25T22:30:31+00:00",
      "short": true,
-     "views": 10747
+     "views": 11768
     },
     {
      "v": "CasKUp5nt4E",
      "t": "Gordon Ramsay announced as new Top Gear host | BBC News",
      "at": "2026-11-25T22:15:31+00:00",
      "short": false,
-     "views": 49017
+     "views": 52372
     },
     {
      "v": "rpscxtd6OMM",
      "t": "US announces new tariff proposals on EU, China, and other trade partners. #BBCNews",
      "at": "2026-11-25T21:55:38+00:00",
      "short": true,
-     "views": 29078
+     "views": 30619
     },
     {
      "v": "_ppHYGbMCkQ",
      "t": "Yemen's Houthis attack Saudi Arabia's largest oil refinery | BBC News",
      "at": "2026-11-25T21:30:26+00:00",
      "short": false,
-     "views": 443962
+     "views": 460514
     },
     {
      "v": "0R36dbUBL-U",
      "t": "Are you in a sex drought? It's becoming an issue in Britain | BBC News",
      "at": "2026-11-25T20:45:22+00:00",
      "short": false,
-     "views": 80469
+     "views": 90280
     },
     {
      "v": "oPQbS88kuGI",
      "t": "How many Russians have been killed in the Ukraine war?",
      "at": "2026-11-25T20:00:11+00:00",
      "short": false,
-     "views": 73838
+     "views": 78544
     },
     {
      "v": "BVoyGhasifc",
      "t": "\"Is that the reason why I've never had children?\" asks nuclear test veteran's daughter. #BBCNews",
      "at": "2026-11-25T19:41:57+00:00",
      "short": true,
-     "views": 11488
+     "views": 11844
     }
    ],
    "page": 2,
@@ -476,88 +476,88 @@
    "title": "CNN",
    "videos": [
     {
+     "v": "NDBL7aTDCo4",
+     "t": "California hit by record tides and massive waves",
+     "at": "2026-11-26T10:30:33+00:00",
+     "short": true,
+     "views": 8088
+    },
+    {
      "v": "cEK4Yx5T-J4",
      "t": "Obamas make surprise visit to help pack food at nonprofit",
      "at": "2026-11-26T09:00:36+00:00",
      "short": true,
-     "views": 5636
+     "views": 10369
     },
     {
      "v": "4xID08ghapY",
      "t": "FedEx cargo plane overshoots runway at Miami airport",
      "at": "2026-11-26T08:06:45+00:00",
      "short": true,
-     "views": 6251
+     "views": 9102
     },
     {
      "v": "UjsJY7snSM4",
      "t": "WAPO: Hegseth, Others Floated Using Wartime Law to Reinstate Huang",
      "at": "2026-11-26T04:38:53+00:00",
      "short": false,
-     "views": 10664
+     "views": 11798
     },
     {
      "v": "LsHrcr6npCE",
      "t": "Heavy traffic and severe weather disrupt Thanksgiving travel",
      "at": "2026-11-26T04:00:53+00:00",
      "short": true,
-     "views": 19254
+     "views": 20341
     },
     {
      "v": "AezrofiNQ_k",
      "t": "Comedians roast Trump, Dem infighting, elections & more | Have I Got News For You",
      "at": "2026-11-26T03:15:38+00:00",
      "short": false,
-     "views": 61850
+     "views": 67994
     },
     {
      "v": "HWV11q8Iw5c",
      "t": "A sister’s grief: ‘I just wanted it to be a good death’",
      "at": "2026-11-26T02:47:23+00:00",
      "short": true,
-     "views": 16796
+     "views": 17533
     },
     {
      "v": "tk07uhrjTr0",
      "t": "Macy’s Parade Postponed for the First Time in Its 100-Year History",
      "at": "2026-11-26T02:52:48+00:00",
      "short": false,
-     "views": 11183
+     "views": 11707
     },
     {
      "v": "EroBZox2I9U",
      "t": "Parade delayed, Treasury cyberattack & more | CNN Primetime Roundup",
      "at": "2026-11-26T02:30:32+00:00",
      "short": false,
-     "views": 195146
+     "views": 205599
     },
     {
      "v": "t0enjK1AYC0",
      "t": "Trump admin’s conflicting account of Nvidia scandal shifts again",
      "at": "2026-11-26T01:30:14+00:00",
      "short": false,
-     "views": 263469
+     "views": 285798
     },
     {
      "v": "hgG2AKVYCzg",
      "t": "Video shows passengers and crew members restraining disruptive traveler",
      "at": "2026-11-26T01:19:46+00:00",
      "short": true,
-     "views": 70119
+     "views": 73912
     },
     {
      "v": "e82Cs5ccxg8",
      "t": "Mamdani on rescheduling Macy’s Thanksgiving Day Parade: Safety is top priority",
      "at": "2026-11-26T00:13:41+00:00",
      "short": true,
-     "views": 169432
-    },
-    {
-     "v": "Qol6DZTav1w",
-     "t": "Trump’s newest low, Dems’ historic gain & more | Enten roundup",
-     "at": "2026-11-26T00:00:19+00:00",
-     "short": false,
-     "views": 278435
+     "views": 181385
     }
    ],
    "page": 2,
@@ -572,24 +572,24 @@
    "videos": [
     {
      "v": "N7lklIZnbgc",
-     "t": "New Mandelson files to be released today | Full coverage",
+     "t": "New batch of Mandelson files released | Full coverage and analysis",
      "at": "2026-11-26T09:57:47+00:00",
      "short": false,
-     "views": 540
+     "views": 1420
     },
     {
      "v": "7M2HMPprSO0",
      "t": "Stalking laws get their biggest overhaul in more than a decade | Mornings with Ridge and Frost",
      "at": "2026-11-26T10:13:52+00:00",
      "short": false,
-     "views": 8146
+     "views": 10630
     },
     {
      "v": "EyIkqm4AD24",
      "t": "Andy Burnham crowned 'King of Influencers'",
      "at": "2026-11-26T09:56:28+00:00",
      "short": false,
-     "views": 222
+     "views": 398
     },
     {
      "v": "OiQfeQ6T74k",
@@ -631,28 +631,28 @@
      "t": "Backstory: Are we ready for the next Covid? Cathy Newman speaks to Jenny Harries",
      "at": "2026-11-26T07:00:34+00:00",
      "short": true,
-     "views": 1193
+     "views": 1915
     },
     {
      "v": "EAzzQUUeDdA",
      "t": "Face to face with the 'glassman' who says he can identify witches",
      "at": "2026-11-26T06:49:36+00:00",
      "short": true,
-     "views": 625
+     "views": 779
     },
     {
      "v": "OH6r1k1lK8A",
      "t": "The witch hunters: Inside Papua New Guinea’s hidden human rights crisis",
      "at": "2026-11-26T06:00:31+00:00",
      "short": false,
-     "views": 3815
+     "views": 4807
     },
     {
      "v": "hlyZ8Mz5GAo",
      "t": "More than 10,000 jobs at risk after Poundland enters administration | The Wrap with Gillian Joseph",
      "at": "2026-11-25T23:01:27+00:00",
      "short": false,
-     "views": 16495
+     "views": 17290
     }
    ],
    "page": 2,
@@ -670,21 +670,21 @@
      "t": "Claude AI’s Biggest Math Breakthrough Has A Problem.",
      "at": "2026-11-25T09:54:23+00:00",
      "short": false,
-     "views": 139101
+     "views": 141343
     },
     {
      "v": "1jPdehG3Hms",
      "t": "Claude AI Solved The Secret Of Black Holes",
      "at": "2026-11-23T07:37:52+00:00",
      "short": false,
-     "views": 259445
+     "views": 259855
     },
     {
      "v": "Cy7Wz6Z4TWU",
      "t": "DeepMind Just Released The Best Thing AI Ever Did",
      "at": "2026-11-19T09:26:19+00:00",
      "short": false,
-     "views": 211631
+     "views": 211723
     },
     {
      "v": "gl2U4fGTr6g",
@@ -698,14 +698,14 @@
      "t": "AI Can Do Everything…Except This",
      "at": "2026-11-14T08:40:55+00:00",
      "short": false,
-     "views": 57161
+     "views": 57166
     },
     {
      "v": "gPNiuyYirfw",
      "t": "DeepMind’s AI Just Did The Impossible",
      "at": "2026-11-12T13:41:41+00:00",
      "short": false,
-     "views": 321615
+     "views": 321708
     },
     {
      "v": "vug73goPJaM",
@@ -719,7 +719,7 @@
      "t": "OpenAI's Astra Just Opened The Black Box Of AI",
      "at": "2026-11-07T16:24:47+00:00",
      "short": false,
-     "views": 240928
+     "views": 240947
     },
     {
      "v": "XgC1QTs6A2U",
@@ -765,28 +765,28 @@
      "t": "Did David Fincher use AI?",
      "at": "2026-11-25T20:08:55+00:00",
      "short": true,
-     "views": 8102
+     "views": 8379
     },
     {
      "v": "P4uHkdN892M",
      "t": "Could the crypto industry shift blue? #Vergecast",
      "at": "2026-11-25T17:30:33+00:00",
      "short": true,
-     "views": 2003
+     "views": 2066
     },
     {
      "v": "iE1Y810gMJ0",
      "t": "Should David buy an iPhone Duo? #Vergecast",
      "at": "2026-11-25T16:44:09+00:00",
      "short": true,
-     "views": 13593
+     "views": 13858
     },
     {
      "v": "Dhc46v0rZfQ",
      "t": "Big Tech is ready to spend even bigger to win in 2028 | The Vergecast",
      "at": "2026-11-25T13:00:24+00:00",
      "short": false,
-     "views": 19336
+     "views": 19553
     },
     {
      "v": "wzvVEuACtYk",
@@ -807,35 +807,35 @@
      "t": "Jensen Huang is Donald Trump’s Special Boy | The Vergecast",
      "at": "2026-11-24T20:09:09+00:00",
      "short": false,
-     "views": 35720
+     "views": 35803
     },
     {
      "v": "ZfvbXOcwuYI",
      "t": "How Trump influenced Huang’s Nvidia return",
      "at": "2026-11-24T01:47:52+00:00",
      "short": true,
-     "views": 8344
+     "views": 8365
     },
     {
      "v": "TtfWl0jtV54",
      "t": "What else can you do with a Kindle click? #Vergecast",
      "at": "2026-11-23T20:30:12+00:00",
      "short": true,
-     "views": 40338
+     "views": 40611
     },
     {
      "v": "2hzYNL1x5FQ",
      "t": "Mike Schur on the first five minutes #Vergecast",
      "at": "2026-11-23T19:30:17+00:00",
      "short": true,
-     "views": 3417
+     "views": 3440
     },
     {
      "v": "wV3MCKCFouk",
      "t": "Could a show like The Office survive in 2026? #Vergecast",
      "at": "2026-11-23T18:31:11+00:00",
      "short": true,
-     "views": 8825
+     "views": 8835
     },
     {
      "v": "TLTNkrfD-SM",
@@ -860,56 +860,56 @@
      "t": "Can US Chip Controls Slow China’s AI Progress?",
      "at": "2026-11-25T18:31:10+00:00",
      "short": false,
-     "views": 3362
+     "views": 3410
     },
     {
      "v": "4cEm4-3wUUk",
      "t": "US Genesis Mission Looks to AI to Accelerate Science",
      "at": "2026-11-25T18:28:40+00:00",
      "short": false,
-     "views": 1861
+     "views": 1918
     },
     {
      "v": "sANXOjyaIvw",
      "t": "Franklin Templeton's Araghi Sees AI Selloff as Market Reset",
      "at": "2026-11-25T18:27:03+00:00",
      "short": false,
-     "views": 4183
+     "views": 4243
     },
     {
      "v": "oMfXWMkavBY",
      "t": "Nasdaq 100 Tumbles in ‘Sell First’ Mode",
      "at": "2026-11-25T18:27:02+00:00",
      "short": false,
-     "views": 13362
+     "views": 13561
     },
     {
      "v": "S389gT3RMpM",
      "t": "Mark Answers Your Apple Questions | Power On with Mark Gurman",
      "at": "2026-11-25T15:08:17+00:00",
      "short": false,
-     "views": 2598
+     "views": 2657
     },
     {
      "v": "FBCnn6nWdVQ",
      "t": "Tech Slides as Nvidia, AI Risks Take Center Stage",
      "at": "2026-11-24T18:21:11+00:00",
      "short": false,
-     "views": 18185
+     "views": 18215
     },
     {
      "v": "T33ItM9-jXM",
      "t": "Nvidia Bull Says Huang’s Return Restores Tech Leadership",
      "at": "2026-11-24T18:14:20+00:00",
      "short": false,
-     "views": 8073
+     "views": 8136
     },
     {
      "v": "LPFC0ot3o2c",
      "t": "HPE Customers Did Not Change Behavior Due to Nvidia, CEO Neri Says",
      "at": "2026-11-24T17:24:01+00:00",
      "short": false,
-     "views": 2814
+     "views": 2833
     },
     {
      "v": "wiZdyuS0q0M",
@@ -955,84 +955,84 @@
      "t": "Can Trump Gain Any Leverage Over China With the 40% Tariff Threat?",
      "at": "2026-11-26T08:53:54+00:00",
      "short": false,
-     "views": 398
+     "views": 1492
     },
     {
      "v": "n8gHOOZhON8",
      "t": "Asian Stock Markets Are Cheap Enough Now: Market Analysis",
      "at": "2026-11-26T08:31:37+00:00",
      "short": false,
-     "views": 2059
+     "views": 5566
     },
     {
      "v": "qhUdaaHbl0E",
      "t": "Trump Aims to Keep Leverage Over Xi With 40% Tariff Threat",
      "at": "2026-11-26T08:07:27+00:00",
      "short": false,
-     "views": 5832
+     "views": 10887
     },
     {
      "v": "aG8br__f9w0",
      "t": "Houthis Target Jeddah and Jazan Ports as Attacks on Saudi Arabia Intensify",
      "at": "2026-11-26T07:53:46+00:00",
      "short": false,
-     "views": 2276
+     "views": 3200
     },
     {
      "v": "QoIgBWh0lrQ",
      "t": "China Tech Stocks Rebound From Record Slump",
      "at": "2026-11-26T07:10:55+00:00",
      "short": false,
-     "views": 3437
+     "views": 4548
     },
     {
      "v": "BUqb4zskT7c",
      "t": "US Proposes New Tariffs, Asian Stocks Rise As AI Trade Rebounds",
      "at": "2026-11-26T06:34:42+00:00",
      "short": false,
-     "views": 5362
+     "views": 6175
     },
     {
      "v": "0FQScrcG7Jk",
      "t": "US Tariff Plan Raises Stakes for India to Clinch Trade Deal",
      "at": "2026-11-26T06:30:16+00:00",
      "short": true,
-     "views": 876
+     "views": 1055
     },
     {
      "v": "9RZYy_8m6Qk",
      "t": "Joanna Stern on Siri’s iOS 27 Issues and Her Viral ‘Apple Dad’ Review",
      "at": "2026-11-26T05:00:23+00:00",
      "short": true,
-     "views": 519
+     "views": 588
     },
     {
      "v": "laGSQbQ7-3I",
      "t": "Vance: Don’t Think Jensen Huang Needs a Pardon",
      "at": "2026-11-26T00:11:50+00:00",
      "short": false,
-     "views": 9796
+     "views": 9921
     },
     {
      "v": "7kNXokgqk9w",
      "t": "Holtz-Eakin: 50bps Hike Would Send ‘Important Message’",
      "at": "2026-11-25T23:46:36+00:00",
      "short": false,
-     "views": 6094
+     "views": 6255
     },
     {
      "v": "de3OgLKKWLY",
      "t": "Mulvaney: Trump ‘Reading the Room Wrong’ on Huang",
      "at": "2026-11-25T23:42:53+00:00",
      "short": false,
-     "views": 11730
+     "views": 11933
     },
     {
      "v": "zgoc3e11Yc0",
      "t": "Allen: Huang to Face ‘Full Firepower’ on Capitol Hill",
      "at": "2026-11-25T23:39:53+00:00",
      "short": false,
-     "views": 19759
+     "views": 20317
     }
    ],
    "page": 2,
@@ -1050,28 +1050,28 @@
      "t": "GTA VI: Gaming's billion-dollar bet",
      "at": "2026-11-25T15:00:16+00:00",
      "short": true,
-     "views": 3867
+     "views": 3925
     },
     {
      "v": "_dOANeJ0zPs",
      "t": "Why America’s Food Banks Are In Crisis",
      "at": "2026-11-24T15:00:27+00:00",
      "short": false,
-     "views": 56576
+     "views": 56883
     },
     {
      "v": "UPbixF0MU8M",
      "t": "Why Homeowners And Renters Feel Stuck",
      "at": "2026-11-23T15:00:04+00:00",
      "short": false,
-     "views": 274768
+     "views": 275040
     },
     {
      "v": "-7_-eckjzfI",
      "t": "Why Big Pizza Chains Are Struggling",
      "at": "2026-11-22T15:00:28+00:00",
      "short": false,
-     "views": 1579946
+     "views": 1581939
     },
     {
      "v": "sxtXz24odps",
@@ -1085,7 +1085,7 @@
      "t": "How Cheap Clothing Got So Expensive",
      "at": "2026-11-20T15:00:11+00:00",
      "short": false,
-     "views": 448274
+     "views": 448813
     },
     {
      "v": "E5qCMDYjdDA",
@@ -1099,35 +1099,35 @@
      "t": "Why Retail Investors Are Divided Over Anthropic’s $1.4 Trillion IPO",
      "at": "2026-11-18T15:00:07+00:00",
      "short": false,
-     "views": 105488
+     "views": 105538
     },
     {
      "v": "GbwGP-HxibY",
      "t": "How Automakers Are Digging Into Used Car Sales To Compete With Carvana",
      "at": "2026-11-17T15:00:25+00:00",
      "short": false,
-     "views": 241326
+     "views": 241422
     },
     {
      "v": "Em35ZNmWzzo",
      "t": "France's borrowing costs are climbing. Could the U.S. be next?",
      "at": "2026-11-16T15:00:12+00:00",
      "short": true,
-     "views": 14582
+     "views": 14590
     },
     {
      "v": "_19PHik8_Jg",
      "t": "GTA 6's Billion-Dollar Hype Machine",
      "at": "2026-11-15T15:00:31+00:00",
      "short": false,
-     "views": 1089085
+     "views": 1089118
     },
     {
      "v": "tX5oNAxULSY",
      "t": "The rise, reinvention and uncertain future of Nvidia without Jensen Huang",
      "at": "2026-11-14T19:00:34+00:00",
      "short": true,
-     "views": 84200
+     "views": 84237
     }
    ],
    "page": 2,
@@ -1145,63 +1145,63 @@
      "t": "Prepping for your Thanksgiving family discussion? We’ve got your finance takes covered. ✅",
      "at": "2026-11-25T23:01:21+00:00",
      "short": true,
-     "views": 385
+     "views": 404
     },
     {
      "v": "dVOilqaYpmM",
      "t": "Elon Musk is matching SpaceX shares in Trump Accounts",
      "at": "2026-11-25T22:10:51+00:00",
      "short": true,
-     "views": 3482
+     "views": 3585
     },
     {
      "v": "j3K4FBo2Mn8",
      "t": "Steve Sosnick says the Fed won't rescue stocks, a lawyer says Huang could be fired | Sozzi Unleashed",
      "at": "2026-11-25T21:34:55+00:00",
      "short": false,
-     "views": 5912
+     "views": 6034
     },
     {
      "v": "618HMl71csY",
      "t": "The Macy’s Day parade just got postponed for the first time ever",
      "at": "2026-11-25T21:21:34+00:00",
      "short": true,
-     "views": 563
+     "views": 567
     },
     {
      "v": "-2cAbQoJ0fg",
      "t": "Jensen Huang apologized, and this panel says the market is pricing the worst case | Market Hang",
      "at": "2026-11-25T19:39:24+00:00",
      "short": false,
-     "views": 3390
+     "views": 3422
     },
     {
      "v": "LbZHGEJqLYU",
      "t": "GTA VI had the biggest entertainment launch in history.",
      "at": "2026-11-25T19:36:29+00:00",
      "short": true,
-     "views": 2096
+     "views": 2158
     },
     {
      "v": "1Gk9B4SO86I",
      "t": "BDA Capital's Barbara Duran: Muse is another growth leg for Meta, and she owns it | The 8:30",
      "at": "2026-11-25T19:00:06+00:00",
      "short": false,
-     "views": 2604
+     "views": 2646
     },
     {
      "v": "SatCATRXmU4",
      "t": "Solana’s Institutional Takeover: Why Japan Matters",
      "at": "2026-11-25T18:00:23+00:00",
      "short": false,
-     "views": 15930
+     "views": 16179
     },
     {
      "v": "nTABm6j5PlI",
      "t": "Eight reasons the market is selling, and the one Sozzi says makes no sense | Sozzi Unleashed",
      "at": "2026-11-25T16:53:45+00:00",
      "short": false,
-     "views": 4406
+     "views": 4437
     },
     {
      "v": "rrfOgy6u2IM",
@@ -1215,14 +1215,14 @@
      "t": "Dan Ives says the AI selloff is a growth scare, and this is 1997 not 1999 | Sozzi Unleashed",
      "at": "2026-11-25T16:00:03+00:00",
      "short": false,
-     "views": 29334
+     "views": 29551
     },
     {
      "v": "Cl2zPJH4HNA",
      "t": "BDA Capital's Barbara Duran: The AI names are oversold and she is adding to Nvidia | The 8:30",
      "at": "2026-11-25T14:58:07+00:00",
      "short": false,
-     "views": 5016
+     "views": 5032
     }
    ],
    "page": 2,
