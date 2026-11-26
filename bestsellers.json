@@ -125,7 +125,7 @@
    "en": "New York Times, fiction",
    "flag": "🇺🇸",
    "c": "#9cc7ff",
-   "asof": "November 22, 2026 · Hardcover fiction Top 10",
+   "asof": "November 29, 2026 · Hardcover fiction Top 10",
    "books": [
     {
      "id": "nyt-a-court-of-splintered-harmony",
@@ -138,18 +138,28 @@
      "isbn": "9781037200076"
     },
     {
-     "id": "nyt-threshing-day",
+     "id": "nyt-split-second",
      "rank": 2,
-     "t": "Threshing Day",
-     "a": "Rebecca Yarros",
+     "t": "Split Second",
+     "a": "Janet Evanovich",
      "tag": "小說",
-     "en": "Thirteen short stories, set in the Empyrean world, in which cadets compete to earn the bond of a dragon.",
-     "zh": "《第四翼》世界嘅十三個短篇故事：軍校生互相競爭，爭取同巨龍結盟。",
-     "isbn": "9781682818084"
+     "en": "The 32nd book in the Stephanie Plum series. Newly married, Stephanie needs to find a bond jumper and an invisible stalker.",
+     "zh": "",
+     "isbn": "9781668069707"
+    },
+    {
+     "id": "nyt-all-in",
+     "rank": 3,
+     "t": "All In",
+     "a": "David Baldacci",
+     "tag": "小說",
+     "en": "The fourth book in the 6:20 Man series. Travis Devine’s investigation uncovers a cabal intent on changing the global balance of power.",
+     "zh": "",
+     "isbn": "9781538758069"
     },
     {
      "id": "nyt-the-calamity-club",
-     "rank": 3,
+     "rank": 4,
      "t": "The Calamity Club",
      "a": "Kathryn Stockett",
      "tag": "小說",
@@ -158,24 +168,14 @@
      "isbn": "9781954118812"
     },
     {
-     "id": "nyt-the-french-illusion",
-     "rank": 4,
-     "t": "The French Illusion",
-     "a": "John Grisham",
-     "tag": "小說",
-     "en": "When a couple is kidnapped during a honeymoon trip in the French countryside, a young lawyer is used as part of a C.I.A. operation.",
-     "zh": "一對新婚夫婦喺法國鄉郊度蜜月時被綁架，一個年輕律師被捲入中情局嘅營救行動。",
-     "isbn": "9780385550543"
-    },
-    {
-     "id": "nyt-the-hollow",
+     "id": "nyt-threshing-day",
      "rank": 5,
-     "t": "The Hollow",
-     "a": "Michael Connelly",
+     "t": "Threshing Day",
+     "a": "Rebecca Yarros",
      "tag": "小說",
-     "en": "The 21st book in the Harry Bosch series. Bosch investigates the facility where he was a ward of the state in his youth.",
-     "zh": "Harry Bosch 系列第 21 集。Bosch 調查佢細個寄住過嘅兒童院。",
-     "isbn": "9780316612586"
+     "en": "Thirteen short stories, set in the Empyrean world, in which cadets compete to earn the bond of a dragon.",
+     "zh": "《第四翼》世界嘅十三個短篇故事：軍校生互相競爭，爭取同巨龍結盟。",
+     "isbn": "9781682818084"
     },
     {
      "id": "nyt-the-witch",
@@ -188,8 +188,18 @@
      "isbn": "9781420540475"
     },
     {
-     "id": "nyt-a-married-little-christmas",
+     "id": "nyt-the-french-illusion",
      "rank": 7,
+     "t": "The French Illusion",
+     "a": "John Grisham",
+     "tag": "小說",
+     "en": "When a couple is kidnapped during a honeymoon trip in the French countryside, a young lawyer is used as part of a C.I.A. operation.",
+     "zh": "一對新婚夫婦喺法國鄉郊度蜜月時被綁架，一個年輕律師被捲入中情局嘅營救行動。",
+     "isbn": "9780385550543"
+    },
+    {
+     "id": "nyt-a-married-little-christmas",
+     "rank": 8,
      "t": "A Married Little Christmas",
      "a": "Abby Jimenez",
      "tag": "小說",
@@ -198,34 +208,24 @@
      "isbn": "9781538780046"
     },
     {
-     "id": "nyt-defy-the-dusk",
-     "rank": 8,
-     "t": "Defy the Dusk",
-     "a": "Danielle L. Jensen",
+     "id": "nyt-the-hollow",
+     "rank": 9,
+     "t": "The Hollow",
+     "a": "Michael Connelly",
      "tag": "小說",
-     "en": "A woman whose magic hurt civilization 20 years ago has her loyalty tested and questions which course of action to take.",
-     "zh": "奇幻二部曲第一集：一個女人嘅忠誠受到考驗。",
-     "isbn": "9780593975121"
+     "en": "The 21st book in the Harry Bosch series. Bosch investigates the facility where he was a ward of the state in his youth.",
+     "zh": "Harry Bosch 系列第 21 集。Bosch 調查佢細個寄住過嘅兒童院。",
+     "isbn": "9780316612586"
     },
     {
      "id": "nyt-the-pirate-queen",
-     "rank": 9,
+     "rank": 10,
      "t": "The Pirate Queen",
      "a": "Ariel Lawhon",
      "tag": "小說",
      "en": "In 16th-century Ireland, Grace O’Malley endures betrayal and hardship before leading a fleet of ships to defend her land.",
      "zh": "歷史小說，寫十六世紀愛爾蘭真實人物 Grace O'Malley：一位敢同英國王室對抗嘅女族長兼船長。",
      "isbn": "9798217169122"
-    },
-    {
-     "id": "nyt-the-gift",
-     "rank": 10,
-     "t": "The Gift",
-     "a": "Freida McFadden",
-     "tag": "小說",
-     "en": "A pawnshop owner gives a financially strapped wife a potentially risky offer; inspired by O. Henry's The Gift of the Magi .",
-     "zh": "一個帶黑色轉折嘅短篇故事，靈感來自歐亨利嘅聖誕經典《聖誕禮物》。",
-     "isbn": "9781464249655"
     }
    ]
   },
@@ -235,7 +235,7 @@
    "en": "US indie bookshops (ABA)",
    "flag": "📚",
    "c": "#f3a6c0",
-   "asof": "November 18, 2026 · Hardcover fiction Top 10",
+   "asof": "November 25, 2026 · Hardcover fiction Top 10",
    "books": [
     {
      "id": "ib-9781639739134",
@@ -278,18 +278,8 @@
      "isbn": "9780063577541"
     },
     {
-     "id": "ib-9781668251065",
-     "rank": 5,
-     "t": "Peck & Peck",
-     "a": "Bonnie Garmus",
-     "tag": "小說",
-     "en": "It’s 1982, New York City. Crime is on the rise, muggings are in the streets, and Batter Gray, recent college graduate with a skill that no one wants — an “ear” for poetry — is worried about his future. An October 2026 Indie Next Pick.",
-     "zh": "《化學課》作者 Bonnie Garmus 嘅第二本小說。",
-     "isbn": "9781668251065"
-    },
-    {
      "id": "ib-9781538752036",
-     "rank": 6,
+     "rank": 5,
      "t": "American Hagwon",
      "a": "Min Jin Lee",
      "tag": "小說",
@@ -298,24 +288,34 @@
      "isbn": "9781538752036"
     },
     {
-     "id": "ib-9781538780046",
-     "rank": 7,
-     "t": "A Married Little Christmas (Deluxe Edition)",
-     "a": "Abby Jimenez",
+     "id": "ib-9781250462428",
+     "rank": 6,
+     "t": "Murmuration",
+     "a": "TJ Klune",
      "tag": "小說",
-     "en": "Bring on the holiday cheer in this delightful collection of three feel-good novellas from the bestselling author of The Night We Met — with bonus recipes and full-page illustrations, perfect for gifting!",
+     "en": "A timeless speculative romance set in a perfect little town with a big dark secret by bestselling author TJ Klune. A December 2026 Indie Next Pick.",
      "zh": "",
-     "isbn": "9781538780046"
+     "isbn": "9781250462428"
     },
     {
-     "id": "ib-9798217438655",
-     "rank": 8,
-     "t": "The End of Everything",
-     "a": "M. John Harrison",
+     "id": "ib-9781668251065",
+     "rank": 7,
+     "t": "Peck & Peck",
+     "a": "Bonnie Garmus",
      "tag": "小說",
-     "en": "Phillip has fished out of the water an object he can't keep. A creature that keeps changing. An artifact he must take inland, before it destroys everything he thinks he knows.",
+     "en": "It’s 1982, New York City. Crime is on the rise, muggings are in the streets, and Batter Gray, recent college graduate with a skill that no one wants — an “ear” for poetry — is worried about his future. An October 2026 Indie Next Pick.",
+     "zh": "《化學課》作者 Bonnie Garmus 嘅第二本小說。",
+     "isbn": "9781668251065"
+    },
+    {
+     "id": "ib-9798217192199",
+     "rank": 8,
+     "t": "Dungeon Crawler Carl: Deluxe Edition",
+     "a": "Matt Dinniman",
+     "tag": "小說",
+     "en": "The apocalypse will be televised! Welcome to the first book in the wildly popular and addictive Dungeon Crawler Carl series by Matt Dinniman — now in a fantastic deluxe hardcover edition!",
      "zh": "",
-     "isbn": "9798217438655"
+     "isbn": "9798217192199"
     },
     {
      "id": "ib-9780063511637",
@@ -328,14 +328,14 @@
      "isbn": "9780063511637"
     },
     {
-     "id": "ib-9781250412607",
+     "id": "ib-9781538780046",
      "rank": 10,
-     "t": "Miss Wolcott's Ghost (Chief Inspector Gamache Novel #21)",
-     "a": "Louise Penny",
+     "t": "A Married Little Christmas (Deluxe Edition)",
+     "a": "Abby Jimenez",
      "tag": "小說",
-     "en": "The next new mystery in Louise Penny’s bestselling Three Pines mystery series featuring Chief Inspector Armand Gamache.",
+     "en": "Bring on the holiday cheer in this delightful collection of three feel-good novellas from the bestselling author of The Night We Met — with bonus recipes and full-page illustrations, perfect for gifting!",
      "zh": "",
-     "isbn": "9781250412607"
+     "isbn": "9781538780046"
     }
    ]
   }
