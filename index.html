@@ -1538,7 +1538,8 @@ var CONFIG = {
     { n: '🕰️ 鐘 · 波 Clock & fun', pages: ['p2', 'p3', 'pbday'] },
     { n: '⚡ 能源 Energy', pages: ['penergy', 'preview', 'ptips'] }
   ],
-  rotate: { secs: 120, first: 300, stay: 300 },   // first = the Home page stays 5 min, the other turning pages 2 min each
+  // pages = the turning pages in order (they can come from any group); first = the first page (Home) stays 5 min, the others 2 min each
+  rotate: { secs: 120, first: 300, stay: 300, pages: ['p1', 'pcal', 'pnews', 'pyt', 'phk', 'pcity', 'pbook', 'pprize', 'pbest'] },
   // Night mode: between these hours (iPad's own clock) a dim, soft clock replaces the pages.
   // A tap shows the dashboard (dimmed) for 'wake' seconds, then the night clock comes back. ?night=1 / ?night=0 to test.
   // Birthday page (page 14): joins the turning pages when the next birthday is this many days away or less.
@@ -1650,7 +1651,8 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
   });
   var rest = []; for (q = 0; q < n; q++) if (GROUP_OF[q] === undefined) { GROUP_OF[q] = GROUPS.length; rest.push(q); }
   if (rest.length) GROUPS.push({ n: '➕ More', pages: rest });
-  window.ROTATE_PAGES = [].concat.apply([], GROUPS.filter(function (g) { return g.rotate; }).map(function (g) { return g.pages; }));
+  window.ROTATE_PAGES = CONFIG.rotate && CONFIG.rotate.pages ? CONFIG.rotate.pages.map(function (id) { return idx[id]; }).filter(function (k) { return k >= 0; })
+    : [].concat.apply([], GROUPS.filter(function (g) { return g.rotate; }).map(function (g) { return g.pages; }));
   function iconOnly(btn, label) { btn.textContent = label.split(' ')[0]; btn.setAttribute('aria-label', label); btn.title = label; }   // the bar shows icons only
   var tabs = $('tabs'), tabsTimer = 0, gRow = document.createElement('div'), pRow = document.createElement('div'), pBtn = [];
   gRow.className = 'tgrp'; pRow.className = 'tpg'; tabs.appendChild(gRow); tabs.appendChild(pRow);
