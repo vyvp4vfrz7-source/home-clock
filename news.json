@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-26T00:45+00:00",
+ "updated": "2026-11-26T02:10+00:00",
  "items": [
   {
    "src": "香港",
    "lang": "zh",
-   "t": "博康商場附近交通意外 獅子山隧道往沙田方向需間歇性封閉",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879306-20261126.htm",
-   "d": "沙田路近博康商場早上7時許發生交通意外，涉及兩架私家車。 運輸署表示，受意外影響，沙田路往馬鞍山方向近新田圍全線封閉，獅子山隧道往沙田方向實施間歇性封閉。 編輯：黃佩珊",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879306_1_M_20261126082102.jpg",
-   "at": "2026-11-26T00:18+00:00",
+   "t": "沙田路意外一名司機酒精測試超標帶署調查 獅隧往沙田已取消封閉",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879322-20261126.htm",
+   "d": "沙田路早上發生交通意外，涉及兩輛私家車，其中一名司機現場接受酒精呼氣測試，證實超標，需要帶返警署接受進一步調查。 運輸署表示，獅子山隧道往沙田方向取消間歇性封閉。 編輯：譚佩貞",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879322_1_M_20261126100040.jpg",
+   "at": "2026-11-26T01:48+00:00",
    "where": [
     22.32,
     114.17,
@@ -46,25 +46,30 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "港鐵天水圍站故障工程車已駛離行車線 屯馬綫逐步回復正常",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879293-20261126.htm",
-   "d": "港鐵表示，較早時在天水圍站故障的工程車，已經駛離行車線，屯馬綫列車服務逐步回復正常。 編輯：盧曉珊",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879293_1_M_20261126062507.jpg",
-   "at": "2026-11-25T22:23+00:00",
+   "t": "陳茂波展開荷蘭訪問行程 介紹香港最新發展及加強與當地交流合作",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879320-20261126.htm",
+   "d": "財政司司長陳茂波率領香港經貿和創科代表團結束英國的訪問後，轉抵荷蘭，展開當地的訪問行程，介紹香港的最新發展，以加強香港與荷蘭的商貿和創科交流與合作。 陳茂波抵達海牙後，與荷蘭外交部秘書長會面，雙方就「一國兩制」的安排，香港的營商環境和經濟金融近況，以及推進兩地在經貿和創科領域的進一步合作交換意見。他說，這次率團到訪荷蘭，旨在向當地各界推介香港在金融、投資和創科範疇的新機遇，以及北部都會區的發展，促進香港與荷蘭更多合作。 他亦與荷蘭財政部…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879320_1_M_20261126095146.jpg",
+   "at": "2026-11-26T01:41+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    52.2,
+    5.3,
+    "荷蘭"
    ]
   },
   {
    "src": "國際",
    "lang": "zh",
-   "t": "宏福苑大火一週年：「這條刺永遠都在」，遺屬在傷痛中尋找答案",
-   "u": "https://www.bbc.com/zhongwen/articles/c3j4r274lj82o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "對許多家庭來說，道歉只是「最低消費」，他們仍在等一個完整的答案。BBC中文接觸了多位遇難者家屬，記錄他們怎樣度過這一年。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/56ac/live/daaf9c90-e86c-11f1-a80a-1f378de16ace.jpg",
-   "at": "2026-11-25T03:21+00:00"
+   "t": "宏福苑大火一周年：居民受壓、媒體噤聲，為何悼念變得小心翼翼？",
+   "u": "https://www.bbc.com/zhongwen/articles/cw8dv46pv125o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "宏福苑大火一周年前夕，港府官員稱「政府絕對容許」合法活動，但有遺屬表示悼念活動受壓，也有新聞工作者向BBC中文透露，相關周年報導在製作完成後突然「被抽起」。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b501/live/4704feb0-e80b-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-24T10:13+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
   },
   {
    "src": "世界",
@@ -83,11 +88,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "天水圍站工程車設備故障 屯馬綫候車時間預計多10至15分鐘",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879290-20261126.htm",
-   "d": "港鐵表示，由於天水圍站有工程車設備故障，屯馬綫的列車班次需要調整，候車時間預計會比平日多10至15分鐘。港鐵免費接駁巴士將於稍後時間到達。 目前來往屯門至元朗站預計要25分鐘一班，來往元朗至烏溪沙站8分鐘一班車。 港鐵現正提供免費接駁巴士來往元朗站和屯門站，途經沿途各站。 編輯：方潤南",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879290_1_M_20261126060905.jpg",
-   "at": "2026-11-25T22:09+00:00",
+   "t": "宏福苑火災一周年 黃偉綸稱政府汲取教訓作出改革並繼續支援居民",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879318-20261126.htm",
+   "d": "大埔宏福苑火災一周年，財政司副司長兼署理房屋局局長黃偉綸表示，大家都理解受災住戶的傷痛，政府會汲取事件的教訓，作出改革，同時繼續為居民提供支援，盼望居民早日走出傷痛。他又說，明白有些居民可能要較長時間，社會會持續支援他們。 黃偉綸在一個電台節目表示，至今仍有13戶未有向政府出售業權，當局下月會再接觸他們，希望繼續溝通，了解他們是否會改變主意，現時有個別業主已表明希望繼續商討，但他強調為公平起見，政府絕不會提供更優厚的收購條件。他又說，透…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879318_1_M_20261126100019.jpg",
+   "at": "2026-11-26T01:37+00:00",
    "where": [
     22.32,
     114.17,
@@ -97,16 +102,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "神舟二十四號成功發射 首位巴基斯坦航天員登中國「天宮」意味什麼？",
-   "u": "https://www.bbc.com/zhongwen/articles/cm9w91y0pge7o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "這次任務對航天員阿里而言，這是巴基斯坦的榮耀時刻；對中國而言，則是其與美國爭奪太空主導地位競賽中的又一步進展。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/1ba3/live/30b4f710-e8a5-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-25T09:44+00:00",
-   "where": [
-    30.4,
-    69.3,
-    "巴基斯坦"
-   ]
+   "t": "宏福苑大火一週年：「這條刺永遠都在」，遺屬在傷痛中尋找答案",
+   "u": "https://www.bbc.com/zhongwen/articles/c3j4r274lj82o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "對許多家庭來說，道歉只是「最低消費」，他們仍在等一個完整的答案。BBC中文接觸了多位遇難者家屬，記錄他們怎樣度過這一年。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/56ac/live/daaf9c90-e86c-11f1-a80a-1f378de16ace.jpg",
+   "at": "2026-11-25T03:21+00:00"
   },
   {
    "src": "世界",
@@ -125,11 +125,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "警方調查清水灣道昨日傍晚致命交通意外 69歲小巴司機不治",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879283-20261126.htm",
-   "d": "清水灣道昨日傍晚發生致命交通意外，警方正在調查。 警方表示，昨日傍晚6時16分，一名69歲小巴司機，將小巴停泊在大坳門路一個巴士站對開並下車，據報小巴溜前，他嘗試制止時跌倒，被困車底，由消防員救出，他頭部嚴重受傷，昏迷送往將軍澳醫院治理，去到晚上8時01分證實不治。 東九龍總區交通部特別調查隊正在調查案件。 編輯：盧曉珊",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879283_1_M_20261126032813.jpg",
-   "at": "2026-11-25T19:28+00:00",
+   "t": "【重溫】2026年11月26日《社評摘要》",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879307-20261126.htm",
+   "d": "匯集各大報章社論及評論精華，多角度呈現各方觀點。",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879307_1_M_20261126081834.jpg",
+   "at": "2026-11-26T01:32+00:00",
    "where": [
     22.32,
     114.17,
@@ -167,11 +167,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "屯門醫院懷疑有人擅自取走手術室內止痛藥物 一名外科醫生被捕",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879277-20261126.htm",
-   "d": "屯門醫院表示，早前接獲部門報告，懷疑有人擅自取走手術室內，屬於危險藥物類別、用作止痛的藥物，院方報警，警方拘捕一名外科醫生，涉案醫生已離職。 院方的聲明說，事發期間有一名病人於相關手術室接受手術，經詳細臨床評估後，確認事件對病人的手術過程、治療及術後康復沒有影響，院方已向病人致歉，並繼續提供適切協助。 屯門醫院表示，已經透過早期事故通報系統，向醫管局總辦事處通報事件，並已通知衞生署，重申一向重視醫護人員的專業操守，會全力配合警方調查，強…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879277_1_M_20261126012051.jpg",
-   "at": "2026-11-25T17:20+00:00",
+   "t": "【重溫】2026年11月26日《報章摘要》",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879305-20261126.htm",
+   "d": "每日搜羅本港主要報章要聞，緊貼社會動態。",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879305_1_M_20261126081759.jpg",
+   "at": "2026-11-26T01:31+00:00",
    "where": [
     22.32,
     114.17,
@@ -209,11 +209,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "香港藝術節網站遭入侵 初步懷疑數千名觀眾資料外洩",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879275-20261126.htm",
-   "d": "香港藝術節協會表示，星期一發現協會的主網站，遭到未經授權的第三方入侵，已經向警方報案及通報個人資料私隱專員公署，協會就事件深表歉意。 香港藝術節的聲明說，與外判網站服務及雲端託管承辦商深入調查，並即時採取措施防止未經授權的第三方再次非法入侵，初步懷疑數千名第55屆藝術節門票預訂觀眾的個人資料，可能曾經被未經授權人士非法閱覽，協會已經透過電郵通知可能受影響的觀眾，強調會全力配合調查，並採取適當措施，防止同類事件再次發生。 香港藝術節網站主…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879275_1_M_20261126010946.jpg",
-   "at": "2026-11-25T16:56+00:00",
+   "t": "沙田路往馬鞍山方向近新田圍已解封 獅隧往沙田方向仍間歇性封閉",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879317-20261126.htm",
+   "d": "運輸署表示，較早前因交通意外而封閉的沙田路往馬鞍山方向、近新田圍的全線現已解封。車龍有待消散。 而獅子山隧道往沙田方向仍然實施間歇性封閉。 編輯：譚佩貞",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879317_1_M_20261126093802.jpg",
+   "at": "2026-11-26T01:26+00:00",
    "where": [
     22.32,
     114.17,
@@ -251,10 +251,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "堅道天主教座堂為宏福苑亡者舉行追思彌撒",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879271-20261125.htm",
-   "d": "堅道天主教聖母無原罪主教座堂為宏褔苑火災亡者舉行追思彌撒。 主持彌撒的陳志明神父在講道中表示，追思彌撒可以為在世者帶來彼此扶持的空間，將哀傷的人聚集一起，是治癒的過程。他又說，要用具體行動關懷受影響的家庭，推動居住安全，陪伴遺屬走過哀傷。宏福苑居民及大火遺屬其後到祭台前接受神父祝福。 遺屬之一、來自基督教信義會鑽石堂的牧師林一君分享說，她在大火中失去3名親人，作為牧師，苦難面前也會流淚，但毋須為過去一年未能「走出來」感到內疚，過去一年對…",
-   "at": "2026-11-25T15:15+00:00",
+   "t": "沙田路交通意外部分行車線封閉 車龍龍尾到九龍塘窩打老道",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879310-20261126.htm",
+   "d": "沙田路近博康商場對開早上發生交通意外，沙田路往馬鞍山方向、近新田圍全線仍然封閉，現時車龍的龍尾已到九龍塘窩打老道。 意外涉及兩輛私家車。運輸署表示，受意外影響，獅子山隧道往沙田方向，仍然實施間歇性封閉。 現時上址交通擠塞，運輸署呼籲駕駛人士考慮改用其他道路，例如青沙公路或大老山隧道。 編輯：譚佩貞",
+   "at": "2026-11-26T00:57+00:00",
    "where": [
     22.32,
     114.17,
@@ -291,10 +291,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "香港中醫醫院與湖南中醫藥大學第一附屬醫院簽署戰略合作協議",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879267-20261125.htm",
-   "d": "，出席見證的醫務衞生局副局長范婉雯表示，國家「十五五」規劃強調要推進中醫藥傳承創新、健全中醫藥服務體系及發展中西醫協同服務。特區政府透過建設香港中醫醫院，促進中西醫協作服務、臨床人才培養及中醫藥科研的發展。她形容，今次兩院建立戰略合作夥伴關係，將攜手打造國際中醫藥人才及資源集聚高地，向世界弘揚中醫藥文化。 范婉雯相信，香港中醫醫院會繼續發揮香港在「一國兩制」下，背靠祖國、聯通世界的獨特優勢，推進跨地域、多機構共同協作，積極與內地和國際醫…",
-   "at": "2026-11-25T14:42+00:00",
+   "t": "天水圍站工程車故障致屯馬綫候車一度延長 港鐵稱深入調查原因",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879309-20261126.htm",
+   "d": "天水圍站工程車設備今早一度故障，令屯馬綫候車時間延長。港鐵表示，清晨約4時，一列工程車在天水圍站附近完成架空電纜保養工作後，車上升降台一度出現故障，工程人員需要在現場進行修復工作，其後將升降台降下後，工程車駛離行車綫至天水圍至兆康站之間的側綫。 在處理事件期間，來往屯門至元朗站的路段需要採取單軌雙程行車，因此自頭班車起，來往屯門至元朗站的列車班次，需要調整為約25分鐘一班車；至於元朗至烏溪沙站則可維持正常班次。 期間港鐵安排免費接駁巴士…",
+   "at": "2026-11-26T00:47+00:00",
    "where": [
     22.32,
     114.17,
@@ -331,10 +331,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "回應有網民稱特區護照缺漏部份內頁 入境處疑有人無合法授權改動",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879266-20261125.htm",
-   "d": "入境處表示，就有市民在社交媒體聲稱特區護照缺漏部份內頁，懷疑為出廠瑕疵事件，當事人已親身到入境處了解，處方經詳細檢視涉事特區護照後，發現疑似被改動痕跡，懷疑有人沒有合法授權而改動該護照，已即時轉介執法部跟進調查，並會將涉事特區護照送交政府化驗所詳細化驗。 處方亦指，當事人在社交媒體聲稱於日本遣返回港後，在機場曾獲處方人員確認有關缺頁為印刷裝訂的出廠瑕疵；該名當事人今日向入境處改稱，有關說法並非來自處方人員。 處方表示，特區護照簽發程序由…",
-   "at": "2026-11-25T14:40+00:00",
+   "t": "沙田博康商場對開交通意外 獅子山隧道往沙田方向需間歇性封閉",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879306-20261126.htm",
+   "d": "沙田路近博康商場早上7時許發生交通意外，涉及兩輛私家車。 運輸署表示，受意外影響，沙田路往馬鞍山方向近新田圍全線封閉，獅子山隧道往沙田方向實施間歇性封閉。 編輯：黃佩珊",
+   "at": "2026-11-26T00:18+00:00",
    "where": [
     22.32,
     114.17,
@@ -358,10 +358,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "疑未獲授權為兒童病房男病人檢查 威院男醫生涉非禮被捕",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879262-20261125.htm",
-   "d": "威爾斯親王醫院表示，一名醫生早前懷疑在兒童外科病房為兩名男病人檢查身體時，未獲主治團隊授權有關檢查程序，院方就事件報警。警方指，一名31歲男子涉嫌非禮被捕，獲准保釋候查，案件由沙田警區重案組跟進。 威院表示高度重視事件，被捕醫生在威院負責教學及臨床工作，已即時禁止他進入該院臨床範圍，亦終止他執行臨床工作及登入臨床醫療系統的權限。中大說，已暫停該名教員所有職務，並將按相關程序調查。 威院回覆查詢時指出，上月30日凌晨，病房職員發現事件後，…",
-   "at": "2026-11-25T13:51+00:00",
+   "t": "港鐵天水圍站故障工程車已駛離行車線 屯馬綫逐步回復正常",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879293-20261126.htm",
+   "d": "港鐵表示，較早時在天水圍站故障的工程車，已經駛離行車線，屯馬綫列車服務逐步回復正常。 編輯：盧曉珊",
+   "at": "2026-11-25T22:23+00:00",
    "where": [
     22.32,
     114.17,
@@ -371,25 +371,25 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "宏福苑大火一周年：居民受壓、媒體噤聲，為何悼念變得小心翼翼？",
-   "u": "https://www.bbc.com/zhongwen/articles/cw8dv46pv125o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "宏福苑大火一周年前夕，港府官員稱「政府絕對容許」合法活動，但有遺屬表示悼念活動受壓，也有新聞工作者向BBC中文透露，相關周年報導在製作完成後突然「被抽起」。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b501/live/4704feb0-e80b-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-24T10:13+00:00",
+   "t": "伊朗女歌手演出不戴頭巾「已遭執行74鞭笞刑」",
+   "u": "https://www.bbc.com/zhongwen/articles/cxzd9y2gre3lo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "據律師團隊所稱，伊朗女歌手帕拉斯托·阿赫瑪迪、三名音樂人及一名製作人在庫姆被執行74鞭笞刑。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/6a11/live/e201bf70-bb4c-11f1-bc1f-3f186ca4140c.jpg",
+   "at": "2026-11-24T02:19+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    32.4,
+    53.7,
+    "伊朗"
    ]
   },
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "PWH doctor arrested over alleged indecent assault",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879268-20261125.htm",
-   "d": "A 31-year-old doctor at Prince of Wales Hospital has been arrested on suspicion of indecent assault, after he allegedly performed physical examinations on two male patients in the paediatric ward without authorisation la…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879268_1_M_20261125224546.jpg",
-   "at": "2026-11-25T14:55+00:00",
+   "t": "Two-car crash shuts Sha Tin Road lanes",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879313-20261126.htm",
+   "d": "A traffic accident involving two private cars took place on Sha Tin Road, opposite Pok Hong Shopping Centre, on Thursday morning. The Transport Department said all lanes of Sha Tin Road towards Ma On Shan, near Sun Tin W…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879313_1_M_20261126091921.jpg",
+   "at": "2026-11-26T01:27+00:00",
    "where": [
     22.32,
     114.17,
@@ -416,8 +416,8 @@
    "t": "US announces new tariffs on host of countries including China",
    "u": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
    "d": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/91fc/live/6d9c5c50-e908-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-25T16:21+00:00",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9117/live/98cd84e0-e92a-11f1-9929-f96d7c6cbd39.jpg",
+   "at": "2026-11-26T01:20+00:00",
    "where": [
     34.0,
     108.0,
@@ -427,11 +427,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Four-time MVP Rodgers released and may have played last NFL game",
-   "u": "https://www.bbc.co.uk/sport/american-football/articles/c64gn8ryp7jno?at_medium=RSS&at_campaign=rss",
-   "d": "Veteran quarterback Aaron Rodgers may have played his last game in the NFL after being released by the Pittsburgh Steelers.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/06b6/live/78394d70-e8d7-11f1-a3b9-79c60ec9ab33.jpg",
-   "at": "2026-11-25T14:37+00:00",
+   "t": "Macy's postpones Thanksgiving parade due to weather",
+   "u": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
+   "d": "The was the first time ever that the iconic celebration - known for its massive balloons floating past the city's skyscrapers - was delayed because of storms.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/77a3/live/3e055710-e932-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-25T23:57+00:00",
    "where": [
     38.9,
     -77.04,
@@ -483,25 +483,25 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-   "u": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-   "d": "Another 21 are injured after the tanker reportedly overturns on a busy ring road in the Egyptian capital.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2d4b/live/5e57daf0-e91f-11f1-9108-c5b270b0703d.jpg",
-   "at": "2026-11-25T22:18+00:00",
+   "t": "As foreign troops withdraw from Somalia, could al-Shabab take over?",
+   "u": "https://www.bbc.co.uk/news/articles/ck62y23z58yeo?at_medium=RSS&at_campaign=rss",
+   "d": "Somalia relies heavily on foreign funding and military support for its very survival.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/96e8/live/f14b1490-dc2b-11f1-a5b1-adf9c8e8d692.jpg",
+   "at": "2026-11-26T02:06+00:00",
    "where": [
-    5.0,
-    20.0,
-    "非洲"
+    2.05,
+    45.32,
+    "索馬里"
    ]
   },
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Data of 1.3 million URBTIX users compromised in attack",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879255-20261125.htm",
-   "d": "The government's Urban Ticketing System (URBTIX) has been hacked, with the personal data of some 1.3 million users accessed illegally. Authorities were notified of the incident on Tuesday by a contractor responsible for …",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879255_1_M_20261125203948.jpg",
-   "at": "2026-11-25T13:11+00:00",
+   "t": "PWH doctor arrested over alleged indecent assault",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879268-20261125.htm",
+   "d": "A 31-year-old doctor at Prince of Wales Hospital has been arrested on suspicion of indecent assault, after he allegedly performed physical examinations on two male patients in the paediatric ward without authorisation la…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879268_1_M_20261125224546.jpg",
+   "at": "2026-11-25T14:55+00:00",
    "where": [
     22.32,
     114.17,
@@ -539,15 +539,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Macy's postpones Thanksgiving parade due to weather",
-   "u": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
-   "d": "The was the first time ever that the iconic celebration - known for its massive balloons floating past the city's skyscrapers - was delayed because of storms.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c21b/live/11998ed0-e914-11f1-8383-53f283141713.jpg",
-   "at": "2026-11-25T23:57+00:00",
+   "t": "California warns of flooding as king tides peak over Thanksgiving",
+   "u": "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss",
+   "d": "Parts of the Canadian province of British Columbia may also be affected by the storms, which come as millions of people travel for the holiday.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6396/live/c71ce590-e919-11f1-8383-53f283141713.jpg",
+   "at": "2026-11-26T01:22+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    37.0,
+    -120.0,
+    "加州"
    ]
   },
   {
@@ -595,25 +595,25 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Veteran Nigerian Nollywood actor Pete Edochie dies aged 79",
-   "u": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo?at_medium=RSS&at_campaign=rss",
-   "d": "Odochie rose to prominence in 1987 after starring in a television adaptation of Chinua Achebe's acclaimed novel Things Fall Apart.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/62c6/live/0b9efbb0-e88c-11f1-b10e-f37861cef9d5.jpg",
-   "at": "2026-11-25T12:24+00:00",
+   "t": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+   "u": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+   "d": "Another 21 are injured after the tanker reportedly overturns on a busy ring road in the Egyptian capital.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2d4b/live/5e57daf0-e91f-11f1-9108-c5b270b0703d.jpg",
+   "at": "2026-11-25T22:18+00:00",
    "where": [
-    9.1,
-    8.7,
-    "尼日利亞"
+    5.0,
+    20.0,
+    "非洲"
    ]
   },
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "CE pledges full support for Wang Fuk Court residents",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879235-20261125.htm",
-   "d": "Chief Executive John Lee pledged his full support for homeowners in undertaking estate maintenance work in the future, as he visited residents of Wang Fuk Court who will move into their new permanent homes. During the vi…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879235_1_M_20261125171726.jpg",
-   "at": "2026-11-25T09:36+00:00",
+   "t": "Data of 1.3 million URBTIX users compromised in attack",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879255-20261125.htm",
+   "d": "The government's Urban Ticketing System (URBTIX) has been hacked, with the personal data of some 1.3 million users accessed illegally. Authorities were notified of the incident on Tuesday by a contractor responsible for …",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879255_1_M_20261125203948.jpg",
+   "at": "2026-11-25T13:11+00:00",
    "where": [
     22.32,
     114.17,
@@ -707,11 +707,11 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Five Mexicans arrested in Nigeria over $227m meth lab",
-   "u": "https://www.bbc.co.uk/news/articles/c6x20lw8955no?at_medium=RSS&at_campaign=rss",
-   "d": "This is the fourth industrial-scale meth laboratory with alleged links to Mexican drug cartels to have been discovered in Nigeria in recent months.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4e9a/live/d8c60350-e8e0-11f1-a3b9-79c60ec9ab33.jpg",
-   "at": "2026-11-25T15:11+00:00",
+   "t": "Veteran Nigerian Nollywood actor Pete Edochie dies aged 79",
+   "u": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo?at_medium=RSS&at_campaign=rss",
+   "d": "Odochie rose to prominence in 1987 after starring in a television adaptation of Chinua Achebe's acclaimed novel Things Fall Apart.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/62c6/live/0b9efbb0-e88c-11f1-b10e-f37861cef9d5.jpg",
+   "at": "2026-11-25T12:24+00:00",
    "where": [
     9.1,
     8.7,
@@ -721,11 +721,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "'Student loan flaws in vetting and recovery'",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879234-20261125.htm",
-   "d": "The Audit Commission has called on the Working Family and Student Financial Assistance Agency to speed up legal recovery action against student loan defaulters, after a review found that about 45 percent of overdue cases…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879234_1_M_20261125171503.jpg",
-   "at": "2026-11-25T09:15+00:00",
+   "t": "CE pledges full support for Wang Fuk Court residents",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879235-20261125.htm",
+   "d": "Chief Executive John Lee pledged his full support for homeowners in undertaking estate maintenance work in the future, as he visited residents of Wang Fuk Court who will move into their new permanent homes. During the vi…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879235_1_M_20261125171726.jpg",
+   "at": "2026-11-25T09:36+00:00",
    "where": [
     22.32,
     114.17,
@@ -763,15 +763,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Angelina Jolie and Brad Pitt settle legal battle over French winery",
-   "u": "https://www.bbc.co.uk/news/articles/cmvg2989wv74o?at_medium=RSS&at_campaign=rss",
-   "d": "The Hollywood A-listers' legal battle focused on the vineyard they bought in 2008 and where they wed six years later.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/32bb/live/4d5bc080-e920-11f1-9108-c5b270b0703d.jpg",
-   "at": "2026-11-25T23:18+00:00",
+   "t": "Four-time MVP Rodgers released and may have played last NFL game",
+   "u": "https://www.bbc.co.uk/sport/american-football/articles/c64gn8ryp7jno?at_medium=RSS&at_campaign=rss",
+   "d": "Veteran quarterback Aaron Rodgers may have played his last game in the NFL after being released by the Pittsburgh Steelers.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/06b6/live/78394d70-e8d7-11f1-a3b9-79c60ec9ab33.jpg",
+   "at": "2026-11-25T14:37+00:00",
    "where": [
-    46.6,
-    2.4,
-    "法國"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -819,25 +819,25 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "South Africa's Ramaphosa wins court battle over impeachment threat",
-   "u": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o?at_medium=RSS&at_campaign=rss",
-   "d": "The break-in happened in 2020, when thieves allegedly stole bundles of US dollar bills hidden inside a sofa at the farm.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f4f9/live/01698130-e808-11f1-95bb-3f37d3e026b0.jpg",
-   "at": "2026-11-25T15:42+00:00",
+   "t": "Five Mexicans arrested in Nigeria over $227m meth lab",
+   "u": "https://www.bbc.co.uk/news/articles/c6x20lw8955no?at_medium=RSS&at_campaign=rss",
+   "d": "This is the fourth industrial-scale meth laboratory with alleged links to Mexican drug cartels to have been discovered in Nigeria in recent months.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4e9a/live/d8c60350-e8e0-11f1-a3b9-79c60ec9ab33.jpg",
+   "at": "2026-11-25T15:11+00:00",
    "where": [
-    -30.6,
-    22.9,
-    "南非"
+    9.1,
+    8.7,
+    "尼日利亞"
    ]
   },
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "'Govt to enlist foreign artists to promote HK culture'",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879226-20261125.htm",
-   "d": "Secretary for Culture, Sports and Tourism Rosanna Law said on Wednesday that the government would continue to seek collaboration with overseas artists to promote Hong Kong culture. At a Legislative Council meeting, lawma…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879226_1_M_20261125170232.jpg",
-   "at": "2026-11-25T09:02+00:00",
+   "t": "'Student loan flaws in vetting and recovery'",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879234-20261125.htm",
+   "d": "The Audit Commission has called on the Working Family and Student Financial Assistance Agency to speed up legal recovery action against student loan defaulters, after a review found that about 45 percent of overdue cases…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879234_1_M_20261125171503.jpg",
+   "at": "2026-11-25T09:15+00:00",
    "where": [
     22.32,
     114.17,
@@ -875,15 +875,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "US approves SpaceX plan to send a million data satellites to space",
-   "u": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
-   "d": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fd78/live/4cbffd10-e91d-11f1-9108-c5b270b0703d.jpg",
-   "at": "2026-11-26T00:07+00:00",
+   "t": "Angelina Jolie and Brad Pitt settle legal battle over French winery",
+   "u": "https://www.bbc.co.uk/news/articles/cmvg2989wv74o?at_medium=RSS&at_campaign=rss",
+   "d": "The Hollywood A-listers' legal battle focused on the vineyard they bought in 2008 and where they wed six years later.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/32bb/live/4d5bc080-e920-11f1-9108-c5b270b0703d.jpg",
+   "at": "2026-11-25T23:18+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    46.6,
+    2.4,
+    "法國"
    ]
   },
   {
@@ -931,25 +931,25 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "'Justice for sport' - reaction to Afcon final verdict",
-   "u": "https://www.bbc.co.uk/sport/football/articles/c6vg2e32e7vno?at_medium=RSS&at_campaign=rss",
-   "d": "Players and officials in Senegal have welcomed the decision to reinstate the West Africans as Afcon 2025 champions, but those in Morocco still contest the decision.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/46c6/live/764fb5d0-e8eb-11f1-8808-1d4222955d7e.jpg",
-   "at": "2026-11-25T17:32+00:00",
+   "t": "South Africa's Ramaphosa wins court battle over impeachment threat",
+   "u": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o?at_medium=RSS&at_campaign=rss",
+   "d": "The break-in happened in 2020, when thieves allegedly stole bundles of US dollar bills hidden inside a sofa at the farm.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f4f9/live/01698130-e808-11f1-95bb-3f37d3e026b0.jpg",
+   "at": "2026-11-25T15:42+00:00",
    "where": [
-    5.0,
-    20.0,
-    "非洲"
+    -30.6,
+    22.9,
+    "南非"
    ]
   },
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Govt pledges 60pc elimination of rodent spots",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879225-20261125.htm",
-   "d": "Secretary for Environment and Ecology Tse Chin-wan on Wednesday said the government aimed to eliminate 60 percent of rodent blackspots across the city by the end of this year. In a written reply to the Legislative Counci…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879225_1_M_20261125161024.jpg",
-   "at": "2026-11-25T08:33+00:00",
+   "t": "'Govt to enlist foreign artists to promote HK culture'",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879226-20261125.htm",
+   "d": "Secretary for Culture, Sports and Tourism Rosanna Law said on Wednesday that the government would continue to seek collaboration with overseas artists to promote Hong Kong culture. At a Legislative Council meeting, lawma…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879226_1_M_20261125170232.jpg",
+   "at": "2026-11-25T09:02+00:00",
    "where": [
     22.32,
     114.17,
@@ -987,11 +987,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "US Army says controlled blast of explosives in Iowa was 'huge success'",
-   "u": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss",
-   "d": "Despite widespread concern from residents ahead of the blast, officials say that lead readings in the area so far have been promising.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9049/live/be474ac0-e8f9-11f1-b8b0-a95064d74c5f.jpg",
-   "at": "2026-11-26T00:23+00:00",
+   "t": "US approves SpaceX plan to send a million data satellites to space",
+   "u": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+   "d": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fd78/live/4cbffd10-e91d-11f1-9108-c5b270b0703d.jpg",
+   "at": "2026-11-26T00:07+00:00",
    "where": [
     38.9,
     -77.04,
@@ -1043,24 +1043,24 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "UK sent sex offender refugee to Eswatini in undisclosed deal",
-   "u": "https://www.bbc.co.uk/news/articles/c6z7407zrgwvo?at_medium=RSS&at_campaign=rss",
-   "d": "The deal is said to be the first known case of the UK government forcibly resettling a refugee permanently overseas.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/10b2/live/e454de40-e89e-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-25T06:00+00:00",
+   "t": "'Justice for sport' - reaction to Afcon final verdict",
+   "u": "https://www.bbc.co.uk/sport/football/articles/c6vg2e32e7vno?at_medium=RSS&at_campaign=rss",
+   "d": "Players and officials in Senegal have welcomed the decision to reinstate the West Africans as Afcon 2025 champions, but those in Morocco still contest the decision.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/46c6/live/764fb5d0-e8eb-11f1-8808-1d4222955d7e.jpg",
+   "at": "2026-11-25T17:32+00:00",
    "where": [
-    52.5,
-    -1.5,
-    "英國"
+    5.0,
+    20.0,
+    "非洲"
    ]
   },
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Formulary to be rolled out for cheaper and more drugs",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879208-20261125.htm",
-   "d": "The Health Bureau said the Community Drug Formulary will be launched on December 30, with more drugs at lower prices available for patients under the Primary Healthcare Co-care Network. Currently, family doctors under th…",
-   "at": "2026-11-25T06:25+00:00",
+   "t": "Govt pledges 60pc elimination of rodent spots",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879225-20261125.htm",
+   "d": "Secretary for Environment and Ecology Tse Chin-wan on Wednesday said the government aimed to eliminate 60 percent of rodent blackspots across the city by the end of this year. In a written reply to the Legislative Counci…",
+   "at": "2026-11-25T08:33+00:00",
    "where": [
     22.32,
     114.17,
@@ -1098,11 +1098,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "US stocks fall further as fears over AI intensify",
-   "u": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
-   "d": "All three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9f2e/live/6940e8e0-e8f1-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-25T21:43+00:00",
+   "t": "US Army says controlled blast of explosives in Iowa was 'huge success'",
+   "u": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss",
+   "d": "Despite widespread concern from residents ahead of the blast, officials say that lead readings in the area so far have been promising.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9049/live/be474ac0-e8f9-11f1-b8b0-a95064d74c5f.jpg",
+   "at": "2026-11-26T00:23+00:00",
    "where": [
     38.9,
     -77.04,
@@ -1140,24 +1140,24 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Zimbabwe issues arrest warrant for Robert Mugabe's son over missed court date",
-   "u": "https://www.bbc.co.uk/news/articles/c6d917jn5gq7o?at_medium=RSS&at_campaign=rss",
-   "d": "The son of Zimbabwe's late former President Robert Mugabe has faced multiple legal troubles in the recent past.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d4e2/live/505d3ac0-e89e-11f1-88cb-d14f0511e6fd.jpg",
-   "at": "2026-11-25T07:26+00:00",
+   "t": "Shot in the face at 15: The lives shattered by Cameroon's decade of conflict",
+   "u": "https://www.bbc.co.uk/news/articles/crd6128y1qn1o?at_medium=RSS&at_campaign=rss",
+   "d": "More than half a million people have fled their homes since separatist groups demanded independence for Cameroon's English-speaking regions.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7dac/live/653c0750-e7d1-11f1-83ab-9953b30aab1f.jpg",
+   "at": "2026-11-25T01:00+00:00",
    "where": [
-    -17.83,
-    31.05,
-    "津巴布韋"
+    3.87,
+    11.52,
+    "喀麥隆"
    ]
   },
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Lands Dept urged to hasten lease modification process",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879198-20261125.htm",
-   "d": "A single application to modify land lease conditions has been left unresolved with the Lands Department for 29.1 years, the Audit Commission has found. In a review, the commission found the department took too long to ha…",
-   "at": "2026-11-25T05:45+00:00",
+   "t": "Formulary to be rolled out for cheaper and more drugs",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879208-20261125.htm",
+   "d": "The Health Bureau said the Community Drug Formulary will be launched on December 30, with more drugs at lower prices available for patients under the Primary Healthcare Co-care Network. Currently, family doctors under th…",
+   "at": "2026-11-25T06:25+00:00",
    "where": [
     22.32,
     114.17,
@@ -1223,24 +1223,24 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Shot in the face at 15: The lives shattered by Cameroon's decade of conflict",
-   "u": "https://www.bbc.co.uk/news/articles/crd6128y1qn1o?at_medium=RSS&at_campaign=rss",
-   "d": "More than half a million people have fled their homes since separatist groups demanded independence for Cameroon's English-speaking regions.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7dac/live/653c0750-e7d1-11f1-83ab-9953b30aab1f.jpg",
-   "at": "2026-11-25T01:00+00:00",
+   "t": "UK sent sex offender refugee to Eswatini in undisclosed deal",
+   "u": "https://www.bbc.co.uk/news/articles/c6z7407zrgwvo?at_medium=RSS&at_campaign=rss",
+   "d": "The deal is said to be the first known case of the UK government forcibly resettling a refugee permanently overseas.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/10b2/live/e454de40-e89e-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-25T06:00+00:00",
    "where": [
-    3.87,
-    11.52,
-    "喀麥隆"
+    52.5,
+    -1.5,
+    "英國"
    ]
   },
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Consumer Council urged to improve complaints handling",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879191-20261125.htm",
-   "d": "The city's auditor has called on the Consumer Council to improve its handling and processing of public complaints and enquiries. In its latest report published on Wednesday, the Audit Commission noted that between the 20…",
-   "at": "2026-11-25T05:05+00:00",
+   "t": "Lands Dept urged to hasten lease modification process",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879198-20261125.htm",
+   "d": "A single application to modify land lease conditions has been left unresolved with the Lands Department for 29.1 years, the Audit Commission has found. In a review, the commission found the department took too long to ha…",
+   "at": "2026-11-25T05:45+00:00",
    "where": [
     22.32,
     114.17,
@@ -1264,10 +1264,10 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "'Bid-rigging task force proves powerful deterrent'",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879181-20261125.htm",
-   "d": "Security Secretary Chris Tang on Wednesday said the joint task force on bid-rigging is already proving a powerful deterrent — as he warned of a new tactic in which syndicates fabricate repair orders to pressure owners in…",
-   "at": "2026-11-25T03:41+00:00",
+   "t": "Consumer Council urged to improve complaints handling",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879191-20261125.htm",
+   "d": "The city's auditor has called on the Consumer Council to improve its handling and processing of public complaints and enquiries. In its latest report published on Wednesday, the Audit Commission noted that between the 20…",
+   "at": "2026-11-25T05:05+00:00",
    "where": [
     22.32,
     114.17,
