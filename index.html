@@ -1538,7 +1538,7 @@ var CONFIG = {
     { n: '🕰️ 鐘 · 波 Clock & fun', pages: ['p2', 'p3', 'pbday'] },
     { n: '⚡ 能源 Energy', pages: ['penergy', 'preview', 'ptips'] }
   ],
-  rotate: { secs: 60, stay: 300 },
+  rotate: { secs: 120, first: 300, stay: 300 },   // first = the Home page stays 5 min, the other turning pages 2 min each
   // Night mode: between these hours (iPad's own clock) a dim, soft clock replaces the pages.
   // A tap shows the dashboard (dimmed) for 'wake' seconds, then the night clock comes back. ?night=1 / ?night=0 to test.
   // Birthday page (page 14): joins the turning pages when the next birthday is this many days away or less.
@@ -1813,7 +1813,7 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
     var list = (window.ROTATE_PAGES || []).slice(); if (!list.length) return;
     if (window.bdaySoon && BDAY_PAGE >= 0 && list.indexOf(BDAY_PAGE) < 0) list.push(BDAY_PAGE);   // birthday page joins in when one is close
     var at = list.indexOf(PAGE);
-    if (Date.now() - pageAt < (at >= 0 ? R.secs : R.stay || R.secs) * 1000) return;
+    if (Date.now() - pageAt < (at < 0 ? R.stay || R.secs : at === 0 && R.first ? R.first : R.secs) * 1000) return;
     goPage(list[(at + 1) % list.length]);
   }, 2000);
   document.addEventListener('keydown', function (e) {
@@ -2175,15 +2175,25 @@ var SCENES = [
   } }
 ];
 var PHOTOS = [], pIdx = -1, pTimer = null, pDeck = [], pForce = -1;
-/* Random order: each round shows every photo once, shuffled, and never the same one twice in a row. */
+/* Random order: each round shows every photo once, shuffled, never the same one twice in a row, and the next photo
+   is from a different day when possible (an album often has several near-identical shots of one day). The photos
+   already shown this round are remembered on the iPad, so a page reload carries on the round instead of restarting it. */
+function photoKey(i, n) { var p = PHOTOS[n - 1 - i] || {}; return p.src || ''; }
+function photoDay(i, n) { var p = PHOTOS[n - 1 - i] || {}; return p.when || p.src || ''; }
 function shuffleNext(deck, cur, n) {
+  var seen = []; try { seen = JSON.parse(localStorage.getItem('photoSeen') || '[]'); } catch (e) {}
   if (deck.n !== n) { deck.length = 0; deck.n = n; }
   if (!deck.length) {
-    for (var i = 0; i < n; i++) deck.push(i);
-    for (i = n - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), x = deck[i]; deck[i] = deck[j]; deck[j] = x; }
-    if (n > 1 && deck[n - 1] === cur) { x = deck[n - 1]; deck[n - 1] = deck[0]; deck[0] = x; }
+    for (var i = 0; i < n; i++) if (seen.indexOf(photoKey(i, n)) < 0) deck.push(i);
+    if (!deck.length) { seen = []; for (i = 0; i < n; i++) deck.push(i); }   // all shown: start a new round
+    for (i = deck.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), x = deck[i]; deck[i] = deck[j]; deck[j] = x; }
   }
-  return deck.pop();
+  var k = deck.length - 1, day = cur >= 0 ? photoDay(cur, n) : null;
+  for (var t = deck.length - 1; t >= 0; t--) if (deck[t] !== cur && photoDay(deck[t], n) !== day) { k = t; break; }   // a different day, if any is left
+  if (deck[k] === cur && deck.length > 1) k = deck.length - 2;
+  var pick = deck.splice(k, 1)[0];
+  seen.push(photoKey(pick, n)); try { localStorage.setItem('photoSeen', JSON.stringify(seen.slice(-500))); } catch (e) {}
+  return pick;
 }
 var PHOTO_SECS = 20;   // how long each photo stays; a video stays until it has played to the end
 function startPhotos(list) {
