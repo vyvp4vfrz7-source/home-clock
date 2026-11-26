@@ -1,6 +1,48 @@
 {
- "updated": "2026-11-25T23:39+00:00",
+ "updated": "2026-11-26T00:45+00:00",
  "items": [
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "博康商場附近交通意外 獅子山隧道往沙田方向需間歇性封閉",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879306-20261126.htm",
+   "d": "沙田路近博康商場早上7時許發生交通意外，涉及兩架私家車。 運輸署表示，受意外影響，沙田路往馬鞍山方向近新田圍全線封閉，獅子山隧道往沙田方向實施間歇性封閉。 編輯：黃佩珊",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879306_1_M_20261126082102.jpg",
+   "at": "2026-11-26T00:18+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "白紙運動四年之後，上海青年公共空間去哪兒了？",
+   "u": "https://www.bbc.com/zhongwen/articles/cwe851kg1kj1o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "白紙運動四年後，BBC中文對話多位上海酒吧、咖啡店老闆和昔日常客、白紙運動親歷者，在他們眼裡，青年空間是如何在四年裡逐漸消失的。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/3706/live/9cf86d60-e7cb-11f1-b4f7-b50a198373f6.jpg",
+   "at": "2026-11-26T00:29+00:00",
+   "where": [
+    31.23,
+    121.47,
+    "上海"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "金正恩視察核設施 重申朝鮮擁核已是不可逆轉現實",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879308-20261126.htm",
+   "d": "朝中社報道，朝鮮領袖金正恩對核材料生產基地及核武研究部門進行現場指導，強調戰術核武器在多領域應用的重要性。 金正恩表示，美國將通過「美英澳三方安全夥伴關係」擴散核武到東北亞，助長周邊的追隨勢力擁有核潛艇，推動與盟國共用核武，從而在亞太以致全球範圍構建核軍事同盟體系，朝鮮對此嚴正關切。 他說，在國際核安全格局面臨嚴峻地緣政治變化的背景下，視察目的在應對朝鮮半島的核威脅，是堅決維護國家安全、加強防衛力量的一環。 金正恩強調朝鮮擁核的正當性，…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879308_1_M_20261126083554.jpg",
+   "at": "2026-11-26T00:35+00:00",
+   "where": [
+    39.03,
+    125.75,
+    "北韓"
+   ]
+  },
   {
    "src": "香港",
    "lang": "zh",
@@ -55,15 +97,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "美國準備公布對全球貿易夥伴加征新關稅的計劃",
-   "u": "https://www.bbc.com/zhongwen/articles/cm9d7g967l5lo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "新關稅將打擊美國許多最大的貿易夥伴，包括中國和歐盟。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/511d/live/da29c130-e860-11f1-a330-6153c8fb2fad.jpg",
-   "at": "2026-11-25T12:18+00:00",
+   "t": "神舟二十四號成功發射 首位巴基斯坦航天員登中國「天宮」意味什麼？",
+   "u": "https://www.bbc.com/zhongwen/articles/cm9w91y0pge7o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "這次任務對航天員阿里而言，這是巴基斯坦的榮耀時刻；對中國而言，則是其與美國爭奪太空主導地位競賽中的又一步進展。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/1ba3/live/30b4f710-e8a5-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-25T09:44+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    30.4,
+    69.3,
+    "巴基斯坦"
    ]
   },
   {
@@ -97,15 +139,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "神舟二十四號成功發射 首位巴基斯坦航天員登中國「天宮」意味什麼？",
-   "u": "https://www.bbc.com/zhongwen/articles/cm9w91y0pge7o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "這次任務對航天員阿里而言，這是巴基斯坦的榮耀時刻；對中國而言，則是其與美國爭奪太空主導地位競賽中的又一步進展。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/1ba3/live/30b4f710-e8a5-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-25T09:44+00:00",
+   "t": "BBC事實查核：與中國有關帳號用AI生成影攻擊台灣選舉候選人",
+   "u": "https://www.bbc.com/zhongwen/articles/c6rmgvkp322xo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "一波與中國有關的帳號用AI生成影片，攻擊台灣執政黨關鍵人物，包括總統賴清德和台北市長候選人沈伯洋。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/73d1/live/fd148350-e825-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-25T11:53+00:00",
    "where": [
-    30.4,
-    69.3,
-    "巴基斯坦"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -139,15 +181,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "BBC事實查核：與中國有關帳號用AI生成影攻擊台灣選舉候選人",
-   "u": "https://www.bbc.com/zhongwen/articles/c6rmgvkp322xo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "一波與中國有關的帳號用AI生成影片，攻擊台灣執政黨關鍵人物，包括總統賴清德和台北市長候選人沈伯洋。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/73d1/live/fd148350-e825-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-25T11:53+00:00",
+   "t": "陳吉寧被調查：「清華系」失勢、「上海跳板」失靈與政治局委員落馬創紀錄",
+   "u": "https://www.bbc.com/zhongwen/articles/ck7v27vn9659o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "陳吉寧落馬的時點尤其敏感：距離二十一大換屆不到一年，他本是外界觀察下屆常委佈局的關鍵人物，被查前僅僅六天仍在公開調研。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/d057/live/8d390820-e80d-11f1-ab42-55d8d8278025.jpg",
+   "at": "2026-11-24T14:54+00:00",
    "where": [
-    23.7,
-    121.0,
-    "台灣"
+    31.23,
+    121.47,
+    "上海"
    ]
   },
   {
@@ -181,15 +223,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "陳吉寧被調查：「清華系」失勢、「上海跳板」失靈與政治局委員落馬創紀錄",
-   "u": "https://www.bbc.com/zhongwen/articles/ck7v27vn9659o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "陳吉寧落馬的時點尤其敏感：距離二十一大換屆不到一年，他本是外界觀察下屆常委佈局的關鍵人物，被查前僅僅六天仍在公開調研。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/d057/live/8d390820-e80d-11f1-ab42-55d8d8278025.jpg",
-   "at": "2026-11-24T14:54+00:00",
+   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-17T16:25+00:00",
    "where": [
-    31.23,
-    121.47,
-    "上海"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -212,7 +254,6 @@
    "t": "堅道天主教座堂為宏福苑亡者舉行追思彌撒",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1879271-20261125.htm",
    "d": "堅道天主教聖母無原罪主教座堂為宏褔苑火災亡者舉行追思彌撒。 主持彌撒的陳志明神父在講道中表示，追思彌撒可以為在世者帶來彼此扶持的空間，將哀傷的人聚集一起，是治癒的過程。他又說，要用具體行動關懷受影響的家庭，推動居住安全，陪伴遺屬走過哀傷。宏福苑居民及大火遺屬其後到祭台前接受神父祝福。 遺屬之一、來自基督教信義會鑽石堂的牧師林一君分享說，她在大火中失去3名親人，作為牧師，苦難面前也會流淚，但毋須為過去一年未能「走出來」感到內疚，過去一年對…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879271_1_M_20261125231548.jpg",
    "at": "2026-11-25T15:15+00:00",
    "where": [
     22.32,
@@ -223,11 +264,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-17T16:25+00:00",
+   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
+   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
+   "at": "2026-11-17T09:49+00:00",
    "where": [
     23.7,
     121.0,
@@ -240,7 +281,6 @@
    "t": "王小洪：將與聯合國毒罪辦深化禁毒合作 攜手應對跨國有組織犯罪",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1879258-20261125.htm",
    "d": "國務委員、公安部部長王小洪在北京與聯合國毒罪辦執行主任朱馬會面。 王小洪表示，中方將積極踐行國家主席習近平提出的構建人類命運共同體理念和四大全球倡議，堅決維護聯合國核心地位，與聯合國毒罪辦深化禁毒領域務實合作，攜手應對跨國有組織犯罪威脅，共創打擊電詐國際合作新範式，推動構建更加公正合理的全球治理體系。 新華社報道，朱馬表示，高度讚賞中方打擊毒品等跨國犯罪的堅定決心和務實成效，願意進一步加強合作，共同應對全球安全新挑戰。 編輯：鄭皓璟",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879258_1_M_20261125205117.jpg",
    "at": "2026-11-25T14:46+00:00",
    "where": [
     39.9,
@@ -264,11 +304,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
-   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
-   "at": "2026-11-17T09:49+00:00",
+   "t": "九合一前夕：台灣幾乎年年選舉，會引起「投票疲勞」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c63egjkzqpz2o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣在過去七年間，幾乎每年都有大型選舉、罷免或公投。有學者形容台灣政治人物常處於「選舉模式」，在面對不同議題時往往急於回應。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7a49/live/c76f08c0-dcda-11f1-a8e1-e3454837ffc6.jpg",
+   "at": "2026-11-13T10:39+00:00",
    "where": [
     23.7,
     121.0,
@@ -304,46 +344,6 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "九合一前夕：台灣幾乎年年選舉，會引起「投票疲勞」嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/c63egjkzqpz2o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "台灣在過去七年間，幾乎每年都有大型選舉、罷免或公投。有學者形容台灣政治人物常處於「選舉模式」，在面對不同議題時往往急於回應。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/7a49/live/c76f08c0-dcda-11f1-a8e1-e3454837ffc6.jpg",
-   "at": "2026-11-13T10:39+00:00",
-   "where": [
-    23.7,
-    121.0,
-    "台灣"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "歐洲之星多班列車受員工罷工影響取消",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879259-20261125.htm",
-   "d": "歐洲之星客運公司宣布，受員工未事先通知就發起罷工影響，多班列車取消。 歐洲之星表示，當地星期三有至少6班來往英國倫敦和法國巴黎、比利時布魯塞爾的列車取消，受影響旅客可根據退改政策，更改行程日期或獲得全額退款。公司未有說明員工罷工原因，亦未有說明預計罷工持續多久 法國傳媒報道，今次罷工主要涉及巴黎北站的員工，布魯塞爾南站的員工亦有參與，主要與加薪訴求有關。公司管理層說，將繼續與工會磋商。 編輯：鄭皓璟",
-   "at": "2026-11-25T13:33+00:00",
-   "where": [
-    50.0,
-    10.0,
-    "歐洲"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "疑未獲授權為兒童病房男病人檢查 威院男醫生涉非禮被捕",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879262-20261125.htm",
-   "d": "威爾斯親王醫院表示，一名醫生早前懷疑在兒童外科病房為兩名男病人檢查身體時，未獲主治團隊授權有關檢查程序，院方就事件報警。警方指，一名31歲男子涉嫌非禮被捕，獲准保釋候查，案件由沙田警區重案組跟進。 威院表示高度重視事件，被捕醫生在威院負責教學及臨床工作，已即時禁止他進入該院臨床範圍，亦終止他執行臨床工作及登入臨床醫療系統的權限。中大說，已暫停該名教員所有職務，並將按相關程序調查。 威院回覆查詢時指出，上月30日凌晨，病房職員發現事件後，…",
-   "at": "2026-11-25T13:51+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
    "t": "「九合一」五大看點：「洋流」能否撼動台北？誰在卡位2028？",
    "u": "https://www.bbc.com/zhongwen/articles/cm8xzrg40dq1o/trad?at_medium=RSS&at_campaign=rss",
    "d": "中共是否介入台灣選舉？ 這次選舉將如何影響賴清德與國民黨主席鄭麗文的政治能量？捲土重來、希望藉著地方議員選舉有所斬獲的小黨，此次結盟能否在主流政黨夾殺中突圍而出？",
@@ -358,14 +358,14 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "孫東：對有意來港發展內地企業 香港能協助連接國際創新資源",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879260-20261125.htm",
-   "d": "創新科技及工業局局長孫東下午轉往安徽省合肥市繼續訪問行程。他出席一個交流活動致辭時表示，香港正加快推進三大創科園區、五大研發機構的創科布局；對於有意來港發展的內地企業，香港不單能提供研發平台，更能協助企業連接頂尖科研人才及國際創新資源，全面提升科研能力。 孫東指出，特區政府近年已扶植約700家具潛力或引領性的創科企業有意來港發展、落戶或擴展在港業務；政府亦推出三個100億港元計劃，支持創科企業發展。他又說，特區政府正動工建設沙嶺數據園區…",
-   "at": "2026-11-25T13:08+00:00",
+   "t": "疑未獲授權為兒童病房男病人檢查 威院男醫生涉非禮被捕",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879262-20261125.htm",
+   "d": "威爾斯親王醫院表示，一名醫生早前懷疑在兒童外科病房為兩名男病人檢查身體時，未獲主治團隊授權有關檢查程序，院方就事件報警。警方指，一名31歲男子涉嫌非禮被捕，獲准保釋候查，案件由沙田警區重案組跟進。 威院表示高度重視事件，被捕醫生在威院負責教學及臨床工作，已即時禁止他進入該院臨床範圍，亦終止他執行臨床工作及登入臨床醫療系統的權限。中大說，已暫停該名教員所有職務，並將按相關程序調查。 威院回覆查詢時指出，上月30日凌晨，病房職員發現事件後，…",
+   "at": "2026-11-25T13:51+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
@@ -399,11 +399,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Poundland collapses putting 11,000 jobs at risk",
-   "u": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss",
-   "d": "The discount chain has fallen into administration after its owners failed to find a buyer.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5177/live/c7a2f690-e8fa-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-25T21:31+00:00",
+   "t": "Stalking law simplified to become one offence",
+   "u": "https://www.bbc.co.uk/news/articles/c8lydnlkq7xno?at_medium=RSS&at_campaign=rss",
+   "d": "The new stalking offence will be introduced after a review found existing legislation was confusing.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/40a5/live/9c3c8510-e847-11f1-aa88-031e8213533d.jpg",
+   "at": "2026-11-26T00:02+00:00",
    "where": [
     52.5,
     -1.5,
@@ -427,11 +427,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "US stocks fall further as fears over AI intensify",
-   "u": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
-   "d": "All three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9f2e/live/6940e8e0-e8f1-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-25T21:43+00:00",
+   "t": "Four-time MVP Rodgers released and may have played last NFL game",
+   "u": "https://www.bbc.co.uk/sport/american-football/articles/c64gn8ryp7jno?at_medium=RSS&at_campaign=rss",
+   "d": "Veteran quarterback Aaron Rodgers may have played his last game in the NFL after being released by the Pittsburgh Steelers.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/06b6/live/78394d70-e8d7-11f1-a3b9-79c60ec9ab33.jpg",
+   "at": "2026-11-25T14:37+00:00",
    "where": [
     38.9,
     -77.04,
@@ -455,11 +455,11 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "King Charles and Elton John pay tribute to Australian music legend Molly Meldrum",
-   "u": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o?at_medium=RSS&at_campaign=rss",
-   "d": "The promoter and broadcaster helped define the music tastes of Australians for decades.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0cfc/live/c3bcfc70-e6ce-11f1-a9db-c39c38a2d17c.jpg",
-   "at": "2026-11-24T00:23+00:00",
+   "t": "Khawaja 'disappointed' by Cummins' personal attack",
+   "u": "https://www.bbc.co.uk/sport/cricket/articles/c6grexq2jpero?at_medium=RSS&at_campaign=rss",
+   "d": "Former Australia batter Usman Khawaja says it was \"never about me versus Pat\" as the 2018 sandpapergate scandal rumbles on.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5fa7/live/c9ab1150-e8a7-11f1-869a-f96fd5660210.jpg",
+   "at": "2026-11-25T08:37+00:00",
    "where": [
     -25.3,
     133.8,
@@ -511,11 +511,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Gordon Ramsay to host Top Gear as show revived after Flintoff crash",
-   "u": "https://www.bbc.co.uk/news/articles/cjr4gw100d52o?at_medium=RSS&at_campaign=rss",
-   "d": "Ramsay will take the driving seat alongside as yet unnamed co-presenters when the show starts filming next year.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/778b/live/482f9c20-e8f4-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-25T17:48+00:00",
+   "t": "Poundland collapses putting 11,000 jobs at risk",
+   "u": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss",
+   "d": "The discount chain has fallen into administration after its owners failed to find a buyer.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5177/live/c7a2f690-e8fa-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-25T21:31+00:00",
    "where": [
     52.5,
     -1.5,
@@ -543,7 +543,7 @@
    "u": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
    "d": "The was the first time ever that the iconic celebration - known for its massive balloons floating past the city's skyscrapers - was delayed because of storms.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c21b/live/11998ed0-e914-11f1-8383-53f283141713.jpg",
-   "at": "2026-11-25T22:38+00:00",
+   "at": "2026-11-25T23:57+00:00",
    "where": [
     38.9,
     -77.04,
@@ -567,11 +567,11 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "De Villiers claims Australia were ball-tampering from first 2018 Test",
-   "u": "https://www.bbc.co.uk/sport/cricket/articles/c607418zlpz4o?at_medium=RSS&at_campaign=rss",
-   "d": "Former South Africa batter AB de Villiers says \"there is absolutely no doubt in my mind\" that Australia were altering the ball from the opening Test in 2018.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/668e/live/70da5030-e70e-11f1-8eab-2f1116919fa3.jpg",
-   "at": "2026-11-23T08:08+00:00",
+   "t": "King Charles and Elton John pay tribute to Australian music legend Molly Meldrum",
+   "u": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o?at_medium=RSS&at_campaign=rss",
+   "d": "The promoter and broadcaster helped define the music tastes of Australians for decades.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0cfc/live/c3bcfc70-e6ce-11f1-a9db-c39c38a2d17c.jpg",
+   "at": "2026-11-24T00:23+00:00",
    "where": [
     -25.3,
     133.8,
@@ -623,11 +623,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Wife drugged and raped by husband asked police if she was to blame, court hears",
-   "u": "https://www.bbc.co.uk/news/articles/c38x0vd2yyx5o?at_medium=RSS&at_campaign=rss",
-   "d": "The woman told a court suggestions she was 'pretending to be asleep' were 'absolute rubbish'.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/50e2/live/ba052ce0-e8fc-11f1-a77a-271abcb79951.png",
-   "at": "2026-11-25T15:42+00:00",
+   "t": "Expect fewer frosts and more hot days as UK seasons shift, says Met Office",
+   "u": "https://www.bbc.co.uk/weather/articles/cr3eg1py3gv5o?at_medium=RSS&at_campaign=rss",
+   "d": "Changing seasons are affecting wildlife and leading some farmers to grow different crops.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f0a2/live/0f7bb370-e749-11f1-88dc-f746e0cde621.jpg",
+   "at": "2026-11-26T00:08+00:00",
    "where": [
     52.5,
     -1.5,
@@ -735,11 +735,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Energy bills to rise by 26% from January after gas prices surge",
-   "u": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
-   "d": "A household using a typical amount of energy would see its annual bill rise from £1,723 to £2,166 if this level was sustained for a year.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/654f/live/9096f7c0-e8df-11f1-a3b9-79c60ec9ab33.jpg",
-   "at": "2026-11-25T13:42+00:00",
+   "t": "BBC launches partnership with Met Office for weather coverage",
+   "u": "https://www.bbc.co.uk/news/articles/ckjrel5vdj9zo?at_medium=RSS&at_campaign=rss",
+   "d": "The corporation says the deal will deliver more regional, digital and 10-day forecasts to audiences.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b663/live/9be181d0-e90d-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-26T00:12+00:00",
    "where": [
     52.5,
     -1.5,
@@ -847,11 +847,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "MP calls for action after her likeness used for AI porn deepfakes",
-   "u": "https://www.bbc.co.uk/news/articles/cr742z9gx894o?at_medium=RSS&at_campaign=rss",
-   "d": "Mims Davies urged people to report any incidents so that “culprits can be held to account”.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7c01/live/7606dbe0-e8bd-11f1-ac76-db9e97f93d67.jpg",
-   "at": "2026-11-25T19:01+00:00",
+   "t": "Gordon Ramsay to host Top Gear as show revived after Flintoff crash",
+   "u": "https://www.bbc.co.uk/news/articles/cjr4gw100d52o?at_medium=RSS&at_campaign=rss",
+   "d": "Ramsay will take the driving seat alongside as yet unnamed co-presenters when the show starts filming next year.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/778b/live/482f9c20-e8f4-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-25T17:48+00:00",
    "where": [
     52.5,
     -1.5,
@@ -875,11 +875,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "US Army says controlled blast of explosives in Iowa was 'huge success'",
-   "u": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss",
-   "d": "Despite widespread concern from residents ahead of the blast, officials say that lead readings in the area so far have been promising.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9049/live/be474ac0-e8f9-11f1-b8b0-a95064d74c5f.jpg",
-   "at": "2026-11-25T19:54+00:00",
+   "t": "US approves SpaceX plan to send a million data satellites to space",
+   "u": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+   "d": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fd78/live/4cbffd10-e91d-11f1-9108-c5b270b0703d.jpg",
+   "at": "2026-11-26T00:07+00:00",
    "where": [
     38.9,
     -77.04,
@@ -959,11 +959,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Duran Duran guitarist Andy Taylor dies aged 65",
-   "u": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&at_campaign=rss",
-   "d": "The musician, who co-wrote some of the band's biggest hits, had been treated for prostate cancer.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bf5e/live/c090fb90-e918-11f1-8383-53f283141713.jpg",
-   "at": "2026-11-25T22:19+00:00",
+   "t": "Hotels need 'minimum standards' to keep women safe",
+   "u": "https://www.bbc.co.uk/news/articles/crgj3gnjeqe0o?at_medium=RSS&at_campaign=rss",
+   "d": "MPs hear calls for national hotel safety standards after an outcry over a sexual assault at a Travelodge.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2b46/live/712ad4b0-e8d0-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-25T20:45+00:00",
    "where": [
     52.5,
     -1.5,
@@ -987,15 +987,15 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Canadian astronaut welcomes baby girl from space station",
-   "u": "https://www.bbc.co.uk/news/articles/ckx283y8wwwgo?at_medium=RSS&at_campaign=rss",
-   "d": "Joshua Kutryk, currently on his first space mission, is just the fourth astronaut in history to miss the birth of a child while aboard the International Space Station.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/19b2/live/aed9cc20-e8e5-11f1-a3b9-79c60ec9ab33.jpg",
-   "at": "2026-11-25T15:41+00:00",
+   "t": "US Army says controlled blast of explosives in Iowa was 'huge success'",
+   "u": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss",
+   "d": "Despite widespread concern from residents ahead of the blast, officials say that lead readings in the area so far have been promising.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9049/live/be474ac0-e8f9-11f1-b8b0-a95064d74c5f.jpg",
+   "at": "2026-11-26T00:23+00:00",
    "where": [
-    56.1,
-    -106.3,
-    "加拿大"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -1070,11 +1070,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Sterling given suspended sentence for dangerous driving",
-   "u": "https://www.bbc.co.uk/news/articles/cv8e04ll9dd3o?at_medium=RSS&at_campaign=rss",
-   "d": "Raheem Sterling was sentenced to 12 months imprisonment, suspended for 18 months, on Wednesday.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fd65/live/f14720b0-e8d3-11f1-a3b9-79c60ec9ab33.jpg",
-   "at": "2026-11-25T13:57+00:00",
+   "t": "Duran Duran guitarist Andy Taylor dies aged 65",
+   "u": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&at_campaign=rss",
+   "d": "The musician, who co-wrote some of the band's biggest hits, had been treated for prostate cancer.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bf5e/live/c090fb90-e918-11f1-8383-53f283141713.jpg",
+   "at": "2026-11-25T22:19+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1098,11 +1098,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "She spent decades as an FBI agent and this is the case she could not let go",
-   "u": "https://www.bbc.co.uk/news/articles/c539g1pwy3wyo?at_medium=RSS&at_campaign=rss",
-   "d": "Jane Collins had all but given up on seeing Michael Donovan and Richard Moore face justice. Then they were charged with stealing from a mass-shooter’s brother.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bd15/live/0cab0d90-e815-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-25T02:48+00:00",
+   "t": "US stocks fall further as fears over AI intensify",
+   "u": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
+   "d": "All three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9f2e/live/6940e8e0-e8f1-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-25T21:43+00:00",
    "where": [
     38.9,
     -77.04,
@@ -1167,15 +1167,15 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "EU offers UK fresh deal on 'Made in Europe' scheme",
-   "u": "https://www.bbc.co.uk/news/articles/c50md8x9gdgro?at_medium=RSS&at_campaign=rss",
-   "d": "The draft proposal could see the UK join the scheme without having to increase import taxes on Chinese cars.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/22a9/live/f650dee0-e8d1-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-25T16:45+00:00",
+   "t": "Sterling given suspended sentence for dangerous driving",
+   "u": "https://www.bbc.co.uk/news/articles/cv8e04ll9dd3o?at_medium=RSS&at_campaign=rss",
+   "d": "Raheem Sterling was sentenced to 12 months imprisonment, suspended for 18 months, on Wednesday.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fd65/live/f14720b0-e8d3-11f1-a3b9-79c60ec9ab33.jpg",
+   "at": "2026-11-25T13:57+00:00",
    "where": [
-    50.0,
-    10.0,
-    "歐洲"
+    52.5,
+    -1.5,
+    "英國"
    ]
   },
   {
@@ -1250,11 +1250,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Badenoch challenges Burnham over university fees for EU students",
-   "u": "https://www.bbc.co.uk/news/articles/cw4gn8lxj5r1o?at_medium=RSS&at_campaign=rss",
-   "d": "The PM says EU students paying the same as British students is the European position and \"won't be put on the table\".",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/74c8/live/27d45290-e8ef-11f1-8808-1d4222955d7e.jpg",
-   "at": "2026-11-25T16:46+00:00",
+   "t": "Wife drugged and raped by husband asked police if she was to blame, court hears",
+   "u": "https://www.bbc.co.uk/news/articles/c38x0vd2yyx5o?at_medium=RSS&at_campaign=rss",
+   "d": "The woman told a court suggestions she was 'pretending to be asleep' were 'absolute rubbish'.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/50e2/live/ba052ce0-e8fc-11f1-a77a-271abcb79951.png",
+   "at": "2026-11-25T15:42+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1277,11 +1277,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Boy, 3, died after choking in nursery, inquest hears",
-   "u": "https://www.bbc.co.uk/news/articles/cqx2ej77ry1zo?at_medium=RSS&at_campaign=rss",
-   "d": "Thiago Wall died in hospital three days after choking on food at the nursery, the inquest hears.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2277/live/58a75b40-e8ba-11f1-9e64-bddd508b9881.jpg",
-   "at": "2026-11-25T12:03+00:00",
+   "t": "Energy bills to rise by 26% from January after gas prices surge",
+   "u": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
+   "d": "A household using a typical amount of energy would see its annual bill rise from £1,723 to £2,166 if this level was sustained for a year.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/654f/live/9096f7c0-e8df-11f1-a3b9-79c60ec9ab33.jpg",
+   "at": "2026-11-25T13:42+00:00",
    "where": [
     52.5,
     -1.5,
