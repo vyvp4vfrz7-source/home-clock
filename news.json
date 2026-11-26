@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-26T04:33+00:00",
+ "updated": "2026-11-26T05:49+00:00",
  "items": [
   {
    "src": "香港",
    "lang": "zh",
-   "t": "李家超稱深化與灣區各城市協同發展 為大灣區服務貿易注入動能",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879341-20261126.htm",
-   "d": "行政長官李家超表示，創科是推動香港發展的核心動力。香港將積極對接國家「人工智能+」重點戰略，進一步提升在跨境供應鏈管理、專業服務、數字貿易等高增值服務的優勢，為大灣區服務貿易帶來龐大機遇。 李家超在粵港澳大灣區服務貿易大會活動視像致辭，他說，APEC領導人非正式會議和工商領導人峰會剛在深圳圓滿舉行，而APEC領導人非正式會議前最後一場部長級會議是上月在香港順利召開的財長會。粵港澳大灣區是國家開放程度最高、經濟活力最強的區域之一，在國家發…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879341_1_M_20261126121000.jpg",
-   "at": "2026-11-26T03:59+00:00",
+   "t": "港鐵稱屯門一輛不載客輕鐵被貨車撞到 服務一度受影響已回復正常",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879343-20261126.htm",
+   "d": "港鐵表示，一輛前往屯門碼頭站的輕鐵不載客列車早上被一輛中型貨車撞到，受事故影響，有3條輕鐵路綫一度要改道，以及不停屯門碼頭站至輕鐵車廠站。事故於今早約11時處理好，輕鐵服務逐步回復正常。 港鐵說，涉事的輕鐵列車早上約10時半，駛至湖翠路與龍門路交界，按照燈號指示左轉時，被該輛中型貨車撞到。港鐵安排免費接駁巴士來往屯門碼頭及三聖站，以及來往蝴蝶及兆禧站。 編輯：譚佩貞",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879343_1_M_20261126131708.jpg",
+   "at": "2026-11-26T04:23+00:00",
    "where": [
     22.32,
     114.17,
@@ -32,6 +32,48 @@
   {
    "src": "世界",
    "lang": "zh",
+   "t": "美國批准向烏克蘭逾6億美元軍售計劃",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879350-20261126.htm",
+   "d": "美國國務院說，已決定批准一項價值6億2千多萬美元的軍售計劃，用於向烏克蘭出售F-16戰機保障維護設備及相關服務。 聲明說，烏克蘭將利用來自比利時、丹麥、荷蘭和挪威的援助資金來完成採購，不涉及美國政府資金。今次軍售將加強烏克蘭防空能力，提升其應對當前和未來威脅的能力。 美國國務院10月30日批准向烏克蘭出售500枚「愛國者」導彈及相關設備，總價值21億美元，費用由加拿大、德國和挪威提供的捐款以及歐盟相關貸款支付，不涉及任何美國政府資金。 …",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879350_1_M_20261126131403.jpg",
+   "at": "2026-11-26T05:14+00:00",
+   "where": [
+    49.0,
+    31.4,
+    "烏克蘭"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "李家超稱深化與灣區各城市協同發展 為大灣區服務貿易注入動能",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879341-20261126.htm",
+   "d": "行政長官李家超表示，創科是推動香港發展的核心動力。香港將積極對接國家「人工智能+」重點戰略，進一步提升在跨境供應鏈管理、專業服務、數字貿易等高增值服務的優勢，為大灣區服務貿易帶來龐大機遇。 李家超在粵港澳大灣區服務貿易大會活動視像致辭，他說，APEC領導人非正式會議和工商領導人峰會剛在深圳圓滿舉行，而APEC領導人非正式會議前最後一場部長級會議是上月在香港順利召開的財長會。粵港澳大灣區是國家開放程度最高、經濟活力最強的區域之一，在國家發…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879341_1_M_20261126121000.jpg",
+   "at": "2026-11-26T03:59+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "宏福苑大火一周年：居民受壓、媒體噤聲，為何悼念變得小心翼翼？",
+   "u": "https://www.bbc.com/zhongwen/articles/cw8dv46pv125o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "宏福苑大火一周年前夕，港府官員稱「政府絕對容許」合法活動，但有遺屬表示悼念活動受壓，也有新聞工作者向BBC中文透露，相關周年報導在製作完成後突然「被抽起」。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b501/live/4704feb0-e80b-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-26T05:41+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
    "t": "印尼一個懷疑非法礦井事故增至13人死亡",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1879332-20261126.htm",
    "d": "印尼西爪哇省發生礦井事故，增至13人遇難，估計仍有十多名礦工被困井下。 事發在星期一，當局表示，暴雨導致河水氾濫，倒灌入礦井，導致礦井被洪水淹沒。 由於涉事礦井懷疑進行非法採礦活動，負責人並無第一時間報警，而是試圖自行抽走積水，當局去到星期三凌晨才接報指有人被困。 印尼國營礦業公司表示，基於人道立場，正在派員協助善後。 編輯：方潤南",
@@ -48,7 +90,7 @@
    "lang": "zh",
    "t": "宏福苑火災一周年 有市民到廣福公園空地獻花及默哀",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1879339-20261126.htm",
-   "d": "大埔宏福苑火災發生一年，早上有市民到場獻花悼念。 在廣福公園社區會堂旁邊的空地，不少人在長椅上獻上白色鮮花並默哀，亦有人放置紙鶴。 有宏泰閣居民表示，有認識的街坊和朋友在大火中喪生，希望趁今日一周年回來看看，表達思念。 亦有非宏福苑的市民到場獻花，她表示不論宏福苑居民或死傷者的家屬，過去一年的路都很艱難，希望他們找到力量，過自己想過的生活。 編輯：譚佩貞",
+   "d": "大埔宏福苑火災發生一年，早上有市民到場獻花悼念。 在廣福公園社區會堂旁邊的空地，不少人在長椅上獻上白色鮮花並默哀，亦有人放置紙鶴。 有宏泰閣居民表示，有認識的街坊和朋友在大火中喪生，希望趁今日一周年回來看看，表達思念。亦有居民與外傭到場悼念，她感謝市民對宏福苑居民的關心，形容過去一年感到「無奈」，已搬了3次屋，最後選擇搬回大埔。 亦有市民到場獻花，表示不論宏福苑居民或死傷者的家屬，過去一年的路都很艱難，希望他們找到力量，過自己想過的生活…",
    "img": "https://newsstatic.rthk.hk/images/mfile_1879339_1_M_20261126115714.jpg",
    "at": "2026-11-26T03:47+00:00",
    "where": [
@@ -60,16 +102,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "宏福苑大火一周年：居民受壓、媒體噤聲，為何悼念變得小心翼翼？",
-   "u": "https://www.bbc.com/zhongwen/articles/cw8dv46pv125o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "宏福苑大火一周年前夕，港府官員稱「政府絕對容許」合法活動，但有遺屬表示悼念活動受壓，也有新聞工作者向BBC中文透露，相關周年報導在製作完成後突然「被抽起」。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b501/live/4704feb0-e80b-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-24T10:13+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
+   "t": "宏福苑大火一週年：「這條刺永遠都在」，遺屬在傷痛中尋找答案",
+   "u": "https://www.bbc.com/zhongwen/articles/c3j4r274lj82o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "對許多家庭來說，道歉只是「最低消費」，他們仍在等一個完整的答案。BBC中文接觸了多位遇難者家屬，記錄他們怎樣度過這一年。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/56ac/live/daaf9c90-e86c-11f1-a80a-1f378de16ace.jpg",
+   "at": "2026-11-25T03:21+00:00"
   },
   {
    "src": "世界",
@@ -102,11 +139,16 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "宏福苑大火一週年：「這條刺永遠都在」，遺屬在傷痛中尋找答案",
-   "u": "https://www.bbc.com/zhongwen/articles/c3j4r274lj82o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "對許多家庭來說，道歉只是「最低消費」，他們仍在等一個完整的答案。BBC中文接觸了多位遇難者家屬，記錄他們怎樣度過這一年。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/56ac/live/daaf9c90-e86c-11f1-a80a-1f378de16ace.jpg",
-   "at": "2026-11-25T03:21+00:00"
+   "t": "英國將性犯罪定罪難民送往史瓦帝尼 未公開協議內容",
+   "u": "https://www.bbc.com/zhongwen/articles/cr868g89jdw0o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "這被認為是目前已知首起英國政府將難民永久強制重新安置到海外的案例。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/10b2/live/e454de40-e89e-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-26T04:58+00:00",
+   "where": [
+    52.5,
+    -1.5,
+    "英國"
+   ]
   },
   {
    "src": "世界",
@@ -181,15 +223,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "陳吉寧被調查：「清華系」失勢、「上海跳板」失靈與政治局委員落馬創紀錄",
-   "u": "https://www.bbc.com/zhongwen/articles/ck7v27vn9659o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "陳吉寧落馬的時點尤其敏感：距離二十一大換屆不到一年，他本是外界觀察下屆常委佈局的關鍵人物，被查前僅僅六天仍在公開調研。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/d057/live/8d390820-e80d-11f1-ab42-55d8d8278025.jpg",
-   "at": "2026-11-24T14:54+00:00",
+   "t": "台灣「九合一」選舉：六都市長候選人簡介",
+   "u": "https://www.bbc.com/zhongwen/articles/cwlymzm5mnxyo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "這場選舉將影響藍綠政治版圖，六都選情備受關注，包括台北、新北、桃園、台中、台南、高雄，BBC中文整理各地候選人的簡介。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/6f3d/live/717c67f0-e950-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-26T04:29+00:00",
    "where": [
-    31.23,
-    121.47,
-    "上海"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -212,7 +254,6 @@
    "t": "港股升幅擴大至逾500點",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1879329-20261126.htm",
    "d": "港股升幅擴大，恒生指數較早時報22470點，升504點，升幅2.3%。 科技指數升穿3500點關口，較早時報3502點，升124點，升幅近3.7%。 三桶油升逾2%至近5%。晶片、AI相關股份反彈，中芯及華虹分別升近5%和近7%。MINIMAX及智譜分別急升逾12%和逾14%。 理想汽車公布業績後急升近12%。 編輯：張詩民",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879329_1_M_20261126103915.jpg",
    "at": "2026-11-26T02:40+00:00",
    "where": [
     22.32,
@@ -223,11 +264,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "台灣「九合一」選舉：六都市長候選人簡介",
-   "u": "https://www.bbc.com/zhongwen/articles/cwlymzm5mnxyo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "這場選舉將影響藍綠政治版圖，六都選情備受關注，包括台北、新北、桃園、台中、台南、高雄，BBC中文整理各地候選人的簡介。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/6f3d/live/717c67f0-e950-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-26T04:29+00:00",
+   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
+   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-17T16:25+00:00",
    "where": [
     23.7,
     121.0,
@@ -240,7 +281,6 @@
    "t": "印尼西爪哇省礦井事故增至9人遇難 估計仍有人被困井下",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1879278-20261126.htm",
    "d": "印尼西爪哇省的礦井事故增加至9人遇難，估計仍有人被困井下。 事發在星期一，當局表示，礦井所在的茂物縣當時下大雨，導致河水泛濫並湧入礦井。當局說，由於涉事礦井懷疑進行非法採礦活動，負責人在水浸後並無第一時間報警，當局去到星期三凌晨才接報指有人被困，隨即出動搜索。 搜救部門說，出事礦井約100米深，事發時有11名礦工成功逃生，相信仍有人被困井下，搜救工作持續，但由於井下有積水、通道狹窄、照明不足及地形濕滑，增加搜救工作難度。 編輯：盧曉珊",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879278_1_M_20261126012301.jpg",
    "at": "2026-11-25T17:56+00:00",
    "where": [
     -0.8,
@@ -264,11 +304,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "高雄選戰「知識藍」對決「新潮流」，國民黨能複製「韓流」嗎？",
-   "u": "https://www.bbc.com/zhongwen/articles/c6n4ex4y9837o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "柯志恩以「知識藍」的姿態拉攏中間選民，支持度大幅追貼深耕高雄20年的賴瑞隆，選情咬緊。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/df33/live/318af0f0-e2a0-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-17T16:25+00:00",
+   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
+   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
+   "at": "2026-11-17T09:49+00:00",
    "where": [
     23.7,
     121.0,
@@ -304,28 +344,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
-   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
-   "at": "2026-11-17T09:49+00:00",
+   "t": "「九合一」五大看點：「洋流」能否撼動台北？誰在卡位2028？",
+   "u": "https://www.bbc.com/zhongwen/articles/cm8xzrg40dq1o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "中共是否介入台灣選舉？ 這次選舉將如何影響賴清德與國民黨主席鄭麗文的政治能量？捲土重來、希望藉著地方議員選舉有所斬獲的小黨，此次結盟能否在主流政黨夾殺中突圍而出？",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/5997/live/fdfeb670-d293-11f1-a701-fddedf244c16.jpg",
+   "at": "2026-10-28T02:45+00:00",
    "where": [
     23.7,
     121.0,
     "台灣"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "王小洪：將與聯合國毒罪辦深化禁毒合作 攜手應對跨國有組織犯罪",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879258-20261125.htm",
-   "d": "國務委員、公安部部長王小洪在北京與聯合國毒罪辦執行主任朱馬會面。 王小洪表示，中方將積極踐行國家主席習近平提出的構建人類命運共同體理念和四大全球倡議，堅決維護聯合國核心地位，與聯合國毒罪辦深化禁毒領域務實合作，攜手應對跨國有組織犯罪威脅，共創打擊電詐國際合作新範式，推動構建更加公正合理的全球治理體系。 新華社報道，朱馬表示，高度讚賞中方打擊毒品等跨國犯罪的堅定決心和務實成效，願意進一步加強合作，共同應對全球安全新挑戰。 編輯：鄭皓璟",
-   "at": "2026-11-25T14:46+00:00",
-   "where": [
-    39.9,
-    116.4,
-    "北京"
    ]
   },
   {
@@ -344,42 +371,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "「九合一」五大看點：「洋流」能否撼動台北？誰在卡位2028？",
-   "u": "https://www.bbc.com/zhongwen/articles/cm8xzrg40dq1o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "中共是否介入台灣選舉？ 這次選舉將如何影響賴清德與國民黨主席鄭麗文的政治能量？捲土重來、希望藉著地方議員選舉有所斬獲的小黨，此次結盟能否在主流政黨夾殺中突圍而出？",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/5997/live/fdfeb670-d293-11f1-a701-fddedf244c16.jpg",
-   "at": "2026-10-28T02:45+00:00",
+   "t": "陳吉寧：「清華系」失勢、「上海跳板」失靈與政治局委員落馬",
+   "u": "https://www.bbc.com/zhongwen/articles/ck7v27vn9659o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "陳吉寧落馬的時點尤其敏感：距離二十一大換屆不到一年，他本是外界觀察下屆常委佈局的關鍵人物，被查前僅僅六天仍在公開調研。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/d057/live/8d390820-e80d-11f1-ab42-55d8d8278025.jpg",
+   "at": "2026-11-24T14:54+00:00",
    "where": [
-    23.7,
-    121.0,
-    "台灣"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "沙田路意外一名司機酒精測試超標帶署調查 獅隧往沙田已取消封閉",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879322-20261126.htm",
-   "d": "沙田路早上發生交通意外，涉及兩輛私家車，其中一名司機現場接受酒精呼氣測試，證實超標，需要帶返警署接受進一步調查。 運輸署表示，獅子山隧道往沙田方向取消間歇性封閉。 編輯：譚佩貞",
-   "at": "2026-11-26T01:48+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "伊朗女歌手演出不戴頭巾「已遭執行74鞭笞刑」",
-   "u": "https://www.bbc.com/zhongwen/articles/cxzd9y2gre3lo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "據律師團隊所稱，伊朗女歌手帕拉斯托·阿赫瑪迪、三名音樂人及一名製作人在庫姆被執行74鞭笞刑。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/6a11/live/e201bf70-bb4c-11f1-bc1f-3f186ca4140c.jpg",
-   "at": "2026-11-24T02:19+00:00",
-   "where": [
-    32.4,
-    53.7,
-    "伊朗"
+    31.23,
+    121.47,
+    "上海"
    ]
   },
   {
@@ -413,15 +413,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "US announces new tariffs on host of countries including China",
-   "u": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-   "d": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cdd4/live/6fdb6db0-e946-11f1-8b2f-671485cea0be.jpg",
-   "at": "2026-11-26T04:10+00:00",
+   "t": "A renovation was meant to improve these Hong Kong homes - it ended in a blaze that killed 168",
+   "u": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o?at_medium=RSS&at_campaign=rss",
+   "d": "A year after one of Hong Kong's deadliest fires, families left behind are still waiting for justice.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2b16/live/b6eddfc0-e8c5-11f1-ac76-db9e97f93d67.jpg",
+   "at": "2026-11-25T23:26+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
@@ -525,15 +525,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "North Korea expels Swiss diplomat in sanctions row",
-   "u": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
-   "d": "Swiss officials said relations would be kept through North Korea's embassy in Bern, and its own embassy in Beijing.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b4ee/live/fcd47260-e8fc-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-25T21:51+00:00",
+   "t": "US announces new tariffs on host of countries including China",
+   "u": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+   "d": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cdd4/live/6fdb6db0-e946-11f1-8b2f-671485cea0be.jpg",
+   "at": "2026-11-26T04:10+00:00",
    "where": [
-    46.8,
-    8.2,
-    "瑞士"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
@@ -567,15 +567,15 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "King Charles and Elton John pay tribute to Australian music legend Molly Meldrum",
-   "u": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o?at_medium=RSS&at_campaign=rss",
-   "d": "The promoter and broadcaster helped define the music tastes of Australians for decades.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0cfc/live/c3bcfc70-e6ce-11f1-a9db-c39c38a2d17c.jpg",
-   "at": "2026-11-24T00:23+00:00",
+   "t": "Solomon Islands ends controversial security pact with China for Australian treaty",
+   "u": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno?at_medium=RSS&at_campaign=rss",
+   "d": "Solomon Islands leader Matthew Wale said his country would no longer be a point of regional uncertainty.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/33d1/live/b36a7310-e87d-11f1-98e2-c97dce6bef0d.jpg",
+   "at": "2026-11-25T03:15+00:00",
    "where": [
-    -25.3,
-    133.8,
-    "澳洲"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
@@ -637,15 +637,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Xi's anti-corruption campaign ensnares rising star in Chinese Communist Party",
-   "u": "https://www.bbc.co.uk/news/articles/c6y80kk4zmdno?at_medium=RSS&at_campaign=rss",
-   "d": "Chen Jining's fall is part of the widest purge in the party's Politburo in several decades.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b050/live/cbd85490-e886-11f1-8394-1391ad77445f.jpg",
-   "at": "2026-11-25T05:37+00:00",
+   "t": "North Korea expels Swiss diplomat in sanctions row",
+   "u": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
+   "d": "Swiss officials said relations would be kept through North Korea's embassy in Bern, and its own embassy in Beijing.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b4ee/live/fcd47260-e8fc-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-25T21:51+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    46.8,
+    8.2,
+    "瑞士"
    ]
   },
   {
@@ -654,7 +654,7 @@
    "t": "FedEx plane overshoots Miami runway, with flights briefly suspended at airport",
    "u": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
    "d": "The brief ground stop comes on the day before the US Thanksgiving holiday, one of the busiest travel days of the year.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2a0d/live/c9da76c0-e94c-11f1-99b6-a35a62fa4264.jpg",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a780/live/1db9c0f0-e959-11f1-99b6-a35a62fa4264.jpg",
    "at": "2026-11-26T03:27+00:00",
    "where": [
     28.0,
@@ -679,11 +679,11 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "Australia hold on for narrow win against Wales",
-   "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm25ev1z8y8o?at_medium=RSS&at_campaign=rss",
-   "d": "Wales could not emulate their famous victory against New Zealand as Australia claimed the Nations Championship spoils in Cardiff.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9dd5/live/e5f01650-e5ee-11f1-b1d8-fd34c88a50a0.jpg",
-   "at": "2026-11-21T22:25+00:00",
+   "t": "King Charles and Elton John pay tribute to Australian music legend Molly Meldrum",
+   "u": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o?at_medium=RSS&at_campaign=rss",
+   "d": "The promoter and broadcaster helped define the music tastes of Australians for decades.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0cfc/live/c3bcfc70-e6ce-11f1-a9db-c39c38a2d17c.jpg",
+   "at": "2026-11-24T00:23+00:00",
    "where": [
     -25.3,
     133.8,
@@ -749,15 +749,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Lies, a disguise and surfboard bags: How a jealous Sydney policeman tried to cover up double murder",
-   "u": "https://www.bbc.co.uk/news/articles/cmrrg749d02do?at_medium=RSS&at_campaign=rss",
-   "d": "Beau Lamarre was on Wednesday found guilty of murdering his ex Jesse Baird, and Baird's new partner Luke Davies.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/92ff/live/1284fd50-e871-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-25T01:51+00:00",
+   "t": "The rising cost of putting food on the table in India",
+   "u": "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss",
+   "d": "India's food inflation is broadening, squeezing household budgets.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e93a/live/237a32d0-e7d4-11f1-939f-471cde339c0e.jpg",
+   "at": "2026-11-25T01:02+00:00",
    "where": [
-    -25.3,
-    133.8,
-    "澳洲"
+    21.0,
+    78.0,
+    "印度"
    ]
   },
   {
@@ -791,15 +791,15 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "Sydney marathon champion Jepchirchir gets three-year doping ban",
-   "u": "https://www.bbc.co.uk/sport/athletics/articles/cv5y1e1zle88o?at_medium=RSS&at_campaign=rss",
-   "d": "Reigning world marathon champion Peres Jepchirchir is banned for three years for a doping violation.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c292/live/4a3d4a90-ced6-11f1-b2b0-07f43a3ad2d3.jpg",
-   "at": "2026-11-19T10:56+00:00",
+   "t": "Australia hold on for narrow win against Wales",
+   "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm25ev1z8y8o?at_medium=RSS&at_campaign=rss",
+   "d": "Wales could not emulate their famous victory against New Zealand as Australia claimed the Nations Championship spoils in Cardiff.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9dd5/live/e5f01650-e5ee-11f1-b1d8-fd34c88a50a0.jpg",
+   "at": "2026-11-21T22:25+00:00",
    "where": [
-    -33.87,
-    151.21,
-    "悉尼"
+    -25.3,
+    133.8,
+    "澳洲"
    ]
   },
   {
@@ -861,15 +861,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "The CCTV that helped convict a Sydney policeman of double murder",
-   "u": "https://www.bbc.co.uk/news/videos/c6z9dk30880zo?at_medium=RSS&at_campaign=rss",
-   "d": "More than 14,000 hours of CCTV evidence helped convict former police officer Beau Lamarre of killing his ex-partner and the man's new boyfriend in 2024.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9a39/live/eef14440-e89b-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-25T06:58+00:00",
+   "t": "Xi's anti-corruption campaign ensnares rising star in Chinese Communist Party",
+   "u": "https://www.bbc.co.uk/news/articles/c6y80kk4zmdno?at_medium=RSS&at_campaign=rss",
+   "d": "Chen Jining's fall is part of the widest purge in the party's Politburo in several decades.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b050/live/cbd85490-e886-11f1-8394-1391ad77445f.jpg",
+   "at": "2026-11-25T05:37+00:00",
    "where": [
-    -25.3,
-    133.8,
-    "澳洲"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
@@ -903,15 +903,15 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "Cummins' integrity not compromised - CA",
-   "u": "https://www.bbc.co.uk/sport/cricket/articles/c65y1gjnqe50o?at_medium=RSS&at_campaign=rss",
-   "d": "Cricket Australia has \"unequivocally rejected\" the suggestion that captain Pat Cummins' integrity has been compromised by the sandpaper scandal.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7262/live/0dfc94a0-e574-11f1-9d7f-154de60fca60.jpg",
-   "at": "2026-11-21T09:32+00:00",
+   "t": "Sydney marathon champion Jepchirchir gets three-year doping ban",
+   "u": "https://www.bbc.co.uk/sport/athletics/articles/cv5y1e1zle88o?at_medium=RSS&at_campaign=rss",
+   "d": "Reigning world marathon champion Peres Jepchirchir is banned for three years for a doping violation.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c292/live/4a3d4a90-ced6-11f1-b2b0-07f43a3ad2d3.jpg",
+   "at": "2026-11-19T10:56+00:00",
    "where": [
-    -25.3,
-    133.8,
-    "澳洲"
+    -33.87,
+    151.21,
+    "悉尼"
    ]
   },
   {
@@ -973,15 +973,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Is China behind a wave of AI fake videos targeting Taiwan?",
-   "u": "https://www.bbc.co.uk/news/articles/cv702rw7dzx5o?at_medium=RSS&at_campaign=rss",
-   "d": "The network attacked key figures in the ruling DPP, including President Lai and mayoral candidate Shen.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/73d1/live/fd148350-e825-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-24T23:05+00:00",
+   "t": "Lies, a disguise and surfboard bags: How a jealous Sydney policeman tried to cover up double murder",
+   "u": "https://www.bbc.co.uk/news/articles/cmrrg749d02do?at_medium=RSS&at_campaign=rss",
+   "d": "Beau Lamarre was on Wednesday found guilty of murdering his ex Jesse Baird, and Baird's new partner Luke Davies.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/92ff/live/1284fd50-e871-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-25T01:51+00:00",
    "where": [
-    23.7,
-    121.0,
-    "台灣"
+    -25.3,
+    133.8,
+    "澳洲"
    ]
   },
   {
@@ -1015,11 +1015,11 @@
   {
    "src": "AUSTRALIA",
    "lang": "en",
-   "t": "Australian cricket's sandpapergate is back - and it cuts deep in a 'nation of good sports'",
-   "u": "https://www.bbc.co.uk/news/articles/c6702z750zvyo?at_medium=RSS&at_campaign=rss",
-   "d": "Claims the entire Australian team knew of the 2018 sandpaper cheating plot are dividing the cricket world.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/97a5/live/fac09110-df39-11f1-a701-fddedf244c16.jpg",
-   "at": "2026-11-13T08:20+00:00",
+   "t": "Cummins' integrity not compromised - CA",
+   "u": "https://www.bbc.co.uk/sport/cricket/articles/c65y1gjnqe50o?at_medium=RSS&at_campaign=rss",
+   "d": "Cricket Australia has \"unequivocally rejected\" the suggestion that captain Pat Cummins' integrity has been compromised by the sandpaper scandal.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7262/live/0dfc94a0-e574-11f1-9d7f-154de60fca60.jpg",
+   "at": "2026-11-21T09:32+00:00",
    "where": [
     -25.3,
     133.8,
@@ -1074,7 +1074,7 @@
    "u": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&at_campaign=rss",
    "d": "The musician, who co-wrote some of the band's biggest hits, had been treated for prostate cancer.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/bf5e/live/c090fb90-e918-11f1-8383-53f283141713.jpg",
-   "at": "2026-11-25T22:19+00:00",
+   "at": "2026-11-26T05:19+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1084,15 +1084,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
-   "u": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss",
-   "d": "China launched its Shenzhou-24 space mission to bring three astronauts to its Tiangong space station.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4b78/live/6330c460-e889-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-25T03:28+00:00",
+   "t": "The CCTV that helped convict a Sydney policeman of double murder",
+   "u": "https://www.bbc.co.uk/news/videos/c6z9dk30880zo?at_medium=RSS&at_campaign=rss",
+   "d": "More than 14,000 hours of CCTV evidence helped convict former police officer Beau Lamarre of killing his ex-partner and the man's new boyfriend in 2024.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9a39/live/eef14440-e89b-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-25T06:58+00:00",
    "where": [
-    30.4,
-    69.3,
-    "巴基斯坦"
+    -25.3,
+    133.8,
+    "澳洲"
    ]
   },
   {
@@ -1121,6 +1121,20 @@
     50.0,
     10.0,
     "歐洲"
+   ]
+  },
+  {
+   "src": "AUSTRALIA",
+   "lang": "en",
+   "t": "Australian cricket's sandpapergate is back - and it cuts deep in a 'nation of good sports'",
+   "u": "https://www.bbc.co.uk/news/articles/c6702z750zvyo?at_medium=RSS&at_campaign=rss",
+   "d": "Claims the entire Australian team knew of the 2018 sandpaper cheating plot are dividing the cricket world.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/97a5/live/fac09110-df39-11f1-a701-fddedf244c16.jpg",
+   "at": "2026-11-13T08:20+00:00",
+   "where": [
+    -25.3,
+    133.8,
+    "澳洲"
    ]
   },
   {
@@ -1181,15 +1195,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Solomon Islands ends controversial security pact with China for Australian treaty",
-   "u": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno?at_medium=RSS&at_campaign=rss",
-   "d": "Solomon Islands leader Matthew Wale said his country would no longer be a point of regional uncertainty.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/33d1/live/b36a7310-e87d-11f1-98e2-c97dce6bef0d.jpg",
-   "at": "2026-11-25T03:15+00:00",
+   "t": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
+   "u": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss",
+   "d": "China launched its Shenzhou-24 space mission to bring three astronauts to its Tiangong space station.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4b78/live/6330c460-e889-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-25T03:28+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    30.4,
+    69.3,
+    "巴基斯坦"
    ]
   },
   {
