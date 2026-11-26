@@ -1041,7 +1041,12 @@ body:not(.penergy) #energy * { animation-play-state: paused !important; }
 body.night #night { display: block; }
 /* Top bar of page tabs: a tap shows it, another tap hides it; it also hides itself after 8 s without use. */
 #tabs { position: absolute; top: max(10px, env(safe-area-inset-top)); left: 50%; max-width: calc(100vw - 32px); z-index: 20; display: flex; gap: 2px; padding: 5px; box-sizing: border-box; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; background: rgba(22,26,34,.88); border: 1px solid rgba(255,255,255,.08); border-radius: 999px; box-shadow: 0 10px 30px rgba(0,0,0,.35); opacity: 0; pointer-events: none; transform: translate(-50%, -24px); transition: opacity .3s ease, transform .35s cubic-bezier(.25,.8,.25,1); }
-#tabs::-webkit-scrollbar { display: none; }
+#tabs::-webkit-scrollbar, #tabs .tgrp::-webkit-scrollbar, #tabs .tpg::-webkit-scrollbar { display: none; }
+#tabs { flex-direction: column; align-items: center; gap: 4px; border-radius: 26px; overflow: visible; }
+#tabs .tgrp, #tabs .tpg { display: flex; gap: 2px; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+#tabs .tgrp button { font-weight: 700; color: #d6dde7; padding: 10px 12px; }
+#tabs .tgrp button.on { background: #f3c46b; color: #1a1406; }
+#tabs .tpg { padding-top: 4px; border-top: 1px solid rgba(255,255,255,.08); }
 /* A new page's tiles come in one by one, quickly (title, then the rows, left to right). */
 .pcIn { animation: pieceIn .42s cubic-bezier(.2,.8,.2,1) backwards; }
 .pcFade { animation: pieceFade .42s ease backwards; }
@@ -1240,6 +1245,20 @@ body.phone #days { grid-column: 1; grid-row: 4; }
 body.phone #week, body.phone #newsp, body.phone #league, body.phone #tfl, body.phone .bkpg { padding: calc(env(safe-area-inset-top) * 1.95 + 24px) 22px calc(env(safe-area-inset-bottom) * 1.95 + 56px); }
 body.phone #week .top, body.phone #newsp .top, body.phone #league .top, body.phone #tfl .top, body.phone .bkpg .top { flex-wrap: wrap; align-items: flex-end; gap: 10px; }
 body.phone #week h1 span, body.phone #newsp h1 span, body.phone #league h1 span, body.phone .bkpg h1 span { display: block; margin: 4px 0 0; font-size: 22px; }
+body.phone #bookp { padding: calc(env(safe-area-inset-top) * 1.95 + 24px) 22px calc(env(safe-area-inset-bottom) * 1.95 + 56px); }
+body.phone #bookp .top { flex-wrap: wrap; align-items: flex-end; gap: 10px; }
+body.phone #bookp h1 span { display: block; margin: 4px 0 0; font-size: 22px; }
+body.phone #bookp .rng { flex-wrap: wrap; gap: 8px; }
+body.phone #bkMain { padding: 26px 26px; }
+body.phone #bkUp { flex-direction: column; gap: 20px; overflow-y: auto; -webkit-overflow-scrolling: touch; }   /* cover on top, text underneath: scroll */
+body.phone #bkL { width: auto; flex-direction: row; align-items: flex-end; flex-wrap: wrap; }
+body.phone #bkCov { width: 210px; flex: none; }
+body.phone #bkRv { display: none; }   /* reviews: in the 📖 sheet */
+body.phone #bkTx { overflow: visible; }
+body.phone #bkShelf .row { flex-wrap: wrap; }
+body.phone .bks { flex: 0 0 calc(50% - 8px); }
+body.phone #bkSheet .bd { flex-direction: column; }
+body.phone #bkInfo { width: auto; flex: 1; }
 body.phone #wk { grid-template-columns: 1fr 1fr; grid-template-rows: repeat(7, 1fr); grid-auto-flow: column; }   /* this week left, next week right */
 body.phone #wk .lock { grid-row: 1 / -1; }
 body.phone #ltab { grid-template-columns: 1fr; }
@@ -1289,16 +1308,6 @@ body.phone #etips .wide { grid-column: 1; }
 </style>
 </head>
 <body>
-<div id="bkHold" hidden><!-- the old book-of-the-day page, kept off the page list: its sheet (sample pages) opens from the prize + bestseller pages -->
-<div class="hold" id="pbook">
-<div class="stage" id="bookp">
-  <div class="top"><h1>今日好書<span>Book of the day</span></h1><div class="rng"><button id="bkBack" type="button" hidden>↩ 今日好書</button><button id="bkPrizeBtn" type="button">🏆 得獎小說</button><span id="bkDay"></span><button id="bkPlay" type="button">▶ 讀出嚟</button></div></div>
-  <div id="bkMain"><div id="bkUp"><div id="bkL"><div id="bkCov"></div><button id="bkOpen" type="button">📖 試讀 · 詳情 Sample</button><div id="bkMeta"></div></div><div id="bkTx"><div id="bkTag"></div><div id="bkPrize"></div><div id="bkT">Loading…</div><div id="bkTz"></div><div id="bkA"></div><p id="bkEn"></p><p id="bkZh"></p></div></div><div id="bkRv"></div></div>
-  <div id="bkShelf" hidden></div>
-  <div id="bkSheet" hidden><div class="hd"><h2 id="bkSheetT"></h2><button type="button" id="bkSheetX">✕ 關閉 Close</button></div><div class="bd"><div id="bkInfo"></div><div id="bkView"></div></div></div>
-</div>
-</div>
-</div>
 <div id="pages"><div id="track">
 <div class="page" id="p1">
 <div class="stage" id="stage">
@@ -1326,19 +1335,6 @@ body.phone #etips .wide { grid-column: 1; }
   </div>
 </div>
 </div>
-<div class="page" id="pyt">
-<div class="stage ytstage" id="ytp">
-  <div class="top"><h1>YouTube 新聞<span>香港 · Hong Kong news channels</span></h1><div id="ytUpd" class="ytupd"></div></div>
-  <div id="ytCols" class="ytcols"><div class="ytmsg" id="ytMsg">載入影片… Loading videos</div></div>
-  <div id="ytPlay" hidden><div id="ytFrame"></div><div id="ytBar"><div id="ytNow"></div><a id="ytOpen" target="_blank" rel="noopener">喺 YouTube 開 ↗</a><button type="button" id="ytClose">✕ 關閉 Close</button></div></div>
-</div>
-</div>
-<div class="page" id="pytw">
-<div class="stage ytstage" id="ytw">
-  <div class="top"><h1>YouTube 世界<span>World · AI · Finance</span></h1><div id="ytwUpd" class="ytupd"></div></div>
-  <div id="ytwCols" class="ytcols"><div class="ytmsg">載入影片… Loading videos</div></div>
-</div>
-</div>
 <div class="page" id="phk">
 <div class="stage" id="hkc">
   <div class="top"><h1>香港角落<span>Hong Kong corner</span></h1><div id="hkTime" class="num"></div></div>
@@ -1348,37 +1344,6 @@ body.phone #etips .wide { grid-column: 1; }
 </div>
 </div>
 <div class="page" id="pcity"><iframe id="cityFrame" src="cities.html?embed" onload="if (window.goPage) goPage(PAGE, true)" title="UK and Hong Kong weather" scrolling="no"></iframe></div>
-<div class="page" id="pprize">
-<div class="stage bkpg" id="prizep">
-  <div class="top"><h1>得獎好書<span>Prize-winning books</span></h1><div class="rng"><span class="hint">撳一本睇簡介 · Tap a book</span></div></div>
-  <div class="prow" id="ppUk"></div>
-  <div class="prow" id="ppTw"></div>
-</div>
-</div>
-<div class="page" id="pbest">
-<div class="stage bkpg" id="bestp">
-  <div class="top"><h1>暢銷榜 Top 10<span>Bestsellers</span></h1><div class="rng"><span class="hint">撳一本睇簡介 · Tap a book</span></div></div>
-  <div id="bsCols"><div class="bsmsg">載入中… Loading</div></div>
-</div>
-</div>
-<div class="page" id="pspace">
-<div class="stage" id="space">
-  <div class="top"><h1>太空角落<span>Space corner</span></h1><div id="spDist"></div></div>
-  <div id="spMars"><div class="ph"></div><div class="ph"></div><div class="msg" id="spMsg">載入火星相片… Loading Mars photos</div><div class="chip"><i></i>火星 Mars · <span id="spRover"></span></div><div class="cap" id="spCap"></div></div>
-  <div id="spApod"><div class="pic" id="spApodPic"></div><div class="tx"><div class="lbl">NASA 每日天文圖 · Picture of the day</div><h2 id="spApodT"></h2><div class="by" id="spApodBy"></div><p id="spApodX"></p></div></div>
-  <div id="spSide">
-    <div id="spMoon"></div>
-    <div id="spIss"><div class="lbl">國際太空站 · Space Station</div><div id="spMap"><img src="world.svg" alt=""><svg id="spTrack" width="100%" height="136"></svg><div class="home" id="spHome"></div><div class="iss" id="spDot"><b></b></div></div><div id="spNext"></div><div id="spMore"></div><div id="spCrew"></div></div>
-  </div>
-</div>
-</div>
-<div class="page" id="psolar"><iframe id="solarFrame" src="solar.html?embed" onload="if (window.goPage) goPage(PAGE, true)" title="Solar system" scrolling="no"></iframe></div>
-<div class="page" id="p3">
-<div class="stage" id="league">
-  <div class="top"><h1>Premier League<span>英超積分榜</span></h1><div id="apps"><a class="app sp" href="spotify:"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">Spotify</span></a><a class="app yt" href="youtube://"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">YouTube</span></a></div><div class="upd" id="lupd"></div></div>
-  <div id="ltab"><div id="lmsg">Loading table… 載入中</div></div>
-</div>
-</div>
 <div class="page" id="ptfl">
 <div class="stage" id="tfl">
   <div class="top"><h1><svg width="54" height="44" viewBox="0 0 54 44" aria-hidden="true"><circle cx="27" cy="22" r="17" fill="none" stroke="#dc241f" stroke-width="8"/><rect x="2" y="17" width="50" height="10" fill="#0019a8"/></svg>倫敦交通<span>TfL · <b id="tfStop">Northwood</b></span></h1><div class="upd" id="tfUpd"></div></div>
@@ -1406,12 +1371,52 @@ body.phone #etips .wide { grid-column: 1; }
   </div>
 </div>
 </div>
-<div class="page" id="pbday">
-<div class="stage" id="bday">
-  <div class="top"><h1>生日倒數<span>Birthdays</span></h1><div class="rng"><span class="sm" id="btag" hidden>示範 · sample</span><span id="bnow"></span></div></div>
-  <div id="bd"></div>
+<div class="page" id="pyt">
+<div class="stage ytstage" id="ytp">
+  <div class="top"><h1>YouTube 新聞<span>香港 · Hong Kong news channels</span></h1><div id="ytUpd" class="ytupd"></div></div>
+  <div id="ytCols" class="ytcols"><div class="ytmsg" id="ytMsg">載入影片… Loading videos</div></div>
+  <div id="ytPlay" hidden><div id="ytFrame"></div><div id="ytBar"><div id="ytNow"></div><a id="ytOpen" target="_blank" rel="noopener">喺 YouTube 開 ↗</a><button type="button" id="ytClose">✕ 關閉 Close</button></div></div>
 </div>
 </div>
+<div class="page" id="pytw">
+<div class="stage ytstage" id="ytw">
+  <div class="top"><h1>YouTube 世界<span>World · AI · Finance</span></h1><div id="ytwUpd" class="ytupd"></div></div>
+  <div id="ytwCols" class="ytcols"><div class="ytmsg">載入影片… Loading videos</div></div>
+</div>
+</div>
+<div class="page" id="pbook">
+<div class="stage" id="bookp">
+  <div class="top"><h1>今日好書<span>Book of the day</span></h1><div class="rng"><button id="bkBack" type="button" hidden>↩ 今日好書</button><button id="bkPrizeBtn" type="button">🏆 得獎小說</button><span id="bkDay"></span><button id="bkPlay" type="button">▶ 讀出嚟</button></div></div>
+  <div id="bkMain"><div id="bkUp"><div id="bkL"><div id="bkCov"></div><button id="bkOpen" type="button">📖 試讀 · 詳情 Sample</button><div id="bkMeta"></div></div><div id="bkTx"><div id="bkTag"></div><div id="bkPrize"></div><div id="bkT">Loading…</div><div id="bkTz"></div><div id="bkA"></div><p id="bkEn"></p><p id="bkZh"></p></div></div><div id="bkRv"></div></div>
+  <div id="bkShelf" hidden></div>
+  <div id="bkSheet" hidden><div class="hd"><h2 id="bkSheetT"></h2><button type="button" id="bkSheetX">✕ 關閉 Close</button></div><div class="bd"><div id="bkInfo"></div><div id="bkView"></div></div></div>
+</div>
+</div>
+<div class="page" id="pprize">
+<div class="stage bkpg" id="prizep">
+  <div class="top"><h1>得獎好書<span>Prize-winning books</span></h1><div class="rng"><span class="hint">撳一本睇簡介 · Tap a book</span></div></div>
+  <div class="prow" id="ppUk"></div>
+  <div class="prow" id="ppTw"></div>
+</div>
+</div>
+<div class="page" id="pbest">
+<div class="stage bkpg" id="bestp">
+  <div class="top"><h1>暢銷榜 Top 10<span>Bestsellers</span></h1><div class="rng"><span class="hint">撳一本睇簡介 · Tap a book</span></div></div>
+  <div id="bsCols"><div class="bsmsg">載入中… Loading</div></div>
+</div>
+</div>
+<div class="page" id="pspace">
+<div class="stage" id="space">
+  <div class="top"><h1>太空角落<span>Space corner</span></h1><div id="spDist"></div></div>
+  <div id="spMars"><div class="ph"></div><div class="ph"></div><div class="msg" id="spMsg">載入火星相片… Loading Mars photos</div><div class="chip"><i></i>火星 Mars · <span id="spRover"></span></div><div class="cap" id="spCap"></div></div>
+  <div id="spApod"><div class="pic" id="spApodPic"></div><div class="tx"><div class="lbl">NASA 每日天文圖 · Picture of the day</div><h2 id="spApodT"></h2><div class="by" id="spApodBy"></div><p id="spApodX"></p></div></div>
+  <div id="spSide">
+    <div id="spMoon"></div>
+    <div id="spIss"><div class="lbl">國際太空站 · Space Station</div><div id="spMap"><img src="world.svg" alt=""><svg id="spTrack" width="100%" height="136"></svg><div class="home" id="spHome"></div><div class="iss" id="spDot"><b></b></div></div><div id="spNext"></div><div id="spMore"></div><div id="spCrew"></div></div>
+  </div>
+</div>
+</div>
+<div class="page" id="psolar"><iframe id="solarFrame" src="solar.html?embed" onload="if (window.goPage) goPage(PAGE, true)" title="Solar system" scrolling="no"></iframe></div>
 <div class="page" id="p2">
 <div id="big" title="Tap for another photo">
   <svg id="bsvg" aria-hidden="true">
@@ -1431,6 +1436,18 @@ body.phone #etips .wide { grid-column: 1; }
     <g id="bline" filter="url(#bshade)" fill="none" stroke="rgba(255,255,255,.62)" stroke-width="2"><text class="gl" id="bt1"></text><text class="gl" id="bt2"></text></g>
   </svg>
   <div class="info" id="binfo"></div>
+</div>
+</div>
+<div class="page" id="p3">
+<div class="stage" id="league">
+  <div class="top"><h1>Premier League<span>英超積分榜</span></h1><div id="apps"><a class="app sp" href="spotify:"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">Spotify</span></a><a class="app yt" href="youtube://"><span class="dot"><svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg></span><span class="n">YouTube</span></a></div><div class="upd" id="lupd"></div></div>
+  <div id="ltab"><div id="lmsg">Loading table… 載入中</div></div>
+</div>
+</div>
+<div class="page" id="pbday">
+<div class="stage" id="bday">
+  <div class="top"><h1>生日倒數<span>Birthdays</span></h1><div class="rng"><span class="sm" id="btag" hidden>示範 · sample</span><span id="bnow"></span></div></div>
+  <div id="bd"></div>
 </div>
 </div>
 <div class="page" id="penergy">
@@ -1508,10 +1525,19 @@ var CONFIG = {
   tfl: { stop: '940GZZLUNOW', name: 'Northwood', lines: ['metropolitan'], modes: 'tube,elizabeth-line,overground,dlr',
     dirs: { S: { zh: '往倫敦', en: 'To London', via: 'Harrow · Baker Street · Aldgate', plat: '月台 Platform 2' },
             N: { zh: '往 Watford / Amersham', en: 'Northbound', via: 'Rickmansworth · Chesham', plat: '月台 Platform 1' } } },
-  // Pages turn by themselves: each page in 'pages' (1 = dashboard) shows for 'secs' seconds.
-  // After a swipe to a page outside the list, it stays there for 'stay' seconds before carrying on.
-  // The big pink clock (page 15), energy (page 16) and the energy review (page 17) sit at the end, outside the turning pages: swipe to them any time.
-  rotate: { secs: 60, pages: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13], stay: 300 },
+  // Page groups: the top bar shows the groups, then the pages of the group you are in. The pages sit in #track in this order.
+  // The group marked rotate: true turns by itself, each page for rotate.secs seconds. After a swipe to a page outside it,
+  // the screen stays there for rotate.stay seconds, then goes back to the turning pages.
+  groups: [
+    { n: '🔄 輪播 Rotating', rotate: true, pages: ['p1', 'pcal', 'pnews', 'phk', 'pcity'] },
+    { n: '🚆 TfL', pages: ['ptfl', 'ptfw'] },
+    { n: '📺 影片 Videos', pages: ['pyt', 'pytw'] },
+    { n: '📚 書 Books', pages: ['pbook', 'pprize', 'pbest'] },
+    { n: '🚀 太空 Space', pages: ['pspace', 'psolar'] },
+    { n: '🕰️ 鐘 · 波 Clock & fun', pages: ['p2', 'p3', 'pbday'] },
+    { n: '⚡ 能源 Energy', pages: ['penergy', 'preview', 'ptips'] }
+  ],
+  rotate: { secs: 60, stay: 300 },
   // Night mode: between these hours (iPad's own clock) a dim, soft clock replaces the pages.
   // A tap shows the dashboard (dimmed) for 'wake' seconds, then the night clock comes back. ?night=1 / ?night=0 to test.
   // Birthday page (page 14): joins the turning pages when the next birthday is this many days away or less.
@@ -1574,7 +1600,7 @@ function wx(code, isDay) {
 /* ---------- fit the 1366x1024 design to the screen ---------- */
 /* iPhone held upright: the dashboard (page 1) gets a tall one-column layout (body.phone CSS);
    the other pages keep the iPad design, shrunk to fit - turn the phone sideways to see them bigger. */
-var PHONE_STAGES = ['stage', 'week', 'newsp', 'league', 'tfl', 'prizep', 'bestp', 'ytp', 'ytw', 'hkc', 'space', 'tfw', 'bday', 'energy', 'ereview', 'etips'];   /* pages with an upright-phone layout */
+var PHONE_STAGES = ['stage', 'week', 'newsp', 'league', 'tfl', 'prizep', 'bestp', 'bookp', 'ytp', 'ytw', 'hkc', 'space', 'tfw', 'bday', 'energy', 'ereview', 'etips'];   /* pages with an upright-phone layout */
 function fitStage() {
   var k = Math.min(innerWidth / 1366, innerHeight / 1024), st = document.querySelectorAll('.stage');
   var phone = innerWidth < 600 && innerHeight > innerWidth;
@@ -1597,7 +1623,9 @@ function fitStage() {
 addEventListener('resize', fitStage); fitStage();
 
 /* ---------- pages: swipe left/right, tap the dots, or use the arrow keys ----------
-   Page 1 is the dashboard, page 2 this week's calendar, page 3 the news map, page 4 YouTube news channels (yt.json: 綠豆, 法庭線, 集誌社, 有線新聞), page 5 YouTube world / AI / finance channels, page 6 the Hong Kong corner, page 7 UK + Hong Kong weather side by side, page 8 book of the day, page 9 the space corner, page 10 the solar system flying through the galaxy (solar.html), page 11 the league table, page 12 TfL trains + line status, page 13 TfL coming weeks (map + planned works), page 14 birthday countdown, page 15 the full-photo clock, page 16 home energy (Octopus), page 17 the energy review (months, budget, tips), page 18 saving tips + Siri phrases. To add a page, add another
+   The pages are grouped (CONFIG.groups): 🔄 rotating (dashboard, week, news map, HK corner, UK + HK weather), 🚆 TfL (live trains, coming weeks),
+   📺 videos (YouTube news, world TV), 📚 books (book of the day, prizes, top 10), 🚀 space (space corner, solar system),
+   🕰️ clock + fun (photo clock, league table, birthdays), ⚡ energy (energy, review, tips). To add a page, add another
    <div class="page"> inside #track. The iPad remembers the last page shown. */
 var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
 (function () {
@@ -1609,16 +1637,41 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
     dots.appendChild(b);
   }
   // Top bar tabs, one per page.
-  var NAMES = { p1: '🏠 Home', ptfl: '🚆 Trains', ptfw: '🗺️ Works', pcal: '📅 Week', pnews: '📰 News', pyt: '▶️ YouTube', pytw: '🌍 World TV', phk: '🇭🇰 HK', pcity: '⛅ UK · HK', pprize: '🏆 Prizes', pbest: '📈 Top 10', pspace: '🚀 Space', psolar: '🪐 Planets', p3: '⚽ League', pbday: '🎂 Birthdays', p2: '🕰️ Clock', penergy: '⚡ Energy', preview: '📊 Review', ptips: '💡 Tips' };
-  var tabs = $('tabs'), tabsTimer = 0;
+  var NAMES = { pbook: '📖 今日好書', p1: '🏠 Home', ptfl: '🚆 Trains', ptfw: '🗺️ Works', pcal: '📅 Week', pnews: '📰 News', pyt: '▶️ YouTube', pytw: '🌍 World TV', phk: '🇭🇰 HK', pcity: '⛅ UK · HK', pprize: '🏆 Prizes', pbest: '📈 Top 10', pspace: '🚀 Space', psolar: '🪐 Planets', p3: '⚽ League', pbday: '🎂 Birthdays', p2: '🕰️ Clock', penergy: '⚡ Energy', preview: '📊 Review', ptips: '💡 Tips' };
+  // Groups (CONFIG.groups): GROUP_OF[page index] = group index. Pages left out of every group join a last "More" group.
+  var GROUPS = [], GROUP_OF = [], idx = {};
+  for (var q = 0; q < n; q++) idx[pages[q].id] = q;
+  (CONFIG.groups || []).forEach(function (g) {
+    var list = g.pages.map(function (id) { return idx[id]; }).filter(function (k) { return k >= 0 && GROUP_OF[k] === undefined; });
+    if (!list.length) return;
+    list.forEach(function (k) { GROUP_OF[k] = GROUPS.length; });
+    GROUPS.push({ n: g.n, rotate: !!g.rotate, pages: list });
+  });
+  var rest = []; for (q = 0; q < n; q++) if (GROUP_OF[q] === undefined) { GROUP_OF[q] = GROUPS.length; rest.push(q); }
+  if (rest.length) GROUPS.push({ n: '➕ More', pages: rest });
+  window.ROTATE_PAGES = [].concat.apply([], GROUPS.filter(function (g) { return g.rotate; }).map(function (g) { return g.pages; }));
+  var tabs = $('tabs'), tabsTimer = 0, gRow = document.createElement('div'), pRow = document.createElement('div'), pBtn = [];
+  gRow.className = 'tgrp'; pRow.className = 'tpg'; tabs.appendChild(gRow); tabs.appendChild(pRow);
+  GROUPS.forEach(function (g, gi) {
+    var b = document.createElement('button'); b.type = 'button'; b.textContent = g.n;
+    b.onclick = function () { if (GROUP_OF[PAGE] !== gi) goPage(g.pages[0]); showTabs(); };
+    gRow.appendChild(b);
+  });
   for (var t = 0; t < n; t++) {
     var tb = document.createElement('button'); tb.type = 'button'; tb.textContent = NAMES[pages[t].id] || 'Page ' + (t + 1);
     tb.onclick = (function (k) { return function () { goPage(k); showTabs(); }; })(t);
-    tabs.appendChild(tb);
+    pBtn.push(tb);
+  }
+  function tabsDraw() {   // top row: groups; second row: the pages of this group, in order
+    var g = GROUP_OF[PAGE], list = GROUPS[g] ? GROUPS[g].pages : [];
+    for (var i = 0; i < gRow.children.length; i++) gRow.children[i].className = i === g ? 'on' : '';
+    while (pRow.firstChild) pRow.removeChild(pRow.firstChild);
+    list.forEach(function (k) { pBtn[k].className = k === PAGE ? 'on' : ''; pRow.appendChild(pBtn[k]); });
+    for (var j = 0; j < n; j++) dots.children[j].style.display = GROUP_OF[j] === g ? '' : 'none';   // dots: only this group's pages
   }
   function showTabs() {
     tabs.classList.add('show');
-    var on = tabs.children[PAGE]; if (on) tabs.scrollLeft = on.offsetLeft - (tabs.clientWidth - on.offsetWidth) / 2;
+    var on = gRow.children[GROUP_OF[PAGE]]; if (on) gRow.scrollLeft = on.offsetLeft - (gRow.clientWidth - on.offsetWidth) / 2;
     clearTimeout(tabsTimer); tabsTimer = setTimeout(function () { tabs.classList.remove('show'); }, 8000);
   }
   function hideTabs() { clearTimeout(tabsTimer); tabs.classList.remove('show'); }
@@ -1707,7 +1760,8 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
     if (instant) track.classList.add('drag');
     track.style.transform = 'translate3d(' + (-PAGE * innerWidth) + 'px,0,0)';
     if (instant) { track.offsetWidth; track.classList.remove('drag'); }
-    for (var j = 0; j < n; j++) { dots.children[j].className = j === PAGE ? 'on' : ''; if (tabs.children[j]) tabs.children[j].className = j === PAGE ? 'on' : ''; }
+    for (var j = 0; j < n; j++) dots.children[j].className = j === PAGE ? 'on' : '';
+    tabsDraw();
     try { localStorage.setItem('page', PAGE); } catch (e) {}
     pageAt = Date.now();
     document.body.classList.toggle('pcal', PAGE === CAL_PAGE);   // calendar animations only run while it shows
@@ -1751,10 +1805,10 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
   // Turn the pages by themselves (CONFIG.rotate). Touching the screen restarts the wait.
   document.addEventListener('touchstart', function () { pageAt = Date.now(); }, { passive: true });
   setInterval(function () {
-    var R = CONFIG.rotate; if (!R || !R.secs || !R.pages || !R.pages.length) return;
+    var R = CONFIG.rotate; if (!R || !R.secs) return;
     if (isNight()) { pageAt = Date.now(); return; }   // night: no page turning, even while peeking
     if ((typeof noteOpen !== 'undefined' && noteOpen) || window.BOARD_BUSY || window.YT_BUSY || window.BKPOP || (window.speechSynthesis && speechSynthesis.speaking)) { pageAt = Date.now(); return; }
-    var list = R.pages.map(function (p) { return p - 1; });
+    var list = (window.ROTATE_PAGES || []).slice(); if (!list.length) return;
     if (window.bdaySoon && BDAY_PAGE >= 0 && list.indexOf(BDAY_PAGE) < 0) list.push(BDAY_PAGE);   // birthday page joins in when one is close
     var at = list.indexOf(PAGE);
     if (Date.now() - pageAt < (at >= 0 ? R.secs : R.stay || R.secs) * 1000) return;
@@ -3563,7 +3617,7 @@ function bookDraw() {
   BOOK_DAY = d.toDateString();
   m.style.setProperty('--bk', c); m.style.setProperty('--bk2', c + '33');
   $('bkCov').innerHTML = bookCover(b);
-  $('bkTag').textContent = (b.tag || '') + ' · ' + (BOOK_EN[b.tag] || b.tag || '') + (b.date ? ' · 新書 New' : '');
+  $('bkTag').textContent = (b.tag || '') + ' · ' + (BOOK_EN[b.tag] || b.tag || '') + (b.age ? ' · ' + b.age : '') + (b.date ? ' · 新書 New' : '');
   $('bkPrize').textContent = b.prize ? '🏆 ' + b.prize + (b.prize_zh ? ' · ' + b.prize_zh : '') : '';
   $('bkBack').hidden = b === bookDaily();
   $('bkPrizeBtn').hidden = !bookPrizes().length;
@@ -3775,11 +3829,12 @@ function bookSheet() {
   });
 }
 function bookSheetShut() { if ($('bkSheet').hidden) return; $('bkSheet').hidden = true; $('bkView').innerHTML = ''; window.YT_BUSY = false; pageAt = Date.now(); }
-$('bkOpen').addEventListener('click', bookSheet);
-$('bkCov').addEventListener('click', bookSheet);
+function bookSheetHere() { if ($('bkSheet').parentNode !== $('bookp')) $('bookp').appendChild($('bkSheet')); bookSheet(); }   // the prize pages may have borrowed it
+$('bkOpen').addEventListener('click', bookSheetHere);
+$('bkCov').addEventListener('click', bookSheetHere);
 $('bkSheetX').addEventListener('click', bookSheetShut);
 setInterval(function () {   // close it after 10 minutes, or if someone swipes to another page
-  if (!$('bkSheet').hidden && (!/^(pprize|pbest)$/.test($('track').children[PAGE].id) || Date.now() - pageAt > 10 * 60000)) bookSheetShut();
+  if (!$('bkSheet').hidden && (!/^(pbook|pprize|pbest)$/.test($('track').children[PAGE].id) || Date.now() - pageAt > 10 * 60000)) bookSheetShut();
 }, 30000);
 setInterval(bookLoad, 30 * 60000);   // the morning pick arrives around 6am
 setInterval(function () { if (BOOK_DAY && new Date().toDateString() !== BOOK_DAY) bookDraw(); }, 60000);   // new day: redraw
