@@ -1,64 +1,55 @@
 {
-  "date": "2026-11-25",
-  "updated": "2026-11-25T05:10:37+00:00",
-  "id": "man-who-broke-reality-philip-ball",
-  "t": "The Man Who Broke Reality: Niels Bohr and the Making of Modern Physics",
-  "tz": "打破現實的人：玻爾與現代物理學的誕生",
+  "date": "2026-11-26",
+  "updated": "2026-11-26T05:09:57+00:00",
+  "id": "the-pools-e-lockhart",
+  "t": "The Pools",
+  "tz": "溫泉之池",
   "tz_note": "暫譯",
-  "a": "Philip Ball",
-  "published": "8 Oct 2026",
-  "publisher": "The Bridge Street Press (UK); University of Chicago Press (US)",
-  "pages": 512,
+  "a": "E. Lockhart",
+  "published": "6 Oct 2026",
+  "publisher": "Hot Key Books (UK); Delacorte Press (US)",
+  "pages": 384,
+  "age": "14+",
   "isbn": [
-    "9780349136547",
-    "9780226843063"
+    "9781471422201",
+    "9780593904121"
   ],
-  "cover_url": "https://www.hachette.co.uk/wp-content/uploads/2026/04/hbg-title-the-man-who-broke-reality-49.jpg",
-  "tag": "科學",
-  "en": "Science writer Philip Ball tells the life of Niels Bohr, the Danish physicist who gave us the quantum model of the atom and won the 1922 Nobel Prize. Ball follows Bohr's long argument with Einstein over what quantum theory says about reality, his tense wartime meeting with Heisenberg in occupied Copenhagen, his escape from Denmark, his part in the Manhattan Project and his later campaign to control nuclear weapons, which also helped create CERN. Ball argues the famous 'Copenhagen view' is often caricatured, and that Bohr was subtler and more radical than he gets credit for. For anyone curious about quantum physics and the very human story behind it.",
-  "zh": "科學作家Philip Ball寫丹麥物理學家玻爾嘅一生。佢提出原子嘅量子模型，1922年攞諾貝爾獎。書入面講佢同愛因斯坦幾十年嘅辯論：量子理論究竟話我哋知啲咩現實？仲有戰時喺哥本哈根同海森堡嘅緊張會面、逃出丹麥、參與曼哈頓計劃，戰後呼籲管制核武，又幫手成立CERN。Ball認為大家成日將「哥本哈根詮釋」講到好片面，其實玻爾比想像中更細膩、更激進。想了解量子物理同背後人性故事嘅人，好啱睇。",
+  "cover_url": "https://cdn.theportobellobookshop.com/img/9781471422201.jpg?1795669750",
+  "tag": "小說",
+  "en": "From the author of We Were Liars comes a haunting love story wrapped in a fairy tale. Lexie Weiss-Greenberg moves from Los Angeles with her mum and little sister Orly to the small town of Covington, famous for its healing hot springs, the pools. Lexie hopes the waters will help her mother, who lives with chronic pain and depression. Summer brings romance with Chester, a swimmer from a richer family, but one winter's day something strange and terrible happens at the pools, and Lexie, always the responsible one, races against time to put it right. A lyrical, twisty read for teens who like magic in everyday places.",
+  "zh": "《We Were Liars》作者E. Lockhart嘅新作，係一個包住童話外衣嘅愛情故事。Lexie同媽媽、細妹Orly由洛杉磯搬去小鎮Covington，嗰度出名有療癒溫泉，人人叫佢做「the pools」。媽媽長期痛症兼抑鬱，Lexie希望溫泉可以幫到佢。夏天，佢同家境富裕嘅游泳隊男仔Chester拍拖；但到咗冬天某日，溫泉發生咗一件離奇又可怕嘅事。一向最懂事嘅Lexie要同時間競賽，諗辦法挽救一切。故事改編自格林童話，文字好有詩意，啱鍾意日常魔幻嘅青少年讀者。",
   "reviews": [
     {
-      "src": "The Guardian",
-      "d": "Gripping biography: the physics is explained effortlessly, the Bohr–Einstein debates are vivid, and it shows science as a very human adventure.",
-      "dz": "引人入勝嘅傳記：物理講得輕鬆易明，玻爾同愛因斯坦嘅辯論好精彩。",
-      "url": "https://www.theguardian.com/books/2026/nov/18/the-man-who-broke-reality-by-philip-ball-review-the-inspirational-genius-of-niels-bohr"
+      "src": "Kirkus Reviews",
+      "d": "A suspenseful, poetic and cinematic novel with real heart that gives a Grimm folktale fresh insight: come for the romance, stay for the artistry.",
+      "dz": "懸疑、詩意又有畫面感，為格林童話帶來新意，文字功力出色。",
+      "url": "https://www.kirkusreviews.com/book-reviews/e-lockhart/the-pools/"
     },
     {
-      "src": "The Jerusalem Post",
-      "d": "An excellent, absorbing and accessible biography, strong on Bohr as a humanitarian who helped colleagues fleeing the Nazis.",
-      "dz": "出色又易讀，寫出玻爾點樣幫逃離納粹嘅同行，好有人情味。",
-      "url": "https://www.jpost.com/science/article-914696"
-    },
-    {
-      "src": "Financial Times",
-      "d": "Named among the FT's best science books of 2026; John Banville calls it comprehensive, authoritative and shrewd.",
-      "dz": "入選《金融時報》2026年度最佳科學書，評為全面、權威又精明。",
-      "url": "https://press.uchicago.edu/ucp/books/book/chicago/M/bo280707026.html"
+      "src": "Common Sense Media",
+      "d": "An imaginative, emotionally intense piece of magical realism; an emotionally riveting and very relatable ride for teen readers.",
+      "dz": "想像力豐富、情感濃烈嘅魔幻寫實故事，青少年好易代入。",
+      "url": "https://www.commonsensemedia.org/book-reviews/the-pools"
     }
   ],
-  "ken": "Quantum physics forces us to accept that science describes what we can know and say about nature, not a world fully independent of us.",
-  "kzh": "量子物理逼我哋承認：科學講嘅係我哋對大自然可以知道同講到嘅嘢，而唔係一個完全獨立於我哋嘅世界。",
+  "ken": "A dreamy hot-springs romance that turns into a race to save the people you love.",
+  "kzh": "溫泉小鎮嘅浪漫故事，一轉身變成拯救至親嘅奇幻競賽。",
   "sources": [
     {
-      "title": "The Guardian review (Luca Turin), via AOL",
-      "url": "https://www.aol.co.uk/articles/man-broke-reality-philip-ball-070034000.html"
+      "title": "Kirkus Reviews: The Pools",
+      "url": "https://www.kirkusreviews.com/book-reviews/e-lockhart/the-pools/"
     },
     {
-      "title": "The Jerusalem Post review (Colin Shindler)",
-      "url": "https://www.jpost.com/science/article-914696"
+      "title": "Common Sense Media: The Pools",
+      "url": "https://www.commonsensemedia.org/book-reviews/the-pools"
     },
     {
-      "title": "Hachette UK title page",
-      "url": "https://www.hachette.co.uk/titles/philip-ball-2/the-man-who-broke-reality/9780349136547/"
+      "title": "The Portobello Bookshop (Hot Key Books UK edition)",
+      "url": "https://www.theportobellobookshop.com/9781471422201"
     },
     {
-      "title": "University of Chicago Press",
-      "url": "https://press.uchicago.edu/ucp/books/book/chicago/M/bo280707026.html"
-    },
-    {
-      "title": "AIP interview with Philip Ball",
-      "url": "https://www.aip.org/library/ex-libris-universum/reconstructing-niels-bohr-a-conversation-with-philip-ball"
+      "title": "Penguin Random House: The Pools",
+      "url": "https://www.penguinrandomhouse.com/books/769687/the-pools-by-e-lockhart/9780593904121"
     }
   ]
 }
