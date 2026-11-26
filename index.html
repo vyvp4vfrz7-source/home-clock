@@ -1044,7 +1044,8 @@ body.night #night { display: block; }
 #tabs::-webkit-scrollbar, #tabs .tgrp::-webkit-scrollbar, #tabs .tpg::-webkit-scrollbar { display: none; }
 #tabs { flex-direction: column; align-items: center; gap: 4px; border-radius: 26px; overflow: visible; }
 #tabs .tgrp, #tabs .tpg { display: flex; gap: 2px; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
-#tabs .tgrp button { font-weight: 700; color: #d6dde7; padding: 10px 12px; }
+#tabs .tgrp button { font-size: 24px; padding: 8px 12px; }
+#tabs .tpg button { font-size: 20px; padding: 7px 10px; }
 #tabs .tgrp button.on { background: #f3c46b; color: #1a1406; }
 #tabs .tpg { padding-top: 4px; border-top: 1px solid rgba(255,255,255,.08); }
 /* A new page's tiles come in one by one, quickly (title, then the rows, left to right). */
@@ -1650,15 +1651,16 @@ var PAGE = 0, CAL_PAGE = 1, CLOCK_PAGE = 2, BDAY_PAGE = -1, pageAt = Date.now();
   var rest = []; for (q = 0; q < n; q++) if (GROUP_OF[q] === undefined) { GROUP_OF[q] = GROUPS.length; rest.push(q); }
   if (rest.length) GROUPS.push({ n: '➕ More', pages: rest });
   window.ROTATE_PAGES = [].concat.apply([], GROUPS.filter(function (g) { return g.rotate; }).map(function (g) { return g.pages; }));
+  function iconOnly(btn, label) { btn.textContent = label.split(' ')[0]; btn.setAttribute('aria-label', label); btn.title = label; }   // the bar shows icons only
   var tabs = $('tabs'), tabsTimer = 0, gRow = document.createElement('div'), pRow = document.createElement('div'), pBtn = [];
   gRow.className = 'tgrp'; pRow.className = 'tpg'; tabs.appendChild(gRow); tabs.appendChild(pRow);
   GROUPS.forEach(function (g, gi) {
-    var b = document.createElement('button'); b.type = 'button'; b.textContent = g.n;
+    var b = document.createElement('button'); b.type = 'button'; iconOnly(b, g.n);
     b.onclick = function () { if (GROUP_OF[PAGE] !== gi) goPage(g.pages[0]); showTabs(); };
     gRow.appendChild(b);
   });
   for (var t = 0; t < n; t++) {
-    var tb = document.createElement('button'); tb.type = 'button'; tb.textContent = NAMES[pages[t].id] || 'Page ' + (t + 1);
+    var tb = document.createElement('button'); tb.type = 'button'; iconOnly(tb, NAMES[pages[t].id] || '📄 Page ' + (t + 1));
     tb.onclick = (function (k) { return function () { goPage(k); showTabs(); }; })(t);
     pBtn.push(tb);
   }
