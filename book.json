@@ -1,55 +1,68 @@
 {
- "date": "2026-11-26",
- "updated": "2026-11-26T05:09:57+00:00",
- "id": "the-pools-e-lockhart",
- "t": "The Pools",
- "tz": "溫泉之池",
+ "date": "2026-11-27",
+ "updated": "2026-11-27T05:11:22+00:00",
+ "id": "holloway-elana-k-arnold",
+ "t": "Holloway",
+ "tz": "霍洛威",
  "tz_note": "暫譯",
- "a": "E. Lockhart",
- "published": "6 Oct 2026",
- "publisher": "Hot Key Books (UK); Delacorte Press (US)",
- "pages": 384,
+ "a": "Elana K. Arnold",
+ "published": "5 May 2026",
+ "publisher": "Clarion Books / HarperCollins (US)",
+ "pages": 352,
  "age": "14+",
  "isbn": [
-  "9781471422201",
-  "9780593904121"
+  "9780062990884"
  ],
- "cover_url": "https://cdn.theportobellobookshop.com/img/9781471422201.jpg?1795669750",
+ "cover_url": "https://images-us.bookshop.org/ingram/9780062990884.jpg?v=6bf694ff5448b2cdf6f3247912a55bd7&width=600",
  "tag": "小說",
- "en": "From the author of We Were Liars comes a haunting love story wrapped in a fairy tale. Lexie Weiss-Greenberg moves from Los Angeles with her mum and little sister Orly to the small town of Covington, famous for its healing hot springs, the pools. Lexie hopes the waters will help her mother, who lives with chronic pain and depression. Summer brings romance with Chester, a swimmer from a richer family, but one winter's day something strange and terrible happens at the pools, and Lexie, always the responsible one, races against time to put it right. A lyrical, twisty read for teens who like magic in everyday places.",
- "zh": "《We Were Liars》作者E. Lockhart嘅新作，係一個包住童話外衣嘅愛情故事。Lexie同媽媽、細妹Orly由洛杉磯搬去小鎮Covington，嗰度出名有療癒溫泉，人人叫佢做「the pools」。媽媽長期痛症兼抑鬱，Lexie希望溫泉可以幫到佢。夏天，佢同家境富裕嘅游泳隊男仔Chester拍拖；但到咗冬天某日，溫泉發生咗一件離奇又可怕嘅事。一向最懂事嘅Lexie要同時間競賽，諗辦法挽救一切。故事改編自格林童話，文字好有詩意，啱鍾意日常魔幻嘅青少年讀者。",
+ "en": "It is 2021, and Nora, an autistic Jewish 18-year-old who loves art, is reeling from her mother's death from Covid-19. She travels to Paris, and in the French countryside she slips back in time to 1946, where she finds herself a patient at the asylum of Saint-Alban. There she makes friends with Beryl and Penella, meets a kind boy called Adrien, and starts to ask what it means to be truly understood. A quiet, introspective time-slip novel about grief, family trauma and love, and a 2026 US National Book Award finalist. For thoughtful readers of 14 and up.",
+ "zh": "2021年，18歲嘅Nora係一個熱愛藝術、有自閉症嘅猶太女仔，啱啱因為新冠失去咗媽媽。佢去咗巴黎，點知喺法國鄉郊竟然穿越返1946年，變咗Saint-Alban精神病院嘅病人。喺嗰度佢識咗Beryl同Penella兩個朋友，又遇到溫柔嘅男仔Adrien，慢慢諗：俾人真正明白係點樣嘅感覺？呢本安靜、內省嘅穿越小說，講喪親之痛、家族創傷同愛，入圍2026年美國國家圖書獎。適合14歲以上讀者。",
  "reviews": [
   {
    "src": "Kirkus Reviews",
-   "d": "A suspenseful, poetic and cinematic novel with real heart that gives a Grimm folktale fresh insight: come for the romance, stay for the artistry.",
-   "dz": "懸疑、詩意又有畫面感，為格林童話帶來新意，文字功力出色。",
-   "url": "https://www.kirkusreviews.com/book-reviews/e-lockhart/the-pools/"
+   "d": "Starred review: a beautifully written, deeply introspective portrait of generational trauma, and of how love can both hurt and heal.",
+   "dz": "星級書評：文筆優美、深刻內省，寫出跨代創傷，同愛點樣傷人又療癒。",
+   "url": "https://www.kirkusreviews.com/book-reviews/elana-k-arnold/holloway/"
   },
   {
-   "src": "Common Sense Media",
-   "d": "An imaginative, emotionally intense piece of magical realism; an emotionally riveting and very relatable ride for teen readers.",
-   "dz": "想像力豐富、情感濃烈嘅魔幻寫實故事，青少年好易代入。",
-   "url": "https://www.commonsensemedia.org/book-reviews/the-pools"
+   "src": "Publishers Weekly",
+   "d": "An ambitious, immersive picture of a neurodivergent teen's experience that raises thought-provoking questions about time, love and relationships.",
+   "dz": "野心十足、令人投入，寫活神經多樣少女，引人思考時間、愛同關係。",
+   "url": "https://www.publishersweekly.com/9780062990884"
+  },
+  {
+   "src": "CCBC (Univ. of Wisconsin)",
+   "d": "Starred review of the week: a quiet, singular novel in which Nora's time with the asylum patients becomes a kind of healing.",
+   "dz": "本週星級推介：安靜又獨特，Nora同病人相處嘅日子成為一種療癒。",
+   "url": "https://ccbc.education.wisc.edu/holloway/"
   }
  ],
- "ken": "A dreamy hot-springs romance that turns into a race to save the people you love.",
- "kzh": "溫泉小鎮嘅浪漫故事，一轉身變成拯救至親嘅奇幻競賽。",
+ "ken": "A haunting time-slip into 1946 France with a heroine who sees the world her own way.",
+ "kzh": "穿越返1946年法國，跟住一個用自己方式睇世界嘅女主角，餘韻好長。",
  "sources": [
   {
-   "title": "Kirkus Reviews: The Pools",
-   "url": "https://www.kirkusreviews.com/book-reviews/e-lockhart/the-pools/"
+   "title": "Kirkus Reviews: Holloway",
+   "url": "https://www.kirkusreviews.com/book-reviews/elana-k-arnold/holloway/"
   },
   {
-   "title": "Common Sense Media: The Pools",
-   "url": "https://www.commonsensemedia.org/book-reviews/the-pools"
+   "title": "Publishers Weekly: Holloway",
+   "url": "https://www.publishersweekly.com/9780062990884"
   },
   {
-   "title": "The Portobello Bookshop (Hot Key Books UK edition)",
-   "url": "https://www.theportobellobookshop.com/9781471422201"
+   "title": "CCBC: Holloway",
+   "url": "https://ccbc.education.wisc.edu/holloway/"
   },
   {
-   "title": "Penguin Random House: The Pools",
-   "url": "https://www.penguinrandomhouse.com/books/769687/the-pools-by-e-lockhart/9780593904121"
+   "title": "BookBrowse: Holloway",
+   "url": "https://www.bookbrowse.com/bb_briefs/detail/index.cfm/ezine_preview_number/25667"
+  },
+  {
+   "title": "Book Riot: 2026 National Book Award shortlist, Young People's Literature",
+   "url": "https://bookriot.com/2026-national-book-award-shortlist-for-young-peoples-literature/"
+  },
+  {
+   "title": "Bookshop.org: Holloway",
+   "url": "https://bookshop.org/p/books/holloway-elana-k-arnold/c85d85dc647d3edc"
   }
  ]
 }
