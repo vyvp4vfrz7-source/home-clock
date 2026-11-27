@@ -1,14 +1,13 @@
 {
- "updated": "2026-11-27T04:34+00:00",
+ "updated": "2026-11-27T05:52+00:00",
  "items": [
   {
    "src": "香港",
    "lang": "zh",
-   "t": "李家超：歡迎各專家學者以香港為平台 共同推動不同文明和合共生",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879469-20261127.htm",
-   "d": "行政長官李家超出席全球文明研究國際學術論壇並致辭，表示世界百年變局加速演進，地緣政治複雜多變，面對全球性挑戰，任何單一文明都無法獨善其身，唯有以文明交流超越文明隔閡、以文明互鑑超越文明衝突、以文明包容超越文明優越，方能凝聚跨越疆界的共識。 李家超說，中國社會科學院在今年7月設立全球文明研究院，是踐行全球文明倡議的重大舉措。研究院成立後的首場大型國際學術盛會在港舉行，充分體現香港作為連接中外文明的重要平台作用。香港在「一國兩制」下擁有背靠…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879469_1_M_20261127111828.jpg",
-   "at": "2026-11-27T03:08+00:00",
+   "t": "客輪於青衣油庫對開疑撞船塢設施 22人受傷",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879480-20261127.htm",
+   "d": "一艘由上環開往蛇口的客輪早上約9時半駛至青衣油庫對開時，懷疑撞到船塢設施，船上22人受傷，其中5人傷勢較嚴重，分別送往瑪嘉烈醫院及仁濟醫院。 事發後，客輪停泊於青衣船塢的碼頭，現場所見，客輪船頭有損毀。多輛救護車到場，將傷者送院，警方在場調查。 編輯：譚佩貞",
+   "at": "2026-11-27T05:07+00:00",
    "where": [
     22.32,
     114.17,
@@ -46,11 +45,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "往蛇口客輪青衣油庫對開疑撞船塢 船上25人傷其中5人較嚴重",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879468-20261127.htm",
-   "d": "一艘由上環開往蛇口的客輪早上約9時半駛至青衣油庫對開時，懷疑撞到船塢設施，船上有25人受傷，其中5人傷勢較嚴重，當中3人送往瑪嘉烈醫院，另外2人送往仁濟醫院。 編輯：譚佩貞",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879468_1_M_20261127111517.jpg",
-   "at": "2026-11-27T03:07+00:00",
+   "t": "警方：上月至今30宗網絡安全事故 不法份子以AI存取大量資料",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879478-20261127.htm",
+   "d": "警方表示，留意到近期發生多宗網絡安全攻擊事故，導致客戶資料外洩。網絡安全及科技罪案調查科警司許綺惠說，上月至今，警方錄得30宗相關報告，主要涉及零售企業，其中14宗涉及勒索軟件，另外11宗源於應用程式介面API 的相關漏洞，其餘5宗是「釣魚攻擊」等。 許綺惠指出，市民使用企業及機構的應用程式或網站時，背後是靠API的資料庫提取資料，一旦API 直通資料庫的「門匙」失守，客戶資料庫就會失守，在人工智能AI自動化下，不法分子可以在短時間內獲…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879478_1_M_20261127131849.jpg",
+   "at": "2026-11-27T04:54+00:00",
    "where": [
     22.32,
     114.17,
@@ -60,11 +59,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "台灣「九合一」選舉：六都市長候選人簡介",
-   "u": "https://www.bbc.com/zhongwen/articles/cwlymzm5mnxyo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "這場選舉將影響藍綠政治版圖，六都選情備受關注，包括台北、新北、桃園、台中、台南、高雄，BBC中文整理各地候選人的簡介。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/6f3d/live/717c67f0-e950-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-26T11:11+00:00",
+   "t": "台中市選戰：江啟臣對決何欣純，盧秀燕問鼎總統前哨戰",
+   "u": "https://www.bbc.com/zhongwen/articles/cx053e8yr348o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣選舉傳統中，素有「決戰中台灣」一稱。江啟臣若當選，盧路線將得到選民加持，其在國民黨內的聲望也有望進一步升高。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/ed63/live/743f96d0-ea25-11f1-a968-f30728b956c0.jpg",
+   "at": "2026-11-27T05:47+00:00",
    "where": [
     23.7,
     121.0,
@@ -83,11 +82,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "專家指網絡保安事故增加 原因包括黑客以AI無間段掃描嘗試攻擊",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879467-20261127.htm",
-   "d": "近期多間機構接連發生網絡安全及資料外洩事故，香港網絡安全事故協調中心主管李子圖認為，近期公布的個案增加，某程度反映機構對通報事故的意識提高。 李子圖在本台節目《千禧年代》表示，本港去年有15000多宗網絡保安事故，當中包括資料外洩及「釣魚」攻擊等，按年上升27%，創歷年新高。今年第三季則錄得超過4400宗個案，按年增加15%。 李子圖說，網絡保安事故增加的原因包括企業數碼轉型加快，黑客攻擊高度自動化，企業使用手機應用程式、雲端服務或網上…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879467_1_M_20261127111941.jpg",
-   "at": "2026-11-27T02:59+00:00",
+   "t": "蔡天鳳案開始結案陳詞",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879475-20261127.htm",
+   "d": "。律政司外聘資深大律師、主控郭莎樂說，事發前鄺球與蔡天鳳關係已十分惡劣，涉及巨額金錢，而蔡天鳳負責支付單位、生活開支、汽車、傭人和司機的費用。推斷蔡天鳳計劃出售加多利山單位並希望盡快完成交易，與她的遇害時機有關。 控方在庭上再次播出鄺港傑與鄺球在賣刀店舖外的錄影片段，鄺港傑曾雙手比劃，揮動前臂作出類似切剁的手勢。鄺球隨後點頭並走入店內。另外播出鄺港傑與第三被告鄺港智在一間咖啡店內商討的片段。 郭莎樂拿起蔡天鳳的手袋向陪審團展示，手袋多處…",
+   "at": "2026-11-27T04:32+00:00",
    "where": [
     22.32,
     114.17,
@@ -125,11 +123,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "中九龍繞道九龍灣段下月６日早上7時開通",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879464-20261127.htm",
-   "d": "運輸署表示，中九龍繞道下月6日早上7時全線通車，所有車種全日以「易通行」劃一8元收費。 署方表示，中九龍繞道(九龍灣段)開通後，可大幅縮短繁忙時段往來將軍澳與油麻地的行車時間，亦預期可分流觀塘現有主要幹道的車流，如觀塘繞道和觀塘道，紓緩交通擠塞。 署方表示，下月6日凌晨零時至早上7時，油麻地段將臨時封閉，以更新交通標誌和道路標記及進行「易通行」最後準備工作。 當九龍灣段開通後，現時已行經油麻地或將藍隧道的三條專營巴士路線會改經九龍灣段並…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879464_1_M_20261127110045.jpg",
-   "at": "2026-11-27T02:47+00:00",
+   "t": "李家超：歡迎各專家學者以香港為平台 共同推動不同文明和合共生",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879469-20261127.htm",
+   "d": "行政長官李家超出席全球文明研究國際學術論壇並致辭，表示世界百年變局加速演進，地緣政治複雜多變，面對全球性挑戰，任何單一文明都無法獨善其身，唯有以文明交流超越文明隔閡、以文明互鑑超越文明衝突、以文明包容超越文明優越，方能凝聚跨越疆界的共識。 李家超說，中國社會科學院在今年7月設立全球文明研究院，是踐行全球文明倡議的重大舉措。研究院成立後的首場大型國際學術盛會在港舉行，充分體現香港作為連接中外文明的重要平台作用。香港在「一國兩制」下擁有背靠…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879469_1_M_20261127111828.jpg",
+   "at": "2026-11-27T03:08+00:00",
    "where": [
     22.32,
     114.17,
@@ -167,11 +165,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "往蛇口客輪在青衣油庫對開疑撞到船塢設施 20多人受傷",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879461-20261127.htm",
-   "d": "一艘由上環開往蛇口的客輪在早上約9時半駛至青衣油庫對開時，懷疑撞到船塢設施，船上有20多人受傷，全部清醒，其中4人較嚴重。 編輯：譚佩貞",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879461_1_M_20261127104845.jpg",
-   "at": "2026-11-27T02:33+00:00",
+   "t": "往蛇口客輪青衣油庫對開疑撞船塢 船上20多人傷其中5人較嚴重",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879468-20261127.htm",
+   "d": "一艘由上環開往蛇口的客輪早上約9時半駛至青衣油庫對開時，懷疑撞到船塢設施，船上有20多人受傷，其中5人傷勢較嚴重，當中3人送往瑪嘉烈醫院，另外2人送往仁濟醫院。 編輯：譚佩貞",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879468_1_M_20261127111517.jpg",
+   "at": "2026-11-27T03:07+00:00",
    "where": [
     22.32,
     114.17,
@@ -209,11 +207,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "男子足球U17世界盃分組賽 國家隊勝斐濟晉身32強",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879460-20261127.htm",
-   "d": "在卡塔爾舉行的男子足球U17世界盃，國家隊在分組賽最後一場8：0大勝斐濟，成功晉身32強淘汰賽，時隔21年再次晉級世少賽淘汰賽。 國足分組賽首戰0：5負西班牙，第二場2：2被摩洛哥逼和，最後一戰8：0大勝斐濟，以三戰積4分排第三。根據賽制，8個成績最好的小組第三名可以晉級，國足已經鎖定其中一個席位，晉身下一圈賽事。 今次是國足繼1985年和2005年之後，第三次晉級世少賽淘汰賽。 編輯：譚佩貞",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879460_1_M_20261127110012.jpg",
-   "at": "2026-11-27T02:24+00:00",
+   "t": "專家指網絡保安事故增加 原因包括黑客以AI無間段掃描嘗試攻擊",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879467-20261127.htm",
+   "d": "近期多間機構接連發生網絡安全及資料外洩事故，香港網絡安全事故協調中心主管李子圖認為，近期公布的個案增加，某程度反映機構對通報事故的意識提高。 李子圖在本台節目《千禧年代》表示，本港去年有15000多宗網絡保安事故，當中包括資料外洩及「釣魚」攻擊等，按年上升27%，創歷年新高。今年第三季則錄得超過4400宗個案，按年增加15%。 李子圖說，網絡保安事故增加的原因包括企業數碼轉型加快，黑客攻擊高度自動化，企業使用手機應用程式、雲端服務或網上…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879467_1_M_20261127111941.jpg",
+   "at": "2026-11-27T02:59+00:00",
    "where": [
     22.32,
     114.17,
@@ -223,11 +221,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "台灣九合一選舉：從「洋流」看民進黨戰略性擱置「抗中保台」牌",
-   "u": "https://www.bbc.com/zhongwen/articles/cmx29vxzgj25o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "有學者指出，這並非「中國因素」消失，而是地方選舉本質以市政民生為主，民進黨也吸取去年大罷免的教訓，戰略性擱置了統獨議題，以此拉攏中間選民。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/a056/live/5ce6dab0-e8af-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-26T09:38+00:00",
+   "t": "台灣「九合一」選舉：六都市長候選人簡介",
+   "u": "https://www.bbc.com/zhongwen/articles/cwlymzm5mnxyo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "這場選舉將影響藍綠政治版圖，六都選情備受關注，包括台北、新北、桃園、台中、台南、高雄，BBC中文整理各地候選人的簡介。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/6f3d/live/717c67f0-e950-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-26T11:11+00:00",
    "where": [
     23.7,
     121.0,
@@ -251,14 +249,14 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "陳茂波繼續荷蘭訪問行程 推動商貿投資和創新科技領域合作",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879457-20261127.htm",
-   "d": "財政司司長陳茂波率領代表團繼續在荷蘭的訪問行程，在阿姆斯特丹和萊頓出席多項活動，推動香港與荷蘭在商貿、投資和創新科技等領域的合作。 陳茂波與代表團在阿姆斯特丹出席由香港貿發局聯同Amsterdam Trade & Invest、StartupAmsterdam和阿姆斯特丹科學園合辦的交流會，聽取對方介紹當地如何構建創科生態，以及科研和產業發展的重點領域，包括人工智能、量子科技、生命科學與健康，以及可持續發展技術。 他們之後出席由香港駐布…",
-   "at": "2026-11-27T02:12+00:00",
+   "t": "中九龍繞道九龍灣段下月６日早上7時開通",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879464-20261127.htm",
+   "d": "運輸署表示，中九龍繞道下月6日早上7時全線通車，所有車種全日以「易通行」劃一8元收費。 署方表示，中九龍繞道(九龍灣段)開通後，可大幅縮短繁忙時段往來將軍澳與油麻地的行車時間，亦預期可分流觀塘現有主要幹道的車流，如觀塘繞道和觀塘道，紓緩交通擠塞。 署方表示，下月6日凌晨零時至早上7時，油麻地段將臨時封閉，以更新交通標誌和道路標記及進行「易通行」最後準備工作。 當九龍灣段開通後，現時已行經油麻地或將藍隧道的三條專營巴士路線會改經九龍灣段並…",
+   "at": "2026-11-27T02:47+00:00",
    "where": [
-    52.2,
-    5.3,
-    "荷蘭"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
@@ -291,10 +289,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "【重溫】2026年11月27日《社評摘要》",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879446-20261127.htm",
-   "d": "匯集各大報章社論及評論精華，多角度呈現各方觀點。",
-   "at": "2026-11-27T01:33+00:00",
+   "t": "往蛇口客輪在青衣油庫對開疑撞到船塢設施 20多人受傷",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879461-20261127.htm",
+   "d": "一艘由上環開往蛇口的客輪在早上約9時半駛至青衣油庫對開時，懷疑撞到船塢設施，船上有20多人受傷，全部清醒，其中4人較嚴重。 編輯：譚佩貞",
+   "at": "2026-11-27T02:33+00:00",
    "where": [
     22.32,
     114.17,
@@ -304,11 +302,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
-   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
-   "at": "2026-11-17T09:49+00:00",
+   "t": "台灣九合一選舉：從「洋流」看民進黨戰略性擱置「抗中保台」牌",
+   "u": "https://www.bbc.com/zhongwen/articles/cmx29vxzgj25o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "有學者指出，這並非「中國因素」消失，而是地方選舉本質以市政民生為主，民進黨也吸取去年大罷免的教訓，戰略性擱置了統獨議題，以此拉攏中間選民。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/a056/live/5ce6dab0-e8af-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-26T09:38+00:00",
    "where": [
     23.7,
     121.0,
@@ -331,10 +329,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "【重溫】2026年11月27日《報章摘要》",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879445-20261127.htm",
-   "d": "每日搜羅本港主要報章要聞，緊貼社會動態。",
-   "at": "2026-11-27T01:33+00:00",
+   "t": "男子足球U17世界盃分組賽 國家隊勝斐濟晉身32強",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879460-20261127.htm",
+   "d": "在卡塔爾舉行的男子足球U17世界盃，國家隊在分組賽最後一場8：0大勝斐濟，成功晉身32強淘汰賽，時隔21年再次晉級世少賽淘汰賽。 國足分組賽首戰0：5負西班牙，第二場2：2被摩洛哥逼和，最後一戰8：0大勝斐濟，以三戰積4分排第三。根據賽制，8個成績最好的小組第三名可以晉級，國足已經鎖定其中一個席位，晉身下一圈賽事。 今次是國足繼1985年和2005年之後，第三次晉級世少賽淘汰賽。 編輯：譚佩貞",
+   "at": "2026-11-27T02:24+00:00",
    "where": [
     22.32,
     114.17,
@@ -344,11 +342,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "「九合一」五大看點：「洋流」能否撼動台北？誰在卡位2028？",
-   "u": "https://www.bbc.com/zhongwen/articles/cm8xzrg40dq1o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "中共是否介入台灣選舉？ 這次選舉將如何影響賴清德與國民黨主席鄭麗文的政治能量？捲土重來、希望藉著地方議員選舉有所斬獲的小黨，此次結盟能否在主流政黨夾殺中突圍而出？",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/5997/live/fdfeb670-d293-11f1-a701-fddedf244c16.jpg",
-   "at": "2026-10-28T02:45+00:00",
+   "t": "「藍白合」示範區：新竹市選情如何透露台灣第三勢力的未來？",
+   "u": "https://www.bbc.com/zhongwen/articles/cme3d27d7lnpo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "新竹市是民眾黨此前唯一贏得執政權的縣市，現任市長高虹安尋求連任，她這次雖已退出民眾黨、改以無黨籍身分參選，但學者指出其選情不僅將影響雙方未來合作模式能否延續，也可能牽動2028年全國大選的政治布局。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b97f/live/e9e2d1d0-e260-11f1-900c-895604014268.jpg",
+   "at": "2026-11-17T09:49+00:00",
    "where": [
     23.7,
     121.0,
@@ -358,14 +356,14 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "阮蘇少湄：中電計劃2035年由內地引入更多潔淨零碳能源",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879448-20261127.htm",
-   "d": "中華電力主席阮蘇少湄表示，計劃2035年由內地引入更多潔淨的零碳能源，包括核電和可再生能源，認為跨境基礎設施需要的審批工程非常龐大，但相信可以在減碳、可靠供電和合理電價三方面取得良好平衡。 阮蘇少湄接受本台電視節目《廣播道會客室》訪問時表示，香港一直需要進口燃料，但本港電費低於世界各地多個大城市，例如比東京和新加坡低2成至3成。她認為，市民不會接受高昂電費，需要考慮成本控制；加上面對地緣政治緊張，有需要分散燃料組合，避免過度依賴單一供應…",
-   "at": "2026-11-27T01:00+00:00",
+   "t": "陳茂波繼續荷蘭訪問行程 推動商貿投資和創新科技領域合作",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879457-20261127.htm",
+   "d": "財政司司長陳茂波率領代表團繼續在荷蘭的訪問行程，在阿姆斯特丹和萊頓出席多項活動，推動香港與荷蘭在商貿、投資和創新科技等領域的合作。 陳茂波與代表團在阿姆斯特丹出席由香港貿發局聯同Amsterdam Trade & Invest、StartupAmsterdam和阿姆斯特丹科學園合辦的交流會，聽取對方介紹當地如何構建創科生態，以及科研和產業發展的重點領域，包括人工智能、量子科技、生命科學與健康，以及可持續發展技術。 他們之後出席由香港駐布…",
+   "at": "2026-11-27T02:12+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    52.2,
+    5.3,
+    "荷蘭"
    ]
   },
   {
@@ -380,11 +378,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Hackers using AI to find loopholes: HKCERT",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879474-20261127.htm",
-   "d": "Artificial intelligence tools have made it easier for hackers to find and exploit system vulnerabilities, contributing to a recent rise in cyber security incidents and data leaks in Hong Kong, the Hong Kong Computer Emer…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879474_1_M_20261127122936.jpg",
-   "at": "2026-11-27T04:29+00:00",
+   "t": "Ferry accident near Tsing Yi injures 25",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879476-20261127.htm",
+   "d": "Twenty-five people were injured, five seriously, after a passenger ferry hit dockyard facilities near the Tsing Yi oil depot on Friday. The ferry had been travelling from Sheung Wan to She Kou when the accident happened …",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879476_1_M_20261127125811.jpg",
+   "at": "2026-11-27T05:03+00:00",
    "where": [
     22.32,
     114.17,
@@ -394,11 +392,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "UK to pay 'participation' fee to deliver EU deals",
-   "u": "https://www.bbc.co.uk/news/articles/ck2057x387ego?at_medium=RSS&at_campaign=rss",
-   "d": "Details of the contribution towards EU running costs have been revealed in new legal documents.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e264/live/8e58c180-e9e5-11f1-ab41-f1f84c0c758a.png",
-   "at": "2026-11-26T23:17+00:00",
+   "t": "From £250 job to £9,000 bill: Inside the rogue trader networks scamming customers at scale",
+   "u": "https://www.bbc.co.uk/news/articles/c65yme31k7m2o?at_medium=RSS&at_campaign=rss",
+   "d": "Networks of plumbers and electricians are scamming people on a large scale, the BBC reveals.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3451/live/fbe22210-e9cb-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-27T00:58+00:00",
    "where": [
     52.5,
     -1.5,
@@ -426,7 +424,7 @@
    "u": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
    "d": "Almost one million customers in the US had no power on Thursday evening as storms descended on both US coasts, bringing wind gusts, heavy rain and flooding.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/af5b/live/7a140030-e9f0-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-27T00:52+00:00",
+   "at": "2026-11-27T05:15+00:00",
    "where": [
     38.9,
     -77.04,
@@ -492,11 +490,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Flowers moved to make room at remembrance site: govt",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879412-20261126.htm",
-   "d": "The government said on Thursday that it relocated some of the flowers and tribute items laid in an open space across Wang Fuk Court to make room for people who turned up after nightfall to pay their respects. At Kwong Fu…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879412_1_M_20261126215905.jpg",
-   "at": "2026-11-26T14:31+00:00",
+   "t": "Central Kowloon Bypass to fully open Dec 6 at 7am",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879472-20261127.htm",
+   "d": "The Central Kowloon Bypass will be fully commissioned at 7am on December 6, authorities said on Friday. The final section to open will be the Kowloon Bay section, an approximately 3.4-kilometre dual two-lane trunk road t…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879472_1_M_20261127121022.jpg",
+   "at": "2026-11-27T04:40+00:00",
    "where": [
     22.32,
     114.17,
@@ -506,11 +504,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "From £250 job to £9,000 bill: Inside the rogue trader networks scamming customers at scale",
-   "u": "https://www.bbc.co.uk/news/articles/c65yme31k7m2o?at_medium=RSS&at_campaign=rss",
-   "d": "Networks of plumbers and electricians are scamming people on a large scale, the BBC reveals.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3451/live/fbe22210-e9cb-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-27T00:58+00:00",
+   "t": "UK to pay 'participation' fee to deliver EU deals",
+   "u": "https://www.bbc.co.uk/news/articles/ck2057x387ego?at_medium=RSS&at_campaign=rss",
+   "d": "Details of the contribution towards EU running costs have been revealed in new legal documents.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e264/live/8e58c180-e9e5-11f1-ab41-f1f84c0c758a.png",
+   "at": "2026-11-26T23:17+00:00",
    "where": [
     52.5,
     -1.5,
@@ -599,11 +597,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Ombudsman probes LCSD management of public study rooms",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879389-20261126.htm",
-   "d": "Ombudsman Jack Chan on Thursday announced a direct investigation into the Leisure and Cultural Services Department's (LCSD) management of study rooms, citing observations of misuse that hinders students with genuine need…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879389_1_M_20261126184456.jpg",
-   "at": "2026-11-26T10:52+00:00",
+   "t": "Hackers using AI to find loopholes: HKCERT",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879474-20261127.htm",
+   "d": "Artificial intelligence tools have made it easier for hackers to find and exploit system vulnerabilities, contributing to a recent rise in cyber security incidents and data leaks in Hong Kong, the Hong Kong Computer Emer…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879474_1_M_20261127122936.jpg",
+   "at": "2026-11-27T04:29+00:00",
    "where": [
     22.32,
     114.17,
@@ -613,11 +611,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "UK net migration at lowest level since 1997 as asylum claims also fall",
-   "u": "https://www.bbc.co.uk/news/articles/cq36gj12n0l3o?at_medium=RSS&at_campaign=rss",
-   "d": "Net migration figures of 77,000 in the year to the end of June mark the lowest this century outside of the Covid pandemic.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cc65/live/28a10870-e99f-11f1-b880-15b494ba858d.jpg",
-   "at": "2026-11-26T14:55+00:00",
+   "t": "NHS boss warns of 'horrible spike' in flu as hospital admissions surge",
+   "u": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o?at_medium=RSS&at_campaign=rss",
+   "d": "Health officials are urging those at risk of getting flu to get vaccinated as soon as possible.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8436/live/1c6edae0-e9dc-11f1-9361-cd8ed0157587.jpg",
+   "at": "2026-11-27T00:20+00:00",
    "where": [
     52.5,
     -1.5,
@@ -711,11 +709,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Odds 'favour car owners who passed ride-hailing tests'",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879385-20261126.htm",
-   "d": "Automobile owners who have already passed the combined written test for driving taxis and ride-hailing vehicles stand to have a higher chance of obtaining a ride-hailing vehicle permit, authorities said, revealing that a…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879385_1_M_20261126175533.jpg",
-   "at": "2026-11-26T09:55+00:00",
+   "t": "Flowers moved to make room at remembrance site: govt",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879412-20261126.htm",
+   "d": "The government said on Thursday that it relocated some of the flowers and tribute items laid in an open space across Wang Fuk Court to make room for people who turned up after nightfall to pay their respects. At Kwong Fu…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879412_1_M_20261126215905.jpg",
+   "at": "2026-11-26T14:31+00:00",
    "where": [
     22.32,
     114.17,
@@ -725,11 +723,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Drug rape husband says wife 'would have been terrified', court hears",
-   "u": "https://www.bbc.co.uk/news/articles/ck053epz2ppmo?at_medium=RSS&at_campaign=rss",
-   "d": "The husband has told a jury that his wife \"would never agree to do any of this\".",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1ae0/live/75260700-e9a8-11f1-9b5c-f3f25f51795d.png",
-   "at": "2026-11-26T18:21+00:00",
+   "t": "MoD has no email addresses for about half of its reservists",
+   "u": "https://www.bbc.co.uk/news/articles/c9vg23m2zzkko?at_medium=RSS&at_campaign=rss",
+   "d": "There are an estimated 95,000 reservists but the MoD has only been able to send letters to about 50,000 of them.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/424c/live/fa1dfce0-ea18-11f1-9e15-a53d1a453090.jpg",
+   "at": "2026-11-27T04:47+00:00",
    "where": [
     52.5,
     -1.5,
@@ -823,11 +821,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "HK exports rise in October on AI electronics demand",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879381-20261126.htm",
-   "d": "Exports and imports both rose year on year in October, supported by strong shipments of artificial intelligence-related electronics, according to data from the Census and Statistics Department on Thursday. Total exports …",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879381_1_M_20261126165916.jpg",
-   "at": "2026-11-26T09:42+00:00",
+   "t": "Ombudsman probes LCSD management of public study rooms",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879389-20261126.htm",
+   "d": "Ombudsman Jack Chan on Thursday announced a direct investigation into the Leisure and Cultural Services Department's (LCSD) management of study rooms, citing observations of misuse that hinders students with genuine need…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879389_1_M_20261126184456.jpg",
+   "at": "2026-11-26T10:52+00:00",
    "where": [
     22.32,
     114.17,
@@ -837,11 +835,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Mandelson kept shares as ambassador despite conflict of interest fears, documents show",
-   "u": "https://www.bbc.co.uk/news/articles/c6808dv4e817o?at_medium=RSS&at_campaign=rss",
-   "d": "The peer was sacked as ambassador last year over his relationship with the convicted sex offender Jeffrey Epstein.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/812f/live/23b5af10-e99e-11f1-b880-15b494ba858d.png",
-   "at": "2026-11-26T18:22+00:00",
+   "t": "Drug rape husband says wife 'would have been terrified', court hears",
+   "u": "https://www.bbc.co.uk/news/articles/ck053epz2ppmo?at_medium=RSS&at_campaign=rss",
+   "d": "The husband has told a jury that his wife \"would never agree to do any of this\".",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1ae0/live/75260700-e9a8-11f1-9b5c-f3f25f51795d.png",
+   "at": "2026-11-26T18:21+00:00",
    "where": [
     52.5,
     -1.5,
@@ -935,11 +933,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "SmarTone apologises over unstable network services",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879367-20261126.htm",
-   "d": "Telecommunication services provider SmarTone apologised on Thursday for inconvenience to customers as a result of unstable network services in some areas. It said at 3.45pm that network services were gradually returning …",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879367_1_M_20261126161709.jpg",
-   "at": "2026-11-26T08:17+00:00",
+   "t": "Odds 'favour car owners who passed ride-hailing tests'",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879385-20261126.htm",
+   "d": "Automobile owners who have already passed the combined written test for driving taxis and ride-hailing vehicles stand to have a higher chance of obtaining a ride-hailing vehicle permit, authorities said, revealing that a…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879385_1_M_20261126175533.jpg",
+   "at": "2026-11-26T09:55+00:00",
    "where": [
     22.32,
     114.17,
@@ -949,15 +947,15 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Tommy Robinson charged with failing to give phone Pin code to police",
-   "u": "https://www.bbc.co.uk/news/articles/cwly4v7nvxl5o?at_medium=RSS&at_campaign=rss",
-   "d": "Robinson, whose real name is Stephen Yaxley-Lennon, is due to appear at Westminster Magistrates' Court on 14 December.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/4be1/live/807d20c0-e9c1-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-26T14:53+00:00",
+   "t": "Victorian railway station left untouched for 70 years goes on sale with suitcase still inside",
+   "u": "https://www.bbc.co.uk/news/articles/c6n8353n4d4mo?at_medium=RSS&at_campaign=rss",
+   "d": "The station houses numerous railway artefacts, including old signal lamps and suitcases",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a6fb/live/1d60f1f0-e73d-11f1-8294-033bd8ee7e95.png",
+   "at": "2026-11-26T22:58+00:00",
    "where": [
-    52.5,
-    -1.5,
-    "英國"
+    -37.81,
+    144.96,
+    "墨爾本"
    ]
   },
   {
@@ -1047,10 +1045,10 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Tai Po fire victims remembered, one year on",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879360-20261126.htm",
-   "d": "Former residents and members of the public gathered in Tai Po on Thursday to lay flowers and observe a moment of silence to mark one year since the deadly Wang Fuk Court fire. At an open space next to the community hall …",
-   "at": "2026-11-26T08:07+00:00",
+   "t": "HK exports rise in October on AI electronics demand",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879381-20261126.htm",
+   "d": "Exports and imports both rose year on year in October, supported by strong shipments of artificial intelligence-related electronics, according to data from the Census and Statistics Department on Thursday. Total exports …",
+   "at": "2026-11-26T09:42+00:00",
    "where": [
     22.32,
     114.17,
@@ -1060,11 +1058,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Burnham joined by former PMs at Widdecombe service",
-   "u": "https://www.bbc.co.uk/news/articles/cvglrn4p1np0o?at_medium=RSS&at_campaign=rss",
-   "d": "Hundreds of guests attended including Andy Burnham, David Cameron, Liz Truss and Boris Johnson.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0063/live/ac781c10-e9ae-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-26T18:26+00:00",
+   "t": "UK net migration at lowest level since 1997 as asylum claims also fall",
+   "u": "https://www.bbc.co.uk/news/articles/cq36gj12n0l3o?at_medium=RSS&at_campaign=rss",
+   "d": "Net migration figures of 77,000 in the year to the end of June mark the lowest this century outside of the Covid pandemic.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cc65/live/28a10870-e99f-11f1-b880-15b494ba858d.jpg",
+   "at": "2026-11-26T14:55+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1158,10 +1156,10 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "AI bot to help teachers nip mental health woes in bud",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879346-20261126.htm",
-   "d": "A cross-sector coalition of three universities and a mental health and wellness association has launched MentAl Bot, a digital platform designed to help Hong Kong teachers better recognise and respond to students' mental…",
-   "at": "2026-11-26T07:46+00:00",
+   "t": "SmarTone apologises over unstable network services",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879367-20261126.htm",
+   "d": "Telecommunication services provider SmarTone apologised on Thursday for inconvenience to customers as a result of unstable network services in some areas. It said at 3.45pm that network services were gradually returning …",
+   "at": "2026-11-26T08:17+00:00",
    "where": [
     22.32,
     114.17,
@@ -1171,11 +1169,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Chief medical officer Gregor Smith resigns on mental health grounds",
-   "u": "https://www.bbc.co.uk/news/articles/cm5y108evd7qo?at_medium=RSS&at_campaign=rss",
-   "d": "Sir Gregor Smith said he was unable to continue with the \"exceptional challenges\" his role demands.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/eda1/live/08114490-e99e-11f1-b880-15b494ba858d.jpg",
-   "at": "2026-11-26T18:14+00:00",
+   "t": "Mandelson kept shares as ambassador despite conflict of interest fears, documents show",
+   "u": "https://www.bbc.co.uk/news/articles/c6808dv4e817o?at_medium=RSS&at_campaign=rss",
+   "d": "The peer was sacked as ambassador last year over his relationship with the convicted sex offender Jeffrey Epstein.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/812f/live/23b5af10-e99e-11f1-b880-15b494ba858d.png",
+   "at": "2026-11-26T18:22+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1269,10 +1267,10 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Driver arrested over Sha Tin Road collision",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879348-20261126.htm",
-   "d": "A man was arrested on Thursday for alleged drink-driving and dangerous driving following a two-car crash on Sha Tin Road. Police said the two vehicles were heading towards Tai Po at around 7.45am when one of them was sus…",
-   "at": "2026-11-26T06:17+00:00",
+   "t": "Tai Po fire victims remembered, one year on",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879360-20261126.htm",
+   "d": "Former residents and members of the public gathered in Tai Po on Thursday to lay flowers and observe a moment of silence to mark one year since the deadly Wang Fuk Court fire. At an open space next to the community hall …",
+   "at": "2026-11-26T08:07+00:00",
    "where": [
     22.32,
     114.17,
@@ -1282,11 +1280,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Burnham says UK net migration now under 'sufficient' control",
-   "u": "https://www.bbc.co.uk/news/articles/ck792l8ndqyqo?at_medium=RSS&at_campaign=rss",
-   "d": "It comes after annual net migration fell to 77,000 - the lowest level this century, excluding the coronavirus pandemic.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6b4c/live/167959f0-e769-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-26T19:43+00:00",
+   "t": "Burnham joined by former PMs at Widdecombe service",
+   "u": "https://www.bbc.co.uk/news/articles/cvglrn4p1np0o?at_medium=RSS&at_campaign=rss",
+   "d": "Hundreds of guests attended including Andy Burnham, David Cameron, Liz Truss and Boris Johnson.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/0063/live/ac781c10-e9ae-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-26T18:26+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1296,10 +1294,10 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Light rail, Tuen Ma Line disruptions hit MTR",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879340-20261126.htm",
-   "d": "The MTR Corporation reported two service disruptions on Thursday – one on the Tuen Ma Line and the other on the light rail. Light rail services were disrupted for about 30 minutes at around 10.30am in Tuen Mun following …",
-   "at": "2026-11-26T06:04+00:00",
+   "t": "AI bot to help teachers nip mental health woes in bud",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879346-20261126.htm",
+   "d": "A cross-sector coalition of three universities and a mental health and wellness association has launched MentAl Bot, a digital platform designed to help Hong Kong teachers better recognise and respond to students' mental…",
+   "at": "2026-11-26T07:46+00:00",
    "where": [
     22.32,
     114.17,
@@ -1309,11 +1307,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Nearly 100 Labour MPs including ministerial aides oppose Rosebank oil field",
-   "u": "https://www.bbc.co.uk/news/articles/cw24ez32d1n4o?at_medium=RSS&at_campaign=rss",
-   "d": "Energy Secretary Miatta Fahnbulleh is due to make a decision on whether to give the go-ahead for drilling in the oil field off the north-west coast of Shetland within weeks.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/60a5/live/584f1ed0-cfb0-11f1-9012-0172b9f73a72.jpg",
-   "at": "2026-11-26T16:29+00:00",
+   "t": "Chief medical officer Gregor Smith resigns on mental health grounds",
+   "u": "https://www.bbc.co.uk/news/articles/cm5y108evd7qo?at_medium=RSS&at_campaign=rss",
+   "d": "Sir Gregor Smith said he was unable to continue with the \"exceptional challenges\" his role demands.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/eda1/live/08114490-e99e-11f1-b880-15b494ba858d.jpg",
+   "at": "2026-11-26T18:14+00:00",
    "where": [
     52.5,
     -1.5,
