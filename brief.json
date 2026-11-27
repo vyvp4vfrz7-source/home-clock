@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-26T17:45+00:00",
+ "updated": "2026-11-27T06:00+00:00",
  "en": {
-  "greeting": "Good evening — Thursday 26 November",
+  "greeting": "Good morning — Friday 27 November",
   "sections": [
    {
     "h": "Top stories",
     "items": [
      {
-      "t": "Ukraine peace push stalls over alleged Putin residence attack",
-      "d": "US envoy Jared Kushner blamed a claimed attack on Vladimir Putin's residence for setting back US-brokered Ukraine-Russia talks; Kyiv says it is waiting for Washington to set a date for the next round.",
-      "u": "https://www.pravda.com.ua/eng/news/2026/11/26/8064710/"
+      "t": "Thanksgiving storm floods US and cuts power to a million",
+      "d": "Storms on both coasts brought gales, heavy rain and flooding as the holiday weekend began, leaving almost a million customers without power and snarling flights.",
+      "u": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o"
      },
      {
-      "t": "Hong Kong marks one year since deadly Wang Fuk Court fire",
-      "d": "Residents and churches held memorials for the 168 people killed in the Tai Po blaze on 26 November 2025, the city's worst fire in decades, as authorities watched events closely.",
-      "u": "https://www.scmp.com/news/hong-kong/society/article/3374508/hundreds-attend-mass-tai-po-fire-victims-bishop-dismisses-talk-pressure"
+      "t": "US proposes new tariffs on 14 partners including China and EU",
+      "d": "Washington unveiled fresh Section 301 levies on many of its biggest trading partners, adding to trade tensions and helping unsettle global markets this week.",
+      "u": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o"
      },
      {
-      "t": "UK confirms new EU deal can be cancelled, at a cost",
-      "d": "Ministers confirmed the agreements signed in Brussels last week include an exit clause; quitting the food-and-plant checks deal within 10 years would mean paying to rebuild border checks. MPs debate the bill on 7 December.",
-      "u": "https://www.yahoo.com/news/politics/articles/uk-confirms-eu-deal-exit-153536276.html"
+      "t": "Ukraine says it hit five Russian jets at key airfield",
+      "d": "Kyiv says a strike on Savasleyka airbase, used for hypersonic missile and glide-bomb attacks, damaged five military aircraft as US-led peace efforts stall.",
+      "u": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo"
      }
     ]
    },
@@ -27,24 +27,24 @@
     "h": "World & politics",
     "items": [
      {
-      "t": "Trump marks Thanksgiving with grievance-filled post",
-      "d": "On the US holiday, President Trump used a late-night message to attack critics and a New York Times reporter alongside his Thanksgiving greetings.",
-      "u": "https://www.washingtontimes.com/news/2026/nov/26/trump-uses-thanksgiving-post-provoke-critics-air-grievances/"
+      "t": "Hong Kong families still seek justice a year after Tai Po fire",
+      "d": "A year after the Wang Fuk Court blaze killed 168 people during renovation works, residents marked the anniversary while many families await accountability.",
+      "u": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o"
      },
      {
-      "t": "Zelenskyy waits on US for next round of Russia talks",
-      "d": "Ukraine's president said Kyiv is ready for more trilateral talks but the US has yet to fix a date, with territory and security guarantees still unresolved.",
-      "u": "https://www.anews.com.tr/world/2026/11/25/zelenskyy-says-ukraine-waiting-for-us-to-set-date-for-new-round-of-peace-talks-with-russia"
+      "t": "Mexico captures FBI most-wanted drug lord 'El Chapo Isidro'",
+      "d": "Fausto Isidro Meza Flores was detained after a gunfight; soldiers then came under attack as they restored order, with eight suspects arrested.",
+      "u": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o"
      },
      {
-      "t": "Kenyan court rules US-backed Ebola site unconstitutional",
-      "d": "A senior court said the government broke the constitution by allowing a 50-bed US quarantine facility at a Laikipia military base without public consultation.",
-      "u": "https://morningstaronline.co.uk/article/world-brief-67"
+      "t": "Solomon Islands drops China security pact for Australian treaty",
+      "d": "Prime Minister Matthew Wale ended the controversial 2022 deal with Beijing, a notable shift in Pacific influence towards Canberra.",
+      "u": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno"
      },
      {
-      "t": "Iran arrests Oscar-nominated screenwriter Mehdi Mahmoudian",
-      "d": "The rights activist was detained at his Tehran home on Wednesday with no official reason given, adding to a crackdown on cultural figures.",
-      "u": "https://morningstaronline.co.uk/article/world-brief-67"
+      "t": "New Zealand's ruling bloc falls one seat short of majority",
+      "d": "Final results leave the National-led coalition needing extra support to govern, opening a period of uncertainty in Wellington.",
+      "u": "https://www.bbc.co.uk/news/articles/c670278qk879o"
      }
     ]
    },
@@ -52,24 +52,19 @@
     "h": "Business & economy",
     "items": [
      {
-      "t": "Wall Street banks set 2027 S&P 500 targets up to 8,700",
-      "d": "JPMorgan sees the index at 8,200 by end-2027, Goldman Sachs and Morgan Stanley at 8,700, even as AI stocks have slid about 32% since early October.",
-      "u": "https://www.cnbc.com/2026/11/25/jpmorgan-sp-500-8200-2027-ai.html"
+      "t": "Asian stocks whipsaw after Jensen Huang's return to Nvidia",
+      "d": "Markets heavily exposed to Nvidia's supply chain swung sharply after Huang was reinstated as chief executive days after resigning.",
+      "u": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo"
      },
      {
-      "t": "Volatility jumps as markets bet on a December Fed rate rise",
-      "d": "Traders put the odds of a US rate hike next month above 90%; the VIX fear gauge rose 7% and the Nasdaq fell before the Thanksgiving market closure.",
-      "u": "https://www.riotimesonline.com/global-economy-briefing-november-26-2026/"
+      "t": "Moody's cuts Nvidia outlook to stable over leadership turmoil",
+      "d": "Moody's trimmed its outlook and S&P flagged governance concerns, a reminder that the AI boom's biggest company carries new risks.",
+      "u": "https://www.semafor.com/article/11/26/2026/nvidias-credit-rating-the-ai-trades-collateral-is-at-risk"
      },
      {
-      "t": "EU proposes €50bn fund to keep tech champions European",
-      "d": "The Commission wants a Sovereign Tech Equity Fund backing AI, quantum, chips, cloud and cyber firms; it is still a proposal needing member-state support.",
-      "u": "https://www.politico.eu/article/commission-wants-e50-billion-fund-to-keep-tech-european/"
-     },
-     {
-      "t": "Pentagon talks to GM and Ford about building drone parts",
-      "d": "US defence officials are in early talks with carmakers and supplier Magna about using car production lines to scale up military drone manufacturing.",
-      "u": "https://www.foxbusiness.com/economy/pentagon-reportedly-talks-gm-ford-scale-us-military-drone-production"
+      "t": "Hong Kong exports rise in October on AI electronics demand",
+      "d": "Both exports and imports grew year on year, driven by strong shipments of AI-related electronic components.",
+      "u": "https://news.rthk.hk/rthk/en/component/k2/1879381-20261126.htm"
      }
     ]
    },
@@ -77,34 +72,34 @@
     "h": "Technology",
     "items": [
      {
-      "t": "FCC lets SpaceX launch up to a million AI data-centre satellites",
-      "d": "Regulators approved SpaceX's 'Starmind' plan in phases through 2040, the first US approval of orbital AI data centres, raising questions about crowded orbits and astronomy.",
-      "u": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+      "t": "Nvidia pauses server shipments to four Southeast Asian countries",
+      "d": "Nvidia reportedly told partners to halt shipments to Malaysia, Singapore, Thailand and Indonesia after tighter US export rules aimed at China.",
+      "u": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
      },
      {
-      "t": "OpenAI merges ChatGPT Chat and Work under one usage meter",
-      "d": "Heavy users may hit limits sooner as OpenAI folds its chat and agent-style work tools into one allowance, reflecting rising computing costs.",
-      "u": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+      "t": "US chip curbs slow China's next AI models",
+      "d": "Reuters reports Z.AI's next flagship is delayed and Moonshot expects longer gaps between releases if it loses overseas computing power.",
+      "u": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/"
      },
      {
-      "t": "Amodei calls claims Anthropic would cede control to AI 'absurd'",
-      "d": "Anthropic's chief pushed back after rival AI executives criticised a view that some life-critical decisions could one day go to superintelligent systems.",
-      "u": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
+      "t": "Microsoft exposes state hackers' AI attack framework 'ARTEX'",
+      "d": "Microsoft says government-backed hackers use ARTEX to hand attack tasks to specialised AI agents, and recommends decoy-based defences.",
+      "u": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
      },
      {
-      "t": "X launches its first parental controls for teen accounts",
-      "d": "Parents can set time limits, approve followers and limit DMs for 13-17-year-olds, but cannot read messages; both sides must agree to supervision.",
-      "u": "https://www.theverge.com/news/1043078/x-parental-controls-features"
+      "t": "Switzerland reports five cyberattacks run by AI agents",
+      "d": "The Swiss cybersecurity office says AI agents were used against businesses and critical infrastructure, a sign automated hacking is now real.",
+      "u": "https://www.reuters.com/legal/litigation/ai-agents-used-five-cyber-attacks-switzerland-government-says-2026-11-26/"
      },
      {
-      "t": "Europe's biggest satellite factory opens in Belgium",
-      "d": "Aerospacelab, renamed Ectro, opened a Charleroi plant able to build 500 satellites a year, including most of the EU's IRIS² secure-internet constellation.",
-      "u": "https://www.belganewsagency.eu/press-releases/39055/aerospacelab-opens-europes-largest-satellite-factory-and-announces-new-name/"
+      "t": "EU may vote on approving Tesla's assisted driving on 15 Dec",
+      "d": "A draft Commission agenda lists a vote that could authorise Tesla's driver-assistance system across the bloc.",
+      "u": "https://www.reuters.com/technology/eu-may-vote-authorising-tesla-assisted-driving-system-dec-15-meeting-2026-11-26/"
      },
      {
-      "t": "New York Times reportedly bars latest Photoshop for photographers",
-      "d": "The paper is said to have told photographers not to use Adobe's newest Photoshop, citing concerns over built-in generative AI editing tools.",
-      "u": "https://www.dpreview.com/news/new-york-times-adobe-photoshop-2027-restriction-ai/"
+      "t": "Canada lifts AI compute fund to C$1 billion",
+      "d": "Ottawa added C$700m and will cover up to 80% of costs bought from qualifying Canadian sovereign cloud providers.",
+      "u": "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion"
      }
     ]
    },
@@ -112,9 +107,9 @@
     "h": "Science & health",
     "items": [
      {
-      "t": "China's Shenzhou-24 flies first foreign astronaut to Tiangong",
-      "d": "The mission launched with two Chinese crew and Pakistan's first astronaut, the first international visitor to China's space station.",
-      "u": "https://www.space.com/space-exploration/human-spaceflight/pakistani-astronaut-set-to-become-1st-international-visitor-to-chinas-tiangong-space-station-this-month"
+      "t": "Cheaper twice-yearly HIV prevention jab reaches Africa",
+      "d": "Lenacapavir, nearly 100% effective at preventing infection, is arriving at lower cost, raising hopes for millions at risk.",
+      "u": "https://www.bbc.co.uk/news/articles/cmly7jve72r2o"
      },
      {
       "t": "Hidden brine lakes found a mile beneath the Red Sea",
@@ -125,11 +120,6 @@
       "t": "Euclid space telescope spots its first unknown comet",
       "d": "The European mission, built to map dark matter, picked up a previously unseen comet in its survey images.",
       "u": "https://www.sciencedaily.com/releases/2026/11/261124055852.htm"
-     },
-     {
-      "t": "Astronomers float a possible primordial black hole, 'Phoebe'",
-      "d": "An object about three times the Moon's mass may be a black hole from the early universe, which could help explain dark matter.",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm"
      }
     ]
    },
@@ -137,39 +127,44 @@
     "h": "UK",
     "items": [
      {
-      "t": "Net migration falls to about 77,000, lowest since 1997",
-      "d": "ONS estimates show net migration down 62% in the year to June; PM Andy Burnham welcomed it and argued Brexit had weakened the border, while opponents demanded caps.",
-      "u": "https://www.itv.com/news/2026-11-26/brexit-only-weakened-uk-border-burnham-claims"
+      "t": "Net migration at 77,000; Burnham says it's under control",
+      "d": "Annual net migration hit its lowest level this century outside Covid, and the prime minister said numbers are now sufficiently controlled.",
+      "u": "https://www.bbc.co.uk/news/articles/ck792l8ndqyqo"
      },
      {
-      "t": "French strike cancels Eurostar trains between Paris and London",
-      "d": "An unexpected walkout in France forced Eurostar to cancel services, leaving cross-Channel travellers stranded.",
-      "u": "https://cityam.com/?p=1930881"
+      "t": "UK to pay EU 'participation' fee under new deals",
+      "d": "Newly published legal texts reveal Britain will contribute to EU running costs, with a 10-year termination clause in the treaty.",
+      "u": "https://www.bbc.co.uk/news/articles/ck2057x387ego"
+     },
+     {
+      "t": "Nearly 100 Labour MPs oppose Rosebank oil field",
+      "d": "Ministerial aides are among those urging Energy Secretary Miatta Fahnbulleh to reject drilling west of Shetland ahead of her decision.",
+      "u": "https://www.bbc.co.uk/news/articles/cw24ez32d1n4o"
      }
     ]
    }
   ]
  },
  "zh": {
-  "greeting": "晚安 — 11月26日星期四",
+  "greeting": "早晨 — 11月27日星期五",
   "sections": [
    {
     "h": "頭條新聞",
     "items": [
      {
-      "t": "烏俄和談受挫 美特使歸咎普京官邸遇襲",
-      "d": "美國特使庫什納指，有指普京官邸遇襲令美方斡旋的烏俄和談倒退；基輔表示正等待華府定出下一輪談判日期。",
-      "u": "https://www.pravda.com.ua/eng/news/2026/11/26/8064710/"
+      "t": "感恩節風暴吹襲美國 近百萬戶停電",
+      "d": "風暴同時吹襲美國東西岸，帶來強風、暴雨及水浸，正值假期周末開始，近百萬用戶停電，航班大受影響。",
+      "u": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o"
      },
      {
-      "t": "宏福苑大火一周年 香港各界悼念",
-      "d": "大埔宏福苑去年11月26日大火奪去168人性命，是香港數十年來最嚴重火災；居民及教會舉行悼念活動，當局密切留意。",
-      "u": "https://www.scmp.com/news/hong-kong/society/article/3374508/hundreds-attend-mass-tai-po-fire-victims-bishop-dismisses-talk-pressure"
+      "t": "美國擬向中國及歐盟等14個貿易夥伴加徵關稅",
+      "d": "美國公布新一輪「301條款」關稅，涉及多個最大貿易夥伴，加劇貿易緊張，本周亦令環球股市波動。",
+      "u": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o"
      },
      {
-      "t": "英國確認與歐盟新協議設退出條款",
-      "d": "政府確認上周在布魯塞爾簽署的協議設有終止條款；若十年內退出動植物衞生檢疫協議，須承擔重建邊境檢查的費用。國會12月7日辯論相關法案。",
-      "u": "https://www.yahoo.com/news/politics/articles/uk-confirms-eu-deal-exit-153536276.html"
+      "t": "烏克蘭稱襲擊俄軍機場 擊中五架戰機",
+      "d": "基輔指襲擊薩瓦斯列伊卡空軍基地，擊中五架軍機；該基地用作發射高超音速導彈及滑翔炸彈。美國主導的和談仍陷僵局。",
+      "u": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo"
      }
     ]
    },
@@ -177,24 +172,24 @@
     "h": "國際及政治",
     "items": [
      {
-      "t": "特朗普感恩節發文 大吐苦水",
-      "d": "美國感恩節期間，特朗普深夜發文，在祝賀之餘抨擊批評者及一名《紐約時報》記者。",
-      "u": "https://www.washingtontimes.com/news/2026/nov/26/trump-uses-thanksgiving-post-provoke-critics-air-grievances/"
+      "t": "大埔宏福苑火災一周年 家屬仍待公義",
+      "d": "宏福苑維修期間發生大火、造成168人死亡一年後，居民及市民悼念遇難者，不少家屬仍在等待問責。",
+      "u": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o"
      },
      {
-      "t": "澤連斯基：等待美方定出下輪和談日期",
-      "d": "烏克蘭總統表示，基輔已準備好再舉行三方會談，但美國仍未定出日期，領土及安全保障問題仍未解決。",
-      "u": "https://www.anews.com.tr/world/2026/11/25/zelenskyy-says-ukraine-waiting-for-us-to-set-date-for-new-round-of-peace-talks-with-russia"
+      "t": "墨西哥拘捕聯邦調查局頭號通緝毒梟",
+      "d": "毒梟梅薩·弗洛雷斯在槍戰後被捕；其後軍人恢復秩序時遭襲擊，當局拘捕八名疑犯。",
+      "u": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o"
      },
      {
-      "t": "肯尼亞法院裁美資伊波拉隔離設施違憲",
-      "d": "高等法院裁定，政府未經公眾諮詢便容許美國在萊基皮亞軍事基地設立50張床的隔離設施，違反憲法。",
-      "u": "https://morningstaronline.co.uk/article/world-brief-67"
+      "t": "所羅門群島棄中國安全協議 改與澳洲簽約",
+      "d": "總理韋爾終止2022年與北京簽訂、具爭議的安全協議，改與澳洲訂約，顯示太平洋影響力向坎培拉傾斜。",
+      "u": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno"
      },
      {
-      "t": "伊朗拘捕奧斯卡提名編劇馬哈茂迪安",
-      "d": "這名人權活動人士周三在德黑蘭家中被捕，當局未有交代原因，被視為打壓文化界人士的又一例子。",
-      "u": "https://morningstaronline.co.uk/article/world-brief-67"
+      "t": "新西蘭執政聯盟國會議席差一席過半",
+      "d": "最終點票結果顯示國家黨領導的聯盟未能取得多數，需爭取額外支持才能執政，政局不明朗。",
+      "u": "https://www.bbc.co.uk/news/articles/c670278qk879o"
      }
     ]
    },
@@ -202,24 +197,19 @@
     "h": "商業及經濟",
     "items": [
      {
-      "t": "華爾街大行預測2027年標普500最高見8700點",
-      "d": "摩根大通預測標普500指數2027年底見8200點，高盛及摩根士丹利則看8700點；不過AI股自10月初以來已跌約32%。",
-      "u": "https://www.cnbc.com/2026/11/25/jpmorgan-sp-500-8200-2027-ai.html"
+      "t": "黃仁勳重返Nvidia 亞洲股市大起大落",
+      "d": "黃仁勳辭職數日後獲復任行政總裁，與Nvidia供應鏈關係密切的亞洲股市大幅波動。",
+      "u": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo"
      },
      {
-      "t": "市場押注聯儲局12月加息 波動指數急升",
-      "d": "交易員認為美國下月加息機會逾九成；恐慌指數VIX升7%，納指在感恩節休市前下跌。",
-      "u": "https://www.riotimesonline.com/global-economy-briefing-november-26-2026/"
+      "t": "穆迪下調Nvidia評級展望至「穩定」",
+      "d": "穆迪因管理層風波下調Nvidia展望，標普亦關注其管治，反映AI熱潮龍頭企業面對新風險。",
+      "u": "https://www.semafor.com/article/11/26/2026/nvidias-credit-rating-the-ai-trades-collateral-is-at-risk"
      },
      {
-      "t": "歐盟擬設500億歐元基金扶植本土科技",
-      "d": "歐盟委員會建議成立主權科技股權基金，投資AI、量子、晶片、雲端及網絡安全企業，方案仍待成員國支持。",
-      "u": "https://www.politico.eu/article/commission-wants-e50-billion-fund-to-keep-tech-european/"
-     },
-     {
-      "t": "五角大樓與通用福特洽談生產無人機零件",
-      "d": "美國國防部官員正與車廠及零件商Magna初步商討，利用汽車生產線擴大軍用無人機生產。",
-      "u": "https://www.foxbusiness.com/economy/pentagon-reportedly-talks-gm-ford-scale-us-military-drone-production"
+      "t": "AI電子產品需求帶動 香港10月出口上升",
+      "d": "受AI相關電子產品付運強勁帶動，香港10月出口及進口均按年上升。",
+      "u": "https://news.rthk.hk/rthk/en/component/k2/1879381-20261126.htm"
      }
     ]
    },
@@ -227,34 +217,34 @@
     "h": "科技",
     "items": [
      {
-      "t": "FCC批准SpaceX發射最多一百萬枚AI數據中心衞星",
-      "d": "監管機構分階段批准SpaceX的「Starmind」計劃至2040年，是美國首次批准太空AI數據中心，引起軌道擠迫及天文觀測的憂慮。",
-      "u": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+      "t": "Nvidia暫停向東南亞四國付運伺服器",
+      "d": "據報Nvidia因美國收緊針對中國的出口管制，要求夥伴暫停向馬來西亞、新加坡、泰國及印尼付運伺服器。",
+      "u": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
      },
      {
-      "t": "OpenAI合併ChatGPT聊天及工作功能 統一用量",
-      "d": "OpenAI把聊天及代理式工作工具合併為單一用量額度，重度用戶或會更快觸及上限，反映運算成本上升。",
-      "u": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+      "t": "美國晶片管制拖慢中國AI新模型",
+      "d": "路透社報道，智譜Z.AI下一代旗艦模型延遲推出；月之暗面預計若失去海外算力，新模型推出間隔將拉長。",
+      "u": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/"
      },
      {
-      "t": "Anthropic行政總裁斥「把控制權交給AI」指控荒謬",
-      "d": "Amodei回應其他AI公司高層的批評；對方不滿Anthropic認為部分攸關性命的決定日後或可交由超級智能系統處理。",
-      "u": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
+      "t": "Microsoft揭國家級黑客AI攻擊框架ARTEX",
+      "d": "Microsoft指有政府背景的黑客利用ARTEX，把攻擊任務分派給專門AI代理，建議以誘餌系統防禦。",
+      "u": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
      },
      {
-      "t": "X首推青少年帳戶家長監控功能",
-      "d": "家長可為13至17歲子女設定使用時限、審批新追蹤者及限制私訊，但不能閱讀訊息；雙方須同意才可啟用。",
-      "u": "https://www.theverge.com/news/1043078/x-parental-controls-features"
+      "t": "瑞士通報五宗AI代理網絡攻擊",
+      "d": "瑞士網絡安全辦公室表示，有人利用AI代理攻擊企業及關鍵基建，顯示自動化黑客攻擊已成現實。",
+      "u": "https://www.reuters.com/legal/litigation/ai-agents-used-five-cyber-attacks-switzerland-government-says-2026-11-26/"
      },
      {
-      "t": "歐洲最大衞星廠房在比利時開幕",
-      "d": "Aerospacelab易名Ectro，在沙勒羅瓦開設廠房，每年可生產500枚衞星，包括歐盟IRIS²安全通訊星座的大部分衞星。",
-      "u": "https://www.belganewsagency.eu/press-releases/39055/aerospacelab-opens-europes-largest-satellite-factory-and-announces-new-name/"
+      "t": "歐盟或於12月15日表決批准Tesla輔助駕駛",
+      "d": "歐盟委員會議程草案顯示，將表決是否在全歐盟批准Tesla的駕駛輔助系統。",
+      "u": "https://www.reuters.com/technology/eu-may-vote-authorising-tesla-assisted-driving-system-dec-15-meeting-2026-11-26/"
      },
      {
-      "t": "傳《紐約時報》禁攝影師用最新版Photoshop",
-      "d": "報道指該報要求攝影師不要使用Adobe最新版Photoshop，原因是擔心內置生成式AI修圖工具。",
-      "u": "https://www.dpreview.com/news/new-york-times-adobe-photoshop-2027-restriction-ai/"
+      "t": "加拿大AI算力基金增至10億加元",
+      "d": "加國政府額外注資7億加元，向合資格本土主權雲端供應商購買算力，最多資助八成費用。",
+      "u": "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion"
      }
     ]
    },
@@ -262,24 +252,19 @@
     "h": "科學及健康",
     "items": [
      {
-      "t": "神舟二十四號載首名外國太空人赴天宮",
-      "d": "任務載兩名中國太空人及巴基斯坦首名太空人升空，是中國空間站首位外國訪客。",
-      "u": "https://www.space.com/space-exploration/human-spaceflight/pakistani-astronaut-set-to-become-1st-international-visitor-to-chinas-tiangong-space-station-this-month"
+      "t": "平價半年一針愛滋病預防針抵達非洲",
+      "d": "預防感染效用近百分百的長效針劑Lenacapavir以較低價格引入非洲，為數以百萬計高危人士帶來希望。",
+      "u": "https://www.bbc.co.uk/news/articles/cmly7jve72r2o"
      },
      {
-      "t": "紅海海底一哩下發現隱藏鹵水湖",
-      "d": "科學家在深海海床發現高鹽、無氧的水池，保存了過去氣候的紀錄，並有罕見微生物棲息。",
+      "t": "紅海海底逾千米發現隱藏鹵水湖",
+      "d": "科學家在深海海床發現高鹽、缺氧的水池，保存過去氣候紀錄，並有罕見微生物棲息。",
       "u": "https://www.sciencedaily.com/releases/2026/11/261125045259.htm"
      },
      {
-      "t": "歐幾里得太空望遠鏡首次發現未知彗星",
-      "d": "這個用來繪製暗物質分佈的歐洲任務，在巡天影像中發現一顆前所未見的彗星。",
+      "t": "歐幾里得太空望遠鏡首次發現新彗星",
+      "d": "這部用作繪製暗物質分佈的歐洲望遠鏡，在巡天影像中發現一顆前所未見的彗星。",
       "u": "https://www.sciencedaily.com/releases/2026/11/261124055852.htm"
-     },
-     {
-      "t": "天文學家發現疑似原初黑洞「Phoebe」",
-      "d": "一個質量約為月球三倍的天體可能是宇宙早期形成的黑洞，有助解釋暗物質之謎。",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm"
      }
     ]
    },
@@ -287,14 +272,19 @@
     "h": "英國",
     "items": [
      {
-      "t": "淨移民降至約7.7萬 1997年以來最低",
-      "d": "統計署估計截至6月的一年淨移民按年跌62%；首相賓咸表示歡迎，並指脫歐削弱了邊境管理，反對派則要求設上限。",
-      "u": "https://www.itv.com/news/2026-11-26/brexit-only-weakened-uk-border-burnham-claims"
+      "t": "淨移民跌至7.7萬 賓咸稱已受控",
+      "d": "全年淨移民人數創本世紀（疫情除外）新低，首相賓咸表示移民數字已「充分受控」。",
+      "u": "https://www.bbc.co.uk/news/articles/ck792l8ndqyqo"
      },
      {
-      "t": "法國罷工 巴黎往倫敦歐洲之星停駛",
-      "d": "法國突發罷工，歐洲之星被迫取消班次，大批跨海峽旅客受影響。",
-      "u": "https://cityam.com/?p=1930881"
+      "t": "英國將按新協議向歐盟繳付「參與費」",
+      "d": "新公布的法律文件顯示，英國須分擔歐盟部分營運開支，條約設有十年終止條款。",
+      "u": "https://www.bbc.co.uk/news/articles/ck2057x387ego"
+     },
+     {
+      "t": "近百名工黨議員反對Rosebank油田",
+      "d": "包括多名部長助理在內的工黨議員，促請能源大臣在作決定前否決設得蘭以西的鑽油計劃。",
+      "u": "https://www.bbc.co.uk/news/articles/cw24ez32d1n4o"
      }
     ]
    }
@@ -302,92 +292,32 @@
  },
  "sources": [
   {
-   "title": "Ukraine peace push stalls over alleged Putin residence attack",
-   "url": "https://www.pravda.com.ua/eng/news/2026/11/26/8064710/"
+   "title": "BBC News",
+   "url": "https://www.bbc.co.uk/news"
   },
   {
-   "title": "Hong Kong marks one year since deadly Wang Fuk Court fire",
-   "url": "https://www.scmp.com/news/hong-kong/society/article/3374508/hundreds-attend-mass-tai-po-fire-victims-bishop-dismisses-talk-pressure"
+   "title": "Reuters",
+   "url": "https://www.reuters.com/"
   },
   {
-   "title": "UK confirms new EU deal can be cancelled, at a cost",
-   "url": "https://www.yahoo.com/news/politics/articles/uk-confirms-eu-deal-exit-153536276.html"
+   "title": "RTHK",
+   "url": "https://news.rthk.hk/"
   },
   {
-   "title": "Trump marks Thanksgiving with grievance-filled post",
-   "url": "https://www.washingtontimes.com/news/2026/nov/26/trump-uses-thanksgiving-post-provoke-critics-air-grievances/"
+   "title": "The Decoder",
+   "url": "https://the-decoder.com/"
   },
   {
-   "title": "Zelenskyy waits on US for next round of Russia talks",
-   "url": "https://www.anews.com.tr/world/2026/11/25/zelenskyy-says-ukraine-waiting-for-us-to-set-date-for-new-round-of-peace-talks-with-russia"
+   "title": "Semafor",
+   "url": "https://www.semafor.com/"
   },
   {
-   "title": "Kenyan court rules US-backed Ebola site unconstitutional",
-   "url": "https://morningstaronline.co.uk/article/world-brief-67"
+   "title": "The Next Web",
+   "url": "https://thenextweb.com/"
   },
   {
-   "title": "Wall Street banks set 2027 S&P 500 targets up to 8,700",
-   "url": "https://www.cnbc.com/2026/11/25/jpmorgan-sp-500-8200-2027-ai.html"
-  },
-  {
-   "title": "Volatility jumps as markets bet on a December Fed rate rise",
-   "url": "https://www.riotimesonline.com/global-economy-briefing-november-26-2026/"
-  },
-  {
-   "title": "EU proposes €50bn fund to keep tech champions European",
-   "url": "https://www.politico.eu/article/commission-wants-e50-billion-fund-to-keep-tech-european/"
-  },
-  {
-   "title": "Pentagon talks to GM and Ford about building drone parts",
-   "url": "https://www.foxbusiness.com/economy/pentagon-reportedly-talks-gm-ford-scale-us-military-drone-production"
-  },
-  {
-   "title": "FCC lets SpaceX launch up to a million AI data-centre satellites",
-   "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
-  },
-  {
-   "title": "OpenAI merges ChatGPT Chat and Work under one usage meter",
-   "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
-  },
-  {
-   "title": "Amodei calls claims Anthropic would cede control to AI 'absurd'",
-   "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
-  },
-  {
-   "title": "X launches its first parental controls for teen accounts",
-   "url": "https://www.theverge.com/news/1043078/x-parental-controls-features"
-  },
-  {
-   "title": "Europe's biggest satellite factory opens in Belgium",
-   "url": "https://www.belganewsagency.eu/press-releases/39055/aerospacelab-opens-europes-largest-satellite-factory-and-announces-new-name/"
-  },
-  {
-   "title": "New York Times reportedly bars latest Photoshop for photographers",
-   "url": "https://www.dpreview.com/news/new-york-times-adobe-photoshop-2027-restriction-ai/"
-  },
-  {
-   "title": "China's Shenzhou-24 flies first foreign astronaut to Tiangong",
-   "url": "https://www.space.com/space-exploration/human-spaceflight/pakistani-astronaut-set-to-become-1st-international-visitor-to-chinas-tiangong-space-station-this-month"
-  },
-  {
-   "title": "Hidden brine lakes found a mile beneath the Red Sea",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261125045259.htm"
-  },
-  {
-   "title": "Euclid space telescope spots its first unknown comet",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261124055852.htm"
-  },
-  {
-   "title": "Astronomers float a possible primordial black hole, 'Phoebe'",
-   "url": "https://www.sciencedaily.com/releases/2026/11/261122060346.htm"
-  },
-  {
-   "title": "Net migration falls to about 77,000, lowest since 1997",
-   "url": "https://www.itv.com/news/2026-11-26/brexit-only-weakened-uk-border-burnham-claims"
-  },
-  {
-   "title": "French strike cancels Eurostar trains between Paris and London",
-   "url": "https://cityam.com/?p=1930881"
+   "title": "ScienceDaily",
+   "url": "https://www.sciencedaily.com/"
   }
  ]
 }
