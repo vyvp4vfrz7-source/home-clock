@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-27T06:00+00:00",
+ "updated": "2026-11-27T18:00+00:00",
  "en": {
-  "greeting": "Good morning — Friday 27 November",
+  "greeting": "Good evening — Friday 27 November",
   "sections": [
    {
     "h": "Top stories",
     "items": [
      {
-      "t": "Thanksgiving storm floods US and cuts power to a million",
-      "d": "Storms on both coasts brought gales, heavy rain and flooding as the holiday weekend began, leaving almost a million customers without power and snarling flights.",
-      "u": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o"
+      "t": "Zelensky criticises 'strange' Trump-Putin friendship",
+      "d": "Ukraine's president told the BBC the US is not pushing Russia hard enough in peace talks, as Ukraine braces for another hard winter.",
+      "u": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo"
      },
      {
-      "t": "US proposes new tariffs on 14 partners including China and EU",
-      "d": "Washington unveiled fresh Section 301 levies on many of its biggest trading partners, adding to trade tensions and helping unsettle global markets this week.",
-      "u": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o"
+      "t": "Hundreds of thousands still without power after US storms",
+      "d": "Pennsylvania and neighbouring states remain worst hit after Thanksgiving storms lashed both coasts, disrupting holiday travel.",
+      "u": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo"
      },
      {
-      "t": "Ukraine says it hit five Russian jets at key airfield",
-      "d": "Kyiv says a strike on Savasleyka airbase, used for hypersonic missile and glide-bomb attacks, damaged five military aircraft as US-led peace efforts stall.",
-      "u": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo"
+      "t": "EU leaders fail to agree budget as Ukraine aid splits talks",
+      "d": "Disputes including aid for Ukraine stalled the EU's long-term budget talks; members still hope to reach a deal by year end.",
+      "u": "https://www.bbc.co.uk/news/articles/cw4gnm3m9deno"
      }
     ]
    },
@@ -27,24 +27,24 @@
     "h": "World & politics",
     "items": [
      {
-      "t": "Hong Kong families still seek justice a year after Tai Po fire",
-      "d": "A year after the Wang Fuk Court blaze killed 168 people during renovation works, residents marked the anniversary while many families await accountability.",
-      "u": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o"
+      "t": "Spain's leaders clash in final debate before Sunday vote",
+      "d": "Housing costs dominated a bitter campaign; Pedro Sánchez trails in polls but insists the left can still win a majority.",
+      "u": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o"
      },
      {
-      "t": "Mexico captures FBI most-wanted drug lord 'El Chapo Isidro'",
-      "d": "Fausto Isidro Meza Flores was detained after a gunfight; soldiers then came under attack as they restored order, with eight suspects arrested.",
-      "u": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o"
+      "t": "Sheikh Hasina's planned return puts Bangladesh on edge",
+      "d": "The ousted PM plans to go home in December, deepening Dhaka-Delhi tensions and raising fears of fresh unrest.",
+      "u": "https://www.bbc.co.uk/news/articles/cx30g71rev23o"
      },
      {
-      "t": "Solomon Islands drops China security pact for Australian treaty",
-      "d": "Prime Minister Matthew Wale ended the controversial 2022 deal with Beijing, a notable shift in Pacific influence towards Canberra.",
-      "u": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno"
+      "t": "Colombian police free 76 supermarket hostages after 17 hours",
+      "d": "One gunman was killed when police stormed the store after a failed robbery of an armoured cash van.",
+      "u": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo"
      },
      {
-      "t": "New Zealand's ruling bloc falls one seat short of majority",
-      "d": "Final results leave the National-led coalition needing extra support to govern, opening a period of uncertainty in Wellington.",
-      "u": "https://www.bbc.co.uk/news/articles/c670278qk879o"
+      "t": "Canada's top court largely upholds Quebec religious symbols ban",
+      "d": "The ruling backs a law barring some public servants, including teachers, from wearing religious symbols at work.",
+      "u": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o"
      }
     ]
    },
@@ -52,19 +52,24 @@
     "h": "Business & economy",
     "items": [
      {
-      "t": "Asian stocks whipsaw after Jensen Huang's return to Nvidia",
-      "d": "Markets heavily exposed to Nvidia's supply chain swung sharply after Huang was reinstated as chief executive days after resigning.",
-      "u": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo"
+      "t": "Why Trump's new tariffs pose less of a threat",
+      "d": "Countries have rerouted trade since his first tariff wave and are now planning for the post-Trump era.",
+      "u": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o"
      },
      {
-      "t": "Moody's cuts Nvidia outlook to stable over leadership turmoil",
-      "d": "Moody's trimmed its outlook and S&P flagged governance concerns, a reminder that the AI boom's biggest company carries new risks.",
-      "u": "https://www.semafor.com/article/11/26/2026/nvidias-credit-rating-the-ai-trades-collateral-is-at-risk"
+      "t": "SAP weighs cutting 10,000 jobs in AI overhaul",
+      "d": "Europe's biggest software firm is reportedly preparing to cut about 9% of staff to refocus on AI.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring"
      },
      {
-      "t": "Hong Kong exports rise in October on AI electronics demand",
-      "d": "Both exports and imports grew year on year, driven by strong shipments of AI-related electronic components.",
-      "u": "https://news.rthk.hk/rthk/en/component/k2/1879381-20261126.htm"
+      "t": "Binance restores withdrawals after record $6.3bn hack",
+      "d": "The crypto exchange says recovery work is complete a month after the largest crypto theft on record.",
+      "u": "https://www.reuters.com/technology/binance-lifts-withdrawal-suspension-after-63-billion-crypto-heist-2026-11-26/"
+     },
+     {
+      "t": "Banks see S&P 500 at 8,200-8,700 by end of 2027",
+      "d": "JPMorgan, Goldman and Morgan Stanley published bullish 2027 targets, all assuming the AI investment cycle holds.",
+      "u": "https://www.cnbc.com/2026/11/25/jpmorgan-sp-500-8200-2027-ai.html"
      }
     ]
    },
@@ -72,34 +77,34 @@
     "h": "Technology",
     "items": [
      {
-      "t": "Nvidia pauses server shipments to four Southeast Asian countries",
-      "d": "Nvidia reportedly told partners to halt shipments to Malaysia, Singapore, Thailand and Indonesia after tighter US export rules aimed at China.",
-      "u": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
+      "t": "SpaceX cleared for up to a million data-centre satellites",
+      "d": "The FCC approved SpaceX's orbital AI-compute constellation despite objections from Amazon, Viasat and astronomers.",
+      "u": "https://www.reuters.com/business/media-telecom/us-authorizes-spacex-deploy-1-million-satellites-data-centers-space-2026-11-25/"
      },
      {
-      "t": "US chip curbs slow China's next AI models",
-      "d": "Reuters reports Z.AI's next flagship is delayed and Moonshot expects longer gaps between releases if it loses overseas computing power.",
-      "u": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/"
+      "t": "Neuralink wins FDA nod for first pivotal brain-implant trial",
+      "d": "The US trial will test its brain-computer interface in adults with ALS, a key step towards approval.",
+      "u": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/"
      },
      {
-      "t": "Microsoft exposes state hackers' AI attack framework 'ARTEX'",
-      "d": "Microsoft says government-backed hackers use ARTEX to hand attack tasks to specialised AI agents, and recommends decoy-based defences.",
-      "u": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
+      "t": "OpenAI admits GPT-6.2 billing error, tightens ChatGPT limits",
+      "d": "A launch mistake over-discounted usage; paying users may now hit limits up to 40% faster.",
+      "u": "https://www.techradar.com/ai-platforms-assistants/chatgpt/weve-fixed-this-now-so-the-same-work-will-use-more-of-your-plans-usage-allowance-openai-admits-it-made-a-mistake-when-launching-gpt-6-2-and-now-paying-chatgpt-users-could-hit-their-usage-limits-up-to-40-percent-faster"
      },
      {
-      "t": "Switzerland reports five cyberattacks run by AI agents",
-      "d": "The Swiss cybersecurity office says AI agents were used against businesses and critical infrastructure, a sign automated hacking is now real.",
-      "u": "https://www.reuters.com/legal/litigation/ai-agents-used-five-cyber-attacks-switzerland-government-says-2026-11-26/"
+      "t": "42 US states fight Character.AI auction of users' chats",
+      "d": "Attorneys general asked a bankruptcy court to block the sale of 21 million accounts, 2.1 million of them minors'.",
+      "u": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
      },
      {
-      "t": "EU may vote on approving Tesla's assisted driving on 15 Dec",
-      "d": "A draft Commission agenda lists a vote that could authorise Tesla's driver-assistance system across the bloc.",
-      "u": "https://www.reuters.com/technology/eu-may-vote-authorising-tesla-assisted-driving-system-dec-15-meeting-2026-11-26/"
+      "t": "Octopus cyberattack exposes data of 7,500 Hong Kong users",
+      "d": "Names and photos leaked, plus some auto top-up details; it follows a 90,000-user SmartPLAY breach.",
+      "u": "https://news.rthk.hk/rthk/en/component/k2/1879534-20261127.htm"
      },
      {
-      "t": "Canada lifts AI compute fund to C$1 billion",
-      "d": "Ottawa added C$700m and will cover up to 80% of costs bought from qualifying Canadian sovereign cloud providers.",
-      "u": "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion"
+      "t": "FIFA confirms hackers accessed personal data",
+      "d": "Football's governing body says attackers reached personal and business information; a new group has claimed it.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-26/fifa-says-hackers-accessed-personal-data-in-cyberattack"
      }
     ]
    },
@@ -107,19 +112,14 @@
     "h": "Science & health",
     "items": [
      {
-      "t": "Cheaper twice-yearly HIV prevention jab reaches Africa",
-      "d": "Lenacapavir, nearly 100% effective at preventing infection, is arriving at lower cost, raising hopes for millions at risk.",
-      "u": "https://www.bbc.co.uk/news/articles/cmly7jve72r2o"
+      "t": "NHS warns of 'horrible spike' in flu",
+      "d": "Hospital admissions are surging and officials urge at-risk people to get vaccinated as soon as possible.",
+      "u": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o"
      },
      {
-      "t": "Hidden brine lakes found a mile beneath the Red Sea",
-      "d": "Scientists mapped salty, oxygen-free pools on the deep seabed that preserve records of past climate and host unusual microbes.",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261125045259.htm"
-     },
-     {
-      "t": "Euclid space telescope spots its first unknown comet",
-      "d": "The European mission, built to map dark matter, picked up a previously unseen comet in its survey images.",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261124055852.htm"
+      "t": "NASA to test space crop chamber and mini brains on ISS",
+      "d": "The NG-25 cargo mission will carry a prototype crop-growing system and lab-grown brain tissue for Moon and Mars research.",
+      "u": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/"
      }
     ]
    },
@@ -127,44 +127,44 @@
     "h": "UK",
     "items": [
      {
-      "t": "Net migration at 77,000; Burnham says it's under control",
-      "d": "Annual net migration hit its lowest level this century outside Covid, and the prime minister said numbers are now sufficiently controlled.",
-      "u": "https://www.bbc.co.uk/news/articles/ck792l8ndqyqo"
+      "t": "Badenoch: Tory candidates must pledge to scrap net zero",
+      "d": "The Conservative leader's 'candidates covenant' drew criticism from some former MPs.",
+      "u": "https://www.bbc.co.uk/news/articles/cmwy95295835o"
      },
      {
-      "t": "UK to pay EU 'participation' fee under new deals",
-      "d": "Newly published legal texts reveal Britain will contribute to EU running costs, with a 10-year termination clause in the treaty.",
-      "u": "https://www.bbc.co.uk/news/articles/ck2057x387ego"
+      "t": "No 10 says it has no interest in Huw Edwards interviews",
+      "d": "Downing Street joined a backlash against new interviews with the disgraced former BBC presenter.",
+      "u": "https://www.bbc.co.uk/news/articles/c60mdl2y2w3do"
      },
      {
-      "t": "Nearly 100 Labour MPs oppose Rosebank oil field",
-      "d": "Ministerial aides are among those urging Energy Secretary Miatta Fahnbulleh to reject drilling west of Shetland ahead of her decision.",
-      "u": "https://www.bbc.co.uk/news/articles/cw24ez32d1n4o"
+      "t": "Ex-council leader Jason Zadrozny jailed for fraud",
+      "d": "The former Ashfield council leader was sentenced to 27 months for fraud and tax evasion.",
+      "u": "https://www.bbc.co.uk/news/articles/cmkgdjyd5j98o"
      }
     ]
    }
   ]
  },
  "zh": {
-  "greeting": "早晨 — 11月27日星期五",
+  "greeting": "晚安 — 11月27日星期五",
   "sections": [
    {
     "h": "頭條新聞",
     "items": [
      {
-      "t": "感恩節風暴吹襲美國 近百萬戶停電",
-      "d": "風暴同時吹襲美國東西岸，帶來強風、暴雨及水浸，正值假期周末開始，近百萬用戶停電，航班大受影響。",
-      "u": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o"
+      "t": "澤連斯基批評特朗普與普京「奇怪」友誼",
+      "d": "烏克蘭總統接受BBC訪問時表示，美國在和談中對俄羅斯施壓不足；烏克蘭正面對另一個艱難寒冬。",
+      "u": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo"
      },
      {
-      "t": "美國擬向中國及歐盟等14個貿易夥伴加徵關稅",
-      "d": "美國公布新一輪「301條款」關稅，涉及多個最大貿易夥伴，加劇貿易緊張，本周亦令環球股市波動。",
-      "u": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o"
+      "t": "美國風暴過後 數十萬戶仍未恢復供電",
+      "d": "感恩節風暴吹襲美國東西兩岸，賓夕法尼亞州及鄰近州份災情最嚴重，假期出行大受影響。",
+      "u": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo"
      },
      {
-      "t": "烏克蘭稱襲擊俄軍機場 擊中五架戰機",
-      "d": "基輔指襲擊薩瓦斯列伊卡空軍基地，擊中五架軍機；該基地用作發射高超音速導彈及滑翔炸彈。美國主導的和談仍陷僵局。",
-      "u": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo"
+      "t": "歐盟領袖未能就預算達成共識",
+      "d": "包括援助烏克蘭在內的分歧令歐盟長期預算談判陷入僵局，成員國仍希望年底前達成協議。",
+      "u": "https://www.bbc.co.uk/news/articles/cw4gnm3m9deno"
      }
     ]
    },
@@ -172,24 +172,24 @@
     "h": "國際及政治",
     "items": [
      {
-      "t": "大埔宏福苑火災一周年 家屬仍待公義",
-      "d": "宏福苑維修期間發生大火、造成168人死亡一年後，居民及市民悼念遇難者，不少家屬仍在等待問責。",
-      "u": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o"
+      "t": "西班牙大選前最後辯論 各黨領袖激烈交鋒",
+      "d": "住屋問題主導選情，首相桑切斯民調落後，但堅稱左派陣營仍能取得多數議席。",
+      "u": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o"
      },
      {
-      "t": "墨西哥拘捕聯邦調查局頭號通緝毒梟",
-      "d": "毒梟梅薩·弗洛雷斯在槍戰後被捕；其後軍人恢復秩序時遭襲擊，當局拘捕八名疑犯。",
-      "u": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o"
+      "t": "哈西娜計劃回國 孟加拉局勢緊張",
+      "d": "被推翻的前總理計劃12月返回孟加拉，加深孟印緊張關係，並引發再起動盪的憂慮。",
+      "u": "https://www.bbc.co.uk/news/articles/cx30g71rev23o"
      },
      {
-      "t": "所羅門群島棄中國安全協議 改與澳洲簽約",
-      "d": "總理韋爾終止2022年與北京簽訂、具爭議的安全協議，改與澳洲訂約，顯示太平洋影響力向坎培拉傾斜。",
-      "u": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno"
+      "t": "哥倫比亞警方突入超市 救出76名人質",
+      "d": "劫匪搶劫運鈔車失敗後挾持人質17小時，警方突入超市，一名槍手被擊斃。",
+      "u": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo"
      },
      {
-      "t": "新西蘭執政聯盟國會議席差一席過半",
-      "d": "最終點票結果顯示國家黨領導的聯盟未能取得多數，需爭取額外支持才能執政，政局不明朗。",
-      "u": "https://www.bbc.co.uk/news/articles/c670278qk879o"
+      "t": "加拿大最高法院大致維持魁北克宗教標誌禁令",
+      "d": "裁決支持禁止教師等部分公務員在工作時佩戴宗教標誌的法例。",
+      "u": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o"
      }
     ]
    },
@@ -197,19 +197,24 @@
     "h": "商業及經濟",
     "items": [
      {
-      "t": "黃仁勳重返Nvidia 亞洲股市大起大落",
-      "d": "黃仁勳辭職數日後獲復任行政總裁，與Nvidia供應鏈關係密切的亞洲股市大幅波動。",
-      "u": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo"
+      "t": "分析：為何特朗普新關稅威脅減弱",
+      "d": "各國自首輪關稅後已調整貿易流向，繞過美國關稅壁壘，並開始為特朗普卸任後作部署。",
+      "u": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o"
      },
      {
-      "t": "穆迪下調Nvidia評級展望至「穩定」",
-      "d": "穆迪因管理層風波下調Nvidia展望，標普亦關注其管治，反映AI熱潮龍頭企業面對新風險。",
-      "u": "https://www.semafor.com/article/11/26/2026/nvidias-credit-rating-the-ai-trades-collateral-is-at-risk"
+      "t": "SAP據報擬裁員一萬人 轉型AI",
+      "d": "據報歐洲最大軟件公司SAP準備削減約9%人手，以重新聚焦人工智能業務。",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring"
      },
      {
-      "t": "AI電子產品需求帶動 香港10月出口上升",
-      "d": "受AI相關電子產品付運強勁帶動，香港10月出口及進口均按年上升。",
-      "u": "https://news.rthk.hk/rthk/en/component/k2/1879381-20261126.htm"
+      "t": "Binance遭63億美元黑客盜竊後恢復提款",
+      "d": "加密貨幣交易所Binance表示，上月遭遇史上最大宗加密貨幣盜竊後，復原工作已完成，提款全面恢復。",
+      "u": "https://www.reuters.com/technology/binance-lifts-withdrawal-suspension-after-63-billion-crypto-heist-2026-11-26/"
+     },
+     {
+      "t": "大行預測標普500指數2027年底達8200至8700點",
+      "d": "摩根大通、高盛及摩根士丹利發表樂觀目標，前提是AI投資周期持續。",
+      "u": "https://www.cnbc.com/2026/11/25/jpmorgan-sp-500-8200-2027-ai.html"
      }
     ]
    },
@@ -217,34 +222,34 @@
     "h": "科技",
     "items": [
      {
-      "t": "Nvidia暫停向東南亞四國付運伺服器",
-      "d": "據報Nvidia因美國收緊針對中國的出口管制，要求夥伴暫停向馬來西亞、新加坡、泰國及印尼付運伺服器。",
-      "u": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
+      "t": "SpaceX獲批發射最多一百萬枚數據中心衛星",
+      "d": "美國聯邦通訊委員會批准SpaceX的太空AI運算衛星群，Amazon、Viasat及天文學界曾表示反對。",
+      "u": "https://www.reuters.com/business/media-telecom/us-authorizes-spacex-deploy-1-million-satellites-data-centers-space-2026-11-25/"
      },
      {
-      "t": "美國晶片管制拖慢中國AI新模型",
-      "d": "路透社報道，智譜Z.AI下一代旗艦模型延遲推出；月之暗面預計若失去海外算力，新模型推出間隔將拉長。",
-      "u": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/"
+      "t": "Neuralink獲FDA批准進行首個關鍵腦機接口試驗",
+      "d": "試驗將在美國漸凍人症成年患者身上測試腦機接口，是邁向正式批准的重要一步。",
+      "u": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/"
      },
      {
-      "t": "Microsoft揭國家級黑客AI攻擊框架ARTEX",
-      "d": "Microsoft指有政府背景的黑客利用ARTEX，把攻擊任務分派給專門AI代理，建議以誘餌系統防禦。",
-      "u": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
+      "t": "OpenAI承認GPT-6.2計費出錯 收緊ChatGPT用量",
+      "d": "OpenAI表示推出時錯誤地多計折扣，付費用戶現時觸及用量上限的速度最多快四成。",
+      "u": "https://www.techradar.com/ai-platforms-assistants/chatgpt/weve-fixed-this-now-so-the-same-work-will-use-more-of-your-plans-usage-allowance-openai-admits-it-made-a-mistake-when-launching-gpt-6-2-and-now-paying-chatgpt-users-could-hit-their-usage-limits-up-to-40-percent-faster"
      },
      {
-      "t": "瑞士通報五宗AI代理網絡攻擊",
-      "d": "瑞士網絡安全辦公室表示，有人利用AI代理攻擊企業及關鍵基建，顯示自動化黑客攻擊已成現實。",
-      "u": "https://www.reuters.com/legal/litigation/ai-agents-used-five-cyber-attacks-switzerland-government-says-2026-11-26/"
+      "t": "美國42州反對Character.AI拍賣用戶對話",
+      "d": "各州總檢察長要求破產法庭阻止出售逾2100萬個帳戶，其中210萬屬未成年人。",
+      "u": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
      },
      {
-      "t": "歐盟或於12月15日表決批准Tesla輔助駕駛",
-      "d": "歐盟委員會議程草案顯示，將表決是否在全歐盟批准Tesla的駕駛輔助系統。",
-      "u": "https://www.reuters.com/technology/eu-may-vote-authorising-tesla-assisted-driving-system-dec-15-meeting-2026-11-26/"
+      "t": "八達通遭網絡攻擊 約7500名客戶資料外洩",
+      "d": "外洩資料包括姓名和相片，部分涉及自動增值資料；康文署SmartPLAY亦有約9萬用戶資料外洩。",
+      "u": "https://news.rthk.hk/rthk/en/component/k2/1879534-20261127.htm"
      },
      {
-      "t": "加拿大AI算力基金增至10億加元",
-      "d": "加國政府額外注資7億加元，向合資格本土主權雲端供應商購買算力，最多資助八成費用。",
-      "u": "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion"
+      "t": "國際足協證實遭黑客入侵個人資料",
+      "d": "FIFA表示黑客取得個人及商業資料，一個新黑客組織聲稱責任。",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-26/fifa-says-hackers-accessed-personal-data-in-cyberattack"
      }
     ]
    },
@@ -252,19 +257,14 @@
     "h": "科學及健康",
     "items": [
      {
-      "t": "平價半年一針愛滋病預防針抵達非洲",
-      "d": "預防感染效用近百分百的長效針劑Lenacapavir以較低價格引入非洲，為數以百萬計高危人士帶來希望。",
-      "u": "https://www.bbc.co.uk/news/articles/cmly7jve72r2o"
+      "t": "英國醫療服務警告流感「急劇飆升」",
+      "d": "入院人數急增，當局呼籲高危人士盡快接種疫苗。",
+      "u": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o"
      },
      {
-      "t": "紅海海底逾千米發現隱藏鹵水湖",
-      "d": "科學家在深海海床發現高鹽、缺氧的水池，保存過去氣候紀錄，並有罕見微生物棲息。",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261125045259.htm"
-     },
-     {
-      "t": "歐幾里得太空望遠鏡首次發現新彗星",
-      "d": "這部用作繪製暗物質分佈的歐洲望遠鏡，在巡天影像中發現一顆前所未見的彗星。",
-      "u": "https://www.sciencedaily.com/releases/2026/11/261124055852.htm"
+      "t": "NASA將在太空站測試太空種植艙及迷你腦組織",
+      "d": "NG-25貨運任務將運送種植系統原型及實驗室培養的腦組織，為登月及火星任務研究鋪路。",
+      "u": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/"
      }
     ]
    },
@@ -272,19 +272,19 @@
     "h": "英國",
     "items": [
      {
-      "t": "淨移民跌至7.7萬 賓咸稱已受控",
-      "d": "全年淨移民人數創本世紀（疫情除外）新低，首相賓咸表示移民數字已「充分受控」。",
-      "u": "https://www.bbc.co.uk/news/articles/ck792l8ndqyqo"
+      "t": "貝丁諾要求保守黨候選人承諾廢除淨零目標",
+      "d": "保守黨領袖推出「候選人公約」，被部分前議員批評。",
+      "u": "https://www.bbc.co.uk/news/articles/cmwy95295835o"
      },
      {
-      "t": "英國將按新協議向歐盟繳付「參與費」",
-      "d": "新公布的法律文件顯示，英國須分擔歐盟部分營運開支，條約設有十年終止條款。",
-      "u": "https://www.bbc.co.uk/news/articles/ck2057x387ego"
+      "t": "唐寧街：無興趣聽愛德華茲發言",
+      "d": "首相府加入批評行列，反對身敗名裂的前BBC主播接受新訪問。",
+      "u": "https://www.bbc.co.uk/news/articles/c60mdl2y2w3do"
      },
      {
-      "t": "近百名工黨議員反對Rosebank油田",
-      "d": "包括多名部長助理在內的工黨議員，促請能源大臣在作決定前否決設得蘭以西的鑽油計劃。",
-      "u": "https://www.bbc.co.uk/news/articles/cw24ez32d1n4o"
+      "t": "前議會領袖扎德羅茲尼欺詐罪成入獄",
+      "d": "阿什菲爾德前議會領袖因欺詐及逃稅被判監27個月。",
+      "u": "https://www.bbc.co.uk/news/articles/cmkgdjyd5j98o"
      }
     ]
    }
@@ -292,32 +292,92 @@
  },
  "sources": [
   {
-   "title": "BBC News",
-   "url": "https://www.bbc.co.uk/news"
+   "title": "Zelensky criticises 'strange' Trump-Putin friendship",
+   "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo"
   },
   {
-   "title": "Reuters",
-   "url": "https://www.reuters.com/"
+   "title": "Hundreds of thousands still without power after US storms",
+   "url": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo"
   },
   {
-   "title": "RTHK",
-   "url": "https://news.rthk.hk/"
+   "title": "EU leaders fail to agree budget as Ukraine aid splits talks",
+   "url": "https://www.bbc.co.uk/news/articles/cw4gnm3m9deno"
   },
   {
-   "title": "The Decoder",
-   "url": "https://the-decoder.com/"
+   "title": "Spain's leaders clash in final debate before Sunday vote",
+   "url": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o"
   },
   {
-   "title": "Semafor",
-   "url": "https://www.semafor.com/"
+   "title": "Sheikh Hasina's planned return puts Bangladesh on edge",
+   "url": "https://www.bbc.co.uk/news/articles/cx30g71rev23o"
   },
   {
-   "title": "The Next Web",
-   "url": "https://thenextweb.com/"
+   "title": "Colombian police free 76 supermarket hostages after 17 hours",
+   "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo"
   },
   {
-   "title": "ScienceDaily",
-   "url": "https://www.sciencedaily.com/"
+   "title": "Canada's top court largely upholds Quebec religious symbols ban",
+   "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o"
+  },
+  {
+   "title": "Why Trump's new tariffs pose less of a threat",
+   "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o"
+  },
+  {
+   "title": "SAP weighs cutting 10,000 jobs in AI overhaul",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring"
+  },
+  {
+   "title": "Binance restores withdrawals after record $6.3bn hack",
+   "url": "https://www.reuters.com/technology/binance-lifts-withdrawal-suspension-after-63-billion-crypto-heist-2026-11-26/"
+  },
+  {
+   "title": "Banks see S&P 500 at 8,200-8,700 by end of 2027",
+   "url": "https://www.cnbc.com/2026/11/25/jpmorgan-sp-500-8200-2027-ai.html"
+  },
+  {
+   "title": "SpaceX cleared for up to a million data-centre satellites",
+   "url": "https://www.reuters.com/business/media-telecom/us-authorizes-spacex-deploy-1-million-satellites-data-centers-space-2026-11-25/"
+  },
+  {
+   "title": "Neuralink wins FDA nod for first pivotal brain-implant trial",
+   "url": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/"
+  },
+  {
+   "title": "OpenAI admits GPT-6.2 billing error, tightens ChatGPT limits",
+   "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/weve-fixed-this-now-so-the-same-work-will-use-more-of-your-plans-usage-allowance-openai-admits-it-made-a-mistake-when-launching-gpt-6-2-and-now-paying-chatgpt-users-could-hit-their-usage-limits-up-to-40-percent-faster"
+  },
+  {
+   "title": "42 US states fight Character.AI auction of users' chats",
+   "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
+  },
+  {
+   "title": "Octopus cyberattack exposes data of 7,500 Hong Kong users",
+   "url": "https://news.rthk.hk/rthk/en/component/k2/1879534-20261127.htm"
+  },
+  {
+   "title": "FIFA confirms hackers accessed personal data",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-26/fifa-says-hackers-accessed-personal-data-in-cyberattack"
+  },
+  {
+   "title": "NHS warns of 'horrible spike' in flu",
+   "url": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o"
+  },
+  {
+   "title": "NASA to test space crop chamber and mini brains on ISS",
+   "url": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/"
+  },
+  {
+   "title": "Badenoch: Tory candidates must pledge to scrap net zero",
+   "url": "https://www.bbc.co.uk/news/articles/cmwy95295835o"
+  },
+  {
+   "title": "No 10 says it has no interest in Huw Edwards interviews",
+   "url": "https://www.bbc.co.uk/news/articles/c60mdl2y2w3do"
+  },
+  {
+   "title": "Ex-council leader Jason Zadrozny jailed for fraud",
+   "url": "https://www.bbc.co.uk/news/articles/cmkgdjyd5j98o"
   }
  ]
 }
