@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T22:23+00:00",
+ "updated": "2026-11-27T23:19+00:00",
  "items": [
   {
    "src": "香港",
@@ -413,25 +413,25 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Sheikh Hasina's planned return puts Bangladesh on edge - and India in a bind",
-   "u": "https://www.bbc.co.uk/news/articles/cx30g71rev23o?at_medium=RSS&at_campaign=rss",
-   "d": "The ousted prime minister's December homecoming plan deepens Dhaka-Delhi tensions and risks fresh unrest.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fe82/live/56152150-e9af-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-27T00:47+00:00",
+   "t": "Behind China's spectacular rise, voices who defied it say they are being drowned out",
+   "u": "https://www.bbc.co.uk/news/articles/cme3d4y094x7o?at_medium=RSS&at_campaign=rss",
+   "d": "China's immense clout now also has the flex of soft power. Critics and dissidents say their voices are being drowned out.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c091/live/9ead0190-ea44-11f1-9fc4-ef897a334b75.jpg",
+   "at": "2026-11-27T23:02+00:00",
    "where": [
-    21.0,
-    78.0,
-    "印度"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+   "t": "Hundreds of thousands still without power a day after US slammed with Thanksgiving storms",
    "u": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
    "d": "Pennsylvania and neighbouring states remain badly affected on Friday after both coasts were lashed with wind and rain.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/318d/live/6be8b890-ea6b-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-27T18:45+00:00",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/058e/live/011ab230-eaab-11f1-9d2d-dd9286f639a6.jpg",
+   "at": "2026-11-27T22:29+00:00",
    "where": [
     38.9,
     -77.04,
@@ -525,15 +525,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Ex-media executive admits saying Australian child sex abuse survivor 'looking to be raped again'",
-   "u": "https://www.bbc.co.uk/news/articles/ckr5grlq78n9o?at_medium=RSS&at_campaign=rss",
-   "d": "The former Murdoch media executive was overheard at an event referring to the way Grace Tame was dressed.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/88cd/live/81fb0990-ea42-11f1-9fc4-ef897a334b75.jpg",
-   "at": "2026-11-27T11:44+00:00",
+   "t": "Sheikh Hasina's planned return puts Bangladesh on edge - and India in a bind",
+   "u": "https://www.bbc.co.uk/news/articles/cx30g71rev23o?at_medium=RSS&at_campaign=rss",
+   "d": "The ousted prime minister's December homecoming plan deepens Dhaka-Delhi tensions and risks fresh unrest.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fe82/live/56152150-e9af-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-27T00:47+00:00",
    "where": [
-    -25.3,
-    133.8,
-    "澳洲"
+    21.0,
+    78.0,
+    "印度"
    ]
   },
   {
@@ -637,15 +637,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
-   "u": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
-   "d": "The right-leaning ruling bloc led by the National Party has fallen short of the majority needed to govern.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6f08/live/c2e7e400-ea01-11f1-976c-6d185a1abdb9.jpg",
-   "at": "2026-11-27T03:28+00:00",
+   "t": "Ex-media executive admits saying Australian child sex abuse survivor 'looking to be raped again'",
+   "u": "https://www.bbc.co.uk/news/articles/ckr5grlq78n9o?at_medium=RSS&at_campaign=rss",
+   "d": "The former Murdoch media executive was overheard at an event referring to the way Grace Tame was dressed.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/88cd/live/81fb0990-ea42-11f1-9fc4-ef897a334b75.jpg",
+   "at": "2026-11-27T11:44+00:00",
    "where": [
-    -41.3,
-    174.8,
-    "紐西蘭"
+    -25.3,
+    133.8,
+    "澳洲"
    ]
   },
   {
@@ -749,11 +749,16 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Asia made a big AI bet on Nvidia. What happens now?",
-   "u": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
-   "d": "Asian stocks have been on a rollercoaster ride after Jensen Huang's shock return as Nvidia CEO.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2c76/live/9f54a560-e956-11f1-a629-63e812fa871f.jpg",
-   "at": "2026-11-26T23:08+00:00"
+   "t": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
+   "u": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
+   "d": "The right-leaning ruling bloc led by the National Party has fallen short of the majority needed to govern.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6f08/live/c2e7e400-ea01-11f1-976c-6d185a1abdb9.jpg",
+   "at": "2026-11-27T03:28+00:00",
+   "where": [
+    -41.3,
+    174.8,
+    "紐西蘭"
+   ]
   },
   {
    "src": "US & CANADA",
@@ -856,16 +861,11 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "My dad's watch stopped the moment he died - I found it in the ashes of Hong Kong tower fire",
-   "u": "https://www.bbc.co.uk/news/videos/c6evr2y40v0jo?at_medium=RSS&at_campaign=rss",
-   "d": "The city marks a year since a huge blaze tore through seven apartment blocks, killing 168 people.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/56c9/live/268edc00-e978-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-26T23:03+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
+   "t": "Asia made a big AI bet on Nvidia. What happens now?",
+   "u": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
+   "d": "Asian stocks have been on a rollercoaster ride after Jensen Huang's shock return as Nvidia CEO.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2c76/live/9f54a560-e956-11f1-a629-63e812fa871f.jpg",
+   "at": "2026-11-26T23:08+00:00"
   },
   {
    "src": "US & CANADA",
@@ -968,11 +968,11 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "A renovation was meant to improve these Hong Kong homes - it ended in a blaze that killed 168",
-   "u": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o?at_medium=RSS&at_campaign=rss",
-   "d": "A year after one of Hong Kong's deadliest fires, families left behind are still waiting for justice.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2b16/live/b6eddfc0-e8c5-11f1-ac76-db9e97f93d67.jpg",
-   "at": "2026-11-25T23:26+00:00",
+   "t": "My dad's watch stopped the moment he died - I found it in the ashes of Hong Kong tower fire",
+   "u": "https://www.bbc.co.uk/news/videos/c6evr2y40v0jo?at_medium=RSS&at_campaign=rss",
+   "d": "The city marks a year since a huge blaze tore through seven apartment blocks, killing 168 people.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/56c9/live/268edc00-e978-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-26T23:03+00:00",
    "where": [
     22.32,
     114.17,
@@ -1079,15 +1079,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Nine injured, three critically, after Bangkok oil refinery explosion",
-   "u": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
-   "d": "Black smoke could be seen across Bangkok's skyline after the blast, as officials urged residents to leave the area.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/579b/live/12356f50-e985-11f1-bb43-d1b6102e3b60.jpg",
-   "at": "2026-11-26T16:21+00:00",
+   "t": "A renovation was meant to improve these Hong Kong homes - it ended in a blaze that killed 168",
+   "u": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o?at_medium=RSS&at_campaign=rss",
+   "d": "A year after one of Hong Kong's deadliest fires, families left behind are still waiting for justice.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2b16/live/b6eddfc0-e8c5-11f1-ac76-db9e97f93d67.jpg",
+   "at": "2026-11-25T23:26+00:00",
    "where": [
-    15.9,
-    100.99,
-    "泰國"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
@@ -1190,15 +1190,15 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Thirteen dead as mine disaster highlights illegal hunt for gold",
-   "u": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro?at_medium=RSS&at_campaign=rss",
-   "d": "Indonesian authorities say another 13 are missing in the illegal gold mine, which flooded on Monday.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5f7f/live/77162390-e96e-11f1-848a-0519bc65af50.jpg",
-   "at": "2026-11-26T07:31+00:00",
+   "t": "Nine injured, three critically, after Bangkok oil refinery explosion",
+   "u": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
+   "d": "Black smoke could be seen across Bangkok's skyline after the blast, as officials urged residents to leave the area.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/579b/live/12356f50-e985-11f1-bb43-d1b6102e3b60.jpg",
+   "at": "2026-11-26T16:21+00:00",
    "where": [
-    -0.8,
-    113.9,
-    "印尼"
+    15.9,
+    100.99,
+    "泰國"
    ]
   },
   {
