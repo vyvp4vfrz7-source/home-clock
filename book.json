@@ -1,68 +1,63 @@
 {
- "date": "2026-11-27",
- "updated": "2026-11-27T05:11:22+00:00",
- "id": "holloway-elana-k-arnold",
- "t": "Holloway",
- "tz": "霍洛威",
+ "date": "2026-11-28",
+ "updated": "2026-11-28T05:09:48+00:00",
+ "id": "traitors-nest-frances-hardinge",
+ "t": "Traitors' Nest",
+ "tz": "叛徒之巢",
  "tz_note": "暫譯",
- "a": "Elana K. Arnold",
- "published": "5 May 2026",
- "publisher": "Clarion Books / HarperCollins (US)",
- "pages": 352,
- "age": "14+",
+ "a": "Frances Hardinge",
+ "published": "27 Aug 2026",
+ "publisher": "First Ink / Pan Macmillan (UK); Amulet Books / Abrams (US)",
+ "pages": 416,
+ "age": "12+",
  "isbn": [
-  "9780062990884"
+  "9781529090659",
+  "9781419794148"
  ],
- "cover_url": "https://images-us.bookshop.org/ingram/9780062990884.jpg?v=6bf694ff5448b2cdf6f3247912a55bd7&width=600",
+ "cover_url": "https://ik.imagekit.io/panmac/tr:f-jpg,di-placeholder_portrait_aMjPtD9YZ.jpg,w-350/edition/9781529090666.jpg",
  "tag": "小說",
- "en": "It is 2021, and Nora, an autistic Jewish 18-year-old who loves art, is reeling from her mother's death from Covid-19. She travels to Paris, and in the French countryside she slips back in time to 1946, where she finds herself a patient at the asylum of Saint-Alban. There she makes friends with Beryl and Penella, meets a kind boy called Adrien, and starts to ask what it means to be truly understood. A quiet, introspective time-slip novel about grief, family trauma and love, and a 2026 US National Book Award finalist. For thoughtful readers of 14 and up.",
- "zh": "2021年，18歲嘅Nora係一個熱愛藝術、有自閉症嘅猶太女仔，啱啱因新冠失去媽媽。佢去咗巴黎，點知喺法國鄉郊竟然穿越返1946年，變咗Saint-Alban精神病院嘅病人。喺嗰度佢識咗Beryl同Penella兩個朋友，又遇到溫柔嘅男仔Adrien，慢慢諗：俾人真正明白係點樣嘅感覺？呢本安靜、內省嘅穿越小說，講喪親之痛、家族創傷同愛，入圍2026年美國國家圖書獎。適合14歲以上讀者。",
+ "en": "In the Kingdom of Thaletal, powerful Players fight a Great Game by moving whole castles across the land like chess pieces. Fifteen-year-old Burr's quiet village is thrown into chaos when a new castle lands on its doorstep, and then the castle itself is carried off to a far corner of the kingdom, where the Magpie Maiden's birds come to collect debts. Haunted by his father's execution after a failed rebellion, Burr teams up with his sisters, his friends and a sharp-witted heiress to survive. A twisty, inventive fantasy about power, loyalty and who really pays for war, for teens and adult fantasy fans alike.",
+ "zh": "喺Thaletal王國，有權有勢嘅「棋手」玩一場「大博弈」，竟然將成座城堡當棋子咁喺地圖上搬嚟搬去。十五歲嘅Burr住喺一條平靜小村，點知一座新城堡突然落喺村口，打亂晒所有人嘅生活；之後城堡仲被搬去王國嘅偏遠角落，嗰度有「喜鵲少女」嘅喜鵲上門追債。佢爸爸喺一場失敗嘅叛亂之後被處決，Burr同兩個家姐、朋友，仲有一位精明嘅女繼承人聯手求存。故事充滿轉折，講權力、忠誠同戰爭代價，少年同成年奇幻迷都啱睇。",
  "reviews": [
   {
-   "src": "Kirkus Reviews",
-   "d": "Starred review: a beautifully written, deeply introspective portrait of generational trauma, and of how love can both hurt and heal.",
-   "dz": "星級書評：文筆優美、深刻內省，寫出跨代創傷，同愛點樣傷人又療癒。",
-   "url": "https://www.kirkusreviews.com/book-reviews/elana-k-arnold/holloway/"
+   "src": "Kirkus (starred)",
+   "d": "Layered and lush; an expertly woven tapestry of a fantasy, recommended for 13 to adult.",
+   "dz": "層次豐富、文筆華麗，編織得好精巧，十三歲到成人都啱。",
+   "url": "https://www.kirkusreviews.com/book-reviews/frances-hardinge/traitors-nest/"
   },
   {
-   "src": "Publishers Weekly",
-   "d": "An ambitious, immersive picture of a neurodivergent teen's experience that raises thought-provoking questions about time, love and relationships.",
-   "dz": "野心十足、令人投入，寫活神經多樣少女，引人思考時間、愛同關係。",
-   "url": "https://www.publishersweekly.com/9780062990884"
+   "src": "School Reading List (UK)",
+   "d": "An incredible fantasy: beautifully written with a compelling pace; recommended for readers aged 12 and up.",
+   "dz": "出色奇幻小說，文筆優美、節奏吸引，建議十二歲以上。",
+   "url": "https://schoolreadinglist.co.uk/childrens-book-reviews/traitors-nest/"
   },
   {
-   "src": "CCBC (Univ. of Wisconsin)",
-   "d": "Starred review of the week: a quiet, singular novel in which Nora's time with the asylum patients becomes a kind of healing.",
-   "dz": "本週星級推介：安靜又獨特，Nora同病人相處嘅日子成為一種療癒。",
-   "url": "https://ccbc.education.wisc.edu/holloway/"
+   "src": "Shelf Awareness (starred)",
+   "d": "Calls it an outstandingly creative and unusual fantasy novel.",
+   "dz": "評為極有創意、與眾不同嘅奇幻小說。",
+   "url": "https://www.shelf-awareness.com/theshelf/2026-07-22/starred_children_s_review:_traitors_nest.html"
+  },
+  {
+   "src": "Common Sense Media",
+   "d": "Stellar writing and characters; some violence (an execution), very little romance or swearing; fine for 12+.",
+   "dz": "文筆同角色一流；有少量暴力（處決），幾乎冇情愛粗口，十二歲以上合適。",
+   "url": "https://www.commonsensemedia.org/book-reviews/traitors-nest"
   }
  ],
- "ken": "A haunting time-slip into 1946 France with a heroine who sees the world her own way.",
- "kzh": "穿越返1946年法國，跟住一個用自己方式睇世界嘅女主角，餘韻好長。",
+ "ken": "Castles moving like chess pieces, debt-collecting magpies and a hero who outwits the powerful: pure imagination.",
+ "kzh": "城堡好似棋子咁郁、喜鵲上門追債，主角以智鬥強權，想像力爆燈！",
  "sources": [
   {
-   "title": "Kirkus Reviews: Holloway",
-   "url": "https://www.kirkusreviews.com/book-reviews/elana-k-arnold/holloway/"
+   "title": "Pan Macmillan: Traitors' Nest",
+   "url": "https://www.panmacmillan.com/authors/frances-hardinge/traitors-nest/9781529090666"
   },
   {
-   "title": "Publishers Weekly: Holloway",
-   "url": "https://www.publishersweekly.com/9780062990884"
+   "title": "Abrams: Traitors' Nest",
+   "url": "https://www.abramsbooks.com/product/traitors-nest_9798896844969/"
   },
   {
-   "title": "CCBC: Holloway",
-   "url": "https://ccbc.education.wisc.edu/holloway/"
-  },
-  {
-   "title": "BookBrowse: Holloway",
-   "url": "https://www.bookbrowse.com/bb_briefs/detail/index.cfm/ezine_preview_number/25667"
-  },
-  {
-   "title": "Book Riot: 2026 National Book Award shortlist, Young People's Literature",
-   "url": "https://bookriot.com/2026-national-book-award-shortlist-for-young-peoples-literature/"
-  },
-  {
-   "title": "Bookshop.org: Holloway",
-   "url": "https://bookshop.org/p/books/holloway-elana-k-arnold/c85d85dc647d3edc"
+   "title": "Kirkus: 30 most anticipated YA books fall 2026",
+   "url": "https://www.kirkusreviews.com/book-lists/30-most-anticipated-young-adult-books-fall-2026/"
   }
  ]
 }
