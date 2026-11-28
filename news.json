@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T03:44+00:00",
+ "updated": "2026-11-28T04:49+00:00",
  "items": [
   {
    "src": "香港",
@@ -209,7 +209,7 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "中九龍繞道九龍灣段下月開通 逾80個臨時路牌擺放在分叉路口等",
+   "t": "運輸署料中九龍繞道對商用車來說是個好選擇",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1879571-20261128.htm",
    "d": "中九龍繞道（九龍灣段）下月6日早上7時啟用，標誌著6號幹線全線開通。行經中九龍繞道的所有車種，全日以「易通行」劃一收費8元。 運輸署副署長梁世豪在本台節目《星期六問責》表示，6號幹線屬快速幹道，可作較遠程跨區出行，並與現行其他道路分工，他舉例，如由將軍澳前往油麻地可用新路，如由將軍澳前往觀塘或啟德就可行經現有道路網絡，期望九龍灣段開通後，可分流長途車輛，有望分流觀塘繞道一成車流至中九龍繞道。 梁世豪表示，每當新道路啟用時，駕駛人士都需時…",
    "img": "https://newsstatic.rthk.hk/images/mfile_1879571_1_M_20261128094611.jpg",
@@ -469,15 +469,15 @@
   {
    "src": "LATIN AMERICA",
    "lang": "en",
-   "t": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
-   "u": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
-   "d": "One gunman was killed after what the country's president described as a robbery of a cash-laden armoured car gone wrong.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/997a/live/4f4b3940-e8c4-11f1-ac76-db9e97f93d67.jpg",
-   "at": "2026-11-25T18:41+00:00",
+   "t": "Eight killed in Peruvian military helicopter crash",
+   "u": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
+   "d": "The pilot was the sole survivor of the crash during a rescue mission in a remote area known for drug trafficking.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/faea/live/b54be270-eadc-11f1-81da-2ff518b71d00.jpg",
+   "at": "2026-11-28T04:19+00:00",
    "where": [
-    4.6,
-    -74.08,
-    "哥倫比亞"
+    -12.0,
+    -60.0,
+    "拉丁美洲"
    ]
   },
   {
@@ -553,15 +553,15 @@
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
-   "u": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
-   "d": "Ukraine settles in for another devastating winter as the questions persists: how will it all end?",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9fca/live/2dd32240-e9b5-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-27T18:42+00:00",
+   "t": "Turkish officials 'destroyed' pro-opposition TV channel, owner tells BBC",
+   "u": "https://www.bbc.co.uk/news/articles/cq36gk151xkdo?at_medium=RSS&at_campaign=rss",
+   "d": "The headquarters of Halk TV were raided last month, the latest in a series of crackdowns on news sources deemed critical of the government.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3aaf/live/e29d41d0-ead0-11f1-b97f-cdd549897b30.jpg",
+   "at": "2026-11-28T04:13+00:00",
    "where": [
-    49.0,
-    31.4,
-    "烏克蘭"
+    50.0,
+    10.0,
+    "歐洲"
    ]
   },
   {
@@ -581,15 +581,15 @@
   {
    "src": "LATIN AMERICA",
    "lang": "en",
-   "t": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
-   "u": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
-   "d": "His deportation to and return from El Salvador became a flashpoint in the debate the US president's immigration agenda.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/92f9/live/30ceb970-e8cd-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-25T19:22+00:00",
+   "t": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
+   "u": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
+   "d": "One gunman was killed after what the country's president described as a robbery of a cash-laden armoured car gone wrong.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/997a/live/4f4b3940-e8c4-11f1-ac76-db9e97f93d67.jpg",
+   "at": "2026-11-25T18:41+00:00",
    "where": [
-    40.3,
-    -3.7,
-    "西班牙"
+    4.6,
+    -74.08,
+    "哥倫比亞"
    ]
   },
   {
@@ -665,11 +665,11 @@
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
-   "u": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
-   "d": "Ukraine's president voices frustration with US and says it is not pushing Russia hard enough in peace talks to end the war.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fdee/live/21e805d0-ea60-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-27T18:00+00:00",
+   "t": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
+   "u": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
+   "d": "Ukraine settles in for another devastating winter as the questions persists: how will it all end?",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9fca/live/2dd32240-e9b5-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-27T18:42+00:00",
    "where": [
     49.0,
     31.4,
@@ -693,15 +693,15 @@
   {
    "src": "LATIN AMERICA",
    "lang": "en",
-   "t": "Car bomb tears through Colombian city wounding more than 20",
-   "u": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&at_campaign=rss",
-   "d": "The explosion is the latest in a string of attacks on buildings housing the security forces and government offices.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/17c0/live/f8f77110-e811-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-24T11:45+00:00",
+   "t": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
+   "u": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+   "d": "His deportation to and return from El Salvador became a flashpoint in the debate the US president's immigration agenda.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/92f9/live/30ceb970-e8cd-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-25T19:22+00:00",
    "where": [
-    4.6,
-    -74.08,
-    "哥倫比亞"
+    40.3,
+    -3.7,
+    "西班牙"
    ]
   },
   {
@@ -777,15 +777,15 @@
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "Capsized tanker carrying 7,000 tonnes of diesel to be towed away from Ibiza",
-   "u": "https://www.bbc.co.uk/news/articles/cvrlgz6g0ekgo?at_medium=RSS&at_campaign=rss",
-   "d": "There are fears of a major oil spillage off Ibiza but the ship's fuel tanks are so far intact.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a324/live/235d3bb0-ea97-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-27T20:34+00:00",
+   "t": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+   "u": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+   "d": "Ukraine's president voices frustration with US and says it is not pushing Russia hard enough in peace talks to end the war.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fdee/live/21e805d0-ea60-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-27T18:00+00:00",
    "where": [
-    50.0,
-    10.0,
-    "歐洲"
+    49.0,
+    31.4,
+    "烏克蘭"
    ]
   },
   {
@@ -805,15 +805,15 @@
   {
    "src": "LATIN AMERICA",
    "lang": "en",
-   "t": "Watch: Moment troops raid home and capture Mexican drug lord",
-   "u": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo?at_medium=RSS&at_campaign=rss",
-   "d": "Newly-released bodycam footage shows the moment troops detained 'El Chapo Isidro', who had managed to evade capture for years.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3d08/live/65108220-e7df-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-24T09:09+00:00",
+   "t": "Car bomb tears through Colombian city wounding more than 20",
+   "u": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&at_campaign=rss",
+   "d": "The explosion is the latest in a string of attacks on buildings housing the security forces and government offices.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/17c0/live/f8f77110-e811-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-24T11:45+00:00",
    "where": [
-    23.6,
-    -102.6,
-    "墨西哥"
+    4.6,
+    -74.08,
+    "哥倫比亞"
    ]
   },
   {
@@ -889,15 +889,15 @@
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "Brazil pushes back on Macron calling its meat 'doped'",
-   "u": "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo?at_medium=RSS&at_campaign=rss",
-   "d": "France's president made the comment while speaking to French farming representatives, months after the EU banned Brazil beef and poultry products.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/23bb/live/01c67d00-ea73-11f1-a828-d384c0290f6b.jpg",
-   "at": "2026-11-27T15:54+00:00",
+   "t": "Capsized tanker carrying 7,000 tonnes of diesel to be towed away from Ibiza",
+   "u": "https://www.bbc.co.uk/news/articles/cvrlgz6g0ekgo?at_medium=RSS&at_campaign=rss",
+   "d": "There are fears of a major oil spillage off Ibiza but the ship's fuel tanks are so far intact.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a324/live/235d3bb0-ea97-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-27T20:34+00:00",
    "where": [
-    46.6,
-    2.4,
-    "法國"
+    50.0,
+    10.0,
+    "歐洲"
    ]
   },
   {
@@ -917,11 +917,11 @@
   {
    "src": "LATIN AMERICA",
    "lang": "en",
-   "t": "Mexican soldiers attacked in wake of drug lord's arrest",
-   "u": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss",
-   "d": "Eight suspects are arrested after firing on soldiers trying to re-establish order following the arrest of 'El Chapo Isidro'.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/17c3/live/64308a00-e73d-11f1-802a-678be58471bb.jpg",
-   "at": "2026-11-23T14:54+00:00",
+   "t": "Watch: Moment troops raid home and capture Mexican drug lord",
+   "u": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo?at_medium=RSS&at_campaign=rss",
+   "d": "Newly-released bodycam footage shows the moment troops detained 'El Chapo Isidro', who had managed to evade capture for years.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3d08/live/65108220-e7df-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-24T09:09+00:00",
    "where": [
     23.6,
     -102.6,
@@ -996,15 +996,15 @@
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "Italy's former police chief rejected mafia inquiry allegations before death",
-   "u": "https://www.bbc.co.uk/news/articles/c69q8yjj1v0po?at_medium=RSS&at_campaign=rss",
-   "d": "The contents of an eight-page letter by Gianni De Gennaro have been revealed days after his body was found at his Tuscany home.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d573/live/2b6db3a0-e9b8-11f1-8d2a-f5d2aabc11cb.jpg",
-   "at": "2026-11-27T07:28+00:00",
+   "t": "Brazil pushes back on Macron calling its meat 'doped'",
+   "u": "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo?at_medium=RSS&at_campaign=rss",
+   "d": "France's president made the comment while speaking to French farming representatives, months after the EU banned Brazil beef and poultry products.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/23bb/live/01c67d00-ea73-11f1-a828-d384c0290f6b.jpg",
+   "at": "2026-11-27T15:54+00:00",
    "where": [
-    42.8,
-    12.6,
-    "意大利"
+    46.6,
+    2.4,
+    "法國"
    ]
   },
   {
@@ -1024,11 +1024,11 @@
   {
    "src": "LATIN AMERICA",
    "lang": "en",
-   "t": "Seattle airport operator 'outraged' over ICE arrest of two Mexican passengers",
-   "u": "https://www.bbc.co.uk/news/articles/cmwy479wz91no?at_medium=RSS&at_campaign=rss",
-   "d": "ICE said a man and a woman, who are said to be father and daughter and both Mexican nationals, were arrested for allegedly overstaying their visas.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f10f/live/4320e1c0-e77e-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-23T12:50+00:00",
+   "t": "Mexican soldiers attacked in wake of drug lord's arrest",
+   "u": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss",
+   "d": "Eight suspects are arrested after firing on soldiers trying to re-establish order following the arrest of 'El Chapo Isidro'.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/17c3/live/64308a00-e73d-11f1-802a-678be58471bb.jpg",
+   "at": "2026-11-23T14:54+00:00",
    "where": [
     23.6,
     -102.6,
@@ -1107,15 +1107,15 @@
   {
    "src": "EUROPE",
    "lang": "en",
-   "t": "Clashes mar European games as Macron condemns violence",
-   "u": "https://www.bbc.co.uk/sport/football/articles/c69q8y5x03ywo?at_medium=RSS&at_campaign=rss",
-   "d": "Violent clashes mar a number of European football matches on Thursday night, with French president Emmanuel Macron condemning trouble at Marseille's home game against Levski Sofia.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f8ac/live/48727800-e9e5-11f1-ab41-f1f84c0c758a.jpg",
-   "at": "2026-11-27T10:24+00:00",
+   "t": "Italy's former police chief rejected mafia inquiry allegations before death",
+   "u": "https://www.bbc.co.uk/news/articles/c69q8yjj1v0po?at_medium=RSS&at_campaign=rss",
+   "d": "The contents of an eight-page letter by Gianni De Gennaro have been revealed days after his body was found at his Tuscany home.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d573/live/2b6db3a0-e9b8-11f1-8d2a-f5d2aabc11cb.jpg",
+   "at": "2026-11-27T07:28+00:00",
    "where": [
-    46.6,
-    2.4,
-    "法國"
+    42.8,
+    12.6,
+    "意大利"
    ]
   },
   {
