@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-28T06:51+00:00",
+ "updated": "2026-11-28T08:06+00:00",
  "items": [
   {
    "src": "香港",
    "lang": "zh",
-   "t": "數字辦指示各部門檢查涉及個人及敏感資料系統 確保防禦措施到位",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879590-20261128.htm",
-   "d": "針對近期出現利用AI攻擊網上系統，數字辦表示高度關注。 數字辦在社交網站表示，已採取一系列加強措施，包括已指示各部門優先檢查涉及個人及敏感資料的重要系統、重申各部門與其承辦商須切實履行其網絡安全責任，確保防禦措施到位，和強化事故通報機制，務求第一時間向數字辦報告並即時作出應對。 數字辦表示，將全力提供支援，與各部門及承辦商緊密協作，全方位守護政府系統與數據安全。 編輯：汪溟曦",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879590_1_M_20261128141810.jpg",
-   "at": "2026-11-28T06:08+00:00",
+   "t": "蔡若蓮稱洪水橋大學城每幅用地均有院校有興趣 當局會綜合評估",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879597-20261128.htm",
+   "d": "洪水橋大學城3幅校園區用地申請將於下月底截止。教育局局長蔡若蓮表示，目前每幅用地均有院校有興趣，會綜合評估院校的發展計劃及財政能力，不會只考慮院校的財務安排。 蔡若蓮在一個電視節目表示，相信院校有不同的資金來源，財政會較穩定，例如除向政府借貸外，亦會有儲備、籌款、發債等。她又表示，即使有院校表明毋須借貸，當局亦會考慮其發展方案，包括實驗室、教學樓、宿舍等規劃是否符合發展目標，強調需要平衡財政狀況及發展計劃。 另外，施政報告提出「匯流升級…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879597_1_M_20261128155526.jpg",
+   "at": "2026-11-28T07:50+00:00",
    "where": [
     22.32,
     114.17,
@@ -18,7 +18,7 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "台灣「九合一」選舉開始投票 核電政策公投同步舉行",
+   "t": "台灣「九合一」選舉：投票結束 全台各地投票所隨即開票",
    "u": "https://www.bbc.com/zhongwen/live/c60evlqlpx32t/trad?at_medium=RSS&at_campaign=rss",
    "d": "台灣1965萬選民將票選縣市長、地方議員、鄉鎮村里長等將近1.11萬名公職人員，同時公投決定日後能源政策。",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7a64/live/b45cee90-eadc-11f1-81da-2ff518b71d00.jpg",
@@ -32,9 +32,51 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "日靜岡縣商店有野豬闖入造成7人受傷",
+   "t": "巴基斯坦總理與巴方航天員阿里天地通話",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879593-20261128.htm",
+   "d": "中國載人航天工程辦公室公布，巴基斯坦總理夏巴茲與陸軍參謀長穆尼爾，在巴基斯坦太空與高層大氣研究委員會總部，與正在中國空間站執行神舟二十四號載人飛行任務的巴基斯坦航天員阿里，進行天地通話。 中巴兩國2025年2月簽署合作協議，正式啟動巴基斯坦航天員選拔工作，最終阿里以載荷專家身份，入選神舟二十四號載人飛行任務乘組。乘組在過去的星期三早上升空，阿里成為首個到訪中國空間站的外籍航天員。 編輯：盧曉珊",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879593_1_M_20261128150534.jpg",
+   "at": "2026-11-28T07:00+00:00",
+   "where": [
+    30.4,
+    69.3,
+    "巴基斯坦"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "屯門工廈棚網起火大致救熄 約200人疏散到安全地方",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879594-20261128.htm",
+   "d": "屯門建發里2號一幢工業大廈有外牆的棚網起火，火警已被大致救熄。消防灌救期間，有200人被疏散到安全地方。 火警發生在下午約2時。消防派出一條喉及一隊煙煙隊灌救。 編輯：陳樂謙",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879594_1_M_20261128153539.jpg",
+   "at": "2026-11-28T07:18+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "台灣「九合一」選舉與核能公投：開票結果實時更新",
+   "u": "https://www.bbc.com/zhongwen/articles/ck0jxz70e4z5o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣「九合一」選舉與核能政策公投投票結束，全台1.8萬餘處投票所隨即即場點票。BBC中文緊貼開票進展。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/de3d/live/fa7c0280-e5d2-11f1-99b6-a35a62fa4264.png",
+   "at": "2026-11-28T08:00+00:00",
+   "where": [
+    23.7,
+    121.0,
+    "台灣"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "日本靜岡縣商店有野豬闖入造成7人受傷",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1879588-20261128.htm",
-   "d": "日本靜岡縣一間商店有野豬闖入，造成七人受傷。野豬已被捕殺。 共同社引述當地警方和消防部門指，靜岡市一間商店昨日報警，指一頭野豬撞破玻璃闖入，有人被咬傷。 七名傷者都沒有無生命危險。 參與捕殺行動的狩獵協會成員稱，涉事野豬重約100至120公斤。 編輯：方潤南",
+   "d": "日本靜岡縣一間商店有野豬闖入，造成七人受傷。野豬已被捕殺。 共同社引述當地警方和消防部門指，靜岡市一間商店昨日報警，指一頭野豬撞破玻璃闖入，有人被咬傷。七名傷者都沒有無生命危險。 參與捕殺行動的狩獵協會成員稱，涉事野豬重約100至120公斤。 編輯：方潤南",
    "img": "https://newsstatic.rthk.hk/images/mfile_1879588_1_M_20261128135156.jpg",
    "at": "2026-11-28T05:51+00:00",
    "where": [
@@ -46,11 +88,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "公屋綜合輪候時間4.4年屬10年新低 黃偉綸稱對供應有信心",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879582-20261128.htm",
-   "d": "當局成立「公營房屋樓宇管制組」取代原有的「獨立審查組」（ICU）。署理財政司司長兼署理房屋局局長黃偉綸在一個電台節目表示，管制組已於本周一開始運作，共有300個人手，當中一半處理現有樓宇，其餘的跟進新興建的樓宇。他說，有別以往的審查組，新的管制組是以項目為基礎，作出宏觀並從服務的角度處理項目，同時有溝通專員作出解說。 另外，最新公屋綜合輪候時間為4.4年，是過去十年新低。黃偉綸指出，今個財政年度仍有兩個季度，因此政府未有作出「提前達標」…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879582_1_M_20261128112003.jpg",
-   "at": "2026-11-28T03:14+00:00",
+   "t": "運輸署籲勿誤信虛假信息訛稱毋須證明便可申請免試簽發香港駕照",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879592-20261128.htm",
+   "d": "運輸署呼籲市民，切勿誤信社交媒體以毋須證明文件作招徠，訛稱可協助申請免試簽發香港正式駕駛執照的虛假信息，慎防受騙。署方指事件將轉交執法部門跟進。 運輸署發言人嚴正指出，署方與所謂中介沒有任何關係。署方一直嚴謹核實每宗免試簽發申請，嚴格把關，申請人不論親身或授權代理人遞交申請，均須完全符合相關法例要求，並提供真實準確的證明文件。署方如有懷疑，會聯絡有關領事館或運輸部門查證；運輸署與內地車輛管理所亦有恆常機制查核有懷疑的內地駕駛證。署方指，…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879592_1_M_20261128150237.jpg",
+   "at": "2026-11-28T06:42+00:00",
    "where": [
     22.32,
     114.17,
@@ -88,11 +130,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "勳銜頒授典禮 何偉豪獲追授金英勇勳章由兄長及未婚妻代領",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879581-20261128.htm",
-   "d": "政府在禮賓府舉行勳銜頒授典禮，行政長官李家超頒授勳銜予受勳人士。 今年有466人獲頒授勳銜及獎狀，包括3人獲頒最高榮譽的大紫荊勳章，分別是大埔宏福苑火災獨立委員會委員、行政會議成員陳健波；中大前校長、經濟學家劉遵義；以及福建社團聯會榮譽主席、中銀國際副董事長林廣兆。 另外，8人獲金紫荊星章，包括民建聯主席、立法會議員陳克勤、中大校長盧煜明、醫管局主席范鴻齡等。去年11月在大埔宏福苑五級火殉職的消防隊目何偉豪，獲政府追授金英勇勳章，由其兄…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879581_1_M_20261128110600.jpg",
-   "at": "2026-11-28T02:56+00:00",
+   "t": "屯門有工廈棚網起火 消防到場灌救",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879591-20261128.htm",
+   "d": "屯門建發里2號一幢工業大廈有棚網起火，暫時無人受傷。 火警發生在下午約2時。消防列作一級火，派出一條喉及一隊煙帽隊到場灌救。 編輯：陳樂謙",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879591_1_M_20261128150753.jpg",
+   "at": "2026-11-28T06:41+00:00",
    "where": [
     22.32,
     114.17,
@@ -130,52 +172,15 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "許正宇稱亞投行落戶香港意義大 當局與亞投行商討細節涉法律修訂",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879578-20261128.htm",
-   "d": "國家財政部與亞洲基礎設施投資銀行日前簽署協定，確定亞投行在本港開設辦公室。財經事務及庫務局局長許正宇在一個電台節目表示，有關舉措重要、意義很大，雖然亞投行在阿聯酋首都阿布扎比有辦公室，但性質不同，香港將是亞投行於境外功能比較齊全的辦公室。 許正宇表示，亞投行本身在香港使用很多金融服務，例如曾經發行港幣債，亞投行與商業銀行的考慮並非完全一樣，更願意就長期策略性的基建項目，向不同地方借錢。隨著亞投行落戶香港，整個銀行和金融市場更為豐富，對於…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879578_1_M_20261128105810.jpg",
-   "at": "2026-11-28T02:37+00:00",
+   "t": "數字辦指示各部門檢查涉及個人及敏感資料系統 確保防禦措施到位",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879590-20261128.htm",
+   "d": "針對近期出現利用AI攻擊網上系統，數字辦表示高度關注。 數字辦在社交網站表示，已採取一系列加強措施，包括已指示各部門優先檢查涉及個人及敏感資料的重要系統、重申各部門與其承辦商須切實履行其網絡安全責任，確保防禦措施到位，和強化事故通報機制，務求第一時間向數字辦報告並即時作出應對。 數字辦表示，將全力提供支援，與各部門及承辦商緊密協作，全方位守護政府系統與數據安全。 編輯：汪溟曦",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879590_1_M_20261128141810.jpg",
+   "at": "2026-11-28T06:08+00:00",
    "where": [
     22.32,
     114.17,
     "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "押注英偉達發展AI，亞洲在黃仁勳復職後前景如何？",
-   "u": "https://www.bbc.com/zhongwen/articles/cq62p0n4er0wo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "黃仁勳戲劇性地重返英偉達執行長職位，引發亞洲股市劇烈波動，也暴露出區內經濟體高度依賴AI產業及英偉達所帶來的風險。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/2c76/live/9f54a560-e956-11f1-a629-63e812fa871f.jpg",
-   "at": "2026-11-27T07:40+00:00"
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "挪威廉航北歐大西洋航空申請破產",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879569-20261128.htm",
-   "d": "挪威廉航北歐大西洋航空宣佈，將為旗下主要運營子公司申請破產，並停止售票及取消所有航班。 報道說，這是繼拉脫維亞波羅的海航空之後，今年歐洲第二間啟動破產程序的航空公司，凸顯伊朗戰爭導致燃油價格飆升，對未採取燃油價格對沖措施的航空公司造成沉重打擊。 路透社報道，北歐大西洋航空發表聲明說，由於未能籌集足夠資金應付短期流動資金需求，董事會決定向挪威地方法院提交破產申請。 2022年成立的北歐大西洋航空表示，租賃公司已終止旗下全部12架飛機的租賃…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879569_1_M_20261128092549.jpg",
-   "at": "2026-11-28T01:25+00:00",
-   "where": [
-    59.91,
-    10.75,
-    "挪威"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "陳茂波率領代表團與荷蘭金融及創科界交流 推動進一步合作",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879576-20261128.htm",
-   "d": "財政司司長陳茂波與香港經貿和創科代表團繼續在荷蘭訪問，推動香港與荷蘭在金融服務和創新科技等領域的進一步合作。 陳茂波率領代表團參觀荷蘭主要醫療科技企業飛利浦位於貝斯特的研發園區，雙方其後舉行交流會，就醫療科技研發、如何與醫院和科研機構合作，把科研和創新成果更好應用於臨床等方面深入交換意見。 在交流會上，陳茂波簡介了《香港第一個五年規劃》的發展方向與目標，重點闡述香港建設國際創新科技中心的工作，特別是推動人工智能發展和建設國際醫療創新樞紐…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879576_1_M_20261128101558.jpg",
-   "at": "2026-11-28T02:15+00:00",
-   "where": [
-    52.2,
-    5.3,
-    "荷蘭"
    ]
   },
   {
@@ -195,25 +200,25 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "美軍稱在阿曼灣擊中一艘貨船令其喪失航行能力",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879560-20261128.htm",
-   "d": "美軍中央司令部表示，美軍戰機星期四在阿曼灣打擊一艘試圖突破美國海軍封鎖的散裝貨船，令船隻失去航行能力。 消息指，這艘貨船懸掛帕勞國旗，在離開伊朗阿巴斯港後，不顧警告試圖突破美軍封鎖，一架美軍戰機隨後發射精確制導炸彈，擊中船尾，令船隻推進系統癱瘓，船員未有受傷。 編輯：許敬軒",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879560_1_M_20261128054852.jpg",
-   "at": "2026-11-27T21:48+00:00",
+   "t": "挪威廉航北歐大西洋航空申請破產",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879569-20261128.htm",
+   "d": "挪威廉航北歐大西洋航空宣佈，將為旗下主要運營子公司申請破產，並停止售票及取消所有航班。 報道說，這是繼拉脫維亞波羅的海航空之後，今年歐洲第二間啟動破產程序的航空公司，凸顯伊朗戰爭導致燃油價格飆升，對未採取燃油價格對沖措施的航空公司造成沉重打擊。 路透社報道，北歐大西洋航空發表聲明說，由於未能籌集足夠資金應付短期流動資金需求，董事會決定向挪威地方法院提交破產申請。 2022年成立的北歐大西洋航空表示，租賃公司已終止旗下全部12架飛機的租賃…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879569_1_M_20261128092549.jpg",
+   "at": "2026-11-28T01:25+00:00",
    "where": [
-    32.4,
-    53.7,
-    "伊朗"
+    59.91,
+    10.75,
+    "挪威"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "黃偉綸稱宏福苑土地將作公園及社區設施 涉土地規劃料需時幾年",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879575-20261128.htm",
-   "d": "大埔宏福苑火災發生一年，署理財政司司長兼署理房屋局局長黃偉綸在一個電台節目表示，他看到社會的關愛，很多人主動向居民伸出援手，強調政府要努力做好改革，確保不再有這類事情發生，期望居民早日走出哀痛，政府會與居民同行。 他提到，當局收回宏福苑土地後，將來會做公園及社區設施，由於涉及土地規劃過程，需時幾年，未來仍要與社會商討。至於會否參考汶川地震建立紀念館的做法，設立紀念公園，黃偉綸表示，這是嚴肅議題，要顧及不同人士的感受，目前不打算揣測。 另…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879575_1_M_20261128101337.jpg",
-   "at": "2026-11-28T02:13+00:00",
+   "t": "公屋綜合輪候時間4.4年屬10年新低 黃偉綸稱對供應有信心",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879582-20261128.htm",
+   "d": "當局成立「公營房屋樓宇管制組」取代原有的「獨立審查組」（ICU）。署理財政司司長兼署理房屋局局長黃偉綸在一個電台節目表示，管制組已於本周一開始運作，共有300個人手，當中一半處理現有樓宇，其餘的跟進新興建的樓宇。他說，有別以往的審查組，新的管制組是以項目為基礎，作出宏觀並從服務的角度處理項目，同時有溝通專員作出解說。 另外，最新公屋綜合輪候時間為4.4年，是過去十年新低。黃偉綸指出，今個財政年度仍有兩個季度，因此政府未有作出「提前達標」…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879582_1_M_20261128112003.jpg",
+   "at": "2026-11-28T03:14+00:00",
    "where": [
     22.32,
     114.17,
@@ -237,24 +242,24 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "西班牙主要政黨在周日大選前舉行最後一場造勢活動",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879556-20261128.htm",
-   "d": "西班牙各主要政黨在星期日大選前舉行最後一場造勢活動，執政工人社會黨領袖、首相桑切斯表示，有信心打破民調預測結果連任，又指責保守派對手、人民黨領袖費霍計劃與極右勢力結盟。 根據西班牙選舉法，過去的星期一起已禁止發布民調結果，星期六亦是選舉冷靜期，禁止拉票。在最後公布的民調中，人民黨輕微領先工人社會黨，費霍在競選活動最後階段，先後造訪巴塞羅那與塞維利亞，向選民承諾將會開啟一個講求真相、體面與良善治理的新政治時代，指責桑切斯在貪腐、鐵路事故、…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879556_1_M_20261128052014.jpg",
-   "at": "2026-11-27T21:20+00:00",
+   "t": "美軍稱在阿曼灣擊中一艘貨船令其喪失航行能力",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879560-20261128.htm",
+   "d": "美軍中央司令部表示，美軍戰機星期四在阿曼灣打擊一艘試圖突破美國海軍封鎖的散裝貨船，令船隻失去航行能力。 消息指，這艘貨船懸掛帕勞國旗，在離開伊朗阿巴斯港後，不顧警告試圖突破美軍封鎖，一架美軍戰機隨後發射精確制導炸彈，擊中船尾，令船隻推進系統癱瘓，船員未有受傷。 編輯：許敬軒",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879560_1_M_20261128054852.jpg",
+   "at": "2026-11-27T21:48+00:00",
    "where": [
-    40.3,
-    -3.7,
-    "西班牙"
+    32.4,
+    53.7,
+    "伊朗"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "運輸署料中九龍繞道對商用車來說是個好選擇",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879571-20261128.htm",
-   "d": "中九龍繞道（九龍灣段）下月6日早上7時啟用，標誌著6號幹線全線開通。行經中九龍繞道的所有車種，全日以「易通行」劃一收費8元。 運輸署副署長梁世豪在本台節目《星期六問責》表示，6號幹線屬快速幹道，可作較遠程跨區出行，並與現行其他道路分工，他舉例，如由將軍澳前往油麻地可用新路，如由將軍澳前往觀塘或啟德就可行經現有道路網絡，期望九龍灣段開通後，可分流長途車輛，有望分流觀塘繞道一成車流至中九龍繞道。 梁世豪表示，每當新道路啟用時，駕駛人士都需時…",
-   "at": "2026-11-28T01:31+00:00",
+   "t": "勳銜頒授典禮 何偉豪獲追授金英勇勳章由兄長及未婚妻代領",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879581-20261128.htm",
+   "d": "政府在禮賓府舉行勳銜頒授典禮，行政長官李家超頒授勳銜予受勳人士。 今年有466人獲頒授勳銜及獎狀，包括3人獲頒最高榮譽的大紫荊勳章，分別是大埔宏福苑火災獨立委員會委員、行政會議成員陳健波；中大前校長、經濟學家劉遵義；以及福建社團聯會榮譽主席、中銀國際副董事長林廣兆。 另外，8人獲金紫荊星章，包括民建聯主席、立法會議員陳克勤、中大校長盧煜明、醫管局主席范鴻齡等。去年11月在大埔宏福苑五級火殉職的消防隊目何偉豪，獲政府追授金英勇勳章，由其兄…",
+   "at": "2026-11-28T02:56+00:00",
    "where": [
     22.32,
     114.17,
@@ -278,23 +283,23 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "澤連斯基不滿特朗普形容普京為朋友 又指美國延誤交付愛國者系統",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879555-20261128.htm",
-   "d": "烏克蘭總統澤連斯基不滿美國總統特朗普形容俄羅斯總統普京是朋友，又指烏克蘭非常缺乏攔截彈道導彈所需的彈藥，指美國延遲交付愛國者防空系統，導致烏克蘭人喪生。 澤連斯基接受英國廣播公司專訪時形容，特朗普發布擁抱普京的照片是奇怪的事，形容普京是侵略者和殺人兇手，絕不可能成為朋友，情況就好像在二戰期間，指自己與希特勒是朋友一樣。 特朗普星期四再被問到稱呼普京為朋友時強調，自己只是想停止殺戮和達成協議，如果一見面就說不喜歡對方，只會面對澤連斯基現在…",
-   "at": "2026-11-27T20:40+00:00",
+   "t": "西班牙主要政黨在周日大選前舉行最後一場造勢活動",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879556-20261128.htm",
+   "d": "西班牙各主要政黨在星期日大選前舉行最後一場造勢活動，執政工人社會黨領袖、首相桑切斯表示，有信心打破民調預測結果連任，又指責保守派對手、人民黨領袖費霍計劃與極右勢力結盟。 根據西班牙選舉法，過去的星期一起已禁止發布民調結果，星期六亦是選舉冷靜期，禁止拉票。在最後公布的民調中，人民黨輕微領先工人社會黨，費霍在競選活動最後階段，先後造訪巴塞羅那與塞維利亞，向選民承諾將會開啟一個講求真相、體面與良善治理的新政治時代，指責桑切斯在貪腐、鐵路事故、…",
+   "at": "2026-11-27T21:20+00:00",
    "where": [
-    49.0,
-    31.4,
-    "烏克蘭"
+    40.3,
+    -3.7,
+    "西班牙"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "許正宇稱歐盟對本港代幣化政策法規很有興趣 想向香港取經",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879570-20261128.htm",
-   "d": "早前訪問歐洲的財經事務及庫務局局長許正宇表示，歐洲期望綠色轉型，更好通過可持續金融推動本地發展，並思考將當地存款由一直以來以銀行、保險主導的金融系統，轉為更多使用資本市場，而香港在這兩方面均走得比較前，可以分享經驗，或者互惠互利。 許正宇在一個電台節目表示，歐盟方面對於綠色金融和資本市場的發展、與內地的聯通，以及本港最近的代幣化政策法規很有興趣，想向香港取經，並於當地推出相應措施推動自身發展。 至於在國家層面，他表示，會見比利時和盧森堡…",
-   "at": "2026-11-28T01:26+00:00",
+   "t": "許正宇稱亞投行落戶香港意義大 當局與亞投行商討細節涉法律修訂",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879578-20261128.htm",
+   "d": "國家財政部與亞洲基礎設施投資銀行日前簽署協定，確定亞投行在本港開設辦公室。財經事務及庫務局局長許正宇在一個電台節目表示，有關舉措重要、意義很大，雖然亞投行在阿聯酋首都阿布扎比有辦公室，但性質不同，香港將是亞投行於境外功能比較齊全的辦公室。 許正宇表示，亞投行本身在香港使用很多金融服務，例如曾經發行港幣債，亞投行與商業銀行的考慮並非完全一樣，更願意就長期策略性的基建項目，向不同地方借錢。隨著亞投行落戶香港，整個銀行和金融市場更為豐富，對於…",
+   "at": "2026-11-28T02:37+00:00",
    "where": [
     22.32,
     114.17,
@@ -318,27 +323,27 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "受風暴影響 美國仍有近50萬戶無電力供應",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879554-20261128.htm",
-   "d": "美國東岸在感恩節假期遭受風暴襲擊，截至星期五仍有近50萬戶無電力供應。 星期四的感恩節假期正值年度最繁忙的旅遊高峰，風暴帶來強風暴雨，從新罕布什爾州到北卡羅來納州，都有大量樹木倒塌和電線被吹倒。賓夕法尼亞州的停電影響最嚴重，大約12萬2000戶處於停電狀態，紐約州就有近4萬5000戶仍未恢復供電。 航班亦持續受影響，星期五約有1600班機延誤，超過500班取消。 編輯：許敬軒",
-   "at": "2026-11-27T19:37+00:00",
+   "t": "澤連斯基不滿特朗普形容普京為朋友 又指美國延誤交付愛國者系統",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879555-20261128.htm",
+   "d": "烏克蘭總統澤連斯基不滿美國總統特朗普形容俄羅斯總統普京是朋友，又指烏克蘭非常缺乏攔截彈道導彈所需的彈藥，指美國延遲交付愛國者防空系統，導致烏克蘭人喪生。 澤連斯基接受英國廣播公司專訪時形容，特朗普發布擁抱普京的照片是奇怪的事，形容普京是侵略者和殺人兇手，絕不可能成為朋友，情況就好像在二戰期間，指自己與希特勒是朋友一樣。 特朗普星期四再被問到稱呼普京為朋友時強調，自己只是想停止殺戮和達成協議，如果一見面就說不喜歡對方，只會面對澤連斯基現在…",
+   "at": "2026-11-27T20:40+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    49.0,
+    31.4,
+    "烏克蘭"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "土拓署料6號幹線全線投入服務後約兩成跨區車輛會使用新路",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879568-20261128.htm",
-   "d": "中九龍繞道（九龍灣段）下月6日早上7時啟用，標誌著6號幹線全線開通。行經中九龍繞道的所有車種，全日以「易通行」劃一收費8元。 土木工程拓展署東拓展處處長梁中立在本台節目《星期六問責》表示，6號幹線為快速道路，全長12.5公里，連接將軍澳、藍田、啟德以及西九龍，繁忙時間使用6號幹線，行車時間會由以往的65分鐘大幅減至12分鐘。他估計，隨著6號幹線全線投入服務，約兩成跨區車輛會使用新路，分流觀塘道、觀塘繞道、加士居道天橋等主要道路交通，而啟…",
-   "at": "2026-11-28T01:23+00:00",
+   "t": "陳茂波率領代表團與荷蘭金融及創科界交流 推動進一步合作",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879576-20261128.htm",
+   "d": "財政司司長陳茂波與香港經貿和創科代表團繼續在荷蘭訪問，推動香港與荷蘭在金融服務和創新科技等領域的進一步合作。 陳茂波率領代表團參觀荷蘭主要醫療科技企業飛利浦位於貝斯特的研發園區，雙方其後舉行交流會，就醫療科技研發、如何與醫院和科研機構合作，把科研和創新成果更好應用於臨床等方面深入交換意見。 在交流會上，陳茂波簡介了《香港第一個五年規劃》的發展方向與目標，重點闡述香港建設國際創新科技中心的工作，特別是推動人工智能發展和建設國際醫療創新樞紐…",
+   "at": "2026-11-28T02:15+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    52.2,
+    5.3,
+    "荷蘭"
    ]
   },
   {
@@ -358,10 +363,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "長沙灣有地盤發現二戰美製燃燒式子彈 爆炸品處理課人員到場檢走",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879551-20261128.htm",
-   "d": "長沙灣有地盤發現懷疑戰時子彈，警方爆炸品處理課人員到場處理。 警方昨日傍晚6時許接獲興華街3號一個地盤的工人報案，指發現兩枚懷疑炸彈，警員接報到場，發現兩枚二戰時期美製燃燒式子彈，分別長約15及17厘米，爆炸品處理課人員到場檢走，並將兩枚子彈安全處理，事件中無人受傷。 編輯：許敬軒",
-   "at": "2026-11-27T18:30+00:00",
+   "t": "黃偉綸稱宏福苑土地將作公園及社區設施 涉土地規劃料需時幾年",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879575-20261128.htm",
+   "d": "大埔宏福苑火災發生一年，署理財政司司長兼署理房屋局局長黃偉綸在一個電台節目表示，他看到社會的關愛，很多人主動向居民伸出援手，強調政府要努力做好改革，確保不再有這類事情發生，期望居民早日走出哀痛，政府會與居民同行。 他提到，當局收回宏福苑土地後，將來會做公園及社區設施，由於涉及土地規劃過程，需時幾年，未來仍要與社會商討。至於會否參考汶川地震建立紀念館的做法，設立紀念公園，黃偉綸表示，這是嚴肅議題，要顧及不同人士的感受，目前不打算揣測。 另…",
+   "at": "2026-11-28T02:13+00:00",
    "where": [
     22.32,
     114.17,
@@ -385,11 +390,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "'Decision on Wang Fuk site's future may take years'",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879584-20261128.htm",
-   "d": "Acting Housing Secretary Michael Wong on Saturday said the long-term future of the Wang Fuk Court site could take years to finalise. Wong, who is also the deputy financial secretary, was speaking on Commercial Radio, two…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879584_1_M_20261128113838.jpg",
-   "at": "2026-11-28T05:11+00:00",
+   "t": "Tech networking 'key in Hung Shui Kiu university race'",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879586-20261128.htm",
+   "d": "Secretary for Education Christine Choi said she hopes the university town in Hung Shui Kiu will foster collaboration across disciplines, industries and institutions. Speaking on a television programme on Saturday, she sa…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879586_1_M_20261128130848.jpg",
+   "at": "2026-11-28T07:37+00:00",
    "where": [
     22.32,
     114.17,
@@ -497,11 +502,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Race to pave way for smooth run as Route 6 fully opens",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879579-20261128.htm",
-   "d": "Transport officials are stepping up signage and driver guidance to help motorists adapt to the new road layout ahead of Route 6's full opening on December 6. The Central Kowloon Bypass will open to traffic at 7 am that d…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879579_1_M_20261128103915.jpg",
-   "at": "2026-11-28T03:20+00:00",
+   "t": "'Decision on Wang Fuk site's future may take years'",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879584-20261128.htm",
+   "d": "Acting Housing Secretary Michael Wong on Saturday said the long-term future of the Wang Fuk Court site could take years to finalise. Wong, who is also the deputy financial secretary, was speaking on Commercial Radio, two…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879584_1_M_20261128113838.jpg",
+   "at": "2026-11-28T05:11+00:00",
    "where": [
     22.32,
     114.17,
@@ -609,11 +614,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Personal data of 7,500 Octopus users leaked",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879534-20261127.htm",
-   "d": "Some 7,500 Octopus users have had their personal data leaked following a cyberattack, the company has said, though it stressed that it has not detected any financial loss by customers. In a statement, the operator of the…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879534_2_M_20261127215314.jpg",
-   "at": "2026-11-27T13:53+00:00",
+   "t": "Race to pave way for smooth run as Route 6 fully opens",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879579-20261128.htm",
+   "d": "Transport officials are stepping up signage and driver guidance to help motorists adapt to the new road layout ahead of Route 6's full opening on December 6. The Central Kowloon Bypass will open to traffic at 7 am that d…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879579_1_M_20261128103915.jpg",
+   "at": "2026-11-28T03:20+00:00",
    "where": [
     22.32,
     114.17,
@@ -721,11 +726,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "90,000 users compromised in SmartPLAY data breach",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879523-20261127.htm",
-   "d": "Around 90,000 users of the government's SmartPLAY booking system for public sports and recreational facilities were involved in a data breach, according to the Office of the Privacy Commissioner for Personal Data (PCPD).…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879523_1_M_20261127184723.jpg",
-   "at": "2026-11-27T11:05+00:00",
+   "t": "Personal data of 7,500 Octopus users leaked",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879534-20261127.htm",
+   "d": "Some 7,500 Octopus users have had their personal data leaked following a cyberattack, the company has said, though it stressed that it has not detected any financial loss by customers. In a statement, the operator of the…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879534_2_M_20261127215314.jpg",
+   "at": "2026-11-27T13:53+00:00",
    "where": [
     22.32,
     114.17,
@@ -833,11 +838,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "InnoParks veteran to lead Hung Shui Kiu Park",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879510-20261127.htm",
-   "d": "The Hung Shui Kiu Industry Park Company has appointed Yiu Hing-leung as its first chief executive for a three-year term starting December 1. His appointment followed an open recruitment process and received the approval …",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879510_1_M_20261127171729.jpg",
-   "at": "2026-11-27T09:57+00:00",
+   "t": "90,000 users compromised in SmartPLAY data breach",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879523-20261127.htm",
+   "d": "Around 90,000 users of the government's SmartPLAY booking system for public sports and recreational facilities were involved in a data breach, according to the Office of the Privacy Commissioner for Personal Data (PCPD).…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879523_1_M_20261127184723.jpg",
+   "at": "2026-11-27T11:05+00:00",
    "where": [
     22.32,
     114.17,
@@ -945,11 +950,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Abby Choi murder was carefully planned, court hears",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879501-20261127.htm",
-   "d": "The murder of celebrity Abby Choi had been carefully planned and the killing stemmed from a financial dispute over a luxury apartment, the High Court heard on Friday. In her closing submissions, senior counsel Charlotte …",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879501_1_M_20261127161956.jpg",
-   "at": "2026-11-27T08:42+00:00",
+   "t": "InnoParks veteran to lead Hung Shui Kiu Park",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879510-20261127.htm",
+   "d": "The Hung Shui Kiu Industry Park Company has appointed Yiu Hing-leung as its first chief executive for a three-year term starting December 1. His appointment followed an open recruitment process and received the approval …",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879510_1_M_20261127171729.jpg",
+   "at": "2026-11-27T09:57+00:00",
    "where": [
     22.32,
     114.17,
@@ -1052,10 +1057,10 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Top court quashes flag desecration convictions",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879506-20261127.htm",
-   "d": "The Court of Final Appeal on Friday unanimously quashed the convictions of a young man with autism for desecrating the national flag and the SAR flag, ruling that the prosecution had never proved he intended to insult th…",
-   "at": "2026-11-27T08:34+00:00",
+   "t": "Abby Choi murder was carefully planned, court hears",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879501-20261127.htm",
+   "d": "The murder of celebrity Abby Choi had been carefully planned and the killing stemmed from a financial dispute over a luxury apartment, the High Court heard on Friday. In her closing submissions, senior counsel Charlotte …",
+   "at": "2026-11-27T08:42+00:00",
    "where": [
     22.32,
     114.17,
@@ -1163,10 +1168,10 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Police, retailers warn of data breaches and scams",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879484-20261127.htm",
-   "d": "Authorities and retailers have warned that weak application programming interface (API) security and AI-driven attacks are fuelling a rise in data breaches and precision scams. The warning came at a joint press conferenc…",
-   "at": "2026-11-27T06:55+00:00",
+   "t": "Top court quashes flag desecration convictions",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879506-20261127.htm",
+   "d": "The Court of Final Appeal on Friday unanimously quashed the convictions of a young man with autism for desecrating the national flag and the SAR flag, ruling that the prosecution had never proved he intended to insult th…",
+   "at": "2026-11-27T08:34+00:00",
    "where": [
     22.32,
     114.17,
@@ -1246,10 +1251,10 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Ferry accident near Tsing Yi injures 22",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879476-20261127.htm",
-   "d": "Twenty-two people were injured, five seriously, after a passenger ferry hit dockyard facilities near the Tsing Yi oil depot on Friday. The ferry had been travelling from Sheung Wan to She Kou when the accident happened a…",
-   "at": "2026-11-27T05:03+00:00",
+   "t": "Police, retailers warn of data breaches and scams",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879484-20261127.htm",
+   "d": "Authorities and retailers have warned that weak application programming interface (API) security and AI-driven attacks are fuelling a rise in data breaches and precision scams. The warning came at a joint press conferenc…",
+   "at": "2026-11-27T06:55+00:00",
    "where": [
     22.32,
     114.17,
@@ -1273,10 +1278,10 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Central Kowloon Bypass to fully open Dec 6 at 7am",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879472-20261127.htm",
-   "d": "The Central Kowloon Bypass will be fully commissioned at 7am on December 6, authorities said on Friday. The final section to open will be the Kowloon Bay section, an approximately 3.4-kilometre dual two-lane trunk road t…",
-   "at": "2026-11-27T04:40+00:00",
+   "t": "Ferry accident near Tsing Yi injures 22",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879476-20261127.htm",
+   "d": "Twenty-two people were injured, five seriously, after a passenger ferry hit dockyard facilities near the Tsing Yi oil depot on Friday. The ferry had been travelling from Sheung Wan to She Kou when the accident happened a…",
+   "at": "2026-11-27T05:03+00:00",
    "where": [
     22.32,
     114.17,
