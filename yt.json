@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T06:01:40Z",
+ "updated": "2026-11-28T07:15:15Z",
  "channels": [
   {
    "key": "gb",
@@ -571,88 +571,88 @@
    "title": "Sky News",
    "videos": [
     {
+     "v": "9XlS3uhDHkE",
+     "t": "Princess of Wales to appear in cancer documentary | Mornings with Jones and Melbourne",
+     "at": "2026-11-27T15:58:34+00:00",
+     "short": false,
+     "views": 458
+    },
+    {
+     "v": "z0ooClh56wE",
+     "t": "Spain's far-right party poised for breakthrough in election",
+     "at": "2026-11-28T06:37:24+00:00",
+     "short": true,
+     "views": 126
+    },
+    {
+     "v": "096JYH9LR6s",
+     "t": "Were nuclear test veterans used as 'human guinea pigs'?",
+     "at": "2026-11-28T06:00:15+00:00",
+     "short": false,
+     "views": 234
+    },
+    {
      "v": "OIGrk9_J0so",
      "t": "Downing Street not ruling out 'malicious' cyber attack after DWP incident | The Wrap",
      "at": "2026-11-27T22:59:23+00:00",
      "short": false,
-     "views": 20080
+     "views": 21054
     },
     {
      "v": "Arfsd-Rm4q0",
      "t": "Hospital admissions for flu have surged by 80% in a week - what's causing the spike?",
      "at": "2026-11-27T22:45:00+00:00",
      "short": false,
-     "views": 10924
+     "views": 11971
     },
     {
      "v": "Nel15Jofl58",
      "t": "Robot collects evidence of deepest known volcanic eruption on Earth",
      "at": "2026-11-27T21:22:02+00:00",
      "short": true,
-     "views": 3876
+     "views": 4088
     },
     {
      "v": "qKqLGJXzBsM",
      "t": "Space probe survives perilous mission to Mercury: What next?",
      "at": "2026-11-27T20:54:01+00:00",
      "short": false,
-     "views": 32861
+     "views": 35515
     },
     {
      "v": "PYwuKAk7pJk",
      "t": "'Predator' jailed for blackmailing children and sharing indecent images on Com network",
      "at": "2026-11-27T20:34:47+00:00",
      "short": false,
-     "views": 15044
+     "views": 15937
     },
     {
      "v": "jp4-T4Ynrcg",
      "t": "How government 'cyber incident' affects you",
      "at": "2026-11-27T19:52:13+00:00",
      "short": true,
-     "views": 40198
+     "views": 40664
     },
     {
      "v": "5BLy1-xSens",
      "t": "UK sees growing number of prosecutions linked to 'The Com'",
      "at": "2026-11-27T18:15:58+00:00",
      "short": true,
-     "views": 13249
+     "views": 13559
     },
     {
      "v": "uGSzLNavJq0",
      "t": "Christmas calamity: market sparks AI row | The UK Tonight with Sarah-Jane Mee",
      "at": "2026-11-27T16:42:11+00:00",
      "short": true,
-     "views": 3789
+     "views": 3877
     },
     {
      "v": "WlRAJDnUNSo",
      "t": "If 2020 went Trump's way...",
      "at": "2026-11-27T16:20:03+00:00",
      "short": true,
-     "views": 4661
-    },
-    {
-     "v": "9XlS3uhDHkE",
-     "t": "Mornings with Jones and Melbourne | Saturday 28 November 2026",
-     "at": "2026-11-27T15:58:34+00:00",
-     "short": false,
-     "views": 0
-    },
-    {
-     "v": "wCCikT3lvEQ",
-     "t": "The impact of Poundland's collapse",
-     "at": "2026-11-27T15:43:57+00:00",
-     "short": true,
-     "views": 4814
-    },
-    {
-     "v": "chdbvwZCG8o",
-     "t": "'I haven't explored this outside my family walls': Kate on cancer diagnosis",
-     "at": "2026-11-27T15:27:30+00:00",
-     "short": false,
-     "views": 40108
+     "views": 4771
     }
    ],
    "page": 2,
@@ -670,21 +670,21 @@
      "t": "DeepMind’s New AI Just Changed The AI Race",
      "at": "2026-11-27T08:42:30+00:00",
      "short": false,
-     "views": 175243
+     "views": 177280
     },
     {
      "v": "hwWlEuI359w",
      "t": "Claude AI’s Biggest Math Breakthrough Has A Problem.",
      "at": "2026-11-25T09:54:23+00:00",
      "short": false,
-     "views": 170236
+     "views": 170364
     },
     {
      "v": "1jPdehG3Hms",
      "t": "Claude AI Solved The Secret Of Black Holes",
      "at": "2026-11-23T07:37:52+00:00",
      "short": false,
-     "views": 268461
+     "views": 268577
     },
     {
      "v": "Cy7Wz6Z4TWU",
@@ -698,14 +698,14 @@
      "t": "OpenAI's New Breakthrough Is... Utter Chaos",
      "at": "2026-11-17T12:46:24+00:00",
      "short": false,
-     "views": 225286
+     "views": 225335
     },
     {
      "v": "x7iwI6WfWS0",
      "t": "AI Can Do Everything…Except This",
      "at": "2026-11-14T08:40:55+00:00",
      "short": false,
-     "views": 57872
+     "views": 57921
     },
     {
      "v": "gPNiuyYirfw",
@@ -719,35 +719,35 @@
      "t": "Is Software Over?",
      "at": "2026-11-10T10:15:57+00:00",
      "short": false,
-     "views": 193631
+     "views": 193646
     },
     {
      "v": "GJ6PMUm5oTA",
      "t": "OpenAI's Astra Just Opened The Black Box Of AI",
      "at": "2026-11-07T16:24:47+00:00",
      "short": false,
-     "views": 241215
+     "views": 241225
     },
     {
      "v": "XgC1QTs6A2U",
      "t": "The Future of AI Is Absolutely Incredible (Spencer Huang)",
      "at": "2026-11-06T07:27:02+00:00",
      "short": false,
-     "views": 58381
+     "views": 58396
     },
     {
      "v": "CWdTBLsbaQs",
      "t": "OpenAI Claims It Just Did The Impossible",
      "at": "2026-10-30T15:57:16+00:00",
      "short": false,
-     "views": 500141
+     "views": 500146
     },
     {
      "v": "pryCaGv8wuo",
      "t": "DeepSeek's New AI Is An Absolute Monster",
      "at": "2026-10-28T17:32:40+00:00",
      "short": false,
-     "views": 209389
+     "views": 209406
     }
    ],
    "page": 2,
@@ -951,88 +951,88 @@
    "title": "Bloomberg Television",
    "videos": [
     {
+     "v": "jlIv9pbPy6A",
+     "t": "UK Set To Record Lowest Net Migration Since 1997",
+     "at": "2026-11-28T06:30:04+00:00",
+     "short": true,
+     "views": 220
+    },
+    {
      "v": "TF0g18Y5O1U",
      "t": "Rwanda to Host F1’s Return to Africa, Will It Pay Off?",
      "at": "2026-11-28T05:05:07+00:00",
      "short": false,
-     "views": 74
+     "views": 520
     },
     {
      "v": "gLvm5S6pVHQ",
      "t": "Why the AI Panic May Be Premature",
      "at": "2026-11-28T05:00:14+00:00",
      "short": true,
-     "views": 175
+     "views": 515
     },
     {
      "v": "uY48HGqjFVQ",
      "t": "Why Jensen Huang’s Return to Nvidia Matters for China",
      "at": "2026-11-27T23:00:14+00:00",
      "short": true,
-     "views": 990
+     "views": 1186
     },
     {
      "v": "bTuYNT-Q9Ic",
      "t": "Black Friday Shoppers Tackle Inflation",
      "at": "2026-11-27T21:33:29+00:00",
      "short": true,
-     "views": 773
+     "views": 854
     },
     {
      "v": "LM-w0KHG45w",
      "t": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang",
      "at": "2026-11-27T18:40:29+00:00",
      "short": false,
-     "views": 12763
+     "views": 13659
     },
     {
      "v": "wc435uTiRvI",
      "t": "SAP Prepares Plan to Cut at Least 10,000 Positions",
      "at": "2026-11-27T18:21:41+00:00",
      "short": false,
-     "views": 8505
+     "views": 9592
     },
     {
      "v": "ModHpa2V48E",
      "t": "Huang Is Worth Up to $10 Trillion to the Market, Ives Says",
      "at": "2026-11-27T18:19:54+00:00",
      "short": false,
-     "views": 6778
+     "views": 7324
     },
     {
      "v": "XS1vAnjn-nI",
      "t": "Underlying AI Demand 'Much Bigger' than Market Pricing In, Says Ives",
      "at": "2026-11-27T18:18:05+00:00",
      "short": false,
-     "views": 14688
+     "views": 15503
     },
     {
      "v": "6D5j2T6ev8I",
      "t": "Gold Slumps on Rate Hike Outlook, AI Stocks Selloff",
      "at": "2026-11-27T18:17:56+00:00",
      "short": false,
-     "views": 5521
+     "views": 5979
     },
     {
      "v": "v8Pd121xtgA",
      "t": "Still Mispricing in Private Markets: Weinstein",
      "at": "2026-11-27T18:17:42+00:00",
      "short": false,
-     "views": 3759
+     "views": 3939
     },
     {
      "v": "xP25h3tu4bM",
      "t": "Next 20 Days Is ‘Mission Critical’ for Retailers: Yih",
      "at": "2026-11-27T18:17:24+00:00",
      "short": false,
-     "views": 3584
-    },
-    {
-     "v": "Ymo9YwSsTWE",
-     "t": "Financials, Healthcare Will Be Big AI Winners: Yardeni",
-     "at": "2026-11-27T18:17:20+00:00",
-     "short": false,
-     "views": 37826
+     "views": 3703
     }
    ],
    "page": 2,
@@ -1145,28 +1145,28 @@
      "t": "PacSun's CEO says 2 million shoppers will walk into her stores on Black Friday | Sozzi Unleashed",
      "at": "2026-11-27T19:57:23+00:00",
      "short": false,
-     "views": 2509
+     "views": 2695
     },
     {
      "v": "lSCBqdIqr3A",
      "t": "Has the AI trade changed? This panel cannot agree | Market Hang",
      "at": "2026-11-27T18:39:00+00:00",
      "short": false,
-     "views": 2995
+     "views": 3119
     },
     {
      "v": "LkCQozi9mZs",
      "t": "Mark Zuckerberg’s Thanksgiving setup: GTA VI and Muse keeping an eye on the turkey. 😂 🦃",
      "at": "2026-11-27T18:02:13+00:00",
      "short": true,
-     "views": 16033
+     "views": 17411
     },
     {
      "v": "mlam9ihnbGw",
      "t": "Bitcoin ETFs just set a record nobody wanted.",
      "at": "2026-11-27T18:00:03+00:00",
      "short": false,
-     "views": 17341
+     "views": 18079
     },
     {
      "v": "kdK-ueQhTCA",
@@ -1180,21 +1180,21 @@
      "t": "Elon Musk says he’ll donate another SpaceX share to every kid in America, every year.",
      "at": "2026-11-27T15:07:34+00:00",
      "short": true,
-     "views": 4789
+     "views": 5053
     },
     {
      "v": "NRmW99kIYxo",
      "t": "Everyone is mourning the AI trade, and one portfolio manager says that is healthy | The 8:30",
      "at": "2026-11-27T14:37:28+00:00",
      "short": false,
-     "views": 4406
+     "views": 4512
     },
     {
      "v": "iPZqfvkiajw",
      "t": "Ja Rule says TikTok is changing streaming income for artists, including himself.",
      "at": "2026-11-26T17:30:29+00:00",
      "short": true,
-     "views": 1897
+     "views": 1927
     },
     {
      "v": "9wI9jWn4-Vw",
@@ -1208,7 +1208,7 @@
      "t": "45% of data center capacity could be at risk next year. 👀",
      "at": "2026-11-26T13:30:44+00:00",
      "short": true,
-     "views": 3937
+     "views": 3955
     },
     {
      "v": "7sfLp_0nMVA",
