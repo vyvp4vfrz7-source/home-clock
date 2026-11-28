@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-28T06:00+00:00",
+ "updated": "2026-11-28T17:45+00:00",
  "en": {
-  "greeting": "Good morning — Saturday 28 November",
+  "greeting": "Good evening — Saturday 28 November",
   "sections": [
    {
     "h": "Top stories",
     "items": [
      {
-      "t": "US forces disable ship trying to run Iran blockade",
-      "d": "CENTCOM says it disabled the Palau-flagged bulk carrier Pacific Archer in the Gulf of Oman after it left Bandar Abbas; the crew were unharmed. Iran vowed to resist the blockade, raising the risk to Gulf shipping.",
-      "u": "https://monitor-the-situation.com/middle-east/us-forces-disable-vessel-in-b2b27e9a"
+      "t": "EU summit fails to agree budget and €45bn Ukraine loan",
+      "d": "Leaders broke up without a deal on the 2028-34 budget; Czechia, Hungary and Slovakia held out on the Ukraine loan. Talks resume on 17-18 December.",
+      "u": "https://apnews.com/article/fd025046850b824b2e62def18408c6b6"
      },
      {
-      "t": "Drone strike in Kuwait kills two Italian technicians",
-      "d": "The pair were working on an air-defence system; four others were hurt. Italy and Kuwait blame Iran, which denies involvement, and UN chief Guterres condemned the attack.",
-      "u": "https://morningstaronline.co.uk/article/iran-had-no-involvement-kuwait-drone-attack-insists-countrys-fm"
+      "t": "Ukraine offers Black Sea ceasefire to protect grain exports",
+      "d": "Kyiv has submitted a Black Sea truce proposal and awaits Moscow's reply, after Russia reportedly hit two foreign grain ships near Odesa.",
+      "u": "https://www.france24.com/en/europe/20261127-ukraine-submits-black-sea-ceasefire-offer-awaits-russian-response"
      },
      {
-      "t": "EU summit ends without budget or Ukraine loan deal",
-      "d": "Leaders failed to agree the 2028-2034 budget or a proposed $49bn loan for Ukraine, though Council President Costa says 24 states back the loan. Talks resume in December.",
-      "u": "https://www.bbc.co.uk/news/articles/cw4gnm3m9deno"
+      "t": "Oil near multi-month highs as Gulf conflict threatens supply",
+      "d": "Brent traded around $96 a barrel amid reports of tanker incidents and mines near Hormuz, feeding fears of higher fuel and energy bills.",
+      "u": "https://www.reuters.com/business/energy/brent-trades-near-months-high-mideast-conflict-threatens-supply-2026-11-27/"
      }
     ]
    },
@@ -27,24 +27,19 @@
     "h": "World & politics",
     "items": [
      {
-      "t": "Russia fires 155 drones at Ukraine; Kyiv hits St Petersburg",
-      "d": "Ukraine says 110 drones were downed, but attacks over a day killed six and cut power in six regions. Ukrainian drones targeted St Petersburg, with 44 reportedly intercepted.",
-      "u": "https://monitor-the-situation.com/eastern-europe/russia-launches-155-drones-at-61d814d0"
+      "t": "Spain votes on Sunday after final campaign appeals",
+      "d": "Pedro Sánchez and his rivals made last pitches to voters ahead of Sunday's general election, with cost of living a key issue.",
+      "u": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo"
      },
      {
-      "t": "Russian convoy to Libya turns back after corvette sunk",
-      "d": "Reuters sources say a Russian naval convoy carrying military vehicles turned around after Ukrainian sea drones sank a Russian corvette at Benghazi. Italy says it was not told of the strike.",
-      "u": "https://monitor-the-situation.com/middle-east/russian-naval-convoy-turns-back-fdf16028"
+      "t": "New Zealand coalition one seat short of majority",
+      "d": "Official results give the governing coalition 65 of 130 seats, leaving it reliant on talks with smaller parties to govern.",
+      "u": "https://apnews.com/article/a19a838d8256a0762703ff0572aca3e6"
      },
      {
-      "t": "Venezuela to scrap ban on opposition holding office",
-      "d": "The move comes a month after opposition leader María Corina Machado returned home, a sign of political opening in Caracas.",
-      "u": "https://monitor-the-situation.com/south-america/venezuela-to-scrap-law-barring-2114d49f"
-     },
-     {
-      "t": "Kenyan cult leader convicted over 123 deaths",
-      "d": "A court found Paul Mackenzie guilty of manslaughter over followers who starved in the Shakahola forest; he is already serving a 200-year sentence.",
-      "u": "https://monitor-the-situation.com/africa/kenyan-cult-leader-convicted-of-199c7e7b"
+      "t": "Canada's top court upholds Quebec religious-symbols law",
+      "d": "In a 6-1 ruling the Supreme Court largely upheld Bill 21, which bars some public workers from wearing religious symbols.",
+      "u": "https://www.theguardian.com/world/2026/nov/27/canadas-top-court-upholds-quebec-law-barring-public-sector-workers-from-wearing-religious-symbols"
      }
     ]
    },
@@ -52,19 +47,24 @@
     "h": "Business & economy",
     "items": [
      {
-      "t": "Iran says two tankers exploded near Strait of Hormuz",
-      "d": "The Revolutionary Guards say the tankers blew up near Khasab, Oman, while using a US-backed shipping corridor. The claim is unverified but adds to oil-supply worries.",
-      "u": "https://monitor-the-situation.com/middle-east/irgc-reports-two-oil-tankers-78b7dc77"
+      "t": "Wall Street rebounds, Nasdaq up over 2%",
+      "d": "US stocks bounced sharply in a volatile week for AI shares, while the 10-year Treasury yield climbed towards 4.94%.",
+      "u": "https://www.riotimesonline.com/global-economy-briefing-november-28-2026/"
      },
      {
-      "t": "US pushed Venezuela and Iraq to consider quitting OPEC",
-      "d": "Reuters, citing ten sources, reports the Trump administration encouraged both to leave OPEC this year and blocked Venezuela from paying its dues, a challenge to the cartel's grip on prices.",
-      "u": "https://monitor-the-situation.com/global/us-pressured-venezuela-iraq-to-50e4d7fa"
+      "t": "Norse Atlantic files for bankruptcy over fuel costs",
+      "d": "The Norwegian low-cost transatlantic airline blamed soaring jet fuel prices, a sign of how the energy shock is hitting travel.",
+      "u": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728"
      },
      {
-      "t": "Argentina passes Milei's central bank overhaul",
-      "d": "The new charter bars the central bank from lending to any level of government or financing the Treasury, a key plank of Milei's fight against inflation.",
-      "u": "https://monitor-the-situation.com/south-america/argentina-congress-approves-mileis-central-e6faa249"
+      "t": "Study questions Amazon's Black Friday 'deals'",
+      "d": "An analysis found about two-thirds of sale items cost the same or less in earlier months; Amazon disputes the findings.",
+      "u": "https://www.theguardian.com/global/2026/nov/27/amazon-sale-deals-deceive-customers-black-friday-cyber-monday"
+     },
+     {
+      "t": "SAP weighs over 10,000 job cuts in AI overhaul",
+      "d": "Europe's biggest software firm is reportedly considering deep cuts as it restructures around AI.",
+      "u": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html"
      }
     ]
    },
@@ -72,34 +72,29 @@
     "h": "Technology",
     "items": [
      {
-      "t": "US chip curbs slow China's AI labs",
-      "d": "Reuters reports Z.AI has fallen behind on its next flagship model and Moonshot AI expects longer gaps between releases. Nvidia reportedly paused server shipments to several Southeast Asian countries.",
-      "u": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/"
+      "t": "OpenAI countersues Apple over trade secrets and suppliers",
+      "d": "OpenAI says Apple pressured shared suppliers to shun its devices and misused hardware designs, escalating a fight Apple began in July.",
+      "u": "https://www.engadget.com/2329747/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets/"
      },
      {
-      "t": "Huawei teases AI memory chip to rival Samsung, SK Hynix",
-      "d": "Huawei previewed next-generation high-bandwidth memory for AI, aiming to compete with Samsung and SK Hynix as China seeks to cut reliance on foreign chips.",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-26/huawei-teases-next-gen-ai-memory-chip-to-take-on-samsung-hynix"
+      "t": "SAP confirms cyberattack; source code reportedly hit",
+      "d": "Hackers reportedly used stolen staff tokens to copy and alter code on GitHub. SAP says no customer data was accessed and has replaced signing keys.",
+      "u": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised"
      },
      {
-      "t": "Microsoft: state hackers use AI agent framework",
-      "d": "Microsoft says state-backed hackers use a framework called ARTEX that hands attack steps to specialised AI agents, and urges defenders to use deception tactics to catch automated attacks.",
-      "u": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
+      "t": "Hackers breach US Air Force 'Cloud One' platform",
+      "d": "Intruders penetrated the Air Force's flagship cloud computing system, raising questions over military cloud security.",
+      "u": "https://www.reuters.com/world/hackers-breach-us-air-force-flagship-cloud-one-computing-platform-2026-11-27/"
      },
      {
-      "t": "Switzerland reports five cyberattacks using AI agents",
-      "d": "The federal cybersecurity office says the attacks hit businesses and critical-infrastructure operators, an early sign of AI agents being used in real attacks.",
-      "u": "https://www.reuters.com/legal/litigation/ai-agents-used-five-cyber-attacks-switzerland-government-says-2026-11-26/"
+      "t": "Nvidia pauses server shipments to Southeast Asia",
+      "d": "Partners were told to halt shipments to Malaysia, Singapore, Thailand and Indonesia with no restart date, amid US checks on chips reaching China.",
+      "u": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
      },
      {
-      "t": "Hackers breach US Air Force cloud platform",
-      "d": "Reuters sources say hackers got into the Air Force's Cloud One platform; app migration was paused and some users lost admin rights.",
-      "u": "https://monitor-the-situation.com/north-america/hackers-breach-us-air-force-3a9fe691"
-     },
-     {
-      "t": "Canada boosts AI compute fund to C$1bn",
-      "d": "Ottawa added C$700m and will cover up to 80% of compute costs for firms that buy from qualifying Canadian sovereign cloud providers.",
-      "u": "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion"
+      "t": "Belgium orders Google to halt data centre build",
+      "d": "Authorities said Google made changes not covered by its permit, a rare block on AI-era data centre expansion in Europe.",
+      "u": "https://www.theguardian.com/world/2026/nov/27/belgian-authorities-order-google-to-halt-datacentre-construction-over-lack-of-permits"
      }
     ]
    },
@@ -107,14 +102,19 @@
     "h": "Science & health",
     "items": [
      {
-      "t": "Measles deaths hit record low, WHO warns of gaps",
-      "d": "An estimated 72,000 people died of measles in 2025, down 91% since 2000. But over 29 million children missed vaccines and 59 countries had big outbreaks.",
-      "u": "https://www.who.int/news/item/27-11-2026-historic-low-in-measles-deaths--but-immunization-gaps-threaten-progress"
+      "t": "New kidney-cancer drug shows promise in first human trial",
+      "d": "In a Dana-Farber trial of the HIF-2 inhibitor imdatifan, 22% of patients with advanced kidney cancer saw their tumours shrink.",
+      "u": "https://www.brightsurf.com/news/86ZM3OR8/first-in-human-clinical-trial-of-next-generation-hif-2-inhibitor-demonstrates-feasibility-safety-and-antitumor-activity-in-advanced-kidney-cancer.html"
      },
      {
-      "t": "UN warns hunger will worsen in 16 hotspots",
-      "d": "FAO and WFP say acute hunger will deepen over six months, with famine threatening parts of Africa; El Niño drives three of four new hotspots.",
-      "u": "https://www.fao.org/newsroom/detail/new-fao-wfp-report-warns-of-shrinking-window-to-prevent-millions-more-people-facing-acute-food-insecurity-in-16-hotspots/en"
+      "t": "Africa's coastal cities are sinking, raising flood risk",
+      "d": "Land subsidence could put over 7 million people and a million buildings at flood risk by 2050, a Science Advances study finds.",
+      "u": "https://www.brightsurf.com/news/1WRDJ79L/africas-coastal-cities-are-sinking.html"
+     },
+     {
+      "t": "NIH studies link glyphosate weedkiller to cancer",
+      "d": "Three studies by US government scientists contradict a recent EPA conclusion that the widely used herbicide is safe.",
+      "u": "https://www.theguardian.com/us-news/2026/nov/27/glyphosate-cancer-studies-trump-epa"
      }
     ]
    },
@@ -122,44 +122,44 @@
     "h": "UK",
     "items": [
      {
-      "t": "Reform UK wins council by-elections after racism row",
-      "d": "Reform UK took the council seats in by-elections triggered by a racism row, another sign of its strength in local politics.",
-      "u": "https://www.itv.com/news/central/2026-11-27/reform-uk-wins-council-by-elections-triggered-by-racism-row"
+      "t": "Energy bills expected to jump 26% in January",
+      "d": "A gas price surge linked to the Iran war is set to push up the price cap sharply, squeezing households this winter.",
+      "u": "https://www.bbc.co.uk/news/videos/cwjd7y4jk581o"
      },
      {
-      "t": "No sign DWP hack spread to other departments",
-      "d": "The government says there is no evidence a 'malicious actor' behind an incident at the Department for Work and Pensions targeted other departments.",
-      "u": "https://www.itv.com/news/2026-11-27/no-evidence-malicious-actor-targeted-other-departments-after-dwp-incident"
+      "t": "Dozens of court cases hit by undisclosed AI use",
+      "d": "At least 25 cases in England and Wales this year involved AI-generated material that wasn't declared, including fake citations.",
+      "u": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026"
      },
      {
-      "t": "Badenoch: Tory candidates must back leaving ECHR",
-      "d": "Kemi Badenoch says Conservative candidates must support quitting the European Convention on Human Rights and scrapping the net zero target.",
-      "u": "https://www.itv.com/news/2026-11-27/tory-candidates-must-support-leaving-echr-and-axing-net-zero-target-badenoch"
+      "t": "Man United extend Bruno Fernandes to 2028",
+      "d": "United activated an option keeping their captain at Old Trafford until summer 2028.",
+      "u": "https://www.theguardian.com/football/2026/nov/27/manchester-united-bruno-fernandes-contract-2028-activate-option-mauricio-pochettino"
      }
     ]
    }
   ]
  },
  "zh": {
-  "greeting": "早晨 — 11月28日星期六",
+  "greeting": "晚安 — 11月28日星期六",
   "sections": [
    {
     "h": "頭條新聞",
     "items": [
      {
-      "t": "美軍癱瘓企圖突破伊朗封鎖的貨船",
-      "d": "美軍中央司令部表示，在阿曼灣癱瘓一艘從阿巴斯港出發的帕勞籍散貨船「Pacific Archer」，船員無恙。伊朗誓言抵抗封鎖，海灣航運風險加劇。",
-      "u": "https://monitor-the-situation.com/middle-east/us-forces-disable-vessel-in-b2b27e9a"
+      "t": "歐盟峰會未能就預算及450億歐元烏克蘭貸款達成協議",
+      "d": "歐盟領袖未能就2028至34年度預算達成共識，捷克、匈牙利及斯洛伐克反對烏克蘭貸款。會談將於12月17至18日再開。",
+      "u": "https://apnews.com/article/fd025046850b824b2e62def18408c6b6"
      },
      {
-      "t": "科威特遭無人機襲擊　兩名意大利技術人員死亡",
-      "d": "兩人當時正為防空系統工作，另有四人受傷。意大利及科威特指責伊朗，伊朗否認涉事，聯合國秘書長古特雷斯譴責襲擊。",
-      "u": "https://morningstaronline.co.uk/article/iran-had-no-involvement-kuwait-drone-attack-insists-countrys-fm"
+      "t": "烏克蘭提議黑海停火以保障糧食出口",
+      "d": "基輔提交黑海停火方案，正等待莫斯科回覆；此前據報俄羅斯在敖德薩附近襲擊兩艘外國運糧船。",
+      "u": "https://www.france24.com/en/europe/20261127-ukraine-submits-black-sea-ceasefire-offer-awaits-russian-response"
      },
      {
-      "t": "歐盟峰會未能就預算及烏克蘭貸款達成協議",
-      "d": "歐盟領袖未能通過2028至2034年預算，亦未批出約490億美元烏克蘭貸款，但歐洲理事會主席科斯塔指有24國支持貸款。談判將於12月再續。",
-      "u": "https://www.bbc.co.uk/news/articles/cw4gnm3m9deno"
+      "t": "中東衝突威脅供應　油價徘徊數月高位",
+      "d": "有報道指荷姆茲海峽一帶發生油輪事故及發現水雷，布蘭特期油徘徊每桶約96美元，令人憂慮燃料及能源開支進一步上升。",
+      "u": "https://www.reuters.com/business/energy/brent-trades-near-months-high-mideast-conflict-threatens-supply-2026-11-27/"
      }
     ]
    },
@@ -167,24 +167,19 @@
     "h": "國際及政治",
     "items": [
      {
-      "t": "俄羅斯向烏克蘭發射155架無人機　烏方空襲聖彼得堡",
-      "d": "烏克蘭稱擊落其中110架，但一日內的襲擊造成六死，六個州停電。烏克蘭無人機亦攻擊聖彼得堡，據報44架被攔截。",
-      "u": "https://monitor-the-situation.com/eastern-europe/russia-launches-155-drones-at-61d814d0"
+      "t": "西班牙周日大選　各黨作最後拉票",
+      "d": "首相桑切斯與對手在周日大選前作最後呼籲，生活成本是主要議題。",
+      "u": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo"
      },
      {
-      "t": "俄艦隊駛往利比亞途中折返",
-      "d": "路透社引述消息指，運載軍車的俄羅斯艦隊在烏克蘭海上無人機於班加西擊沉一艘俄國護衛艦後折返。意大利表示事前未獲通知。",
-      "u": "https://monitor-the-situation.com/middle-east/russian-naval-convoy-turns-back-fdf16028"
+      "t": "新西蘭執政聯盟差一席過半",
+      "d": "正式結果顯示執政聯盟取得130席中的65席，需與小黨商討才能執政。",
+      "u": "https://apnews.com/article/a19a838d8256a0762703ff0572aca3e6"
      },
      {
-      "t": "委內瑞拉將廢除禁止反對派任公職的法例",
-      "d": "此舉在反對派領袖馬查多回國一個月後宣布，顯示當局政治上有所鬆動。",
-      "u": "https://monitor-the-situation.com/south-america/venezuela-to-scrap-law-barring-2114d49f"
-     },
-     {
-      "t": "肯尼亞邪教頭目就123名信徒死亡被裁定誤殺罪成",
-      "d": "法院裁定麥肯齊誤殺罪成，事涉信徒在沙卡霍拉森林絕食死亡。他早前已被判囚200年。",
-      "u": "https://monitor-the-situation.com/africa/kenyan-cult-leader-convicted-of-199c7e7b"
+      "t": "加拿大最高法院維持魁北克宗教標誌禁令",
+      "d": "最高法院以6比1裁決，大致維持禁止部分公職人員佩戴宗教標誌的「第21號法案」。",
+      "u": "https://www.theguardian.com/world/2026/nov/27/canadas-top-court-upholds-quebec-law-barring-public-sector-workers-from-wearing-religious-symbols"
      }
     ]
    },
@@ -192,19 +187,24 @@
     "h": "商業及經濟",
     "items": [
      {
-      "t": "伊朗稱兩艘油輪在霍爾木茲海峽附近爆炸",
-      "d": "伊斯蘭革命衛隊稱，兩艘油輪在使用美國支持的航道時於阿曼海薩卜附近爆炸。說法未經證實，但加深市場對石油供應的憂慮。",
-      "u": "https://monitor-the-situation.com/middle-east/irgc-reports-two-oil-tankers-78b7dc77"
+      "t": "華爾街反彈　納指升逾2%",
+      "d": "美股在AI股波動的一周大幅反彈，十年期美債孳息則升至約4.94%。",
+      "u": "https://www.riotimesonline.com/global-economy-briefing-november-28-2026/"
      },
      {
-      "t": "美國曾游說委內瑞拉及伊拉克考慮退出油組",
-      "d": "路透社引述十名消息人士報道，特朗普政府今年曾鼓勵兩國退出油組，並阻止委內瑞拉繳交會費，挑戰油組對油價的影響力。",
-      "u": "https://monitor-the-situation.com/global/us-pressured-venezuela-iraq-to-50e4d7fa"
+      "t": "挪威廉航Norse Atlantic因燃油成本申請破產",
+      "d": "這家挪威跨大西洋廉價航空公司歸咎航空燃油價格飆升，反映能源衝擊正打擊旅遊業。",
+      "u": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728"
      },
      {
-      "t": "阿根廷國會通過米萊央行改革",
-      "d": "新章程禁止央行向任何級別政府借貸或為財政部融資，是米萊對抗通脹的重要措施。",
-      "u": "https://monitor-the-situation.com/south-america/argentina-congress-approves-mileis-central-e6faa249"
+      "t": "研究質疑Amazon黑色星期五「優惠」",
+      "d": "有分析發現約三分之二減價貨品早前售價相同甚至更低，Amazon對結果提出異議。",
+      "u": "https://www.theguardian.com/global/2026/nov/27/amazon-sale-deals-deceive-customers-black-friday-cyber-monday"
+     },
+     {
+      "t": "SAP考慮裁員逾萬人推動AI重組",
+      "d": "據報歐洲最大軟件公司正考慮大規模裁員，以配合AI重組。",
+      "u": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html"
      }
     ]
    },
@@ -212,34 +212,29 @@
     "h": "科技",
     "items": [
      {
-      "t": "美國晶片管制拖慢中國AI研發",
-      "d": "路透社報道，Z.AI下一代旗艦模型進度落後，Moonshot AI預計新版本相隔時間會拉長。據報Nvidia暫停向多個東南亞國家付運伺服器。",
-      "u": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/"
+      "t": "OpenAI反告Apple盜取商業秘密及施壓供應商",
+      "d": "OpenAI指Apple向共同供應商施壓、不與其合作，並盜用硬件設計，令Apple七月提出的訴訟進一步升級。",
+      "u": "https://www.engadget.com/2329747/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets/"
      },
      {
-      "t": "華為預告新一代AI記憶體晶片",
-      "d": "華為預告新一代AI高頻寬記憶體，目標與Samsung及SK Hynix競爭，反映中國力求減少依賴外國晶片。",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-26/huawei-teases-next-gen-ai-memory-chip-to-take-on-samsung-hynix"
+      "t": "SAP證實遭網絡攻擊　據報源代碼受影響",
+      "d": "據報黑客以盜取的員工憑證複製及修改GitHub上的代碼。SAP指沒有客戶資料外洩，並已更換簽署密鑰。",
+      "u": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised"
      },
      {
-      "t": "Microsoft：國家級黑客利用AI代理框架發動攻擊",
-      "d": "Microsoft指國家支持的黑客使用名為ARTEX的框架，把攻擊步驟交由不同AI代理執行，並建議以誘騙技術偵測自動化攻擊。",
-      "u": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
+      "t": "黑客入侵美國空軍「Cloud One」雲端平台",
+      "d": "黑客攻入美國空軍旗艦雲端運算系統，引發對軍方雲端保安的質疑。",
+      "u": "https://www.reuters.com/world/hackers-breach-us-air-force-flagship-cloud-one-computing-platform-2026-11-27/"
      },
      {
-      "t": "瑞士錄得五宗利用AI代理的網絡攻擊",
-      "d": "瑞士聯邦網絡安全辦公室表示，攻擊對象包括企業及關鍵基建營運者，顯示AI代理已被用於實際攻擊。",
-      "u": "https://www.reuters.com/legal/litigation/ai-agents-used-five-cyber-attacks-switzerland-government-says-2026-11-26/"
+      "t": "Nvidia暫停向東南亞付運伺服器",
+      "d": "Nvidia通知夥伴暫停向馬來西亞、新加坡、泰國及印尼付運，未定恢復日期，美國正加強追查晶片流入中國。",
+      "u": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
      },
      {
-      "t": "黑客入侵美國空軍雲端平台",
-      "d": "路透社消息指黑客入侵美國空軍Cloud One平台，應用程式遷移工作暫停，部分用戶失去管理員權限。",
-      "u": "https://monitor-the-situation.com/north-america/hackers-breach-us-air-force-3a9fe691"
-     },
-     {
-      "t": "加拿大AI運算基金增至10億加元",
-      "d": "加拿大政府注資7億加元，企業若向合資格的本地主權雲端供應商購買運算服務，可獲資助最多八成費用。",
-      "u": "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion"
+      "t": "比利時下令Google停建數據中心",
+      "d": "當局指Google作出許可證未涵蓋的改動，屬歐洲罕見阻止AI時代數據中心擴建的個案。",
+      "u": "https://www.theguardian.com/world/2026/nov/27/belgian-authorities-order-google-to-halt-datacentre-construction-over-lack-of-permits"
      }
     ]
    },
@@ -247,14 +242,19 @@
     "h": "科學及健康",
     "items": [
      {
-      "t": "世衞：麻疹死亡人數創新低但接種缺口仍大",
-      "d": "2025年估計有72,000人死於麻疹，較2000年減少91%。但逾2,900萬名兒童未有接種疫苗，59個國家爆發嚴重疫情。",
-      "u": "https://www.who.int/news/item/27-11-2026-historic-low-in-measles-deaths--but-immunization-gaps-threaten-progress"
+      "t": "新腎癌藥首次人體試驗見成效",
+      "d": "美國Dana-Farber癌症研究所測試HIF-2抑制劑imdatifan，22%晚期腎癌病人腫瘤縮小。",
+      "u": "https://www.brightsurf.com/news/86ZM3OR8/first-in-human-clinical-trial-of-next-generation-hif-2-inhibitor-demonstrates-feasibility-safety-and-antitumor-activity-in-advanced-kidney-cancer.html"
      },
      {
-      "t": "聯合國警告16個熱點地區飢荒惡化",
-      "d": "糧農組織及世界糧食計劃署指，未來六個月嚴重飢餓情況將惡化，非洲部分地區面臨飢荒威脅，四個新熱點中有三個受厄爾尼諾影響。",
-      "u": "https://www.fao.org/newsroom/detail/new-fao-wfp-report-warns-of-shrinking-window-to-prevent-millions-more-people-facing-acute-food-insecurity-in-16-hotspots/en"
+      "t": "非洲沿岸城市下沉　水浸風險增",
+      "d": "《Science Advances》研究指，地面下沉或令2050年前逾700萬人及100萬座建築物面臨水浸風險。",
+      "u": "https://www.brightsurf.com/news/1WRDJ79L/africas-coastal-cities-are-sinking.html"
+     },
+     {
+      "t": "美國國家衛生研究院研究指草甘膦與癌症有關",
+      "d": "三項美國政府科學家的研究，與環保局最近指這種常用除草劑安全的結論相矛盾。",
+      "u": "https://www.theguardian.com/us-news/2026/nov/27/glyphosate-cancer-studies-trump-epa"
      }
     ]
    },
@@ -262,19 +262,19 @@
     "h": "英國",
     "items": [
      {
-      "t": "英國改革黨贏得種族言論風波引發的議會補選",
-      "d": "改革黨在因種族言論風波而舉行的地方議會補選中勝出，再次顯示其在地方政壇的實力。",
-      "u": "https://www.itv.com/news/central/2026-11-27/reform-uk-wins-council-by-elections-triggered-by-racism-row"
+      "t": "能源賬單料一月急升26%",
+      "d": "與伊朗戰爭有關的天然氣價格急升，料令能源價格上限大幅上調，今個冬天家庭負擔加重。",
+      "u": "https://www.bbc.co.uk/news/videos/cwjd7y4jk581o"
      },
      {
-      "t": "當局：無證據DWP事故波及其他部門",
-      "d": "政府表示，沒有證據顯示工作及退休保障部事故背後的「惡意人士」曾針對其他部門。",
-      "u": "https://www.itv.com/news/2026-11-27/no-evidence-malicious-actor-targeted-other-departments-after-dwp-incident"
+      "t": "數十宗法庭案件涉未披露使用AI",
+      "d": "今年英格蘭及威爾斯最少25宗案件涉及未申報的AI生成內容，包括虛構的案例引述。",
+      "u": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026"
      },
      {
-      "t": "貝丁諾：保守黨候選人須支持退出歐洲人權公約",
-      "d": "保守黨領袖貝丁諾表示，黨內候選人必須支持退出《歐洲人權公約》及廢除淨零排放目標。",
-      "u": "https://www.itv.com/news/2026-11-27/tory-candidates-must-support-leaving-echr-and-axing-net-zero-target-badenoch"
+      "t": "曼聯為「B費」續約至2028年",
+      "d": "曼聯啟動續約條款，留住隊長B費至2028年夏天。",
+      "u": "https://www.theguardian.com/football/2026/nov/27/manchester-united-bruno-fernandes-contract-2028-activate-option-mauricio-pochettino"
      }
     ]
    }
@@ -282,32 +282,88 @@
  },
  "sources": [
   {
-   "title": "Monitor the Situation daily brief",
-   "url": "https://monitor-the-situation.com/brief/2026-11-27"
+   "title": "EU summit fails to agree budget and €45bn Ukraine loan",
+   "url": "https://apnews.com/article/fd025046850b824b2e62def18408c6b6"
   },
   {
-   "title": "Reuters",
-   "url": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/"
+   "title": "Ukraine offers Black Sea ceasefire to protect grain exports",
+   "url": "https://www.france24.com/en/europe/20261127-ukraine-submits-black-sea-ceasefire-offer-awaits-russian-response"
   },
   {
-   "title": "BBC News",
-   "url": "https://www.bbc.co.uk/news/articles/cw4gnm3m9deno"
+   "title": "Oil near multi-month highs as Gulf conflict threatens supply",
+   "url": "https://www.reuters.com/business/energy/brent-trades-near-months-high-mideast-conflict-threatens-supply-2026-11-27/"
   },
   {
-   "title": "ITV News",
-   "url": "https://www.itv.com/news"
+   "title": "Spain votes on Sunday after final campaign appeals",
+   "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo"
   },
   {
-   "title": "WHO",
-   "url": "https://www.who.int/news/item/27-11-2026-historic-low-in-measles-deaths--but-immunization-gaps-threaten-progress"
+   "title": "New Zealand coalition one seat short of majority",
+   "url": "https://apnews.com/article/a19a838d8256a0762703ff0572aca3e6"
   },
   {
-   "title": "The Neuron AI digest",
-   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-27-2026/"
+   "title": "Canada's top court upholds Quebec religious-symbols law",
+   "url": "https://www.theguardian.com/world/2026/nov/27/canadas-top-court-upholds-quebec-law-barring-public-sector-workers-from-wearing-religious-symbols"
   },
   {
-   "title": "Morning Star",
-   "url": "https://morningstaronline.co.uk/article/world-brief-68"
+   "title": "Wall Street rebounds, Nasdaq up over 2%",
+   "url": "https://www.riotimesonline.com/global-economy-briefing-november-28-2026/"
+  },
+  {
+   "title": "Norse Atlantic files for bankruptcy over fuel costs",
+   "url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728"
+  },
+  {
+   "title": "Study questions Amazon's Black Friday 'deals'",
+   "url": "https://www.theguardian.com/global/2026/nov/27/amazon-sale-deals-deceive-customers-black-friday-cyber-monday"
+  },
+  {
+   "title": "SAP weighs over 10,000 job cuts in AI overhaul",
+   "url": "https://www.cnbc.com/2026/11/27/sap-job-cuts-ai-restructuring.html"
+  },
+  {
+   "title": "OpenAI countersues Apple over trade secrets and suppliers",
+   "url": "https://www.engadget.com/2329747/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets/"
+  },
+  {
+   "title": "SAP confirms cyberattack; source code reportedly hit",
+   "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised"
+  },
+  {
+   "title": "Hackers breach US Air Force 'Cloud One' platform",
+   "url": "https://www.reuters.com/world/hackers-breach-us-air-force-flagship-cloud-one-computing-platform-2026-11-27/"
+  },
+  {
+   "title": "Nvidia pauses server shipments to Southeast Asia",
+   "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/"
+  },
+  {
+   "title": "Belgium orders Google to halt data centre build",
+   "url": "https://www.theguardian.com/world/2026/nov/27/belgian-authorities-order-google-to-halt-datacentre-construction-over-lack-of-permits"
+  },
+  {
+   "title": "New kidney-cancer drug shows promise in first human trial",
+   "url": "https://www.brightsurf.com/news/86ZM3OR8/first-in-human-clinical-trial-of-next-generation-hif-2-inhibitor-demonstrates-feasibility-safety-and-antitumor-activity-in-advanced-kidney-cancer.html"
+  },
+  {
+   "title": "Africa's coastal cities are sinking, raising flood risk",
+   "url": "https://www.brightsurf.com/news/1WRDJ79L/africas-coastal-cities-are-sinking.html"
+  },
+  {
+   "title": "NIH studies link glyphosate weedkiller to cancer",
+   "url": "https://www.theguardian.com/us-news/2026/nov/27/glyphosate-cancer-studies-trump-epa"
+  },
+  {
+   "title": "Energy bills expected to jump 26% in January",
+   "url": "https://www.bbc.co.uk/news/videos/cwjd7y4jk581o"
+  },
+  {
+   "title": "Dozens of court cases hit by undisclosed AI use",
+   "url": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026"
+  },
+  {
+   "title": "Man United extend Bruno Fernandes to 2028",
+   "url": "https://www.theguardian.com/football/2026/nov/27/manchester-united-bruno-fernandes-contract-2028-activate-option-mauricio-pochettino"
   }
  ]
 }
