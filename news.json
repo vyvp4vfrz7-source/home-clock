@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-28T09:16+00:00",
+ "updated": "2026-11-28T10:16+00:00",
  "items": [
   {
    "src": "香港",
    "lang": "zh",
    "t": "建造業議會程式被未經授權存取 或涉50萬工人姓名及電話等資料",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1879600-20261128.htm",
-   "d": "建造業議會表示，昨日偵測到到「建造業議會應用程式（CIC APP）」伺服器出現可疑活動，並發現有未經授權人士存取個人資料。經初步調查，事件可能涉及約50萬註冊工人資料，包括姓名、出生日期、性別、電話號碼及身份證明文件號碼。事件並不涉及任何財務資料。 建造業議會表示，已啟動應變措施，以控制資訊保安事件的影響，包括即時暫停該應用程式運作、委聘獨立第三方網絡安全鑑證專家協助調查。議會對受影響人士造成的不便深表歉意，並再次呼籲用戶提高警覺。 議…",
+   "d": "建造業議會表示，昨日偵測到「建造業議會應用程式（CIC APP）」伺服器出現可疑活動，並發現有未經授權人士存取個人資料。經初步調查，事件可能涉及約50萬註冊工人資料，包括姓名、出生日期、性別、電話號碼及身份證明文件號碼。事件並不涉及任何財務資料。 建造業議會表示，已啟動應變措施，以控制資訊保安事件的影響，包括即時暫停該應用程式運作、委聘獨立第三方網絡安全鑑證專家協助調查。議會對受影響人士造成的不便深表歉意，並再次呼籲用戶提高警覺。 議會…",
    "img": "https://newsstatic.rthk.hk/images/mfile_1879600_1_M_20261128165240.jpg",
    "at": "2026-11-28T08:48+00:00",
    "where": [
@@ -64,7 +64,7 @@
    "u": "https://www.bbc.com/zhongwen/articles/cwkgry00vk48o/trad?at_medium=RSS&at_campaign=rss",
    "d": "BBC中文在台灣「九合一」選舉投票結束後進行視像直播，除了專家分析選舉結果，亦會在投票站和競選總部進行現場報道。",
    "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/fd03/live/048c4290-eb09-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-28T08:52+00:00",
+   "at": "2026-11-28T09:20+00:00",
    "where": [
     23.7,
     121.0,
@@ -390,15 +390,15 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "200 flee building scaffolding fire in Tuen Mun",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879595-20261128.htm",
-   "d": "A scaffolding net caught fire on the exterior wall of an industrial building in Tuen Mun on Saturday afternoon, forcing about 200 people to evacuate. The Fire Services Department said the blaze started at around 2pm at t…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879595_1_M_20261128152951.jpg",
-   "at": "2026-11-28T08:49+00:00",
+   "t": "Europe keen to learn from HK digital finance policies",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879587-20261128.htm",
+   "d": "The European Union is keen to learn from Hong Kong's policies and regulations on tokenisation, Secretary for Financial Services and the Treasury Christopher Hui said following his four-day trip to Germany, Belgium and Lu…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879587_1_M_20261128134017.jpg",
+   "at": "2026-11-28T09:10+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    50.0,
+    10.0,
+    "歐洲"
    ]
   },
   {
@@ -488,7 +488,7 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "The Nigerian actor who became a legend across Africa and beyond",
+   "t": "Nigeria's acting legend who was loved across Africa and beyond",
    "u": "https://www.bbc.co.uk/news/articles/cm3vg3lkrk03o?at_medium=RSS&at_campaign=rss",
    "d": "Before becoming a household name in the Nigerian film industry, Edochie built a career in broadcasting.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c91e/live/0a998920-ea7a-11f1-a094-5fdc692f3e33.jpg",
@@ -502,11 +502,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Gold Medal for Bravery for fallen firefighter",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879596-20261128.htm",
-   "d": "Senior fireman Ho Wai-ho, who died in the Wang Fuk Court blaze last November, was awarded the Gold Medal for Bravery as Chief Executive John Lee presented this year's honours at Government House on Saturday. Ho's brother…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879596_1_M_20261128153713.jpg",
-   "at": "2026-11-28T08:18+00:00",
+   "t": "200 flee building scaffolding fire in Tuen Mun",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879595-20261128.htm",
+   "d": "A scaffolding net caught fire on the exterior wall of an industrial building in Tuen Mun on Saturday afternoon, forcing about 200 people to evacuate. The Fire Services Department said the blaze started at around 2pm at t…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879595_1_M_20261128152951.jpg",
+   "at": "2026-11-28T08:49+00:00",
    "where": [
     22.32,
     114.17,
@@ -516,11 +516,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "'I wouldn't be here today without you': Student's praise for man who stopped train attacker",
-   "u": "https://www.bbc.co.uk/news/articles/ck792lq4xrero?at_medium=RSS&at_campaign=rss",
-   "d": "Astrid credits Stephen Crean with saving her life during the Huntingdon train attack last year.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b745/live/55191660-ea65-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-27T07:53+00:00",
+   "t": "Catherine's emotional cancer documentary strips away the stiff upper lip",
+   "u": "https://www.bbc.co.uk/news/articles/c6zxvy9j0wpjo?at_medium=RSS&at_campaign=rss",
+   "d": "The Princess of Wales has made a documentary, Heal, describing her cancer experience in her own words.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/daa6/live/05399b00-ea84-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-27T22:03+00:00",
    "where": [
     52.5,
     -1.5,
@@ -614,11 +614,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Tech networking 'key in Hung Shui Kiu university race'",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879586-20261128.htm",
-   "d": "Secretary for Education Christine Choi said she hopes the university town in Hung Shui Kiu will foster collaboration across disciplines, industries and institutions. Speaking on a television programme on Saturday, she sa…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879586_1_M_20261128130848.jpg",
-   "at": "2026-11-28T07:37+00:00",
+   "t": "Gold Medal for Bravery for fallen firefighter",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879596-20261128.htm",
+   "d": "Senior fireman Ho Wai-ho, who died in the Wang Fuk Court blaze last November, was awarded the Gold Medal for Bravery as Chief Executive John Lee presented this year's honours at Government House on Saturday. Ho's brother…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879596_1_M_20261128153713.jpg",
+   "at": "2026-11-28T08:18+00:00",
    "where": [
     22.32,
     114.17,
@@ -628,11 +628,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Police look for more than 100 gig-goers to help Co-op Live probe",
-   "u": "https://www.bbc.co.uk/news/articles/c8wy5vnpggnpo?at_medium=RSS&at_campaign=rss",
-   "d": "Rap fans say people were \"choking\" and \"coughing up blood\" towards the end of Don Toliver's gig.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f39f/live/f13ad370-ea7a-11f1-9888-1b7e4a7a7390.png",
-   "at": "2026-11-27T16:40+00:00",
+   "t": "Pharmacies get new powers to swap prescriptions during shortages",
+   "u": "https://www.bbc.co.uk/news/articles/cw5y1pelzm8ro?at_medium=RSS&at_campaign=rss",
+   "d": "If a medicine is out of stock, staff can offer the same drug in a different strength or form, like a capsule instead of a pill.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1d4d/live/7569eb90-ea5d-11f1-89b9-f318b11567ea.jpg",
+   "at": "2026-11-28T06:00+00:00",
    "where": [
     52.5,
     -1.5,
@@ -726,11 +726,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "'Decision on Wang Fuk site's future may take years'",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879584-20261128.htm",
-   "d": "Acting Housing Secretary Michael Wong on Saturday said the long-term future of the Wang Fuk Court site could take years to finalise. Wong, who is also the deputy financial secretary, was speaking on Commercial Radio, two…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879584_1_M_20261128113838.jpg",
-   "at": "2026-11-28T05:11+00:00",
+   "t": "Tech networking 'key in Hung Shui Kiu university race'",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879586-20261128.htm",
+   "d": "Secretary for Education Christine Choi said she hopes the university town in Hung Shui Kiu will foster collaboration across disciplines, industries and institutions. Speaking on a television programme on Saturday, she sa…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879586_1_M_20261128130848.jpg",
+   "at": "2026-11-28T07:37+00:00",
    "where": [
     22.32,
     114.17,
@@ -740,11 +740,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "NHS boss warns of 'horrible spike' in flu as hospital admissions surge",
-   "u": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o?at_medium=RSS&at_campaign=rss",
-   "d": "Health officials are urging those at risk of getting flu to get vaccinated as soon as possible.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/569b/live/83ef8790-ea37-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-27T09:57+00:00",
+   "t": "Set time aside for children to read for pleasure, schools to be told",
+   "u": "https://www.bbc.co.uk/news/articles/c65y1vp4ndqjo?at_medium=RSS&at_campaign=rss",
+   "d": "The government says its new cirriculum hopes to reverse declining literacy rates and combat \"mindless scrolling\".",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/135c/live/334e1f80-eac9-11f1-b4f7-a59fcb94e161.jpg",
+   "at": "2026-11-28T08:27+00:00",
    "where": [
     52.5,
     -1.5,
@@ -838,11 +838,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Race to pave way for smooth run as Route 6 fully opens",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879579-20261128.htm",
-   "d": "Transport officials are stepping up signage and driver guidance to help motorists adapt to the new road layout ahead of Route 6's full opening on December 6. The Central Kowloon Bypass will open to traffic at 7 am that d…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879579_1_M_20261128103915.jpg",
-   "at": "2026-11-28T03:20+00:00",
+   "t": "'Decision on Wang Fuk site's future may take years'",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879584-20261128.htm",
+   "d": "Acting Housing Secretary Michael Wong on Saturday said the long-term future of the Wang Fuk Court site could take years to finalise. Wong, who is also the deputy financial secretary, was speaking on Commercial Radio, two…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879584_1_M_20261128113838.jpg",
+   "at": "2026-11-28T05:11+00:00",
    "where": [
     22.32,
     114.17,
@@ -852,11 +852,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "'We have no interest in hearing from Huw Edwards', Downing Street says",
-   "u": "https://www.bbc.co.uk/news/articles/c60mdl2y2w3do?at_medium=RSS&at_campaign=rss",
-   "d": "There has been a backlash against new interviews with the disgraced former BBC News presenter.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d51b/live/6e67b490-ea66-11f1-a828-d384c0290f6b.jpg",
-   "at": "2026-11-27T14:33+00:00",
+   "t": "'I wouldn't be here today without you': Student's praise for man who stopped train attacker",
+   "u": "https://www.bbc.co.uk/news/articles/ck792lq4xrero?at_medium=RSS&at_campaign=rss",
+   "d": "Astrid credits Stephen Crean with saving her life during the Huntingdon train attack last year.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b745/live/55191660-ea65-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-27T07:53+00:00",
    "where": [
     52.5,
     -1.5,
@@ -950,11 +950,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Personal data of 7,500 Octopus users leaked",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879534-20261127.htm",
-   "d": "Some 7,500 Octopus users have had their personal data leaked following a cyberattack, the company has said, though it stressed that it has not detected any financial loss by customers. In a statement, the operator of the…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879534_2_M_20261127215314.jpg",
-   "at": "2026-11-27T13:53+00:00",
+   "t": "Race to pave way for smooth run as Route 6 fully opens",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879579-20261128.htm",
+   "d": "Transport officials are stepping up signage and driver guidance to help motorists adapt to the new road layout ahead of Route 6's full opening on December 6. The Central Kowloon Bypass will open to traffic at 7 am that d…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879579_1_M_20261128103915.jpg",
+   "at": "2026-11-28T03:20+00:00",
    "where": [
     22.32,
     114.17,
@@ -964,11 +964,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "'Cowardly monster' blackmailed girls to self-harm",
-   "u": "https://www.bbc.co.uk/news/articles/c3pw4ypkldpzo?at_medium=RSS&at_campaign=rss",
-   "d": "Beau-Jack Mensforth is jailed for preying on nine girls, the youngest aged 12, across the world.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ca25/live/3f50b590-ea60-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-27T17:47+00:00",
+   "t": "Police look for more than 100 gig-goers to help Co-op Live probe",
+   "u": "https://www.bbc.co.uk/news/articles/c8wy5vnpggnpo?at_medium=RSS&at_campaign=rss",
+   "d": "Rap fans say people were \"choking\" and \"coughing up blood\" towards the end of Don Toliver's gig.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f39f/live/f13ad370-ea7a-11f1-9888-1b7e4a7a7390.png",
+   "at": "2026-11-27T16:40+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1057,10 +1057,10 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "90,000 users compromised in SmartPLAY data breach",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879523-20261127.htm",
-   "d": "Around 90,000 users of the government's SmartPLAY booking system for public sports and recreational facilities were involved in a data breach, according to the Office of the Privacy Commissioner for Personal Data (PCPD).…",
-   "at": "2026-11-27T11:05+00:00",
+   "t": "Personal data of 7,500 Octopus users leaked",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879534-20261127.htm",
+   "d": "Some 7,500 Octopus users have had their personal data leaked following a cyberattack, the company has said, though it stressed that it has not detected any financial loss by customers. In a statement, the operator of the…",
+   "at": "2026-11-27T13:53+00:00",
    "where": [
     22.32,
     114.17,
@@ -1070,11 +1070,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Body found in woodland confirmed as missing Kelsey Hunter",
-   "u": "https://www.bbc.co.uk/news/articles/cqx2e315rz00o?at_medium=RSS&at_campaign=rss",
-   "d": "Kelsey Hunter's body was found in a wooded area near the village of Springholm where she lived.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/60b8/live/9165e5f0-e82e-11f1-917e-35f1674fb52c.jpg",
-   "at": "2026-11-27T17:03+00:00",
+   "t": "NHS boss warns of 'horrible spike' in flu as hospital admissions surge",
+   "u": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o?at_medium=RSS&at_campaign=rss",
+   "d": "Health officials are urging those at risk of getting flu to get vaccinated as soon as possible.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/569b/live/83ef8790-ea37-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-27T09:57+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1168,10 +1168,10 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "InnoParks veteran to lead Hung Shui Kiu Park",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879510-20261127.htm",
-   "d": "The Hung Shui Kiu Industry Park Company has appointed Yiu Hing-leung as its first chief executive for a three-year term starting December 1. His appointment followed an open recruitment process and received the approval …",
-   "at": "2026-11-27T09:57+00:00",
+   "t": "90,000 users compromised in SmartPLAY data breach",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879523-20261127.htm",
+   "d": "Around 90,000 users of the government's SmartPLAY booking system for public sports and recreational facilities were involved in a data breach, according to the Office of the Privacy Commissioner for Personal Data (PCPD).…",
+   "at": "2026-11-27T11:05+00:00",
    "where": [
     22.32,
     114.17,
@@ -1181,11 +1181,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Dec Donnelly says I'm a Celebrity tension 'became much bigger deal than it should have'",
-   "u": "https://www.bbc.co.uk/news/articles/c65y1k8qx7q4o?at_medium=RSS&at_campaign=rss",
-   "d": "The co-hosts discussed tensions that flared between Mariella Frostrup and AJ Odudu on the show.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/90cf/live/ea63a4e0-ea53-11f1-b220-b9f21129b546.jpg",
-   "at": "2026-11-27T14:06+00:00",
+   "t": "'We have no interest in hearing from Huw Edwards', Downing Street says",
+   "u": "https://www.bbc.co.uk/news/articles/c60mdl2y2w3do?at_medium=RSS&at_campaign=rss",
+   "d": "There has been a backlash against new interviews with the disgraced former BBC News presenter.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d51b/live/6e67b490-ea66-11f1-a828-d384c0290f6b.jpg",
+   "at": "2026-11-27T14:33+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1251,6 +1251,33 @@
   {
    "src": "HONG KONG",
    "lang": "en",
+   "t": "InnoParks veteran to lead Hung Shui Kiu Park",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879510-20261127.htm",
+   "d": "The Hung Shui Kiu Industry Park Company has appointed Yiu Hing-leung as its first chief executive for a three-year term starting December 1. His appointment followed an open recruitment process and received the approval …",
+   "at": "2026-11-27T09:57+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "UK",
+   "lang": "en",
+   "t": "'Cowardly monster' blackmailed girls to self-harm",
+   "u": "https://www.bbc.co.uk/news/articles/c3pw4ypkldpzo?at_medium=RSS&at_campaign=rss",
+   "d": "Beau-Jack Mensforth is jailed for preying on nine girls, the youngest aged 12, across the world.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ca25/live/3f50b590-ea60-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-27T17:47+00:00",
+   "where": [
+    52.5,
+    -1.5,
+    "英國"
+   ]
+  },
+  {
+   "src": "HONG KONG",
+   "lang": "en",
    "t": "Abby Choi murder was carefully planned, court hears",
    "u": "https://news.rthk.hk/rthk/en/component/k2/1879501-20261127.htm",
    "d": "The murder of celebrity Abby Choi had been carefully planned and the killing stemmed from a financial dispute over a luxury apartment, the High Court heard on Friday. In her closing submissions, senior counsel Charlotte …",
@@ -1264,38 +1291,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "NHS Grampian publishes leaked report at centre of hospital scandal",
-   "u": "https://www.bbc.co.uk/news/articles/cq36gjdkdn2xo?at_medium=RSS&at_campaign=rss",
-   "d": "The report was leaked last week by a surgeon who called for NHS Grampian to face a corporate homicide investigation.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b492/live/ecaef2a0-ea8e-11f1-a739-457c2295eaba.jpg",
-   "at": "2026-11-27T20:07+00:00",
-   "where": [
-    52.5,
-    -1.5,
-    "英國"
-   ]
-  },
-  {
-   "src": "HONG KONG",
-   "lang": "en",
-   "t": "Top court quashes flag desecration convictions",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879506-20261127.htm",
-   "d": "The Court of Final Appeal on Friday unanimously quashed the convictions of a young man with autism for desecrating the national flag and the SAR flag, ruling that the prosecution had never proved he intended to insult th…",
-   "at": "2026-11-27T08:34+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "UK",
-   "lang": "en",
-   "t": "Ex-council leader jailed for fraud and tax evasion",
-   "u": "https://www.bbc.co.uk/news/articles/cmkgdjyd5j98o?at_medium=RSS&at_campaign=rss",
-   "d": "Jason Zadrozny sobs in the dock as he is sentenced to 27 months in prison.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3e83/live/fbac4d50-ea81-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-27T17:37+00:00",
+   "t": "Body found in woodland confirmed as missing Kelsey Hunter",
+   "u": "https://www.bbc.co.uk/news/articles/cqx2e315rz00o?at_medium=RSS&at_campaign=rss",
+   "d": "Kelsey Hunter's body was found in a wooded area near the village of Springholm where she lived.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/60b8/live/9165e5f0-e82e-11f1-917e-35f1674fb52c.jpg",
+   "at": "2026-11-27T17:03+00:00",
    "where": [
     52.5,
     -1.5,
