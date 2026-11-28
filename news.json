@@ -1,6 +1,48 @@
 {
- "updated": "2026-11-28T14:22+00:00",
+ "updated": "2026-11-28T15:13+00:00",
  "items": [
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "勞工處下周一起展開特別執法行動 巡查架設大型棚架維修工程地盤",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879622-20261128.htm",
+   "d": "屯門建旺街利通工業大廈下午有外牆棚架的棚網起火，消防處表示，在大廈天台及外牆棚架各處發現多個煙頭，初步相信起火原因與煙頭有關。 勞工處回覆查詢時表示，已派員到場展開調查，並聯同消防處、屋宇署等部門，聯合調查火警成因，包括有否涉及吸煙的情況。如調查顯示有違反法例的情況，定會依法處理。 勞工處表示，下星期一展開針對高火災風險工作場所的特別執法行動，包括巡查架設有大型棚架的樓宇維修工程地盤的防火設施及火災應變安排，以保障工地安全，指相關的行動…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879622_1_M_20261128224256.jpg",
+   "at": "2026-11-28T14:39+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "台灣九合一選舉：沈伯洋承認敗選 蔣萬安連任台北市長",
+   "u": "https://www.bbc.com/zhongwen/live/c60evlqlpx32t/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣1965萬選民將票選縣市長、地方議員、鄉鎮村里長等將近1.11萬名公職人員，同時公投決定日後能源政策。",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e818/live/71016ad0-eb2d-11f1-bb10-912617c39af7.jpg",
+   "at": "2026-11-28T00:00+00:00",
+   "where": [
+    23.7,
+    121.0,
+    "台灣"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "大熊貓「冉冉」抵達比利時布魯塞爾",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879621-20261128.htm",
+   "d": "中國雌性大熊貓「冉冉」抵達比利時布魯塞爾，比利時天堂動物園在布魯塞爾機場舉行儀式迎接。 「冉冉」在中方1名獸醫和比方1名飼養員的陪伴下，清晨從成都天府國際機場，前往比利時。 「冉冉」抵達天堂動物園後，中方獸醫會停留一段時間，陪伴牠度過適應期。園方早前改造提升大熊貓圈舍、準備充足的食物和經驗豐富的飼養護理團隊，確保「冉冉」生活舒適。 2017年5月出生的「冉冉」，特徵是面龐圓潤，體態勻稱，性格溫和，經過野化環境歷練，具有較強的環境適應能力…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879621_1_M_20261128223041.jpg",
+   "at": "2026-11-28T14:30+00:00",
+   "where": [
+    50.8,
+    4.4,
+    "比利時"
+   ]
+  },
   {
    "src": "香港",
    "lang": "zh",
@@ -18,11 +60,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "台灣九合一選舉：沈伯洋承認敗選 蔣萬安連任台北市長",
-   "u": "https://www.bbc.com/zhongwen/live/c60evlqlpx32t/trad?at_medium=RSS&at_campaign=rss",
-   "d": "台灣1965萬選民將票選縣市長、地方議員、鄉鎮村里長等將近1.11萬名公職人員，同時公投決定日後能源政策。",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/e818/live/71016ad0-eb2d-11f1-bb10-912617c39af7.jpg",
-   "at": "2026-11-28T00:00+00:00",
+   "t": "台灣「九合一」選舉BBC視像直播",
+   "u": "https://www.bbc.com/zhongwen/articles/cwkgry00vk48o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "BBC中文在台灣「九合一」選舉投票結束後進行視像直播，除了專家分析選舉結果，亦會在投票站和競選總部進行現場報道。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/fd03/live/048c4290-eb09-11f1-99a1-253766e7ad8b.jpg",
+   "at": "2026-11-28T09:20+00:00",
    "where": [
     23.7,
     121.0,
@@ -60,11 +102,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "台灣「九合一」選舉BBC視像直播",
-   "u": "https://www.bbc.com/zhongwen/articles/cwkgry00vk48o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "BBC中文在台灣「九合一」選舉投票結束後進行視像直播，除了專家分析選舉結果，亦會在投票站和競選總部進行現場報道。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/fd03/live/048c4290-eb09-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-28T09:20+00:00",
+   "t": "台灣「九合一」選舉與核電公投：開票結果實時更新",
+   "u": "https://www.bbc.com/zhongwen/articles/ck0jxz70e4z5o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣「九合一」選舉與核能政策公投投票結束，全台1.8萬餘處投票所隨即即場點票。BBC中文緊貼開票進展。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/de3d/live/fa7c0280-e5d2-11f1-99b6-a35a62fa4264.png",
+   "at": "2026-11-28T08:31+00:00",
    "where": [
     23.7,
     121.0,
@@ -102,15 +144,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "台灣「九合一」選舉與核電公投：開票結果實時更新",
-   "u": "https://www.bbc.com/zhongwen/articles/ck0jxz70e4z5o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "台灣「九合一」選舉與核能政策公投投票結束，全台1.8萬餘處投票所隨即即場點票。BBC中文緊貼開票進展。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/de3d/live/fa7c0280-e5d2-11f1-99b6-a35a62fa4264.png",
-   "at": "2026-11-28T08:31+00:00",
+   "t": "中國崛起的背後：異議人士稱他們的聲音正被淹沒",
+   "u": "https://www.bbc.com/zhongwen/articles/cqrmgenjvkgxo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "China's immense clout now also has the flex of soft power. Critics and dissidents say their voices are being drowned out.",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/c091/live/9ead0190-ea44-11f1-9fc4-ef897a334b75.jpg",
+   "at": "2026-11-28T06:39+00:00",
    "where": [
-    23.7,
-    121.0,
-    "台灣"
+    34.0,
+    108.0,
+    "中國"
    ]
   },
   {
@@ -144,15 +186,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "中國崛起的背後：異議人士稱他們的聲音正被淹沒",
-   "u": "https://www.bbc.com/zhongwen/articles/cqrmgenjvkgxo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "China's immense clout now also has the flex of soft power. Critics and dissidents say their voices are being drowned out.",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/c091/live/9ead0190-ea44-11f1-9fc4-ef897a334b75.jpg",
-   "at": "2026-11-28T06:39+00:00",
+   "t": "為何特朗普新一輪關稅的威脅不如以往？",
+   "u": "https://www.bbc.com/zhongwen/articles/c3j4rw1r4p29o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "面對特朗普首輪關稅攻勢，世界各國已調整貿易流向，繞過美國的關稅壁壘。如今，各國更將目光投向特朗普卸任後的時代。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/a44e/live/be7b3450-e9af-11f1-859a-37130cd3a1d7.jpg",
+   "at": "2026-11-27T04:22+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -186,15 +228,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "為何特朗普新一輪關稅的威脅不如以往？",
-   "u": "https://www.bbc.com/zhongwen/articles/c3j4rw1r4p29o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "面對特朗普首輪關稅攻勢，世界各國已調整貿易流向，繞過美國的關稅壁壘。如今，各國更將目光投向特朗普卸任後的時代。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/a44e/live/be7b3450-e9af-11f1-859a-37130cd3a1d7.jpg",
-   "at": "2026-11-27T04:22+00:00",
+   "t": "台灣「九合一」選舉：六都市長候選人簡介",
+   "u": "https://www.bbc.com/zhongwen/articles/cwlymzm5mnxyo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "這場選舉將影響藍綠政治版圖，六都選情備受關注，包括台北、新北、桃園、台中、台南、高雄，BBC中文整理各地候選人的簡介。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/6f3d/live/717c67f0-e950-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-27T16:04+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -217,7 +259,6 @@
    "t": "【重溫】2026年11月28日新聞天地",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1879604-20261128.htm",
    "d": "詳盡報道本地時事、大中華消息、國際局勢等新聞，緊貼最新熱話。",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879604_1_M_20261128194927.jpg",
    "at": "2026-11-28T11:49+00:00",
    "where": [
     22.32,
@@ -228,11 +269,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "台灣「九合一」選舉：六都市長候選人簡介",
-   "u": "https://www.bbc.com/zhongwen/articles/cwlymzm5mnxyo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "這場選舉將影響藍綠政治版圖，六都選情備受關注，包括台北、新北、桃園、台中、台南、高雄，BBC中文整理各地候選人的簡介。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/6f3d/live/717c67f0-e950-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-27T16:04+00:00",
+   "t": "2026台灣地方選舉：「九合一」為何重要？選舉時程是什麼？",
+   "u": "https://www.bbc.com/zhongwen/articles/cp931k7xx4do/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣的地方選舉又稱「九合一」選舉，每四年一次，多數落在總統任期中段的年底，故被視為總統的「期中考」。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/d6bb/live/cb969e20-ac21-11f1-9bd9-7b7da208bd5c.jpg",
+   "at": "2026-09-16T04:47+00:00",
    "where": [
     23.7,
     121.0,
@@ -245,7 +286,6 @@
    "t": "韓情報當局密切關注金正恩可能訪華的報道",
    "u": "https://news.rthk.hk/rthk/ch/component/k2/1879585-20261128.htm",
    "d": "韓國情報當局說，正密切關注朝鮮領導人金正恩可能訪問中國的消息。 韓國廣播公司引述外交消息人士報道，中國國家主席習近平本月初與韓國總統李在明會晤時曾表示，金正恩可能訪華。 報道又引述一名政府消息人士稱，與朝鮮接壤的中國丹東市已發佈緊急指令，做法與金正恩上月訪問時的安排相同。 法新社引述韓國情報機構表示，正在密切關注。 金正恩上月曾在未事先宣佈的情況下訪問丹東，與中共中央政治局常委王滬寧會面。 韓國總統府回應說，習近平在會晤中並未提及報道的…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879585_1_M_20261128125404.jpg",
    "at": "2026-11-28T04:54+00:00",
    "where": [
     39.03,
@@ -269,11 +309,11 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "2026台灣地方選舉：「九合一」為何重要？選舉時程是什麼？",
-   "u": "https://www.bbc.com/zhongwen/articles/cp931k7xx4do/trad?at_medium=RSS&at_campaign=rss",
-   "d": "台灣的地方選舉又稱「九合一」選舉，每四年一次，多數落在總統任期中段的年底，故被視為總統的「期中考」。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/d6bb/live/cb969e20-ac21-11f1-9bd9-7b7da208bd5c.jpg",
-   "at": "2026-09-16T04:47+00:00",
+   "t": "台灣時隔一年再「核電公投」：這次投什麼？通過門檻為何？",
+   "u": "https://www.bbc.com/zhongwen/articles/c0rdle4l1lvo/trad?at_medium=RSS&at_campaign=rss",
+   "d": "「廢除非核家園」公投案在今年11月28日的九合一選舉同日投票。這是台灣相隔短短一年後再有公投，也是當地近8年來，第4度舉行關於核電公投。BBC中文整理此次公投的背景和重點。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/eb94/live/1c4078c0-9d39-11f1-bc05-aff3aa1f91c7.jpg",
+   "at": "2026-11-06T07:56+00:00",
    "where": [
     23.7,
     121.0,
@@ -309,46 +349,6 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "台灣時隔一年再「核電公投」：這次投什麼？通過門檻為何？",
-   "u": "https://www.bbc.com/zhongwen/articles/c0rdle4l1lvo/trad?at_medium=RSS&at_campaign=rss",
-   "d": "「廢除非核家園」公投案在今年11月28日的九合一選舉同日投票。這是台灣相隔短短一年後再有公投，也是當地近8年來，第4度舉行關於核電公投。BBC中文整理此次公投的背景和重點。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/eb94/live/1c4078c0-9d39-11f1-bc05-aff3aa1f91c7.jpg",
-   "at": "2026-11-06T07:56+00:00",
-   "where": [
-    23.7,
-    121.0,
-    "台灣"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "挪威廉航北歐大西洋航空申請破產",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879569-20261128.htm",
-   "d": "挪威廉航北歐大西洋航空宣佈，將為旗下主要運營子公司申請破產，並停止售票及取消所有航班。 報道說，這是繼拉脫維亞波羅的海航空之後，今年歐洲第二間啟動破產程序的航空公司，凸顯伊朗戰爭導致燃油價格飆升，對未採取燃油價格對沖措施的航空公司造成沉重打擊。 路透社報道，北歐大西洋航空發表聲明說，由於未能籌集足夠資金應付短期流動資金需求，董事會決定向挪威地方法院提交破產申請。 2022年成立的北歐大西洋航空表示，租賃公司已終止旗下全部12架飛機的租賃…",
-   "at": "2026-11-28T01:25+00:00",
-   "where": [
-    59.91,
-    10.75,
-    "挪威"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "蔡若蓮：洪水橋大學城三幅校園區用地均有院校感興趣",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879611-20261128.htm",
-   "d": "教育局局長蔡若蓮表示，洪水橋大學城三幅校園區用地，每幅均有院校感興趣，政府會綜合考慮院校的學術科研實力、發展計劃及財政能力。 她又預計，院校申請的貸款總額有機會超出政府預留的100億元，日後將因應實際需要爭取「加碼」。 編輯：詹可揚",
-   "at": "2026-11-28T11:35+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
    "t": "九合一選前反轉：沈伯洋破天荒取消台北「選前之夜」，如何影響選情？",
    "u": "https://www.bbc.com/zhongwen/articles/cwz0kymdzdd8o/trad?at_medium=RSS&at_campaign=rss",
    "d": "這是台北市自1994年恢復市長直選以來，首次有民進黨參選人不舉辦選前之夜。有政治學者向BBC中文分析，沈伯洋取消活動可為交通爭議「止血」，但同時窒礙了綠營凝聚聲勢。",
@@ -363,10 +363,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "孫東：政府業界要共同努力應對網絡攻擊挑戰",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879608-20261128.htm",
-   "d": "建造業議會通報應用程式伺服器被入侵，初步涉及約50萬註冊工人姓名及身份證號碼等外洩。 創新科技及工業局局長孫東出席一個活動致辭時表示，近日網絡攻擊非常嚴重，要堅持發展與安全並重，做好風險管理，政府和業界要共同努力應對挑戰。 編輯：詹可揚",
-   "at": "2026-11-28T11:31+00:00",
+   "t": "蔡若蓮：洪水橋大學城三幅校園區用地均有院校感興趣",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879611-20261128.htm",
+   "d": "教育局局長蔡若蓮表示，洪水橋大學城三幅校園區用地，每幅均有院校感興趣，政府會綜合考慮院校的學術科研實力、發展計劃及財政能力。 她又預計，院校申請的貸款總額有機會超出政府預留的100億元，日後將因應實際需要爭取「加碼」。 編輯：詹可揚",
+   "at": "2026-11-28T11:35+00:00",
    "where": [
     22.32,
     114.17,
@@ -628,11 +628,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Pharmacies get new powers to swap prescriptions during shortages",
-   "u": "https://www.bbc.co.uk/news/articles/cw5y1pelzm8ro?at_medium=RSS&at_campaign=rss",
-   "d": "If a medicine is out of stock, staff can offer the same drug in a different strength or form, like a capsule instead of a pill.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1d4d/live/7569eb90-ea5d-11f1-89b9-f318b11567ea.jpg",
-   "at": "2026-11-28T06:00+00:00",
+   "t": "Man arrested on suspicion of murdering girl, 16",
+   "u": "https://www.bbc.co.uk/news/articles/ckq5vj3ldpx5o?at_medium=RSS&at_campaign=rss",
+   "d": "The girl was found at a property in east London on Friday afternoon after fears about her welfare.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2870/live/00b9e790-eb3a-11f1-b514-bbaea63b50f5.png",
+   "at": "2026-11-28T14:47+00:00",
    "where": [
     52.5,
     -1.5,
@@ -740,11 +740,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Woman, 21, dies in crash following police pursuit",
-   "u": "https://www.bbc.co.uk/news/articles/ckwy9rde8gyqo?at_medium=RSS&at_campaign=rss",
-   "d": "The crash happened on Friday just after 23:00 GMT on Rugeley Road in Hednesford.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ba67/live/c22de780-eb2d-11f1-8c00-ff7035d56586.jpg",
-   "at": "2026-11-28T12:09+00:00",
+   "t": "Pharmacies get new powers to swap prescriptions during shortages",
+   "u": "https://www.bbc.co.uk/news/articles/cw5y1pelzm8ro?at_medium=RSS&at_campaign=rss",
+   "d": "If a medicine is out of stock, staff can offer the same drug in a different strength or form, like a capsule instead of a pill.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1d4d/live/7569eb90-ea5d-11f1-89b9-f318b11567ea.jpg",
+   "at": "2026-11-28T06:00+00:00",
    "where": [
     52.5,
     -1.5,
@@ -852,11 +852,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Set time aside for children to read for pleasure, schools to be told",
-   "u": "https://www.bbc.co.uk/news/articles/c65y1vp4ndqjo?at_medium=RSS&at_campaign=rss",
-   "d": "The government says its new cirriculum hopes to reverse declining literacy rates and combat \"mindless scrolling\".",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/135c/live/334e1f80-eac9-11f1-b4f7-a59fcb94e161.jpg",
-   "at": "2026-11-28T08:27+00:00",
+   "t": "Woman, 21, dies in crash following police pursuit",
+   "u": "https://www.bbc.co.uk/news/articles/ckwy9rde8gyqo?at_medium=RSS&at_campaign=rss",
+   "d": "Two forces are being investigated after Friday's late night crash on Rugeley Road in Hednesford.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ba67/live/c22de780-eb2d-11f1-8c00-ff7035d56586.jpg",
+   "at": "2026-11-28T14:43+00:00",
    "where": [
     52.5,
     -1.5,
@@ -964,11 +964,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "'I wouldn't be here today without you': Student's praise for man who stopped train attacker",
-   "u": "https://www.bbc.co.uk/news/articles/ck792lq4xrero?at_medium=RSS&at_campaign=rss",
-   "d": "Astrid credits Stephen Crean with saving her life during the Huntingdon train attack last year.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b745/live/55191660-ea65-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-27T07:53+00:00",
+   "t": "Set time aside for children to read for pleasure, schools to be told",
+   "u": "https://www.bbc.co.uk/news/articles/c65y1vp4ndqjo?at_medium=RSS&at_campaign=rss",
+   "d": "The government says its new cirriculum hopes to reverse declining literacy rates and combat \"mindless scrolling\".",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/135c/live/334e1f80-eac9-11f1-b4f7-a59fcb94e161.jpg",
+   "at": "2026-11-28T08:27+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1070,15 +1070,15 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "NHS boss warns of 'horrible spike' in flu as hospital admissions surge",
-   "u": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o?at_medium=RSS&at_campaign=rss",
-   "d": "Health officials are urging those at risk of getting flu to get vaccinated as soon as possible.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/569b/live/83ef8790-ea37-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-27T09:57+00:00",
+   "t": "Swinney insists Scotland's NHS is safe despite hospital scandal",
+   "u": "https://www.bbc.co.uk/news/articles/c6p3ev43lkk3o?at_medium=RSS&at_campaign=rss",
+   "d": "The first minister urged people to attend medical appointments after a leaked report highlighted avoidable deaths at NHS Grampian.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/8f59/live/5bfce680-eb39-11f1-b514-bbaea63b50f5.jpg",
+   "at": "2026-11-28T14:43+00:00",
    "where": [
-    52.5,
-    -1.5,
-    "英國"
+    56.5,
+    -4.2,
+    "蘇格蘭"
    ]
   },
   {
@@ -1181,11 +1181,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "RAF apologises after jets flown low over Lockerbie near bombing anniversary",
-   "u": "https://www.bbc.co.uk/news/articles/cq0l3k1xl47go?at_medium=RSS&at_campaign=rss",
-   "d": "A Pan-Am jumbo jet came down over the south Scotland town in December 1988, killing 270.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5552/live/03d3dc20-eb16-11f1-90b9-a9d17de9c0bd.jpg",
-   "at": "2026-11-28T10:20+00:00",
+   "t": "Girl honoured for shielding sister in Southport attack",
+   "u": "https://www.bbc.co.uk/news/articles/cjkgkl76167qo?at_medium=RSS&at_campaign=rss",
+   "d": "Police say her actions almost certainly saved her sister's life.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/28a5/live/f0cd5c70-5d07-11f0-a844-279cd2217db0.jpg",
+   "at": "2026-11-28T13:21+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1264,11 +1264,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Stalker who moved house to be closer to his victim is jailed",
-   "u": "https://www.bbc.co.uk/news/articles/cmj4rw9evznpo?at_medium=RSS&at_campaign=rss",
-   "d": "Hamza El-Hay once waited outside a house for almost eight hours while his victim was inside.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/03bc/live/628f31e0-e9b5-11f1-8d2a-f5d2aabc11cb.jpg",
-   "at": "2026-11-28T09:52+00:00",
+   "t": "NHS boss warns of 'horrible spike' in flu as hospital admissions surge",
+   "u": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o?at_medium=RSS&at_campaign=rss",
+   "d": "Health officials are urging those at risk of getting flu to get vaccinated as soon as possible.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/569b/live/83ef8790-ea37-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-27T09:57+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1291,11 +1291,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Police look for more than 100 gig-goers to help Co-op Live probe",
-   "u": "https://www.bbc.co.uk/news/articles/c8wy5vnpggnpo?at_medium=RSS&at_campaign=rss",
-   "d": "Rap fans say people were \"choking\" and \"coughing up blood\" towards the end of Don Toliver's gig.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/f39f/live/f13ad370-ea7a-11f1-9888-1b7e4a7a7390.png",
-   "at": "2026-11-27T16:40+00:00",
+   "t": "RAF apologises after jets flown low over Lockerbie near bombing anniversary",
+   "u": "https://www.bbc.co.uk/news/articles/cq0l3k1xl47go?at_medium=RSS&at_campaign=rss",
+   "d": "A Pan-Am jumbo jet came down over the south Scotland town in December 1988, killing 270.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5552/live/03d3dc20-eb16-11f1-90b9-a9d17de9c0bd.jpg",
+   "at": "2026-11-28T10:20+00:00",
    "where": [
     52.5,
     -1.5,
