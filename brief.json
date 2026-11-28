@@ -1,24 +1,24 @@
 {
- "updated": "2026-11-27T18:00+00:00",
+ "updated": "2026-11-28T06:00+00:00",
  "en": {
-  "greeting": "Good evening — Friday 27 November",
+  "greeting": "Good morning — Saturday 28 November",
   "sections": [
    {
     "h": "Top stories",
     "items": [
      {
-      "t": "Zelensky criticises 'strange' Trump-Putin friendship",
-      "d": "Ukraine's president told the BBC the US is not pushing Russia hard enough in peace talks, as Ukraine braces for another hard winter.",
-      "u": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo"
+      "t": "US forces disable ship trying to run Iran blockade",
+      "d": "CENTCOM says it disabled the Palau-flagged bulk carrier Pacific Archer in the Gulf of Oman after it left Bandar Abbas; the crew were unharmed. Iran vowed to resist the blockade, raising the risk to Gulf shipping.",
+      "u": "https://monitor-the-situation.com/middle-east/us-forces-disable-vessel-in-b2b27e9a"
      },
      {
-      "t": "Hundreds of thousands still without power after US storms",
-      "d": "Pennsylvania and neighbouring states remain worst hit after Thanksgiving storms lashed both coasts, disrupting holiday travel.",
-      "u": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo"
+      "t": "Drone strike in Kuwait kills two Italian technicians",
+      "d": "The pair were working on an air-defence system; four others were hurt. Italy and Kuwait blame Iran, which denies involvement, and UN chief Guterres condemned the attack.",
+      "u": "https://morningstaronline.co.uk/article/iran-had-no-involvement-kuwait-drone-attack-insists-countrys-fm"
      },
      {
-      "t": "EU leaders fail to agree budget as Ukraine aid splits talks",
-      "d": "Disputes including aid for Ukraine stalled the EU's long-term budget talks; members still hope to reach a deal by year end.",
+      "t": "EU summit ends without budget or Ukraine loan deal",
+      "d": "Leaders failed to agree the 2028-2034 budget or a proposed $49bn loan for Ukraine, though Council President Costa says 24 states back the loan. Talks resume in December.",
       "u": "https://www.bbc.co.uk/news/articles/cw4gnm3m9deno"
      }
     ]
@@ -27,24 +27,24 @@
     "h": "World & politics",
     "items": [
      {
-      "t": "Spain's leaders clash in final debate before Sunday vote",
-      "d": "Housing costs dominated a bitter campaign; Pedro Sánchez trails in polls but insists the left can still win a majority.",
-      "u": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o"
+      "t": "Russia fires 155 drones at Ukraine; Kyiv hits St Petersburg",
+      "d": "Ukraine says 110 drones were downed, but attacks over a day killed six and cut power in six regions. Ukrainian drones targeted St Petersburg, with 44 reportedly intercepted.",
+      "u": "https://monitor-the-situation.com/eastern-europe/russia-launches-155-drones-at-61d814d0"
      },
      {
-      "t": "Sheikh Hasina's planned return puts Bangladesh on edge",
-      "d": "The ousted PM plans to go home in December, deepening Dhaka-Delhi tensions and raising fears of fresh unrest.",
-      "u": "https://www.bbc.co.uk/news/articles/cx30g71rev23o"
+      "t": "Russian convoy to Libya turns back after corvette sunk",
+      "d": "Reuters sources say a Russian naval convoy carrying military vehicles turned around after Ukrainian sea drones sank a Russian corvette at Benghazi. Italy says it was not told of the strike.",
+      "u": "https://monitor-the-situation.com/middle-east/russian-naval-convoy-turns-back-fdf16028"
      },
      {
-      "t": "Colombian police free 76 supermarket hostages after 17 hours",
-      "d": "One gunman was killed when police stormed the store after a failed robbery of an armoured cash van.",
-      "u": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo"
+      "t": "Venezuela to scrap ban on opposition holding office",
+      "d": "The move comes a month after opposition leader María Corina Machado returned home, a sign of political opening in Caracas.",
+      "u": "https://monitor-the-situation.com/south-america/venezuela-to-scrap-law-barring-2114d49f"
      },
      {
-      "t": "Canada's top court largely upholds Quebec religious symbols ban",
-      "d": "The ruling backs a law barring some public servants, including teachers, from wearing religious symbols at work.",
-      "u": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o"
+      "t": "Kenyan cult leader convicted over 123 deaths",
+      "d": "A court found Paul Mackenzie guilty of manslaughter over followers who starved in the Shakahola forest; he is already serving a 200-year sentence.",
+      "u": "https://monitor-the-situation.com/africa/kenyan-cult-leader-convicted-of-199c7e7b"
      }
     ]
    },
@@ -52,24 +52,19 @@
     "h": "Business & economy",
     "items": [
      {
-      "t": "Why Trump's new tariffs pose less of a threat",
-      "d": "Countries have rerouted trade since his first tariff wave and are now planning for the post-Trump era.",
-      "u": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o"
+      "t": "Iran says two tankers exploded near Strait of Hormuz",
+      "d": "The Revolutionary Guards say the tankers blew up near Khasab, Oman, while using a US-backed shipping corridor. The claim is unverified but adds to oil-supply worries.",
+      "u": "https://monitor-the-situation.com/middle-east/irgc-reports-two-oil-tankers-78b7dc77"
      },
      {
-      "t": "SAP weighs cutting 10,000 jobs in AI overhaul",
-      "d": "Europe's biggest software firm is reportedly preparing to cut about 9% of staff to refocus on AI.",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring"
+      "t": "US pushed Venezuela and Iraq to consider quitting OPEC",
+      "d": "Reuters, citing ten sources, reports the Trump administration encouraged both to leave OPEC this year and blocked Venezuela from paying its dues, a challenge to the cartel's grip on prices.",
+      "u": "https://monitor-the-situation.com/global/us-pressured-venezuela-iraq-to-50e4d7fa"
      },
      {
-      "t": "Binance restores withdrawals after record $6.3bn hack",
-      "d": "The crypto exchange says recovery work is complete a month after the largest crypto theft on record.",
-      "u": "https://www.reuters.com/technology/binance-lifts-withdrawal-suspension-after-63-billion-crypto-heist-2026-11-26/"
-     },
-     {
-      "t": "Banks see S&P 500 at 8,200-8,700 by end of 2027",
-      "d": "JPMorgan, Goldman and Morgan Stanley published bullish 2027 targets, all assuming the AI investment cycle holds.",
-      "u": "https://www.cnbc.com/2026/11/25/jpmorgan-sp-500-8200-2027-ai.html"
+      "t": "Argentina passes Milei's central bank overhaul",
+      "d": "The new charter bars the central bank from lending to any level of government or financing the Treasury, a key plank of Milei's fight against inflation.",
+      "u": "https://monitor-the-situation.com/south-america/argentina-congress-approves-mileis-central-e6faa249"
      }
     ]
    },
@@ -77,34 +72,34 @@
     "h": "Technology",
     "items": [
      {
-      "t": "SpaceX cleared for up to a million data-centre satellites",
-      "d": "The FCC approved SpaceX's orbital AI-compute constellation despite objections from Amazon, Viasat and astronomers.",
-      "u": "https://www.reuters.com/business/media-telecom/us-authorizes-spacex-deploy-1-million-satellites-data-centers-space-2026-11-25/"
+      "t": "US chip curbs slow China's AI labs",
+      "d": "Reuters reports Z.AI has fallen behind on its next flagship model and Moonshot AI expects longer gaps between releases. Nvidia reportedly paused server shipments to several Southeast Asian countries.",
+      "u": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/"
      },
      {
-      "t": "Neuralink wins FDA nod for first pivotal brain-implant trial",
-      "d": "The US trial will test its brain-computer interface in adults with ALS, a key step towards approval.",
-      "u": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/"
+      "t": "Huawei teases AI memory chip to rival Samsung, SK Hynix",
+      "d": "Huawei previewed next-generation high-bandwidth memory for AI, aiming to compete with Samsung and SK Hynix as China seeks to cut reliance on foreign chips.",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-26/huawei-teases-next-gen-ai-memory-chip-to-take-on-samsung-hynix"
      },
      {
-      "t": "OpenAI admits GPT-6.2 billing error, tightens ChatGPT limits",
-      "d": "A launch mistake over-discounted usage; paying users may now hit limits up to 40% faster.",
-      "u": "https://www.techradar.com/ai-platforms-assistants/chatgpt/weve-fixed-this-now-so-the-same-work-will-use-more-of-your-plans-usage-allowance-openai-admits-it-made-a-mistake-when-launching-gpt-6-2-and-now-paying-chatgpt-users-could-hit-their-usage-limits-up-to-40-percent-faster"
+      "t": "Microsoft: state hackers use AI agent framework",
+      "d": "Microsoft says state-backed hackers use a framework called ARTEX that hands attack steps to specialised AI agents, and urges defenders to use deception tactics to catch automated attacks.",
+      "u": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
      },
      {
-      "t": "42 US states fight Character.AI auction of users' chats",
-      "d": "Attorneys general asked a bankruptcy court to block the sale of 21 million accounts, 2.1 million of them minors'.",
-      "u": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
+      "t": "Switzerland reports five cyberattacks using AI agents",
+      "d": "The federal cybersecurity office says the attacks hit businesses and critical-infrastructure operators, an early sign of AI agents being used in real attacks.",
+      "u": "https://www.reuters.com/legal/litigation/ai-agents-used-five-cyber-attacks-switzerland-government-says-2026-11-26/"
      },
      {
-      "t": "Octopus cyberattack exposes data of 7,500 Hong Kong users",
-      "d": "Names and photos leaked, plus some auto top-up details; it follows a 90,000-user SmartPLAY breach.",
-      "u": "https://news.rthk.hk/rthk/en/component/k2/1879534-20261127.htm"
+      "t": "Hackers breach US Air Force cloud platform",
+      "d": "Reuters sources say hackers got into the Air Force's Cloud One platform; app migration was paused and some users lost admin rights.",
+      "u": "https://monitor-the-situation.com/north-america/hackers-breach-us-air-force-3a9fe691"
      },
      {
-      "t": "FIFA confirms hackers accessed personal data",
-      "d": "Football's governing body says attackers reached personal and business information; a new group has claimed it.",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-26/fifa-says-hackers-accessed-personal-data-in-cyberattack"
+      "t": "Canada boosts AI compute fund to C$1bn",
+      "d": "Ottawa added C$700m and will cover up to 80% of compute costs for firms that buy from qualifying Canadian sovereign cloud providers.",
+      "u": "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion"
      }
     ]
    },
@@ -112,14 +107,14 @@
     "h": "Science & health",
     "items": [
      {
-      "t": "NHS warns of 'horrible spike' in flu",
-      "d": "Hospital admissions are surging and officials urge at-risk people to get vaccinated as soon as possible.",
-      "u": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o"
+      "t": "Measles deaths hit record low, WHO warns of gaps",
+      "d": "An estimated 72,000 people died of measles in 2025, down 91% since 2000. But over 29 million children missed vaccines and 59 countries had big outbreaks.",
+      "u": "https://www.who.int/news/item/27-11-2026-historic-low-in-measles-deaths--but-immunization-gaps-threaten-progress"
      },
      {
-      "t": "NASA to test space crop chamber and mini brains on ISS",
-      "d": "The NG-25 cargo mission will carry a prototype crop-growing system and lab-grown brain tissue for Moon and Mars research.",
-      "u": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/"
+      "t": "UN warns hunger will worsen in 16 hotspots",
+      "d": "FAO and WFP say acute hunger will deepen over six months, with famine threatening parts of Africa; El Niño drives three of four new hotspots.",
+      "u": "https://www.fao.org/newsroom/detail/new-fao-wfp-report-warns-of-shrinking-window-to-prevent-millions-more-people-facing-acute-food-insecurity-in-16-hotspots/en"
      }
     ]
    },
@@ -127,43 +122,43 @@
     "h": "UK",
     "items": [
      {
-      "t": "Badenoch: Tory candidates must pledge to scrap net zero",
-      "d": "The Conservative leader's 'candidates covenant' drew criticism from some former MPs.",
-      "u": "https://www.bbc.co.uk/news/articles/cmwy95295835o"
+      "t": "Reform UK wins council by-elections after racism row",
+      "d": "Reform UK took the council seats in by-elections triggered by a racism row, another sign of its strength in local politics.",
+      "u": "https://www.itv.com/news/central/2026-11-27/reform-uk-wins-council-by-elections-triggered-by-racism-row"
      },
      {
-      "t": "No 10 says it has no interest in Huw Edwards interviews",
-      "d": "Downing Street joined a backlash against new interviews with the disgraced former BBC presenter.",
-      "u": "https://www.bbc.co.uk/news/articles/c60mdl2y2w3do"
+      "t": "No sign DWP hack spread to other departments",
+      "d": "The government says there is no evidence a 'malicious actor' behind an incident at the Department for Work and Pensions targeted other departments.",
+      "u": "https://www.itv.com/news/2026-11-27/no-evidence-malicious-actor-targeted-other-departments-after-dwp-incident"
      },
      {
-      "t": "Ex-council leader Jason Zadrozny jailed for fraud",
-      "d": "The former Ashfield council leader was sentenced to 27 months for fraud and tax evasion.",
-      "u": "https://www.bbc.co.uk/news/articles/cmkgdjyd5j98o"
+      "t": "Badenoch: Tory candidates must back leaving ECHR",
+      "d": "Kemi Badenoch says Conservative candidates must support quitting the European Convention on Human Rights and scrapping the net zero target.",
+      "u": "https://www.itv.com/news/2026-11-27/tory-candidates-must-support-leaving-echr-and-axing-net-zero-target-badenoch"
      }
     ]
    }
   ]
  },
  "zh": {
-  "greeting": "晚安 — 11月27日星期五",
+  "greeting": "早晨 — 11月28日星期六",
   "sections": [
    {
     "h": "頭條新聞",
     "items": [
      {
-      "t": "澤連斯基批評特朗普與普京「奇怪」友誼",
-      "d": "烏克蘭總統接受BBC訪問時表示，美國在和談中對俄羅斯施壓不足；烏克蘭正面對另一個艱難寒冬。",
-      "u": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo"
+      "t": "美軍癱瘓企圖突破伊朗封鎖的貨船",
+      "d": "美軍中央司令部表示，在阿曼灣癱瘓一艘從阿巴斯港出發的帕勞籍散貨船「Pacific Archer」，船員無恙。伊朗誓言抵抗封鎖，海灣航運風險加劇。",
+      "u": "https://monitor-the-situation.com/middle-east/us-forces-disable-vessel-in-b2b27e9a"
      },
      {
-      "t": "美國風暴過後 數十萬戶仍未恢復供電",
-      "d": "感恩節風暴吹襲美國東西兩岸，賓夕法尼亞州及鄰近州份災情最嚴重，假期出行大受影響。",
-      "u": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo"
+      "t": "科威特遭無人機襲擊　兩名意大利技術人員死亡",
+      "d": "兩人當時正為防空系統工作，另有四人受傷。意大利及科威特指責伊朗，伊朗否認涉事，聯合國秘書長古特雷斯譴責襲擊。",
+      "u": "https://morningstaronline.co.uk/article/iran-had-no-involvement-kuwait-drone-attack-insists-countrys-fm"
      },
      {
-      "t": "歐盟領袖未能就預算達成共識",
-      "d": "包括援助烏克蘭在內的分歧令歐盟長期預算談判陷入僵局，成員國仍希望年底前達成協議。",
+      "t": "歐盟峰會未能就預算及烏克蘭貸款達成協議",
+      "d": "歐盟領袖未能通過2028至2034年預算，亦未批出約490億美元烏克蘭貸款，但歐洲理事會主席科斯塔指有24國支持貸款。談判將於12月再續。",
       "u": "https://www.bbc.co.uk/news/articles/cw4gnm3m9deno"
      }
     ]
@@ -172,24 +167,24 @@
     "h": "國際及政治",
     "items": [
      {
-      "t": "西班牙大選前最後辯論 各黨領袖激烈交鋒",
-      "d": "住屋問題主導選情，首相桑切斯民調落後，但堅稱左派陣營仍能取得多數議席。",
-      "u": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o"
+      "t": "俄羅斯向烏克蘭發射155架無人機　烏方空襲聖彼得堡",
+      "d": "烏克蘭稱擊落其中110架，但一日內的襲擊造成六死，六個州停電。烏克蘭無人機亦攻擊聖彼得堡，據報44架被攔截。",
+      "u": "https://monitor-the-situation.com/eastern-europe/russia-launches-155-drones-at-61d814d0"
      },
      {
-      "t": "哈西娜計劃回國 孟加拉局勢緊張",
-      "d": "被推翻的前總理計劃12月返回孟加拉，加深孟印緊張關係，並引發再起動盪的憂慮。",
-      "u": "https://www.bbc.co.uk/news/articles/cx30g71rev23o"
+      "t": "俄艦隊駛往利比亞途中折返",
+      "d": "路透社引述消息指，運載軍車的俄羅斯艦隊在烏克蘭海上無人機於班加西擊沉一艘俄國護衛艦後折返。意大利表示事前未獲通知。",
+      "u": "https://monitor-the-situation.com/middle-east/russian-naval-convoy-turns-back-fdf16028"
      },
      {
-      "t": "哥倫比亞警方突入超市 救出76名人質",
-      "d": "劫匪搶劫運鈔車失敗後挾持人質17小時，警方突入超市，一名槍手被擊斃。",
-      "u": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo"
+      "t": "委內瑞拉將廢除禁止反對派任公職的法例",
+      "d": "此舉在反對派領袖馬查多回國一個月後宣布，顯示當局政治上有所鬆動。",
+      "u": "https://monitor-the-situation.com/south-america/venezuela-to-scrap-law-barring-2114d49f"
      },
      {
-      "t": "加拿大最高法院大致維持魁北克宗教標誌禁令",
-      "d": "裁決支持禁止教師等部分公務員在工作時佩戴宗教標誌的法例。",
-      "u": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o"
+      "t": "肯尼亞邪教頭目就123名信徒死亡被裁定誤殺罪成",
+      "d": "法院裁定麥肯齊誤殺罪成，事涉信徒在沙卡霍拉森林絕食死亡。他早前已被判囚200年。",
+      "u": "https://monitor-the-situation.com/africa/kenyan-cult-leader-convicted-of-199c7e7b"
      }
     ]
    },
@@ -197,24 +192,19 @@
     "h": "商業及經濟",
     "items": [
      {
-      "t": "分析：為何特朗普新關稅威脅減弱",
-      "d": "各國自首輪關稅後已調整貿易流向，繞過美國關稅壁壘，並開始為特朗普卸任後作部署。",
-      "u": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o"
+      "t": "伊朗稱兩艘油輪在霍爾木茲海峽附近爆炸",
+      "d": "伊斯蘭革命衛隊稱，兩艘油輪在使用美國支持的航道時於阿曼海薩卜附近爆炸。說法未經證實，但加深市場對石油供應的憂慮。",
+      "u": "https://monitor-the-situation.com/middle-east/irgc-reports-two-oil-tankers-78b7dc77"
      },
      {
-      "t": "SAP據報擬裁員一萬人 轉型AI",
-      "d": "據報歐洲最大軟件公司SAP準備削減約9%人手，以重新聚焦人工智能業務。",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring"
+      "t": "美國曾游說委內瑞拉及伊拉克考慮退出油組",
+      "d": "路透社引述十名消息人士報道，特朗普政府今年曾鼓勵兩國退出油組，並阻止委內瑞拉繳交會費，挑戰油組對油價的影響力。",
+      "u": "https://monitor-the-situation.com/global/us-pressured-venezuela-iraq-to-50e4d7fa"
      },
      {
-      "t": "Binance遭63億美元黑客盜竊後恢復提款",
-      "d": "加密貨幣交易所Binance表示，上月遭遇史上最大宗加密貨幣盜竊後，復原工作已完成，提款全面恢復。",
-      "u": "https://www.reuters.com/technology/binance-lifts-withdrawal-suspension-after-63-billion-crypto-heist-2026-11-26/"
-     },
-     {
-      "t": "大行預測標普500指數2027年底達8200至8700點",
-      "d": "摩根大通、高盛及摩根士丹利發表樂觀目標，前提是AI投資周期持續。",
-      "u": "https://www.cnbc.com/2026/11/25/jpmorgan-sp-500-8200-2027-ai.html"
+      "t": "阿根廷國會通過米萊央行改革",
+      "d": "新章程禁止央行向任何級別政府借貸或為財政部融資，是米萊對抗通脹的重要措施。",
+      "u": "https://monitor-the-situation.com/south-america/argentina-congress-approves-mileis-central-e6faa249"
      }
     ]
    },
@@ -222,34 +212,34 @@
     "h": "科技",
     "items": [
      {
-      "t": "SpaceX獲批發射最多一百萬枚數據中心衛星",
-      "d": "美國聯邦通訊委員會批准SpaceX的太空AI運算衛星群，Amazon、Viasat及天文學界曾表示反對。",
-      "u": "https://www.reuters.com/business/media-telecom/us-authorizes-spacex-deploy-1-million-satellites-data-centers-space-2026-11-25/"
+      "t": "美國晶片管制拖慢中國AI研發",
+      "d": "路透社報道，Z.AI下一代旗艦模型進度落後，Moonshot AI預計新版本相隔時間會拉長。據報Nvidia暫停向多個東南亞國家付運伺服器。",
+      "u": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/"
      },
      {
-      "t": "Neuralink獲FDA批准進行首個關鍵腦機接口試驗",
-      "d": "試驗將在美國漸凍人症成年患者身上測試腦機接口，是邁向正式批准的重要一步。",
-      "u": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/"
+      "t": "華為預告新一代AI記憶體晶片",
+      "d": "華為預告新一代AI高頻寬記憶體，目標與Samsung及SK Hynix競爭，反映中國力求減少依賴外國晶片。",
+      "u": "https://www.bloomberg.com/news/articles/2026-11-26/huawei-teases-next-gen-ai-memory-chip-to-take-on-samsung-hynix"
      },
      {
-      "t": "OpenAI承認GPT-6.2計費出錯 收緊ChatGPT用量",
-      "d": "OpenAI表示推出時錯誤地多計折扣，付費用戶現時觸及用量上限的速度最多快四成。",
-      "u": "https://www.techradar.com/ai-platforms-assistants/chatgpt/weve-fixed-this-now-so-the-same-work-will-use-more-of-your-plans-usage-allowance-openai-admits-it-made-a-mistake-when-launching-gpt-6-2-and-now-paying-chatgpt-users-could-hit-their-usage-limits-up-to-40-percent-faster"
+      "t": "Microsoft：國家級黑客利用AI代理框架發動攻擊",
+      "d": "Microsoft指國家支持的黑客使用名為ARTEX的框架，把攻擊步驟交由不同AI代理執行，並建議以誘騙技術偵測自動化攻擊。",
+      "u": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
      },
      {
-      "t": "美國42州反對Character.AI拍賣用戶對話",
-      "d": "各州總檢察長要求破產法庭阻止出售逾2100萬個帳戶，其中210萬屬未成年人。",
-      "u": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
+      "t": "瑞士錄得五宗利用AI代理的網絡攻擊",
+      "d": "瑞士聯邦網絡安全辦公室表示，攻擊對象包括企業及關鍵基建營運者，顯示AI代理已被用於實際攻擊。",
+      "u": "https://www.reuters.com/legal/litigation/ai-agents-used-five-cyber-attacks-switzerland-government-says-2026-11-26/"
      },
      {
-      "t": "八達通遭網絡攻擊 約7500名客戶資料外洩",
-      "d": "外洩資料包括姓名和相片，部分涉及自動增值資料；康文署SmartPLAY亦有約9萬用戶資料外洩。",
-      "u": "https://news.rthk.hk/rthk/en/component/k2/1879534-20261127.htm"
+      "t": "黑客入侵美國空軍雲端平台",
+      "d": "路透社消息指黑客入侵美國空軍Cloud One平台，應用程式遷移工作暫停，部分用戶失去管理員權限。",
+      "u": "https://monitor-the-situation.com/north-america/hackers-breach-us-air-force-3a9fe691"
      },
      {
-      "t": "國際足協證實遭黑客入侵個人資料",
-      "d": "FIFA表示黑客取得個人及商業資料，一個新黑客組織聲稱責任。",
-      "u": "https://www.bloomberg.com/news/articles/2026-11-26/fifa-says-hackers-accessed-personal-data-in-cyberattack"
+      "t": "加拿大AI運算基金增至10億加元",
+      "d": "加拿大政府注資7億加元，企業若向合資格的本地主權雲端供應商購買運算服務，可獲資助最多八成費用。",
+      "u": "https://thenextweb.com/news/canada-ai-compute-access-fund-700m-expansion"
      }
     ]
    },
@@ -257,14 +247,14 @@
     "h": "科學及健康",
     "items": [
      {
-      "t": "英國醫療服務警告流感「急劇飆升」",
-      "d": "入院人數急增，當局呼籲高危人士盡快接種疫苗。",
-      "u": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o"
+      "t": "世衞：麻疹死亡人數創新低但接種缺口仍大",
+      "d": "2025年估計有72,000人死於麻疹，較2000年減少91%。但逾2,900萬名兒童未有接種疫苗，59個國家爆發嚴重疫情。",
+      "u": "https://www.who.int/news/item/27-11-2026-historic-low-in-measles-deaths--but-immunization-gaps-threaten-progress"
      },
      {
-      "t": "NASA將在太空站測試太空種植艙及迷你腦組織",
-      "d": "NG-25貨運任務將運送種植系統原型及實驗室培養的腦組織，為登月及火星任務研究鋪路。",
-      "u": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/"
+      "t": "聯合國警告16個熱點地區飢荒惡化",
+      "d": "糧農組織及世界糧食計劃署指，未來六個月嚴重飢餓情況將惡化，非洲部分地區面臨飢荒威脅，四個新熱點中有三個受厄爾尼諾影響。",
+      "u": "https://www.fao.org/newsroom/detail/new-fao-wfp-report-warns-of-shrinking-window-to-prevent-millions-more-people-facing-acute-food-insecurity-in-16-hotspots/en"
      }
     ]
    },
@@ -272,19 +262,19 @@
     "h": "英國",
     "items": [
      {
-      "t": "貝丁諾要求保守黨候選人承諾廢除淨零目標",
-      "d": "保守黨領袖推出「候選人公約」，被部分前議員批評。",
-      "u": "https://www.bbc.co.uk/news/articles/cmwy95295835o"
+      "t": "英國改革黨贏得種族言論風波引發的議會補選",
+      "d": "改革黨在因種族言論風波而舉行的地方議會補選中勝出，再次顯示其在地方政壇的實力。",
+      "u": "https://www.itv.com/news/central/2026-11-27/reform-uk-wins-council-by-elections-triggered-by-racism-row"
      },
      {
-      "t": "唐寧街：無興趣聽愛德華茲發言",
-      "d": "首相府加入批評行列，反對身敗名裂的前BBC主播接受新訪問。",
-      "u": "https://www.bbc.co.uk/news/articles/c60mdl2y2w3do"
+      "t": "當局：無證據DWP事故波及其他部門",
+      "d": "政府表示，沒有證據顯示工作及退休保障部事故背後的「惡意人士」曾針對其他部門。",
+      "u": "https://www.itv.com/news/2026-11-27/no-evidence-malicious-actor-targeted-other-departments-after-dwp-incident"
      },
      {
-      "t": "前議會領袖扎德羅茲尼欺詐罪成入獄",
-      "d": "阿什菲爾德前議會領袖因欺詐及逃稅被判監27個月。",
-      "u": "https://www.bbc.co.uk/news/articles/cmkgdjyd5j98o"
+      "t": "貝丁諾：保守黨候選人須支持退出歐洲人權公約",
+      "d": "保守黨領袖貝丁諾表示，黨內候選人必須支持退出《歐洲人權公約》及廢除淨零排放目標。",
+      "u": "https://www.itv.com/news/2026-11-27/tory-candidates-must-support-leaving-echr-and-axing-net-zero-target-badenoch"
      }
     ]
    }
@@ -292,92 +282,32 @@
  },
  "sources": [
   {
-   "title": "Zelensky criticises 'strange' Trump-Putin friendship",
-   "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo"
+   "title": "Monitor the Situation daily brief",
+   "url": "https://monitor-the-situation.com/brief/2026-11-27"
   },
   {
-   "title": "Hundreds of thousands still without power after US storms",
-   "url": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo"
+   "title": "Reuters",
+   "url": "https://www.reuters.com/world/china/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-2026-11-26/"
   },
   {
-   "title": "EU leaders fail to agree budget as Ukraine aid splits talks",
+   "title": "BBC News",
    "url": "https://www.bbc.co.uk/news/articles/cw4gnm3m9deno"
   },
   {
-   "title": "Spain's leaders clash in final debate before Sunday vote",
-   "url": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o"
+   "title": "ITV News",
+   "url": "https://www.itv.com/news"
   },
   {
-   "title": "Sheikh Hasina's planned return puts Bangladesh on edge",
-   "url": "https://www.bbc.co.uk/news/articles/cx30g71rev23o"
+   "title": "WHO",
+   "url": "https://www.who.int/news/item/27-11-2026-historic-low-in-measles-deaths--but-immunization-gaps-threaten-progress"
   },
   {
-   "title": "Colombian police free 76 supermarket hostages after 17 hours",
-   "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo"
+   "title": "The Neuron AI digest",
+   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-27-2026/"
   },
   {
-   "title": "Canada's top court largely upholds Quebec religious symbols ban",
-   "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o"
-  },
-  {
-   "title": "Why Trump's new tariffs pose less of a threat",
-   "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o"
-  },
-  {
-   "title": "SAP weighs cutting 10,000 jobs in AI overhaul",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring"
-  },
-  {
-   "title": "Binance restores withdrawals after record $6.3bn hack",
-   "url": "https://www.reuters.com/technology/binance-lifts-withdrawal-suspension-after-63-billion-crypto-heist-2026-11-26/"
-  },
-  {
-   "title": "Banks see S&P 500 at 8,200-8,700 by end of 2027",
-   "url": "https://www.cnbc.com/2026/11/25/jpmorgan-sp-500-8200-2027-ai.html"
-  },
-  {
-   "title": "SpaceX cleared for up to a million data-centre satellites",
-   "url": "https://www.reuters.com/business/media-telecom/us-authorizes-spacex-deploy-1-million-satellites-data-centers-space-2026-11-25/"
-  },
-  {
-   "title": "Neuralink wins FDA nod for first pivotal brain-implant trial",
-   "url": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/"
-  },
-  {
-   "title": "OpenAI admits GPT-6.2 billing error, tightens ChatGPT limits",
-   "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/weve-fixed-this-now-so-the-same-work-will-use-more-of-your-plans-usage-allowance-openai-admits-it-made-a-mistake-when-launching-gpt-6-2-and-now-paying-chatgpt-users-could-hit-their-usage-limits-up-to-40-percent-faster"
-  },
-  {
-   "title": "42 US states fight Character.AI auction of users' chats",
-   "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
-  },
-  {
-   "title": "Octopus cyberattack exposes data of 7,500 Hong Kong users",
-   "url": "https://news.rthk.hk/rthk/en/component/k2/1879534-20261127.htm"
-  },
-  {
-   "title": "FIFA confirms hackers accessed personal data",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-26/fifa-says-hackers-accessed-personal-data-in-cyberattack"
-  },
-  {
-   "title": "NHS warns of 'horrible spike' in flu",
-   "url": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o"
-  },
-  {
-   "title": "NASA to test space crop chamber and mini brains on ISS",
-   "url": "https://science.nasa.gov/science-research/biological-physical-sciences/nasas-ng-25-mission-to-launch-pioneering-space-crops-research/"
-  },
-  {
-   "title": "Badenoch: Tory candidates must pledge to scrap net zero",
-   "url": "https://www.bbc.co.uk/news/articles/cmwy95295835o"
-  },
-  {
-   "title": "No 10 says it has no interest in Huw Edwards interviews",
-   "url": "https://www.bbc.co.uk/news/articles/c60mdl2y2w3do"
-  },
-  {
-   "title": "Ex-council leader Jason Zadrozny jailed for fraud",
-   "url": "https://www.bbc.co.uk/news/articles/cmkgdjyd5j98o"
+   "title": "Morning Star",
+   "url": "https://morningstaronline.co.uk/article/world-brief-68"
   }
  ]
 }
