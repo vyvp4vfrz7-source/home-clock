@@ -1,14 +1,56 @@
 {
- "updated": "2026-11-28T00:14+00:00",
+ "updated": "2026-11-28T01:46+00:00",
  "items": [
   {
    "src": "香港",
    "lang": "zh",
-   "t": "長沙灣有地盤發現二戰美製燃燒式子彈 爆炸品處理課人員到場檢走",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879551-20261128.htm",
-   "d": "長沙灣有地盤發現懷疑戰時子彈，警方爆炸品處理課人員到場處理。 警方昨日傍晚6時許接獲興華街3號一個地盤的工人報案，指發現兩枚懷疑炸彈，警員接報到場，發現兩枚二戰時期美製燃燒式子彈，分別長約15及17厘米，爆炸品處理課人員到場檢走，並將兩枚子彈安全處理，事件中無人受傷。 編輯：許敬軒",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879551_1_M_20261128023025.jpg",
-   "at": "2026-11-27T18:30+00:00",
+   "t": "中九龍繞道九龍灣段下月開通 運輸署：有望分流觀塘繞道一成車流",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879571-20261128.htm",
+   "d": "中九龍繞道（九龍灣段）下月6日早上7時啟用，標誌著6號幹線全線開通。行經中九龍繞道的所有車種，全日以「易通行」劃一收費8元。 運輸署副署長梁世豪在本台節目《星期六問責》表示，6號幹線屬快速幹道，可作較遠程跨區出行，並與現行其他道路分工，他舉例，如由將軍澳前往油麻地可用新路，如由將軍澳前往觀塘或啟德就可行經現有道路網絡，期望九龍灣段開通後，可分流長途車輛，有望分流觀塘繞道一成車流至中九龍繞道。 梁世豪表示，每當新道路啟用時，駕駛人士都需時…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879571_1_M_20261128094611.jpg",
+   "at": "2026-11-28T01:31+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "國際",
+   "lang": "zh",
+   "t": "台灣「九合一」選舉開始投票 核電政策公投同步舉行",
+   "u": "https://www.bbc.com/zhongwen/live/c60evlqlpx32t/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣1965萬選民將票選縣市長、地方議員、鄉鎮村里長等將近1.11萬名公職人員，同時公投決定日後能源政策。",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2d72/live/09b6a390-eac4-11f1-837d-d551920f7283.jpg",
+   "at": "2026-11-28T00:00+00:00",
+   "where": [
+    23.7,
+    121.0,
+    "台灣"
+   ]
+  },
+  {
+   "src": "世界",
+   "lang": "zh",
+   "t": "挪威廉航北歐大西洋航空申請破產",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879569-20261128.htm",
+   "d": "挪威廉航北歐大西洋航空宣佈，將為旗下主要運營子公司申請破產，並停止售票及取消所有航班。 報道說，這是繼拉脫維亞波羅的海航空之後，今年歐洲第二間啟動破產程序的航空公司，凸顯伊朗戰爭導致燃油價格飆升，對未採取燃油價格對沖措施的航空公司造成沉重打擊。 路透社報道，北歐大西洋航空發表聲明說，由於未能籌集足夠資金應付短期流動資金需求，董事會決定向挪威地方法院提交破產申請。 2022年成立的北歐大西洋航空表示，租賃公司已終止旗下全部12架飛機的租賃…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879569_1_M_20261128092549.jpg",
+   "at": "2026-11-28T01:25+00:00",
+   "where": [
+    59.91,
+    10.75,
+    "挪威"
+   ]
+  },
+  {
+   "src": "香港",
+   "lang": "zh",
+   "t": "許正宇稱歐盟對本港代幣化政策法規很有興趣 想向香港取經",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879570-20261128.htm",
+   "d": "早前訪問歐洲的財經事務及庫務局局長許正宇表示，歐洲期望綠色轉型，更好通過可持續金融推動本地發展，並思考將當地存款由一直以來以銀行、保險主導的金融系統，轉為更多使用資本市場，而香港在這兩方面均走得比較前，可以分享經驗，或者互惠互利。 許正宇在一個電台節目表示，歐盟方面對於綠色金融和資本市場的發展、與內地的聯通，以及本港最近的代幣化政策法規很有興趣，想向香港取經，並於當地推出相應措施推動自身發展。 至於在國家層面，他表示，會見比利時和盧森堡…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879570_1_M_20261128094114.jpg",
+   "at": "2026-11-28T01:26+00:00",
    "where": [
     22.32,
     114.17,
@@ -46,53 +88,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "控方推斷鄺港智按計劃殺害蔡天鳳可能性最能夠解釋所有證據",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879540-20261127.htm",
-   "d": "蔡天鳳案在高等法院續審，控方結案陳詞，指3名被告是早有計劃犯案，各有角色，按計劃執行，又認為3人對案發前所購買的工具和裝備的理由，包括種花或餵狗等，是荒謬可笑。 控方又推斷，導致蔡天鳳死亡的可能性有三個，當中以鄺港智按計劃殺害蔡天鳳的可能性，最能夠解釋所有證據。 編輯：譚佩貞",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879540_1_M_20261127225208.jpg",
-   "at": "2026-11-27T14:52+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "國際",
-   "lang": "zh",
-   "t": "台中市選戰：江啟臣對決何欣純，盧秀燕問鼎總統前哨戰",
-   "u": "https://www.bbc.com/zhongwen/articles/cx053e8yr348o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "台灣選舉傳統中，素有「決戰中台灣」一稱。江啟臣若當選，盧路線將得到選民加持，其在國民黨內的聲望也有望進一步升高。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/ed63/live/743f96d0-ea25-11f1-a968-f30728b956c0.jpg",
-   "at": "2026-11-27T05:47+00:00",
-   "where": [
-    23.7,
-    121.0,
-    "台灣"
-   ]
-  },
-  {
-   "src": "世界",
-   "lang": "zh",
-   "t": "西班牙主要政黨在周日大選前舉行最後一場造勢活動",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879556-20261128.htm",
-   "d": "西班牙各主要政黨在星期日大選前舉行最後一場造勢活動，執政工人社會黨領袖、首相桑切斯表示，有信心打破民調預測結果連任，又指責保守派對手、人民黨領袖費霍計劃與極右勢力結盟。 根據西班牙選舉法，過去的星期一起已禁止發布民調結果，星期六亦是選舉冷靜期，禁止拉票。在最後公布的民調中，人民黨輕微領先工人社會黨，費霍在競選活動最後階段，先後造訪巴塞羅那與塞維利亞，向選民承諾將會開啟一個講求真相、體面與良善治理的新政治時代，指責桑切斯在貪腐、鐵路事故、…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879556_1_M_20261128052014.jpg",
-   "at": "2026-11-27T21:20+00:00",
-   "where": [
-    40.3,
-    -3.7,
-    "西班牙"
-   ]
-  },
-  {
-   "src": "香港",
-   "lang": "zh",
-   "t": "陳健波稱要正視醫療保費加幅大",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879537-20261127.htm",
-   "d": "政府委任陳健波接替范鴻齡，出任醫管局主席，任期下月1日起生效。陳健波表示，醫管局主席領導最高架構，需要有豐富財經、策略和行政管理等經驗，可以從醫護界以外更廣闊的角度，提出創新思維，協調各方資源，又說不少歷任主席並非醫生出身，結合專業、醫療、企業管治和金融財務等多方面經驗，有助令運作更高效和低成本。 陳健波在社交專頁上載片段，表示除了調整公營醫療收費，現時已有更具創意的想法增加醫療收入，正研究如何推行。他又指，要正視醫療保費加幅大，自己雖…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879537_1_M_20261127213919.jpg",
-   "at": "2026-11-27T13:39+00:00",
+   "t": "土拓署料6號幹線全線投入服務後約兩成跨區車輛會使用新路",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879568-20261128.htm",
+   "d": "中九龍繞道（九龍灣段）下月6日早上7時啟用，標誌著6號幹線全線開通。行經中九龍繞道的所有車種，全日以「易通行」劃一收費8元。 土木工程拓展署東拓展處處長梁中立在本台節目《星期六問責》表示，6號幹線為快速道路，全長12.5公里，連接將軍澳、藍田、啟德以及西九龍，繁忙時間使用6號幹線，行車時間會由以往的65分鐘大幅減至12分鐘。他估計，隨著6號幹線全線投入服務，約兩成跨區車輛會使用新路，分流觀塘道、觀塘繞道、加士居道天橋等主要道路交通，而啟…",
+   "at": "2026-11-28T01:23+00:00",
    "where": [
     22.32,
     114.17,
@@ -111,25 +110,25 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "澤連斯基不滿特朗普形容普京為朋友 又指美國延誤交付愛國者系統",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879555-20261128.htm",
-   "d": "烏克蘭總統澤連斯基不滿美國總統特朗普形容俄羅斯總統普京是朋友，又指烏克蘭非常缺乏攔截彈道導彈所需的彈藥，指美國延遲交付愛國者防空系統，導致烏克蘭人喪生。 澤連斯基接受英國廣播公司專訪時形容，特朗普發布擁抱普京的照片是奇怪的事，形容普京是侵略者和殺人兇手，絕不可能成為朋友，情況就好像在二戰期間，指自己與希特勒是朋友一樣。 特朗普星期四再被問到稱呼普京為朋友時強調，自己只是想停止殺戮和達成協議，如果一見面就說不喜歡對方，只會面對澤連斯基現在…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879555_1_M_20261128044006.jpg",
-   "at": "2026-11-27T20:40+00:00",
+   "t": "西班牙主要政黨在周日大選前舉行最後一場造勢活動",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879556-20261128.htm",
+   "d": "西班牙各主要政黨在星期日大選前舉行最後一場造勢活動，執政工人社會黨領袖、首相桑切斯表示，有信心打破民調預測結果連任，又指責保守派對手、人民黨領袖費霍計劃與極右勢力結盟。 根據西班牙選舉法，過去的星期一起已禁止發布民調結果，星期六亦是選舉冷靜期，禁止拉票。在最後公布的民調中，人民黨輕微領先工人社會黨，費霍在競選活動最後階段，先後造訪巴塞羅那與塞維利亞，向選民承諾將會開啟一個講求真相、體面與良善治理的新政治時代，指責桑切斯在貪腐、鐵路事故、…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879556_1_M_20261128052014.jpg",
+   "at": "2026-11-27T21:20+00:00",
    "where": [
-    49.0,
-    31.4,
-    "烏克蘭"
+    40.3,
+    -3.7,
+    "西班牙"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "警方大埔拘捕58歲男子 涉與周三富善邨長者行劫案有關",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879535-20261127.htm",
-   "d": "警方下午在大埔區拘捕一名58歲本地男子，他涉嫌與星期三在大埔富善邨發生的一宗針對長者的行劫案有關。 大埔警區情報组督察伍展宏表示，一名年約84歲的長者星期三中午返回位於富善邨善美樓的寓所時，被人從後推跌，並用手襲擊，再搶去他身上配戴的金飾，以及兩萬元現金，合共約65萬元。警方翻查閉路電視及「銳眼」系統後，於案發48小時內在區內拘捕該名58歲男子，初步調查相信，他與被劫的長者住在同一幢大廈，早前曾在大廈附近跟蹤受害人，然後在受害人返家時，…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879535_1_M_20261127211653.jpg",
-   "at": "2026-11-27T13:16+00:00",
+   "t": "長沙灣有地盤發現二戰美製燃燒式子彈 爆炸品處理課人員到場檢走",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879551-20261128.htm",
+   "d": "長沙灣有地盤發現懷疑戰時子彈，警方爆炸品處理課人員到場處理。 警方昨日傍晚6時許接獲興華街3號一個地盤的工人報案，指發現兩枚懷疑炸彈，警員接報到場，發現兩枚二戰時期美製燃燒式子彈，分別長約15及17厘米，爆炸品處理課人員到場檢走，並將兩枚子彈安全處理，事件中無人受傷。 編輯：許敬軒",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879551_1_M_20261128023025.jpg",
+   "at": "2026-11-27T18:30+00:00",
    "where": [
     22.32,
     114.17,
@@ -153,25 +152,25 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "受風暴影響 美國仍有近50萬戶無電力供應",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879554-20261128.htm",
-   "d": "美國東岸在感恩節假期遭受風暴襲擊，截至星期五仍有近50萬戶無電力供應。 星期四的感恩節假期正值年度最繁忙的旅遊高峰，風暴帶來強風暴雨，從新罕布什爾州到北卡羅來納州，都有大量樹木倒塌和電線被吹倒。賓夕法尼亞州的停電影響最嚴重，大約12萬2000戶處於停電狀態，紐約州就有近4萬5000戶仍未恢復供電。 航班亦持續受影響，星期五約有1600班機延誤，超過500班取消。 編輯：許敬軒",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879554_1_M_20261128033704.jpg",
-   "at": "2026-11-27T19:37+00:00",
+   "t": "澤連斯基不滿特朗普形容普京為朋友 又指美國延誤交付愛國者系統",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879555-20261128.htm",
+   "d": "烏克蘭總統澤連斯基不滿美國總統特朗普形容俄羅斯總統普京是朋友，又指烏克蘭非常缺乏攔截彈道導彈所需的彈藥，指美國延遲交付愛國者防空系統，導致烏克蘭人喪生。 澤連斯基接受英國廣播公司專訪時形容，特朗普發布擁抱普京的照片是奇怪的事，形容普京是侵略者和殺人兇手，絕不可能成為朋友，情況就好像在二戰期間，指自己與希特勒是朋友一樣。 特朗普星期四再被問到稱呼普京為朋友時強調，自己只是想停止殺戮和達成協議，如果一見面就說不喜歡對方，只會面對澤連斯基現在…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879555_1_M_20261128044006.jpg",
+   "at": "2026-11-27T20:40+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    49.0,
+    31.4,
+    "烏克蘭"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "羅淑佩：各項盛事帶動下 不但人氣旺財氣亦旺",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879529-20261127.htm",
-   "d": "文化體育及旅遊局局長羅淑佩表示，在各項盛事帶動下，今年頭10個月訪港旅客人次按年上升超過一成，不但人氣旺，財氣亦旺。受惠旅客人數上升，今年頭9個月零售業總銷貨價值，以及食肆總收益也錄得增長，反映盛事同時帶動零售業及餐飲業。 羅淑佩出席旅發局「冬日小鎮」啓動禮致辭說，今年旅發局舉辦的香港繽紛冬日巡禮活動是歷來規模最大，其中香港「冬日小鎮」從中環擴展至尖沙咀及銅鑼灣三大旅遊熱點，有見市民及遊客對活動反應熱烈，旅發局今日起，將中環及尖沙咀的「…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879529_1_M_20261127204448.jpg",
-   "at": "2026-11-27T12:44+00:00",
+   "t": "控方推斷鄺港智按計劃殺害蔡天鳳可能性最能夠解釋所有證據",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879540-20261127.htm",
+   "d": "蔡天鳳案在高等法院續審，控方結案陳詞，指3名被告是早有計劃犯案，各有角色，按計劃執行，又認為3人對案發前所購買的工具和裝備的理由，包括種花或餵狗等，是荒謬可笑。 控方又推斷，導致蔡天鳳死亡的可能性有三個，當中以鄺港智按計劃殺害蔡天鳳的可能性，最能夠解釋所有證據。 編輯：譚佩貞",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879540_1_M_20261127225208.jpg",
+   "at": "2026-11-27T14:52+00:00",
    "where": [
     22.32,
     114.17,
@@ -195,25 +194,25 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "普京稱俄羅斯是世界上少數有能力建造強大核潛艇的國家之一",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879553-20261128.htm",
-   "d": "俄羅斯總統普京表示，俄羅斯是世界上少數有能力建造強大核潛艇的國家之一。 普京星期五在西北部城市北德文斯克一個造船廠，出席「彼爾姆號」核潛艇升旗儀式時說，核潛艇是具備世界級水平和全球意義的武器，設計局和船廠掌握所需要的前沿技術和工程解決方案，擁有豐富經驗和高素質人才。 他說，海軍將於2030年前再接收五艘潛艇，包括三艘與「彼爾姆號」同屬「亞森-M」型的多用途潛艇，這款潛艇能夠滿足現代和未來要求，能夠在全球任何海域執行任務，並搭載多款巡航導…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879553_1_M_20261128025054.jpg",
-   "at": "2026-11-27T18:50+00:00",
+   "t": "受風暴影響 美國仍有近50萬戶無電力供應",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879554-20261128.htm",
+   "d": "美國東岸在感恩節假期遭受風暴襲擊，截至星期五仍有近50萬戶無電力供應。 星期四的感恩節假期正值年度最繁忙的旅遊高峰，風暴帶來強風暴雨，從新罕布什爾州到北卡羅來納州，都有大量樹木倒塌和電線被吹倒。賓夕法尼亞州的停電影響最嚴重，大約12萬2000戶處於停電狀態，紐約州就有近4萬5000戶仍未恢復供電。 航班亦持續受影響，星期五約有1600班機延誤，超過500班取消。 編輯：許敬軒",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879554_1_M_20261128033704.jpg",
+   "at": "2026-11-27T19:37+00:00",
    "where": [
-    55.75,
-    37.6,
-    "俄羅斯"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "海事處：十分關注客輪青衣撞浮塢事故 已登船展開調查",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879532-20261127.htm",
-   "d": "一艘由上環開往蛇口的客輪早上在青衣撞到一個浮塢，22人受傷。海事處表示，十分關注事故，對所有傷者表達慰問，驗船人員已登船展開調查，檢查船隻的結構安全。檢驗工作將繼續進行，強調渡輪需要確定符合安全航行才會獲發出港證，以離開香港水域。 海事處回覆查詢說，調查人員已會見部分船員以錄取口供，並將繼續會見受傷送院人士，包括船長，以了解事發經過。海事處正根據海事法例，要求該艘渡輪的管理公司，在事發後24小時內提交事故報告和相關資料，以便處方審視船舶…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879532_1_M_20261127204240.jpg",
-   "at": "2026-11-27T12:42+00:00",
+   "t": "陳健波稱要正視醫療保費加幅大",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879537-20261127.htm",
+   "d": "政府委任陳健波接替范鴻齡，出任醫管局主席，任期下月1日起生效。陳健波表示，醫管局主席領導最高架構，需要有豐富財經、策略和行政管理等經驗，可以從醫護界以外更廣闊的角度，提出創新思維，協調各方資源，又說不少歷任主席並非醫生出身，結合專業、醫療、企業管治和金融財務等多方面經驗，有助令運作更高效和低成本。 陳健波在社交專頁上載片段，表示除了調整公營醫療收費，現時已有更具創意的想法增加醫療收入，正研究如何推行。他又指，要正視醫療保費加幅大，自己雖…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879537_1_M_20261127213919.jpg",
+   "at": "2026-11-27T13:39+00:00",
    "where": [
     22.32,
     114.17,
@@ -237,24 +236,24 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "哈馬斯稱領導人之子在以軍襲擊中倖存",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879552-20261128.htm",
-   "d": "巴勒斯坦武裝組織哈馬斯政治局成員納伊姆表示，哈馬斯政治局主席哈亞最小的兒子伊茲丁，在以軍星期五的襲擊中倖存。 新華社報道，以色列無人機星期五凌晨襲擊加沙城西部一處住宅，伊茲丁的妻子在襲擊中重傷。納伊姆將襲擊形容為國家恐怖主義，指如果以色列繼續不受懲罰地發動襲擊，安全與穩定就不可能實現。 哈馬斯亦發表聲明譴責襲擊，指責以色列違反停火協議。 編輯：許敬軒",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879552_1_M_20261128023618.jpg",
-   "at": "2026-11-27T18:36+00:00",
+   "t": "普京稱俄羅斯是世界上少數有能力建造強大核潛艇的國家之一",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879553-20261128.htm",
+   "d": "俄羅斯總統普京表示，俄羅斯是世界上少數有能力建造強大核潛艇的國家之一。 普京星期五在西北部城市北德文斯克一個造船廠，出席「彼爾姆號」核潛艇升旗儀式時說，核潛艇是具備世界級水平和全球意義的武器，設計局和船廠掌握所需要的前沿技術和工程解決方案，擁有豐富經驗和高素質人才。 他說，海軍將於2030年前再接收五艘潛艇，包括三艘與「彼爾姆號」同屬「亞森-M」型的多用途潛艇，這款潛艇能夠滿足現代和未來要求，能夠在全球任何海域執行任務，並搭載多款巡航導…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879553_1_M_20261128025054.jpg",
+   "at": "2026-11-27T18:50+00:00",
    "where": [
-    31.4,
-    34.4,
-    "加沙"
+    55.75,
+    37.6,
+    "俄羅斯"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "八達通系統遭網絡攻擊 涉約7500客戶及2.2萬商戶資料",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879531-20261127.htm",
-   "d": "八達通卡公司今日早上偵測到系統受到網絡攻擊，涉及約7500名客戶的個人資料，包括姓名和相片，部分資料亦可能涉及自動增值服務資料，包括銀行編號及自動增值金額，但不涉信用卡或銀行戶口資料；約22000名商戶的一般資料同樣受影響，包括公司聯絡人姓名、職位、電郵地址及電話號碼。 八達通表示，已隨即採取行動控制事件，八達通主要服務運作如常，客戶可如常使用八達通卡，手機八達通及八達通銀包。截至目前，八達通未發現有客戶蒙受財務損失，卡內及錢包內的餘額…",
-   "at": "2026-11-27T12:34+00:00",
+   "t": "大埔富善邨八旬長者周三遇劫 警拘住同大廈男子疑曾跟蹤受害人",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879535-20261127.htm",
+   "d": "警方下午在大埔區拘捕一名58歲本地男子，他涉嫌與星期三在大埔富善邨發生的一宗針對長者的行劫案有關。 大埔警區情報组督察伍展宏表示，一名年約84歲的長者星期三中午返回位於富善邨善美樓的寓所時，被人從後推跌，並用手襲擊，再搶去他身上配戴的金飾，以及兩萬元現金，合共約65萬元。警方翻查閉路電視及「銳眼」系統後，於案發48小時內在區內拘捕該名58歲男子，初步調查相信，他與被劫的長者住在同一幢大廈，早前曾在大廈附近跟蹤受害人，然後在受害人返家時，…",
+   "at": "2026-11-27T13:16+00:00",
    "where": [
     22.32,
     114.17,
@@ -278,23 +277,23 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "美國空軍雲計算平台據報遭黑客入侵 或涉敏感軍事數據",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879550-20261128.htm",
-   "d": "路透社報道，美國空軍的旗艦雲計算平台被黑客入侵，事件可能危及大量敏感的作戰、人事和後勤數據。 報道引述知情人士說，針對Cloud One平台的入侵事件，是在過去大約一個月展開系統升級時發現。發現入侵後，整個平台的運作受到干擾。路透社說，目前無法確認黑客身份、入侵的範圍，亦無法確定是否有資料被竊取。 消息人士形容，Cloud One是美軍規模最大的雲平台之一，發生黑客入侵事件是相當嚴重，調查人員已請求網絡司令部介入，評估損失情況。 美國空…",
-   "at": "2026-11-27T18:19+00:00",
+   "t": "哈馬斯稱領導人之子在以軍襲擊中倖存",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879552-20261128.htm",
+   "d": "巴勒斯坦武裝組織哈馬斯政治局成員納伊姆表示，哈馬斯政治局主席哈亞最小的兒子伊茲丁，在以軍星期五的襲擊中倖存。 新華社報道，以色列無人機星期五凌晨襲擊加沙城西部一處住宅，伊茲丁的妻子在襲擊中重傷。納伊姆將襲擊形容為國家恐怖主義，指如果以色列繼續不受懲罰地發動襲擊，安全與穩定就不可能實現。 哈馬斯亦發表聲明譴責襲擊，指責以色列違反停火協議。 編輯：許敬軒",
+   "at": "2026-11-27T18:36+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    31.4,
+    34.4,
+    "加沙"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "政府：政策局正著力審視防範風險隱患機制 應對網絡保安風險",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879527-20261127.htm",
-   "d": "因應近來接連發生個人資料外洩事件，政府表示，重視資訊及網絡安全。相關政策局正著力審視現有防範風險隱患機制，以提升防禦能力，應對日益增加的網絡保安風險。 另外，民建聯主席、立法會議員陳克勤表示，過去兩個月內本港連續發生接近20宗網絡資料外洩事宜，受影響人次高達三百多萬。他已去信立法會保安事務委員會主席，建議於下月1日的會議上臨時加入緊急議程，討論「加強網絡安全防禦及遏止大型資料外洩引發的詐騙風險」。 他表示，涉事機構及外判承辦商在事故後未…",
-   "at": "2026-11-27T12:03+00:00",
+   "t": "羅淑佩：各項盛事帶動下 不但人氣旺財氣亦旺",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879529-20261127.htm",
+   "d": "文化體育及旅遊局局長羅淑佩表示，在各項盛事帶動下，今年頭10個月訪港旅客人次按年上升超過一成，不但人氣旺，財氣亦旺。受惠旅客人數上升，今年頭9個月零售業總銷貨價值，以及食肆總收益也錄得增長，反映盛事同時帶動零售業及餐飲業。 羅淑佩出席旅發局「冬日小鎮」啓動禮致辭說，今年旅發局舉辦的香港繽紛冬日巡禮活動是歷來規模最大，其中香港「冬日小鎮」從中環擴展至尖沙咀及銅鑼灣三大旅遊熱點，有見市民及遊客對活動反應熱烈，旅發局今日起，將中環及尖沙咀的「…",
+   "at": "2026-11-27T12:44+00:00",
    "where": [
     22.32,
     114.17,
@@ -318,23 +317,23 @@
   {
    "src": "世界",
    "lang": "zh",
-   "t": "中方提醒在日公民防範地震等災害 倡儲備至少一周糧食及防災物品",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879549-20261128.htm",
-   "d": "中國駐日本大使館提醒在日中國公民注意防範地震等自然災害，提前做好應急準備，包括建議儲備至少一星期飲用水、食品、防災急救用品等應急物資。 大使館發文說，近期熊本縣、茨城縣、千葉縣、靜岡縣、北海道近海等地地震頻繁發生，日本政府本月2日正式成立防災廳，以應對可能發生的首都直下型地震、南海海槽地震等大規模自然災害。 鑑於上述情況，使館提醒在日中國公民切實增強防範意識，熟悉附近避難所地址和逃生路線，做好生活物資儲備，密切關注地震動態、氣象預警和防…",
-   "at": "2026-11-27T17:34+00:00",
+   "t": "美國空軍雲計算平台據報遭黑客入侵 或涉敏感軍事數據",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879550-20261128.htm",
+   "d": "路透社報道，美國空軍的旗艦雲計算平台被黑客入侵，事件可能危及大量敏感的作戰、人事和後勤數據。 報道引述知情人士說，針對Cloud One平台的入侵事件，是在過去大約一個月展開系統升級時發現。發現入侵後，整個平台的運作受到干擾。路透社說，目前無法確認黑客身份、入侵的範圍，亦無法確定是否有資料被竊取。 消息人士形容，Cloud One是美軍規模最大的雲平台之一，發生黑客入侵事件是相當嚴重，調查人員已請求網絡司令部介入，評估損失情況。 美國空…",
+   "at": "2026-11-27T18:19+00:00",
    "where": [
-    34.0,
-    108.0,
-    "中國"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
    "src": "香港",
    "lang": "zh",
-   "t": "【重溫】2026年11月27日新聞天地",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879518-20261127.htm",
-   "d": "詳盡報道本地時事、大中華消息、國際局勢等新聞，緊貼最新熱話。",
-   "at": "2026-11-27T11:50+00:00",
+   "t": "海事處：十分關注客輪青衣撞浮塢事故 已登船展開調查",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879532-20261127.htm",
+   "d": "一艘由上環開往蛇口的客輪早上在青衣撞到一個浮塢，22人受傷。海事處表示，十分關注事故，對所有傷者表達慰問，驗船人員已登船展開調查，檢查船隻的結構安全。檢驗工作將繼續進行，強調渡輪需要確定符合安全航行才會獲發出港證，以離開香港水域。 海事處回覆查詢說，調查人員已會見部分船員以錄取口供，並將繼續會見受傷送院人士，包括船長，以了解事發經過。海事處正根據海事法例，要求該艘渡輪的管理公司，在事發後24小時內提交事故報告和相關資料，以便處方審視船舶…",
+   "at": "2026-11-27T12:42+00:00",
    "where": [
     22.32,
     114.17,
@@ -358,10 +357,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "警方：上月至今錄得30宗網絡安全事故",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879522-20261127.htm",
-   "d": "警方表示，留意到近期發生多宗網絡攻擊事故，導致客戶資料外洩。 警方最近錄得30宗網絡攻擊事故，其中近半涉及勒索軟件，受影響的主要涉及零售企業。 編輯：劉景輝",
-   "at": "2026-11-27T11:39+00:00",
+   "t": "八達通系統遭網絡攻擊 涉約7500客戶及2.2萬商戶資料",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879531-20261127.htm",
+   "d": "八達通卡公司今日早上偵測到系統受到網絡攻擊，涉及約7500名客戶的個人資料，包括姓名和相片，部分資料亦可能涉及自動增值服務資料，包括銀行編號及自動增值金額，但不涉信用卡或銀行戶口資料；約22000名商戶的一般資料同樣受影響，包括公司聯絡人姓名、職位、電郵地址及電話號碼。 八達通表示，已隨即採取行動控制事件，八達通主要服務運作如常，客戶可如常使用八達通卡，手機八達通及八達通銀包。截至目前，八達通未發現有客戶蒙受財務損失，卡內及錢包內的餘額…",
+   "at": "2026-11-27T12:34+00:00",
    "where": [
     22.32,
     114.17,
@@ -371,15 +370,15 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "宏福苑大火一周年：居民受壓、媒體噤聲，為何悼念變得小心翼翼？",
-   "u": "https://www.bbc.com/zhongwen/articles/cw8dv46pv125o/trad?at_medium=RSS&at_campaign=rss",
-   "d": "宏福苑大火一周年前夕，港府官員稱「政府絕對容許」合法活動，但有遺屬表示悼念活動受壓，也有新聞工作者向BBC中文透露，相關周年報導在製作完成後突然「被抽起」。",
-   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/b501/live/4704feb0-e80b-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-26T05:41+00:00",
+   "t": "台中市選戰：江啟臣對決何欣純，盧秀燕問鼎總統前哨戰",
+   "u": "https://www.bbc.com/zhongwen/articles/cx053e8yr348o/trad?at_medium=RSS&at_campaign=rss",
+   "d": "台灣選舉傳統中，素有「決戰中台灣」一稱。江啟臣若當選，盧路線將得到選民加持，其在國民黨內的聲望也有望進一步升高。",
+   "img": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/ed63/live/743f96d0-ea25-11f1-a968-f30728b956c0.jpg",
+   "at": "2026-11-27T05:47+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    23.7,
+    121.0,
+    "台灣"
    ]
   },
   {
@@ -483,15 +482,15 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Kenyan doomsday cult leader convicted over further 123 deaths",
-   "u": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
-   "d": "Paul Mackenzie is found guilty of killing his followers, weeks after being jailed for the mass murder of children.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fd53/live/e165d810-ea74-11f1-a828-d384c0290f6b.jpg",
-   "at": "2026-11-27T17:19+00:00",
+   "t": "Nigeria's 'ultimate hard man' who become an online meme",
+   "u": "https://www.bbc.co.uk/news/articles/cm3vg3lkrk03o?at_medium=RSS&at_campaign=rss",
+   "d": "Before becoming a household name in the Nigerian film industry, Edochie built a career in broadcasting.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c91e/live/0a998920-ea7a-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-28T01:20+00:00",
    "where": [
-    -0.02,
-    37.9,
-    "肯尼亞"
+    9.1,
+    8.7,
+    "尼日利亞"
    ]
   },
   {
@@ -525,11 +524,11 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Sheikh Hasina's planned return puts Bangladesh on edge - and India in a bind",
-   "u": "https://www.bbc.co.uk/news/articles/cx30g71rev23o?at_medium=RSS&at_campaign=rss",
-   "d": "The ousted prime minister's December homecoming plan deepens Dhaka-Delhi tensions and risks fresh unrest.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fe82/live/56152150-e9af-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-27T00:47+00:00",
+   "t": "The Indian 'Tamasha queen' whose fans paid for a show that never happened",
+   "u": "https://www.bbc.co.uk/news/articles/cj20q9pw0116o?at_medium=RSS&at_campaign=rss",
+   "d": "A new Bollywood flim spotlights the remarkable life of dancer and singer Vithabhai Narayangaonkar.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/dcbd/live/d9f6b7b0-e97b-11f1-acd8-af22a7ebb474.jpg",
+   "at": "2026-11-28T00:50+00:00",
    "where": [
     21.0,
     78.0,
@@ -595,15 +594,15 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "New satellite data shows how fast some African cities are sinking",
-   "u": "https://www.bbc.co.uk/news/articles/cq074p95z4llo?at_medium=RSS&at_campaign=rss",
-   "d": "Cities including Lagos and Alexandria are sinking faster than previously thought, a new study shows.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3110/live/92589920-e988-11f1-9d1c-4dcc8fcde666.jpg",
-   "at": "2026-11-27T19:03+00:00",
+   "t": "Kenyan doomsday cult leader convicted over further 123 deaths",
+   "u": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
+   "d": "Paul Mackenzie is found guilty of killing his followers, weeks after being jailed for the mass murder of children.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fd53/live/e165d810-ea74-11f1-a828-d384c0290f6b.jpg",
+   "at": "2026-11-27T17:19+00:00",
    "where": [
-    5.0,
-    20.0,
-    "非洲"
+    -0.02,
+    37.9,
+    "肯尼亞"
    ]
   },
   {
@@ -637,29 +636,29 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Ex-media executive admits saying Australian child sex abuse survivor 'looking to be raped again'",
-   "u": "https://www.bbc.co.uk/news/articles/ckr5grlq78n9o?at_medium=RSS&at_campaign=rss",
-   "d": "The former Murdoch media executive was overheard at an event referring to the way Grace Tame was dressed.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/88cd/live/81fb0990-ea42-11f1-9fc4-ef897a334b75.jpg",
-   "at": "2026-11-27T11:44+00:00",
+   "t": "Sheikh Hasina's planned return puts Bangladesh on edge - and India in a bind",
+   "u": "https://www.bbc.co.uk/news/articles/cx30g71rev23o?at_medium=RSS&at_campaign=rss",
+   "d": "The ousted prime minister's December homecoming plan deepens Dhaka-Delhi tensions and risks fresh unrest.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/fe82/live/56152150-e9af-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-27T00:47+00:00",
    "where": [
-    -25.3,
-    133.8,
-    "澳洲"
+    21.0,
+    78.0,
+    "印度"
    ]
   },
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Watch: Roofs torn off and streets under water as severe weather hits US",
-   "u": "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss",
-   "d": "Hundreds of thousands have been affected by storms in the country as the Thanksgiving holiday weekend begins.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cda3/live/d6364450-ea2b-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-26T19:26+00:00",
+   "t": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+   "u": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+   "d": "The law faced legal challenges from a range of groups, including female Muslim, Sikh and Catholic teachers, who argued it violated their fundamental rights.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b5e9/live/7ddd01c0-ea82-11f1-a739-457c2295eaba.jpg",
+   "at": "2026-11-27T16:53+00:00",
    "where": [
-    38.9,
-    -77.04,
-    "美國"
+    56.1,
+    -106.3,
+    "加拿大"
    ]
   },
   {
@@ -707,15 +706,15 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Uganda to withdraw troops from DR Congo town amid diplomatic row",
-   "u": "https://www.bbc.co.uk/news/articles/cq4gnj2ldkyzo?at_medium=RSS&at_campaign=rss",
-   "d": "The Ugandan army is helping the Congolese military fight an Islamist militant group in the east of the country.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ed57/live/574552c0-ea45-11f1-9fc4-ef897a334b75.jpg",
-   "at": "2026-11-27T10:39+00:00",
+   "t": "New satellite data shows how fast some African cities are sinking",
+   "u": "https://www.bbc.co.uk/news/articles/cq074p95z4llo?at_medium=RSS&at_campaign=rss",
+   "d": "Cities including Lagos and Alexandria are sinking faster than previously thought, a new study shows.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/3110/live/92589920-e988-11f1-9d1c-4dcc8fcde666.jpg",
+   "at": "2026-11-27T19:03+00:00",
    "where": [
-    -4.32,
-    15.31,
-    "剛果"
+    5.0,
+    20.0,
+    "非洲"
    ]
   },
   {
@@ -749,29 +748,29 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
-   "u": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
-   "d": "The right-leaning ruling bloc led by the National Party has fallen short of the majority needed to govern.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6f08/live/c2e7e400-ea01-11f1-976c-6d185a1abdb9.jpg",
-   "at": "2026-11-27T03:28+00:00",
+   "t": "Ex-media executive admits saying Australian child sex abuse survivor 'looking to be raped again'",
+   "u": "https://www.bbc.co.uk/news/articles/ckr5grlq78n9o?at_medium=RSS&at_campaign=rss",
+   "d": "The former Murdoch media executive was overheard at an event referring to the way Grace Tame was dressed.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/88cd/live/81fb0990-ea42-11f1-9fc4-ef897a334b75.jpg",
+   "at": "2026-11-27T11:44+00:00",
    "where": [
-    -41.3,
-    174.8,
-    "紐西蘭"
+    -25.3,
+    133.8,
+    "澳洲"
    ]
   },
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
-   "u": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
-   "d": "The law faced legal challenges from a range of groups, including female Muslim, Sikh and Catholic teachers, who argued it violated their fundamental rights.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/b5e9/live/7ddd01c0-ea82-11f1-a739-457c2295eaba.jpg",
-   "at": "2026-11-27T16:53+00:00",
+   "t": "Two American Airlines planes clip wings before takeoff at Reagan airport in 'tense' moment",
+   "u": "https://www.bbc.co.uk/news/articles/cqkgr4g5nrnlo?at_medium=RSS&at_campaign=rss",
+   "d": "No injuries were reported, and the FAA plans to investigate the incident, which occurred during taxiing.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/386f/live/5a2762a0-eaca-11f1-b4f7-a59fcb94e161.png",
+   "at": "2026-11-28T01:31+00:00",
    "where": [
-    56.1,
-    -106.3,
-    "加拿大"
+    38.9,
+    -77.04,
+    "美國"
    ]
   },
   {
@@ -819,15 +818,15 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Ex-Kenyan governor jailed for 25 years over pregnant girlfriend's murder",
-   "u": "https://www.bbc.co.uk/news/articles/crx209ekq5xdo?at_medium=RSS&at_campaign=rss",
-   "d": "The pregnant student was murdered after leaving a hotel with a journalist she had contacted to discuss her affair with the governor.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5f21/live/5d0dee20-ea85-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-27T11:22+00:00",
+   "t": "Uganda to withdraw troops from DR Congo town amid diplomatic row",
+   "u": "https://www.bbc.co.uk/news/articles/cq4gnj2ldkyzo?at_medium=RSS&at_campaign=rss",
+   "d": "The Ugandan army is helping the Congolese military fight an Islamist militant group in the east of the country.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ed57/live/574552c0-ea45-11f1-9fc4-ef897a334b75.jpg",
+   "at": "2026-11-27T10:39+00:00",
    "where": [
-    -0.02,
-    37.9,
-    "肯尼亞"
+    -4.32,
+    15.31,
+    "剛果"
    ]
   },
   {
@@ -861,20 +860,25 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Asia made a big AI bet on Nvidia. What happens now?",
-   "u": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
-   "d": "Asian stocks have been on a rollercoaster ride after Jensen Huang's shock return as Nvidia CEO.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2c76/live/9f54a560-e956-11f1-a629-63e812fa871f.jpg",
-   "at": "2026-11-26T23:08+00:00"
+   "t": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
+   "u": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
+   "d": "The right-leaning ruling bloc led by the National Party has fallen short of the majority needed to govern.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6f08/live/c2e7e400-ea01-11f1-976c-6d185a1abdb9.jpg",
+   "at": "2026-11-27T03:28+00:00",
+   "where": [
+    -41.3,
+    174.8,
+    "紐西蘭"
+   ]
   },
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Analysis: Why Trump's new tariffs are less of a threat",
-   "u": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
-   "d": "Other countries have rerouted trade in response to his first tariff salvo, now they are looking beyond Trump's tenure.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a44e/live/be7b3450-e9af-11f1-859a-37130cd3a1d7.jpg",
-   "at": "2026-11-26T19:55+00:00",
+   "t": "'Poison seller' Kenneth Law apologises in court to the families of his victims",
+   "u": "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo?at_medium=RSS&at_campaign=rss",
+   "d": "The Canadian man, who pleaded guilty to 14 counts of aiding and abetting suicide earlier this year, said he was remorseful for his actions.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/6398/live/0d6eb230-5b6c-11f1-a914-b7de1b16af02.jpg",
+   "at": "2026-11-28T00:56+00:00",
    "where": [
     38.9,
     -77.04,
@@ -926,15 +930,15 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Guinea-Bissau's military leaders delay return to civilian rule until 2028",
-   "u": "https://www.bbc.co.uk/news/articles/cm879e5yxjq5o?at_medium=RSS&at_campaign=rss",
-   "d": "The announcement comes a year after a military coup with its leaders promising a return to civilian rule within 12 months.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5f0c/live/9028aca0-ea3f-11f1-9fc4-ef897a334b75.jpg",
-   "at": "2026-11-27T08:58+00:00",
+   "t": "Ex-Kenyan governor jailed for 25 years over pregnant girlfriend's murder",
+   "u": "https://www.bbc.co.uk/news/articles/crx209ekq5xdo?at_medium=RSS&at_campaign=rss",
+   "d": "The pregnant student was murdered after leaving a hotel with a journalist she had contacted to discuss her affair with the governor.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5f21/live/5d0dee20-ea85-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-27T11:22+00:00",
    "where": [
-    5.0,
-    20.0,
-    "非洲"
+    -0.02,
+    37.9,
+    "肯尼亞"
    ]
   },
   {
@@ -968,25 +972,20 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "My dad's watch stopped the moment he died - I found it in the ashes of Hong Kong tower fire",
-   "u": "https://www.bbc.co.uk/news/videos/c6evr2y40v0jo?at_medium=RSS&at_campaign=rss",
-   "d": "The city marks a year since a huge blaze tore through seven apartment blocks, killing 168 people.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/56c9/live/268edc00-e978-11f1-99b6-a35a62fa4264.jpg",
-   "at": "2026-11-26T23:03+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
+   "t": "Asia made a big AI bet on Nvidia. What happens now?",
+   "u": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
+   "d": "Asian stocks have been on a rollercoaster ride after Jensen Huang's shock return as Nvidia CEO.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2c76/live/9f54a560-e956-11f1-a629-63e812fa871f.jpg",
+   "at": "2026-11-26T23:08+00:00"
   },
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "'Think twice': Banff officials issue warning over thin ice after skater's death",
-   "u": "https://www.bbc.co.uk/news/articles/c3wy01q8pjr8o?at_medium=RSS&at_campaign=rss",
-   "d": "After three separate incidents, one fatal, at Lake Louise, Parks Canada is warning visitors to be cautious after a warmer than average November.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/099e/live/0f5fba70-e9cf-11f1-82cb-3544f07293b5.jpg",
-   "at": "2026-11-26T20:09+00:00",
+   "t": "Watch: Roofs torn off and streets under water as severe weather hits US",
+   "u": "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss",
+   "d": "Hundreds of thousands have been affected by storms in the country as the Thanksgiving holiday weekend begins.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/cda3/live/d6364450-ea2b-11f1-a094-5fdc692f3e33.jpg",
+   "at": "2026-11-26T19:26+00:00",
    "where": [
     38.9,
     -77.04,
@@ -1038,15 +1037,15 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "UK police ruined my life, says Kenyan man wrongly convicted over attack on British couple",
-   "u": "https://www.bbc.co.uk/news/articles/cqvg2nlr8kd8o?at_medium=RSS&at_campaign=rss",
-   "d": "Evidence from a British police officer helped convict Ali Kololo over a 2011 attack in the Kenyan resort of Lamu.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5cfa/live/2eeecd70-e99f-11f1-b880-15b494ba858d.jpg",
-   "at": "2026-11-27T00:48+00:00",
+   "t": "Guinea-Bissau's military leaders delay return to civilian rule until 2028",
+   "u": "https://www.bbc.co.uk/news/articles/cm879e5yxjq5o?at_medium=RSS&at_campaign=rss",
+   "d": "The announcement comes a year after a military coup with its leaders promising a return to civilian rule within 12 months.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5f0c/live/9028aca0-ea3f-11f1-9fc4-ef897a334b75.jpg",
+   "at": "2026-11-27T08:58+00:00",
    "where": [
-    52.5,
-    -1.5,
-    "英國"
+    5.0,
+    20.0,
+    "非洲"
    ]
   },
   {
@@ -1079,11 +1078,11 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "A renovation was meant to improve these Hong Kong homes - it ended in a blaze that killed 168",
-   "u": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o?at_medium=RSS&at_campaign=rss",
-   "d": "A year after one of Hong Kong's deadliest fires, families left behind are still waiting for justice.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2b16/live/b6eddfc0-e8c5-11f1-ac76-db9e97f93d67.jpg",
-   "at": "2026-11-25T23:26+00:00",
+   "t": "My dad's watch stopped the moment he died - I found it in the ashes of Hong Kong tower fire",
+   "u": "https://www.bbc.co.uk/news/videos/c6evr2y40v0jo?at_medium=RSS&at_campaign=rss",
+   "d": "The city marks a year since a huge blaze tore through seven apartment blocks, killing 168 people.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/56c9/live/268edc00-e978-11f1-99b6-a35a62fa4264.jpg",
+   "at": "2026-11-26T23:03+00:00",
    "where": [
     22.32,
     114.17,
@@ -1093,11 +1092,11 @@
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "Pregnant US inmate escapes in prison vehicle after medical appointment",
-   "u": "https://www.bbc.co.uk/news/articles/c9m2jke85xzxo?at_medium=RSS&at_campaign=rss",
-   "d": "Rebecca Taylor had been imprisoned in New Mexico for multiple theft and burglary charges.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1b19/live/49e2b830-e995-11f1-9d1c-4dcc8fcde666.jpg",
-   "at": "2026-11-26T14:35+00:00",
+   "t": "Analysis: Why Trump's new tariffs are less of a threat",
+   "u": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
+   "d": "Other countries have rerouted trade in response to his first tariff salvo, now they are looking beyond Trump's tenure.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/a44e/live/be7b3450-e9af-11f1-859a-37130cd3a1d7.jpg",
+   "at": "2026-11-26T19:55+00:00",
    "where": [
     38.9,
     -77.04,
@@ -1149,15 +1148,15 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Hope for millions as cheaper HIV prevention jab reaches Africa",
-   "u": "https://www.bbc.co.uk/news/articles/cmly7jve72r2o?at_medium=RSS&at_campaign=rss",
-   "d": "Lenacapavir, administered as an injection twice a year, is nearly 100% effective at preventing HIV infection.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7ec2/live/6c97c050-e986-11f1-b64a-3bc3040b00fe.jpg",
-   "at": "2026-11-26T11:00+00:00",
+   "t": "UK police ruined my life, says Kenyan man wrongly convicted over attack on British couple",
+   "u": "https://www.bbc.co.uk/news/articles/cqvg2nlr8kd8o?at_medium=RSS&at_campaign=rss",
+   "d": "Evidence from a British police officer helped convict Ali Kololo over a 2011 attack in the Kenyan resort of Lamu.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5cfa/live/2eeecd70-e99f-11f1-b880-15b494ba858d.jpg",
+   "at": "2026-11-27T00:48+00:00",
    "where": [
-    5.0,
-    20.0,
-    "非洲"
+    52.5,
+    -1.5,
+    "英國"
    ]
   },
   {
@@ -1190,25 +1189,25 @@
   {
    "src": "ASIA",
    "lang": "en",
-   "t": "Nine injured, three critically, after Bangkok oil refinery explosion",
-   "u": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
-   "d": "Black smoke could be seen across Bangkok's skyline after the blast, as officials urged residents to leave the area.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/579b/live/12356f50-e985-11f1-bb43-d1b6102e3b60.jpg",
-   "at": "2026-11-26T16:21+00:00",
+   "t": "A renovation was meant to improve these Hong Kong homes - it ended in a blaze that killed 168",
+   "u": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o?at_medium=RSS&at_campaign=rss",
+   "d": "A year after one of Hong Kong's deadliest fires, families left behind are still waiting for justice.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2b16/live/b6eddfc0-e8c5-11f1-ac76-db9e97f93d67.jpg",
+   "at": "2026-11-25T23:26+00:00",
    "where": [
-    15.9,
-    100.99,
-    "泰國"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
    "src": "US & CANADA",
    "lang": "en",
-   "t": "US Army says controlled blast of explosives in Iowa was 'huge success'",
-   "u": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss",
-   "d": "Officials say no lead has been detected in the surrounding area, which continues to be tested following concerns from locals.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/9049/live/be474ac0-e8f9-11f1-b8b0-a95064d74c5f.jpg",
-   "at": "2026-11-26T10:38+00:00",
+   "t": "Pregnant US inmate escapes in prison vehicle after medical appointment",
+   "u": "https://www.bbc.co.uk/news/articles/c9m2jke85xzxo?at_medium=RSS&at_campaign=rss",
+   "d": "Rebecca Taylor had been imprisoned in New Mexico for multiple theft and burglary charges.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1b19/live/49e2b830-e995-11f1-9d1c-4dcc8fcde666.jpg",
+   "at": "2026-11-26T14:35+00:00",
    "where": [
     38.9,
     -77.04,
@@ -1232,11 +1231,11 @@
   {
    "src": "AFRICA",
    "lang": "en",
-   "t": "Has global jihadism failed, or is it simply changing shape?",
-   "u": "https://www.bbc.co.uk/news/articles/cmx2x4e0n5jro?at_medium=RSS&at_campaign=rss",
-   "d": "Jihadist groups appear to be focusing on local issues rather than global terror. Does it signify a real change?",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ae31/live/2d66b8d0-e8d9-11f1-99a1-253766e7ad8b.jpg",
-   "at": "2026-11-26T00:22+00:00",
+   "t": "Hope for millions as cheaper HIV prevention jab reaches Africa",
+   "u": "https://www.bbc.co.uk/news/articles/cmly7jve72r2o?at_medium=RSS&at_campaign=rss",
+   "d": "Lenacapavir, administered as an injection twice a year, is nearly 100% effective at preventing HIV infection.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7ec2/live/6c97c050-e986-11f1-b64a-3bc3040b00fe.jpg",
+   "at": "2026-11-26T11:00+00:00",
    "where": [
     5.0,
     20.0,
