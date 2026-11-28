@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-28T11:14+00:00",
+ "updated": "2026-11-28T12:10+00:00",
  "items": [
   {
    "src": "香港",
    "lang": "zh",
-   "t": "數字辦：已與康文署及外判承辦商開緊急會議 助查資料外洩成因",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879606-20261128.htm",
-   "d": "康文署SmartPLAY康體通早前被黑客非法入侵，涉及約9萬名用戶的個人資料。數字政策辦公室表示，星期四接獲康文署通報，已即時跟進提供技術意見，遏止事故擴大，並要求康文署深入調查及提交報告。 數字辦回覆查詢時表示，已經與康文署及其外判承辦商召開緊急會議，協助調查成因、提供保安建議，並要求全面檢查系統，確保其他功能未受波及，同時加強監控系統內可疑或異常活動。數字辦會繼續與康文署緊密聯繫提供技術支援，協助修復及堵塞漏洞，防止同類事故再發生。…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879606_1_M_20261128190443.jpg",
-   "at": "2026-11-28T11:04+00:00",
+   "t": "【重溫】2026年11月28日新聞天地",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879604-20261128.htm",
+   "d": "詳盡報道本地時事、大中華消息、國際局勢等新聞，緊貼最新熱話。",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879604_1_M_20261128194927.jpg",
+   "at": "2026-11-28T11:49+00:00",
    "where": [
     22.32,
     114.17,
@@ -18,10 +18,10 @@
   {
    "src": "國際",
    "lang": "zh",
-   "t": "台灣「九合一」選舉：投票結束 全台各地投票所隨即開票",
+   "t": "台灣九合一選舉：沈伯洋承認敗選 蔣萬安連任台北市長",
    "u": "https://www.bbc.com/zhongwen/live/c60evlqlpx32t/trad?at_medium=RSS&at_campaign=rss",
    "d": "台灣1965萬選民將票選縣市長、地方議員、鄉鎮村里長等將近1.11萬名公職人員，同時公投決定日後能源政策。",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/7a64/live/b45cee90-eadc-11f1-81da-2ff518b71d00.jpg",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/1060/live/4dee5110-eb24-11f1-99a1-253766e7ad8b.jpg",
    "at": "2026-11-28T00:00+00:00",
    "where": [
     23.7,
@@ -46,11 +46,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "港鐵稱東涌綫來往東涌及欣澳站服務今晚11時許提早完結",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879603-20261128.htm",
-   "d": "東涌綫來往東涌及欣澳站服務今晚約11時許提早完結。 港鐵提醒乘客，為配合東涌綫延綫第三次道岔、即波口的安裝工序，東涌綫東涌至欣澳站的列車服務將提前於晚上約11時結束。港鐵會安排免費接駁巴士往返兩個車站。至於欣澳站至香港站，以及機場快綫的列車服務則維持正常。 港鐵表示，由於接駁巴士車程較長，並會受路面情況影響，呼籲乘客預留充足時間乘車，乘客如需於欣澳搭港鐵往香港站方向，他們需乘搭凌晨零時18分前由東涌開出的接駁巴士班次；乘搭其他綫尾班車的…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879603_1_M_20261128181405.jpg",
-   "at": "2026-11-28T10:14+00:00",
+   "t": "神廿三和神廿四航天員完成在軌交接",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879609-20261128.htm",
+   "d": "中國空間站舉行航天員在軌交接儀式，神舟二十三號向神舟二十四號航天員移交中國空間站的鎖匙。 香港航天員黎家盈等三名航天員，將於近日搭乘飛船返回東風著陸場，神舟二十四號乘組特別為黎家盈和香港送上祝福。 編輯：詹可揚",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879609_1_M_20261128194351.jpg",
+   "at": "2026-11-28T11:43+00:00",
    "where": [
     22.32,
     114.17,
@@ -88,11 +88,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "建造業議會程式被未經授權存取 或涉50萬工人姓名及電話等資料",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879600-20261128.htm",
-   "d": "建造業議會表示，昨日偵測到「建造業議會應用程式（CIC APP）」伺服器出現可疑活動，並發現有未經授權人士存取個人資料。經初步調查，事件可能涉及約50萬註冊工人資料，包括姓名、出生日期、性別、電話號碼及身份證明文件號碼。事件並不涉及任何財務資料。 建造業議會表示，已啟動應變措施，以控制資訊保安事件的影響，包括即時暫停該應用程式運作、委聘獨立第三方網絡安全鑑證專家協助調查。議會對受影響人士造成的不便深表歉意，並再次呼籲用戶提高警覺。 議會…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879600_1_M_20261128165240.jpg",
-   "at": "2026-11-28T08:48+00:00",
+   "t": "勳銜頒授典禮 466人獲頒勳銜及嘉獎",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879610-20261128.htm",
+   "d": "行政長官李家超在禮賓府主持勳銜頒授典禮。 今年有466人獲頒勳銜及嘉獎，其中陳健波、劉遵義及林廣兆，獲頒最高榮譽的大紫荊勳章。而在大埔宏福苑火災殉職的消防隊目何偉豪，獲追授金英勇勳章。 編輯：詹可揚",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879610_1_M_20261128193746.jpg",
+   "at": "2026-11-28T11:41+00:00",
    "where": [
     22.32,
     114.17,
@@ -130,11 +130,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "孫東稱AI可被利用發現漏洞然後展開攻擊 政府和業界須研究應對",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879599-20261128.htm",
-   "d": "創新科技及工業局局長孫東表示，近日網絡攻擊非常嚴重，他說要堅持發展與安全並重，做好風險管理，而人工智能AI發展迅速，AI可被利用迅速發現各AI系統的問題及漏洞，然後展開攻擊，形容是面臨很大挑戰，政府和業界要共同努力，研究如何應對。 孫東出席一個活動致辭時表示，當局年底將公布「香港新型工業化中長期發展方案」。他說，本港去年統計的製造業佔比約為1%，稍後公布的結果將會是非常令人振奮的結果，認為過去數年的工作並無白費。 他說，香港要發展為國際…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879599_1_M_20261128164615.jpg",
-   "at": "2026-11-28T08:46+00:00",
+   "t": "蔡若蓮：洪水橋大學城三幅校園區用地均有院校感興趣",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879611-20261128.htm",
+   "d": "教育局局長蔡若蓮表示，洪水橋大學城三幅校園區用地，每幅均有院校感興趣，政府會綜合考慮院校的學術科研實力、發展計劃及財政能力。 她又預計，院校申請的貸款總額有機會超出政府預留的100億元，日後將因應實際需要爭取「加碼」。 編輯：詹可揚",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879611_1_M_20261128193528.jpg",
+   "at": "2026-11-28T11:35+00:00",
    "where": [
     22.32,
     114.17,
@@ -172,11 +172,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "蔡若蓮稱洪水橋大學城每幅用地均有院校有興趣 當局會綜合評估",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879597-20261128.htm",
-   "d": "洪水橋大學城3幅校園區用地申請將於下月底截止。教育局局長蔡若蓮表示，目前每幅用地均有院校有興趣，會綜合評估院校的發展計劃及財政能力，不會只考慮院校的財務安排。 蔡若蓮在一個電視節目表示，相信院校有不同的資金來源，財政會較穩定，例如除向政府借貸外，亦會有儲備、籌款、發債等。她又表示，即使有院校表明毋須借貸，當局亦會考慮其發展方案，包括實驗室、教學樓、宿舍等規劃是否符合發展目標，強調需要平衡財政狀況及發展計劃。 另外，施政報告提出「匯流升級…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879597_1_M_20261128155526.jpg",
-   "at": "2026-11-28T07:50+00:00",
+   "t": "孫東：政府業界要共同努力應對網絡攻擊挑戰",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879608-20261128.htm",
+   "d": "建造業議會通報應用程式伺服器被入侵，初步涉及約50萬註冊工人姓名及身份證號碼等外洩。 創新科技及工業局局長孫東出席一個活動致辭時表示，近日網絡攻擊非常嚴重，要堅持發展與安全並重，做好風險管理，政府和業界要共同努力應對挑戰。 編輯：詹可揚",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879608_1_M_20261128193159.jpg",
+   "at": "2026-11-28T11:31+00:00",
    "where": [
     22.32,
     114.17,
@@ -214,11 +214,11 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "屯門工廈棚網起火大致救熄 約200人疏散到安全地方",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879594-20261128.htm",
-   "d": "屯門建發里2號一幢工業大廈有外牆的棚網起火，火警已被大致救熄。消防灌救期間，有200人被疏散到安全地方。 火警發生在下午約2時。消防派出一條喉及一隊煙帽隊灌救。 編輯：陳樂謙",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879594_1_M_20261128153539.jpg",
-   "at": "2026-11-28T07:18+00:00",
+   "t": "數字辦：已與康文署及外判承辦商開緊急會議 助查資料外洩成因",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879606-20261128.htm",
+   "d": "康文署SmartPLAY康體通早前被黑客非法入侵，涉及約9萬名用戶的個人資料。數字政策辦公室表示，星期四接獲康文署通報，已即時跟進提供技術意見，遏止事故擴大，並要求康文署深入調查及提交報告。 數字辦回覆查詢時表示，已經與康文署及其外判承辦商召開緊急會議，協助調查成因、提供保安建議，並要求全面檢查系統，確保其他功能未受波及，同時加強監控系統內可疑或異常活動。數字辦會繼續與康文署緊密聯繫提供技術支援，協助修復及堵塞漏洞，防止同類事故再發生。…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879606_1_M_20261128190443.jpg",
+   "at": "2026-11-28T11:04+00:00",
    "where": [
     22.32,
     114.17,
@@ -256,10 +256,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "運輸署籲勿誤信虛假信息訛稱毋須證明便可申請免試簽發香港駕照",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879592-20261128.htm",
-   "d": "運輸署呼籲市民，切勿誤信社交媒體以毋須證明文件作招徠，訛稱可協助申請免試簽發香港正式駕駛執照的虛假信息，慎防受騙。署方指事件將轉交執法部門跟進。 運輸署發言人嚴正指出，署方與所謂中介沒有任何關係。署方一直嚴謹核實每宗免試簽發申請，嚴格把關，申請人不論親身或授權代理人遞交申請，均須完全符合相關法例要求，並提供真實準確的證明文件。署方如有懷疑，會聯絡有關領事館或運輸部門查證；運輸署與內地車輛管理所亦有恆常機制查核有懷疑的內地駕駛證。署方指，…",
-   "at": "2026-11-28T06:42+00:00",
+   "t": "港鐵稱東涌綫來往東涌及欣澳站服務今晚11時許提早完結",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879603-20261128.htm",
+   "d": "東涌綫來往東涌及欣澳站服務今晚約11時許提早完結。 港鐵提醒乘客，為配合東涌綫延綫第三次道岔、即波口的安裝工序，東涌綫東涌至欣澳站的列車服務將提前於晚上約11時結束。港鐵會安排免費接駁巴士往返兩個車站。至於欣澳站至香港站，以及機場快綫的列車服務則維持正常。 港鐵表示，由於接駁巴士車程較長，並會受路面情況影響，呼籲乘客預留充足時間乘車，乘客如需於欣澳搭港鐵往香港站方向，他們需乘搭凌晨零時18分前由東涌開出的接駁巴士班次；乘搭其他綫尾班車的…",
+   "at": "2026-11-28T10:14+00:00",
    "where": [
     22.32,
     114.17,
@@ -296,10 +296,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "屯門有工廈棚網起火 消防到場灌救",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879591-20261128.htm",
-   "d": "屯門建發里2號一幢工業大廈有棚網起火，暫時無人受傷。 火警發生在下午約2時。消防列作一級火，派出一條喉及一隊煙帽隊到場灌救。 編輯：陳樂謙",
-   "at": "2026-11-28T06:41+00:00",
+   "t": "建造業議會程式被未經授權存取 或涉50萬工人姓名及電話等資料",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879600-20261128.htm",
+   "d": "建造業議會表示，昨日偵測到「建造業議會應用程式（CIC APP）」伺服器出現可疑活動，並發現有未經授權人士存取個人資料。經初步調查，事件可能涉及約50萬註冊工人資料，包括姓名、出生日期、性別、電話號碼及身份證明文件號碼。事件並不涉及任何財務資料。 建造業議會表示，已啟動應變措施，以控制資訊保安事件的影響，包括即時暫停該應用程式運作、委聘獨立第三方網絡安全鑑證專家協助調查。議會對受影響人士造成的不便深表歉意，並再次呼籲用戶提高警覺。 議會…",
+   "at": "2026-11-28T08:48+00:00",
    "where": [
     22.32,
     114.17,
@@ -336,10 +336,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "數字辦指示各部門檢查涉及個人及敏感資料系統 確保防禦措施到位",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879590-20261128.htm",
-   "d": "針對近期出現利用AI攻擊網上系統，數字辦表示高度關注。 數字辦在社交網站表示，已採取一系列加強措施，包括已指示各部門優先檢查涉及個人及敏感資料的重要系統、重申各部門與其承辦商須切實履行其網絡安全責任，確保防禦措施到位，和強化事故通報機制，務求第一時間向數字辦報告並即時作出應對。 數字辦表示，將全力提供支援，與各部門及承辦商緊密協作，全方位守護政府系統與數據安全。 編輯：汪溟曦",
-   "at": "2026-11-28T06:08+00:00",
+   "t": "孫東稱AI可被利用發現漏洞然後展開攻擊 政府和業界須研究應對",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879599-20261128.htm",
+   "d": "創新科技及工業局局長孫東表示，近日網絡攻擊非常嚴重，他說要堅持發展與安全並重，做好風險管理，而人工智能AI發展迅速，AI可被利用迅速發現各AI系統的問題及漏洞，然後展開攻擊，形容是面臨很大挑戰，政府和業界要共同努力，研究如何應對。 孫東出席一個活動致辭時表示，當局年底將公布「香港新型工業化中長期發展方案」。他說，本港去年統計的製造業佔比約為1%，稍後公布的結果將會是非常令人振奮的結果，認為過去數年的工作並無白費。 他說，香港要發展為國際…",
+   "at": "2026-11-28T08:46+00:00",
    "where": [
     22.32,
     114.17,
@@ -363,10 +363,10 @@
   {
    "src": "香港",
    "lang": "zh",
-   "t": "公屋綜合輪候時間4.4年屬10年新低 黃偉綸稱對供應有信心",
-   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879582-20261128.htm",
-   "d": "當局成立「公營房屋樓宇管制組」取代原有的「獨立審查組」（ICU）。署理財政司司長兼署理房屋局局長黃偉綸在一個電台節目表示，管制組已於本周一開始運作，共有300個人手，當中一半處理現有樓宇，其餘的跟進新興建的樓宇。他說，有別以往的審查組，新的管制組是以項目為基礎，作出宏觀並從服務的角度處理項目，同時有溝通專員作出解說。 另外，最新公屋綜合輪候時間為4.4年，是過去十年新低。黃偉綸指出，今個財政年度仍有兩個季度，因此政府未有作出「提前達標」…",
-   "at": "2026-11-28T03:14+00:00",
+   "t": "蔡若蓮稱洪水橋大學城每幅用地均有院校有興趣 當局會綜合評估",
+   "u": "https://news.rthk.hk/rthk/ch/component/k2/1879597-20261128.htm",
+   "d": "洪水橋大學城3幅校園區用地申請將於下月底截止。教育局局長蔡若蓮表示，目前每幅用地均有院校有興趣，會綜合評估院校的發展計劃及財政能力，不會只考慮院校的財務安排。 蔡若蓮在一個電視節目表示，相信院校有不同的資金來源，財政會較穩定，例如除向政府借貸外，亦會有儲備、籌款、發債等。她又表示，即使有院校表明毋須借貸，當局亦會考慮其發展方案，包括實驗室、教學樓、宿舍等規劃是否符合發展目標，強調需要平衡財政狀況及發展計劃。 另外，施政報告提出「匯流升級…",
+   "at": "2026-11-28T07:50+00:00",
    "where": [
     22.32,
     114.17,
@@ -390,15 +390,15 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Europe keen to learn from HK digital finance policies",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879587-20261128.htm",
-   "d": "The European Union is keen to learn from Hong Kong's policies and regulations on tokenisation, Secretary for Financial Services and the Treasury Christopher Hui said following his four-day trip to Germany, Belgium and Lu…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879587_1_M_20261128134017.jpg",
-   "at": "2026-11-28T09:10+00:00",
+   "t": "App breach may expose 500,000 construction workers",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879607-20261128.htm",
+   "d": "The personal data of some 500,000 registered construction workers was potentially exposed on Saturday after unauthorized access was discovered on the Construction Industry Council (CIC) app server. The information that m…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879607_1_M_20261128191332.jpg",
+   "at": "2026-11-28T11:13+00:00",
    "where": [
-    50.0,
-    10.0,
-    "歐洲"
+    22.32,
+    114.17,
+    "香港"
    ]
   },
   {
@@ -502,15 +502,15 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "200 flee building scaffolding fire in Tuen Mun",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879595-20261128.htm",
-   "d": "A scaffolding net caught fire on the exterior wall of an industrial building in Tuen Mun on Saturday afternoon, forcing about 200 people to evacuate. The Fire Services Department said the blaze started at around 2pm at t…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879595_1_M_20261128152951.jpg",
-   "at": "2026-11-28T08:49+00:00",
+   "t": "Europe keen to learn from HK digital finance policies",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879587-20261128.htm",
+   "d": "The European Union is keen to learn from Hong Kong's policies and regulations on tokenisation, Secretary for Financial Services and the Treasury Christopher Hui said following his four-day trip to Germany, Belgium and Lu…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879587_1_M_20261128134017.jpg",
+   "at": "2026-11-28T09:10+00:00",
    "where": [
-    22.32,
-    114.17,
-    "香港"
+    50.0,
+    10.0,
+    "歐洲"
    ]
   },
   {
@@ -614,11 +614,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Gold Medal for Bravery for fallen firefighter",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879596-20261128.htm",
-   "d": "Senior fireman Ho Wai-ho, who died in the Wang Fuk Court blaze last November, was awarded the Gold Medal for Bravery as Chief Executive John Lee presented this year's honours at Government House on Saturday. Ho's brother…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879596_1_M_20261128153713.jpg",
-   "at": "2026-11-28T08:18+00:00",
+   "t": "200 flee building scaffolding fire in Tuen Mun",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879595-20261128.htm",
+   "d": "A scaffolding net caught fire on the exterior wall of an industrial building in Tuen Mun on Saturday afternoon, forcing about 200 people to evacuate. The Fire Services Department said the blaze started at around 2pm at t…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879595_1_M_20261128152951.jpg",
+   "at": "2026-11-28T08:49+00:00",
    "where": [
     22.32,
     114.17,
@@ -726,11 +726,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Tech networking 'key in Hung Shui Kiu university race'",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879586-20261128.htm",
-   "d": "Secretary for Education Christine Choi said she hopes the university town in Hung Shui Kiu will foster collaboration across disciplines, industries and institutions. Speaking on a television programme on Saturday, she sa…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879586_1_M_20261128130848.jpg",
-   "at": "2026-11-28T07:37+00:00",
+   "t": "Gold Medal for Bravery for fallen firefighter",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879596-20261128.htm",
+   "d": "Senior fireman Ho Wai-ho, who died in the Wang Fuk Court blaze last November, was awarded the Gold Medal for Bravery as Chief Executive John Lee presented this year's honours at Government House on Saturday. Ho's brother…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879596_1_M_20261128153713.jpg",
+   "at": "2026-11-28T08:18+00:00",
    "where": [
     22.32,
     114.17,
@@ -838,11 +838,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "'Decision on Wang Fuk site's future may take years'",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879584-20261128.htm",
-   "d": "Acting Housing Secretary Michael Wong on Saturday said the long-term future of the Wang Fuk Court site could take years to finalise. Wong, who is also the deputy financial secretary, was speaking on Commercial Radio, two…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879584_1_M_20261128113838.jpg",
-   "at": "2026-11-28T05:11+00:00",
+   "t": "Tech networking 'key in Hung Shui Kiu university race'",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879586-20261128.htm",
+   "d": "Secretary for Education Christine Choi said she hopes the university town in Hung Shui Kiu will foster collaboration across disciplines, industries and institutions. Speaking on a television programme on Saturday, she sa…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879586_1_M_20261128130848.jpg",
+   "at": "2026-11-28T07:37+00:00",
    "where": [
     22.32,
     114.17,
@@ -950,11 +950,11 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Race to pave way for smooth run as Route 6 fully opens",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879579-20261128.htm",
-   "d": "Transport officials are stepping up signage and driver guidance to help motorists adapt to the new road layout ahead of Route 6's full opening on December 6. The Central Kowloon Bypass will open to traffic at 7 am that d…",
-   "img": "https://newsstatic.rthk.hk/images/mfile_1879579_1_M_20261128103915.jpg",
-   "at": "2026-11-28T03:20+00:00",
+   "t": "'Decision on Wang Fuk site's future may take years'",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879584-20261128.htm",
+   "d": "Acting Housing Secretary Michael Wong on Saturday said the long-term future of the Wang Fuk Court site could take years to finalise. Wong, who is also the deputy financial secretary, was speaking on Commercial Radio, two…",
+   "img": "https://newsstatic.rthk.hk/images/mfile_1879584_1_M_20261128113838.jpg",
+   "at": "2026-11-28T05:11+00:00",
    "where": [
     22.32,
     114.17,
@@ -1057,10 +1057,10 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "Personal data of 7,500 Octopus users leaked",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879534-20261127.htm",
-   "d": "Some 7,500 Octopus users have had their personal data leaked following a cyberattack, the company has said, though it stressed that it has not detected any financial loss by customers. In a statement, the operator of the…",
-   "at": "2026-11-27T13:53+00:00",
+   "t": "Race to pave way for smooth run as Route 6 fully opens",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879579-20261128.htm",
+   "d": "Transport officials are stepping up signage and driver guidance to help motorists adapt to the new road layout ahead of Route 6's full opening on December 6. The Central Kowloon Bypass will open to traffic at 7 am that d…",
+   "at": "2026-11-28T03:20+00:00",
    "where": [
     22.32,
     114.17,
@@ -1168,10 +1168,10 @@
   {
    "src": "HONG KONG",
    "lang": "en",
-   "t": "90,000 users compromised in SmartPLAY data breach",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879523-20261127.htm",
-   "d": "Around 90,000 users of the government's SmartPLAY booking system for public sports and recreational facilities were involved in a data breach, according to the Office of the Privacy Commissioner for Personal Data (PCPD).…",
-   "at": "2026-11-27T11:05+00:00",
+   "t": "Personal data of 7,500 Octopus users leaked",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879534-20261127.htm",
+   "d": "Some 7,500 Octopus users have had their personal data leaked following a cyberattack, the company has said, though it stressed that it has not detected any financial loss by customers. In a statement, the operator of the…",
+   "at": "2026-11-27T13:53+00:00",
    "where": [
     22.32,
     114.17,
@@ -1181,11 +1181,11 @@
   {
    "src": "UK",
    "lang": "en",
-   "t": "Stalker who moved house to be closer to his victim is jailed",
-   "u": "https://www.bbc.co.uk/news/articles/cmj4rw9evznpo?at_medium=RSS&at_campaign=rss",
-   "d": "Hamza El-Hay once waited outside a house for almost eight hours while his victim was inside.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/03bc/live/628f31e0-e9b5-11f1-8d2a-f5d2aabc11cb.jpg",
-   "at": "2026-11-28T09:52+00:00",
+   "t": "RAF apologises after jets flown low over Lockerbie near bombing anniversary",
+   "u": "https://www.bbc.co.uk/news/articles/cq0l3k1xl47go?at_medium=RSS&at_campaign=rss",
+   "d": "A Pan-Am jumbo jet came down over the south Scotland town in December 1988, killing 270.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/5552/live/03d3dc20-eb16-11f1-90b9-a9d17de9c0bd.jpg",
+   "at": "2026-11-28T10:20+00:00",
    "where": [
     52.5,
     -1.5,
@@ -1251,6 +1251,33 @@
   {
    "src": "HONG KONG",
    "lang": "en",
+   "t": "90,000 users compromised in SmartPLAY data breach",
+   "u": "https://news.rthk.hk/rthk/en/component/k2/1879523-20261127.htm",
+   "d": "Around 90,000 users of the government's SmartPLAY booking system for public sports and recreational facilities were involved in a data breach, according to the Office of the Privacy Commissioner for Personal Data (PCPD).…",
+   "at": "2026-11-27T11:05+00:00",
+   "where": [
+    22.32,
+    114.17,
+    "香港"
+   ]
+  },
+  {
+   "src": "UK",
+   "lang": "en",
+   "t": "Stalker who moved house to be closer to his victim is jailed",
+   "u": "https://www.bbc.co.uk/news/articles/cmj4rw9evznpo?at_medium=RSS&at_campaign=rss",
+   "d": "Hamza El-Hay once waited outside a house for almost eight hours while his victim was inside.",
+   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/03bc/live/628f31e0-e9b5-11f1-8d2a-f5d2aabc11cb.jpg",
+   "at": "2026-11-28T09:52+00:00",
+   "where": [
+    52.5,
+    -1.5,
+    "英國"
+   ]
+  },
+  {
+   "src": "HONG KONG",
+   "lang": "en",
    "t": "InnoParks veteran to lead Hung Shui Kiu Park",
    "u": "https://news.rthk.hk/rthk/en/component/k2/1879510-20261127.htm",
    "d": "The Hung Shui Kiu Industry Park Company has appointed Yiu Hing-leung as its first chief executive for a three-year term starting December 1. His appointment followed an open recruitment process and received the approval …",
@@ -1269,33 +1296,6 @@
    "d": "There has been a backlash against new interviews with the disgraced former BBC News presenter.",
    "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/d51b/live/6e67b490-ea66-11f1-a828-d384c0290f6b.jpg",
    "at": "2026-11-27T14:33+00:00",
-   "where": [
-    52.5,
-    -1.5,
-    "英國"
-   ]
-  },
-  {
-   "src": "HONG KONG",
-   "lang": "en",
-   "t": "Abby Choi murder was carefully planned, court hears",
-   "u": "https://news.rthk.hk/rthk/en/component/k2/1879501-20261127.htm",
-   "d": "The murder of celebrity Abby Choi had been carefully planned and the killing stemmed from a financial dispute over a luxury apartment, the High Court heard on Friday. In her closing submissions, senior counsel Charlotte …",
-   "at": "2026-11-27T08:42+00:00",
-   "where": [
-    22.32,
-    114.17,
-    "香港"
-   ]
-  },
-  {
-   "src": "UK",
-   "lang": "en",
-   "t": "'Cowardly monster' blackmailed girls to self-harm",
-   "u": "https://www.bbc.co.uk/news/articles/c3pw4ypkldpzo?at_medium=RSS&at_campaign=rss",
-   "d": "Beau-Jack Mensforth is jailed for preying on nine girls, the youngest aged 12, across the world.",
-   "img": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/ca25/live/3f50b590-ea60-11f1-a094-5fdc692f3e33.jpg",
-   "at": "2026-11-27T17:47+00:00",
    "where": [
     52.5,
     -1.5,
